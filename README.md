@@ -39,34 +39,23 @@ This project aims to develop a biomedical question-answering system that:
 
 1. **Clone the Repository:**
 
+```
 git clone https://github.com/minghao-sun-sc/privacy-preserving-biomedical-qa.git
 cd privacy-preserving-biomedical-qa
-
+```
 
 
 2. **Create a Virtual Environment:**
+```
 python -m venv venv
 source venv/bin/activate # On Windows, use "venv\Scripts\activate"
-
+```
 
 
 3. **Install Dependencies:**
+```
 pip install -r requirements.txt
-
-
-
-4. **Start Coding:**
-- Explore the `src/` directory for modules related to retrieval, generation, and privacy.
-- Check the `notebooks/` directory for initial experiments and data processing scripts.
-- Refer to the documentation in `docs/` for additional information.
-
-## Contribution Guidelines
-
-- Fork the repository.
-- Create a new branch (`git checkout -b feature/your-feature`).
-- Commit your changes (`git commit -am "Add new feature"`).
-- Push to the branch (`git push origin feature/your-feature`).
-- Create a new Pull Request.
+```
 
 ## License
 
