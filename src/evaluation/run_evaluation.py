@@ -146,6 +146,39 @@ def run_evaluation(args):
     logger.info(f"Results saved to {results_path}")
     logger.info(f"Metrics saved to {metrics_path}")
 
+def run_full_evaluation(api_url, output_dir):
+    """Run comprehensive evaluation of the biomedical QA system"""
+    
+    # Initialize evaluators
+    accuracy_eval = AccuracyEvaluator(api_url=api_url, output_dir=output_dir)
+    privacy_eval = PrivacyEvaluator(api_url=api_url, output_dir=output_dir)
+    
+    # Run standard evaluation
+    standard_results = accuracy_eval.evaluate()
+    
+    # Run BioASQ benchmark evaluation
+    bioasq_results = accuracy_eval.evaluate_with_bioasq()
+    
+    # Run privacy evaluation
+    privacy_results = privacy_eval.evaluate_targeted_attacks()
+    untargeted_results = privacy_eval.evaluate_untargeted_attacks()
+    
+    # Compile overall results
+    overall_results = {
+        "standard_evaluation": standard_results,
+        "bioasq_benchmark": bioasq_results,
+        "privacy_evaluation": {
+            "targeted_attacks": privacy_results,
+            "untargeted_attacks": untargeted_results
+        }
+    }
+    
+    # Save overall results
+    with open(os.path.join(output_dir, "complete_evaluation_results.json"), "w") as f:
+        json.dump(overall_results, f, indent=2)
+    
+    return overall_results
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate the biomedical QA system")
     parser.add_argument("--benchmark_path", type=str, default="data/benchmarks/medqa_sample.json",
