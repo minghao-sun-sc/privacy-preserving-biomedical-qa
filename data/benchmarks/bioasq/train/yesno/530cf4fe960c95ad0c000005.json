@@ -1,0 +1,68 @@
+{
+  "id": "530cf4fe960c95ad0c000005",
+  "type": "yesno",
+  "question": "Is the ACE inhibitor indicated for lung cancer treatment?",
+  "ideal_answer": "No, the angiotensin converting enzyme (ACE) inhibitors are used widely as antihypertensive agents. On the contrary, it has been suggested that they decrease the risk of some cancers, although available data are conflicting. One study proposes that captopril could be a promising option for the treatment of lung cancer. Furthermore, angiotensin-converting enzyme (ACE) inhibitors have been shown to mitigate radiation-induced lung injury in preclinical models",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18837885",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22300564"
+  ],
+  "snippets": [
+    {
+      "text": "The angiotensin converting enzyme (ACE) inhibitors are used widely as antihypertensive agents, and it has been suggested that they decrease the risk of some cancers, although available data are conflicting. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18837885",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using cell viability and fluorescent activated cell sorting analysis tests, we demonstrated that captopril inhibited the viability of LNM35 cells by inducing apoptosis, providing insight about the mechanisms underlying its antitumorigenic activities. In view of these experimental findings, we conclude that captopril could be a promising option for the treatment of lung cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18837885",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In order to determine the mechanism by which captopril inhibited tumor growth, we investigated the impact of this drug on cell proliferation, apoptosis, and angiogenesis. Immunohistochemical analysis demonstrated that captopril treatment significantly reduced the number of proliferating cells (Ki-67) in the tumor samples but was not associated with inhibition of tumor angiogenesis (CD31).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18837885",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using this model, we demonstrated that daily IP administration of captopril (2.8 mg/mouse) for 3 weeks resulted in a remarkable reduction of tumor growth (58%, P < 0.01) and lymph node metastasis (50%, P= 0.088). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18837885",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Angiotensin-converting enzyme (ACE) inhibitors have been shown to mitigate radiation-induced lung injury in preclinical models",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22300564",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ACE inhibitors may decrease the incidence of radiation pneumonitis in patients receiving thoracic radiation for lung cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22300564",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/ACE_MOUSE",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009369",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008168",
+    "http://www.uniprot.org/uniprot/ACE_THETS",
+    "http://www.uniprot.org/uniprot/ACE_HUMAN",
+    "http://www.disease-ontology.org/api/metadata/DOID:3683",
+    "http://www.uniprot.org/uniprot/ACE_CHICK",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000806",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008175",
+    "http://www.disease-ontology.org/api/metadata/DOID:850",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008171",
+    "http://www.uniprot.org/uniprot/ACE_BOVIN",
+    "http://www.disease-ontology.org/api/metadata/DOID:162",
+    "http://www.uniprot.org/uniprot/ACE_HAEIX",
+    "http://www.uniprot.org/uniprot/ACE_RABIT",
+    "http://www.uniprot.org/uniprot/ACE_RAT",
+    "http://www.disease-ontology.org/api/metadata/DOID:1324"
+  ],
+  "exact_answer": "Yes"
+}

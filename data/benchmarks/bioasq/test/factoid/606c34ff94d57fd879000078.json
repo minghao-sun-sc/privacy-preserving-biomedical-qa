@@ -1,0 +1,19 @@
+{
+  "id": "606c34ff94d57fd879000078",
+  "type": "factoid",
+  "question": "What methodology does the HercepTest use?",
+  "ideal_answer": "The HercepTest is immunohistochemistry based.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32256703"
+  ],
+  "snippets": [
+    {
+      "text": " The expression of HER2 was determined by immunohistochemistry (IHC) using DAKO-HercepTest\u2122 and gene amplification with DuoCISH using a DAKO-DuoCISH kit. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32256703",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "immunohistochemistry, ICH"
+}

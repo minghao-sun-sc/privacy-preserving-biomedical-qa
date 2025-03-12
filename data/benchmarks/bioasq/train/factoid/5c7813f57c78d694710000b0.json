@@ -1,0 +1,33 @@
+{
+  "id": "5c7813f57c78d694710000b0",
+  "type": "factoid",
+  "question": "How does the Cholera toxin enter a cell?",
+  "ideal_answer": "Cholera toxin (CT), which is secreted by V. cholerae, can enter host cells by binding to GM1, a monosialoganglioside widely distributed on the plasma membrane surface of various animal epithelial cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26405107",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27914621",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26478842"
+  ],
+  "snippets": [
+    {
+      "text": "Cholera toxin (CT), which is secreted by V. cholerae, can enter host cells by binding to GM1, a monosialoganglioside widely distributed on the plasma membrane surface of various animal epithelial cells. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26405107",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The five B-subunits (CTB5) of the Vibrio cholerae (cholera) toxin can bind to the intestinal cell surface so the entire AB5 toxin can enter the cell. Simultaneous binding can occur on more than one of the monosialotetrahexosylganglioside (GM1) units present on the cell surface. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26478842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we test the role of glycolipid crosslinking as a raft targeting and ordering mechanism using the well-studied raft marker cholera toxin B pentamer (CTxB) that binds up to five GM1 glycosphingolipids to enter host cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27914621",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Cholera toxin (CT) can enter host cells by binding to GM1, a monosialoganglioside widely distributed on the plasma membrane surface of various animal epithelial cells."
+}

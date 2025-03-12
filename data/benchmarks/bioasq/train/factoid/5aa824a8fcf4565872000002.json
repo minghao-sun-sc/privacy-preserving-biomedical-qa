@@ -1,0 +1,40 @@
+{
+  "id": "5aa824a8fcf4565872000002",
+  "type": "factoid",
+  "question": "What is the drug Tecfidera used against?",
+  "ideal_answer": "Tecifidera is approved for the treatment of relapsing-remitting multiple sclerosis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24588595",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26195059",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24259625",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27226838"
+  ],
+  "snippets": [
+    {
+      "text": "Dimethyl fumarate (Tecfidera\u2122) is an effective therapy for relapsing forms of multiple sclerosis (MS).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26195059",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "dimethyl fumarate (Tecfidera(\u00ae)) for multiple sclerosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27226838",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Tecifidera is approved for the treatment of relapsing-remitting multiple sclerosis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24588595",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dimethyl fumarate (Tecfidera): a new oral agent for multiple sclerosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24259625",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Tecifidera is approved for the treatment of relapsing-remitting multiple sclerosis"
+}

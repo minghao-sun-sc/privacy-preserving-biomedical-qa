@@ -1,0 +1,55 @@
+{
+  "id": "587e0116ae05ffb474000002",
+  "type": "factoid",
+  "question": "Which tool is available for predicting regulatory interactions from ChIP-seq data?",
+  "ideal_answer": "CisMapper predicts the regulatory targets of a TF using the correlation between a histone mark at the TF's bound sites and the expression of each gene across a panel of tissues. CisMapper is more accurate at predicting the target genes of a TF than the distance-based approaches currently used, and is particularly advantageous for predicting the long-range regulatory interactions typical of tissue-specific gene expression. CisMapper also predicts which TF binding sites regulate a given gene more accurately than using genomic distance. Unlike distance-based methods, CisMapper can predict which transcription start site of a gene is regulated by a particular binding site of the TF.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27924029"
+  ],
+  "snippets": [
+    {
+      "text": "CisMapper: predicting regulatory interactions from transcription factor ChIP-seq data",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27924029",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present CisMapper, which predicts the regulatory targets of a TF using the correlation between a histone mark at the TF's bound sites and the expression of each gene across a panel of tissues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27924029",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using both chromatin conformation capture and differential expression data, we show that CisMapper is more accurate at predicting the target genes of a TF than the distance-based approaches currently used, and is particularly advantageous for predicting the long-range regulatory interactions typical of tissue-specific gene expression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27924029",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " CisMapper also predicts which TF binding sites regulate a given gene more accurately than using genomic distance. Unlike distance-based methods, CisMapper can predict which transcription start site of a gene is regulated by a particular binding site of the TF",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27924029",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CisMapper: predicting regulatory interactions from transcription factor ChIP-seq data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27924029",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "CisMapper: predicting regulatory interactions from transcription factor ChIP-seq data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27924029",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Using both chromatin conformation capture and differential expression data, we show that CisMapper is more accurate at predicting the target genes of a TF than the distance-based approaches currently used, and is particularly advantageous for predicting the long-range regulatory interactions typical of tissue-specific gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27924029",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CisMapper"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "5314bd7ddae131f847000006",
+  "type": "factoid",
+  "question": "Which hormone receptor function is altered in patients with Donohue syndrome?",
+  "ideal_answer": "Donohue syndrome (leprechaunism) is a rare, recessively inherited disorder of extreme insulin resistance due to mutations in the insulin receptor gene causing either defects in insulin binding or receptor autophosphorylation and tyrosine kinase activity. This syndrome is characterized by excessive hyperglycemia with hyperinsulinism, pre- and postnatal growth retardation, distinct dysmorphism and early death. Progressive obstructive cardiomyopathy and renal tubular dysfunction have been described in patients with Donohue syndrome. Milder form of insulin resistance due to insulin receptor gene mutation is coined as Rabson-Mendenhall syndrome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22972224",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24498630",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23229189",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19774849",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17201797",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19882513",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23990696",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18411068",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22768670",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23824322",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21092701"
+  ],
+  "snippets": [
+    {
+      "text": "This disease is caused by a defective insulin receptor and features abnormal glucose metabolism and retarded intrauterine and postnatal growth.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23990696",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Biallelic insulin receptor (INSR) gene mutations cause congenital syndromes of severe insulin resistance (SIR) known as Donohue syndrome (DS) and Rabson-Mendenhall syndrome (RMS). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23824322",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Severe progressive obstructive cardiomyopathy and renal tubular dysfunction in Donohue syndrome with decreased insulin receptor autophosphorylation due to a novel INSR mutation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23229189",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Donohue syndrome (leprechaunism; OMIM *246200) is a rare, recessively inherited disorder of extreme insulin resistance due to mutations in the insulin receptor gene (INSR) causing either defects in insulin binding or receptor autophosphorylation and tyrosine kinase activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23229189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Leprechaunism (Donohue syndrome): a case bearing novel compound heterozygous mutations in the insulin receptor gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22972224",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Leprechaunism (Donohue syndrome) is the most severe type of insulin receptor (INSR) gene anomaly with the majority of patients surviving for only 2 years.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22972224",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A novel mutation of the insulin receptor gene in a preterm infant with Donohue syndrome and heart failure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22768670",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Donohue syndrome (DS) is a rare autosomal recessive condition caused by mutations in the gene encoding the insulin receptor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22768670",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Any dysfunction of insulin signalling pathway as a result of insulin receptor gene mutations is linked with various forms of insulin resistance, including insulin resistance type A, Donohue or Rabson-Mendenhall syndrome, which differ in the level of severity. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21092701",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Donohue syndrome in a neonate with homozygous deletion of exon 3 of the insulin receptor gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19774849",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Donohue syndrome describes the clinical consequences of the most severe genetic loss of insulin receptor function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19774849",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Homozygous or compound heterozygous mutations within the insulin binding domain of the human insulin receptor (INSR) are usually associated with severe impairment of insulin binding leading to Donohue syndrome (\"Leprechaunism\"), which is characterized by excessive hyperglycemia with hyperinsulinism, pre- and postnatal growth retardation, distinct dysmorphism and early death. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18411068",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The former mutation has been described in homozygous form in Donohue syndrome, while the latter is novel. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17201797",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:0050470",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056731",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018000",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0051427",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0051428",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006728"
+  ],
+  "exact_answer": "insulin receptor"
+}

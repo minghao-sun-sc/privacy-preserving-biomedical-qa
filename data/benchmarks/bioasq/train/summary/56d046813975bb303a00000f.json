@@ -1,0 +1,52 @@
+{
+  "id": "56d046813975bb303a00000f",
+  "type": "summary",
+  "question": "What is the effect of dovitinib on the cell cycle?",
+  "ideal_answer": "Dovitinib triggers a G2 /M arrest. It promotes a delay in mitotic exit in a subset of cells, causing the cells to undergo mitotic slippage. Higher concentrations of Dovitinib induce a G2 arrest similar to the G2 DNA damage checkpoint.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22027573",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21521775",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24238094"
+  ],
+  "snippets": [
+    {
+      "text": "Dovitinib triggered a G2 /M arrest in cancer cell lines from diverse origins including HeLa, nasopharyngeal carcinoma, and hepatocellular carcinoma. Single-cell analysis revealed that Dovitinib promoted a delay in mitotic exit in a subset of cells, causing the cells to undergo mitotic slippage. Higher concentrations of Dovitinib induced a G2 arrest similar to the G2 DNA damage checkpoint. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24238094",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, Dovitinib-mediated G2 cell cycle arrest and subsequent cell death could be promoted after DNA damage repair was disrupted by inhibitors of poly(ADP-ribose) polymerases. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24238094",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Treatment of SK-HEP1 cells with dovitinib resulted in G2/M cell cycle arrest, inhibition of colony formation in soft agar and blockade of bFGF-induced cell migration.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22027573",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, Dovitinib-mediated G2 cell cycle arrest and subsequent cell death could be promoted after DNA damage repair was disrupted by inhibitors of poly(ADP-ribose) polymerases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24238094",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Inhibition of FGFR3 with dovitinib decreased cell survival, increased apoptosis, and induced cell cycle arrest. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21521775",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS: Treatment of SK-HEP1 cells with dovitinib resulted in G2/M cell cycle arrest, inhibition of colony formation in soft agar and blockade of bFGF-induced cell migration. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22027573",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0007050"
+  ]
+}

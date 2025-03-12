@@ -1,0 +1,37 @@
+{
+  "id": "5c5207377e3cb0e231000002",
+  "type": "summary",
+  "question": "What is the 3D genome browser?",
+  "ideal_answer": "The 3D Genome Browser, http://3dgenome.org, allows users to conveniently explore both their own and over 300 publicly available chromatin interaction data of different types. The browser provides multiple methods linking distal cis-regulatory elements with their potential target genes. Users can seamlessly integrate thousands of other omics data to gain a comprehensive view of both regulatory landscape and 3D genome structure.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30286773",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25990738"
+  ],
+  "snippets": [
+    {
+      "text": "The 3D Genome Browser: a web-based browser for visualizing 3D genome organization and long-range chromatin interactions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30286773",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we introduce the 3D Genome Browser, http://3dgenome.org , which allows users to conveniently explore both their own and over 300 publicly available chromatin interaction data of different types. We design a new binary data format for Hi-C data that reduces the file size by at least a magnitude and allows users to visualize chromatin interactions over millions of base pairs within seconds. Our browser provides multiple methods linking distal cis-regulatory elements with their potential target genes. Users can seamlessly integrate thousands of other omics data to gain a comprehensive view of both regulatory landscape and 3D genome structure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30286773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We introduce simultaneously a database system to store and query 3D genomic data (3DBG), and a 3D genome browser to visualize and explore 3D genome structures (3DGB).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25990738",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we introduce the 3D Genome Browser, http://3dgenome.org , which allows users to conveniently explore both their own and over 300 publicly available chromatin interaction data of different types.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30286773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

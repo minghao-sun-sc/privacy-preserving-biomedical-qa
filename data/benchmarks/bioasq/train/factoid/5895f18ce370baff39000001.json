@@ -1,0 +1,33 @@
+{
+  "id": "5895f18ce370baff39000001",
+  "type": "factoid",
+  "question": "Which method is used for prediction of novel microRNA genes in cancer-associated genomic regions?",
+  "ideal_answer": "SSCprofiler is a computational tool utilizing a probabilistic method based on Profile Hidden Markov Models to predict novel miRNA precursors. Via the simultaneous integration of biological features such as sequence, structure and conservation, SSCprofiler achieves a performance accuracy of 88.95% sensitivity and 84.16% specificity on a large set of human miRNA genes. The trained classifier is used to identify novel miRNA gene candidates located within cancer-associated genomic regions and rank the resulting predictions using expression information from a full genome tiling array. SSCprofiler is freely available as a web service at http://www.imbb.forth.gr/SSCprofiler.html.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19324892"
+  ],
+  "snippets": [
+    {
+      "text": " In this work we present a new computational tool (SSCprofiler) utilizing a probabilistic method based on Profile Hidden Markov Models to predict novel miRNA precursors. Via the simultaneous integration of biological features such as sequence, structure and conservation, SSCprofiler achieves a performance accuracy of 88.95% sensitivity and 84.16% specificity on a large set of human miRNA genes. The trained classifier is used to identify novel miRNA gene candidates located within cancer-associated genomic regions and rank the resulting predictions using expression information from a full genome tiling array. Finally, four of the top scoring predictions are verified experimentally using northern blot analysis. Our work combines both analytical and experimental techniques to show that SSCprofiler is a highly accurate tool which can be used to identify novel miRNA gene candidates in the human genome. SSCprofiler is freely available as a web service at http://www.imbb.forth.gr/SSCprofiler.html.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19324892",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this work we present a new computational tool (SSCprofiler) utilizing a probabilistic method based on Profile Hidden Markov Models to predict novel miRNA precursors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19324892",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our work combines both analytical and experimental techniques to show that SSCprofiler is a highly accurate tool which can be used to identify novel miRNA gene candidates in the human genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19324892",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D035683"
+  ],
+  "exact_answer": "SSCprofiler"
+}

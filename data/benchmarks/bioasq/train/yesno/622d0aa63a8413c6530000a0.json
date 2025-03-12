@@ -1,0 +1,47 @@
+{
+  "id": "622d0aa63a8413c6530000a0",
+  "type": "yesno",
+  "question": "Is ASF1 phopshorylated by  the Tousled-like kinases?",
+  "ideal_answer": "Yes,\nAsf1, a key histone H3-H4 chaperone required for this process, is phosphorylated by Tousled-like kinases (TLKs).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23946870",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24598821",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23869254",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20222959",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32755577"
+  ],
+  "snippets": [
+    {
+      "text": "Asf1, a key histone H3-H4 chaperone required for this process, is phosphorylated by Tousled-like kinases (TLKs). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24598821",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Tousled-like kinases 1 and 2 (TLK1/2) control histone deposition through the ASF1 histone chaperone",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32755577",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Tousled-like kinases (TLKs) are involved in chromatin assembly, DNA repair, and transcription. Two TLK genes exist in humans, and their expression is often dysregulated in cancer. TLKs phosphorylate Asf1 ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23946870",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TLKs interact specifically (and phosphorylate) with the chromatin assembly factor Asf1, a histone H3-H4 chaperone",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23869254",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TLK1 substrates were identified as the histone H3 and Asf1 (a histone H3/H4 chaperone)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20222959",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

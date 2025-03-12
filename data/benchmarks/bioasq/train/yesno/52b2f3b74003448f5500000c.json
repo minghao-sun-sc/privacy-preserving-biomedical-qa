@@ -1,0 +1,87 @@
+{
+  "id": "52b2f3b74003448f5500000c",
+  "type": "yesno",
+  "question": "Is there a relationship between junctin and ryanodine receptors?",
+  "ideal_answer": "Yes, junctin binds to ryanodine receptors within the junctional sarcoplasmic reticulum of calcium release units, and normally acts as an activator of RyR channels at low luminal [Ca(2+)], and as an inhibitor at high luminal [Ca(2+)].",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19230141",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22025663",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24257462",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19448693",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11162129",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19398037"
+  ],
+  "snippets": [
+    {
+      "text": "Junctin, a 26 kDa intra-sarcoplasmic reticulum (SR) protein, forms a quaternary complex with triadin, calsequestrin and the ryanodine receptor (RyR) at the junctional SR membrane. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22025663",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Junctin ablation appears to affect how RyRs 'sense' SR Ca(2+) load, resulting in decreased diastolic SR Ca(2+) leak despite an elevated [Ca(2+)](SR). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22025663",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Single channel recordings of RyRs from WT and JCN-KO cardiac SR indicate that the absence of junctin produces a dual effect on the normally linear response of RyRs to luminal [Ca(2+)]: at low luminal [Ca(2+)] (<1 mmol l(-1)), junctin-devoid RyR channels are less responsive to luminal [Ca(2+)]; conversely, high luminal [Ca(2+)] turns them hypersensitive to this form of channel modulation. Thus, junctin produces complex effects on Ca(2+) sparks, transients, and leak, but the luminal [Ca(2+)]-dependent dual response of junctin-devoid RyRs demonstrates that junctin normally acts as an activator of RyR channels at low luminal [Ca(2+)], and as an inhibitor at high luminal [Ca(2+)].",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22025663",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Normal Ca(2+) signalling in skeletal muscle depends on the membrane associated proteins triadin and junctin and their ability to mediate functional interactions between the Ca(2+) binding protein calsequestrin and the type 1 ryanodine receptor in the lumen of the sarcoplasmic reticulum.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19398037",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show here that purified skeletal ryanodine receptors are similarly activated by purified triadin or purified junctin added to their luminal side, although a lack of competition indicated that the proteins act at independent sites. Surprisingly, triadin and junctin differed markedly in their ability to transmit information between skeletal calsequestrin and ryanodine receptors. Purified calsequestrin inhibited junctin/triadin-associated, or junctin-associated, ryanodine receptors and the calsequestrin re-associated channel complexes were further inhibited when luminal Ca(2+) fell from 1mM to",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19398037",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "By fusing GCaMP6f to the N-terminus of triadin 1 or junctin, GCaMP6f-T/J was targeted to dyadic junctions, where it colocalized with t-tubules and RyRs after adenovirus-mediated gene transfer. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24257462",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The junctional face of the jSR, facing the transverse tubules, is occupied by a molecular complex composed of the transmembrane Ca2+ release channels (ryanodine receptors); the luminal protein calsequestrin (CSQ); the 2 membrane proteins, junctin (Jct), and triadin (Tr), which mediate CSQ-ryanodine receptor interactions; and several other components.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19448693",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Calsequestrin, the main calcium buffer in the sarcoplasmic reticulum, provides a pool of calcium for release through the ryanodine receptor and acts as a luminal calcium sensor for the channel via its interactions with triadin and junctin. We examined the influence of phosphorylation of calsequestrin on its ability to store calcium, to polymerise and to regulate ryanodine receptors by binding to triadin and junctin. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19230141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Junctin is a 26 kDa membrane protein that binds to calsequestrin, triadin, and ryanodine receptors (RyRs) within the junctional sarcoplasmic reticulum of calcium release units. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11162129",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/RYR1_RABIT",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019837",
+    "http://www.uniprot.org/uniprot/RYR3_MOUSE",
+    "http://www.uniprot.org/uniprot/RYR2_RABIT",
+    "http://www.uniprot.org/uniprot/RYR2_MOUSE",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005219",
+    "http://www.uniprot.org/uniprot/RYR1_RAT",
+    "http://www.uniprot.org/uniprot/RYR2_RAT",
+    "http://www.uniprot.org/uniprot/RYR1_HUMAN",
+    "http://www.uniprot.org/uniprot/RYR1_PIG",
+    "http://www.uniprot.org/uniprot/RYR3_HUMAN",
+    "http://www.uniprot.org/uniprot/RYR2_HUMAN",
+    "http://www.uniprot.org/uniprot/RYR1_MOUSE",
+    "http://www.uniprot.org/uniprot/RYR3_RABIT"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "5e369c30b5b409ea53000001",
+  "type": "summary",
+  "question": "Describe ChromoTrace",
+  "ideal_answer": "Recent advances of super-resolution microscopy in principle enable the mapping of specific molecular features with nanometer precision inside cells. Combined with highly specific, sensitive and multiplexed fluorescence labeling of DNA sequences this opens up the possibility of mapping the 3D path of the genome sequence in situ. ChromoTrace is a computational methodology to reconstruct the sequence configuration of all human chromosomes in the nucleus from a super-resolution image of a set of fluorescent in situ probes hybridized to the genome in a cell. ChromoTrace uses suffix trees to assign a known linear ordering of in situ probes on the genome to an unknown set of 3D in-situ probe positions in the nucleus from super-resolved images using the known genomic probe spacing as a set of physical distance constraints between probes. The algorithm can assign the 3D positions of the majority of loci with high accuracy and reasonable sensitivity to specific genome sequences.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29522506"
+  ],
+  "snippets": [
+    {
+      "text": "ChromoTrace: Computational reconstruction of 3D chromosome configurations for super-resolution microscopy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29522506",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The 3D structure of chromatin plays a key role in genome function, including gene expression, DNA replication, chromosome segregation, and DNA repair. Furthermore the location of genomic loci within the nucleus, especially relative to each other and nuclear structures such as the nuclear envelope and nuclear bodies strongly correlates with aspects of function such as gene expression. Therefore, determining the 3D position of the 6 billion DNA base pairs in each of the 23 chromosomes inside the nucleus of a human cell is a central challenge of biology. Recent advances of super-resolution microscopy in principle enable the mapping of specific molecular features with nanometer precision inside cells. Combined with highly specific, sensitive and multiplexed fluorescence labeling of DNA sequences this opens up the possibility of mapping the 3D path of the genome sequence in situ. Here we develop computational methodologies to reconstruct the sequence configuration of all human chromosomes in the nucleus from a super-resolution image of a set of fluorescent in situ probes hybridized to the genome in a cell. To test our approach, we develop a method for the simulation of DNA in an idealized human nucleus. Our reconstruction method, ChromoTrace, uses suffix trees to assign a known linear ordering of in situ probes on the genome to an unknown set of 3D in-situ probe positions in the nucleus from super-resolved images using the known genomic probe spacing as a set of physical distance constraints between probes. We find that ChromoTrace can assign the 3D positions of the majority of loci with high accuracy and reasonable sensitivity to specific genome sequences. By simulating appropriate spatial resolution, label multiplexing and noise scenarios we assess our algorithms performance. Our study shows that it is feasible to achieve genome-wide reconstruction of the 3D DNA path based on super-resolution microscopy images.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29522506",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our reconstruction method, ChromoTrace, uses suffix trees to assign a known linear ordering of in situ probes on the genome to an unknown set of 3D in-situ probe positions in the nucleus from super-resolved images using the known genomic probe spacing as a set of physical distance constraints between probes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29522506",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We find that ChromoTrace can assign the 3D positions of the majority of loci with high accuracy and reasonable sensitivity to specific genome sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29522506",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We find that ChromoTrace can assign the 3D positions of the majority of loci with high accuracy and reasonable sensitivity to specific genome sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29522506",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our reconstruction method, ChromoTrace, uses suffix trees to assign a known linear ordering of in situ probes on the genome to an unknown set of 3D in-situ probe positions in the nucleus from super-resolved images using the known genomic probe spacing as a set of physical distance constraints between probes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29522506",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our method, ChromoTrace, uses a computer science data structure, suffix trees, that allow one to simultaneous search the entire genome for specific sub-sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29522506",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ChromoTrace can robustly and accurately reconstruct 3D paths in our simulations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29522506",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

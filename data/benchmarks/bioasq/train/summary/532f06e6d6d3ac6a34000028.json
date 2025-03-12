@@ -1,0 +1,71 @@
+{
+  "id": "532f06e6d6d3ac6a34000028",
+  "type": "summary",
+  "question": "How does dabigatran therapy affect aPTT in patients with atrial fibrillation?",
+  "ideal_answer": "Dabigatran increases aPTT in patients with atrial fibrillation, although aPTT does not respond linearily to dabigatran therapy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23100377",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23784008",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22608344",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22539097",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23680005",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24151507",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22398858",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22293451"
+  ],
+  "snippets": [
+    {
+      "text": "He had been started on dabigatran 150\u2009mg twice a day about 4 months ago as an outpatient by his cardiologist. His prothrombin time (PT) was 63 seconds with international normalized ratio (INR) of 8.8 and his activated partial thromboplastin time (aPTT) was 105.7 seconds. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24151507",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The aPTT assay is relatively insensitive to dabigatran, and normal aPTT results may be observed even with therapeutic dabigatran concentrations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23784008",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The APTT values became prolonged under dabigatran usage and exhibited a remarkable diversity. Although major bleeding did not occur unless APTT was prolonged excessively, minor bleeding arose irrespective of the APTT values even within the range of the APTT values not exceeding 80s.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23680005",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dabigatran led to a dose-dependent prolongation of the clotting times in coagulometric tests and influenced the majority of the parameters measured. Statistically significant interference could be observed with the prothrombin time (PT), activated partial thromboplastin time (aPTT) and PT/aPTT-based assays (extrinsic/intrinsic factors, APC-resistance test) as well as lupus anticoagulant testing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23100377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although aPTT does not provide a linear response to dabigatran therapy, the presence of a completely normal PTT may exclude therapeutic dabigatran anticoagulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22608344",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Commonly available global coagulation time assessments (e.g. prothrombin time and activated partial thromboplastin time) are highly influenced by rivaroxaban and dabigatran but these assays are relatively insensitive. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22539097",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The relationship between dabigatran plasma concentrations and activated partial thromboplastin time in healthy volunteers and patients (n=762) was best described with a combination of a linear model and a maximum effect (Emax) model, consistent with previous reports. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22398858",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We found a wide distribution of APTT in NVAF patients under dabigatran treatment. High APTT might help screen for bleeding risks among patients under dabigatran, but requires future investigation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22293451",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001281",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D010314",
+    "http://www.biosemantics.org/jochem#4242811"
+  ]
+}

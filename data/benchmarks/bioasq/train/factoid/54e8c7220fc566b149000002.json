@@ -1,0 +1,60 @@
+{
+  "id": "54e8c7220fc566b149000002",
+  "type": "factoid",
+  "question": "Where in the cell does the proteins S100A4 and p53 interact ?",
+  "ideal_answer": "S100A4 interacts with p53 in the cell nucleus.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20591429",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16360031",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17504119",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23752197",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17497677",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11278647",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20191297",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11836260",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15116098",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20177948",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11527429",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19819244",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12942774",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20140014"
+  ],
+  "snippets": [
+    {
+      "text": "S100A4 interacts with p53 in the nucleus",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23752197",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "we show that endogenous S100A4 and p53 interact in complex samples",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23752197",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "using proximity ligation assay, we show that the interaction takes place in the cell nucleus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23752197",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Coexpression and nuclear colocalization of metastasis-promoting protein S100A4 and p53 without mutual regulation in colorectal carcinoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20191297",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/P53_MACFU",
+    "http://www.uniprot.org/uniprot/S10A4_BOVIN",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0002039",
+    "http://www.uniprot.org/uniprot/S10A4_HUMAN",
+    "http://www.uniprot.org/uniprot/P53_CANFA",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016158",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016159",
+    "http://www.uniprot.org/uniprot/S10A4_RAT",
+    "http://www.uniprot.org/uniprot/PER53_ARATH"
+  ],
+  "exact_answer": "nucleus"
+}

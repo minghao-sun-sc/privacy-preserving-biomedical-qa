@@ -1,0 +1,84 @@
+{
+  "id": "52f77f042059c6d71c000029",
+  "type": "list",
+  "question": "Which are the clinical characteristics of TSC?",
+  "ideal_answer": "Tuberous sclerosis or tuberous sclerosis complex (TSC) is a rare multi-system genetic disease that causes benign tumors to grow in the brain and on other vital organs such as the kidneys, heart, eyes, lungs, and skin. A combination of symptoms may include seizures, intellectual disability, developmental delay, behavioral problems, skin abnormalities, lung and kidney disease. TSC is caused by a mutation of either of two genes, TSC1 and TSC2, which code for the proteins hamartin and tuberin respectively. These proteins act as tumor growth suppressors, agents that regulate cell proliferation and differentiation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15220823",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8375445",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9657027",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8585387",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9973956",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21372179",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21919012",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10215407",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6775242",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8181495",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16459994",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22438024",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23776883",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16529961",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20184711",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7587886",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23274119",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24169285",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18325099",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22251200",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16329102",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15874888",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2208245",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23852707"
+  ],
+  "snippets": [
+    {
+      "text": "Most cases of tuberous sclerosis complex are complicated with bilateral multiple renal angiomyolipoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24169285",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Periodic imaging surveillance for development of subependymal giant cell astrocytoma (SEGA), preferably by magnetic resonance imaging (MRI) every 1-3\u00a0years, is now standard of care",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23852707",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Although large tubers are less common than small to medium-sized ones, they are much more likely to be accompanied by severe clinical symptoms (seizures, mental retardation and autistic behaviour), even when the smaller tubers are quite numerous",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23274119",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hepatic angiomyolipomas (AML), cysts, and other benign lesions were identified in 30% of the cohort, and some lesions grew significantly over time. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22251200",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pulmonary lymphangioleiomyomatosis and bilateral renal angiomyolipomas are some presentations of tuberous sclerosis and the coexistence of both conditions may cause devastating morbidity and mortality.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20184711",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "uberous sclerosis, a genetic, rare, variably expressed disease. Clinical symptoms were chest pain, and progressive dyspnea. Computed tomography scan of the chest showed bilateral, diffuse, small thin-walled cysts scattered throughout the lungs characteristic for pulmonary lymphangioleiomyomatosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20184711",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/TSC2_RAT",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0033596",
+    "http://www.uniprot.org/uniprot/TSC1_RAT",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012598",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014402",
+    "http://www.uniprot.org/uniprot/TSC1_SCHPO",
+    "http://www.uniprot.org/uniprot/TSC1_HUMAN",
+    "http://www.uniprot.org/uniprot/TSC2_SCHPO",
+    "http://www.disease-ontology.org/api/metadata/DOID:13515",
+    "http://www.biosemantics.org/jochem#4266396",
+    "http://www.uniprot.org/uniprot/TSC2_HUMAN"
+  ],
+  "exact_answer": "Brain lesions, Kidney lesions, Lung lesions, renal angiomyolipoma, subependymal giant cell astrocytoma (SEGA), seizures, mental detardation, autism, hepatic lesions, Pulmonary lymphangioleiomyomatosis"
+}

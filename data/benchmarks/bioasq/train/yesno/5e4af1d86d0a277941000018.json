@@ -1,0 +1,40 @@
+{
+  "id": "5e4af1d86d0a277941000018",
+  "type": "yesno",
+  "question": "Does metformin has as an antitumor effect?",
+  "ideal_answer": "Yes, \tThe anti-tumor effect of metformin is widely known.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29807100",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29422962",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29444159",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30053447"
+  ],
+  "snippets": [
+    {
+      "text": " an association between metformin and tumorigenesis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29422962",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Metformin, an antidiabetic drug, inhibits the endometrial cancer cell growth in vivo by improving the insulin resistance;",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29444159",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "There is no evidence of antitumor effect of metformin. A possible decrease only for breast, liver and prostate cancer, is compatible with random fluctuations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29807100",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The anti-tumor effect of metformin is widely known, however, there is only limited evidence regarding the anti-angiogenesis effect and chemosensitization of metformin and its underlying mechanisms in PDAC",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30053447",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "5a70ce82b750ff4455000065",
+  "type": "factoid",
+  "question": "What is the mode of action of the drug Prolia?",
+  "ideal_answer": "Prolia, also known as denosumab is an anti-RANKL agent for the treatment of osteoporosis. It works by preventing the development of osteoclasts which are cells that break down bone.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19836866",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25509894",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22023901"
+  ],
+  "snippets": [
+    {
+      "text": "Recently anti-RANKL agents (receptor activator of nuclear factor-kappaB ligand) such as denosumab (Prolia, Amgen Inc., California, USA) that have a similar mode of action to bisphosphonates have been introduced to treat such diseases",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19836866",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recently anti-RANKL agents (receptor activator of nuclear factor-kappaB ligand) such as denosumab (Prolia, Amgen Inc., California, USA) that have a similar mode of action to bisphosphonates have been introduced to treat such diseases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19836866",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To evaluate the efficacy and safety of Denosumab (Prolia), a first-line osteoporosis (OP) medication that is a fully human monoclonal antibody to the receptor activator of nuclear factor xB ligand (RANKL), within an open-label observational study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25509894",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Denosumab (Prolia) is a fully human monoclonal antibody directed against receptor activator of nuclear factor-\u03baB ligand (RANKL), which interferes with the formation, activation, and survival of osteoclasts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22023901",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D000069448"
+  ],
+  "exact_answer": "Anti-RANKL antibody which prevents bone catabolism in osteoporosis"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "645004fa57b1c7a31500008b",
+  "type": "yesno",
+  "question": "Are accessible enhancers necessarily active?",
+  "ideal_answer": "DNA accessibility is thought to be of major importance in regulating gene expression. However, recent studies focusing on the quantitative nature of the accessibility signal reveal subtle differences between active enhancers and their different inactive counterparts: the closed silenced state and the accessible primed and repressed states. While the open structure as such is not a specific indicator of enhancer activity, active enhancers display a higher degree of accessibility than the primed and repressed states. In addition, another study has shown that euchromatin and heterochromatin can have very similar accessibilities, suggesting that transcription factors can penetrate heterochromatin. Together, these results show that many gene expression changes can happen independently of changes in the accessibility of local chromatin.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/36069349",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31511305",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31873292",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32142172",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32912294"
+  ],
+  "snippets": [
+    {
+      "text": "In this review, it is argued that the relationship between the accessibility and activity of an enhancer is insufficiently described by simply considering open versus closed chromatin, or active versus inactive enhancers. Instead, recent studies focusing on the quantitative nature of accessibility signal reveal subtle differences between active enhancers and their different inactive counterparts: the closed silenced state and the accessible primed and repressed states. While the open structure as such is not a specific indicator of enhancer activity, active enhancers display a higher degree of accessibility than the primed and repressed states.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32142172",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA accessibility is thought to be of major importance in regulating gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31511305",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Accessibility of promoter DNA is not the primary determinant of chromatin-mediated gene regulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31511305",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Euchromatin and heterochromatin have very similar accessibilities, suggesting that transcription factors can penetrate heterochromatin. Thus, DNA accessibility is not likely to be the primary determinant of gene regulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31511305",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A major goal in the field of transcriptional regulation is the mapping of changes in the binding of transcription factors to the resultant changes in gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36069349",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Together, these results show many gene expression changes can happen independently of changes in the accessibility of local chromatin in the context of a single-factor perturbation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36069349",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "While the open structure as such is not a specific indicator of enhancer activity, active enhancers display a higher degree of accessibility than the primed and repressed states.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32142172",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Functional enhancers, in contrast with accessible chromatin regions that lack enhancer activity, were enriched for enhancer RNAs (eRNAs) and preferentially interacted in vivo with B cell lineage-determining transcription factors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31873292",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this review, it is argued that the relationship between the accessibility and activity of an enhancer is insufficiently described by simply considering open versus closed chromatin, or active versus inactive enhancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32142172",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In conclusion, loci identified as active by STARR-seq often overlap with those identified by chromatin accessibility and active epigenetic marking, yet a significant fraction is epigenetically repressed or display condition-specific enhancer activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32912294",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

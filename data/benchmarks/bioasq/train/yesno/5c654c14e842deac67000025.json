@@ -1,0 +1,31 @@
+{
+  "id": "5c654c14e842deac67000025",
+  "type": "yesno",
+  "question": "Does lucatumumab bind to CD140?",
+  "ideal_answer": "No, lucatumumab is a fully humanized anti-CD40 antibody that blocks interaction of CD40L with CD40 and also mediates antibody-dependent cell-mediated cytotoxicity (ADCC).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22475052"
+  ],
+  "snippets": [
+    {
+      "text": "Lucatumumab is a fully humanized anti-CD40 antibody that blocks interaction of CD40L with CD40 and also mediates antibody-dependent cell-mediated cytotoxicity (ADCC). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22475052",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Phase I study of the anti-CD40 humanized monoclonal antibody lucatumumab (HCD122) in relapsed chronic lymphocytic leukemia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22475052",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Saturation of CD40 receptor on CLL cells was uniform at all doses post-treatment but also persisted at trough time points in the 3.0 mg/kg or greater cohorts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22475052",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

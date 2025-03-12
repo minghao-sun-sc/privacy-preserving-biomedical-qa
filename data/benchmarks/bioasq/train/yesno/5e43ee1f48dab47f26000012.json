@@ -1,0 +1,84 @@
+{
+  "id": "5e43ee1f48dab47f26000012",
+  "type": "yesno",
+  "question": "Do circular exons increase gene expression?",
+  "ideal_answer": "circRNAs might adsorb specific miRNAs to regulate the expression of their target gene mRNAs. They can thus lead to both over- and under-expression of mRNAs.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25253891",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28634583",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21151960",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30136305",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28184940",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8652136"
+  ],
+  "snippets": [
+    {
+      "text": "Each of these species was present at very low copy numbers in primary and cultured cells; however, only the expression of ANRIL isoforms containing exons proximal to the INK4/ARF locus correlated with the ASVD risk alleles.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21151960",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results identify novel circular RNA products emanating from the ANRIL locus and suggest causal variants at 9p21.3 regulate INK4/ARF expression and ASVD risk by modulating ANRIL expression and/or structure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21151960",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To explore the potential for using this methodology to express circular RNA in vivo, circular forms of the HDV ribozyme and RNaseP RNA were produced in E. coli. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8652136",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The activity of in vivo expressed circular ribozymes could be demonstrated indicating that they fold into active conformation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8652136",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We found that: i) the circRNA expression profile revealed 1,285 significant differences in circRNA expression, with circRNA expression downregulated in 594 samples and upregulated in 691 samples via interactions with miRNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28184940",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These circRNAs regulated the expression of target genes through interactions with miRNAs and might become new molecular biomarkers for GC in the future",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28184940",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "69 differentially expressed circRNAs were found that might adsorb specific miRNAs to regulate the expression of their target gene mRNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28184940",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Novel coding, translation, and gene expression of a replicating covalently closed circular RNA of 220 nt.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25253891",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The highly structured (64% GC) covalently closed circular (CCC) RNA (220 nt) of the virusoid associated with rice yellow mottle virus codes for a 16-kDa highly basic protein using novel modalities for coding, translation, and gene expression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25253891",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent evidence has demonstrated that circular RNAs (circRNAs) played crucial roles in fine-tuning the levels of gene expression by sequestering the corresponding microRNA (miRNAs). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30136305",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "It has been proposed that circRNA regulate gene expression at the transcriptional or post-transcriptional level by interacting with miRNAs and that circRNAs may have a role in regulating miRNA function in cancer initiation and progression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28634583",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

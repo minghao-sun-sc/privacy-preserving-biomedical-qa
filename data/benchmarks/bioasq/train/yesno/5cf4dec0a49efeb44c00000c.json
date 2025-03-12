@@ -1,0 +1,39 @@
+{
+  "id": "5cf4dec0a49efeb44c00000c",
+  "type": "yesno",
+  "question": "Are lamina-associated domains (LADs) associated with transcriptional activation?",
+  "ideal_answer": "Regions of focal DNA hypermethylation and long-range hypomethylation in colorectal cancer coincide with nuclear lamina-associated domains. Such lamina-associated domains (LADs) are thought to help organize chromosomes inside the nucleus and have been associated with gene repression.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22120008",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29517398",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28525751"
+  ],
+  "snippets": [
+    {
+      "text": "Regions of focal DNA hypermethylation and long-range hypomethylation in colorectal cancer coincide with nuclear lamina-associated domains.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22120008",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Extensive changes in DNA methylation are common in cancer and may contribute to oncogenesis through transcriptional silencing of tumor-suppressor genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22120008",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Such lamina-associated domains (LADs) are thought to help organize chromosomes inside the nucleus and have been associated with gene repression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28525751",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The nuclear lamina contributes to the regulation of gene expression and to chromatin organization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29517398",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

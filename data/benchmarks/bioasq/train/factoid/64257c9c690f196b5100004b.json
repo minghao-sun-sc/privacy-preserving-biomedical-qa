@@ -1,0 +1,38 @@
+{
+  "id": "64257c9c690f196b5100004b",
+  "type": "factoid",
+  "question": "What is DILI-CAT used for?",
+  "ideal_answer": "DILI-CAT, ia a clinically intuitive, data-driven, computer-assisted scoring algorithm and is a useful tool for early detection of drug's hepatotoxicity in clinical drug development.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/36174069",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35266155"
+  ],
+  "snippets": [
+    {
+      "text": "We utilised a novel DILI causality assessment tool (DILI-CAT), which uses drug-specific liver injury phenotypes, to examine potential DILI in early phase ximelagatran clinical development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35266155",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A novel phenotype-based drug-induced liver injury causality assessment tool (DILI-CAT) allows for signal confirmation in early drug development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35266155",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "DILI-CAT, a clinically intuitive, data-driven, computer-assisted scoring algorithm, is a useful tool for early detection of drug's hepatotoxicity in clinical drug development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35266155",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A novel quantitative computer-assisted drug-induced liver injury causality assessment tool (DILI-CAT).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36174069",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Drug induced hepatotoxicity scoring algorithm"
+}

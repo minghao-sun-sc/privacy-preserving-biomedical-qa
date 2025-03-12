@@ -1,0 +1,54 @@
+{
+  "id": "58bbb8ae22d3005309000018",
+  "type": "yesno",
+  "question": "Has whole exome sequencing been performed in Alzheimer patients?",
+  "ideal_answer": "Yes, numerous whole exome sequencing studies of ALzheimer patients have been conducted.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22153900",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23237904",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24958194",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27822510",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22472873",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26522186"
+  ],
+  "snippets": [
+    {
+      "text": "Pilot whole-exome sequencing of a German early-onset Alzheimer's disease cohort reveals a substantial frequency of PSEN2 variants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26522186",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We performed whole-exome sequencing in early-onset Alzheimer disease (EOAD) and late-onset Alzheimer disease (LOAD) families followed by functional studies of select variants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27822510",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Whole-exome sequencing revealed a nonsense mutation in PRNP (NM_000311, c.C478T; p.Q160*; rs80356711) associated with homozygosity for the V allele at position 129 of the protein, further highlighting how very similar genotypes in PRNP result in strikingly different phenotypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24958194",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the search for new genes in Alzheimer's disease, classic linkage-based and candidate-gene-based association studies have been supplanted by exome sequencing, genome-wide sequencing (for mendelian forms of Alzheimer's disease), and genome-wide association studies (for non-mendelian forms). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23237904",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We performed whole exome sequencing in a Turkish patient clinically diagnosed with Alzheimer's disease from a consanguineous family ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22153900",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Performing exome sequencing in 14 autosomal dominant early-onset Alzheimer disease (ADEOAD) index cases without mutation on known genes (amyloid precursor protein (APP), presenilin1 (PSEN1) and presenilin2 (PSEN2)), we found that in five patients, the SORL1 gene harbored unknown nonsense (n=1) or missense (n=4) mutations",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22472873",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

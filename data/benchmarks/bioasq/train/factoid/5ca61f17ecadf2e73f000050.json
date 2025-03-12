@@ -1,0 +1,54 @@
+{
+  "id": "5ca61f17ecadf2e73f000050",
+  "type": "factoid",
+  "question": "Which is the main epigenetic difference between poised and constitutive enhancers?",
+  "ideal_answer": "We find that histone H3K27ac distinguishes active enhancers from inactive/poised enhancer elements containing H3K4me1 alone.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29932419",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26970625",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27285123",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27979994",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28275002",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21106759"
+  ],
+  "snippets": [
+    {
+      "text": "Modifications of histones further lead to repressed, activated or poised gene transcription, thus bringing another level of fine tuning regulation of gene transcription. Embryonic Stem cells (ES cells) recapitulate within embryoid bodies (i.e., cell aggregates) or in 2D culture the early steps of cardiac development",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27285123",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " These chromatin domains, mostly constitutive, may have been used as genomic niches where novel regulations could evolve due to both the preexistence of a structural backbone poised to integrate novel regulatory inputs, and a highly adaptive transcriptional readout",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26970625",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results support a model in which the PRC2 complex is redistributed to poised enhancers in H3.3K27M mutant cells and contributes to tumorigenesis in part by locally enhancing H3K27me3, and hence silencing of tumor suppressor genes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29932419",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The poised enhancer signature, involving H3K4me1 and low levels of H3K27ac, has been reported to mark inactive enhancers that are poised for future activation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27979994",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone H3K27ac separates active from poised enhancers and predicts developmental state.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21106759",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We find that histone H3K27ac distinguishes active enhancers from inactive/poised enhancer elements containing H3K4me1 alone.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21106759",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "H3K27ac"
+}

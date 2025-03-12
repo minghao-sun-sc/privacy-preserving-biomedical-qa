@@ -1,0 +1,87 @@
+{
+  "id": "5c58db1386df2b9174000014",
+  "type": "summary",
+  "question": "What are the CADD scores?",
+  "ideal_answer": "Combined Annotation-Dependent Depletion (CADD) is a widely used measure of variant deleteriousness that can effectively prioritize causal variants in genetic analyses, particularly highly penetrant contributors to severe Mendelian disorders. CADD is an integrative annotation built from more than 60 genomic features, and can score human single nucleotide variants and short insertion and deletions anywhere in the reference assembly.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30371827",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29340599",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25871441",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27148939"
+  ],
+  "snippets": [
+    {
+      "text": "CADD: predicting the deleteriousness of variants throughout the human genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30371827",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Combined Annotation-Dependent Depletion (CADD) is a widely used measure of variant deleteriousness that can effectively prioritize causal variants in genetic analyses, particularly highly penetrant contributors to severe Mendelian disorders. CADD is an integrative annotation built from more than 60 genomic features, and can score human single nucleotide variants and short insertion and deletions anywhere in the reference assembly. CADD uses a machine learning model trained on a binary distinction between simulated de novo variants and variants that have arisen and become fixed in human populations since the split between humans and chimpanzees; the former are free of selective pressure and may thus include both neutral and deleterious alleles, while the latter are overwhelmingly neutral (or, at most, weakly deleterious) by virtue of having survived millions of years of purifying selection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30371827",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CADD uses a machine learning model trained on a binary distinction between simulated de novo variants and variants that have arisen and become fixed in human populations since the split between humans and chimpanzees; the former are free of selective pressure and may thus include both neutral and deleterious alleles, while the latter are overwhelmingly neutral (or, at most, weakly deleterious) by virtue of having survived millions of years of purifying selection. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30371827",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CADD: predicting the deleteriousness of variants throughout the human genome.Combined Annotation-Dependent Depletion (CADD) is a widely used measure of variant deleteriousness that can effectively prioritize causal variants in genetic analyses, particularly highly penetrant contributors to severe Mendelian disorders. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30371827",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The recently developed combined annotation-dependent depletion (CADD) method generates predictive scores for single-nucleotide variants (SNVs) in all areas of the genome, including noncoding regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27148939",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CADD is an integrative annotation built from more than 60 genomic features, and can score human single nucleotide variants and short insertion and deletions anywhere in the reference assembly.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30371827",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CADD uses a machine learning model trained on a binary distinction between simulated de novo variants and variants that have arisen and become fixed in human populations since the split between humans and chimpanzees; the former are free of selective pressure and may thus include both neutral and deleterious alleles, while the latter are overwhelmingly neutral (or, at most, weakly deleterious) by virtue of having survived millions of years of purifying selection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30371827",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Combined Annotation-Dependent Depletion (CADD) is a widely used measure of variant deleteriousness that can effectively prioritize causal variants in genetic analyses, particularly highly penetrant contributors to severe Mendelian disorders.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30371827",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using the ClinVar benchmark, CADD was the best tool for detecting the pathogenic variants that are mainly located in protein coding gene regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29340599",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Overall, we found CADD scores do predict pathogenicity (Spearman's \u03c1 = 0.595, P < 0.001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25871441",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Overall, we found CADD scores do predict pathogenicity (Spearman's \u03c1 = 0.595, P &lt; 0.001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25871441",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The recently developed combined annotation-dependent depletion (CADD) method generates predictive scores for single-nucleotide variants (SNVs) in all areas of the genome, including noncoding regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27148939",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "5a67a049b750ff4455000007",
+  "type": "yesno",
+  "question": "Does echinacea increase anaphylaxis risk?",
+  "ideal_answer": "Yes, there is evidence that echinacea use is associated with anaphylaxis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28731887",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9507713",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26593037",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11814277"
+  ],
+  "snippets": [
+    {
+      "text": "Chicoric acid (dicaffeoyl-tartaric acid), is a natural phenolic compound found in a number of plants, such as chicory (Cichorium intybus) and Echinacea (Echinacea purpurea), which possesses antioxidant, anti-inflammatory, antiviral, and analgesic activities. Although these biological effects of chicoric acid have been investigated, there are no reports of its antiallergic-related anti-inflammatory effects in human mast cells (HMC)-1 or anaphylactic activity in a mouse model.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26593037",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND: Fifty percent of Australians use complementary and alternative medicines (other than vitamins) in any 12-month period, of which echinacea-containing products are increasingly popular. Recent reports have highlighted the risk of allergic reactions to complementary medicines in atopic patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11814277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Two patients suffered anaphylaxis and a third had an acute asthma attack 10 minutes after their first ever dose of echinacea.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11814277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Fifty-one Australian adverse drug reports implicating echinacea were also reviewed. There were 26 cases suggestive of possible immunoglobulin E-mediated hypersensitivity (4 anaphylaxis, 12 acute asthma, 10 urticaria/angioedema). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11814277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Echinacea-associated anaphylaxis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9507713",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "A woman with atopy experienced anaphylaxis after taking, among other dietary supplements, a commercial extract of echinacea.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9507713",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Risk of anaphylaxis in complementary and alternative medicine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28731887",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Several culprits identified including Andrographis paniculata, Echinacea species, bee products, Ginkgo biloba and Ginseng are discussed here.SUMMARY: Knowing the factors that increase the risk of anaphylaxis allows reactions to be recognized, reported and further investigated.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28731887",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D020900",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D012306",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D000707"
+  ],
+  "exact_answer": "Yes"
+}

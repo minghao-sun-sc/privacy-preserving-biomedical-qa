@@ -1,0 +1,75 @@
+{
+  "id": "5e2e1017fbd6abf43b000020",
+  "type": "yesno",
+  "question": "Are CD8+ (cytotoxic) T cells and  CD4+ Helper T cells generated in the thyroid and express the T-cell receptor?",
+  "ideal_answer": "Through positive selection, double-positive cells in the thymus differentiate into CD4(+) or CD8(+) T single-positive cells that subsequently develop into different types of effective T cells, such as T-helper and cytotoxic T lymphocyte cells, These two cell types are derived from common precursors in the thymus.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26301869",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25591463",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7904067",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1533274",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28382035",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29677476",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10882415",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2573519",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10761920"
+  ],
+  "snippets": [
+    {
+      "text": "A fundamental question in developmental immunology is how bipotential thymocyte precursors generate both CD4+ helper and CD8+ cytotoxic T cell lineages.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29677476",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CD4+CD8+ progenitor thymocytes undergo selection following interaction with MHC class I and class II molecules bearing peptide self-antigens, giving rise to CD8+ cytotoxic and CD4+ helper or regulatory T cell lineages, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28382035",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Through positive selection, double-positive cells in the thymus differentiate into CD4(+) or CD8(+) T single-positive cells that subsequently develop into different types of effective T cells, such as T-helper and cytotoxic T lymphocyte cells,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26301869",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Development, differentiation, and function of thymocytes and CD4(+) and CD8(+) T cells are controlled by a multitude of secreted and intracellular factors",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26301869",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ". The CD4(+) helper versus CD8(+) cytotoxic T-cell fate decision serves as an excellent model to study binary fate decision processes. These two cell types are derived from common precursors in the thymus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25591463",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Signals elicited by binding of the T-cell antigen receptor and the CD4/CD8 co-receptor to major histocompatibility complex (MHC) molecules control the generation of CD4+ (helper) or CD8+ (cytotoxic) T cells from thymic precursors that initially express both co-receptor proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10761920",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the thymus, mature CD4+CD8- and CD4-CD8+ T cells expressing alpha beta T-cell antigen receptors (TCR) develop from immature thymocytes through CD4+CD8+ alpha beta TCR+ intermediates.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1533274",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the thymus, immature CD8(-4)-TCR- cells differentiate, possibly via a short stage of CD8+4- thymocytes, into CD8+4+ TCR+ T cells and mature further into the main T cell populations, the CD8+4- TCR+ cytotoxic T lymphocytes and the CD4+8- TCR+ T helper cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2573519",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the mammalian thymus, CD4 helper T cells and CD8 cytotoxic T cells arise from a common precursor that expresses both CD4 and CD8.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7904067",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

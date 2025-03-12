@@ -1,0 +1,39 @@
+{
+  "id": "5e2f9ceefbd6abf43b000033",
+  "type": "list",
+  "question": "Which drugs are included in PolyIran?",
+  "ideal_answer": "PolyIran polypill is composed of acetylsalicylic acid, hydrochlorothiazide, enalapril, and atorvastatin, whose efficacy in the treatment and prevention of cardiovascular disease has been documented in clinical trials.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26265520",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25230980",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28882196"
+  ],
+  "snippets": [
+    {
+      "text": "A new chromatographic-densitometric method has been developed for the qualitative and quantitative determination of the active ingredients in a simulated mixture corresponding to the PolyIran polypill, composed of acetylsalicylic acid, hydrochlorothiazide (HCT), enalapril (ENA), and atorvastatin (ATR), whose efficacy in the treatment and prevention of cardiovascular disease has been documented in clinical trials. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28882196",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DESIGN AND METHODS: The PolyIran trial is a pragmatic cluster randomized trial nested within the Golestan Cohort Study (GCS). Subjects were randomized to either non-pharmacological preventive interventions alone (minimal care arm) or together with a polypill (polypill arm) comprising hydrochlorothiazide, aspirin, atorvastatin and either enalapril or valsartan. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25230980",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We designed a study to investigate the effects of a simpler strategy: a fixed-dose combination pill consisting of aspirin, valsartan, atorvastatin and hydrochlorthiazide (PolyPill) in an unselected group of persons aged over 50 years.DESIGN: The PolyIran-Liver study was performed in Gonbad city as an open label pragmatic randomized controlled trial nested within the Golestan Cohort Study. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26265520",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A new chromatographic-densitometric method has been developed for the qualitative and quantitative determination of the active ingredients in a simulated mixture corresponding to the PolyIran polypill, composed of acetylsalicylic acid, hydrochlorothiazide (HCT), enalapril (ENA), and atorvastatin (ATR), whose efficacy in the treatment and prevention of cardiovascular disease has been documented in clinical trials.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28882196",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "acetylsalicylic acid, hydrochlorothiazide, enalapril, atorvastatin"
+}

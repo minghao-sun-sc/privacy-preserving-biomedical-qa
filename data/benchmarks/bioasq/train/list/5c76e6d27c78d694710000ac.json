@@ -1,0 +1,47 @@
+{
+  "id": "5c76e6d27c78d694710000ac",
+  "type": "list",
+  "question": "List phagosomal markers.",
+  "ideal_answer": "Rab7\nLAMP1\nCathepsin D\nRab9\nV-ATPase \nCD63",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26928472",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18485117",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29675446",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30201700",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20829607"
+  ],
+  "snippets": [
+    {
+      "text": "Monitoring of intracellular trafficking of H. somni with monoclonal antibodies to phagosomal markers indicated that the early phagosomal marker early endosome antigen 1 colocalized with all isolates tested, but only strains that could survive intracellularly did not colocalize with the late lysosomal marker lysosome-associated membrane protein 2 and prevented the acidification of phagosomes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30201700",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "late phagosomal markers viz. Rab7, Lysosomal Associated Membrane Protein 1, Cathepsin D, Rab9, and V-ATPase which indicate phagosome maturation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26928472",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "early phagosomal markers [such as, Ras-related proteins in the brain 5 (Rab5) and Transferrin receptor (TfR)], and a failure to acquire late phagosomal and lysosomal markers (such as Rab7 and LAMP1)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29675446",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "late phagosomal markers CD63 and Rab7",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20829607",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " late phagosomal markers mannose-6-phosphate receptor (M6PR) and Rab7",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18485117",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Rab7, LAMP1, Cathepsin D, Rab9, V-ATPase, CD63"
+}

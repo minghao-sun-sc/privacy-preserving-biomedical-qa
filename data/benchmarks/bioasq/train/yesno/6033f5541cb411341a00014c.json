@@ -1,0 +1,47 @@
+{
+  "id": "6033f5541cb411341a00014c",
+  "type": "yesno",
+  "question": "Is phosphoenolpyruvate carboxykinase 1 (PCK1) the rate-limiting enzyme in gluconeogenesis?",
+  "ideal_answer": "Yes, Pck1 is a rate-limiting gluconeogenic enzyme, where its deficiency or mutation contributes to serious clinical situations as neonatal hypoglycemia and liver failure.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31883179",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31911238",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32004540",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32001301",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32058049"
+  ],
+  "snippets": [
+    {
+      "text": "Phosphoenolpyruvate carboxykinase (PEPCK) is a metabolic enzyme in the gluconeogenesis pathway,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31911238",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PEPCK, a key enzyme involved in gluconeogenesis associated with a decrease in the expression of master genes involved in the VLDL synthesis ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32001301",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcriptome analysis of rate-limiting enzymes involved in hepatic gluconeogenesis revealed that moxifloxacin and gatifloxacin at a concentration of 1000\u00a0\u03bcM did not affect the expression of key gluconeogenic enzymes such as phosphoenolpyruvate carboxykinase, glucose 6-phosphatase, and fructose 1,6-bisphosphatase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32004540",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pck1 is a rate-limiting gluconeogenic enzyme, where its deficiency or mutation contributes to serious clinical situations as neonatal hypoglycemia and liver failure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31883179",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the gluconeogenesis key enzymes PEPCK (phosphoenolpyruvate carboxykinase) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32058049",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

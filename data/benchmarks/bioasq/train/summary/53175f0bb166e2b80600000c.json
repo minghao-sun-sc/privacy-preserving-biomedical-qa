@@ -1,0 +1,75 @@
+{
+  "id": "53175f0bb166e2b80600000c",
+  "type": "summary",
+  "question": "What is the role of necroptosis in cancer therapy?",
+  "ideal_answer": "Necroptosis, a novel form of programmed cell death (PCD), is caspase independent but RIPK and RIPK3 dependent. The apoptotic, autophagic and necroptotic pathways of PCD were shown to be interconnected, with molecules such as FLIP acting as a bridge between them. Therefore, simultaneous activation of the three PCD pathways would make cancer therapy more effective, whereas induction of necroptosis could be an alternative, in cases where apoptosis-inducing cancer chemotherapy is not effective. For example, inhibition of GSK3B was found to bypass drug resistance of p53-null colon carcinomas by enabling necroptosis in response to 5-FU treatment.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23875666",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23301705",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23625539",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23729362"
+  ],
+  "snippets": [
+    {
+      "text": "Previous evidences suggest that necroptosis has significant effects in regulating various physiological processes and disease, such as ischemic brain injury, immune system disorders and cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23875666",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Its signaling pathways have something in common with apoptosis, although the molecular mechanisms of necroptosis need to be further elucidated.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23875666",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Necroptosis, a novel form of programmed cell death, is caspase independent but RIPK and RIPK3 dependent. Moreover, it is suggested that necroptosis can be specifically inhibited by small molecular inhibitors such as necrostatin-1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23875666",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Inhibition of GSK3B bypass drug resistance of p53-null colon carcinomas by enabling necroptosis in response to chemotherapy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23729362",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Cell death of 5-fluorouracil (5FU)-treated p53-null GSK3B-silenced colon carcinoma cells occurred via PARP1-dependent and AIF-mediated but RIP1-independent necroptosis. In vivo studies showed that drug-resistant xenograft tumor mass was significantly reduced only when 5FU was given after GSK3B inhibition.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23729362",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Inducing programmed cell death (PCD) is a promising method to prevent or inhibit the progression of tumor cells. Intricate cross talk among various programmed cell death pathways including cell death by apoptosis, necroptosis or autophagy plays a critical role in the regulation of PCD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23625539",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This review article focuses on targeting FLIP (Fas-associated death domain-like interleukin-1-converting enzyme-like inhibitory protein) signaling as a bridge between various PCD processes as an effective approach for cancer management.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23625539",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Interconnections between apoptotic, autophagic and necrotic pathways: implications for cancer therapy development",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23301705",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Upon introduction of molecular pathways governing autophagy and necrosis (also called necroptosis or programmed necrosis), we focus on the interconnected character of cell death signals",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23301705",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0070266",
+    "http://www.disease-ontology.org/api/metadata/DOID:162",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0060553",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009369",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0060544"
+  ]
+}

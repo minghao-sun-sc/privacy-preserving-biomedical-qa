@@ -1,0 +1,33 @@
+{
+  "id": "603221741cb411341a000136",
+  "type": "list",
+  "question": "What tissues have been studied by circadian proteomics?",
+  "ideal_answer": "Retina\nLiver",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30973132",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17726681",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31034157"
+  ],
+  "snippets": [
+    {
+      "text": " In peripheral organs, such as the liver, the circadian clock coordinates gene expression, notably metabolic gene expression, from transcriptional to posttranslational level. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31034157",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Circadian proteomics of the mouse retina.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17726681",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " In addition, the analysis of rhythmic post-translational modifications helps to understand the signal pathways involved and their consequences on hepatic metabolism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30973132",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Retina, Liver"
+}

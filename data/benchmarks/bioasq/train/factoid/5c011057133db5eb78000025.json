@@ -1,0 +1,19 @@
+{
+  "id": "5c011057133db5eb78000025",
+  "type": "factoid",
+  "question": "In which phase of clinical trials was sutezolid in 2018?",
+  "ideal_answer": "By 2018 sutezolid had been evaluated in phase II clinical trials.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25431273"
+  ],
+  "snippets": [
+    {
+      "text": "After decades of quiescence in the development of antituberculosis medications, bedaquiline and delamanid have been conditionally approved for the treatment of drug-resistant tuberculosis, while several other novel compounds (AZD5847, PA-824, SQ109 and sutezolid) have been evaluated in phase II clinical trials. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25431273",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "phase II"
+}

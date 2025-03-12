@@ -1,0 +1,249 @@
+{
+  "id": "56e2985951531f7e33000013",
+  "type": "yesno",
+  "question": "Do R-loops tend to form at sites of DNA replication?",
+  "ideal_answer": "R-loops co-localize with the ORC within the same CpG island region in a significant fraction of these efficient replication origins. Physiological R-loop formation at CpG island promoters can contribute to DNA replication origin specification at these regions, the most efficient replication initiation sites in mammalian cells. One mechanism may be that downstream of a replication block, RNA at R-loops is extended by DNA polymerase I, opening up the DNA duplex and leading to the recruitment of the replisome. This would allow replication to proceed while the original block is repaired or bypassed. Thus, the organized structure of the R-loop is critical for primer RNA function in vivo with important implications for the RNA processing and DNA replication machinery.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15569610",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7774596",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10082645",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21191184",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9119223",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25569209",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21979917",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9009281",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22195969",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20495385",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21129203",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22965135",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9150892",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25487262",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25972891",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19841062",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22464441",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8798672"
+  ],
+  "snippets": [
+    {
+      "text": "Escherichia coli rnhA mutants devoid of RNase HI exhibit constitutive stable DNA replication, cSDR, which is thought to be initiated from R-loops stabilized in the absence of RNase HI.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7774596",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We propose that the organized structure of the R-loop is critical for primer RNA function in vivo with important implications for the RNA processing and DNA replication machinery.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8798672",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The precursor primer RNA exists as a persistent RNA-DNA hybrid, known as an R-loop, formed during transcription through the replication origin (Xu, B., and Clayton, D. A. (1996) EMBO J. 15, 3135-3143).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8798672",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We found that overproduction of RecG protein drastically decreased copy numbers of ColE1-type plasmids, which require R-loop formation between the template DNA and a primer RNA transcript (RNA II) for the initiation of replication.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9009281",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest that overproduced RecG inhibits the initiation of replication by prematurely resolving the R-loops formed at the replication origin region of these plasmids with its unique helicase activity. The possibility that RecG regulates the initiation of a unique mode of DNA replication, oriC-independent constitutive stable DNA replication, by its activity in resolving R-loops is discussed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9009281",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We propose that downstream of a replication block, RNA at R-loops is extended by DNA polymerase I, opening up the DNA duplex and leading to the recruitment of the replisome. This would allow replication to proceed while the original block is repaired or bypassed",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15569610",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, increased RNaseH expression significantly alleviated genomic instability in deficient fibroblasts suggesting that cotranscriptional R-loops formation contributes to the genesis of replication-dependent DSBs in these cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21191184",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription is an important source of replicative stress and consequently, maintenance of genome integrity requires the protection of chromosomes from the deleterious effects arising from the interaction between nascent RNAs and template DNA, leading to stable DNA-RNA hybrids (R-loop) formation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21191184",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Strikingly, we found that attenuation of replication strongly suppresses R-loop-mediated DNA rearrangements in both E. coli and HeLa cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21979917",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "More importantly, we then show that R-loop formation causes DNA replication fork stalling, and that this in fact underlies the effects of R loops on genomic stabilit",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21979917",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "R-loop-mediated genomic instability is caused by impairment of replication fork progression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21979917",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "When any of these processes are not properly coordinated, aberrant outcomes such as fork reversal and R-loop formation arise and trigger unscheduled recombinogenic events and genome rearrangements. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22464441",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Many studies show that cells can manage R loop formation with efficiency, and can also process the R-loops already formed in the cell, and by which, the bad effects of R-loops on DNA replication, gene mutation and homologous recombination can be regulated.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25487262",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we propose that physiological R-loop formation at CpG island promoters can contribute to DNA replication origin specification at these regions, the most efficient replication initiation sites in mammalian cells. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25972891",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In agreement with this, we found that R-loops co-localize with the ORC within the same CpG island region in a significant fraction of these efficient replication origins, precisely at the position displaying the highest density of G4 motifs. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25972891",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "connection between transcription and replication in human cells and suggests that R-loop dysregulation at CpG island promoter-origins might contribute to the phenotype of DNA replication abnormalities and loss of genome integrity detected in cancer cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25972891",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show that RNA:DNA hybrids (R-loops) form at sites of transcription/replication collisions and that RNase H1 functions to suppress CFS instability.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22195969",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "R-loops and initiation of DNA replication in human cells: a missing link?",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25972891",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Stable RNA-DNA hybrids (R-loops) prime the initiation of replication in Escherichia coli cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10082645",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We propose that downstream of a replication block, RNA at R-loops is extended by DNA polymerase I, opening up the DNA duplex and leading to the recruitment of the replisome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15569610",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Immediately after infection, RNA-DNA hybrids (R-loops) occur on (at least some) replication origins, with the annealed RNA serving as a primer for leading-strand synthesis in one direction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21129203",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we propose that physiological R-loop formation at CpG island promoters can contribute to DNA replication origin specification at these regions, the most efficient replication initiation sites in mammalian cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25972891",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ColE1 plasmid origins of replication and oriK sites initiate primosome assembly by an RNA-DNA hybrid structure known as R-loop.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15569610",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This scenario builds on the connection between transcription and replication in human cells and suggests that R-loop dysregulation at CpG island promoter-origins might contribute to the phenotype of DNA replication abnormalities and loss of genome integrity detected in cancer cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25972891",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The multiple cleavage sites on the R-loop substrate match the priming sites observed in vivo, suggesting that RNase MRP alone is capable of generating virtually all of the leading-strand replication primers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9119223",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mechanisms of primer RNA synthesis and D-loop/R-loop-dependent DNA replication in Escherichia coli.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9150892",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Alternative oriC-independent modes of replication initiation are possible, one of which is constitutive stable DNA replication (cSDR) from transcription-associated RNA-DNA hybrids or R-loops.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25569209",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results suggest that Top1 execute this function by suppressing the formation of DNA-RNA hybrids during transcription, these so-called R-loops interfering with the progression of replication forks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20495385",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Critical role of R-loops in processing replication blocks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15569610",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The possibility that RecG regulates the initiation of a unique mode of DNA replication, oriC-independent constitutive stable DNA replication, by its activity in resolving R-loops is discussed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9009281",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Competition between the RNA transcript and the nontemplate DNA strand during R-loop formation in vitro: a nick can serve as a strong R-loop initiation site.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19841062",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "More importantly, we then show that R-loop formation causes DNA replication fork stalling, and that this in fact underlies the effects of R loops on genomic stability. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21979917",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Consistent with this hypothesis, the 3' ends of the mitochondrial R-loop formed by in vitro transcription are located close to the initiation sites of the mitochondrial DNA replication. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10082645",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A hybrid G-quadruplex structure formed between RNA and DNA explains the extraordinary stability of the mitochondrial R-loop.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22965135",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Previous studies have shown that the newly synthesized primers form a stable and persistent RNA-DNA hybrid, a R-loop, near the leading-strand origin of DNA replication. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22965135",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Escherichia coli rnhA mutants devoid of RNase HI exhibit constitutive stable DNA replication, cSDR, which is thought to be initiated from R-loops stabilized in the absence of RNase HI. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7774596",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004247",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004261"
+  ],
+  "exact_answer": "Yes"
+}

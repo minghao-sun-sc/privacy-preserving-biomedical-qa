@@ -1,0 +1,78 @@
+{
+  "id": "54d65b6b3706e8952800000c",
+  "type": "list",
+  "question": "List genes that have been found mutated in CMT1A (Charcot-Marie-Tooth disease type 1 A).",
+  "ideal_answer": "PMP22 is the common gene found mutated through a duplication in CMT1A. Other genes are\nMPZ and SH3TC2",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25522693",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25430934",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24819634",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25500726",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25400662",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25385046",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25519680",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25429913",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25150498"
+  ],
+  "snippets": [
+    {
+      "text": "Most cases of CMT are caused by mutations in PMP22,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25522693",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " structural myelin protein PMP22",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25519680",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Duplication of the gene encoding the peripheral myelin protein of 22 kDa (PMP22) underlies the most common inherited neuropathy, Charcot-Marie-Tooth 1A (CMT1A), a disease without a known cure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25150498",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ". Two patients showed rearrangements in the PMP22 gene, which is commonly associated with CMT1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24819634",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Many PMP22 mutants accumulate in excess in the endoplasmic reticulum (ER) and lead to the inherited neuropathies of Charcot-Marie-Tooth (CMT) disease. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25385046",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The T118M mutation in PMP22 gene is associated with Charcot Marie Tooth, type 1A (CMT1A).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25400662",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In CMT1, PMP22 duplication was the most common mutation while the second gene in order of frequency was MPZ in familial and SH3TC2 in isolated cases. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25429913",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CMT1A/PMP22 duplication",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25430934",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "he most frequent subtype is type 1A (CMT1A) caused by duplication in chromosome 17p12 that includes PMP22.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25500726",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:10595",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002607"
+  ],
+  "exact_answer": "PMP22, MPZ, SH3TC2"
+}

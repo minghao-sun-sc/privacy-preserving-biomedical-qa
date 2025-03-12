@@ -1,0 +1,74 @@
+{
+  "id": "5a6e47b1b750ff4455000049",
+  "type": "yesno",
+  "question": "Is overproduction of transthyretin is associated with amyloidosis associated neuropathy?",
+  "ideal_answer": "Yes, an overproduction of transthyretin is associated with amyloidosis associated neuropathy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28920433",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27919414",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28646538",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28922609",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28802308",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28598015",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26243339"
+  ],
+  "snippets": [
+    {
+      "text": "Transthyretin-associated familial amyloid polyneuropathy (TTR-FAP) is a disease caused by the deposit of abnormal transthyretin on tissues, mainly nerves",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27919414",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "transthyretin familial amyloid polyneuropathy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28598015",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We report a new transthyretin (ATTR) gene c.272C>G mutation and variant protein, p.Leu32Val, in a kindred of Bolivian origin with a rapid progressive peripheral neuropathy and cardiomyopat",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28646538",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hereditary transthyretin amyloidosis is an autosomal dominant inherited disorder, first described in families with sensorimotor and autonomic neuropathy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28802308",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Abnormal deposition of aggregated wild-type (WT) human transthyretin (TTR) and its pathogenic variants is responsible for cardiomyopathy and neuropathy related to TTR amyloidosis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28920433",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transthyretin (TTR), normally a plasma circulating protein, can become misfolded and aggregated, ultimately leading to extracellular deposition of amyloid fibrils usually targeted to heart or nerve tissues. Referred to as TTR-associated amyloidoses (ATTR), this group of diseases is frequently life threatening and fatal if untreated",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28922609",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hereditary transthyretin amyloidosis is an autosomal dominant inherited disorder, first described in families with sensorimotor and autonomic neuropathy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28802308",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hereditary transthyretin amyloidosis (ATTR) is usually characterised by a progressive peripheral and autonomic neuropathy often with associated cardiac failure and is due to dominantly inherited transthyretin mutations causing accelerated amyloid deposition.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26243339",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:870",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D000686",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D028227",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D028226",
+    "http://www.uniprot.org/uniprot/TTHY_HUMAN",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050638"
+  ],
+  "exact_answer": "Yes"
+}

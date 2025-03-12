@@ -1,0 +1,38 @@
+{
+  "id": "61f938e7882a024a10000049",
+  "type": "yesno",
+  "question": "Is Algenpantucel-L effective for pancreatic cancer?",
+  "ideal_answer": "No. In phase 3 clinical trial Algenpantucel-L immunotherapy did not improve survival in patients with borderline resectable or locally advanced unresectable pancreatic cancer receiving SOC neoadjuvant chemotherapy and chemoradiation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23229886",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33630475"
+  ],
+  "snippets": [
+    {
+      "text": " Median (IQR) overall survival was 14.9 (12.2-17.8) months in the standard group (N=158) and 14.3 (12.6-16.3) months in the experimental group (N = 145) (hazard ratio [HR] 1.02, 95% CI 0.66-1.58; P = 0.98). Median progression-free survival was 13.4 months in the standard group and 12.4 months in the experimental group (HR 1.33, 95% CI 0.72-1.78; P = 0.59). Grade 3 or higher adverse events occurred in 105 of 140 patients (75%) in the standard group and in 115 of 142 patients (81%) in the experimental group (P > 0.05).CONCLUSIONS: Algenpantucel-L immunotherapy did not improve survival in patients with borderline resectable or locally advanced unresectable PDAC receiving SOC neoadjuvant chemotherapy and chemoradiation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33630475",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: The addition of algenpantucel-L to standard adjuvant therapy for resected pancreatic cancer may improve survival. A multi-institutional, phase 3 study is ongoing",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23229886",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: The addition of algenpantucel-L to standard adjuvant therapy for resected pancreatic cancer may improve surviva",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23229886",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: Algenpantucel-L immunotherapy did not improve survival in patients with borderline resectable or locally advanced unresectable PDAC receiving SOC neoadjuvant chemotherapy and chemoradiatio",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33630475",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

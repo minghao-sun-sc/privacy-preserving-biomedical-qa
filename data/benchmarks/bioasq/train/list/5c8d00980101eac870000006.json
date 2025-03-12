@@ -1,0 +1,54 @@
+{
+  "id": "5c8d00980101eac870000006",
+  "type": "list",
+  "question": "List sirtuin inhibitors.",
+  "ideal_answer": "Sirtinol\nnicotinamide (NAM)\nLC-0296\nBZD9L1",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30066578",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29330215",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28254776",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26722027",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29235227",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29659581"
+  ],
+  "snippets": [
+    {
+      "text": " Sirtinol, a commonly employed sirtuin inhibitor",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29235227",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "sirtuin inhibitor nicotinamide",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29330215",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " pan-sirtuin inhibitor nicotinamide (NAM)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29659581",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "of a novel sirtuin inhibitor (BZD9L1) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30066578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Sirtuin inhibitor nicotinamide.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28254776",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A Novel Sirtuin-3 Inhibitor, LC-0296",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26722027",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Sirtinol, nicotinamide (NAM), LC-0296, BZD9L1"
+}

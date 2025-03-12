@@ -1,0 +1,40 @@
+{
+  "id": "5cb38a56ecadf2e73f00005e",
+  "type": "yesno",
+  "question": "Is myc a tumour suppressor gene?",
+  "ideal_answer": "No,\r\nMyc is a proto-oncogene.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28430012",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27880072",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27532209",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28833404"
+  ],
+  "snippets": [
+    {
+      "text": "oncogenic Myc, a master transcription factor that turns on anabolic metabolism to promote cell growth in many cancers. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27532209",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "he MYC oncogene",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27880072",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " the proto-oncogene protein c-MYC",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28430012",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "however, other genes such as the proto-oncogene c-Myc are promising targets for anticancer therapy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28833404",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

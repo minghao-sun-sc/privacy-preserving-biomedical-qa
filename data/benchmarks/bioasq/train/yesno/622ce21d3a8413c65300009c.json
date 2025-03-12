@@ -1,0 +1,26 @@
+{
+  "id": "622ce21d3a8413c65300009c",
+  "type": "yesno",
+  "question": "Is HYDIN (Hydrocephalus-inducing protein homolog) an axonemal protein?",
+  "ideal_answer": "Yes,\nHYDIN is a axonemal protein.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17683645",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17296793"
+  ],
+  "snippets": [
+    {
+      "text": "Hydin was recently identified as an axonemal protein; however, its function is as yet unknown.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17683645",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "precise axonemal location of hydin, a protein that, when mutated, causes hydrocephalus, and defined a unique role for hydin in ciliary motility.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17296793",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

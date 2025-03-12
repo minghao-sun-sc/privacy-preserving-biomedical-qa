@@ -1,0 +1,58 @@
+{
+  "id": "513f4892bee46bd34c000014",
+  "type": "yesno",
+  "question": "Does triiodothyronine (T3) has cardiac angiogenic effects?",
+  "ideal_answer": "T3-induced cardiac sprouting angiogenesis in adult hypothyroid mice was associated with PDGF-BB, PDGFR-\u03b2 and downstream activation of Akt.\nT(3) administration restored TRbeta mRNA expression level in AAC hearts to the control level.\nTRbeta in the coronary ECs regulates capillary density during cardiac development, and down-regulation of TRbeta results in coronary microvascular rarefaction during pathological hypertrophy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20100314",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19074585",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2530972",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22681587",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19286941"
+  ],
+  "snippets": [
+    {
+      "text": "T3-induced cardiac sprouting angiogenesis in adult hypothyroid mice was associated with PDGF-BB, PDGFR-\u03b2 and downstream activation of Akt.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22681587",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "L-T3 significantly increased angiogenesis and cell survival and enhanced the expression of nuclear-encoded transcription factors involved in these processes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20100314",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "T(3) administration restored TRbeta mRNA expression level in AAC hearts to the control level.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19074585",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Rbeta knockout and TRalpha/TRbeta double-knockout mice both exhibited significantly less capillary density in LV compared with wild-type mice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19074585",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "TRbeta in the coronary ECs regulates capillary density during cardiac development, and down-regulation of TRbeta results in coronary microvascular rarefaction during pathological hypertrophy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19074585",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011988",
+    "http://www.biosemantics.org/jochem#4005955",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014284",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0045766",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018919",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0002040",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0045765",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D043924",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D043925",
+    "http://www.biosemantics.org/jochem#4275389"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "5316111fb166e2b806000001",
+  "type": "yesno",
+  "question": "Is oxidative stress affected by FOXO expression?",
+  "ideal_answer": "Yes. In different cell types, induction of forkhead transcription factor FOXO1 was found to increase expression of the mitochondrial antioxidant manganese superoxide dismutase, and lead to suppression of oxidative stress.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16709600",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19842039",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24269635",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22986347"
+  ],
+  "snippets": [
+    {
+      "text": "Forkhead-box class O (FoxO) transcription factors regulate mechanisms of cellular aging, including protein quality control, autophagy and defenses against oxidative stress.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24269635",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Statin-mediated upregulation of klotho expression and differential regulation of FoxO expression promote resistance to CsA-induced oxidative stress.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22986347",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "FoxO expression suppressed the ROS-induced apoptosis in differentiated 3T3-L1 cells via the expression of ROS-scavenging enzymes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19842039",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Differential expression of FOXO1 and FOXO3a confers resistance to oxidative cell death upon endometrial decidualization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16709600",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We demonstrate that human endometrial stromal cells become extraordinarily resistant to oxidative stress-induced apoptosis upon decidualization in response to cAMP and progesterone signaling. This differentiation process is associated with the induction of the forkhead transcription factor FOXO1, which in turn increases the expression of the mitochondrial antioxidant manganese superoxide dismutase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16709600",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Comparative analysis demonstrated that hydrogen peroxide, a source of free radicals, strongly induces FOXO3a mRNA and protein expression in undifferentiated human endometrial stromal cells but not in decidualized cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16709600",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest that the induction of FOXO1 may enhance the ability of decidualized cells to prevent oxidative damage while the simultaneous repression of FOXO3a expression disables the signaling pathway responsible for oxidative cell death. The differential regulation of FOXO expression provides the decidua with a robust system capable of coping with prolonged episodes of oxidative stress during pregnancy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16709600",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/FOXO_DROME",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006979",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0034599",
+    "http://www.uniprot.org/uniprot/FOXO_CAEEL",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:1900407",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018384"
+  ],
+  "exact_answer": "Yes"
+}

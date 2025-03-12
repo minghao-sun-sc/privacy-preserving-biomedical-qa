@@ -1,0 +1,40 @@
+{
+  "id": "605700d294d57fd879000021",
+  "type": "list",
+  "question": "List the major royal jelly proteins in Apis mellifera.",
+  "ideal_answer": "The genome of the western honeybee (Apis mellifera) harbors nine transcribed major royal jelly protein genes (mrjp1-9) which originate from a single-copy precursor via gene duplication.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22571915",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24279675",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31410279",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32042077"
+  ],
+  "snippets": [
+    {
+      "text": "The exposure of nurse bees to pesticides reduced the expression of four of the major royal jelly proteins (MRJP1, MRJP2, MRJP4, and MRJP5) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32042077",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The genome of the western honeybee (Apis mellifera) harbors nine transcribed major royal jelly protein genes (mrjp1-9) which originate from a single-copy precursor via gene duplication. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31410279",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The protein moiety of royal jelly comprises mostly major royal jelly proteins (MRJPs) of which the coding genes (mrjp1-9) have been identified on chromosome 11 in the honeybee's genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24279675",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "five belonged to the family of major royal jelly proteins 1-5",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22571915",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "MRJP1, MRJP2, MRJP3, MRJP4, MRJP5, MRJP6, MRJP7, MRJP8, MRJP9"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "5891c2e7621ea6ff7e00000f",
+  "type": "summary",
+  "question": "Describe the applicability of Basset in the context of deep learning",
+  "ideal_answer": "Basset is an open source package which applies CNNs to learn the functional activity of DNA sequences from genomics data. Basset was trained on a compendium of accessible genomic sites mapped in 164 cell types by DNase-seq, and demonstrated greater predictive accuracy than previous methods. Basset predictions for the change in accessibility between variant alleles were far greater for Genome-wide association study (GWAS) SNPs that are likely to be causal relative to nearby SNPs in linkage disequilibrium with them. With Basset, a researcher can perform a single sequencing assay in their cell type of interest and simultaneously learn that cell's chromatin accessibility code and annotate every mutation in the genome with its influence on present accessibility and latent potential for accessibility. Thus, Basset offers a powerful computational approach to annotate and interpret the noncoding genome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27197224"
+  ],
+  "snippets": [
+    {
+      "text": "Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27197224",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We introduce the open source package Basset to apply CNNs to learn the functional activity of DNA sequences from genomics data. We trained Basset on a compendium of accessible genomic sites mapped in 164 cell types by DNase-seq, and demonstrate greater predictive accuracy than previous methods. Basset predictions for the change in accessibility between variant alleles were far greater for Genome-wide association study (GWAS) SNPs that are likely to be causal relative to nearby SNPs in linkage disequilibrium with them. With Basset, a researcher can perform a single sequencing assay in their cell type of interest and simultaneously learn that cell's chromatin accessibility code and annotate every mutation in the genome with its influence on present accessibility and latent potential for accessibility. Thus, Basset offers a powerful computational approach to annotate and interpret the noncoding genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27197224",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27197224",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000069553",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000069550"
+  ]
+}

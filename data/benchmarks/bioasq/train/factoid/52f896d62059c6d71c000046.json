@@ -1,0 +1,56 @@
+{
+  "id": "52f896d62059c6d71c000046",
+  "type": "factoid",
+  "question": "What memory problems are reported in the \" Gulf war syndrome\"",
+  "ideal_answer": "memory loss",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15251045",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11600803",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9005271",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14515407",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9096828",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11478226"
+  ],
+  "snippets": [
+    {
+      "text": "memory loss",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15251045",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "loss of memory,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14515407",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " loss of memory",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11600803",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "dysmnesia",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11478226",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "memory problems",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9096828",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "\"impaired cognition,\" characterized by problems with attention, memory, and reasoning, as well as insomnia, depression, daytime sleepiness, and headaches",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9005271",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018923"
+  ],
+  "exact_answer": "memory loss"
+}

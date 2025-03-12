@@ -1,0 +1,47 @@
+{
+  "id": "5e6e5d1d51b80c9423000003",
+  "type": "list",
+  "question": "List psychiatric diseases that are associated with Synaptosome Associated Protein 25 (snap25).",
+  "ideal_answer": "attention-deficit/hyperactivity disorder\nbipolar\nschizophrenia",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24885975",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24391914",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27888397",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27582038",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23732542"
+  ],
+  "snippets": [
+    {
+      "text": "In addition, SNAP25, RAB18, FABP5, ARF5 and LDHA, which are related genes to schizophrenia and methamphetamine sensitization,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27582038",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We aimed to study a SNAP-25 gene polymorphism, which is related to many psychiatric diseases, and FMS association in this prospective study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24885975",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Studies have shown a correlation between aberrant expression of the SNAP25 and a variety of brain diseases. Single nucleotide polymorphisms (SNPs) in this gene are associated with several psychiatric diseases, such as bipolar, schizophrenia, and attention-deficit/hyperactivity disorder. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27888397",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Polymorphic variants of the SNAP-25 gene emerged as putative genetic components of impulsivity, as SNAP-25 protein plays an important role in the central nervous system, and its SNPs are associated with several psychiatric disorders.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24391914",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SNAP-25 is a key component of the synaptic-vesicle fusion machinery, involved in several psychiatric diseases including schizophrenia and ADHD",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23732542",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "schizophrenia, attention-deficit/hyperactivity disorder, bipolar"
+}

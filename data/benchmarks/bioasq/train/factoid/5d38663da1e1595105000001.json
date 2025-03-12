@@ -1,0 +1,32 @@
+{
+  "id": "5d38663da1e1595105000001",
+  "type": "factoid",
+  "question": "Which domain of the MOZ/MYST3 protein complex associates with histone H3?",
+  "ideal_answer": "The double PHD finger domain of MOZ/MYST3 induces a-helical structure of the histone H3 tail",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24150941",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19922872"
+  ],
+  "snippets": [
+    {
+      "text": "In conclusion, our data show that Moz regulates H3K9 acetylation at Hox gene loci and that RA can act independently of Moz to establish specific Hox gene expression boundaries.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19922872",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The double PHD finger domain of MOZ/MYST3 induces \u03b1-helical structure of the histone H3 tail to facilitate acetylation and methylation sampling and modification",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24150941",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "ere we report novel insights into histone H3 tail structure in complex with the double PHD finger (DPF) of the lysine acetyltransferase MOZ/MYST3/KAT6A. In addition to sampling H3 and H4 modification status, we show that the DPF cooperates with the MYST domain to promote H3K9 and H3K14 acetylation, although not if H3K4 is trimethylated",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24150941",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "the double PHD finger domain"
+}

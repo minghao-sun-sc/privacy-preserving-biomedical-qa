@@ -1,0 +1,81 @@
+{
+  "id": "55414c65472cfd8617000001",
+  "type": "list",
+  "question": "List available biomedical question answering systems.",
+  "ideal_answer": "We live in an age of access to more information than ever before. The exponential growth in the volume of publications in the biomedical domain has made it impossible for an individual to keep pace with the advances. Thus, there is a need for intelligent information retrieval systems that can summarize relevant and reliable textual sources to satisfy a user's query. Question answering is a specialized type of information retrieval with the aim of returning precise short answers to queries posed as natural language questions. This accentuates the need for fast and accurate biomedical question answering systems. In this paper we introduce INDOC -- a biomedical question answering system based on novel ideas of indexing and extracting the answer to the questions posed. Increased access to information allows for more informed and empowered researchers, while information overload becomes an increasingly serious risk. INDOC displays the results in clusters to help the user arrive the most relevant set of documents quickly. Evaluation was done against the standard OHSUMED test collection. We present a review and comparison of three biomedical question answering systems: askHERMES, EAGLi ( http://eagl.unige.ch/EAGLi/ ), and HONQA ( http://services.hon.ch/cgi-bin/QA10/qa.pl ). ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17990503",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23244628",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18274647"
+  ],
+  "snippets": [
+    {
+      "text": "Question answering is a specialized type of information retrieval with the aim of returning precise short answers to queries posed as natural language questions. We present a review and comparison of three biomedical question answering systems: askHERMES (http://www.askhermes.org/), EAGLi (http://eagl.unige.ch/EAGLi/), and HONQA (http://services.hon.ch/cgi-bin/QA10/qa.pl)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23244628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Question processing and clustering in INDOC: a biomedical question answering system",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18274647",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In this paper we introduce INDOC--a biomedical question answering system based on novel ideas of indexing and extracting the answer to the questions posed. INDOC displays the results in clusters to help the user arrive the most relevant set of documents quickly. Evaluation was done against the standard OHSUMED test collection. Our system achieves high accuracy and minimizes user effort",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18274647",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Question processing and clustering in INDOC: a biomedical question answering system.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18274647",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In this paper we introduce INDOC--a biomedical question answering system based on novel ideas of indexing and extracting the answer to the questions posed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18274647",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present a review and comparison of three biomedical question answering systems: askHERMES (http://www.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23244628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this paper we introduce INDOC--a biomedical question answering system based on novel ideas of indexing and extracting the answer to the questions posed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18274647",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present a review and comparison of three biomedical question answering systems: askHERMES (http://www.askhermes.org/), EAGLi (http://eagl.unige.ch/EAGLi/), and HONQA (http://services.hon.ch/cgi-bin/QA10/qa.pl).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23244628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present a review and comparison of three biomedical question answering systems: askHERMES (http://www.askhermes.org/), EAGLi (http://eagl.unige.ch/EAGLi/), and HONQA (http://services.hon.ch/cgi-bin/QA10/qa.pl).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23244628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this paper we introduce INDOC--a biomedical question answering system based on novel ideas of indexing and extracting the answer to the questions posed",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18274647",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Onelook is a portal for online definitions, and MedQA is a question answering system that automatically generates short texts to answer specific biomedical questions",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17990503",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "askHERMES, EAGLi, HONQA, INDOC"
+}

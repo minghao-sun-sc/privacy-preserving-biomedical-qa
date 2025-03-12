@@ -1,0 +1,46 @@
+{
+  "id": "58da1aa08acda34529000012",
+  "type": "factoid",
+  "question": "Which protein is associated with hyperemesis gravidarum during pregrancy?",
+  "ideal_answer": "Human chorionic gonadotropin (hCG) is associated with hyperemesis gravidarum during pregrancy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25963653",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20735820",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11380287",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21360554"
+  ],
+  "snippets": [
+    {
+      "text": "Maternal smoking, BMI, parity, ethnicity, fetal gender, placental weight and hyperemesis gravidarum symptoms were associated with total hCG. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25963653",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "First trimester maternal serum PAPP-A and free \u03b2-HCG levels in hyperemesis gravidarum.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21360554",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "HG is associated with elevated levels of PAPP-A and free \u03b2-hCG, and such changes are independent of serum indicators of thyroid and liver function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21360554",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "hCG promotes progesterone production by corpus luteal cells; promotes angiogenesis in uterine vasculature; promoted the fusion of cytotrophoblast cell and differentiation to make syncytiotrophoblast cells; causes the blockage of any immune or macrophage action by mother on foreign invading placental cells; causes uterine growth parallel to fetal growth; suppresses any myometrial contractions during the course of pregnancy; causes growth and differentiation of the umbilical cord; signals the endometrium about forthcoming implantation; acts on receptor in mother's brain causing hyperemesis gravidarum, and seemingly promotes growth of fetal organs during pregnancy. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20735820",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014839",
+    "http://www.disease-ontology.org/api/metadata/DOID:1832",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006939",
+    "http://www.disease-ontology.org/api/metadata/DOID:9357",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018997"
+  ],
+  "exact_answer": "Human chorionic gonadotropin, hCG"
+}

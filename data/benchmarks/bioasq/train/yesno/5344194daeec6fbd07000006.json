@@ -1,0 +1,54 @@
+{
+  "id": "5344194daeec6fbd07000006",
+  "type": "yesno",
+  "question": "Is there any relationship between histone ubiquitylation and splicing?",
+  "ideal_answer": "Yes, in the case of histone H2B",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23824326",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19561118",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23209445",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22188810"
+  ],
+  "snippets": [
+    {
+      "text": "histone H2B-specific deubiquitinase and demonstrate that H2B deubiquitination by USP49 is required for efficient cotranscriptional splicing of a large set of exons.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23824326",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "H2B monoubiquitylation (H2BK123ub1) marks introns in Saccharomyces cerevisiae",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22188810",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "H2B ubiquitination by facilitating splicing",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19561118",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "pre-mRNA splicing plays a critical role in histone H2B ubiquitination",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19561118",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "unanticipated functional link between histone H2B ubiquitination and pre-mRNA splicing",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23209445",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012326",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D054875",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D025801",
+    "http://www.uniprot.org/uniprot/UBIQ_CAMDR",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0008380",
+    "http://www.biosemantics.org/jochem#4278518",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016574"
+  ],
+  "exact_answer": "Yes"
+}

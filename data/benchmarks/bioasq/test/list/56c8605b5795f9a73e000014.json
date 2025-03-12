@@ -1,0 +1,63 @@
+{
+  "id": "56c8605b5795f9a73e000014",
+  "type": "list",
+  "question": "Which kinases does baricitinib inhibit?",
+  "ideal_answer": "Baricitinib is an inhibitor of Janus kinase family of enzymes (JAKs) with selectivity for JAK1 and JAK2.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24965573",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25431052",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26137574",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24818516",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23492738"
+  ],
+  "snippets": [
+    {
+      "text": "Reversal of Alopecia Areata Following Treatment With the JAK1/2 Inhibitor Baricitinib.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26137574",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "A patient with AA was enrolled in a clinical trial to examine the efficacy of baricitinib, a JAK1/2 inhibitor, to treat concomitant CANDLE syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26137574",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Baricitinib (also known as LY3009104 or INCB028050), a novel and potent small molecule inhibitor of Janus kinase family of enzymes (JAKs) with selectivity for JAK1 and JAK2, is currently in clinical development for the treatment of rheumatoid arthritis (RA) and other inflammatory disorders.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24965573",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A patient with AA was enrolled in a clinical trial to examine the efficacy of baricitinib, a JAK1/2 inhibitor, to treat concomitant CANDLE syndrome. In vivo, preclinical studies were conducted using the C3H/HeJ AA mouse model to assess the mechanism of clinical improvement by baricitinib.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26137574",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Phase II data for four JAK inhibitors (baricitinib,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24818516",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Positive clinical trial results have also been reported for several other JAK inhibitors including baricitinib. Several other JAK inhibitors and other small molecular entities are also being developed in studies ranging from preclinical models to large clinical trials.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23492738",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/JAK2_PONAB",
+    "http://www.uniprot.org/uniprot/JAK2_PIG",
+    "http://www.uniprot.org/uniprot/JAK2_MOUSE",
+    "http://www.uniprot.org/uniprot/JAK2_CHICK",
+    "http://www.uniprot.org/uniprot/JAK2_RAT",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D053613",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D053612",
+    "http://www.uniprot.org/uniprot/JAK2_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D053614"
+  ],
+  "exact_answer": "JAK1, JAK2"
+}

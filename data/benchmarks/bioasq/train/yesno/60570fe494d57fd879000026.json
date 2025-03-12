@@ -1,0 +1,33 @@
+{
+  "id": "60570fe494d57fd879000026",
+  "type": "yesno",
+  "question": "Is hemoglobin antimicrobial?",
+  "ideal_answer": "Yes,\nBeyond its physiological activity, hemoglobins are able to inhibit the growth of several microorganisms.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32050591",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32504846",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31491713"
+  ],
+  "snippets": [
+    {
+      "text": "the \u03b1137-141 peptide, a natural antimicrobial peptide, can be obtained after hydrolysis of hemoglobin, the main constituent of blood red part",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31491713",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Beyond its physiological activity, hemoglobins are able to inhibit the growth of several microorganisms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32050591",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A novel AMP, T. granosa hemoglobin-derived peptide (TGH1), was identified and its antimicrobial effect",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32504846",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

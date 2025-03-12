@@ -1,0 +1,45 @@
+{
+  "id": "643c88a257b1c7a315000030",
+  "type": "yesno",
+  "question": "Can other vaccines be given with COVID-19 vaccine?",
+  "ideal_answer": "Although there are no data regarding safety and efficacy when COVID-19 vaccines are co-administered with other vaccines, the Centers for Disease Control and Prevention (CDC) has stated that COVID-19 vaccines can be administered at any time in relation to other non-COVID-19 vaccines, and if needed, can be administered on the same day as other vaccines. This is based on the experience with non-COVID-19 vaccines, where the immunogenicity and adverse event profiles were generally similar when vaccines are administered simultaneously or alone.\n\nFurthermore, in a randomized trial, frequency of adverse effects and immunogenicity were largely similar when a COVID-19 vaccine (BNT162b2 or ChAdOx1) was given concomitantly with either an influenza vaccine or placebo.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35417663",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34774197",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34304240"
+  ],
+  "snippets": [
+    {
+      "text": "Concomitant vaccination with ChAdOx1 or BNT162b2 plus an age-appropriate influenza vaccine raises no safety concerns and preserves antibody responses to both vaccines. Concomitant vaccination with both COVID-19 and influenza vaccines over the next immunisation season should reduce the burden on health-care services for vaccine delivery, allowing for timely vaccine administration and protection from COVID-19 and influenza for those in need.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34774197",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "It is unknown if the efficacy of the coronavirus disease-19 (COVID-19) vaccine is affected by the co-administration of other vaccines. The Centers for Disease Control and Prevention (CDC) has shifted their recommendations recently, allowing for the co-administration of the currently available COVID-19 vaccines with other vaccines. This is based on the experience with non-COVID-19 vaccines, where the immunogenicity and adverse event profiles were generally similar when vaccines are administered simultaneously or alone. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34304240",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although the administration of Tdap with COVID-19 vaccine in our case caused delay in immunogenicity, it did not negate the ability of the BNT162B2 mRNA vaccine to elicit an adequate immune response.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34304240",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Concomitant administration of COVID-19 and influenza vaccines could reduce burden on health-care systems. We aimed to assess the safety of concomitant administration of ChAdOx1 or BNT162b2 plus an age-appropriate influenza vaccine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34774197",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this multicentre, randomised, controlled, phase 4 trial, adults in receipt of a single dose of ChAdOx1 or BNT162b2 were enrolled at 12 UK sites and randomly assigned (1:1) to receive concomitant administration of either an age-appropriate influenza vaccine or placebo alongside their second dose of COVID-19 vaccine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34774197",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

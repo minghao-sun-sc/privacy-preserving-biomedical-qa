@@ -1,0 +1,56 @@
+{
+  "id": "531d1998267d7dd053000001",
+  "type": "factoid",
+  "question": "Which is the prognostic impact of hypothyroidism in patients with acute myocardial infarction?",
+  "ideal_answer": "Thyroid dysfunction, particularly low T3 syndrome,  is a strong predictor of short-term and long-term poor prognoses in patients with acute myocardial infarctions.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16330914",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19609889",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23124142",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11747849",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23990180"
+  ],
+  "snippets": [
+    {
+      "text": "In-hospital cardiogenic shock (15% vs 3% in the control group; p<0.01) and death (7% vs 1% in the control group; p<0.01) were more frequently observed in the thyroid dysfunction group. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23990180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thyroid dysfunction, particularly sick euthyroid syndrome, was found to be related to in-hospital and long term mortality in patients with STEMI undergoing primary percutaneous intervention.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23990180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A low fT3 level, a common phenomenon in patients with acute myocardial infarctions, is a strong predictor of short-term and long-term poor prognoses in patients with acute myocardial infarctions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23124142",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Troponin T and creatine kinase-B with an M-type subunit levels were significantly higher in the nonsurvivors when compared with survivors. Survivors in the AMI group had higher TT3, TT4, and lower FT4 levels, while the nonsurvivors in the AMI group had higher thyrotrophin and lower TT3, FT3 and FT4 levels than controls.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16330914",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Reverse T3 levels >0.41 nmol/L were associated with an increased risk of 1-year mortality (hazard ratio = 3.0; 95% confidence interval: 1.4 to 6.3; P = 0.005), independent of age, previous myocardial infarction, prior angina, heart failure, serum creatinine level, and peak serum creatine kinase-MB fraction levels.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11747849",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011379",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056989",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013963",
+    "http://www.disease-ontology.org/api/metadata/DOID:5844",
+    "http://www.disease-ontology.org/api/metadata/DOID:1459",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009203",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007037",
+    "http://www.disease-ontology.org/api/metadata/DOID:9408"
+  ],
+  "exact_answer": "Low T3 Syndrome isassociatedwithpoor prognosis in patients with acute myocardial infarction"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "58ea659c3e8b6dc87c000013",
+  "type": "yesno",
+  "question": "Is Prochlorococcus the most abundant photosynthetic organism?",
+  "ideal_answer": "Yes, the marine cyanobacterium Prochlorococcus is the smallest and most abundant photosynthetic organism on Earth.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25977791",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19549842",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11595938",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25435307"
+  ],
+  "snippets": [
+    {
+      "text": "The marine cyanobacterium Prochlorococcus is the smallest and most abundant photosynthetic organism on Earth.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25435307",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The marine cyanobacterium Prochlorococcus is the numerically dominant photosynthetic organism in the oligotrophic oceans, and a model system in marine microbial ecology.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25977791",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The marine cyanobacterium Prochlorococcus is the most abundant photosynthetic organism in oligotrophic regions of the oceans.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19549842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The oceanic picoplankton Prochlorococcus - probably the most abundant photosynthetic organism on our planet - can grow at great depths where light intensity is very low.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11595938",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

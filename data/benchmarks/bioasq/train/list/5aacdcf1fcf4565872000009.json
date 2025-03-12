@@ -1,0 +1,47 @@
+{
+  "id": "5aacdcf1fcf4565872000009",
+  "type": "list",
+  "question": "List BET proteins.",
+  "ideal_answer": "BRD2\nBRD3\nBRD4\nBdf1",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28068333",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26590112",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25575605",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28063381",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28733670"
+  ],
+  "snippets": [
+    {
+      "text": "Bromodomain-containing protein 2 (Brd2), which belongs to the bromodomain and extraterminal domain family of proteins, suppresses adipocyte differentiation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25575605",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BRD4 is a member of the BET (bromodomain and extraterminal domain) family proteins ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26590112",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the role of the BET protein Bdf1 has been explored in Saccharomyces cerevisiae",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28068333",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BET proteins BRD2, BRD3 and BRD4",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28733670",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " inhibition of Brd4, a BET family member",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28063381",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Brd2, Brd4, Bdf1, Brd3"
+}

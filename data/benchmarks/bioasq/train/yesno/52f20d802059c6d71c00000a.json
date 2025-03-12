@@ -1,0 +1,26 @@
+{
+  "id": "52f20d802059c6d71c00000a",
+  "type": "yesno",
+  "question": "Is the length of the poly(A) tail involved in human disease?",
+  "ideal_answer": "Yes. Severely truncated poly(A) tails of mitochondrial mRNAs were found to be involved in an autosomal recessive spastic ataxia with optic atrophy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20970105"
+  ],
+  "snippets": [
+    {
+      "text": "In human mitochondria, polyadenylation of mRNA, undertaken by the nuclear-encoded mitochondrial poly(A) RNA polymerase, is essential for maintaining mitochondrial gene expression. Our molecular investigation of an autosomal-recessive spastic ataxia with optic atrophy, present among the Old Order Amish, identified a mutation of MTPAP associated with the disease phenotype. When subjected to poly(A) tail-length assays, mitochondrial mRNAs from affected individuals were shown to have severely truncated poly(A) tails.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20970105",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0000289",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D026723",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0060212",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0060213",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0060211",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012333"
+  ],
+  "exact_answer": "Yes"
+}

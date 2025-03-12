@@ -1,0 +1,24 @@
+{
+  "id": "62004003c9dfcb9c09000013",
+  "type": "summary",
+  "question": "Describe the web application VICTOR",
+  "ideal_answer": "VICTOR is a free, dependency-free visual analytics web application that allows the visual comparison of the results of various clustering algorithms. It can handle multiple cluster set results simultaneously and compare them using ten different metrics. Clustering results can be filtered and compared with the use of data tables or interactive heatmaps, bar plots, correlation networks, sankey and circos plots.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34139436"
+  ],
+  "snippets": [
+    {
+      "text": "VICTOR: A visual analytics web application for comparing cluster sets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34139436",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "To automate this process, in this study, we present VICTOR, the first fully interactive and dependency-free visual analytics web application which allows the visual comparison of the results of various clustering algorithms. VICTOR can handle multiple cluster set results simultaneously and compare them using ten different metrics. Clustering results can be filtered and compared to each other with the use of data tables or interactive heatmaps, bar plots, correlation networks, sankey and circos plots. We demonstrate VICTOR's functionality using three examples. In the first case, we compare five different network clustering algorithms on a Yeast protein-protein interaction dataset whereas in the second example, we test four different parameters of the MCL clustering algorithm on the same dataset. Finally, as a third example, we compare four different meta-analyses with hierarchically clustered differentially expressed genes found to be involved in myocardial infarction. VICTOR is available at http://victor.pavlopouloslab.info or http://bib.fleming.gr:3838/VICTOR.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34139436",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

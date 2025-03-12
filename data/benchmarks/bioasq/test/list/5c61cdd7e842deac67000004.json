@@ -1,0 +1,19 @@
+{
+  "id": "5c61cdd7e842deac67000004",
+  "type": "list",
+  "question": "List two medication included in the Juluca pill.",
+  "ideal_answer": "Juluca\u00ae pill includes dolutegravir and rilpivirine. It is the first two-drug single-tablet regimen (STR) to be approved for the treatment of HIV-1 infection in adults.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30406902"
+  ],
+  "snippets": [
+    {
+      "text": "Dolutegravir/rilpivirine (Juluca\u00ae) is the first two-drug single-tablet regimen (STR) to be approved for the treatment of HIV-1 infection in adults.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30406902",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "dolutegravir, rilpivirine"
+}

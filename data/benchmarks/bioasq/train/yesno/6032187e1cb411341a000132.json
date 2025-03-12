@@ -1,0 +1,33 @@
+{
+  "id": "6032187e1cb411341a000132",
+  "type": "yesno",
+  "question": "Are Gram positive bacteria able to release extracellular vesicles?",
+  "ideal_answer": "Yes, Gram-negative and Gram-positive bacteria release a variety of membrane vesicles through different formation routes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31988111",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31675472",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31776460"
+  ],
+  "snippets": [
+    {
+      "text": "Gram-negative and Gram-positive bacteria release a variety of membrane vesicles through different formation routes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31776460",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Release of extracellular vesicles (EVs) is a common feature among eukaryotes, archaea, and bacteria. However, the biogenesis and downstream biological effects of EVs released from gram-positive bacteria remain poorly characterized.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31988111",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Our findings provide new insight into the role of EVs from gram-positive oral bacteria in periodontal diseases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31675472",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

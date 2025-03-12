@@ -1,0 +1,34 @@
+{
+  "id": "569e6c68ca240fa209000001",
+  "type": "summary",
+  "question": "What are the Topological Domains (TADs)?",
+  "ideal_answer": "Topolological domains or TADs are megabase-sized local chromatin interaction domains which are a pervasive structural feature of the genome organization. These domains correlate with regions of the genome that constrain the spread of heterochromatin. The domains are stable across different cell types and highly conserved across species, indicating that topological domains are an inherent property of mammalian genomes. The boundaries of topological domains are enriched for the insulator binding protein CTCF, housekeeping genes, transfer RNAs and short interspersed element (SINE) retrotransposons, indicating that these factors may have a role in establishing the topological domain structure of the genome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25274727",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22495300",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25409831"
+  ],
+  "snippets": [
+    {
+      "text": "We identify large, megabase-sized local chromatin interaction domains, which we term 'topological domains', as a pervasive structural feature of the genome organization. These domains correlate with regions of the genome that constrain the spread of heterochromatin. The domains are stable across different cell types and highly conserved across species, indicating that topological domains are an inherent property of mammalian genomes. Finally, we find that the boundaries of topological domains are enriched for the insulator binding protein CTCF, housekeeping genes, transfer RNAs and short interspersed element (SINE) retrotransposons, indicating that these factors may have a role in establishing the topological domain structure of the genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22495300",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The human genome is segmented into topologically associating domains (TADs), but the role of this conserved organization during transient changes in gene expression is not known",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25274727",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent Hi-C mapping has unveiled substructure within chromatin compartments called topologically associating domains (TADs) that are largely conserved in their positions between cell types and are similar in size to replication domains. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25409831",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002843"
+  ]
+}

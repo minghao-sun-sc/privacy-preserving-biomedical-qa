@@ -1,0 +1,37 @@
+{
+  "id": "51485008d24251bc05000028",
+  "type": "yesno",
+  "question": "Is miR-126 involved in heart failure?",
+  "ideal_answer": "Yes, miR-126 is associated with heart failure.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21157109",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23465244"
+  ],
+  "snippets": [
+    {
+      "text": "he miRNAs miR-126 and miR-508-5p are associated with the outcome of ICM and NICM patients with CHF. These two miRNAs could be useful in the diagnosis of CHF patients, and might provide novel targets for prevention and treatment of CHF.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23465244",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The plasma concentration of miR-126 was negatively correlated with age and NYHA class, and could be a useful biomarker for heart failure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21157109",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In 10 patients with heart failure, plasma concentrations of miR-126 were up-regulated with improvement of the NYHA class from IV to III.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21157109",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006321",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0003015",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006333",
+    "http://www.disease-ontology.org/api/metadata/DOID:114"
+  ],
+  "exact_answer": "Yes"
+}

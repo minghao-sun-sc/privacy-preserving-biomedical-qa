@@ -1,0 +1,84 @@
+{
+  "id": "553fac39c6a5098552000001",
+  "type": "list",
+  "question": "Which genes code for the alpha subunit of the DNA polymerase III in most Firmicutes?",
+  "ideal_answer": "Bacterial DNA polymerase III is the primary complex of DNA replication. In most Firmicutes, which are low-GC, gram-positive bacteria, the alpha subunit of their DNA polymerase III is encoded by polC and dnaE. DnaE is widely conserved in most bacteria, while PolC is present mainly in Firmicutes clade.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20403380",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24899249",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16083981",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22333191",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2499883",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17532183",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24062730"
+  ],
+  "snippets": [
+    {
+      "text": "PolC co-evolves with RNA degradation enzymes that are present only in the A+T-rich Firmicutes clade",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22333191",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bacterial genomes displaying a strong bias between the leading and the lagging strand of DNA replication encode two DNA polymerases III, DnaE and PolC, rather than a single one.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22333191",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SGD, PAS, and polC are all features associated with a group of low-GC, gram-positive bacteria (Firmicutes)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17532183",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PAS is a characteristic of organisms with a heterodimeric DNA polymerase III alpha-subunit constituted by polC and dnaE",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17532183",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bacterial DNA polymerase III, the primary complex of DNA replication, consists of PolC and DnaE. PolC is conserved in Gram-positive bacteria, especially in the Firmicutes with low GC content, whereas DnaE is widely conserved in most Gram-negative and Gram-positive bacteria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24062730",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PolC-PolE DNA polymerases",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20403380",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We conclude that PAS is a characteristic of organisms with a heterodimeric DNA polymerase III alpha-subunit constituted by polC and dnaE, which may play a direct role in the maintenance of SGD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17532183",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, SGD, PAS, and polC are all features associated with a group of low-GC, gram-positive bacteria (Firmicutes)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17532183",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In contrast, PolC co-evolves with RNA degradation enzymes that are present only in the A+T-rich Firmicutes clade, suggesting at least two origins for the degradosome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22333191",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A method for the construction of in frame substitutions in operons: deletion of the essential Escherichia coli holB gene coding for a subunit of the DNA polymerase III holoenzyme.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16083981",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/DPOL3_SULSO",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0003887",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004259",
+    "http://www.uniprot.org/uniprot/DPOL3_SULSH"
+  ],
+  "exact_answer": "dnaE, polC"
+}

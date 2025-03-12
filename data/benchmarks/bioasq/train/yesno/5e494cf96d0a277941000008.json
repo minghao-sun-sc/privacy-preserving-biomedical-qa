@@ -1,0 +1,46 @@
+{
+  "id": "5e494cf96d0a277941000008",
+  "type": "yesno",
+  "question": "Is Nivolumab (Opdivo) a PD-L1 inhibitor?",
+  "ideal_answer": "No, Nivolumab (Opdivo) is a PD-1 inhibitor.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30171077",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27313464",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28833116",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26514815"
+  ],
+  "snippets": [
+    {
+      "text": "Fatal Myocarditis Following Treatment with the PD-1 Inhibitor Nivolumab",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28833116",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " PD-1 inhibitor nivolumab (Opdivo)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28833116",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "programmed cell death protein 1 (PD-1)-blocking antibodies nivolumab or pembrolizumab ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30171077",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "An improvement in the understanding of the role of the immune system in tumor immunosurveillance has led to the development of the programmed death-1 ( PD-1 ) immune checkpoint inhibitor nivolumab ( Opdivo) . ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27313464",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nivolumab (Opdivo(\u00ae); Nivolumab BMS\u2122) was the first programmed death (PD)-1 immune checkpoint inhibitor to be approved for use in advanced, squamous non-small cell lung cancer (NSCLC) following prior chemotherapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26514815",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "515bf6d6298dcd4e51000004",
+  "type": "list",
+  "question": "Which forms of cancer is the Tpl2 gene associated with?",
+  "ideal_answer": "Tpl2/Map3K8, also known as tumor progression locus 2 has been identified as an oncogene, its mutation or overexpression is reported in a variety of human cancers. Types of cancer associated with Tpl2 include skin and epithelial cancers, ADI prostate cancer, gastric and colon adenocarcinomas, colitis-associated cancer (CAC), breast cancer, Hodgkin lymphomas, nasopharyngeal carcinomas and several types of T-cell neoplasias.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15575964",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23457529",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23064365",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21267413",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20935675",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22451924"
+  ],
+  "snippets": [
+    {
+      "text": "These findings establish a mesenchyme-specific role for Tpl2 in the regulation of HGF production and suppression of epithelial tumorigenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23064365",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Tpl2 regulates intestinal myofibroblast HGF release to suppress colitis-associated tumorigenesis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23064365",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Tpl2 ablation promotes intestinal inflammation and tumorigenesis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22451924",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Loss of tumor progression locus 2 (tpl2) enhances tumorigenesis and inflammation in two-stage skin carcinogenesis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20935675",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " Previously identified as an oncogene, its mutation or overexpression is reported in a variety of human cancers",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20935675",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "These studies indicate that Tpl2 may serve more as a tumor suppressor than as an oncogene in chemically induced skin carcinogenesis, with its absence contributing to both tumorigenesis and inflammation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20935675",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:162",
+    "http://www.uniprot.org/uniprot/M3K8_RAT"
+  ],
+  "exact_answer": "Skin cancer, ADI prostate cancer, gastric adenocarcinoma, colon adenocarcinoma, colitis-associated cancer (CAC), breast cancer, Hodgkin lymphoma, nasopharyngeal carcinoma, T-cell neoplasia"
+}

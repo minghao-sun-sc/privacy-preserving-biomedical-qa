@@ -1,0 +1,50 @@
+{
+  "id": "56c8efef5795f9a73e000019",
+  "type": "summary",
+  "question": "What is HOCOMOCO?",
+  "ideal_answer": "HOCOMOCO is a comprehensive collection of human transcription factor binding sites models constructed by integration of binding sequences obtained by both low- and high-throughput methods. HOCOMOCO contains 426 systematically curated TFBS models for 401 human TFs, where 172 models are based on more than one data source.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23175603"
+  ],
+  "snippets": [
+    {
+      "text": "HOCOMOCO: a comprehensive collection of human transcription factor binding sites models.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23175603",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present the Homo sapiens comprehensive model collection (HOCOMOCO, http://autosome.ru/HOCOMOCO/, http://cbrc.kaust.edu.sa/hocomoco/) containing carefully hand-curated TFBS models constructed by integration of binding sequences obtained by both low- and high-throughput methods. To construct position weight matrices to represent these TFBS models, we used ChIPMunk software in four computational modes, including newly developed periodic positional prior mode associated with DNA helix pitch. We selected only one TFBS model per TF, unless there was a clear experimental evidence for two rather distinct TFBS models. We assigned a quality rating to each model. HOCOMOCO contains 426 systematically curated TFBS models for 401 human TFs, where 172 models are based on more than one data source.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23175603",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present the Homo sapiens comprehensive model collection (HOCOMOCO, http://autosome.ru/HOCOMOCO/, http://cbrc.kaust.edu.sa/hocomoco/) containing carefully hand-curated TFBS models constructed by integration of binding sequences obtained by both low- and high-throughput methods",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23175603",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "HOCOMOCO contains 426 systematically curated TFBS models for 401 human TFs, where 172 models are based on more than one data source",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23175603",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "HOCOMOCO: a comprehensive collection of human transcription factor binding sites models",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23175603",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We show that integration of TFBS data from various types of experiments into a single model typically results in the improved model quality probably due to partial correction of source specific technique bias. We present the Homo sapiens comprehensive model collection (HOCOMOCO, http://autosome.ru/HOCOMOCO/, http://cbrc.kaust.edu.sa/hocomoco/) containing carefully hand-curated TFBS models constructed by integration of binding sequences obtained by both low- and high-throughput methods. To construct position weight matrices to represent these TFBS models, we used ChIPMunk software in four computational modes, including newly developed periodic positional prior mode associated with DNA helix pitch. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23175603",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014157"
+  ]
+}

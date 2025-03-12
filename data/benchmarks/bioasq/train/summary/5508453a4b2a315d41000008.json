@@ -1,0 +1,99 @@
+{
+  "id": "5508453a4b2a315d41000008",
+  "type": "summary",
+  "question": "What is the biological role of SERCA2 SUMOylation in cardiac physiology and pathophysiology, such as in heart failure?",
+  "ideal_answer": "Recently, the impact of small ubiquitin-related modifier 1 (SUMO-1) on the regulation and preservation of sarcoplasmic reticulum calcium adenosine triphosphatase (SERCA2a) function was discovered. The small ubiquitin-related modifier (SUMO) can be conjugated to lysine residues of target proteins, and is involved in many cellular processes. SERCA2a is SUMOylated at lysines 480 and 585 and this SUMOylation is essential for preserving SERCA2a ATPase activity and stability in mouse and human cells. The levels of SUMO1 and the SUMOylation of SERCA2a itself were greatly reduced in failing hearts. SUMO-1 gene transfer improved cardiac function supporting the critical role of SUMO-1 in SERCA2a function and underlining the therapeutic potential of SUMO-1 for HF patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23710633",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22679139",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24225946",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21900893"
+  ],
+  "snippets": [
+    {
+      "text": "SERCA2a activity can be regulated at multiple levels of a signaling cascade comprised of phospholamban, protein phosphatase 1, inhibitor-1, and PKC\u03b1. SERCA2 activity is also regulated by post-translational modifications including SUMOylation and acetylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23710633",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The small ubiquitin-related modifier (SUMO) can be conjugated to lysine residues of target proteins, and is involved in many cellular processes. Here we show that SERCA2a is SUMOylated at lysines 480 and 585 and that this SUMOylation is essential for preserving SERCA2a ATPase activity and stability in mouse and human cells. The levels of SUMO1 and the SUMOylation of SERCA2a itself were greatly reduced in failing hearts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21900893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Taken together, our data show that SUMOylation is a critical post-translational modification that regulates SERCA2a function, and provide a platform for the design of novel therapeutic strategies for heart failure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21900893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recently, the impact of small ubiquitin-related modifier 1 (SUMO-1) on the regulation and preservation of sarcoplasmic reticulum calcium adenosine triphosphatase (SERCA2a) function was discovered. The amount of myocardial SUMO-1 is decreased in failing hearts, and its knockdown results in severe heart failure (HF) in mice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24225946",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SUMO-1 gene transfer therefore improved cardiac function and stabilized LV volumes in a large-animal model of HF. These results support the critical role of SUMO-1 in SERCA2a function and underline the therapeutic potential of SUMO-1 for HF patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24225946",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, the initial simple view of a PLN/SERCA regulatory complex has been modified by our recent identification of SUMO, S100 and the histidine-rich Ca-binding protein as regulators of SERCA activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22679139",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The levels of SUMO1 and the SUMOylation of SERCA2a itself were greatly reduced in failing hearts",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21900893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show that SERCA2a is SUMOylated at lysines 480 and 585 and that this SUMOylation is essential for preserving SERCA2a ATPase activity and stability in mouse and human cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21900893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Taken together, our data show that SUMOylation is a critical post-translational modification that regulates SERCA2a function, and provide a platform for the design of novel therapeutic strategies for heart failure",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21900893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SERCA2 activity is also regulated by post-translational modifications including SUMOylation and acetylation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23710633",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The levels of SUMO1 and the SUMOylation of SERCA2a itself were greatly reduced in failing hearts",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21900893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show that SERCA2a is SUMOylated at lysines 480 and 585 and that this SUMOylation is essential for preserving SERCA2a ATPase activity and stability in mouse and human cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21900893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/AT2A2_RAT",
+    "http://www.uniprot.org/uniprot/AT2A2_RABIT",
+    "http://www.uniprot.org/uniprot/AT2A2_FELCA",
+    "http://www.disease-ontology.org/api/metadata/DOID:6000",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016925",
+    "http://www.uniprot.org/uniprot/AT2A2_CHICK",
+    "http://www.uniprot.org/uniprot/AT2A2_HUMAN",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0003301",
+    "http://www.uniprot.org/uniprot/AT2A2_MOUSE",
+    "http://www.uniprot.org/uniprot/AT2A2_PIG",
+    "http://www.uniprot.org/uniprot/AT2A2_CANFA"
+  ]
+}

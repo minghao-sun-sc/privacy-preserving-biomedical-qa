@@ -1,0 +1,33 @@
+{
+  "id": "551d8b3a6b348bb82c000011",
+  "type": "summary",
+  "question": "Where is the angiogenin binding element  located?",
+  "ideal_answer": "Angiogenin binds to CT repeats that are abundant in the nontranscribed region of the ribosomal RNA gene. An angiogenin-binding DNA sequence (CTCTCTCTCTCTCTCTCCCTC) has been identified and designated angiogenin-binding element (ABE).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24122807",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7875314",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12515546",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9413551",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2813401",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3289612"
+  ],
+  "snippets": [
+    {
+      "text": "ANG binds at the upstream control element (UCE) of the promoter and enhances promoter occupancy of RNA Pol I as well as the selectivity factor SL1 components TAFI 48 and TAFI 110. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24122807",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Here we report that angiogenin binds to CT repeats that are abundant in the nontranscribed region of the ribosomal RNA gene. An angiogenin-binding DNA sequence (CTCTCTCTCTCTCTCTCCCTC) has been identified and designated angiogenin-binding element (ABE). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12515546",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004602",
+    "http://www.uniprot.org/uniprot/ANGI_GORGO",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0032311"
+  ]
+}

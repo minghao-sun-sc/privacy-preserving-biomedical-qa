@@ -1,0 +1,67 @@
+{
+  "id": "64163568690f196b5100001b",
+  "type": "list",
+  "question": "What are the most common mutation locations in dystrophin gene in Duchenne muscular dystrophy?",
+  "ideal_answer": "The most common mutation locations in dystrophin gene in Duchenne muscular dystrophy are the distal hotspot exons, specifically exons 47, 48, and 50. Additionally, mutations in the proximal portion of the gene not involving Dp140 have been found to be less severe. Duplications spanning one or more exons are also a common cause of the disease.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35359537",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33531685",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30544634",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33101180",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29771942",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27009627",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35897138"
+  ],
+  "snippets": [
+    {
+      "text": "Distal hotspot exons 47, 48 and 50 were the commonly deleted exons.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35359537",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Duchenne muscular dystrophy (DMD) exon 45-55 deletion (del45-55) has been postulated as a model that could treat up to 60% of DMD patients",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35897138",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We confirmed that del45-55 segregates a high proportion of benign phenotypes, severe cases, and isolated cardiac and cognitive presentations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35897138",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In particular, exons 45-52 constitute a hotspot for DMD mutations. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33531685",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "An exon deletion hotspot, located in exons 45-54, was observed in DMD, and intron 44 was the most frequent deletion starting point (26.5%).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33101180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In-frame exon skipping of dystrophin exons 45-55 represents a significant approach to treating DMD, as a large proportion of patients harbor mutations within this \"hotspot\" region.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29771942",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we provide an update on DMD genotype-phenotype associations using a global DMD database and further provide the rationale for multiple exon skipping development, particularly for exons 45\u207b55 skipping and an emerging therapeutic concept, exons 3\u207b9 skipping.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30544634",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " A deletion of exons 3-9 encompassing a mutational hot spot in the DMD gene was detected, and dystrophin protein expression was \u223c15% that of control level.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27009627",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "exon 45-55, exon 45-54, exon 45-52, exons 47, 48 and 50, exons 3-9, exon 3, exon 3, exon 4, exon 5, exon 6, exon 7, exon 8, exon 9, exon 45, exon 51, exon 44, exon 47, exon 48, exon 49, exon 50, exon 51, exon 55"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "5c78174b7c78d694710000b1",
+  "type": "list",
+  "question": "List search engines used in proteomics.",
+  "ideal_answer": "Mascot\nX!Tandem\nMS-GF\nMS Amanda \nMyriMatch\nComet\nTide\nAndromeda\nOMSSA",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28960077",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29216772",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29993281",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27498275"
+  ],
+  "snippets": [
+    {
+      "text": "We compared the contribution of each of the eight search engines (X!Tandem, MS-GF[Formula: see text], MS Amanda, MyriMatch, Comet, Tide, Andromeda, and OMSSA) integrated in an open-source graphical user interface SearchGUI ( http://searchgui.googlecode.com ) into total result of proteoforms identification and optimized set of engines working simultaneously. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29216772",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " This software is also highly compatible with the identification and quantification results of various frequently used search engines, such as MaxQuant, Proteome Discoverer, or Mascot. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29993281",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " database search engines: Mascot, X!Tandem, and MS-GF+.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27498275",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "applied an integrative approach based on the results obtained from Comet, Mascot, OMSSA, and X!Tandem.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28960077",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Mascot, X!Tandem, MS-GF, MS Amanda, MyriMatch, Comet, Tide, Andromeda, OMSSA"
+}

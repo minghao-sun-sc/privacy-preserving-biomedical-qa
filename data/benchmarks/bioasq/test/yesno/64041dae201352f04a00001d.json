@@ -1,0 +1,39 @@
+{
+  "id": "64041dae201352f04a00001d",
+  "type": "yesno",
+  "question": "Is deucravacitinib effective for psoriasis?",
+  "ideal_answer": "Yes. Deucravacitinib is effective for psoriasis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35025062",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35960487",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35820547"
+  ],
+  "snippets": [
+    {
+      "text": "POETYK PSO-1 and PSO-2 involved 1688 patients with moderate-to-severe psoriasis. After 16\u00a0weeks, in both studies, over 50% of patients treated with deucravacitinib reached PASI75, which was significantly superior to placebo and apremilast. In POETYK PSO-1, these results improved until week 24 and were maintained through week 52, with over 65% of patients achieving PASI75 at this point. A reduction in signs and symptoms was also reported by patients, with greater impact on itch. Deucravacitinib was well tolerated and safe. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35960487",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "INTRODUCTION: Deucravacitinib is an oral, selective tyrosine kinase 2 inhibitor that demonstrated therapeutic benefit in a Phase 2 clinical trial of adults with moderate to severe plaque psoriasis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35025062",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION: Deucravacitinib treatment produced early response and similar trends in improvements across multiple efficacy assessments and QoL in moderate to severe plaque psoriasis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35025062",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION: Deucravacitinib was superior to placebo and apremilast across multiple efficacy endpoints and was well tolerated in moderate to severe psoriasis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35820547",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

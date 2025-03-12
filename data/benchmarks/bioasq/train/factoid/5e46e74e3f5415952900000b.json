@@ -1,0 +1,47 @@
+{
+  "id": "5e46e74e3f5415952900000b",
+  "type": "factoid",
+  "question": "What is the cause of the disease Xeroderma Pigmentosum?",
+  "ideal_answer": "Mutations in the ERCC1 or ERCC4 genes cause a remarkable array of rare inherited human disorders including specific forms of xeroderma pigmentosum. Individuals with NER-defective xeroderma pigmentosum (XP), in which bulky DNA lesions are not efficiently removed, are cancer-prone and suffer neurodegeneration.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28974143",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29403087",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26074087",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29105242",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28676261"
+  ],
+  "snippets": [
+    {
+      "text": "ERCC4 (XPF) encodes a protein that forms a complex with ERCC1 and is required for the 5' incision during nucleotide excision repair. ERCC4 is also FANCQ, illustrating a critical role in interstrand crosslink repair. Pathogenic variants in this gene cause xeroderma pigmentosum,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29105242",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " ERCC4 mutations have been known to cause xeroderma pigmentosum complementation group F (XP-F)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29403087",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Any mutations in XPA cause classical Xeroderma pigmentosum disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28974143",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Individuals with NER-defective xeroderma pigmentosum (XP), in which bulky DNA lesions are not efficiently removed, are cancer-prone and suffer neurodegeneration.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28676261",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mutations in the ERCC1 or ERCC4 genes cause a remarkable array of rare inherited human disorders. These include specific forms of xeroderma pigmentosum,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26074087",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Defective NER, such as mutated ERCC1 or ERCC$ genes"
+}

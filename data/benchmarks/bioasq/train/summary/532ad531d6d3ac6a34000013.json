@@ -1,0 +1,51 @@
+{
+  "id": "532ad531d6d3ac6a34000013",
+  "type": "summary",
+  "question": "What is the basic secondary structure of the variable domains of a typical antibody?",
+  "ideal_answer": "The variable domains of heavy and light chains of antibodies consist of two \u03b2-sheets. The first one is composed of four strands, A, B, E and D, and the second one is composed of six strands, named A', G, F, C, C' and C''. The antigen binding site is formed by the inter-strand links BC, C\u2032C\u2033 and FG from each domain.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18513436",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9502319",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12566463",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3115977",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8683598",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8589603",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15186484",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3929246",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11297418",
+    "http://www.ncbi.nlm.nih.gov/pubmed/402951"
+  ],
+  "snippets": [
+    {
+      "text": "Antibodies are prototypes of multimeric proteins and consist of structurally similar domains. The two variable domains of an antibody (VH and VL) interact through a large hydrophobic interface and can be expressed as covalently linked single-chain Fv (scFv) fragments. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9502319",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Secondary structure formation, measured by H/D-exchange protection, of a mutant scFv fragment of an antibody after short incubation in 6 M guanidinium chloride was shown to be multiphasic. NMR analysis shows that an intermediate with significant proton protection is observed within the dead time of the manual mixing experiments. Subsequently, the folding reaction proceeds via a biphasic reaction and mass spectrometry analyses of the exchange experiments confirm the existence of two parallel pathways. In the presence of cyclophilin, however, the faster of the two phases vanishes (when followed by intrinsic tryptophan fluorescence), while the slower phase is not significantly enhanced by equimolar cyclophilin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9502319",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "e formation of an early intermediate, which shows amide-proton exchange protection, is independent of proline isomerization. Subsequently, a proline cis-trans isomerization reaction in the rapidly formed intermediate, producing 'non-native' isomers, competes with the fast formation of native species. Interface formation in a folding intermediate of the scFv fragment is proposed to prevent the back-isomerization of these prolines from being efficiently catalyzed by cyclophilin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9502319",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " heavy chain variable domains (VH) lacking their light chain (VL) partner are prime candidates for the design of minimum-size immunoreagents. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8589603",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4000002",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017433",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007136",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0042571",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000906"
+  ]
+}

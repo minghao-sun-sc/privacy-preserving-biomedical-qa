@@ -1,0 +1,40 @@
+{
+  "id": "5319a80fb166e2b80600002b",
+  "type": "summary",
+  "question": "What is the role played by mTOR in hypertrophic response and heart failure?",
+  "ideal_answer": "When subjected to pressure overload, mTOR-ablated mice demonstrated an impaired hypertrophic response and accelerated heart failure progression. Thus, mTOR complex 1 signaling plays an important role in myocardial response to stress, to regulate cardiomyocyte viability and heart failure.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20644257"
+  ],
+  "snippets": [
+    {
+      "text": "Myocardial MTOR activity changes during hypertrophy and heart failure (HF).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20644257",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "When subjected to pressure overload, Mtor-ablated mice demonstrated an impaired hypertrophic response and accelerated HF progression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20644257",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results demonstrate a role for the MTORC1 signaling network in the myocardial response to stress. In particular, they highlight the role of 4E-BP1 in regulating cardiomyocyte viability and in HF. Because the effects of reduced MTOR activity were mediated through increased 4E-BP1 inhibitory activity, blunting this mechanism may represent a novel therapeutic strategy for improving cardiac function in clinical HF.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20644257",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:11984",
+    "http://www.uniprot.org/uniprot/MTOR_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D054144",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006321",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006333",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D058570",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009206",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002312",
+    "http://www.disease-ontology.org/api/metadata/DOID:9775"
+  ]
+}

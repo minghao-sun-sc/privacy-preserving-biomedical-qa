@@ -1,0 +1,46 @@
+{
+  "id": "58df73bd38f7f3e93a000001",
+  "type": "yesno",
+  "question": "Is osteocrin expressed exclusively in the bone?",
+  "ideal_answer": "No, Osteocrin (Ostn) has been detected in the bones and the brain.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15923362",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14523025",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27830782",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17951249"
+  ],
+  "snippets": [
+    {
+      "text": "Evolution of Osteocrin as an activity-regulated factor in the primate brain.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27830782",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we use transcriptional profiling of human fetal brain cultures to identify an activity-dependent secreted factor, Osteocrin (OSTN), that is induced by membrane depolarization of human but not mouse neurons.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27830782",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Osteocrin (Ostn) is a recently discovered secreted protein produced by cells of the osteoblast lineage that shows a well conserved homology with members of the natriuretic peptide (NP) family. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17951249",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Osteocrin (Ostn), a bone-active molecule, has been shown in animals to be highly expressed in cells of the osteoblast lineage. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15923362",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Osteocrin, a novel bone-specific secreted protein that modulates the osteoblast phenotype.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14523025",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

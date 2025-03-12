@@ -1,0 +1,79 @@
+{
+  "id": "53175e25b166e2b806000007",
+  "type": "yesno",
+  "question": "Is CHEK2 involved in cell cycle control?",
+  "ideal_answer": "CHEK2 is a key cell cycle control gene encoding a pluripotent kinase that can cause arrest or apoptosis in response to unrepaired DNA damage.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17517688",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16596250",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21956126",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11751432",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23030661",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18024013",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17577921"
+  ],
+  "snippets": [
+    {
+      "text": "Moreover, cell-cycle progression genes [i.e. E2F transcription factor (E2F) family and histone deacetylase ( HDAC )] and DNA-repair genes [i.e. growth arrest and DNA-damage-inducible, gamma ( GADD45G ) family and serine/threonine-protein kinase Chk2 ( CHEK2)] were also increased.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23030661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "As CHEK2 is a cell-cycle master controller, we tested the hypothesis that heterozygosity for the frameshift alteration CHEK2*1100delC is associated with increased risk of malignant melanoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21956126",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the current study, we evaluated the possible associations of seven common variants of the DNA repair and cell cycle control genes BRCA2 and CHEK2 with malignant melanoma (MM).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18024013",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Promotor methylation analysis of key regulatory genes involved in cell cycle control (p14, p15, p16, CHK2), DNA repair (hMLH1), apoptosis (p73, survivin, DAPK), and differentiation (RARb, WT1) was performed by methylation-specific polymerase chain reaction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17577921",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CHEK2 is a key cell cycle control gene encoding a pluripotent kinase that can cause arrest or apoptosis in response to unrepaired DNA damage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17517688",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "High-fidelity maintenance of genomic integrity in eukaryotes is ensured by cell cycle checkpoints and DNA repair. The checkpoint kinase, Chk2, has been implicated in both of these responses. In response to DNA damage, Chk2 is initially phosphorylated at Thr-68, which leads to its full activation. The fully activated Chk2 then phosphorylates downstream substrates of cell cycle control.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16596250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Checkpoint kinase 2 (hCHK2/hCds1) is a tumor suppressor gene involved in cell-cycle control.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11751432",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0000075",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0071850",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D064447",
+    "http://www.uniprot.org/uniprot/CHK2_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D059565",
+    "http://www.uniprot.org/uniprot/CHK2_MOUSE",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0022402",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0031575",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0051726",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0007050",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0071780",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D059447",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0007049",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002453",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0031569",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0007346",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010564"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "5c56bbb107647bbc4b000011",
+  "type": "list",
+  "question": "Which methods have been developed for extracting sequence variants from the literature?",
+  "ideal_answer": "TmVar and nala",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28200120",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23564842"
+  ],
+  "snippets": [
+    {
+      "text": "tmVar: a text mining approach for extracting sequence variants in biomedical literature.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we report tmVar, a text-mining approach based on conditional random field (CRF) for extracting a wide range of sequence variants described at protein, DNA and RNA levels according to a standard nomenclature developed by the Human Genome Variation Society. By doing so, we cover several important types of mutations that were not considered in past studies. Using a novel CRF label model and feature set, our method achieves higher performance than a state-of-the-art method on both our corpus (91.4 versus 78.1% in F-measure) and their own gold standard (93.9 versus 89.4% in F-measure). These results suggest that tmVar is a high-performance method for mutation extraction from biomedical literature.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "nala: text mining natural language mutation mentions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28200120",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " The extraction of sequence variants from the literature remains an important task. Existing methods primarily target standard (ST) mutation mentions (e.g. 'E6V'), leaving relevant mentions natural language (NL) largely untapped (e.g. 'glutamic acid was substituted by valine at residue 6').Results: We introduced three new corpora suggesting named-entity recognition (NER) to be more challenging than anticipated: 28-77% of all articles contained mentions only available in NL. Our new method nala captured NL and ST by combining conditional random fields with word embedding features learned unsupervised from the entire PubMed. In our hands, nala substantially outperformed the state-of-the-art.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28200120",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS\nHere, we report tmVar, a text-mining approach based on conditional random field (CRF) for extracting a wide range of sequence variants described at protein, DNA and RNA levels according to a standard nomenclature developed by the Human Genome Variation Society.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest that tmVar is a high-performance method for mutation extraction from biomedical literature.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS Here, we report tmVar, a text-mining approach based on conditional random field (CRF) for extracting a wide range of sequence variants described at protein, DNA and RNA levels according to a standard nomenclature developed by the Human Genome Variation Society.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "As such, new automatic approaches are greatly needed for extracting different kinds of mutations with high accuracy.<br><b>RESULTS</b>: Here, we report tmVar, a text-mining approach based on conditional random field (CRF) for extracting a wide range of sequence variants described at protein, DNA and RNA levels according to a standard nomenclature developed by the Human Genome Variation Society.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest that tmVar is a high-performance method for mutation extraction from biomedical literature.<br><b>AVAILABILITY</b>: tmVar software and its corpus of 500 manually curated abstracts are available for download at http://www.ncbi.nlm.nih.gov/CBBresearch/Lu/pub/tmVar<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest that tmVar is a high-performance method for mutation extraction from biomedical literature.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we report tmVar, a text-mining approach based on conditional random field (CRF) for extracting a wide range of sequence variants described at protein, DNA and RNA levels according to a standard nomenclature developed by the Human Genome Variation Society.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "tmVar, nala"
+}

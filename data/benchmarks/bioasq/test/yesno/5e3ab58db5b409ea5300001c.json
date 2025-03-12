@@ -1,0 +1,60 @@
+{
+  "id": "5e3ab58db5b409ea5300001c",
+  "type": "yesno",
+  "question": "The LINCS L1000 data set contains gene expression data for drug treated human cells, yes or no?",
+  "ideal_answer": "The Library of Integrated Network-based Cellular Signatures (LINCS) L1000 dataset measures changes in GE before and after treatment of human cells with over 20 000 small-molecule compounds including most of the FDA-approved drugs.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27153606",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29745839",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28413689",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31258549",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27796074",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25609570"
+  ],
+  "snippets": [
+    {
+      "text": " Library of Integrated Network-based Cellular Signatures (LINCS) L1000 dataset that measured changes in GE before and after treatment of human cells with over 20 000 small-molecule compounds including most of the FDA-approved drugs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27153606",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Library of Integrated Network-based Cellular Signatures (LINCS) L1000 big data provide gene expression profiles induced by over 10\u2009000 compounds, shRNAs, and kinase inhibitors using the L1000 platform.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25609570",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Library of Integrated Cellular Signatures (LINCS) project provides comprehensive transcriptome profiling of human cell lines before and after chemical and genetic perturbations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27796074",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Recently, resources such as the Library of Integrated Network-Based Cellular Signatures (LINCS) L1000 database provide gene expression profiles induced by various chemical and genetic perturbations",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29745839",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The library of integrated network-based cellular signatures (LINCS) L1000 data set currently comprises of over a million gene expression profiles of chemically perturbed human cell lines.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28413689",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The LINCS L1000 data repository contains almost two million gene expression profiles for thousands of small molecules and drugs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31258549",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The GE data is from the Library of Integrated Network-based Cellular Signatures (LINCS) L1000 dataset that measured changes in GE before and after treatment of human cells with over 20 000 small-molecule compounds including most of the FDA-approved drugs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27153606",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

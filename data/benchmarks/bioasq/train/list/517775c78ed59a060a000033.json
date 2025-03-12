@@ -1,0 +1,72 @@
+{
+  "id": "517775c78ed59a060a000033",
+  "type": "list",
+  "question": "List some ways to reverse Tau hyperphosphorylation in Tauopathies?",
+  "ideal_answer": "Different ways have been used to try to reverse Tau hyperphosphorylation through administration of inhibitors such as: 7-nitroindazole,  memantine, glycogen synthase kinase-3 inhibitors. \nOther approaches are transplantation of Human umbilical cord blood-derived mesenchymal stem cells and administration of M1 muscarinic agonists.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12212772",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16806196",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20471717",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16687499",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18755209"
+  ],
+  "snippets": [
+    {
+      "text": "tau hyperphosphorylation were dramatically reduced in hUCB-MSC transplanted APP/PS1 mice",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20471717",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Administration of 7-nitroindazole to CMS-exposed old rats significantly (p=0.002) increased GAD activity, decreased glutamate levels (7.19+/-3.19 vs. 763.9+/-91 micromol/g tissue protein; p=0.0005), and decreased phosphorylation of tau proteins compared to CMS exposed rats.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18755209",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Changes in glutamate decarboxylase enzyme activity and tau-protein phosphorylation in the hippocampus of old rats exposed to chronic mild stress: reversal with the neuronal nitric oxide synthase inhibitor 7-nitroindazole.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18755209",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Involvement of I2PP2A in the abnormal hyperphosphorylation of tau and its reversal by Memantine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16806196",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Full reversal of Alzheimer's disease-like phenotype in a mouse model with conditional overexpression of glycogen synthase kinase-3.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16687499",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we show that transgene shutdown in symptomatic mice leads to normal GSK-3 activity, normal phospho-tau levels, diminished neuronal death, and suppression of the cognitive deficit, thus further supporting the potential of GSK-3 inhibitors for AD therapeutics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16687499",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "These effects can be combined with the beneficial effects of these compounds on some other major hallmarks of Alzheimer's disease (AD) (e.g. tau hyperphosphorylation and paired helical filaments [PHF]; and loss of cholinergic function conducive to cognitive impairments.)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12212772",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The M1 muscarinic agonists AF102B (Cevimeline, EVOXACTM: prescribed in USA and Japan for Sjogren's Syndrome), AF150(S) and AF267B--1) are neurotrophic and synergistic with neurotrophins such as nerve growth factor and epidermal growth factor; 2) elevate the non-amyloidogenic amyloid precursor protein (alpha-APPs) in vitro and decrease beta-amyloid (A beta) levels in vitro and in vivo; and 3) inhibit A beta- and oxidative-stress-induced cell death and apoptosis in PC12 cells transfected with the M1 muscarinic receptor",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12212772",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/TAU_MOUSE",
+    "http://www.uniprot.org/uniprot/TAU_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D010766",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0042327",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0016310",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016875"
+  ],
+  "exact_answer": "Human umbilical cord blood-derived mesenchymal stem cells (hUCB-MSC) transplantation, Administration of 7-nitroindazole  (neuronal nitric oxide synthase inhibitor), Administration of Memantine  (un-competitive inhibitor of N-methyl-D-aspartate receptors), Administration glycogen synthase kinase-3  (GSK-3) inhibitors, Administration of M1 muscarinic agonists such as AF150(S) and AF267B"
+}

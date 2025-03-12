@@ -1,0 +1,45 @@
+{
+  "id": "5d38577b7bc3fee31f000017",
+  "type": "factoid",
+  "question": "What is the main difference between nascent and mature chromatin?",
+  "ideal_answer": "Nascent chromatin is created after transcription and is mostly lacking histone modifications and H1, which makes it more prone to digestion by DNaseI.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/6226660",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7171565",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1893943"
+  ],
+  "snippets": [
+    {
+      "text": "Maturation of nucleosomal and nonnucleosomal components of nascent chromatin: differential requirements for concurrent protein synthesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7171565",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "this class of nascent chromatin exhibits a shortened repeat length of approximately 165 bp, as opposed to the 288-bp repeat of bulk chromatin. Within 10 min of DNA synthesis, the spacing of mature chromatin is established; the spacing maturation can occur in the absence of protein synthesis. The second class of nascent DNA is distinguished from the nucleosomal component by its insolubility, lack of discernible nucleosomal organization, and dependence on protein synthesis to attain typical subunit structure",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7171565",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Like normal nascent chromatin, chromatin labeled for brief periods (0.5-1 min) in the presence of butyrate was more sensitive to digestion with DNase I and micrococcal nuclease than control bulk chromatin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/6226660",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Incubation of mature chromatin in butyrate for 1 h did not induce DNase I sensitivity: therefore, the presence of sodium butyrate was required during replication to preserve the increased digestibility of nascent chromatin DNA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/6226660",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In a previous study (Perry and Annunziato, Nucleic Acids Res. 17, 4275 [1989]) it was shown that when replication occurs in the presence of sodium butyrate (thereby inhibiting histone deacetylation), nascent chromatin fails to mature fully and instead remains preferentially sensitive to DNaseI, more soluble in magnesium, and depleted of histone H1 (relative to mature chromatin).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1893943",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "lack of H1"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "5c5f11c31a4c55d80b000015",
+  "type": "list",
+  "question": "List proteins interacting with Star-PAP",
+  "ideal_answer": "Phosphorylation regulates the Star-PAP-PIPKI\u03b1 interaction and directs specificity toward mRNA targets.\nStar-PAP directly associated with cleavage and polyadenylation specificity factor (CPSF) 160 and 73 subunits and also the targeted pre-mRNA.\nwe show that Larp7 interacts with a poly(A) polymerase Star-PAP to maintain Lin28 mRNA stability.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21102410",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24768001",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26138484",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18288197"
+  ],
+  "snippets": [
+    {
+      "text": "Star-PAP and PIPKIalpha function together in a complex",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18288197",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Phosphorylation regulates the Star-PAP-PIPKI\u03b1 interaction and directs specificity toward mRNA targets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26138484",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": ", we show that Larp7 interacts with a poly(A) polymerase Star-PAP to maintain Lin28 mRNA stability. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24768001",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Star-PAP directly associated with cleavage and polyadenylation specificity factor (CPSF) 160 and 73 subunits and also the targeted pre-mRNA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21102410",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "PIPKI\u03b1, CPSF 160, CPSF 73, Larp7"
+}

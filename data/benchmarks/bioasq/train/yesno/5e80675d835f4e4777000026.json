@@ -1,0 +1,47 @@
+{
+  "id": "5e80675d835f4e4777000026",
+  "type": "yesno",
+  "question": "Is SARS virus interacting with ACE2 encoded protein?",
+  "ideal_answer": "Yes,\nThe infection of target cells by the SARS CoV is mediated through the interaction of the viral Spike (S) protein (1255 amino acids) and its cellular receptor, angiotensin-converting enzyme 2 (ACE2).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26487711",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27082314",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29190287",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30356097",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30102747"
+  ],
+  "snippets": [
+    {
+      "text": "The trimeric SARS coronavirus (SARS-CoV) surface spike (S) glycoprotein consisting of three S1-S2 heterodimers binds the cellular receptor angiotensin-converting enzyme 2 (ACE2) and mediates fusion of the viral and cellular membranes through a pre- to postfusion conformation transition",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30102747",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The viral spike glycoprotein (S) utilizes angiotensin-converting enzyme 2 (ACE2) as a host protein receptor and mediates fusion of the viral and host membranes, making S essential to viral entry into host cells and host species tropism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30356097",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cell entry studies demonstrated that three newly identified SARSr-CoVs with different S protein sequences are all able to use human ACE2 as the receptor",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29190287",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Angiotensin-converting enzyme 2 (ACE2), a relatively new member of the RAS, has drawn extensive attention since 2003, because of the findings that ACE2 is the receptor for SARS Corona virus and that maintenance of normal ACE2 levels in the lung is beneficial for the host to combat inflammatory lung disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27082314",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The infection of target cells by the SARS CoV is mediated through the interaction of the viral Spike (S) protein (1255 amino acids) and its cellular receptor, angiotensin-converting enzyme 2 (ACE2).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26487711",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

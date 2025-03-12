@@ -1,0 +1,42 @@
+{
+  "id": "52f124a12059c6d71c000006",
+  "type": "summary",
+  "question": "What is the molecular pathogenesis of Spinal Muscular Atrophy?",
+  "ideal_answer": "Spinal muscular atrophy is an autosomal recessive neurodegenerative disease characterised by degeneration of spinal cord motor neurons, atrophy of skeletal muscles, and generalised weakness. It is caused by homozygous disruption of the survival motor neuron 1 (SMN1) gene by deletion, conversion, or mutation, resulting in downregulated biogenesis of uridine-rich small nuclear RNAs (U snRNAs), which are major components of the splicing machinery.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18572081",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24112438",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23740936"
+  ],
+  "snippets": [
+    {
+      "text": "A mouse model of spinal muscular atrophy, in which the number of Gems is decreased, shows fewer subsets U snRNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24112438",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TDP-43 associates with nuclear bodies including Gemini of coiled bodies (GEMs). GEMs contribute to the biogenesis of uridine-rich small nuclear RNA (U snRNA), a component of splicing machinery. The number of GEMs and a subset of U snRNAs decrease in spinal muscular atrophy, a lower motor neuron disease,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23740936",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Spinal muscular atrophy is an autosomal recessive neurodegenerative disease characterised by degeneration of spinal cord motor neurons, atrophy of skeletal muscles, and generalised weakness. It is caused by homozygous disruption of the survival motor neuron 1 (SMN1) gene by deletion, conversion, or mutation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18572081",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:0050530",
+    "http://www.disease-ontology.org/api/metadata/DOID:0060160",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014897",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050529",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009134",
+    "http://www.disease-ontology.org/api/metadata/DOID:12377",
+    "http://www.disease-ontology.org/api/metadata/DOID:12376",
+    "http://www.disease-ontology.org/api/metadata/DOID:318",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D055533"
+  ]
+}

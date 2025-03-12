@@ -1,0 +1,89 @@
+{
+  "id": "5c960d88ecadf2e73f00001f",
+  "type": "yesno",
+  "question": "Tocilizumab is an anti-TNF antibody, yes or no?",
+  "ideal_answer": "Tocilizumab (TCZ) is a humanized monoclonal antibody against IL-6\u00a0receptor licensed in 2009 that has demonstrated clinical efficacy in various adult RA populations.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22431927",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19882783",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24286116",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21949922",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20979549",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24741293",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26751942",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19368420",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28401573",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29495891",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21234291"
+  ],
+  "snippets": [
+    {
+      "text": "was treated with tocilizumab, an anti-interleukin-6 receptor monoclonal antibody ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28401573",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tocilizumab (TCZ) is a humanized monoclonal antibody against IL-6\u00a0receptor licensed in 2009 that has demonstrated clinical efficacy in various adult RA populations. RA management guidelines and recommendations consider TCZ as one of the bDMARDS indicated after methotrexate or other conventional synthetic DMARDs and/or TNF inhibitors failure in adult RA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29495891",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tocilizumab (RoActemra or Actemra) is a recombinant humanized monoclonal antibody that acts as an interleukin (IL)-6 receptor antagonist.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19368420",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "METHODS\nPatients (n = 93) were treated with an anti-IL-6 receptor antibody (tocilizumab) or TNF-\u03b1 inhibitors for 16 weeks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24286116",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The recent development of biological agents, namely, anti-tumour necrosis factor alpha (TNF-\u03b1) agents (infliximab, adalimumab and etanercept), anti- CD20 monoclonal antibody (rituximab) and anti-interleukin 6 receptor (IL-6R) monoclonal antibody (tocilizumab), represents a major breakthrough for the treatment of immune-mediated disorders.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26751942",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recently, an anti-IL-6 receptor monoclonal antibody, tocilizumab, has been licensed for the treatment as monotherapy or in combination with methotrexate of moderate to severe RA, when disease modifying anti-rheumatic drugs or anti-tumour necrosis factors (TNF) have failed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21949922",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tocilizumab is a monoclonal humanized anti-IL-6-receptor antibody used for the treatment of rheumatoid arthritis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22431927",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Indeed, worldwide clinical trials of TNF inhibiting biologic disease modifying antirheumatic drugs (bDMARDs) including infliximab, adalimumab, golimumab, certolizumab pegol, and etanercept as well as the humanized anti-human IL-6 receptor antibody, tocilizumab, have demonstrated outstanding clinical efficacy and tolerable safety profiles, resulting in worldwide approval for using these bDMARDs to treat moderate to severe active RA in patients with an inadequate response to synthetic disease modifying antirheumatic drugs (sDMARDs).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24741293",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tocilizumab is a humanized anti-IL-6 receptor monoclonal antibody, which binds to circulating soluble IL-6 receptor and membrane-expressed IL-6 receptor, inhibiting IL-6 binding to both forms of IL-6 receptor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20979549",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Subsequent options include a TNF-alpha antagonist, followed by rituximab or possibly abatacept; (2) Tocilizumab, a monoclonal antibody, inhibits interleukin-6 receptors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19882783",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tocilizumab (TCZ) is a monoclonal antibody which inhibits the interleukin-6 receptor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21234291",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

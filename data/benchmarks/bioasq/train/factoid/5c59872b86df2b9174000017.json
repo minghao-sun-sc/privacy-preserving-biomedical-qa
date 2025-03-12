@@ -1,0 +1,25 @@
+{
+  "id": "5c59872b86df2b9174000017",
+  "type": "factoid",
+  "question": "Which tool has been developed for coverage calculation for genomes?",
+  "ideal_answer": "Mosdepth is a command-line tool for rapidly calculating genome-wide sequencing coverage. It measures depth from BAM or CRAM files at either each nucleotide position in a genome or for sets of genomic regions. Genomic regions may be specified as either a BED file to evaluate coverage across capture regions, or as a fixed-size window as required for copy-number calling. Mosdepth uses a simple algorithm that is computationally efficient and enables it to quickly produce coverage summaries.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29096012"
+  ],
+  "snippets": [
+    {
+      "text": "Mosdepth: quick coverage calculation for genomes and exomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29096012",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Mosdepth is a new command-line tool for rapidly calculating genome-wide sequencing coverage. It measures depth from BAM or CRAM files at either each nucleotide position in a genome or for sets of genomic regions. Genomic regions may be specified as either a BED file to evaluate coverage across capture regions, or as a fixed-size window as required for copy-number calling. Mosdepth uses a simple algorithm that is computationally efficient and enables it to quickly produce coverage summaries. We demonstrate that mosdepth is faster than existing tools and provides flexibility in the types of coverage profiles produced.Availability and implementation: mosdepth is available from https://github.com/brentp/mosdepth under the MIT license.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29096012",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Mosdepth"
+}

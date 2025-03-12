@@ -1,0 +1,56 @@
+{
+  "id": "531376c8e3eabad021000012",
+  "type": "list",
+  "question": "which mutations of phospholamban gene have been found to cause hypertrophic cardiomyopathy?",
+  "ideal_answer": "The following mutations of the phospholamban gene have been found to be associated with hypertrophic cardiomyopathy: PLN L39X nonsense mutation; PLN Leu39Ter; PLN -42 C>G  and PLN -77A-->G",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17655857",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21167350",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16829191",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12705874"
+  ],
+  "snippets": [
+    {
+      "text": "one L39X nonsense mutation was identified in 1 of 1,064 HCM proband cases with a family history of HCM, previously found to be negative for the current HCM genetic test panel. This mutation cosegregated with incidence of HCM in a multigenerational family.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21167350",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The PLN -42 C>G mutation was found in one patient with late onset familial apical hypertrophic cardiomyopathy. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16829191",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The PLN -42 C>G mutation is associated with a benign form of apical hypertrophic cardiomyopathy in this family, though the presence of a healthy adult carrier suggests that other genetic and environmental factors could be involved. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16829191",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We found a heterozygous single nucleotide transition from A to G at -77-bp upstream of the transcription start site in the phospholamban promoter region of one patient with familial hypertrophic cardiomyopathy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12705874",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using neonatal rat cardiomyocytes, the mutation, -77A-->G, increased the phospholamban promoter activity. No nucleotide change in the phospholamban coding region was found in 99 patients with cardiomyopathy. We suspect that the mutation plays an important role in the development of hypertrophic cardiomyopathy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12705874",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Two novel mutations in the CALR3 gene were identified (Lys82Arg, Arg73Gln) and one truncation mutation in the PLN gene (Leu39Ter). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17655857",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002312",
+    "http://www.uniprot.org/uniprot/PPLA_CANFA",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009154"
+  ],
+  "exact_answer": "PLN L39X nonsense mutation, PLN Leu39Ter, PLN -42 C>G, PLN -77A-->G"
+}

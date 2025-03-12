@@ -1,0 +1,44 @@
+{
+  "id": "5e290a268b3851296d00000d",
+  "type": "yesno",
+  "question": "Is palbociclib effective for glioblastoma?",
+  "ideal_answer": "No. In a clinical trial palbociclib monotherapy was not an effective treatment for recurrent glioblastoma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30151703",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29726787"
+  ],
+  "snippets": [
+    {
+      "text": "Although further research is needed, cyclin-dependent kinase 4/6 inhibitors represent intriguing developments in the treatment of various malignancies, including those with such poor prognoses as glioblastoma multiforme, mantle cell lymphoma, and metastatic melanoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29726787",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION: In this trial, despite adequate tissue PK, palbociclib monotherapy was not an effective treatment for recurrent glioblastoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30151703",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION\n\nIn this trial, despite adequate tissue PK, palbociclib monotherapy was not an effective treatment for recurrent glioblastoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30151703",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION In this trial, despite adequate tissue PK, palbociclib monotherapy was not an effective treatment for recurrent glioblastoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30151703",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION\nIn this trial, despite adequate tissue PK, palbociclib monotherapy was not an effective treatment for recurrent glioblastoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30151703",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

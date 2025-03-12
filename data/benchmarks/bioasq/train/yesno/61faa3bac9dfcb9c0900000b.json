@@ -1,0 +1,45 @@
+{
+  "id": "61faa3bac9dfcb9c0900000b",
+  "type": "yesno",
+  "question": "Was ALVAC-HIV effective for HIV prevention in the HVTN 702 trial?",
+  "ideal_answer": "No. The ALVAC-gp120 regimen did not prevent HIV-1 infection among participants in South Africa despite previous evidence of immunogenicity",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33761206",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32554928",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34029515"
+  ],
+  "snippets": [
+    {
+      "text": "During the 24-month follow-up, HIV-1 infection was diagnosed in 138 participants in the vaccine group and in 133 in the placebo group (hazard ratio, 1.02; 95% confidence interval, 0.81 to 1.30; P\u2009=\u20090.84).CONCLUSIONS: The ALVAC-gp120 regimen did not prevent HIV-1 infection among participants in South Africa despite previous evidence of immunogenicity. (HVTN 702 ClinicalTrials.gov number, NCT02968849.).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33761206",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The advanced-phase HIV prevention vaccine trials done in South Africa (HVTN 702) and in Thailand (RV144), which both investigated canarypox vectors and adjuvanted gp120 proteins, gave rise to different results. The South African trial did not find vaccine efficacy, whereas the Thai trial had modest, but statistically significant, success with the modified intention-to-treat analysis prespecified in the protocols of both studies. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34029515",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, with the recent failure of the HVTN 702 clinical trial, comprehensive profiling of humoral immune responses may provide insight for these disappointing results. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32554928",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A canarypox-protein HIV vaccine regimen (ALVAC-HIV plus AIDSVAX B/E) showed modest efficacy in reducing infection in Thailand.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33761206",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "e vaccine and placebo groups. During the 24-month follow-up, HIV-1 infection was diagnosed in 138 participants in the vaccine group and in 133 in the placebo group (hazard ratio, 1.02; 95% confidence interval, 0.81 to 1.30; P\u2009=\u20090.84).CONCLUSIONS: The ALVAC-gp120 regimen did not prevent HIV-1 infection among participants in South Africa d",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33761206",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

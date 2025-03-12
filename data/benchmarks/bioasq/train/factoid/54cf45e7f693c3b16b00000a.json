@@ -1,0 +1,70 @@
+{
+  "id": "54cf45e7f693c3b16b00000a",
+  "type": "factoid",
+  "question": "Which is the main calcium binding protein of the sarcoplasmic reticulum?",
+  "ideal_answer": "Calsequestrin is the major calcium-binding protein of cardiac and skeletal muscles whose function is to sequester Ca(2+ )in the lumen of the sarcoplasmic reticulum (SR).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11058082",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19278523",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14715535",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16571864",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19230141",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1860177",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16477617",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24025332"
+  ],
+  "snippets": [
+    {
+      "text": "Calsequestrin (CS) is the low-affinity, high-capacity calcium binding protein segregated to the lumen of terminal cisternae (TC) of the sarcoplasmic reticulum (SR).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16571864",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "human cardiac calsequestrin (CASQ2), a high-capacity calcium-binding protein located in the sarcoplasmic reticulum (SR),",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14715535",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Calsequestrin is the major calcium-binding protein of cardiac and skeletal muscles whose function is to sequester Ca(2+ )in the lumen of the sarcoplasmic reticulum (SR).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11058082",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Calsequestrin is a calcium-binding protein known to sequester calcium accumulated in the sarcoplasmic reticulum (SR) of muscle cells during relaxation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1860177",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Calsequestrin (CASQ) is the major component of the sarcoplasmic reticulum (SR) lumen in skeletal and cardiac muscles. This calcium-binding protein localizes to the junctional SR (jSR) cisternae, where it is responsible for the storage of large amounts of Ca(2+)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24025332",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SR calcium-regulatory proteins: (1) luminal calcium-binding proteins (calsequestrin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16477617",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Calsequestrin, the main calcium buffer in the sarcoplasmic reticulum, provides a pool of calcium for release through the RyR and acts as a luminal calcium sensor for the channel via its interactions with triadin and junctin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19278523",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Calsequestrin, the main calcium buffer in the sarcoplasmic reticulum, provides a pool of calcium for release through the ryanodine receptor and acts as a luminal calcium sensor for the channel via its interactions with triadin and junctin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19230141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016529"
+  ],
+  "exact_answer": "Calsequestrin, casq"
+}

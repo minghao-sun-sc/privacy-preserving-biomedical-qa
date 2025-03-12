@@ -1,0 +1,95 @@
+{
+  "id": "56c3326750c68dd41600000b",
+  "type": "list",
+  "question": "Which histone modifications are correlated with transcription elongation?",
+  "ideal_answer": "This is accompanied by reductions in the level of H3K36 trimethylation, a posttranslational histone modification associated with efficient transcriptional elongation, and the number of full-length transcripts from these genes. The 3' ZNF exons contain H3K36me3, a mark of transcriptional elongation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21347206",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19365074",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20139424",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23401853",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22876190",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24722509",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24600005"
+  ],
+  "snippets": [
+    {
+      "text": " This is accompanied by reductions in the level of H3K36 trimethylation, a posttranslational histone modification associated with efficient transcriptional elongation, and the number of full-length transcripts from these genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24600005",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Also like BUR kinase and the PAF complex, the Spt5 CTR is important for histone H2B K123 monoubiquitination and histone H3 K4 and K36 trimethylation during transcription elongation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19365074",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A positive feedback loop links opposing functions of P-TEFb/Cdk9 and histone H2B ubiquitylation to regulate transcript elongation in fission yeas",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22876190",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " Mono-ubiquitylation of histone H2B (H2Bub1) plays a key role in coordinating co-transcriptional histone modification by promoting site-specific methylation of histone H3",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22876190",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We further characterized the histone modifications at the 3' ZNF exons and found that these regions also contain H3K36me3, a mark of transcriptional elongation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21347206",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To test the hypothesis that the contradictory modifications are due to imprinting, we used a SNP analysis of RNA-seq data to demonstrate that both alleles of certain ZNF genes having H3K9me3 and H3K36me3 are transcribed. We next analyzed isolated ZNF 3' exons using stably integrated episomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21347206",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Set2-mediated H3 Lys(36) methylation is a histone modification that has been demonstrated to function in transcriptional elongation by recruiting the Rpd3S histone deacetylase complex to repress intragenic cryptic transcription.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20139424",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Overall, our results show and suggest that multiple H4, H2A, and H3 residues contribute to and form a Set2 docking/recognition site on the nucleosomal surface so that proper Set2-mediated H3 Lys(36) di- and trimethylation, histone acetylation, and transcriptional elongation can occur.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20139424",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sp3 depletion correlated with increased H3K36me3 and H2Bub1, two histone modifications associated with transcription elongation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23401853",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using a SIR-regulated heat shock-inducible transgene, hsp82-2001, and a natural drug-inducible subtelomeric gene, YFR057w, as models we demonstrate that substantial transcriptional induction (&gt;200-fold) can occur in the context of restricted histone loss and negligible levels of H3K4 trimethylation, H3K36 trimethylation and H3K79 dimethylation, modifications commonly linked to transcription initiation and elongation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24722509",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sp3 depletion correlated with increased H3K36me3 and H2Bub1, two histone modifications associated with transcription elongation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23401853",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sp3 depletion correlated with increased H3K36me3 and H2Bub1, two histone modifications associated with transcription elongation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23401853",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0016570",
+    "http://www.biosemantics.org/jochem#4278518",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D042421"
+  ],
+  "exact_answer": "H3K36me3"
+}

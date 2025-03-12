@@ -1,0 +1,29 @@
+{
+  "id": "53175e9fb166e2b80600000a",
+  "type": "factoid",
+  "question": "What is the physiological role of LKB1 involved in Peutz-Jeghers syndrome?",
+  "ideal_answer": "LKB1 plays a physiological role in controlling the Wnt-signaling.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20020146"
+  ],
+  "snippets": [
+    {
+      "text": "Recent functional genetic studies have pointed out that LKB1 plays a physiological role in controlling the Wnt-signaling pathway and activation of the pathway as a consequence of LKB1 haploinsufficiency might be responsible for the development of harmatomatous polyps.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20020146",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PJS polyps from all patients showed generalized membrane and cytoplasmic localizations of beta-catenin along the mucosal endothelium.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20020146",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/STK11_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D010580",
+    "http://www.disease-ontology.org/api/metadata/DOID:3852"
+  ],
+  "exact_answer": "LKB1 plays a physiological role in controlling the Wnt-signaling."
+}

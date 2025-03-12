@@ -1,0 +1,32 @@
+{
+  "id": "5ac28c0c95d006272400000a",
+  "type": "summary",
+  "question": "What is the basis of the Sp3 procedure used in proteomics?",
+  "ideal_answer": "SP3, a novel technology for proteomic sample preparation using magnetic beads. SP3 provides a rapid and unbiased means of proteomic sample preparation in a single tube that facilitates ultrasensitive analysis by outperforming existing protocols in terms of efficiency, scalability, speed, throughput, and flexibility.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25358341",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28948796",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27215607"
+  ],
+  "snippets": [
+    {
+      "text": "single-pot solid-phase-enhanced sample preparation (SP3)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28948796",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Exploiting SP3, a novel technology for proteomic sample preparation using magnetic beads, we scaled down proteome analysis to single cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27215607",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " here we introduce a novel protocol using paramagnetic beads, termed Single-Pot Solid-Phase-enhanced Sample Preparation (SP3). SP3 provides a rapid and unbiased means of proteomic sample preparation in a single tube that facilitates ultrasensitive analysis by outperforming existing protocols in terms of efficiency, scalability, speed, throughput, and flexibility.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25358341",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "554140ad182542114d000003",
+  "type": "factoid",
+  "question": "Which is the database of molecular recognition features in membrane proteins?",
+  "ideal_answer": "mpMoRFsDB provides valuable information related to disorder-based protein-protein interactions in membrane proteins.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24093637",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23894139",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23328413"
+  ],
+  "snippets": [
+    {
+      "text": "mpMoRFsDB: a database of molecular recognition features in membrane proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23894139",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "mpMoRFsDB provides valuable information related to disorder-based protein-protein interactions in membrane proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23894139",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mpMoRFsDB: a database of molecular recognition features in membrane proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23894139",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "mpMoRFsDB"
+}

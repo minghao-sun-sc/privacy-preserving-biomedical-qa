@@ -1,0 +1,25 @@
+{
+  "id": "6237a6e93a8413c6530000b1",
+  "type": "yesno",
+  "question": "Does sphingosine-1 phosphoate suppress epiregulin?",
+  "ideal_answer": "Sphingosine-1 phosphate induces epiregulin (EREG) gene expression.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33189864"
+  ],
+  "snippets": [
+    {
+      "text": "S1P-induced FOXO1 and EREG gene expression suggests that the activation of S1P-S1PR axis may cooperate with gonadotropins in modulating follicle development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33189864",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "S1P-dependent CREB phosphorylation induced FOXO1 and the EGF-like epiregulin-encoding gene (EREG), confirming the exclusive role of gonadotropins and interleukins in this process, but did not affect steroidogenesis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33189864",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

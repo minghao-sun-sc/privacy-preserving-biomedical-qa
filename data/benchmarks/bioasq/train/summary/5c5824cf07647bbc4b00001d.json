@@ -1,0 +1,24 @@
+{
+  "id": "5c5824cf07647bbc4b00001d",
+  "type": "summary",
+  "question": "What is TPMCalculator?",
+  "ideal_answer": "The quantification of RNA sequencing (RNA-seq) abundance using a normalization method that calculates transcripts per million (TPM) is a key step to compare multiple samples from different experiments. TPMCalculator is a one-step software to process RNA-seq alignments in BAM format and reports TPM values, raw read counts and feature lengths for genes, transcripts, exons and introns. The program describes the genomic features through a model generated from the gene transfer format (GTF) file used during alignments reporting of the TPM values and the raw read counts for each feature.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30379987"
+  ],
+  "snippets": [
+    {
+      "text": "TPMCalculator: one-step software to quantify mRNA abundance of genomic features.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30379987",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " The quantification of RNA sequencing (RNA-seq) abundance using a normalization method that calculates transcripts per million (TPM) is a key step to compare multiple samples from different experiments. TPMCalculator is a one-step software to process RNA-seq alignments in BAM format and reports TPM values, raw read counts and feature lengths for genes, transcripts, exons and introns. The program describes the genomic features through a model generated from the gene transfer format (GTF) file used during alignments reporting of the TPM values and the raw read counts for each feature.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30379987",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

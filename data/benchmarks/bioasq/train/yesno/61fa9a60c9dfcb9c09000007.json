@@ -1,0 +1,25 @@
+{
+  "id": "61fa9a60c9dfcb9c09000007",
+  "type": "yesno",
+  "question": "Should istiratumab be used for Pancreatic Cancer?",
+  "ideal_answer": "No. In a clinical trial Istiratumab failed to improve the efficacy of standard of care chemotherapy in metastatic pancreatic cancer patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31912800"
+  ],
+  "snippets": [
+    {
+      "text": "CONCLUSIONS: Istiratumab failed to improve the efficacy of SOC chemotherapy in this patient setting. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31912800",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the high IGF-1 cohort, median PFS was 3.6 and 7.3 months in the experimental versus control arms, respectively [hazard ratio (HR)\u00a0= 1.88, P\u00a0= 0.027]. In the high IGF-1/HRG+ subgroup (n\u00a0= 44), median PFS was 4.1 and 7.3 months, respectively (HR\u00a0= 1.39, P\u00a0= 0.42).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31912800",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

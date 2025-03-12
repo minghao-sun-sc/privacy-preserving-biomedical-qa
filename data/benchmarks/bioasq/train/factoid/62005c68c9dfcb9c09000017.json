@@ -1,0 +1,25 @@
+{
+  "id": "62005c68c9dfcb9c09000017",
+  "type": "factoid",
+  "question": "Which tool has been developed for annotation of G\u03b1, G\u03b2 and G\u03b3 subunits of G-proteins?",
+  "ideal_answer": "GprotPRED is an online tool that uses profile Hidden Markov Models (pHMMs) and application to proteomes. The sensitivity and specificity for all pHMMs were equal to 100% with the exception of the G\u03b2 case, where sensitivity equals to 100%, while specificity is 99.993%.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26854601"
+  ],
+  "snippets": [
+    {
+      "text": "GprotPRED: Annotation of G\u03b1, G\u03b2 and G\u03b3 subunits of G-proteins using profile Hidden Markov Models (pHMMs) and application to proteomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26854601",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "An online tool, GprotPRED, was developed that uses these six pHMMs. The sensitivity and specificity for all pHMMs were equal to 100% with the exception of the G\u03b2 case, where sensitivity equals to 100%, while specificity is 99.993%. In contrast to Pfam's pHMM which detects G\u03b1 subunits in general, our method not only detects G\u03b1 subunits but also classifies them into the appropriate G\u03b1-protein family and thus could become a useful tool for the annotation of G-proteins in newly discovered proteomes. GprotPRED online tool is publicly available for non-commercial use at http://bioinformatics.biol.uoa.gr/GprotPRED and, also, a standalone version of the tool at https://github.com/vkostiou/GprotPRED.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26854601",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "GprotPRED"
+}

@@ -1,0 +1,133 @@
+{
+  "id": "5518414a15fa47643f000001",
+  "type": "list",
+  "question": "Which gene(s) should be genotyped in order to prescribe the drug Cetuximab (anti-EGFR)?",
+  "ideal_answer": "KRAS mutation has been unambiguously identified as a marker of resistance to cetuximab-based treatment in metastatic colorectal cancer (mCRC) patients.\nOther genes are such as EGFR, BRAF and T53 have also been suggested to be genotyped in order to evaluate the drug responsivness.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20645028",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21686179",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19367287",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24152305",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19368524",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21851273",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22287728",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21036743",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18810446",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20619739",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21673069",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20637356",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19343364",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23671647",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23299277",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22735045"
+  ],
+  "snippets": [
+    {
+      "text": "Treatment of metastatic colorectal cancer with targeted anti-EGFR therapeutics such as cetuximab extends survival in only 25% of patients who test wild-type for KRAS, while the majority of patients prove resistant (J Clin Oncol 28(7):1254-1261, 2010).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24152305",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ". Somatic mutation of the EGFR signalling pathway is a prevalent mechanism of resistance to cetuximab (Nature 486(7404):532-536, 2012). If the human genome harbours variants that influence susceptibility of the EGFR pathway to oncogenic mutation, such variants could also be prognostic for cetuximab responsiveness. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24152305",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "KRAS mutations are strong predictors for clinical outcomes of EGFR-targeted treatments such as cetuximab and panitumumab in metastatic colorectal cancer (mCRC).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23671647",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "KRAS mutation is widely accepted as a strong, negative predictive marker for anti-epidermal growth factor receptor antibodies, including cetuximab and panitumumab. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23299277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "KRAS status is now a mandatory prerequisite in order to treat metastatic colorectal patients with anti-Epidermal Growth Factor Receptor (EGFR) antibodies, such as cetuximab or panitumumab. KRAS mutations are unambiguously linked to a lack of response to these targeted therapies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22735045",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The EGFR-R497K polymorphism is a potential predictor for overall survival in HNSCC patients treated with cetuximab based therapy in the palliative setting.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22287728",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Laboratories are increasingly required to perform molecular tests for the detection of mutations in the KRAS gene in metastatic colorectal cancers to allow better clinical management and more effective treatment for these patients. KRAS mutation status predicts a patient's likely response to the monoclonal antibody cetuximab.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21851273",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "KRAS mutation has been unambiguously identified as a marker of resistance to cetuximab-based treatment in metastatic colorectal cancer (mCRC) patients. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21686179",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " This study suggested EGF A+61G polymorphism to be a predictive marker for pCR, independent of KRAS mutation status, to cetuximab-based neoadjuvant chemoradiation of patients with locally advanced rectal cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21673069",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Intratumoral gene expression levels of EGFR, VEGFR2 and NRP as well as polymorphisms in FCGR3A, CyclinD1 and EGFR could predict clinical outcome in mCRC patients enrolled in BOND2, independent of KRAS mutation status.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21036743",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Numerous clinical studies have shown that anti-EGFR therapies are effective only in a subset of patients with colorectal cancer. Even though mutations in the KRAS gene have been confirmed as negative predictors of the response to EGFR-targeted therapies, not all KRAS wild-type (wt-KRAS) patients will respond to treatment. Recent studies have demonstrated that additionally wild-type BRAF (wt-BRAF) genotype is required for response to panitumumab or cetuximab, suggesting that BRAF genotype criteria should be used together with KRAS genotype for selecting the patients who are about to benefit from the anti-EGFR therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20645028",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "KRAS mutation is a dramatic example of single nucleotide polymorphism, which is able to identify a priori patients that could receive or not an anti-EGFR monoclonal antibody such as cetuximab or panitumumab. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20637356",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "While confirming the negative effect of KRAS mutations on outcome after cetuximab, we show that BRAF, NRAS, and PIK3CA exon 20 mutations are significantly associated with a low response rate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20619739",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cetuximab and panitumumab, mAbs targeting EGFR, are registered for metastatic colorectal carcinoma (mCRC) patients whose tumors express EGFR as determined by immunohistochemistry. However, this method is not predictive of treatment efficacy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19368524",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ". This study suggests that TP53 mutations are predictive of cetuximab sensitivity, particularly in patients without KRAS mutation, and that TP53 genotyping could have a clinical interest to select patients who should benefit from cetuximab-based CT.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19367287",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A KRAS mutation confers resistance to cetuximab, which reduces treatment options, especially in first-line. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19343364",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "KRAS genotyping was recently introduced as predictive biomarker, since only tumors carrying a wildtype were found to respond to treatment with panitumumab.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18810446",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005838",
+    "http://www.biosemantics.org/jochem#4002122"
+  ],
+  "exact_answer": "KRAS, EGFR, BRAF, T53"
+}

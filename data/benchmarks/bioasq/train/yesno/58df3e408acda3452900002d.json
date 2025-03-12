@@ -1,0 +1,68 @@
+{
+  "id": "58df3e408acda3452900002d",
+  "type": "yesno",
+  "question": "Is Dupilumab used for treatment of atopic dermatitis?",
+  "ideal_answer": "Yes, patients treated with dupilumab had marked and rapid improvement in all the evaluated measures of atopic dermatitis disease activity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27334730",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27690741",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26428945",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25006719",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26836729",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27497276",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26598956",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27906698"
+  ],
+  "snippets": [
+    {
+      "text": "Dupilumab has demonstrated efficacy in patients with asthma and atopic dermatitis, which are both type 2 helper T-cell-mediated diseases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26836729",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Background Dupilumab, a human monoclonal antibody against interleukin-4 receptor alpha, inhibits signaling of interleukin-4 and interleukin-13, type 2 cytokines that may be important drivers of atopic or allergic diseases such as atopic dermatitis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27690741",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Two Phase 3 Trials of Dupilumab versus Placebo in Atopic Dermatitis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27690741",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Dupilumab is a biologic agent targeted at TH2 cytokines, but indirectly impacts IgE and is an important biologic agent for atopic disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27906698",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dupilumab for the treatment of atopic dermatitis: A clinical trial review.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26428945",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Dupilumab is a novel monoclonal antibody that was recently studied in adult patients with moderate-to-severe AD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26428945",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Patients treated with dupilumab had marked and rapid improvement in all the evaluated measures of atopic dermatitis disease activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25006719",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The robust effects of dupilumab on skin inflammation and pruritus confirm the pathogenic role of IL-4 and IL-13 signaling in adult AD, and further support the application of Th2 cytokine antagonists in the treatment of this disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26598956",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

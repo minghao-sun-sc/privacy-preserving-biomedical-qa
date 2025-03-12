@@ -1,0 +1,45 @@
+{
+  "id": "58de18e48acda3452900002a",
+  "type": "factoid",
+  "question": "Which miRNA is targeted by SRY/Sox9?",
+  "ideal_answer": "The testis-specific circRNA, sex-determining region Y (Sry), serves as a miR-138 sponge, suggesting that miRNA sponge effects achieved by circRNA formation are a general phenomenon",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23446346",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23389731",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25580223"
+  ],
+  "snippets": [
+    {
+      "text": "Does the linear Sry transcript function as a ceRNA for miR-138?",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25580223",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Recently, the sex determining region Y ( Sry) and the cerebellar degeneration-related protein 1 ( CDR1as) RNA transcripts have been described to function as a new class of post-transcriptional regulatory RNAs that behave as circular endogenous RNA sponges for the micro RNAs (miRNAs) miR-138 and miR-7, respectively. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25580223",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " it is reasonable to think that the linear Sry sense transcript could additionally act as a miRNA sponge, or as an endogenous competing RNA for miR-138.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25580223",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Results indicated that miR-138 directly targeted SRY-related high mobility group box 4 (SOX4) and hypoxia-inducible factor-1\u03b1 (HIF-1\u03b1), and overexpression of SOX4 and HIF-1\u03b1 effectively reversed the miR-138-mediated suppression of cell invasion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23389731",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We further show that the testis-specific circRNA, sex-determining region Y (Sry), serves as a miR-138 sponge, suggesting that miRNA sponge effects achieved by circRNA formation are a general phenomenon. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23446346",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "mir-138"
+}

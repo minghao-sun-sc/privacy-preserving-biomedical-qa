@@ -1,0 +1,26 @@
+{
+  "id": "5c8cfca70101eac870000005",
+  "type": "yesno",
+  "question": "Has the protein SIRT2 been associated to cervical cancer?",
+  "ideal_answer": "Yes.\nA progressive increase in the expression of both SIRT2 and SIRT7 was noted during cancer progression in the following order: normal\u2009<\u2009preneoplasia\u2009<\u2009cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25794641",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28776959"
+  ],
+  "snippets": [
+    {
+      "text": " A progressive increase in the expression of both SIRT2 and SIRT7 was noted during cancer progression in the following order: normal\u2009<\u2009preneoplasia\u2009<\u2009cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25794641",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " We demonstrate that treatment of cervical cancer cells with a RhoGDI\u03b1-derived K52-trifluoroacetylated, substrate-derived peptidic sirtuin inhibitor severely impairs cell proliferation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28776959",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

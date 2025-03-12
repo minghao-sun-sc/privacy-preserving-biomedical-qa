@@ -1,0 +1,39 @@
+{
+  "id": "5883868b2305cd7e21000005",
+  "type": "summary",
+  "question": "What is sQTLseekeR?",
+  "ideal_answer": "sQTLseekeR is an R package for the identification of genetic variants associated with alternative splicing. It is based on a statistical framework that uses a distance-based approach to compute the variability of splicing ratios across observations, and a non-parametric analogue to multivariate analysis of variance.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25140736"
+  ],
+  "snippets": [
+    {
+      "text": "Identification of genetic variants associated with alternative splicing using sQTLseekeR.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25140736",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We develop a statistical framework that uses a distance-based approach to compute the variability of splicing ratios across observations, and a non-parametric analogue to multivariate analysis of variance. We implement this approach in the R package sQTLseekeR and use it to analyze RNA-Seq data from the Geuvadis project in 465 individuals. We identify hundreds of single nucleotide polymorphisms (SNPs) as splicing QTLs (sQTLs), including some falling in genome-wide association study SNPs. By developing the appropriate metrics, we show that sQTLseekeR compares favorably with existing methods that rely on univariate approaches, predicting variants that behave as expected from mutations affecting splicing",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25140736",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Identification of genetic variants associated with alternative splicing using sQTLseekeR",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25140736",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Identification of genetic variants associated with alternative splicing using sQTLseekeR.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25140736",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017398",
+    "http://amigo.geneontology.org/amigo/term/GO:0000380"
+  ]
+}

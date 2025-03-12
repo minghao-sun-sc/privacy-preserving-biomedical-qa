@@ -1,0 +1,92 @@
+{
+  "id": "55262a9787ecba3764000009",
+  "type": "yesno",
+  "question": "Is RANKL secreted from the cells?",
+  "ideal_answer": "Receptor activator of nuclear factor \u03baB ligand (RANKL) is a cytokine predominantly secreted by osteoblasts.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22948539",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23698708",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23827649",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22901753",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21618594",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23835909",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23632157",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24265865",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24267510",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22867712"
+  ],
+  "snippets": [
+    {
+      "text": "Osteoprotegerin (OPG) is a soluble secreted factor that acts as a decoy receptor for receptor activator of NF-\u03baB ligand (RANKL) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24267510",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Osteoprotegerin (OPG) is a secreted glycoprotein and a member of the tumor necrosis factor receptor superfamily. It usually functions in bone remodeling, by inhibiting osteoclastogenesis through interaction with a receptor activator of the nuclear factor \u03baB (RANKL).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24265865",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "e RANKL/OPG ratio secreted by osteoblasts increased and RANK expression by osteoclasts increased, leading to increased osteoclastogenesis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23835909",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Osteoprotegerin (OPG) is an essential secreted protein in bone turnover due to its role as a decoy receptor for the Receptor Activator of Nuclear Factor-kB ligand (RANKL) in the osteoclasts, thus inhibiting their differentiation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23827649",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We identify a TNFSF11 transcript variant that extends the originally identified transcript encoding secreted RANKL.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23698708",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Activated human T cells express alternative mRNA transcripts encoding a secreted form of RANKL.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23698708",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "OPG, on the other hand, is secreted by osteoblast as a decoy receptor for RANKL, prevents RANKL from binding to RANK and thus prevents bone resorption",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23632157",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Receptor activator of nuclear factor \u03baB ligand (RANKL) and osteoprotegerin (OPG) are cytokines predominantly secreted by osteoblasts and play a central role in differentiation and functional activation of osteoclasts",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22948539",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although B. abortus-activated T cells actively secreted the pro-osteoclastogenic cytokines RANKL and IL-17, osteoclastogenesis depended on IL-17, because osteoclast generation induced by Brucella-activated T cells was completely abrogated when these cells were cultured with BMMs from IL-17 receptor knockout mice. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22901753",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " osteoclastogenesis and bone destruction in autoimmune arthritis. We isolated human fibroblasts from RA, pyrophosphate arthropathy (PPA) and osteoarthritis (OA) patients and analyzed their RANKL/OPG expression profile and the capacity of their secreted factors to induce osteoclastogenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22867712",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Osteoprotegerin (OPG) and receptor activator of nuclear factor \u03baB ligand (RANKL) are cytokines predominantly secreted by osteoblasts and play critical roles in the differentiation and function of osteoclasts. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21618594",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/TNF11_RAT",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015870",
+    "http://www.uniprot.org/uniprot/TNF11_HUMAN"
+  ],
+  "exact_answer": "Yes"
+}

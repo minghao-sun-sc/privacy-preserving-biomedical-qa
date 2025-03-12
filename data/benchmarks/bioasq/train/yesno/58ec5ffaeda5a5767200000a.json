@@ -1,0 +1,40 @@
+{
+  "id": "58ec5ffaeda5a5767200000a",
+  "type": "yesno",
+  "question": "Is dexamethasone recommended for treatment of intracerebral hemorrhage?",
+  "ideal_answer": "No. Dexamethasone and other glucocorticoids should be avoided for treatment of intracerebral hemorrhage because they do not improve patient outcome and are associated with increased risk of side effects.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19108704",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16034939",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3574383"
+  ],
+  "snippets": [
+    {
+      "text": "Dexamethasone and other glucocorticoids should be avoided. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19108704",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "During the third interim analysis, the death rate at the 21st day was identical in the two groups (dexamethasone vs. placebo, 21 of 46 vs. 21 of 47; chi-square = 0.01, P = 0.93). In contrast, the rate of complications (mostly infections and complications of diabetes) was much higher in the dexamethasone group (chi-square = 10.89, P less than 0.001), leading to early termination of the study. In the light of the absence of a demonstrable beneficial effect and the presence of a significant harmful effect, current practices of using dexamethasone for treatment of primary supratentorial hemorrhage should be reconsidered.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3574383",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the light of the absence of a demonstrable beneficial effect and the presence of a significant harmful effect, current practices of using dexamethasone for treatment of primary supratentorial hemorrhage should be reconsidered.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3574383",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002543",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D045506",
+    "http://www.biosemantics.org/jochem#http://www.biosemantics.org/jochem#:4271528",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020299",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003907",
+    "http://www.biosemantics.org/jochem#4271528"
+  ],
+  "exact_answer": "Yes"
+}

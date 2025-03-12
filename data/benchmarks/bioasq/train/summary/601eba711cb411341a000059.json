@@ -1,0 +1,24 @@
+{
+  "id": "601eba711cb411341a000059",
+  "type": "summary",
+  "question": "Describe DeepTRIAGE",
+  "ideal_answer": "DeepTRIAGE (Deep learning for the TRactable Individualised Analysis of Gene Expression) is a novel deep learning architecture which uses an attention mechanism to obtain personalised biomarker scores that describe how important each gene is in predicting the cancer sub-type for each sample. DeepTRIAge simultaneously reveals heterogeneity within the luminal A biomarker score that significantly associate with tumour stage, placing all luminal samples along a continuum of severity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32093737"
+  ],
+  "snippets": [
+    {
+      "text": "DeepTRIAGE: interpretable and individualised biomarker scores using attention mechanism for the classification of breast cancer sub-types.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32093737",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Breast cancer is a collection of multiple tissue pathologies, each with a distinct molecular signature that correlates with patient prognosis and response to therapy. Accurately differentiating between breast cancer sub-types is an important part of clinical decision-making. Although this problem has been addressed using machine learning methods in the past, there remains unexplained heterogeneity within the established sub-types that cannot be resolved by the commonly used classification algorithms.METHODS: In this paper, we propose a novel deep learning architecture, called DeepTRIAGE (Deep learning for the TRactable Individualised Analysis of Gene Expression), which uses an attention mechanism to obtain personalised biomarker scores that describe how important each gene is in predicting the cancer sub-type for each sample. We then perform a principal component analysis of these biomarker scores to visualise the sample heterogeneity, and use a linear model to test whether the major principal axes associate with known clinical phenotypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32093737",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

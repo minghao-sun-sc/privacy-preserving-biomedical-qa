@@ -1,0 +1,37 @@
+{
+  "id": "5e52a3416d0a277941000043",
+  "type": "factoid",
+  "question": "What is the purpose of the Unique Connectivity of Uncharged Compounds (UC2) search tool?",
+  "ideal_answer": "The Unique Connectivity of Uncharged Compounds (UC2) search tool uses unique connectivity of uncharged compounds for metabolite annotation by database searching in mass spectrometry-based metabolomics.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29040459"
+  ],
+  "snippets": [
+    {
+      "text": "UC2 search: using unique connectivity of uncharged compounds for metabolite annotation by database searching in mass spectrometry-based metabolomics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29040459",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "For metabolite annotation in metabolomics, variations in the registered states of compounds (charged molecules and multiple components, such as salts) and their redundancy among compound databases could be the cause of misannotations and hamper immediate recognition of the uniqueness of metabolites while searching by mass values measured using mass spectrometry. We developed a search system named UC2 (Unique Connectivity of Uncharged Compounds), where compounds are tentatively neutralized into uncharged states and stored on the basis of their unique connectivity of atoms after removing their stereochemical information using the first block in the hash of the IUPAC International Chemical Identifier, by which false-positive hits are remarkably reduced, both charged and uncharged compounds are properly searched in a single query and records having a unique connectivity are compiled in a single search result.Availability and implementation: The UC2 search tool is available free of charge as a REST web service (http://webs2.kazusa.or.jp/mfsearcher) and a Java-based GUI tool.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29040459",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "UC2 search: using unique connectivity of uncharged compounds for metabolite annotation by database searching in mass spectrometry-based metabolomics",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29040459",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We developed a search system named UC2 (Unique Connectivity of Uncharged Compounds), where compounds are tentatively neutralized into uncharged states and stored on the basis of their unique connectivity of atoms after removing their stereochemical information using the first block in the hash of the IUPAC International Chemical Identifier, by which false-positive hits are remarkably reduced, both charged and uncharged compounds are properly searched in a single query and records having a unique connectivity are compiled in a single search result.Availability and implementation: The UC2 search tool is available free of charge as a REST web service (http://webs2.kazusa.or.jp/mfsearcher) and a Java-based GUI tool.Contact: sakurai@kazusa.or.jp.Supplementary information: Supplementary data are available at Bioinformatics online.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29040459",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Metabolite annotation by database searching in mass spectrometry-based metabolomics"
+}

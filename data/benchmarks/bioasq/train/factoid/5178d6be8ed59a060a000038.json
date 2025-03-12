@@ -1,0 +1,29 @@
+{
+  "id": "5178d6be8ed59a060a000038",
+  "type": "factoid",
+  "question": "What is a popular mesaure of gene expression in RNA-seq experiments?",
+  "ideal_answer": "A commonly used measure for gene expression in RNA-seq experiments is  Reads Per Kilobase per Million mapped reads (RPKM). In ocasions, and to account for partially mapped read, read Fragments per Kilobase per Million mapped reads (FPKM) is alternatively used.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22232676",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22971240",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23222129",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23428641",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22872506",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21385047",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22287631",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21994224",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19835606",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22688717",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21179022"
+  ],
+  "snippets": [
+    {
+      "text": "Measures of RNA abundance are important for many areas of biology and often obtained from high-throughput RNA sequencing methods such as Illumina sequence data. These measures need to be normalized to remove technical biases inherent in the sequencing approach, most notably the length of the RNA species and the sequencing depth of a sample. These biases are corrected in the widely used reads per kilobase per million reads (RPKM) measure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22872506",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Reads Per Kilobase per Million mapped reads (RPKM)"
+}

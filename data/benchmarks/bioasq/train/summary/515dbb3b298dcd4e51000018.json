@@ -1,0 +1,513 @@
+{
+  "id": "515dbb3b298dcd4e51000018",
+  "type": "summary",
+  "question": "How histone deacetylation causes transcriptional gene silencing?",
+  "ideal_answer": "Histone deacetylation, catalyzed by the histone deacetylase (HDAC) enzymes, is an epigenetic modification. Histone deacetylation leads to the formation of a condensed and transcriptionally repressive chromatin structure which inhibits gene transcription. ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20053684",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21976679",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21913088",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22722849",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22555315",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19259094",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20516197",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22689577",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21763693",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21186298",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22990449",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22184063",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22865229",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22991226",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23114751",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22929011",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22955275",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22947425",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23140481",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22266186",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22959268",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22117026",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18683042",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22956542",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22347433",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22570737",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21926091",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23104973",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20504333",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11134508",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22080921",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22147512",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22542455",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23324470",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21710206",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22638581",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20811718",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22064865",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21953612",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22222205",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21211723",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22438583",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15172996",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22156375",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22684523",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22357272",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23029547",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21947346",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23382858",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22841502",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23408190",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22622000",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19745053",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22142826",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21325281",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21811564",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22422618",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22763818",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22472323",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22701735",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21947282",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23312906",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22641068",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21706058",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22393235",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23479617",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18632628",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21130077",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19782027",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23271976",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22504884",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21622623",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22042362",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22730529",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23226217",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22102827",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22577027"
+  ],
+  "snippets": [
+    {
+      "text": "Lysine acetylation of histones is one of the major epigenetic regulators of chromatin conformation and gene expression. The dynamic nature of histone acetylation is determined by the counterbalancing activity of histone acetyltransferase and histone deacetylase (HDAC) enzymes. Acetylation of histones is generally associated with open and transcriptionally active chromatin, whereas the activity of HDACs leads to histone deacetylation, condensation of chromatin, and inhibition of transcription.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21913088",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Abnormal activity of HDACs has been implicated in tumorigenesis and therefore considerable effort has been put into the development of HDAC inhibitors as a means of modifying histone acetylation status and reexpressing aberrantly silenced tumor suppressor genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21913088",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Histone acetylation and deacetylation play essential roles in eukaryotic gene regulation. Reversible modifications of core histones are catalyzed by two intrinsic enzymes, histone acetyltransferase and histone deacetylase (HD). In general, histone deacetylation is related to transcriptional gene silencing, whereas acetylation correlates with gene activation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11134508",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The reversible nature of deregulated chromatin structure by DNA methylation and histone deacetylation inhibitors, leading to re-expression of tumor suppressor genes, makes chromatin-remodeling pathways as promising therapeutic targets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23114751",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Furthermore, the histone deacetylase inhibitor, trichostatin A (TSA), recovered the expression and function of NEO1 in the silenced lines, suggesting that histone deacetylation is essential for the direct suppression of target genes by DNAi.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22990449",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We had previously shown that in anergic CD4(+) T cells, Ikaros participates in the transcriptional repression of the Il2 gene by recruiting histone deacetylases that cause core histone deacetylation at the Il2 promoter. Here we show that deacetylation at the Il2 promoter is the initial step in a process that leads to the stable silencing of the Il2 gene transcription in anergic T cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22684523",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We demonstrate that HP1 forms distinct DNA methylation and histone deacetylation complexes that work in parallel to assemble silent chromatin in N. crassa.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22504884",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "These results indicated that histone deacetylation is a silencing mechanism for GATA4 expression in AFP-producing gastric cancer cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22472323",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We found that histone deacetylase 1 (HDAC1) increases the expression levels of mature miRNAs despite repressing the transcription of host genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22222205",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Promoter methylation and histone deacetylation were studied as possible mechanisms for klotho silencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22042362",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Taken together, these data indicate loss of klotho expression as an early event in breast cancer development, and suggest a role for DNA methylation and histone deacetylation in klotho silencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22042362",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "DNA methylation and histone acetylation/deacetylation are distinct biochemical processes that control gene expression. While DNA methylation is a common epigenetic signal that inhibits gene transcription, histone deacetylation similarly represses transcription but can be both an epigenetic and nonepigenetic phenomenon",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21947282",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "DNA methylation and histone acetylation/deacetylation are distinct biochemical processes that control gene expression. While DNA methylation is a common epigenetic signal that inhibits gene transcription, histone deacetylation similarly represses transcription but can be both an epigenetic and nonepigenetic phenomenon.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21947282",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Because DNA hypermethylation-based silencing may couple with and depend on histone deacetylation, our study suggests that endogenous HDAC inhibition by maspin may prevent pathologic gene silencing in prostate tumor progression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21622623",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Epigenetic regulation of the IL-13-induced human eotaxin-3 gene by CREB-binding protein-mediated histone 3 acetylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21325281",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Heterochromatin impacts various nuclear processes by providing a recruiting platform for diverse chromosomal proteins. In fission yeast, HP1 proteins Chp2 and Swi6, which bind to methylated histone H3 lysine 9, associate with SHREC (Snf2/HDAC repressor complex) and Clr6 histone deacetylases (HDACs) involved in heterochromatic silencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21211723",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We established that the silencing of these genes in UVB-exposed epidermis and UVB-induced skin tumors is associated with a network of epigenetic modifications, including hypoacetylation of histone H3 and H4 and increased histone deacetylation, as well as recruitment of methyl-binding proteins, including MeCP2 and MBD1, to the methylated CpGs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21186298",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Histone deacetylation directs DNA methylation in survivin gene silencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21130077",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Next, we investigated the roles of histone acetylation and DNA methylation in survivin silencing after blockade of histone deacetylation with Trichostatin A (TSA).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21130077",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The results showed that histone deacetylation blocked by TSA reversed the increasing effect of histone deacetylation on the expression of survivin mRNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21130077",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Aberrant hypermethylation at CpG sites within the CDKN2A gene is associated with silencing and has been proposed as a target for reactivation using both DNA methylation and histone deacetylation inhibitors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20811718",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Mechanisms of HDA6-mediated rRNA gene silencing: suppression of intergenic Pol II transcription and differential effects on maintenance versus siRNA-directed cytosine methylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20516197",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The Arabidopsis histone deacetylase HDA6 is required to silence transgenes, transposons, and ribosomal RNA (rRNA) genes subjected to nucleolar dominance in genetic hybrids.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20516197",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Distinct and temporal roles of nucleosomal remodeling and histone deacetylation in the repression of the hTERT gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20053684",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Surprisingly, inhibition of histone deacetylation at the hTERT promoter did not prevent hTERT repression or nucleosomal deposition, indicating that nucleosomal deposition at the core promoter, but not histone deacetylation, was the cause of transcriptional repression. Our data also suggested that succeeding nucleosomal remodeling and histone deacetylation worked in parallel to establish the stable repressive status of hTERT gene in human somatic cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20053684",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Reconstitution of heterochromatin-dependent transcriptional gene silencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19782027",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Silencing requires all three Sir proteins, even with fully deacetylated chromatin, and involves the specific association of Sir3 with deacetylated H4K16. These results define a minimal set of components that mediate heterochromatic gene silencing and demonstrate distinct contributions for histone deacetylation and nucleosome binding in the silencing mechanism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19782027",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Silencing requires all three Sir proteins, even with fully deacetylated chromatin, and involves the specific association of Sir3 with deacetylated H4K16. These results define a minimal set of components that mediate heterochromatic gene silencing and demonstrate distinct contributions for histone deacetylation and nucleosome binding in the silencing mechanism",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19782027",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Inhibition of histone deacetylase suppresses EGF signaling pathways by destabilizing EGFR mRNA in ER-negative human breast cancer cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18683042",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Our previous studies demonstrate that histone deacetylation plays a key role in ER gene silencing, and ER expression can be restored with histone deacetylase (HDAC) inhibitors in ER-negative human breast cancer cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18683042",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "This chromatin pattern, and particularly H3K4me2 levels, crisply separates DNA-hypermethylated genes from those where histone deacetylation is responsible for transcriptional silencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18632628",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Loss of gene expression is not due to structural mutations, but to regulatory changes including epigenetic deacetylation of histones.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23479617",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We found that these PERV families are differentially up- or downregulated upon chemical inhibition of DNA methylation and histone deacetylation in cultured porcine cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23324470",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The class IIa histone deacetylases (HDACs) act as transcriptional repressors by altering chromatin structure through histone deacetylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22991226",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The Set3 histone deacetylase complex (Set3C) binds histone H3 dimethylated at lysine 4 (H3K4me2) to mediate deacetylation of histones in 5'-transcribed regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22959268",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Core histone modifications play an important role in chromatin remodeling and transcriptional regulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22956542",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "These results demonstrate that the acetylation/deacetylation balance strongly influences the expression of arginase-1, a gene of alternative activation of macrophages.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22865229",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "MTA1 acts as part of a nucleosome remodelling and histone deacetylation complex, which is involved in transcriptional regulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22841502",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The ectopic expression of ThPOK resulted in increased recruitment of histone deacetylases at Cd8 loci; the enhanced deacetylation of Cd8 genes eventually led to impaired Cd8 transcription.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22730529",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Sirt-1, a nicotinamide adenine dinucleotide (NAD(+))-dependent deacetylase, has been linked to transcriptional silencing and appears to play a key role in inflammation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22689577",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "OBJECTIVE: Histone deacetylation regulates chromatin remodeling and transcriptional down-regulation of specific genomic regions; it is altered in many types of cancer cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22641068",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Histone acetylations affect the regulation of gene transcription, and the loss of learning induced deacetylation at specific histone sites may represent biomarkers for memory loss and Alzheimer's disease (AD).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22577027",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Increasing chromatin accessibility via inhibition of histone deacetylation or DNA methylation lowered the induction threshold, demonstrating that chromatin accessibility sets the level of RelA required to activate gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22555315",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The NAD-dependent histone deacetylase Sirt1 antagonizes p53 transcriptional activity to regulate cell-cycle progression and apoptosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22542455",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "These studies reveal a new mechanism by which acetyltransferase activity induces gene expression through targeted destruction of a transcriptional repressor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22438583",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Further studies indicated that GR recruited histone deacetylase 1 to the Runx2 P2 promoter which then mediated the deacetylation of histone H4 and down-regulated Runx2 expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22422618",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "RUNX2 cofactors such as histone deacetylases (HDACs) play a key role in chromatin remodeling and regulation of gene transcription.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22393235",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In some cell lines latently infected with EBV, an HDAC inhibitor alone can induce BZLF1 transcription, while the treatment does not enhance expression in other cell lines, such as B95-8 or Raji cells, suggesting unknown suppressive mechanisms besides histone deacetylation in those cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22357272",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Furthermore, the deacetylation of p53 by EWS-Fli1 suppressed its transcriptional activity and enhanced mdm2-mediated p53 degradation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22266186",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "This finding suggests that HDACs have two arms for gene silencing: transcriptional repression by promoter histone deacetylation and post-transcriptional inhibition by increasing miRNA abundance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22222205",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Promoter-localized deacetylation of H3 tails is a prerequisite for VprBP to tether and act as a bona fide inhibitor at p53 target genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22184063",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "CONCLUSIONS: These findings imply an important role for histone deacetylation in the downregulation of E-cadherin in human pancreatic cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22147512",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Inhibition of transcription results from the release of p300 coactivator from NF-\u03baB target gene promoters and subsequent histone deacetylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22142826",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In fungi in general, gene expression is often partially controlled at the chromatin level in secondary metabolism; when this is the case, the deacetylation and acetylation (and other posttranslational modifications) of histones are usually crucial in the regulation of transcription.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22117026",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "For the first time, we provide direct evidence that CREM\u03b1 mediates silencing of the IL2 gene in SLE T cells though histone deacetylation and CpG-DNA methylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21976679",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The downregulation             of CD43 mRNA is caused by p53-dependent transrepression, at least in part, via             a histone deacetylation mechanism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21947346",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "DNA methylation and histone acetylation/deacetylation are distinct biochemical processes that control gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21947282",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Acetylation of histones is generally associated with open and transcriptionally active chromatin, whereas the activity of HDACs leads to histone deacetylation, condensation of chromatin, and inhibition of transcription.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21913088",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "This study demonstrates that a mutual cross-talk mechanism exists between histone chaperones and histone deacetylation in transcriptional regulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21763693",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "FVE is a homologue of the mammalian retinoblastoma-associated protein (RbAp), one component of a histone deacetylase (HDAC) complex involved in transcriptional repression, and has been shown to be involved in the deacetylation of the FLOWERING LOCUS C (FLC) chromatin encoding for a repressor of flowering.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21710206",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Thus, our data illustrate the orchestration of a sequential epigenetic mechanism including the histone deacetylation and methylation, and the DNA methylation processes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23312906",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Histone deacetylases (HDACs) mediate histone deacetylation and act in concert with histone acetyltransferases to regulate dynamic and reversible histone acetylation which modifies chromatin structure and function, affects gene transcription, thus, controlling multiple cellular processes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23408190",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We hypothesized that the episomal nature of IDLVs turns them into preferential targets for epigenetic silencing involving chromatin-remodeling histone deacetylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23140481",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Silencing involves epigenetic mechanisms, including histone deacetylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23104973",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Jmjd3 transcription is not induced in Atf4-knock-out cells, but the AAR-dependent activation was rescued by inhibition of histone deacetylation with trichostatin A (TSA).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22955275",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We conclude that histone deacetylation is specifically required for the earliest events in appendage regeneration in amphibians, and suggest that this may act as a switch to trigger re-expression of developmental genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22947425",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Inhibition of DNA methylation with 5-aza-2'-deoxycytidine (5aza) and histone deacetylation with Trichostatin A (TSA) resulted in upregulation of EP2 mRNA in all cell lines with varying influences of each epigenetic process observed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22929011",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "During cancer development, tumor suppressor genes were silenced by promoter methylation or histone deacetylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22763818",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Histone deacetylases (HDACs) are important to maintain histone deacetylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22763818",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Suppression of histone deacetylation and DNA methylation normalized Pomc expression and functional abnormalities.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22622000",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0016575",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006657",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0006342",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005796"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "5a70e1d999e2c3af26000007",
+  "type": "yesno",
+  "question": "Is Solanezumab effective for Alzheimer's Disease?",
+  "ideal_answer": "No. Solanezumab, a humanized monoclonal antibody that binds amyloid, failed to improve cognition or functional ability in patients with Alzheimer's Disease.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29067346",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26238576",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28593105",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28649604",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24450890",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26990863",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26815584",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27223100",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27239541"
+  ],
+  "snippets": [
+    {
+      "text": "An analysis of publicly available data from the Phase II studies for bapineuzumab and solanezumab indicates that neither compound produced compelling evidence of drug-like behavior that would justify their progression into pivotal trials. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29067346",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Notably, a recent study of solanezumab, an amyloid \u03b2 monoclonal antibody, raises hope for the further therapeutic potential of immunotherapy, not only in Alzheimer's disease, but also for other neurodegenerative disorders, including Parkinson's disease. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28649604",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "For example, Eli Lilly announced a major change to its closely watched clinical trial for the Alzheimer's drug solanezumab which failed to reach statistical significance. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28593105",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Areas covered: This contradiction prompted us to review all study phases of Intravenous Immunoglobulin (IVIG), Bapineuzumab, Solanezumab, Avagacestat and Dimebolin to shed more light on these recent failures. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27223100",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Results from phase III clinical trials in mild-to-moderate Alzheimer's disease (AD) patients with two monoclonal antibodies bapineuzumab and solanezumab and intravenous immunoglobulin have been disappointing. Subsequent analysis of pooled data from both phase III trials with solanezumab showed a reduction in cognitive decline in patients with mild AD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26815584",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Secondary analyses of EXPEDITION studies suggested a smaller functional effect of solanezumab relative to cognition. An increasing effect of solanezumab over 18\u00a0months was shown for cognition and function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27239541",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS: In the mild AD population, less cognitive and functional decline was observed with solanezumab (n\u00a0=\u00a0659) versus placebo (n\u00a0=\u00a0663), measured by Alzheimer's Disease Assessment Scale Cognitive subscale, Mini-Mental State Examination, and Alzheimer's Disease Cooperative Study-Activities of Daily Living functional scale Instrumental ADLs. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26238576",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The promising results obtained with aducanumab and solanezumab against Alzheimer's disease (AD) strengthen the vaccine approach to prevent AD, despite of the many clinical setbacks. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26990863",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: Solanezumab, a humanized monoclonal antibody that binds amyloid, failed to improve cognition or functional ability. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24450890",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Results from phase III clinical trials in mild-to-moderate Alzheimer's disease (AD) patients with two monoclonal antibodies bapineuzumab and solanezumab and intravenous immunoglobulin have been disappointing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26815584",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D000544",
+    "http://www.disease-ontology.org/api/metadata/DOID:10652"
+  ],
+  "exact_answer": "Yes"
+}

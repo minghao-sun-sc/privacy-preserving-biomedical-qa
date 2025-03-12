@@ -1,0 +1,112 @@
+{
+  "id": "5327139ad6d3ac6a3400000d",
+  "type": "yesno",
+  "question": "Is the Prostate- Specific Antigen (PSA) test relevant only for prostate cancer?",
+  "ideal_answer": "No, although the PSA test can detect high levels of PSA that may indicate the presence of prostate cancer, many other conditions, such as an enlarged or inflamed prostate, can also increase PSA levels.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12088291",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9494603",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7544735",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24223021",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18808732",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9494604",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20065953",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15530599",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7687205",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9329582",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15925651",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11583357",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17559560",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23588999",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17489318",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23400279",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18355899",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18569246",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17233806",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19579539",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10697616"
+  ],
+  "snippets": [
+    {
+      "text": "rostate cancer (PCa) is the most frequently diagnosed malignancy and the second leading cause of cancer death in men",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24223021",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PSA is known to be prostate specific, but not PCa specific",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24223021",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "deficiencies of serum PSA as a prostate-cancer-specific diagnostic test are well recognized.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20065953",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "medical debate surrounding the use of the prostate-specific antigen (PSA) test for prostate cancer screening",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19579539",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The clinical relevance of this surprisingly high rate of prostate cancer in men with a normal PSA is yet to be determined ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15925651",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rapid uptake of prostate-specific antigen (PSA) testing has occurred in the United States despite inconclusive evidence regarding mortality benefit",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15530599",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Routine cancer screening with prostate-specific antigen (PSA) is controversial, and practice guidelines recommend that men be counseled about its risks and benefits",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12088291",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Prostate carcinoma was histologically confirmed in 14 (0.66%) of the men, nine times in the early stage (T2) and five times in the clinical stage (T3), corresponding to an incidence of circa 650 cases per 100,000 men in the target age group",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11583357",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This newly developed PSA test system can enhance the acceptance rate and effectiveness of medical check-ups for prostate cancer,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11583357",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PSA can be used reliably as a unique tool in the follow-up of patients for the early detection of progressive disease",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7544735",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PSA showed negative predictive values of 82 and 77%, respectively, using 4 and 10 ng/ml as cutoff points",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7544735",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "have assessed the feasibility of using fixed-limit criteria based on medical relevance and biological variation for evaluating the analytical performance of the prostate-specific antigen (PSA) test",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7687205",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011471",
+    "http://www.uniprot.org/uniprot/KLK3_MACFA",
+    "http://www.disease-ontology.org/api/metadata/DOID:10283",
+    "http://www.disease-ontology.org/api/metadata/DOID:10286",
+    "http://www.uniprot.org/uniprot/KLK3_MACMU",
+    "http://www.uniprot.org/uniprot/KLK3_HUMAN"
+  ],
+  "exact_answer": "Yes"
+}

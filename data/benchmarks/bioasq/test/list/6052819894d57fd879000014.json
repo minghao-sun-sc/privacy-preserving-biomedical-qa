@@ -1,0 +1,31 @@
+{
+  "id": "6052819894d57fd879000014",
+  "type": "list",
+  "question": "What doses of fingolimod were administered during the FREEDOMS trial?",
+  "ideal_answer": "In the FREEDOMS trial fingolimod was administered at 0.5mg or 1.25mg doses.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22494956"
+  ],
+  "snippets": [
+    {
+      "text": "We did subgroup analyses of ARRs (primary outcome) and confirmed disability progression (a secondary outcome) over 24 months in the FREEDOMS study, a randomised, double-blind study that included 1272 patients with relapsing-remitting MS who were assigned 1:1:1 to fingolimod (0\u00b75 mg or 1\u00b725 mg) or placebo once daily for 24 months. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22494956",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Treatment with fingolimod 0\u00b75 mg was associated with significantly lower ARRs versus placebo across all subgroups except for patients aged over 40 years. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22494956",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "n patients who relapsed and had lesion activity despite treatment with interferon beta in the previous year, the ARR ratio for fingolimod 0\u00b75 mg versus placebo was 0\u00b738 (95% CI 0\u00b721-0\u00b768, p=0\u00b70011), and for treatment-naive patients with rapidly evolving severe disease it was 0\u00b733 (0\u00b718-0\u00b762, p=0\u00b70006). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22494956",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "0.5mg, 1.25mg"
+}

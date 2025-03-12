@@ -1,0 +1,90 @@
+{
+  "id": "5e30f12afbd6abf43b000041",
+  "type": "list",
+  "question": "Which drugs were tested in the CheckMate 227 clinical trial?",
+  "ideal_answer": "CheckMate-227 clinical trial tested ipilimumab plus nivolumab for the treatment of non-small cell lung cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29661758",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29658845",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30393621",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27610613",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31066582",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31195357"
+  ],
+  "snippets": [
+    {
+      "text": "The rate of grade 3 or 4 treatment-related adverse events was 31.2% with nivolumab plus ipilimumab and 36.1% with chemotherapy. ical; CheckMate 227 ClinicalTrials.gov number, NCT02477826 .).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29658845",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The first data from the phase III CheckMate-227 trial of ipilimumab plus nivolumab for the treatment of non-small cell lung cancer suggests that the two drugs boost progression-free survival in patients with a high tumor mutation burden. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29661758",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Most recently, two phase III first-line NSCLC studies have provided evidence that tumour mutational burden (TMB) correlates with the clinical response to the combination of nivolumab and ipilimumab (CheckMate-227; NCT02477826), whereas atezolizumab response was correlated with T effector gene signature expression (IMPower 150; NCT02366143). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30393621",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nivolumab plus ipilimumab versus chemotherapy as first-line treatment in advanced non-small-cell lung cancer with high tumour mutational burden: patient-reported outcomes results from the randomised, open-label, phase III CheckMate 227 trial.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31195357",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "BACKGROUND\n\nIn the phase III CheckMate 227 study, first-line nivolumab\u00a0+\u00a0ipilimumab significantly prolonged progression-free survival (co-primary end-point) versus chemotherapy in patients with advanced non-small-cell lung cancer (NSCLC) and high tumour mutational burden (TMB; \u226510 mutations/megabase).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31195357",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The first data from the phase III CheckMate-227 trial of ipilimumab plus nivolumab for the treatment of non-small cell lung cancer suggests that the two drugs boost progression-free survival in patients with a high tumor mutation burden.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29661758",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this Review, we examine the potential role of dual immune checkpoint inhibition with nivolumab plus ipilimumab in the management of patients with previously untreated advanced non-small-cell lung cancer, based on results from the Phase III CheckMate 227 study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31066582",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND\nIn the phase III CheckMate 227 study, first-line nivolumab\u00a0+\u00a0ipilimumab significantly prolonged progression-free survival (co-primary end-point) versus chemotherapy in patients with advanced non-small-cell lung cancer (NSCLC) and high tumour mutational burden (TMB; \u226510 mutations/megabase).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31195357",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Most recently, two phase III first-line NSCLC studies have provided evidence that tumour mutational burden (TMB) correlates with the clinical response to the combination of nivolumab and ipilimumab (CheckMate-227; NCT02477826), whereas atezolizumab response was correlated with T effector gene signature expression (IMPower 150; NCT02366143).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30393621",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The first data from the phase III CheckMate-227 trial of ipilimumab plus nivolumab for the treatment of non-small cell lung cancer suggests that the two drugs boost progression-free survival in patients with a high tumor mutation burden.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29661758",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Most recently, two phase III first-line NSCLC studies have provided evidence that tumour mutational burden (TMB) correlates with the clinical response to the combination of nivolumab and ipilimumab (CheckMate-227; NCT02477826), whereas atezolizumab response was correlated with T effector gene signature expression (IMPower 150; NCT02366143).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30393621",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this Review, we examine the potential role of dual immune checkpoint inhibition with nivolumab plus ipilimumab in the management of patients with previously untreated advanced non-small-cell lung cancer, based on results from the Phase III CheckMate 227 study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31066582",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "ipilimumab, nivolumab"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "5318b452b166e2b806000021",
+  "type": "yesno",
+  "question": "Is exome sequencing efficient for the detection of germline mutations?",
+  "ideal_answer": "Exome sequencing is an efficient, sensitive, rapid and relatively cheap method for detection of germline mutations.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24102379",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23341325",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23832012",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22468815"
+  ],
+  "snippets": [
+    {
+      "text": "Whole exome sequencing is an efficient and sensitive method for detection of germline mutations in patients with phaeochromcytomas and paragangliomas",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24102379",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Whole exome sequencing is sensitive, rapid and efficient for detection of PCC/PGL germline mutations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24102379",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results from deep sequencing demonstrate a higher mutational detection rate than reported with conventional sequencing methodology.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23832012",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We performed exome sequencing of germline DNA from members of the affected family. Exome-wide analysis identified a novel loss-of-function mutation in the BAP1 gene, previously suggested as a tumor suppressor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23341325",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "whole-exome sequencing has been widely applied in the identification of germline mutations underlying Mendelian disorders, somatic mutations in various cancers and de novo mutations in neurodevelopmental disorders.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22468815",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001483",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018095",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D059472",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009154",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017421",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017422",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004252"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "516c1041298dcd4e51000070",
+  "type": "yesno",
+  "question": "Does thyroid hormone signaling affect microRNAs expression in the heart?",
+  "ideal_answer": "YES",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22541436",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22525353",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21149577",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17379774"
+  ],
+  "snippets": [
+    {
+      "text": "e show that the heart regulates systemic energy homeostasis via MED13, a subunit of the Mediator complex, which controls transcription by thyroid hormone and other nuclear hormone receptors. MED13, in turn, is negatively regulated by a heart-specific microRNA, miR-208a.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22541436",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "On the other hand, T\u2083 treatment increased miR-350 expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22525353",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Through a bioinformatics screening using TargetScan, we identified thyroid hormone receptor \u03b21 (TR\u03b21), which negatively regulates \u03b2-MHC transcription, as a target of miR-27a",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21149577",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "hese findings suggested that miR-27a regulates \u03b2-MHC gene expression by targeting TR\u03b21 in cardiomyocytes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21149577",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We found that a cardiac-specific microRNA (miR-208) encoded by an intron of the alphaMHC gene is required for cardiomyocyte hypertrophy, fibrosis, and expression of betaMHC in response to stress and hypothyroidism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17379774",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Moreover, miR-27a was demonstrated to modulate \u03b2-MHC gene regulation via thyroid hormone signaling and to be upregulated during the differentiation of mouse embryonic stem (ES) cells or in hypertrophic hearts in association with \u03b2-MHC gene upregulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21149577",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/THA_LITCT",
+    "http://www.uniprot.org/uniprot/THB_HUMAN",
+    "http://www.uniprot.org/uniprot/THB_SHEEP",
+    "http://www.uniprot.org/uniprot/THA_MOUSE",
+    "http://www.uniprot.org/uniprot/THA_PYGAD",
+    "http://www.uniprot.org/uniprot/THA_CHICK",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013963",
+    "http://www.uniprot.org/uniprot/THA_APTPA",
+    "http://www.uniprot.org/uniprot/THB_CAIMO",
+    "http://www.biosemantics.org/jochem#4275389",
+    "http://www.uniprot.org/uniprot/THA_PIG",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011988",
+    "http://www.uniprot.org/uniprot/THBA_XENLA",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0070324",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0070327",
+    "http://www.uniprot.org/uniprot/THB_PAROL",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037021",
+    "http://www.uniprot.org/uniprot/THA_HIPHI",
+    "http://www.uniprot.org/uniprot/THB_DANRE",
+    "http://www.uniprot.org/uniprot/THB_RAT",
+    "http://www.uniprot.org/uniprot/THAA_DANRE",
+    "http://www.uniprot.org/uniprot/THA_ELECQ",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0046966",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D035683",
+    "http://www.uniprot.org/uniprot/THA_ONCMY",
+    "http://www.uniprot.org/uniprot/THA_SPAAU",
+    "http://www.uniprot.org/uniprot/THA_NECMA",
+    "http://www.uniprot.org/uniprot/THAA_PAROL",
+    "http://www.uniprot.org/uniprot/THA_HUMAN",
+    "http://www.biosemantics.org/jochem#4250045",
+    "http://www.uniprot.org/uniprot/THB_LITCT",
+    "http://www.uniprot.org/uniprot/THA_SHEEP",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037042",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014284",
+    "http://www.uniprot.org/uniprot/THB_CHICK",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0004887",
+    "http://www.uniprot.org/uniprot/THA_RAT",
+    "http://www.uniprot.org/uniprot/THAA_XENLA",
+    "http://www.uniprot.org/uniprot/THA_CAIMO",
+    "http://www.uniprot.org/uniprot/THA_SALSA",
+    "http://www.uniprot.org/uniprot/THB_MOUSE",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013974"
+  ],
+  "exact_answer": "Yes"
+}

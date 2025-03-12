@@ -1,0 +1,65 @@
+{
+  "id": "5357b5ecf1005d6b58000007",
+  "type": "yesno",
+  "question": "Is PER3 required for CHK2 activation in human cells?",
+  "ideal_answer": "Depletion of Per3 by siRNA almost completely abolished activation of checkpoint kinase 2 (Chk2) after inducing DNA damage in human cells.Per3, a circadian gene, is required for Chk2 activation in human cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21070773"
+  ],
+  "snippets": [
+    {
+      "text": "Per3, a circadian gene, is required for Chk2 activation in human cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21070773",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Depletion of Per3 by siRNA almost completely abolished activation of checkpoint kinase 2 (Chk2) after inducing DNA damage in human cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21070773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Per3 overexpression induced Chk2 activation in the absence of exogenous DNA damage,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21070773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Per3 overexpression also led to the inhibition of cell proliferation and apoptotic cell death.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21070773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These combined results suggest that Per3 is a checkpoint protein that plays important roles in checkpoint activation, cell proliferation and apoptosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21070773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Depletion of Per3 by siRNA almost completely abolished activation of checkpoint kinase 2 (Chk2) after inducing DNA damage in human cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21070773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Per3 overexpression induced Chk2 activation in the absence of exogenous DNA damage, and this activation depended on ATM",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21070773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, Per3 physically interacted with ATM and Chk2",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21070773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/CHK2_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D064447",
+    "http://www.uniprot.org/uniprot/PER3_HUMAN"
+  ],
+  "exact_answer": "Yes"
+}

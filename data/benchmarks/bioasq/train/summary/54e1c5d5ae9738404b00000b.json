@@ -1,0 +1,45 @@
+{
+  "id": "54e1c5d5ae9738404b00000b",
+  "type": "summary",
+  "question": "What is the association between proBNP serum concentrations and stroke outcomes?",
+  "ideal_answer": "ProBNP serum concentrations are elevated in stroke patients relative to healthy controls. Greater proBNP serum concentrations are associated with greater stroke severity and with increased risk for unfvorable functional outcomes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23701638",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25102374",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16565563",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17904063"
+  ],
+  "snippets": [
+    {
+      "text": "N-terminal probrain natriuretic peptide levels as a predictor of functional outcomes in patients with ischemic stroke.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25102374",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "There was a strong positive correlation between the plasma level of NT-proBNP and the National Institutes of Health Stroke Scale score (r=0.415, P=0.000). Plasma levels of NT-proBNP in patients with an unfavorable outcome were significantly higher than those in patients with a favorable outcome [3432 (interquartile range, 1100-54991) vs. 978 (interquartile range, 123-1705) pg/ml; P=0.000]. In multivariate analyses, after adjusting for all other significant outcome predictors, the NT-proBNP level that remained can be seen as an independent unfavorable outcome predictor, with an adjusted odds ratios of 4.14 (95% confidence interval, 2.72-7.99; P=0.000). Our results show that plasma NT-proBNP levels were significantly elevated in patients with an unfavorable outcome and might be of clinical importance as a supplementary tool for the assessment of functional outcomes in patients with AIS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25102374",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Plasma levels of BNP, NT-proBNP, cortisol and copeptin were associated with stroke severity, as well as short-term functional outcomes. After adjusting for all other significant outcome predictors, NT-proBNP, cortisol and copeptin remained as independent outcome predictors. In the receiver operating characteristic curve analysis, the biomarker panel (including BNP, NT-proBNP, cortisol and copeptin) predicted functional outcome and death within 90 days significantly more efficiently than the National Institute of Health Stroke Scale (NIHSS) or the biomarker alone.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23701638",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The NT-proBNP levels were significantly higher at 4 intervals after ischemic stroke than in healthy and at-risk control subjects (all p<0.001). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16565563",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Multivariate analysis demonstrated that age and NIH Stroke Scale were the 2 strongest independent predictors of increased NT-proBNP levels (all p<0.01). Furthermore, increased NT-proBNP (> or = 150 pg/ml) was the strongest independent predictor of long-term (mean follow-up: 24 months) UFCO (26 patients) (all p<0.05). CONCLUSIONS: The NT-proBNP level was markedly elevated after acute ischemic stroke and declined substantially thereafter. An increased NT-proBNP level was strongly and independently correlated with UFCO in patients after ischemic stroke.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16565563",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

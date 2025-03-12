@@ -1,0 +1,26 @@
+{
+  "id": "571f3b320fd6f91b68000007",
+  "type": "list",
+  "question": "Which are the common symptoms of Cushing's syndrome?",
+  "ideal_answer": "Cushing syndrome is the constellation of signs and symptoms caused by protracted exposure to glucocorticoids. Presenting features commonly include weight gain, growth retardation, hirsutism, obesity, striae, acne and hypertension.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24062268",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17322955"
+  ],
+  "snippets": [
+    {
+      "text": "Cushing syndrome is the constellation of signs and symptoms caused by protracted exposure to glucocorticoids. The most common cause of Cushing syndrome in children and adolescents is exogenous administration of glucocorticoids. Presenting features commonly include weight gain, growth retardation, hirsutism, obesity, striae, acne and hypertension",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24062268",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This is a rare syndrome and its main endocrine manifestation, primary pigmented nodular adrenal disease (PPNAD), is an uncommon cause of adrenocorticotropic hormone-independent Cushing's syndrome.We report the case of a 20-year-old patient with a history of weight gain, hirsutism, acne, secondary amenorrhea and facial lentiginosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17322955",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "weight gain, growth retardation, hirsutism, obesity, striae, acne, hypertension"
+}

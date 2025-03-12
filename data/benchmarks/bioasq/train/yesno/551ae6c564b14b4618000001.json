@@ -1,0 +1,84 @@
+{
+  "id": "551ae6c564b14b4618000001",
+  "type": "yesno",
+  "question": "Are people with blood group O protected against severe Malaria?",
+  "ideal_answer": "It appears that individuals who are of blood-group O are relatively resistant to the severe disease caused by P. falciparum infection.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22771625",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17959777",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23071435",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22818742",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15814030"
+  ],
+  "snippets": [
+    {
+      "text": "Differential carbonylation of cytoskeletal proteins in blood group O erythrocytes: potential role in protection against severe malaria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22771625",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": ". Our findings indicate a possible correlation between the protection against severe malaria in blood group O individuals and a specific pattern of 4-HNE-carbonylation of cytoskeleton proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22771625",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "There is a predominance of blood group O in malaria-endemic regions, and several lines of evidence suggest that ABO blood groups may influence the outcome of P. falciparum infection",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23071435",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These data provide the first evidence that ABO blood group antigens influence macrophage clearance of P. falciparum-infected erythrocytes and suggest an additional mechanism by which blood group O may confer resistance to severe malaria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23071435",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Blood group phenotypes A and B are risk factors for cerebral malaria in Odisha, India.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22818742",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "type O is significantly associated with protection against CM, patients with type A and B group had increased risk for developing CM.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22818742",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Blood group O protects against severe Plasmodium falciparum malaria through the mechanism of reduced rosetting.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17959777",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Malaria has been a major selective force on the human population, and several erythrocyte polymorphisms have evolved that confer resistance to severe malaria. Plasmodium falciparum rosetting, a parasite virulence phenotype associated with severe malaria, is reduced in blood group O erythrocytes compared with groups A, B, and AB, but the contribution of the ABO blood group system to protection against severe malaria has received little attention",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17959777",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We hypothesized that blood group O may confer resistance to severe falciparum malaria through the mechanism of reduced rosetting.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17959777",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "It appears that individuals who are of blood-group O are relatively resistant to the severe disease caused by P. falciparum infection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15814030",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:14067",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001769",
+    "http://www.disease-ontology.org/api/metadata/DOID:4176",
+    "http://www.disease-ontology.org/api/metadata/DOID:12365",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008288",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001789"
+  ],
+  "exact_answer": "Yes"
+}

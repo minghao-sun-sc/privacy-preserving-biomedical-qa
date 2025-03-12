@@ -1,0 +1,87 @@
+{
+  "id": "5505c9008e1671127b000002",
+  "type": "list",
+  "question": "List the components of mTOR Complex 2 (mTORC2).",
+  "ideal_answer": "Mammalian target of rapamycin complex 2 (mTORC2) is a kinase complex comprised of mTOR, Rictor, mSin1, mLST8/G\u03b2L and PRR5.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23455608",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22820188",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22595285",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22773877",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23049074",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22532249",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24077282",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23673367",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22678916",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24244675"
+  ],
+  "snippets": [
+    {
+      "text": "mTOR is the major component of two protein complexes: mTOR complex 1 (mTORC1) and mTORC2",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24077282",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Rictor, an mTORC2-specific component",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24244675",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "f Rictor (rapamycin-insensitive companion of mTOR), an mTORC2 component,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23673367",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The mammalian target of rapamycin (mTOR) complex 2 (mTORC2), which contains the regulatory protein Rictor (rapamycin-insensitive companion of mTOR), ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23455608",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Rictor, a key component of mTORC2",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23049074",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SIN1, a key component of mTOR complex 2 (mTORC2)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22820188",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " the essential mTORC2 component rictor ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22773877",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sin1 is an essential component of mTOR complex 2 (mTORC2). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22678916",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " SIN1 or Rictor, two key components of mTOR complex 2 (mTORC2)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22595285",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Mammalian target of rapamycin complex 2 (mTORC2) is a kinase complex comprised of mTOR, Rictor, mSin1, mLST8/G\u03b2L and PRR5 ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22532249",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/MTOR_MOUSE",
+    "http://www.uniprot.org/uniprot/MTOR_HUMAN",
+    "http://www.uniprot.org/uniprot/MTOR_RAT",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0070438"
+  ],
+  "exact_answer": "mTOR, Rictor, mSin1, mLST8/G\u03b2L, PRR5"
+}

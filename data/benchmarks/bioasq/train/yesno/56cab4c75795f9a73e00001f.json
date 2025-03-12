@@ -1,0 +1,109 @@
+{
+  "id": "56cab4c75795f9a73e00001f",
+  "type": "yesno",
+  "question": "Do U6-associated proteins Lsm4 and Lsm6 interact with SMN?",
+  "ideal_answer": "SMN interacts with at least two of the U6-associated Sm-like (Lsm) proteins, Lsm4 and Lsm6.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15526162",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10851237",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14962794",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11720283",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17178713",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23334184",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16087681",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16003501"
+  ],
+  "snippets": [
+    {
+      "text": "SMN also interacts with at least two of the U6-associated Sm-like (Lsm) proteins, Lsm4 and Lsm6. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10851237",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Interestingly, SMN also interacts with at least two of the U6-associated Sm-like (Lsm) proteins, Lsm4 and Lsm6",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10851237",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, we present evidence for two separate binding sites in SMN for Sm/Lsm proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16087681",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Interestingly, SMN also interacts with at least two of the U6-associated Sm-like (Lsm) proteins, Lsm4 and Lsm6. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10851237",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Symmetrical dimethylation of arginine residues in spliceosomal Sm protein B/B' and the Sm-like protein LSm4, and their interaction with the SMN protein.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11720283",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Interestingly, SMN also interacts with at least two of the U6-associated Sm-like (Lsm) proteins, Lsm4 and Lsm6. Furthermore, the carboxyl-terminal arginine- and glycine-rich domain of Lsm4 directly interacts with SMN.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10851237",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This entity promotes the binding of a set of factors, termed LSm/Sm proteins, onto snRNA to form the core structure of these particles. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17178713",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Toward an assembly line for U7 snRNPs: interactions of U7-specific Lsm proteins with PRMT5 and SMN complexes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16087681",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In this report, we demonstrate that the coilin C-terminal domain binds directly to various Sm and Lsm proteins via their Sm motifs. We show that the region of coilin responsible for this binding activity is separable from that which binds to SMN.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16003501",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thus, the ability to interact with free Sm (and Lsm) proteins as well as with intact snRNPs, indicates that coilin and CBs may facilitate the modification of newly formed snRNPs, the regeneration of 'mature' snRNPs, or the reclamation of unassembled snRNP components.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16003501",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover this structure has important consequences for snRNP assembly that is mediated by two complexes containing the PRMT5 methyltransferase and the SMN (survival of motor neurons) protein, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15526162",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Arginine/glycine (RG)-rich domains in components of the SMN complex interact with Sm, like-Sm (LSm), fibrillarin, RNA helicase A (Gu), and coilin proteins, all of which are antigen targets in a variety of diseases. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14962794",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/LSM6_LODEL",
+    "http://www.uniprot.org/uniprot/LSM6_CRYNB",
+    "http://www.uniprot.org/uniprot/LSM6_ASPCL",
+    "http://www.uniprot.org/uniprot/LSM4_YEAST",
+    "http://www.uniprot.org/uniprot/LSM6_NEOFI",
+    "http://www.uniprot.org/uniprot/LSM4_MOUSE",
+    "http://www.uniprot.org/uniprot/LSM4_BOVIN",
+    "http://www.uniprot.org/uniprot/LSM6_PHANO",
+    "http://www.uniprot.org/uniprot/LSM6_KLULA",
+    "http://amigo.geneontology.org/amigo/term/GO:0034731",
+    "http://www.uniprot.org/uniprot/LSM6_CHAGB",
+    "http://www.uniprot.org/uniprot/LSM6_DEBHA",
+    "http://www.uniprot.org/uniprot/LSM6_MOUSE",
+    "http://www.uniprot.org/uniprot/LSM6_COPC7",
+    "http://www.uniprot.org/uniprot/LSM6_AJECN",
+    "http://www.uniprot.org/uniprot/LSM4_HUMAN"
+  ],
+  "exact_answer": "Yes"
+}

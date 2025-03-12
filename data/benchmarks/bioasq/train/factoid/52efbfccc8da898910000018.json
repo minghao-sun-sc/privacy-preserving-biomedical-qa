@@ -1,0 +1,72 @@
+{
+  "id": "52efbfccc8da898910000018",
+  "type": "factoid",
+  "question": "At which kind of individuals is pharmacological treatment of subclinical hypothyroidism effective in reducing cardiovascular events?",
+  "ideal_answer": "Treatment of subclinical hypothyroidism is associated with fewer cardiovascular events in younger individuals, but this issue has not been resolved yet in elderly people.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23559085",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16542047",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17544610",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22529180",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16026106",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17636722",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19463607",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19114542"
+  ],
+  "snippets": [
+    {
+      "text": "sHT in older people should be not regarded as a unique condition, and moderately old patients (aged <70-75 y) could be considered clinically similar to the adult population, albeit with a higher optimal TSH target value. Conversely, the oldest old subjects should be carefully followed with a wait-and-see strategy, generally avoiding hormonal treatment. The decision to treat elderly people is still an unresolved clinical challenge--first, due to a lack of appropriately powered randomized controlled trials of L-T4 in sHT patients, examining cardiovascular hard endpoints in various classes of age; and second, because of the negative effects of possible overtreatment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23559085",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Treatment of SCH with levothyroxine was associated with fewer IHD events in younger individuals, but this was not evident in older people. An appropriately powered randomized controlled trial of levothyroxine in SCH examining vascular outcomes is now warranted.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22529180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SCH appears to influence the postoperative outcome for patients by increasing the development of postoperative atrial fibrillation. However, it is still unproven whether preoperative thyroxine replacement therapy for patients with SCH might prevent postoperative atrial fibrillation after CABG.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19463607",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sustained normalization of thyroid function during l-T(4) replacement therapy significantly decreases baPWV in female subclinical hypothyroid patients with autoimmune chronic thyroiditis, suggesting the improvement of arterial stiffening and, consequently, possible prevention of cardiovascular disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19114542",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results suggest that L-T(4) replacement therapy may be especially beneficial in female subclinical hypothyroid patients with high baseline baPWV and pulse pressure. The beneficial effects of L-T(4) replacement therapy in decreasing arterial stiffening and thus preventing cardiovascular disease might be limited to this sub-population.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17544610",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although a consensus is still lacking, the strongest evidence for a beneficial effect of levothyroxine replacement on markers of cardiovascular risk is the substantial demonstration that restoration of euthyroidism can lower both total and low-density lipoprotein-cholesterol levels in most patients with subclinical hypothyroidism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16542047",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, the actual effectiveness of thyroid hormone substitution in reducing the risk of cardiovascular events remains to be elucidated.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16542047",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Restoration of euthyroidism by levothyroxine (LT4) treatment may correct the lipid profile and cardiac abnormalities, especially in patients with an initially higher deviation from normality and higher serum TSH levels. Importantly, a strong association between SH and atherosclerotic cardiovascular disease, independent of the traditional risk factors, has been recently reported in a large cross-sectional survey (the Rotterdam Study). However, whether SH confers a high risk for cardiovascular disease, and whether LT4 therapy has a long-term benefit that clearly outweighs the risks of overzealous treatment in these individuals, remain topics of controversy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16026106",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013812",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002318",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007037"
+  ],
+  "exact_answer": "effective in younger individuals"
+}

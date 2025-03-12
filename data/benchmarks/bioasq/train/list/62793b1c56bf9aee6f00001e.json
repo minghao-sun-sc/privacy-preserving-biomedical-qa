@@ -1,0 +1,74 @@
+{
+  "id": "62793b1c56bf9aee6f00001e",
+  "type": "list",
+  "question": "Which proteins does p110\u03b1 interact with?",
+  "ideal_answer": "p110\u03b1 interacts with p85\u03b1 and RAS proteins.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24367658",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24229705",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34884613",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24229709",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23086038",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30683915",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26122737",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25003191"
+  ],
+  "snippets": [
+    {
+      "text": "p110\u03b1-p85\u03b1 heterodimer",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26122737",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "p110\u03b1-p85\u03b1 dimer",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26122737",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "p110\u03b1-p85\u03b1 interface",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26122737",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RAS interaction with PI3K p110\u03b1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25003191",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "interaction between RAS and p110\u03b1 ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25003191",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "functional interaction of RAS with p110\u03b1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25003191",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RAS and p110\u03b1 interaction",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25003191",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RAS interaction with PI3K p110\u03b1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25003191",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PAQR3 interacts with the domain of p110\u03b1 involved in its binding with p85, the regulatory subunit of PI3K",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23086038",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "p85\u03b1, p85, RAS, ras"
+}

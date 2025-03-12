@@ -1,0 +1,32 @@
+{
+  "id": "53188992b166e2b806000019",
+  "type": "list",
+  "question": "Which are the cellular targets of imatinib mesylate?",
+  "ideal_answer": "The cellular targets of imatinib mesylate are BCR-ABL, platelet-derived growth factor receptor (PDGFR) and c-kit kinases.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15887238",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15844661"
+  ],
+  "snippets": [
+    {
+      "text": "Imatinib mesylate is a tyrosine kinase inhibitor of the ABL, platelet-derived growth factor receptor (PDGFR), and c-kit kinases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15887238",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Imatinib mesylate is a novel anti-tumor agent useful in the clinical management of chronic myelogenous leukemia and gastrointestinal stromal tumors with minimal toxicity relative to other forms of cancer therapy. Its clinical activity and minimal toxicity are related to specific inhibition of cellular targets including BCR-ABL, platelet-derived growth factor receptor and c-kit kinases, resulting in the collapse of downstream signaling cascades important for transformation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15844661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017479",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013812",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D058990",
+    "http://www.biosemantics.org/jochem#4275840",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016503"
+  ],
+  "exact_answer": "BCR-ABL, Platelet-derived growth factor receptor (PDGFR), c-Kit"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "56ae35bc0a360a5e45000007",
+  "type": "summary",
+  "question": "What is the COUGER tool?",
+  "ideal_answer": "COUGER takes as input two sets of genomic regions bound by paralogous TFs, and it identifies a small set of putative co-factors that best distinguish the two sets of sequences. ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24861628"
+  ],
+  "snippets": [
+    {
+      "text": "COUGER--co-factors associated with uniquely-bound genomic regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24861628",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we present an interactive web implementation of COUGER, a classification-based framework for identifying protein co-factors that might provide specificity to paralogous TFs. COUGER takes as input two sets of genomic regions bound by paralogous TFs, and it identifies a small set of putative co-factors that best distinguish the two sets of sequences. To achieve this task, COUGER uses a classification approach, with features that reflect the DNA-binding specificities of the putative co-factors. The identified co-factors are presented in a user-friendly output page, together with information that allows the user to understand and to explore the contributions of individual co-factor features. COUGER can be run as a stand-alone tool or through a web interface: http://couger.oit.duke.edu.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24861628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we present an interactive web implementation of COUGER, a classification-based framework for identifying protein co-factors that might provide specificity to paralogous TFs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24861628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "COUGER takes as input two sets of genomic regions bound by paralogous TFs, and it identifies a small set of putative co-factors that best distinguish the two sets of sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24861628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "COUGER takes as input two sets of genomic regions bound by paralogous TFs, and it identifies a small set of putative co-factors that best distinguish the two sets of sequences",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24861628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we present an interactive web implementation of COUGER, a classification-based framework for identifying protein co-factors that might provide specificity to paralogous TFs. COUGER takes as input two sets of genomic regions bound by paralogous TFs, and it identifies a small set of putative co-factors that best distinguish the two sets of sequences. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24861628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "COUGER takes as input two sets of genomic regions bound by paralogous TFs, and it identifies a small set of putative co-factors that best distinguish the two sets of sequences. To achieve this task, COUGER uses a classification approach, with features that reflect the DNA-binding specificities of the putative co-factors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24861628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we present an interactive web implementation of COUGER, a classification-based framework for identifying protein co-factors that might provide specificity to paralogous TFs. COUGER takes as input two sets of genomic regions bound by paralogous TFs, and it identifies a small set of putative co-factors that best distinguish the two sets of sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24861628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012984"
+  ]
+}

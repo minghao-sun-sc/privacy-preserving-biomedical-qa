@@ -1,0 +1,37 @@
+{
+  "id": "5c6ab4c17c78d6947100001d",
+  "type": "factoid",
+  "question": "Under which environment does SELANSI run?",
+  "ideal_answer": "SELANSI (SEmi-LAgrangian SImulation of GRNs) is a software toolbox for the simulation of stochastic multidimensional gene regulatory networks. SELANSI exploits intrinsic structural properties of gene regulatory networks to accurately approximate the corresponding Chemical Master Equation with a partial integral differential equation that is solved by a semi-lagrangian method with high efficiency. SELANSI runs under the MATLAB environment, and is available under GPLv3 license at https://sites.google.com/view/selansi.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29040384"
+  ],
+  "snippets": [
+    {
+      "text": "This work presents SELANSI (SEmi-LAgrangian SImulation of GRNs), a software toolbox for the simulation of stochastic multidimensional gene regulatory networks. SELANSI exploits intrinsic structural properties of gene regulatory networks to accurately approximate the corresponding Chemical Master Equation with a partial integral differential equation that is solved by a semi-lagrangian method with high efficiency. Networks under consideration might involve multiple genes with self and cross regulations, in which genes can be regulated by different transcription factors. Moreover, the validity of the method is not restricted to a particular type of kinetics. The tool offers total flexibility regarding network topology, kinetics and parameterization, as well as simulation options.Availability and implementation: SELANSI runs under the MATLAB environment, and is available under GPLv3 license at https://sites.google.com/view/selansi.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29040384",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Availability and implementation\nSELANSI runs under the MATLAB environment, and is available under GPLv3 license at https://sites.google.com/view/selansi.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29040384",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The tool offers total flexibility regarding network topology, kinetics and parameterization, as well as simulation options.<br><b>Availability and implementation</b>: SELANSI runs under the MATLAB environment, and is available under GPLv3 license at https://sites.google.com/view/selansi.<br><b>Contact</b>: antonio@iim.csic.es.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29040384",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SELANSI runs under the MATLAB environment, and is available under GPLv3 license at https://sites.google.com/view/selansi.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29040384",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "MATLAB"
+}

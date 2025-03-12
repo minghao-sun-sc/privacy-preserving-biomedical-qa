@@ -1,0 +1,19 @@
+{
+  "id": "5c6545bae842deac6700001d",
+  "type": "factoid",
+  "question": "Which molecular does daratumumab target?",
+  "ideal_answer": "Daratumumab is an anti-CD38 antibody.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29500635"
+  ],
+  "snippets": [
+    {
+      "text": "The addition of daratumumab (anti-CD38 antibody) augmented NK-cell cytotoxicity against target cells expressing high CD38, but not against CD38 low or negative target cells also in the presence of TME.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29500635",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CD38"
+}

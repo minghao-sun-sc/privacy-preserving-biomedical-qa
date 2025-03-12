@@ -1,0 +1,49 @@
+{
+  "id": "5896399978275d0c4a00000b",
+  "type": "yesno",
+  "question": "Is RASA2 involved in melanoma?",
+  "ideal_answer": "Yes. Analysis of 501 melanoma exomes identified RASA2, encoding a RasGAP, as a tumor-suppressor gene mutated in 5% of melanomas. Recurrent loss-of-function mutations in RASA2 were found to increase RAS activation, melanoma cell growth and migration. RASA2 expression was lost in \u226530% of human melanomas and was associated with reduced patient survival. These findings identify RASA2 inactivation as a melanoma driver and highlight the importance of RasGAPs in cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26502337"
+  ],
+  "snippets": [
+    {
+      "text": "Analysis of 501 melanoma exomes identified RASA2, encoding a RasGAP, as a tumor-suppressor gene mutated in 5% of melanomas. Recurrent loss-of-function mutations in RASA2 were found to increase RAS activation, melanoma cell growth and migration. RASA2 expression was lost in \u226530% of human melanomas and was associated with reduced patient survival. These findings identify RASA2 inactivation as a melanoma driver and highlight the importance of RasGAPs in cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26502337",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Analysis of 501 melanoma exomes identified RASA2, encoding a RasGAP, as a tumor-suppressor gene mutated in 5% of melanomas",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26502337",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These findings identify RASA2 inactivation as a melanoma driver and highlight the importance of RasGAPs in cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26502337",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recurrent loss-of-function mutations in RASA2 were found to increase RAS activation, melanoma cell growth and migration.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26502337",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Analysis of 501 melanoma exomes identified RASA2, encoding a RasGAP, as a tumor-suppressor gene mutated in 5% of melanomas.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26502337",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/RASA2_RAT",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008545",
+    "http://www.disease-ontology.org/api/metadata/DOID:1909",
+    "http://www.uniprot.org/uniprot/RASA2_HUMAN",
+    "http://www.uniprot.org/uniprot/RASA2_MOUSE"
+  ],
+  "exact_answer": "Yes"
+}

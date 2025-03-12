@@ -1,0 +1,57 @@
+{
+  "id": "5ac24c9495d0062724000002",
+  "type": "factoid",
+  "question": "What is the ChIP-exo method used for?",
+  "ideal_answer": "Precise Identification of DNA-Binding Proteins Genomic Location by Exonuclease Coupled Chromatin Immunoprecipitation (ChIP-exo).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23026909",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28060339",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26404150"
+  ],
+  "snippets": [
+    {
+      "text": "ChIP-exo method for identifying genomic location of DNA-binding proteins with near-single-nucleotide accuracy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23026909",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "ChIP-exo allows identification of a nearly complete set of the binding locations of DNA-binding proteins at near-single-nucleotide resolution with almost no background.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23026909",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Precise Identification of DNA-Binding Proteins Genomic Location by Exonuclease Coupled Chromatin Immunoprecipitation (ChIP-exo).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26404150",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "A significant improvement of the ChIP-seq technique results from the addition of an exonuclease treatment during the immunoprecipitation step (ChIP-exo) that lowers background noise and more importantly increases the identification of binding sites to a level near to single-base resolution by effectively footprinting DNA-bound proteins. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26404150",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The ChIP-exo Method: Identifying Protein-DNA Interactions with Near Base Pair Precision.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28060339",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The key distinction of the ChIP-exo methodology is the incorporation of lambda exonuclease digestion in the library preparation workflow to effectively footprint the left and right 5' DNA borders of the protein-DNA crosslink site. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28060339",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ChIP-exo method for identifying genomic location of DNA-binding proteins with near-single-nucleotide accuracy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23026909",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "location of DNA binding proteins at high resolution"
+}

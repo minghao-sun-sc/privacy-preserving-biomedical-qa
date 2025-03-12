@@ -1,0 +1,24 @@
+{
+  "id": "5e4adc296d0a277941000016",
+  "type": "summary",
+  "question": "Describe Brain Radiation Information Data Exchange (BRIDE) approach",
+  "ideal_answer": "BRIDE (Brain Radiation Information Data Exchange) is a data integration platform that acts as a knowledge broker for LDIR researchers to facilitate molecular research on the systems biology of LDIR response in mammals. Its flexible design can capture a range of experimental information for genomics, epigenomics, transcriptomics, and proteomics.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27170263"
+  ],
+  "snippets": [
+    {
+      "text": "Brain Radiation Information Data Exchange (BRIDE): integration of experimental data from low-dose ionising radiation research for pathway discovery.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27170263",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We describe a light-weight approach for the storage, analysis and distribution of relevant LDIR omics datasets. The data integration platform, called BRIDE, contains information from the literature as well as experimental information from transcriptomics and proteomics studies. It deploys a hybrid, distributed solution using both local storage and cloud technology.CONCLUSIONS: BRIDE can act as a knowledge broker for LDIR researchers, to facilitate molecular research on the systems biology of LDIR response in mammals. Its flexible design can capture a range of experimental information for genomics, epigenomics, transcriptomics, and proteomics. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27170263",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

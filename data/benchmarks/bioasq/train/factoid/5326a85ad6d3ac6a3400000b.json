@@ -1,0 +1,107 @@
+{
+  "id": "5326a85ad6d3ac6a3400000b",
+  "type": "factoid",
+  "question": "What does polyadenylate-binding protein 4 (PABP4) bind to?",
+  "ideal_answer": "PABP4  binds mRNA poly(A) tails.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23938467",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18467502",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21518916",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22884093",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23300856",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14717712",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21940797",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18753244",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20943973",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22896784",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15676026"
+  ],
+  "snippets": [
+    {
+      "text": "RNA binding proteome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23938467",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In vertebrates, poly(A) binding protein (PABP) is known to exist in five different isoforms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23300856",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cytoplasmic poly(A)-binding proteins (PABPs) regulate mRNA stability and translation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22896784",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " poly(A) binding proteins 1 and 4 (PABPC1 and PABPC4)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20943973",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cytoplasmic poly(A) binding protein 4 (PABPC4) is an RNA-processing protein that plays an important role in the regulation of gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22884093",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cytoplasmic poly(A) binding protein 4 ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22884093",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "poly(A)-binding protein (PABP) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15676026",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Poly(A) binding protein (PABP) binds mRNA poly(A) tails ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14717712",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using mass spectrometry sequencing we identified poly(A) binding proteins-1 and -4 (PABP1 and PABP4) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18467502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The poly(A)-binding protein (PABP) is an important translation initiation factor that binds to the polyadenylated 3' end of mRNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18753244",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A family of cytoplasmic poly(A)-binding proteins (PABPs) bind the poly(A) tail and can regulate mRNA translation and stability. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21518916",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Human PABP binds AU-rich RNA via RNA-binding domains 3 and 4.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14717712",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006378",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D026723",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005515",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011061",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0043631",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011485",
+    "http://www.uniprot.org/uniprot/PABP4_HUMAN",
+    "http://www.biosemantics.org/jochem#4249823",
+    "http://www.uniprot.org/uniprot/PABP_DROME",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0008143",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D039221"
+  ],
+  "exact_answer": "PABP4  binds mRNA poly(A) tails."
+}

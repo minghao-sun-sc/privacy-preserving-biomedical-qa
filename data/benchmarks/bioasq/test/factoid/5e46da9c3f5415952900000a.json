@@ -1,0 +1,39 @@
+{
+  "id": "5e46da9c3f5415952900000a",
+  "type": "factoid",
+  "question": "What is detected by the UV-damaged DNA-binding protein (UV-DDB) complex?",
+  "ideal_answer": "Upon UV irradiation of primate cells,  UV-DDB associates tightly with chromatin and is involved in global genomic nucleotide excision repair (NER) in mammalian cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16473935",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12812979",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12034848"
+  ],
+  "snippets": [
+    {
+      "text": "UV-damaged DNA-binding protein complex (UV-DDB), involved in the damage recognition step of NER",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16473935",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The UV-damaged DNA binding protein complex (UV-DDB) is implicated in global genomic nucleotide excision repair (NER) in mammalian cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12034848",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Upon UV irradiation of primate cells, UV-DDB associates tightly with chromatin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12034848",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The cells of some XP-E patients are deficient in a protein complex (consisting of two subunits: p127/DDBI and p48/DDB2) which binds to UV-damaged DNA (UV-DDB)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12812979",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "UV-DDB associates tightly with chromatin and is involved in global genomic nucleotide excision repair (NER)"
+}

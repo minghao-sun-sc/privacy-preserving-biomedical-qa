@@ -1,0 +1,61 @@
+{
+  "id": "58f3c8f470f9fc6f0f00000c",
+  "type": "summary",
+  "question": "What is the function of mTOR?",
+  "ideal_answer": "The mTOR protein regulates assembly of the translation initiation machinery and are master regulators of cellular survival, growth and metabolism.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12864941",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21871173",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19182527",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27889578",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25898924",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25893295"
+  ],
+  "snippets": [
+    {
+      "text": "Protein synthesis regulation via mammalian target of rapamycin complex 1 (mTORC1) signaling pathway has key roles in neural development and function,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25898924",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mTOR regulates assembly of the translation initiation machinery by interacting with the eukaryotic initiation factor eIF3 complex and by controlling phosphorylation of key translational regulators",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25898924",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mammalian target of rapamycin (mTOR) complexes, mTORC1 and mTORC2, are master regulators of cellular survival, growth and metabolism",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25893295",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " (mTOR) is a serine-threonine kinase that controls several important aspects of mammalian cell function. mTOR activity is modulated by various intra- and extracellular factors; in turn, mTOR changes rates of translation, transcription, protein degradation, cell signaling, metabolism, and cytoskeleton dynamics. mTOR has been repeatedly shown to participate in neuronal development and the proper functioning of mature neurons.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27889578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mammalian target of rapamycin (mTOR), a member of the phosphoinositide 3-kinase related kinase (PIKK) family, plays a central role in the regulation of cell growth",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19182527",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "(mTOR) is a serine/threonine kinase and that forms two multiprotein complexes known as the mTOR complex 1 (mTORC1) and mTOR complex 2 (mTORC2). mTOR regulates cell growth, proliferation and survival",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21871173",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "(mTOR), a downstream effector of the phosphatidylinositol 3-kinase (PI3K)/Akt (protein kinase B) signaling pathway that mediates cell survival and proliferation,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12864941",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0065009"
+  ]
+}

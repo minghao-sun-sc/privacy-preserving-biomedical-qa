@@ -1,0 +1,88 @@
+{
+  "id": "56f3f0f02ac5ed1459000017",
+  "type": "list",
+  "question": "Which are the most widely used computational methods for the identification of CRMs (cis-regulatory modules)?",
+  "ideal_answer": "Computational methods attempting to identify instances of cis-regulatory modules (CRMs) in the genome face a challenging problem of searching for potentially interacting transcription factor binding sites while knowledge of the specific interactions involved remains limited. When discriminating CRMs from non-coding regions, those methods considering evolutionary conservation have a stronger predictive power than methods designed to be run on a single genome. Furthermore, most methods appear to be sensitive to the composition and structure of the genome to which they are applied. CisMiner allows to perform a blind search of CRMs without any prior information about target CRMs nor limitation in the number of motifs.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22422841",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25268582",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15883375",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18606616",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20671200",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19478006",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21152003"
+  ],
+  "snippets": [
+    {
+      "text": "Several tools allow to detect significant co-occurrences of closely located binding sites (cis-regulatory modules, CRMs). However, these tools present at least one of the following limitations: 1) scope limited to promoter or conserved regions of the genome; 2) do not allow to identify combinations involving more than two motifs; 3) require prior information about target motifs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25268582",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this work we present CisMiner, a novel methodology to detect putative CRMs by means of a fuzzy itemset mining approach able to operate at genome-wide scale. CisMiner allows to perform a blind search of CRMs without any prior information about target CRMs nor limitation in the number of motifs. CisMiner tackles the combinatorial complexity of genome-wide cis-regulatory module extraction using a natural representation of motif combinations as itemsets and applying the Top-Down Fuzzy Frequent- Pattern Tree algorithm to identify significant itemsets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25268582",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To be able to handle the large datasets, the query-based setting and other specificities proper to CRM detection on ChIP-Seq based data, we developed a novel powerful CRM detection method 'CPModule'",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22422841",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the optimal choice of method varies depending on species and composition of the sequences in question. When discriminating CRMs from non-coding regions, those methods considering evolutionary conservation have a stronger predictive power than methods designed to be run on a single genome. Different CRM representations and search strategies rely on different CRM properties, and different methods can complement one another. For example, some favour homotypical clusters of binding sites, while others perform best on short CRMs. Furthermore, most methods appear to be sensitive to the composition and structure of the genome to which they are applied. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21152003",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CisMiner: genome-wide in-silico cis-regulatory module prediction by fuzzy itemset mining",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25268582",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Additionally, we make a number of new predictions on combinatorial regulation of these five key TFs with other TFs documented in TRANSFAC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22422841",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Due to degeneracy of nucleotide content among binding site instances or motifs, and intricate &apos;grammatical organization&apos; of motifs within cis-regulatory modules (CRMs), extant pattern matching-based in silico motif search methods often suffer from impractically high false positive rates, especially in the context of analyzing large genomic datasets, and noisy position weight matrices which characterize binding sites",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19478006",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Genome-wide identification of cis-regulatory motifs and modules underlying gene coregulation using statistics and phylogeny.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20671200",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We thus developed a new CRM identification method MOPAT (motif pair tree), which identifies CRMs through the identification of motif modules, groups of motifs co-occurring in multiple CRMs. It can identify &apos;orthologous&apos; CRMs without multiple alignments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18606616",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These methods are problematic when binding sites are not well aligned in multiple alignments or when the number of input known motifs is large. We thus developed a new CRM identification method MOPAT (motif pair tree), which identifies CRMs through the identification of motif modules, groups of motifs co-occurring in multiple CRMs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18606616",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We thus developed a new CRM identification method MOPAT (motif pair tree), which identifies CRMs through the identification of motif modules, groups of motifs co-occurring in multiple CRMs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18606616",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008722",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019295"
+  ],
+  "exact_answer": "motif conservation, fuzzy itemset mining, combinatorial methods"
+}

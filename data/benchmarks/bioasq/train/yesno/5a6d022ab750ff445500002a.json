@@ -1,0 +1,61 @@
+{
+  "id": "5a6d022ab750ff445500002a",
+  "type": "yesno",
+  "question": "Is there any linear-time and linear-space algorithm for the computation of avoided words in biological sequences?",
+  "ideal_answer": "Yes. There is a linear-time and linear-space algorithm for the computation of avoided words of length k in a given sequence x.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28293277"
+  ],
+  "snippets": [
+    {
+      "text": "The systematic search for avoided words is particularly useful for biological sequence analysis. We present a linear-time and linear-space algorithm for the computation of avoided words of lengthkin a given sequencex. We suggest a modification to this algorithm so that it computes all avoided words ofx, irrespective of their length, within the same time complexity. We also present combinatorial results with regards to avoided words and absent words.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28293277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present a linear-time and linear-space algorithm for the computation of avoided words of length <br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28293277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "<b>BACKGROUND</b>: The deviation of the observed frequency of a word <br><b>RESULTS</b>: In this article, we propose an [Formula: see text]-time and [Formula: see text]-space algorithm to compute all [Formula: see text]-avoided words of length <br><b>CONCLUSIONS</b>: The systematic search for avoided words is particularly useful for biological sequence analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28293277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present a linear-time and linear-space algorithm for the computation of avoided words of length",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28293277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present a linear-time and linear-space algorithm for the computation of avoided words of length k in a given sequence x.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28293277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hence, computing all such words na\u00efvely can be a very time-consuming procedure, in particular for large k.   RESULTS In this article, we propose an [Formula: see text]-time and [Formula: see text]-space algorithm to compute all [Formula: see text]-avoided words of length k in a given sequence of length n over a fixed-sized alphabet.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28293277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We also present a time-optimal [Formula: see text]-time algorithm to compute all [Formula: see text]-avoided words (of any length) in a sequence of length n over an integer alphabet of size [Formula: see text].",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28293277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the deviation of the observed frequency of a word from its expected frequency in a given sequence is used to determine whether or not the word is this concept is particularly useful in dna linguistic analysis the value of the deviation of denoted by formula see text effectively characterises the extent of a word by its edge contrast in the context in which it occurs a word of length formula see text is a formula see text avoided word in if formula see text for a given threshold formula see text notice that such a word may be completely from hence computing all such words na\u00efvely can be a very time consuming procedure in particular for large in this article we propose an formula see text time and formula see text space algorithm to compute all formula see text avoided words of length in a given sequence of length over a fixed sized alphabet we also present a time optimal formula see text time algorithm to compute all formula see text avoided words of any length in a sequence of length over an integer alphabet of size formula see text in addition we provide a tight asymptotic upper bound for the number of formula see text avoided words over an integer alphabet and the expected length of the longest one we make available an implementation of our algorithm experimental results using both real and synthetic data show the efficiency and applicability of our implementation in biological sequence analysis the systematic search for avoided words is particularly useful for biological sequence analysis we present a linear time and linear space algorithm for the computation of avoided words of length in a given sequence we suggest a modification to this algorithm so that it computes all avoided words of irrespective of their length within the same time complexity we also present combinatorial results with regards to avoided words and absent words.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28293277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

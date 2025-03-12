@@ -1,0 +1,72 @@
+{
+  "id": "532f09d2d6d3ac6a3400002b",
+  "type": "yesno",
+  "question": "Is rivaroxaban metabolized in kidneys?",
+  "ideal_answer": "rivaroxaban undergoes renal metabolism",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23026665",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23631188",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22177763",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22931521",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19712596",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19196845",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23652451",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22825670",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23790601"
+  ],
+  "snippets": [
+    {
+      "text": "The novel oral anticoagulants (i.e., dabigatran, apixaban, rivaroxaban) all undergo renal metabolism to varying degrees, and hence dosing, efficacy, and safety require special consideration in CKD patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23790601",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The new oral anticoagulants have relatively little data in patients with severe renal impairment, and all have an element of renal excretion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23652451",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Now new anticoagulant drugs(dabigatran and rivaroxaban) can become available. Therefore, we have to learn how to use those drugs. They have to carefully be used because they discharge from kidney and old aged patients have potential renal dysfunction. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23631188",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the everyday practice it will be necessary to be very cautious in patients with impaired renal function, as all these drugs are eliminated by kidneys.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23026665",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dabigatran etexilate and rivaroxaban carry the highest risk due to a high degree of renal excretion, whereas the risk for apixaban, edoxaban and betrixaban seems lower.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22931521",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, all these agents undergo renal clearance to varying degrees, and hence dosing, efficacy, and safety require special consideration in patients with CKD. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22825670",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rivaroxaban being excreted via kidney and liver, some precautions should apply in case of liver insufficiency. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22177763",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rivaroxaban elimination is mainly renal, but also through faecal matter and by hepatic metabolism. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19712596",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007668",
+    "http://www.biosemantics.org/jochem#4243836"
+  ],
+  "exact_answer": "Yes"
+}

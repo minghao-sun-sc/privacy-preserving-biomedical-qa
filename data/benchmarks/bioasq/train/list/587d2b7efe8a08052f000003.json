@@ -1,0 +1,19 @@
+{
+  "id": "587d2b7efe8a08052f000003",
+  "type": "list",
+  "question": "Which are the additions of the JASPAR 2016 open-access database of transcription factor binding profiles?",
+  "ideal_answer": "Compared to the JASPAR CORE collection, JASPAR 2016 has been expanded with 494 new TF binding profiles (315 in vertebrates, 11 in nematodes, 3 in insects, 1 in fungi and 164 in plants) and 59 profiles (58 in vertebrates and 1 in fungi) have been updated. The introduced profiles represent an 83% expansion and 10% update when compared to the previous release. The structural annotation of the TF DNA binding domains (DBDs) has been updated following a published hierarchical structural classification. In addition, 130 transcription factor flexible models trained on ChIP-seq data for vertebrates, which capture dinucleotide dependencies within TF binding sites were introduced . The new JASPAR release is accompanied by a new web tool to infer JASPAR TF binding profiles recognized by a given TF protein sequence. Moreover, users are provided with a Ruby module complementing the JASPAR API to ease programmatic access and use of the JASPAR collection of profiles. JASPAR2016 R/Bioconductor data package is also provided with the data of this release.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26531826"
+  ],
+  "snippets": [
+    {
+      "text": "For this 2016 release, we expanded the JASPAR CORE collection with 494 new TF binding profiles (315 in vertebrates, 11 in nematodes, 3 in insects, 1 in fungi and 164 in plants) and updated 59 profiles (58 in vertebrates and 1 in fungi). The introduced profiles represent an 83% expansion and 10% update when compared to the previous release. We updated the structural annotation of the TF DNA binding domains (DBDs) following a published hierarchical structural classification. In addition, we introduced 130 transcription factor flexible models trained on ChIP-seq data for vertebrates, which capture dinucleotide dependencies within TF binding sites. This new JASPAR release is accompanied by a new web tool to infer JASPAR TF binding profiles recognized by a given TF protein sequence. Moreover, we provide the users with a Ruby module complementing the JASPAR API to ease programmatic access and use of the JASPAR collection of profiles. Finally, we provide the JASPAR2016 R/Bioconductor data package with the data of this release",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26531826",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "494 new TF binding profiles (315 in vertebrates, 11 in nematodes, 3 in insects, 1 in fungi and 164 in plants) and updated 59 profiles (58 in vertebrates and 1 in fungi), Updated structural annotation of the TF DNA binding domains (DBDs) following a published hierarchical structural classification, 130 transcription factor flexible models trained on ChIP-seq data for vertebrates, which capture dinucleotide dependencies within TF binding sites, A new web tool to infer JASPAR TF binding profiles recognized by a given TF protein sequence, A Ruby module complementing the JASPAR API to ease programmatic access and use of the JASPAR collection of profiles, JASPAR2016 R/Bioconductor data package"
+}

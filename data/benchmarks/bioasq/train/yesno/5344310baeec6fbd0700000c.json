@@ -1,0 +1,319 @@
+{
+  "id": "5344310baeec6fbd0700000c",
+  "type": "yesno",
+  "question": "Does the CTCF protein co-localize with cohesin?",
+  "ideal_answer": "Recent genome-wide studies mapping the binding sites of CTCF and its interacting partner, cohesin, using chromatin immunoprecipitation coupled with deep sequencing (ChIP-seq) revealded that CTCF globally co-localizes with cohesin.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22780989",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23010778",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19158269",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21876668",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19109133",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23295672",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23204437",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18623068",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22550178",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19308701",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21444719",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24257606",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21880767",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21106760",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23804403",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22952237",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19369356",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23498937",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21948239",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21970734",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22440186",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24321385",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20219941",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21628529",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20133600",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21606361",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23945083",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18550811"
+  ],
+  "snippets": [
+    {
+      "text": "To investigate cohesin-non-CTCF (CNC) binding events in vivo we mapped cohesin and CTCF, as well as a collection of tissue-specific and ubiquitous transcriptional regulators using ChIP-seq in primary mouse liver.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22780989",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In contrast to regions of the genome where cohesin and CTCF colocalize, CNC sites coincide with the binding of master regulators and enhancer-markers and are significantly associated with liver-specific expressed genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22780989",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we report that cohesins colocalize with CTCF at two additional imprinted loci, the Dlk1-Dio3 and the Kcnq1/Kcnq1ot1 loci.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21628529",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "By use of human hepatocellular carcinoma cells (HepG2), we found that liver-specific transcription factors colocalize with cohesin independently of CTCF at liver-specific targets that are distinct from those found in breast cancer cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20219941",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Because cohesin can colocalize with CTCF, we performed chromatin immunoprecipitation for the cohesin subunit Rad21 and found lineage and stage-specific Rad21 recruitment to CTCF in all Ig loci",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19109133",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show that zebrafish runx1 is directly bound by cohesin and CCCTC binding factor (CTCF) at the P1 and P2 promoters, and within the intron between P1 and P2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24321385",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The intronic binding sites for cohesin and CTCF coincide with histone modifications that confer enhancer-like properties, and two of the cohesin/CTCF sites behaved as insulators in an in vivo assay",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24321385",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The identified cohesin and CTCF binding sites are likely to be cis-regulatory elements (CREs) for runx1 since they also recruit RNA polymerase II (RNAPII).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24321385",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We have found that CTCF and cohesin are highly enriched at the convergent and partially overlapping transcripts for the LMP1 and LMP2A genes, but it is not yet known how CTCF and cohesin may coordinately regulate these transcripts",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24257606",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "haracterization of constitutive CTCF/cohesin loci: a possible role in establishing topological domains in mammalian genomes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23945083",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Our analysis revealed: 1) constitutive CTCF loci were located in constitutive open chromatin and often co-localized with constitutive cohesin loci",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23945083",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In brain, a third of CTCF and cohesin binding sites coincide, consistent with the potential for many interactions between cohesin and CTCF but also many instances of independent action",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23804403",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we focus on the emerging roles of CTCF and the cohesin in coordinating long-range interactions between regulatory elements",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23498937",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chromatin immunoprecipitation for CTCF and the cohesin subunits RAD21 and SMC3 reveals evolutionarily conserved binding sites within unmethylated regions \u223c5 kb downstream of the PLAGL1 differentially methylated region and within the PLAGL1 3' untranslated region (UTR)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23295672",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TCF physically links cohesin to chromatin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18550811",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "ohesin and CTCF: cooperating to control chromosome conformation?",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18623068",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Recently, three groups mapped numerous cohesin-binding sites in mammalian chromosomes and found substantial overlap with the CCCTC-binding factor (CTCF)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18623068",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We found that each site contains a conserved CTCF consensus sequence, binds CTCF, and recruits the cohesin subunit Rad21 in vivo",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19158269",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent experiments have revealed that cohesin binds to the same sites in mammalian genomes as the zinc finger transcription factor CTCF",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19308701",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we review what is known about the roles of cohesin and CTCF in regulating gene expression in mammalian cells, and we discuss how cohesin might mediate the insulator function of CTCF",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19308701",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Previous studies have shown that this major latency control region is occupied by the cellular chromatin boundary factor CTCF and chromosome structural maintenance proteins SMC1, SMC3, and RAD21, which comprise the cohesin complex",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19369356",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cohesin subunits assembled at the CTCF binding sites and bound CTCF proteins in a cell cycle-dependent manner",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19369356",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We propose that the CTCF-cohesin complex plays a critical role in regulating the cell cycle control of viral gene expression during latency and that failure to maintain cell cycle control of latent transcripts inhibits host cell proliferation and survival",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19369356",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We used chromosome conformation capture to determine long-range interactions among CTCF/cohesin sites over 2 Mb on human chromosome 11 encompassing the beta-globin locus and flanking olfactory receptor genes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20133600",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results support a genome-wide role for CTCF/cohesin sites through loop formation that both influences transcription and contributes to cell-type-specific chromatin organization and function",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20133600",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Increased methylation at this promoter triggered the dissociation of the insulator protein CTCF as well as the accompanying cohesin from the BDNF locus",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21106760",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "icotinamide adenine dinucleotide (NAD)-regulated DNA methylation alters CCCTC-binding factor (CTCF)/cohesin binding and transcription at the BDNF locus",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21106760",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "ecent studies have shown that the protein CTCF, which plays an important role in insulation and in large-scale organization of chromatin within the eukaryotic nucleus, depends for both activities on recruitment of the cohesin complex",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21444719",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show here that the interaction of CTCF with the cohesin complex involves direct contacts between the cohesin subunit SA2 and specific regions of the C-terminal tail of CTCF",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21444719",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Taken together, our results demonstrate that specific sites on the C terminus of CTCF are essential for cohesin binding and insulator function",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21444719",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The only direct interaction between CTCF and cohesin involves contact with SA2, which is external to the cohesin ring",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21444719",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These numerous CTCF/cohesin sites potentially form the bases of the multiloop rosette structures at the Igh locus that compact during Ig heavy chain rearrangement",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21606361",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We have previously shown that the Kaposi's Sarcoma-Associated Herpesvirus (KSHV) major latency transcripts encoding LANA, vCyclin, vFLIP, v-miRNAs, and Kaposin are regulated, in part, by a chromatin organizing element that binds CTCF and cohesins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21876668",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mutation of the CTCF-cohesin binding site reduced or eliminated the chromatin conformation linkages, and deregulated viral transcription and genome copy number control",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21876668",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our findings indicate that KSHV genomes are organized into chromatin loops mediated by CTCF and cohesin interactions, and that these inter-chromosomal linkages coordinate latent and lytic gene control.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21876668",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show here that GA disrupts an RNA polymerase II (RNAPII) complex that accumulates at the CTCF-cohesin binding site within the first intron of the latency transcript.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21880767",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "GA altered the enrichment of the RNAPII pausing complex, along with pausing factors SPT5 and NELF-A, at the intragenic CTCF-cohesin binding sites.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21880767",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "GA treatment also inhibited the transcription of some cellular genes, like c-myc, which contain a similar CTCF-cohesin binding site within the first intron.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21880767",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These findings suggest that RNAPII pauses at intragenic CTCF-cohesin binding sites and that abrogation of this pausing by GA leads to loss of proper mRNA production and defects in sister chromatid cohesion, a process important for both viral and cellular chromosome stability.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21880767",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TCF and cohesin cooperatively mediate the cell-type specific interchromatin interaction between Bcl11b and Arhgap6 loci",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21948239",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Additional experiments verified that the interchromatin interaction between the Bcl11b and Arhgap6 loci was cell-type specific, which was cooperatively mediated by CTCF and cohesin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21948239",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "enome-wide studies of CCCTC-binding factor (CTCF) and cohesin provide insight into chromatin structure and regulation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22952237",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Recent genome-wide studies mapping the binding sites of CTCF and its interacting partner, cohesin, using chromatin immunoprecipitation coupled with deep sequencing (ChIP-seq) revealded that CTCF globally co-localizes with cohesin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22952237",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we show by ChIP-Seq that most human subtelomeres contain a CTCF- and cohesin-binding site within \u223c1-2\u2009kb of the TTAGGG repeat tract and adjacent to a CpG-islands implicated in TERRA transcription control.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23010778",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These findings indicate that CTCF and cohesin are integral components of most human subtelomeres, and important for the regulation of TERRA transcription and telomere end protection",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23010778",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, we show that this DNA looping requires specific binding of the CTCF/cohesin complex to two symmetrically aligned binding sites in both the transcriptionally active promoters and in one of the enhancers",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23204437",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/CTCF_RAT",
+    "http://www.uniprot.org/uniprot/CTCFL_HUMAN"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "58a22eb460087bc10a000001",
+  "type": "summary",
+  "question": "What is the mechanism of action of the biguanide class of diabetes drugs?",
+  "ideal_answer": "this biguanide is an oral insulin-sensitizing agent capable of increasing insulin sensitivity and decreasing plasma fasting insulin levels.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23292513",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27939359",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8914439",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25793062",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21147283",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26166607"
+  ],
+  "snippets": [
+    {
+      "text": "Metformin sensitizes the insulin action",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27939359",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This biguanide is an oral insulin-sensitizing agent capable of increasing insulin sensitivity and decreasing plasma fasting insulin levels. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26166607",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Metformin is an oral anti-diabetic drug of the biguanide class that is commonly used to treat type 2 diabetes mellitus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21147283",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Metformin, an oral anti-diabetic agent in the biguanide class is a widely prescribed drug to treat high blood glucose in patients with type 2 diabetes mellitus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25793062",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "etformin has three different roles, including blood glucose regulatory effect, protection of kidney tubular cell by acting as an effective antioxidant and finally ameliorative effect on diabetic kidney disease through saving the podocytes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25793062",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#http://www.biosemantics.org/jochem#:4275167",
+    "http://www.disease-ontology.org/api/metadata/DOID:9351",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001645",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003920",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003924",
+    "http://www.biosemantics.org/jochem#4275167",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008687"
+  ]
+}

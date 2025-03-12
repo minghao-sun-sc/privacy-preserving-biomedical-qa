@@ -1,0 +1,40 @@
+{
+  "id": "606b396994d57fd879000063",
+  "type": "factoid",
+  "question": "Which is the main ligand for the glucocorticoid receptor?",
+  "ideal_answer": "Glucocorticoids (GC) such as cortisol regulate multiple physiological functions, notably those involved in development, metabolism, inflammatory processes and stress, and exert their effects upon binding to the glucocorticoid receptor (GR, encoded by NR3C1 gene in humans).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32381682",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32528419",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31995340",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32607951"
+  ],
+  "snippets": [
+    {
+      "text": "Glucocorticoids (GC) such as cortisol regulate multiple physiological functions, notably those involved in development, metabolism, inflammatory processes and stress, and exert their effects upon binding to the glucocorticoid receptor (GR, encoded by NR3C1 gene in humans). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31995340",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Glucocorticoids (GCs) act through the glucocorticoid receptor (GR, also known as NR3C1) to regulate immunity, energy metabolism and tissue repair. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32381682",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Glucocorticoids exert their actions by binding the glucocorticoid receptor (GR) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32528419",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Generalized glucocorticoid resistance is characterized by impaired cortisol signaling, resulting from mutations in the NR3C1 gene coding the human glucocorticoid receptor (hGR).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32607951",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "cortisol"
+}

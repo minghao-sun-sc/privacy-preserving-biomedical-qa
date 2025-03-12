@@ -1,0 +1,31 @@
+{
+  "id": "587e42032420191125000004",
+  "type": "summary",
+  "question": "What is MINDY-1?",
+  "ideal_answer": "MINDY-1 (motif interacting with Ub-containing novel DUB family) is a member of an evolutionarily conserved and structurally distinct new family of deubiquitinating enzymes. Found in all eukaryotes, MINDY-family DUBs are highly selective at cleaving K48-linked polyUb, a signal that targets proteins for degradation. MINDY-1 prefers cleaving long polyUb chains and works by trimming chains from the distal end.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27292798"
+  ],
+  "snippets": [
+    {
+      "text": "MINDY-1 Is a Member of an Evolutionarily Conserved and Structurally Distinct New Family of Deubiquitinating Enzymes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27292798",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we report the discovery of a new family of DUBs, which we have named MINDY (motif interacting with Ub-containing novel DUB family). Found in all eukaryotes, MINDY-family DUBs are highly selective at cleaving K48-linked polyUb, a signal that targets proteins for degradation. We identify the catalytic activity to be encoded within a previously unannotated domain, the crystal structure of which reveals a distinct protein fold with no homology to any of the known DUBs. The crystal structure of MINDY-1 (also known as FAM63A) in complex with propargylated Ub reveals conformational changes that realign the active site for catalysis. MINDY-1 prefers cleaving long polyUb chains and\u00a0works by trimming chains from the distal end. Collectively, our results reveal a new family of DUBs that may have specialized roles in regulating proteostasis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27292798",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/FA63A_MOUSE",
+    "http://www.uniprot.org/uniprot/FA63A_PONAB",
+    "http://www.uniprot.org/uniprot/FA63A_BOVIN",
+    "http://www.uniprot.org/uniprot/FA63A_RAT",
+    "http://www.uniprot.org/uniprot/FA63A_DANRE",
+    "http://www.uniprot.org/uniprot/FA63A_HUMAN"
+  ]
+}

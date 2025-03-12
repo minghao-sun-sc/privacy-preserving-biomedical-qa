@@ -1,0 +1,33 @@
+{
+  "id": "6082f4374e6a4cf63000000f",
+  "type": "yesno",
+  "question": "Is Keutel syndrome a common genetic disorder?",
+  "ideal_answer": "No, Keutel syndrome (OMIM 245150) is a very rare syndrome",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23917590",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23857752",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32821457"
+  ],
+  "snippets": [
+    {
+      "text": "Keutel syndrome (OMIM 245150) is a very rare syndrome ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32821457",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Keutel syndrome is a rare autosomal-recessive condition characterized by abnormal cartilage calcification.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23917590",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MGP-deficiency in humans leads to Keutel syndrome, a rare genetic disease hallmarked by abnormal soft tissue calcification. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23857752",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

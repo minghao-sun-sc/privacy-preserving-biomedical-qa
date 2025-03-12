@@ -1,0 +1,84 @@
+{
+  "id": "5e37183cb5b409ea53000014",
+  "type": "summary",
+  "question": "Describe the Disambiguate algorithm and its application in next generation sequencing data",
+  "ideal_answer": "Grafting of cell lines and primary tumours is a crucial step in the drug development process between cell line studies and clinical trials. Disambiguate is a program for computationally separating the sequencing reads of two species derived from grafted samples. Disambiguate operates on DNA or RNA-seq alignments to the two species and separates the components at very high sensitivity and specificity as illustrated in artificially mixed human-mouse samples. This allows for maximum recovery of data from target tumours for more accurate variant calling and gene expression quantification. Given that no general use open source algorithm accessible to the bioinformatics community exists for the purposes of separating the two species data, the Disambiguate tool presents a novel approach and improvement to performing sequence analysis of grafted samples. Both Python and C++ implementations are available and they are integrated into several open and closed source pipelines. Disambiguate is open source and is freely available at https://github.com/AstraZeneca-NGS/disambiguate.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27990269"
+  ],
+  "snippets": [
+    {
+      "text": "Disambiguate: An open-source application for disambiguating two species in next generation sequencing data from grafted samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27990269",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Grafting of cell lines and primary tumours is a crucial step in the drug development process between cell line studies and clinical trials. Disambiguate is a program for computationally separating the sequencing reads of two species derived from grafted samples. Disambiguate operates on DNA or RNA-seq alignments to the two species and separates the components at very high sensitivity and specificity as illustrated in artificially mixed human-mouse samples. This allows for maximum recovery of data from target tumours for more accurate variant calling and gene expression quantification. Given that no general use open source algorithm accessible to the bioinformatics community exists for the purposes of separating the two species data, the proposed Disambiguate tool presents a novel approach and improvement to performing sequence analysis of grafted samples. Both Python and C++ implementations are available and they are integrated into several open and closed source pipelines. Disambiguate is open source and is freely available at https://github.com/AstraZeneca-NGS/disambiguate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27990269",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Disambiguate is a program for computationally separating the sequencing reads of two species derived from grafted samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27990269",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Given that no general use open source algorithm accessible to the bioinformatics community exists for the purposes of separating the two species data, the proposed Disambiguate tool presents a novel approach and improvement to performing sequence analysis of grafted samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27990269",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Disambiguate operates on alignments to the two species and separates the components at very high sensitivity and specificity as illustrated in artificially mixed human-mouse samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27990269",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Disambiguate: An open-source application for disambiguating two species in next generation sequencing data from grafted samples",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27990269",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Disambiguate is a program for computationally separating the sequencing reads of two species derived from grafted samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27990269",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Given that no general use open source algorithm accessible to the bioinformatics community exists for the purposes of separating the two species data, the proposed Disambiguate tool presents a novel approach and improvement to performing sequence analysis of grafted samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27990269",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Disambiguate is open source and is freely available at https://github.com/AstraZeneca-NGS/disambiguate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27990269",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Disambiguate operates on DNA or RNA-seq alignments to the two species and separates the components at very high sensitivity and specificity as illustrated in artificially mixed human-mouse samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27990269",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Given that no general use open source algorithm accessible to the bioinformatics community exists for the purposes of separating the two species data, the proposed Disambiguate tool presents a novel approach and improvement to performing sequence analysis of grafted samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27990269",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Disambiguate operates on DNA or RNA-seq alignments to the two species and separates the components at very high sensitivity and specificity as illustrated in artificially mixed human-mouse samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27990269",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

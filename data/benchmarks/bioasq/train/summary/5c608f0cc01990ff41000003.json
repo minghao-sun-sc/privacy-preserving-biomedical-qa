@@ -1,0 +1,60 @@
+{
+  "id": "5c608f0cc01990ff41000003",
+  "type": "summary",
+  "question": "What is CamurWeb?",
+  "ideal_answer": "CamurWeb is a classification software and a large knowledge base for gene expression data of cancer. It is a web-based software that is able to extract multiple and equivalent classification models in form of logic formulas (\"if then\" rules) and to create a knowledge base of these rules that can be queried and analyzed. The method is based on an iterative classification procedure and an adaptive feature elimination technique that enables the computation of many rule-based models related to the cancer under study. CamurWeb includes a user friendly interface for running the software, querying the results, and managing the performed experiments.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30367574"
+  ],
+  "snippets": [
+    {
+      "text": "CamurWeb: a classification software and a large knowledge base for gene expression data of cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30367574",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We propose CamurWeb, a new method and web-based software that is able to extract multiple and equivalent classification models in form of logic formulas (\"if then\" rules) and to create a knowledge base of these rules that can be queried and analyzed. The method is based on an iterative classification procedure and an adaptive feature elimination technique that enables the computation of many rule-based models related to the cancer under study. Additionally, CamurWeb includes a user friendly interface for running the software, querying the results, and managing the performed experiments. The user can create her profile, upload her gene expression data, run the classification analyses, and interpret the results with predefined queries. In order to validate the software we apply it to all public available RNA sequencing datasets from The Cancer Genome Atlas database obtaining a large open access knowledge base about cancer. CamurWeb is available at http://bioinformatics.iasi.cnr.it/camurweb .CONCLUSIONS: The experiments prove the validity of CamurWeb, obtaining many classification models and thus several genes that are associated to 21 different cancer types. Finally, the comprehensive knowledge base about cancer and the software tool are released online; interested researchers have free access to them for further studies and to design biological experiments in cancer research.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30367574",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CamurWeb: a classification software and a large knowledge base for gene expression data of cancer.The experiments prove the validity of CamurWeb, obtaining many classification models and thus several genes that are associated to 21 different cancer types. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30367574",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "CONCLUSIONS\nThe experiments prove the validity of CamurWeb, obtaining many classification models and thus several genes that are associated to 21 different cancer types.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30367574",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS\nWe propose CamurWeb, a new method and web-based software that is able to extract multiple and equivalent classification models in form of logic formulas (\"if then\" rules) and to create a knowledge base of these rules that can be queried and analyzed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30367574",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS We propose CamurWeb, a new method and web-based software that is able to extract multiple and equivalent classification models in form of logic formulas (\"if then\" rules) and to create a knowledge base of these rules that can be queried and analyzed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30367574",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This comprehensive and open access knowledge base is required to disseminate novel insights about cancer.<br><b>RESULTS</b>: We propose CamurWeb, a new method and web-based software that is able to extract multiple and equivalent classification models in form of logic formulas (\"if then\" rules) and to create a knowledge base of these rules that can be queried and analyzed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30367574",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We propose CamurWeb, a new method and web-based software that is able to extract multiple and equivalent classification models in form of logic formulas (if then rules) and to create a knowledge base of these rules that can be queried and analyzed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30367574",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

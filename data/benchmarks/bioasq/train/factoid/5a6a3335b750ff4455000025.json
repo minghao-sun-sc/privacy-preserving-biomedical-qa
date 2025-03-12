@@ -1,0 +1,43 @@
+{
+  "id": "5a6a3335b750ff4455000025",
+  "type": "factoid",
+  "question": "Which algorithm is available for computing minimal absent words using external memory?",
+  "ideal_answer": "emMAW",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28407038"
+  ],
+  "snippets": [
+    {
+      "text": "emMAW: computing minimal absent words in external memory.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28407038",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present emMAW, the first external-memory algorithm for computing minimal absent words. A free open-source implementation of our algorithm is made available. This allows for computation of minimal absent words on far bigger data sets than was previously possible. Our implementation requires less than 3\u2009h on a standard workstation to process the full human genome when as little as 1\u2009GB of RAM is made available. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28407038",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present emMAW, the first external-memory algorithm for computing minimal absent words.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28407038",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present emMAW, the first external-memory algorithm for computing minimal absent words.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28407038",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Results We present emMAW, the first external-memory algorithm for computing minimal absent words.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28407038",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "emMAW"
+}

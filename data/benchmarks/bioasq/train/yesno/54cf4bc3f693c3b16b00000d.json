@@ -1,0 +1,68 @@
+{
+  "id": "54cf4bc3f693c3b16b00000d",
+  "type": "yesno",
+  "question": "Is there an association between serum interleukin-6 concentrations and outcomes of stroke patients?",
+  "ideal_answer": "Yes. Greater serum interleukin-6 concentrations are associated with worse outcomes in ischemic and hemmorhagic stroke patients",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18685925",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19901973",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18048088",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14730251",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17337911",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25295149"
+  ],
+  "snippets": [
+    {
+      "text": " In addition, IL-6 concentrations affect clinical outcomes in ischemic stroke.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25295149",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "After appropriate adjustment, the odds ratios for the association of markers and poor outcome (comparing the upper and the lower third) were interleukin-6, 3.1 (95% CI: 1.9-5.0); C-reactive protein, 1.9 (95% CI: 1.2-3.1); fibrinogen, 1.5 (95% CI: 1.0-2.36); white cell count, 2.1 (95% CI: 1.3-3.4); and glucose 1.3 (95% CI: 0.8-2.1). The results for interleukin-6 were similar to other studies. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19901973",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "-6 and IL-10 levels were higher in patients with poor outcome. On logistic regression analysis, higher values of IL-6 were significantly associated with clinical outcome at 1 month (odds ratio [OR], 1.25; 95% confidence interval [CI], 1.02-1.54). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18685925",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In hemorrhagic stroke, high levels of IL-6 in the early phase indicated a poor neurological outcome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18685925",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Initially elevated levels of hs-IL-6 at presentation further correlated with unfavorable clinical outcomes (by NIHSS and mRs) at both time points. Analysis of variance in the different quartiles identified an hs-IL-6 gradient-dependent correlation at both time points, such that the higher the initial hs-IL-6 concentration, the higher the elevation in inflammatory biomarkers and the poorer the neurological state at both time points (p<0.001 for NIHSS and p=0.001 for mRs, for trend across quartiles). CONCLUSIONS: This study demonstrates the potential of employing hs-IL-6 as an early stage biomarker for the prognosis of acute ischemic stroke. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18048088",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Another negative correlation was found between IL-6 and CNS scores (r = -0.451, p = 0.000).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17337911",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, increased levels of IL-6 and reduced levels of protein C and protein S may play a role in acute ischemic stroke severity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17337911",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Variables that are predictors of adverse stroke outcome include erythrocyte sedimentation rate, and levels of C-reactive protein (CRP), interleukin-6, tumour necrosis factor-alpha and intercellular adhesion molecule-1. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14730251",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/IL6_PIG"
+  ],
+  "exact_answer": "Yes"
+}

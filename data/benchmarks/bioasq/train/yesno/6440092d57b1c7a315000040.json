@@ -1,0 +1,19 @@
+{
+  "id": "6440092d57b1c7a315000040",
+  "type": "yesno",
+  "question": "Has RTA 408 received FDA approval?",
+  "ideal_answer": "Yes, RTA 408 is FDA approved.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33971103"
+  ],
+  "snippets": [
+    {
+      "text": "Forced overexpression of HO-1, pharmacological activation of HO-1 with the agonists RTA-408 (omaveloxolone, an FDA-approved drug) and RTA-402 repressed cell death, and treatment with HO-1 antagonist SnPP exacerbated the cell death. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33971103",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

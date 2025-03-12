@@ -1,0 +1,44 @@
+{
+  "id": "58e23ec66fddd3e83e000010",
+  "type": "factoid",
+  "question": "What is the genus for the common European honey bee?",
+  "ideal_answer": "The genus and species of the European honey bee is Apis mellifera.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18941909",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26990560",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27518068",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27447542",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27705831",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19909977",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21960435",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17897670"
+  ],
+  "snippets": [
+    {
+      "text": "European honey bee (Apis mellifera)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27447542",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " European honey bees (Apis mellifera)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18941909",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " European honey bees (Apis mellifera",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17897670",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " European honey bees, Apis mellifera",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17897670",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Apis"
+}

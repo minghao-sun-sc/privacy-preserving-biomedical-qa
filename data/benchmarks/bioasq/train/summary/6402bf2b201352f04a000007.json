@@ -1,0 +1,32 @@
+{
+  "id": "6402bf2b201352f04a000007",
+  "type": "summary",
+  "question": "What is the mechanism of action of tiragolumab?",
+  "ideal_answer": "Tiragolumab is a novel anti-TIGIT inhibitory immune checkpoint agent.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35576957",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35292828",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35652612"
+  ],
+  "snippets": [
+    {
+      "text": "Genentech's TIGIT-targeted antibody tiragolumab missed its endpoints in two late-stage lung cancer trials, raising doubts about one of the most widely studied next-generation checkpoint targets in immuno-oncology. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35652612",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND: Targeted inhibition of the PD-L1-PD-1 pathway might be further amplified through combination of PD-1 or PD-L1 inhibitors with novel anti-TIGIT inhibitory immune checkpoint agents, such as tiragolumab. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35576957",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our aim was to evaluate ex vivo the capacity of the combination of atezolizumab (anti-PD-L1) and tiragolumab (anti-TIGIT) to reactivate the immune response of tumor infiltrating lymphocytes (TILs) in MSS-CRC. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35292828",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

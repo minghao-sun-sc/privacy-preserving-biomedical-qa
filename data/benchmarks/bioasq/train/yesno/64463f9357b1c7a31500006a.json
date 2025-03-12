@@ -1,0 +1,33 @@
+{
+  "id": "64463f9357b1c7a31500006a",
+  "type": "yesno",
+  "question": "Are there any other types of Spinal Muscular Atrophy except for types 1-4?",
+  "ideal_answer": "Yes, there is an exceptionally rare type of SMA called SMARD1.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/8283989",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34794294",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2801018"
+  ],
+  "snippets": [
+    {
+      "text": "Spinal muscular atrophy (SMA) with respiratory distress type 1 (SMARD1) is an exceptionally rare type of SMA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34794294",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "There are no convincing reports of X-linked SMA hitherto. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8283989",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The total AChE activity was either normal or decreased in the childhood SMA (Type 1), the other SMA groups and disease controls (ALS, X-linked SMA).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2801018",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

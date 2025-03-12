@@ -1,0 +1,26 @@
+{
+  "id": "5c5f3a1f1a4c55d80b000028",
+  "type": "factoid",
+  "question": "What is the role of fucokinase?",
+  "ideal_answer": "FUK encodes fucokinase, the only enzyme capable of converting L-fucose to fucose-1-phosphate, which will ultimately be used for synthesizing GDP-fucose, the donor substrate for all fucosyltransferases.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12056818",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30503518"
+  ],
+  "snippets": [
+    {
+      "text": "FUK encodes fucokinase, the only enzyme capable of converting L-fucose to fucose-1-phosphate, which will ultimately be used for synthesizing GDP-fucose, the donor substrate for all fucosyltransferases. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30503518",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "L-Fucose kinase (fucokinase) takes part in the salvage pathway for reutilization of fucose from the degradation of oligosaccharides. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12056818",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "The convertion of L-fucose to fucose-1-phosphate."
+}

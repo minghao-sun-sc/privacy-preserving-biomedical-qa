@@ -1,0 +1,66 @@
+{
+  "id": "5c7a4c35d774d04240000007",
+  "type": "yesno",
+  "question": "Is TIM-3 a target for cancer immunotherapy in NSCLC?",
+  "ideal_answer": "Yes. Furthermore, TIM-3 and CEACAM1 were strongly expressed simultaneously during long-term CIK culture and showed a significant and mutually positive correlation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27699239",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29440769",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27283895",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29721382",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26851185",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27846884"
+  ],
+  "snippets": [
+    {
+      "text": " Our results imply that implementing combined treatment on CIK cells before transfusion via antibodies targeting PD-L1, LAG-3, TIM-3, and CEACAM-1 might improve the efficiency of CIK therapy for NSCLC patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27283895",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, TIM-3 and CEACAM1 were strongly expressed simultaneously during long-term CIK culture and showed a significant and mutually positive correlation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27283895",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In present study, we detected the dynamic expression of eight major checkpoint molecules (CTLA-4, PD-1, PD-L1, TIM- 3, CEACAM-1, LAG-3, TIGIT and BTLA) on CIK cells from NSCLC patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27283895",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Agents targeting other immune inhibitory (e.g., Tim-3) or immune stimulating (e.g., CD137) receptors on T cells and other approaches such as adoptive cell transfer are tested for clinical efficacy in melanoma as well.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27846884",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We found immune activation coexistent with elevation of multiple targetable immune checkpoint molecules, including PD-L1, PD-L2, PD-1, TIM-3, B7-H3, BTLA, and CTLA-4, along with increases in tumor infiltration by CD4(+)Foxp3(+) regulatory T cells in lung adenocarcinomas that displayed an EMT phenotype",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26851185",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cytometric profiling identified an immunologically \"hot\" cluster with abundant CD8+ T cells expressing high levels of PD-1 and TIM-3 and an immunologically \"cold\" cluster with lower relative abundance of CD8+ T cells and expression of inhibitory markers",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27699239",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Interestingly, CD161+ CD4+ T cells highly express OX40 co-stimulatory receptor, less frequently 4-1BB, and display an activated but not completely exhausted PD-1-positive Tim-3-negative phenotype.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29721382",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ". Furthermore, overexpression of targetable immune checkpoints, such as CTLA-4 and TIM-3 were associated with EMT in both NSCLCs. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29440769",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

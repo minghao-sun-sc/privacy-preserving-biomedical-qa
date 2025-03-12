@@ -1,0 +1,82 @@
+{
+  "id": "5e3c6850b5b409ea5300001f",
+  "type": "yesno",
+  "question": "Is bortezomib a Proteasome inhibitor?",
+  "ideal_answer": "The proteasome inhibitor bortezomib is effective for a variety of tumors, but not for GBM. Proteasome inhibitor bortezomib",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26288836",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22702336",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28409734",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16278210",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31088925",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22027222",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21247388",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22216088",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28860152",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28317148"
+  ],
+  "snippets": [
+    {
+      "text": "The proteasome-inhibitor bortezomib",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28317148",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The proteasome inhibitor bortezomib is effective for a variety of tumors, but not for GBM. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28409734",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Proteasome inhibitor bortezomib ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28860152",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The proteasome inhibitor bortezomib, registered for Multiple Myeloma treatment, is currently explored for activity in solid tumors including non-small cell lung cancer (NSCLC).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22027222",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Regulation of osteoblastic differentiation by the proteasome inhibitor bortezomib.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22702336",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The proteasome inhibitor bortezomib (also known as Velcade and PS-341) is a clinically effective antineoplastic drug that is FDA approved for treatment of hematologic malignancies such as multiple myeloma and mantle cell lymphoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31088925",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bortezomib as the first proteasome inhibitor anticancer drug: current status and future perspectives.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21247388",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The proteasome inhibitor bortezomib is emerging as a potent anti-cancer agent.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16278210",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bortezomib (Velcade\u2122) is a reversible proteasome inhibitor that is approved for the treatment of multiple myeloma (MM).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22216088",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The proteasome inhibitor Bortezomib is used to treat multiple myeloma (MM).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26288836",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

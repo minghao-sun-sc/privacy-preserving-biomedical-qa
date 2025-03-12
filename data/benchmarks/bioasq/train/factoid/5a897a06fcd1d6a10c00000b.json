@@ -1,0 +1,29 @@
+{
+  "id": "5a897a06fcd1d6a10c00000b",
+  "type": "factoid",
+  "question": "What is the normal body temperature in dogs?",
+  "ideal_answer": "According to the American Kennel Club (AKC), a temperature of 101 to 102.5 degrees Fahrenheit (38.3 to 39.2 degrees Celsius) is typical for dogs",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25854787",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28992906"
+  ],
+  "snippets": [
+    {
+      "text": "Clinical examination revealed normal rectal temperature (38.3\u00b0C)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28992906",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "dian body temperature measured by the experienced investigator with the RDT and the NCIT were 38.3\u00b0C (range 35.5\u00b0C-41.1\u00b0C; 95% CI: 38.2-38.4\u00b0C) and 37.7\u00b0C (35.9\u00b0C-40.1\u00b0C; 95% CI: 37.7\u00b0C-37.9\u00b0C), respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25854787",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D001831",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D004285"
+  ],
+  "exact_answer": "101 to 102.5 degrees Fahrenheit  or 38.3 to 39.2 degrees Celsius"
+}

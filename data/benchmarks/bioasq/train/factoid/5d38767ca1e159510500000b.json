@@ -1,0 +1,33 @@
+{
+  "id": "5d38767ca1e159510500000b",
+  "type": "factoid",
+  "question": "In which cells does TLR7 escape X-chromosome inactivation?",
+  "ideal_answer": "The tlr7 gene encodes by an x chromosome locus. Tlr7 is encoded by an x-chromosome inactivation in immune cells from women and klinefelter syndrome patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16887967",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29374079",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30276444"
+  ],
+  "snippets": [
+    {
+      "text": " TLR7 is encoded by an X chromosome locus, and we examined here whether the TLR7 gene evades silencing by X chromosome inactivation in immune cells from women and Klinefelter syndrome males",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29374079",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "X-inactivation escape of the TLR7 gene was investigated in monoclonal B cell lines and, independently, in pDCs after cell sorting and single-cell picking, indicating regular silencing of one TLR7 allele in females.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16887967",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Female predisposition to TLR7-driven autoimmunity: gene dosage and the escape from X chromosome inactivation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30276444",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "immune cells"
+}

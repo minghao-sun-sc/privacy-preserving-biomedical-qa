@@ -1,0 +1,26 @@
+{
+  "id": "56f6d11c09dd18d46b00000f",
+  "type": "factoid",
+  "question": "Which is the protein encoded by the human gene GRIK?",
+  "ideal_answer": "Glutamate Receptor Ionotropic Kainate",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24449200",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22291662"
+  ],
+  "snippets": [
+    {
+      "text": "GRIK\u2009=\u2009glutamate receptor, ionotropic, kainate",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24449200",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " To this end, the effects of chronic ethanol self-administration on glutamate receptor ionotropic AMPA (GRIA) subunit variant and kainate (GRIK)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22291662",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "glutamate receptor ionotropic kainate"
+}

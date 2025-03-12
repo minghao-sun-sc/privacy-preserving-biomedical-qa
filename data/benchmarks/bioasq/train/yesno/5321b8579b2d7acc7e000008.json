@@ -1,0 +1,58 @@
+{
+  "id": "5321b8579b2d7acc7e000008",
+  "type": "yesno",
+  "question": "Is there any functional association during viral replication between flaviviridae viral RNA depended RNA polymerase and viral helicase?",
+  "ideal_answer": "Several labs have obtained evidence for a protein complex that involves many of the nonstructural (NS) proteins encoded by the virus. NS3, NS4A, NS4B, NS5A, and NS5B appear to interact structurally and functionally. The interaction between the helicase, NS3, and the RNA polymerase, NS5B play a key role in viral replication. Pull-down experiments and surface plasmon resonance data indicate a direct interaction between NS3 and NS5B that is primarily mediated through the protease domain of NS3. This interaction reduces the basal ATPase activity of NS3. However, NS5B stimulates product formation in RNA unwinding experiments under conditions of excess nucleic acid substrate. When the concentrations of NS3 and NS5B are in excess of nucleic acid substrate, NS5B reduces the rate of NS3-catalyzed unwinding. Under pre-steady-state conditions, in which NS3 and substrate concentrations are similar, product formation increased in the presence of NS5B. The increase was consistent with 1:1 complex formed between the two proteins.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23463199",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22040846",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17319152",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19951725",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21946389",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23157297",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17660525",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21898331",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15917225",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18179252"
+  ],
+  "snippets": [
+    {
+      "text": "Several labs have obtained evidence for a protein complex that involves many of the nonstructural (NS) proteins encoded by the virus. NS3, NS4A, NS4B, NS5A, and NS5B appear to interact structurally and functionally. In this study, we investigated the interaction between the helicase, NS3, and the RNA polymerase, NS5B. Pull-down experiments and surface plasmon resonance data indicate a direct interaction between NS3 and NS5B that is primarily mediated through the protease domain of NS3. This interaction reduces the basal ATPase activity of NS3. However, NS5B stimulates product formation in RNA unwinding experiments under conditions of excess nucleic acid substrate. When the concentrations of NS3 and NS5B are in excess of nucleic acid substrate, NS5B reduces the rate of NS3-catalyzed unwinding. Under pre-steady-state conditions, in which NS3 and substrate concentrations are similar, product formation increased in the presence of NS5B. The increase was consistent with 1:1 complex formed between the two proteins. A fluorescently labeled form of NS3 was used to investigate this interaction through fluorescence polarization binding assays. Results from this assay support interactions that include a 1:1 complex formed between NS3 and NS5B.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18179252",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Contradictory results have been reported regarding NS3 in RNA synthesis. To investigate the effect of NS3 on classical swine fever virus (CSFV) NS5B RNA-dependent RNA polymerase activity (RdRp) activity and NS3-NS5B interaction, RdRp reactions, GST-pull-down assays and co-immunoprecipitation analyses containing NS5B and either of NS3 protein and the different truncated NS3 mutants were performed, respectively. We found that NS3 stimulated NS5B RdRp activity in a dose-dependent manner by binding to NS5 through a NS3 protease domain. Furthermore, mapping important regions of the NS3 protease domain was carried out by deletion mutagenesis, associated with RdRp reactions, GST-pull-down assays and co-immunoprecipitation analyses. Results showed that stimulation of CSFV NS5B RdRp activity was obtained by NS3 binding to NS5B through a 31-amino acid fragment at the N-terminal end of NS3 protease domain, which mediated a specific NS3-NS5B interaction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19951725",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The protocols detailed in this unit are used to purify three recombinant enzymes that are widely used in HCV research: the HCV NS3 protease domain, the helicase domain as an NS3+NS4A complex, and the NS5B RNA-dependent RNA polymerase. The active enzymes are purified to homogeneity by two-column chromatography to support a screening program for HCV inhibitors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21898331",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Among potential targets are viral entry factors, including scavenger receptor type B1 (SR-B1) and CD81, as well as neutralizing antibodies against the viral glycoproteins. Popular targets related to translation and replication are the NS3/4A protease (inhibited by telaprevir and boceprevir) and the NS5B polymerase, as well as the NS2/3 autoprotease, the NS3 helicase, and nonenzymatic targets such as NS4B and NS5A proteins. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21946389",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The NS3 helicase domain competes with NS3 full-length for NS5 RdRp binding, with a K(d.) of 2.5\u03bcM. Since NS3 and NS5 are required for DENV replication, this fascile assay could be used to screen for non-nucleoside, allosteric inhibitors that disrupt the interaction between the two proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22040846",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018067",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012194",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020365",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012324",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012367"
+  ],
+  "exact_answer": "Yes"
+}

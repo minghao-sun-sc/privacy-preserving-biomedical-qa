@@ -1,0 +1,37 @@
+{
+  "id": "56d1fd67f22319765a000002",
+  "type": "list",
+  "question": "List bacterial species identified in the iceman tissues.",
+  "ideal_answer": "Spirochete Treponema denticola\nClostridium perfringens\nClostridium ghonii\nClostridium sordellii\nEubacterium tenue\nBacteroides sp\nVibrio\nSphingomonas\nAfipia\nCurtobacterium\nMicrobacterium\nAgromyces",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10640948",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10861348",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24941044"
+  ],
+  "snippets": [
+    {
+      "text": "Here, we report the molecular detection of the oral spirochete Treponema denticola in ancient human tissue biopsies of the Iceman, a 5,300-year-old Copper Age natural ice mummy. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24941044",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The colon, on the other hand, contains several members of the fecal flora of humans, such as Clostridium perfringens, C. ghonii, C. sordellii, Eubacterium tenue, and Bacteroides sp. The Iceman's colon, however, was found to contain, rather unexpectedly, also some members of the genus Vibrio. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10861348",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " while the untreated skin still bears the remains of large numbers of bacteria belonging to the genera Sphingomonas, Afipia, Curtobacterium, Microbacterium, Agromyces, and others.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10640948",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004755",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001419",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016045"
+  ],
+  "exact_answer": "Spirochete Treponema denticola, Clostridium perfringens, Clostridium ghonii, Clostridium sordellii, Eubacterium tenue, Bacteroides sp, Vibrio, Sphingomonas, Afipia, Curtobacterium, Microbacterium, Agromyces"
+}

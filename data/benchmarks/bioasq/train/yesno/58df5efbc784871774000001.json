@@ -1,0 +1,61 @@
+{
+  "id": "58df5efbc784871774000001",
+  "type": "yesno",
+  "question": "Is dupilumab an antibody targeting the IL-1 receptor?",
+  "ideal_answer": "No, Dupilumab is a fully human monoclonal antibody directed against the IL-4 receptor \u03b1 subunit that blocks the signaling of IL-4 and IL-13, both key cytokines in Th2-mediated pathways.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26440137",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27130691",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27690741",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26598956",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23688323",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27497276",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26308331"
+  ],
+  "snippets": [
+    {
+      "text": "Atopic dermatitis (AD) is characterized by type 2 helper T (Th2) cell-driven inflammation. Dupilumab is a fully human monoclonal antibody directed against the IL-4 receptor \u03b1 subunit that blocks the signaling of IL-4 and IL-13, both key cytokines in Th2-mediated pathways.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26598956",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dupilumab, a humanized monoclonal antibody to the interteukin-4R is the first antibody (i.e. 'biological') with published efficacy shown in controlled prospective studies in atopic dermatitis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26308331",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dupilumab, a human monoclonal antibody against interleukin-4 receptor alpha, inhibits signaling of interleukin-4 and interleukin-13, type 2 cytokines that may be important drivers of atopic or allergic diseases such as atopic dermatitis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27690741",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Best evidence of the clinical efficacy of novel immunologic approaches using biological agents in patients with AD is available for the anti-IL-4 receptor \u03b1-chain antibody dupilumab, but a number of studies are currently ongoing with other specific antagonists to immune system players.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27497276",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Dupilumab, a fully human anti-interleukin-4 receptor \u03b1 monoclonal antibody, inhibits interleukin-4 and interleukin-13 signalling, key drivers of type-2-mediated inflammation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27130691",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dupilumab was also introduced as a possible treatment for patients with severe pemphigus. It can directly inhibit IL-4 by targeting IL-4 \u03b1-chain receptor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26440137",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We evaluated the efficacy and safety of dupilumab (SAR231893/REGN668), a fully human monoclonal antibody to the alpha subunit of the interleukin-4 receptor",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23688323",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

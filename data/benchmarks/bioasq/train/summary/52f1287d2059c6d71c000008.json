@@ -1,0 +1,82 @@
+{
+  "id": "52f1287d2059c6d71c000008",
+  "type": "summary",
+  "question": "What is the role of the Tsix gene during X chromosome inactivation?",
+  "ideal_answer": "One of the two X chromosomes in female mammalian cells is subject to inactivation (XCI) initiated by the Xist gene. Xist works as a functional RNA molecule that recruits repressive chromatin factors towards one of the female Xs for inactivation. The Tsix gene, antisense of Xist, through transcription negatively regulates Xist and protects one X-chromosome in cis from inactivation by Xist. Although, the precise molecular mechanism is still unclear it has been shown that Tsix transcription regulates the chromatin structure by altering histone tail modifications and DNA methylation at the Xist promoter. In addition, Xist and Tsix RNAs form duplexes in vivo and are processed to small RNAs, which have a potential regulatory function.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17333538",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16648248",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21826206",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19013827",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12023758"
+  ],
+  "snippets": [
+    {
+      "text": "A conservation of Tsix expression pattern in voles, rat and mice suggests a crucial role of the antisense transcription in regulation of Xist and XIC in rodents.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21826206",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the Tsix gene (antisense counterpart of Xist)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21826206",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "One of the two X chromosomes in female mammalian cells is subject to inactivation (XCI) initiated by the Xist gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21826206",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "One example for antisense regulation is the Xist (X-inactive specific transcript) and Tsix gene pair, which is pivotal in X-inactivation. Xist works as a functional RNA molecule that recruits repressive chromatin factors towards one of the female Xs for inactivation. Antisense Tsix transcription negatively regulates Xist and protects one X-chromosome in cis from inactivation by Xist. Albeit, the precise molecular mechanism is still obscure it has been shown that Tsix transcription regulates the chromatin structure by altering histone tail modifications and DNA methylation at the Xist promoter. In addition, Xist and Tsix RNA form an RNA duplexes in vivo and are processed to small RNAs, which have a potential regulatory function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19013827",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In eutherian mammals, random XCI of the soma requires a master regulatory locus known as the 'X-inactivation center' (XIC/Xic), wherein lies the noncoding XIST/Xist silencer RNA and its regulatory antisense Tsix gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17333538",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A counting process senses the X chromosome/autosome ratio and ensures that X chromosome inactivation (XCI) initiates in the early female (XX) embryo and in differentiating female ES cells but not in their male (XY) counterparts. Counting depends on the X inactivation center (Xic), which contains the Xist gene encoding a nuclear RNA, which coats the inactive X chromosome and induces gene silencing. A 37-kb sequence lying 3' to the Xist gene is known to prevent initiation of XCI in male differentiating ES cells. This region contains the major and minor promoters of the Tsix gene, which runs antisense to Xist",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16648248",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results identify a function for DXPas34 in murine XCI and demonstrate the critical role of Tsix transcription in preventing XCI in differentiating male ES cells and in normal functioning of the counting pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16648248",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcriptional silencing of the human inactive X chromosome is induced by the XIST gene within the human X-inactivation center. The XIST allele must be turned off on one X chromosome to maintain its activity in cells of both sexes. In the mouse placenta, where X inactivation is imprinted (the paternal X chromosome is always inactive), the maternal Xist allele is repressed by a cis-acting antisense transcript, encoded by the Tsix gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12023758",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D041321",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0009048",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D050172",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D049951",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014960",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016458",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:1900096",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:1900097",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020868",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:1900095",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0060821",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0060820",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0060818",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0060816",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0060817",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0000805",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0060819"
+  ]
+}

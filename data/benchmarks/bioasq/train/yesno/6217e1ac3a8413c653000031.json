@@ -1,0 +1,47 @@
+{
+  "id": "6217e1ac3a8413c653000031",
+  "type": "yesno",
+  "question": "Is serotonin transported by platelets?",
+  "ideal_answer": "Yes,\nplatelets transport serotonin.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31570504",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34662506",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32876809",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31624776",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32901992"
+  ],
+  "snippets": [
+    {
+      "text": " activated platelets, which carry peripheral serotonin,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32901992",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Platelet serotonin response was measured by serotonin augmented platelet aggregation and platelet serotonin receptor density. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32876809",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SERT was studied in the 1970s and 1980s using membrane vesicles isolated from blood platelets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31570504",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "platelet-dense granules contain neurotransmitters such as serotonin and gamma-aminobutyric acid. Molecular players controlling granule formation and secretion are",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31624776",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Platelets transport and store virtually all plasma serotonin in dense granules",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34662506",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

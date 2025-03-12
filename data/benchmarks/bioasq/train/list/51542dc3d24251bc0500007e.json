@@ -1,0 +1,60 @@
+{
+  "id": "51542dc3d24251bc0500007e",
+  "type": "list",
+  "question": "What are the symptoms of abacavir hypersensitivity?",
+  "ideal_answer": "Patients receiving abacavir develop an idiosyncratic hypersensitivity reaction that can include a wide range of symptoms. The most common are: fever, enathema, skin rash, nausea, vomiting, diarrhoea, cough, gastrointestinal disorders, anaphylactic shock, respiratory symptoms.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12719670",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12869229",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18855539",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17245797"
+  ],
+  "snippets": [
+    {
+      "text": "patients receiving abacavir develop a hypersensitivity reaction, characterized by rash, fever and, occasionally, multisystemic involvement",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18855539",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The predictors included any one of several specific symptoms commonly found with this reaction, a claims diagnosis of adverse effect of drug, anaphylactic shock or unspecified allergy, and a discontinuation in abacavir prior to completing a 90-day course of therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17245797",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "patients who receive abacavir develop an idiosyncratic hypersensitivity reaction. The most common symptoms are fever, skin rash and gastrointestinal disorders. Respiratory symptoms occurred in approximately 20% of patients who have hypersensitivity reaction. We describe the first case, to our knowledge, of hypesensitivity reaction characterized by enanthema and fever without skin rash promptly resolved after discontinuation of abacavir",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12719670",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Abacavir is associated with an infrequent but potentially serious hypersensitivity reaction (HSR) that can include a wide range of signs and symptoms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17245797",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Rash was associated with hypersensitivity (odds ratio [OR] = 13.1, P = 0.02) as was the presence of nausea (OR = 30, P < 0.001), vomiting (OR = 17.1, P = 0.001) or diarrhoea (OR = 22, P < 0.001). The number of gastrointestinal symptoms was also predictive of hypersensitivity reaction (",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12869229",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "the number of gastrointestinal symptoms (OR = 8.6, P = 0.0032), cough (OR = 0.039, P = 0.02) and rash (OR = 16.9, P = 0.07). Abacavir hypersensitivity is strongly associated with gastrointestinal (GI) symptoms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12869229",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004342",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006967",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0002524",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012816",
+    "http://www.biosemantics.org/jochem#4274474",
+    "http://www.biosemantics.org/jochem#4239946",
+    "http://www.biosemantics.org/jochem#4274473"
+  ],
+  "exact_answer": "fever, enathema, skin rash, nausea, vomiting, diarrhea, cough, gastrointestinal disorders, anaphylactic shock, respiratory symptoms"
+}

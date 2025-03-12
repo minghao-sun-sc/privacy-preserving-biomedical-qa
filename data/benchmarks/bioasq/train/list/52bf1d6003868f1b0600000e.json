@@ -1,0 +1,56 @@
+{
+  "id": "52bf1d6003868f1b0600000e",
+  "type": "list",
+  "question": "Which are the subtypes of Pfeiffer syndrome?",
+  "ideal_answer": "Pfeiffer syndrome is divided into three clinical subtypes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11556600",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19407629",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9475589",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8434615",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11807866",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15305355",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16740155",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9014285"
+  ],
+  "snippets": [
+    {
+      "text": "Of 802 patients treated for craniosynostosis, 28 were identified with Pfeiffer syndrome: 17 were classified as type I (61 percent), seven were classified as type II (25 percent), and four were classified as type III (14 percent). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19407629",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pfeiffer syndrome is divided into three clinical subtypes. Type 1 \"classic\" Pfeiffer syndrome involves individuals with mild manifestations including brachycephaly, midface hypoplasia and finger and toe abnormalities; it is associated with normal intelligence and generally good outcome. Type 2 consists of cloverleaf skull, extreme proptosis, finger and toe abnormalities, elbow ankylosis or synostosis, developmental delay and neurological complications. Type 3 is similar to type 2 but without a cloverleaf skull. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16740155",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recently, based on clinical findings, the disorder has been divided into three subtypes: type 1, characterized by mild expression; type 2, in which clover leaf skull deformity and multiple congenital anomalies are present at birth; and type 3, which is similar to type 2, but lacks the presence of the clover leaf skull at birth. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9014285",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "It is a clinically variable disorder and has been divided into three subtypes [Cohen, 1993: Am J Med Genet 45:300-307]. Type 1 represents the less severe cases, while types 2 and 3 are the more severe cases. These latter types tend to have a higher risk for neurodevelopmental problems and a reduced life expectancy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9475589",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Classic Pfeiffer syndrome is designated type I. Type 2 consists of cloverleaf skull with Pfeiffer hands and feet together with ankylosis of the elbows. Such patients do poorly with an early death. All reported instances to date have been sporadic. Type 3 is similar to type 2 but without cloverleaf skull. Ocular proptosis is severe in degree and the anterior cranial base is markedly short. These patients also do poorly and tend to have an early death. To date all cases have occurred sporadically. Although these 3 clinical subtypes do not have status as separate entities, their diagnostic and prognostic implications are important. Type 1 is commonly associated with normal intelligence, generally good outcome, and can be found dominantly inherited in some families. Types 2 and 3 generally have severe neurological compromise, poor prognosis, early death, and sporadic occurrence. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8434615",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000168",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016130",
+    "http://www.disease-ontology.org/api/metadata/DOID:225",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013577",
+    "http://www.disease-ontology.org/api/metadata/DOID:14705"
+  ],
+  "exact_answer": "Type I, Type I (1), Type II, Type II (2), Type III, Type III (3)"
+}

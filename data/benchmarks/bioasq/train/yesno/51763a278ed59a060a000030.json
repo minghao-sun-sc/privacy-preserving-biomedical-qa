@@ -1,0 +1,86 @@
+{
+  "id": "51763a278ed59a060a000030",
+  "type": "yesno",
+  "question": "Can protein coding exons originate from ALU sequences?",
+  "ideal_answer": "Yes. Intronic ALUs can evolve into exons by the activation of splice signals residing within the ALU sequence. While most ALU exons do not add or modify the coding capacity of the resulting transcript, examples have been identified of ALU exons becoming protein coding.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15328599",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21282640",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21188497",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20803091",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18332115",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20532223",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17594509",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17204284",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23374342",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15099521",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18047649",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19324900",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19393186",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15901843",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16027113",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23303787",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12764196"
+  ],
+  "snippets": [
+    {
+      "text": "The Alu element has been a major source of new exons during primate evolution. Thousands of human genes contain spliced exons derived from Alu elements.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21282640",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "More than 25% of Alu exons analyzed by RNA-Seq have estimated transcript inclusion levels of at least 50% in the human cerebellum, indicating widespread establishment of Alu exons in human genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21282640",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "his study presents genomic evidence that a major functional consequence of Alu exonization is the lineage-specific evolution of translational regulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21282640",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Our data suggests that lineage-specific exonization events should be determined by the combination event of the formation of splicing sites and protection against site-specific mutation pressures. These evolutionary mechanisms could be major sources for primate diversification.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20803091",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Exonization of Alu elements creates primate-specific genomic diversity",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18332115",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Our data show that, once acquired, some exonizations were lost again in some lineages. In general, Alu exonization occurred at various time points over the evolutionary history of primate lineages, and protein-coding potential was acquired either relatively soon after integration or millions of years thereafter.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15901843",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Once integrated, they have the potential to become exapted as functional modules, e.g., as protein-coding domains via alternative splicing. This particular process is also termed exonization and increases protein versatility",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15901843",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "alternative \"Alu-exons\" also carry the potential to greatly enhance genetic diversity by increasing the transcriptome of primates chiefly via alternative splicing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15328599",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "ere, we report a 5' exon generated from one of the two alternative transcripts in human tumor necrosis factor receptor gene type 2 (p75TNFR) that contains an ancient Alu-SINE, which provides an alternative N-terminal protein-coding domain.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15328599",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005091",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020087"
+  ],
+  "exact_answer": "Yes"
+}

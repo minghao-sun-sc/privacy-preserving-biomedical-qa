@@ -1,0 +1,75 @@
+{
+  "id": "5177def18ed59a060a000034",
+  "type": "factoid",
+  "question": "Which is the molecular mechanism underlying K-ras alterations in carcinomas?",
+  "ideal_answer": "Activating point mutations most frequently in codon 12",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19509115",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12697967",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19783717",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8613066",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21779504",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8178941",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16757361",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16166322",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19826477",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21626008",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21886451"
+  ],
+  "snippets": [
+    {
+      "text": "activating mutations in KRAS are identified in most pancreatic cancers",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16757361",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Mutations at codon 12 of the K-ras gene are present in 65%-100% of carcinomas of human exocrine pancreas and could be used as a potential tumor marker at the tissue level.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8613066",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Activating point mutations in the K-Ras oncogene are among the most common genetic alterations in pancreatic cancer, occurring early in the progression of the disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19509115",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Activating K-ras mutations are found in approximately 90% of pancreatic carcinomas and may contribute to the poor prognosis of these tumors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16166322",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Five of the seven duct lesions harbored activating point mutations in codon 12 of K-ras; a G to A transition was found in four and a G to C transversion in one.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8178941",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Ki-RAS mutations in 38% of the overall series",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12697967",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "KRAS exon 2 mutations were detected in a total of 62 patients with the two methods combined, comprising 11 different mutant alleles.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19783717",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "gain-of-function mutations in ras genes were the first specific genetic alterations identified in human cancer",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21779504",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011905",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0032856",
+    "http://www.disease-ontology.org/api/metadata/DOID:305"
+  ],
+  "exact_answer": "Point mutations"
+}

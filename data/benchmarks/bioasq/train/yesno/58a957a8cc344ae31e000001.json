@@ -1,0 +1,40 @@
+{
+  "id": "58a957a8cc344ae31e000001",
+  "type": "yesno",
+  "question": "Does Vitamin D induce  autophagy?",
+  "ideal_answer": "Yes, vitamin D induces autophagy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27915989",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27430408",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26562100",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27174720"
+  ],
+  "snippets": [
+    {
+      "text": " 1,25(OH)2D treatment was accompanied by autophagy activation ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26562100",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Autophagy signaling pathway was regulated by vitamin D3",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27174720",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "vitamin D induces autophagy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27430408",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Vitamin D shows promise for the prevention and amelioration of pathologic responses in IBD, an effect that is mediated, at least in part, by the induction and modulation of autophagy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27915989",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

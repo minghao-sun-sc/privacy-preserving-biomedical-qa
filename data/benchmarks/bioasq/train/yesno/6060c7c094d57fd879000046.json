@@ -1,0 +1,40 @@
+{
+  "id": "6060c7c094d57fd879000046",
+  "type": "yesno",
+  "question": "Is cadherin a plasma membrane marker?",
+  "ideal_answer": "Yes,\ncadherin is a plasma membrane protein marker.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31838186",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32044971",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32939719",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32239671"
+  ],
+  "snippets": [
+    {
+      "text": "the plasma membrane-bound E-cadherin protein",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32939719",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "VE-cadherin protein levels were also increased in the plasma membrane fraction. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31838186",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " recycling of VE-cadherin to the plasma membrane,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32044971",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "E-cadherin, a central component of the adherens junction (AJ), is a single-pass transmembrane protein ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32239671",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "52e0141498d023950500000e",
+  "type": "list",
+  "question": "What are the results of loss of the protein Lon1 in the plant Arabidopsis?",
+  "ideal_answer": "Loss of Lon1 in Arabidopsis changes the mitochondrial proteome leading to altered metabolite profiles and growth retardation. Additionaly, seedling establishment is also impaired.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19076295",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22968828",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22023720"
+  ],
+  "snippets": [
+    {
+      "text": "Knockout in Arabidopsis (Arabidopsis thaliana) leads to a significant growth rate deficit in both roots and shoots and lowered activity of specific mitochondrial enzymes associated with respiratory metabolism. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22968828",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "loss of Lon1 significantly modifies respiratory function and plant performance by small but broad alterations in the mitochondrial proteome gained by subtly changing steady-state protein assembly, stability, and damage of a range of components that debilitate an anaplerotic role for mitochondria in cellular carbon metabolism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22968828",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the lack of Lon selective proteolysis leading to growth retardation and impaired seedling establishment can be attributed to defects in the oil reserve mobilization pathway. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22023720",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Loss of Lon1 in Arabidopsis changes the mitochondrial proteome leading to altered metabolite profiles and growth retardation without an accumulation of oxidative damage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22968828",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " a genetic screen was performed that led to the identification of Arabidopsis thaliana Lon1 protease mutants that exhibit a post-embryonic growth retardation phenotype.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19076295",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mitochondria isolated from lon1 mutants had a lower capacity for respiration of succinate and cytochrome c via complexes II and IV, respectively. Furthermore, the activity of key enzymes of the tricarboxylic acid (TCA) cycle was significantly reduced. Additionally, mitochondria in lon1 mutants had an aberrant morphology. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19076295",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " AtLon1 protease in organelle biogenesis and seedling establishment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19076295",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/LON_AQUAE",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017360",
+    "http://www.uniprot.org/uniprot/LON_MYCAP",
+    "http://www.uniprot.org/uniprot/LON_DESDA",
+    "http://www.uniprot.org/uniprot/LON_BUCAP",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D029681",
+    "http://www.uniprot.org/uniprot/LON_RICFE",
+    "http://www.uniprot.org/uniprot/LON_ORITI",
+    "http://www.uniprot.org/uniprot/LON_CHLT3",
+    "http://www.uniprot.org/uniprot/LON_GEOMG",
+    "http://www.uniprot.org/uniprot/LON_ERWAM",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D049070"
+  ],
+  "exact_answer": "growth rate deficit in both roots and shoots, lowered activity of specific mitochondrial enzymes associated with respiratory metabolism, impaired seedling establishment"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "54edeb4394afd6150400000b",
+  "type": "summary",
+  "question": "What are the observations regarding telomere integrity and function in Fanconi anemia?",
+  "ideal_answer": "In Fanconi anemia patients, a higher rate of breakage at TTAGGG sequences in vivo is causing telomere erosion in differentiated cells. Moreover, it has been demonstrated that \u03b1IISp is important for telomere maintenance after DNA damage due to interstrand cross-links (ICL), localizing to telomeres in S phase after ICL damage where it has enhanced association with TRF1 and TRF2 and is required for recruitment of the ICL repair protein, XPF, to damage-induced foci at telomeres. In telomerase-positive normal cells depleted of \u03b1IISp by siRNA or in Fanconi anemia, complementation group A (FANCA) cells, where \u03b1IISp levels are 35-40% of normal, ICL damage results in failure of XPF to localize to telomeres, with markedly increased telomere dysfunction-induced foci, and catastrophic loss of telomeres.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23571757",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15319283",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11591364",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11854176",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19129235"
+  ],
+  "snippets": [
+    {
+      "text": "We now demonstrate that \u03b1IISp is also important for telomere maintenance after ICL damage. It localizes to telomeres in S phase after ICL damage where it has enhanced association with TRF1 and TRF2 and is required for recruitment of the ICL repair protein, XPF, to damage-induced foci at telomeres. In telomerase-positive normal cells depleted of \u03b1IISp by siRNA or in Fanconi anemia, complementation group A (FA-A) cells, where \u03b1IISp levels are 35-40% of normal, ICL damage results in failure of XPF to localize to telomeres, markedly increased telomere dysfunction-induced foci, followed by catastrophic loss of telomeres",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23571757",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Restoration of \u03b1IISp levels to normal in FA-A cells corrects these deficiencies",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23571757",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "previous works suggested an accelerated shortening of telomeres in FA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11854176",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A higher frequency of extra-chromosomic TTAGGG signals and of chromosome ends with undetectable TTAGGG repeats was observed in FA cells by fluorescence in situ hybridization (FISH), suggesting intensive breakage at telomeric sequences. This was proven by measuring the frequency of excess of telomeric signals per cell, which was 2.8-fold higher in FA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11854176",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Consistent with previous reports, quantitative FISH analysis showed an accelerated telomere shortening of 0.68 kb in FA, which occurred concurrently in both chromosome arms in a similar magnitude",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11854176",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our data therefore suggest that the telomere erosion in FA is caused by a higher rate of breakage at TTAGGG sequences in vivo in differentiated cells, in addition to mere replicative shortening during lymphocyte proliferation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11854176",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Consistent with impaired telomeres in FA patients, we observed a >10-fold increase in chromosome end fusions in FA compared to normal controls",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11854176",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Since previous works suggested an accelerated shortening of telomeres in FA, we have studied several markers of telomere integrity and function in FA patients and age-matched controls to get insights into the mechanisms and consequences of telomere erosion in FA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11854176",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Accelerated telomere shortening in Fanconi anemia fibroblasts--a longitudinal study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11591364",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Thus, the FA pathway has a novel function in ALT telomere maintenance related to DNA repair.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19129235",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Breaks at telomeres and TRF2-independent end fusions in Fanconi anemia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11854176",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Our observations indicate that accelerated telomere shortening in patients with FA is not due to a role of FANCG at telomeres but instead may be secondary to the disease",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15319283",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Since previous works suggested an accelerated shortening of telomeres in FA, we have studied several markers of telomere integrity and function in FA patients and age-matched controls to get insights into the mechanisms and consequences of telomere erosion in FA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11854176",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:13636",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010833",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005199",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051856",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010834",
+    "http://www.disease-ontology.org/api/metadata/DOID:1062"
+  ]
+}

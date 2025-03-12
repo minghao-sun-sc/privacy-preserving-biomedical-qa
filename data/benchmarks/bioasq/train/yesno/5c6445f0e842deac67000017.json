@@ -1,0 +1,85 @@
+{
+  "id": "5c6445f0e842deac67000017",
+  "type": "yesno",
+  "question": "Is the NLM medical text indexer (MTI) still useful and relevant?",
+  "ideal_answer": "Yes. The NLM Medical Text Indexer (MTI) is still relevant and useful, and needs to be improved and expanded. The BioASQ Challenge results have shown that more machine learning needs to be incorporated into MTI while still retaining the indexing rules that have earned MTI the indexers' trust over the years. MTI also needs to be expanded through the use of full text, when and where it is available, to provide coverage of indexing terms that are typically only found in the full text.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28231809"
+  ],
+  "snippets": [
+    {
+      "text": "12 years on - Is the NLM medical text indexer still useful and relevant?",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28231809",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Facing a growing workload and dwindling resources, the US National Library of Medicine (NLM) created the Indexing Initiative project in 1996. This cross-library team's mission is to explore indexing methodologies for ensuring quality and currency of NLM document collections. The NLM Medical Text Indexer (MTI) is the main product of this project and has been providing automated indexing recommendations since 2002. After all of this time, the questions arise whether MTI is still useful and relevant.METHODS: To answer the question about MTI usefulness, we track a wide variety of statistics related to how frequently MEDLINE indexers refer to MTI recommendations, how well MTI performs against human indexing, and how often MTI is used. To answer the question of MTI relevancy compared to other available tools, we have participated in the 2013 and 2014 BioASQ Challenges. The BioASQ Challenges have provided us with an unbiased comparison between the MTI system and other systems performing the same task.RESULTS: Indexers have continually increased their use of MTI recommendations over the years from 15.75% of the articles they index in 2002 to 62.44% in 2014 showing that the indexers find MTI to be increasingly useful. The MTI performance statistics show significant improvement in Precision (+0.2992) and F1 (+0.1997) with modest gains in Recall (+0.0454) over the years. MTI consistency is comparable to the available indexer consistency studies. MTI performed well in both of the BioASQ Challenges ranking within the top tier teams.CONCLUSIONS: Based on our findings, yes, MTI is still relevant and useful, and needs to be improved and expanded. The BioASQ Challenge results have shown that we need to incorporate more machine learning into MTI while still retaining the indexing rules that have earned MTI the indexers' trust over the years. We also need to expand MTI through the use of full text, when and where it is available, to provide coverage of indexing terms that are typically only found in the full text. The role of MTI at NLM is also expanding into new areas, further reinforcing the idea that MTI is increasingly useful and relevant.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28231809",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The role of MTI at NLM is also expanding into new areas, further reinforcing the idea that MTI is increasingly useful and relevant.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28231809",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS\nBased on our findings, yes, MTI is still relevant and useful, and needs to be improved and expanded.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28231809",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "12 years on - Is the NLM medical text indexer still useful and relevant?Based on our findings, yes, MTI is still relevant and useful, and needs to be improved and expanded. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28231809",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The role of MTI at NLM is also expanding into new areas, further reinforcing the idea that MTI is increasingly useful and relevant.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28231809",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "After all of this time, the questions arise whether MTI is still useful and relevant.<br><b>METHODS</b>: To answer the question about MTI usefulness, we track a wide variety of statistics related to how frequently MEDLINE indexers refer to MTI recommendations, how well MTI performs against human indexing, and how often MTI is used.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28231809",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The MTI performance statistics show significant improvement in Precision (+0.2992) and F<br><b>CONCLUSIONS</b>: Based on our findings, yes, MTI is still relevant and useful, and needs to be improved and expanded.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28231809",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The role of MTI at NLM is also expanding into new areas, further reinforcing the idea that MTI is increasingly useful and relevant.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28231809",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "After all of this time, the questions arise whether MTI is still useful and relevant.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28231809",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The role of MTI at NLM is also expanding into new areas, further reinforcing the idea that MTI is increasingly useful and relevant.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28231809",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Based on our findings, yes, MTI is still relevant and useful, and needs to be improved and expanded.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28231809",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

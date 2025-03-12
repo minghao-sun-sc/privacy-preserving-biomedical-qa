@@ -1,0 +1,59 @@
+{
+  "id": "5162e44f298dcd4e5100004a",
+  "type": "list",
+  "question": "The protein neprilysin  has an positive effect on Alzheimer disease, how can it be delivered to the brain?",
+  "ideal_answer": "The protein neprilysin can be deliverered to the brain (crossing the blood brain barrier) through: gene tranfer, transgenesis, gene induction, ex-vivo gene therapy, intracardiac (peripheral) administration of viral neprilysin construct, syringe-focused ultrasound device, convection-enhanced delivery and the use of human adipose tissue-derived mesenchymal stem cells that secrete functional neprilysin-bound exosomes",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23378928",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22751177",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20817034",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17760499",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22114052",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21304989",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23503602",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19469700"
+  ],
+  "snippets": [
+    {
+      "text": "he novel, syringe-focused US device was used to introduce purified plasmid DNA encoding human neprilysin (hNEP) into mouse hindlimb skeletal muscle concurrent with US protocol",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22114052",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "This technique provides a safe and efficient non-viral method for in vivo gene delivery with potential applications in both basic research and in gene therapy of neuronal disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20817034",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "A novel system for in vivo neprilysin gene delivery using a syringe electrode.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20817034",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Previous studies have demonstrated the therapeutic potential of viral vector-mediated neprilysin (NEP) gene therapy in mouse models of Alzheimer's disease (AD).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22751177",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Convection-enhanced delivery of neprilysin: a novel amyloid-\u03b2-degrading therapeutic strategy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22751177",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/NEP_HUMAN",
+    "http://www.disease-ontology.org/api/metadata/DOID:10652",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016503",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018014",
+    "http://www.uniprot.org/uniprot/NEP_RABIT",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015260",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D023582",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000544"
+  ],
+  "exact_answer": "Gene transfer with viral vectors, Gene transfer with non-viral vectors, Transgenesis, Gene Induction, Fusion of the Apolipoprotein B (ApoB) low-density lipoprotein (LDL) receptor-binding domain to a targeted protein, ex vivo gene therapy, Intracardiac (peripheral) administration of viral neprilysin construct, Syringe-focused ultrasound device, Convection-enhanced delivery, Use of human adipose tissue-derived mesenchymal stem cells that secrete functional neprilysin-bound exosomes"
+}

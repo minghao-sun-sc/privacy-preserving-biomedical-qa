@@ -1,0 +1,82 @@
+{
+  "id": "512d2fff5274a5fb07000006",
+  "type": "factoid",
+  "question": "Is the H3K4me3 histone mark related to transcriptional initiation or elongation?",
+  "ideal_answer": "H3K4me3 is associated with transcriptionally active genes, but its function in the transcription process is still unclear. It is well known to occur in the promoter region of genes for transcription activation but its levels correlate positively with the antisense expression levels of the associated sense genes implying that it may be also involved in the activation of antisense transcription. Although it is mostly associated with transcription initiation H3K4me3 levels determine the efficiency of transcription elongation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22855832",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21435340",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22132139",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23284292",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22768981",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22904080",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18682226",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23355544"
+  ],
+  "snippets": [
+    {
+      "text": "The histone marks appeared mainly in generic regions and were enriched around the transcription start sites (TSSs) of genes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23355544",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Trimethylation of histone H3 Lys 4 (H3K4me3) is a mark of active and poised promoters.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22855832",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Histone H3 lysine 4 trimethylation (H3K4me3) is well known to occur in the promoter region of genes for transcription activation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22768981",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "3'-H3K4me3 is associated with ~15% of protein-coding genes in both tissues",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22768981",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Furthermore, 3'-H3K4me3 modification levels correlate positively with the antisense expression levels of the associated sense genes, implying that 3'-H3K4me3 is involved in the activation of antisense transcription.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22768981",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Among these are forms of histone 3 that are mono- or tri-methylated at lysine 4 (H3K4me1 or H3K4me3, respectively), which bind preferentially to promoter and enhancer elements in the mammalian genome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21435340",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "we find that H3K4me1 and H3K4me3 are enriched at transcriptional start sites in the genome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21435340",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "H3K4me1 and H3K4me3 generally mark cis regulatory elements",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21435340",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D035165",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020871",
+    "http://www.biosemantics.org/jochem#4250488",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D042925",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D050436",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051697",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051758",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D035582",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048348",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D061805",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015533",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D035181",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D035581"
+  ],
+  "exact_answer": "transcriptional initiation"
+}

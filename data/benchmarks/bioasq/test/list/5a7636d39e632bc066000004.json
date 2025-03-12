@@ -1,0 +1,85 @@
+{
+  "id": "5a7636d39e632bc066000004",
+  "type": "list",
+  "question": "Which R packages have been developed for the discovery of mutational signatures in cancer?",
+  "ideal_answer": "signeR: an empirical Bayesian approach to mutational signature discovery. Mutational signatures can be used to understand cancer origins and provide a unique opportunity to group tumor types that share the same origins and result from similar processes. These signatures have been identified from high throughput sequencing data generated from cancer genomes by using non-negative matrix factorisation (NMF) techniques. The extraction of mutational signatures from high-throughput data still remains a daunting task.RESULTS: Here we present a new method for the statistical estimation of mutational signatures based on an empirical Bayesian treatment of the NMF model.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29028923",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27591080",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26630308",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26163694"
+  ],
+  "snippets": [
+    {
+      "text": "signeR: an empirical Bayesian approach to mutational signature discovery.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27591080",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Mutational signatures can be used to understand cancer origins and provide a unique opportunity to group tumor types that share the same origins and result from similar processes. These signatures have been identified from high throughput sequencing data generated from cancer genomes by using non-negative matrix factorisation (NMF) techniques. Current methods based on optimization techniques are strongly sensitive to initial conditions due to high dimensionality and nonconvexity of the NMF paradigm. In this context, an important question consists in the determination of the actual number of signatures that best represent the data. The extraction of mutational signatures from high-throughput data still remains a daunting task.RESULTS: Here we present a new method for the statistical estimation of mutational signatures based on an empirical Bayesian treatment of the NMF model. While requiring minimal intervention from the user, our method addresses the determination of the number of signatures directly as a model selection problem. In addition, we introduce two new concepts of significant clinical relevance for evaluating the mutational profile. The advantages brought by our approach are shown by the analysis of real and synthetic data. The later is used to compare our approach against two alternative methods mostly used in the literature and with the same NMF parametrization as the one considered here. Our approach is robust to initial conditions and more accurate than competing alternatives. It also estimates the correct number of signatures even when other methods fail. Results on real data agree well with current knowledge.AVAILABILITY AND IMPLEMENTATION: signeR is implemented in R and C\u2009++, and is available as a R package at http://bioconductor.org/packages/signeR",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27591080",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cancers arise as the result of somatically acquired changes in the DNA of cancer cells. However, in addition to the mutations that confer a growth advantage, cancer genomes accumulate a large number of somatic mutations resulting from normal DNA damage and repair processes as well as carcinogenic exposures or cancer related aberrations of DNA maintenance machinery. These mutagenic processes often produce characteristic mutational patterns called mutational signatures. The decomposition of a cancer genome's mutation catalog into mutations consistent with such signatures can provide valuable information about cancer etiology. However, the results from different decomposition methods are not always consistent. Hence, one needs to be able to not only decompose a patient's mutational profile into signatures but also establish the accuracy of such decomposition.Results: We proposed two complementary ways of measuring confidence and stability of decomposition results and applied them to analyze mutational signatures in breast cancer genomes. We identified both very stable and highly unstable signatures, as well as signatures that previously have not been associated with breast cancer. We also provided additional support for the novel signatures. Our results emphasize the importance of assessing the confidence and stability of inferred signature contributions.Availability: All tools developed in this paper have been implemented in an R package, called SignatureEstimation, which is available from https://www.ncbi.nlm.nih.gov/CBBresearch/Przytycka/index.cgi#signatureestimation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29028923",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent advances in sequencing technologies have enabled the production of massive amounts of data on somatic mutations from cancer genomes. These data have led to the detection of characteristic patterns of somatic mutations or \"mutation signatures\" at an unprecedented resolution, with the potential for new insights into the causes and mechanisms of tumorigenesis. Here we present new methods for modelling, identifying and visualizing such mutation signatures. Our methods greatly simplify mutation signature models compared with existing approaches, reducing the number of parameters by orders of magnitude even while increasing the contextual factors (e.g. the number of flanking bases) that are accounted for. This improves both sensitivity and robustness of inferred signatures. We also provide a new intuitive way to visualize the signatures, analogous to the use of sequence logos to visualize transcription factor binding sites. We illustrate our new method on somatic mutation data from urothelial carcinoma of the upper urinary tract, and a larger dataset from 30 diverse cancer types. The results illustrate several important features of our methods, including the ability of our new visualization tool to clearly highlight the key features of each signature, the improved robustness of signature inferences from small sample sizes, and more detailed inference of signature characteristics such as strand biases and sequence context effects at the base two positions 5' to the mutated site. The overall framework of our work is based on probabilistic models that are closely connected with \"mixed-membership models\" which are widely used in population genetic admixture analysis, and in machine learning for document clustering. We argue that recognizing these relationships should help improve understanding of mutation signature extraction problems, and suggests ways to further improve the statistical methods. Our methods are implemented in an R package pmsignature (https://github.com/friend1ws/pmsignature) and a web application available at https://friend1ws.shinyapps.io/pmsignature_shiny/.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26630308",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SomaticSignatures: inferring mutational signatures from single-nucleotide variants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26163694",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Mutational signatures are patterns in the occurrence of somatic single-nucleotide variants that can reflect underlying mutational processes. The SomaticSignatures package provides flexible, interoperable and easy-to-use tools that identify such signatures in cancer sequencing data. It facilitates large-scale, cross-dataset estimation of mutational signatures, implements existing methods for pattern decomposition, supports extension through user-defined approaches and integrates with existing Bioconductor workflows.AVAILABILITY AND IMPLEMENTATION: The R package SomaticSignatures is available as part of the Bioconductor project. Its documentation provides additional details on the methods and demonstrates applications to biological datasets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26163694",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The SomaticSignatures package provides flexible, interoperable and easy-to-use tools that identify such signatures in cancer sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26163694",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "signeR: an empirical Bayesian approach to mutational signature discovery.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27591080",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we present a new method for the statistical estimation of mutational signatures based on an empirical Bayesian treatment of the NMF model.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27591080",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Results on real data agree well with current knowledge.<br><b>AVAILABILITY AND IMPLEMENTATION</b>: signeR is implemented in R and C\u2009++, and is available as a R package at http://bioconductor.org/packages/signeR CONTACT: itojal@cipe.accamargo.org.brSupplementary information: Supplementary data are available at Bioinformatics online.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27591080",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "signeR is implemented in R and C\u2009++, and is available as a R package at http://bioconductor.org/packages/signeR CONTACT: itojal@cipe.accamargo.org.brSupplementary information: Supplementary data are available at Bioinformatics online..",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27591080",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:162",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D004252"
+  ],
+  "exact_answer": "signeR, SignatureEstimation, pmsignature, SomaticSignatures"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "5c6e146a7c78d6947100004c",
+  "type": "list",
+  "question": "Which two drugs are included in the MAVYRET pill?",
+  "ideal_answer": "MAVYRET pill includes glecaprevir and pibrentasvir. It is used for treatment of hepatitis C infection.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28929412",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29089721"
+  ],
+  "snippets": [
+    {
+      "text": "A fixed-dose combination tablet of the hepatitis C virus (HCV) NS3/4A protease inhibitor (PI) glecaprevir and the HCV NS5A inhibitor pibrentasvir [glecaprevir/pibrentasvir; MAVIRET\u2122 (EU); MAVYRET\u2122 (USA)] has been developed by AbbVie.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28929412",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Aminolevulinic acid hydrochloride (Gleolan) for the visualization of malignant tissue during surgery; delafloxacin (Baxdela) for certain acute bacterial skin infections; and glecaprevir/pibrentasvir (Mavyret) for chronic HCV infection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29089721",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "glecaprevir, pibrentasvir"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "56f3f2072ac5ed1459000018",
+  "type": "summary",
+  "question": "What is the basis of the methodology of \"functional class scoring\" (FCS) for the analysis of gene expression data?",
+  "ideal_answer": "The second method, \"functional class scoring\" (FCS), examines the statistical distribution of individual gene scores among all genes in the gene ontology class and does not involve an initial gene selection step.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24565001",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25161229",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16317079",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18990722",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16895928",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16280084",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24497970",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16706726",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15176478",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23934932",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23557376"
+  ],
+  "snippets": [
+    {
+      "text": "The second method, \"functional class scoring\" (FCS), examines the statistical distribution of individual gene scores among all genes in the gene ontology class and does not involve an initial gene selection step.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15176478",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We aimed at examining such discrepancies on the level of apparently affected biologically related groups of genes, e.g. metabolic or signalling pathways. This can be achieved by group testing procedures, e.g. over-representation analysis, functional class scoring (FCS), or global tests.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16895928",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "They also suggest that functional class scoring methods appear to perform better and more consistently than overrepresentation analysis and distributional score methods.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16706726",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "With the use of functional class scoring, a semi-supervised method exploring both the expression pattern and the functional annotation of the genes, the Gene Ontology classes were ranked according to the significance of the impact of D3T treatment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16317079",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Most of the existing pathway analysis methods focus on either the number of DE genes observed in a given pathway (enrichment analysis methods), or on the correlation between the pathway genes and the class of the samples (functional class scoring methods)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18990722",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " There are three main classes of these methods: over-representation analysis, functional class scoring, and pathway topology based methods.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24565001",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we show that all three major categories of pathway analysis methods (enrichment analysis, functional class scoring, and topology-based methods) are severely influenced by crosstalk phenomena",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23934932",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Proteomics Expansion Pipeline (PEP), Functional Class Scoring (FCS), and Maxlink, in a test scenario of valproic acid (VPA)-treated mice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23557376",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We propose and examine personalized extensions of pathway statistics, overrepresentation analysis and functional class scoring, to generate individualized pathway aberrance score.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25161229",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The comparison of two analytical approaches, based on either Over Representation Analysis or Functional Class Scoring, by a meta-analysis-based approach, led to the retrieval of known information about the biological situation - thus validating the model - but also more importantly to the discovery of the previously unknown implication of the spliceosome, the cellular machinery responsible for mRNA splicing, in the development of metastasis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24497970",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The second method, \"functional class scoring\" (FCS), examines the statistical distribution of individual gene scores among all genes in the gene ontology class and does not involve an initial gene selection step.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15176478",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The second method, &quot;functional class scoring&quot; (FCS), examines the statistical distribution of individual gene scores among all genes in the gene ontology class and does not involve an initial gene selection step",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15176478",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The first method, &quot;overrepresentation analysis&quot; (ORA), is based on statistically evaluating the fraction of genes in a particular gene ontology class found among the set of genes showing age-related changes in expression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15176478",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using the gene ontology for microarray data mining: a comparison of methods and application to age effects in human prefrontal cortex",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15176478",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The second method, \"functional class scoring\" (FCS), examines the statistical distribution of individual gene scores among all genes in the gene ontology class and does not involve an initial gene selection step. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15176478",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The first method, &quot;overrepresentation analysis&quot; (ORA), is based on statistically evaluating the fraction of genes in a particular gene ontology class found among the set of genes showing age-related changes in expression. The second method, &quot;functional class scoring&quot; (FCS), examines the statistical distribution of individual gene scores among all genes in the gene ontology class and does not involve an initial gene selection step.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15176478",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The second method, &quot;functional class scoring&quot; (FCS), examines the statistical distribution of individual gene scores among all genes in the gene ontology class and does not involve an initial gene selection step. We find that FCS yields more consistent results than ORA, and the results of ORA depended strongly on the gene selection threshold.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15176478",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D063990",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015870",
+    "http://amigo.geneontology.org/amigo/term/GO:0010467",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020869"
+  ]
+}

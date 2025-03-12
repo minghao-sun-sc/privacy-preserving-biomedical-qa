@@ -1,0 +1,26 @@
+{
+  "id": "5c74111f7c78d694710000a1",
+  "type": "factoid",
+  "question": "Which transcription factor binding site is contained in Alu repeats?",
+  "ideal_answer": "A novel abundant NF-\u03baB-binding site resides in specialized Alu-repetitive elements having the potential for long range transcription regulation, thus suggesting that in addition to its known role, NF-\u03baB has a primate-specific function and a role in human evolution.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23771139",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21896491"
+  ],
+  "snippets": [
+    {
+      "text": "Remarkably, we identified a novel abundant NF-\u03baB-binding site residing in specialized Alu-repetitive elements having the potential for long range transcription regulation, thus suggesting that in addition to its known role, NF-\u03baB has a primate-specific function and a role in human evolution.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21896491",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A de novo motif enrichment analysis uncovers secondary TFBSs (AP1, SP1) at characteristic distances from NF-\u03baB/RelA TFBSs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23771139",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "The NF-\u03baB-binding site"
+}

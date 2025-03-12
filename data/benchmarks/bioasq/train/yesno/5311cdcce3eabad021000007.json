@@ -1,0 +1,79 @@
+{
+  "id": "5311cdcce3eabad021000007",
+  "type": "yesno",
+  "question": "Is there any software for automated analysis of FISH images?",
+  "ideal_answer": "FISH is a popular molecular cytogenetic method. The output of a single FISH analysis is a set of several tens or hundreds microscopic images \u2014 a single evaluated sample is of roughly 20mm diameter. The goal of an automated evaluation is to replace the subjective evaluation of images by the laboratory technician to achieve higher uniformity of results. Following explanation of the principle of the method and the typical contents of images, the processing flow of image segmentation is outlined and the results are presented on several example images. Based on results there are software for automated analysis of FISH images.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21310746",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22665392",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21656271",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16749443",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17889539",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23903043",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15887538",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17674627",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22935778",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22163442",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20639591",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15351517",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11818019",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24240725",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20966547"
+  ],
+  "snippets": [
+    {
+      "text": "he study demonstrated the feasibility of automated FISH signal analysis that applying a CAD scheme to the automated generated 2-D projection images.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22935778",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A color imaging technique, multiplex fluorescent in situ hybridization (M-FISH), has been developed to ease the analysis of the process. Using an M-FISH technique each chromosome class (1,2, \u2026,22,X,Y) is stained with a unique color. However, significant variations between images are observed due to a number of factors such as uneven hybridization and spectral overlap among channels. These types of variations influence the pixel classification accuracy of image classification methods which are supervised and require a set of annotated images for training. In this paper, we present a fully unsupervised M-FISH chromosome image classification methodology. Our main contributions are 1) the assumption that the intensity of a chromosome pixel is sampled from multiple Gaussian components [Gaussian mixture model (GMM)] such that each component corresponds to one chromosome class, and 2) the initialization of the GMM model using the emission information of each chromosome class. This is feasible since prior to the M-FISH image acquirement, we already know which chromosome class is emitting to each of the five M-FISH image channels. The method has been tested on a large number of M-FISH images and an overall accuracy of 89.85% is reported. Our method is unsupervised and presents higher classification accuracy even when it is compared with common supervised based methods.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24240725",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "hybridization (FISH) tests provide promising molecular imaging biomarkers to more accurately and reliably detect and diagnose cancers and genetic disorders. Since current manual FISH signal analysis is low-efficient and inconsistent, which limits its clinical utility, developing automated FISH image scanning systems and computer-aided detection (CAD) schemes has been attracting research interests. To acquire high-resolution FISH images in a multi-spectral scanning mode, a huge amount of image data with the stack of the multiple three-dimensional (3-D) image slices is generated from a single specimen. Automated preprocessing these scanned images to eliminate the non-useful and redundant data is important to make the automated FISH tests acceptable in clinical applications. In this study, a dual-detector fluorescence image scanning system was applied to scan four specimen slides with FISH-probed chromosome X. A CAD scheme was developed to detect analyzable interphase cells and map the multiple imaging slices recorded FISH-probed signals into the 2-D projection images. CAD scheme was then applied to each projection image to detect analyzable interphase cells using an adaptive multiple-threshold algorithm, identify FISH-probed signals using a top-hat transform, and compute the ratios between the normal and abnormal cells. To assess CAD performance, the FISH-probed signals were also independently visually detected by an observer. The Kappa coefficients for agreement between CAD and observer ranged from 0.69 to 1.0 in detecting/counting FISH signal spots in four testing samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22935778",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " In this paper we developed a sparse representation-based classification (SRC) algorithm based on L1-norm minimization for classifying chromosomes from multicolor fluorescence in situ hybridization (M-FISH) images. The algorithm has been tested on a comprehensive M-FISH database that we established, demonstrating improved performance in classification. When compared with other pixel-wise M-FISH image classifiers such as fuzzy c-means (FCM) clustering algorithms and adaptive fuzzy c-means (AFCM) clustering algorithms that we proposed earlier the current method gave the lowest classification error. In order to evaluate the performance of different SRC for M-FISH imaging analysis, three different sparse representation methods, namely, Homotopy method, Orthogonal Matching Pursuit (OMP), and Least Angle Regression (LARS), were tested and compared. Results from our statistical analysis have shown that Homotopy based method is significantly better than the other two methods. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22665392",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Fluorescence in situ hybridization (FISH) is used to study the organization and the positioning of specific DNA sequences within the cell nucleus. Analyzing the data from FISH images is a tedious process that invokes an element of subjectivity. Automated FISH image analysis offers savings in time as well as gaining the benefit of objective data analysis. While several FISH image analysis software tools have been developed, they often use a threshold-based segmentation algorithm for nucleus segmentation. As fluorescence signal intensities can vary significantly from experiment to experiment, from cell to cell, and within a cell, threshold-based segmentation is inflexible and often insufficient for automatic image analysis, leading to additional manual segmentation and potential subjective bias. To overcome these problems, we developed a graphical software tool called FISH Finder to automatically analyze FISH images that vary significantly. By posing the nucleus segmentation as a classification problem, compound Bayesian classifier is employed so that contextual information is utilized, resulting in reliable classification and boundary extraction. This makes it possible to analyze FISH images efficiently and objectively without adjustment of input parameters. Additionally, FISH Finder was designed to analyze the distances between differentially stained FISH probes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21310746",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The simultaneous detection of protein expression and gene copy number changes in patient samples, like paraffin-embedded tissue sections, is challenging since the procedures of immunohistochemistry (IHC) and Fluorescence in situ Hybridization (FISH) negatively influence each other which often results in suboptimal staining. Therefore, we developed a novel automated algorithm based on relocation which allows subsequent detection of protein content and gene copy number changes within the same cell. METHODS: Paraffin-embedded tissue sections of colorectal cancers were stained for CD133 expression. IHC images were acquired and image coordinates recorded. Slides were subsequently hybridized with fluorescently labeled DNA probes. FISH images were taken at the previously recorded positions allowing for direct comparison of protein expression and gene copy number signals within the same cells/tissue areas. Relocation, acquisition of the IHC and FISH images, and enumeration of FISH signals in the immunophenotyped tumour areas were done in an automated fashion. RESULTS: Automated FISH analysis was performed on 13 different colon cancer samples that had been stained for CD133; each sample was scored for MYC, ZNF217 and Chromosome 6 in CD133 positive and negative glands. From the 13 cases four (31%) showed amplification for the MYC oncogene and seven of 13 (54%) cases were amplified for ZNF217.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21656271",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The simultaneous detection of protein expression and gene copy number changes in patient samples, like paraffin-embedded tissue sections, is challenging since the procedures of immunohistochemistry (IHC) and Fluorescence in situ Hybridization (FISH) negatively influence each other which often results in suboptimal staining.Therefore, we developed a novel automated algorithm based on relocation which allows subsequent detection of protein content and gene copy number changes within the same cell. METHODS: Paraffin-embedded tissue sections of colorectal cancers were stained for CD133 expression. IHC images were acquired and image coordinates recorded. Slides were subsequently hybridized with fluorescently labeled DNA probes. FISH images were taken at the previously recorded positions allowing for direct comparison of protein expression and gene copy number signals within the same cells/tissue areas. Relocation, acquisition of the IHC and FISH images, and enumeration of FISH signals in the immunophenotyped tumour areas were done in an automated fashion. RESULTS: Automated FISH analysis was performed on 13 different colon cancer samples that had been stained for CD133; each sample was scored for MYC, ZNF217 and Chromosome 6 in CD133 positive and negative glands. From the 13 cases four (31%) showed amplification for the MYC oncogene and seven of 13 (54%) cases were amplified for ZNF217. There was no significant difference between CD133 positive tumour and CD133 negative tumour cells. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20966547",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The simultaneous detection of protein expression and gene copy number changes in patient samples, like paraffin-embedded tissue sections, is challenging since the procedures of immunohistochemistry (IHC) and Fluorescence in situ Hybridization (FISH) negatively influence each other which often results in suboptimal staining.Therefore, we developed a novel automated algorithm based on relocation which allows subsequent detection of protein content and gene copy number changes within the same cell.Methods: Paraffin-embedded tissue sections of colorectal cancers were stained for CD133 expression. IHC images were acquired and image coordinates recorded. Slides were subsequently hybridized with fluorescently labeled DNA probes. FISH images were taken at the previously recorded positions allowing for direct comparison of protein expression and gene copy number signals within the same cells/tissue areas. Relocation, acquisition of the IHC and FISH images, and enumeration of FISH signals in the immunophenotyped tumour areas were done in an automated fashion.Results: Automated FISH analysis was performed on 13 different colon cancer samples that had been stained for CD133; each sample was scored for MYC, ZNF217 and Chromosome 6 in CD133 positive and negative glands. From the 13 cases four (31%) showed amplification for the MYC oncogene and seven of 13 (54%) cases were amplified for ZNF217. There was no significant difference between CD133 positive tumour and CD133 negative tumour cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20639591",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001331",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007091",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012984"
+  ],
+  "exact_answer": "Yes"
+}

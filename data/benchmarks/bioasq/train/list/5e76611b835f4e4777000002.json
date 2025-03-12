@@ -1,0 +1,32 @@
+{
+  "id": "5e76611b835f4e4777000002",
+  "type": "list",
+  "question": "Which are the predominant rotavirus genotypes around the world?",
+  "ideal_answer": "The predominant RV genotypes circulating all over the world are G1P[8], G2P[4], G3P[8], G4P[8], and G9P[8], while G12[P6] and G12[P8] are emerging genotypes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25224179",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30156344"
+  ],
+  "snippets": [
+    {
+      "text": "The predominant RV genotypes circulating all over the world are G1P[8], G2P[4], G3P[8], G4P[8], and G9P[8], while G12[P6] and G12[P8] are emerging genotypes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30156344",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The predominant RV genotypes circulating all over the world are G1P[8], G2P[4], G3P[8], G4P[8], and G9P[8], while G12[P6] and G12[P8] are emerging genotypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30156344",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Comprehensive reviews of pre licensure rotavirus strain prevalence data indicated the global importance of six rotavirus genotypes, G1P[8], G2P[4], G3P[8], G4P[8], G9P[8] and G12P[8].",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25224179",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "G1P[8], G2P[4], G3P[8], G4P[8], G9P[8]"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "5eb9a7f60d431b5f7300000c",
+  "type": "summary",
+  "question": "What is the function of a protein degron?",
+  "ideal_answer": "Protein degrons are part of the DNA damage response triggered by dysfunctional transcription factors.  Proteins that are destined for proteasome-mediated degradation are usually tagged with a chain of ubiquitin linked via lysine residues that targets them to the proteolytic machinery. Disruption of one degron by a RNA-binding protein causes it to become ubiquitinated, dimerizes and translocates to the nucleus.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26214256",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27820801",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17962019",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29777695",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10545111",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28292960",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9806417",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19401679",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28680098",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26435348",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25653450"
+  ],
+  "snippets": [
+    {
+      "text": "The N-degron protein degradation strategy for investigating the function of essential genes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9806417",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We developed a dormant N-degron that can be attached to the N-terminus of a protein of interest. Upon expression of a site-specific protease, the dormant N-degron becomes deprotected. The N-degron then targets itself and the attached protein for rapid proteasomal degradation through the N-end rule pathway. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19401679",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " We describe small molecule-assisted shutoff (SMASh), a technique in which proteins are fused to a degron that removes itself in the absence of drug, resulting in the production of an untagged protein.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26214256",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The auxin-inducible degron harbors great potential for dynamic protein depletion in yeast",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28680098",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We fused two degron components into a single molecule to create a fusion protein comprising ubiquitin and Rpn4-derived unstructured region.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29777695",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Functioning as a protein degron, the cellular IAP leader dramatically shortened the life span of a long-lived viral IAP (Op-IAP3) when fused to its N terminus. The SfIAP degron contains mitogen-activated kinase (MAPK)-like regulatory sites, responsible for MAPK inhibitor-sensitive phosphorylation of SfIAP. Hyperphosphorylation correlated with increased SfIAP turnover independent of the E3 ubiquitin-ligase activity of the SfIAP RING, which also regulated IAP stability. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25653450",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We conferred such multidimensional controls to diverse Cas9 systems by leveraging small-molecule-regulated protein degron domains.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27820801",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The degron mediated protein degradation represents a rapidly tunable methodology to control protein abundance, which has broad application in therapeutics and cellular function control and monitoring.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26435348",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The N-end rule pathway is a ubiquitin-dependent proteolytic system, in which destabilizing N-terminal residues of short-lived proteins function as an essential determinant of an N-terminal degradation signal (N-degron).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17962019",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Degrons are the elements that are used by E3 ubiquitin ligases to target proteins for degradation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28292960",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A 'distributed degron' allows regulated entry into the ER degradation pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10545111",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": []
+}

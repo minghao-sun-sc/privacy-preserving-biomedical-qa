@@ -1,0 +1,66 @@
+{
+  "id": "516c0ebc298dcd4e5100006e",
+  "type": "list",
+  "question": "Which genes does thyroid hormone receptor beta1 regulate in the liver?",
+  "ideal_answer": "LDL receptor\"//\n\"ChREBP\"//\n\"ME\", \"malic enzyme\"//\n\"cytochrome P450 oxidoreductase\"//",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19916081",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9224811",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9832432",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19324998",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10319950"
+  ],
+  "snippets": [
+    {
+      "text": "our data suggests that TRbeta1-mediated down regulation of hepatic LDLr gene may play a critical role in iodine excess-induced hypercholesterolemic effects.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19916081",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "These data suggest that ChREBP mRNA expression is positively regulated by TR-beta1 and TH at the transcriptional level in mammals. This novel observation indicates that TH fine-tunes hepatic lipogenesis via regulating SREBP-1c and ChREBP gene expression reciprocally.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19324998",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In contrast treatment with L-T3 produced an increase in S14 and ME but no change in TR beta-/- mice. From these results, it can be concluded that regulation of HR and EE are independent of TR beta. With the exception of serum cholesterol concentration and liver ME mRNA accumulation, all other markers of TH action examined during TH deprivation exhibited the expected responses in the absence of TR beta.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9832432",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "However, the T3-activated expression of the GH gene in GH3-PV and ME gene in SK-Hep-1-PV was repressed by approximately 30% and 90%, respectively, indicating the lack of correlation of PV/TRpbeta1 protein ratio with the dominant negative potency of mutant PV.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10319950",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Transient cotransfection of P450R promoter/chloramphenicol acetyl transferase (CAT) constructs and the thyroid hormone receptor beta1 (TR beta1) expression plasmid into rat hepatoma H4IIE cells resulted in a 2.4-fold induction of promoter activity that was both T3 and TR beta1 dependent.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9224811",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "At the molecular level, we detected a dose-dependent attenuation of hepatic low density lipoprotein receptor (LDLr) and thyroid hormone receptor beta1 (TRbeta1) expression in parallel to the change of serum cholesterol.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19916081",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/THBA_XENLA",
+    "http://www.uniprot.org/uniprot/THB_SHEEP",
+    "http://www.uniprot.org/uniprot/THB_PAROL",
+    "http://www.uniprot.org/uniprot/THB_CHICK",
+    "http://www.uniprot.org/uniprot/THBB_XENLA",
+    "http://www.uniprot.org/uniprot/THB_DANRE",
+    "http://www.uniprot.org/uniprot/THB_RAT",
+    "http://www.uniprot.org/uniprot/THB_HUMAN",
+    "http://www.uniprot.org/uniprot/THB_CAIMO",
+    "http://www.uniprot.org/uniprot/THB_MOUSE",
+    "http://www.uniprot.org/uniprot/THB_LITCT",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037042"
+  ],
+  "exact_answer": "LDL receptor, ChREBP, Carbohydrate response element binding protein, ME, malic enzyme, cytochrome P450 oxidoreductase"
+}

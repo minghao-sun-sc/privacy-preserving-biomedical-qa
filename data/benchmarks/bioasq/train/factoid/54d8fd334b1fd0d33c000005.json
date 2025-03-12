@@ -1,0 +1,64 @@
+{
+  "id": "54d8fd334b1fd0d33c000005",
+  "type": "factoid",
+  "question": "Rindopepimut is an analog of which growth factor?",
+  "ideal_answer": "Rindopepimut is an analog of EGFRvIII. It is being tested for treatment of glioblastoma multiforme",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25186601",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23055947",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22309662",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21154166"
+  ],
+  "snippets": [
+    {
+      "text": "Rindopepimut consists of a 14-mer peptide that spans the length of EGF receptor variant III, a mutant variant of EGF receptor found on approximately 30% of primary GBM, conjugated to the carrier protein keyhole limpet hemocyanin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25186601",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rindopepimut is a peptide vaccine which elicits EGFRvIII-specific humoral and cellular immune responses. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23055947",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A peptide vaccine, rindopepimut (CDX-110, Celldex Therapeutics), is directed against the novel exon 1-8 junction produced by the EGFRvIII deletion, and it has shown high efficacy in preclinical models. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22309662",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rindopepimut, a 14-mer injectable peptide vaccine against EGFRvIII for the potential treatment of glioblastoma multiforme.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21154166",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Rindopepimut specifically targets a novel junctional epitope of the EGFR deletion mutant EGFRvIII, which is a constitutively active receptor that is expressed in approximately 60 to 70% of patients with GBM. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21154166",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A peptide vaccine, rindopepimut (CDX-110, Celldex Therapeutics), is directed against the novel exon 1-8 junction produced by the EGFRvIII deletion, and it has shown high efficacy in preclinical models",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22309662",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rindopepimut is a peptide vaccine which elicits EGFRvIII-specific humoral and cellular immune responses",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23055947",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/GRFA_CAMPM",
+    "http://www.uniprot.org/uniprot/GRFA_RFVKA",
+    "http://www.uniprot.org/uniprot/GRFA_RABPU",
+    "http://www.uniprot.org/uniprot/GRFA_MYXVL",
+    "http://www.uniprot.org/uniprot/GRFA_CAMPS"
+  ],
+  "exact_answer": "EGFRvIII"
+}

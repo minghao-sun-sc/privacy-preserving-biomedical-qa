@@ -1,0 +1,31 @@
+{
+  "id": "52ecd56198d023950500002b",
+  "type": "yesno",
+  "question": "Are thyroid hormone receptor alpha1 mutations  implicated in thyroid hormone resistance syndrome?",
+  "ideal_answer": "thyroid hormone receptor alpha1 mutations are implicated in thyroid hormone resistance syndrome",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23528896",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23633213",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12750454"
+  ],
+  "snippets": [
+    {
+      "text": "Mutations in human TR\u03b11 mediate RTH with features of hypothyroidism in particular tissues (e.g. skeleton, gastrointestinal tract), but are not associated with a markedly dysregulated pituitary-thyroid axis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23528896",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Clinical phenotype of a new type of thyroid hormone resistance caused by a mutation of the TR\u03b11 receptor",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23633213",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018382",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009154",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037021"
+  ],
+  "exact_answer": "Yes"
+}

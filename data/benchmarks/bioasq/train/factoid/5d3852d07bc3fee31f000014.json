@@ -1,0 +1,72 @@
+{
+  "id": "5d3852d07bc3fee31f000014",
+  "type": "factoid",
+  "question": "Where is the yeast transpozable element Ty3 preferentially inserted?",
+  "ideal_answer": "Ty3 is preferentially inserted in genes encoding transfer RNA genes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22544262",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1963869",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1309715",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15579677",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11604517",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8389458"
+  ],
+  "snippets": [
+    {
+      "text": "We found that extra ORFs occur in all three major lineages of plant Ty3/gypsy elements, being the most frequent in the Tat lineage where most (77\u00a0%) of identified elements contained extra ORFs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22544262",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The retrovirus-like element Ty3 of Saccharomyces cerevisiae integrates at the transcription initiation region of RNA polymerase III.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15579677",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ty3 inserts at transcription initiation sites of genomic tRNA genes and plasmid-borne 5S and U6 RNA genes transcribed by RNA polymerase III. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11604517",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sites of RNA polymerase III transcription initiation and Ty3 integration at the U6 gene are positioned by the TATA box",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8389458",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " the U6 TATA box is essential in vivo for correct initiation but not for transcription, (ii) a TATA box does not compensate for a weak box A sequence and so cannot perform equivalently, and (iii) the TATA-binding protein, and probably components of transcription factor IIIB, are present on the target at the time of Ty3 integration.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8389458",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ty3 integrates within the region of RNA polymerase III transcription initiation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1309715",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Ty3 was shown to insert upstream of tRNA, 5S, and U6 genes, all of which are transcribed by RNA polymerase III",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1309715",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transfer RNA genes are genomic targets for de Novo transposition of the yeast retrotransposon Ty3.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1963869",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Thus, genomic insertions of Ty3 in a particular orientation are apparently specified by the target, while the actual position of the insertion relative to the tRNA-coding sequence can vary slightly.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1963869",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "the promoters of RNA PolIII-transcribed genes"
+}

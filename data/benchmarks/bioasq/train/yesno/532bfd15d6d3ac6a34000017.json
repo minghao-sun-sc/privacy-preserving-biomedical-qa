@@ -1,0 +1,106 @@
+{
+  "id": "532bfd15d6d3ac6a34000017",
+  "type": "yesno",
+  "question": "Is RIP1 (RIP-1) part of the necrosome?",
+  "ideal_answer": "Yes, RIP1 is part of the necrosome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22421439",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23612963",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24059293",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23898178",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23162759",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22016814",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22817896",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22033613",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21749897",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22666585",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24098568",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22576661",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21890409"
+  ],
+  "snippets": [
+    {
+      "text": "formation of a different necrosome whose components, besides RIP1 and RIP3, are still unknown",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22033613",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "necrosome complex consisting of RIP1, RIP3, FADD, caspase-8 and cFLIP(L).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22016814",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "assembly of a supramolecular complex containing the receptor-interacting protein kinases 1 and 3 (RIP1 and RIP3) that delivers a pronecrotic signal. Such complex has recently been dubbed necrosome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21749897",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Receptor interacting protein kinase 1 (RIPK1/RIP1) and RIP3 are key components of the necrosome. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24098568",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The phosphorylation of RIP1 and RIP3 is critical for assembly of the necrosome,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24059293",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RIP1-RIP3 \"necrosome\" complex ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23898178",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RIP1 and RIP3 mediate necrosome aggregation leading to the formation of amyloid-like signaling complexes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23612963",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Formation of the RIP1/RIP3 complex (called necrosome) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23162759",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The RIP1/RIP3 necrosome ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22817896",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Rip1-Rip3 death complex (necrosome)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22576661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "he 'necrosome', that includes receptor-interacting protein (RIP)1, RIP3 and caspase-8. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21890409",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RIP-1 kinase activity triggers formation of the necrosome (in complex with RIP-3) leading to programmed necrosis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22666585",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0001906",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D053422",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0008219",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0070265",
+    "http://www.uniprot.org/uniprot/RIPK1_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009336",
+    "http://www.uniprot.org/uniprot/RIPK1_MOUSE",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0097300"
+  ],
+  "exact_answer": "Yes"
+}

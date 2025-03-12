@@ -1,0 +1,154 @@
+{
+  "id": "55058af6f73303d458000004",
+  "type": "factoid",
+  "question": "Which protein is the E3-ubiquitin ligase that targets the tumor suppressor p53 for proteasomal degradation?",
+  "ideal_answer": "The p53 tumour suppressor protein is tightly controlled by the E3 ubiquitin ligase, mouse double minute 2 (MDM2). The RING domain E3 ubiquitin ligase Mdm2 is the master regulator of the tumor suppressor p53. It targets p53 for proteasomal degradation, restraining the potent activity of p53 and enabling cell survival and proliferation. p53 is inactivated in many human malignancies through missense mutations or overexpression of the human homologue of Mdm2 (Hdm2), an E3 ubiquitin ligase that ubiquitinates p53, thereby promoting its proteasomal degradation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16082221",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22819825",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23150437",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11948425",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12832479",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21075307",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15632057",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19934289",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18235222",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19166840",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24174547",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15013777",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22666487",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16339144",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23671280",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23581014"
+  ],
+  "snippets": [
+    {
+      "text": "p53 levels and activity are controlled in large part through regulated ubiquitination and subsequent destruction by the 26S proteasome. Monoubiquitination of p53 is mediated primarily by the RING-finger E3 ubiquitin ligase MDM2 and impacts p53 activity through modulation of p53 localization and transcription activities. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23150437",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The RING domain E3 ubiquitin ligase Mdm2 is the master regulator of the tumor suppressor p53. It targets p53 for proteasomal degradation, restraining the potent activity of p53 and enabling cell survival and proliferation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23671280",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The p53 transcription factor and tumor suppressor is regulated primarily by the E3 ubiquitin ligase Mdm2, which ubiquitinates p53 to target it for proteasomal degradation. Aside from its ubiquitin ligase function, Mdm2 has been believed to be capable of suppressing p53's transcriptional activity by binding with and masking the transactivation domain of p53.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22666487",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The regulation of p53 expression levels is critical in controlling p53 activity in normal and damaged cells. This is well illustrated by the E3 ubiquitin ligase MDM2 that targets p53 for proteasomal degradation under normal conditions and is essential for controlling p53 activity during development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23581014",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "p53 is inactivated in many human malignancies through missense mutations or overexpression of the human homologue of Mdm2 (Hdm2), an E3 ubiquitin ligase that ubiquitinates p53, thereby promoting its proteasomal degradation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19934289",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mdm2 has been thought to regulate the tumor suppressor p53 in two ways: by masking p53's access to transcriptional machinery, and by ubiquitinating p53, targeting it for proteasomal degradation. This dogma was recently challenged by data generated from knockin mice in which Mdm2's RING E3 ubiquitin ligase activity was abrogated by a single point mutation. The RING mutant Mdm2 is fully capable of binding with p53, yet cannot suppress p53 activity, suggesting that Mdm2 cannot block p53 by binding alone, without ubiquitination.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18235222",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MDM2 is an E3 ubiquitin ligase that regulates the proteasomal degradation and activity of proteins involved in cell growth and apoptosis, including the tumor suppressors p53 and retinoblastoma and the transcription factor E2F1. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16339144",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The p53 tumor suppressor protein has a major role in protecting genome integrity. Under normal circumstances Mdmx and Mdm2 control the activity of p53. Both proteins inhibit the transcriptional regulation by p53, while Mdm2 also functions as an E3 ubiquitin ligase to target both p53 and Mdmx for proteasomal degradation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16082221",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "p53 is a critical coordinator of a wide range of stress responses. To facilitate a rapid response to stress, p53 is produced constitutively but is negatively regulated by MDM2. MDM2 can inhibit p53 in multiple independent ways: by binding to its transcription activation domain, inhibiting p53 acetylation, promoting nuclear export, and probably most importantly by promoting proteasomal degradation of p53. The latter is achieved via MDM2's E3 ubiquitin ligase activity harbored within the MDM2 RING finger domain.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15632057",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mdm2 is a RING finger E3 ubiquitin ligase, which promotes ubiquitination and proteasomal degradation of the p53 tumor suppressor protein. Acetylation of p53 regulates p53's transcriptional activity and inhibits Mdm2-mediated p53 ubiquitination and degradation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15013777",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MDM2 is an E3 ubiquitin ligase that targets p53 for proteasomal degradation. Recent studies have shown, however, that the ring-finger domain (RFD) of MDM2, where the ubiquitin E3 ligase activity resides, is necessary but not sufficient for p53 ubiquitination, suggesting that an additional activity of MDM2 might be required.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12832479",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Mdm2 proto-oncogene is amplified and over-expressed in a variety of tumors. One of the major functions of Mdm2 described to date is its ability to modulate the levels and activity of the tumor suppressor protein p53. Mdm2 binds to the N-terminus of p53 and, through its action as an E3 ubiquitin ligase, targets p53 for rapid proteasomal degradation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11948425",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The HDM2-p53 loop is crucial for monitoring p53 level and human pathologies. Therefore, identification of novel molecules involved in this regulatory loop is necessary for understanding the dynamic regulation of p53 and treatment of human diseases. Here, we characterized that the ribosomal protein L6 binds to and suppresses the E3 ubiquitin ligase activity of HDM2, and subsequently attenuates HDM2-mediated p53 polyubiquitination and degradation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24174547",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Together, our study identifies the crucial function of RPL6 in regulating HDM2-p53 pathway, which highlights the importance of RPL6 in human genetic diseases and cancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24174547",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Targeting the E3 ubiquitin ligase HDM2 can lead to a therapeutic surge in p53 levels. However, the efficacy of HDM2 inhibition can be compromised by overexpression of HDMX, an HDM2 homolog that binds and sequesters p53.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21075307",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The p53 tumour suppressor protein is tightly controlled by the E3 ubiquitin ligase, mouse double minute 2 (MDM2), but maintains MDM2 expression as part of a negative feedback loop. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19166840",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Murine double minute (MDM2) is an E3 ligase that promotes ubiquitination and degradation of tumor suppressor protein 53 (p53).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22819825",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This is well illustrated by the E3 ubiquitin ligase MDM2 that targets p53 for proteasomal degradation under normal conditions and is essential for controlling p53 activity during development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23581014",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mdm2 is a RING finger E3 ubiquitin ligase, which promotes ubiquitination and proteasomal degradation of the p53 tumor suppressor protein",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15013777",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MDM2 is an E3 ubiquitin ligase that regulates the proteasomal degradation and activity of proteins involved in cell growth and apoptosis, including the tumor suppressors p53 and retinoblastoma and the transcription factor E2F1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16339144",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The p53 transcription factor and tumor suppressor is regulated primarily by the E3 ubiquitin ligase Mdm2, which ubiquitinates p53 to target it for proteasomal degradation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22666487",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "The mouse double minute 2 (mdm2), The human homologue of Mdm2 (Hdm2)"
+}

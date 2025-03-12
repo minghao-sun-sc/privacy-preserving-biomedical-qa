@@ -1,0 +1,124 @@
+{
+  "id": "52d2818403868f1b06000033",
+  "type": "list",
+  "question": "Which are the newly identified DNA nucleases that can be used to treat thalassemia?",
+  "ideal_answer": "Thalassemia is genetic diseases of the blood caused by mutations in the globin gene.  Main goal for thalassemia treatment is to develop homologous recombination based gene therapy in order to cure these diseases. Zinc finger nucleases (ZFNs) and TAL effector nucleases (TALENs) are proper targets for the human globin gene. Genome editing using engineered nucleases such as ZFNs and TALENs has become a powerful technology for reverse genetics.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24305179",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24286287",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24323919",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24305403",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24299737",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24211574",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24155235",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24305278",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24291598",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24253446",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23408852",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21953455",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23002118",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24157834",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23386979"
+  ],
+  "snippets": [
+    {
+      "text": "Transcription activator-like effector nuclease (TALEN) and zinc finger nuclease (ZFN) DNA editing technology enables site-directed engineering of the genome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24305278",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We used this opportunity to evaluate the effect of total donor homology on transcription activator-like effector nuclease (TALEN) mediated bi-allelic modification. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24305403",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Herein we describe our applications of site-specific nucleases, especially transcription activator-like effector nucleases, to engineer specific alterations in the genomes of pigs and cows.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24305179",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this study, we used zinc finger nuclease-mediated knockout of the aryl hydrocarbon receptor (AHR) or AHR nuclear translocator (ARNT) in MCF7 and AHR knockout in MDA-MB-231 human breast cancer cells to investigate cross talk among AHR, ARNT, and estrogen receptor \u03b1 (ER\u03b1).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24299737",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " For example, after binding DNA, TALEs fused to transcriptional activation domains can function as robust transcription factors (TALE-TFs), while fused to restriction endonucleases (TALENs) can cut DNA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24291598",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Genome editing using engineered nucleases such as transcription activator-like effector nucleases (TALENs) has become a powerful technology for reverse genetics",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24286287",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we describe a robust process combining efficient generation of integration-free \u03b2-Thal iPSCs from the cells of patients and transcription activator-like effector nuclease (TALEN)-based universal correction of HBB mutations in situ.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24155235",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report here the correction of \u03b1-thalassemia major hydrops fetalis in transgene-free iPS cells using zinc finger-mediated insertion of a globin transgene in the AAVS1 site on human chromosome 19. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23002118",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Here, we review the development of Cas9 as an important tool to not only edit the genomes of a number of different prokaryotic and eukaryotic species, but also as an efficient system for site-specific transcriptional repression or activation. Additionally, a specific Cas9 protein has been observed to target an RNA substrate, suggesting that Cas9 may have the ability to be programmed to target RNA as well.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24323919",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RNA-guided endonucleases (RGENs), derived from the prokaryotic adaptive immune system known as CRISPR/Cas, enable targeted genome engineering in cells and organisms. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24253446",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The CRISPR/Cas technology has been successfully used to stimulate the integration of small DNA sequences in a target locus to produce gene mutations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24211574",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001483",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0004523",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0008821",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0032075",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004269",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013789",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015723",
+    "http://www.disease-ontology.org/api/metadata/DOID:1099",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004260",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004247",
+    "http://www.uniprot.org/uniprot/NUCE_STRPN",
+    "http://www.uniprot.org/uniprot/NUCA_BACSU",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D064112",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D064113",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D064130",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017085",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017086",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0004530",
+    "http://www.uniprot.org/uniprot/NUCE_STRR6",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D059372",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004274",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0004518",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0032074",
+    "http://www.uniprot.org/uniprot/NUC1_SYNRA",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0032069",
+    "http://www.uniprot.org/uniprot/NUCA_NOSS1",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003851",
+    "http://www.disease-ontology.org/api/metadata/DOID:10241",
+    "http://www.disease-ontology.org/api/metadata/DOID:12241",
+    "http://www.uniprot.org/uniprot/NUCA_SERMA"
+  ],
+  "exact_answer": "TALEN, Transcription activator-like effector nucleases, Crispr/CAS, zinc-finger nucleases"
+}

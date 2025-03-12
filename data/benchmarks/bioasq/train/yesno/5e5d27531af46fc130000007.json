@@ -1,0 +1,33 @@
+{
+  "id": "5e5d27531af46fc130000007",
+  "type": "yesno",
+  "question": "Has the Spanich flu virus been reconstructed?",
+  "ideal_answer": "Tes,\nReconstruction of the 1918 influenza virus has facilitated considerable advancements in our understanding of this extraordinary pandemic virus.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30142572",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22967978",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19385726"
+  ],
+  "snippets": [
+    {
+      "text": "Reconstruction of the 1918 influenza virus has facilitated considerable advancements in our understanding of this extraordinary pandemic virus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30142572",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These viral RNA sequences eventually permitted reconstruction of the complete 1918 virus, which has yielded, almost a century after the deaths of its victims, novel insights into influenza virus biology and pathogenesis and has provided important information about how to prevent and control future pandemics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22967978",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Reconstruction of the 1918 virus and studies elucidating the exceptional virulence and transmissibility of the virus are providing exciting new insights into this devastating pandemic strain. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19385726",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

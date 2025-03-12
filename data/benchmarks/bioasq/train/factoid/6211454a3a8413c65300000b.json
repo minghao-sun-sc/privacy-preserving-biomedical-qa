@@ -1,0 +1,19 @@
+{
+  "id": "6211454a3a8413c65300000b",
+  "type": "factoid",
+  "question": "Which one of the CYP450 enzymes is the second most frequently implicated in the metabolism of the drugs currently available on the market?",
+  "ideal_answer": "CYP3A4 and CYP2D6 are the most relevant since they metabolize about 50% and 30% of the drugs on the market, respectively.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32786546"
+  ],
+  "snippets": [
+    {
+      "text": "Among CYP enzymes, CYP3A4 and CYP2D6 are the most relevant since they metabolize about 50% and 30% of the drugs on the market, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32786546",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CYP2D6"
+}

@@ -1,0 +1,282 @@
+{
+  "id": "64136fbf201352f04a00003d",
+  "type": "factoid",
+  "question": "What is AUROC in context of predictive modeling?",
+  "ideal_answer": ". The area under the receiver operator characteristics curve (AUROC)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25885260",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21958955",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31093546",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23620757",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31437918",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31094792",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30842277",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33203588",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34908548",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34865209",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35438215",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25958031",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31807867",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31509205",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34154565",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35426141",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35610482",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31967640",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17309939",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28323524",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28860560",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33088899",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35879562",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35509018",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31304302",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26592354",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31932807",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32930711",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35505048",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36329470"
+  ],
+  "snippets": [
+    {
+      "text": ". The area under the receiver operator characteristics curve (AUROC)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35610482",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "area under receiver operator curve [AUROC] ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35426141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The model performance was evaluated using the area under the receiver operating characteristic curve (AUROC)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35438215",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our models predict GDM with high accuracy even at pregnancy initiation (area under the receiver operating curve (auROC)\u2009=\u20090.85), substantially outperforming a baseline risk score (auROC\u2009=\u20090.68).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31932807",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " prediction of pancreatic cancer. Two popular models were evaluated: logistic regression and a recurrent neural network.RESULTS: For logistic regression, using UMLS delivered the optimal area under the receiver operating characteristics (AUROC) results in both dengue hemorrhagic fever (81",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32930711",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Area under the receiver operating characteristics (AUROC) curve is often used to evaluate risk models.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21958955",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "stic tests. Rather, researchers use the area under the receiver operating characteristic (AUROC) as the key metric to gauge and report predictive performa",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31093546",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Area under a receiver-operating-characteristic (AUROC) curve is widely used in medicine to summarize the ability of a continuous predictive marker to predict a binary outcome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28860560",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The c statistic, or area under the receiver operating characteristic (ROC) curve, achieved popularity in diagnostic testing, in which the test characteristics of sensitivity and specificity are relevant to discriminating diseased versus nondiseased patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17309939",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "-day mortality, respectively. When using only baseline variables to predict mortality, all algorithms except SVM (area under the receiver operator characteristic curve [AUROC], 0.83 [95% confidence interval {CI}, 0.69-0.97]) had AUROC >0.9: GBM (AUROC, 0.96 [0.94-1.0]), RF (AUROC, 0.96 [0.92-1.0]), CNN (AUROC, 0.96 [0.92-0.99]), and logistic regress",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34908548",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We assessed model performance using two metrics, the area under the receiver operating characteristic curve (AUROC) and the area under the precision-recall curve (AUPRC), to illustrate the differences in information they convey in the setting of class imbalance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31437918",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The two approaches were explored and validated within the context of mRNA expression level prediction and have the area under the ROC curve (auROC) values ranging from 0.75 to 0.94.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30842277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ".4%) and validation (47.4%) cohorts. The FibroGENE-DT yielded the area under the receiver operating characteristic curve (AUROCs) of 0.87, 0.85 and 0.804 for the prediction of fast fibrosis progression, cirrhosis and significant fibrosis risk, respectively, with compara",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26592354",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ement (oral or IV) was 41.1%. Independent predictors using history alone were female sex, decreasing age, surgical history, and non-Caucasian ethnicity (model area under the receiver operating characteristic curve [AUROC], 0.59 [95% confiden",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31094792",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " reduction of at least I\u00b0 MR. One-year mortality was 28.2%.In Kaplan-Meier analysis, one- year mortality was significantly higher in RVD-pts (34.8% vs 2.8%, p\u00a0=\u00a00.009).Area under the Receiver Operating Characteristic (AUROC) for SHFM and MAGGIC were comparable for both scores",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33088899",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using a standard multivariate approach to combine predictors, the PPIN model achieved an AUROC (area under the receiver operating characteristic curve) of 0.81 with a sensitivity of 48% given a specificity of 90%.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23620757",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "cognitive impairment was evaluated using area under the receiver operating characteristic curve (AUROC), and multivariate logistic regression was appl",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35879562",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ssion, using UMLS delivered the optimal area under the receiver operating characteristics (AUROC) results in both dengue hemorrhagic fever (81.15%) an",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32930711",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "s). Sensitivity, specificity, predictive values and area under receiving operating curves (AUROC) of RBUS for VCUG abnormalities were determined.RESUL",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25958031",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ys). Model performance was assessed using area under the receiver operator characteristic curve (AUROC). Pre-N8-GP prophylaxis models learned from dat",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34865209",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "agnostic threshold were evaluated using area under the receiver operating characteristic curve (AUROC). Stratification analysis by age and MP-IgM tite",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34154565",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " learning algorithms was assessed by the area under the receiver operating characteristic curve (AUROC). The conventional scoring models had various p",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35505048",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "sing PubMed, MEDLINE, and Scopus databases. Papers with area under the receiver operating curve (AUROC) scores reported were included in the analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33203588",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "nstruct the prediction model. Finally, the area under the receiver operating characteristic (AUROC) curve was used to compare the model performance.RE",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36329470",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "cy for tasks such as predicting: in-hospital mortality (area under the receiver operator curve [AUROC] across sites 0.93-0.94), 30-day unplanned readm",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31304302",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "rognostic tests. Rather, researchers use the area under the receiver operating characteristic (AUROC) as the key metric to gauge and report predictive",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31093546",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ssion, using UMLS delivered the optimal area under the receiver operating characteristics (AUROC) results in both dengue hemorrhagic fever (81.15%) and pancreatic cancer (80.53%) tasks. For recurrent neural netw",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32930711",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "s). Sensitivity, specificity, predictive values and area under receiving operating curves (AUROC) of RBUS for VCUG abnormalities were determi",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25958031",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "sing PubMed, MEDLINE, and Scopus databases. Papers with area under the receiver operating curve (AUROC) sc",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33203588",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "nstruct the prediction model. Finally, the area under the receiver operating characteristic (AUROC) curve was used to ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36329470",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "rognostic tests. Rather, researchers use the area under the receiver operating characteristic (AUROC) as the key metric to gauge and report predictive per",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31093546",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "cognitive impairment was evaluated using area under the receiver operating characteristic curve (AUROC), and multivariate logistic regression was applied to evaluate predictive accuracy of biomarkers on cognitive impairment; 178 subjects (41 PD, 31 VaD and 106 normal controls) were included. In multiple linear regression analysis of PD patients",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35879562",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "of outcome (AC), sensitivity (SN), specificity (SP), and area under receiver-operating curve (AUROC) were compared between 3 models: KCC (INR, creatinine, coma grade, pH), CART analysis using only KCC variables (KCC-CART) and a CART model using new variables (NEW-CART).RESULTS: Traditional KC",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25885260",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "models of the EGFR mutation status (Model 1: area under the receiver operating characteristic curve [AUROC]\u2009=\u20090.910, 95% CI 0.861-0.945; Model 2: AUROC\u2009=\u20090.859, 95% CI 0.803-0.904; Model 3: AUROC\u2009=\u20090.711, 95% CI 0.643-0.773). A testing set (n\u2009=\u200950) and temporal validation data set (n\u2009=\u200970",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31807867",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "cy for tasks such as predicting: in-hospital mortality (area under the receiver operator curve [AUROC] across sites 0.93-0.94), 30-day unplanned readmission (AUROC 0.75-0.76), prolonged length of stay (AUROC 0.85-0.86), and all of a patient's final discharge diagnoses (frequency-weighted AUROC 0.90). These models outperformed traditional, c",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31304302",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " matrix, accuracy, precision, recall, F1 score, and Area under the\u00a0Receiver Operating Characteristics (AUROC) were used to evaluate the performance of predictive models.RESULTS: Ability of prediction was between 68.6% ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35509018",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " accuracy, precision, recall, F1 score, and Area under the\u00a0Receiver Operating Characteristics (AUROC) were used to evaluate the performance of predictive models.RESULTS: Ability of prediction was between 68.6% and 61.5",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35509018",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "s), positive predictive values (PPVs), and area under the receiver operating characteristic curve (AUROC), of machine learning models when predicting ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31509205",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ance of prediction, accuracy of discrimination (area under the receiver operating characteristic curve [AUROC]), calibration, and validity of the two predictive models were investigated. The co",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28323524",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The area under the receiver operating characteristic (ROC) curve (AUC) is commonly used for assessing the discriminative ability of prediction models even though the measure is criticized for being clinically irrelevant and lacking an intuitive interpretation. Every tutorial explains how the coordinates of the ROC curve are obtained from the risk distributions of diseased and non-diseased individuals, but it has not become common sense that therewith the ROC plot is just another way of presenting these risk distributions. We show how the ROC curve is an alternative way to present risk distributions of diseased and non-diseased individuals and how the shape of the ROC curve informs about the overlap of the risk distributions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31967640",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "area under the receiver operator characteristics curve"
+}

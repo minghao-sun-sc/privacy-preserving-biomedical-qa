@@ -1,0 +1,165 @@
+{
+  "id": "643c183b57b1c7a31500002c",
+  "type": "list",
+  "question": "What are the most common assays to profile chromatin accessibility?",
+  "ideal_answer": "Recent advancements in next-generation sequencing technologies and accompanying reductions in cost have led to an explosion of techniques to examine chromatin accessibility genome-wide. Generally, accessible regions of chromatin are permissive for factor binding and are therefore hotspots for regulation of gene expression. Therefore, identification of these regions is critical for understanding regulatory mechanisms of gene expression associated with various biological processes in eukaryotes.\n\nCurrently, high-throughput methodologies, such as DNase-seq, ATAC-seq, FAIRE-seq, and MNase-seq have been widely applied in mapping open chromatin in various eukaryotic genomes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33191916",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32312702",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31776829",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30078704",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33606259",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29490630",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26846207",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33584814",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36173566",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33693880",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24992477",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27993786",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30064353",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35796986",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35478247",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34382186",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27008018",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36264486",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31160376",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32576878",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32213349",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30948010",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32042188",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25559105",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29181276",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34255854",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28967996"
+  ],
+  "snippets": [
+    {
+      "text": "Accessible chromatin often represents gene regulatory elements, including promoters and enhancers, essential for gene expression. Assay for Transposase Accessible Chromatin sequencing (ATAC-seq) is one of the most popular techniques to investigate chromatin accessibility across the genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36173566",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Functional cis-regulatory elements (CREs) act as precise transcriptional switches for fine-tuning gene transcription. Identification of CREs is critical for understanding regulatory mechanisms of gene expression associated with various biological processes in eukaryotes. It is well known that CREs reside in open chromatin that exhibits hypersensitivity to enzyme cleavage and physical shearing. Currently, high-throughput methodologies, such as DNase-seq, ATAC-seq, and FAIRE-seq, have been widely applied in mapping open chromatin in various eukaryotic genomes. More recently, differential MNase (micrococcal nuclease) treatment has been successfully employed to map open chromatin in addition to profiling nucleosome landscape in both mammalian and plant species.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36264486",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Micrococcal nuclease (MNase) originating from Staphylococcus aureus is a calcium dependent ribo- and desoxyribonuclease which has endo- and exonucleolytic activity of low sequence preference. MNase is widely used to analyze nucleosome positions in chromatin by probing the enzyme's DNA accessibility in limited digestion reactions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35796986",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this review, we discuss techniques for determining DNA accessibility and nucleosome positioning (DNase-seq, FAIRE-seq, MNase-seq, and ATAC-seq) and techniques for detecting and functionally characterizing chromatin-bound proteins (ChIP-seq, DamID, and CUT&RUN).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31776829",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent advancements in next-generation sequencing technologies and accompanying reductions in cost have led to an explosion of techniques to examine DNA accessibility and protein localization on chromatin genome-wide. Generally, accessible regions of chromatin are permissive for factor binding and are therefore hotspots for regulation of gene expression; conversely, genomic regions that are highly occupied by histone proteins are not permissive for factor binding and are less likely to be active regulatory regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31776829",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The ATAC-seq assay has emerged as the most useful, versatile, and widely adaptable method for profiling accessible chromatin regions and tracking the activity of cis-regulatory elements (cREs) in eukaryotes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33606259",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We have developed a method for profiling the accessibility of individual chromatin fibers, a single-molecule long-read accessible chromatin mapping sequencing assay (SMAC-seq), enabling the simultaneous, high-resolution, single-molecule assessment of chromatin states at multikilobase length scales.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32042188",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recently, ATAC-seq (assay for transposase-accessible chromatin using sequencing) has emerged as one of the most powerful approaches for genome-wide chromatin accessibility profiling.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30948010",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Assay for transposase-accessible chromatin using sequencing data (ATAC-seq) is an efficient and precise method for revealing chromatin accessibility across the genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33584814",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We previously developed a single-cell DNase-seq assay (scDNase-seq) to profile accessible chromatin in a limited number of single cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33693880",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNase-seq and the more recent ATAC-seq are two assays that are gaining popularity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27008018",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This method assesses DNA accessibility using hyperactive Tn5 transposase, which simultaneously cuts DNA and inserts sequencing adaptors, preferentially in regions of open chromatin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30948010",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "For example, assay for transposase accessible chromatin sequencing (ATAC-seq) identifies nucleosome-depleted (open) chromatin, which harbors potentially active gene regulatory sequences; and bisulfite sequencing (BS-seq) quantifies DNA methylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31160376",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Characterization of chromatin accessibility with a transposome hypersensitive sites sequencing (THS-seq) assay.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26846207",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present a transposome hypersensitive sites sequencing assay for highly sensitive characterization of chromatin accessibility.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26846207",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNase I and Tn5 transposase assays require thousands to millions of fresh cells for comprehensive chromatin mapping.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26846207",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The assay for transposase-accessible chromatin using sequencing (ATAC-seq) provides a simple and scalable way to detect the unique chromatin landscape associated with a cell type and how it may be altered by perturbation or disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35478247",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Assay for Transposase-Accessible Chromatin using sequencing (ATAC-Seq) is a method to investigate the accessibility of chromatin in a genome-wide fashion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34382186",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The assay for transposase-accessible chromatin using sequencing (ATAC-seq) has become the preferred method for mapping chromatin accessibility due to its time and input material efficiency.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32213349",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chromatin accessibility profiling assays such as ATAC-seq and DNase1-seq offer the opportunity to rapidly characterize the regulatory state of the genome at a single nucleotide resolution.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30064353",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chromatin accessibility experiments such as DNaseI sequencing (DNase-seq) and Assay for Transposase Accessible Chromatin sequencing (ATAC-seq) produce genome-wide data that include distinct 'footprint' patterns at binding sites.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27993786",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "ATAC-seq, Assay for Transposase Accessible Chromatin sequencing, DNase-seq, FAIRE-seq, MNase-seq, Micrococcal nuclease, MNase"
+}

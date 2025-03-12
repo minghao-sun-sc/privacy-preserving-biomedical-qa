@@ -1,0 +1,33 @@
+{
+  "id": "603281cb1cb411341a000140",
+  "type": "list",
+  "question": "Which are the parts of a flaggelum?",
+  "ideal_answer": "The bacterial flagellum is a supramolecular motility machine consisting of the basal body, the hook, and the filament.\nThe axial structure of the flagellum consists of the rod, hook, junction, filament, and cap.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33252734",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31940802",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31172377"
+  ],
+  "snippets": [
+    {
+      "text": "The bacterial flagellum is a supramolecular motility machine consisting of the basal body, the hook, and the filament. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31172377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The flagellum of Salmonella enterica serovar Typhimurium is composed of a bi-directional rotary motor, a universal joint and a helical propeller.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33252734",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The axial structure of the flagellum consists of the rod, hook, junction, filament, and cap. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31940802",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "basal body, hook, filament, cap"
+}

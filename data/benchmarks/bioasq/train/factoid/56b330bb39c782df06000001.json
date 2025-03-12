@@ -1,0 +1,34 @@
+{
+  "id": "56b330bb39c782df06000001",
+  "type": "factoid",
+  "question": "Which R/bioconductor package is used for integrative genomics visualizations?",
+  "ideal_answer": "Sushi.R is a flexible, quantitative and integrative genomic visualizations for publication-quality multi-panel figures using common genomic data formats including Browser Extensible Data (BED), bedGraph and Browser Extensible Data Paired-End (BEDPE). Sushi.R is open source and made publicly available through GitHub (https://github.com/dphansti/Sushi) and Bioconductor (http://bioconductor.org/packages/release/bioc/html/Sushi.html).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24903420"
+  ],
+  "snippets": [
+    {
+      "text": "Sushi.R: flexible, quantitative and integrative genomic visualizations for publication-quality multi-panel figures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24903420",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Interpretation and communication of genomic data require flexible and quantitative tools to analyze and visualize diverse data types, and yet, a comprehensive tool to display all common genomic data types in publication quality figures does not exist to date. To address this shortcoming, we present Sushi.R, an R/Bioconductor package that allows flexible integration of genomic visualizations into highly customizable, publication-ready, multi-panel figures from common genomic data formats including Browser Extensible Data (BED), bedGraph and Browser Extensible Data Paired-End (BEDPE). Sushi.R is open source and made publicly available through GitHub (https://github.com/dphansti/Sushi) and Bioconductor (http://bioconductor.org/packages/release/bioc/html/Sushi.html).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24903420",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To address this shortcoming, we present Sushi.R, an R/Bioconductor package that allows flexible integration of genomic visualizations into highly customizable, publication-ready, multi-panel figures from common genomic data formats including Browser Extensible Data (BED), bedGraph and Browser Extensible Data Paired-End (BEDPE)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24903420",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016678",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D023281"
+  ],
+  "exact_answer": "Sushi.R"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "5aa80873d6d6b54f79000013",
+  "type": "list",
+  "question": "List ribosomal biogenesis proteins.",
+  "ideal_answer": "FGF13\np53\nTGF\u03b2/Activin\nPTEN\nNucleostemin\nHEATR1",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28332494",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27994142",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28123053",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29143558",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28549781"
+  ],
+  "snippets": [
+    {
+      "text": "Regulatory module involving FGF13, miR-504, and p53 regulates ribosomal biogenesis and supports cancer cell survival.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27994142",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "TGF\u03b2/Activin signalling is required for ribosome biogenesis and cell growth in Drosophila salivary glands.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28123053",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " our results show that TGF\u03b2/Activin signalling is required for ribosomal biogenesis, a key aspect of cellular growth control. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28123053",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PTEN\u03b2 is an alternatively translated isoform of PTEN that regulates rDNA transcription.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28332494",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Nucleostemin (NS) is a nucleolar protein that controls ribosomal biogenesis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28549781",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These findings reveal an important role for HEATR1 in ribosome biogenesis and further support the concept that perturbation of ribosome biosynthesis results in p53-dependent cell cycle checkpoint activation, with implications for human pathologies including cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29143558",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "FGF13, p53, TGF\u03b2/Activin, PTEN, Nucleostemin, HEATR1"
+}

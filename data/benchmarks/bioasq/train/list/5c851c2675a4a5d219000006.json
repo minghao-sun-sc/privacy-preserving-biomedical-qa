@@ -1,0 +1,76 @@
+{
+  "id": "5c851c2675a4a5d219000006",
+  "type": "list",
+  "question": "Please list 2 antitoxin antibodies approved by the FDA for reducing the recurrence of Clostridium difficile infection",
+  "ideal_answer": "The antitoxin antibodies actoxumab and bezlotoxumab bind to and neutralize TcdA and TcdB, respectively. Bezlotoxumab was recently approved by the FDA for reducing the recurrence of CDI.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28232034",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27905086",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29760164",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28636484",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28480750",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28865041",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29234211",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25486992",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28730660",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27757389"
+  ],
+  "snippets": [
+    {
+      "text": "The exotoxins toxin A (TcdA) and toxin B (TcdB) are produced by the bacterial pathogen Clostridium difficile and are responsible for the pathology associated with C. difficile infection (CDI). The antitoxin antibodies actoxumab and bezlotoxumab bind to and neutralize TcdA and TcdB, respectively. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28232034",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bezlotoxumab was recently approved by the FDA for reducing the recurrence of CDI.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28232034",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Monoclonal Antitoxin Antibodies (Actoxumab-Bezlotoxumab) Treatment Facilitates Normalization of the Gut Microbiota of Mice with Clostridium difficile Infection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27757389",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The antitoxin antibodies actoxumab and bezlotoxumab bind to and neutralize TcdA and TcdB, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28232034",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mechanisms of protection against Clostridium difficile infection by the monoclonal antitoxin antibodies actoxumab and bezlotoxumab.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25486992",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Bezlotoxumab: anti-toxin B monoclonal antibody to prevent recurrence of Clostridium difficile infection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28636484",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Bezlotoxumab (Zinplava\u2122) is a human monoclonal antibody against Clostridium difficile toxin B developed by Merck & Co.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27905086",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bezlotoxumab (Zinplava\u2122) is a fully human monoclonal antibody against Clostridium difficile toxin B indicated for the prevention of C. difficile infection (CDI) recurrence in patients with a high recurrence risk.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28865041",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bezlotoxumab (Zinplava\u2122) is a human monoclonal antibody against Clostridium difficile toxin B developed by Merck &amp; Co.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27905086",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "bezlotoxumab, actoxumab"
+}

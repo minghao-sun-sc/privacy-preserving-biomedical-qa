@@ -1,0 +1,35 @@
+{
+  "id": "58839d892305cd7e21000006",
+  "type": "list",
+  "question": "Which genes of the marmoset genome exhibit rapid sequence evolution?",
+  "ideal_answer": "Both protein-coding and microRNA genes related to reproduction exhibit evidence of rapid sequence evolution in the marmoset genome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25038751"
+  ],
+  "snippets": [
+    {
+      "text": "We observed positive selection in growth hormone/insulin-like growth factor genes (growth pathways), respiratory complex I genes (metabolic pathways), and genes encoding immunobiological factors and proteases (reproductive and immunity pathways). In addition, both protein-coding and microRNA genes related to reproduction exhibited evidence of rapid sequence evolution.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25038751",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, both protein-coding and microRNA genes related to reproduction exhibited evidence of rapid sequence evolution.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25038751",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, both protein-coding and microRNA genes related to reproduction exhibited evidence of rapid sequence evolution. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25038751",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019143",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005075",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019020"
+  ],
+  "exact_answer": "protein-coding genes related to reproduction, microRNA genes related to reproduction"
+}

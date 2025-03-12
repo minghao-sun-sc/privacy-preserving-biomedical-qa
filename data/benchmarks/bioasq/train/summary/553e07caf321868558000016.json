@@ -1,0 +1,185 @@
+{
+  "id": "553e07caf321868558000016",
+  "type": "summary",
+  "question": "What is the role of mismatched uracil glycosylase (Mug) in DNA repair?",
+  "ideal_answer": "The mismatch-specific uracil DNA glycosylase (MUG) belongs to a homologous family of DNA glycosylases that initiate base-excision repair of G:U/T mismatches. The crystal structure of the Mug repair complex points to a preference of Mug for G:U over G:T mispairs. Nonetheless, Mug does not repair U:G or T:G mismatches in vivo. Mug possesses xanthine DNA glycosylase (XDG) activity in E.coli. The repair activity of Mug is more robust against xanthine than uracil. Furthermore, Mug excises the alkylated base, 3, N(4)-ethenocytosine (epsilonC) from epsilonC:G mismatches, and may be the only enzyme in E.coli that can remove this mutagenic adduct. Thus, the principal role of Mug may be the repair of DNA damages caused by exogenous chemical agents such as chloroacetaldehyde.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12016206",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11841206",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21112870",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15474419",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9699633",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11555290",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10581234",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12482242",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20852254",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9489705",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10521502",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12531390",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10339434",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12184783"
+  ],
+  "snippets": [
+    {
+      "text": "XDG activity is attributable to MUG",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20852254",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "xanthine DNA glycosylase (XDG) activity in E. coli",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20852254",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The wild type MUG possesses more robust activity against xanthine than uracil and is active against all xanthine-containing DNA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20852254",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The gene for the mismatch-specific uracil DNA glycosylase (MUG) was identified in the Escherichia coli genome as a sequence homolog of the human thymine DNA glycosylase with activity against mismatched uracil base pairs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20852254",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The bacterial mismatch-specific uracil-DNA glycosylase (MUG) and eukaryotic thymine-DNA glycosylase (TDG) enzymes form a homologous family of DNA glycosylases that initiate base-excision repair of G:U/T mismatches.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10581234",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the principal role of Mug in E. coli may be to help repair damage to DNA caused by exogenous chemical agents such as chloroacetaldehyde",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10521502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "excise epsilonC. The latter activity is missing in extracts from mug cells, suggesting that Mug may be the only enzyme in E. coli that can remove this mutagenic adduct. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10521502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Base-excision of a self-complementary oligonucleotide with central G:T mismatches by the G:T/U-specific mismatch DNA glycosylase (MUG)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9699633",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mug does not repair U.G or T.G mismatches in vivo.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10521502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "remove 3,N(4)-ethenocytosine (epsilonC) from epsilonC.G mismatches",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10521502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The human thymine-DNA glycosylase has a sequence homolog in Escherichia coli that is described to excise uracils from U.G mismatches",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10521502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The structure of this complex explains the preference for G:U over G:T mispairs, and reveals an essentially non-specific pyrimidine-binding pocket that allows MUG/TDG enzymes to excise the alkylated base, 3, N(4)-ethenocytosine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10581234",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "One member of the uracil-DNA glycosylase family of repair enzymes, Escherichia coli mismatch-specific uracil-DNA glycosylase (Mug), is reported to distinguish U:G mispairs from U:A base pairs based upon specific contacts with the mispaired guanine after flipping the target uracil out of the duplex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12482242",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "T transition in the ung mug double mutant as compared to the single ung mutant suggest that MUG may be a back-up repair enzyme to the classic uracil-DNA glycosylase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15474419",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The human thymine-DNA glycosylase has a sequence homolog in Escherichia coli that is described to excise uracils from U.G mismatches (Gallinari, P., and Jiricny, J. (1996) Nature 383, 735-738) and is named mismatched uracil glycosylase (Mug).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10521502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Because uracil-DNA glycosylase (Ung) and Vsr are known to repair U.G and T.G mismatches, respectively, we conclude that Mug does not repair U.G or T.G mismatches in vivo.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10521502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mismatch uracil DNA glycosylase (Mug) from Escherichia coli is an initiating enzyme in the base-excision repair pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21112870",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Role of mismatch-specific uracil-DNA glycosylase in repair of 3,N4-ethenocytosine in vivo.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15474419",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Thus, the principal role of Mug in E. coli may be to help repair damage to DNA caused by exogenous chemical agents such as chloroacetaldehyde.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10521502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The role of the Escherichia coli mug protein in the removal of uracil and 3,N(4)-ethenocytosine from DNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10521502",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The bacterial mismatch-specific uracil-DNA glycosylase (MUG) and eukaryotic thymine-DNA glycosylase (TDG) enzymes form a homologous family of DNA glycosylases that initiate base-excision repair of G:U/T mismatches",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10581234",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The gene for the mismatch-specific uracil DNA glycosylase (MUG) was identified in the Escherichia coli genome as a sequence homolog of the human thymine DNA glycosylase with activity against mismatched uracil base pairs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20852254",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "One member of the uracil-DNA glycosylase family of repair enzymes, Escherichia coli mismatch-specific uracil-DNA glycosylase (Mug), is reported to distinguish U:G mispairs from U:A base pairs based upon specific contacts with the mispaired guanine after flipping the target uracil out of the duplex",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12482242",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mismatch uracil DNA glycosylase (Mug) from Escherichia coli is an initiating enzyme in the base-excision repair pathway",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21112870",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Because uracil-DNA glycosylase (Ung) and Vsr are known to repair U.G and T.G mismatches, respectively, we conclude that Mug does not repair U.G or T.G mismatches in vivo",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10521502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/MUG_SHIBS",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016798",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0004844",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D053843",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004260",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0043739",
+    "http://www.uniprot.org/uniprot/MUG_CITK8",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051981",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006281"
+  ]
+}

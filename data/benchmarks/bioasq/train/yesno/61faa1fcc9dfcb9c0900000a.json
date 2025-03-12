@@ -1,0 +1,46 @@
+{
+  "id": "61faa1fcc9dfcb9c0900000a",
+  "type": "yesno",
+  "question": "Is vocimagene amiretrorepvec effective for recurrent high-grade glioma?",
+  "ideal_answer": "No. Despite initially promising results in a randomized, open-label phase 2/3 trial, among patients who underwent tumor resection for first or second recurrence of glioblastoma or anaplastic astrocytoma, administration of Toca 511 and Toca FC did not improve overall survival or other efficacy end points.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30676111",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29117980",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27252174",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33119048"
+  ],
+  "snippets": [
+    {
+      "text": "Relevance: Among patients who underwent tumor resection for first or second recurrence of glioblastoma or anaplastic astrocytoma, administration of Toca 511 and Toca FC, compared with SOC, did not improve overall survival or other efficacy end points.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33119048",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The median OS was 11.10 months for the Toca 511/FC group and 12.22 months for the control group (hazard ratio, 1.06; 95% CI 0.83, 1.35; P\u2009=\u2009.62). The secondary end points did not demonstrate statistically significant differences. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33119048",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Expert opinion: These early studies provide very encouraging results for Toca 511 and Toca FC in rHGG. This therapy had a response rate of 11.3% and a mOS of 11.9\u00a0months in 56 patients, an improvement compared to historical controls. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30676111",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Findings from a phase I study suggest that delivering high concentrations of the chemotherapy 5-FU directly to brain tumors via the retroviral vector vocimagene amiretrorepvec, or Toca 511, may benefit patients with recurrent high-grade glioma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29117980",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Overall survival for recurrent high-grade glioma was 13.6 months (95% confidence interval, 10.8 to 20.0) and was statistically improved relative to an external control (hazard ratio, 0.45; P = 0.003).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27252174",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

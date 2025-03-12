@@ -1,0 +1,32 @@
+{
+  "id": "64042000201352f04a000020",
+  "type": "yesno",
+  "question": "Can lenacapavir be used for HIV?",
+  "ideal_answer": "Yes, lenacapavir can be used for HIV.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34871187",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36272024"
+  ],
+  "snippets": [
+    {
+      "text": "PURPOSE OF REVIEW: This review summarizes available data for lenacapavir, an investigational first-in-class agent that disrupts functioning of HIV capsid protein across multiple steps in the viral life cycle.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34871187",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lenacapavir (Sunlenca\u00ae) is a long-acting capsid inhibitor of human immunodeficiency virus type\u00a01 (HIV-1) being developed by Gilead Sciences Inc. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36272024",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In August 2022, lenacapavir received its first approval in the EU for use in combination with other antiretroviral(s) in adults with multi-drug resistant HIV infection, for whom it is otherwise not possible to construct a suppressive anti-viral regimen.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36272024",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

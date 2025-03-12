@@ -1,0 +1,65 @@
+{
+  "id": "56b9c937ac7ad10019000001",
+  "type": "yesno",
+  "question": "Does Rad9 interact with Aft1 in S.cerevisiae?",
+  "ideal_answer": "Yes. Rad9 functions together with Aft1 on DNA damage-prone chromatin to facilitate genome surveillance, thereby ensuring rapid and effective response to possible DNA damage events.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25300486"
+  ],
+  "snippets": [
+    {
+      "text": "Rad9 interacts with Aft1 to facilitate genome surveillance in fragile genomic sites under non-DNA damage-inducing conditions in S. cerevisiae.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25300486",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we show that Rad9 checkpoint protein, known to mediate the damage signal from upstream to downstream essential kinases, interacts with Aft1 transcription factor in the budding yeast. Aft1 regulates iron homeostasis and is also involved in genome integrity having additional iron-independent functions. Using genome-wide expression and chromatin immunoprecipitation approaches, we found Rad9 to be recruited to 16% of the yeast genes, often related to cellular growth and metabolism, while affecting the transcription of \u223c2% of the coding genome in the absence of exogenously induced DNA damage. Importantly, Rad9 is recruited to fragile genomic regions (transcriptionally active, GC rich, centromeres, meiotic recombination hotspots and retrotransposons) non-randomly and in an Aft1-dependent manner. Further analyses revealed substantial genome-wide parallels between Rad9 binding patterns to the genome and major activating histone marks, such as H3K36me, H3K79me and H3K4me. Thus, our findings suggest that Rad9 functions together with Aft1 on DNA damage-prone chromatin to facilitate genome surveillance, thereby ensuring rapid and effective response to possible DNA damage events.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25300486",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show that Rad9 checkpoint protein, known to mediate the damage signal from upstream to downstream essential kinases, interacts with Aft1 transcription factor in the budding yeast",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25300486",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rad9 interacts with Aft1 to facilitate genome surveillance in fragile genomic sites under non-DNA damage-inducing conditions in S. cerevisiae",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25300486",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we show that Rad9 checkpoint protein, known to mediate the damage signal from upstream to downstream essential kinases, interacts with Aft1 transcription factor in the budding yeast. Aft1 regulates iron homeostasis and is also involved in genome integrity having additional iron-independent functions. Using genome-wide expression and chromatin immunoprecipitation approaches, we found Rad9 to be recruited to 16% of the yeast genes, often related to cellular growth and metabolism, while affecting the transcription of ?2% of the coding genome in the absence of exogenously induced DNA damage. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25300486",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Importantly, Rad9 is recruited to fragile genomic regions (transcriptionally active, GC rich, centromeres, meiotic recombination hotspots and retrotransposons) non-randomly and in an Aft1-dependent manner. Further analyses revealed substantial genome-wide parallels between Rad9 binding patterns to the genome and major activating histone marks, such as H3K36me, H3K79me and H3K4me. Thus, our findings suggest that Rad9 functions together with Aft1 on DNA damage-prone chromatin to facilitate genome surveillance, thereby ensuring rapid and effective response to possible DNA damage events.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25300486",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/RAD9B_BOVIN",
+    "http://www.uniprot.org/uniprot/RAD9_SCHPO",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012441",
+    "http://www.uniprot.org/uniprot/RHNO1_MOUSE",
+    "http://www.uniprot.org/uniprot/RAD9A_MOUSE",
+    "http://www.biosemantics.org/jochem#4263227",
+    "http://www.uniprot.org/uniprot/RAD9_YEAST",
+    "http://www.uniprot.org/uniprot/RAD9B_MOUSE",
+    "http://www.uniprot.org/uniprot/RAD9A_HUMAN",
+    "http://www.uniprot.org/uniprot/RAD9B_RAT",
+    "http://www.uniprot.org/uniprot/NPBL_COPC7",
+    "http://www.uniprot.org/uniprot/RHNO1_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D029701",
+    "http://www.uniprot.org/uniprot/RAD9B_HUMAN",
+    "http://www.uniprot.org/uniprot/RAD9_SCHOT"
+  ],
+  "exact_answer": "Yes"
+}

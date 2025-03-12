@@ -1,0 +1,61 @@
+{
+  "id": "621b806c3a8413c653000040",
+  "type": "list",
+  "question": "List the main salt-inducible kinases.",
+  "ideal_answer": "SIK1\nSIK2\nSIK3\nHDAC4\nHDAC5",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33688765",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33989615",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34350957",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34196217",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33148508",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34056256",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33861845"
+  ],
+  "snippets": [
+    {
+      "text": "PTHrP targets salt-inducible kinases, HDAC4 and HDAC5,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33148508",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": ". SIKs (salt-inducible kinases) are a subfamily of the AMP-activated protein kinase family that play a critical role in metabolic diseases including hepatic lipogenesis and glucose metabolism",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34196217",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Salt-inducible kinases (SIKs) represent a subfamily of AMPK family kinases. SIK1 has been shown to act as a mediator during the cellular adaptation to variations in intracellular sodium in a variety of cell types. SIK2, as an isoform of the SIK family, modulates various biological functions and acts as a signal transmitter in various pathways. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33688765",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Type 1 salt-inducible kinases (SIK1) has been shown to act as a mediator during the cellular adaptation to variations in intracellular sodium in a variety of cell types. Type 2 SIK (SIK2) modulates various biological functions and acts as a signal transmitter in various pathways. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33989615",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Salt-inducible kinases (SIKs) are calcium/calmodulin-dependent protein kinase (CAMK)-like (CAMKL) family members implicated in insulin signal transduction, metabolic regulation, inflammatory response, and other processes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34056256",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The salt-inducible kinases, SIK1, SIK2 and SIK3, most closely resemble the AMP-activated protein kinase (AMPK) and other AMPK-related kinases, and like these family members they require phosphorylation by LKB1 to be catalytically active.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33861845",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The first is the activation of the salt-inducible kinases (SIKs; SIK2 and SIK3) by Na+ stress",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34350957",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "SIK1, SIK2, SIK3, HDAC4, HDAC5"
+}

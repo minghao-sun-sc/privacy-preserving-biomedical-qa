@@ -1,0 +1,40 @@
+{
+  "id": "587e440f2420191125000005",
+  "type": "yesno",
+  "question": "Does CRISPR inversion of CTCF sites alter genome topology?",
+  "ideal_answer": "Yes. CRISPR inversion of CTCF sites alters genome topology.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26276636"
+  ],
+  "snippets": [
+    {
+      "text": "CRISPR Inversion of CTCF Sites Alters Genome Topology and Enhancer/Promoter Function",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26276636",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "To test the functional significance of this observation, we combined CRISPR/Cas9-based genomic-DNA-fragment editing with chromosome-conformation-capture experiments to show that the location and relative orientations of CBSs determine the specificity of long-range chromatin looping in mammalian genomes, using protocadherin (Pcdh) and \u03b2-globin as model genes. Inversion of CBS elements within the Pcdh enhancer reconfigures the topology of chromatin loops between the distal enhancer and target promoters and alters gene-expression patterns. Thus, although enhancers can function in an orientation-independent manner in reporter assays, in the native chromosome context, the orientation of at least some enhancers carrying CBSs can determine both the architecture of topological chromatin domains and enhancer/promoter specificity. These findings reveal how 3D chromosome architecture can be encoded by linear genome sequences",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26276636",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CRISPR Inversion of CTCF Sites Alters Genome Topology and Enhancer/Promoter Function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26276636",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "CRISPR Inversion of CTCF Sites Alters Genome Topology and Enhancer/Promoter Function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26276636",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D064113",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D064112"
+  ],
+  "exact_answer": "Yes"
+}

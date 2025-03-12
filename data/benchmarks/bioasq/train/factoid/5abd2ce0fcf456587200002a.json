@@ -1,0 +1,26 @@
+{
+  "id": "5abd2ce0fcf456587200002a",
+  "type": "factoid",
+  "question": "Which are the two main bacterial phyla in human gut?",
+  "ideal_answer": "Out of thousands of bacterial species-level phylotypes inhabiting the human gut, the majority belong to two dominant phyla, the Bacteroidetes and Firmicutes",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28293225",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27900395"
+  ],
+  "snippets": [
+    {
+      "text": "Out of thousands of bacterial species-level phylotypes inhabiting the human gut, the majority belong to two dominant phyla, the Bacteroidetes and Firmicutes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27900395",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the prevalence of some representative viable bacteria from the four dominant phyla (Firmicutes, Bacteroidetes, Proteobacteria, Actinobacteria) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28293225",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Bacteroidetes and Firmicutes"
+}

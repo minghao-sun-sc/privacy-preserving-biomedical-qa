@@ -1,0 +1,30 @@
+{
+  "id": "52f348542059c6d71c00000f",
+  "type": "summary",
+  "question": "what is the role of prostaglandins in cardiac regenaration after myocardial infarction?",
+  "ideal_answer": "Prostaglandins are involved in tissue regeneration after myocardial infarction and inhibitors of prostanoid production, such as aspirin and COX-2 inhibitors, have negative impact in this process. Furthermore, pharmacological interference with prostaglandin synthesis following myocardial infarction is associated with reduced fibrillar collagen formation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/8782069",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20451268",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21219910"
+  ],
+  "snippets": [
+    {
+      "text": "This indicated different cyclooxygenase (COX)-downstream synthases and metabolizing enzymes are involved in the AA products' signaling through the COX-1 and COX-2 pathways. The presence of many enzymes' and receptors' [(COX-1, COX-2, microsomal prostaglandin E synthase (mPGES), cytosolic prostaglandin E synthase (cPGES), prostaglandin I synthase (PGIS), the PGE(2) subtype receptors (EP(1), EP(2), and EP(4)) and the prostacyclin receptor (IP)] involvement in the prostanoid biosynthesis and activity was confirmed by western blot. The studies implied the negative effects of NSAIDs, such as aspirin and COX-2 inhibitors, which suppress prostanoid production during tissue regeneration for infarcted heart when using hESCs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20451268",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thus, pharmacological interference with bradykinin-receptor binding or prostaglandin synthesis following MI is associated with reduced fibrillar collagen formation. Though the mechanism responsible for observed alteration in fibrogenesis is uncertain, anti-inflammatory and anti-proliferative properties of these agents may be responsible.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8782069",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009203",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011453",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012038"
+  ]
+}

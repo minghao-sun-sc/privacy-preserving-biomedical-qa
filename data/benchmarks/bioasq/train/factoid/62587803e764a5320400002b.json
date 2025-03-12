@@ -1,0 +1,47 @@
+{
+  "id": "62587803e764a5320400002b",
+  "type": "factoid",
+  "question": "When is the protein OAS1 activated?",
+  "ideal_answer": "OAS1 is a IFN-stimulated gene. Antiviral response.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34108012",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34082434",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33307546",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34826092",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34873989"
+  ],
+  "snippets": [
+    {
+      "text": " encodes antiviral restriction enzyme activators (OAS1, OAS2 and OAS3)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33307546",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "interferon-stimulating genes (ISG15, IFI6, IFI27, IFI44, and OAS1)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34108012",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "IFN-stimulated genes (ISGs: ISG56, OAS1, MxA, and Mx2)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34082434",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "OASs play critical roles in immune response against virus infection by polymerizing ATP into 2-5As, which initiate the classical OAS/RNase L pathway and induce degradation of viral RNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34826092",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "OAS1 gene in activation of innate immune response",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34873989",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "IFN stimulated for antiviral resonse."
+}

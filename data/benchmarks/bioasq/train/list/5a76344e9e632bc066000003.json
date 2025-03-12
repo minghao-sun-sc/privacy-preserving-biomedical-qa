@@ -1,0 +1,68 @@
+{
+  "id": "5a76344e9e632bc066000003",
+  "type": "list",
+  "question": "Which algorithms are used for compression of SAM files?",
+  "ideal_answer": "The most popular format for genomic data is the SAM (Sequence Alignment/Map) format, which contains information such as alignment, quality values, etc. These files are large (on the order of terabytes), which necessitates compression. GeneComp, NGC, SAMZIP and QVZ are algorithms which perform compression of data stored in SAM files.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23066097",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29046896",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22164252",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26026138",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27540265"
+  ],
+  "snippets": [
+    {
+      "text": "GeneComp, a new reference-based compressor for SAM files",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29046896",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The most popular format for genomic data is the SAM format, which contains information such as alignment, quality values, etc. These files are large (on the order of terabytes), which necessitates compression. In this work we propose a new reference-based compressor for SAM files, which can accommodate different levels of compression, based on the specific needs of the user. In particular, the proposed compressor GeneComp allows the user to perform lossy compression of the quality scores, which have been proven to occupy more than half of the compressed file (when losslessly compressed). We show that the proposed compressor GeneComp overall achieves better compression ratios than previously proposed algorithms when working on lossless mode.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29046896",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The enormous size of these data motivates the development of data compression algorithms usable for the implementation of the various storage policies that are applied to the produced intermediate and final result files. In this article, we present NGC, a tool for the compression of mapped short read data stored in the wide-spread SAM format. NGC enables lossless and lossy compression and introduces the following two novel ideas: first, we present a way to reduce the number of required code words by exploiting common features of reads mapped to the same genomic positions; second, we present a highly configurable way for the quantization of per-base quality values, which takes their influence on downstream analyses into account. NGC, evaluated with several real-world data sets, saves 33-66% of disc space using lossless and up to 98% disc space using lossy compression. By applying two popular variant and genotype prediction tools to the decompressed data, we could show that the lossy compression modes preserve>99% of all called variants while outperforming comparable methods in some configurations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23066097",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Research in bioinformatics primarily involves collection and analysis of a large volume of genomic data. Naturally, it demands efficient storage and transfer of this huge amount of data. In recent years, some research has been done to find efficient compression algorithms to reduce the size of various sequencing data. One way to improve the transmission time of large files is to apply a maximum lossless compression on them. In this paper, we present SAMZIP, a specialized encoding scheme, for sequence alignment data in SAM (Sequence Alignment/Map) format, which improves the compression ratio of existing compression tools available.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22164252",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent advancements in sequencing technology have led to a drastic reduction in the cost of sequencing a genome. This has generated an unprecedented amount of genomic data that must be stored, processed and transmitted. To facilitate this effort, we propose a new lossy compressor for the quality values presented in genomic data files (e.g. FASTQ and SAM files), which comprise roughly half of the storage space (in the uncompressed domain). Lossy compression allows for compression of data beyond its lossless limit.RESULTS: The proposed algorithm QVZ exhibits better rate-distortion performance than the previously proposed algorithms, for several distortion metrics and for the lossless case. Moreover, it allows the user to define any quasi-convex distortion function to be minimized, a feature not supported by the previous algorithms. Finally, we show that QVZ-compressed data exhibit better performance in the genotyping than data compressed with previously proposed algorithms, in the sense that for a similar rate, a genotyping closer to that achieved with the original quality values is obtained.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26026138",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this paper, we present SAMZIP, a specialized encoding scheme, for sequence alignment data in SAM (Sequence Alignment/Map) format, which improves the compression ratio of existing compression tools available.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22164252",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We describe CSAM (Compressed SAM format), a compression approach offering lossless and lossy compression for SAM files.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27540265",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "GeneComp, a new reference-based compressor for SAM files.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29046896",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D000465",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D044962"
+  ],
+  "exact_answer": "GeneComp, NGC, SAMZIP, QVZ, CSAM"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "51593dc8d24251bc05000099",
+  "type": "yesno",
+  "question": "Proteomic analyses need prior knowledge of the organism complete genome. Is the complete genome of the bacteria of the genus Arthrobacter available?",
+  "ideal_answer": "Yes, the complete genome sequence of Arthrobacter (two strains) is deposited in GenBank.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28904741",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28450506",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21677849",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28315371",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23039946",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28642378",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28138355"
+  ],
+  "snippets": [
+    {
+      "text": "Complete genome sequence of Arthrobacter phenanthrenivorans type strain (Sphe3).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21677849",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Complete genome sequence and metabolic potential of the quinaldine-degrading bacterium Arthrobacter sp. Rue61a.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23039946",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we described the high quality draft genome sequence, annotations and the features ofArthrobactersp. B6.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28138355",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Complete genome sequence of Arthrobacter sp. ZXY-2 associated with effective atrazine degradation and salt adaptation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28315371",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We announce here the draft genome sequence ofArthrobactersp. strain EpSL27, isolated from the stem and leaves of the medicinal plantEchinacea purpureaand able to inhibit human-pathogenic bacterial strains. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28642378",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report here the 4.6-Mb genome sequence of a nylon oligomer-degrading bacterium,Arthrobactersp. strain KI72.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28450506",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Arthrobacter alpinusR3.8 is a psychrotolerant bacterial strain isolated from a soil sample obtained at Rothera Point, Adelaide Island, close to the Antarctic Peninsula. Strain R3.8 was sequenced in order to help discover potential cold active enzymes with biotechnological applications. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28904741",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001173",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016678"
+  ],
+  "exact_answer": "Yes"
+}

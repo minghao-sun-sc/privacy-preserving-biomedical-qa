@@ -1,0 +1,56 @@
+{
+  "id": "5880a8ec0a76a87357000001",
+  "type": "factoid",
+  "question": "Which R package is used for the detection of chromosomal abnormalities from microarray data?",
+  "ideal_answer": "CAFE is an R package for the detection of gross chromosomal abnormalities from gene expression microarray data.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24451624"
+  ],
+  "snippets": [
+    {
+      "text": "CAFE: an R package for the detection of gross chromosomal abnormalities from gene expression microarray data",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24451624",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "CAFE: an R package for the detection of gross chromosomal abnormalities from gene expression microarray data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24451624",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "It is implemented as an R package that analyzes Affymetrix *.CEL files and comes with flexible plotting functions, easing visualization of chromosomal abnormalities.CAFE is available from https://bitbucket.org/cob87icW6z/cafe/ as both source and compiled packages for Linux and Windows.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24451624",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SUMMARY: The current methods available to detect chromosomal abnormalities from DNA microarray expression data are cumbersome and inflexible. CAFE has been developed to alleviate these issues. It is implemented as an R package that analyzes Affymetrix *.CEL files and comes with flexible plotting functions, easing visualization of chromosomal abnormalities.AVAILABILITY AND IMPLEMENTATION: CAFE is available from https://bitbucket.org/cob87icW6z/cafe/ as both source and compiled packages for Linux and Windows.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24451624",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SUMMARY: The current methods available to detect chromosomal abnormalities from DNA microarray expression data are cumbersome and inflexible. CAFE has been developed to alleviate these issues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24451624",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CAFE: an R package for the detection of gross chromosomal abnormalities from gene expression microarray data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24451624",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D025063",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D043171",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002869",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012729",
+    "http://www.disease-ontology.org/api/metadata/DOID:0060388",
+    "http://www.disease-ontology.org/api/metadata/DOID:0080014"
+  ],
+  "exact_answer": "CAFE"
+}

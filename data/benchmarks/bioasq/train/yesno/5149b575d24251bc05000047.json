@@ -1,0 +1,91 @@
+{
+  "id": "5149b575d24251bc05000047",
+  "type": "yesno",
+  "question": "Is there a difference in the rate between gene fusion and gene fission?",
+  "ideal_answer": "Yes. Several studies have estimated that gene fusion and fission are relatively rare events and the gene fusion/fission rate is approximately between 2 and 6. A conflicting case has been discovered in an analysis of plant genomes, where in Oryza sativa the opposite trend was observed.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16601004",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21729286",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17166515",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22250127",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16431849",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17035354",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21900599",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15680510",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17709334",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23376183",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19141283"
+  ],
+  "snippets": [
+    {
+      "text": "we illustrate arrangement diversity within closely related organisms, estimate arrangement turnover frequency and establish, for the first time, branch-specific rate estimates for fusion, fission, domain addition and terminal loss.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23376183",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Rate and polarity of gene fusion and fission in Oryza sativa and Arabidopsis thaliana",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17035354",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We have identified all differentially composite or split genes in 2 fully sequenced plant genomes, Oryza sativa and Arabidopsis thaliana",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17035354",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Polarizing these events by outgroup comparison revealed differences in the rate of gene fission but not of gene fusion in the rice and Arabidopsis lineages. Gene fission occurred at a higher rate than gene fusion in the O. sativa lineage and was furthermore more common in rice than in Arabidopsis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17035354",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Gene fusion and fission are thus rare and slow processes in higher plant genomes; they should be of utility to address deeper evolutionary relationships among plants--and the relationship of plants to other eukaryotic lineages--where sequence-based phylogenies provide equivocal or conflicting results.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17035354",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Primary factors correlating with fusion rates are the presence of transmembrane helices in HKs and the presence of DNA-binding domains in RRs, features that require correct (and separate) spatial location. In the absence of such features, there is a relative abundance of fused genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17709334",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We show that indels are the most frequent elementary events and that they occur in most cases at either the N- or C-terminus of the proteins. As revealed by the genomic neighbourhood/context of the corresponding genes, we show that a substantial number of these terminal indels are the consequence of gene fusions/fissions. We provide evidence showing that the contribution of gene fusion/fission to the evolution of multi-domain bacterial proteins is lower-bounded by 27% and upper-bounded by 64%. We conclude that gene fusion/fission is a major contributor to the evolution of multi-domain bacterial proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16601004",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We found that fusion events are approximately four times more common than fission events, and we established that, in most cases, any particular fusion or fission event only occurred once during the course of evolution.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15680510",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Analyzing the most parsimonious pathways, we find 87% of architectures to gain complexity over time through simple changes, among which fusion events account for 5.6 times as many architectures as fission.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17166515",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "These trees defined timelines of architectural discovery and revealed remarkable evolutionary patterns, including the explosive appearance of domain combinations during the rise of organismal lineages, the dominance of domain fusion processes throughout evolution, and the late appearance of a new class of multifunctional modules in Eukarya by fission of domain combinations",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19141283",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We searched for examples which have arisen by one of the three postulated mechanisms: independent fusion/fission, \"duplication/deletion,\" and plasmid-mediated \"cut and paste.\" We conclude that all three mechanisms can be observed, with the independent fusion/fission being the most frequent.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16431849",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D050939"
+  ],
+  "exact_answer": "Yes"
+}

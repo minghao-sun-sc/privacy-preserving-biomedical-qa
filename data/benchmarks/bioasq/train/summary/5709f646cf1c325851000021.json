@@ -1,0 +1,74 @@
+{
+  "id": "5709f646cf1c325851000021",
+  "type": "summary",
+  "question": "How can DUF families be deciphered?",
+  "ideal_answer": "The genome projects have unearthed an enormous diversity of genes of unknown function that are still awaiting biological and biochemical characterization. These genes, as most others, can be grouped into families based on sequence similarity. The PFAM database currently contains over 2,200 such families, referred to as domains of unknown function (DUF). \nCritically examining domain covariation across metagenomic datasets can grant new perspectives on the roles and associations of DUFs in an ecological setting. Targeted attempts at DUF characterization in the laboratory or in silico may draw from these insights and opportunities to discover new associations and corroborate existing ones will arise as more large-scale metagenomic datasets emerge. \nIn a coordinated effort, the four large-scale centers of the NIH Protein Structure Initiative have determined the first three-dimensional structures for more than 250 of these DUF families.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22629278",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24237627",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23104832",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24901469",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25010333",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19787035",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23516388",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23572527",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25044324"
+  ],
+  "snippets": [
+    {
+      "text": " These families include proteins with domain of unknown function (DUF) DUF23, DUF246, and DUF266. The evidence for these proteins being GTs and their possible roles in cell wall biosynthesis is discussed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22629278",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The genome projects have unearthed an enormous diversity of genes of unknown function that are still awaiting biological and biochemical characterization. These genes, as most others, can be grouped into families based on sequence similarity. The PFAM database currently contains over 2,200 such families, referred to as domains of unknown function (DUF)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19787035",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In a coordinated effort, the four large-scale centers of the NIH Protein Structure Initiative have determined the first three-dimensional structures for more than 250 of these DUF families.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19787035",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Critically examining domain covariation across metagenomic datasets can grant new perspectives on the roles and associations of DUFs in an ecological setting. Targeted attempts at DUF characterization in the laboratory or in silico may draw from these insights and opportunities to discover new associations and corroborate existing ones will arise as more large-scale metagenomic datasets emerge.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23516388",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Crystal structures of three members (BACOVA_00364 from Bacteroides ovatus, BACUNI_03039 from Bacteroides uniformis and BACEGG_00036 from Bacteroides eggerthii) of the Pfam domain of unknown function (DUF4488) were determined to 1.95, 1.66, and 1.81 \u00c5 resolutions, respectively",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25044324",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bacterial species in the Enterobacteriaceae typically contain multiple paralogues of a small domain of unknown function (DUF1471) from a family of conserved proteins also known as YhcN or BhsA/McbA. Proteins containing DUF1471 may have a single or three copies of this domain. Representatives of this family have been demonstrated to play roles in several cellular processes including stress response, biofilm formation, and pathogenesis. We have conducted NMR and X-ray crystallographic studies of four DUF1471 domains from Salmonella representing three different paralogous DUF1471 subfamilies: SrfN, YahO, and SssB/YdgH (two of its three DUF1471 domains: the N-terminal domain I (residues 21-91), and the C-terminal domain III (residues 244-314)). Notably, SrfN has been shown to have a role in intracellular infection by Salmonella Typhimurium",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25010333",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Domain of unknown function (DUF) proteins represent a number of gene families that encode functionally uncharacterized proteins in eukaryotes. For example, DUF1618 family members in plants possess a 56-199-amino acid conserved domain and this family has not been described previously. Here, we report the characterization of 121 DUF1618 genes identified in the rice genome. Based on phylogenetic analysis, the rice DUF1618 family was divided into two major groups, each group consisting of two clades. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24237627",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this study we identified that a plant specific domain of unknown function, DUF581 is a zf-FCS type zinc finger. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24901469",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DUF2233, a domain of unknown function (DUF), is present in many bacterial and several viral proteins and was also identified in the mammalian transmembrane glycoprotein N-acetylglucosamine-1-phosphodiester \u03b1-N-acetylglucosaminidase (\"uncovering enzyme\" (UCE)). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23572527",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "5e6e4a6c51b80c9423000002",
+  "type": "list",
+  "question": "List the components of the COMPASS complex",
+  "ideal_answer": "MLL4\nMLL3\nWDR5\nRBBP5\nASH2\nSET1",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29785026",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29404406",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25706881",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25189621"
+  ],
+  "snippets": [
+    {
+      "text": " Mll4 (Kmt2d), a member of the COMPASS ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29404406",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The lysine methyltransferase KMT2C (also known as MLL3), a subunit of the COMPASS complex,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29785026",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "H3K4 methylation in mammalian cells is carried out by COMPASS (complex of proteins associated with Set1)-like complexes that are composed of catalytic subunits such as MLL1 (mixed-lineage leukaemia 1) and multiple regulatory subunits in which WDR5 (WD40 repeat-containing protein 5), RBBP5 (retinoblastoma-binding protein 5), ASH2 (absent, small or homoeotic discs 2) and DPY30 [constituting the WRAD sub-complex (WDR5-ASH2-RBBP5-DPY30 complex)] are the major ones shared from yeast to metazoans",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25706881",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "individual members of COMPASS, including ASH2, WDR5 and SET1 (also known as SETD1A)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25189621",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "MLL4, MLL3, WDR5, RBBP5, ASH2, SET1"
+}

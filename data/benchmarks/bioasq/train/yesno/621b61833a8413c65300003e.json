@@ -1,0 +1,52 @@
+{
+  "id": "621b61833a8413c65300003e",
+  "type": "yesno",
+  "question": "Is the protein HOXA11 associated with endometrial disease?",
+  "ideal_answer": "Yes,\nLow HOXA11 expression may promote the proliferation, migration, invasion of endometrial cancer cells",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33419445",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34844098",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33515421",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32347039"
+  ],
+  "snippets": [
+    {
+      "text": " Both CD10 and HOXA11 have been implicated in regulation of endometrial homeostasis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34844098",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Combined expression of HOXA11 and CD10 identifies endometriosis versus normal tissue and tumors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34844098",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The combination of HOXA11 and CD10 expression profiles provides a useful tool to identify ectopic endometrial tissue and for distinguishing endometriosis from various types of gynecological malignancies and metastases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34844098",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Downregulation of HOXA11 enhances endometrial cancer malignancy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33515421",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Low HOXA11 expression may promote the proliferation, migration, invasion of endometrial cancer cells, and increase their resistance to cisplatin through activating PTEN/AKT pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33515421",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Endometrial mRNA and protein expression levels of HOXA10 and HOXA11 were significantly lower in patients with AM than in control patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33419445",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "5a68a463b750ff4455000014",
+  "type": "yesno",
+  "question": "Do chromatin features predict genes associated with eQTLs?",
+  "ideal_answer": "Yes, genomic proximity plus five TF and chromatin features are able to predict>90% of target genes within 1 megabase of eQTLs",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23275551"
+  ],
+  "snippets": [
+    {
+      "text": "Using the random forest classifier, we found that genomic proximity plus five TF and chromatin features are able to predict>90% of target genes within 1 megabase of eQTLs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23275551",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using the random forest classifier, we found that genomic proximity plus five TF and chromatin features are able to predict >90% of target genes within 1 megabase of eQTLs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23275551",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cell type-specific gene expression in humans involves complex interactions between regulatory factors and DNA at enhancers and promoters. Mapping studies for expression quantitative trait loci (eQTLs), transcription factors (TFs) and chromatin markers have become widely used tools for identifying gene regulatory elements, but prediction of target genes remains a major challenge. Here, we integrate genome-wide data on TF-binding sites, chromatin markers and functional annotations to predict genes associated with human eQTLs. Using the random forest classifier, we found that genomic proximity plus five TF and chromatin features are able to predict >90% of target genes within 1 megabase of eQTLs. Despite being regularly used to map target genes, proximity is not a good indicator of eQTL targets for genes 150 kilobases away, but insulators, TF co-occurrence, open chromatin and functional similarities between TFs and genes are better indicators. Using all six features in the classifier achieved an area under the specificity and sensitivity curve of 0.91, much better compared with at most 0.75 for using any single feature. We hope this study will not only provide validation of eQTL-mapping studies, but also provide insight into the molecular mechanisms explaining how genetic variation can influence gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23275551",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

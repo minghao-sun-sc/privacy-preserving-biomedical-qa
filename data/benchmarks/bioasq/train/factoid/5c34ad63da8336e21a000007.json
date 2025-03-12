@@ -1,0 +1,54 @@
+{
+  "id": "5c34ad63da8336e21a000007",
+  "type": "factoid",
+  "question": "Which genomic positions are preferentially selected for transposon insertion?",
+  "ideal_answer": "Preferential integration occurs in non-coding DNA and heterochromatin. A preference for structural features in the target DNA associated with DNA flexibility (Twist, Tilt, Rise, Roll, Shift, and Slide) was also observed.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/9689229",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15947908",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12399934",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26818075",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16717285",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21276256"
+  ],
+  "snippets": [
+    {
+      "text": "These results suggest that in Drosophila preferential insertion sites may be defined with the contribution of host factors, although alternative interpretations are also possible. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12399934",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These data support the hypothesis that Tn916 has a marked preference for insertion into noncoding DNA for H. influenzae, suggesting that this mobile element has evolved to minimize disruption of host cell function on integration.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9689229",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Preferential integration points in the rye genome exist, because the new insertions seem to be located, in all studied cases, in the same genome positions. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15947908",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, a similar approach did not reveal any structural pattern of DNA that could be used to predict favored integration sites for other transposons as well as retroviruses and lentiviruses due to a limitation of available data sets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16717285",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The FISH analysis of the pepper Tat elements showed a random distribution in heterochromatic and euchromatic regions, whereas the tomato Tat elements showed heterochromatin-preferential accumulation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21276256",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "No strict motif was found, but a preference for structural features in the target DNA associated with DNA flexibility (Twist, Tilt, Rise, Roll, Shift, and Slide) was observed. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26818075",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "non coding DNA, heterochromatin"
+}

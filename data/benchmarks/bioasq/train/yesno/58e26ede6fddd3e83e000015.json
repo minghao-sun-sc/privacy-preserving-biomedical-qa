@@ -1,0 +1,33 @@
+{
+  "id": "58e26ede6fddd3e83e000015",
+  "type": "yesno",
+  "question": "Is the number of described human nuclear mutations less than 50000?",
+  "ideal_answer": "No, The number of known mutations in human nuclear genes, underlying or associated with human inherited disease, has now exceeded 100,000 in more than 3700 different genes (Human Gene Mutation Database).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22948725",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20569258",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24077912"
+  ],
+  "snippets": [
+    {
+      "text": "The number of known mutations in human nuclear genes, underlying or associated with human inherited disease, has now exceeded 100,000 in more than 3700 different genes (Human Gene Mutation Database).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20569258",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Human Gene Mutation Database (HGMD\u00ae) is a comprehensive collection of germline mutations in nuclear genes that underlie, or are associated with, human inherited disease. By June 2013, the database contained over 141,000 different lesions detected in over 5,700 different genes, with new mutation entries currently accumulating at a rate exceeding 10,000 per annum.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24077912",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "By March 2012, the database contained in excess of 123,600 different lesions (HGMD Professional release 2012.1) detected in 4,514 different nuclear genes, with new entries",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22948725",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "52e92c6e98d0239505000024",
+  "type": "factoid",
+  "question": "Which gene is associated with the Mitchell-Riley syndrome?",
+  "ideal_answer": "Mutations in the gene coding for the transcription factor RFX6 (regulatory factor X,6) have been described as the cause of the Mitchell-Riley syndrome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21215266",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23914949"
+  ],
+  "snippets": [
+    {
+      "text": "Mutations in rfx6 were recently associated with Mitchell-Riley syndrome, which involves neonatal diabetes, and other digestive system defects. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21215266",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "bi-allelic mutations in the transcription factor RFX6 were described as the cause of a rare condition characterized by neonatal diabetes with pancreatic and biliary hypoplasia and duodenal/jejunal atresia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23914949",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004402",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050657",
+    "http://www.disease-ontology.org/api/metadata/DOID:11589",
+    "http://www.disease-ontology.org/api/metadata/DOID:225",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013577"
+  ],
+  "exact_answer": "RFX6"
+}

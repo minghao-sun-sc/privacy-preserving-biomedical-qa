@@ -1,0 +1,25 @@
+{
+  "id": "62190bac3a8413c653000034",
+  "type": "factoid",
+  "question": "Which disease is associated with X-linked recessive TLR7 deficiency?",
+  "ideal_answer": "X-linked recessive TLR7 deficiency is a highly penetrant genetic etiology of critical COVID-19 pneumonia, in about 1.8% of male patients below the age of 60 years.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34413140"
+  ],
+  "snippets": [
+    {
+      "text": "X-linked recessive TLR7 deficiency in ~1% of men under 60 years old with life-threatening COVID-19.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34413140",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Overall, X-linked recessive TLR7 deficiency is a highly penetrant genetic etiology of critical COVID-19 pneumonia, in about 1.8% of male patients below the age of 60 years. Human TLR7 and pDCs are essential for protective type I IFN immunity against SARS-CoV-2 in the respiratory tract.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34413140",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "critical COVID-19 pneumonia"
+}

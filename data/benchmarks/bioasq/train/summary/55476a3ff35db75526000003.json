@@ -1,0 +1,195 @@
+{
+  "id": "55476a3ff35db75526000003",
+  "type": "summary",
+  "question": "How homoplasy affects phylogenetic reconstruction?",
+  "ideal_answer": "Evolutionary processes create both newly derived characteristics shared by related descendant lineages (homology) and \"false\" similarities which confound phylogenetic reconstruction (homoplasy). Homology arises by divergent evolution from a common ancestor and provides us with a phylogenetic signal, while homoplasy arises by convergent evolution or random coincidence. Homoplastic characters do not allows branch points and clade membership to be accurately estimated, as they may group unrelated taxa together. Such characters add \"noise\" in phylogenetic analysis and are not informative for the population genetics and the phylogenetic reconstruction of closely related taxa. In phylogenetic reconstruction, homoplasy leads to inaccurate conclusions about phylogenetic relationships among operational taxonomic units, and characters with high degree of homoplasy result in incongruences of cladistic relationships.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/8042708",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21619604",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22728915",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15062799",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12116430",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22192390",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14530127",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22354957",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22491068",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9664695",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18577231",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18787123",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22228800",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15347815",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22431149",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20525577",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11098408",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16414286",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23906600",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11534998",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2682738",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10605118",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24932884",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23199982",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23378793",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15805007"
+  ],
+  "snippets": [
+    {
+      "text": "Phylogenetic reconstruction using molecular data is often subject to homoplasy, leading to inaccurate conclusions about phylogenetic relationships among operational taxonomic units.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15347815",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our use of nonhomoplastic whole-genome SNP characters allows branch points and clade membership to be estimated with great precision",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15347815",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The control region proved to be a less useful molecular marker for the population genetics and the phylogenetic reconstruction of closely related taxa in A. urticae than it has for other species. The extreme bias in adenine and thymine content (A+T=90.91%) probably renders this region highly susceptible to homoplasy, resulting in a less informative molecular marker.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15062799",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Minimal homoplasy (consistency index = 0.9591) was detected among parsimony-informative SNPs, allowing for the generation of a highly accurate phylogenetic reconstruction of the CC398 clonal lineage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22354957",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These findings provide evidence for the occurrence of a high degree of homoplasy in the DR locus leading to convergent evolution to identical spoligotypes. The incongruence between Large Sequence Polymorphism and spoligotype polymorphism argues against the use of spoligotyping for establishing phylogenetic relationships within the Euro-American lineage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22728915",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The species diversity of the phylum Rotifera has been largely studied on the basis of morphological characters. However, cladistic relationships within this group are poorly resolved due to extensive homoplasy in morphological traits",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11098408",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Molecular evolutionary processes modify DNA over time, creating both newly derived substitutions shared by related descendant lineages (phylogenetic signal) and \"false\" similarities which confound phylogenetic reconstruction (homoplasy).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8042708",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This added level of homoplasic \"noise\" can make DNA regions with repeats less reliable in phylogenetic reconstruction than those without repeats.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8042708",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Computational and phylogenetic analyses suggest that only some BH3 motifs arose by divergent evolution from a common ancestor (homology), whereas others arose by convergent evolution or random coincidence (homoplasy)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23199982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The high frequency of morphological homoplasy in pennatulaceans has led to many misinterpretations in the systematics of the group.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23906600",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Conflict among data sources can be frequent in evolutionary biology, especially in cases where one character set poses limitations to resolution. Earthworm taxonomy, for example, remains a challenge because of the limited number of morphological characters taxonomically valuable. An explanation to this may be morphological convergence due to adaptation to a homogeneous habitat, resulting in high degrees of homoplasy. This sometimes impedes clear morphological diagnosis of species.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23378793",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We also report one of the first findings of homoplasy in mitochondrial gene order, namely a shared relative position of trnV in unrelated isopod lineages.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22491068",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This taxon therefore provides the opportunity to evaluate those neural characters common to these two clades likely to be results of shared ancestry (homology) versus convergence (homoplasy). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22431149",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Taxa that experienced molecular homoplasy, recent selection, a spur of evolution, and so forth may disrupt the inference and cause incongruences in the estimated phylogeny.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22228800",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "myrmecophagy in these mammalian lineages was more likely because of homoplasy (convergent evolution) than being an ancestral character.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22192390",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The four regions were equally affected by homoplasy and were, therefore, equally unreliable for phylogenetic reconstruction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11534998",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Early hominid masticatory characters are widely considered to be more prone to homoplasy than characters from other regions of the early hominid skull and therefore less reliable for phylogenetic reconstruction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11534998",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These findings are in clear contrast with the views that rapidly evolving regions and the 3rd codon position have inevitable negative impact on phylogenetic reconstruction at deep historic level due to accumulation of multiple hits and subsequent elevation in homoplasy and saturation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24932884",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Phylogenetic reconstructions are often plagued by difficulties in distinguishing phylogenetic signal (due to shared ancestry) from phylogenetic noise or homoplasy (due to character-state convergences or reversals).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18787123",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Homoplasy, in particular, is a difficulty faced by all methods of phylogenetic inference.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2682738",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Homoplasy, in particular, is a difficulty faced by all methods of phylogenetic inference.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2682738",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sequence-based methods for phylogenetic reconstruction from (nucleic acid) sequence data are notoriously plagued by two effects: homoplasies and alignment errors",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18577231",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Early hominid masticatory characters are widely considered to be more prone to homoplasy than characters from other regions of the early hominid skull and therefore less reliable for phylogenetic reconstruction",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11534998",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Molecular evolutionary processes modify DNA over time, creating both newly derived substitutions shared by related descendant lineages (phylogenetic signal) and \"false\" similarities which confound phylogenetic reconstruction (homoplasy)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8042708",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The four regions were equally affected by homoplasy and were, therefore, equally unreliable for phylogenetic reconstruction",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11534998",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mellifera that the detection of size homoplasy may alter phylogenetic reconstructions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9664695",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D058974"
+  ]
+}

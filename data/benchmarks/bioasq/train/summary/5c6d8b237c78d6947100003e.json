@@ -1,0 +1,48 @@
+{
+  "id": "5c6d8b237c78d6947100003e",
+  "type": "summary",
+  "question": "Describe GeneCodeq",
+  "ideal_answer": "The exponential reduction in cost of genome sequencing has resulted in a rapid growth of genomic data. Most of the entropy of short read data lies not in the sequence of read bases themselves but in their Quality Scores-the confidence measurement that each base has been sequenced correctly. Lossless compression methods are now close to their theoretical limits and hence there is a need for lossy methods that further reduce the complexity of these data without impacting downstream analyses. GeneCodeq is a Bayesian method inspired by coding theory for adjusting quality scores to improve the compressibility of quality scores without adversely impacting genotyping accuracy. Its model leverages a corpus of k-mers to reduce the entropy of the quality scores and thereby the compressibility of these data (in FASTQ or SAM/BAM/CRAM files), resulting in compression ratios that significantly exceeds those of other methods. GeneCodeq can be combined with existing lossy compression schemes to further reduce entropy and allows the user to specify a reference panel of expected sequence variations to improve the model accuracy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27354700"
+  ],
+  "snippets": [
+    {
+      "text": "GeneCodeq: quality score compression and improved genotyping using a Bayesian framework.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27354700",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The exponential reduction in cost of genome sequencing has resulted in a rapid growth of genomic data. Most of the entropy of short read data lies not in the sequence of read bases themselves but in their Quality Scores-the confidence measurement that each base has been sequenced correctly. Lossless compression methods are now close to their theoretical limits and hence there is a need for lossy methods that further reduce the complexity of these data without impacting downstream analyses.RESULTS: We here propose GeneCodeq, a Bayesian method inspired by coding theory for adjusting quality scores to improve the compressibility of quality scores without adversely impacting genotyping accuracy. Our model leverages a corpus of k-mers to reduce the entropy of the quality scores and thereby the compressibility of these data (in FASTQ or SAM/BAM/CRAM files), resulting in compression ratios that significantly exceeds those of other methods. Our approach can also be combined with existing lossy compression schemes to further reduce entropy and allows the user to specify a reference panel of expected sequence variations to improve the model accuracy. In addition to extensive empirical evaluation, we also derive novel theoretical insights that explain the empirical performance and pitfalls of corpus-based quality score compression schemes in general. Finally, we show that as a positive side effect of compression, the model can lead to improved genotyping accuracy.AVAILABILITY AND IMPLEMENTATION: GeneCodeq is available at: github.com/genecodeq/eval",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27354700",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS\nWe here propose GeneCodeq, a Bayesian method inspired by coding theory for adjusting quality scores to improve the compressibility of quality scores without adversely impacting genotyping accuracy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27354700",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS We here propose GeneCodeq, a Bayesian method inspired by coding theory for adjusting quality scores to improve the compressibility of quality scores without adversely impacting genotyping accuracy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27354700",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lossless compression methods are now close to their theoretical limits and hence there is a need for lossy methods that further reduce the complexity of these data without impacting downstream analyses.<br><b>RESULTS</b>: We here propose GeneCodeq, a Bayesian method inspired by coding theory for adjusting quality scores to improve the compressibility of quality scores without adversely impacting genotyping accuracy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27354700",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, we show that as a positive side effect of compression, the model can lead to improved genotyping accuracy.<br><b>AVAILABILITY AND IMPLEMENTATION</b>: GeneCodeq is available at: github.com/genecodeq/eval CONTACT: dan@petagene.comSupplementary information: Supplementary data are available at Bioinformatics online.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27354700",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

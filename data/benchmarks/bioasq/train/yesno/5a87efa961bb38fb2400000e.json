@@ -1,0 +1,32 @@
+{
+  "id": "5a87efa961bb38fb2400000e",
+  "type": "yesno",
+  "question": "Are mutations in the nf1 gene associated with memory?",
+  "ideal_answer": "Yes, distinct functional domains of neurofibromatosis type 1 regulate immediate versus long-term memory formation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19475561",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17581973"
+  ],
+  "snippets": [
+    {
+      "text": "We hypothesized that NF1 mutations disturb the expression of genes important for memory formation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19475561",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our previous work has shown that defective cAMP signaling leads to the learning phenotype in Drosophila Nf1 mutants. In the present report, our experiments showed that in addition to learning, long-term memory was also abolished in Nf1 mutants. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17581973",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Distinct functional domains of neurofibromatosis type 1 regulate immediate versus long-term memory formation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17581973",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

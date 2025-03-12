@@ -1,0 +1,53 @@
+{
+  "id": "5a70d42899e2c3af26000002",
+  "type": "factoid",
+  "question": "Mutation of which gene causes arterial tortuosity syndrome?",
+  "ideal_answer": "Arterial tortuosity syndrome is an autosomal recessive connective tissue disorder caused by loss-of-function mutations in SLC2A10, which encodes facilitative glucose transporter 10 (GLUT10).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25373504",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28726533",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22116938",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26376865",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26398550"
+  ],
+  "snippets": [
+    {
+      "text": "Mutations in SLC2A10, a gene that encodes the facilitative glucose transporter GLUT10, cause ATS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28726533",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RECENT FINDINGS: Although arterial tortuosity has been primarily described in Loeys-Dietz syndrome due to TGFBR1 and TGFBR2 mutations and in arterial tortuosity syndrome due to SLC210A mutations, recent studies that use quantitative measures of tortuosity suggest that tortuosity is present in many other genetic conditions associated with aortic dilation and dissection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26398550",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Arterial tortuosity syndrome (ATS) is an autosomal recessive connective tissue disorder caused by loss-of-function mutations in SLC2A10, which encodes facilitative glucose transporter 10 (GLUT10).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26376865",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Arterial Tortuosity Syndrome: homozygosity for two novel and one recurrent SLC2A10 missense mutations in three families with severe cardiopulmonary complications in infancy and a literature review.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25373504",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "ATS is caused by mutations in the SLC2A10 gene, which encodes the facilitative glucose transporter 10 (GLUT10). Approximately 100 ATS patients have been described, and 21 causal mutations have been identified in the SLC2A10 gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25373504",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mutations in SLC2A10/GLUT10, a member of the facilitative glucose transporter family, are associated with altered transforming growth factor-\u03b2 (TGF\u03b2) signaling in patients with arterial tortuosity syndrome (ATS).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22116938",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "SLC2A10"
+}

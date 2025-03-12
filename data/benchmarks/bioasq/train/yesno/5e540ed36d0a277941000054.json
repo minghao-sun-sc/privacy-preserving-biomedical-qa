@@ -1,0 +1,31 @@
+{
+  "id": "5e540ed36d0a277941000054",
+  "type": "yesno",
+  "question": "Does saracatinib promote oncogenesis?",
+  "ideal_answer": "No, saracatinib has antitumor activity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23144237"
+  ],
+  "snippets": [
+    {
+      "text": "Antitumor activity of saracatinib (AZD0530), a c-Src/Abl kinase inhibitor, alone or in combination with chemotherapeutic agents in gastric cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23144237",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We evaluated the antitumor effect of a c-Src/Abl kinase inhibitor, saracatinib (AZD0530), alone or combined with chemotherapeutic agents in gastric cancer cell lines and a NCI-N87 xenograft model. Among 10 gastric cancer cell lines, saracatinib specifically inhibited the growth and migration/invasion of SNU216 and NCI-N87 cells. Saracatinib blocked the Src/FAK, HER family, and oncogenic signaling pathways, and it induced G(1) arrest and apoptosis in SNU216 and NCI-N87 cells. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23144237",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Consistent with our in vitro findings, cotreatment with saracatinib and 5-FU resulted in enhanced antitumor activity in the NCI-N87 xenografts. These data indicate that the inhibition of Src kinase activity by saracatinib alone or in combination with other agents can be a strategy to target gastric cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23144237",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

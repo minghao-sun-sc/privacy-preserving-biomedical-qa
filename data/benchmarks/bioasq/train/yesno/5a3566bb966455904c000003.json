@@ -1,0 +1,84 @@
+{
+  "id": "5a3566bb966455904c000003",
+  "type": "yesno",
+  "question": "Does TFIIS affect nucleosome positioning?",
+  "ideal_answer": "Transcript cleavage factor TFIIS reactivates the backtracked complexes and promotes pol II transcription through the nucleosome.  The same nucleosomes transcribed in the opposite orientation form a weaker, more diffuse barrier that is largely relieved by higher salt, TFIIS, or FACT",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19272450",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17081995",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27754494",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7626141",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21177855",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15808512"
+  ],
+  "snippets": [
+    {
+      "text": "Transcript cleavage factor TFIIS reactivates the backtracked complexes and promotes pol II transcription through the nucleosome. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15808512",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The same nucleosomes transcribed in the opposite orientation form a weaker, more diffuse barrier that is largely relieved by higher salt, TFIIS, or FACT",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17081995",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The system contains natural or recombinant histones, chromatin assembly factors, the histone-acetyltransferase p300, all components of the general transcription machinery, general coactivators and the elongation factor SII (TFIIS).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19272450",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Efficient and rapid nucleosome traversal by RNA polymerase II depends on a combination of transcript elongation factors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21177855",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We now show that although TFIIF or TFIIS alone is modestly stimulatory for nucleosome traversal, both factors together increase transcription through nucleosomes in a synergistic manner.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21177855",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Significantly, we found that nucleosomes with a Sin mutant histone are traversed to the same extent and at nearly the same rate as equivalent pure DNA templates if both TFIIS and TFIIF are present.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21177855",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "After partial uncoiling of nucleosomal DNA from histone octamer by Pol II and backtracking of the enzyme, nucleosomal DNA recoils on the octamer, locking Pol II in the arrested state. Histone chaperones and transcription factors TFIIS, TFIIF and FACT facilitate transcription through chromatin using different molecular mechanisms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27754494",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcript cleavage factor TFIIS reactivates the backtracked complexes and promotes pol II transcription through the nucleosome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15808512",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The highly conserved eukaryotic transcriptional elongation factor TFIIS enables RNA polymerase II (RNAPII) to read though pause or termination sites, nucleosomes and sequence-specific DNA-binding proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7626141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We also studied the effect of TFIIF and TFIIS on transcription of nucleosomes containing a Sin mutant histone.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21177855",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The same nucleosomes transcribed in the opposite orientation form a weaker, more diffuse barrier that is largely relieved by higher salt, TFIIS, or FACT.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17081995",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

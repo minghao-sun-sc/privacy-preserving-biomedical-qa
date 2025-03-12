@@ -1,0 +1,27 @@
+{
+  "id": "621e2b7a54ca071a71a3bf9c",
+  "type": "list",
+  "question": "Which pathways are involved in cellular senescence?",
+  "ideal_answer": "Cellular senescence requires signal transduction, and the two most important signaling pathways are the P16Ink4a/Rb (retinoblastoma protein) pathway and the P19Arf/P53/P21Cip1 pathway, which interact but independently regulate the process of the cells cycle.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29608137",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33855023",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15743671"
+  ],
+  "snippets": [
+    {
+      "text": "The signaling pathways activated by these stresses are funneled to the p53 and Rb proteins, whose combined levels of activity determine whether cells enter senescence. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15743671",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Activation of the p53/p21WAF1/CIP1 and p16INK4A/pRB tumor suppressor pathways play a central role in regulating senescence. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33855023",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Activation of the p53/p21 tumor suppressor pathway, Activation of the p16/pRB tumor suppressor pathway"
+}

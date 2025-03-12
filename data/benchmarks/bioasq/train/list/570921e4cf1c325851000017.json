@@ -1,0 +1,68 @@
+{
+  "id": "570921e4cf1c325851000017",
+  "type": "list",
+  "question": "In which genomic regions are Alu enriched?",
+  "ideal_answer": "There are regions such as the four homeobox gene clusters, which are nearly devoid of these repeats that contrast with repeat dense regions in other transcriptionally active regions of the genome. Alu elements are more clustered in genes which are involved in metabolism, transport, and signaling processes. In contrast, they are significantly fewer in genes coding for information pathway components as well as structural proteins.\nThis bias in Alu distribution is independent of the effect of Alu density of the flanking genomic region and is also not affected by the GC content of the gene and its upstream and downstream regions.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/2716062",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12777511",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6165649",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23420552",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12832639",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11884141"
+  ],
+  "snippets": [
+    {
+      "text": "There are regions such as the four homeobox gene clusters, which are nearly devoid of these repeats that contrast with repeat dense regions in other transcriptionally active regions of the genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12832639",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These elements are more clustered in genes which are involved in metabolism, transport, and signaling processes. In contrast, they are significantly fewer in genes coding for information pathway components as well as structural proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12832639",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This bias in Alu distribution is independent of the effect of Alu density of the flanking genomic region and is also not affected by the GC content of the gene and its upstream and downstream regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12832639",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The relative proportions of Alu subfamilies (Alu J, Alu S, and Alu Y) are not significantly different in genes with high Alu density belonging to the functional categories of transport, metabolism, and signaling.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12832639",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We suggest that Alu elements might be involved in regulatory mechanisms and are therefore differentially selected in primate genomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12832639",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sequence analysis demonstrated these \"young\" Alu insertions represented gene conversion events of pre-existing ancient Alu elements or independent parallel insertions of older Alu elements in the same genomic region. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11884141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This study suggests that the majority of Alu insertions in primate genomes are the products of unique evolutionary events.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11884141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our screening of the Alu insertion loci also resulted in the recovery of several \"young\" Alu elements that resided at orthologous positions in nonhuman primate genomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12777511",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020087"
+  ],
+  "exact_answer": "genes which are involved in metabolism, transport, and signaling processes, gene conversion-prone regions"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "603213ea1cb411341a000131",
+  "type": "yesno",
+  "question": "Do bacteria release extracellular vesicles?",
+  "ideal_answer": "Yes, Bacterial extracellular vesicles (EVs) are bilayered lipid membrane structures, bearing integral proteins and able to carry diverse cargo outside the cell to distant sites.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33264437",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31776460",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31633842"
+  ],
+  "snippets": [
+    {
+      "text": "Bacterial extracellular vesicles (EVs) are bilayered lipid membrane structures, bearing integral proteins and able to carry diverse cargo outside the cell to distant sites.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31633842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Knowledge of the structure, molecular cargo and function of bacterial extracellular vesicles (BEVs) is primarily obtained from bacteria cultured in laboratory conditions. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31776460",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "bacteria derived-extracellular vesicles",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33264437",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

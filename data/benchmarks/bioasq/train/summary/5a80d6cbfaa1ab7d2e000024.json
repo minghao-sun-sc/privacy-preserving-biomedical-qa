@@ -1,0 +1,46 @@
+{
+  "id": "5a80d6cbfaa1ab7d2e000024",
+  "type": "summary",
+  "question": "What is the role of Kmt5a in liver?",
+  "ideal_answer": "H4K20 monomethylation maintains genome integrity by regulating proper mitotic condensation, DNA damage response, and replication licensing. In non-dividing hepatic cells, H4K20Me1 is specifically enriched in active gene bodies and dynamically regulated by the antagonistic action of Kmt5a methylase and Kdm7b demethylase. In liver-specific Kmt5a-deficient mice, reduced levels of H4K20Me1 correlated with reduced RNA Pol II release from promoter-proximal regions. Genes regulating glucose and fatty acid metabolism were most sensitive to impairment of RNA Pol II release. Downregulation of glycolytic genes resulted in an energy starvation condition partially compensated by AMP-activated protein kinase (AMPK) activation and increased mitochondrial activity. This metabolic reprogramming generated a highly sensitized state that, upon different metabolic stress conditions, quickly aggravated into a senescent phenotype due to ROS overproduction-mediated oxidative DNA damage.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28746875"
+  ],
+  "snippets": [
+    {
+      "text": "Kmt5a Controls Hepatic Metabolic Pathways by Facilitating RNA Pol II Release from Promoter-Proximal Regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28746875",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "H4K20 monomethylation maintains genome integrity by regulating proper mitotic condensation, DNA damage response, and replication licensing. Here, we show that, in non-dividing hepatic cells, H4K20Me1 is specifically enriched in active gene bodies and dynamically regulated by the antagonistic action of Kmt5a methylase and Kdm7b demethylase. In liver-specific Kmt5a-deficient mice, reduced levels of H4K20Me1correlated with reduced RNA Pol II release from promoter-proximal regions. Genes regulating glucose and fatty acid metabolism were most sensitive to impairment of RNA Pol II release. Downregulation of glycolytic genes resulted in an energy starvation condition partially compensated by AMP-activated protein kinase (AMPK) activation and increased mitochondrial activity. This metabolic reprogramming generated a highly sensitized state that, upon different metabolic stress conditions, quickly aggravated into a senescent phenotype due to ROS overproduction-mediated oxidative DNA damage. The results illustrate how defects in the general process of RNA Pol II transition into a productive elongation phase can trigger specific metabolic changes and genome instability.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28746875",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In liver-specific Kmt5a-deficient mice, reduced levels of H4K20Me correlated with reduced RNA Pol II release from promoter-proximal regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28746875",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In liver-specific Kmt5a-deficient mice, reduced levels of H4K20Me1 correlated with reduced RNA Pol II release from promoter-proximal regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28746875",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/KMT5A_MOUSE",
+    "http://www.uniprot.org/uniprot/KT5AA_XENLA",
+    "http://www.uniprot.org/uniprot/KMT5A_XENTR",
+    "http://amigo.geneontology.org/amigo/term/GO:0001889",
+    "http://www.uniprot.org/uniprot/KMT5A_HUMAN",
+    "http://www.uniprot.org/uniprot/KT5AA_DANRE",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D008099",
+    "http://www.uniprot.org/uniprot/KT5AB_XENLA",
+    "http://www.uniprot.org/uniprot/KMT5A_BOVIN"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "601c2fb51cb411341a000013",
+  "type": "list",
+  "question": "Which interleukin receptors are targeted with rilonacept?",
+  "ideal_answer": "Rilonacept inhibits interleukin-1\u03b1 and interleukin-1\u03b2. It has a role for treatment of pericarditis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32550671",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33200890",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32562029",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33229362",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32324502",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25549233"
+  ],
+  "snippets": [
+    {
+      "text": "Rilonacept, a soluble IL-1 receptor chimeric fusion protein neutralizing IL-1\u03b1 and IL-1\u03b2, has also shown promising results in a phase II study in recurrent/refractory pericarditis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32324502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These agents have slightly different pharmacological properties, being canakinumab a specific IL-1\u00df antagonist while anakinra and rilonacept are unselective IL-1\u03b1 and IL-1\u00df blockers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32562029",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "They include agents that act against TNF\u03b1 (etanercept, infliximab, adalimumab, golimumab, and certolizumab pegol), IL-6 receptor (tocilizumab and sarilumab), IL-1 (anakinra, canakinumab, and rilonacept), IL-17 (secukinumab and ixekizumab) and IL12/23 (ustekinumab).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32550671",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The efficacy and safety of rilonacept, an interleukin-1\u03b1 and interleukin-1\u03b2 cytokine trap, were studied previously in a phase 2 trial involving patients with recurrent pericarditis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33200890",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rilonacept inhibits both interleukin-1 alpha (IL-1\u03b1) and IL-1\u03b2; these cytokines are thought to play a major role in RP. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33229362",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rilonacept is a soluble decoy receptor that neutralizes primarily IL-1\u03b2 but also IL-1\u03b1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25549233",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "interleukin-1\u03b1, interleukin-1\u03b2"
+}

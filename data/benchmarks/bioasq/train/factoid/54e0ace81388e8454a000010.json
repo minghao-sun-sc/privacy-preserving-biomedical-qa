@@ -1,0 +1,92 @@
+{
+  "id": "54e0ace81388e8454a000010",
+  "type": "factoid",
+  "question": "Is APOBEC3B protein predominantly cytoplasmic or nuclear?",
+  "ideal_answer": "Contrary to other APOBEC family members, APOBEC3B was found to predominantly concentrate to the cell nucleus.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21715505",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18667511",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23388464",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22446380",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16648136",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23389445"
+  ],
+  "snippets": [
+    {
+      "text": "A3B is the only family member with steady-state nuclear localization",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22446380",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we show that A3B nuclear import is an active process requiring at least one amino acid (Val54) within an N-terminal motif analogous to the nuclear localization determinant of the antibody gene diversification enzyme AID (activation-induced cytosine deaminase)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22446380",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our studies suggest that the present-day A3B enzyme retained the nuclear import mechanism of an ancestral AID protein during the expansion of the APOBEC3 locus in primates",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22446380",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, we found that the predominantly nuclear A3B only weakly restricted infection by HIV-1, HIV-1\u0394vif, and human T-cell leukemia virus type 1 (HTLV-1), while significantly inhibiting LINE-1 retrotransposition",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21715505",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In contrast to the exclusively cytoplasmic A3G, which is inactive against LINE-1 retrotransposition, the A3G/B protein, while localized mainly to the cytoplasm, was also present in the nucleus. Further mutational analysis revealed that residues 18, 19, 22, and 24 in A3B were the major determinants for nuclear versus cytoplasmic localization and antiretroviral activity",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21715505",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "these observations suggest that changing 4 residues in the amino terminus of A3B not only retargets the protein from the nucleus to the cytoplasm but also enhances its ability to restrict HIV while retaining inhibition of retrotransposition",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21715505",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "After mitosis, APOBEC3B becomes nuclear, and APOBEC3D, APOBEC3F and APOBEC3G become cytoplasmic",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23388464",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To define the domains of APOBEC3G that determine cytoplasmic localization, comparisons were made with APOBEC3B, which is predominantly nuclear.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18667511",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mechanism of L1 inhibition did not correlate with an obvious subcellular protein distribution as APOBEC3B appeared predominantly nuclear and APOBEC3F was mostly cytosolic.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16648136",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Endogenous APOBEC3B protein is predominantly nuclear and the only detectable source of DNA C-to-U editing activity in breast cancer cell-line extracts",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23389445",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mechanism of L1 inhibition did not correlate with an obvious subcellular protein distribution as APOBEC3B appeared predominantly nuclear and APOBEC3F was mostly cytosolic",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16648136",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To define the domains of APOBEC3G that determine cytoplasmic localization, comparisons were made with APOBEC3B, which is predominantly nuclear",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18667511",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/ABC3B_HUMAN"
+  ],
+  "exact_answer": " nuclear"
+}

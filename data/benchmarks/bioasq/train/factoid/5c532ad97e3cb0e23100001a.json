@@ -1,0 +1,43 @@
+{
+  "id": "5c532ad97e3cb0e23100001a",
+  "type": "factoid",
+  "question": "Which database associates human noncoding SNPs with their three-dimensional interacting genes?",
+  "ideal_answer": "3DSNP is a database for linking human noncoding SNPs to their three-dimensional interacting genes. It a valuable resource for the annotation of human noncoding genome sequence and investigating the impact of noncoding variants on clinical phenotypes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27789693"
+  ],
+  "snippets": [
+    {
+      "text": "3DSNP: a database for linking human noncoding SNPs to their three-dimensional interacting genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27789693",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "3DSNP is a valuable resource for the annotation of human noncoding genome sequence and investigating the impact of noncoding variants on clinical phenotypes. The 3DSNP database is available at http://biotech.bmi.ac.cn/3dsnp/.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27789693",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent high-throughput chromosome conformation capture studies have outlined the principles of these elements interacting and regulating the expression of distal target genes through three-dimensional (3D) chromatin looping. Here we present 3DSNP, an integrated database for annotating human noncoding variants by exploring their roles in the distal interactions between genes and regulatory elements. 3DSNP integrates 3D chromatin interactions, local chromatin signatures in different cell types and linkage disequilibrium (LD) information from the 1000 Genomes Project.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27789693",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we present 3DSNP, an integrated database for annotating human noncoding variants by exploring their roles in the distal interactions between genes and regulatory elements.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27789693",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "3DSNP is a valuable resource for the annotation of human noncoding genome sequence and investigating the impact of noncoding variants on clinical phenotypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27789693",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "3DSNP"
+}

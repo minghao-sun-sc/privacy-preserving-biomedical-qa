@@ -1,0 +1,58 @@
+{
+  "id": "5c6bda9d7c78d69471000031",
+  "type": "list",
+  "question": "Which curated data resources for ChIP-seq data are available?",
+  "ideal_answer": "The MGA repository, Cistrome Data Browser, CR Cistrome and GeneProf data.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24174536",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24253304",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27789702",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29069466"
+  ],
+  "snippets": [
+    {
+      "text": "MGA repository: a curated data resource for ChIP-seq and other genome annotated data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069466",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The Mass Genome Annotation (MGA) repository is a resource designed to store published next generation sequencing data and other genome annotation data (such as gene start sites, SNPs, etc.) in a completely standardised format.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069466",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cistrome Data Browser: a data portal for ChIP-Seq and chromatin accessibility data in human and mouse.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27789702",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "To overcome this challenge, we built the Cistrome database, a collection of ChIP-seq and chromatin accessibility data (DNase-seq and ATAC-seq) published before January 1, 2016, including 13 366 human and 9953 mouse samples. All the data have been carefully curated and processed with a streamlined analysis pipeline and evaluated with comprehensive quality control metrics. We have also created a user-friendly web server for data query, exploration and visualization. The resulting Cistrome DB (Cistrome Data Browser), available online at http://cistrome.org/db, is expected to become a valuable resource for transcriptional and epigenetic regulation studies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27789702",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CR Cistrome: a ChIP-Seq database for chromatin regulators and histone modification linkages in human and mouse.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24253304",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "GeneProf data: a resource of curated, integrated and reusable high-throughput genomics experiments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24174536",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "CR Cistrome: a ChIP-Seq database for chromatin regulators and histone modification linkages in human and mouse.Diversified histone modifications (HMs) are essential epigenetic features. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24253304",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "MGA repository, Cistrome Data Browser, CR Cistrome, GeneProf data"
+}

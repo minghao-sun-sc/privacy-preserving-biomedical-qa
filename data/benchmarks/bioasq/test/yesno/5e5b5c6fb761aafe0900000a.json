@@ -1,0 +1,26 @@
+{
+  "id": "5e5b5c6fb761aafe0900000a",
+  "type": "yesno",
+  "question": "Is the protein ABCG2 (ATP-Binding Cassette, subfamily G, member 2, transporter) excreting uric acid?",
+  "ideal_answer": "Yes,\r\nABCG2 plays a central role on extra-renal uric acid excretion",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29264928",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28566086"
+  ],
+  "snippets": [
+    {
+      "text": "TP-binding cassette transporter, sub-family G, member 2 (ABCG2/BCRP) is a well-studied urate transporter expressed on apical membranes in several tissues, including the intestine, liver, and kidney.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29264928",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the discovery that ABCG2 plays a central role on extra-renal uric acid excretion,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28566086",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

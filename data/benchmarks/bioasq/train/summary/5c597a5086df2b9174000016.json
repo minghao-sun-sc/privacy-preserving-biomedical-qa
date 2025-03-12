@@ -1,0 +1,24 @@
+{
+  "id": "5c597a5086df2b9174000016",
+  "type": "summary",
+  "question": "What is vcfanno?",
+  "ideal_answer": "Vcfanno flexibly extracts and summarizes attributes from multiple annotation files and integrates the annotations within the INFO column of the original VCF file. Substantial performance gains are reported by annotating ~85,000 variants per second with 50 attributes from 17 commonly used genome annotation resources. Vcfanno is available at https://github.com/brentp/vcfanno under the MIT license.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27250555"
+  ],
+  "snippets": [
+    {
+      "text": "Vcfanno: fast, flexible annotation of genetic variants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27250555",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The integration of genome annotations is critical to the identification of genetic variants that are relevant to studies of disease or other traits. However, comprehensive variant annotation with diverse file formats is difficult with existing methods. Here we describe vcfanno, which flexibly extracts and summarizes attributes from multiple annotation files and integrates the annotations within the INFO column of the original VCF file. By leveraging a parallel \"chromosome sweeping\" algorithm, we demonstrate substantial performance gains by annotating ~85,000 variants per second with 50 attributes from 17 commonly used genome annotation resources. Vcfanno is available at https://github.com/brentp/vcfanno under the MIT license.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27250555",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "5c960afaecadf2e73f00001e",
+  "type": "summary",
+  "question": "What is the mode of action for Tocilizumab?",
+  "ideal_answer": "Tocilizumab (TCZ) is a recombinant humanized monoclonal antibody against the IL-6 receptor and has been approved in many countries, including the United States, for the treatment of moderate to severe RA in patients who have not adequately responded to one or more disease-modifying antirheumatic drugs",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27790001",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24729685",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22101760"
+  ],
+  "snippets": [
+    {
+      "text": "Tocilizumab (TCZ) is a recombinant humanized monoclonal antibody against the IL-6 receptor and has been approved in many countries, including the United States, for the treatment of moderate to severe RA in patients who have not adequately responded to one or more disease-modifying antirheumatic drugs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24729685",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Several clinical studies have demonstrated that a humanized anti-IL-6 receptor antibody, tocilizumab, improves clinical symptoms in rheumatoid arthritis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27790001",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tocilizumab is a recombinant humanized antihuman interleukin-6 receptor monoclonal antibody, which inhibits binding of IL-6 to its soluble (sIL-6R) and membrane-expressed (mIL-6R) receptors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22101760",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

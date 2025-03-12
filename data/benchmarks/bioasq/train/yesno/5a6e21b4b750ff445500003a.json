@@ -1,0 +1,120 @@
+{
+  "id": "5a6e21b4b750ff445500003a",
+  "type": "yesno",
+  "question": "Are paralog genes co-regulated?",
+  "ideal_answer": "Paralog genes arise from gene duplication events during evolution, which often lead to similar proteins that cooperate in common pathways and in protein complexes. Consequently, paralogs show correlation in gene expression.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28667373",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18493055",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20621981",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27634932",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16860306",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20482863"
+  ],
+  "snippets": [
+    {
+      "text": "Co-regulation of paralog genes in the three-dimensional chromatin architecture.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27634932",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Consequently, paralogs show correlation in gene expression whereby the mechanisms of co-regulation remain unclear. In eukaryotes, genes are regulated in part by distal enhancer elements through looping interactions with gene promoters. These looping interactions can be measured by genome-wide chromatin conformation capture (Hi-C) experiments, which revealed self-interacting regions called topologically associating domains (TADs). We hypothesize that paralogs share common regulatory mechanisms to enable coordinated expression according to TADs. To test this hypothesis, we integrated paralogy annotations with human gene expression data in diverse tissues, genome-wide enhancer-promoter associations and Hi-C experiments in human, mouse and dog genomes. We show that paralog gene pairs are enriched for co-localization in the same TAD, share more often common enhancer elements than expected and have increased contact frequencies over large genomic distances. Combined, our results indicate that paralogs share common regulatory mechanisms and cluster not only in the linear genome but also in the three-dimensional chromatin architecture. This enables concerted expression of paralogs over diverse cell-types and indicate evolutionary constraints in functional genome organization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27634932",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Paralog genes arise from gene duplication events during evolution, which often lead to similar proteins that cooperate in common pathways and in protein complexes. Consequently, paralogs show correlation in gene expression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27634932",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We hypothesize that paralogs share common regulatory mechanisms to enable coordinated expression according to TADs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27634932",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Further, interspecific changes in testis bias of expression are generally correlated within the co-regulated pairs and are anti-correlated within the anti-regulated pairs, suggesting coordinated regulation within both types of paralogous gene pairs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18493055",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Analysis of the Drosophila melanogaster testes transcriptome reveals coordinate regulation of paralogous genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18493055",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Further, interspecific changes in testis bias of expression are generally correlated within the co-regulated pairs and are anti-correlated within the anti-regulated pairs, suggesting coordinated regulation within both types of paralogous gene pairs.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18493055",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Consequently, paralogs show correlation in gene expression whereby the mechanisms of co-regulation remain unclear.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27634932",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Co-regulation of paralog genes in the three-dimensional chromatin architecture.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27634932",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Further, interspecific changes in testis bias of expression are generally correlated within the co-regulated pairs and are anti-correlated within the anti-regulated pairs, suggesting coordinated regulation within both types of paralogous gene pairs..",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18493055",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show that paralog gene pairs are enriched for co-localization in the same TAD, share more often common enhancer elements than expected and have increased contact frequencies over large genomic distances. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27634932",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MiRNA genes are often subject to co-evolutionary changes together with their target transcripts, which may be reflected by differences between paralog mouse and primate miRNA/mRNA pairs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28667373",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We characterize the collapse over time through the distribution of runs of reduced paralog pairs in duplicated segments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20482863",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, we identified 81 co-regulated regions on the human genome (RIDGEs) by using expression data from all cancers. Some RIDGEs (28%) consist of paralog genes while another subset (30%) are specifically dysregulated in tumors but not in normal tissues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20621981",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We conclude that the similarity of hoxb3a/Hoxa3 regulatory mechanisms reflect the shared descent of both genes from a single ancestral paralog group 3 gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16860306",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Conserved co-regulation and promoter sharing of hoxb3a and hoxb4a in zebrafish.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16860306",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "By analyzing paralogs of testis-biased genes, we identified \"co-regulated\" paralogous pairs in which both genes are testis biased, \"anti-regulated\" pairs in which one paralog is testis biased and the other downregulated in testes, and \"neutral\" pairs in which one paralog is testis biased and the other constitutively expressed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18493055",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

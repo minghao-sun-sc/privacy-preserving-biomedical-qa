@@ -1,0 +1,25 @@
+{
+  "id": "601ecab41cb411341a000065",
+  "type": "yesno",
+  "question": "Is adenosine signaling prognostic for cancer outcome?",
+  "ideal_answer": "Yes, adenosine signaling has been shown to be prognostic for cancer outcome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31953314"
+  ],
+  "snippets": [
+    {
+      "text": "Adenosine Signaling Is Prognostic for Cancer Outcome and Has Predictive Utility for Immunotherapeutic Response.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31953314",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "There are several agents in early clinical trials targeting components of the adenosine pathway including A2AR and CD73. The identification of cancers with a significant adenosine drive is critical to understand the potential for these molecules. However, it is challenging to measure tumor adenosine levels at scale, thus novel, clinically tractable biomarkers are needed.EXPERIMENTAL DESIGN: We generated a gene expression signature for the adenosine signaling using regulatory networks derived from the literature and validated this in patients. We applied the signature to large cohorts of disease from The Cancer Genome Atlas (TCGA) and cohorts of immune checkpoint inhibitor-treated patients.RESULTS: The signature captures baseline adenosine levels in vivo (r 2 = 0.92, P = 0.018), is reduced after small-molecule inhibition of A2AR in mice (r 2 = -0.62, P = 0.001) and humans (reduction in 5 of 7 patients, 70%), and is abrogated after A2AR knockout. Analysis of TCGA confirms a negative association between adenosine and overall survival (OS, HR = 0.6, P < 2.2e-16) as well as progression-free survival (PFS, HR = 0.77, P = 0.0000006). Further, adenosine signaling is associated with reduced OS (HR = 0.47, P < 2.2e-16) and PFS (HR = 0.65, P = 0.0000002) in CD8+ T-cell-infiltrated tumors. Mutation of TGF\u03b2 superfamily members is associated with enhanced adenosine signaling and worse OS (HR = 0.43, P < 2.2e-16). Finally, adenosine signaling is associated with reduced efficacy of anti-PD1 therapy in published cohorts (HR = 0.29, P = 0.00012).CONCLUSIONS: These data support the adenosine pathway as a mediator of a successful antitumor immune response, demonstrate the prognostic potential of the signature for immunotherapy, and inform patient selection strategies for adenosine pathway modulators currently in development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31953314",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

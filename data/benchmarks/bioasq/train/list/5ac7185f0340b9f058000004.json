@@ -1,0 +1,95 @@
+{
+  "id": "5ac7185f0340b9f058000004",
+  "type": "list",
+  "question": "Which cellular functions are affected by lncRNA H19 in the heart?",
+  "ideal_answer": "H19 could inhibit autophagy in cardiomyocytes by epigenetically silencing of DIRAS3. Elevated H19 promotes apoptosis through PA2G4. Downregulation of H19 promotes proliferation and inhibits apoptosis. H19 induces mineralization of valve interstitial cells. H19 contributes to cardiac fibroblast proliferation and fibrosis, which act in part through repression of DUSP5/ERK1/2.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27789555",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28430627",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27318893",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27903964",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27895893"
+  ],
+  "snippets": [
+    {
+      "text": "In addition, overexpression of H19 was found to downregulate DIRAS3 expression, promote mTOR phosphorylation and inhibit autophagy activation in cardiomyocytes exposed to high glucose. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27903964",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In conclusion, our study suggested that H19 could inhibit autophagy in cardiomyocytes by epigenetically silencing of DIRAS3, which might provide novel insights into understanding the molecular mechanisms of diabetic cardiomyopathy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27903964",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LncRNA H19 inhibits autophagy by epigenetically silencing of DIRAS3 in diabetic cardiomyopathy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27903964",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The long non-coding RNA H19 promotes cardiomyocyte apoptosis in dilated cardiomyopathy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28430627",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "H19 knockdown in the myocardium of DCM rats attenuated cardiomyocyte apoptosis and improved left ventricular structure and function. Adriamycin treatment was associated with elevated H19 and miR-675 expression and increased apoptosis in neonatal cardiomyocytes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28430627",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover, H19 knockdown was found to increase PA2G4 expression and suppress apoptosis in cardiomyocytes exposed to adriamycin. In conclusion, our study suggests that H19/miR-675 axis is involved in the promotion of cardiomyocyte apoptosis by targeting PA2G4, which may provide a new therapeutic strategy for the treatment of adriamycin-induced DCM.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28430627",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Downregulation of long non-coding RNA H19 promotes P19CL6 cells proliferation and inhibits apoptosis during late-stage cardiac differentiation via miR-19b-modulated Sox6.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27895893",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Biological function analysis showed that knockdown of H19 promoted cell proliferation and inhibits cell apoptosis. H19 suppressed miR-19b expression and miR-19b targeted Sox6, which inhibited cell proliferation and promoted apoptosis in P19CL6 cells during late-stage cardiac differentiation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27895893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Downregulation of H19 promoted cell proliferation and inhibited cell apoptosis during late-stage cardiac differentiation by regulating the negative role of miR-19b in Sox6 expression, which suggested that the manipulation of H19 expression could serve as a potential strategy for heart disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27895893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Knockdown and overexpression experiments showed that H19 induces a strong osteogenic phenotype by altering the NOTCH1 pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27789555",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A knockdown of H19 in valve interstitial cells (VICs) increased the expression of NOTCH1 and decreased the level of RUNX2 and BMP2, 2 downstream targets repressed by NOTCH1. In rescue experiments, the transfection of a vector encoding for the active Notch intracellular domain prevented H19-induced mineralization of valve interstitial cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27789555",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Long noncoding RNA H19 controls DUSP5/ERK1/2 axis in cardiac fibroblast proliferation and fibrosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27318893",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "H19 ectopic overexpression reduces DUSP5 abundance and increases the proliferation of cardiac fibroblast, whereas H19 silencing causes the opposite effects. In a broader perspective, these results demonstrated that LncRNA H19 contributes to cardiac fibroblast proliferation and fibrosis, which act in part through repression of DUSP5/ERK1/2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27318893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "inhibits autophagy, promotes apoptosis, inhibits proliferation, induced mineralization of valve interstitial cells, promotes cardiac fibroblast proliferation, promotes fibrosis"
+}

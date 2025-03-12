@@ -1,0 +1,47 @@
+{
+  "id": "5c7ab080d774d0424000000b",
+  "type": "list",
+  "question": "List STING agonists.",
+  "ideal_answer": "CDN 3'3'-cGAMP\ndimethylxanthenone-4-acetic acid \n\u03b1-Mangostin",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29472271",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29170142",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30079976",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29127039",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29505322"
+  ],
+  "snippets": [
+    {
+      "text": " CDN 3'3'-cGAMP (cGAMP)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29170142",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " STING agonist, dimethylxanthenone-4-acetic acid (DMXAA)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29505322",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " various cyclic dinucleotide (CDN) STING agonists",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29472271",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The xanthone derivate 5',6'-dimethylxanthenone-4-acetic acid (DMXAA, also known as ASA404 or vadimezan) is a potent agonist of murine STING (stimulator of interferon genes), ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30079976",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "\u03b1-Mangostin as an Agonist of Human STING",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30079976",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CDN 3'3'-cGAMP, dimethylxanthenone-4-acetic acid, \u03b1-Mangostin"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "531481ade3eabad021000016",
+  "type": "yesno",
+  "question": "Can adult humans be induced to produce fetal hemoglobin?",
+  "ideal_answer": "Fetal hemoglobin, or foetal haemoglobin,  is the main oxygen transport protein in the human fetus during the last seven months of development in the uterus and in the newborn until roughly 6 months old. Functionally, fetal hemoglobin differs most from adult hemoglobin in that it is able to bind oxygen with greater affinity than the adult form, giving the developing fetus better access to oxygen from the mother's bloodstream.\nUnusually high levels of fetal haemoglobin production can ameliorate sickle cell disease and \u03b2 thalassaemia. Although efforts directed at the pharmacological stimulation of fetal haemoglobin as an approach to managing these conditions have met with limited success, there is wide variation in individual responses. \nBased on results, adults humans could be induced to produce fetal hemoglobin.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24222332",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20201948",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22460946",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17041717",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11144280",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10575541",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7541126",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10908330",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17486495",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14594506",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11929793",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18379999",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23997901",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17456718",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16735596",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21415990",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16939628",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20305142"
+  ],
+  "snippets": [
+    {
+      "text": " At the time of birth, HbF accounts for approximately 70% of the total Hb. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18379999",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " whereas in the trace amounts of HbF that is found in the adult it reverses to 40:60 because of a gamma- to beta-globin gene switch",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18379999",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "With the increased understanding and discovery of molecular regulators of haemoglobin switching, such as BCL11A, new avenues of research may lead ultimately to novel therapeutic, mechanism-based approaches to fetal haemoglobin reactivation in patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20201948",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The data suggest that TGF-beta reactivates gamma-globin expression, combined with a sequential stimulation and suppression of erythropoiesis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14594506",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4249367",
+    "http://www.uniprot.org/uniprot/GLB_APLLI",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006454",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D055545",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D055544",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005344",
+    "http://www.uniprot.org/uniprot/HBG_BRAAR",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002648",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005319",
+    "http://www.biosemantics.org/jochem#4249310",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005914"
+  ],
+  "exact_answer": "Yes"
+}

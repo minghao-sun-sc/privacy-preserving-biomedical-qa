@@ -1,0 +1,26 @@
+{
+  "id": "5cb37f76ecadf2e73f00005c",
+  "type": "yesno",
+  "question": "Is Pim-1 a protein phosphatase?",
+  "ideal_answer": "No,\nPim-1 is a kinase and not a phosphatase.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29399171",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29355758"
+  ],
+  "snippets": [
+    {
+      "text": "Pim-1 proto-oncogene, serine/threonine kinase (PIM-1) phosphorylates a series of substrates to exert its oncogenic function in numerous malignancies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29399171",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Pim1 serine/threonine kinase is associated with multiple cellular functions including proliferation, survival, differentiation, apoptosis, tumorigenesis, immune regulation and inflammation in vertebrates.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29355758",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

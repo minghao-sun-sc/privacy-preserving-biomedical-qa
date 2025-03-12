@@ -1,0 +1,28 @@
+{
+  "id": "5319a6e9b166e2b806000023",
+  "type": "factoid",
+  "question": "Which is the genetic lesion associated with Huntington\u2019s disease?",
+  "ideal_answer": "The genetic lesion associated with Huntington's disease is a CAG trinucleotide repeat expansion in the HD (or HTT) gene.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/7620118"
+  ],
+  "snippets": [
+    {
+      "text": "Early in 1993, an unstable, expanded trinucleotide repeat in a novel gene of unknown function was identified on HD chromosomes. This discovery unleased a flurry of experimentation that has established the expanded CAG repeat the almost universal cause of the characteristic neurologic symptoms and pathology of this neurodegenerative disorder of midlife onset.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7620118",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D030342",
+    "http://www.disease-ontology.org/api/metadata/DOID:12858",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050739",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006816",
+    "http://www.uniprot.org/uniprot/HD_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020022",
+    "http://www.disease-ontology.org/api/metadata/DOID:630",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050325"
+  ],
+  "exact_answer": "A CAG trinucleotide repeat expansion in the HD gene"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "5547d72ef35db75526000008",
+  "type": "yesno",
+  "question": "Do all archaea possess multiple origins of DNA replication?",
+  "ideal_answer": "Origins of DNA replication differ in number and structure across the three domains of life and their properties determine the dynamics of chromosome replication. Though most archaea replicate their chromosomes using multiple origins, there are also certain archaea that possess a single origin of DNA replication (such as Pyrococcus abyssi and some archaea belonging in the hyperthermophilic order of Themococcales).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25309521",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24822028",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24185008",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14718164",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21364800",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15337158",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24808892"
+  ],
+  "snippets": [
+    {
+      "text": "Origins differ in number and structure across the three domains of life and their properties determine the dynamics of chromosome replication. Bacteria and some archaea replicate from single origins, whereas most archaea and all eukaryotes replicate using multiple origins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24185008",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Replication starts at a single Ori site in bacteria, but in eukaryotes multiple Ori sites are used for fast copying across all chromosomes. The situation becomes complex in archaea, where some groups have single and others have multiple origins of replication.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21364800",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Results from this in silico analysis show that the Themococcales have a single origin of replication.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21364800",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Until recently, the only archaeon for which a bona fide origin of replication was reported was Pyrococcus abyssi, where a single origin was identified. Although several in silico analyses have suggested that some archaeal species might contain more than one origin, this has only been demonstrated recently.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15337158",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In bacteria and eukaryotes, replication initiates from single and multiple origins, respectively, while archaea can adopt either of the two modes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24822028",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bacteria and some archaea replicate from single origins, whereas most archaea and all eukaryotes replicate using multiple origins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24185008",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bacteria and some archaea replicate from single origins, whereas most archaea and all eukaryotes replicate using multiple origins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24185008",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006260",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004261",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018741",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0003688"
+  ],
+  "exact_answer": "Yes"
+}

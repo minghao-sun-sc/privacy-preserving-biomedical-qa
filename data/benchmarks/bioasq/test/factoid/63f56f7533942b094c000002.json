@@ -1,0 +1,46 @@
+{
+  "id": "63f56f7533942b094c000002",
+  "type": "factoid",
+  "question": "Which gene is implicated in Canavan disease?",
+  "ideal_answer": "Canavan disease is an inherited leukodystrophy resulting from mutations in the gene encoding aspartoacylase (ASPA).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/36267868",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35636725",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35637731",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35929936"
+  ],
+  "snippets": [
+    {
+      "text": "Cribriform Appearance of White Matter in Canavan Disease Associated with Novel Mutations of ASPA Gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36267868",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Genetic analysis revealed novel mutations in the aspartoacylase or ASPA gene that possibly accounts for the severe form of Canavan disease, which probably explains the imaging findings.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36267868",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Canavan disease (CD) is an inherited leukodystrophy resulting from mutations in the gene encoding aspartoacylase (ASPA). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35636725",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Canavan disease (CD) is a devastating neurological disease that lacks effective therapy. Because CD is caused by mutations of the aspartoacylase (ASPA) gene, we introduced the wild-type (WT) ASPA gene into patient iPSCs through lentiviral transduction or CRISPR/Cas9-mediated gene editing. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35637731",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The compound heterozygous variants of the ASPA gene probably underlay the Canavan disease in this patient, and the result has enabled prenatal diagnosis for this family.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35929936",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "ASPA"
+}

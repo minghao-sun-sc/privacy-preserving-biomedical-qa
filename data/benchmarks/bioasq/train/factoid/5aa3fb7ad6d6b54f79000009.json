@@ -1,0 +1,35 @@
+{
+  "id": "5aa3fb7ad6d6b54f79000009",
+  "type": "factoid",
+  "question": "What drug cures hepatitis C?",
+  "ideal_answer": "Sofosbuvir-based therapy cures hepatitis C virus infection",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26085900",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26209383"
+  ],
+  "snippets": [
+    {
+      "text": "Sofosbuvir-based therapy cures hepatitis C virus infection",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26209383",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Sofosbuvir-based therapy cures hepatitis c virus infection after prior treatment failures in a patient with concurrent lymphoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26209383",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The emerging archetypal example is the outcry over the cost of sofosbuvir, a drug proved to cure hepatitis C infection",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26085900",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:1883",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D006526"
+  ],
+  "exact_answer": "Sofosbuvir based therapy"
+}

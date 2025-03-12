@@ -1,0 +1,25 @@
+{
+  "id": "5a7d51dafaa1ab7d2e000017",
+  "type": "factoid",
+  "question": "What is the administration route of IVIG in Alzheimer's disease patients?",
+  "ideal_answer": "IVIG is administered intravenously.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24760109"
+  ],
+  "snippets": [
+    {
+      "text": "ntravenous immunoglobulin (IVIG) treatment exerts antioxidant and neuropreservatory effects in preclinical models of Alzheimer's disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24760109",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Intravenous immunoglobulin (IVIG) has shown limited promise so far in human clinical studies on Alzheimer's disease (AD), yet overwhelmingly positive preclinical work in animals and human brain cultures support the notion that the therapy remains potentially efficacious.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24760109",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Intravenous"
+}

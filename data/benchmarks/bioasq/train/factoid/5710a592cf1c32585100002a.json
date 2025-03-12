@@ -1,0 +1,190 @@
+{
+  "id": "5710a592cf1c32585100002a",
+  "type": "factoid",
+  "question": "Which metabolite activates AtxA?",
+  "ideal_answer": "Upon infection of a mammalian host, Bacillus anthracis responds to host cues, and particularly to elevated temperature (37\u00b0C) and bicarbonate/CO2 concentrations, with increased expression of virulence factors that include the anthrax toxins and extracellular capsular layer. Cultures grown with elevated CO(2) /bicarbonate exhibited increased AtxA dimer/monomer ratios and increased AtxA activity, relative to cultures grown without added CO(2) /bicarbonate, suggesting that this host-associated signal enhances AtxA function by shifting the dimer/monomer equilibrium towards the dimeric state. CO2-enhanced toxin gene transcription is not observed in atx4-null mutants. Overall data indicate a clear association of atxA with CO2-enhanced gene expression in B. anthracis and provide evidence that atxA regulates genes other than the structural genes for the anthrax toxin proteins.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/8577251",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9199422",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9106214",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9234759",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15149039",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21923765",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24661624",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17302798"
+  ],
+  "snippets": [
+    {
+      "text": "Here we report that bioinformatic analyses suggested the presence in AtxA of two PTS (phosphenolpyruvate : sugar phosphotransferase system) regulation domains (PRD) generally regulated by phosphorylation/dephosphorylation at conserved histidine residues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17302798",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results link virulence factor production in B. anthracis to carbohydrate metabolism and, for the first time, provide a mechanistic explanation for AtxA transcriptional activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17302798",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Upon infection of a mammalian host, Bacillus anthracis responds to host cues, and particularly to elevated temperature (37\u00b0C) and bicarbonate/CO2 concentrations, with increased expression of virulence factors that include the anthrax toxins and extracellular capsular layer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24661624",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The 475 amino acid sequence of AtxA reveals DNA binding motifs and regions similar to proteins associated with the phosphoenolpyruvate: carbohydrate phosphotransferase system (PTS). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21923765",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "cultures grown with elevated CO(2) /bicarbonate exhibited increased AtxA dimer/monomer ratios and increased AtxA activity, relative to cultures grown without added CO(2) /bicarbonate, suggesting that this host-associated signal enhances AtxA function by shifting the dimer/monomer equilibrium towards the dimeric state.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21923765",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription of the major Bacillus anthracis virulence genes is triggered by CO2, a signal mimicking the host environment. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15149039",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, in vitro in presence of CO2 and in vivo, AtxA is part of the sap and eag regulatory network. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15149039",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Regulation of anthrax toxin activator gene (atxA) expression in Bacillus anthracis: temperature, not CO2/bicarbonate, affects AtxA synthesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9199422",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " In atxA+ strains, expression of the toxin genes (pag, lef, and cya) is enhanced by two physiologically significant signals: elevated CO2/bicarbonate and temperature. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9199422",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our data indicate that atxA expression is not influenced by CO2/bicarbonate levels. However, the steady-state level of atxA mRNA in cells grown in elevated CO2/bicarbonate at 37 degrees C is five- to sixfold higher than that observed in cells grown in the same conditions at 28 degrees C. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9199422",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Bacillus anthracis toxin genes, cya, lef, and pag, can be viewed as a regulon, in which transcription of all three genes is activated in trans by the same regulatory gene, atxA, in response to the same signal, CO2",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9234759",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CO2-enhanced toxin gene transcription is not observed in atx4-null mutants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9234759",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Comparison of the resulting protein patterns indicated that synthesis of non-toxin proteins is influenced by growth in elevated CO2 and the toxin gene regulator, atxA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9234759",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transposon-insertion libraries were screened for mutants expressing CO2-enhanced atxA-dependent beta-galactosidase activity. DNA sequence analysis of transposon insertion sites in 17 mutants carrying CO2- and atxA-regulated fusions revealed 10 mutants carrying independent insertions on the 185-kb toxin plasmid pXO1 which did not map to the toxin genes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9234759",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "data indicate a clear association of atxA with CO2-enhanced gene expression in B. anthracis and provide evidence that atxA regulates genes other than the structural genes for the anthrax toxin proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9234759",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription initiated from P1 and P2 was activated by both atxA and acpA, and activation appeared to be stimulated by bicarbonate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9106214",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The anthrax toxin activator gene atxA is associated with CO2-enhanced non-toxin gene expression in Bacillus anthracis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9234759",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Transcriptome analysis identifies Bacillus anthracis genes that respond to CO2 through an AtxA-dependent mechanism",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24661624",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Transcription initiated from P1 and P2 was activated by both atxA and acpA, and activation appeared to be stimulated by bicarbonate. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9106214",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcriptome analysis identifies Bacillus anthracis genes that respond to CO2 through an AtxA-dependent mechanism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24661624",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Expression of the toxin genes by B. anthracis is enhanced during growth under elevated levels of CO2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8577251",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This CO2 effect is observed only in the presence of another pXO1 gene, atxA, which encodes a transactivator of anthrax toxin synthesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8577251",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show that transcription of atxA does not appear to differ in cells grown in 5% CO2 compared with cells grown in air.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8577251",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription initiated from P1 and P2 was activated by both atxA and acpA, and activation appeared to be stimulated by bicarbonate. Deletion analysis of the upstream region of the cap promoter revealed that activation by both atxA and acpA required a DNA segment of 70 bp extending upstream of the P1 site.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9106214",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We identified two major apparent transcriptional start sites, designated P1 and P2, located at positions 731 bp and 625 bp, respectively, upstream of the translation-initiation codon of capB. Transcription initiated from P1 and P2 was activated by both atxA and acpA, and activation appeared to be stimulated by bicarbonate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9106214",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription initiated from P1 and P2 was activated by both atxA and acpA, and activation appeared to be stimulated by bicarbonate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9106214",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Regulation of anthrax toxin activator gene (atxA) expression in Bacillus anthracis: temperature, not CO2/bicarbonate, affects AtxA synthesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9199422",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The anthrax toxin activator gene atxA is associated with CO2-enhanced non-toxin gene expression in Bacillus anthracis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9234759",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/ATXA_BACAN"
+  ],
+  "exact_answer": "CO2, bicarbonate"
+}

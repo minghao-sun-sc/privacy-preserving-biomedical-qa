@@ -1,0 +1,38 @@
+{
+  "id": "5e35c75d158f994d3a000001",
+  "type": "list",
+  "question": "List targeted genome editing methodologies",
+  "ideal_answer": "Genome editors such as CRISPR/Cas9 and TALENs are at the forefront of research into methodologies for targeted modification of the mammalian genome. The choice of genome editing tool should be determined by the desired genome editing outcome. Such a rational approach is likely to benefit research outputs for groups working in fields as diverse as modification of cell lines, to animal models for disease studies, or gene therapy strategies.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25417547",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27390654"
+  ],
+  "snippets": [
+    {
+      "text": "TALEN and CRISPR/Cas9-mediated genome editing in the early-branching metazoan Nematostella vectensis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25417547",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Non-bilaterian phyla represent key lineages for exploring the evolutionary history of early animals. However, despite an increasing number of sequenced genomes from early-branching metazoans, efficient and reproducible methodologies for analysis of gene function remain a major challenge. Here we report the utilization of the TALEN and CRISPR/Cas9 systems to induce targeted mutations and homologous recombination-mediated transgenesis in the sea anemone Nematostella vectensis. We also present a new method to isolate genetically modified animals using engineered selection cassettes introduced by homologous recombination. Taken together, these methods will permit sophisticated gain- and loss-of-function analyses in Nematostella and perhaps other early metazoan species that allow for zygotic injection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25417547",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Comparison of CRISPR/Cas9 and TALENs on editing an integrated EGFP gene in the genome of HEK293FT cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27390654",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Genome editors such as CRISPR/Cas9 and TALENs are at the forefront of research into methodologies for targeted modification of the mammalian genome. To date few comparative studies have been carried out to investigate the difference of genome editing characteristics between CRISPR/Cas9 and TALENs. While the CRISPR/Cas9 system has overtaken TALENs as the tool of choice for most research groups working in this field, we hypothesized that there could be certain applications whereby the application of TALENs would have specific benefits. Here we compare CRISPR/Cas9 and TALEN as tools for introducing site-specific editing events at an integrated EGFP gene in the genome of HEK293FT cells.RESULTS: Guide RNAs and TALEN pairs were designed to target two loci within the EGFP gene. We found that paired Cas9 nucleases induced targeted genomic deletion more efficiently and precisely than two TALEN pairs. However, when concurrently supplied with a plasmid template spanning the two DNA double-strand breaks (DSBs) within EGFP, TALENs stimulated homology directed repair (HDR) more efficiently than CRISPR/Cas9 and caused fewer targeted genomic deletions.CONCLUSIONS: Our data suggest that the choice of genome editing tool should be determined by the desired genome editing outcome. Such a rational approach is likely to benefit research outputs for groups working in fields as diverse as modification of cell lines, to animal models for disease studies, or gene therapy strategies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27390654",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CRISPR/Cas9, TALENs"
+}

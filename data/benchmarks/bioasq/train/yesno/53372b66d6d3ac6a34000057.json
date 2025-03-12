@@ -1,0 +1,50 @@
+{
+  "id": "53372b66d6d3ac6a34000057",
+  "type": "yesno",
+  "question": "Can RNASeq be used for the analysis of nascent transcripts?",
+  "ideal_answer": "Efficient cellular fractionation improves RNA sequencing analysis of mature and nascent transcripts from human tissues. Here we show that RNA-seq can also be used for studying nascent RNAs undergoing transcription.  We utilize nascent RNA sequencing to document dosage compensation during transcriptional elongation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24225116",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24034318",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19056941",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1932016",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23934657",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22056773",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23629627",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11350041",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23307870",
+    "http://www.ncbi.nlm.nih.gov/pubmed/729003",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24183666"
+  ],
+  "snippets": [
+    {
+      "text": "Here, we utilize nascent RNA sequencing to document dosage compensation during transcriptional elongation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24183666",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show that RNA-seq can also be used for studying nascent RNAs undergoing transcription",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22056773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Conversely, the nuclear fraction shows an enrichment of unprocessed RNA compared with total RNA-seq, making it suitable for analysis of nascent transcripts and RNA processing dynamics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24225116",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012313",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001483",
+    "http://www.uniprot.org/uniprot/RNI_ECOLI",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D038641",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D059014",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D038621",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017423",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017421"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "54fe09036ad7dcbc12000009",
+  "type": "list",
+  "question": "List fish anti-freeze proteins.",
+  "ideal_answer": "AFP-I\nAFP-II\nAFP-III\nAnti-freeze glycoprotein\nThermal hysteresis protein",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19857362",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23479899",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17189482",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10405170",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15059666",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16297800",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12065219",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17553775",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11240367",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15146494",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22180206"
+  ],
+  "snippets": [
+    {
+      "text": "the anti-freeze glycoprotein of Antarctic and Arctic notothenoids, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22180206",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "pe III anti-freeze protein (AFP)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17189482",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AFP I or AFP III",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16297800",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "type III anti-freeze proteins ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15146494",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "wild type III thermal hysteresis protein",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15059666",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thermal hysteresis proteins (THPs) have been found in vertebrates, invertebrates, plants, bacteria and fungi and are able to depress the freezing point of water (in the presence of ice crystals) in a non-colligative manner by binding to the surface of nascent ice crystals",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11240367",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "skin-type anti-freeze protein-3",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10405170",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011506",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0009409",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0050826",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005615",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0033637"
+  ],
+  "exact_answer": "anti-freeze protein-3, AFP-III, anti-freeze glycoprotein, Thermal hysteresis protein, AFP-I, AFP-II"
+}

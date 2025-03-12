@@ -1,0 +1,110 @@
+{
+  "id": "5171833c8ed59a060a00000f",
+  "type": "yesno",
+  "question": "Are chromomethylases present in animal genomes?",
+  "ideal_answer": "No. Multiple lines of experimental evidence suggest that chromomethylases (CMTs) have been hitherto identified in plant genomes(Arabidopsis, maize, tomato). CMTs maintain CpNpG (N = A, T, C, or G) methylation and they are unique to the plant kingdom. The lack of CMT homologs in animal genomes could be explained based on the fact that, in contrast to plants, animals maintain primarily CG methylation. Therefore, the presence of CMTs is not required in the animal genomes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11487702",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20505370",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17660570",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11459824",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12740729",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23021223",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9584105",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18488247",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12121623",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12151602"
+  ],
+  "snippets": [
+    {
+      "text": "Many plant, animal, and fungal genomes contain cytosine DNA methylation in asymmetric sequence contexts (CpHpH, H = A, T, C).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12151602",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "However, at the SUPERMAN locus, asymmetric methylation was only completely abolished in drm1 drm2 chromomethylase 3 (cmt3) triple mutant plants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12151602",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Although neither the drm1 drm2 double mutants nor the cmt3 single mutants show morphological defects, drm1 drm2 cmt3 triple mutant plants show pleiotropic effects on plant development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12151602",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Arabidopsis cmt3 chromomethylase mutations block non-CG methylation and silencing of an endogenous gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11459824",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The lack of CMT homologs in animal genomes could account for the observation that in contrast to plants, animals maintain primarily CG methylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11459824",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Dual binding of chromomethylase domains to H3K9me2-containing nucleosomes directs DNA methylation in plants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23021223",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "A role for CHROMOMETHYLASE3 in mediating transposon and euchromatin silencing during egg cell reprogramming in Arabidopsis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20505370",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "During embryogenesis there is a major switch from dependence upon maternally-deposited products to reliance on products of the zygotic genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20505370",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Expression analysis of eight putative tomato DNA methyltransferases encoding genes showed that one chromomethylase (CMT) and two rearranged methyltransferases (DRMs) are preferentially expressed in the pericarp during fruit growth and could be involved in the locus-specific increase of methylation observed at this developmental phase in the pericarp.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18488247",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Natural variation for alleles under epigenetic control by the maize chromomethylase zmet2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17660570",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Arabidopsis has two types of methyltransferases with demonstrated maintenance activity: MET1, which maintains CpG methylation and is homologous to mammalian DNMT1, and CHROMOMETHYLASE 3 (CMT3), which maintains CpNpG (N = A, T, C, or G) methylation and is unique to the plant kingdom.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12121623",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Maize chromomethylase Zea methyltransferase2 is required for CpNpG methylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11487702",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "A cytosine DNA methyltransferase containing a chromodomain, Zea methyltransferase2 (Zmet2), was cloned from maize. The sequence of ZMET2 is similar to that of the Arabidopsis chromomethylases CMT1 and CMT3, with C-terminal motifs characteristic of eukaryotic and prokaryotic DNA methyltransferases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11487702",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We have detected a chromodomain embedded within the catalytic region of a predicted Arabidopsis DNA methyltransferase that is diverged from other eukaryotic enzymes. The 791 residue \"chromomethylase\" (CMT1) is encoded by a floral transcript that is spliced from 20 exons and is present at only approximately 1/10(-7) of total mRNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9584105",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/CMT3_ARATH",
+    "http://www.uniprot.org/uniprot/CMT2_ARATH",
+    "http://www.uniprot.org/uniprot/CMT1_ARATH"
+  ],
+  "exact_answer": "Yes"
+}

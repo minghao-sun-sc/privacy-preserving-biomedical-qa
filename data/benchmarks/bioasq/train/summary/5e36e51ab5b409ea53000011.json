@@ -1,0 +1,67 @@
+{
+  "id": "5e36e51ab5b409ea53000011",
+  "type": "summary",
+  "question": "Describe the Java Adverse Drug Event (JADE) tool",
+  "ideal_answer": "The Java Adverse Drug event (Jade) is a tool for medical researchers to explore adverse drug events using health insurance plans and drug-drug interactions.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25298803",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20465815"
+  ],
+  "snippets": [
+    {
+      "text": "JADE: a tool for medical researchers to explore adverse drug events using health claims data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25298803",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The objective of our project was to create a tool for physicians to explore health claims data with regard to adverse drug reactions. The Java Adverse Drug Event (JADE) tool should enable the analysis of prescribed drugs in connection with diagnoses from hospital stays.METHODS: We calculated the number of days drugs were taken by using the defined daily doses and estimated possible interactions between dispensed drugs using the Austria Codex, a database including drug-drug interactions. The JADE tool was implemented using Java, R and a PostgreSQL database.RESULTS: Beside an overview of the study cohort which includes selection of gender and age groups, selected statistical methods like association rule learning, logistic regression model and the number needed to harm have been implemented.CONCLUSION: The JADE tool can support physicians during their planning of clinical trials by showing the occurrences of adverse drug events with population based information.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25298803",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Java Adverse Drug Event (JADE) tool should enable the analysis of prescribed drugs in connection with diagnoses from hospital stays.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25298803",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION\n\nThe JADE tool can support physicians during their planning of clinical trials by showing the occurrences of adverse drug events with population based information.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25298803",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION The JADE tool can support physicians during their planning of clinical trials by showing the occurrences of adverse drug events with population based information.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25298803",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Java Adverse Drug Event (JADE) tool should enable the analysis of prescribed drugs in connection with diagnoses from hospital stays.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25298803",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION\nThe JADE tool can support physicians during their planning of clinical trials by showing the occurrences of adverse drug events with population based information.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25298803",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION: The JADE tool can support physicians during their planning of clinical trials by showing the occurrences of adverse drug events with population based information.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25298803",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The JADE tool can support physicians during their planning of clinical trials by showing the occurrences of adverse drug events with population based information.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25298803",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

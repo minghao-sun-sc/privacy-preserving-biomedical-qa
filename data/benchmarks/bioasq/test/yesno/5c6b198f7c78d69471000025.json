@@ -1,0 +1,31 @@
+{
+  "id": "5c6b198f7c78d69471000025",
+  "type": "yesno",
+  "question": "Is there a deep-learning algorithm for protein solubility prediction?",
+  "ideal_answer": "Yes. DeepSol is a novel deep learning-based protein solubility predictor. It is a convolutional neural network that exploits k-mer structure and additional sequence and structural features extracted from the protein sequence.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29554211"
+  ],
+  "snippets": [
+    {
+      "text": "DeepSol: a deep learning framework for sequence-based protein solubility prediction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29554211",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Protein solubility plays a vital role in pharmaceutical research and production yield. For a given protein, the extent of its solubility can represent the quality of its function, and is ultimately defined by its sequence. Thus, it is imperative to develop novel, highly accurate in silico sequence-based protein solubility predictors. In this work we propose, DeepSol, a novel Deep Learning-based protein solubility predictor. The backbone of our framework is a convolutional neural network that exploits k-mer structure and additional sequence and structural features extracted from the protein sequence.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29554211",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DeepSol: a deep learning framework for sequence-based protein solubility prediction.<AbstractText Label=\"Motivation\" NlmCategory=\"UNASSIGNED\">Protein solubility plays a vital role in pharmaceutical research and production yield. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29554211",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

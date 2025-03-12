@@ -1,0 +1,25 @@
+{
+  "id": "603251f81cb411341a00013a",
+  "type": "factoid",
+  "question": "Interaction of WDR5 with which gene has a critical role in pancreatic cancer?",
+  "ideal_answer": "Mechanistically, WDR5 functions to sustain proper execution of DNA replication in pancreatic ductal adenocarcinoma (PDAC) cells, as previously suggested by replication stress studies involving MLL1, and c-Myc, also found to interact with WDR5. It was indeed demonstrated that interaction with c-Myc is critical for this function.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27320920"
+  ],
+  "snippets": [
+    {
+      "text": "In\u00a0Vivo Functional Platform Targeting Patient-Derived Xenografts Identifies WDR5-Myc Association as a Critical Determinant of Pancreatic Cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27320920",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We developed an unbiased and in\u00a0vivo target discovery approach to identify molecular vulnerabilities in low-passage and patient-derived PDAC xenografts or genetically engineered mouse model-derived allografts. Focusing on epigenetic regulators, we identified WDR5, a core member of the COMPASS histone H3 Lys4 (H3K4) MLL (1-4) methyltransferase complex, as a top tumor maintenance hit required across multiple human and mouse tumors. Mechanistically, WDR5 functions to sustain proper execution of DNA replication in PDAC cells, as previously suggested by replication stress studies involving MLL1, and c-Myc, also found to interact with WDR5. We indeed demonstrate that interaction with c-Myc is critical for this function. By showing that ATR inhibition mimicked the effects of WDR5 suppression, these data provide rationale to test ATR and WDR5 inhibitors for activity in this disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27320920",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "c-Myc"
+}

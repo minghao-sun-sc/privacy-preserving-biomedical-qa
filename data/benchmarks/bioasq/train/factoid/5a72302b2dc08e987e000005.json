@@ -1,0 +1,41 @@
+{
+  "id": "5a72302b2dc08e987e000005",
+  "type": "factoid",
+  "question": "Treatment of which disease was studied in the Gore REDUCE Clinical Study?",
+  "ideal_answer": "The Gore REDUCE Clinical Study studied superiority of patent foramen ovale closure in conjunction with antiplatelet therapy over antiplatelet therapy alone in reducing the risk of recurrent clinical ischemic stroke or new silent brain infarct in patients who have had a cryptogenic stroke.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29090661",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28902580"
+  ],
+  "snippets": [
+    {
+      "text": "CONCLUSIONS: Among patients with a PFO who had had a cryptogenic stroke, the risk of subsequent ischemic stroke was lower among those assigned to PFO closure combined with antiplatelet therapy than among those assigned to antiplatelet therapy alone; however, PFO closure was associated with higher rates of device complications and atrial fibrillation. (Funded by W.L. Gore and Associates; Gore REDUCE ClinicalTrials.gov number, NCT00738894 .).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28902580",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Patent foramen ovale closure with GORE HELEX or CARDIOFORM Septal Occluder vs. antiplatelet therapy for reduction of recurrent stroke or new brain infarct in patients with prior cryptogenic stroke: Design of the randomized Gore REDUCE Clinical Study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29090661",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Aims The Gore REDUCE Clinical Study (REDUCE) aims to establish superiority of patent foramen ovale closure in conjunction with antiplatelet therapy over antiplatelet therapy alone in reducing the risk of recurrent clinical ischemic stroke or new silent brain infarct in patients who have had a cryptogenic stroke. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29090661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Aims The Gore REDUCE Clinical Study (REDUCE) aims to establish superiority of patent foramen ovale closure in conjunction with antiplatelet therapy over antiplatelet therapy alone in reducing the risk of recurrent clinical ischemic stroke or new silent brain infarct in patients who have had a cryptogenic stroke.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29090661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D013812",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D000068397"
+  ],
+  "exact_answer": "patent foramen ovale"
+}

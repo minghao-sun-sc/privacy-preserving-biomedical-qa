@@ -1,0 +1,35 @@
+{
+  "id": "52f89ee42059c6d71c00004d",
+  "type": "yesno",
+  "question": "Can valproic acid act as an activator of AMPK?",
+  "ideal_answer": "Yes, valproic acid canact as an activator of AMPK.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24105977",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23889921"
+  ],
+  "snippets": [
+    {
+      "text": "Here we demonstrate that VPA is a novel activator of AMP-activated protein kinase (AMPK), a key regulator of cellular metabolism, using primary mouse and human hepatocytes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24105977",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These studies are the first to establish VPA and its metabolites as in vitro activators of AMPK.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24105977",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0031588",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D055372",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0004679",
+    "http://www.uniprot.org/uniprot/AAKB1_HUMAN",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:2000479",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014635",
+    "http://www.biosemantics.org/jochem#4271063",
+    "http://www.uniprot.org/uniprot/AAPK2_HUMAN"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "5c97f579ecadf2e73f00002a",
+  "type": "list",
+  "question": "List places in the body where somatostatin is produced.",
+  "ideal_answer": "Somatostatin is a cyclic peptide well known for its strong regulatory effects throughout the body. Also known by the name of growth hormone inhibiting hormone, it is produced in many locations, which include the olfactory bulb, hair follicles, pancreas, retina, and central nervous system (CNS).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25777539",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23370538",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24627166",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19819962",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23894587"
+  ],
+  "snippets": [
+    {
+      "text": "Somatostatin (SST) is a neuromodulator which is abundant throughout the central nervous system (CNS)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25777539",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Somatostatin (SST) is abundantly produced by the human retina, and the main source is the retinal pigment epithelium (RPE).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24627166",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Somatostatin (Som), one of the most concentrated neuropeptides in the brain, is highly expressed in the olfactory bulb (OB)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23894587",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The production of somatostatin interneurons in the olfactory bulb is regulated by the transcription factor sp8",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23894587",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Somatostatin expression in human hair follicles and its potential role in immune privilege",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23370538",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The kinetics of insulin, glucagon and somatostatin release was studied in human pancreatic islets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19819962",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Glucose generates coincident insulin and somatostatin pulses and antisynchronous glucagon pulses from human pancreatic islets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19819962",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Hair follicles, CNS, pancreas, olfactory bulb, retina"
+}

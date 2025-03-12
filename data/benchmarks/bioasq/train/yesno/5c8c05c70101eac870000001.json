@@ -1,0 +1,53 @@
+{
+  "id": "5c8c05c70101eac870000001",
+  "type": "yesno",
+  "question": "Is lactotransferrin a tumour suppressor?",
+  "ideal_answer": "Lactotransferrin (LTF) has been confirmed to act as a tumor suppressor in multiple cancers.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23069661",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25370482",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18697201",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23479198",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26137081"
+  ],
+  "snippets": [
+    {
+      "text": "LTF (lactotransferrin, or lactoferrin) plays important role in innate immunity, and its anti-tumor function has also been reported in multiple cancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23479198",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We previously reported that LTF is significantly down-regulated in nasopharyngeal carcinoma (NPC) and acts as a tumor suppressor by suppressing AKT signaling.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23479198",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The tumor suppressor function of lactotransferrin (LTF) has been reported in a variety of tumors, including GC, nasopharyngeal carcinoma (NPC) and prostate cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26137081",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lactotransferrin (LTF) has been confirmed to act as a tumor suppressor in multiple cancers",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25370482",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lactotransferrin acts as a tumor suppressor in nasopharyngeal carcinoma by repressing AKT through multiple mechanisms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23069661",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "LTF is likely to be a candidate tumor suppressor and downregulates the development of NPC by inhibiting NPC proliferation through induction of cell cycle arrest and modulation of the MAPK signaling pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18697201",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

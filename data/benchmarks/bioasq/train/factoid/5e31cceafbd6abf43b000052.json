@@ -1,0 +1,40 @@
+{
+  "id": "5e31cceafbd6abf43b000052",
+  "type": "factoid",
+  "question": "What is the chromosomal location of the LDL receptor gene associated with autosomal dominant Familial Hypercholesterolemia?",
+  "ideal_answer": "Familial hypercholesterolemia (FH) is an autosomal dominant inherited metabolic disorder resulting in advanced vascular atherosclerosis and premature death, primarily from coronary artery disease. The primary defect is a mutation in the gene encoding for the plasma LDL receptor located on the short arm of chromosome 19",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15717219",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9016531",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10764678",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7585875"
+  ],
+  "snippets": [
+    {
+      "text": "Familial hypercholesterolemia (FH) is an autosomal dominant inherited metabolic disorder resulting in advanced vascular atherosclerosis and premature death, primarily from coronary artery disease. The primary defect is a mutation in the gene encoding for the plasma LDL receptor located on the short arm of chromosome 19.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15717219",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mutations in the LDLr gene (LDLR), which is located on chromosome 19, cause familial hypercholesterolemia",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9016531",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chromosome 19 is short but has higher relative density of genes than other chromosomes. Increasing number of the genes coding for proteins implicated in the pathogenesis of various human diseases have been mapped on chromosome 19. Mutations of low density lipoprotein receptor (LDL-R) result in one of the most frequent mendelian inherited disorder-familial hypercholesterolemia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7585875",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Clinical familial hypercholesterolemia has been shown to result from mutations in 2 genes, the low density lipoprotein (LDL) receptor on chromosome 19 and apolipoprotein B on chromosome 2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10764678",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "short arm of chromosome 19"
+}

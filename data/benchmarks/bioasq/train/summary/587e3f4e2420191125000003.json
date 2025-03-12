@@ -1,0 +1,48 @@
+{
+  "id": "587e3f4e2420191125000003",
+  "type": "summary",
+  "question": "What is regioneR?",
+  "ideal_answer": "Statistically assessing the relation between a set of genomic regions and other genomic features is a common challenging task in genomic and epigenomic analyses. regioneR is an R package that implements a permutation test framework specifically designed to work with genomic regions. In addition to the predefined randomization and evaluation strategies, regioneR is fully customizable allowing the use of custom strategies to adapt it to specific questions. Finally, it also implements a novel function to evaluate the local specificity of the detected association. regioneR is an R package released under Artistic-2.0 License. The source code and documents are freely available through Bioconductor (http://www.bioconductor.org/packages/regioneR).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26424858"
+  ],
+  "snippets": [
+    {
+      "text": "regioneR: an R/Bioconductor package for the association analysis of genomic regions based on permutation tests",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26424858",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "regioneR is an R package that implements a permutation test framework specifically designed to work with genomic regions. In addition to the predefined randomization and evaluation strategies, regioneR is fully customizable allowing the use of custom strategies to adapt it to specific questions. Finally, it also implements a novel function to evaluate the local specificity of the detected association.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26424858",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Randomization based approaches implicitly take into account the complexity of the genome without the need of assuming an underlying statistical model.regioneR is an R package that implements a permutation test framework specifically designed to work with genomic regions",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26424858",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition to the predefined randomization and evaluation strategies, regioneR is fully customizable allowing the use of custom strategies to adapt it to specific questions",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26424858",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, it also implements a novel function to evaluate the local specificity of the detected association.regioneR is an R package released under Artistic-2.0 License",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26424858",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The source code and documents are freely available through Bioconductor (http://www.bioconductor.org/packages/regioneR).rmalinverni@carrerasresearch.org.<CopyrightInformation>\u00a9 The Author 2015",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26424858",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

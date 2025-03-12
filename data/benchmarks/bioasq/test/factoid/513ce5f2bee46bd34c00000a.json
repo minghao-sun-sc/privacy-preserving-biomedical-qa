@@ -1,0 +1,62 @@
+{
+  "id": "513ce5f2bee46bd34c00000a",
+  "type": "factoid",
+  "question": "Which is the prevalence of cystic fibrosis in the human population?",
+  "ideal_answer": "Prevalence of Cystic Fibrosis varies according to the population. A theoretical estimate of the prevalence of cystic fibrosis based on anthropological data suggested a frequency of 25 affected individuals/100,000 inhabitants. However, real data indicated that the true prevalence in the population was considerably lower (6.9 cases/100,000 inhabitants). Results of literature reviews, surveys, and registry analyses revealed a mean prevalence of 0.737/10,000 in the 27 EU countries, which is similar to the value of 0.797 in the United States, and only one outlier, namely the Republic of Ireland at 2.98.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15970608",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11336401",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18442953",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15266396",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22627569",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18243066"
+  ],
+  "snippets": [
+    {
+      "text": "The allelic frequency of this variant was calculated to be 0.7% for this population",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22627569",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The results of literature reviews, surveys, and registry analyses revealed a mean prevalence of 0.737/10,000 in the 27 EU countries, which is similar to the value of 0.797 in the United States, and only one outlier, namely the Republic of Ireland at 2.98",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18442953",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The age related prevalence of CF among the South Asian and general populations was: 0-14 years, 1:9200 versus 1:6600; 15-24 years, 1:13,200 versus 1:7600; older than 25 years, 1:56,600 versus 1:12,400.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15970608",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "A theoretical estimate of the prevalence of cystic fibrosis based on anthropological data suggested a frequency of 25 affected individuals/100,000 inhabitants. However, our data indicated that the true prevalence in the population was considerably lower (6.9 cases/100,000 inhabitants)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15266396",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "CF mutations were identified in 374 (4.0%) individuals.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11336401",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The aim of this study was to evaluate the screening policies of cystic fibrosis (CF) in the Jewish population.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11336401",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/CFTR_MACMU",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003550",
+    "http://www.disease-ontology.org/api/metadata/DOID:2975",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005355",
+    "http://www.disease-ontology.org/api/metadata/DOID:1485",
+    "http://www.disease-ontology.org/api/metadata/DOID:10353",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015995"
+  ],
+  "exact_answer": "0.7\u20137/100000 inhabitants"
+}

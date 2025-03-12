@@ -1,0 +1,91 @@
+{
+  "id": "56d2ae19f22319765a000006",
+  "type": "summary",
+  "question": "What is Tn-seq?",
+  "ideal_answer": "The transposon mutagenesis and high-throughput sequencing (Tn-seq) is a technique that allows for quantitative assessment of individual mutants within a transposon mutant library by sequencing the transposon-genome junctions and then compiling mutant presence by mapping to a base genome. Using Tn-seq, it is possible to quickly define all the insertional mutants in a library and thus identify nonessential genes under the conditions in which the library was produced. Identification of fitness of individual mutants under specific conditions can be performed by exposing the library to selective pressures.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21253457",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19767758",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25636611",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22925268",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24077707",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25139902",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23990803",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21053251"
+  ],
+  "snippets": [
+    {
+      "text": " Using Tn-seq, a genome-wide fitness profiling technique, we identified several functions required for fitness of Y.\u00a0pestis in vivo that were not previously known to be important.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25139902",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tn-seq is a technique that allows for quantitative assessment of individual mutants within a transposon mutant library by sequencing the transposon-genome junctions and then compiling mutant presence by mapping to a base genome. Using Tn-seq, it is possible to quickly define all the insertional mutants in a library and thus identify nonessential genes under the conditions in which the library was produced. Identification of fitness of individual mutants under specific conditions can be performed by exposing the library to selective pressures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25636611",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Genome-wide fitness and genetic interactions determined by Tn-seq, a high-throughput massively parallel sequencing method for microorganisms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21053251",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Tn-seq: high-throughput parallel sequencing for fitness and genetic interaction studies in microorganisms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19767758",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we present the method Tn-seq, with which it has become possible to quantitatively determine fitness for most genes in a microorganism and to screen for quantitative genetic interactions on a genome-wide scale and in a high-throughput fashion. Tn-seq can thus direct studies in the annotation of genes and untangle complex phenotypes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21053251",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we present a method (Tn-seq) for accurately determining quantitative genetic interactions on a genome-wide scale in microorganisms. Tn-seq is based on the assembly of a saturated Mariner transposon insertion library. After library selection, changes in frequency of each insertion mutant are determined by sequencing the flanking regions en masse. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19767758",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Whole-genome fitness analysis in microbes that uses saturating transposon mutagenesis combined with massively parallel sequencing (Tn-seq) is providing a measure of the contribution of each gene to a given growth condition. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24077707",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The procedure employs a new Tn-seq methodology based on the generation and amplification of single-strand circles carrying transposon junction sequences (the Tn-seq circle method),",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21253457",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we present a method (Tn-seq) for accurately determining quantitative genetic interactions on a genome-wide scale in microorganisms. Tn-seq is based on the assembly of a saturated Mariner transposon insertion library.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19767758",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we present the method Tn-seq, with which it has become possible to quantitatively determine fitness for most genes in a microorganism and to screen for quantitative genetic interactions on a genome-wide scale and in a high-throughput fashion. Tn-seq can thus direct studies in the annotation of genes and untangle complex phenotypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21053251",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tn-seq measures the frequency of actual members of a heterogeneous mutant pool undergoing purifying selection to determine the contribution of every non-essential gene in the genome to the fitness of an organism under a given condition. Here we use Tn-seq to assess gene function in the Gram negative \u03b3-proteobacterium Shewanella oneidensis strain MR-1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22925268",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Towards this goal, we utilized a quantitative genetic footprinting technique known as transposon insertion sequencing (Tn-seq) in conjunction with comparative pathogenomics to functionally dissect the genetic repertoire of a reference ExPEC isolate. Using Tn-seq and high-throughput zebrafish infection models, we tracked changes in the abundance of ExPEC variants within saturated transposon mutant libraries following selection within distinct host niches.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23990803",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

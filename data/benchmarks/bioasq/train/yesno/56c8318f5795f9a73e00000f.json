@@ -1,0 +1,49 @@
+{
+  "id": "56c8318f5795f9a73e00000f",
+  "type": "yesno",
+  "question": "Can sorafenib activate AMPK?",
+  "ideal_answer": "Sorafenib induces persisten AMPK activation",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23963659",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25080865",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25349646"
+  ],
+  "snippets": [
+    {
+      "text": "Here, we identify sorafenib as an activator of AMP-activated protein kinase (AMPK), in a manner that involves either upstream LKB1 or CAMKK2. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25080865",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Persistent activation of AMPK by sorafenib finally led to the impairment of glucose metabolism both in MCF-7 and SKBR3 cells as well as in the highly glycolytic MDA-MB-231 cells, resulting in cell death.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23963659",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we identify sorafenib as an activator of AMP-activated protein kinase (AMPK), in a manner that involves either upstream LKB1 or CAMKK2",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25080865",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sorafenib synergizes with metformin in NSCLC through AMPK pathway activation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25080865",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Persistent activation of AMPK by sorafenib finally led to the impairment of glucose metabolism both in MCF-7 and SKBR3 cells as well as in the highly glycolytic MDA-MB-231 cells, resulting in cell death. This previously unrecognized long-term effect of sorafenib was mediated by AMPK-dependent inhibition of the mTORC1 pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23963659",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#http://www.biosemantics.org/jochem#:4243524",
+    "http://www.biosemantics.org/jochem#4243524",
+    "http://amigo.geneontology.org/amigo/term/GO:0031588"
+  ],
+  "exact_answer": "Yes"
+}

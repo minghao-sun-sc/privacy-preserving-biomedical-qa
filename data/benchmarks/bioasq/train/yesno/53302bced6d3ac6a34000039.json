@@ -1,0 +1,47 @@
+{
+  "id": "53302bced6d3ac6a34000039",
+  "type": "yesno",
+  "question": "Does low T3 negatively affect prognosis of patients after cardiac surgery?",
+  "ideal_answer": "Low cardiac output syndrome after cardiac surgery for congenital heart diseases is associated with decreased T3\nLow T3 concentrations are associated with occurrence of post operative atrial fibrillation\nLow T3 concentrations are inversely correlated with the days of post operative hospitalization",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12475369",
+    "http://www.ncbi.nlm.nih.gov/pubmed/4057698",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2627465",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12165116",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14500064",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19448543",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23958074",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9078538",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15868525",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21248453",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16719939"
+  ],
+  "snippets": [
+    {
+      "text": "ur findings suggest that the development of LCOS after congenital heart surgery is associated with decreased total and free T3, and increased IL-8 levels at 48 hours, and preoperative tT4 level is an independent predictor of LCOS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21248453",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Low basal fT3 concentration can reliably predict the occurrence of postoperative AF in CABG patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14500064",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A relevant finding was that the days of post-operative hospitalization (10+/-3 days, means+/-S.D.) was inversely correlated with the slope of the recovery of T3 concentration (P<0.001) or with the area under the plasma curves of T3 (P=0.024, time range 72-144 h) and the FT3/FT4 ratio (P=0.037, time range 72-144 h) during the post-operative period. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12475369",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011379",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013903",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013963",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005067",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002303"
+  ],
+  "exact_answer": "Yes"
+}

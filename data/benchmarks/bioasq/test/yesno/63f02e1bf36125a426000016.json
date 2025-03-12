@@ -1,0 +1,25 @@
+{
+  "id": "63f02e1bf36125a426000016",
+  "type": "yesno",
+  "question": "Was AAVS3 developed for hemophilia A?",
+  "ideal_answer": "No. AAVS3 was developed for hemophilia B.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35857660"
+  ],
+  "snippets": [
+    {
+      "text": "Phase 1-2 Trial of AAVS3 Gene Therapy in Patients with Hemophilia B.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35857660",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "BACKGROUND: FLT180a (verbrinacogene setparvovec) is a liver-directed adeno-associated virus (AAV) gene therapy that uses a synthetic capsid and a gain-of-function protein to normalize factor IX levels in patients with hemophilia B",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35857660",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

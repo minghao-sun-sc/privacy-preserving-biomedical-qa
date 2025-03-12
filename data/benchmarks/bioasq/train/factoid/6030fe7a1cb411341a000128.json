@@ -1,0 +1,25 @@
+{
+  "id": "6030fe7a1cb411341a000128",
+  "type": "factoid",
+  "question": "Which class of disorders are caused by AMPA receptor GluA2 subunit defects?",
+  "ideal_answer": "Mutations in the AMPA receptor GluA2 subunit cause a variety of neurodevelopmental disorders including autism spectrum disorder.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31300657"
+  ],
+  "snippets": [
+    {
+      "text": "AMPA receptor GluA2 subunit defects are a cause of neurodevelopmental disorders.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31300657",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "AMPA receptors (AMPARs) are tetrameric ligand-gated channels made up of combinations of GluA1-4 subunits encoded by GRIA1-4 genes. GluA2 has an especially important role because, following post-transcriptional editing at the Q607 site, it renders heteromultimeric AMPARs Ca2+-impermeable, with a linear relationship between current and trans-membrane voltage. Here, we report heterozygous de novo GRIA2 mutations in 28 unrelated patients with intellectual disability (ID) and neurodevelopmental abnormalities including autism spectrum disorder (ASD), Rett syndrome-like features, and seizures or developmental epileptic encephalopathy (DEE). In functional expression studies, mutations lead to a decrease in agonist-evoked current mediated by mutant subunits compared to wild-type channels. When GluA2 subunits are co-expressed with GluA1, most GRIA2 mutations cause a decreased current amplitude and some also affect voltage rectification. Our results show that de-novo variants in GRIA2 can cause neurodevelopmental disorders, complementing evidence that other genetic causes of ID, ASD and DEE also disrupt glutamatergic synaptic transmission.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31300657",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Neurodevelopmental disorders"
+}

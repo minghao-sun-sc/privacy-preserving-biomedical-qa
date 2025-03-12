@@ -1,0 +1,113 @@
+{
+  "id": "56f146db2ac5ed145900000f",
+  "type": "factoid",
+  "question": "Is single guide RNA part of the CRISPR/Cas9 tool or an inhibitor of its function?",
+  "ideal_answer": "Single guide RNA is part of the CRISPR/Cas9 system.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25122746",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25048165",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25731961",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24870050",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23907171",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25713377",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24838573",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24825012",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25398342",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25437567",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25274302",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25161872",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24710347",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24920971",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25239977"
+  ],
+  "snippets": [
+    {
+      "text": "Cas9, an RNA-guided DNA endonuclease found in clustered regularly interspaced short palindromic repeats (CRISPR) bacterial immune systems, is a versatile tool for genome editing, transcriptional regulation, and cellular imaging applications. Structures of Streptococcus pyogenes Cas9 alone or bound to single-guide RNA (sgRNA) and target DNA revealed a bilobed protein architecture that undergoes major conformational changes upon guide RNA and DNA binding.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25713377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although the lobes do not interact on their own, the sgRNA recruits them into a ternary complex that recapitulates the activity of full-length Cas9 and catalyzes site-specific DNA cleavage. The use of a modified sgRNA abrogates split-Cas9 activity by preventing dimerization, allowing for the development of an inducible dimerization system. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25713377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This new type of genetic library is constructed through the lentiviral delivery of single-guide RNA collections that direct Cas9 or inactive dead Cas9 fused with effectors to interrogate gene function or regulate gene transcription in targeted cells. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25731961",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The CRISPR/Cas9 system has recently emerged as a\u00a0powerful tool for functional genomic studies in Drosophila melanogaster. However, single-guide RNA (sgRNA) parameters affecting the specificity and efficiency of the system in flies are still not clear. Here, we found that off-target effects did not occur in regions of genomic DNA with three or more nucleotide mismatches to sgRNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25437567",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our work demonstrates a comprehensive optimization of sgRNA and promises to vastly simplify CRISPR/Cas9 experiments in Drosophila.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25437567",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Targeted genome engineering is expected to contribute significantly to future varietal improvement, and genome editing technologies using zinc finger nucleases (ZFNs), transcription activator-like effector nucleases (TALENs), and clustered regularly interspaced short palindromic repeat (CRISPR)/Cas9/single guide RNA (sgRNA) have already been successfully used to genetically modify plants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24710347",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A unique capability of the CRISPR/Cas9 system is multiplex genome engineering by delivering a single Cas9 enzyme and two or more single guide RNAs (sgRNAs) targeted to distinct genomic sites.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25122746",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To determine if the Cas9 and single guide RNA (sgRNA) genes were functional in C. reinhardtii, we tested the ability of a codon-optimized Cas9 gene along with one of four different sgRNAs to cause targeted gene disruption during a 24-h period immediately following transformation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25239977",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recently, compared to the wildtype nuclease, paired Cas9 nickase (Cas9n) combined with single guide RNA (sgRNA) molecules has been found to enhance the specificity of genome editing while reducing off-target effects.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25161872",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we utilized a CRISPR/CAS9-based system with single guide RNAs to disrupt genes in T.\u00a0gondii.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24825012",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To address the need for uniform and sustained delivery of multiplex CRISPR/Cas9-based genome engineering tools, we developed a single lentiviral system to express a Cas9 variant, a reporter gene and up to four sgRNAs from independent RNA polymerase III promoters that are incorporated into the vector by a convenient Golden Gate cloning method.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25122746",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A unique capability of the CRISPR/Cas9 system is multiplex genome engineering by delivering a single Cas9 enzyme and two or more single guide RNAs (sgRNAs) targeted to distinct genomic sites. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25122746",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using synthetic single RNA guides, Cas9 can be reprogrammed to create specific double-stranded DNA breaks in the genomes of a variety of organisms, ranging from human cells to bacteria, and thus constitutes a powerful tool for genetic engineering. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25048165",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/CAS9_NEIMA",
+    "http://www.uniprot.org/uniprot/CAS9_CAMJE",
+    "http://www.uniprot.org/uniprot/CAS9_FRATN",
+    "http://www.uniprot.org/uniprot/CAS9_STRTR",
+    "http://www.uniprot.org/uniprot/CAS9_ACTNH",
+    "http://www.uniprot.org/uniprot/CAS9_NEIM8",
+    "http://www.uniprot.org/uniprot/CAS9_PASMU"
+  ],
+  "exact_answer": "Single guide RNA is part of the CRISPR/Cas9 system."
+}

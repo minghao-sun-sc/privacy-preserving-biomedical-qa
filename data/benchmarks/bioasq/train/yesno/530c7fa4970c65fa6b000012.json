@@ -1,0 +1,39 @@
+{
+  "id": "530c7fa4970c65fa6b000012",
+  "type": "yesno",
+  "question": "Are the proteins Erbin (LAP2) and Merlin cooperating?",
+  "ideal_answer": "Yes, Erbin and Merlin are cooperating.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15659388",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19289088"
+  ],
+  "snippets": [
+    {
+      "text": "Erbin and the NF2 tumor suppressor Merlin cooperatively regulate cell-type-specific activation of PAK2 by TGF-beta.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19289088",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The results show that the epithelial-enriched protein Erbin controls the function of the NF2 tumor suppressor Merlin by determining the output of Merlin's physical interactions with active PAK2. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19289088",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Erbin controls Merlin tumor suppressor function by switching the functional valence of PAK2 binding",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19289088",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/MERL_RAT",
+    "http://www.uniprot.org/uniprot/MERL_PAPAN",
+    "http://www.uniprot.org/uniprot/MERL_MOUSE",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D025581",
+    "http://www.uniprot.org/uniprot/LAP2_HUMAN",
+    "http://www.biosemantics.org/jochem#4267552"
+  ],
+  "exact_answer": "Yes"
+}

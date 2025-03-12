@@ -1,0 +1,58 @@
+{
+  "id": "58dfd83a6fddd3e83e000003",
+  "type": "list",
+  "question": "List genes associated with hypolipidemia.",
+  "ideal_answer": "PCSK9\nAPOB \nANGPTL3\nANGPTL4\nMTP",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22247256",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26546829",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24751931",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22062970"
+  ],
+  "snippets": [
+    {
+      "text": " Conversely familial hypobetalipoproteinemia is caused by inactivation of the PCSK9 gene which increases the number of LDL receptors and decreases plasma cholesterol.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26546829",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mutations in the genes APOB, and ANGPTL3 and ANGPTL4 (that encode angiopoietin-like proteins which inhibit lipoprotein lipase activity) can further cause low levels of apoB containing lipoproteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26546829",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Several mutations in the apoB, proprotein convertase subtilisin/kexin type 9 (PCSK9), and MTP genes result in low or absent levels of apoB and LDL-cholesterol in plasma, which cause familial hypobetalipoproteinemia and abetalipoproteinemia. Mutations in the ANGPTL3 gene cause familial combined hypolipidemia. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24751931",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mutations of the ANGPTL3 gene have been associated with a novel form of primary hypobetalipoproteinemia, the combined hypolipidemia (cHLP), characterized by low total cholesterol and low HDL-cholesterol levels. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22247256",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results demonstrated that in a cohort of subjects with severe primary hypobetalipoproteinemia the prevalence of ANGPTL3 gene mutations responsible for a combined hypolipidemia phenotype is about 10%, whereas mutations of APOB gene are absent.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22247256",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Angptl3 knockout mice have marked hypolipidemia, and heterozygous carriers of ANGPLT3, loss-of-function mutations were found among individuals in the lowest quartile of plasma triglycerides in population studies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22062970",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Complete ANGPTL3 deficiency caused by loss-of-function mutations of ANGPTL3 is associated with a recessive hypolipidemia characterized by a reduction of apolipoprotein B and apolipoprotein A-I-containing lipoproteins, changes in subclasses of high-density lipoprotein, and reduced cholesterol efflux potential of serum.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22062970",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "PCSK9, APOB, ANGPTL3, ANGPTL4, MTP"
+}

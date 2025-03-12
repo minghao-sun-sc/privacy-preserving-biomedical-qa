@@ -1,0 +1,48 @@
+{
+  "id": "5a9e2386de7cb99d40000004",
+  "type": "factoid",
+  "question": "What is the drug forxiga used for?",
+  "ideal_answer": "Dapagliflozin (Forxiga\u00ae) is the first in a novel class of glucose-lowering agents known as sodium-glucose co-transporter-2 (SGLT2) inhibitors and is used in the treatment of patients with type 2 diabetes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23170914",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28383856",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24030968",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25389049",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25402624",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25418019"
+  ],
+  "snippets": [
+    {
+      "text": "Dapagliflozin (forxiga\u00ae) : SGLT 2 cotransporter inhibitor as glucose-lowering agent in type 2 diabetes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28383856",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Dapagliflozin (DAPA) (Farxiga or Forxiga) is a sodium glucose cotransporter 2 (SGLT2) inhibitor approved for type 2 diabetes mellitus(T2DM) treatment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25418019",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dapagliflozin (Forxiga) belongs to a new class of oral glucose-lowering drugs that inhibit renal glucose reabsorption and promote glycosuria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24030968",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dapagliflozin (Forxiga\u00ae) is the first in a novel class of glucose-lowering agents known as sodium-glucose co-transporter-2 (SGLT2) inhibitors and is used in the treatment of patients with type 2 diabetes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23170914",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "antidiabetic drug Forxiga (dapagliflozin)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25402624",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Treatment of patients with type 2 diabetes."
+}

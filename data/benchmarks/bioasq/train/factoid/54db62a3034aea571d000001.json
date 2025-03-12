@@ -1,0 +1,93 @@
+{
+  "id": "54db62a3034aea571d000001",
+  "type": "factoid",
+  "question": "Which is the main calcium pump of the sarcoplasmic reticulum?",
+  "ideal_answer": "Sarcoplasmic reticulum Ca(2+)-ATPase (SERCA) is the pump crucial for calcium homeostasis. SERCA is a membrane protein that belongs to the family of P-type ion translocating ATPases and pumps free cytosolic calcium into intracellular stores.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25531267",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24807223",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24170972",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22482463",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24164241",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21674635",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17584678",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22821874"
+  ],
+  "snippets": [
+    {
+      "text": "sarcoplasmic reticulum (SR) calcium pump (SERCA)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25531267",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the sarco/endoplasmic reticulum Ca(2+)-ATPase (SERCA)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24807223",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SERCA, an endoplasmic reticulum (ER) calcium pump, is solely responsible for transporting cytosolic calcium into the ER lumen.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24807223",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sarcoplasmic reticulum Ca(2+)-ATPase (SERCA) is the pump crucial for calcium homeostasis and its impairment results in pathologies such as myopathy, heart failure or diabetes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24170972",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sarcoplasmic reticulum calcium ATPase (SERCA2a), the sarcoplasmic reticulum calcium pump, was found to be a key factor in the alteration of calcium cycling.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24164241",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The calcium pump SERCA2a (sarcoplasmic reticulum calcium ATPase 2a), which plays a central role in cardiac contraction, shows decreased expression in heart failure (HF).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22482463",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Calcium is actively accumulated in the endoplasmic reticulum by Sarco/Endoplasmic Reticulum Calcium transport ATPases (SERCA enzymes).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21674635",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "sarco(endo)plasmic reticulum calcium pump (SERCA)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17584678",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SERCA is a membrane protein that belongs to the family of P-type ion translocating ATPases and pumps free cytosolic calcium into intracellular stores.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17584678",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Three different SERCA genes were identified-SERCA1, SERCA2, and SERCA3. SERCA is mainly represented by the SERCA2a isoform in the heart.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17584678",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The sarcoplasmic reticulum Ca\ufffdz ATPase (SERCA) is a membrane-bound pump that utilizes ATP to drive calcium ions from the myocyte cytosol against the higher calcium concentration in the sarcoplasmic reticulum.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22821874",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/ATC1_DROPS",
+    "http://www.uniprot.org/uniprot/ATC1_DROME",
+    "http://www.uniprot.org/uniprot/ATC1_ANOGA",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005388",
+    "http://www.uniprot.org/uniprot/ATC_ARTSF",
+    "http://www.uniprot.org/uniprot/ATCL_BACSU"
+  ],
+  "exact_answer": "Sarcoplasmic reticulum Ca(2+)-ATPase, SERCA, serca2"
+}

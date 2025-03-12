@@ -1,0 +1,87 @@
+{
+  "id": "5fe31301a43ad31278000039",
+  "type": "factoid",
+  "question": "Which yeast genes encode for condensin?",
+  "ideal_answer": "Smc2-Smc4 forms the core of the Saccharomyces cerevisiae condensin, which promotes metaphase chromosome compaction . Both SMC2 and SMC4 are essential for chromosome transmission in anaphase . Smc 2-8 suppresses catenanes accumulation, mitotic arrest and growth defects induced by histone depletion at semi-permissive temperature .",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26904946",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16100111",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12783798",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10811823",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25300489",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12719426",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11846874",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10749931",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10485849"
+  ],
+  "snippets": [
+    {
+      "text": "Condensin Smc2-Smc4 Dimers Are Flexible and Dynamic.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26904946",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we probe the topology of Smc2-Smc4 dimers of the S. cerevisiae condensin complex with high-speed atomic force microscopy (AFM) in liquid",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26904946",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Interestingly, SAC activation is suppressed by the absence of Top2 and Smc2, an essential component of condensin. Indeed, smc2-8 suppresses catenanes accumulation, mitotic arrest and growth defects induced by histone depletion at semi-permissive temperature",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25300489",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To better understand the contributions that the structural maintenance of chromosome proteins (SMCs) make to condensin activity, we have tested a number of biochemical, biophysical, and DNA-associated attributes of the Smc2p-Smc4p pair from budding yeast. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12719426",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Smc2/4 forms the core of the Saccharomyces cerevisiae condensin, which promotes metaphase chromosome compaction",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16100111",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Both SMC2 and SMC4 are essential for chromosome transmission in anaphase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10811823",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we demonstrate that three TTN genes encode chromosome scaffold proteins of the condensin (SMC2) and cohesin (SMC1 and SMC3) classes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11846874",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we demonstrate that three TTN genes encode chromosome scaffold proteins of the condensin (SMC2) and cohesin (SMC1 and SMC3) classes. These prot",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11846874",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ", and Cnd3, three non-SMC subunits showing a high degree of sequence conservation to frog subunits, are essential for viability, and their gene disruption leads to a phenotype indistinguishable from that observed in cut3-477 and cut14-208, known mutations in SMC4 and SMC2-like subunits. Condensin subunit",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10485849",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "e core subunits of the complex are members of the SMC2 (Structural Maintenance of Chromosomes) and SMC4 gene families. We ha",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12783798",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Temperature-sensitive mutations of BRN1 can be suppressed by overexpression of a novel gene YCG1, which is homologous to another Xenopus condensin subunit, XCAP-G. Overexpression of SMC2, a gene necessary for chromosome condensation, and a homologue of the XCAP-E condensin, does not suppress brn1, pointing to functional specialization of components of the condensin complex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10749931",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Smc2/4"
+}

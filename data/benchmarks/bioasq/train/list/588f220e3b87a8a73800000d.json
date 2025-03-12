@@ -1,0 +1,19 @@
+{
+  "id": "588f220e3b87a8a73800000d",
+  "type": "list",
+  "question": "List available circular RNA prediction tools.",
+  "ideal_answer": "circRNA_finder, find_circ, CIRCexplorer, CIRI, and MapSplice.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26657634"
+  ],
+  "snippets": [
+    {
+      "text": "CircRNAs are novel members of the non-coding RNA family. For several decades circRNAs have been known to exist, however only recently the widespread abundance has become appreciated. Annotation of circRNAs depends on sequencing reads spanning the backsplice junction and therefore map as non-linear reads in the genome. Several pipelines have been developed to specifically identify these non-linear reads and consequently predict the landscape of circRNAs based on deep sequencing datasets. Here, we use common RNAseq datasets to scrutinize and compare the output from five different algorithms; circRNA_finder, find_circ, CIRCexplorer, CIRI, and MapSplice and evaluate the levels of bona fide and false positive circRNAs based on RNase R resistance. By this approach, we observe surprisingly dramatic differences between the algorithms specifically regarding the highly expressed circRNAs and the circRNAs derived from proximal splice sites. Collectively, this study emphasizes that circRNA annotation should be handled with care and that several algorithms should ideally be combined to achieve reliable predictions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26657634",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "circRNA_finder, find_circ, CIRCexplorer, CIRI, MapSplice"
+}

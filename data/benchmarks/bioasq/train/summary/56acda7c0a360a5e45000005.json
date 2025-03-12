@@ -1,0 +1,44 @@
+{
+  "id": "56acda7c0a360a5e45000005",
+  "type": "summary",
+  "question": "What is the definition of minimal absent words?",
+  "ideal_answer": "An absent word of a word y of length n is a word that does not occur in y. It is a minimal absent word if all its proper factors occur in y. Minimal absent words have been computed in genomes of organisms from all domains of life; their computation also provides a fast alternative for measuring approximation in sequence comparison.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19426495",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22974263",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25526884"
+  ],
+  "snippets": [
+    {
+      "text": " We show how absent words relate to the repetitions and structure of the data, and define a new and larger class of absent words, called minimal absent words, that still captures the essential properties of the shortest absent words introduced in recent works. The words of this new class are minimal in the sense that if their leftmost or rightmost character is removed, then the resulting word is no longer an absent word. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19426495",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "An absent word (also called a forbidden word or an unword in other contexts) in a sequence is a segment that does not appear in the given sequence. It is a minimal absent word if all its proper factors occur in the given sequence.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22974263",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "An absent word of a word y of length n is a word that does not occur in y. It is a minimal absent word if all its proper factors occur in y. Minimal absent words have been computed in genomes of organisms from all domains of life; their computation also provides a fast alternative for measuring approximation in sequence comparison.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25526884",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " We show how absent words relate to the repetitions and structure of the data, and define a new and larger class of absent words, called minimal absent words, that still captures the essential properties of the shortest absent words introduced in recent works. The words of this new class are minimal in the sense that if their leftmost or rightmost character is removed, then the resulting word is no longer an absent word.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19426495",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show how absent words relate to the repetitions and structure of the data, and define a new and larger class of absent words, called minimal absent words, that still captures the essential properties of the shortest absent words introduced in recent works. The words of this new class are minimal in the sense that if their leftmost or rightmost character is removed, then the resulting word is no longer an absent word.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19426495",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

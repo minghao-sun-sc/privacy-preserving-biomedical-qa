@@ -1,0 +1,38 @@
+{
+  "id": "6027434c1cb411341a0000dc",
+  "type": "yesno",
+  "question": "Is gabapentin effective for chronic pelvic pain?",
+  "ideal_answer": "Based on data from multicentre, randomised, double-blind, placebo-controlled trial (GaPP2), treatment with gabapentin did not result in significantly lower pain scores in women with chronic pelvic pain, and was associated with higher rates of side-effects than placebo.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32979978",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34193515"
+  ],
+  "snippets": [
+    {
+      "text": "There were no significant between-group differences in both worst and average numerical rating scale (NRS) pain scores at 13-16 weeks after randomisation. The mean worst NRS pain score was 7\u00b71 (standard deviation [SD] 2\u00b76) in the gabapentin group and 7\u00b74 (SD 2\u00b72) in the placebo group. Mean change from baseline was -1\u00b74 (SD 2\u00b73) in the gabapentin group and -1\u00b72 (SD 2\u00b71) in the placebo group (adjusted mean difference -0\u00b720 [97\u00b75% CI -0\u00b781 to 0\u00b742]; p=0\u00b747). The mean average NRS pain score was 4\u00b73 (SD 2\u00b73) in the gabapentin group and 4\u00b75 (SD 2\u00b72) in the placebo group. Mean change from baseline was -1\u00b71 (SD 2\u00b70) in the gabapentin group and -0\u00b79 (SD 1\u00b78) in the placebo group (adjusted mean difference -0\u00b718 [97\u00b75% CI -0\u00b771 to 0\u00b735]; p=0\u00b745).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32979978",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "INTERPRETATION: This study was adequately powered, but treatment with gabapentin did not result in significantly lower pain scores in women with chronic pelvic pain, and was associated with higher rates of side-effects than placebo. Given the increasing reports of abuse and evidence of potential harms associated with gabapentin use, it is important that clinicians consider alternative treatment options to off-label gabapentin for the management of chronic pelvic pain and no obvious pelvic pathology.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32979978",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Gabapentin not effective for chronic pelvic pain in women.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34193515",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Gabapentin not effective for chronic pelvic pain in women",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34193515",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

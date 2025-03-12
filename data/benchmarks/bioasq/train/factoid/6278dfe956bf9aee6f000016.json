@@ -1,0 +1,48 @@
+{
+  "id": "6278dfe956bf9aee6f000016",
+  "type": "factoid",
+  "question": "Which disease phenotype has the worst prognosis in Duchenne Muscular Dystrophy?",
+  "ideal_answer": "A strong association between the risk of cognitive disability and the involvement of groups of DMD isoforms was found. In particular, improvements in the correlation of FSIQ with mutation location were identified when a new classification system for mutations affecting the Dp140 isoform was implemented.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34342696",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1865568",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15637982",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21178099",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32791185",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20098710"
+  ],
+  "snippets": [
+    {
+      "text": " A strong association between the risk of cognitive disability and the involvement of groups of DMD isoforms was found. In particular, improvements in the correlation of FSIQ with mutation location were identified when a new classification system for mutations affecting the Dp140 isoform was implemented.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20098710",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The ACTN3 577XX Null Genotype Is Associated with Low Left Ventricular Dilation-Free Survival Rate in Patients with Duchenne Muscular Dystrophy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32791185",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "These results suggest that patients with Duchenne muscular dystrophy with defective cDMD have more severe disease than those without cDMD deficit.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1865568",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Osteopontin genotype is a genetic modifier of disease severity in Duchenne dystrophy. Inclusion of genotype data as a covariate or in inclusion criteria in DMD clinical trials would reduce intersubject variance, and increase sensitivity of the trials, particularly in older subjects.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21178099",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SPP1 genotype is a determinant of disease severity in Duchenne muscular dystrophy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21178099",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Dp140 isoform"
+}

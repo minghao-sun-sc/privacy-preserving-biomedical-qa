@@ -1,0 +1,62 @@
+{
+  "id": "5e3c69c9b5b409ea53000021",
+  "type": "list",
+  "question": "As of 2019, what type of cancer is commonly associated with ionizing radiation",
+  "ideal_answer": "Ionizing radiation is commonly associated with lung cancer, prostate cancer, breast cancer, cervical intraepithelial neoplasia and oral squamous cell carcinoma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19145669",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20518663",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20921829",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24597745",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25536554",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7029300",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26436129",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22077339"
+  ],
+  "snippets": [
+    {
+      "text": "Because latency period for different nosological forms of radiation-induced malignant tumors varies widely, profound attention in further studies should be drawn not only to thyroid, breast cancers and leukemia, but also to malignancies with longer latent period: lung, stomach, colon, ovary, urinary bladder, kidney cancer and multiple myeloma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25536554",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "e highest risk of radiation- induced breast cancer is evidenced in the sub-population of female patients who have undergone radiotherapy for either malignant or non-malignant diseases",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19145669",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " This study provides strong evidence of positive associations between protracted low-dose radiation exposure and leukaemia.FU",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26436129",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "By contrast, osteosarcoma may be caused by external or internal ionizing radiation, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7029300",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ionizing radiation exposure is a risk factor for development of esophageal squamous cell carcinoma , a histological subtype of esophageal cancer that is highly aggressive and is associated with poor patient prognosis . ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22077339",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Breast cancer ( BC ) is the most common type of malignancy in female patients and radio-treatment is the conventional therapy even if a great number of studies reported that enhanced sensitivity to ionizing radiation as measured as chromosome effects is present in a significant proportion of cancer patients , including breast cancer ones . ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20921829",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Overall, there was a positive association between radiation and the combined category of cancer of the renal parenchyma, renal pelvis and ureters (ERR/Sv = 0.60, 90% CI: 0.09, 1.30).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20518663",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "thyroid cancer, Breast Cancer, leukemia, osteosarcoma, lung, prostate, oral, stomach, colon, bladder, ovary, multiple myeloma, kidney, esophageal squamous cell carcinoma"
+}

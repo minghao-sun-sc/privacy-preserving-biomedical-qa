@@ -1,0 +1,30 @@
+{
+  "id": "6032536a1cb411341a00013b",
+  "type": "summary",
+  "question": "Describe LowMACA",
+  "ideal_answer": "LowMACA (Low frequency Mutations Analysis via Consensus Alignment) is a method that combines the mutations of various proteins sharing the same functional domains to identify conserved residues that harbor clustered mutations in multiple sequence alignments. LowMACA is designed to visualize and statistically assess potential driver mutations through the identification of their mutational hotspots. Low MACA is an R package available at http://www.bioconductor.org/packages/release/bioc/html/LowMCCC.html.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26860319"
+  ],
+  "snippets": [
+    {
+      "text": "LowMACA: exploiting protein family analysis for the identification of rare driver mutations in cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26860319",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The increasing availability of resequencing data has led to a better understanding of the most important genes in cancer development. Nevertheless, the mutational landscape of many tumor types is heterogeneous and encompasses a long tail of potential driver genes that are systematically excluded by currently available methods due to the low frequency of their mutations. We developed LowMACA (Low frequency Mutations Analysis via Consensus Alignment), a method that combines the mutations of various proteins sharing the same functional domains to identify conserved residues that harbor clustered mutations in multiple sequence alignments. LowMACA is designed to visualize and statistically assess potential driver genes through the identification of their mutational hotspots.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26860319",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LowMACA is a software for the identification of gain-of-function mutations in putative oncogenic families, increasing the amount of information on functional domains and their possible role in cancer. In this context LowMACA emphasizes the role of genes mutated at low frequency otherwise undetectable by classical single gene analysis. LowMACA is an R package available at http://www.bioconductor.org/packages/release/bioc/html/LowMACA.html. It is also available as a GUI standalone downloadable at: https://cgsb.genomics.iit.it/wiki/projects/LowMACA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26860319",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

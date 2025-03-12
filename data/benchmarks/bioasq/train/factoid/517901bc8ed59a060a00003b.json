@@ -1,0 +1,66 @@
+{
+  "id": "517901bc8ed59a060a00003b",
+  "type": "factoid",
+  "question": "The antibodies MK-3475 and CT-011 have shown promising results in treating malignancies. Which protein are they targeting?",
+  "ideal_answer": "Modulation of the immune system by targeting coinhibitory and costimulatory receptors has become a promising new approach of immunotherapy for cancer. OBJECTIVE: CT-011 is a humanized IgG1 monoclonal antibody that modulates the immune response through interaction with PD-1, a protein belonging to the B7 receptor family present on lymphocytes. The objectives of this phase I study were to assess the dose-limiting toxicities, to determine the maximum tolerated dose, and to study the pharmacokinetics of CT-011 administered once to patients with advanced hematologic malignancies. We have developed a cancer vaccine in which autologous tumor is fused with dendritic cells resulting in the presentation of tumor antigens in the context of DC-mediated costimulation. The median t1/2 of CT-011 ranged from 217 to 410 hours. The PD1/PDL1 pathway is an important element contributing to tumor-mediated immune suppression. The recent approval of the CTLA-4-blocking antibody ipilimumab for the treatment of melanoma was a watershed event, opening up a new era in the field of immunotherapy. T-cell expression of programmed death receptor-1 down-regulates the immune response against malignancy by interacting with cognate ligands ( eg, PD-L1 ) on tumor cells; however, little is known regarding PD-1 and natural killer ( NK ) cells. ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23460532",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20460501",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21577144",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23263823",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21710477",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18483370"
+  ],
+  "snippets": [
+    {
+      "text": "we find that using an anti-PD-1 antibody (CT-011)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21710477",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "PD-1 blockade by CT-011, anti-PD-1 antibody,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21577144",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": ". Presence of CT-011, an anti-PD1 antibody,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21577144",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "CT-011, a novel monoclonal anti-PD-1 antibody",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20460501",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "CT-011, a humanized antibody interacting with PD-1,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18483370",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Anti-PD1 (nivolumab and MK-3475)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23460532",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "anti-PD-1 antibodies MK-3475",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23263823",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000918",
+    "http://www.disease-ontology.org/api/metadata/DOID:1909",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008545",
+    "http://www.disease-ontology.org/api/metadata/DOID:4159",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D058950"
+  ],
+  "exact_answer": "PD-1"
+}

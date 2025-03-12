@@ -1,0 +1,40 @@
+{
+  "id": "5e6e8f92c6a8763d23000004",
+  "type": "factoid",
+  "question": "How large is a lncRNAs?",
+  "ideal_answer": "lncRNAs are defined as RNA transcripts longer than 200 nucleotides that are not transcribed into proteins",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27098144",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27510368",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27933111",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26308238"
+  ],
+  "snippets": [
+    {
+      "text": " lncRNAs are defined as RNA transcripts longer than 200 nucleotides that are not transcribed into proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27510368",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "lncRNAs are the nonprotein coding RNAs that have a size longer than 200 nucleotides. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27098144",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Long noncoding RNAs (lncRNAs) are more than 200 nucleotides in length and lack transcriptional ability.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27933111",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " long noncoding RNA (lncRNA, >200 nucleotides)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26308238",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": ">200 nucleotides"
+}

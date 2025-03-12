@@ -1,0 +1,92 @@
+{
+  "id": "52ed264a98d023950500002f",
+  "type": "summary",
+  "question": "Provide examples of how molecular transporters contribute to multi-drug resistance in bacteria.",
+  "ideal_answer": "MDR efflux pumps began causing clinical problems relatively recently, in parallel with the extensive use of antibiotics in medicine and as supplements in animal feeds. However, our analyses indicate that these MDR efflux pumps did not arise through recent mutations in genes encoding transporters that changed their substrate specificities.\n\nInstead, such MDR pumps are encoded within the genomes of virtually all microorganisms, so these genes are present and thus need only to be activated to become problematic. Moreover, lateral transfer of genes among bacteria has occurred frequently, particularly for plasmid-encoded systems, suggesting that such genes can be acquired fairly readily even if they are not initially present. Finally, although mutations that enable transporters to act on different types of substrate are rare, experiments and phylogenetic analyses indicate that simple point mutations can readily narrow or broaden a particular transporter's specificity toward a single class of compounds (e.g., sugars, amino acids, or drugs).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23746717",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24056102",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23755047",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22053181",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24123816",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24297686",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16290174",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23894076",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23870163",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24014018",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23742803"
+  ],
+  "snippets": [
+    {
+      "text": " One of the common mechanisms of multidrug resistance in eukaryotic cells is the active efflux of a broad range of xenobiotics through ATP-binding cassette (ABC) transporters.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24297686",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Overall, the phylogenetic diversity of As-resistant bacteria in underground water was very limited if compared with lentic and lotic waters. Lastly, our molecular data support the hypothesis that the horizontal gene transfer of ars in As-containing freshwater environments is not limited to closely-related genomes, but also occurs between bacteria that are distant from an evolutionary viewpoint, thereby indicating that such genetic events may be considered a source of microbial resistance to arsenic-toxicity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23870163",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We postulate that the RND transporter All3143 and the predicted membrane fusion protein All3144, as homologs of E. coli AcrB and AcrA, respectively, are major players for antibiotic resistance in Anabaena sp. PCC 7120.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24014018",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These observations suggest a physiological association between c-di-AMP and the MDR transporters and support the model that MDR transporters mediate c-di-AMP secretion to regulate peptidoglycan synthesis in response to cell wall stress.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24056102",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our data suggest that SmbFT truly displays immunity function and confer protection against Smb and structurally similar lantibiotics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24123816",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This study indicates that the tetA gene decreases sensitivity to tigecycline in Salmonella spp. at a low level. With additional resistance mechanisms, tetA-carrying strains can reach the breakpoint for tigecycline resistance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23746717",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Efflux pump inhibitors may inhibit the major AcrAB-TolC in Salmonella efflux systems which are the major efflux pumps responsible for multidrug resistance in Gram-negative clinical isolates.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23742803",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "(RND)-type efflux transporters play the main role in intrinsic resistance to various antimicrobial agents in many gram-negative bacteria. Here, we estimated 12 RND-type efflux transporter genes in Vibrio parahaemolyticus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23894076",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0008559",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0042493",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0015238",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004364",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D024881",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004351",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004352",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0015893",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006810",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:2001023",
+    "http://www.uniprot.org/uniprot/RDR1_YEAST",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0009816",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0090484",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006855",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D024901",
+    "http://www.biosemantics.org/jochem#4264759",
+    "http://www.uniprot.org/uniprot/PDR1_YEAST",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:2001025",
+    "http://www.uniprot.org/uniprot/AB29G_ARATH",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:2001024",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001419"
+  ]
+}

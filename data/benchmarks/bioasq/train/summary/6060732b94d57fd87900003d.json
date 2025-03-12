@@ -1,0 +1,60 @@
+{
+  "id": "6060732b94d57fd87900003d",
+  "type": "summary",
+  "question": "Describe ReactomeGSA",
+  "ideal_answer": "ReactiveomeGSA is a novel resource for comparative pathway analyses of multi-omics datasets. Data from different species is automatically mapped to a common pathway space. Public data from ExpressionAt Atlas and Single Cell ExpressionAtlas can be directly integrated in the analysis. reactomegSA greatly reduces the technical barrier for multi-CSF, cross-species, and Comparative Pathways analysis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32907876"
+  ],
+  "snippets": [
+    {
+      "text": "ReactomeGSA - Efficient Multi-Omics Comparative Pathway Analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32907876",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Pathway analyses are key methods to analyze 'omics experiments. Nevertheless, integrating data from different 'omics technologies and different species still requires considerable bioinformatics knowledge.Here we present the novel ReactomeGSA resource for comparative pathway analyses of multi-omics datasets. ReactomeGSA can be used through Reactome's existing web interface and the novel ReactomeGSA R Bioconductor package with explicit support for scRNA-seq data. Data from different species is automatically mapped to a common pathway space. Public data from ExpressionAtlas and Single Cell ExpressionAtlas can be directly integrated in the analysis. ReactomeGSA greatly reduces the technical barrier for multi-omics, cross-species, comparative pathway analyses.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32907876",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pathway analyses are key methods to analyze 'omics experiments. Nevertheless, integrating data from different 'omics technologies and different species still requires considerable bioinformatics knowledge.Here we present the novel ReactomeGSA resource for comparative pathway analyses of multi-omics datasets. ReactomeGSA can be used through Reactome's existing web interface and the novel ReactomeGSA R Bioconductor package with explicit support for scRNA-seq data. Data from different species is automatically mapped to a common pathway space. Public data from ExpressionAtlas and Single Cell ExpressionAtlas can be directly integrated in the analysis. ReactomeGSA greatly reduces the technical barrier for multi-omics, cross-species, comparative pathway analyses.We used ReactomeGSA to characterize the role of B cells in anti-tumor immunity. We compared B cell rich and poor human cancer samples from five of the Cancer Genome Atlas (TCGA) transcriptomics and two of the Clinical Proteomic Tumor Analysis Consortium (CPTAC) proteomics studies. B cell-rich lung adenocarcinoma samples lacked the otherwise present activation through NFkappaB. This may be linked to the presence of a specific subset of tumor associated IgG+ plasma cells that lack NFkappaB activation in scRNA-seq data from human melanoma. This showcases how ReactomeGSA can derive novel biomedical insights by integrating large multi-omics datasets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32907876",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ReactomeGSA greatly reduces the technical barrier for multi-omics, cross-species, comparative pathway analyses.We used ReactomeGSA to characterize the role of B cells in anti-tumor immunity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32907876",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This showcases how ReactomeGSA can derive novel biomedical insights by integrating large multi-omics datasets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32907876",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ReactomeGSA - Efficient Multi-Omics Comparative Pathway Analysis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32907876",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "ReactomeGSA can be used through Reactome's existing web interface and the novel ReactomeGSA R Bioconductor package with explicit support for scRNA-seq data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32907876",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nevertheless, integrating data from different 'omics technologies and different species still requires considerable bioinformatics knowledge.Here we present the novel ReactomeGSA resource for comparative pathway analyses of multi-omics datasets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32907876",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

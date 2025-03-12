@@ -1,0 +1,82 @@
+{
+  "id": "5509df4ac2af5d5b70000003",
+  "type": "yesno",
+  "question": "Is amiodarone a class I anti-arrhythmic drug?",
+  "ideal_answer": "Although considered to be a class III anti-arrhythmic, amiodarone also has class I, II and IV actions, which gives it a unique pharmacological and anti-arrhythmic profile",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15989900",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20041841",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17352036",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21626366",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12491809",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11825323",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21728182"
+  ],
+  "snippets": [
+    {
+      "text": "Common class I agents are excluded due to the inherent abnormal cardiac structure and function in the setting of cardiogenic shock. Class III drug options include dofetilide and amiodarone.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21626366",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Amiodarone has been used as an anti-arrhythmic drug since the 1970s and has an established role in the treatment of ventricular tachyarrhythmias. Although considered to be a class III anti-arrhythmic, amiodarone also has class I, II and IV actions, which gives it a unique pharmacological and anti-arrhythmic profile. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11825323",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Amiodarone, an iodinated benzofuran derivative, introduced in 1960's as an anti-anginal agent, emerged as a potent anti-arrhythmic agent by 1970's and is currently one of the most commonly prescribed drugs in US for ventricular and atrial arrhythmias. Although amiodarone is considered a class III anti-arrhythmic agent, it also has class I, II, IV actions, making it a unique and effective anti-arrhythmic agent.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20041841",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Amiodarone, a representative class III agent, exerts negative dromotropism by suppressing the fast sodium current responsible for conduction in acute administration (class I effects). Chronic amiodarone causes prolongation of ERP (class III effects), which is sometimes associated with negative dromotropism based on the alteration of passive or active membrane properties.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12491809",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Amiodarone, an iodinated benzofuran derivative with predominantly class III anti-arrhythmic effects, is used to treat supraventricular and ventricular arrhythmias.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21728182",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although amiodarone is considered a class III anti-arrhythmic agent, it also has class I, II, IV actions, making it a unique and effective anti-arrhythmic agent",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20041841",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Amiodarone, a class III antiarrhythmic drug, is one of the most effective drugs used in the treatment of ventricular and paroxysmal supraventricular tachyarrhythmia",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17352036",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although amiodarone is considered a class III anti-arrhythmic agent, it also has class I, II, IV actions, making it a unique and effective anti-arrhythmic agent",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20041841",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although considered to be a class III anti-arrhythmic, amiodarone also has class I, II and IV actions, which gives it a unique pharmacological and anti-arrhythmic profile",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11825323",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Amiodarone is a potent class III anti-arrhythmic drug that also possesses beta-blocking properties",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15989900",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4274241",
+    "http://www.biosemantics.org/jochem#4075064"
+  ],
+  "exact_answer": "Yes"
+}

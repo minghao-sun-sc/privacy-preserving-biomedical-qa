@@ -1,0 +1,67 @@
+{
+  "id": "5319a752b166e2b806000027",
+  "type": "yesno",
+  "question": "Are DNA helicases involved in progeroid syndromes?",
+  "ideal_answer": "Yes, mutations in genes coding for DNA helicases were found to induce progeroid syndromes, such as Werner syndrome (WS) or Bloom syndrome (BS).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10984715",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17131053",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16987878",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15743670",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15734684"
+  ],
+  "snippets": [
+    {
+      "text": "Among these syndromes, relevant advances have recently been made in Werner syndrome, one of several progeroid syndromes characterized by defective DNA helicases,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17131053",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Progeroid syndromes (PSs) constitute a group of disorders characterized by clinical features mimicking physiological aging at an early age.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16987878",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, all the characterized PSs enter in the field of rare monogenic disorders and several causative genes have been identified. These can be separated in subcategories corresponding to (i) genes encoding DNA repair factors, in particular, DNA helicases, and (ii) genes affecting the structure or post-translational maturation of lamin A, a major nuclear component.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16987878",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "None of the known progerias represents true precocious ageing. Some of them, including Werner (WS), Bloom (BS), and Rothmund-Thomson syndromes (RTS) as well as combined xeroderma pigmentosa-Cockayne syndrome (XP-CS) are characterised by features resembling precocious ageing and the increased risk of malignant disease. Such phenotypes result from the mutations of the genes encoding proteins involved in the maintenance of genomic integrity, in most cases DNA helicases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15743670",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Single-gene mutations can produce human progeroid syndromes--phenotypes that mimic usual or \"normative\" aging.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15734684",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The prototypic example of the former is the Werner syndrome, a condition caused by mutations of the RecQ family of DNA helicases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15734684",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Progeria and progeroid syndromes are characterized by the earlier onset of complex senescent phenotypes. WRN was originally identified as a gene responsible for Werner syndrome (WS; \"Progeria of Adults\"). The WRN gene product has RecQ-type helicase domains in the central region of the protein.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10984715",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004265",
+    "http://www.disease-ontology.org/api/metadata/DOID:225",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0033202",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003057",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013577",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0003678",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D053484"
+  ],
+  "exact_answer": "Yes"
+}

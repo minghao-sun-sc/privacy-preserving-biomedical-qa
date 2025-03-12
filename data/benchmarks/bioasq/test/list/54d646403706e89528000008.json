@@ -1,0 +1,41 @@
+{
+  "id": "54d646403706e89528000008",
+  "type": "list",
+  "question": "List disorders that have been associated to the polymorphism rs2535629.",
+  "ideal_answer": "schizophrenia and major depressive disorder. ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22472876",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25461954",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24373612"
+  ],
+  "snippets": [
+    {
+      "text": "A recent genome-wide analysis indicated that a polymorphism (rs2535629) of ITIH3 showed the strongest association signal with susceptibility to psychiatric disorders in Caucasian populations. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24373612",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "he aim of the study was to replicate the association of rs2535629 with schizophrenia and major depressive disorder (MDD) in Japanese subjects. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24373612",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the MDD-bipolar cross-disorder analysis, 15 SNPs exceeded genome-wide significance (P<5 \u00d7 10(-8)), and all were in a 248\u2009kb interval of high LD on 3p21.1 (chr3:52\u2009425\u2009083-53\u2009822\u2009102, minimum P=5.9 \u00d7 10(-9) at rs2535629).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22472876",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, there was no preferential transmission at the ITIH3 rs52535629 polymorphism (\u03c7\u00b2=0.14, P=0.707).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25461954",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011110"
+  ],
+  "exact_answer": "schizophrenia, major depressive disorder"
+}

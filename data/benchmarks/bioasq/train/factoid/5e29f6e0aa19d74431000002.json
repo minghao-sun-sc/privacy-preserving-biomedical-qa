@@ -1,0 +1,75 @@
+{
+  "id": "5e29f6e0aa19d74431000002",
+  "type": "factoid",
+  "question": "Which disease category is LB-100 mostly assessed for?",
+  "ideal_answer": "LB-100 is designed to sensitize cancer cells to DNA damage from irradiation and chemotherapy. It is assessed for its therapeutic potential against cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26799670",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28039265",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29294092"
+  ],
+  "snippets": [
+    {
+      "text": "Protein phosphatase 2A inhibition enhances radiation sensitivity and reduces tumor growth in chordoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29294092",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "LB100 is a small-molecule inhibitor of PP2A designed to sensitize cancer cells to DNA damage from irradiation and chemotherapy. A recently completed phase I trial of LB100 in solid tumors demonstrated its safety. Here, we show the therapeutic potential of LB100 in chordoma",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29294092",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Animals implanted with chordoma cells and treated with the combination of LB100 and radiation demonstrated tumor growth delay.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29294092",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Combining LB100 and radiation enhanced DNA damage-induced cell death and delayed tumor growth in an animal model of chordoma. PP2A inhibition by LB100 treatment may improve the effectiveness of radiation therapy for chordoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29294092",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PP2A inhibition with LB100 enhances cisplatin cytotoxicity and overcomes cisplatin resistance in medulloblastoma cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26799670",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The protein phosphatase 2A (PP2A) inhibitor, LB100, has been shown in pre-clinical studies to be an effective chemo- and radio-sensitizer for treatment of various cancers. We investigated effects associated with LB100 treatment alone and in combination with cisplatin for medulloblastoma (MB) in vitro and in vivo in an intracranial xenograft model. We demonstrated that LB100 had a potent effect on MB cells. By itself, LB100 inhibited proliferation and induced significant apoptosis in a range of pediatric MB cell lines. It also attenuated MB cell migration, a pre-requirement for invasion. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26799670",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, LB100 exhibited potent in vivo anti-neoplastic activity in combination with cisplatin in an intracranial xenograft model.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26799670",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Safety, Tolerability, and Preliminary Activity of LB-100, an Inhibitor of Protein Phosphatase 2A, in Patients with Relapsed Solid Tumors: An Open-Label, Dose Escalation, First-in-Human, Phase I Trial.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28039265",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "To determine the MTD and to assess the safety, tolerability, and potential activity of LB-100, a first-in-class small-molecule inhibitor of protein phosphatase 2A (PP2A) in adult patients with progressive solid tumors",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28039265",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The safety, tolerability, preliminary evidence of antitumor activity, and novel mechanism of action of LB-100 support its continued development alone and in combination with other therapies. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28039265",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Cancer"
+}

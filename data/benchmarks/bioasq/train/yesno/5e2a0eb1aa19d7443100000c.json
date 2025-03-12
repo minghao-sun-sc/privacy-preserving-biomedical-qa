@@ -1,0 +1,19 @@
+{
+  "id": "5e2a0eb1aa19d7443100000c",
+  "type": "yesno",
+  "question": "Can PRL3-zumab inhibit PRL3+ cancer cells in vitro and in vivo?",
+  "ideal_answer": "PRL3-zumab specifically inhibits PRL3+ cancer cells in vivo, but not in vitro.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31171773"
+  ],
+  "snippets": [
+    {
+      "text": "Here we show that PRL3-zumab specifically inhibits PRL3+ cancer cells in vivo, but not in vitro.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31171773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

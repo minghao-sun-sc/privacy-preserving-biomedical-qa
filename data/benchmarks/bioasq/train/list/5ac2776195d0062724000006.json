@@ -1,0 +1,40 @@
+{
+  "id": "5ac2776195d0062724000006",
+  "type": "list",
+  "question": "List diseases caused by protein glutamine expanded repeats",
+  "ideal_answer": "Huntington's Disease,\ndentatorubral-pallidoluysian atrophy",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/9735324",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22905336",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10381356",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10434299"
+  ],
+  "snippets": [
+    {
+      "text": "Huntington's Disease (HD) is a fatally inherited neurodegenerative disorder caused by an expanded glutamine repeat in the N-terminal region of the huntingtin (HTT) protein. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22905336",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "An increasing number of neurodegenerative disorders have been found to be caused by expanding CAG triplet repeats that code for polyglutamine. Huntington's disease (HD) is the most common of these disorders and dentatorubral-pallidoluysian atrophy (DRPLA) is very similar to HD, but is caused by mutation in a different gene, making them good models to study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10434299",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dentatorubral-pallidoluysian atrophy (DRPLA) is caused by expansion of a glutamine repeat in DRPLA protein.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10381356",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The genetic defect in dentatorubral-pallidoluysian atrophy (DRPLA) is expansion of the CAG repeat. The mutant gene is translated into the protein which carries the expanded glutamine repeat.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9735324",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Huntington's Disease, Dentatorubral-pallidoluysian atrophy"
+}

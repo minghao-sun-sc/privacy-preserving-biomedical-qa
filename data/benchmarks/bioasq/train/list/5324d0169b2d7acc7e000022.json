@@ -1,0 +1,65 @@
+{
+  "id": "5324d0169b2d7acc7e000022",
+  "type": "list",
+  "question": "List FDA approved treatments for androgenetic allopecia",
+  "ideal_answer": "Recently, in addition to the two currently approved U.S. Food and Drug Administration (FDA) medications (minoxidil and finasteride), a novel device was FDA-approved for the treatment of hair loss, the laser hair comb.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24170634",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12410672",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20300365",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20426708",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15099321",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21061765",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20689478"
+  ],
+  "snippets": [
+    {
+      "text": "Topical minoxidil 2%-5% 1 mL twice daily or finasteride 1 mg daily are recommended as first line treatments, followed by the use of Food and Drug Administration-cleared HairMax LaserComb\u00ae in patients who do not respond to first line modalities.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24170634",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recently, in addition to the two currently approved U.S. Food and Drug Administration (FDA) medications (minoxidil and finasteride), a novel device was FDA-approved for the treatment of hair loss, the laser hair comb.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21061765",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, low-level light therapy (LLLT) has recently been approved by the United States Food and Drug Administration (FDA) for the treatment of hair loss. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20689478",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Currently there are two U.S. Food and Drug Administration (FDA)-approved agents that promote hair regrowth: over-the-counter topical minoxidil solution for men and women and prescription oral finasteride tablets for men. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12410672",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Topical monoxidil and oral finasteride are commonly in use and have FDA approval for the treatment of male androgenetic alopecia; dutasteride, a type I and II 5-alpha-reductase inhibitor, is on hold in Phase III trials.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20426708",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The only FDA-approved dermatological indication of finasteride is androgenetic alopecia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20300365",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finasteride (Propecia) was approved by the FDA in 1998 for treating men with androgenetic alopecia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15099321",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000505",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006201",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018859"
+  ],
+  "exact_answer": "Minoxidil, Finasteride, Laser hair comb"
+}

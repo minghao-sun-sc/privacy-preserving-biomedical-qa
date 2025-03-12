@@ -1,0 +1,149 @@
+{
+  "id": "533c390bc45e13371400000b",
+  "type": "factoid",
+  "question": "What is an acceptable sequence coverage(depth) required for human whole-exome sequencing?",
+  "ideal_answer": "A medium depth may be considered as 8x while the most common values vary between 30x and 60x. Values more than 75x or even up to 125x may be considered for the investigation of rare disease variants.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22038007",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21499249",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23160641",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23647072",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24290377",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23450047",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23272691",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22952768",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22156295",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23015295",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21654732",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21943378",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23357921",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23728943",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24065236",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22654895",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23349227",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23940558"
+  ],
+  "snippets": [
+    {
+      "text": "A total of 5.97 Gb clean data were generated for the two samples, achieving a mean depth of coverage of 31.96 and 32.88 for the AAA and normal samples, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24065236",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The 1.7 Mb targeted regions were sequenced with a coverage ranged from 32\u00d7 to 45\u00d7 for the 28 genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23940558",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We performed whole-exome sequencing on 87 HCCs and matched normal adjacent tissues to an average coverage of 59\u00d7",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23728943",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We performed WES (mean coverage approximately 40\u00d7) on 10 trios comprised of unaffected parents and a child with sporadic epilepsy characterized by difficult-to-control seizures and some combination of developmental delay, epileptic encephalopathy, autistic features, cognitive impairment, or motor deficits. Sequence processing and variant calling were performed using standard bioinformatics tools.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23647072",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Whole-exome sequencing achieved a high degree of coverage such that approximately 97% of targeted bases were represented by more than 10 base reads;",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23450047",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AbCD is a user-friendly interface providing pre-estimated effective sample sizes, specific to each minor allele frequency category, for designs with arbitrary coverage (0.5-30\u00d7) and sample size (20-10 000), and for four major ethnic groups (Europeans, Africans, Asians and African Americans). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23357921",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Next generation sequencing with mean coverage of 50\u00d7 using the Illumina Hi Seq and whole exome capture processing was performed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23349227",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mtDNA genome coverage varied depending on the mtDNA:nuclear blend ratio, where a 1:100 ratio provided optimal dual-genome coverage with 10X coverage for over 97.5% of all targeted nuclear regions and 1,000X coverage for 99.8% of the mtDNA genome. mtDNA mutations were reliably detected to at least an 8% heteroplasmy level, as discriminated both from sequencing errors and potential contamination from nuclear mtDNA transcripts (Numts).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23272691",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Each sample was sequenced to a mean depth of coverage of greater than 120\u00d7",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23015295",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Long-PCR targeting was more efficient with up to 94% of USH gene regions displaying an overall coverage higher than 25\u00d7, whereas whole exome sequencing yielded a similar coverage for only 50% of those regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22952768",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "WES reads covered 91% of the target capture region (of size 37.2\u2009MB) with an average coverage of 65\u00d7.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22654895",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We captured 162,073 exons of 16,954 genes and sequenced the targeted regions to a mean coverage of 56-fold.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22156295",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The specificity of exome enrichment was approximately 80% with 95.6% even coverage of the 34 Mb target region at an average sequencing depth of 33-fold",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22038007",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We generated over 4.7 GB of mappable sequence to a 125X read coverage per sample.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21943378",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "By massively parallel sequencing of a primary hepatitis C virus-positive hepatocellular carcinoma (36\u00d7 coverage) and matched lymphocytes (>28\u00d7 coverage) from the same individual, we identified more than 11,000 somatic substitutions of the tumor genome that showed predominance of T>C/A>G transition and a decrease of the T>C substitution on the transcribed strand, suggesting preferential DNA repair.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21499249",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Whole-exome sequencing at a higher sequence depth (>76\u00d7 coverage) revealed a TSC1 nonsense substitution in a subpopulation of the tumor cells. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21499249",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We sequenced the exomes of 1,000 Danish cases with common forms of type 2 diabetes (including body mass index\u00a0> 27.5\u00a0kg/m(2) and hypertension) and 1,000 healthy controls to an average depth of 56\u00d7.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24290377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We performed medium-depth (8\u00d7) whole exome sequencing in 1,000 cases with type 2 diabetes, BMI >27.5\u00a0kg/m(2) and hypertension and in 1,000 controls (stage 1)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23160641",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Next generation sequencing with mean coverage of 50\ufffd using the Illumina Hi Seq and whole exome capture processing was performed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23349227",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D059014",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006801",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017422",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D059472"
+  ],
+  "exact_answer": "30x-60x"
+}

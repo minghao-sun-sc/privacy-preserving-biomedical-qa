@@ -1,0 +1,56 @@
+{
+  "id": "56e05a7b51531f7e3300000d",
+  "type": "yesno",
+  "question": "Does PU.1 (SPI1) affect NF-kB binding?",
+  "ideal_answer": "Recent data demonstrate that developmental transcription factors like the macrophage fate-determining Pu.1 set the stage for the activity of ubiquitous transcription factors activated by inflammatory stimuli, like NF-kB, AP-1, and interferon regulatory factors (IRFs). Within 1217 bp of upstream sequence, 3 sites for NF-kB, 10 sites for NF-IL6, 15 sites for AP1, 6 sites for AP4, 2 sites for CHOP/CEBP alpha and 1 site for SP1 and PU.1 were identified.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19966852",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12020825",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7678251",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21245163",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8647196",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10023076"
+  ],
+  "snippets": [
+    {
+      "text": "Recent data demonstrate that developmental transcription factors like the macrophage fate-determining Pu.1 set the stage for the activity of ubiquitous transcription factors activated by inflammatory stimuli, like NF-kB, AP-1, and interferon regulatory factors (IRFs).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21245163",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Within 1217 bp of upstream sequence, 3 sites for NF-kB, 10 sites for NF-IL6, 15 sites for AP1, 6 sites for AP4, 2 sites for CHOP/CEBP alpha and 1 site for SP1 and PU.1 were identified.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12020825",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "As little as 82 bp of upstream sequence gave relatively strong luciferase activity, a region containing both a PU.1 and NF-kB site.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12020825",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Potential transcription regulatory elements, AP1, AP2, AP3, NF-kB and GATA recognition sequences, are located within 523 bp upstream of the p35 gene; however, no TATA box was identified. The p40 subunit gene consists of eight exons. A TATA box is located 30 bp upstream from the transcription start site, and AP1, AP3, GATA, and Pu.1 recognition sequences are located within 690 bp upstream of the p40 gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8647196",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Several putative binding sequences for ubiquitous (Sp1, AP-1, AP-2, and NF-kB) and leukocyte-specific (PU.1) transcription factors have been identified in the proximal region of the CD11c promoter which may participate in the regulation of the expression of p150,95.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7678251",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PU.1 is regulated by NF-kappaB through a novel binding site in a 17 kb upstream enhancer element.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19966852",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016328"
+  ],
+  "exact_answer": "Yes"
+}

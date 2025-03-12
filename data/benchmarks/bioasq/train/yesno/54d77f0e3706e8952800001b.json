@@ -1,0 +1,46 @@
+{
+  "id": "54d77f0e3706e8952800001b",
+  "type": "yesno",
+  "question": "Is cytisine superior to nicotine replacement therapy for smoking cessation?",
+  "ideal_answer": "Yes, one clinical trial that directly compared smoking cessation rates with cytisine versus nicotine replacement therapy reported that cytisine was  superior to nicotine-replacement therapy in helping smokers quit smoking, but it was associated with a higher frequency of self-reported adverse events.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22513936",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21154363",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17130378",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17220536",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25517706",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24831822",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24574554",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21328282",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22104038",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18076335",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17825502",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21385905",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18646137",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20040957",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23834141",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23404838",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17253581",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23978314",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23728690"
+  ],
+  "snippets": [
+    {
+      "text": "The effectiveness of cytisine for continuous abstinence was superior to that of nicotine-replacement therapy at 1 week, 2 months, and 6 months. In a prespecified subgroup analysis of the primary outcome, cytisine was superior to nicotine-replacement therapy among women and noninferior among men.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25517706",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: When combined with brief behavioral support, cytisine was found to be superior to nicotine-replacement therapy in helping smokers quit smoking, but it was associated with a higher frequency of self-reported adverse events.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25517706",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4273701",
+    "http://www.biosemantics.org/jochem#4251343"
+  ],
+  "exact_answer": "Yes"
+}

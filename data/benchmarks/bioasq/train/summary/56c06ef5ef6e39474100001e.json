@@ -1,0 +1,45 @@
+{
+  "id": "56c06ef5ef6e39474100001e",
+  "type": "summary",
+  "question": "What is the application of the ASSET algorithm in C.elegans?",
+  "ideal_answer": "ASSET (Algorithm for the Segmentation and the Standardization of C. elegans Time-lapse recordings) is a robust algorithm for the automated segmentation and standardization of early Caenorhabditis elegans embryos. It gathers quantitative information with subcellular precision in the early Caenorhabditis elegans embryo, which is an attractive model to investigate evolutionarily conserved cellular mechanisms. ASSET automatically detects the eggshell and the cell cortex from DIC time-lapse recordings of live one-cell-stage embryos and can also track subcellular structures using fluorescent time-lapse microscopy. Importantly, ASSET standardizes the data into an absolute coordinate system to allow robust quantitative comparisons between embryos.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21089077"
+  ],
+  "snippets": [
+    {
+      "text": "ASSET: a robust algorithm for the automated segmentation and standardization of early Caenorhabditis elegans embryos.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21089077",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The early Caenorhabditis elegans embryo is an attractive model to investigate evolutionarily conserved cellular mechanisms. However, there is a paucity of automated methods to gather quantitative information with subcellular precision in this system. We developed ASSET (Algorithm for the Segmentation and the Standardization of C. elegans Time-lapse recordings) to fill this need. ASSET automatically detects the eggshell and the cell cortex from DIC time-lapse recordings of live one-cell-stage embryos and can also track subcellular structures using fluorescent time-lapse microscopy. Importantly, ASSET standardizes the data into an absolute coordinate system to allow robust quantitative comparisons between embryos. We illustrate how ASSET can efficiently gather quantitative data on the motion of centrosomes and precisely track cortical invaginations, revealing hitherto unnoticed differences between wild-type and saps-1(RNAi) embryos. In summary, we establish ASSET as a novel tool for the efficient quantification and standardization of images from early C. elegans embryos.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21089077",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In summary, we establish ASSET as a novel tool for the efficient quantification and standardization of images from early C. elegans embryos.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21089077",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We developed ASSET (Algorithm for the Segmentation and the Standardization of C. elegans Time-lapse recordings) to fill this need. ASSET automatically detects the eggshell and the cell cortex from DIC time-lapse recordings of live one-cell-stage embryos and can also track subcellular structures using fluorescent time-lapse microscopy. Importantly, ASSET standardizes the data into an absolute coordinate system to allow robust quantitative comparisons between embryos. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21089077",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In summary, we establish ASSET as a novel tool for the efficient quantification and standardization of images from early C. elegans embryos.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21089077",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000465",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017173"
+  ]
+}

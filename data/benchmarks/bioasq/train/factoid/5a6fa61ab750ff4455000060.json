@@ -1,0 +1,46 @@
+{
+  "id": "5a6fa61ab750ff4455000060",
+  "type": "factoid",
+  "question": "Which tool exists for microsatellite (SSR) loci detection and primer design?",
+  "ideal_answer": "Microsatellites are genomic sequences comprised of tandem repeats of short nucleotide motifs widely used as molecular markers in population genetics. FullSSR is a new bioinformatic tool for microsatellite (SSR) loci detection and primer design using genomic data from NGS assay.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27366148"
+  ],
+  "snippets": [
+    {
+      "text": "FullSSR: Microsatellite Finder and Primer Designer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27366148",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Microsatellites are genomic sequences comprised of tandem repeats of short nucleotide motifs widely used as molecular markers in population genetics. FullSSR is a new bioinformatic tool for microsatellite (SSR) loci detection and primer design using genomic data from NGS assay.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27366148",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "FullSSR is a new bioinformatic tool for microsatellite (SSR) loci detection and primer design using genomic data from NGS assay.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27366148",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "FullSSR simplifies the detection of SSRs and primer design on a big data set.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27366148",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "FullSSR simplifies the detection of SSRs and primer design on a big data set.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27366148",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D018895",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D017931"
+  ],
+  "exact_answer": "FullSSR"
+}

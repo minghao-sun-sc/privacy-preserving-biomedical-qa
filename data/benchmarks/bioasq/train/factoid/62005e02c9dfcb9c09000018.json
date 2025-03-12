@@ -1,0 +1,25 @@
+{
+  "id": "62005e02c9dfcb9c09000018",
+  "type": "factoid",
+  "question": "Which tool has been developed for proteome-wide detection of membrane lipid-binding proteins?",
+  "ideal_answer": "MBPpred is a profile Hidden Markov Model based method capable of detecting Membrane Binding Proteins (MBPs) from information encoded in their amino acid sequence.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27048983"
+  ],
+  "snippets": [
+    {
+      "text": "MBPpred: Proteome-wide detection of membrane lipid-binding proteins using profile Hidden Markov Models.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27048983",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we report a profile Hidden Markov Model based method capable of detecting Membrane Binding Proteins (MBPs) from information encoded in their amino acid sequence, called MBPpred. The method identifies MBPs that contain one or more of the Membrane Binding Domains (MBDs) that have been described to date, and further classifies these proteins based on their position in respect to the membrane, either as peripheral or transmembrane. MBPpred is available online at http://bioinformatics.biol.uoa.gr/MBPpred. This method was applied in selected eukaryotic proteomes, in order to examine the characteristics they exhibit in various eukaryotic kingdoms and phyla.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27048983",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "MBPpred"
+}

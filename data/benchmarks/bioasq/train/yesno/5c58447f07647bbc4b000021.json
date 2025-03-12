@@ -1,0 +1,43 @@
+{
+  "id": "5c58447f07647bbc4b000021",
+  "type": "yesno",
+  "question": "Is the PINES framework being used for the prediction of coding variants?",
+  "ideal_answer": "No. PINES (Phenotype-Informed Noncoding Element Scoring) predicts the functional impact of noncoding variants by integrating epigenetic annotations in a phenotype-dependent manner. PINES enables analyses to be customized towards genomic annotations from cell types of the highest relevance given the phenotype of interest.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30359302"
+  ],
+  "snippets": [
+    {
+      "text": "PINES: phenotype-informed tissue weighting improves prediction of pathogenic noncoding variants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30359302",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we introduce the computational framework PINES (Phenotype-Informed Noncoding Element Scoring), which predicts the functional impact of noncoding variants by integrating epigenetic annotations in a phenotype-dependent manner. PINES enables analyses to be customized towards genomic annotations from cell types of the highest relevance given the phenotype of interest. We illustrate that PINES identifies functional noncoding variation more accurately than methods that do not use phenotype-weighted knowledge, while at the same time being flexible and easy to use via a dedicated web portal.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30359302",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we introduce the computational framework PINES (Phenotype-Informed Noncoding Element Scoring), which predicts the functional impact of noncoding variants by integrating epigenetic annotations in a phenotype-dependent manner.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30359302",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We illustrate that PINES identifies functional noncoding variation more accurately than methods that do not use phenotype-weighted knowledge, while at the same time being flexible and easy to use via a dedicated web portal.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30359302",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PINES enables analyses to be customized towards genomic annotations from cell types of the highest relevance given the phenotype of interest.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30359302",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

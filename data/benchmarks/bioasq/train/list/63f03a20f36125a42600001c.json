@@ -1,0 +1,39 @@
+{
+  "id": "63f03a20f36125a42600001c",
+  "type": "list",
+  "question": "Which drugs are included in the AZD7442?",
+  "ideal_answer": "AZD7442 is a combination of two long-acting monoclonal antibodies tixagevimab and cilgavimab. It has been authorized for the prevention and treatment of coronavirus disease 2019 (COVID-19).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35904210",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35914259",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35993765"
+  ],
+  "snippets": [
+    {
+      "text": "AZD7442, a combination of two long-acting monoclonal antibodies (tixagevimab [AZD8895] and cilgavimab [AZD1061]), has been authorized for the prevention and treatment of coronavirus disease 2019 (COVID-19). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35993765",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Intramuscular AZD7442 (tixagevimab-cilgavimab) for prevention of Covid-19. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35914259",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Association Between AZD7442 (Tixagevimab-Cilgavimab) Administration and Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Infection, Hospitalization, and Mortality.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35904210",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "BACKGROUND: Intramuscular AZD7442 (Tixagevimab-Cilgavimab, (Evusheld)) has been found effective among immunocompromised individuals (ICI) in reducing Sars-Cov-2 infection and severe disease in ICIs. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35904210",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "tixagevimab, cilgavimab"
+}

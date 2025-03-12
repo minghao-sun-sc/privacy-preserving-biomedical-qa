@@ -1,0 +1,107 @@
+{
+  "id": "5311b99ae3eabad021000004",
+  "type": "list",
+  "question": "Which medical diagnostic tests are used to test kidney function?",
+  "ideal_answer": "Most common tests used in diagnosing normal kidney function include blood tests such as serum creatinine levels, glomerular filtration rate (GFR) and blood urea nitrogen (BUN) levels, also medical imaging tests like ultrasound and CT Scan. Additionally kidney biopsy is used in more direct but invasive approach. Lastly, and probably the most relevant tests to kidney function are urine tests along the lines of urinalysis, urine protein levels and microalbuminuria creatinine clearance.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23526674",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22797727",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2510609",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23097569",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20978142",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22257305",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23194995",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23106053",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23952327",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22973348",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23449218",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23650931",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23521456"
+  ],
+  "snippets": [
+    {
+      "text": "kidney dysfunction and decreased glomerular filtration rate (GFR) are diagnosed by the evaluation of changes in the serum creatinine (SCr) and blood urea nitrogen (BUN) concentrations. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23952327",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Renal biomarkers, especially those present in urine, may be useful for the study of both acute and chronic nephropathies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23952327",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The International Renal Interest Society (IRIS) canine AKI grading system and the implementation of urinary biomarkers",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23952327",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Decreased tryptophan (TRP) and increased kynurenine (KYN) and kynurenic acid (KYNA) in blood have been reported in patients and experimental animals with renal diseases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23650931",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Acute kidney injury was defined as a decrease in estimated glomerular filtration rate of 50% or more from the beginning of vancomycin therapy. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23526674",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " In critically ill children, the development of reversible AKI during vancomycin therapy is associated with administration of nephrotoxic drugs and an elevated BUN: Scr ratio.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23526674",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The physiologic determination of renal status is the measured glomerular filtration rate (mGFR). Serum creatinine, blood urea nitrogen, cystatin C, and estimated GFR (eGFR), based on serum creatinine have failed to replace mGFR.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23521456",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "After kidney donation, renal function measured by blood urea nitrogen (BUN) and serum creatinine of all donors returned to normal within one week, and no serious complications were noticed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23106053",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " In living kidney donors GFR is not significantly correlated with age or sex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23106053",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Increased proteinuria would lead to a larger risk for renal failure in the long term",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22973348",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A reduction of proteinuria in patients with non-diabetic renal disease was observed during the 4-month treatment with pioglitazone which continued for 2 months after the cessation of the treatment. However, 4 months after the cessation of the treatment, a little increase was detected in the level of proteinuria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22973348",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We identify pleiotropic associations among these loci with kidney function-related traits and risk of CKD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22797727",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4273958",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0046449",
+    "http://www.uniprot.org/uniprot/CRNA_PSEPU",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0003093",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0003105",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0003104",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005919",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003404",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001806"
+  ],
+  "exact_answer": "Blood Tests, Imaging Tests, Kidney Biopsy, Urine Tests, estimated GFR (eGFR), Decreased tryptophan (TRP)"
+}

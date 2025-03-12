@@ -1,0 +1,96 @@
+{
+  "id": "52ea605098d0239505000028",
+  "type": "list",
+  "question": "Which gene mutations are responsible for isolated Non-compaction cardiomyopathy?",
+  "ideal_answer": "The gene mutations that have been shown to be the causes of isolated non-compaction cardiomyopathy are alpha-tropomyosin, alpha-tropomyosin, troponin T and desmoplakin",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21285074",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18159245",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23147248",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19438153",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14662268",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21604106",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20083571",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20542340",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21551322",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20386670",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23314057",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23074372",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18395448",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17101628",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22619057",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23800289",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19467449",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19028670",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22859017",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17956225",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24015429",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21894393",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21789513",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17947214"
+  ],
+  "snippets": [
+    {
+      "text": "A novel alpha-tropomyosin mutation associates with dilated and non-compaction cardiomyopathy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23147248",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We show that a mutation in TPM1 is associated with DCM and a lethal, early onset form of NCCM",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23147248",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mutation in MYH7B causes a classical LVNC phenotype",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23800289",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report on two prenatal ultrasound diagnoses of left ventricular non-compaction cardiomyopathy (LVNC) associated with mutation of the cardiac \u03b2-myosin heavy chain gene (MYH7)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22859017",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This novel homozygous truncating mutation in the isoform-1 specific region of the DSP C-terminus caused Carvajal syndrome comprising severe early-onset heart failure with features of non-compaction cardiomyopathy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21789513",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Severe familial left ventricular non-compaction cardiomyopathy due to a novel troponin T (TNNT2) mutation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20083571",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "we describe a family with LVNC due to a novel missense mutation, pE96K, in the cardiac troponin T gene",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20083571",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We describe, in two separate autosomal-dominant NCCM families, the identification of mutations in the sarcomeric cardiac beta-myosin heavy chain gene (MYH7)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17947214",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the molecular classification of cardiomyopathies includes an MYH7-associated spectrum of NCCM",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17947214",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009202",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050700",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005796",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056830",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009154"
+  ],
+  "exact_answer": "alpha-tropomyosin, TPM1, \u03b2-myosin heavy chain, MYH7, troponin T, TNNT2, pE96K mutation, Desmoplakin, DSP, mutation in the isoform-1 specific region of the DSP C-terminus, mindbomb homolog 1, MIB1, c.349G>A (p.D117N) in the ZASP gene"
+}

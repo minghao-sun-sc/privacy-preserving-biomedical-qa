@@ -1,0 +1,82 @@
+{
+  "id": "53188c12b166e2b80600001a",
+  "type": "summary",
+  "question": "What is the role of RhoA in bladder cancer?",
+  "ideal_answer": "In urinary bladder cancer, RhoA was more commonly found to be activated in the later stages of the disease. This activation was related to poor tumor differentiation, muscle invasion, lymph node metastasis, and shortened disease-free and overall survival.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19896475",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21054792",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18190825",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22006759",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12855641"
+  ],
+  "snippets": [
+    {
+      "text": "Alterations in RhoA, RhoB, RhoC, Rac1 and Cdc42 expression play a significant role in the genesis and progression of UCC of the urinary bladder.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22006759",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Published reports suggest that elevated RhoA/Rho-kinase signaling plays a role in the development of benign prostatic hyperplasia, erectile dysfunction, kidney failure, ejaculation disorders, prostate and bladder cancer initiation, and eventual metastasis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21054792",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The suppressive effect of Rho kinase inhibitor, Y-27632, on oncogenic Ras/RhoA induced invasion/migration of human bladder cancer TSGH cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19896475",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Our results provide evidence that Ras-induced RhoA and NF-kappaB activation was involved in the invasion/migration of bladder cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19896475",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Increased RHOA expression was more common in grade 3 than in grade 2 tumors (P = 0.016).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18190825",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RhoA, RhoC, and ROCK were more abundant in tumors and metastatic lymph nodes than in nontumor bladder and uninvolved lymph nodes (P < 0.0001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12855641",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "High RhoA, RhoC, and ROCK expression were related to poor tumor differentiation (P < 0.05, P < 0.01, and P < 0.01, respectively), muscle invasion (P < 0.001), and lymph node metastasis (P < 0.05).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12855641",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Kaplan-Meier plots linked high RhoA, RhoC, and ROCK protein expression to shortened disease-free and overall survival (P < 0.0001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12855641",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "By univariate analysis, high RhoA, RhoC, and ROCK protein expression predicted shortened disease-free and overall survival (P < 0.0001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12855641",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Overall survival in tumors invading muscle (T2 to T4; 44 patients) was significantly influenced by RhoA, RhoC, and ROCK in a Kaplan-Meier analysis (P < 0.0001, P < 0.0001, and P < 0.01, respectively).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12855641",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/RHOA_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001749",
+    "http://www.disease-ontology.org/api/metadata/DOID:4007",
+    "http://www.disease-ontology.org/api/metadata/DOID:11054",
+    "http://www.disease-ontology.org/api/metadata/DOID:7371"
+  ]
+}

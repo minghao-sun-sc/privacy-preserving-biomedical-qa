@@ -1,0 +1,46 @@
+{
+  "id": "5c7d6b3e45e140a523000001",
+  "type": "yesno",
+  "question": "Is there any approved treatment for NAFLD?",
+  "ideal_answer": "No,\nNonalcoholic fatty liver disease (NAFLD) is the most prevalent liver disease worldwide, and there is no approved pharmacotherapy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30016770",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29122694",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29448843",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29247356"
+  ],
+  "snippets": [
+    {
+      "text": "Non-alcoholic fatty liver disease (NAFLD) is the leading chronic hepatic condition worldwide and new approaches to management and treatment are limited.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30016770",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Non-alcoholic fatty liver disease (NAFLD) has become one of the most prominent forms of chronic liver disease worldwide, reflecting the epidemic of global obesity. Those with the progressive variant of NAFLD, non-alcoholic steatohepatitis (NASH), are at significantly increased risk of multisystem morbidity and mortality. However, there are currently no approved pharmacologic therapies for NASH.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29122694",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although much progress has been made in enhancing our understanding of NAFLD pathogenesis, development of pharmacologic treatments has been hindered by challenges in clinical trial enrollment and complexities in clinical trial design. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29122694",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nonalcoholic fatty liver disease (NAFLD) is the most prevalent liver disease worldwide, and there is no approved pharmacotherapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29247356",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nonalcoholic fatty liver disease (NAFLD) has an increasing prevalence worldwide. At present, no specific pharmacotherapy is approved for NAFLD. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29448843",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

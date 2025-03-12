@@ -1,0 +1,34 @@
+{
+  "id": "5a8a9abdfcd1d6a10c000019",
+  "type": "list",
+  "question": "List polyubiquitin binding proteins involved in NF-kappaB signaling.",
+  "ideal_answer": "NEMO\nA20\nABIN-1\nABIN-2\noptineurin\np62",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23509369",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23989959",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19285159",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18995839"
+  ],
+  "snippets": [
+    {
+      "text": "he discovery that NEMO is a polyubiquitin-binding protein and that the IKK complex is modulated by other protein kinases that are themselves controlled by polyubiquitin chains has provided a deeper molecular understanding of the non-degradative roles of ubiquitylation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23989959",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Essential roles of K63-linked polyubiquitin-binding proteins TAB2 and TAB3 in B cell activation via MAPKs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23509369",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Novel polyubiquitin binders AWP1, CALCOCO2, N4BP1, RIO3, TEX27, TTC3, UBFD1 and ZNF313 were identified using this approach, while known NF-kappaB regulators including NEMO, A20, ABIN-1, ABIN-2, optineurin and p62 were also identified",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19285159",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "NEMO, A20, ABIN-1, ABIN-2, optineurin, p62"
+}

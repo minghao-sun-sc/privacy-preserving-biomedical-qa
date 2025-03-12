@@ -1,0 +1,47 @@
+{
+  "id": "5c9e6407ecadf2e73f000034",
+  "type": "factoid",
+  "question": "Where is the protein protamine 2 expressed?",
+  "ideal_answer": "Human sperm express two types of protamine: protamine 1 (P1) and the family of protamine 2 (P2) proteins.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28666211",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24869677",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28748416",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25516990",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26801756"
+  ],
+  "snippets": [
+    {
+      "text": "This work aimed at investigating the effect of resveratrol on (1) DNA integrity and (2) fertilizing capacity of sperm by quantifying the presence of key paternal transcripts considered as markers for male fertility (protamine 1 [PRM1] and protamine 2 [PRM2]) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28748416",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "biomarkers associated with spermatogenesis, including azoospermia-like (DAZL), phosphoglycerate kinase 2 (PGK2), and protamine 2 (PRM2). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28666211",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Protamines are sperm nuclear proteins with a crucial role in chromatin condensation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26801756",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Expression of germ cell-specific proteins such as POU5F1, DAZL, TNP1, TNP2, PRM1 and PRM2",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25516990",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Human sperm express two types of protamine: protamine 1 (P1) and the family of protamine 2 (P2) proteins,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24869677",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "sperm cells"
+}

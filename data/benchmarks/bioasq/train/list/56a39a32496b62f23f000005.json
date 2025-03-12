@@ -1,0 +1,56 @@
+{
+  "id": "56a39a32496b62f23f000005",
+  "type": "list",
+  "question": "List packages for transcription factor binding sites' (TFBS) analysis available in R/Bioconductor",
+  "ideal_answer": "Neighbourhood Consistent PC (NCPC) algorithms, MMDiff and cosmo.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23144600",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17402923",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17550915",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24267901",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12176838"
+  ],
+  "snippets": [
+    {
+      "text": "Clustered occurrence of multiple TFs at genomic sites may arise from chromatin accessibility and local cooperation between TFs, or binding sites may simply appear clustered if the profiles are generated from diverse cell populations. Overlaps in TF binding profiles may also result from measurements taken at closely related time intervals. It is thus of great interest to distinguish TFs that directly regulate gene expression from those that are indirectly associated with gene expression. Graphical models, in particular Bayesian networks, provide a powerful mathematical framework to infer different types of dependencies. However, existing methods do not perform well when the features (here: TF binding profiles) are highly correlated, when their association with the biological outcome is weak, and when the sample size is small. Here, we develop a novel computational method, the Neighbourhood Consistent PC (NCPC) algorithms, which deal with these scenarios much more effectively than existing methods do. We further present a novel graphical representation, the Direct Dependence Graph (DDGraph), to better display the complex interactions among variables. NCPC and DDGraph can also be applied to other problems involving highly correlated biological features. Both methods are implemented in the R package ddgraph, available as part of Bioconductor",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23144600",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we present MMDiff, a robust, broadly applicable method for detecting differences between sequence count data sets. Based on quantifying shape changes in signal profiles, it overcomes challenges imposed by the highly structured nature of the data and the paucity of replicates",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24267901",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Supervised detection of conserved motifs in DNA sequences with cosmo",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17402923",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We here introduce an algorithm, called cosmo, that allows this search to be supervised by specifying a set of constraints that the position weight matrix of the unknown motif must satisfy. Such constraints may be formulated, for example, on the basis of prior knowledge about the structure of the transcription factor in question. The algorithm is based on the same two-component multinomial mixture model used by MEME, with stronger reliance, however, on the likelihood principle instead of more ad-hoc criteria like the E-value",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17402923",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "dPattern: transcription factor binding site (TFBS) discovery in human genome using a discriminative pattern analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17550915",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "TFBS: Computational framework for transcription factor binding site analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12176838",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0008134",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001665"
+  ],
+  "exact_answer": "Neighbourhood Consistent PC (NCPC) algorithms, MMDiff, cosmo, dPattern, TFBS"
+}

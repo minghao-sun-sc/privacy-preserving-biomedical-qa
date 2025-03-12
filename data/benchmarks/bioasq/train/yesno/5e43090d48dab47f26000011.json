@@ -1,0 +1,33 @@
+{
+  "id": "5e43090d48dab47f26000011",
+  "type": "yesno",
+  "question": "Are stem cell transplants used to treat acute kidney injury?",
+  "ideal_answer": "Yes, stem cell transplantation is becoming the treatment of choice for complicated acute kidney injury.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25640064",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22892486",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28411358"
+  ],
+  "snippets": [
+    {
+      "text": "Animal studies have shown that mesenchymal stromal cell (MSC) infusions improve acute kidney injury (AKI) outcomes when administered early after ischemic/reperfusion injury or within 24 hours after cisplatin administration.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25640064",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Early Diagnostic Markers for Detection of Acute Kidney Injury in Allogeneic Hematopoietic Stem Cell Transplant Recipients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28411358",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Risk assessment for acute kidney injury after allogeneic hematopoietic stem cell transplantation based on Acute Kidney Injury Network criteria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22892486",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

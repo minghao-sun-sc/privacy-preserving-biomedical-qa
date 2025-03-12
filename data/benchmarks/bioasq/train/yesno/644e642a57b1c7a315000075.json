@@ -1,0 +1,87 @@
+{
+  "id": "644e642a57b1c7a315000075",
+  "type": "yesno",
+  "question": "Do all proteins start with methionine?",
+  "ideal_answer": "All proteins do not necessarily start with methionine, but it is common for eukaryotic and archaeal proteins to begin with this amino acid. During the initiation of translation, the first codon in the mRNA sequence is typically an AUG codon, which codes for methionine. This process is facilitated by the initiator tRNA (tRNAi^Met) that carries methionine and recognizes the start codon. However, there are exceptions to this rule. In some cases, alternative start codons such as CUG, GUG, or UUG can be used to initiate translation in both prokaryotes and eukaryotes. These alternative start codons usually code for amino acids like leucine or valine instead of methionine. Additionally, post-translational modifications can occur after protein synthesis, leading to the removal of the initial methionine or its modification into another amino acid like acetylated methionine or formylmethionine (fMet), which is commonly found in bacterial proteins. Therefore, while many proteins do initially start with methionine due to the canonical AUG start codon, there are exceptions where alternative initiation events or post-translational modifications result in proteins that do not begin with this amino acid.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28369664",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8199241",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15215523",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36173861",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28334756",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11738381",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12867081",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9710598",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21266472"
+  ],
+  "snippets": [
+    {
+      "text": "The use of several translation initiation codons in a single mRNA, by expressing several proteins from a single gene, contributes to the generation of protein diversity. A small, yet growing, number of mammalian mRNAs initiate translation from a non-AUG codon, in addition to initiating at a downstream in-frame AUG codon. Translation initiation on such mRNAs results in the synthesis of proteins harbouring different amino terminal domains potentially conferring on these isoforms distinct functions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12867081",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In eukaryotes, it is generally assumed that translation initiation occurs at the AUG codon closest to the messenger RNA 5' cap. However, in certain cases, initiation can occur at codons differing from AUG by a single nucleotide, especially the codons CUG, UUG, GUG, ACG, AUA and AUU. While non-AUG initiation has been experimentally verified for a handful of human genes, the full extent to which this phenomenon is utilized--both for increased coding capacity and potentially also for novel regulatory mechanisms--remains unclear.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21266472",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The removal of N-terminal translation initiator Met by methionine aminopeptidase (MetAP) is often crucial for the function and stability of proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15215523",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Protein synthesis is initiated by methionine in eukaryotes and by formylmethionine in prokaryotes. N-terminal methionine can be co-translationally cleaved by the enzyme methionine aminopeptidase (MAP).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28369664",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our understanding of translation underpins our capacity to engineer living systems. The canonical start codon (AUG) and a few near-cognates (GUG, UUG) are considered as the 'start codons' for translation initiation in Escherichia coli.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28334756",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Translation from non-canonical start codons ranged from 0.007 to 3% relative to translation from AUG.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28334756",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Protein synthesis is initiated universally with the amino acid methionine. In Escherichia coli, studies with anticodon sequence mutants of the initiator methionine tRNA have shown that protein synthesis can be initiated with several other amino acids. In eukaryotic systems, however, a yeast initiator tRNA aminoacylated with isoleucine was found to be inactive in initiation in mammalian cell extracts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9710598",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results show that in the presence of the corresponding mutant initiator tRNAs, AGG and GUC can initiate protein synthesis in COS1 cells with methionine and valine, respectively. CAG initiates protein synthesis with glutamine but extremely poorly, whereas UAG could not be used to initiate protein synthesis with glutamine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9710598",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Methionine is the universal translation start but the first methionine is removed from most mature proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8199241",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Protein synthesis generally starts with a methionine that is removed during translation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36173861",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Most mature proteins do not retain their initial N-terminal amino acid (methionine in the cytosol and N-formyl methionine in the organelles).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11738381",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

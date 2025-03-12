@@ -1,0 +1,33 @@
+{
+  "id": "606b3b6794d57fd879000064",
+  "type": "yesno",
+  "question": "Is the glucocorticoid receptor a transcription factor?",
+  "ideal_answer": "Yes,\nThe glucocorticoid receptor (GR) is a ligand-activated transcription factor that translocates to the nucleus upon hormone stimulation and distributes between the nucleoplasm and membraneless compartments named nuclear foci.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32487073",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31689103",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31776270"
+  ],
+  "snippets": [
+    {
+      "text": "GR and KLF4, both pioneer transcription factors,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31776270",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The glucocorticoid receptor (GR) is a ligand-binding dependent transcription factor that ultimately regulates vital biological processes and inflammation response through specific gene expression control, thus representing a notable drug target to explore. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31689103",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The glucocorticoid receptor (GR) is a ligand-activated transcription factor that translocates to the nucleus upon hormone stimulation and distributes between the nucleoplasm and membraneless compartments named nuclear foci.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32487073",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

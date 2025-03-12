@@ -1,0 +1,42 @@
+{
+  "id": "5c60382ac01990ff41000002",
+  "type": "summary",
+  "question": "Describe the 4D-CHAINS algorithm",
+  "ideal_answer": "4D-CHAINS/autoNOE-Rosetta is a complete pipeline for NOE-driven structure determination of medium- to larger-sized proteins. The 4D-CHAINS algorithm analyzes two 4D spectra recorded using a single, fully protonated protein sample in an iterative ansatz where common NOEs between different spin systems supplement conventional through-bond connectivities to establish assignments of sidechain and backbone resonances at high levels of completeness and with a minimum error rate. The 4D-CHAINS assignments are then used to guide automated assignment of long-range NOEs and structure refinement in autoNOE-Rosetta.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29374165"
+  ],
+  "snippets": [
+    {
+      "text": "Here, we describe 4D-CHAINS/autoNOE-Rosetta, a complete pipeline for NOE-driven structure determination of medium- to larger-sized proteins. The 4D-CHAINS algorithm analyzes two 4D spectra recorded using a single, fully protonated protein sample in an iterative ansatz where common NOEs between different spin systems supplement conventional through-bond connectivities to establish assignments of sidechain and backbone resonances at high levels of completeness and with a minimum error rate. The 4D-CHAINS assignments are then used to guide automated assignment of long-range NOEs and structure refinement in autoNOE-Rosetta. Our results on four targets ranging in size from 15.5 to 27.3\u2009kDa illustrate that the structures of proteins can be determined accurately and in an unsupervised manner in a matter of days.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29374165",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The 4D-CHAINS algorithm analyzes two 4D spectra recorded using a single, fully protonated protein sample in an iterative ansatz where common NOEs between different spin systems supplement conventional through-bond connectivities to establish assignments of sidechain and backbone resonances at high levels of completeness and with a minimum error rate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29374165",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we describe 4D-CHAINS/autoNOE-Rosetta, a complete pipeline for NOE-driven structure determination of medium- to larger-sized proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29374165",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we describe 4D-CHAINS/autoNOE-Rosetta, a complete pipeline for NOE-driven structure determination of medium- to larger-sized proteins. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29374165",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The 4D-CHAINS algorithm analyzes two 4D spectra recorded using a single, fully protonated protein sample in an iterative ansatz where common NOEs between different spin systems supplement conventional through-bond connectivities to establish assignments of sidechain and backbone resonances at high levels of completeness and with a minimum error rate. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29374165",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

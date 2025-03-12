@@ -1,0 +1,26 @@
+{
+  "id": "6025d88c1cb411341a0000b6",
+  "type": "yesno",
+  "question": "Is vocimagene amiretrorepvec effective for glioblastoma?",
+  "ideal_answer": "No. Treatment with vocimagene amiretrorepvec did not improve survival of glioblastoma patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32816892",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33119048"
+  ],
+  "snippets": [
+    {
+      "text": "CONCLUSIONS: These results support an immune-related mechanism of action for Toca 511 and Toca FC, and suggest that molecular and immunologic signatures are related to clinical benefit from treatment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32816892",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The median OS was 11.10 months for the Toca 511/FC group and 12.22 months for the control group (hazard ratio, 1.06; 95% CI 0.83, 1.35; P\u2009=\u2009.62). The secondary end points did not demonstrate statistically significant differences. The rates of adverse events were similar in the Toca 511/FC group and the SOC control group.Conclusions and Relevance: Among patients who underwent tumor resection for first or second recurrence of glioblastoma or anaplastic astrocytoma, administration of Toca 511 and Toca FC, compared with SOC, did not improve overall survival or other efficacy end points.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33119048",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

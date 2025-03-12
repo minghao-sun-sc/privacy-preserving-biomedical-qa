@@ -1,0 +1,33 @@
+{
+  "id": "5e48e0e0f8b2df0d49000001",
+  "type": "yesno",
+  "question": "Are gut microbiota profiles altered by irradiation?",
+  "ideal_answer": "Yes, \tIrradiation profoundly impacted gut microbiota profiles",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30343431",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30430918",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30459840"
+  ],
+  "snippets": [
+    {
+      "text": "Specific Members of the Gut Microbiota are Reliable Biomarkers of Irradiation Intensity and Lethality in Large Animal Models of Human Health.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30430918",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Irradiation profoundly impacted gut microbiota profiles in both animals.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30343431",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our findings suggest that gut symbiont-based probiotics can be used as agents for reversing radiation-induced ecological fitness decrease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30459840",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

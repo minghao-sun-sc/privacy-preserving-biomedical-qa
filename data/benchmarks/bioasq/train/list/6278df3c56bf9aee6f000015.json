@@ -1,0 +1,85 @@
+{
+  "id": "6278df3c56bf9aee6f000015",
+  "type": "list",
+  "question": "Which models are used for predicting disease progression in Duchenne Muscular Dystrophy?",
+  "ideal_answer": "Longitudinal changes in biomarkers were modeled with a cumulative distribution function using a nonlinear mixed-effects approach.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30571821",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28643370",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31960231",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22248373",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32184340",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6863354",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34877803"
+  ],
+  "snippets": [
+    {
+      "text": "Modeling disease trajectory in Duchenne muscular dystrophy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32184340",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Longitudinal changes in biomarkers were modeled with a cumulative distribution function using a nonlinear mixed-effects approach.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32184340",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Developing a Natural History Progression Model for Duchenne Muscular Dystrophy Using the Six-Minute Walk Test",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28643370",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "jective of this study was to enhance the quantitative understanding of DMD disease progression through nonlinear mixed effects modeling of the population mean and variability of the 6-min walk test (6MWT) clinical endpoint. An ind",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31960231",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Latent process model of the 6-minute walk test in Duchenne muscular dystrophy : A Bayesian approach to quantifying rare disease progression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31960231",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " objective was to inform the design of DMD clinical trials by developing a disease progression model-based clinical trial simulation (CTS) platform based on measures commonly used in DMD trials. Dat",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34877803",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Model simulations using age demographics from a previous DMD natural history study could reasonably predict the trend in improvement and decline in the 6MWT.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28643370",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Data from the records of fifty patients were analyzed by linear and multiple regression. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/6863354",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "multiple logistic regression analysis on routine clinical data was performed to identify parameters that can find abnormal LV contraction, and to develop a weighted scoring system.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22248373",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Kaplan Meier survival analysis was applied, where global survival was defined between birth and age of death. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30571821",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "he determinant factors analyzed were estimated through the Cox-Snell's proportional risk model.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30571821",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "cumulative distribution function using a non-linear mixed effects approach, nonlinear mixed-effects, latent process models, bayesian models, linear regression model, multiple regression model, multiple logistic regression model, Kaplan-Meier survival analysis, Cox-Snell's proportional risk model"
+}

@@ -1,0 +1,87 @@
+{
+  "id": "55031406e9bde69634000021",
+  "type": "summary",
+  "question": "What is the risk in G-CSF treatment for severe congenital neutropenia?",
+  "ideal_answer": "Severe congenital neutropenia is a rare hematological condition causing severe chronic neutropenia. Treatment with the myeloid growth factor, granulocyte-colony stimulating factor (G-CSF) is usually effective, but the dose of G-CSF required to normalize blood neutrophils varies greatly. Ten to thirty percent of the patients evolve to develop acute myeloid leukemia or myelodysplastic syndromes, necessitating careful clinical monitoring.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15642668",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20456363",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20237318",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22371884",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21052952",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12555210"
+  ],
+  "snippets": [
+    {
+      "text": "We obtained serial hematopoietic samples from an SCN patient who developed AML 17 years after the initiation of G-CSF treatment. Next- generation sequencing was performed to identify mutations during disease progression. In the AML phase, we found 12 acquired nonsynonymous mutations. Three of these, in CSF3R, LLGL2, and ZC3H18, co-occurred in a subpopulation of progenitor cells already in the early SCN phase. This population expanded over time, whereas clones harboring only CSF3R mutations disappeared from the BM. The other 9 mutations were only apparent in the AML cells and affected known AML-associated genes (RUNX1 and ASXL1) and chromatin remodelers (SUZ12 and EP300). In addition, a novel CSF3R mutation that conferred autonomous proliferation to myeloid progenitors was found. We conclude that progression from SCN to AML is a multistep process, with distinct mutations arising early during the SCN phase and others later in AML development. The sequential gain of 2 CSF3R mutations implicates abnormal G-CSF signaling as a driver of leukemic transformation in this case of SCN",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22371884",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This chapter focuses on cyclic and congenital neutropenia, two very interesting and rare hematological conditions causing severe chronic neutropenia. Both disorders respond well to treatment with the myeloid growth factor, granulocyte colony-stimulating factor (G-CSF)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21052952",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Treatment with G-CSF is usually effective, but the dose of G-CSF required to normalize blood neutrophils varies greatly. Ten to thirty percent of severe congenital neutropenia patients evolve to develop acute myeloid leukemia, necessitating careful clinical monitoring.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21052952",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In severe congenital neutropenia (SCN), long-term therapy with granulocyte colony-stimulating factor (G-CSF) has reduced mortality from sepsis, revealing an underlying predisposition to myelodysplastic syndrome and acute myeloid leukaemia (MDS/AML)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20456363",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Granulocyte colony-stimulating factor (G-CSF) therapy has significantly reduced the frequency and severity of infections, but its possible influence on the risk of malignancy is not known",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15642668",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "No septic deaths occurred during G-CSF therapy. Thirteen cases of MDS/AL were recorded. The cumulative incidence of MDS/AL was 2.7% (SD 1.3%) at 10 years and 8.1% (SD 2.7%) at 20 years",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15642668",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Owing to their particular susceptibility to infections, patients with severe congenital neutropenia had the strongest exposure to G-CSF; the risk of leukemia increased with the degree of G-CSF exposure in this subgroup",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15642668",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Stable long-term risk of leukaemia in patients with severe congenital neutropenia maintained on G-CSF therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20456363",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "This specifically applies to children with severe congenital neutropenia who receive lifelong treatment with G-CSF and in which the high susceptibility to develop MDS and acute myeloid leukemia (AML) has now become a major clinical concern.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20237318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Owing to their particular susceptibility to infections, patients with severe congenital neutropenia had the strongest exposure to G-CSF; the risk of leukemia increased with the degree of G-CSF exposure in this subgroup.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15642668",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "As of January 1, 2000, myelodysplasia (MDS) or acute myelogenous leukemia (AML) has occurred in 35 of 387 patients with congenital neutropenia with a cumulative risk of 13% after 8 years of G-CSF treatment",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12555210",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4250245",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050590",
+    "http://www.uniprot.org/uniprot/CSF3_CANFA"
+  ]
+}

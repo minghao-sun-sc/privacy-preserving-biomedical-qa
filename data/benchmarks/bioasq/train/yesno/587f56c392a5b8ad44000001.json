@@ -1,0 +1,41 @@
+{
+  "id": "587f56c392a5b8ad44000001",
+  "type": "yesno",
+  "question": "Are deletions of chromosomal regulatory boundaries associated with congenital disease?",
+  "ideal_answer": "Yes. Enhancer adoption caused by deletions of regulatory boundaries may contribute to a substantial minority of copy-number variation phenotypes and should thus be taken into account in their medical interpretation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25315429"
+  ],
+  "snippets": [
+    {
+      "text": "Deletions of chromosomal regulatory boundaries are associated with congenital disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25315429",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Our results suggest that enhancer adoption caused by deletions of regulatory boundaries may contribute to a substantial minority of copy-number variation phenotypes and should thus be taken into account in their medical interpretation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25315429",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Deletions of chromosomal regulatory boundaries are associated with congenital disease",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25315429",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Deletions of chromosomal regulatory boundaries are associated with congenital disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25315429",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002872",
+    "http://www.disease-ontology.org/api/metadata/DOID:1086",
+    "http://www.disease-ontology.org/api/metadata/DOID:0080014"
+  ],
+  "exact_answer": "Yes"
+}

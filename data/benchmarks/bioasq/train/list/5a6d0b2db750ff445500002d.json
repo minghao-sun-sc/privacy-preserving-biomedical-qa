@@ -1,0 +1,30 @@
+{
+  "id": "5a6d0b2db750ff445500002d",
+  "type": "list",
+  "question": "Which factors drive replisome disassembly during DNA replication termination and mitosis?",
+  "ideal_answer": "CUL-2LRR-1 and UBXN-3.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28368371"
+  ],
+  "snippets": [
+    {
+      "text": "Using Caenorhabditis elegans early embryos and Xenopus laevis egg extracts, we show that the E3 ligase CUL-2LRR-1associates with the replisome and drives ubiquitylation and disassembly of CMG, together with the CDC-48 cofactors UFD-1 and NPL-4. Removal of CMG from chromatin in frog egg extracts requires CUL2 neddylation, and our data identify chromatin recruitment of CUL2LRR1as a key regulated step during DNA replication termination. Interestingly, however, CMG persists on chromatin until prophase in worms that lack CUL-2LRR-1, but is then removed by a mitotic pathway that requires the CDC-48 cofactor UBXN-3, orthologous to the human tumour suppressor FAF1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28368371",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CUL-2 and UBXN-3 drive replisome disassembly during DNA replication termination and\u00a0mitosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28368371",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0006274",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D004261",
+    "http://amigo.geneontology.org/amigo/term/GO:0030894",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D008938"
+  ],
+  "exact_answer": "CUL-2LRR-1, UBXN-3"
+}

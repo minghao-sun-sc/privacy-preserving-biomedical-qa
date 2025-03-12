@@ -1,0 +1,40 @@
+{
+  "id": "589635dd78275d0c4a000009",
+  "type": "factoid",
+  "question": "Which tool is used for the identification of recurrent variants in noncoding regions?",
+  "ideal_answer": "LARVA is an integrative framework for large-scale analysis of recurrent variants in noncoding annotations. It integrates variants with a comprehensive set of noncoding functional elements, modeling the mutation counts of the elements with a \u03b2-binomial distribution to handle overdispersion. LARVA, moreover, uses regional genomic features such as replication timing to better estimate local mutation rates and mutational hotspots. Furthermore, LARVA highlights several novel highly mutated regulatory sites that could potentially be noncoding drivers.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26304545"
+  ],
+  "snippets": [
+    {
+      "text": "LARVA: an integrative framework for large-scale analysis of recurrent variants in noncoding annotations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26304545",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In cancer research, background models for mutation rates have been extensively calibrated in coding regions, leading to the identification of many driver genes, recurrently mutated more than expected. Noncoding regions are also associated with disease; however, background models for them have not been investigated in as much detail. This is partially due to limited noncoding functional annotation. Also, great mutation heterogeneity and potential correlations between neighboring sites give rise to substantial overdispersion in mutation count, resulting in problematic background rate estimation. Here, we address these issues with a new computational framework called LARVA. It integrates variants with a comprehensive set of noncoding functional elements, modeling the mutation counts of the elements with a \u03b2-binomial distribution to handle overdispersion. LARVA, moreover, uses regional genomic features such as replication timing to better estimate local mutation rates and mutational hotspots. We demonstrate LARVA's effectiveness on 760 whole-genome tumor sequences, showing that it identifies well-known noncoding drivers, such as mutations in the TERT promoter. Furthermore, LARVA highlights several novel highly mutated regulatory sites that could potentially be noncoding drivers. We make LARVA available as a software tool and release our highly mutated annotations as an online resource (larva.gersteinlab.org).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26304545",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LARVA: an integrative framework for large-scale analysis of recurrent variants in noncoding annotations",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26304545",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "LARVA: an integrative framework for large-scale analysis of recurrent variants in noncoding annotations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26304545",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000071184",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012045"
+  ],
+  "exact_answer": "LARVA"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "621e59ce3a8413c65300004c",
+  "type": "factoid",
+  "question": "Which tool has been developed to identify the glycan shielding of glycosylated proteins?",
+  "ideal_answer": "GLYCO (GLYcan COverage) is an in silico approach to quantify the glycan shielding of a protein surface. The software provides insights into glycan-dense/sparse regions of the entire protein surface or a subset of the protein surface. GLYCO calculates glycan shielding from a single coordinate file or from multiple coordinate files, for instance, as obtained from molecular dynamics simulations or by nuclear magnetic resonance spectroscopy structure determination, enabling analysis of glycan dynamics.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34864901"
+  ],
+  "snippets": [
+    {
+      "text": "GLYCO: a tool to quantify glycan shielding of glycosylated proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34864901",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we developed an in silico approach, GLYCO (GLYcan COverage), to quantify the glycan shielding of a protein surface. The software provides insights into glycan-dense/sparse regions of the entire protein surface or a subset of the protein surface. GLYCO calculates glycan shielding from a single coordinate file or from multiple coordinate files, for instance, as obtained from molecular dynamics simulations or by nuclear magnetic resonance spectroscopy structure determination, enabling analysis of glycan dynamics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34864901",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "GLYCO"
+}

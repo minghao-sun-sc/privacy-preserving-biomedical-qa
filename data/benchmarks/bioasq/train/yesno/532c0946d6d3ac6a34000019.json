@@ -1,0 +1,38 @@
+{
+  "id": "532c0946d6d3ac6a34000019",
+  "type": "yesno",
+  "question": "Are there focused databases from which you can retrieve gene expression data on renal disease?",
+  "ideal_answer": "Biological databases are used to store and edit large amount of data, created from genomics data. In the most of the cases the data are stored according to their type but there are cases of focused databases that store database on a specific disease. In the case of renal disease there are plenty of databases, for example KUPKB a collection of omics datasets, Nephromine a renal genome-wide gene expression dataset based in transcriptomics, CDKD and Proteomics Database in Chronic Kidney Disease.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20616184",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23593176",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19604367",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19703314",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21044771",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21930502",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21143788",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17877839"
+  ],
+  "snippets": [
+    {
+      "text": "Proteomics database in chronic kidney disease",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21044771",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Naturally occurring human urinary peptides for use in diagnosis of chronic kidney disease",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20616184",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020869",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D059467",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051436",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007674",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015870"
+  ],
+  "exact_answer": "Yes"
+}

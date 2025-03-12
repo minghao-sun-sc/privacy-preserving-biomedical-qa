@@ -1,0 +1,46 @@
+{
+  "id": "5cf7835fa49efeb44c000011",
+  "type": "summary",
+  "question": "What is the purpose of the LINCS Project?",
+  "ideal_answer": "The Library of Integrated Network-Based Cellular Signatures (LINCS) project aims to create a network-based understanding of biology by cataloging changes in gene expression and signal transduction that occur when cells are exposed to a variety of perturbations.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24518066",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27796074",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28769090",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30255785",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25036040"
+  ],
+  "snippets": [
+    {
+      "text": "The Library of Integrated Cellular Signatures (LINCS) project provides comprehensive transcriptome profiling of human cell lines before and after chemical and genetic perturbations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27796074",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The National Institutes of Health Library of Integrated Network-based Cellular Signatures (LINCS) program is generating extensive multidimensional data sets, including biochemical, genome-wide transcriptional, and phenotypic cellular response signatures to a variety of small-molecule and genetic perturbations with the goal of creating a sustainable, widely applicable, and readily accessible systems biology knowledge resource.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24518066",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Library of Integrated Network-Based Cellular Signatures (LINCS) project aims to create a network-based understanding of biology by cataloging changes in gene expression and signal transduction that occur when cells are exposed to a variety of perturbations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25036040",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using transcriptome data from the L1000 database of the LINCS project, we developed a framework based on a deep-learning algorithm to predict potential drug target interactions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30255785",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "First, the LINCS project can provide rich transcriptome data that reflect the responses of cells upon exposure to various drugs. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28769090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

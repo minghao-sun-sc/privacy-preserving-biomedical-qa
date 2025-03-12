@@ -1,0 +1,42 @@
+{
+  "id": "56c332a350c68dd41600000d",
+  "type": "yesno",
+  "question": "Is there a genome-wide technique for the detection of R-loop formation?",
+  "ideal_answer": "Genome-wide analysis of fragile sites by chromatin immunoprecipitation (ChIP) and microarray (ChIP-chip) of phosphorylated H2A in these mutants supported a transcription-dependent mechanism of DNA damage characteristic of R loops. Here we show that recombination factors are required for the survival of yeast FACT mutants, consistent with an accumulation of DNA breaks that we detected by Rad52 foci and transcription-dependent hyperrecombination. The latter pathway operates on nascent transcripts that are not simultaneously translated and requires factors Rho, NusG, and NusA, each of which is essential for viability of WT Escherichia coli. DNA replication in Escherichia coli is normally initiated at a single origin, oriC, dependent on initiation protein DnaA.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24164596",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23868195",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25699710",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24636987",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23251031",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22279048"
+  ],
+  "snippets": [
+    {
+      "text": "Genome-wide analysis of fragile sites by chromatin immunoprecipitation (ChIP) and microarray (ChIP-chip) of phosphorylated H2A in these mutants supported a transcription-dependent mechanism of DNA damage characteristic of R loops",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22279048",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We have used a bisulfite-sensitivity assay to demonstrate genome-wide increase in the occurrence of RNA-DNA hybrids (R-loops), including from antisense and read-through transcripts, in a nusG missense mutant defective for Rho-dependent termination.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23251031",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The results demonstrate a key function of FACT in the resolution of R-loop-mediated transcription-replication conflicts, likely associated with a specific chromatin organization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24636987",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Previous work revealed that GC skew and R-loop formation associate with a core set of unmethylated CpG island (CGI) promoters in the human genome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23868195",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

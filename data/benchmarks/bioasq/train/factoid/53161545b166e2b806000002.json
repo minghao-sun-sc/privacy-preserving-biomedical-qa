@@ -1,0 +1,47 @@
+{
+  "id": "53161545b166e2b806000002",
+  "type": "factoid",
+  "question": "Which DNA repair system is involved in HNPCC?",
+  "ideal_answer": "In HNPCC families, germline mutations in any of four genes encoding proteins of a specialized DNA repair system, the mismatch repair, predispose to cancer development.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/8723065",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21459714",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9244653"
+  ],
+  "snippets": [
+    {
+      "text": "The HNPCC syndrome (hereditary non polyposis colon cancer) or Lynch syndrome stands for an autosomic dominant condition leading to the most prevalent hereditary colo-rectal cancers (CCR). MMR (mismatch repair)'s genes are involved in carcinogenesis as they play a role in ADNA mismatch repair.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21459714",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mutations in the genes of the mismatch DNA repair system and of the TGF-beta-II-receptor, the main defects of the HNPCC (hereditary nonpolyposis colorectal cancer), are exclusively identified in sequences of microsatellites. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9244653",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In HNPCC families, germline mutations in any of four genes encoding proteins of a specialized DNA repair system, the mismatch repair, predispose to cancer development. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8723065",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/MSH3_MOUSE",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004260",
+    "http://www.disease-ontology.org/api/metadata/DOID:3883",
+    "http://www.uniprot.org/uniprot/MSH3_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D045643",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0032425",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0032423",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006298",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D053843",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006281",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0032424",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006283",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006282"
+  ],
+  "exact_answer": "In HNPCC, the mismatch DNA repair system is involved."
+}

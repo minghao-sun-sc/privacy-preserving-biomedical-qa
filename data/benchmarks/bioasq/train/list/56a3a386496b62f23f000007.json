@@ -1,0 +1,79 @@
+{
+  "id": "56a3a386496b62f23f000007",
+  "type": "list",
+  "question": "List the releases of JASPAR database",
+  "ideal_answer": "JASPAR, JASPAR CORE, JASPAR FAM, JASPAR phyloFACTS, JASPAR 2008 update, JASPAR 2010, JASPAR 2014.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16381983",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19906716",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24194598",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14681366",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18006571"
+  ],
+  "snippets": [
+    {
+      "text": "JASPAR is an open-access database of annotated, high-quality, matrix-based transcription factor binding site profiles for multicellular eukaryotes. The profiles were derived exclusively from sets of nucleotide sequences experimentally demonstrated to bind transcription factors. The database is complemented by a web interface for browsing, searching and subset selection, an online sequence analysis utility and a suite of programming tools for genome-wide and comparative genomic analysis of regulatory regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14681366",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "JASPAR is the most complete open-access collection of transcription factor binding site (TFBS) matrices. In this new release, JASPAR grows into a meta-database of collections of TFBS models derived by diverse approaches. We present JASPAR CORE--an expanded version of the original, non-redundant collection of annotated, high-quality matrix-based transcription factor binding profiles, JASPAR FAM--a collection of familial TFBS models and JASPAR phyloFACTS--a set of matrices computationally derived from statistically overrepresented, evolutionarily conserved regulatory region motifs from mammalian genomes. JASPAR phyloFACTS serves as a non-redundant extension to JASPAR CORE, enhancing the overall breadth of JASPAR for promoter sequence analysis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16381983",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "JASPAR 2010: the greatly expanded open-access database of transcription factor binding profiles.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19906716",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "JASPAR 2014: an extensively expanded and updated open-access database of transcription factor binding profiles.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24194598",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The fifth major release greatly expands the heart of JASPAR-the JASPAR CORE subcollection, which contains curated, non-redundant profiles-with 135 new curated profiles (74 in vertebrates, 8 in Drosophila melanogaster, 10 in Caenorhabditis elegans and 43 in Arabidopsis thaliana; a 30% increase in total) and 43 older updated profiles (36 in vertebrates, 3 in D. melanogaster and 4 in A. thaliana; a 9% update in total). The new and updated profiles are mainly derived from published chromatin immunoprecipitation-seq experimental datasets. In addition, the web interface has been enhanced with advanced capabilities in browsing, searching and subsetting. Finally, the new JASPAR release is accompanied by a new BioPython package, a new R tool package and a new R/Bioconductor data package to facilitate access for both manual and automated methods.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24194598",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "JASPAR, the open access database of transcription factor-binding profiles: new content and tools in the 2008 update.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18006571",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In this new release, JASPAR grows into a meta-database of collections of TFBS models derived by diverse approaches. We present JASPAR CORE--an expanded version of the original, non-redundant collection of annotated, high-quality matrix-based transcription factor binding profiles, JASPAR FAM--a collection of familial TFBS models and JASPAR phyloFACTS--a set of matrices computationally derived from statistically overrepresented, evolutionarily conserved regulatory region motifs from mammalian genomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16381983",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "JASPAR phyloFACTS serves as a non-redundant extension to JASPAR CORE, enhancing the overall breadth of JASPAR for promoter sequence analysis. The new release of JASPAR is available at http://jaspar.genereg.net.  .",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16381983",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "JASPAR phyloFACTS serves as a non-redundant extension to JASPAR CORE, enhancing the overall breadth of JASPAR for promoter sequence analysis. The new release of JASPAR is available at http://jaspar.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16381983",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "JASPAR phyloFACTS serves as a non-redundant extension to JASPAR CORE, enhancing the overall breadth of JASPAR for promoter sequence analysis. The new release of JASPAR is available at http://jaspar.genereg.net.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16381983",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019991"
+  ],
+  "exact_answer": "JASPAR, JASPAR CORE, JASPAR FAM, JASPAR phyloFACTS, JASPAR 2008 update, JASPAR 2010, JASPAR 2014"
+}

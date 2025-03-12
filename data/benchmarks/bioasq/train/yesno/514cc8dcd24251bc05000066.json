@@ -1,0 +1,71 @@
+{
+  "id": "514cc8dcd24251bc05000066",
+  "type": "yesno",
+  "question": "Is depression associated with poor prognosis of brain tumor patients?",
+  "ideal_answer": "Yes. In brain tumor patients depression is associated with shorter survival and worse functional outcomes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16304988",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15072475",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15918939",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16960653"
+  ],
+  "snippets": [
+    {
+      "text": "Before surgery 27 patients (35%) had BDI scores indicating the presence of depression. These scores were significantly higher in patients with a history of depression (p = 0.017) and in those with a lower functional outcome (p = 0.015).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16304988",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "A lower functional status (KPS score < or = 70) in patients was significantly associated with high depression scores at the 3-month (p = 0.000) and 1-year (p = 0.005) assessments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16304988",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "At all follow-ups, depressed low-grade glioma patients had a significantly shorter survival time, 3.3-5.8 years, compared to non-depressed low-grade glioma patients, 10.0-11.7 years.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16960653",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The results suggest that depression and decreased QOL among low-grade glioma patients is related to shorter survival at long-term follow-up.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16960653",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The adverse impact of depression in relation to survival among cancer patients is currently a subject of great interest in research.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15918939",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In the subgroup of patients with low-grade gliomas, depressive patients had a significantly shorter survival time compared with nondepressive subjects (P = 0.031, Kaplan-Meier survival analysis).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15918939",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Preoperative depression seemed to be a significant prognostic factor for worse survival in low-grade glioma patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15918939",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Major depressive disorder was marginally associated with outcomes, while surgical interventions and radiotherapy did not show strong associations with test performances.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15072475",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003863",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016019",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017063",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011379",
+    "http://www.disease-ontology.org/api/metadata/DOID:1319",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001932"
+  ],
+  "exact_answer": "Yes"
+}

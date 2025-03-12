@@ -1,0 +1,101 @@
+{
+  "id": "516c0dc6298dcd4e5100006c",
+  "type": "summary",
+  "question": "What is the role of AMPK kinase in myocardial remodeling after myocardial infarction",
+  "ideal_answer": "AMP-activated protein kinase (AMPK) is a key sensor of cellular energy. The activation of AMPK by metformin prevents cardiac remodeling after myocardial infarction (MI). \nAdiponectin protects the heart from ischemia-reperfusion injury through an AMPK-dependent mechanism.\nAMPK activation by metformin and the subsequent suppression of TLRs activity could be considered as a target in protecting the infarcted heart.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16155579",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23122726",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21572014",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22043210",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22344560"
+  ],
+  "snippets": [
+    {
+      "text": "These data suggest that adiponectin protects the heart from ischemia-reperfusion injury through both AMPK- and COX-2-dependent mechanisms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16155579",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The improved cardiac function was associated with decreased atrial natriuretic peptide mRNA levels in the metformin-treated group (50% reduction compared with MI, P < 0.05).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21572014",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Molecular analyses suggested that altered AMP kinase phosphorylation status and low insulin levels mediate the salutary effects of metformin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21572014",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "AMP-activated protein kinase (AMPK) is a key sensor of cellular energy. The activation of AMPK by metformin prevents cardiac remodeling after myocardial infarction (MI).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23122726",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "These results suggest that AMPK activation by metformin and the subsequent suppression of TLRs activity could be considered as a target in protecting the infarcted heart, which may indicate a link between AMPK and TLRs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23122726",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:5843",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0031588",
+    "http://www.disease-ontology.org/api/metadata/DOID:5846",
+    "http://www.disease-ontology.org/api/metadata/DOID:5847",
+    "http://www.disease-ontology.org/api/metadata/DOID:5844",
+    "http://www.disease-ontology.org/api/metadata/DOID:5845",
+    "http://www.disease-ontology.org/api/metadata/DOID:10649",
+    "http://www.disease-ontology.org/api/metadata/DOID:5848",
+    "http://www.disease-ontology.org/api/metadata/DOID:5849",
+    "http://www.uniprot.org/uniprot/AAKB2_RAT",
+    "http://www.uniprot.org/uniprot/AAPK2_RAT",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056989",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=2000480",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=2000481",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009203",
+    "http://www.uniprot.org/uniprot/AAPK2_HUMAN",
+    "http://www.uniprot.org/uniprot/AAKB1_PIG",
+    "http://www.uniprot.org/uniprot/AAKB1_PONAB",
+    "http://www.uniprot.org/uniprot/AAPK2_MOUSE",
+    "http://www.uniprot.org/uniprot/AAPK2_PONAB",
+    "http://www.uniprot.org/uniprot/AAKG1_BOVIN",
+    "http://www.uniprot.org/uniprot/AAPK1_CAEEL",
+    "http://www.uniprot.org/uniprot/AAPK1_MOUSE",
+    "http://www.uniprot.org/uniprot/AAPK1_HUMAN",
+    "http://www.uniprot.org/uniprot/AAKB1_BOVIN",
+    "http://www.uniprot.org/uniprot/AAKG1_RAT",
+    "http://www.uniprot.org/uniprot/AAKB1_RAT",
+    "http://www.uniprot.org/uniprot/AAPK1_PONAB",
+    "http://www.disease-ontology.org/api/metadata/DOID:5850",
+    "http://www.disease-ontology.org/api/metadata/DOID:5853",
+    "http://www.disease-ontology.org/api/metadata/DOID:5852",
+    "http://www.uniprot.org/uniprot/AAKG1_MOUSE",
+    "http://www.disease-ontology.org/api/metadata/DOID:5854",
+    "http://www.uniprot.org/uniprot/PRKAG_DICDI",
+    "http://www.uniprot.org/uniprot/AAKB2_HUMAN",
+    "http://www.disease-ontology.org/api/metadata/DOID:10651",
+    "http://www.uniprot.org/uniprot/AAKG_SCHPO",
+    "http://www.disease-ontology.org/api/metadata/DOID:9408",
+    "http://www.disease-ontology.org/api/metadata/DOID:5855",
+    "http://www.uniprot.org/uniprot/AAPK1_RAT",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056988",
+    "http://www.uniprot.org/uniprot/AAPK1_PIG",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0004679",
+    "http://www.uniprot.org/uniprot/AAPK2_CAEEL",
+    "http://www.uniprot.org/uniprot/AAKB1_MOUSE",
+    "http://www.uniprot.org/uniprot/AAKG1_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007238",
+    "http://www.uniprot.org/uniprot/AAKB2_MOUSE",
+    "http://www.disease-ontology.org/api/metadata/DOID:5851",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012380",
+    "http://www.uniprot.org/uniprot/AAKB1_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020257",
+    "http://www.uniprot.org/uniprot/AAKG_YEAST",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=2000479"
+  ]
+}

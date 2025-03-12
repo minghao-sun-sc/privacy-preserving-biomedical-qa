@@ -1,0 +1,24 @@
+{
+  "id": "56b76d916e3f8eaf4c000001",
+  "type": "factoid",
+  "question": "To which family does the Zika virus belong?",
+  "ideal_answer": "The Zika virus belongs to the family Flaviviridae.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25310102"
+  ],
+  "snippets": [
+    {
+      "text": "Zika virus (ZIKV; genus Flavivirus, family Flaviviridae) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25310102",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005190",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014780",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014777",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009679"
+  ],
+  "exact_answer": "Flaviviridae"
+}

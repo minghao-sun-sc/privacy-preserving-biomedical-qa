@@ -1,0 +1,47 @@
+{
+  "id": "63ee5c78f36125a426000001",
+  "type": "list",
+  "question": "Which interleukins are affected by Dupilumab?",
+  "ideal_answer": "Dupilumab is a monoclonal antibody for adults and adolescents with moderate-to-severe atopic dermatitis, that inhibits interleukin-4 receptor alpha subunit (IL4-R\u03b1) and the signaling pathways activated by interleukin (IL)-4 and IL-13.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34236520",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36214075",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33993501",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34358343",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33588666"
+  ],
+  "snippets": [
+    {
+      "text": "Dupilumab, a monoclonal antibody targeting the interleukin (IL)-4 receptor alpha to inhibit IL-4 and IL-13 signaling, has recently been shown to significantly improve the condition of patients with CRSwNP.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36214075",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND: Dupilumab is an antibody against interleukin-4 receptor \u03b1, used in the treatment of atopic dermatitis (AD).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34358343",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The development of new therapies received great impetus by an ample research of the pathophysiological mechanisms, leading to a new era in the treatment of severe atopic eczema due to targeted treatments, e.g. the IL-4R alpha specific monoclonal antibody dupilumab.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34236520",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND: The human monoclonal antibody dupilumab blocks interleukin (IL)-4 andIL-13, key and central drivers of type 2 inflammation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33993501",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " An emerging therapeutic option is dupilumab, a monoclonal antibody for adults and adolescents with moderate-to-severe atopic dermatitis, that inhibits interleukin-4 receptor alpha subunit (IL4-R\u03b1) and the signaling pathways activated by interleukin (IL)-4 and IL-13. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33588666",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "interleukin-4, interleukin-13"
+}

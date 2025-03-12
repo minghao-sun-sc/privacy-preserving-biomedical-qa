@@ -1,0 +1,33 @@
+{
+  "id": "6081a83f4e6a4cf630000007",
+  "type": "yesno",
+  "question": "Is FKBP52 encoding a chaperone ?",
+  "ideal_answer": "Yes,\nFKBP52 is a co-chaperone.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32612187",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33184939",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30483787"
+  ],
+  "snippets": [
+    {
+      "text": "Hsp90 co-chaperones Pp5 and FKBPs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32612187",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The co-chaperone FK506-binding protein 51 (FKBP51)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33184939",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "co\u2011chaperone FKBP52 ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30483787",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

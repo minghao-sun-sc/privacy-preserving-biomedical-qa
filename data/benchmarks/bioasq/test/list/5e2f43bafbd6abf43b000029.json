@@ -1,0 +1,57 @@
+{
+  "id": "5e2f43bafbd6abf43b000029",
+  "type": "list",
+  "question": "Please list 2 human diseases caused by a coronavirus.",
+  "ideal_answer": "Middle East respiratory syndrome (MERS) and SARS are diseases caused by a coronavirus.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29896174",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24769571",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26290414",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27840203",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28616501",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28466096",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28220326",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28643204",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31226023"
+  ],
+  "snippets": [
+    {
+      "text": "Since severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS) coronaviruses (CoVs) share similar characteristics with respect to clinical signs, etiology, and transmission",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28220326",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Human coronaviruses (hCoVs) can be divided into low pathogenic and highly pathogenic coronaviruses. The low pathogenic CoVs infect the upper respiratory tract and cause mild, cold-like respiratory illness. In contrast, highly pathogenic hCoVs such as severe acute respiratory syndrome CoV (SARS-CoV) and Middle East respiratory syndrome CoV (MERS-CoV) predominantly infect lower airways and cause fatal pneumon",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28466096",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the last 15 years, we have witnessed the emergence of two zoonotic, highly pathogenic HCoVs: severe acute respiratory syndrome coronavirus (SARS-CoV) and Middle East respiratory syndrome coronavirus (MERS-CoV).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31226023",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "First identified in 2012 , Middle East respiratory syndrome ( MERS ) is caused by an emerging human coronavirus , which is distinct from the severe acute respiratory syndrome coronavirus ( SARS-CoV) , and represents a novel member of the lineage C betacoronoviruses",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26290414",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The virus was termed Middle East Respiratory Syndrome Coronavirus (MERS-CoV) and is taken notice of important coronavirus caused severe diseases to human after the outbreak of severe acute respiratory syndrome (SARS) coronavirus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24769571",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "They mostly cause enteric or respiratory disease, which can be severe and life threatening, e.g., in the case of the zoonotic coronaviruses causing severe acute respiratory syndrome (SARS) and Middle East Respiratory Syndrome (MERS) in humans.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28643204",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "MERS, SARS"
+}

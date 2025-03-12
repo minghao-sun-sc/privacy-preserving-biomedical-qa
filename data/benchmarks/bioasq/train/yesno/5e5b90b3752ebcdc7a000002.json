@@ -1,0 +1,40 @@
+{
+  "id": "5e5b90b3752ebcdc7a000002",
+  "type": "yesno",
+  "question": "Can brain derived exosomes carry APP molecules?",
+  "ideal_answer": "Yes,\nsmall lipid vesicles called exosomes, secreted in the extracellular milieu by cortical neurons, carry endogenous APP",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29277576",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28956068",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28184302",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18171695"
+  ],
+  "snippets": [
+    {
+      "text": "Here, we show that small lipid vesicles called exosomes, secreted in the extracellular milieu by cortical neurons, carry endogenous APP",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28956068",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "these exosomes contained APP and were capable of efficiently transferring APP to normal primary neurons. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29277576",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Accumulating evidence has demonstrated that exosomes are associated with amyloid precursor (APP) and Tau proteins and play a controversial role in Alzheimer's disease process. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28184302",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Here we have investigated the role of exosomes in the processing of APP and show that these vesicles contain APP-CTFs, as well as Abeta",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18171695",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "5a895a96fcd1d6a10c000003",
+  "type": "summary",
+  "question": "Can a circRNA be translated into protein?",
+  "ideal_answer": "Circ-ZNF609 is associated with heavy polysomes, and it is translated into a protein in a splicing-dependent and cap-independent manner, providing an example of a protein-coding circRNA in eukaryotes.\nCircular RNAs (circRNAs) represent a large class of noncoding RNAs (ncRNAs) that have recently emerged as regulators of gene expression\t\nHowever, whether circRNAs encode functional proteins remains elusive, although translation of several circRNAs was recently reported",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28903484",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27617908",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27255916",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26649774",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27612318",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29028266",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26874353",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28344082",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28344080",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27892769"
+  ],
+  "snippets": [
+    {
+      "text": "However, whether circRNAs encode functional proteins remains elusive, although translation of several circRNAs was recently reported",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28903484",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Circular RNAs (circRNAs) are long, non-coding RNAs that result from the non-canonical splicing of linear pre-mRNAs. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26649774",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Circular RNAs (circRNAs) are a large type of noncoding RNAs characterized by their circular shape resulting from covalently closed continuous loops.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26874353",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "They are known to serve as microRNA (miRNA) sponges, regulators of alternative splicing, transcription factors and encode for proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26874353",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Covalently closed loop structures elevate the stability of this new type of noncoding RNA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27255916",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Circular RNAs (circRNAs) are a novel class of non-coding RNA that assumes a covalently closed continuous conformation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27617908",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Circular RNAs (circRNAs) represent a large class of noncoding RNAs (ncRNAs) that have recently emerged as regulators of gene expression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27612318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Circular RNAs (circRNAs) are highly abundant and evolutionarily conserved non-coding RNAs produced by circularization of specific exons. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27892769",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Circ-ZNF609 Is a Circular RNA that Can Be Translated and Functions in Myogenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28344082",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " Circ-ZNF609 is associated with heavy polysomes, and it is translated into a protein in a splicing-dependent and cap-independent manner, providing an example of a protein-coding circRNA in eukaryotes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28344082",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Altogether, our study provides strong evidence for translation of circRNAs, revealing the existence of an unexplored layer of gene activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28344080",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, most circRNAs were not associated with translating ribosomes, therefore, circRNAs were deemed to be noncoding. However, the latest research findings revealed that some circRNAs could generate proteins in vivo, which expands the landscape of transcriptome and proteome. To gain insights into the new area of circRNA translation, we introduce an integrated tool capable of detecting circRNAs with protein-coding potential from high-throughput sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29028266",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

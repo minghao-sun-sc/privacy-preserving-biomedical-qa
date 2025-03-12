@@ -1,0 +1,53 @@
+{
+  "id": "5d385f717bc3fee31f00001a",
+  "type": "yesno",
+  "question": "Does the chromatin remodeling complex, RSC target H2A.Z nucleosomes?",
+  "ideal_answer": "H2A.Z probably helps RSC in keeping the gene nucleosome-free.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21266479",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19410542",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25813039",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22122340",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18268003"
+  ],
+  "snippets": [
+    {
+      "text": "In contrast, the upstream nucleosome which covers the TATA box under repressed conditions is shifted approximately 50 bp further upstream by the ATP-dependent chromatin remodeler RSC upon activation. It is marked with the histone variant H2A.Z and H4K16 acetylation in active state",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18268003",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In RSC-depleted cells, NFRs shrink such that the average positions of flanking nucleosomes move toward predicted sites.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19410542",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In contrast, H2A.Z deposition is dispensable for nucleosome positioning. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19410542",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Emerging lines of evidence indicate that histone variants (H2AX and H2A.Z), histone post-translational modifications (acetylation, phosphorylation, methylation and ubiquitination) and chromatin-remodeling complexes (INO80, SWR1, SWI/SNF, RSC and NuRD) are important and direct players in the DNA double-strand break (DSB) response as well.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22122340",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "H2A.Z probably helps RSC in keeping the gene nucleosome-fre",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21266479",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Accordingly, the absence of SWR-C or histone H2A.Z results in compromised chromatin remodeling and impaired gene expression in the absence of RSC and H3K4 methylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25813039",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

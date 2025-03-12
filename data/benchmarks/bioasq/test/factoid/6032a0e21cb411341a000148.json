@@ -1,0 +1,33 @@
+{
+  "id": "6032a0e21cb411341a000148",
+  "type": "factoid",
+  "question": "What is a bacteriocin?",
+  "ideal_answer": "Bacteriocins, the ribosomally produced antimicrobial peptides of bacteria, represent an untapped source of promising antibiotic alternatives.\nOne such strategy involves using narrow-spectrum protein antibiotics (so-called bacteriocins), which diverse bacteria use to compete against closely related species.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31483516",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31794868",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31705720"
+  ],
+  "snippets": [
+    {
+      "text": "One such strategy involves using narrow-spectrum protein antibiotics (so-called bacteriocins), which diverse bacteria use to compete against closely related species. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31705720",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Many enterococcal strains produce bacteriocins, which could be useful as natural food preservatives through inhibition of pathogenic and spoilage microorganisms. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31794868",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bacteriocins, the ribosomally produced antimicrobial peptides of bacteria, represent an untapped source of promising antibiotic alternatives",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31483516",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "antimicrobial peptide of bacteria"
+}

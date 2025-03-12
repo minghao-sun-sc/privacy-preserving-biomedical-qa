@@ -1,0 +1,72 @@
+{
+  "id": "56c6dc6f5795f9a73e000007",
+  "type": "list",
+  "question": "Which post-translational histone modifications are characteristic of facultative heterochromatin?",
+  "ideal_answer": "Nuclear VapB methyltransferase diminishes the establishment of facultative heterochromatin by decreasing histone 3 lysine 9 trimethylation (H3K9me3). Dramatic changes in exposure of a repressive chromatin mark, H3K9me2, indicate that during development linker histone plays a role in establishing the facultative heterochromatin territory and architecture in the nucleus. Histone H3 trimethylation at lysine 36 is associated with constitutive and facultative heterochromatin.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25938714",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19515781",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23645681",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16648823",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26430472",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21803857"
+  ],
+  "snippets": [
+    {
+      "text": "We used chromatin immunoprecipitation combined with high-throughput sequencing (\"ChIP-seq\") of DNA associated with the centromere-specific histone H3, CENP-A (CenH3), to identify centromeric DNA, and ChIP-seq with antibodies against dimethylated H3K4, trimethylated H3K9 and trimethylated H3K27 to determine the relative distribution and proportion of euchromatin, obligate and facultative heterochromatin, respectively",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26430472",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dramatic changes in exposure of a repressive chromatin mark, H3K9me2, indicate that during development linker histone plays a role in establishing the facultative heterochromatin territory and architecture in the nucleus",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23645681",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show here that the maternally inherited Snurf-Snrpn 3-Mb region, which is silenced by a potent transcription repressive mechanism, is uniformly enriched in histone methylation marks usually found in constitutive heterochromatin, such as H4K20me3, H3K9me3, and H3K79me3. Strikingly, we found that trimethylated histone H3 at lysine 36 (H3K36me3), which was previously identified as a hallmark of actively transcribed regions, is deposited onto the silenced, maternally contributed 3-Mb imprinted region",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21803857",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone H3 trimethylation at lysine 36 is associated with constitutive and facultative heterochromatin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21803857",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In addition, we demonstrate that H3K36me3 is markedly enriched at the level of pericentromeric heterochromatin in mouse embryonic stem cells and fibroblasts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21803857",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Remarkably, H3K9me3 is predominant in coding regions of active genes, a phenomenon that is not restricted to the X chromosome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16648823",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We detected the H3K9me2, H3K9me3, and H3K27me3 modifications, with H3K27me3, which is indicative of facultative heterochromatin, exhibiting the highest enrichment on all viral promoters tested. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19515781",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our study identifies a unique heterochromatin state marked by the presence of both H3.3 and H3K9me3, and establishes an important role for H3.3 in control of ERV retrotransposition in embryonic stem cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25938714",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0051567",
+    "http://amigo.geneontology.org/amigo/term/GO:0000792",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006570",
+    "http://www.biosemantics.org/jochem#4278518",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006657"
+  ],
+  "exact_answer": "H3K9me3, H3K9me2, H3K36me3"
+}

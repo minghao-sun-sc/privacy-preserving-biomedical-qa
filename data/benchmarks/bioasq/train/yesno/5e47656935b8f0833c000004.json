@@ -1,0 +1,19 @@
+{
+  "id": "5e47656935b8f0833c000004",
+  "type": "yesno",
+  "question": "Is indinavir effective for treatment of amyotrophic lateral sclerosis?",
+  "ideal_answer": "No, indinavir is not effective for treatment of amyotrophic lateral sclerosis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15824372"
+  ],
+  "snippets": [
+    {
+      "text": "Group differences in the rate of decline were not significant between the groups for the ALS Functional Rating Scale (p = 0.36) or for the secondary variables. The toxicity and negative efficacy trends discourage further indinavir trials in ALS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15824372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "6026d6891cb411341a0000cc",
+  "type": "factoid",
+  "question": "What pathological condition is MK-1602 used for?",
+  "ideal_answer": "MK-1602 has been assessed in clinical trials for the acute treatment of migraine.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27269043",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28644160",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31758661",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29136283"
+  ],
+  "snippets": [
+    {
+      "text": "Meanwhile, 1 small-molecule CGRP receptor antagonist (ubrogepant, MK-1602) is currently in phase 3 studies for the acute treatment of migraine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28644160",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We applied this strategy for another late-stage clinical program: ubrogepant (MK-1602), a novel oral calcitonin gene-related peptide receptor antagonist for acute treatment of migraine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29136283",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ubrogepant (MK-1602) is a novel, oral, calcitonin gene-related peptide receptor antagonist in clinical development with positive phase III outcomes for acute treatment of migraine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31758661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AIM: The aim of this trial was to evaluate the efficacy and tolerability of ubrogepant (MK-1602), a calcitonin gene-related peptide receptor antagonist (CGRP-RA), for the acute treatment of migraine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27269043",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A phase IIb randomized, double-blind, placebo-controlled trial of ubrogepant for the acute treatment of migraine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27269043",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "acute treatment of migraine"
+}

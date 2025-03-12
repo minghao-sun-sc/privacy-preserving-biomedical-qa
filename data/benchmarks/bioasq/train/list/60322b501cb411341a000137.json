@@ -1,0 +1,38 @@
+{
+  "id": "60322b501cb411341a000137",
+  "type": "list",
+  "question": "List the core lung matrisome proteins.",
+  "ideal_answer": "LGALS7, \nASPN, \nHSP90AA1, \nHSP90AB1,\nCOL1A1, \nSCGB1A1, \nTAGLN, \nPSEN2, \nTSPAN1, \nCTSB, \nAGR2, \nCSPG2,\nSERPINB3,\nfibronectin,\nemilin-1,\nversican,\ndecorin",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29615673",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30774578"
+  ],
+  "snippets": [
+    {
+      "text": "LGALS7, ASPN, HSP90AA1 and HSP90AB1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30774578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " COL1A1, SCGB1A1, TAGLN, PSEN2, TSPAN1, CTSB, AGR2, CSPG2, and SERPINB3, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30774578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The remodeling of the scaffold was characterized by an initial phase with cell proliferation and high production of cell adhesion proteins such as emilin-1 and fibronectin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29615673",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "f proteoglycans, such as versican and decorin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29615673",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "HSP90AB1, LGALS7, ASPN, HSP90AA1, emilin-1, fibronectin, versican, decorin, SERPINB3, CSPG2, AGR2, CTSB, COL1A1, SCGB1A1, TAGLN, PSEN2, TSPAN1"
+}

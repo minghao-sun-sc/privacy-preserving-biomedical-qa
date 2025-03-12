@@ -1,0 +1,44 @@
+{
+  "id": "5d36bb777bc3fee31f00000a",
+  "type": "yesno",
+  "question": "Does SATB1 regulate the RAG1 and RAG2 genes?",
+  "ideal_answer": "SATB1 binds to the ASE and Rag promoters, facilitating inclusion of Rag2 in the chromatin hub and the loading of RNA polymerase II to both the Rag1 and Rag2 promoters.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25847946",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9886398"
+  ],
+  "snippets": [
+    {
+      "text": "High level expression of the Xlr nuclear protein in immature thymocytes and colocalization with the matrix-associated region-binding SATB1 protein",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9886398",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " Its onset preceded the rearrangement of TCR genes, as Xlr expression was conserved in thymus cells from RAG1(0/0) mice. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9886398",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "An anti-silencer- and SATB1-dependent chromatin hub regulates Rag1 and Rag2 gene expression during thymocyte development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25847946",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " SATB1 binds to the ASE and Rag promoters, facilitating inclusion of Rag2 in the chromatin hub and the loading of RNA polymerase II to both the Rag1 and Rag2 promoters.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25847946",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results provide a novel framework for understanding ASE function and demonstrate a novel role for SATB1 as a regulator of Rag locus organization and gene expression in DP thymocytes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25847946",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

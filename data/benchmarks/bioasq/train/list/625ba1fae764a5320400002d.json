@@ -1,0 +1,74 @@
+{
+  "id": "625ba1fae764a5320400002d",
+  "type": "list",
+  "question": "List biomarkers for sepsis.",
+  "ideal_answer": "HCK, PRKCD, SIRPA, DOK3, ITGAM, LTB4R, MAPK14, MALT1, NLRC3, LCK\nC-Reactive Protein (CRP), Procalcitonin (PCT) and Interleukin 6 (IL-6)\nsTM",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34517744",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34551574",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33274532",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34634653",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33140076",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31537145",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34524647",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32705879"
+  ],
+  "snippets": [
+    {
+      "text": "NLRP3 is useful for the early identification of high-risk septic patients, particularly septic shock patients. Moreover, elevated NRLP3 levels could result in poor septic prediction outcomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34634653",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the expression of CD45RO on T lymphocytes is the only useful biomarker for diagnosis of neonatal late-onset sepsis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31537145",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest that sepsis severity leads to CoQ10 depletion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32705879",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Procalcitonin (PCT) is useful for differentiating between viral and bacterial infections and for reducing the unnecessary use of antibiotics. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34517744",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These data provide new evidence on the usefulness of plasma procalcitonin as a reliable diagnostic biomarker in the diagnostic algorithm of peripheral blood culture contamination among patients hospitalized in tertiary care.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34524647",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Soluble thrombomodulin (sTM), tissue plasminogen activator-inhibitor complex (t-PAIC), thrombin-antithrombin complex (TAT) and \u03b12-plasmin inhibitor-plasmin complex (PIC) are biomarkers of endothelium injury and coagulation dysfunction",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34551574",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "sTM was considered as a sensitive biomarker for the early prediction of septic shock and sepsis-induced DIC",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34551574",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The selected hub gene of pediatric sepsis was combined with the markers of cell surface and found 10 core genes (HCK, PRKCD, SIRPA, DOK3, ITGAM, LTB4R, MAPK14, MALT1, NLRC3, LCK). ROC showed that AUC of the 10 core genes for diagnosis of pediatric sepsis was above 0.9.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33274532",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The CEA POC reader was demonstrated for immunoassay of C-Reactive Protein (CRP), Procalcitonin (PCT) and Interleukin 6 (IL-6), towards a three biomarker panel to aid the diagnosis of sepsis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33140076",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CRP, PCT, IL-6, HCK, PRKCD, SIRPA, DOK3, ITGAM, LTB4R, MAPK14, MALT1, NLRC3, LCK, sTM"
+}

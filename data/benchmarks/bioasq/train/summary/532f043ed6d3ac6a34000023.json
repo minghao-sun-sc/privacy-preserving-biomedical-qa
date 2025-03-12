@@ -1,0 +1,121 @@
+{
+  "id": "532f043ed6d3ac6a34000023",
+  "type": "summary",
+  "question": "what is the role of MEF-2 in cardiomyocyte differentiation?",
+  "ideal_answer": "The myocyte enhancer factor-2 (MEF2) proteins are MADS-box transcription factors that are essential for differentiation of all muscle lineages but their mechanisms of action remain largely undefined. MEF2C expression initiates cardiomyogenesis, resulting in the up-regulation of Brachyury T, bone morphogenetic protein-4, Nkx2-5, GATA-4, cardiac alpha-actin, and myosin heavy chain expression. Inactivation of the MEF2C gene causes cardiac developmental arrest and severe downregulation of a number of cardiac markers including atrial natriuretic factor (ANF). BMP-2, a regulator of cardiac development during embryogenesis, was shown to increase PI 3-kinase activity in cardiac precursor cells, resulting in increased expression of sarcomeric myosin heavy chain (MHC) and MEF-2A. Furthermore, expression of MEF-2A increased MHC expression in a PI 3-kinase-dependent manner. Other studies showed that Gli2 and MEF2C proteins form a complex, capable of synergizing on cardiomyogenesis-related promoters. Dominant interference of calcineurin/mAKAP binding blunts the increase in MEF2 transcriptional activity seen during myoblast differentiation, as well as the expression of endogenous MEF2-target genes. These findings show that MEF-2 can direct early stages of cell differentiation into a cardiomyogenic pathway.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19498465",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17158926",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8366095",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22850285",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23261540",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12663654",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22199256",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24091702",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10790371",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9857019"
+  ],
+  "snippets": [
+    {
+      "text": "The growth and differentiation factor bone morphogenetic protein-2 (BMP-2) regulates cardiac development during vertebrate embryogenesis. In cardiac precursor cells, BMP-2 has recently been shown to induce expression of cardiac transcription factors, including myocyte enhancer factor 2A (MEF-2A).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12663654",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BMP-2 increased PI 3-kinase activity in these cells in a time-dependent manner, resulting in increased expression of sarcomeric myosin heavy chain (MHC) and MEF-2A.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12663654",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore expression of MEF-2A increased MHC expression in a PI 3-kinase-dependent manner.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12663654",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Gene expression profiling revealed decreased levels of transcription factors transforming growth factor-\u03b2/bone morphogenetic protein, serum response factor, GATA4, and myocyte enhancer factor 2, linked to increased Ca(2+)-dependent calcineurin activity and Notch1 signaling that impaired ESC differentiation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24091702",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dominant interference of calcineurin/mAKAP binding blunts the increase in MEF2 transcriptional activity seen during myoblast differentiation, as well as the expression of endogenous MEF2-target genes. Furthermore, disruption of calcineurin binding to mAKAP in cardiac myocytes inhibits adrenergic-induced cellular hypertrophy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23261540",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hypertrophic agonist stimulation of neonatal ventricular cardiomyocytes increased Mef2 expression by enhancing its translation, without changing its transcription or blocking degradation of the protein. MEF2 abundance was increased by Calcineurin overexpression in vivo and was reduced by Calcineurin inhibition in vitro, without affecting Mef2 mRNA levels.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22850285",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, chromatin immunoprecipitation (ChIP) revealed association of Gli2 to the Mef2c gene, and of MEF2C to the Gli2 gene in differentiating P19 cells. Finally, co-immunoprecipitation studies showed that Gli2 and MEF2C proteins formed a complex, capable of synergizing on cardiomyogenesis-related promoters containing both Gli- and MEF2-binding elements. We propose a model whereby Gli2 and MEF2C bind each other's regulatory elements, activate each other's expression and form a protein complex that synergistically activates transcription, enhancing cardiac muscle development. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22199256",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MC1568 arrests myogenesis by (i) decreasing myocyte enhancer factor 2D (MEF2D) expression, (ii) by stabilizing the HDAC4-HDAC3-MEF2D complex, and (iii) paradoxically, by inhibiting differentiation-induced MEF2D acetylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19498465",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The myocyte enhancer factor 2 (MEF2) family of transcription factors is not only important for controlling gene expression in normal cellular programs, like muscle differentiation, T-cell apoptosis, neuronal survival, and synaptic differentiation, but has also been linked to cardiac hypertrophy and other pathological conditions. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17158926",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, the nuclear receptor corepressor SMRT (silencing mediator of retinoid acid and thyroid hormone receptor) stimulated the deacetylase activity of HDAC3 towards MEF2 and PCAF. Supporting the physical interaction and deacetylase activity, HDAC3 repressed MEF2-dependent transcription and inhibited myogenesis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17158926",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The myocyte enhancer factor-2 (MEF2) proteins are MADS-box transcription factors that are essential for differentiation of all muscle lineages but their mechanisms of action remain largely undefined. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10790371",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Inactivation of the MEF2C gene causes cardiac developmental arrest and severe downregulation of a number of cardiac markers including atrial natriuretic factor (ANF).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10790371",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We provide evidence that MEF2 proteins are recruited to target promoters by the cell-specific GATA transcription factors, and that MEF2 potentiates the transcriptional activity of this family of tissue-restricted zinc finger proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10790371",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "During differentiation into cardiac muscle, Nkx2-5 expression resulted in the activation of myocyte enhancer factor 2C (MEF2C), but not MEF2A, -B, or -D",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9857019",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Similar to Nkx2-5, MEF2C expression initiated cardiomyogenesis, resulting in the up-regulation of Brachyury T, bone morphogenetic protein-4, Nkx2-5, GATA-4, cardiac alpha-actin, and myosin heavy chain expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9857019",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These findings indicate the presence of a positive regulatory network between Nkx2-5 and MEF2C and show that both factors can direct early stages of cell differentiation into a cardiomyogenic pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9857019",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D032383",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0035051",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D064326"
+  ]
+}

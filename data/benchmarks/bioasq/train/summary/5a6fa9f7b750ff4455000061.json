@@ -1,0 +1,54 @@
+{
+  "id": "5a6fa9f7b750ff4455000061",
+  "type": "summary",
+  "question": "Describe Click-PEGylation",
+  "ideal_answer": "One approach that can facilitate a targeted assessment of candidate proteins, as well as proteins that are low in abundance or proteomically challenging, is by electrophoretic mobility shift assays. Redox-modified cysteine residues are selectively tagged with a large group, such as a polyethylene glycol (PEG) polymer, and then the proteins are separated by electrophoresis followed by immunoblotting, which allows the inference of redox changes based on band shifts. However, the applicability of this method has been impaired by the difficulty of cleanly modifying protein thiols by large PEG reagents. To establish a more robust method for redox-selective PEGylation a Click chemistry approach has been developed where free thiol groups are first labelled with a reagent modified to contain an alkyne moiety, which is subsequently Click-reacted with a PEG molecule containing a complementary azide function. This strategy can be adapted to study reversibly reduced or oxidised cysteines. Separation of the thiol labelling step from the PEG conjugation greatly facilitates the fidelity and flexibility of this approach.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28366801"
+  ],
+  "snippets": [
+    {
+      "text": "Click-PEGylation - A mobility shift approach to assess the redox state of cysteines in candidate proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28366801",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "One approach that can facilitate a targeted assessment of candidate proteins, as well as proteins that are low in abundance or proteomically challenging, is by electrophoretic mobility shift assays. Redox-modified cysteine residues are selectively tagged with a large group, such as a polyethylene glycol (PEG) polymer, and then the proteins are separated by electrophoresis followed by immunoblotting, which allows the inference of redox changes based on band shifts. However, the applicability of this method has been impaired by the difficulty of cleanly modifying protein thiols by large PEG reagents. To establish a more robust method for redox-selective PEGylation, we have utilised a Click chemistry approach, where free thiol groups are first labelled with a reagent modified to contain an alkyne moiety, which is subsequently Click-reacted with a PEG molecule containing a complementary azide function. This strategy can be adapted to study reversibly reduced or oxidised cysteines. Separation of the thiol labelling step from the PEG conjugation greatly facilitates the fidelity and flexibility of this approach. Here we show how the Click-PEGylation technique can be used to interrogate the redox state of proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28366801",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show how the Click-PEGylation technique can be used to interrogate the redox state of proteins.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28366801",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show how the Click-PEGylation technique can be used to interrogate the redox state of proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28366801",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Click-PEGylation - A mobility shift approach to assess the redox state of cysteines in candidate proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28366801",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we show how the Click-PEGylation technique can be used to interrogate the redox state of proteins..",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28366801",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0051775",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D057930",
+    "http://amigo.geneontology.org/amigo/term/GO:0051776",
+    "http://amigo.geneontology.org/amigo/term/GO:0071461",
+    "http://www.biosemantics.org/jochem#4264214"
+  ]
+}

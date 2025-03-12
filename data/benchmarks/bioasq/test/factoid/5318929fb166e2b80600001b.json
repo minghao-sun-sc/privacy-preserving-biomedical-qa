@@ -1,0 +1,108 @@
+{
+  "id": "5318929fb166e2b80600001b",
+  "type": "factoid",
+  "question": "What is the Her2 status in Li-Fraumeni syndrome?",
+  "ideal_answer": "In the background of a germline TP53 mutation of the Li-Fraumeni syndrome, the Her2 status was found to be positive in 63-83% of the cases.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23580068",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21761402",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22878818",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20805372",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22392042"
+  ],
+  "snippets": [
+    {
+      "text": "Prevalence of germline TP53 mutations in HER2+ breast cancer patients",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23580068",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Recent data show that breast cancer in germline TP53 mutation carriers is commonly HER2+ (63-83 %).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23580068",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "As seen in this case, most breast cancers in patients with LFS exhibit a triple-positive phenotype (estrogen receptor-positive/progesterone receptor-positive/HER2-positive). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22878818",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Breast cancers in TP53 mutation carriers recently have more often been reported to be hormone receptor and HER-2 positive by immunohistochemistry and FISH in small series.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22392042",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The 43 tumors from 39 women comprise 32 invasive ductal carcinomas and 11 ductal carcinomas in situ (DCIS).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22392042",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sixty three percent of invasive and 73% of in situ carcinomas were positive for Her2/neu (IHC 3+ or FISH amplified).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22392042",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Most DCIS and invasive ductal carcinomas in LFS are hormone receptor positive and/or HER-2 positive.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22392042",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Early onset HER2-positive breast cancer is associated with germline TP53 mutations",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21761402",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Patients who tested positive for germlineTP53 mutations (n = 30) were compared with controls (n = 79). Human epidermal growth factor receptor 2 (HER2) amplification and/or overexpression was found in 67% of the tumors from the cases, compared with 25% for the controls (P = .0001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21761402",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This study suggests an association between germline TP53 mutations and early onset HER2-positive breast cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21761402",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A novel HER2-positive breast cancer phenotype arising from germline TP53 mutations",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20805372",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The Li-Fraumeni Syndrome is caused by a germline TP53 mutation and is associated with a high risk of breast cancer at young ages.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20805372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Patients carrying a TP53 mutation showed a significantly higher likelihood of developing a breast cancer with Human Epidermal growth factor Receptor (HER2) amplification (83%) when compared to the cohort of young onset breast cancer cases (16%);",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20805372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These findings suggest that breast cancer developing on a background of an inherited TP53 mutation is highly likely to present with amplification of HER2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20805372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:3012",
+    "http://www.disease-ontology.org/api/metadata/DOID:0060079",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018734",
+    "http://www.uniprot.org/uniprot/ERBB2_HUMAN",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0038128",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016864"
+  ],
+  "exact_answer": "Her2 status is positive"
+}

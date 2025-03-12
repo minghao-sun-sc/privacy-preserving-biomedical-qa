@@ -1,0 +1,33 @@
+{
+  "id": "5e822615835f4e4777000034",
+  "type": "factoid",
+  "question": "Which protein is mutated in Erythropoietic Protoporphyria?",
+  "ideal_answer": "Erythropoietic protoporphyria (EPP) is a rare inherited disorder of the heme biosynthesis pathway resulting in the accumulation of protoporphyrins in the blood, erythrocytes, and other tissues. Because of a gene mutation in the FECH gene, ferrochelatase, the enzyme involved in the final step of heme synthesis, is deficient in these patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29116687",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30175727",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29610169"
+  ],
+  "snippets": [
+    {
+      "text": "Erythropoietic protoporphyria (EPP) is a rare inherited disorder of the heme biosynthesis pathway resulting in the accumulation of protoporphyrins in the blood, erythrocytes, and other tissues. Because of a gene mutation in the FECH gene, ferrochelatase, the enzyme involved in the final step of heme synthesis, is deficient in these patients. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29116687",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Erythropoietic protoporphyria (EPP) is the most common inherited porphyria in children and is diagnosed in most individuals after the onset of cutaneous manifestations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29610169",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " an erythropoietic protoporphyria (EPP)-associated ferrochelatase (FECH) mutation ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30175727",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "FECH gene, ferrochelatase"
+}

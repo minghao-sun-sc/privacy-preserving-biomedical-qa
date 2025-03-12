@@ -1,0 +1,36 @@
+{
+  "id": "5c58d9db86df2b9174000013",
+  "type": "summary",
+  "question": "What is TissueEnrich?",
+  "ideal_answer": "TissueEnrich is a tool that calculates tissue-specific gene enrichment in an input gene set. TissueEnrich can assign tissue identities to single cell clusters and differentiated embryonic stem cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30346488"
+  ],
+  "snippets": [
+    {
+      "text": "TissueEnrich: Tissue-specific gene enrichment analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30346488",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "While tools have been developed to identify biological processes that are enriched in the genes sets, there remains a need for tools that identify enrichment of tissue-specific genes. Therefore, we developed TissueEnrich, a tool that calculates tissue-specific gene enrichment in an input gene set. We demonstrated that TissueEnrich can assign tissue identities to single cell clusters and differentiated embryonic stem cells.Availability: The TissueEnrich web application is freely available at http://tissueenrich.gdcb.iastate.edu/. The R package is available through Bioconductor at https://bioconductor.org/packages/TissueEnrich. Both the web application and R package are for non-profit academic use under the MIT license.Supplementary information: Supplementary data are available at Bioinformatics online.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30346488",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Therefore, we developed TissueEnrich, a tool that calculates tissue-specific gene enrichment in an input gene set.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30346488",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We demonstrated that TissueEnrich can assign tissue identities to single cell clusters and differentiated embryonic stem cells.<br><b>Availability</b>: The TissueEnrich web application is freely available at http://tissueenrich.gdcb.iastate.edu/.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30346488",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,61 @@
+{
+  "id": "56c341acfedd0b786b000001",
+  "type": "factoid",
+  "question": "What is the molecular function of psoralen photobinding on DNA?",
+  "ideal_answer": "The interaction of two water-soluble furocoumarins, 8-(omega-diethyl aminopropyloxy)psoralen hydrochloride (I) and its 5-isomer (II), with DNA has been investigated by spectroscopic, equilibrium dialysis, hydrodynamic and chiroptical techniques. Both compounds intercalate into the polynucleotide double helix.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/1432387",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23416947",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10075890",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1821628",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20685815",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3273186",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1445915",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6504703",
+    "http://www.ncbi.nlm.nih.gov/pubmed/367436"
+  ],
+  "snippets": [
+    {
+      "text": "The interaction of two water-soluble furocoumarins, 8-(omega-diethyl aminopropyloxy)psoralen hydrochloride (I) and its 5-isomer (II), with DNA has been investigated by spectroscopic, equilibrium dialysis, hydrodynamic and chiroptical techniques. Both compounds intercalate into the polynucleotide double helix.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/6504703",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Both compounds bind very efficiently to DNA, the extent of this process being modulated by the nature of substituents at position 8",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1432387",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We have described an exonuclease III/photoreversal procedure to map, with base pair resolution, the bases which have photoreacted with 4,5',8-trimethylpsoralen (Me3-psoralen) forming either monoadducts or interstrand cross-links in DNA (20)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3273186",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Psoralen and light treatment removed negative superhelical turns, and extensive treatments failed to produce positive superhelical turns in covalently closed plasmid DNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/367436",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Like psoralen, these compounds form a molecular complex with DNA, undergoing intercalation inside the double helix of the macromolecule",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1821628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The crystal and molecular structure of 4,4&apos;,5&apos;-trimethylazapsoralen, obtained by X ray diffraction, was also reported. Like psoralen, these compounds form a molecular complex with DNA, undergoing intercalation inside the double helix of the macromolecule.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1821628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#http://www.biosemantics.org/jochem#:4272414",
+    "http://www.biosemantics.org/jochem#4272414",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004247"
+  ],
+  "exact_answer": "It intercalates into the double helix."
+}

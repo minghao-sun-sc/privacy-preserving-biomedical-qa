@@ -1,0 +1,92 @@
+{
+  "id": "535917f3c95abccd6f000001",
+  "type": "summary",
+  "question": "Which is the mechanism used by bacteria to induce tumors in Arabidopsis?",
+  "ideal_answer": "The bacteria Agrobacterium tumefaciens infects Arabidopsis, as well as other plants, and induces the formation of tumors by integrating the transferred-DNA (T-DNA) region of the Ti-plasmid into the plant nuclear genome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23408907",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11043469",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23593941",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11432846",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17172353",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10323222",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9090878",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19794116",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15998742",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9618535",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20696005"
+  ],
+  "snippets": [
+    {
+      "text": "Agrobacterium tumefaciens causes crown gall disease in a wide range of plant species. The neoplastic growth at the infection sites is caused by transferring, integrating, and expressing transfer DNA (T-DNA) from A. tumefaciens into plant cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23593941",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " gall tumors develop after integration of the T-DNA of virulent Agrobacterium tumefaciens strains into the plant genome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23408907",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "robacterium tumefaciens is a plant pathogenic bacterium that causes neoplastic growths, called 'crown gall', via the transfer and integration of transferred DNA (T-DNA) from the bacterium into the plant genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20696005",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "grobacterium tumefaciens causes crown gall disease by transferring and integrating bacterial DNA (T-DNA) into the plant genome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19794116",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ransformation of plant cells with T-DNA of virulent agrobacteria is one of the most extreme triggers of developmental changes in higher plants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17172353",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "grobacterium tumefaciens infects plants and induces the formation of tumors called \"crown galls\" by integrating the transferred-DNA (T-DNA) region of the Ti-plasmid into the plant nuclear genome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15998742",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "-DNA nuclear import is a central event in genetic transformation of plant cells by Agrobacterium",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11432846",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "grobacterium tumefaciens Chry5, which is particularly virulent on soybeans, induces tumors ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11043469",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " have identified T-DNA tagged Arabidopsis mutants that are resistant to transformation by Agrobacterium tumefaciens (rat mutants",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10323222",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "grobacterium tumefaciens induces crown gall tumors on plants by transferring a nucleoprotein complex, the T-complex, from the bacterium to the plant cell",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9618535",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The recalcitrance of another ecotype occurs at a late step in T-DNA transfer",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9090878",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017360",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0009617",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001419"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5150b5c4d24251bc05000070",
+  "type": "summary",
+  "question": "What is the influence of patent expiry on  ACE inhibitor prescribing.",
+  "ideal_answer": "Patent expiry has different effects on prescribing in different systems. It leads to decreased cost but no decreased refill compliance in countries like Sweden, Germany etc. In countries like Taiwan, where doctors profit directly from dispensing, patients are switched to ARBs which are more costly.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21738055",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16309337",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22521158"
+  ],
+  "snippets": [
+    {
+      "text": "Generic switch after ramipril patent expiry is not associated with decreased pharmacy refill compliance: a retrospective study using the DAPI database.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21738055",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The costs per DDD decreased for all three drugs and, as expected, these costs decrease more rapidly after patent expiry. Significant differences in the trend lines were found for enalapril and fluoxetine",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16309337",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000806"
+  ]
+}

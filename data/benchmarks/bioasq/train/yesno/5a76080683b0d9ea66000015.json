@@ -1,0 +1,98 @@
+{
+  "id": "5a76080683b0d9ea66000015",
+  "type": "yesno",
+  "question": "Is cilengitide effective for treatment of glioblastoma?",
+  "ideal_answer": "No, cilengitide does not improve survival of glioblastoma (GBM) patients. Cilengitide is a cyclic pentapeptide that demonstrated efficacy for GBM treatment by targeting the integrins av\u03b23 and av\u03b25 over-expressed on GBM cells. However, randomized phase III CENTRIC and phase II CORE trials explored failed to meet their primary endpoints. However, in CORE, higher \u03b1v\u03b23 levels in tumor cells were associated with improved progression-free survival by central review and with improved overall survival in patients treated with cilengitide. Analysis of randomized clinical trials of antiangiogenic drugs (including cilengitide) showed no improvement in overall survival and a trend for an inferior outcome, in terms of overall survival, in patients receiving antiangiogenic drug alone compared to cytotoxic drug alone.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26918452",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28514722",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24442484",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25163906",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28259301",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26792571",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28643756",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26717039",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27296952",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26935578"
+  ],
+  "snippets": [
+    {
+      "text": "RESULTS: fourteen randomized clinical trials were identified (7 with bevacizumab, 2 cilengitide, 1 enzastaurin, 1 dasatinib, 1 vandetanib, 1 temsirolimus, 1 cediranib) including 4330 patients. Antiangiogenic drugs showed no improvement in overall survival with a pooled HR of 1.00, a trend for an inferior outcome, in terms of overall survival, was observed in the group of patients receiving antiangiogenic drug alone compared to cytotoxic drug alone (HR=1.24, p=0.056).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28259301",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, we could not conclusively confirm whether cilengitide 2000mg/5/week was the optimum regime, as only one trial using this protocol was included in our study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28514722",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cilengitide (CGT) is a cyclic pentapeptide that demonstrated efficacy for GBM treatment by targeting the integrins av\u03b23 and av\u03b25 over-expressed on GBM cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26792571",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cilengitide is recently failed in Phase III CENTRIC trial in unselected patients with GBM.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26717039",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In conclusion, we demonstrate that EGFRvIII/integrin \u03b23 complexes promote GBM progression and metastasis in the environment of hypoxia and vitronectin-enrichment, and cilengitide may serve as a promising therapeutics for EGFRvIII-positive GBMs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26717039",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "he addition of molecularly targeted drugs to TEM\u2009+\u2009RAD did not improve the OS of patients with GBM; however, it did improve PFS in patients treated by cilengitide who could not get improvement in OS. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27296952",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The randomized phase III CENTRIC and phase II CORE trials explored the integrin inhibitor cilengitide in patients with newly diagnosed glioblastoma with versus without O6-methylguanine DNA methyltransferase (MGMT) promoter methylation. These trials failed to meet their primary endpoints",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26918452",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ". In CORE, higher \u03b1v\u03b23 levels in tumor cells were associated with improved progression-free survival by central review and with improved overall survival in patients treated with cilengitide.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26918452",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cilengitide combined with metronomic temozolomide and procarbazine in MGMT-promoter unmethylated glioblastoma did not improve survival compared with historical data and does not warrant further investigation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26935578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The addition of cilengitide to temozolomide chemoradiotherapy did not improve outcomes; cilengitide will not be further developed as an anticancer drug.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25163906",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cilengitide treatment of newly diagnosed glioblastoma patients does not alter patterns of progression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24442484",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "It may be proposed that the combination therapy of NG2 suppression and cilengitide treatment showed no considerable effect on glioblastoma compared to cilengitide therapy alone.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28643756",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D005909",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D016896",
+    "http://www.biosemantics.org/jochem#4242009"
+  ],
+  "exact_answer": "Yes"
+}

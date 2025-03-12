@@ -1,0 +1,47 @@
+{
+  "id": "603285861cb411341a000141",
+  "type": "yesno",
+  "question": "Are Toll-like receptors (TLRs) induced by microbes?",
+  "ideal_answer": "Yes,\nGram-negative bacteria and endogenous molecules coordinate to trigger inflammatory cascades via Toll-like receptor 4 to induce excessive expression of cytokines such as tumor necrosis factor-\u03b1 and to activate NLRP3 inflammasome, a multiprotein complex that processes pro-interleukin-1\u03b2 into its mature form.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31799626",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31462144",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31712269",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31865463",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33075123"
+  ],
+  "snippets": [
+    {
+      "text": "The C-type lectin receptor CLEC4E and Toll-like receptor TLR4 expressed by host cells are among the first line of defense in encountering pathogens.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31462144",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Gram-negative bacteria and endogenous molecules coordinate to trigger inflammatory cascades via Toll-like receptor 4 to induce excessive expression of cytokines such as tumor necrosis factor-\u03b1 and to activate NLRP3 inflammasome, a multiprotein complex that processes pro-interleukin-1\u03b2 into its mature form. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31865463",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "During viral infection, viral nucleic acids are detected by virus sensor proteins including toll-like receptor 3 or retinoic acid-inducible gene I-like receptors (RLRs) in mammalian cells. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31799626",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Toll-like receptor 9 (TLR9) activation is attributed to delivery of bacterial DNA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31712269",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We determine that HBCs have the capacity to play a defensive role, where they are responsive to Toll-like receptor stimulation and are microbicidal.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33075123",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

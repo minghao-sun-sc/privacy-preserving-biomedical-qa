@@ -1,0 +1,42 @@
+{
+  "id": "58caf0be02b8c6095300002f",
+  "type": "factoid",
+  "question": "What organism causes woolsorter's disease",
+  "ideal_answer": "Woolsorter's disease is caused by the same organism as Anthrax, bacillus Anthrax. ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18959192",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15486181"
+  ],
+  "snippets": [
+    {
+      "text": "Today, woolsorters' disease and other industrial manifestations of anthrax are extremely rare, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15486181",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Working independently of their more famous counterparts (Robert Koch and Louis Pasteur), Anglo-American anthrax investigators used visual representations of anthrax bacilli to persuade their peers that a specific, identifiable cause produced all forms of anthrax-malignant pustule (cutaneous anthrax), intestinal anthrax, and woolsorter's disease (pneumonic anthrax). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18959192",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Today, woolsorters' disease and other industrial manifestations of anthrax are extremely rare, but the increasing threat of bioterrorism means that the international dread and historical lessons of this significant condition should never be forgotten. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15486181",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Today, woolsorters' disease and other industrial manifestations of anthrax are extremely rare, but the increasing threat of bioterrorism means that the international dread and historical lessons of this significant condition should never be forgotten.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15486181",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:7427",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050160",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009784"
+  ],
+  "exact_answer": "Bacillus Anthracis"
+}

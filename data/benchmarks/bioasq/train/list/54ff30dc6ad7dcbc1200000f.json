@@ -1,0 +1,101 @@
+{
+  "id": "54ff30dc6ad7dcbc1200000f",
+  "type": "list",
+  "question": "List human diseases involving genomic imprinting.",
+  "ideal_answer": "Prader Willi Syndrome\nAngelman syndrome\nBeckwith-Wiedemann syndrome\nHydatidiform mole\nCancer\nSilver-Russell syndrome\nDiabetes",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15945483",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22960339",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12524013",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12444886",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16035043",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7868070",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15802919",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11568896",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20822494",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8565331"
+  ],
+  "snippets": [
+    {
+      "text": " Here we describe the clinical case of a female patient with Prader Willi Syndrome (PWS), a genomic imprinting disorder",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22960339",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Perturbation of the allelic DNA methylation at ICRs is causally involved in several human diseases, including the Beckwith-Wiedemann and Silver-Russell syndromes, associated with aberrant foetal growth.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20822494",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Perturbed imprinted gene expression is also implicated in the neuro-developmental disorders Prader-Willi syndrome and Angelman syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20822494",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This epigenetic \"life cycle\" of imprinting (germline erasure, germline establishment, and somatic maintenance) can be disrupted in several human diseases, including Beckwith-Wiedemann syndrome (BWS), Prader-Willi syndrome (PWS), Angelman syndrome and Hydatidiform mole.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16035043",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the neurodevelopmental Rett syndrome, the way the ICR mediates imprinted expression is perturbed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16035043",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "eregulation of imprinted genes has been observed in a number of human diseases as gestation trophoblastic disease, Prader-Willi, Angelmann and Beckwith-Wiedemann syndromes and plays significant role in the carcinogenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15945483",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Angelman's syndrome families, which are known to be imprinted. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15802919",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Deregulation of imprinted genes has been observed in a number of human diseases such as Beckwith-Wiedemann syndrome, Prader-Willi/Angelman syndromes and cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12524013",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Genomic imprinting is the phenomenon whereby some genes preferentially produce mRNA transcripts from the gene copy derived from the parent of a specific sex. It has been implicated in a number of human diseases (most of them of endocrine interest), such as Prader-Willi/Angelman syndromes, Silver-Russell syndrome, Beckwith-Wiedemann syndrome, transient neonatal diabetes, the focal form of nesidioblastosis, and pseudohypoparathyroidism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12444886",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "imprinting disorders like Beckwith-Wiedemann and Prader-Willi/Angelman syndromes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11568896",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "It is particularly interesting from the clinical point of view that a number of human diseases, such as the Beckwith-Wiedemann and Prader-Willi/Angelman syndromes, appear to involve unbalanced parental contributions of imprinted loci. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7868070",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Examples include the Prader-Willi, Angelman, and Beckwith-Wiedemann syndromes [Nicholls (1994): Am J Hum Genet 54:733-740], malignancy [Sapienza (1990): Biochim Biophys Acta 1072:51-61; Feinberg (1993): Nat Genet 4:110-113], and insulin-dependent diabetes mellitus (IDDM) [Julier et al. (1994) Nature 354:155-159; Bennett et al. (1995) Nat Genet 9:284-292]. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8565331",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:4",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015894",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:2000653",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018392",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0071514",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016678"
+  ],
+  "exact_answer": "Prader Willi Syndrome, Angelman syndrome, Beckwith-Wiedemann syndrome, Hydatidiform mole, Cancer, Silver-Russell syndrome, Diabetes"
+}

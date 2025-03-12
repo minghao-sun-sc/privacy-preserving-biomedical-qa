@@ -1,0 +1,32 @@
+{
+  "id": "54cf6d40f693c3b16b00000e",
+  "type": "list",
+  "question": "Which drugs acting via bradykinin system are effective for treatment of ACE-inhibitor-induced angioedema?",
+  "ideal_answer": "Icatibant and ecallantide are medication acting via bradykinin system that are used for treatment of ACE-inhibitor-induced angioedema.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24565614",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20922352"
+  ],
+  "snippets": [
+    {
+      "text": "Medications recently developed, primarily icatibant and ecallantide, to control hereditary angioedema, a disorder also associated with kallikrein-kinin activation, have been used to treat ACEI angioedema with some success. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24565614",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A patient with acute ACE inhibitor-induced angioedema was treated with icatibant, a specific bradykinin B2 receptor antagonist approved for the treatment of hereditary angioedema. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20922352",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A patient with acute ACE inhibitor-induced angioedema was treated with icatibant, a specific bradykinin B2 receptor antagonist approved for the treatment of hereditary angioedema.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20922352",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "icatibant, ecallantide"
+}

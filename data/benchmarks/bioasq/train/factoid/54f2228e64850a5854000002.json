@@ -1,0 +1,54 @@
+{
+  "id": "54f2228e64850a5854000002",
+  "type": "factoid",
+  "question": "Which is the mass-tag that reveal the ubiquitination of a lysine residue?",
+  "ideal_answer": "Lys-\u025b-Gly-Gly (K-\u025b-GG) is the remnant produced by trypsin digestion of proteins having ubiquitinated lysine side chains.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24196352",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24051958",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24142993",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24167568",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24251111",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23682733",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23707720"
+  ],
+  "snippets": [
+    {
+      "text": "antibodies that recognize the Lys-\u025b-Gly-Gly (K-\u025b-GG) remnant produced by trypsin digestion of proteins having ubiquitinated lysine side chains have markedly improved the ability to enrich and detect endogenous ubiquitination sites by mass spectrometry (MS). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24051958",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent publications have also highlighted the use of peptide-level immunoaffinity enrichment of K-GG modified peptides from whole cell lysates for global characterization of ubiquitination sites. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24142993",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this work, levels of lysine ubiquitination were quantitated using a structurally homologous label that is chemically similar to the diglycine (GlyGly) tag, which is left at the ubiquitination site upon trypsinolysis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23682733",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tandem mass spectrometry (LC-MS/MS) analysis of immunoprecipitated proteins resulted in the identification of five peptides containing ubiquitin (diglycine) modifications on eIF2B\u03b5",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23707720",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D025801",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008239",
+    "http://www.uniprot.org/uniprot/ALYS_BPDP1",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0031386",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014452",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0004842",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016567",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013058",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D057149",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D054875"
+  ],
+  "exact_answer": "Lys-\u025b-Gly-Gly (K-\u025b-GG) is the remnant produced by trypsin digestion of proteins having ubiquitinated lysine side chains."
+}

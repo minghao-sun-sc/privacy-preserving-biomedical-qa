@@ -1,0 +1,40 @@
+{
+  "id": "58ce9bf1d46b5c2951000002",
+  "type": "factoid",
+  "question": "Which disease is associated with mutated Sox2?",
+  "ideal_answer": "SOX2 anophthalmia syndrome is an uncommon autosomal dominant syndrome caused by mutations in the SOX2 gene and clinically characterized by severe eye malformations (anophthalmia/microphthalmia) and extraocular anomalies mainly involving brain, esophagus, and genitalia.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26893459",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26250054",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26130484",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25542770"
+  ],
+  "snippets": [
+    {
+      "text": "Anophthalmia and microphthalmia (A/M) are developmental ocular malformations defined as the complete absence or reduction in size of the eye. A/M is a highly heterogeneous disorder with SOX2 and FOXE3 playing major roles in dominant and recessive pedigrees, respectively;",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26130484",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "anophthalmia/microphthalmia (AM) or anterior segment dysgenesis (ASD) have an estimated combined prevalence of 3.7 in 10,000 births. Mutations in SOX2 are the most frequent contributors to severe ODA, yet account for a minority of the genetic drivers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26893459",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Three causative SOX2 mutations were found in subjects with syndromic A.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25542770",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SOX2 anophthalmia syndrome is an uncommon autosomal dominant syndrome caused by mutations in the SOX2 gene and clinically characterized by severe eye malformations (anophthalmia/microphthalmia) and extraocular anomalies mainly involving brain, esophagus, and genitalia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26250054",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "SOX2 anophthalmia syndrome"
+}

@@ -1,0 +1,123 @@
+{
+  "id": "5505ad7ff73303d458000007",
+  "type": "yesno",
+  "question": "Does the protein mTOR regulate autophagy?",
+  "ideal_answer": "mammalian target of rapamycin (mTOR)  is a major negative regulator of autophagy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24275666",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24209762",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23940798",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24024901",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24255881",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24326530",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24275748",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24092929",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24131573",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23982275",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24278483",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24265855"
+  ],
+  "snippets": [
+    {
+      "text": "autophagy is negatively regulated by the mammalian target of rapamycin receptor (mTOR)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24326530",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Subjecting cells to starvation or rapamycin efficiently induces autophagy by inhibiting the MTOR signaling pathway triggering increased autophagic flux. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24275748",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Several pathways, including mTOR, have been shown to regulate autophagy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24278483",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "these results provide insights into the mechanism by which hyperactivation of mTORC1 promotes breast cancer progression through increasing autophagy and Akt activation in vivo.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24275666",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " the canonical mTOR-controlled autophagy pathway",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24265855",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mTOR inhibition severely impairs liver regeneration and increases autophagy after PH",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24255881",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mTOR remains at a high level and inhibits autophagy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24209762",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AKT is involved in granulosa cell autophagy regulation via mTOR signaling during rat follicular development and atresia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24131573",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "mammalian target of rapamycin (mTOR), a major negative regulator of autophagy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24131573",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mTOR suppresses granulosa cell autophagy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24131573",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mammalian target of rapamycin (mTOR), a potent suppressor of autophagy,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24092929",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mTOR signaling pathway integrates inputs from a variety of upstream stimuli to regulate diverse cellular processes including proliferation, growth, survival, motility, autophagy, protein synthesis and metabolism",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24024901",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The activation of mammalian target of rapamycin (mTOR) signaling pathway blocks the effects of ghrelin-induced autophagy and apoptosis,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23982275",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " inducing apoptosis and autophagy via the mTOR signaling pathway",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23982275",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The mTOR gene regulates cell growth by controlling mRNA translation, ribosome biogenesis, autophagy, and metabolism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23940798",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/MTOR_MOUSE",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010508",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001343",
+    "http://www.uniprot.org/uniprot/MTOR_HUMAN",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010506",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006914",
+    "http://www.uniprot.org/uniprot/MTOR_RAT",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010507"
+  ],
+  "exact_answer": "Yes"
+}

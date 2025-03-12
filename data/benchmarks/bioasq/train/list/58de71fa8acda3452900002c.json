@@ -1,0 +1,50 @@
+{
+  "id": "58de71fa8acda3452900002c",
+  "type": "list",
+  "question": "Which proteins remove H2A.Z in the yeast Saccharomyces cerevisiae?",
+  "ideal_answer": "Removal of H2A.Z by INO80 promotes homologous recombination Budding yeast INO80 can remove H2A.Z/H2B dimers from chromatin and replace them with H2A/H2B dimers. Here, we show that H2A.Z in human cells is indeed rapidly removed from chromatin flanking DNA damage by INO80.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26982580",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26142279"
+  ],
+  "snippets": [
+    {
+      "text": "Removal of H2A.Z by INO80 promotes homologous recombination",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26142279",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Budding yeast INO80 can remove H2A.Z/H2B dimers from chromatin and replace them with H2A/H2B dimers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26142279",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we show that H2A.Z in human cells is indeed rapidly removed from chromatin flanking DNA damage by INO80.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26142279",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We also report that the histone chaperone ANP32E, which is implicated in removing H2AZ from chromatin, similarly promotes HR and appears to work on the same pathway as INO80 in these assays.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26142279",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "H2A.Z removal from chromatin is the primary function of INO80 and ANP32E in promoting homologous recombination.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26142279",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Instead, the INO80 complex, which removes H2A.Z(Htz1) from nucleosomes, promotes the ectopic deposition of CENP-A(Cse4).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26982580",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "INO80, ANP32E"
+}

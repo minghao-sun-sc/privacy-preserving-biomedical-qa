@@ -1,0 +1,45 @@
+{
+  "id": "58ea7248eda5a57672000002",
+  "type": "factoid",
+  "question": "What is the phenotype of people carrying mutations in the gene PRDM12?",
+  "ideal_answer": "New therapeutic options have recently been derived from studies of individuals with congenital insensitivity to pain (CIP). Here we identified 10 different homozygous mutations in PRDM12 (encoding PRDI-BF1 and RIZ homology domain-containing protein 12) in subjects with CIP from 11 families.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25891934",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26005867",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26549885"
+  ],
+  "snippets": [
+    {
+      "text": "The evolutionarily conserved transcription factor PRDM12 controls sensory neuron development and pain perception.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25891934",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we show that PRDM12 is a key regulator of sensory neuronal specification in Xenopus. Modeling of human PRDM12 mutations that cause hereditary sensory and autonomic neuropathy (HSAN) revealed remarkable conservation of the mutated residues in evolution.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25891934",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcriptional regulator PRDM12 is essential for human pain perception.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26005867",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " New therapeutic options have recently been derived from studies of individuals with congenital insensitivity to pain (CIP). Here we identified 10 different homozygous mutations in PRDM12 (encoding PRDI-BF1 and RIZ homology domain-containing protein 12) in subjects with CIP from 11 families. Prdm proteins are a family of epigenetic regulators that control neural specification and neurogenesis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26005867",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " However, the study of genetic disorders rendering individuals completely unable to feel pain offers hope. All causes of congenital painlessness affect nociceptors, evolutionarily conserved specialist neurons able to sense all type of tissue damage. The discovery of new genes essential for sensing pain (SCN11A, PRDM12, and CLTCL1) has provided unexpected insights into the biological mechanisms that drive distinct stages of nociception.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26549885",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "congenital insensitivity to pain, CIP"
+}

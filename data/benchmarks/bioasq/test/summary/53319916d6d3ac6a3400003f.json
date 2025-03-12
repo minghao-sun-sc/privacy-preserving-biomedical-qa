@@ -1,0 +1,48 @@
+{
+  "id": "53319916d6d3ac6a3400003f",
+  "type": "summary",
+  "question": "Where is the protein CLIC1 localized?",
+  "ideal_answer": "CLIC1 is an intracellular chloride ion channel that is localized both to the nucleus and to the cytolasm.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21055175",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15827065",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9880541"
+  ],
+  "snippets": [
+    {
+      "text": "CLIC1 expression was obtained in the cytoplasm and plasma membrane of cells in both cell lines.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21055175",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CLIC1, an intracellular chloride ion channel,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15827065",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Like NCC27/CLIC1, CLIC3 is predominantly localized in the nucleus ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9880541",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the nuclear localization pattern of CLIC1 was remarkably changed by insulin stimulation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15827065",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/CLIC1_MOUSE",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0008104",
+    "http://www.uniprot.org/uniprot/CLIC1_RAT",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0051234",
+    "http://www.uniprot.org/uniprot/CLIC1_PIG",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0051179",
+    "http://www.uniprot.org/uniprot/CLIC1_HUMAN",
+    "http://www.uniprot.org/uniprot/CLIC1_RABIT",
+    "http://www.uniprot.org/uniprot/CLIC1_BOVIN"
+  ]
+}

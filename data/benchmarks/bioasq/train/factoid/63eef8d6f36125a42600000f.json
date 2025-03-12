@@ -1,0 +1,32 @@
+{
+  "id": "63eef8d6f36125a42600000f",
+  "type": "factoid",
+  "question": "L9LS was developed for which disease?",
+  "ideal_answer": "L9LS was developed for malaria.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/36260982",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35921449"
+  ],
+  "snippets": [
+    {
+      "text": "METHODS: We conducted a phase 1 clinical trial to assess the safety and pharmacokinetics of L9LS, a next-generation antimalarial monoclonal antibody, and its protective efficacy against controlled human malaria infection in healthy adults who had never had malaria or received a vaccine for malaria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35921449",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: In this small trial, L9LS administered intravenously or subcutaneously protected recipients against malaria after controlled infection, without evident safety concerns.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35921449",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "L9LS, a potent and safe antimalarial monoclonal antibody, demonstrated 88% protective efficacy against infection in a phase 1 trial in healthy adults.1 ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36260982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "malaria"
+}

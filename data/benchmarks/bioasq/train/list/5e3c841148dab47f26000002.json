@@ -1,0 +1,61 @@
+{
+  "id": "5e3c841148dab47f26000002",
+  "type": "list",
+  "question": "Before 2019, what neurologic diseases are associated with the tau protein?",
+  "ideal_answer": "Tau proteins are involved in the pathogenesis of multiple sclerosis and amyotrophic lateral sclerosis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29441009",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27697018",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27995573",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20826658",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22009441",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20678581",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23552370"
+  ],
+  "snippets": [
+    {
+      "text": "Abnormally hyperphosphorylated tau is the major protein constituent of neurofibrillary tangles (NFTs) in the brain of Alzheimer disease (AD) patients",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27995573",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The hypothetical roles of arsenic in multiple sclerosis by induction of inflammation and aggregation of tau protein: A commentary",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27697018",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "his hypothesis may add a new dimension to the understanding of MS etiology and help to design novel therapeutic agents against potential targets that might be discovered. If this hypothesis proves to be true, tau phosphorylation inhibitors can be potential candidates for MS drug development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27697018",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Alzheimer's disease (AD) is the most common cause of progressive dementia in the elderly. It is characterized by a progressive and irreversible loss of cognitive abilities and formation of senile plaques, composed mainly of amyloid \u03b2 (A\u03b2), and neurofibrillary tangles (NFTs), composed of tau protein, in the hippocampus and cortex of afflicted human",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29441009",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The amyloid-forming proteins tau, \u03b1B crystallin, and amyloid P protein are all found in lesions of multiple sclerosis (MS).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23552370",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Alzheimer's disease (AD), progressive supranuclear palsy (PSP), frontotemporal dementia and parkinsonism linked to chromosome 17 (FTDP-17), and Pick's disease (PiD) are commonly known as tauopathies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22009441",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In Alzheimer's and Parkinson's diseases, there is a hyperphosphorylation of tau that leads to the intracellular accumulation of tau in the form of neurofibrillary tangles.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20678581",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Alzheimer's, Multiple Sclerosis, AML, Pick's disease (PiD), parkinsonism linked to chromosome 17 (FTDP-17), progressive supranuclear palsy (PSP), frontotemporal dementia"
+}

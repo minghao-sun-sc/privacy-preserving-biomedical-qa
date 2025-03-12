@@ -1,0 +1,33 @@
+{
+  "id": "622b95dc3a8413c653000092",
+  "type": "yesno",
+  "question": "Is retinol binding protein 4 an adipokine?",
+  "ideal_answer": "Yes,\nRetinol-binding protein 4 (RBP4) is a prominent adipokine.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33199363",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34575030",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33484131"
+  ],
+  "snippets": [
+    {
+      "text": "Systematic Quantification of Neurotrophic Adipokines RBP4, PEDF, and Clusterin in Human Cerebrospinal Fluid and Serum.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33484131",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Retinol-binding protein 4 (RBP4) is a prominent adipokine i",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33199363",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Fetuin-A and retinol-binding protein 4 (RBP4) are secreted as both hepatokine and adipokine. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34575030",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

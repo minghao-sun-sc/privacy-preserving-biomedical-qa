@@ -1,0 +1,64 @@
+{
+  "id": "5d35ee08b3a6380763000012",
+  "type": "factoid",
+  "question": "Which epigenetic marks are deposited by PRC1?",
+  "ideal_answer": "PRC2 induces histone H3 lysine 27 (H3K27) trimethylation (H3K27me3), which is subsequently read by PRC1 that further catalyzes H2A monoubiquitination (H2Aub1), creating a transcriptional silent chromatin conformation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27410265",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27630184",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21311219",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25071008",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19462008",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25754661",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26151332",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18974828",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26564795",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23706298"
+  ],
+  "snippets": [
+    {
+      "text": " In Arabidopsis thaliana, LHP1 co-localizes with H3K27me3 epigenetic marks throughout the genome and interacts with PRC1 and PRC2 members as well as with a long noncoding RNA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27410265",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "When cells enter senescence the binding to RD of both PRC1 and PRC2 complexes is lost leading to a decreased level of histone H3K27 trimethylation (H3K27me3).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19462008",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PRC2 induces histone H3 lysine 27 (H3K27) trimethylation (H3K27me3), which is subsequently read by PRC1 that further catalyzes H2A monoubiquitination (H2Aub1), creating a transcriptional silent chromatin conformation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23706298",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone H2A monoubiquitination (H2Aub1), catalyzed by Polycomb-Repressive Complex1 (PRC1), is a key epigenetic mark in Polycomb silencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27630184",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "For a long time, the PcG mechanism has been proposed to follow a hierarchical recruitment of PcG repressive complexes (PRCs) to target genes in which the binding of PRC2 and the incorporation of H3 lysine 27 trimethyl marks led to recruitment of PRC1, which in turn mediated H2A monoubiquitination.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25754661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone H2A monoubiquitination (H2Aub1), catalyzed by Polycomb-Repressive Complex1 (PRC1), is a key epigenetic mark in Polycomb silencing. Ho",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27630184",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Intriguingly, many promoters were co-regulated by all three histone marks, becoming hypermethylated with loss of H3K4me3 or H3K27me3 and hypomethylated with depletion of H2AK119ub, and many of these co-regulated loci were among those commonly targeted for aberrant hypermethylation in cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25071008",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "H2Aub1"
+}

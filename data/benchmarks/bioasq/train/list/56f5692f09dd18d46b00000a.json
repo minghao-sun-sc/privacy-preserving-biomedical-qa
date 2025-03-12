@@ -1,0 +1,37 @@
+{
+  "id": "56f5692f09dd18d46b00000a",
+  "type": "list",
+  "question": "Mutations in which genes have been associated with Aicardi-Goutieres syndrome?",
+  "ideal_answer": "Aicardi-Gouti\u00e8res syndrome (AGS) is an inflammatory disorder caused by mutations in any of six genes (TREX1, RNASEH2A, RNASEH2B, RNASEH2C, SAMHD1, and ADAR).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23365100",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19034401",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25500879",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17846997",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24183309",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21808053"
+  ],
+  "snippets": [
+    {
+      "text": "Aicardi-Gouti\u00e8res syndrome (AGS) is an inflammatory disorder caused by mutations in any of six genes (TREX1, RNASEH2A, RNASEH2B, RNASEH2C, SAMHD1, and ADAR). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24183309",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Aicardi-Gouti\u00e8res syndrome (AGS) is an inflammatory disorder caused by mutations in any of six genes (TREX1, RNASEH2A, RNASEH2B, RNASEH2C, SAMHD1, and ADAR)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24183309",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/RNH2A_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D058540",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050629",
+    "http://www.disease-ontology.org/api/metadata/DOID:8461",
+    "http://www.uniprot.org/uniprot/RNH2C_HUMAN",
+    "http://www.uniprot.org/uniprot/RNH2B_HUMAN"
+  ],
+  "exact_answer": "TREX1, RNASEH2A, RNASEH2B, RNASEH2C, SAMHD1, ADAR"
+}

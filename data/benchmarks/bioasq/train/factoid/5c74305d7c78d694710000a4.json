@@ -1,0 +1,59 @@
+{
+  "id": "5c74305d7c78d694710000a4",
+  "type": "factoid",
+  "question": "Which mRNAs are sequestered in stress granules?",
+  "ideal_answer": "Stress granules are higher order assemblies of nontranslating mRNAs and proteins that form when translation initiation is inhibited. \nThis subset of mRNAs is characterized by extended length and adenylate-uridylate (AU)-rich motifs, is highly enriched with genes critical for cell survival and proliferation. mRNA accumulation in stress granules correlates with longer coding and UTR regions and poor translatability",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29576526",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24013423",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29129640",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29483269",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21118122"
+  ],
+  "snippets": [
+    {
+      "text": "short deletions affecting nuclear localization signal (NLS) and causing cytoplasmic mislocalization can be sequestered into stress granules (SGs)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24013423",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " By using a series of chimaeric transcripts, we have demonstrated that transcript localization at the endoplasmic reticulum bypasses the signals dictating stress granule sequestration.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21118122",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Stress granules are higher order assemblies of nontranslating mRNAs and proteins that form when translation initiation is inhibited.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29483269",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Partially due to the belief that translationally suppressed mRNAs are recruited to SGs in bulk, stress-induced dynamic redistribution of mRNA has not been thoroughly characterized",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29576526",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This subset, characterized by extended length and adenylate-uridylate (AU)-rich motifs, is highly enriched with genes critical for cell survival and proliferation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29576526",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mRNA accumulation in stress granules correlates with longer coding and UTR regions and poor translatability",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29129640",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest that stress granules may not represent a specific biological program of messenger ribonucleoprotein (mRNP) assembly, but instead form by condensation of nontranslating mRNPs in proportion to their length and lack of association with ribosomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29129640",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "long, AU-rich and non-ribosome associating mRNA"
+}

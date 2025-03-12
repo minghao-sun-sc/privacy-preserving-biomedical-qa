@@ -1,0 +1,53 @@
+{
+  "id": "553f8bc11d53b76422000002",
+  "type": "yesno",
+  "question": "Are there any functional differences between Mfd and its human Cocaine syndrome protein B (CSB) homolog?",
+  "ideal_answer": "Both Cockayne syndrome protein B (CSB) and Mfd are involved in transcription-coupled repair. CSB is the human TCR coupling factor and Mfd is the bacterial TCR coupling factor. However, unlike Mfd, CSB does not act as a helicase nor does it dissociate stalled RNA polymerase II, suggesting a coupling mechanism in humans different from that in prokaryotes. Moreover, Mfd may be functionally distinct from its human CSB homolog in that it does not detectably contribute to the recovery of gene expression or global repair following oxidative damage.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22427630",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8999876"
+  ],
+  "snippets": [
+    {
+      "text": "In humans, the TCR coupling factor, CSB, plays a critical role in restoring transcription following both UV-induced and oxidative DNA damage. It also contributes indirectly to the global repair of some forms of oxidative DNA damage. The Escherichia coli homolog, Mfd, is similarly required for TCR of UV-induced lesions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22427630",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mfd may be functionally distinct from its human CSB homolog in that it does not detectably contribute to the recovery of gene expression or global repair following oxidative damage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22427630",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CSB has an ATPase activity that is stimulated strongly by DNA; however, it neither acts as a helicase nor does it dissociate stalled RNA polymerase II, suggesting a coupling mechanism in humans different from that in prokaryotes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8999876",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, these findings imply that Mfd may be functionally distinct from its human CSB homolog in that it does not detectably contribute to the recovery of gene expression or global repair following oxidative damage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22427630",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, these findings imply that Mfd may be functionally distinct from its human CSB homolog in that it does not detectably contribute to the recovery of gene expression or global repair following oxidative damage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22427630",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In contrast, no difference was detected in the rate of transcription recovery in mfd, uvrA, fpg, nth, or polB dinB umuDC mutants relative to wild-type cells following oxidative damage",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22427630",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0050783",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0050784"
+  ],
+  "exact_answer": "Yes"
+}

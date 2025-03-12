@@ -1,0 +1,43 @@
+{
+  "id": "5c51f01e07ef653866000002",
+  "type": "factoid",
+  "question": "Which algorithm has been developed for finding conserved non-coding elements (CNEs) in genomes?",
+  "ideal_answer": "CNEFinder is a tool for identifying CNEs between two given DNA sequences with user-defined criteria.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30423090"
+  ],
+  "snippets": [
+    {
+      "text": "CNEFinder: finding conserved non-coding elements in genomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30423090",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We fill this gap by presenting CNEFinder; a tool for identifying CNEs between two given DNA sequences with user-defined criteria. The results presented here show the tool's ability of identifying CNEs accurately and efficiently.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30423090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CNEFinder: finding conserved non-coding elements in genomes.Free software under the terms of the GNU GPL (https://github.com/lorrainea/CNEFinder).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30423090",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Currently, there are no tools published in the literature for systematically identifying CNEs in genomes.<br><b>Results</b>: We fill this gap by presenting CNEFinder; a tool for identifying CNEs between two given DNA sequences with user-defined criteria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30423090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We fill this gap by presenting CNEFinder; a tool for identifying CNEs between two given DNA sequences with user-defined criteria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30423090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CNEFinder"
+}

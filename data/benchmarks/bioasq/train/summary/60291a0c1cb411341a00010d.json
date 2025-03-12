@@ -1,0 +1,24 @@
+{
+  "id": "60291a0c1cb411341a00010d",
+  "type": "summary",
+  "question": "Describe PWMScan",
+  "ideal_answer": "PWMScan is used to scan a position weight matrix (PWM) against a genome or, in general, a large set of DNA sequences. The PWM is the most commonly used mathematical model to describe the DNA binding specificity of a transcription factor (TF). ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29514181"
+  ],
+  "snippets": [
+    {
+      "text": "PWMScan: a fast tool for scanning entire genomes with a position-specific weight matrix.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29514181",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Transcription factors regulate gene expression by binding to specific short DNA sequences of 5-20 bp to regulate the rate of transcription of genetic information from DNA to messenger RNA. We present PWMScan, a fast web-based tool to scan server-resident genomes for matches to a user-supplied PWM or transcription factor binding site model from a public database.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29514181",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

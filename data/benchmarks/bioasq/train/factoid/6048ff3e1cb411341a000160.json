@@ -1,0 +1,33 @@
+{
+  "id": "6048ff3e1cb411341a000160",
+  "type": "factoid",
+  "question": "Which cell secretes the enzyme tryptase?",
+  "ideal_answer": "Degranulation of mast cells (MCs) releases several mediators such as vascular endothelial growth factor (VEGF), chymase, tryptase, histamine, and cytokines.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31709696",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31858758",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31853339"
+  ],
+  "snippets": [
+    {
+      "text": "Degranulation of mast cells (MCs) releases several mediators such as vascular endothelial growth factor (VEGF), chymase, tryptase, histamine, and cytokines,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31709696",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MCs markers (Fc\u03b5RI and tryptase)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31853339",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tryptase-positive MC ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31858758",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Mast cells"
+}

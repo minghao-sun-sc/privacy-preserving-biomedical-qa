@@ -1,0 +1,19 @@
+{
+  "id": "587f760792a5b8ad44000005",
+  "type": "factoid",
+  "question": "Which peak calling algorithm employs mixture model clustering under the hood?",
+  "ideal_answer": "JAMM (Joint Analysis of NGS replicates via Mixture Model clustering) is a peak finder that can integrate information from biological replicates, determine enrichment site widths accurately and resolve neighboring narrow peaks. JAMM is a universal peak finder that is applicable to different types of datasets.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25223640"
+  ],
+  "snippets": [
+    {
+      "text": "We developed JAMM (Joint Analysis of NGS replicates via Mixture Model clustering): a peak finder that can integrate information from biological replicates, determine enrichment site widths accurately and resolve neighboring narrow peaks. JAMM is a universal peak finder that is applicable to different types of datasets. We show that JAMM is among the best performing peak finders in terms of site detection accuracy and in terms of accurate determination of enrichment sites widths. In addition, JAMM's replicate integration improves peak spatial resolution, sorting and peak finding accuracy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25223640",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "JAMM"
+}

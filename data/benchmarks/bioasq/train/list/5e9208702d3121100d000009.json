@@ -1,0 +1,33 @@
+{
+  "id": "5e9208702d3121100d000009",
+  "type": "list",
+  "question": "List the types of defensins expressed in humans.",
+  "ideal_answer": "Defensins are antimicrobial peptides that participate in the innate immunity of hosts. Humans constitutively and/or inducibly express \u03b1- and \u03b2-defensins, which are known for their antiviral and antibacterial activities.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30121363",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28423004",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29310427"
+  ],
+  "snippets": [
+    {
+      "text": "Human \u03b1 and \u03b2-defensins ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28423004",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the data indicate that the human \u03b2-defensin family is a novel group of potassium channel inhibitors with diverse types of human \u03b2-defensin-potassium channel interactions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30121363",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Defensins are antimicrobial peptides that participate in the innate immunity of hosts. Humans constitutively and/or inducibly express \u03b1- and \u03b2-defensins, which are known for their antiviral and antibacterial activities. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29310427",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "\u03b1-defensins, \u03b2-defensins"
+}

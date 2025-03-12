@@ -1,0 +1,33 @@
+{
+  "id": "5c7aae9dd774d0424000000a",
+  "type": "factoid",
+  "question": "What is the function of the protein encoded by the gene STING?",
+  "ideal_answer": "Stimulator of interferon genes (STING) is an adaptor protein that plays an important role in the activation of type I interferons in response to cytosolic nucleic acid ligands. Recent evidence indicates involvement of the STING pathway in the induction of antitumor immune response.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29346345",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28748479",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29367762"
+  ],
+  "snippets": [
+    {
+      "text": "Stimulator of interferon genes (STING) is an adaptor protein that plays an important role in the activation of type I interferons in response to cytosolic nucleic acid ligands. Recent evidence indicates involvement of the STING pathway in the induction of antitumor immune response. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28748479",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "STING (stimulator of interferon genes) is a cytosolic sensor for cyclic dinucleotides and also an adaptor molecule for intracellular DNA receptors. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29346345",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The production of cytokines in response to DNA-damage events may be an important host defense response to help prevent the escape of pre-cancerous cells. The innate immune pathways involved in these events are known to be regulated by cellular molecules such as stimulator of interferon genes (STING), which controls type I interferon and pro-inflammatory cytokine production in response to the presence of microbial DNA or cytosolic DNA that has escaped from the nucleus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29367762",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "activation of type I interferons"
+}

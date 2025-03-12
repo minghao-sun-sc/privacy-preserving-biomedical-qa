@@ -1,0 +1,49 @@
+{
+  "id": "5e52a7b66d0a277941000045",
+  "type": "factoid",
+  "question": "Which tool has been developed for prediction of single-cell DNA methylation states using deep learning?",
+  "ideal_answer": "DeepCpG is a computational approach based on deep neural networks to predict methylation states in single cells. By evaluating DeepCpG on single-cell methylation data from five cell types generated using alternative sequencing protocols it turns out that DeepCpG yields substantially more accurate predictions than previous methods.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28395661"
+  ],
+  "snippets": [
+    {
+      "text": "DeepCpG: accurate prediction of single-cell DNA methylation states using deep learning.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28395661",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Recent technological advances have enabled DNA methylation to be assayed at single-cell resolution. However, current protocols are limited by incomplete CpG coverage and hence methods to predict missing methylation states are critical to enable genome-wide analyses. We report DeepCpG, a computational approach based on deep neural networks to predict methylation states in single cells. We evaluate DeepCpG on single-cell methylation data from five cell types generated using alternative sequencing protocols. DeepCpG yields substantially more accurate predictions than previous methods. Additionally, we show that the model parameters can be interpreted, thereby providing insights into how sequence composition affects methylation variability.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28395661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report DeepCpG, a computational approach based on deep neural networks to predict methylation states in single cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28395661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We evaluate DeepCpG on single-cell methylation data from five cell types generated using alternative sequencing protocols.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28395661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report DeepCpG, a computational approach based on deep neural networks to predict methylation states in single cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28395661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We evaluate DeepCpG on single-cell methylation data from five cell types generated using alternative sequencing protocols.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28395661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "DeepCpG"
+}

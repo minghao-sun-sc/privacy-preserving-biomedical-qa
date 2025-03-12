@@ -1,0 +1,66 @@
+{
+  "id": "5aa13fd3d6d6b54f79000003",
+  "type": "list",
+  "question": "List 4 drugs used to treat opioid addiction or overdose",
+  "ideal_answer": "Suboxone (buprenorphine/naloxone) and  methadone are used to assist in opioid withdrawal and Naloxone is used to treat overdoses",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26808307",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28358791",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12738346",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28132694",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16953647",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28292795",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28203387",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19926374",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25271657"
+  ],
+  "snippets": [
+    {
+      "text": "Currently, the American College of Obstetricians and Gynecologists recommends methadone, buprenorphine, or buprenorphine/naloxone in the treatment of prenatal opioid abuse.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28203387",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PubMed was searched and literature was reviewed on the effectiveness, safety, and side effect profiles of abstinence-based treatment, buprenorphine-naloxone treatment, and methadone treatment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28292795",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Methadone is an opioid prescribed for pain management and is also provided through opioid treatment programs to treat opioid use disorders.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28358791",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Fortunately, there are effective medications (ie, methadone, buprenorphine, and oral and injectable naltrexone) available for the treatment of opioid addiction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26808307",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " We describe the major classes of drug treatments available, including opioid agonist (e.g., methadone, buprenorphine, LAAM), antagonist (e.g., naltrexone)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19926374",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "he development of buprenorphine, a partial opioid agonist, as an effective treatment for opioid addiction reopened the possibility for having a less burdensome oversight process,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12738346",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although the synthetic opioid buprenorphine has been available clinically for almost 30 years, its use has only recently become much more widespread for the treatment of opioid addiction",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16953647",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D062787",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D000073316"
+  ],
+  "exact_answer": "methadone, naloxone, suboxone, buprenorphine"
+}

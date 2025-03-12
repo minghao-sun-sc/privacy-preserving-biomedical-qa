@@ -1,0 +1,33 @@
+{
+  "id": "6049173d1cb411341a00016b",
+  "type": "factoid",
+  "question": "When is the drug Ivermectin used?",
+  "ideal_answer": "Ivermectin (IVM) has been well known for its role in the treatment of parasitic diseases, due to its effect on glutamate-gated chloride channels. These same channels are also present in the mosquito vector, and thus, research has focused on the insecticidal effects of this drug.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31786697",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31758387",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31808594"
+  ],
+  "snippets": [
+    {
+      "text": "The aim of this study was to compare the economic revenue related to the use of low- or high-efficacy anthelmintic drugs within suppressive or strategic schemes of treatment in growing heifers. Heifers raised in a semi-intensive grazing system in southern Brazil were used. Levamisole and ivermectin were selected as the high- and the low-efficacy drugs, respectively, based on a previous efficacy test.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31758387",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ivermectin (IVM) has been well known for its role in the treatment of parasitic diseases, due to its effect on glutamate-gated chloride channels. These same channels are also present in the mosquito vector, and thus, research has focused on the insecticidal effects of this drug. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31786697",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ivermectin is safe and widely used for treating helminth infections. It also kills arthropods feeding on treated subjects, including malaria vectors. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31808594",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Ivermectin is used to treat parasitic diseases"
+}

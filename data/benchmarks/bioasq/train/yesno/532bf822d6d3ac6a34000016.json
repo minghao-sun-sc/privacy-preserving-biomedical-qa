@@ -1,0 +1,82 @@
+{
+  "id": "532bf822d6d3ac6a34000016",
+  "type": "yesno",
+  "question": "Are there studies representing the involvement of Notch mutations in neurodegenerative diseases such as Down syndrome, Pick's and Prion's disease, and cadasil syndrome?",
+  "ideal_answer": "The Notch signaling pathway is an evolutionarily conserved, intercellular signaling mechanism essential for proper embryonic development in organisms as diverse as insects, nematodes, echinoderms and mammals. Disruptions in conserved developmental pathways frequently result in inherited congenital anomalies in humans. Mutations in genes encoding Notch pathway components underlie human disease such as Down syndrome, Pick's and Prion's disease, and cadasil syndrome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17981814",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24101600",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21772710",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24252593",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24249312",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15640354",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19383720",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16126912",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24140581",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24191040",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23432468",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24244188",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19419698",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11244211",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16473372",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24159576",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20205843",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24107444"
+  ],
+  "snippets": [
+    {
+      "text": "he Notch signaling pathway plays a critical role in maintaining the balance between cell proliferation, differentiation and apoptosis, and is a highly conserved signaling pathway that regulates normal development in a context- and dose-dependent manner. Dysregulation of Notch signaling has been suggested to be key events in a variety of hematological malignancies. Notch1 signaling appears to be the central oncogenic trigger in T cell acute lymphoblastic leukemia (T-ALL), in which the majority of human malignancies have acquired mutations that lead to constitutive activation of Notch1 signaling.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24252593",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In a forward genetic screen for mutations that alter intracellular Notch receptor trafficking in Drosophila melanogaster, we recovered mutants that disrupt genes encoding serine palmitoyltransferase and acetyl-CoA carboxylase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24244188",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Signaling pathways have become a major source of targets for novel therapies in hepatocellular carcinoma (HCC). Survival benefits achieved with sorafenib, a multikinase inhibitor, are unprecedented and underscore the importance of improving our understanding of how signaling networks interact in transformed cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24159576",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Notch-1 immunoexpression is increased in Alzheimer's and Pick's disease",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16473372",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "(PSEN1) is the major locus for mutations causing familial Alzheimer's disease (FAD) and is also mutated in Pick disease of brain, familial acne inversa and dilated cardiomyopathy. It is a critical facilitator of Notch signalling and many other signalling pathways and protein cleavage events including production of the Amyloid\u03b2 (A\u03b2) peptide from the AMYLOID BETA A4 PRECURSOR PROTEIN (APP",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24101600",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "As beta-APP and Notch are both processed by gamma-secretase, we analyzed expression of the Notch signaling pathway in the adult DS brain and in a model system for DS, human trisomy 21 fibroblasts by quantitative PCR. In adult DS cortex we found that Notch1, Dll1 and Hes1 expression is up-regulated. Moreover, DS fibroblasts and Alzheimer disease cortex also show overexpression of Notch1 and Dll1, indicating that enhanced beta-APP processing found in both DS and AD could be instrumental in these changes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16126912",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A systems biology approach to Down syndrome: identification of Notch/Wnt dysregulation in a model of stem cells aging",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19419698",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Notch3 gene has been recently identified as a causative gene for cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (CADASIL)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11244211",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051880",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009154",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D059645"
+  ],
+  "exact_answer": "Yes"
+}

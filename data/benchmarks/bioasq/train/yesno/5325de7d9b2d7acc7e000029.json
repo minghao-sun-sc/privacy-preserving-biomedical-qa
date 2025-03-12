@@ -1,0 +1,101 @@
+{
+  "id": "5325de7d9b2d7acc7e000029",
+  "type": "yesno",
+  "question": "Is low T3 syndrome a prognostic marker in patients with renal insufficiency?",
+  "ideal_answer": "Low fT3 is an independent predictor of death in chronic kidney disease, in particular in dialised patients at end-stage renal diseases.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/958900",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21189433",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22419237",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17908160",
+    "http://www.ncbi.nlm.nih.gov/pubmed/999108",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19367004",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16230785",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21389695",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20178724",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18211669",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22881233",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17082213",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23857979",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16775599",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22260378",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7385804"
+  ],
+  "snippets": [
+    {
+      "text": "Low T3 was particularly common (44.3 %), and clearly associated with increased 6- and 12-month mortality and decreased overall survival (log rank test, P=0.007). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22881233",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Increased rT3 may be more common in ESRD patients than previously described, and together with decreased T3 it may serve as an indicator of poor prognosis in subsequent months.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22881233",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The presence of TFT alterations seems to not be associated with clinical and prognostic implications in AKI patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22419237",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Multivariate analysis, according to receiver operating characteristic (ROC) curves, showed that mortality was best predicted by total triiodothyronine (T3).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17908160",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, low T3 but not low free triiodothyronine was associated with worse all-cause (Likelihood ratio = 45.4; P < 0.0001) and cardiovascular mortality (Likelihood ratio = 47.8; P < 0.0001) after adjustment for confounding factors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17908160",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " In Cox analyses, fT3 was a significant predictor of mortality independent of the main traditional as well as non-traditional risk factors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17082213",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "All-cause and CV mortality rates were significantly higher in patients with 'lower' T3 levels than in the 'higher' T3 group (113.4 vs 18.2 events per 1000 patient-years, P<0.001, and 49.8 vs 9.1 events per 1000 patient-years, P=0.001, respectively). The Kaplan-Meier analysis also showed significantly worse cumulative survival rates in the 'lower' T3 group (P<0.001). In the Cox regression analysis, low T3 was an independent predictor of all-cause mortality even after adjusting for traditional risk factors (hazard ratio=3.76, P=0.021). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23857979",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In CKD patients with proteinuria, low T3 concentration predicted all-cause mortality and cardiovascular event independently of the severity of proteinuria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22260378",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Low-T3 syndrome is a frequent finding among HD patients, but it does not predict outcome. However, serum fT3 level is a strong and inverse mortality predictor, in part explained by its underlying association with nutritional state and inflammation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21389695",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These data suggest that low FT3 levels are not predictive for mortality in a subgroup of stable HD patients who could survive more than 12 months.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20178724",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Low fT3 is an independent predictor of death in hemodialysis patients. These data lend support to the hypothesis that thyroid dysfunction is implicated in the high risk of the ESRD population.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16775599",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011379",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005067",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D058186",
+    "http://www.disease-ontology.org/api/metadata/DOID:784",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051437",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051436"
+  ],
+  "exact_answer": "Yes"
+}

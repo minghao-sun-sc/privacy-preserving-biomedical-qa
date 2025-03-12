@@ -1,0 +1,69 @@
+{
+  "id": "530cefaaad0bf1360c000011",
+  "type": "list",
+  "question": "What memory problems are reported in the \" Gulf war syndrome\"?",
+  "ideal_answer": "Loss of memory and dysmnesia are memory problems reported in the \" Gulf war syndrome\". Patients suffering from this syndrome often have other\nnonspecific symptoms such as fatigue, skin rash, headache, muscle and joint pain and sexual dysfunction.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15251045",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11600803",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14590665",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12446953",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9005271",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14515407",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9096828",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11478226",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21930452"
+  ],
+  "snippets": [
+    {
+      "text": "The strongest associations were for mood swings (OR 20.9, 95%CI 16.2-27.0), memory loss/lack of concentration (OR 19.6, 95% CI 15.5-24.8), night sweats (OR 9.9, 95% CI 6.5-15.2), general fatigue (OR 9.6, 95% CI 8.3-11.1) and sexual dysfunction (OR 4.6, 95%CI 3.2-6.6).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15251045",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The symptoms include incapacitating fatigue, musculoskeletel and joint pains, headaches, neuropsychiatric disorders, affect changes, confusion, visual problems, changes of gait, loss of memory, lymphadenopathies, respiratory impairment, impotence, and urinary tract morphological and functional alterations. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14515407",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In early 1992, U.S. troops returning from the Gulf War began reporting a variety of nonspecific symptoms such as fatigue, skin rash, headache, muscle and joint pain, and loss of memory. These reports marked the beginning of what was to be identified as the Gulf War Syndrome (GWS). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11600803",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report on a 29-year-old man who suffered from dysmnesia, disturbance of orientation, cognitive impairment, and double vision. His history revealed several front-line operations in 1990 and 1991 during the Gulf War. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11478226",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Neuropsychological tests disclosed severe cognitive impairment especially concerning memory.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11478226",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A cluster of common health problems included: skin rash, cough, depression, unintentional weight loss, insomnia, and memory problems.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9096828",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Syndromes 1 (\"impaired cognition,\" characterized by problems with attention, memory, and reasoning, as well as insomnia, depression, daytime sleepiness, and headaches), 2 (\"confusion-ataxia,\" characterized by problems with thinking, disorientation, balance disturbances, vertigo, and impotence), and 3 (\"arthro-myo-neuropathy,\" characterized by joint and muscle pains, muscle fatigue, difficulty lifting, and extremity paresthesias) represented strongly clustered symptoms; whereas, syndromes 4 (\"phobia-apraxia\"), 5 (\"fever-adenopathy\"), and 6 (\"weakness-incontinence\") involved weaker clustering and mostly overlapped syndromes 2 and 3. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9005271",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:4491",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008569",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008568",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018923",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0007613"
+  ],
+  "exact_answer": "loss of memory, dysmnesia"
+}

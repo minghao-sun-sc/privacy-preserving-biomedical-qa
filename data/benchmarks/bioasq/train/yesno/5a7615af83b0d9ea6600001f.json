@@ -1,0 +1,67 @@
+{
+  "id": "5a7615af83b0d9ea6600001f",
+  "type": "yesno",
+  "question": "Is vorinostat effective for glioblastoma?",
+  "ideal_answer": "No. Although vorinostat is well tolerated it does not improve survival of glioblastoma patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29016887",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22028388",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22923449",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24838514",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29133513",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24576944",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22090453"
+  ],
+  "snippets": [
+    {
+      "text": "Conclusions: Vorinostat combined with standard chemoradiation had acceptable tolerability in newly diagnosed glioblastoma. Although the primary efficacy endpoint was not met, vorinostat sensitivity and resistance signatures could facilitate patient selection in future trials.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29016887",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LESSONS LEARNED: Combination regimen with bevacizumab (BEV) and vorinostat is well tolerated in patients with recurrent glioblastoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29133513",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION: Combination treatment of BEV and VOR was well tolerated. This combination therapy for this study population did not improve PFS6 or median OS when compared with BEV monotherapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29133513",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present two patients with glioblastoma multiforme who developed severe hemolytic anemia shortly after initiating therapy with vorinostat, a pan-active histone deacetylase inhibitor, while on prophylactic dapsone.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24576944",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Vorinostat is the most advanced HDAC inhibitor that entered clinical trials in glioblastoma, showing activity in recurrent disease. Multiple phase II trials with vorinostat in combination with targeted agents, temozolomide and radiotherapy are currently recruiting. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24838514",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ". On the basis of the results of this phase II study, further evaluation of the vorinostat-bortezomib combination in GBM patients in this dose and schedule is not recommended.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22090453",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ith the increased toxicities associated with CPT-11 coupled with its unclear clinical significance, investigating the efficacy of vorinostat combined with bevacizumab alone may represent a more promising strategy to evaluate in the context of a phase II clinical trial.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22028388",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION: Vorinostat in combination with temozolomide is well tolerated in patients with HGG. A phase I/II trial of vorinostat with radiotherapy and concomitant TMZ in newly diagnosed glioblastoma is underway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22923449",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "5a86bf2efaa1ab7d2e000033",
+  "type": "summary",
+  "question": "What is the mechanism of the auxin-inducible degron system?",
+  "ideal_answer": "Fusion of inducible degradation signals, so-called degrons, to cellular proteins is an elegant method of controlling protein levels in vivo.  The auxin-inducible degron (AID) system allows the rapid and reversible proteolysis of proteins of interest, and enables the generation of conditional mutants of budding yeast. Strategies that use ubiquitin-mediated protein degradation to eliminate the product of a gene of interest, such as heat-inducible degron (td) and auxin-inducible degron (AID), are powerful methods for constructing conditional mutants. Auxin-inducible degron (AID) technology allows rapid depletion of proteins in animal cells and fungi, but its application to human cells has been limited by the difficulties of tagging endogenous proteins. The auxin-inducible degron harbors great potential for dynamic protein depletion in yeast. Here, we thoroughly and quantitatively characterize the auxin-inducible degron in single yeast cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23836714",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28589221",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19915560",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21314938",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26081484",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27010248",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28680098",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25181302",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27052166"
+  ],
+  "snippets": [
+    {
+      "text": "Fusion of inducible degradation signals, so-called degrons, to cellular proteins is an elegant method of controlling protein levels in vivo. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23836714",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The auxin-inducible degron (AID) system allows the rapid and reversible proteolysis of proteins of interest, and enables the generation of conditional mutants of budding yeast.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25181302",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Strategies that use ubiquitin-mediated protein degradation to eliminate the product of a gene of interest, such as heat-inducible degron (td) and auxin-inducible degron (AID), are powerful methods for constructing conditional mutants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26081484",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Auxin-inducible degron (AID) technology allows rapid depletion of proteins in animal cells and fungi, but its application to human cells has been limited by the difficulties of tagging endogenous proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27052166",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The auxin-inducible degron harbors great potential for dynamic protein depletion in yeast. Here, we thoroughly and quantitatively characterize the auxin-inducible degron in single yeast cells. We show that an auxin concentration of 0.25\u2009mM is necessary for fast and uniform protein depletion between single cells, and that in mother cells proteins are depleted faster than their daughters.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28680098",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we introduce an easy and efficient method to generate conditional knockout cell lines based on combining auxin-inducible degron (AID) technology with CRISPR/Cas9 gene editing. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28589221",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Plants have evolved a unique system in which the plant hormone auxin directly induces rapid degradation of the AUX/IAA family of transcription repressors by a specific form of the SCF E3 ubiquitin ligase. Other eukaryotes lack the auxin response but share the SCF degradation pathway, allowing us to transplant the auxin-inducible degron (AID) system into nonplant cells and use a small molecule to conditionally control protein stability.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19915560",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We constructed an auxin-inducible degron (AID) system, which utilizes auxin-dependent poly-ubiquitination of Aux/IAA proteins by SCFTIR1 in plants, in fission yeast.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21314938",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS We constructed an auxin-inducible degron (AID) system, which utilizes auxin-dependent poly-ubiquitination of Aux/IAA proteins by SCFTIR1 in plants, in fission yeast.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21314938",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To this end, a degradation system was developed in yeast exploiting TIR1, a plant F box protein, which can recruit proteins with an auxin-inducible degron to an E3 ubiquitin ligase complex, but only in the presence of the phytohormone auxin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27010248",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Plants have evolved a unique system in which the plant hormone auxin directly induces rapid degradation of the AUX/IAA family of transcription repressors by a specific form of the SCF E3 ubiquitin ligase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19915560",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "inducible inactivation of a protein is a powerful approach for analysis of its function within cells fission yeast is a useful model for studying the fundamental mechanisms such as chromosome maintenance and cell cycle however previously published strategies for protein depletion are successful only for some proteins in some specific conditions and still do not achieve efficient depletion to cause acute phenotypes such as immediate cell cycle arrest the aim of this work was to construct a useful and powerful protein depletion system in shizosaccaromyces pombe we constructed an auxin inducible degron aid system which utilizes auxin dependent poly ubiquitination of aux iaa proteins by scftir1 in plants in fission yeast although expression of a plant f box protein tir1 decreased mcm4 aid a component of the mcm complex essential for dna replication tagged with aux iaa peptide depletion did not result in an evident growth defect we successfully improved degradation efficiency of mcm4 aid by fusion of tir1 with fission yeast skp1 a conserved f box interacting component of scf improved aid system i aid and the cells showed severe defect in growth the i aid system induced degradation of mcm4 aid in the chromatin bound mcm complex as well as those in soluble fractions the i aid system in conjunction with transcription repression off aid system we achieved more efficient depletion of other proteins including pol1 and cdc45 causing early s phase arrest improvement of the aid system allowed us to construct conditional null mutants of s pombe we propose that the off aid system is the powerful method for in vivo protein depletion in fission yeast.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21314938",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "plants have evolved a unique system in which the plant hormone auxin directly induces rapid degradation of the aux iaa family of transcription repressors by a specific form of the scf e3 ubiquitin ligase other eukaryotes lack the auxin response but share the scf degradation pathway allowing us to transplant the auxin inducible degron aid system into nonplant cells and use a small molecule to conditionally control protein stability the aid system allowed rapid and reversible degradation of target proteins in response to auxin and enabled us to generate efficient conditional mutants of essential proteins in yeast as well as cell lines derived from chicken mouse hamster monkey and human cells thus offering a powerful tool to control protein expression and study protein function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19915560",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the analysis of consequences resulting after experimental elimination of gene function has been and will continue to be an extremely successful strategy in biological research mutational elimination of gene function has been widely used in the fly drosophila melanogaster rna interference is used extensively as well in the fly exceptionally precise temporal and spatial control over elimination of gene function can be achieved in combination with sophisticated transgenic approaches and clonal analyses however the methods that act at the gene and transcript level cannot eliminate protein products which are already present at the time when mutant cells are generated or rna interference is started targeted inducible protein degradation is therefore of considerable interest for controlled rapid elimination of gene function to this end a degradation system was developed in yeast exploiting tir1 a plant f box protein which can recruit proteins with an auxin inducible degron to an e3 ubiquitin ligase complex but only in the presence of the phytohormone auxin here we demonstrate that the auxin inducible degradation system functions efficiently also in drosophila melanogaster neither auxin nor tir1 expression have obvious toxic effects in this organism and in combination they result in rapid degradation of a target protein fused to the auxin inducible degron.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27010248",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "isolation of a tight conditional mutant of a gene of interest is an effective way of studying the functions of essential genes strategies that use ubiquitin mediated protein degradation to eliminate the product of a gene of interest such as heat inducible degron td and auxin inducible degron aid are powerful methods for constructing conditional mutants however these methods do not work with some genes here we describe an improved aid system iaid for isolating tight conditional mutants in the budding yeast saccharomyces cerevisiae in this method transcriptional repression by the tet off promoter is combined with proteolytic elimination of the target protein by the aid system to provide examples we describe the construction of tight mutants of the replication factors dpb11 and mcm10 dpb11 iaid and mcm10 iaid because dpb11 and mcm10 are required for the initiation of dna replication their tight mutants are unable to enter s phase this is the case for dpb11 iaid and mcm10 iaid cells after the addition of tetracycline and auxin both the tet off promoter and the aid system have been shown to work in model eukaryotes other than budding yeast therefore the iaid system is not only useful in budding yeast but also can be applied to other model systems to isolate tight conditional mutants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26081484",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

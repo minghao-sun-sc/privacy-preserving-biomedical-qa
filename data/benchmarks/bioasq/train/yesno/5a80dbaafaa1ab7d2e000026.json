@@ -1,0 +1,40 @@
+{
+  "id": "5a80dbaafaa1ab7d2e000026",
+  "type": "yesno",
+  "question": "Are there ways of joint Bayesian inference of risk variants?",
+  "ideal_answer": "Yes. RiVIERA (Risk Variant Inference using Epigenomic Reference Annotations) is a Bayesian model for inference of driver variants from summary statistics across multiple traits using hundreds of epigenomic annotations.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27407109"
+  ],
+  "snippets": [
+    {
+      "text": "Joint Bayesian inference of risk variants and tissue-specific epigenomic enrichments across multiple complex human diseases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27407109",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Genome wide association studies (GWAS) provide a powerful approach for uncovering disease-associated variants in human, but fine-mapping the causal variants remains a challenge. This is partly remedied by prioritization of disease-associated variants that overlap GWAS-enriched epigenomic annotations. Here, we introduce a new Bayesian model RiVIERA (Risk Variant Inference using Epigenomic Reference Annotations) for inference of driver variants from summary statistics across multiple traits using hundreds of epigenomic annotations. In simulation, RiVIERA promising power in detecting causal variants and causal annotations, the multi-trait joint inference further improved the detection power. We applied RiVIERA to model the existing GWAS summary statistics of 9 autoimmune diseases and Schizophrenia by jointly harnessing the potential causal enrichments among 848 tissue-specific epigenomics annotations from ENCODE/Roadmap consortium covering 127 cell/tissue types and 8 major epigenomic marks. RiVIERA identified meaningful tissue-specific enrichments for enhancer regions defined by H3K4me1 and H3K27ac for Blood T-Cell specifically in the nine autoimmune diseases and Brain-specific enhancer activities exclusively in Schizophrenia. Moreover, the variants from the 95% credible sets exhibited high conservation and enrichments for GTEx whole-blood eQTLs located within transcription-factor-binding-sites and DNA-hypersensitive-sites.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27407109",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we introduce a new Bayesian model RiVIERA (Risk Variant Inference using Epigenomic Reference Annotations) for inference of driver variants from summary statistics across multiple traits using hundreds of epigenomic annotations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27407109",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Joint Bayesian inference of risk variants and tissue-specific epigenomic enrichments across multiple complex human diseases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27407109",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D001499",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D014644"
+  ],
+  "exact_answer": "Yes"
+}

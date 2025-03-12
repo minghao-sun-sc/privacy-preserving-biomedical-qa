@@ -1,0 +1,25 @@
+{
+  "id": "5ac0aee419833b0d7b000004",
+  "type": "yesno",
+  "question": "Is a mutation of the  ZIKV's membrane protein prM responsible for the microcephaly in new-born infants?",
+  "ideal_answer": "Yes, a single mutation in the prM protein of Zika virus contributes to fetal microcephaly.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28971967"
+  ],
+  "snippets": [
+    {
+      "text": "Here we show that a single serine-to-asparagine substitution [Ser139\u2192Asn139(S139N)] in the viral polyprotein substantially increased ZIKV infectivity in both human and mouse neural progenitor cells (NPCs) and led to more severe microcephaly in the mouse fetus, as well as higher mortality rates in neonatal mice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28971967",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A single mutation in the prM protein of Zika virus contributes to fetal microcephaly.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28971967",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

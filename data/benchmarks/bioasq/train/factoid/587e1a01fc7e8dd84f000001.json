@@ -1,0 +1,63 @@
+{
+  "id": "587e1a01fc7e8dd84f000001",
+  "type": "factoid",
+  "question": "Which annotated database of A-to-I RNA editing is available?",
+  "ideal_answer": "RADAR is a rigorously annotated database of A-to-I RNA editing. RADAR includes a comprehensive collection of A-to-I RNA editing sites identified in humans (Homo sapiens), mice (Mus musculus) and flies (Drosophila melanogaster), together with extensive manually curated annotations for each editing site. RADAR also includes an expandable listing of tissue-specific editing levels for each editing site, which will facilitate the assignment of biological functions to specific editing sites.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24163250"
+  ],
+  "snippets": [
+    {
+      "text": "RADAR: a rigorously annotated database of A-to-I RNA editing",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24163250",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present RADAR--a rigorously annotated database of A-to-I RNA editing",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24163250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The identification of A-to-I RNA editing sites has been dramatically accelerated in the past few years by high-throughput RNA sequencing studies. RADAR includes a comprehensive collection of A-to-I RNA editing sites identified in humans (Homo sapiens), mice (Mus musculus) and flies (Drosophila melanogaster), together with extensive manually curated annotations for each editing site. RADAR also includes an expandable listing of tissue-specific editing levels for each editing site, which will facilitate the assignment of biological functions to specific editing sites",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24163250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present RADAR--a rigorously annotated database of A-to-I RNA editing (available at http://RNAedit.com).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24163250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RADAR: a rigorously annotated database of A-to-I RNA editing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24163250",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present RADAR--a rigorously annotated database of A-to-I RNA editing (available at http://RNAedit.com). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24163250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RADAR includes a comprehensive collection of A-to-I RNA editing sites identified in humans (Homo sapiens), mice (Mus musculus) and flies (Drosophila melanogaster), together with extensive manually curated annotations for each editing site. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24163250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RADAR: a rigorously annotated database of A-to-I RNA editing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24163250",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017393"
+  ],
+  "exact_answer": "RADAR"
+}

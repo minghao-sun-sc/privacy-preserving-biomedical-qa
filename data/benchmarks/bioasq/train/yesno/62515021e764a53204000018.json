@@ -1,0 +1,40 @@
+{
+  "id": "62515021e764a53204000018",
+  "type": "yesno",
+  "question": "Is Mical an oxidoreductase?",
+  "ideal_answer": "Yes,\nMICAL is an oxidoreductase",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31949908",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12700098",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27223600",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33671465"
+  ],
+  "snippets": [
+    {
+      "text": "the MICALs, which are flavoprotein monooxygenase/hydroxylase enzymes that associate with flavin adenine dinucleotide (FAD) and use the co-enzyme nicotinamide adenine dinucleotide phosphate (NADPH) in Redox reactions",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33671465",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MICAL is an oxidoreductase",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31949908",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We have recently identified a new family of multidomain oxidoreductase (redox) enzymes, the MICALs,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27223600",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the oxidoreductase MICAL",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12700098",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "5a4e1882966455904c00000f",
+  "type": "yesno",
+  "question": "Is there a sequence bias in MNase digestion patterns?",
+  "ideal_answer": "The cutting preference of MNase in combination with size selection generates a sequence-dependent bias in the resulting fragments.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22310051",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23458408",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21206756",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26080409",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22559821",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27185945"
+  ],
+  "snippets": [
+    {
+      "text": "In addition, unlike MNase, MPE-Fe(II) cleaves nuclear DNA with little sequence bias.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26080409",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These findings collectively indicate that MPE-seq provides a unique and straightforward means for the genome-wide analysis of chromatin structure with minimal DNA sequence bias.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26080409",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Micrococcal nuclease does not substantially bias nucleosome mapping.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22310051",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "MNase has hitherto been very widely used to map nucleosomes, although concerns have been raised over its potential to introduce bias.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22310051",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results indicate that biases in nucleosome positioning data collected using MNase are, under our conditions, not significant.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22310051",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Signal variation in these simulations reveals an important DNA sampling bias that results from a neighborhood effect of MNase digestion techniques.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22559821",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Standardized collection of MNase-seq experiments enables unbiased dataset comparisons.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22559821",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we show that the cutting preference of MNase in combination with size selection generates a sequence-dependent bias in the resulting fragments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21206756",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We propose that combined MNase/exoIII digestion can be applied to in situ chromatin for unbiased genome-wide mapping of nucleosome positions that is not influenced by DNA sequences at the core/linker junctions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23458408",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Signal variation in these simulations reveals an important DNA sampling bias that results from a neighborhood effect of MNase digestion techniques.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22559821",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Signal variation in these simulations reveals an important DNA sampling bias that results from a neighborhood effect of MNase digestion techniques.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22559821",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results indicate that biases in nucleosome positioning data collected using MNase are, under our conditions, not significant..",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22310051",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Micrococcal nuclease does not substantially bias nucleosome mapping.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22310051",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We find that maize MNase-hypersensitive (MNase HS) regions localize around active genes and within recombination hotspots, focusing biased gene conversion at their flanks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27185945",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

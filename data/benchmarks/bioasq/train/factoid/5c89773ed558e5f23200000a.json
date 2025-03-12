@@ -1,0 +1,19 @@
+{
+  "id": "5c89773ed558e5f23200000a",
+  "type": "factoid",
+  "question": "Which gene therapy treatment is FDA approved for retinal dystrophy?",
+  "ideal_answer": "Luxturna is approved by the Food and Drug Administration (FDA) for the treatment of inherited retinal dystrophy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30089698"
+  ],
+  "snippets": [
+    {
+      "text": "Gene therapy utilizing viral vectors has experienced recent success, culminating in U.S. Food and Drug Administration approval of the first adeno-associated virus vector gene therapy product in the United States: Luxturna for inherited retinal dystrophy. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30089698",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Luxturna"
+}

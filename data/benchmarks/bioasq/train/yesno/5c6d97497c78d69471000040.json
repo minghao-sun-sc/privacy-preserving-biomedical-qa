@@ -1,0 +1,25 @@
+{
+  "id": "5c6d97497c78d69471000040",
+  "type": "yesno",
+  "question": "Are there graph kernel libraries available implemented in JAVA?",
+  "ideal_answer": "No. Measuring the similarity of graphs is a fundamental step in the analysis of graph-structured data, which is omnipresent in computational biology. Graph kernels have been proposed as a powerful and efficient approach to this problem of graph comparison. Graphkernels are the first R and Python graph kernel libraries including baseline kernels such as label histogram based kernels, classic graph kernels such as random walk based kernels, and the state-of-the-art Weisfeiler-Lehman graph kernel. The core of all graph kernels is implemented in C\u2009++ for efficiency. Using the kernel matrices computed by the package, one can perform tasks such as classification, regression and clustering on graph-structured samples.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29028902"
+  ],
+  "snippets": [
+    {
+      "text": "graphkernels: R and Python packages for graph comparison.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29028902",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Measuring the similarity of graphs is a fundamental step in the analysis of graph-structured data, which is omnipresent in computational biology. Graph kernels have been proposed as a powerful and efficient approach to this problem of graph comparison. Here we provide graphkernels, the first R and Python graph kernel libraries including baseline kernels such as label histogram based kernels, classic graph kernels such as random walk based kernels, and the state-of-the-art Weisfeiler-Lehman graph kernel. The core of all graph kernels is implemented in C\u2009++ for efficiency. Using the kernel matrices computed by the package, we can easily perform tasks such as classification, regression and clustering on graph-structured samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29028902",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

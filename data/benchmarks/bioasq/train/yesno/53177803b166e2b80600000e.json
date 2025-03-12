@@ -1,0 +1,46 @@
+{
+  "id": "53177803b166e2b80600000e",
+  "type": "yesno",
+  "question": "Is there evidence for somatic mosaicism in Tuberous Sclerosis?",
+  "ideal_answer": "Yes, somatic mosaicism in Tuberous Sclerosis has been documented with the use of mutation identification, and subsequent linkage analysis in the affected families. In a large family with both parents unaffected, 3 affected children and 5 unaffected siblings, a 4 bp insertion in TSC2 gene was shown to be inherited from the mother.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/9361032",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16237225"
+  ],
+  "snippets": [
+    {
+      "text": "There are several case reports of solitary SEGA without any other manifestations of TSC. Usually these cases are thought to be forme fruste of TSC due to somatic mosaicism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16237225",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Female germline mosaicism in tuberous sclerosis confirmed by molecular genetic analysis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9361032",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "This is the first case of germline mosaicism in tuberous sclerosis proven by molecular genetic analysis and also the first example of female germline mosaicism for a characterized autosomal dominant gene mutation apparently not associated with somatic mosaicism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9361032",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mutation screening by RT-PCR and direct sequencing of the TSC2 gene identified a 4 bp insertion TACT following nucleotide 2077 in exon 18 which was present in the three affected children but not in five unaffected siblings or the parents. This mutation would cause a frameshift and premature termination at codon 703. Absence of the mutation in lymphocyte DNA from the parents was consistent with germline mosaicism and this was confirmed by our finding of identical chromosome 16 haplotypes in affected and unaffected siblings, providing unequivocal evidence of two different cell lines in the gametes. Molecular analysis of the TSC2 alleles present in the affected subjects showed that the mutation had been inherited from the mother.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9361032",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0033596",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009030",
+    "http://www.disease-ontology.org/api/metadata/DOID:13515",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014402",
+    "http://www.uniprot.org/uniprot/TSC1_HUMAN",
+    "http://www.biosemantics.org/jochem#4266396",
+    "http://www.uniprot.org/uniprot/TSC2_HUMAN"
+  ],
+  "exact_answer": "Yes"
+}

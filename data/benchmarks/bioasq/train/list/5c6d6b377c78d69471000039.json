@@ -1,0 +1,50 @@
+{
+  "id": "5c6d6b377c78d69471000039",
+  "type": "list",
+  "question": "Which web-based pedigree editors are available?",
+  "ideal_answer": "Pedigreejs and Madeline 2.0 Pedigree Drawing Engine (PDE)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29095980",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17488757"
+  ],
+  "snippets": [
+    {
+      "text": "pedigreejs: a web-based graphical pedigree editor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29095980",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Several standalone graphical pedigree editors and drawing applications exist but there are no freely available lightweight graphical pedigree editors that can be easily configured and incorporated into web applications.Results: We developed 'pedigreejs', an interactive graphical pedigree editor written in JavaScript, which uses standard pedigree nomenclature. Pedigreejs provides an easily configurable, extensible and lightweight pedigree editor. It makes use of an open-source Javascript library to define a hierarchical layout and to produce images in scalable vector graphics (SVG) format that can be viewed and edited in web browsers.Availability and implementation: The software is freely available under GPL licence (https://ccge-boadicea.github.io/pedigreejs/).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29095980",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Madeline 2.0 PDE: a new program for local and web-based pedigree drawing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17488757",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The Madeline 2.0 Pedigree Drawing Engine (PDE) is a pedigree drawing program for use in linkage and family-based association studies. The program is designed to handle large and complex pedigrees with an emphasis on readability and aesthetics. For complex pedigrees, we use a hybrid algorithm in which consanguinous loops are drawn as cyclic graphs whenever possible, but we resort to acyclic graphs when matings can no longer be connected without line crossings. A similar hybrid approach is used to avoid line crossings for matings between distant descendants of different founding groups. Written in object-oriented C++ and released under the GNU General Public License (GPL), Madeline 2.0 PDE reads input files specified on the command line and generates pedigree drawings without user interaction. Pedigree output in scalable vector graphics (SVG) format can be viewed in browsers with native SVG rendering support or in vector graphics editors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17488757",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Madeline 2.0 PDE: a new program for local and web-based pedigree drawing.http://kellogg.umich.edu/madeline.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17488757",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "pedigreejs: a web-based graphical pedigree editor.Supplementary data are available at Bioinformatics online.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29095980",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Pedigreejs, Madeline 2.0 Pedigree Drawing Engine (PDE)"
+}

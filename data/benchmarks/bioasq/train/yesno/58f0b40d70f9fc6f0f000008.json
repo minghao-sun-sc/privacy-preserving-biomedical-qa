@@ -1,0 +1,40 @@
+{
+  "id": "58f0b40d70f9fc6f0f000008",
+  "type": "yesno",
+  "question": "Are selenium supplements recommended for prostate cancer prevention?",
+  "ideal_answer": "No. The SELECT study failed to show any significant risk reduction for prostate cancers ascribable to selenium and vitamin E supplementations.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26957512",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25990689",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25854337",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25505227"
+  ],
+  "snippets": [
+    {
+      "text": "Our meta-analysis in prospective studies demonstrated a significant inverse association between selenium status and CVD risk within a narrow selenium range and a null effect of selenium supplementation on CVD was observed in RCTs. These findings indicate the importance of considering selenium status, dose and safety in health assessment and future study design.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25990689",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Selenium supplementation of 140 or more \u03bcg/day after diagnosis of nonmetastatic prostate cancer may increase risk of prostate cancer mortality. Caution is warranted regarding usage of such supplements among men with prostate cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25505227",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The SELECT study failed to show any significant risk reduction for prostate cancers ascribable to selenium and vitamin E supplementations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25854337",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Vitamins and supplements, including selenium or vitamin E, have not been proven in clinical trials to prevent prostate cancer and in the case of Vitamin E has been found to increase the risk of incident prostate cancer. Ongoing and future trials may further elucidate the role of diet and immunotherapy for prevention of prostate cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26957512",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

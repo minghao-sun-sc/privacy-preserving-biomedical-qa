@@ -1,0 +1,31 @@
+{
+  "id": "5e2894109499698331000002",
+  "type": "factoid",
+  "question": "Which algorithm has been developed for finding conserved non-coding elements (CNEs)?",
+  "ideal_answer": "CNEFinder is a tool for identifying CNEs between two given DNA sequences with user-defined criteria.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30423090"
+  ],
+  "snippets": [
+    {
+      "text": "CNEFinder: finding conserved non-coding elements in genomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30423090",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Towards this direction, identifying sets of CNEs in a wide range of organisms is an important first step. Currently, there are no tools published in the literature for systematically identifying CNEs in genomes.Results: We fill this gap by presenting CNEFinder; a tool for identifying CNEs between two given DNA sequences with user-defined criteria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30423090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Results\nWe fill this gap by presenting CNEFinder; a tool for identifying CNEs between two given DNA sequences with user-defined criteria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30423090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CNEFinder"
+}

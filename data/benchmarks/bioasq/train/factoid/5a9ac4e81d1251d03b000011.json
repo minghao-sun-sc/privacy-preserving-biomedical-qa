@@ -1,0 +1,31 @@
+{
+  "id": "5a9ac4e81d1251d03b000011",
+  "type": "factoid",
+  "question": "Which brain tumors does neuroligin-3 promote?",
+  "ideal_answer": "Neuroligin-3 promotes the growth of high-grade gliomas.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28959975"
+  ],
+  "snippets": [
+    {
+      "text": "An important mechanism that mediates this neural regulation of brain cancer is activity-dependent cleavage and secretion of the synaptic adhesion molecule neuroligin-3 (NLGN3), which promotes glioma proliferation through the PI3K-mTOR pathway. However, the necessity of NLGN3 for glioma growth, the proteolytic mechanism of NLGN3 secretion, and the further molecular consequences of NLGN3 secretion in glioma cells remain unknown. Here we show that HGG growth depends on microenvironmental NLGN3, identify signalling cascades downstream of NLGN3 binding in glioma, and determine a therapeutically targetable mechanism of secretion. Patient-derived orthotopic xenografts of paediatric GBM, DIPG and adult GBM fail to grow in Nlgn3 knockout mice. NLGN3 stimulates several oncogenic pathways, such as early focal adhesion kinase activation upstream of PI3K-mTOR, and induces transcriptional changes that include upregulation of several synapse-related genes in glioma cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28959975",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This work defines a promising strategy for targeting NLGN3 secretion, which could prove transformative for HGG therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28959975",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Targeting neuronal activity-regulated neuroligin-3 dependency in high-grade glioma",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28959975",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "high-grade gliomas"
+}

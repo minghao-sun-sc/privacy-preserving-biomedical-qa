@@ -1,0 +1,46 @@
+{
+  "id": "5a6d08d5b750ff445500002c",
+  "type": "factoid",
+  "question": "Which stapled peptide has been designed to target Ctf4?",
+  "ideal_answer": "The stapled Sld5 peptide was able to displace the Ctf4 partner DNA polymerase\u2005\u03b1 from the replisome in yeast extracts.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28815832"
+  ],
+  "snippets": [
+    {
+      "text": "The Ctf4/AND-1 protein hub, which links DNA replication, repair, and chromosome segregation, represents a novel target for the synthetic lethality approach. Herein, we report the design, optimization, and validation of double-click stapled peptides encoding the Ctf4-interacting peptide (CIP) of the replicative helicase subunit Sld5. By screening stapling positions in the Sld5 CIP, we identified an unorthodox i,i+6 stapled peptide with improved, submicromolar binding to Ctf4. The mode of interaction with Ctf4 was confirmed by a crystal structure of the stapled Sld5 peptide bound to Ctf4. The stapled Sld5 peptide was able to displace the Ctf4 partner DNA polymerase\u2005\u03b1 from the replisome in yeast extracts. Our study provides proof-of-principle evidence for the development of small-molecule inhibitors of the human CTF4 orthologue AND-1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28815832",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Herein, we report the design, optimization, and validation of double-click stapled peptides encoding the Ctf4-interacting peptide (CIP) of the replicative helicase subunit Sld5.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28815832",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The stapled Sld5 peptide was able to displace the Ctf4 partner DNA polymerase\u2005\u03b1 from the replisome in yeast extracts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28815832",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "By screening stapling positions in the Sld5 CIP, we identified an unorthodox i,i+6 stapled peptide with improved, submicromolar binding to Ctf4.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28815832",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The stapled Sld5 peptide was able to displace the Ctf4 partner DNA polymerase\u2005\u03b1 from the replisome in yeast extracts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28815832",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D010455",
+    "http://www.biosemantics.org/jochem#4265011"
+  ],
+  "exact_answer": "The stapled Sld5 peptide"
+}

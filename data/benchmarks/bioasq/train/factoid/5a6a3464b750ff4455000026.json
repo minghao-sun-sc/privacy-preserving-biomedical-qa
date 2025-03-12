@@ -1,0 +1,61 @@
+{
+  "id": "5a6a3464b750ff4455000026",
+  "type": "factoid",
+  "question": "Which algorithm has been developed in order to improve multiple circular sequence alignment using refined sequences?",
+  "ideal_answer": "MARS improves multiple circular sequence alignment using refined sequences. MARS was implemented in the C++ programming language as a program to compute the rotations (cyclic shifts) required to best align a set of input sequences. Experimental results, using real and synthetic data, show that MARS improves the alignments, with respect to standard genetic measures and the inferred maximum-likelihood-based phylogenies, and outperforms state-of-the-art methods both in terms of accuracy and efficiency.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28088189"
+  ],
+  "snippets": [
+    {
+      "text": "MARS: improving multiple circular sequence alignment using refined sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28088189",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present MARS, a new heuristic method for improving Multiple circular sequence Alignment using Refined Sequences. MARS was implemented in the C++ programming language as a program to compute the rotations (cyclic shifts) required to best align a set of input sequences. Experimental results, using real and synthetic data, show that MARS improves the alignments, with respect to standard genetic measures and the inferred maximum-likelihood-based phylogenies, and outperforms state-of-the-art methods both in terms of accuracy and efficiency. Our results show, among others, that the average pairwise distance in the multiple sequence alignment of a dataset of widely-studied mitochondrial DNA sequences is reduced by around 5% when MARS is applied before a multiple sequence alignment is performed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28088189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present MARS, a new heuristic method for improving Multiple circular sequence Alignment using Refined Sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28088189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Experimental results, using real and synthetic data, show that MARS improves the alignments, with respect to standard genetic measures and the inferred maximum-likelihood-based phylogenies, and outperforms state-of-the-art methods both in terms of accuracy and efficiency.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28088189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS We present MARS, a new heuristic method for improving Multiple circular sequence Alignment using Refined Sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28088189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A solution for these inconsistencies would be to identify a suitable rotation (cyclic shift) for each sequence; these refined sequences may in turn lead to improved multiple sequence alignments using the preferred multiple sequence alignment program.<br><b>RESULTS</b>: We present MARS, a new heuristic method for improving Multiple circular sequence Alignment using Refined Sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28088189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MARS was implemented in the C++ programming language as a program to compute the rotations (cyclic shifts) required to best align a set of input sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28088189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MARS: improving multiple circular sequence alignment using refined sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28088189",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "MARS"
+}

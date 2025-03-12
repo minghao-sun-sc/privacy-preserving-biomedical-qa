@@ -1,0 +1,37 @@
+{
+  "id": "643306cc57b1c7a315000027",
+  "type": "yesno",
+  "question": "Can CRISPR/Cas12a be used for the detection of EGFR mutations in circulating DNA?",
+  "ideal_answer": "Yes, the CRISPR-Cas12a system can rapidly and sensitively detect circulating EGFR mutations, and thus, has potential prognostic or therapeutic implications.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32093010"
+  ],
+  "snippets": [
+    {
+      "text": "A CRISPR Test for Rapidly and Sensitively Detecting Circulating EGFR Mutations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32093010",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The CRISPR-Cas12a system can detect both L858R and T790M with a limit of detection of 0.005% in less than three hours.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32093010",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The CRISPR-Cas12a system could detect L858R in plasma of two lung cancer patients whose tissue biopsies are positive for L858R, and one plasma sample of three lung cancer patients whose tissue biopsies are positive for T790M. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32093010",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " This proof of principle study demonstrates that the CRISPR-Cas12a system could rapidly and sensitively detect circulating EGFR mutations, and thus, has potential prognostic or therapeutic implications.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32093010",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

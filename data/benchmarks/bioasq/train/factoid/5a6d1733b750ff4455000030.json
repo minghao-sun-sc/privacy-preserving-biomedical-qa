@@ -1,0 +1,41 @@
+{
+  "id": "5a6d1733b750ff4455000030",
+  "type": "factoid",
+  "question": "Which resource contains accurate enhancer predictions in the developing limb?",
+  "ideal_answer": "Limb-Enhancer Genie (LEG) is a collection of highly accurate, genome-wide predictions of enhancers in the developing limb, available through a user-friendly online interface. Limb enhancers are predicted using a combination of >50 published limb-specific datasets and clusters of evolutionarily conserved transcription factor binding sites, taking advantage of the patterns observed at previously in vivo validated elements.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28827824"
+  ],
+  "snippets": [
+    {
+      "text": "Here we present the Limb-Enhancer Genie (LEG), a collection of highly accurate, genome-wide predictions of enhancers in the developing limb, available through a user-friendly online interface. We predict limb enhancers using a combination of>50 published limb-specific datasets and clusters of evolutionarily conserved transcription factor binding sites, taking advantage of the patterns observed at previously in vivo validated elements.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28827824",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Limb-Enhancer Genie: An accessible resource of accurate enhancer predictions in the developing limb.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28827824",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we present the Limb-Enhancer Genie (LEG), a collection of highly accurate, genome-wide predictions of enhancers in the developing limb, available through a user-friendly online interface.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28827824",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Limb-Enhancer Genie: An accessible resource of accurate enhancer predictions in the developing limb.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28827824",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D004742",
+    "http://amigo.geneontology.org/amigo/term/GO:0060173",
+    "http://amigo.geneontology.org/amigo/term/GO:0060174"
+  ],
+  "exact_answer": "Limb-Enhancer Genie (LEG)"
+}

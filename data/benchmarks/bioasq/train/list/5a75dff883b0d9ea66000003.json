@@ -1,0 +1,70 @@
+{
+  "id": "5a75dff883b0d9ea66000003",
+  "type": "list",
+  "question": "Name curated data resources for ChIP-seq data",
+  "ideal_answer": "The MGA repository, Cistrome Data Browser and CR Cistrome are curated data resources for ChIP-seq data.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24253304",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27789702",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22495751",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29069466"
+  ],
+  "snippets": [
+    {
+      "text": "MGA repository: a curated data resource for ChIP-seq and other genome annotated data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069466",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Cistrome Data Browser: a data portal for ChIP-Seq and chromatin accessibility data in human and mouse.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27789702",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Although rapidly accumulating publicly available ChIP-seq, DNase-seq and ATAC-seq data are a valuable resource for the systematic investigation of gene regulation processes, a lack of standardized curation, quality control and analysis procedures have hindered extensive reuse of these data. To overcome this challenge, we built the Cistrome database, a collection of ChIP-seq and chromatin accessibility data (DNase-seq and ATAC-seq) published before January 1, 2016, including 13 366 human and 9953 mouse samples. All the data have been carefully curated and processed with a streamlined analysis pipeline and evaluated with comprehensive quality control metrics. We have also created a user-friendly web server for data query, exploration and visualization. The resulting Cistrome DB (Cistrome Data Browser), available online at http://cistrome.org/db, is expected to become a valuable resource for transcriptional and epigenetic regulation studies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27789702",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CR Cistrome: a ChIP-Seq database for chromatin regulators and histone modification linkages in human and mouse.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24253304",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We have created CistromeMap as a web server to provide a comprehensive knowledgebase of all of the publicly available ChIP-Seq and DNase-Seq data in mouse and human.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22495751",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To overcome this challenge, we built the Cistrome database, a collection of ChIP-seq and chromatin accessibility data (DNase-seq and ATAC-seq) published before January 1, 2016, including 13 366 human and 9953 mouse samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27789702",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We have created CistromeMap as a web server to provide a comprehensive knowledgebase of all of the publicly available ChIP-Seq and DNase-Seq data in mouse and human.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22495751",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The resulting Cistrome DB (Cistrome Data Browser), available online at http://cistrome.org/db, is expected to become a valuable resource for transcriptional and epigenetic regulation studies.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27789702",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cistrome Data Browser: a data portal for ChIP-Seq and chromatin accessibility data in human and mouse.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27789702",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "MGA repository, Cistrome Data Browser, CR Cistrome, CistromeMap"
+}

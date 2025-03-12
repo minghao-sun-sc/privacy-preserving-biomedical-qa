@@ -1,0 +1,64 @@
+{
+  "id": "516beae9298dcd4e5100006b",
+  "type": "summary",
+  "question": "What is the role of thyroid hormone receptor alpha1 in insulin secretion?",
+  "ideal_answer": "Liganded TR(alpha) plays a critical role in beta-cell replication and in expansion of the beta-cell mass. the TRalpha P398H mutation which cannot bind T3, is associated with  insulin resistance. Loss of Thra protects mice from high-fat diet-induced hepatic and peripheral insulin resistance.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22147010",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12869545",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20529852"
+  ],
+  "snippets": [
+    {
+      "text": "loss of Thra protects mice from high-fat diet-induced hepatic steatosis and hepatic and peripheral insulin resistance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22147010",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "liganded TR(alpha) plays a critical role in beta-cell replication and in expansion of the beta-cell mass during postnatal development. Thus, liganded TR(alpha) may be a target for therapeutic strategies that can induce the expansion and regeneration of beta-cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20529852",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "the TRalpha P398H mutation is associated with visceral adiposity and insulin resistance",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12869545",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/THA_LITCT",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011972",
+    "http://www.uniprot.org/uniprot/THAA_PAROL",
+    "http://www.uniprot.org/uniprot/THA_PYGAD",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0050796",
+    "http://www.uniprot.org/uniprot/THA_CHICK",
+    "http://www.uniprot.org/uniprot/THA_ONCMY",
+    "http://www.uniprot.org/uniprot/THA_CAIMO",
+    "http://www.uniprot.org/uniprot/THA_PIG",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011988",
+    "http://www.uniprot.org/uniprot/INS_APLCA",
+    "http://www.uniprot.org/uniprot/THA_MOUSE",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037021",
+    "http://www.uniprot.org/uniprot/THA_HIPHI",
+    "http://www.uniprot.org/uniprot/THAA_DANRE",
+    "http://www.uniprot.org/uniprot/THA_ELECQ",
+    "http://www.uniprot.org/uniprot/INSR_HUMAN",
+    "http://www.uniprot.org/uniprot/INSR_XENLA",
+    "http://www.uniprot.org/uniprot/THAA_XENLA",
+    "http://www.uniprot.org/uniprot/THA_NECMA",
+    "http://www.uniprot.org/uniprot/INSR_MACMU",
+    "http://www.uniprot.org/uniprot/THA_SPAAU",
+    "http://www.uniprot.org/uniprot/INSR_RAT",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0030073",
+    "http://www.uniprot.org/uniprot/THA_HUMAN",
+    "http://www.uniprot.org/uniprot/THA_SHEEP",
+    "http://www.uniprot.org/uniprot/INSR_MOUSE",
+    "http://www.uniprot.org/uniprot/THA_RAT",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012380",
+    "http://www.uniprot.org/uniprot/THA_APTPA",
+    "http://www.uniprot.org/uniprot/THA_SALSA"
+  ]
+}

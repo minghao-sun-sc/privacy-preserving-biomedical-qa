@@ -1,0 +1,70 @@
+{
+  "id": "5133b9455274a5fb0700000c",
+  "type": "list",
+  "question": "What is the most prominent sequence consensus for the polyadenylation site?",
+  "ideal_answer": "Functional polyadenylation [poly(A)] sites consist of two sequence elements, the AAUAAA and G/U box signals, that closely flank the site of mRNA 3'-end formation. The canonical polyadenylation signal sequence AATAAA",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/1993703",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2513486",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1712333",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1915889",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7901430",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6194440"
+  ],
+  "snippets": [
+    {
+      "text": "the cannonical polyadenylation signal sequence AATAAA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1915889",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Two AATAAA motifs are coded in the last exon of this gene",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1993703",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The results demonstrate that the intact AAUAAA is not required for RNA polyadenylation but is required for the cleavage step preceding polyadenylation to occur efficiently",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/6194440",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "the early poly(A) consensus signal was mutated from AAUAAA to UGUAAA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7901430",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Functional polyadenylation [poly(A)] sites consist of two sequence elements, the AAUAAA and G/U box signals, that closely flank the site of mRNA 3'-end formation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1712333",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "the appropriate spacing of the AAUAAA and G/U box signals is critical for poly(A) site function",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1712333",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": " Two AATAAA hexanucleotide sequences are present in the 2092 nucleotide interval. The first one functions as the major polyA signal",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2513486",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=1900363",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0043631",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D039104",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D026723",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012313",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011063",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011061",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016384",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D039221"
+  ],
+  "exact_answer": "AATAAA, AAUAAA"
+}

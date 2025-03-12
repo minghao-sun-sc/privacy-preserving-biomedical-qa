@@ -1,0 +1,26 @@
+{
+  "id": "5c5f21a81a4c55d80b00001c",
+  "type": "yesno",
+  "question": "Is selenocysteine an aminoacid?",
+  "ideal_answer": "Yes",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29447106",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29323455"
+  ],
+  "snippets": [
+    {
+      "text": "Selenocysteine (Sec), a rare genetically encoded amino acid with unusual chemical properties, is of great interest for protein engineering.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29447106",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Selenocysteine (SeC) is a naturally available Se-containing amino acid that displays splendid anticancer activities against several human tumors. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29323455",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "6278cb6056bf9aee6f00000d",
+  "type": "list",
+  "question": "Computational tools for predicting allosteric pathways in proteins",
+  "ideal_answer": "CorrSite identifies potential allosteric ligand-binding sites based on motion correlation analyses between cavities.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20161451",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23742907",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25340971",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27254668",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27580047",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28282132",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23842804",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24803851",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32737291",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29750256",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30688063",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33844527"
+  ],
+  "snippets": [
+    {
+      "text": "Here, a Monte Carlo (MC) path generation approach is proposed and implemented to define likely allosteric pathways through generating an ensemble of maximum probability paths.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23742907",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Overall, it is demonstrated that the communication pathways could be multiple and intrinsically disposed, and the MC path generation approach provides an effective tool for the prediction of key residues that mediate the allosteric communication in an ensemble of pathways and functionally plausible residues",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23742907",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present a novel method, \"MutInf\", to identify statistically significant correlated motions from equilibrium molecular dynamics simulations",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20161451",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The motion of residues and subunits underlies protein function; therefore, we hypothesized that the motions of allosteric and orthosteric sites are correlated. We utilized a data set of 24 known allosteric sites from 23 monomer proteins to calculate the correlations between potential ligand-binding sites and corresponding orthosteric sites using a Gaussian network model (GNM)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27580047",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " To facilitate its usage, we present here the principles and practice of the SCA and introduce new methods for sector analysis in a python-based software package (pySCA).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27254668",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CorrSite identifies potential allosteric ligand-binding sites based on motion correlation analyses between cavities.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29750256",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we introduce the Correlation of All Rotameric and Dynamical States (CARDS) framework for quantifying correlations between both the structure and disorder of different regions of a protein",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28282132",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We find that CARDS captures allosteric communication between the two cAMP-Binding Domains (CBDs)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28282132",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "overy. Allosite is a newly developed automatic tool for the prediction of allosteric sites in proteins of interest and is now available through a web",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23842804",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "e previously developed structure-based statistical mechanical model of allostery (SBSMMA), we share our experience in analyzing the allosteric signaling, predicting latent allosteric sites, inducing and tuning targeted allosteric response, and exploring the allosteric effects of mutations. This, yet i",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33844527",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Overall, it is demonstrated that the communication pathways could be multiple and intrinsically disposed, and the MC path generation approach provides an effective tool for the prediction of key residues that mediate the allosteric communication in an ensemble of pathways and functionally plausible residues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23742907",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MCPath: Monte Carlo path generation approach to predict likely allosteric pathways and functional residues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23742907",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Allosite and AllositePro",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30688063",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We develop a computationally efficient network-based method, Ohm, to identify and characterize allosteric communication networks within proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32737291",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To elaborate a rational description of allosteric coupling, we propose an original approach - MOdular NETwork Analysis (MONETA) - based on the analysis of inter-residue dynamical correlations to localize the propagation of both structural and dynamical effects of a perturbation throughout a protein structure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25340971",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "MCPath, MutInf, pySCA, CorrSite, CARDS"
+}

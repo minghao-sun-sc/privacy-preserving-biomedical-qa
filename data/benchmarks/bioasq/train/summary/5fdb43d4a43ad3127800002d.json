@@ -1,0 +1,120 @@
+{
+  "id": "5fdb43d4a43ad3127800002d",
+  "type": "summary",
+  "question": "What is the function of the chromHMM software?",
+  "ideal_answer": "ChromHMM learns chromatin-state signatures using a multivariate hidden Markov model (HMM) that explicitly models the combinatorial presence or absence of each mark . It uses these signatures to generate a genome-wide annotation for each cell type by calculating the most probable state for each genomic segment . Chromatin states are learned, annotations are produced, and enrichments are computed within 1 d .",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31695717",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26865847",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25708947",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25810430",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29120462",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30309205",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27706663"
+  ],
+  "snippets": [
+    {
+      "text": "Here, we publish a frequency profile of the three ChromHMM promoter states, at 200-bp intervals, with particular reference to the existence of sequence patterns of promoter elements, GC-richness, and transcription starting sites. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26865847",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ChromHMM learns chromatin-state signatures using a multivariate hidden Markov model (HMM) that explicitly models the combinatorial presence or absence of each mark. ChromHMM uses these signatures to generate a genome-wide annotation for each cell type by calculating the most probable state for each genomic segment",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29120462",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ChromHMM provides an automated enrichment analysis of the resulting annotations to facilitate the functional interpretations of each chromatin state.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29120462",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ChromHMM is distinguished by its modeling emphasis on combinations of marks, its tight integration with downstream functional enrichment analyses, its speed, and its ease of use. Chromatin states are learned, annotations are produced, and enrichments are computed within 1 d.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29120462",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ChromHMM helps to annotate the noncoding genome using epigenomic information across one or multiple cell types. It combines multiple genome-wide epigenomic maps, and uses combinatorial and spatial mark patterns to infer a complete annotation for each cell type",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29120462",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our aim was to identify the possible relationship between DNA sequences and the newly built chromatin states based on the integrated ChromHMM datasets of different cells and tissue types.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30309205",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we publish a frequency profile of the three ChromHMM promoter states, at 200-bp intervals, with particular reference to the existence of sequence patterns of promoter elements, GC-richness, and transcription starting sites.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26865847",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Building the Frequency Profile of the Core Promoter Element Patterns in the Three ChromHMM Promoter States at 200bp Intervals: A Statistical Perspective.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26865847",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Based on the ChromHMM algorithm, the genome was divided into 620,122 fragments, which were classified into 24 states according to the combination of epigenetic marks and enriched-feature regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31695717",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The nucleotide frequency profiles of nine chromatin annotations with the units of 200 bp were analyzed and integrative Markov chains were built to detect the Markov properties of the DNA sequences in some of the active chromatin states of different ChromHMM regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30309205",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We analyzed the publicly available ChromHMM BED files of the ENCODE project and tested the Markov properties of the different chromatin states in the human genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27706663",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, we comprehensively compare our method to ChromHMM on three real datasets and show that our method estimates more chromatin states than ChromHMM for those datasets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25810430",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS: In this paper, we propose a linear time algorithm for calculating a set of non-overlapping regions that maximizes the sum of similarities between the vector of focal epigenetic states and the vectors of raw epigenetic states at DNA positions in the set of regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25708947",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nucleotide frequency profiles of regional chromatin segmentations were analyzed, and Markov chains were built to detect Markov properties in the chromatin states of different ChromHMM regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27706663",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS: In this study, we propose a method to estimate the chromatin states indicated by genome-wide chromatin marks identified by NGS technologies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25810430",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The proposed method automatically estimates the number of chromatin states and characterize each state on the basis of a hidden Markov model (HMM) in combination with a recently proposed model selection technique, factorized information criteria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25810430",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chromatin states are learned, annotations are produced, and enrichments are computed within 1 d.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29120462",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

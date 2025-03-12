@@ -1,0 +1,46 @@
+{
+  "id": "587d016ed673c3eb14000002",
+  "type": "summary",
+  "question": "What is TOPAZ1?",
+  "ideal_answer": "TOPAZ1 is a novel germ cell-specific expressed gene conserved during evolution across vertebrates. Its PAZ-domain protein is abundantly expressed in the gonads during germ cell meiosis. The expression pattern of TOPAZ1, and its high degree of conservation, suggests that it may play an important role in germ cell development. Further characterization of TOPAZ1 may elucidate the mechanisms involved in gametogenesis, and particularly in the RNA silencing process in the germ line.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26358182",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22069478"
+  ],
+  "snippets": [
+    {
+      "text": "TOPAZ1, a germ cell specific factor, is essential for male meiotic progression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26358182",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Topaz1 (Testis and Ovary-specific PAZ domain gene 1) is a germ cell specific gene highly conserved in vertebrates",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26358182",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Topaz1 is supposed to have a role during gametogenesis and may be involved in the piRNA pathway and contribute to silencing of transposable elements and maintenance of genome integrity",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26358182",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TOPAZ1, a novel germ cell-specific expressed gene conserved during evolution across vertebrates",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22069478",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/TOPZ1_BOVIN",
+    "http://www.uniprot.org/uniprot/TOPZ1_RAT",
+    "http://www.uniprot.org/uniprot/TOPZ1_MOUSE",
+    "http://www.uniprot.org/uniprot/TOPZ1_MACFA",
+    "http://www.uniprot.org/uniprot/TOPZ1_CALJA",
+    "http://www.uniprot.org/uniprot/TOPZ1_MACMU",
+    "http://www.uniprot.org/uniprot/TOPZ1_SHEEP",
+    "http://www.uniprot.org/uniprot/TOPZ1_HUMAN"
+  ]
+}

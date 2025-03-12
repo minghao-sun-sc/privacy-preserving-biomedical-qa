@@ -1,0 +1,105 @@
+{
+  "id": "516d4770298dcd4e51000076",
+  "type": "summary",
+  "question": "How does dronedarone affect thyroid hormone signaling in the heart?",
+  "ideal_answer": "Dronedarone via its metabolite debutyldronedarone acts as a TRalpha(1)-selective inhibitor and selectively mimicks hypothyroidism.\nDronedarone  decreases TRalpha 1 and beta 1 expression by about 50%  in the right atrium (RA)  while in the left ventricle, only TRbeta1 is found to be decreased.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21442236",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12538616",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12063079",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15687816",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17535870"
+  ],
+  "snippets": [
+    {
+      "text": "Administration of debutyl-dronedarone (DBD), a TR\u03b11 antagonist abolished the T3-limiting effect on reperfusion injury:",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21442236",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Dron affected TR expression in the RA similarly by decreasing TRalpha 1 and beta 1 expression by about 50%.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17535870",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In the LVW, AM and Dron decreased TRbeta 1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17535870",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Hypothyroid heart displays a phenotype of cardioprotection against ischemia and this study investigated whether administration of dronedarone, an amiodarone-like compound that has been shown to preferentially antagonize thyroid hormone binding to thyroid hormone receptor alpha1 (TRalpha1),",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15687816",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "dronedarone treatment results in cardioprotection by selectively mimicking hypothyroidism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15687816",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The in vitro and in vivo findings suggest that dronedarone via its metabolite debutyldronedarone acts as a TRalpha(1)-selective inhibitor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12538616",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Amiodarone resulted in increased T4, T4/T3 and rT3, whereas dronedarone did not alter the thyroid hormone profile in normal animals.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12063079",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/THA_LITCT",
+    "http://www.uniprot.org/uniprot/THB_HUMAN",
+    "http://www.uniprot.org/uniprot/THB_SHEEP",
+    "http://www.uniprot.org/uniprot/THA_MOUSE",
+    "http://www.uniprot.org/uniprot/THA_PYGAD",
+    "http://www.uniprot.org/uniprot/THA_CHICK",
+    "http://www.biosemantics.org/jochem#4250045",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013963",
+    "http://www.uniprot.org/uniprot/THA_APTPA",
+    "http://www.uniprot.org/uniprot/THB_LITCT",
+    "http://www.uniprot.org/uniprot/THB_CAIMO",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006321",
+    "http://www.biosemantics.org/jochem#4275389",
+    "http://www.uniprot.org/uniprot/THA_PIG",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011988",
+    "http://www.uniprot.org/uniprot/THBA_XENLA",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0070324",
+    "http://www.biosemantics.org/jochem#4233556",
+    "http://www.uniprot.org/uniprot/THB_PAROL",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037021",
+    "http://www.uniprot.org/uniprot/THA_HIPHI",
+    "http://www.uniprot.org/uniprot/THB_DANRE",
+    "http://www.uniprot.org/uniprot/THB_RAT",
+    "http://www.uniprot.org/uniprot/THAA_DANRE",
+    "http://www.biosemantics.org/jochem#4274245",
+    "http://www.uniprot.org/uniprot/THA_ELECQ",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0010861",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0046966",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0002154",
+    "http://www.uniprot.org/uniprot/THA_SPAAU",
+    "http://www.uniprot.org/uniprot/THA_NECMA",
+    "http://www.uniprot.org/uniprot/THAA_PAROL",
+    "http://www.uniprot.org/uniprot/THA_HUMAN",
+    "http://www.biosemantics.org/jochem#4275394",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013974",
+    "http://www.uniprot.org/uniprot/THA_SHEEP",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037042",
+    "http://www.uniprot.org/uniprot/THAA_XENLA",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014284",
+    "http://www.uniprot.org/uniprot/THB_CHICK",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0004887",
+    "http://www.uniprot.org/uniprot/THA_RAT",
+    "http://www.uniprot.org/uniprot/THA_ONCMY",
+    "http://www.uniprot.org/uniprot/THA_CAIMO",
+    "http://www.uniprot.org/uniprot/THA_SALSA",
+    "http://www.uniprot.org/uniprot/THB_MOUSE"
+  ]
+}

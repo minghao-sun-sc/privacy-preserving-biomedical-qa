@@ -1,0 +1,53 @@
+{
+  "id": "56d19ffaab2fed4a47000001",
+  "type": "yesno",
+  "question": "Is there a package in R/bioconductor for classification of alternative splicing?",
+  "ideal_answer": "Yes. SpliceR is an R package for classification of alternative splicing and prediction of coding potential from RNA-seq data.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24655717"
+  ],
+  "snippets": [
+    {
+      "text": "spliceR: an R package for classification of alternative splicing and prediction of coding potential from RNA-seq data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24655717",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Recent software improvements in full-length transcript deconvolution prompted us to develop spliceR, an R package for classification of alternative splicing and prediction of coding potential.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24655717",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "spliceR uses the full-length transcript output from RNA-seq assemblers to detect single or multiple exon skipping, alternative donor and acceptor sites, intron retention, alternative first or last exon usage, and mutually exclusive exon events. For each of these events spliceR also annotates the genomic coordinates of the differentially spliced elements, facilitating downstream sequence analysis. For each transcript isoform fraction values are calculated to identify transcript switching between conditions. Lastly, spliceR predicts the coding potential, as well as the potential nonsense mediated decay (NMD) sensitivity of each transcript.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24655717",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent software improvements in full-length transcript deconvolution prompted us to develop spliceR, an R package for classification of alternative splicing and prediction of coding potential.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24655717",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent software improvements in full-length transcript deconvolution prompted us to develop spliceR, an R package for classification of alternative splicing and prediction of coding potential. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24655717",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent software improvements in full-length transcript deconvolution prompted us to develop spliceR, an R package for classification of alternative splicing and prediction of coding potential.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24655717",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017398",
+    "http://amigo.geneontology.org/amigo/term/GO:0000381",
+    "http://amigo.geneontology.org/amigo/term/GO:0000380"
+  ],
+  "exact_answer": "Yes"
+}

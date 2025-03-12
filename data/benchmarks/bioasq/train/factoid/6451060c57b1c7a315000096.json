@@ -1,0 +1,33 @@
+{
+  "id": "6451060c57b1c7a315000096",
+  "type": "factoid",
+  "question": "What is the cause of spinal-bulbar muscular atrophy?",
+  "ideal_answer": "Spinal bulbar muscular atrophy (SBMA) is caused by a CAG repeat expansion mutation in the androgen receptor (AR) gene.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20689246",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35996994",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32773451"
+  ],
+  "snippets": [
+    {
+      "text": "Kennedy's disease is nearly exclusively caused by mutations in the androgen receptor encoding gene (AR).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35996994",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Spinal bulbar muscular atrophy (SBMA) is caused by a CAG repeat expansion mutation in the androgen receptor (AR) gene, and mutant AR is presumed to act in motoneurons to cause SBMA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20689246",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "spinal and bulbar muscular atrophy (SBMA), an inherited neuromuscular disorder caused by a CAG trinucleotide repeat expansion in the androgen receptor (AR) gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32773451",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "mutations in the androgen receptor encoding gene (AR), CAG repeat expansion mutation, CAG trinucleotide repeat expansion in the androgen receptor (AR) gene, a CAG trinucleotide repeat expansion, Androgen receptor gene mutations"
+}

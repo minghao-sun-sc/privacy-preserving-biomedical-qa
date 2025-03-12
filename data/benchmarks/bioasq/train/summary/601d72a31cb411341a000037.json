@@ -1,0 +1,18 @@
+{
+  "id": "601d72a31cb411341a000037",
+  "type": "summary",
+  "question": "Describe efforts on Sarcoma from the 100,000 Genomes Project",
+  "ideal_answer": "The largest whole genome sequencing (WGS) endeavour involving cancer and rare diseases was initiated in the UK in 2015 and ran for 5\u2009years. Despite its rarity, sarcoma ranked third overall among the number of patients' samples sent for sequencing. A specialist sarcoma centre recruited close to 1000 patients to the project. WGS data was generated from 597 patients, but samples from the remaining approximately 400 patients were not sequenced. This was largely accounted for by unsuitability due to extensive necrosis, secondary to neoadjuvant radiotherapy or chemotherapy, or being placed in formalin. The number of informative genomes produced was reduced further by a PCR amplification step. Overall, diagnoses were modified for 3% of patients following review of the WGS findings. Continued refinement of the variant-calling bioinformatic pipelines is required as not all alterations were identified when validated against histology and standard of care diagnostic tests. Further research is necessary to evaluate the impact of germline mutations in patients with sarcoma, and sarcomas with evidence of hypermutation. Despite 50% of the WGS exhibiting domain 1 alterations, the number of patients with sarcoma who were eligible for clinical trials remains small, highlighting the need to revaluate clinical trial design.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32573957"
+  ],
+  "snippets": [
+    {
+      "text": "The largest whole genome sequencing (WGS) endeavour involving cancer and rare diseases was initiated in the UK in 2015 and ran for 5\u2009years. Despite its rarity, sarcoma ranked third overall among the number of patients' samples sent for sequencing. Herein, we recount the lessons learned by a specialist sarcoma centre that recruited close to 1000 patients to the project, so that we and others may learn from our experience. WGS data was generated from 597 patients, but samples from the remaining approximately 400 patients were not sequenced. This was largely accounted for by unsuitability due to extensive necrosis, secondary to neoadjuvant radiotherapy or chemotherapy, or being placed in formalin. The number of informative genomes produced was reduced further by a PCR amplification step. We showed that this loss of genomic data could be mitigated by sequencing whole genomes from needle core biopsies. Storage of resection specimens at 4\u2009\u00b0C for up to 96\u2009h overcame the challenge of freezing tissue out of hours including weekends. Removing access to formalin increased compliance to these storage arrangements. With over 70 different sarcoma subtypes described, WGS was a useful tool for refining diagnoses and identifying novel alterations. Genomes from 350 of the cohort of 597 patients were analysed in this study. Overall, diagnoses were modified for 3% of patients following review of the WGS findings. Continued refinement of the variant-calling bioinformatic pipelines is required as not all alterations were identified when validated against histology and standard of care diagnostic tests. Further research is necessary to evaluate the impact of germline mutations in patients with sarcoma, and sarcomas with evidence of hypermutation. Despite 50% of the WGS exhibiting domain 1 alterations, the number of patients with sarcoma who were eligible for clinical trials remains small, highlighting the need to revaluate clinical trial design.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32573957",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,95 @@
+{
+  "id": "5e4b5fd86d0a277941000022",
+  "type": "yesno",
+  "question": "Does clinical trial data support the use of minocycline for amyotrophic lateral sclerosis?",
+  "ideal_answer": "No. Available clinical trial data suggest that minocycline does not improve prognosis and functional status, and has a harmful effect on patients with amyotrophic lateral sclerosis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15159491",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17980667",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16193258",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16638021",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18802797"
+  ],
+  "snippets": [
+    {
+      "text": "Two double-blind, randomized, placebo-controlled feasibility trials of minocycline in ALS were conducted. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15159491",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This pilot study shows that minocycline and riluzole can be taken safely together. Further trials are needed to assess efficacy of such treatment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16193258",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "It reduces apoptosis in mouse models of Huntington's disease and familial amyotrophic lateral sclerosis (ALS) and is in clinical trial for sporadic ALS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16638021",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Efficacy of minocycline in patients with amyotrophic lateral sclerosis: a phase III randomised trial.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17980667",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "FINDINGS: ALSFRS-R score deterioration was faster in the minocycline group than in the placebo group (-1.30 vs -1.04 units/month, 95% CI for difference -0.44 to -0.08; p=0.005). Patients on minocycline also had non-significant tendencies towards faster decline in FVC (-3.48 vs -3.01, -1.03 to 0.11; p=0.11) and MMT score (-0.30 vs -0.26, -0.08 to 0.01; p=0.11), and greater mortality during the 9-month treatment phase (hazard ratio=1.32, 95% CI 0.83 to 2.10; p=0.23) than did patients on placebo. Quality-of-life scores did not differ between the treatment groups. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17980667",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "INTERPRETATION: Our finding that minocycline has a harmful effect on patients with ALS has implications for trials of minocycline in patients with other neurological disorders, and for how potential neuroprotective agents are screened for use in patients with ALS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17980667",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A recent publication of the results of a clinical trial of minocycline in 412 ALS patient has aroused considerable controversy in the ALS scientific community. As on previous occasions, the results obtained in the laboratory are not reproduced in clinical practice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18802797",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A recent publication of the results of a clinical trial of minocycline in 412 ALS patient has aroused considerable controversy in the ALS scientific community.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18802797",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "INTERPRETATION\n\nOur finding that minocycline has a harmful effect on patients with ALS has implications for trials of minocycline in patients with other neurological disorders, and for how potential neuroprotective agents are screened for use in patients with ALS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17980667",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A recent publication of the results of a clinical trial of minocycline in 412 ALS patient has aroused considerable controversy in the ALS scientific community",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18802797",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A recent publication of the results of a clinical trial of minocycline in 412 ALS patient has aroused considerable controversy in the ALS scientific community.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18802797",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our finding that minocycline has a harmful effect on patients with ALS has implications for trials of minocycline in patients with other neurological disorders, and for how potential neuroprotective agents are screened for use in patients with ALS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17980667",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Patients on minocycline also had non-significant tendencies towards faster decline in FVC (-3.48 vs -3.01, -1.03 to 0.11; p=0.11) and MMT score (-0.30 vs -0.26, -0.08 to 0.01; p=0.11), and greater mortality during the 9-month treatment phase (hazard ratio=1.32, 95% CI 0.83 to 2.10; p=0.23) than did patients on placebo.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17980667",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

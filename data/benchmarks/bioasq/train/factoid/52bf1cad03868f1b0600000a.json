@@ -1,0 +1,43 @@
+{
+  "id": "52bf1cad03868f1b0600000a",
+  "type": "factoid",
+  "question": "Which virus is Cidofovir (Vistide) indicated for?",
+  "ideal_answer": "Cidofovir is commonly used in the treatment of cytomegalovirus (CMV) infection and disease.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19725597",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9814660",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11772283",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11154213"
+  ],
+  "snippets": [
+    {
+      "text": "Currently, there are four antivirals available that are active against CMV: ganciclovir, valganciclovir, foscarnet, and cidofovir. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19725597",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "At present, the antiviral drugs ganciclovir, foscarnet and cidofovir are commonly used in the treatment of CMV infection and disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11772283",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cidofovir can be considered as second-line therapy in patients with CMV disease failing previous antiviral therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11154213",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "dditional drugs like lobucavir and cidofovir have been used for specific indications. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9814660",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4236374",
+    "http://www.biosemantics.org/jochem#4261248"
+  ],
+  "exact_answer": "cytomegalovirus"
+}

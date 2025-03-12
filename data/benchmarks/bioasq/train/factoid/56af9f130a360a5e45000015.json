@@ -1,0 +1,96 @@
+{
+  "id": "56af9f130a360a5e45000015",
+  "type": "factoid",
+  "question": "Where is the protein Pannexin1 located?",
+  "ideal_answer": "The protein Pannexin1 is localized to the plasma membranes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24642372",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25056878",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24694658",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25698922",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17064878",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24782784",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26100513",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25007779",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19409451",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24194896"
+  ],
+  "snippets": [
+    {
+      "text": "zfPanx1 was identified on the surface of horizontal cell dendrites invaginating deeply into the cone pedicle near the glutamate release sites of the cones, providing in vivo evidence for hemichannel formation at that location.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19409451",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "pannexin1, a vertebrate homolog of invertebrate gap junction proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17064878",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The specific profile of gap junction proteins, the connexins, expressed in these different cell types forms compartments of intercellular communication that can be further shaped by the release of extracellular nucleotides via pannexin1 channels. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26100513",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent studies demonstrated that ATP can be released from cells in a controlled manner through pannexin (Panx) channels.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24642372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The ATP release channel Pannexin1 (Panx1) is self-regulated",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24694658",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The membrane protein Pannexin1 forms two open-channel conformations depending on the mode of activation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25056878",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " Pannexin1 channels traffic to the plasma membrane.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25698922",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We previously showed that pannexins form oligomeric channels but unlike connexins and innexins, they form only single membrane channels.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25698922",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ATP release channel Pannexin1 ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25007779",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Pannexin1 (Panx1) is a newly discovered extracellular ATP release channel with a wide tissue distribution and diverse biological functions in mammals.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25007779",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In mammals, a single pannexin1 gene (Panx1) is widely expressed in the CNS including the inner and outer retinae, forming large-pore voltage-gated membrane channels, which are involved in calcium and ATP signaling. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24194896",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Six of them form a \"gap junction hemichannel-like\" structure that connects the cytoplasm with the extracellular space; here they will be called Panx1 channels. These are poorly selective channels permeable to ions, small metabolic substrate, and signaling molecules.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24782784",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0051179"
+  ],
+  "exact_answer": "plasma membrane"
+}

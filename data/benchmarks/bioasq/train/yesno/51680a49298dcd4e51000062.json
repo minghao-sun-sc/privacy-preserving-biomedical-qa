@@ -1,0 +1,86 @@
+{
+  "id": "51680a49298dcd4e51000062",
+  "type": "yesno",
+  "question": "Is it possible to detect survivin protein expression in normal human adult tissues?",
+  "ideal_answer": "No. Survivin is an inhibitor of apoptosis that is undetectable in normal differentiated tissues of adult human.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22930255",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14719083",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18425079",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12671708",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16360419",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10626797",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18376799",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15990723",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15195112",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17382535",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16619249",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17611626",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17204284",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17163847",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23132836",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20520718",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15138808",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21371446",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20514400",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18856066"
+  ],
+  "snippets": [
+    {
+      "text": "Survivin (BIRC5) is one of the members of IAP-family apoptosis inhibitors. The BIRCS gene is expressed in most human embryonic tissues and malignant tumors but not in normal differentiated tissues of adult human.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18856066",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Survivin is an inhibitor of apoptosis that is undetectable in most terminally differentiated normal human tissues, strongly expressed in embryonic and fetal organs and is strongly expressed in many different human cancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18425079",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Survivin is a member of the inhibitor apoptosis family that is overexpressed in many malignancies. It has five known alternative splice forms, some of which differ in their antiapoptotic properties and expression levels in human cancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17204284",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "survivin is usually not expressed in normal adult tissues,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16360419",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "AZD1152-hQPA induced caspase-dependent apoptosis of some cell lines, demonstrated by loss of mitochondrial membrane potential, activation of caspase-9, followed by activation of caspase-3. This effect was accompanied by the inhibition of survivin expression. In vivo efficacy was determined in NOD/SCID/\u03b3c(null) mice implanted with the Ramos human BL cell line. AZD1152 had anti-tumour effects in this murine xenograft model. There preclinical data suggest that the inhibition of Aurora B kinase is a potentially useful therapeutic strategy in BL and HL.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21371446",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "a novel antiapoptosis gene, i.e., survivin, was identified as a structurally unique member of the inhibitor of apoptosis protein family. Survivin expression is turned off during fetal development and not found in non-neoplastic adult human tissues but is again turned on in the most common human cancers. The antiapoptotic properties of survivin might provide a significant growth advantage in tumors and possibly also contribute to chemoresistance of cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10626797",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Further comparison of the distribution of PDEF with other widely recognized cancer-associated molecules showed that PDEF has more restricted distributions than Her-2/neu, Bcl-2, survivin or telomerase in cDNA libraries from normal human tissues and more increased distribution than Her-2/neu, CA-125, Bcl-2, survivin and telomerase in cDNA libraries from brain (except survivin), breast, lung and ovarian tumors. These data together show a better tumor-association for PDEF and suggest that PDEF is a more suitable target for developing specific cancer therapies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14719083",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "we identified decreased FHIT expression resulting in apoptosis inhibition and decreasing apoptosis associated with abnormal levels of some pro- and anti-apoptotic proteins (Bax, Bcl-2 and Survivin) by TUNEL and TMA. Our results demonstrated that the mutation in the FHIT gene significantly reduced FHIT expression in human CRC. Both TUNEL and TMA experiments demonstrated significantly inhibited apoptosis by down-regulation of Bax and up-regulation of Survivin and Bcl-2. Collectively, these studies identify the mechanism by which an important tumor suppressor gene, FHIT, inactivated specifically in human CRC, and contributes to our understanding of the mechanism of colorectal carcinogenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17382535",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014024",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0048729",
+    "http://www.uniprot.org/uniprot/BIRC5_HUMAN",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0009888",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006801"
+  ],
+  "exact_answer": "Yes"
+}

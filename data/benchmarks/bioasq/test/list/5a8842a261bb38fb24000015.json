@@ -1,0 +1,39 @@
+{
+  "id": "5a8842a261bb38fb24000015",
+  "type": "list",
+  "question": "List proteins that are targeted by \"immune checkpoints inhibitors\".",
+  "ideal_answer": "The treatment landscape of advanced melanoma has changed significantly following the discovery and marketing authorisation of immune checkpoints inhibitors. Ipilimumab (anti-CTLA-4) was the first one to be approved, and it. demonstrated long-term survival in about 20% of patients. Subsequently, anti-programmed cell death-1 (a-PD-1) antibodies (pembrolizuamb, nivolumab), inhibitors of PD-1/programmed cell death-1 ligand (PD1-L) synapse, showed higher clinical efficacy with lower toxicity comparing to ipilimumab.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28848698",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27471612",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28435391"
+  ],
+  "snippets": [
+    {
+      "text": "The recent discovery of immune checkpoints inhibitors, especially anti-programmed cell death protein 1 (PD-1) and anti-programmed cell death protein ligand 1 (PD-L1) monoclonal antibodies, has opened new scenarios in the management of non-small cell lung cancer (NSCLC) and this new class of drugs has achieved a rapid development in the treatment of this disease. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28848698",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " S100A9-targeting agents with immune checkpoints inhibitors,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27471612",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Programmed cell death 1 checkpoint inhibitors in the treatment of patients with advanced melanoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28435391",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The treatment landscape of advanced melanoma has changed significantly following the discovery and marketing authorisation of immune checkpoints inhibitors. Ipilimumab (anti-CTLA-4) was the first one to be approved, and it. demonstrated long-term survival in about 20% of patients. Subsequently, anti-programmed cell death-1 (a-PD-1) antibodies (pembrolizuamb, nivolumab), inhibitors of PD-1/programmed cell death-1 ligand (PD1-L) synapse, showed higher clinical efficacy with lower toxicity comparing to ipilimumab.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28435391",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CTLA-4, PD-1, PD1-L"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "52f112bb2059c6d71c000002",
+  "type": "list",
+  "question": "Which are the enzymes involved in the addition of 7-methylguanosine in mRNA?",
+  "ideal_answer": "The 7-methylguanosine cap added to the 5\u2032 end of mRNA is essential for efficient gene expression and cell viability. Methylation of the guanosine cap is necessary for the translation of most cellular mRNAs in all eukaryotic organisms in which it has been investigated. In some experimental systems, cap methylation has also been demonstrated to promote transcription, splicing, polyadenylation and nuclear export of mRNA. In the addition of 7-methylguanosine in mRNA involved the RNA polymerase II, RNA guanylyltransferase and RNA guanine-7 methyltransferase enzymes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20713356",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7831320",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24552703",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21170289",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23863084",
+    "http://www.ncbi.nlm.nih.gov/pubmed/956186",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24273643",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6478055",
+    "http://www.ncbi.nlm.nih.gov/pubmed/729595",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11879179",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21118133",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9707557",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2072458",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22817748",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9725672",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1002690",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6649413",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24200467",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22985415",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10662770"
+  ],
+  "snippets": [
+    {
+      "text": "In mammals, cap synthesis is catalysed by the sequential action of RNGTT (RNA guanylyltransferase and 5'-phosphatase) and RNMT (RNA guanine-7 methyltransferase), enzymes recruited to RNA pol II (polymerase II) during the early stages of transcription. We recently discovered that the mammalian cap methyltransferase is a heterodimer consisting of RNMT and the RNMT-activating subunit RAM (RNMT-activating mini-protein). RAM activates and stabilizes RNMT and thus is critical for cellular cap methylation and cell viability.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24200467",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Synthesis of the methyl cap initiates with the addition of 7-methylguanosine to the initiating nucleotide of RNA pol II (polymerase II) transcripts, which occurs predominantly during transcription and in mammals is catalysed by RNGTT (RNA guanylyltransferase and 5' phosphatase) and RNMT (RNA guanine-7 methyltransferase).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23863084",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The RNMT-activating subunit, RAM (RNMT-activating miniprotein), is also recruited to transcription initiation sites via an interaction with RNMT.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23863084",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Phosphorylation of the CTD recruits RNGTT and RNMT, the enzymes involved in mRNA capping, to the nascent transcript.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21170289",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Myc induces methyl cap formation by promoting RNA polymerase II phosphorylation which recruits the capping enzymes to RNA, and by up-regulating the enzyme SAHH (S-adenosylhomocysteine hydrolase), which neutralizes the inhibitory by-product of methylation reactions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21118133",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the present study, we identify the methyltransferase responsible for cap1 formation in human cells, which we call hMTr1 (also known as FTSJD2 and ISG95).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20713356",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The guanylyltransferase (GTP:mRNA guanylyltransferase, EC 2.7.7.50) reaction responsible for cap formation usually proceeds via a covalent enzyme-GMP intermediate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7831320",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The methylation of the 5' terminal guanosine residue of the cap structure of Semliki Forest virus (SFV) mRNAs has been shown to occur in vitro concomitantly with their synthesis (R. K. Cross and P. J. Gomatos, Virology, 114, 542-554, 1981). The enzyme responsible for this methylation, a guanine-7-methyltransferase, is associated with the SFV replication complex",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/6649413",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "An RNA (guanine-7-)-methyltransferase that specifically methylates the 5'-terminal guanosine residue of RNAs ending in the dinucleoside triphosphate G(5')pppN- has been purified from the cytoplasm of HeLa cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/956186",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/MCE1_MOUSE",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0009452",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0008618",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006370",
+    "http://www.biosemantics.org/jochem#4270220",
+    "http://www.uniprot.org/uniprot/RSMG_OENOB",
+    "http://www.uniprot.org/uniprot/MCE1_CAEEL",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0004484",
+    "http://www.biosemantics.org/jochem#4270249",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004798",
+    "http://www.uniprot.org/uniprot/MCE_ASFP4",
+    "http://www.uniprot.org/uniprot/MCE1_DANRE",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020536",
+    "http://www.biosemantics.org/jochem#4211619",
+    "http://www.uniprot.org/uniprot/MCE_ASFB7",
+    "http://www.biosemantics.org/jochem#4270250",
+    "http://www.uniprot.org/uniprot/MCE_PBCV1",
+    "http://www.uniprot.org/uniprot/MCE1_HUMAN",
+    "http://www.biosemantics.org/jochem#4269944",
+    "http://www.uniprot.org/uniprot/MCE_ASFK5",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0046118",
+    "http://www.uniprot.org/uniprot/MCE_ASFM2",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0000340",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004789",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D045762",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0031533",
+    "http://www.biosemantics.org/jochem#4195237",
+    "http://www.uniprot.org/uniprot/MCE_MIMIV"
+  ],
+  "exact_answer": "RNA guanylyltransferase and 5'-phosphatase (RNGTT), RNA guanylyltransferase and 5'-phosphatase, RNGTT, RNA guanine-7 methyltransferase, RNA guanine-7 methyltransferase (RNMT or hMTr1), RNMT, hMTr1, RNMT-activating mini-protein, RNMT-activating mini-protein (RAM), RAM, RNA polymerase II, S-adenosylhomocysteine hydrolase, S-adenosylhomocysteine hydrolase (SAHH), SAHH, Myc"
+}

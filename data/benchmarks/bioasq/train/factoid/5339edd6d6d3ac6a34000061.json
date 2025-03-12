@@ -1,0 +1,84 @@
+{
+  "id": "5339edd6d6d3ac6a34000061",
+  "type": "factoid",
+  "question": "Which is the clinical meaning of the presence of delayed enhancement in patients with hypertrophic cardiomyopathy?",
+  "ideal_answer": "Occurrence of myocardial fibrosis in hypertrophic cardiomyopathy is associated with left atrial and ventricular dysfunction as well as with the severity of heart failure symptoms and arrhythmic risk factors.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18552138",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21498307",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20102955",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18387438",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19477402",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23097128",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19808288",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22641976"
+  ],
+  "snippets": [
+    {
+      "text": "The extent of regional myocardial fibrosis is associated with regional myocardial function independently of morphological changes of the myocardium, and the correlation extended to global LV function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23097128",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Occurrence of myocardial fibrosis in hypertrophic cardiomyopathy is associated with left atrial and ventricular dysfunction as well as with the severity of heart failure symptoms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22641976",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Patients with symptomatic apical HCMshowed myocardial hyperenhancement involving the subendocardial layer, which might be related to regional systolic dysfunction, serious clinical symptoms, and ventricular arrhythmias.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21498307",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In conclusion, late gadolinium enhancement was associated with nonsustained ventricular tachycardia, arrhythmic risk factors, and worse New York Heart Association class.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20102955",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The presence of DE was related to occurrence of heart failure symptoms (P=0.05) and left ventricular systolic dysfunction (P=0.001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19808288",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DE (7%+/-7% of left ventricle) was present in 54 patients who were asymptomatic (and with normal ejection fraction). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19808288",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In HCM, the DE was associated with higher NYHA classes and prevalence of VT, impaired global LV function and asymmetrical hypertrophy, and conduction disturbance, abnormal Q waves, and giant negative T waves.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19477402",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " In myocardial segments exhibiting DCE, hMBF is reduced. DCE extent is inversely correlated and hMBF directly correlated with systolic thickening. In segments without DCE but contiguous to DCE areas, hMBF is significantly lower than in those remote from DCE and is similar to the value obtained in nontransmural DCE segments. These results suggest that increasing degrees of coronary microvascular dysfunction might play a causative role for myocardial fibrosis in HCM.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18552138",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this large HCM cohort with no or only mild symptoms, myocardial fibrosis detected by CMR was associated with greater likelihood and increased frequency of ventricular tachyarrhythmias (including NSVT) on ambulatory Holter ECG. Therefore, contrast-enhanced CMR identifies HCM patients with increased susceptibility to ventricular tachyarrhythmias.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18387438",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:11984",
+    "http://www.disease-ontology.org/api/metadata/DOID:11986",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050700",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009682",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008279",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009202",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D024741",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002312",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D010361"
+  ],
+  "exact_answer": "In patients with hypertrophic cardiomyopathy delayed enhancement is associated with heart failure symptoms and left ventricular systolic dysfunction and arrhythmic risk"
+}

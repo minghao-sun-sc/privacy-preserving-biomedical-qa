@@ -1,0 +1,40 @@
+{
+  "id": "58a9c532396a458e50000002",
+  "type": "factoid",
+  "question": "How many cysteines have alpha-defensins?",
+  "ideal_answer": "Alpha defensins contain six cysteines, which form three well defined disulfide bridges under oxidizing conditions.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24386139",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24557891",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25970658",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22168415"
+  ],
+  "snippets": [
+    {
+      "text": "Alpha defensins contain six cysteines, which form three well defined disulfide bridges under oxidizing conditions. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25970658",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "All three kinds of defensins have six conserved cysteines",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24557891",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " There are six cysteines in the sequence of mature CFBD peptide, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24386139",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "They typically contain six conserved cysteines whose three intramolecular disulfides stabilize a largely \u03b2-sheet structure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22168415",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Alpha defensins contain six conserved cysteines"
+}

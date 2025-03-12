@@ -1,0 +1,111 @@
+{
+  "id": "5317606eb166e2b80600000d",
+  "type": "yesno",
+  "question": "Is tubulin acetylation involved in cell motility?",
+  "ideal_answer": "Yes, induction of alpha-tubulin acetylation correlates with inhibition of cell motility, while it is involved in additional cellular processes, e.g. cell cycle progression, differentiation, intracellular trafficking, and signalling. Dynamic microtubule (MT) acetylation/deacetylation mediating cell motility and adhesion is controlled by enzymes such as HDAC6, a major cytoplasmic \u03b1-tubulin deacetylase. While its overexpression and activation is capable to enhance cell motility, HDAC6 activity can also be negatively regulated by a number of cellular inhibitors, thus decreasing the ability of cells for migration.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22193721",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20308065",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23019416",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12024216",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22589388",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20940043",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12677000"
+  ],
+  "snippets": [
+    {
+      "text": "In this study, we found that paclitaxel induced tubulin acetylation in endothelial and tumor cells, at concentrations that affected cell motility but not proliferation (10(-8) to 10(-9) M, for 4 hours). Induction of tubulin acetylation correlated with inhibition of motility but not proliferation based on a comparison of highly and poorly cytotoxic taxanes (paclitaxel and IDN5390) and tumor cell lines sensitive and resistant to paclitaxel (1A9 and 1A9 PTX22).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23019416",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we found that overexpression of the tubulin deacetylase SIRT2 increased cell motility and reduced cell response to the anti-motility activity of paclitaxel. Conversely, the SIRT2 inhibitor splitomicin reduced cell motility and potentiated the anti-motility activity of paclitaxel. The inhibitory effect was further potentiated by the addition of the HDAC6 inhibitor trichostatin A.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23019416",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cell motility and adhesion involves dynamic microtubule (MT) acetylation/deacetylation, a process regulated by enzymes as HDAC6, a major cytoplasmic \u03b1-tubulin deacetylase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22193721",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "GRK2 and HDAC6 colocalize in the lamellipodia of migrating cells, leading to local tubulin deacetylation and enhanced motility.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22193721",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This review highlights the emerging roles of tubulin acetylation in multiple cellular functions, ranging from cell motility, cell cycle progression or cell differentiation to intracellular trafficking and signalling.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20940043",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results indicate that TPPP/p25 binds to HDAC6 (histone deacetylase 6), an enzyme responsible for tubulin deacetylation. Moreover, we demonstrated that the direct interaction of these two proteins resulted in the inhibition of the deacetylase activity of HDAC6.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20308065",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, we demonstrated that, similarly to other HDAC6 inhibitors, TPPP/p25 influences the microtubule dynamics by decreasing the growth velocity of the microtubule plus ends and also affects cell motility as demonstrated by time lapse video experiments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20308065",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "\"tubacin,\" which inhibits alpha-tubulin deacetylation in mammalian cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12677000",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We provide evidence that class II histone deacetylase 6 (HDAC6) is the intracellular target of tubacin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12677000",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tubacin treatment did not affect the stability of microtubules but did decrease cell motility.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12677000",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "They also suggest that small molecules that selectively inhibit HDAC6-mediated alpha-tubulin deacetylation, a first example of which is tubacin, might have therapeutic applications as antimetastatic and antiangiogenic agents.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12677000",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, overexpression of HDAC6 promotes chemotactic cell movement, supporting the idea that HDAC6-mediated deacetylation regulates microtubule-dependent cell motility.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12024216",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "HDAC6 is a major cytoplasmic a-tubulin deacetylase that is involved in cell motility and adhesion. GRK2 dynamically and directly associates with and phosphorylates HDAC6 to stimulate its a-tubulin deacetylase activity at specific cellular localizations, such as the leading edge of migrating cells, thus promoting local tubulin deacetylation and enhanced motility.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22589388",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0048870",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D054443",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0007021",
+    "http://www.uniprot.org/uniprot/TBA_GIBZE",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002465",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:2000145",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014404",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0019799",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D050257",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0090043",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0071929",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000107",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0045298"
+  ],
+  "exact_answer": "Yes"
+}

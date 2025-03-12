@@ -1,0 +1,32 @@
+{
+  "id": "5e480909d14c9f295d000003",
+  "type": "yesno",
+  "question": "Are astronauts in higher risk for developing cancer?",
+  "ideal_answer": "No significant associations between space radiation dose and mortality were found using logistic regression with an internal reference group, adjusting for medical radiation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29855508",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29644336"
+  ],
+  "snippets": [
+    {
+      "text": "Understanding space radiation health effects is critical due to potential increased morbidity and mortality following spaceflight. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29855508",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " No significant associations between space radiation dose and mortality were found using logistic regression with an internal reference group, adjusting for medical radiation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29855508",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Despite years of research, understanding of the space radiation environment and the risk it poses to long-duration astronauts remains limited. There is a disparity between research results and observed empirical effects seen in human astronaut crews",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29644336",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

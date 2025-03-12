@@ -1,0 +1,27 @@
+{
+  "id": "5e42d1a748dab47f26000010",
+  "type": "factoid",
+  "question": "What is drug target for olaparib?",
+  "ideal_answer": "Olaparib(Lynparza) is a PARP inhibitor, inhibiting poly ADP ribose polymerase (PARP), an enzyme involved in DNA repair.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29129088",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30486888",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30660828"
+  ],
+  "snippets": [
+    {
+      "text": "PARP inhibition with olaparib, warrants further investigation,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29129088",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Olaparib is a PARP inhibitor (PARPi).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30660828",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "poly ADP ribose polymerase (PARP)"
+}

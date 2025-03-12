@@ -1,0 +1,103 @@
+{
+  "id": "5149aafcd24251bc05000045",
+  "type": "list",
+  "question": "Which are the available biomedical text mining tools for the detection of protein-protein interactions?",
+  "ideal_answer": "Protein-protein interactions (PPI) can be extracted from biomedical literature using text mining approaches. These approaches have been classified into two categories, the statistical calculation of the co-occurrence of proteins and the computational linguistic method. Moreover, bioinformatics methods based on sequence, structural, or evolutionary information have been developed to predict protein-protein interactions. The available state-of-the-art biomedical text mining tools are: eFIP (Extracting Functional Impact of Phosphorylation), a system for text mining of protein interaction networks of phosphorylated proteins; GeneView, a suite of state-of-the-art text-mining tools designed for the automated identification of protein\u2013protein interactions; PPI finder, a text mining tool for human protein-protein interactions based on computational linguistic methods. PPI Finder system consists of the Information Retrieval module and Information Extraction module; PreBIND and Textomy are two components of a biomedical literature-mining system optimized to discover protein-protein interactions using a support vector machine; BioMap system is optimized for the identification of protein-protein interactions from large biomedical literature datasets; Protopia searches for and integrates protein-protein interactions and the information about them contained in five different Protein Interaction Web Databases; STRING uses Natural Language Processing to extract a subset of semantically specified known and predicted protein-protein interactions.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15719064",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23325628",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18508809",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22693219",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22595237",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19635172",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22513129",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21884822",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18204916",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18834498",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12689350",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18834492",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18834496",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18834495",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18712320",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18283029",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15998455",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19850753",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23221174",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18834500",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21106487",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21062765",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19828077",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18207462",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19234603",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20671319",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20617200",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20122157",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18237434",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22711795",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22438567",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15941473",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19594875",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18487273"
+  ],
+  "snippets": [
+    {
+      "text": "In this study, we propose a novel algorithm for extracting PPIs from literature which consists of two phases. First, we automatically categorize the data into subsets based on its semantic properties and extract candidate PPI pairs from these subsets. Second, we apply support vector machines (SVMs) to classify candidate PPI pairs using features specific for each subset.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21062765",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The source code and scripts used in this article are available for academic use at http://staff.science.uva.nl/~bui/PPIs.zip",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21062765",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We describe a system for the detection of mentions of protein-protein interactions in the biomedical scientific literature. The original system was developed as a part of the OntoGene project",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20671319",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Extracting Protein-Protein Interactions from MEDLINE using the Hidden Vector State model",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18283029",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We have constructed an information extraction system based on the Hidden Vector State (HVS) model for protein-protein interactions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18283029",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "When applied in extracting protein-protein interactions, we found that it performed better than other established statistical methods",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18283029",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The developed BioMap system allows discovering implicit P-P interactions from large quantity of biomedical literature data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18204916",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In this paper we examine if P-P interactions in regenerating tissues and cells of the anuran Xenopus laevis can be discovered from biomedical literature using computational and literature mining techniques. Using literature mining techniques, we have identified a set of implicitly interacting proteins in regenerating tissues and cells of Xenopus laevis that may interact with Cdc2 to control cell division.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18204916",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "P-P interactions that are implicitly appearing in literature can be effectively discovered using literature mining techniques.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18204916",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D060145",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D057225"
+  ],
+  "exact_answer": "BioCreative Meta Server, Hidden Vector State model, iHop, LAITOR, OntoGene, PIE, Protein interaction information extraction system, PPInterFinder, PPIs, TafTalent, PolySearch, OpenDMAP, HAPPI, GeneView, PPI finder, Paired-PPI Finder, PreBind, PreBIND, Textomy, BioMap, eFIP, Extracting Functional Impact of Phosphorylation, Protopia, STRING"
+}

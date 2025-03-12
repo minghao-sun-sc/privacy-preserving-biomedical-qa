@@ -1,0 +1,51 @@
+{
+  "id": "5c6d783e7c78d6947100003a",
+  "type": "list",
+  "question": "Which curated databases exist for spider-venom toxins?",
+  "ideal_answer": "ArachnoServer and its updated version ArachnoServer 2.0 are manually curated databases providing information on the sequence, structure and biological activity of protein toxins from spider venoms.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21036864",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19674480",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29069336"
+  ],
+  "snippets": [
+    {
+      "text": "ArachnoServer: a database of protein toxins from spiders.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19674480",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We have developed ArachnoServer, a manually curated database that provides detailed information about proteinaceous toxins from spiders. Key features of ArachnoServer include a new molecular target ontology designed especially for venom toxins, the most up-to-date taxonomic information available, and a powerful advanced search interface. Toxin information can be browsed through dynamic trees, and each toxin has a dedicated page summarising all available information about its sequence, structure, and biological activity. ArachnoServer currently manages 567 protein sequences, 334 nucleic acid sequences, and 51 protein structures.CONCLUSION: ArachnoServer provides a single source of high-quality information about proteinaceous spider toxins that will be an invaluable resource for pharmacologists, neuroscientists, toxinologists, medicinal chemists, ion channel scientists, clinicians, and structural biologists. ArachnoServer is available online at http://www.arachnoserver.org.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19674480",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ArachnoServer 2.0, an updated online resource for spider toxin sequences and structures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21036864",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "ArachnoServer (www.arachnoserver.org) is a manually curated database providing information on the sequence, structure and biological activity of protein toxins from spider venoms. These proteins are of interest to a wide range of biologists due to their diverse applications in medicine, neuroscience, pharmacology, drug discovery and agriculture. ArachnoServer currently manages 1078 protein sequences, 759 nucleic acid sequences and 56 protein structures. Key features of ArachnoServer include a molecular target ontology designed specifically for venom toxins, current and historic taxonomic information and a powerful advanced search interface. The following significant improvements have been implemented in version 2.0: (i) the average and monoisotopic molecular masses of both the reduced and oxidized form of each mature toxin are provided; (ii) the advanced search feature now enables searches on the basis of toxin mass, external database accession numbers and publication date in ArachnoServer; (iii) toxins can now be browsed on the basis of their phyletic specificity; (iv) rapid BLAST searches based on the mature toxin sequence can be performed directly from the toxin card; (v) private silos can be requested from research groups engaged in venoms-based research, enabling them to easily manage and securely store data during the process of toxin discovery; and (vi) a detailed user manual is now available.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21036864",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Summary\nArachnoServer is a manually curated database that consolidates information on the sequence, structure, function and pharmacology of spider-venom toxins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069336",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ArachnoServer is a manually curated database that consolidates information on the sequence, structure, function and pharmacology of spider-venom toxins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069336",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "ArachnoServer, ArachnoServer 2.0"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "5a760ed883b0d9ea66000019",
+  "type": "yesno",
+  "question": "Is dasatinib effective for treatment of glioblastoma?",
+  "ideal_answer": "No, dasatinib is ineffective for treatment of glioblastoma and is associated with significant toxicity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23090987",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21153679",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28259301",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25758746"
+  ],
+  "snippets": [
+    {
+      "text": "RESULTS: fourteen randomized clinical trials were identified (7 with bevacizumab, 2 cilengitide, 1 enzastaurin, 1 dasatinib, 1 vandetanib, 1 temsirolimus, 1 cediranib) including 4330 patients. Antiangiogenic drugs showed no improvement in overall survival with a pooled HR of 1.00, a trend for an inferior outcome, in terms of overall survival, was observed in the group of patients receiving antiangiogenic drug alone compared to cytotoxic drug alone (HR=1.24, p=0.056).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28259301",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: Intraparticipant dose escalation was feasible, but dasatinib was ineffective in recurrent GBM. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25758746",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Median progression-free survival (PFS) was 1.35 months (95% confidence interval: 1.2-1.4) and 6-month PFS was 7.7%. In this phase I study of recurrent glioblastoma patients, the combination of CCNU and dasatinib showed significant hematological toxicities and led to suboptimal exposure to both agents.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23090987",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dasatinib in conjunction with bevacizumab does not appear to have activity in patients with recurrent, heavily pretreated GBM.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21153679",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4244012",
+    "http://www.biosemantics.org/jochem#4274027",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D000069439",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D005909",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D016896"
+  ],
+  "exact_answer": "Yes"
+}

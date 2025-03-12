@@ -1,0 +1,62 @@
+{
+  "id": "5158a5b8d24251bc05000097",
+  "type": "yesno",
+  "question": "Have Quantitative Trait Loci affecting splicing (splicing QTLs) been linked to disease?",
+  "ideal_answer": "Yes, mutations in the DNA that affect the splicing pattern of genes have been linked in transcriptome population studies to a number of diseases.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21846806",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20707912",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22784570",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20856809"
+  ],
+  "snippets": [
+    {
+      "text": "The spontaneously hypertensive rat (SHR) is a widely used rodent model of hypertension and metabolic syndrome. Previously we identified thousands of cis-regulated expression quantitative trait loci (eQTLs) across multiple tissues using a panel of rat recombinant inbred (RI) strains derived from Brown Norway and SHR progenitors. These cis-eQTLs represent potential susceptibility loci underlying physiological and pathophysiological traits manifested in SHR. We have prioritized 60 cis-eQTLs and confirmed differential expression between the parental strains by quantitative PCR in 43 (72%) of the eQTL transcripts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21846806",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These colocalizing correlated cis-eQTLs (c3-eQTLs) are highly attractive as primary susceptibility loci for the colocalizing pQTLs. Furthermore, sequence analysis of the c3-eQTL genes identified single nucleotide polymorphisms (SNPs) that are predicted to affect transcription factor binding affinity, splicing and protein function. These SNPs, which potentially alter transcript abundance and stability, represent strong candidate factors underlying not just eQTL expression phenotypes, but also the correlated metabolic and physiological traits. In conclusion, by integration of genomic sequence, eQTL and QTT datasets we have identified several genes that are strong positional candidates for pathophysiological traits observed in the SHR strain.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21846806",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Identifying associations between genotypes and gene expression levels using microarrays has enabled systematic interrogation of regulatory variation underlying complex phenotypes. This approach has vast potential for functional characterization of disease states, but its prohibitive cost, given hundreds to thousands of individual samples from populations have to be genotyped and expression profiled, has limited its widespread application.RESULTS: Here we demonstrate that genomic regions with allele-specific expression (ASE) detected by sequencing cDNA are highly enriched for cis-acting expression quantitative trait loci (cis-eQTL) identified by profiling of 500 animals in parallel, with up to 90% agreement on the allele that is preferentially expressed. We also observed widespread noncoding and antisense ASE and identified several allele-specific alternative splicing variants.CONCLUSION: Monitoring ASE by sequencing cDNA from as little as one sample is a practical alternative to expression genetics for mapping cis-acting variation that regulates RNA transcription and processing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20707912",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The six genes corresponded to rat and mouse quantitative trait loci (QTLs) that had shown associations with the common traits such as the well characterized MS and even tumor susceptibility. Our findings suggest that the six genes may play important roles in the pleiotropic effects on lipid metabolism and the MS, which increase the risk of Type 2 Diabetes and cardiovascular disease. The use of the multivariate phenotypes can be advantageous in identifying genetic risk factors, accounting for the pleiotropic effects when the multivariate phenotypes have a common etiological pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22784570",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To elucidate mechanisms involved in multiple sclerosis (MS), we studied genetic regulation of experimental autoimmune encephalomyelitis (EAE) in rats, assuming a conservation of pathogenic pathways. In this study, we focused on Eae23, originally identified to regulate EAE in a (LEW.1AV1xPVG.1AV1)F2 cross. Our aim was to determine whether one or more genes within the 67 Mb region regulate EAE and to define candidate risk genes.METHODOLOGY/PRINCIPAL FINDINGS: We used high resolution quantitative trait loci (QTL) analysis in the 10th generation (G10) of an advanced intercross line (AIL) to resolve Eae23 into two QTLs that independently regulate EAE, namely Eae23a and Eae23b. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20856809",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056426",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0000395",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0000381",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D040641",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017398",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D022821",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0000389",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0000398",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0043484",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012326",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019655",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0045291",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0045292",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0008380",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0006376"
+  ],
+  "exact_answer": "Yes"
+}

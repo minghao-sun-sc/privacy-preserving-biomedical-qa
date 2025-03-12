@@ -1,0 +1,25 @@
+{
+  "id": "5e2dfab2fbd6abf43b00001d",
+  "type": "yesno",
+  "question": "Does ProSavin use an adenoviral vector?",
+  "ideal_answer": "No, ProSavin is a lentiviral vector based gene therapy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30156440"
+  ],
+  "snippets": [
+    {
+      "text": "Long-Term Follow-Up of a Phase I/II Study of ProSavin, a Lentiviral Vector Gene Therapy for Parkinson's Disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30156440",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "ProSavin, a lentiviral vector based gene therapy that delivers local and continuous dopamine, was previously shown to be well tolerated in a Phase I/II first-in-human study, with significant improvements in motor behavior from baseline at 1 year. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30156440",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "60266b371cb411341a0000c2",
+  "type": "list",
+  "question": "Which drugs are included in the CNIC polypill?",
+  "ideal_answer": "CNIC polypill includes atorvastatin 40mg, ramipril 10mg and aspirin 100mg.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31850802",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31983653"
+  ],
+  "snippets": [
+    {
+      "text": "Aim: To determine the effectiveness of Centro Nacional de Investigaciones Cardiovasculares (CNIC)-polypill (acetylsalicylic acid 100\u00a0mg, ramipril 5/10\u00a0mg, simvastatin 40\u00a0mg) in achieving blood pressure (BP) goals. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31850802",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "INTRODUCTION AND OBJECTIVES: To compare the pharmacodynamics of the CNIC polypill (atorvastatin 40mg/ramipril 10mg/aspirin 100mg) in terms of low-density lipoprotein cholesterol (LDL-C) and systolic blood pressure (SBP), with the corresponding reference products (atorvastatin and ramipril).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31983653",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Aim: To determine the effectiveness of Centro Nacional de Investigaciones Cardiovasculares (CNIC)-polypill (acetylsalicylic acid 100\u00a0mg, ramipril 5/10\u00a0mg, simvastatin 40\u00a0mg) in achieving blood pressure (BP) goals.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31850802",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "INTRODUCTION AND OBJECTIVES: To compare the pharmacodynamics of the CNIC polypill (atorvastatin 40mg/ramipril 10mg/aspirin 100mg) in terms of low-density lipoprotein cholesterol (LDL-C) and systolic blood pressure (SBP), with the corresponding reference products (atorvastatin and ramipril).METHODS: This was a multicenter, randomized, open-label, and parallel 3-arm study comparing the effect of the CNIC polypill vs ramipril 10mg a",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31983653",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "atorvastatin, ramipril, aspirin"
+}

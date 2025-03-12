@@ -1,0 +1,27 @@
+{
+  "id": "54d7b457e19bba8909000004",
+  "type": "summary",
+  "question": "What is the \"Proteomic ruler\"?",
+  "ideal_answer": "The MS signal of histones can be used as a \"proteomic ruler\" because it is proportional to the amount of DNA in the sample, which in turn depends on the number of cells. As a result, our proteomic ruler approach adds an absolute scale to the MS readout and allows estimation of the copy numbers of individual proteins per cell.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25225357"
+  ],
+  "snippets": [
+    {
+      "text": "A \"proteomic ruler\" for protein copy number and concentration estimation without spike-in standards.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25225357",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We show that the MS signal of histones can be used as a \"proteomic ruler\" because it is proportional to the amount of DNA in the sample, which in turn depends on the number of cells. As a result, our proteomic ruler approach adds an absolute scale to the MS readout and allows estimation of the copy numbers of individual proteins per cell.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25225357",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D040901",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020543"
+  ]
+}

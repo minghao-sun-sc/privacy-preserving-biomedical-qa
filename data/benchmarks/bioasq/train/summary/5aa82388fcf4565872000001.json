@@ -1,0 +1,46 @@
+{
+  "id": "5aa82388fcf4565872000001",
+  "type": "summary",
+  "question": "Which proteins are regulated by Nrf2?",
+  "ideal_answer": "Keap1-Nrf2 system is known as a sensor of electrophilic compounds, and protects cells from oxidative stress through induction of various antioxidant enzymes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27308893",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26846360",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27369375",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27278863",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27507633"
+  ],
+  "snippets": [
+    {
+      "text": "stress-responsive transcription factors Nrf2",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27278863",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nuclear Factor E2-Related Factor-2 Negatively Regulates NLRP3 Inflammasome Activity by Inhibiting Reactive Oxygen Species-Induced NLRP3 Priming.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27308893",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " Nrf2-regulated targets, including glutathione reductase, glutathione S-transferase, and NAD(P)H quinone oxidoreductase-1 (NQO1). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27369375",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nuclear factor erythroid 2-related factor 2 (Nrf2) is a neuroprotective transcription factor that has recently attracted increased attention.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26846360",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Keap1-Nrf2 system is known as a sensor of electrophilic compounds, and protects cells from oxidative stress through induction of various antioxidant enzymes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27507633",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

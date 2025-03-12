@@ -1,0 +1,25 @@
+{
+  "id": "5e36e093b5b409ea5300000f",
+  "type": "list",
+  "question": "List Cdk targets that are dephosphorylated during cytokinesis",
+  "ideal_answer": "Aip1, Ede1 and Inn1 are Cdk targets that are dephosphorylated during cytokinesis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25371407"
+  ],
+  "snippets": [
+    {
+      "text": "The final event of the eukaryotic cell cycle is cytokinesis, when two new daughter cells are born. How the timing and execution of cytokinesis is controlled is poorly understood. Here, we show that downregulation of cyclin-dependent kinase (Cdk) activity, together with upregulation of its counteracting phosphatase Cdc14, controls each of the sequential steps of cytokinesis, including furrow ingression, membrane resolution and cell separation in budding yeast. We use phosphoproteome analysis of mitotic exit to identify Cdk targets that are dephosphorylated at the time of cytokinesis. We then apply a new and widely applicable tool to generate conditionally phosphorylated proteins to identify those whose dephosphorylation is required for cytokinesis. This approach identifies Aip1, Ede1 and Inn1 as cytokinetic regulators. Our results suggest that cytokinesis is coordinately controlled by the master cell cycle regulator Cdk together with its counteracting phosphatase and that it is executed by concerted dephosphorylation of Cdk targets involved in several cell biological processes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25371407",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This approach identifies Aip1, Ede1 and Inn1 as cytokinetic regulators.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25371407",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Aip1, Ede1, Inn1"
+}

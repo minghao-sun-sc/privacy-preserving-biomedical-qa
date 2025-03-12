@@ -1,0 +1,46 @@
+{
+  "id": "6057014c94d57fd879000022",
+  "type": "yesno",
+  "question": "Is the Apis mellifera genome available?",
+  "ideal_answer": "Yes,\nthe Apis mellifera genome is available since 2006.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32384687",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32518251",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31965987",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32134461"
+  ],
+  "snippets": [
+    {
+      "text": " Mining Apis mellifera sequences made it possible to identify the honey bee subspecies both at the mitochondrial and nuclear genome levels.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32518251",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Honey bee research is believed to be influenced dramatically by colony collapse disorder (CCD) and the sequenced genome release in 2006, but this assertion has never been tested.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32384687",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The genome release and CCD had quantitively only minor effects, mainly on honey bee health-related topics post-2006. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32384687",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show that the honeybee genome is structured with respect to plasticity; genes that respond to an environmental trigger are colocated in the honeybee genome in a series of gene clusters, many of which have been assembled in the last 80 My during the evolution of the Apidae. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32134461",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we have mined histone methyltransferases and demethylases from the whole genome sequence of Aedes aegypti (Diptera), the pea aphid Acyrthosiphon pisum, the triatomid bug Rhodnius prolixus (Hemiptera), the honeybee Apis mellifera (Hymenoptera),",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31965987",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

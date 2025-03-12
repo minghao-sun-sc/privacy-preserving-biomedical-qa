@@ -1,0 +1,58 @@
+{
+  "id": "58a2df9c60087bc10a000006",
+  "type": "factoid",
+  "question": "What is the incidence of beta-thalassemia in Greek population?",
+  "ideal_answer": "The incidence of beta-thalassemia trait is 8% in Greek population.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/7590514",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12091129",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1620378"
+  ],
+  "snippets": [
+    {
+      "text": "Hemoglobinopathies are very common in Greece, the incidence of beta-thalassemia trait being 8% and that of sickle cell trait ranging from 1 to 32% in various districts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12091129",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "No statistically significant differences were found in the frequency of beta-thalassaemia trait between control subjects (8.49%) and the whole Greek population. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7590514",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "beta-Thalassemia was found with an average incidence of 5.476% and alpha-Thalassemia with an incidence of 0.201%.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1620378",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Following this program, 64,814 recruits, representing 0.651% of the total Greek population and 9.917% of the 20-year-old Greek male population, were tested. beta-Thalassemia was found with an average incidence of 5.476% and alpha-Thalassemia with an incidence of 0.201%",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1620378",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Following this program, 64,814 recruits, representing 0.651% of the total Greek population and 9.917% of the 20-year-old Greek male population, were tested. beta-Thalassemia was found with an average incidence of 5.476% and alpha-Thalassemia with an incidence of 0.201%.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1620378",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Following this program, 64,814 recruits, representing 0.651% of the total Greek population and 9.917% of the 20-year-old Greek male population, were tested. beta-Thalassemia was found with an average incidence of 5.476% and alpha-Thalassemia with an incidence of 0.201%. Hemoglobinopathy Lepore was detected in 51 samples (0.079%) and hemoglobinopathy-S in 352 samples (0.543%).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1620378",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:10241",
+    "http://www.disease-ontology.org/api/metadata/DOID:12241",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013789",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011153",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015994",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017086"
+  ],
+  "exact_answer": "8%"
+}

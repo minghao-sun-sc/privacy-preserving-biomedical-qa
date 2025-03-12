@@ -1,0 +1,26 @@
+{
+  "id": "6402c3fd201352f04a000009",
+  "type": "yesno",
+  "question": "Was prehospital transdermal glyceryl trinitrate effective for stroke in the RIGHT-2 trial?",
+  "ideal_answer": "No. Prehospital treatment with transdermal glyceryl trinitrate did not improve functional outcome in patients with presumed stroke.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30738649",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31587658"
+  ],
+  "snippets": [
+    {
+      "text": "INTERPRETATION: Prehospital treatment with transdermal GTN does not seem to improve functional outcome in patients with presumed stroke. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30738649",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Conclusions- Prehospital treatment with GTN worsened outcomes in patients with intracerebral hemorrhage. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31587658",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

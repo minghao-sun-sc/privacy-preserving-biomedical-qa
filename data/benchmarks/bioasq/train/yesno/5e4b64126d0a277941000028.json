@@ -1,0 +1,91 @@
+{
+  "id": "5e4b64126d0a277941000028",
+  "type": "yesno",
+  "question": "Is Figitumumab effective for non-small cell lung cancer?",
+  "ideal_answer": "No. Phase III trials of the anti-insulin-like growth factor-1 receptor (IGF1R) antibody figitumumab in non-small cell lung cancer (NSCLC) patients have been discontinued owing to lack of survival benefit.  Adding figitumumab to standard chemotherapy also failed to increase overall survival in patients with advanced nonadenocarcinoma NSCLC.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28104361",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20676809",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24888810",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23826179",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21907495",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21102589",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21717907"
+  ],
+  "snippets": [
+    {
+      "text": "A phase III study failed for carboplatin, paclitaxel, with or without figitumumab in first-line treating metastatic non-small cell lung cancer (NSCLC).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28104361",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION: Adding figitumumab to standard chemotherapy failed to increase OS in patients with advanced nonadenocarcinoma NSCLC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24888810",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Median OS was 8.6 months for figitumumab plus chemotherapy and 9.8 months for chemotherapy alone (hazard ratio [HR], 1.18; 95% CI, 0.99 to 1.40; P = .06); median progression-free survival was 4.7 months (95% CI, 4.2 to 5.4) and 4.6 months (95% CI, 4.2 to 5.4), respectively (HR, 1.10; P = .27); the objective response rates were 33% and 35%, respectively. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24888810",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Phase III trials of the anti-insulin-like growth factor-1 receptor (IGF1R) antibody figitumumab in non-small cell lung cancer (NSCLC) patients have been discontinued owing to lack of survival benefit.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23826179",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Two phase III trials of the anti-IGF-1R monoclonal antibody, figitumumab (CP-751,871), were discontinued in 2010 as it was considered unlikely either trial would meet their primary endpoints. In light of disappointing clinical data with figitumumab and other targeted agents, it is likely that the use of molecular markers will become important in predicting response to treatment. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21907495",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Phase III trials of the anti-insulin-like growth factor-1 receptor ( IGF1R ) antibody figitumumab in non-small cell lung cancer ( NSCLC ) patients have been discontinued owing to lack of survival benefit . ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23826179",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Phase III trials of the anti-insulin-like growth factor type 1 receptor ( IGF-IR ) antibody figitumumab ( F ) in unselected non-small-cell lung cancer ( NSCLC ) patients were recently discontinued owing to futility . ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21102589",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "One recent phase III trial of the IGF-1R inhibitor figitumumab in patients with non-small-cell lung cancer was discontinued after an interim analysis showed no survival improvement . ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21717907",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The insulin-like growth factor receptor ( IGF-1R ) monoclonal antibody figitumumab , while initially promising , appears to increase toxicity and death in combination with chemotherapy in the treatment of patients with NSCLC of squamous histology; therefore , clinical development of this class of agents will need to proceed with caution . ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20676809",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Two phase III trials of the anti-IGF-1R monoclonal antibody , figitumumab ( CP-751,871) , were discontinued in 2010 as it was considered unlikely either trial would meet their primary endpoints . ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21907495",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A phase III study failed for carboplatin , paclitaxel , with or without figitumumab in first-line treating metastatic non-small cell lung cancer ( NSCLC) . ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28104361",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Median OS was 8.6 months for figitumumab plus chemotherapy and 9.8 months for chemotherapy alone (hazard ratio [HR], 1.18; 95% CI, 0.99 to 1.40; P = .06); median progression-free survival was 4.7 months (95% CI, 4.2 to 5.4) and 4.6 months (95% CI, 4.2 to 5.4), respectively (HR, 1.10; P = .27); the objective response rates were 33% and 35%, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24888810",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

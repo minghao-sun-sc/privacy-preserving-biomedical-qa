@@ -1,0 +1,205 @@
+{
+  "id": "5333f728d6d3ac6a34000041",
+  "type": "list",
+  "question": "List algorithms suitable for predicting protein complexes",
+  "ideal_answer": "Protein-Protein interactions (PPI) play a key role in determining the outcome of most cellular processes. The correct identification and characterization of protein interactions and the networks, which they comprise, is critical for understanding the molecular mechanisms within the cell. Large-scale techniques such as pull down assays and tandem affinity purification are used in order to detect protein interactions in an organism. Today, relatively new high-throughput methods like yeast two hybrid, mass spectrometry, microarrays, and phage display are also used to reveal protein interaction networks. Some suitable algorithms for predicting protein complexes are Naive Bayes Classifier, Negatome, Support Vector Machine, PEWCC, iPTMClust, NDComplex, PROCOMOSS, PPI network, metaPIS, EPOF, EAGLE, NFC, MCODE, DPClus, IPCA, CPM, MCL, CMC, SPICi, Core-Attachment, ProRank, ClusterONE, CFinder, Spectral, RNSC, Affinity Propagation, HKC, NWE, CP-DR, Struct2net and PIPE.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16872538",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24299017",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22174556",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21682895",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19534736",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23419374",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22894160",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21047377",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22685080",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19435747",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23210476",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18574858",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22990765",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23046740",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22165822",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22711784",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24214996",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23688127",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24144986",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17094256",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21721046",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22488467",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22185599",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24565338",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17688314"
+  ],
+  "snippets": [
+    {
+      "text": "Protein complexes are basic cellular entities that carry out the functions of their components",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24299017",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we have designed several features characterizing heterodimeric protein complexes based on genomic data sets, and proposed a supervised-learning method for the prediction of heterodimeric protein complexes. This method learns the parameters of the features, which are embedded in the na\u00efve Bayes classifier",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24299017",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " non-interacting proteins (NIPs) is important for training the algorithms to predict protein-protein interactions (PPIs) and for assessing the false positive rates of PPI detection efforts. We present the second version of Negatome,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24214996",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Negatome is derived by manual curation of literature and by analyzing three-dimensional structures of protein complexes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24214996",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Identification of protein-ligand binding site is an important task in structure-based drug design and docking algorithms",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24144986",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Support Vector Machine (SVM) is used to cluster the pockets that are most likely to bind ligands with the attributes of geometric characteristics, interaction potential, offset from protein, conservation score and properties surrounding the pockets",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24144986",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Predicting protein complexes from protein-protein interaction data is becoming a fundamental problem in computational biology. The identification and characterization of protein complexes implicated are crucial to the understanding of the molecular events under normal and abnormal physiological conditions",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23688127",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "a novel graph mining algorithm (PEWCC) to identify such protein complexes. Firstly, the algorithm assesses the reliability of the interaction data, then predicts protein complexes based on the concept of weighted clustering coefficient. To demonstrate the effectiveness of the proposed method, the performance of PEWCC was compared to several methods",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23688127",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We developed a novel PTM refinement algorithm, iPTMClust, which extends a recently introduced PTM refinement algorithm PTMClust and uses a non-parametric Bayesian model to better account for uncertainties in the quantity and identity of PTMs in the input data. The use of this new modeling approach enables iPTMClust to provide a confidence score per modification site that allows fine-tuning and interpreting resulting PTM predictions",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23419374",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We develop an algorithm for identifying protein complexes by considering these two types of complexes separately. We test our algorithm on a few yeast protein interaction networks, and show that our algorithm is able to identify complexes more accurately than existing algorithms. A software program NDComplex",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23210476",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Studying protein complexes is very important in biological processes since it helps reveal the structure-functionality relationships in biological networks and much attention has been paid to accurately predict protein complexes from the increasing amount of protein-protein interaction (PPI) data",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23046740",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " To provide an investigation of the roles of edges in PPI networks, we show that the edges connecting less similar vertices in topology are more significant in maintaining the global connectivity, indicating the weak ties phenomenon in PPI networks",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23046740",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Identification of protein complexes in protein-protein interaction (PPI) networks is the first step in understanding the organization and dynamics of cell function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22990765",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We have developed an algorithm PROCOMOSS (Protein Complex Detection using Multi-objective Evolutionary Approach based on Semantic Similarity) for partitioning the whole PPI network into clusters, which serve as predicted protein complexes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22990765",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "With the exponentially growing amount of protein sequence data, an exploration of new methods that predict protein interaction sites based solely on sequence information is becoming increasingly urgent",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22894160",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This paper describes a new method that predicts interaction sites based on protein sequences by integrating five different algorithms employing meta-method, Majority Vote and SVMhmm Regression techniques",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22894160",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The 'metaPIS' web-server was implemented for meta-prediction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22894160",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " In this paper, a novel protein complex identifying method, named EPOF, is proposed, using essential proteins and the local metric of vertex fitness",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22711784",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We compare the performances of EPOF to other ten previous algorithms, including EAGLE, NFC, MCODE, DPClus, IPCA, CPM, MCL, CMC, SPICi, and Core-Attachment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22711784",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " We compare the performance of ProRank to some of the well known protein complex prediction methods (ClusterONE, CMC, CFinder, MCL, MCode and Core) in terms of precision and recall",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22685080",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this paper we evaluated four different clustering algorithms using six different interaction datasets. We parameterized the MCL, Spectral, RNSC and Affinity Propagation algorithms and applied them to six PPI datasets produced experimentally by Yeast 2 Hybrid (Y2H) and Tandem Affinity Purification (TAP) methods",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22185599",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "this paper, we present a new topology-based algorithm, HKC, to detect protein complexes in genome-scale PPI networks. HKC mainly uses the concepts of highest k-core and cohesion to predict protein complexes by identifying overlapping clusters. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22174556",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Protein complexes are important entities to organize various biological processes in the cell, like signal transduction, gene expression, and molecular transmission. In most cases, proteins perform their intrinsic tasks in association with their specific interacting partners, forming protein complexe",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22165822",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Macropol et al. proposed a protein complex prediction algorithm, called RRW, which repeatedly expands a current cluster of proteins according to the stationary vector of a random walk with restarts with the cluster whose proteins are equally weighted. In the cluster expansion, all the proteins within the cluster have equal influences on determination of newly added protein to the cluster. In this paper, we extend the RRW algorithm by introducing a random walk with restarts with a cluster of proteins, each of which is weighted by the sum of the strengths of supporting evidence for the direct physical interactions involving the protein. The resulting algorithm is called NWE (Node-Weighted Expansion of clusters of proteins). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22165822",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this paper, we propose a new topological model by extending the definition of k-clique community of algorithm CPM and introduced distance restriction, and develop a novel algorithm called CP-DR based on the new topological model for identifying protein complexes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21047377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This paper also describes a random forest classifier which can effectively combine the structure-based prediction results and other functional annotations together to predict protein interactions",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17094256",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we explain the development and implementation of a novel Protein-Protein Interaction Prediction Engine termed PIPE. This tool is capable of predicting protein-protein interactions for any target pair of the yeast Saccharomyces cerevisiae proteins from their primary structure and without the need for any additional information or predictions about the proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16872538",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005544",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000465",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006461",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D046912",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0043234"
+  ],
+  "exact_answer": "Na\u00efve Bayes Classifier, Negatome, Support Vector Machine, PEWCC, iPTMClust, NDComplex, PROCOMOSS, PPI network, metaPIS, EPOF, EAGLE, NFC, MCODE, DPClus, IPCA, CPM, MCL, CMC, SPICi, Core-Attachment, ProRank, ClusterONE, CFinder, Spectral, RNSC, Affinity Propagation, HKC, NWE, CP-DR, Struct2net, PIPE"
+}

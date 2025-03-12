@@ -1,0 +1,78 @@
+{
+  "id": "5a39453d966455904c000006",
+  "type": "factoid",
+  "question": "Which method for subsampling of NGS reads requires only gene counts?",
+  "ideal_answer": "SamExploreR : exploring reproducibility and robustness of RNA-seq results based on SAM files.We introduce the subseq r package, which uses a novel efficient approach to perform this subsampling and to calculate informative metrics at each depth required to inform a broad range of functional and evolutionary studies.Our methods are broadly applicable for polymorphism discovery in moderate to large genomes even at highly diverged loci, and we established by subsampling the illumina sbs coverage depth related questions for the experimental design.SubSeq : determining appropriate sequencing depth through efficient read subsampling.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18818371",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26830453",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27402900",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24192834",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25189781",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23056304"
+  ],
+  "snippets": [
+    {
+      "text": "Our methods are broadly applicable for polymorphism discovery in moderate to large genomes even at highly diverged loci, and we established by subsampling the Illumina SBS coverage depth required to inform a broad range of functional and evolutionary studies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18818371",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Interestingly, after subsampling to the same coverage for GSNAP and TopHat, we find that both mappers have similar performance, implying that the advantage of TopHat is mainly an artifact of the lower coverage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23056304",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " By subsampling sequence reads, we found that when using four-fold biological replication, 6 million reads per condition achieved 96% power to detect a two-fold change (or more) at a 5% false discovery rate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24192834",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We introduce the subSeq R package, which uses a novel efficient approach to perform this subsampling and to calculate informative metrics at each depth",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25189781",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "subSeq: determining appropriate sequencing depth through efficient read subsampling.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25189781",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We introduce an R package called samExploreR that allows the subsampling (m out of n bootstraping) of short-reads based on SAM files facilitating the investigation of sequencing depth related questions for the experimental design.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27402900",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We applied subsampling to ascertain the effect of training sample size and the number of RNA sequencing reads on classification accuracy of molecular subtype and routine biomarker prediction models (unsupervised and supervised).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26830453",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "samExploreR: exploring reproducibility and robustness of RNA-seq results based on SAM files.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27402900",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "By randomly sampling lower depths from a sequencing experiment and determining where the saturation of power and accuracy occurs, one can determine what the most useful depth should be for future experiments, and furthermore, confirm whether an existing experiment had sufficient depth to justify its conclusions",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25189781",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "One complication is that the power and accuracy of such experiments depend substantially on the number of reads sequenced, so it is important and challenging to determine the optimal read depth for an experiment or to verify whether one has adequate depth in an existing experiment",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25189781",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "subSeq"
+}

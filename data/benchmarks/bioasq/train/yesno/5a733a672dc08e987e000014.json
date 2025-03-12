@@ -1,0 +1,85 @@
+{
+  "id": "5a733a672dc08e987e000014",
+  "type": "yesno",
+  "question": "Does temsirolimus improve survival of glioblastoma patients?",
+  "ideal_answer": "No. Temsirolimus does not prolong survival of gliobalstoma patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21493184",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24692729",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27143690",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28259301",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16012795",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23099651",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22033322",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17538086"
+  ],
+  "snippets": [
+    {
+      "text": "RESULTS: fourteen randomized clinical trials were identified (7 with bevacizumab, 2 cilengitide, 1 enzastaurin, 1 dasatinib, 1 vandetanib, 1 temsirolimus, 1 cediranib) including 4330 patients. Antiangiogenic drugs showed no improvement in overall survival with a pooled HR of 1.00, a trend for an inferior outcome, in terms of overall survival, was observed in the group of patients receiving antiangiogenic drug alone compared to cytotoxic drug alone (HR=1.24, p=0.056).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28259301",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: Temsirolimus was not superior to temozolomide in patients with an unmethylated MGMT promoter.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27143690",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The actuarial 1-year survival was 72.2% [95% confidence interval (CI), 58.2-82.2] in the temozolomide arm and 69.6% (95% CI, 55.8-79.9) in the temsirolimus arm [hazard ratio (HR) 1.16; 95% CI, 0.77-1.76; P = 0.47].",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27143690",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION: The combination of bevacizumab with temsirolimus was well-tolerated and resulted in stable disease of at least four months/partial response in three out of six pediatric patients with chemorefractory CNS tumors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24692729",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: Temsirolimus administered weekly at the dose of 75 mg/m(2) did not meet the primary objective efficacy threshold in children with high-grade glioma, neuroblastoma or rhabdomyosarcoma; however, meaningful prolonged stable disease merits further evaluation in combination therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22033322",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Novel targeted agents such as bevacizumab, imatinib, erlotinib, temsirolimus, immunotherapy, cilengitide, talampanel, etc. are helping classical chemotherapeutic agents, like temozolomide, to achieve an increase in overall survival.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21493184",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: CCI-779 was well tolerated at this dose schedule; however, there was no evidence of efficacy in patients with recurrent GBM",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16012795",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The addition of temsirolimus to interferon did not improve survival.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17538086",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS Temsirolimus was not superior to temozolomide in patients with an unmethylated MGMT promoter.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27143690",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The addition of temsirolimus to interferon did not improve survival.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17538086",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D010361",
+    "http://www.biosemantics.org/jochem#4239515",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D005909",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D013534"
+  ],
+  "exact_answer": "Yes"
+}

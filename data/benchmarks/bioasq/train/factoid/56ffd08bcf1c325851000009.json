@@ -1,0 +1,50 @@
+{
+  "id": "56ffd08bcf1c325851000009",
+  "type": "factoid",
+  "question": "From which sequence does the Alu repeat originate from?",
+  "ideal_answer": "The presence of Alu-like structural motifs supports the hypothesis of the monophyletic origin of Alu and B1 repeats, i.e., from a common 7SL RNA-derived retroposing monomeric element, The origin of Alu subfamilies in human populations may be related to evolution of chromosome Y.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/9694666",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8576966",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16343813",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12815945",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12167372",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9395063"
+  ],
+  "snippets": [
+    {
+      "text": "The origin of Alu-derived minisatellites appears to have been mediated by short flanking repeats, as first proposed by Haber and Louis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16343813",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, we propose that the origin of Alu subfamilies in human populations may be related to evolution of chromosome Y.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12167372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our analysis indicates that about 60 Myr ago, before the prosimian divergence, free left and right monomers formed an Alu heterodimer connected by a 19-nucleotide-long A-rich linker.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9694666",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the presence of Alu-like structural motifs supports the hypothesis of the monophyletic origin of Alu and B1 repeats, i.e., from a common 7SL RNA-derived retroposing monomeric element",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8576966",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Alu elements are each a dimer of similar, but not identical, fragments of total size about 300 bp, and originate from the 7SL RNA gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12815945",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020087"
+  ],
+  "exact_answer": "7SL RNA"
+}

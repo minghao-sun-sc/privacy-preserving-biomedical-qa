@@ -1,0 +1,32 @@
+{
+  "id": "5e476b99d14c9f295d000001",
+  "type": "yesno",
+  "question": "Is golimumab effective for sarcoidosis?",
+  "ideal_answer": "No, golimumab is not effective for treatment of sarcoidosis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29601563",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25034562"
+  ],
+  "snippets": [
+    {
+      "text": "Introduced monoclonal antibodies (infliximab, etanercept, adaluimumab, golimumab, rituximab), tested for efficacy in other pathologies associated with the formation of granulomas, have a limited application in patients with SA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29601563",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although treatment was well tolerated, neither ustekinumab nor golimumab demonstrated efficacy in pulmonary sarcoidosis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25034562",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although treatment was well tolerated, neither ustekinumab nor golimumab demonstrated efficacy in pulmonary sarcoidosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25034562",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

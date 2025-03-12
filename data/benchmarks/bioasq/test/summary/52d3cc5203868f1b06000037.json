@@ -1,0 +1,120 @@
+{
+  "id": "52d3cc5203868f1b06000037",
+  "type": "summary",
+  "question": "How are CpG island shores defined?",
+  "ideal_answer": "CpG island \"shores\" are defined as genomic regions up to 2kb distant to known CpG islands. Differential DNA methylation correlates with gene expression more strongly at CpG island shores than CpG islands.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24057217",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19951682",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20944598",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19151715",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23887935",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19881528",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20720541",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23157493",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22479372"
+  ],
+  "snippets": [
+    {
+      "text": "Here we show that most methylation alterations in colon cancer occur not in promoters, and also not in CpG islands, but in sequences up to 2 kb distant, which we term 'CpG island shores'. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19151715",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Here, we find substantial hypermethylation and hypomethylation of cytosine-phosphate-guanine (CpG) island shores in nine human iPS cell lines as compared to their parental fibroblasts",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19881528",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent genome-wide descriptions of CpG methylation patterns in mammalian cells identified many differentially methylated regions (DMRs) located at CpG island \"shores.\"",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19951682",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Differential DNA methylation correlated with gene expression more strongly at CpG island shores than CpG islands.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20720541",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This analysis revealed leukemia-associated differentially methylated regions that included gene promoters, gene bodies, CpG islands and CpG island shores.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22479372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We observed that methylation probes associated with expression in cis were more likely to be located outside CpG islands, whereas specificity for CpG island shores was present when methylation, associated with expression, was under local genetic control.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23157493",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Aberrant DNA methylation of CpG islands, CpG island shores and first exons is known to play a key role in the altered gene expression patterns in all human cancers. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23887935",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In particular, neuronal-type differential methylation was overrepresented in CpG island shores, enriched within gene bodies but not in intergenic regions, and preferentially harbored binding motifs for a distinct set of transcription factors, including neuron-specific activity-dependent factors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24057217",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/MECP2_HUMAN",
+    "http://www.uniprot.org/uniprot/MBD10_ARATH",
+    "http://www.uniprot.org/uniprot/MBD12_ARATH",
+    "http://www.uniprot.org/uniprot/MB3L1_HUMAN",
+    "http://www.uniprot.org/uniprot/MBD4_HUMAN",
+    "http://www.uniprot.org/uniprot/MBD1_MOUSE",
+    "http://www.uniprot.org/uniprot/MECP2_RAT",
+    "http://www.uniprot.org/uniprot/MB3L5_HUMAN",
+    "http://www.uniprot.org/uniprot/MBD1_ARATH",
+    "http://www.uniprot.org/uniprot/MB3L2_HUMAN",
+    "http://www.uniprot.org/uniprot/MB3L4_HUMAN",
+    "http://www.uniprot.org/uniprot/MBD3_MOUSE",
+    "http://www.uniprot.org/uniprot/MBD9_ARATH",
+    "http://www.uniprot.org/uniprot/MB3L3_HUMAN",
+    "http://www.uniprot.org/uniprot/MBD3_HUMAN",
+    "http://www.uniprot.org/uniprot/MECP2_MOUSE",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0008327",
+    "http://www.uniprot.org/uniprot/CXXC1_HUMAN",
+    "http://www.uniprot.org/uniprot/MBD6_MOUSE",
+    "http://www.uniprot.org/uniprot/F8I2_HUMAN",
+    "http://www.uniprot.org/uniprot/MBD5_MOUSE",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018899",
+    "http://www.uniprot.org/uniprot/MBD6_HUMAN",
+    "http://www.uniprot.org/uniprot/HINFP_BOVIN",
+    "http://www.uniprot.org/uniprot/F8I2_MOUSE",
+    "http://www.uniprot.org/uniprot/MBD4_ARATH",
+    "http://www.uniprot.org/uniprot/MTSI_SPISQ",
+    "http://www.uniprot.org/uniprot/MBD1_HUMAN",
+    "http://www.uniprot.org/uniprot/MB3L1_MOUSE",
+    "http://www.uniprot.org/uniprot/MBD2_HUMAN",
+    "http://www.uniprot.org/uniprot/MBD6_ARATH",
+    "http://www.uniprot.org/uniprot/MBD5_ARATH",
+    "http://www.uniprot.org/uniprot/MBD11_ARATH",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051783",
+    "http://www.uniprot.org/uniprot/CXXC1_BOVIN",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0044027",
+    "http://www.uniprot.org/uniprot/MBD4_MOUSE",
+    "http://www.uniprot.org/uniprot/MBD2_MOUSE",
+    "http://www.uniprot.org/uniprot/MBD13_ARATH",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0044029",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0051718",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0045322",
+    "http://www.uniprot.org/uniprot/MBD5_HUMAN",
+    "http://www.uniprot.org/uniprot/MBD7_ARATH",
+    "http://www.uniprot.org/uniprot/HINFP_HUMAN",
+    "http://www.uniprot.org/uniprot/MBD3_ARATH",
+    "http://www.uniprot.org/uniprot/MBD8_ARATH",
+    "http://www.uniprot.org/uniprot/MECP2_MACFA",
+    "http://www.uniprot.org/uniprot/HINFP_MOUSE",
+    "http://www.uniprot.org/uniprot/CXXC1_MOUSE",
+    "http://www.uniprot.org/uniprot/MBD2_ARATH"
+  ]
+}

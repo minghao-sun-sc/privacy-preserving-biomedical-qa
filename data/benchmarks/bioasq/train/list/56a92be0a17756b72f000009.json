@@ -1,0 +1,44 @@
+{
+  "id": "56a92be0a17756b72f000009",
+  "type": "list",
+  "question": "Which factors activate zygotic gene expression during the maternal-to-zygotic transition in zebrafish?",
+  "ideal_answer": "Nanog, Pou5f1 and SoxB1 activate zygotic gene expression during the maternal-to-zygotic transition. Maternal Nanog, Pou5f1 and SoxB1 are required to initiate the zygotic developmental program and induce clearance of the maternal program by activating miR-430 expression.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24056933"
+  ],
+  "snippets": [
+    {
+      "text": "Nanog, Pou5f1 and SoxB1 activate zygotic gene expression during the maternal-to-zygotic transition.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24056933",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Our results demonstrate that maternal Nanog, Pou5f1 and SoxB1 are required to initiate the zygotic developmental program and induce clearance of the maternal program by activating miR-430 expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24056933",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show that Nanog, Pou5f1 (also called Oct4) and SoxB1 regulate zygotic gene activation in zebrafish.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24056933",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show that Nanog, Pou5f1 (also called Oct4) and SoxB1 regulate zygotic gene activation in zebrafish. We identified several hundred genes directly activated by maternal factors, constituting the first wave of zygotic transcription.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24056933",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015027",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018507",
+    "http://amigo.geneontology.org/amigo/term/GO:0010468",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020869",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005786",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015870"
+  ],
+  "exact_answer": "Nanog, Pou5f1, SoxB1"
+}

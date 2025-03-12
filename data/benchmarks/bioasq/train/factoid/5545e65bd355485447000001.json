@@ -1,0 +1,25 @@
+{
+  "id": "5545e65bd355485447000001",
+  "type": "factoid",
+  "question": "Patients of which disease could be treated by utilizing knowledge obtained from experiments suppressing TDP-43 toxicity in yeast?",
+  "ideal_answer": "Amyotrophic lateral sclerosis (ALS).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23104007"
+  ],
+  "snippets": [
+    {
+      "text": "Amyotrophic lateral sclerosis (ALS) is a devastating neurodegenerative disease primarily affecting motor neurons. Mutations in the gene encoding TDP-43 cause some forms of the disease, and cytoplasmic TDP-43 aggregates accumulate in degenerating neurons of most individuals with ALS. Thus, strategies aimed at targeting the toxicity of cytoplasmic TDP-43 aggregates may be effective",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23104007",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The strongest suppressor of TDP-43 toxicity was deletion of DBR1, which encodes an RNA lariat debranching enzyme. We show that, in the absence of Dbr1 enzymatic activity, intronic lariats accumulate in the cytoplasm and likely act as decoys to sequester TDP-43, preventing it from interfering with essential cellular RNAs and RNA-binding proteins. Knockdown of Dbr1 in a human neuronal cell line or in primary rat neurons is also sufficient to rescue TDP-43 toxicity. Our findings provide insight into TDP-43-mediated cytotoxicity and suggest that decreasing Dbr1 activity could be a potential therapeutic approach for ALS",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23104007",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Amyotrophic lateral sclerosis (ALS)"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6025dd0c1cb411341a0000b9",
+  "type": "yesno",
+  "question": "Should cerebrolysin be used for aneurysmal subarachnoid hemorrhage?",
+  "ideal_answer": "No. Randomized clinical trial did not find any superior effects of cerebrolysin for patients with aneurysmal subarachnoid hemorrhage.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30414051",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33143640"
+  ],
+  "snippets": [
+    {
+      "text": "No significant difference was detected in the proportion of patients with favorable six-month GOSE in either study group (odds ratio (OR): 1.49; 95% confidence interval (CI): 0.43-5.17). Secondary functional outcome measures for favorable six-month recovery i.e. a mRS of 0 to 3 (OR: 3.45; 95% CI 0.79-15.01) were comparable for both groups. Similarly, there was no difference in MOCA neurocognitive performance (p-value: 0.75) and in the incidence of DCI (OR: 0.85 95% CI: 0.28-2.59).CONCLUSIONS: Use of Cerebrolysin in addition to standard-of-care management of aneurysmal SAH is safe, well tolerated and feasible. However, the neutral results of this trial suggest that it does not improve the six-month global functional performance of patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33143640",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION: Cerebrolysin injection during the acute period of SAH appeared to reduce the mortality rate, especially in poor-grade patients. This study suggests the potential of Cerebrolysin for treating aneurysmal SAH. Further studies are needed to confirm our results.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30414051",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

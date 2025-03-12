@@ -1,0 +1,37 @@
+{
+  "id": "5aac5469fcf4565872000005",
+  "type": "list",
+  "question": "What are 7 symptoms of yellow fever?",
+  "ideal_answer": "Yellow fever is considered to be a hemorrhagic fever and illness is characterized by fever, headache, myalgia, gastrointestinal symptoms, hepatic and renal dysfunction, multi-organ failure,  shock and coagulopathy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20439976",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24056028",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28810279",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25412185"
+  ],
+  "snippets": [
+    {
+      "text": "Infection with yellow fever virus (YFV), an explosively replicating flavivirus, results in viral hemorrhagic disease characterized by cardiovascular shock and multi-organ failure",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25412185",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ". YF usually causes fever, muscle pain with prominent backache, headache, shivers, loss of appetite, and nausea or vomiting.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24056028",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The illness was characterized by fever, headache, myalgia, gastrointestinal symptoms, hepatic and renal dysfunction, and (in the fatal case), shock and coagulopathy,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20439976",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D015004",
+    "http://www.disease-ontology.org/api/metadata/DOID:9682"
+  ],
+  "exact_answer": "fever, multi organ failure, hemorrhage, headache, myalgia, hepatic dysfunction, renal dysfunction"
+}

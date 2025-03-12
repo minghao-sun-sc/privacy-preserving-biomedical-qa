@@ -1,0 +1,116 @@
+{
+  "id": "5c561da707647bbc4b00000f",
+  "type": "list",
+  "question": "List the releases of tmVar",
+  "ideal_answer": "TmVar is a text mining approach for extracting sequence variants in biomedical literature. TmVar 2.0 integrates genomic variant information from literature with dbSNP and ClinVar for precision medicine.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28968638",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23564842"
+  ],
+  "snippets": [
+    {
+      "text": "Here, we report tmVar, a text-mining approach based on conditional random field (CRF) for extracting a wide range of sequence variants described at protein, DNA and RNA levels according to a standard nomenclature developed by the Human Genome Variation Society. By doing so, we cover several important types of mutations that were not considered in past studies. Using a novel CRF label model and feature set, our method achieves higher performance than a state-of-the-art method on both our corpus (91.4 versus 78.1% in F-measure) and their own gold standard (93.9 versus 89.4% in F-measure). These results suggest that tmVar is a high-performance method for mutation extraction from biomedical literature.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "tmVar 2.0: integrating genomic variant information from literature with dbSNP and ClinVar for precision medicine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968638",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "tmVar: a text mining approach for extracting sequence variants in biomedical literature.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "To our knowledge, this is the first large-scale study to analyze and integrate text-mined variant data with curated knowledge in existing databases. Our results suggest that databases can be significantly enriched by text mining and that the combined information can greatly assist human efforts in evaluating/prioritizing variants in genomic research.Availability and implementation: The tmVar 2.0 source code and corpus are freely available at https://www.ncbi.nlm.nih.gov/research/bionlp/Tools/tmvar/",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968638",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS\nHere, we report tmVar, a text-mining approach based on conditional random field (CRF) for extracting a wide range of sequence variants described at protein, DNA and RNA levels according to a standard nomenclature developed by the Human Genome Variation Society.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest that tmVar is a high-performance method for mutation extraction from biomedical literature.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AVAILABILITY\ntmVar software and its corpus of 500 manually curated abstracts are available for download at http://www.ncbi.nlm.nih.gov/CBBresearch/Lu/pub/tmVar",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Availability and implementation\nThe tmVar 2.0 source code and corpus are freely available at https://www.ncbi.nlm.nih.gov/research/bionlp/Tools/tmvar/.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968638",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS Here, we report tmVar, a text-mining approach based on conditional random field (CRF) for extracting a wide range of sequence variants described at protein, DNA and RNA levels according to a standard nomenclature developed by the Human Genome Variation Society.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AVAILABILITY tmVar software and its corpus of 500 manually curated abstracts are available for download at http://www.ncbi.nlm.nih.gov/CBBresearch/Lu/pub/tmVar",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Availability and implementation The tmVar 2.0 source code and corpus are freely available at https://www.ncbi.nlm.nih.gov/research/bionlp/Tools/tmvar/.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968638",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "As such, new automatic approaches are greatly needed for extracting different kinds of mutations with high accuracy.<br><b>RESULTS</b>: Here, we report tmVar, a text-mining approach based on conditional random field (CRF) for extracting a wide range of sequence variants described at protein, DNA and RNA levels according to a standard nomenclature developed by the Human Genome Variation Society.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest that tmVar is a high-performance method for mutation extraction from biomedical literature.<br><b>AVAILABILITY</b>: tmVar software and its corpus of 500 manually curated abstracts are available for download at http://www.ncbi.nlm.nih.gov/CBBresearch/Lu/pub/tmVar<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results suggest that databases can be significantly enriched by text mining and that the combined information can greatly assist human efforts in evaluating/prioritizing variants in genomic research.<br><b>Availability and implementation</b>: The tmVar 2.0 source code and corpus are freely available at https://www.ncbi.nlm.nih.gov/research/bionlp/Tools/tmvar/.<br><b>Contact</b>: zhiyong.lu@nih.gov.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968638",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "tmVar software and its corpus of 500 manually curated abstracts are available for download at http://www.ncbi.nlm.nih.gov/CBBresearch/Lu/pub/tmVar",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The tmVar 2.0 source code and corpus are freely available at https://www.ncbi.nlm.nih.gov/research/bionlp/Tools/tmvar/.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968638",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest that tmVar is a high-performance method for mutation extraction from biomedical literature.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23564842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "TmVar, TmVar 2.0"
+}

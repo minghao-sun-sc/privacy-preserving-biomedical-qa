@@ -1,0 +1,26 @@
+{
+  "id": "602c28551cb411341a000123",
+  "type": "yesno",
+  "question": "Has AZD9668 been tested in clinical trials?",
+  "ideal_answer": "Yes, AZD9668 has been tested in clinical trials.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22458939",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26043724"
+  ],
+  "snippets": [
+    {
+      "text": "Efficacy, safety and tolerability of AZD9668 (5, 20 and 60 mg bid) were compared with placebo in a randomised, double-blind, placebo-controlled, 12-week, Phase IIb trial (NCT00949975: approved by an Investigational Review Board), in patients with symptomatic COPD receiving maintenance tiotropium. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22458939",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A randomised, placebo-controlled, dose-finding study of AZD9668, an oral inhibitor of neutrophil elastase, in patients with chronic obstructive pulmonary disease treated with tiotropium.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22458939",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

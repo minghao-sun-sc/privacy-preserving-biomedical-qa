@@ -1,0 +1,33 @@
+{
+  "id": "5c9906dcecadf2e73f00002f",
+  "type": "yesno",
+  "question": "Are cardenolides inhibitors of Na+/K+ ATPase?",
+  "ideal_answer": "Yes,\nCardenolides have shown significant antitumor activity due to their ability to inhibit the Na+K+ATPase enzyme, and the expression of this enzyme is increased in tumor cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30053394",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30372816",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29683473"
+  ],
+  "snippets": [
+    {
+      "text": ". Previously, we reported that a variety of cardenolides impart anti-transmissible gastroenteritis coronavirus (TGEV) activity in swine testicular (ST) cells, through targeting of the cell membrane sodium/potassium pump, Na+/K+-ATPase. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30053394",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ": We found evidence for low cardenolides by HPLC, but substantial toxicity when extracts were assayed on Na+ /K+ -ATPases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29683473",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cardenolides have shown significant antitumor activity due to their ability to inhibit the Na+K+ATPase enzyme, and the expression of this enzyme is increased in tumor cells. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30372816",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

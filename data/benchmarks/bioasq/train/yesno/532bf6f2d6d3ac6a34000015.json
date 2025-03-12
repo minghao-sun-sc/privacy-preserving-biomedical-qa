@@ -1,0 +1,57 @@
+{
+  "id": "532bf6f2d6d3ac6a34000015",
+  "type": "yesno",
+  "question": "Is there any research that relates the function of Notch Signaling with Alzheimer Disease?",
+  "ideal_answer": "Notch signaling is an evolutionarily conserved pathway, which is fundamental for neuronal development and specification. In the last decade, increasing evidence has pointed out an important role of this pathway beyond embryonic development, indicating that Notch also displays a critical function in the mature brain of vertebrates and invertebrates. This pathway appears to be involved in neural progenitor regulation, neuronal connectivity, synaptic plasticity and learning/memory. In addition, Notch appears to be aberrantly regulated in neurodegenerative diseases, including Alzheimer's disease and ischemic injury",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23197721",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23570941",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22122056",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24099003",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21768095",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22792182",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21206757",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19881909"
+  ],
+  "snippets": [
+    {
+      "text": "RIP regulates signaling pathways by abrogating or releasing signaling molecules. Since the discovery, already >15 years ago, of its catalytic component, presenilin, and even much earlier with the identification of amyloid precursor protein as its first substrate, \u03b3-secretase has been commonly associated with Alzheimer's disease. However, starting with Notch and thereafter a continuously increasing number of novel substrates, \u03b3-secretase is becoming linked to an equally broader range of biological processes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24099003",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the last decade, increasing evidence has pointed out an important role of this pathway beyond embryonic development, indicating that Notch also displays a critical function in the mature brain of vertebrates and invertebrates. This pathway appears to be involved in neural progenitor regulation, neuronal connectivity, synaptic plasticity and learning/memory. In addition, Notch appears to be aberrantly regulated in neurodegenerative diseases, including Alzheimer's disease and ischemic injury",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23570941",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Along with \u03b2-secretase, this enzyme produces the amyloid \u03b2-protein of Alzheimer's disease (AD) from the amyloid \u03b2-protein precursor. Because of its key role in the pathogenesis of AD, \u03b3-secretase has been a prime target for drug discovery, and many inhibitors of this protease have been developed. The therapeutic potential of these inhibitors is virtually negated by the fact that \u03b3-secretase is an essential part of the Notch signaling pathway, rendering the compounds unacceptably toxic upon chronic exposure",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22122056",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "High physiological concentrations of A\u03b2 monomer induced angiogenesis by a conserved mechanism that blocks \u03b3-secretase processing of a Notch intermediate, NEXT, and reduces the expression of downstream Notch target genes. Our findings allude to an integration of signaling pathways that utilize \u03b3-secretase activity, which may have significant implications for our understanding of Alzheimer's pathogenesis vis-\u00e0-vis vascular changes that set the stage for ensuing neurodegeneration.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22792182",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Aggregated forms of A\u03b2 have a pathogenic role in Alzheimer disease and, thus, reducing the A\u03b2 levels by inhibiting \u03b3-secretase is a possible treatment strategy for Alzheimer disease. Regrettably, clinical trials have shown that inhibition of \u03b3-secretase results in Notch-related side effects. Therefore, it is of great importance to find ways to inhibit amyloid precursor protein (APP) processing without disturbing vital signaling pathways such as Notch. Nicastrin (Nct) is part of the \u03b3-secretase complex and has been proposed to be involved in substrate recognition and selection",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21768095",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000544",
+    "http://www.disease-ontology.org/api/metadata/DOID:10652",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=diseases_category",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D023582",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051880",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0023052"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "5c5f1f371a4c55d80b00001a",
+  "type": "factoid",
+  "question": "What is the normal function p53?",
+  "ideal_answer": "Wild-type p53 can suppress tumour development by multiple pathways.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28749203",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28937686",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28984872",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29242642"
+  ],
+  "snippets": [
+    {
+      "text": "The three p53 family members, p53, p63 and p73, are structurally similar and share many biochemical activities. Yet, along with their common fundamental role in protecting genomic fidelity, each has acquired distinct functions related to diverse cell autonomous and non-autonomous processes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28984872",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The tumor suppressor p53 is a key regulator of apoptosis induced by various cellular stresses.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28937686",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Direct functional restoration of p53 as a transcription factor has been difficult to achieve in the clinic. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28749203",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The tumour suppressor gene TP53 is the most frequently mutated gene in cancer. Wild-type p53 can suppress tumour development by multiple pathways.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29242642",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "tumor suppressor"
+}

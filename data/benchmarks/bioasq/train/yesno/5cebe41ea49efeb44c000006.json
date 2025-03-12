@@ -1,0 +1,114 @@
+{
+  "id": "5cebe41ea49efeb44c000006",
+  "type": "yesno",
+  "question": "Is the process of DNA loop-extrusion independent of ATP?",
+  "ideal_answer": "The process of DNA loop-extrusion is not independent of ATP. It is dependent on the energy of ATP hydrolysis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29706548",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29754816",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29300120",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31780627",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16292342",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27224481",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29079757",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29140466",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31753851",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27210764",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29472443",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30100265"
+  ],
+  "snippets": [
+    {
+      "text": "The DNA-organizing mechanism of condensin depends on the energy of ATP hydrolysis but how this activity specifically promotes proper compaction and segregation of chromosomes during mitosis remains poorly understood.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29079757",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We suggest that loading and translocation are mediated by conformational changes in cohesin's hinge driven by cycles of ATP hydrolysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29754816",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using ultra-deep Hi-C, we show that loop domains form by a process that requires cohesin ATPases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29706548",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Strikingly, without ATP, we observe the emergence of hundreds of CTCF-independent loops that link regulatory DNA.\u00a0",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29706548",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Each TAD emerges from multiple loops dynamically formed through extrusion, contrary to typical illustrations of single static loops. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27210764",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, the model requires a motor to generate the loops, and although cohesin is a strong candidate for the extruding factor, a suitable motor protein (or a motor activity in cohesin itself) has yet to be found. Here we explore a new hypothesis: that there is no motor, and thermal motion within the nucleus drives extrusion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29300120",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We observed that a single condensin complex is able to extrude tens of kilobase pairs of DNA at a force-dependent speed of up to 1500 base pairs per second, using the energy of adenosine triphosphate hydrolysis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29472443",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our model explains what can be the driving force of chromatin loop extrusion and how it can be ensured that loops grow quickly and in a good direction. In addition, the supercoiling-driven loop extrusion mechanism is consistent with earlier explanations proposing why TADs flanked by convergent CTCF binding sites form more stable chromatin loops than TADs flanked by divergent CTCF binding sites.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29140466",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Oligomerization and ATP stimulate condensin-mediated DNA compaction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29079757",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Strikingly, without ATP, we observe the emergence of hundreds of CTCF-independent loops that link regulatory DNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29706548",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA compaction by cohesin requires adenosine triphosphate (ATP) hydrolysis and is force sensitive.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31780627",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The identification and quantification of further initiation steps--ATP binding and extrusion of an initial DNA loop--allowed us to deduce a complete kinetic reinitiation scheme.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16292342",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In support of this model, single-molecule imaging experiments indicate that Saccharomyces cerevisiae condensin complexes can extrude DNA loops in an ATP-hydrolysis-dependent manner in\u00a0vitro.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30100265",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These structures depend on cohesin, a ring-shaped DNA-entrapping adenosine triphosphatase (ATPase) complex that has been proposed to form loops by extrusion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31753851",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Loop formation and maintenance depend on cohesin's ATPase activity and on NIPBL-MAU2, but not on topological entrapment of DNA by cohesin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31753851",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

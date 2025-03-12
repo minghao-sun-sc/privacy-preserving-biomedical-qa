@@ -1,0 +1,45 @@
+{
+  "id": "6026db1f1cb411341a0000cf",
+  "type": "yesno",
+  "question": "Has ubrogepant entered clinical phase III trials?",
+  "ideal_answer": "Yes, ubrogepant has entered phase III trials.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32011192",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31758661",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32648856"
+  ],
+  "snippets": [
+    {
+      "text": "Ubrogepant (MK-1602) is a novel, oral, calcitonin gene-related peptide receptor antagonist in clinical development with positive phase III outcomes for acute treatment of migraine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31758661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A population pharmacokinetic model describing the effect of formulations was included in the E-R simulation framework to assess potential dose implications of a formulation switch from phase II to phase III. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31758661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The understanding of E-R helped support the dose selection for the phase III clinical trials.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31758661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The CGRP receptor antagonist ubrogepant, also known as MK-1602, has been recently evaluated in phase III clinical trials for clinical efficacy and long-term safety as an abortive migraine treatment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32011192",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Two pivotal phase III clinical trials (ACHIEVE I and ACHIEVE II) demonstrated effectiveness and safety of ubrogepant in acute migraine attacks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32648856",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

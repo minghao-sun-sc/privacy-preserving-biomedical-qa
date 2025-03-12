@@ -1,0 +1,62 @@
+{
+  "id": "55411d9f379ddf3f47000001",
+  "type": "factoid",
+  "question": "Which is the most typical peptide sequence responsible for retrieval of endoplasmic reticulum (ER) lumenal proteins from the Golgi apparatus?",
+  "ideal_answer": "The lumenal endoplasmic reticulum (ER) proteins carry a specific sorting signal which enables their retrieval from multiple post-ER compartments (up to the TGN along the exocytotic pathway), back to the ER. The most typical such signal is the carboxyl-terminal Lys-Asp-Glu-Leu (KDEL), which is bound by a KDEL receptor in the Golgi apparatus, as well as in the intermediate compartment. Thus KDEL functions as a retrieval signal of lumenal ER proteins from Golgi to ER.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10748089",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15170512",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7798312",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9914159",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1334264",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9442098",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8385108",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9118249"
+  ],
+  "snippets": [
+    {
+      "text": "Retention of soluble proteins in the endoplasmic reticulum is dependent on their interaction with the KDEL (Lys-Asp-Glu-Leu) receptor in the Golgi apparatus and their subsequent retrieval back to the endoplasmic reticulum.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9442098",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the retrieval system for lumenal ER proteins. These proteins carry a specific sorting signal, typically the tetrapeptide KDEL, which is bound by a receptor in the Golgi apparatus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9118249",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The carboxyl-terminal Lys-Asp-Glu-Leu (KDEL), or a closely-related sequence, is important for ER localization of both lumenal as well as type II membrane proteins. This sequence functions as a retrieval signal at post-ER compartment(s)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7798312",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the KDEL receptor is concentrated in the intermediate compartment, as well as in the Golgi stack",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7798312",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "retrieval of KDEL-containing proteins occurs at multiple post-ER compartments up to the TGN along the exocytotic pathway",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7798312",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The erd2 protein is the receptor responsible for recycling proteins bearing the carboxyl-terminal sequence KDEL (single-letter amino acid code) to the endoplasmic reticulum, following their loss from that organelle by the process of forward transport",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8385108",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0048238",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005794",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005788",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005783",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006888"
+  ],
+  "exact_answer": "the carboxyl-terminal Lys-Asp-Glu-Leu (KDEL)"
+}

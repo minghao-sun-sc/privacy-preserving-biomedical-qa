@@ -1,0 +1,33 @@
+{
+  "id": "625bb257e764a5320400002e",
+  "type": "factoid",
+  "question": "When is lorlatinib used?",
+  "ideal_answer": "Lorlatinib is a third-generation ALK inhibitor that can overcome the largest number of acquired ALK resistance mutations, including the solvent-front mutation G1202R.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34589977",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34548910",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34585621"
+  ],
+  "snippets": [
+    {
+      "text": "Lorlatinib is a third-generation ALK inhibitor that can overcome the largest number of acquired ALK resistance mutations, including the solvent-front mutation G1202R. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34589977",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The study tested two medicines called lorlatinib and crizotinib in participants with untreated non-small cell lung cancer that had spread to other parts of their body. All those who took part\u00a0had changes in a gene called ALK, which is involved in cell growth.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34585621",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " In conclusion, we suggest molecular profiling of progressive tumor disease also for ALK-positive NSCLC to personalize treatment in a subgroup of ALK-positive patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34548910",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "In ALK-positive NSCLC"
+}

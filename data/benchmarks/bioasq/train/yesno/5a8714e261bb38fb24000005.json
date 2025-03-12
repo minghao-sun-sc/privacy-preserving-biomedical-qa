@@ -1,0 +1,208 @@
+{
+  "id": "5a8714e261bb38fb24000005",
+  "type": "yesno",
+  "question": "Is polyadenylation a process that stabilizes a protein by adding a string of Adenosine residues to the end of the molecule?",
+  "ideal_answer": "No, polyadenylation is a process that stabilizes mRNA by adding up to 200 adenosine residues to the 3' end of the trabscript",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27940037",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19479986",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23776204",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16282984",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22400011",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9020972",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23989958",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1684936",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16467265",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9223284",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9733864",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26730730",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19576221",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18177749",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28537233",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9933592",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9611233",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3037325",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9242905",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11557765",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2579655",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17267594",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8440247",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16738135",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12601000"
+  ],
+  "snippets": [
+    {
+      "text": "The addition of poly(A) tails to eukaryotic nuclear mRNAs promotes their stability, export to the cytoplasm and translation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23989958",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Most eukaryotic genes express mRNAs with alternative polyadenylation sites at their 3' ends",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23776204",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Polyadenylation is the non-template addition of adenosine nucleotides at the 3'-end of RNA, which occurs after transcription and generates a poly(A) tail up to 250-300 nucleotides long.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28537233",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Polyadenylation is a process of endonucleolytic cleavage of the mRNA, followed by addition of up to 250 adenosine residues to the 3' end of the mRNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16467265",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Plant mitochondrial polyadenylated mRNAs are degraded by a 3'- to 5'-exoribonuclease activity, which proceeds unimpeded by stable secondary structures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11557765",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We show that a 3'- to 5'-exoribonuclease activity is responsible for the preferential degradation of polyadenylated mRNAs as compared with non-polyadenylated mRNAs, and that 20-30 adenosine residues constitute the optimal poly(A) tail size for inducing degradation of RNA substrates in vitro.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11557765",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The diversity of polyadenylation sites suggests that mRNA polyadenylation in prokaryotes is a relatively indiscriminate process that can occur at all mRNA's 3'-ends and does not require specific consensus sequences as in eukaryotes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9242905",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Polyadenylation of premessenger RNAs occurs posttranscriptionally in the nucleus of eukaryotic cells by cleavage of the precursor and polymerization of adenosine residues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9223284",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, under certain conditions, poly(A) tracts may lead to mRNA stabilization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9242905",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "From these results, we propose that in plant mitochondria, poly(A) tails added at the 3' ends of mRNAs promote an efficient 3'- to 5'- degradation process..",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11557765",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Auxiliary downstream elements are required for efficient polyadenylation of mammalian pre-mRNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9611233",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Transcription in these cells is polycistronic. Tens to hundreds of protein-coding genes of unrelated function are arrayed in long clusters on the same DNA strand. Polycistrons are cotranscriptionally processed by trans-splicing at the 5' end and polyadenylation at the 3' end, generating monocistronic units ready for degradation or translation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17267594",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We have devised a simple chromatographic procedure which isolates five polyadenylation factors that are required for polyadenylation of eukaryotic mRNA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1684936",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "During mammalian oocyte maturation, protein synthesis is mainly controlled through cytoplasmic polyadenylation of stored maternal mRNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19479986",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Identification and characterization of a polyadenylated small RNA (s-poly A+ RNA) in dinoflagellates.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2579655",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Thus, polyadenylation seems to be a major component of the RNA editing machinery that affects overlapping genes in animal mitochondria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9020972",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pre-mRNA 3'-end processing, the process through which almost all eukaryotic mRNAs acquire a poly(A) tail is generally inhibited during the cellular DNA damage",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27940037",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Almost all eukaryotic mRNAs possess 3' ends with a polyadenylate (poly(A)) tail.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22400011",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We previously demonstrated, by limited mutagenesis, that conserved sequence elements within the 5' end of influenza virus virion RNA (vRNA) are required for the polyadenylation of mRNA in vitro.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9733864",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Polyadenylation of mRNA precursors by poly(A) polymerase depends on two specificity factors and their recognition sequences",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8440247",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The majority of eukaryotic pre-mRNAs are processed by 3'-end cleavage and polyadenylation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19576221",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Formation of mRNA 3' termini involves cleavage of an mRNA precursor and polyadenylation of the newly formed end. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3037325",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The polyadenylation of RNA is a near-universal feature of RNA metabolism in eukaryotes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26730730",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mechanism of RNA degradation in Escherichia coli involves endonucleolytic cleavage, polyadenylation of the cleavage product by poly(A) polymerase, and exonucleolytic degradation by the exoribonucleases, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12601000",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The addition of poly(A)-tails to RNA is a process common to almost all organisms. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16738135",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The addition of poly(A) tails to RNA is a phenomenon common to all organisms examined so far. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16282984",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The addition of poly(A)-tails to RNA is a phenomenon common to almost all organisms. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18177749",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Polyadenylation contributes to the destabilization of bacterial mRNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9933592",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0043631",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D026723"
+  ],
+  "exact_answer": "Yes"
+}

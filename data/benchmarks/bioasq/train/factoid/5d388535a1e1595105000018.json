@@ -1,0 +1,26 @@
+{
+  "id": "5d388535a1e1595105000018",
+  "type": "factoid",
+  "question": "How many copies of TP53 does the elephant genome contain?",
+  "ideal_answer": "  Here, we show that the elephant genome encodes 20 copies of the tumor suppressor gene TP53 and that the increase in TP53 copy number occurred coincident with the evolution of large body sizes, the evolution of extreme sensitivity to genotoxic stress, and a hyperactive TP53 signaling pathway in the elephant (Proboscidean) lineage. While humans have 1 copy (2 alleles) of TP53, African elephants have at least 20 copies (40 alleles), including 19 retrogenes (38 alleles) with evidence of transcriptional activity measured by reverse transcription polymerase chain reaction.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27642012",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26447779"
+  ],
+  "snippets": [
+    {
+      "text": "Here, we show that the elephant genome encodes 20 copies of the tumor suppressor gene TP53 and that the increase in TP53 copy number occurred coincident with the evolution of large body sizes, the evolution of extreme sensitivity to genotoxic stress, and a hyperactive TP53 signaling pathway in the elephant (Proboscidean) lineage. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27642012",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "While humans have 1 copy (2 alleles) of TP53, African elephants have at least 20 copies (40 alleles), including 19 retrogenes (38 alleles) with evidence of transcriptional activity measured by reverse transcription polymerase chain reaction. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26447779",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "20"
+}

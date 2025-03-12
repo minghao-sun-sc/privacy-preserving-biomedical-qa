@@ -1,0 +1,40 @@
+{
+  "id": "58cd6d9702b8c6095300003c",
+  "type": "yesno",
+  "question": "Do normal cells express the protein TERT?",
+  "ideal_answer": "\u039d\u03bf, telomerase activity is found in 85%-90% of all human cancers but not in their adjacent normal cells. Human telomerase reverse transcriptase (hTERT) is an essential component in the telomerase complex that plays an important role in telomerase activity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21790308",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18956258",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17346111",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17531113"
+  ],
+  "snippets": [
+    {
+      "text": "Since telomerase has been recognized as a relevant factor distinguishing cancer cells from normal cells, it has become a very promising target for anti-cancer therapy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21790308",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Telomerase plays a pivotal role in cellular immortality and tumorigenesis. Its activity is normally not detectable in most somatic cells while it is reactivated in the vast majority of cancer cells. Therefore, inhibition of telomerase has been viewed as a promising anticancer approach due to its specificity for cancer cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18956258",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Telomerase activity is found in 85%-90% of all human cancers but not in their adjacent normal cells. Human telomerase reverse transcriptase (hTERT) is an essential component in the telomerase complex that plays an important role in telomerase activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17531113",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "elomerase activation is considered to be a critical step in carcinogenesis and its activity correlates closely with human telomerase reverse transcriptase (hTERT) expression. Since only tumor cells that express telomerase activity would activate this promoter, the hTERT proximal promoter allows for preferential expression of viral genes in tumor cells, leading to selective viral replication",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17346111",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

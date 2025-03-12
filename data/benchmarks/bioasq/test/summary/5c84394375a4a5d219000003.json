@@ -1,0 +1,51 @@
+{
+  "id": "5c84394375a4a5d219000003",
+  "type": "summary",
+  "question": "What is the mode of action of Tetrocarcin-A?",
+  "ideal_answer": "The anti-tumor antibiotic, tetrocarcin A, directly induces apoptosis of human breast cancer cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30312728",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15667975",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12560233",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17350598"
+  ],
+  "snippets": [
+    {
+      "text": "Tetrocarcin A (TC-A) and bcl-2 antisense oligonucleotides exhibit antitumor activity by inhibiting Bcl-2 function and transcription, respectively",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15667975",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Apoptosis and inactivation of the PI3-kinase pathway by tetrocarcin A in breast cancers",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17350598",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we find that an anti-tumor antibiotic, tetrocarcin A, directly induces apoptosis of human breast cancer cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17350598",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tetrocarcin-A (TC-A), an antibiotic agent isolated from actinomycetes, has recently been described to antagonize Bcl-2 functions, thereby sensitizing tumor cells to cell death signals under control of Bcl-2. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12560233",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Natural compound Tetrocarcin-A downregulates Junctional Adhesion Molecule-A in conjunction with HER2 and inhibitor of apoptosis proteins and inhibits tumor cell growth.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30312728",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Tetrocarcin-A (TC-A), an antibiotic agent isolated from actinomycetes, has recently been described to antagonize Bcl-2 functions, thereby sensitizing tumor cells to cell death signals under control of Bcl-2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12560233",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

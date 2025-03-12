@@ -1,0 +1,19 @@
+{
+  "id": "606bff2194d57fd879000075",
+  "type": "factoid",
+  "question": "Which company produces the HercepTest?",
+  "ideal_answer": "DAKO is the company producing the companion diagnostic HercepTest.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30668632"
+  ],
+  "snippets": [
+    {
+      "text": "The FDA-Approved Breast Cancer HER2 Evaluation Kit (HercepTest; Dako) May Miss Some HER2-Positive Breast Cancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30668632",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "DAKO"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "627a6ef856bf9aee6f000020",
+  "type": "yesno",
+  "question": "Is lumbar puncture the first test that should be performed on a patient with increased intracranial pressure?",
+  "ideal_answer": "No. A lumbar puncture is contraindicated in any patient with signs of increased intracranial pressure because it may precipitate cerebral herniation and death. For this reason, a computed tomography (CT) or magnetic resonance imaging (MRI) scan is done first. When the findings of the scan are normal, a lumbar puncture can be performed, if needed.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25685562",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21129599",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10608260",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2277190",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11985377",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21541088",
+    "http://www.ncbi.nlm.nih.gov/pubmed/5763958",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3550721",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28965126",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3520526"
+  ],
+  "snippets": [
+    {
+      "text": "As an emergency diagnostic procedure, spinal puncture is indicated when CNS infection is suspected or to establish the diagnosis of subarachnoid hemorrhage when results of cranial computed tomography are normal. The major contraindication is elevated intracranial pressure with evidence of a mass lesion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3520526",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Brain shift is a contraindication to LP, whether CSF pressure is raised or not, and whether papilloedema is present or not. Subsequently, recommendations are offered for indications to perform CT before LP, grouped according to the safety and clinical utility of LP.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11985377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Death following lumbar puncture (LP) is feared by physicians. Many opinions are found in literature on the question whether computed cranial tomography (CT) should be performed before LP, to prevent herniation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11985377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Headache, caused by cerebrospinal fluid (CSF) hypotension, is a frequent complication of lumbar puncture; hematic patch is a therapeutic option for severe cases. The most serious complication is cerebral herniation and, for its prevention, computed tomography (CT) or cerebral magnetic resonance imaging (MRI) must always be performed before lumbar puncture: a lesion with evident mass effect is a contraindication.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21129599",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lumbar puncture (LP) is usually contra-indicated in situations where the ICP is suspected to be high.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10608260",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Low-dose cranial computed tomography (LD-CCT) based on iterative reconstruction has been shown to have sufficient image quality to assess cerebrospinal fluid spaces (CSF) and midline structures but not to exclude subtle parenchymal pathologies. Patients without focal neurological deficits often undergo CCT before lumbar puncture (LP) to exclude contraindications to LP including brain herniation or increased CSF pressure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28965126",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lumbar puncture is performed routinely for diagnostic and therapeutic purposes in idiopathic intracranial hypertension, despite lumbar puncture being classically contraindicated in the setting of raised intracranial pressure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25685562",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although generally considered innocuous, there may be considerable danger when lumbar puncture is performed in the presence of increased intracranial pressure, especially when a mass lesion is present.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3550721",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lumbar puncture should be avoided if focal neurologic findings suggest concomitant mass lesion, as in brain abscess, and lumbar puncture should be approached with great caution if meningitis is accompanied by evidence of significant intracranial hypertension.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2277190",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "There are few abnormal CT scans presenting a contraindication for lumbar puncture and the majority of these patients usually have clinical signs to suggest raised intracranial pressure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21541088",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

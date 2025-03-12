@@ -1,0 +1,30 @@
+{
+  "id": "587d13c0d673c3eb14000004",
+  "type": "summary",
+  "question": "What is ChIPpeakAnno?",
+  "ideal_answer": "ChIPpeakAnno is a Bioconductor package within the statistical programming environment R that facilitates batch annotation of enriched peaks identified from ChIP-seq, ChIP-chip, cap analysis of gene expression (CAGE) or any experiments resulting in a large number of enriched genomic regions.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20459804"
+  ],
+  "snippets": [
+    {
+      "text": "ChIPpeakAnno: a Bioconductor package to annotate ChIP-seq and ChIP-chip data",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20459804",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We have developed ChIPpeakAnno as a Bioconductor package within the statistical programming environment R to facilitate batch annotation of enriched peaks identified from ChIP-seq, ChIP-chip, cap analysis of gene expression (CAGE) or any experiments resulting in a large number of enriched genomic regions",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20459804",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ChIPpeakAnno enables batch annotation of the binding sites identified from ChIP-seq, ChIP-chip, CAGE or any technology that results in a large number of enriched genomic regions within the statistical programming environment R. Allowing users to pass their own annotation data such as a different Chromatin immunoprecipitation (ChIP) preparation and a dataset from literature, or existing annotation packages, such as GenomicFeatures and BSgenome, provides flexibility",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20459804",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,65 @@
+{
+  "id": "51404dd723fec90375000002",
+  "type": "factoid",
+  "question": "What is the methyl donor of DNA (cytosine-5)-methyltransferases?",
+  "ideal_answer": "S-adenosyl-L-methionine (AdoMet, SAM) is the methyl donor of DNA (cytosine-5)-methyltransferases. DNA (cytosine-5)-methyltransferases catalyze the transfer of a methyl group from S-adenosyl-L-methionine to the C-5 position of cytosine residues in DNA.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/7578083",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8441638",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1584813",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11208790",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8065896",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15273274",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7607467"
+  ],
+  "snippets": [
+    {
+      "text": "The product of the dcm gene is the only DNA cytosine-C5 methyltransferase of Escherichia coli K-12; it catalyses transfer of a methyl group from S-adenosyl methionine (SAM) to the C-5 position of the inner cytosine residue of the cognate sequence CCA/TGG. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8441638",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Deoxycytosine methylase (Dcm) enzyme activity causes mutagenesis in vitro either directly by enzyme-induced deamination of cytosine to uracil in the absence of the methyl donor, S-adenosylmethionine (SAM), or indirectly through spontaneous deamination of [5-methyl]cytosine to thymine",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11208790",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In the absence of DNA substrate, the DNA methyltransferase (MTase) M.BspRI can methylate itself using the methyl donor S-adenosyl-L-methionine (AdoMet). The methyl group is transferred to two Cys residues of the MTase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7607467",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The reaction is fairly insensitive to the methyl donor in the reaction, S-adenosylmethionine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7578083",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Formation of the complex was dependent upon the presence of the methyl donor S-adenosylmethionine, suggesting that it comprises an enzyme-linked 5-substituted dihydrocytosine moiety in DNA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1584813",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The DNA (cytosine-5)-methyltransferase (m5C-MTase) M.BspRI is able to accept the methyl group from the methyl donor S-adenosyl-L-methionine (AdoMet) in the absence of DNA. Transfer of the methyl group to the enzyme is a slow reaction relative to DNA methylation. S",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8065896",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Here, we report the structure of HhaI methyltransferase in complex with DNA containing a south-constrained abasic carbocyclic sugar at the target site in the presence of the methyl donor byproduct AdoHcy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15273274",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004248",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019175",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0003886"
+  ],
+  "exact_answer": "S-adenosyl-L-methionine"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "56c0708eef6e39474100001f",
+  "type": "yesno",
+  "question": "Is the abnormal dosage of ultraconserved elements disfavored in cancer cells?",
+  "ideal_answer": "No. Abnormal dosage of ultraconserved elements is highly disfavored in healthy cells but not cancer cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25340765"
+  ],
+  "snippets": [
+    {
+      "text": "Abnormal dosage of ultraconserved elements is highly disfavored in healthy cells but not cancer cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25340765",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We begin by showing that depletion for UCEs characterizes the most recent large-scale human CNV datasets and then find that even newly formed de novo CNVs, which have passed through meiosis at most once, are significantly depleted for UCEs. In striking contrast, CNVs arising specifically in cancer cells are, as a rule, not depleted for UCEs and can even become significantly enriched. This observation raises the possibility that CNVs that arise somatically and are relatively newly formed are less likely to have established a CNV profile that is depleted for UCEs. Alternatively, lack of depletion for UCEs from cancer CNVs may reflect the diseased state. In support of this latter explanation, somatic CNVs that are not associated with disease are depleted for UCEs. Finally, we show that it is possible to observe the CNVs of induced pluripotent stem (iPS) cells become depleted of UCEs over time, suggesting that depletion may be established through selection against UCE-disrupting CNVs without the requirement for meiotic divisions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25340765",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Alternatively, lack of depletion for UCEs from cancer CNVs may reflect the diseased state.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25340765",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:162"
+  ],
+  "exact_answer": "Yes"
+}

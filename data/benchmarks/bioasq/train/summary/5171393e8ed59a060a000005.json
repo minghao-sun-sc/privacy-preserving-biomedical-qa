@@ -1,0 +1,93 @@
+{
+  "id": "5171393e8ed59a060a000005",
+  "type": "summary",
+  "question": "How does trimetazidine affect intracellular kinase signaling in the heart?",
+  "ideal_answer": "Trimetazidine activates AMPK in diabetic myocardium. Trimetazidine  when administered before reperfusion results in activation of p38 mitogen-activated protein kinase and Akt signaling. Trimetazidine  when administered during reperfusion does not affect p38MAPK and JNK activation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20167841",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20383170",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19546072",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15616764"
+  ],
+  "snippets": [
+    {
+      "text": "The data suggest that trimetazidine significantly improves cardiac function in db/db mice by attenuating lipotoxicity and improving the oxidation status of the heart. Activation of AMPK and decreased expression of PGC-1 alpha were involved in this process.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20383170",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "the results demonstrated that TMZ is cardioprotective when administered before reperfusion and that this protection appears to be mediated by activation of p38 mitogen-activated protein kinase and Akt signaling. The study emphasizes the importance of administering TMZ before reflow to prevent reperfusion-mediated cardiac injury and dysfunction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20167841",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "TMZ induced cardioprotection did not involve p38 MAPK and JNKs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15616764",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Phospho-p38 MAPK and JNKs levels after I/R were not changed with TMZ treatment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15616764",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Trimetazidine also caused AMPK activation and reduced PGC-1 alpha expression in the hearts of db/db mice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20383170",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0004706",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048670",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0004709",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0004708",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020930",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006321",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0008349",
+    "http://www.uniprot.org/uniprot/M4K1_HUMAN",
+    "http://www.uniprot.org/uniprot/M4K3_MOUSE",
+    "http://www.uniprot.org/uniprot/M4K4_MOUSE",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014292",
+    "http://www.biosemantics.org/jochem#4250101",
+    "http://www.uniprot.org/uniprot/M3K1_ARATH",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0000185",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048730",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0000186",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048369",
+    "http://www.biosemantics.org/jochem#4059120",
+    "http://www.uniprot.org/uniprot/M4K5_HUMAN",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0000165",
+    "http://www.uniprot.org/uniprot/M4K3_HUMAN",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0043408",
+    "http://www.uniprot.org/uniprot/M4K2_MOUSE",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048490",
+    "http://www.uniprot.org/uniprot/ALPK2_MOUSE",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0031435",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048768",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048669",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048748",
+    "http://www.uniprot.org/uniprot/M4K2_HUMAN",
+    "http://www.uniprot.org/uniprot/ALPK2_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048370",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0007243",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020929",
+    "http://www.uniprot.org/uniprot/M4K3_RAT",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048688",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0042655",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0042656",
+    "http://www.uniprot.org/uniprot/M4K1_MOUSE",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0051390",
+    "http://www.uniprot.org/uniprot/M4K5_MOUSE",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0000197",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0010627",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048728",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0008545",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0033161",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048848"
+  ]
+}

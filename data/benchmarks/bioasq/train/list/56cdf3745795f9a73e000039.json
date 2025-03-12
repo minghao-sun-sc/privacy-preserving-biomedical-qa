@@ -1,0 +1,61 @@
+{
+  "id": "56cdf3745795f9a73e000039",
+  "type": "list",
+  "question": "Which are the main components of mTORC1?",
+  "ideal_answer": "The mTOR (mammalian target of rapamycin) protein kinase is an important regulator of cell growth and is a key target for therapeutic intervention in cancer. Two complexes of mTOR have been identified: complex 1 (mTORC1), consisting of mTOR, Raptor (regulatory associated protein of mTOR) and mLST8 (mammalian lethal with SEC13 protein 8) and complex 2 (mTORC2) consisting of mTOR, Rictor (rapamycin-insensitive companion of mTOR), Sin1 (stress-activated protein kinase-interacting protein 1), and mLST8.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21413931",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17461779",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24331524",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18614546",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20127721",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17141160",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17878222"
+  ],
+  "snippets": [
+    {
+      "text": "Raptor-mTOR and Rictor-mTOR complexes compete for association with LST8, and this mechanism may contribute to the reciprocal negative regulations of mTORC1 and mTORC2 activities, in terms of their LST8 components.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24331524",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mTOR kinase controls cell growth, proliferation, and survival through two distinct multiprotein complexes, mTORC1 and mTORC2. mTOR and mLST8 are in both complexes, while raptor and rictor are part of only mTORC1 and mTORC2, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17141160",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mTOR (mammalian target of rapamycin) protein kinase is an important regulator of cell growth. Two complexes of mTOR have been identified: complex 1, consisting of mTOR-Raptor (regulatory associated protein of mTOR)-mLST8 (termed mTORC1), and complex 2, comprising mTOR-Rictor (rapamycininsensitive companion of mTOR)-mLST8-Sin1 (termed mTORC2).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17461779",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "composition of mTORC1 (raptor, mTOR, and GbetaL)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17878222",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mammalian target of rapamycin (mTOR) is part of two distinct complexes, mTORC1, containing raptor and mLST8, and mTORC2, containing rictor, mLST8 and sin1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18614546",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mTORC1 protein kinase complex consists of mTOR, raptor, mLST8/GbetaL and PRAS40.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20127721",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mTOR (mammalian target of rapamycin) protein kinase is an important regulator of cell growth and is a key target for therapeutic intervention in cancer. Two complexes of mTOR have been identified: complex 1 (mTORC1), consisting of mTOR, Raptor (regulatory associated protein of mTOR) and mLST8 (mammalian lethal with SEC13 protein 8) and complex 2 (mTORC2) consisting of mTOR, Rictor (rapamycin-insensitive companion of mTOR), Sin1 (stress-activated protein kinase-interacting protein 1), mLST8 and Protor-1 or Protor-2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21413931",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "mTOR, Raptor, mLST8/GbetaL"
+}

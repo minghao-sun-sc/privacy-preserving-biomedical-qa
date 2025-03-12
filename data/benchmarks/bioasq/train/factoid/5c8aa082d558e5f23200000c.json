@@ -1,0 +1,69 @@
+{
+  "id": "5c8aa082d558e5f23200000c",
+  "type": "factoid",
+  "question": "What is the function of the cGAS pathway?",
+  "ideal_answer": "The cGAS-STING pathway not only mediates protective immune defense against infection by a large variety of DNA-containing pathogens but also detects tumor-derived DNA and generates intrinsic antitumor immunity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28801534",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30395807",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26944200",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29169058",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27902332",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28137885",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28940468",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28920955",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27648547"
+  ],
+  "snippets": [
+    {
+      "text": "Cyclic di-AMP (c-di-AMP) is a bacterial signaling nucleotide synthesized by several human pathogens.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29169058",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cyclic GMP-AMP synthase (cGAS) has recently been identified as the primary protein that detects cytosolic double stranded DNA to invoke a type I interferon response. The cGAS pathway is vital in the recognition of DNA encoded viruses as well as self-DNA leaked from the nucleus of damaged cells. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30395807",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results indicate that activation of the cGAS pathway is important for intrinsic antitumor immunity and that cGAMP may be used directly for cancer immunotherapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28137885",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " this work identifies long DNA as the molecular entity stimulating the cGAS pathway upon cytosolic DNA challenge such as viral infections.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28801534",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "these data suggest that inactivation of the cGAS pathway plays a critical role in tumour progression, and reveal a direct link between hypoxia-responsive miRNAs and adaptive immune responses to the hypoxic tumour microenvironment, thus unveiling potential new therapeutic strategies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28920955",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "dysregulation of the cGAS pathway is linked to autoimmune diseases while targeted stimulation may be of benefit in immunoncology. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28940468",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The cGAS-STING pathway not only mediates protective immune defense against infection by a large variety of DNA-containing pathogens but also detects tumor-derived DNA and generates intrinsic antitumor immunity. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27648547",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "our data indicate that the cGAS-STING pathway plays a role in the surveillance of HBV infection and may be exploited for development of novel anti-HBV strategies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27902332",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Immune defense"
+}

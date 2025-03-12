@@ -1,0 +1,33 @@
+{
+  "id": "5e808ef4835f4e477700002a",
+  "type": "factoid",
+  "question": "What is the target of the drug Olmesartan?",
+  "ideal_answer": "Olmesartan (OL) is the pharmacologically active metabolite of Olmesartan medoxomil (OM), an FDA-approved angiotensin II receptor antagonist for administrating cardiovascular diseases",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29872491",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29414040",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30217371"
+  ],
+  "snippets": [
+    {
+      "text": "Olmesartan (OL) is the pharmacologically active metabolite of Olmesartan medoxomil (OM), an FDA-approved angiotensin II receptor antagonist for administrating cardiovascular diseases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29414040",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Either angiotensin converting enzyme inhibitor (ACEI) or angiotensin receptor 1 blocker (ARB) attenuates cardiac remodeling. However, the overall molecular modulation of the reversing remodeling process in response to the ACEI or ARB treatment is not yet well determined. In this study, we examined whether gene expressions are modulated by ACEI (temocapril), ARB (olmesartan)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29872491",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " ARB olmesartan (OLM)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30217371",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "angiotensin II receptor"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "6429fad757b1c7a31500000e",
+  "type": "factoid",
+  "question": "What regulatory element promotes RNA polymerase II binding as well as the binding of factors that facilitate the unwinding of DNA prior to translation?",
+  "ideal_answer": "Found in about 24% of human gene promoters, the TATA box is a critical regulatory element that is mostly found in genes transcribed by RNA polymerase II, and as such, recruits this enzyme to the promoter. Additionally, the TATA-binding protein aids in unwinding DNA.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/8502653",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16522199",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23801666",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2197561",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9618449",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1736286",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1409643",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17123746",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8507207",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7729424",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9383448"
+  ],
+  "snippets": [
+    {
+      "text": "A critical regulatory element in many promoters transcribed by RNA polymerase II is the \"TATA\" box, which is located 25-30 nucleotides upstream of the transcription initiation site.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1409643",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "About 24% of human genes have a TATA-like element and their promoters are generally AT-rich; however, only approximately 10% of these TATA-containing promoters have the canonical TATA box (TATAWAWR).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17123746",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TBP binding to the TATA box induces a specific downstream unwinding site that is targeted by pluramycin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9383448",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The TATA-binding protein (TBP) is one of the major components of the human TFIID multiprotein complex. It is important in directing the initiation of RNA transcription at a site immediately downstream of the TATA sequence (TATA box) found in many eukaryotic promoters. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9383448",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The TATA box-binding factor TFIID plays a primary role in the process of transcription initiation by RNA polymerase II and its regulation by various gene-specific factors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1736286",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The canonical core promoter elements consist of the TATA box, initiator (Inr), downstream core promoter element (DPE), TFIIB recognition element (BRE) and the newly-discovered motif 10 element (MTE).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16522199",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "TATA box"
+}

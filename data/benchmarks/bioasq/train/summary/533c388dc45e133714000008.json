@@ -1,0 +1,165 @@
+{
+  "id": "533c388dc45e133714000008",
+  "type": "summary",
+  "question": "What is the principle of the PAR-CLIP methodology?",
+  "ideal_answer": "In particular, PAR-CLIP utilizes a photoactivatable nucleoside for more efficient crosslinking.  A recent method, PAR-CLIP, uses photoreactive nucleosides to crosslink RBPs to target RNAs in cells prior to immunoprecipitation.  One characteristic feature of cDNA libraries prepared by PAR-CliP is that the precise position of crosslinking can be identified by mutations residing in the sequenced cDNA.   ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22152485",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21816340",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21851591",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20371350",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22213601",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21559008",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23706177",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23368412",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22844102",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22926237",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22885304",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24297251",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21572407",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20644507"
+  ],
+  "snippets": [
+    {
+      "text": "We developed a cell-based crosslinking approach to determine at high resolution and transcriptome-wide the binding sites of cellular RBPs and miRNPs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20371350",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To gain insight into the complexity of snoRNA processing and the functional relevance of snoRNA-derived small RNAs, we sequence long and short RNAs, small RNAs that co-precipitate with the Argonaute 2 protein and RNA fragments obtained in photoreactive nucleotide-enhanced crosslinking and immunoprecipitation (PAR-CLIP) of core snoRNA-associated proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23706177",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A large amount of miRNA-target interactions (MTIs) have been identified by the crosslinking and immunoprecipitation (CLIP) and the photoactivatable-ribonucleoside-enhanced CLIP (PAR-CLIP) along with the next-generation sequencing (NGS)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23368412",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PAR-CLIP shows high efficiency of RNA co-immunoprecipitation, but it also lead to T to C conversion in miRNA-RNA-protein crosslinking regions",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23368412",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A recent method, PAR-CLIP, uses photoreactive nucleosides to crosslink RBPs to target RNAs in cells prior to immunoprecipitation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22152485",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this article, we review crosslinking and immunoprecipitation (CLIP) methods adapted for large-scale identification of target RNA-binding sites and the respective RNA recognition elements.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22213601",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CLIP methods have the potential to detect hundreds of thousands of binding sites in single experiments although the separation of signal from noise can be challenging.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22213601",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We focus on photoactivatable ribonucleoside-enhanced CLIP, which relies on the intracellular incorporation of photoactivatable ribonucleoside analogs into nascent transcripts, and yields characteristic sequence changes upon crosslinking that facilitate the separation of signal from noise.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22213601",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Photo-Activatable Ribonucleoside-enhanced CrossLinking and ImmunoPrecipitation (PAR-CLIP) method was recently developed for global identification of RNAs interacting with proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22844102",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The strength of this versatile method results from induction of specific T to C transitions at sites of interaction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22844102",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PAR-CLIP reveals a collection of RNAs bound to a protein whereas SILAC-based RNA pull-downs identify a group of proteins bound to an RNA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22885304",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we present a step-by-step protocol and guidelines for the computational analysis for the large-scale identification of miRNA target sites in cultured cells by photoactivatable ribonucleoside enhanced crosslinking and immunoprecipitation (PAR-CLIP) of AGO proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22926237",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In particular, PAR-CLIP utilizes a photoactivatable nucleoside for more efficient crosslinking.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21851591",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "rosslinking and immunoprecipitation (CLIP) protocols have made it possible to identify transcriptome-wide RNA-protein interaction sites",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21851591",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this issue of Molecular Cell, Mukherjee et al. (2011) and Lebedeva et al. (2011) identify transcriptome-wide HuR-RNA interactions using PAR-CLIP, unveiling HuR's nuclear role in pre-mRNA processing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21816340",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ross-linking and immunoprecipitation (CLIP) is increasingly used to map transcriptome-wide binding sites of RNA-binding proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21572407",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We developed a method for CLIP data analysis, and applied it to compare CLIP with photoactivatable ribonucleoside-enhanced CLIP (PAR-CLIP) and to uncover how differences in cross-linking and ribonuclease digestion affect the identified sites.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21572407",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In order to increase the specificity and positional resolution, a strategy referred to as CLIP (UV cross-linking and immunoprecipitation) was introduced.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21559008",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recently, PAR-CLIP was introduced that uses photoreactive ribonucleoside analogs for cross-linking",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21559008",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AR-CliP--a method to identify transcriptome-wide the binding sites of RNA binding proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20644507",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We developed a powerful cell-based crosslinking approach to determine at high resolution and transcriptome-wide the binding sites of cellular RBPs and miRNPs that we term PAR-CliP (Photoactivatable-Ribonucleoside-Enhanced Crosslinking and Immunoprecipitation)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20644507",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The method relies on the incorporation of photoreactive ribonucleoside analogs, such as 4-thiouridine (4-SU) and 6-thioguanosine (6-SG) into nascent RNA transcripts by living cells. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20644507",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "One characteristic feature of cDNA libraries prepared by PAR-CliP is that the precise position of crosslinking can be identified by mutations residing in the sequenced cDNA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20644507",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008722"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "54e25eaaae9738404b000017",
+  "type": "yesno",
+  "question": "Is the protein Papilin secreted?",
+  "ideal_answer": "Yes,  papilin is a secreted protein",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/3320045",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7515725",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20805556",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19297413",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19724244",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15094122",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12666201",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21784067",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11076767",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15094110"
+  ],
+  "snippets": [
+    {
+      "text": "Using expression analysis, we identify three genes that are transcriptionally regulated by HLH-2: the protocadherin cdh-3, and two genes encoding secreted extracellular matrix proteins, mig-6/papilin and him-4/hemicentin. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21784067",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We found that mig-6 encodes long (MIG-6L) and short (MIG-6S) isoforms of the extracellular matrix protein papilin, each required for distinct aspects of DTC migration. Both MIG-6 isoforms have a predicted N-terminal papilin cassette",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19297413",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "apilins are homologous, secreted extracellular matrix proteins which share a common order of protein domains. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15094122",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The TSR superfamily is a diverse family of extracellular matrix and transmembrane proteins, many of which have functions related to regulating matrix organization, cell-cell interactions and cell guidance. This review samples some of the contemporary literature regarding TSR superfamily members (e.g. F-spondin, UNC-5, ADAMTS, papilin, and TRAP) where specific functions are assigned to the TSR domains.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15094110",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Papilins are extracellular matrix proteins ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12666201",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Papilin is an extracellular matrix glycoprotein ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11076767",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Collagen IV, laminin, glutactin, papilin, and other extracellular matrix proteins were made primarily by hemocytes and were secreted into the medium. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7515725",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A sulfated glycoprotein was isolated from the culture media of Drosophila Kc cells and named papilin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3320045",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

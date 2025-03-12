@@ -1,0 +1,33 @@
+{
+  "id": "5a76155c83b0d9ea6600001e",
+  "type": "list",
+  "question": "Which phase III clinical trials for rheumatoid arthritis involve baricitinib? (November 2017)",
+  "ideal_answer": "The phase 3 clinical trials of baricitinib in rheumatoid arthritis patients are: RA-BEACON, RA-BUILD, RA-BEAM.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27799159",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27689735",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28798049"
+  ],
+  "snippets": [
+    {
+      "text": "Patient-reported outcomes from a randomised phase III study of baricitinib in patients with rheumatoid arthritis and an inadequate response to biological agents (RA-BEACON)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27799159",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Baricitinib in patients with inadequate response or intolerance to conventional synthetic DMARDs: results from the RA-BUILD study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27689735",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Patient-reported outcomes from a phase 3 study of baricitinib versus placebo or adalimumab in rheumatoid arthritis: secondary analyses from the RA-BEAM study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28798049",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "RA-BEACON, RA-BUILD, RA-BEAM"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "5a8aa253fcd1d6a10c00001b",
+  "type": "summary",
+  "question": "Which is the specificity of deubiquitinase USP25?",
+  "ideal_answer": "Ubiquitin Specific Protease 25 (USP25), a member of the deubiquitinase family, is involved in several disease-related signal pathways including myogenesis, immunity and protein degradation. It specially catalyzes the hydrolysis of the K48-linked and K63-linked polyubiquitin chains.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24260525",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28327663",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23754700"
+  ],
+  "snippets": [
+    {
+      "text": "Here we show that the tandem UIM region binds to Lys48",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28327663",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, detailed analysis demonstrated that USP25 cleaved lysine 48- and lysine 63-linked polyubiquitin chains in vitro and in vivo, and its deubiquitinating enzyme (DUB) activity, were dependent on a cysteine residue (Cys178) and a histidine residue (His607)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24260525",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ubiquitin Specific Protease 25 (USP25), a member of the deubiquitinase family, is involved in several disease-related signal pathways including myogenesis, immunity and protein degradation. It specially catalyzes the hydrolysis of the K48-linked and K63-linked polyubiquitin chains.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23754700",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

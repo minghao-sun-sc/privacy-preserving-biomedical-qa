@@ -1,0 +1,25 @@
+{
+  "id": "6415c5d4690f196b51000014",
+  "type": "list",
+  "question": "What was Keytruda originally approved for by the FDA?",
+  "ideal_answer": "For the treatment of patients with metastatic non-small cell lung cancer (mNSCLC) whose tumors express programmed death-ligand 1 (PD-L1) as determined by an FDA-approved test, as follows: (a) first-line treatment of patients with mNSCLC whose tumors have high PD-L1 expression (tumor proportion score [TPS] \u226550%), with no epidermal growth factor receptor (EGFR) or anaplastic lymphoma kinase (ALK) genomic tumor aberrations, and (b) treatment of patients with mNSCLC whose tumors express PD-L1 (TPS \u22651%), with disease progression on or after platinum-containing chemotherapy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28835513"
+  ],
+  "snippets": [
+    {
+      "text": "FDA Approval Summary: Pembrolizumab for Treatment of Metastatic Non-Small Cell Lung Cancer: First-Line Therapy and Beyond.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28835513",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "On October 24, 2016, the U.S. Food and Drug Administration (FDA) approved pembrolizumab (Keytruda; Merck & Co., Inc., https://www.merck.com) for treatment of patients with metastatic non-small cell lung cancer (mNSCLC) whose tumors express programmed death-ligand 1 (PD-L1) as determined by an FDA-approved test, as follows: (a) first-line treatment of patients with mNSCLC whose tumors have high PD-L1 expression (tumor proportion score [TPS] \u226550%), with no epidermal growth factor receptor (EGFR) or anaplastic lymphoma kinase (ALK) genomic tumor aberrations, and (b) treatment of patients with mNSCLC whose tumors express PD-L1 (TPS \u22651%), with disease progression on or after platinum-containing chemotherapy. P",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28835513",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "irst-line treatment of patients with mNSCLC whose tumors have high PD-L1 expression (tumor proportion score [TPS] \u226550%), with no epidermal growth factor receptor (EGFR) or anaplastic lymphoma kinase (ALK) genomic tumor aberrations, treatment of patients with mNSCLC whose tumors express PD-L1 (TPS \u22651%), with disease progression on or after platinum-containing chemotherapy"
+}

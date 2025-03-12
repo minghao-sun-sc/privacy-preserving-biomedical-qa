@@ -1,0 +1,31 @@
+{
+  "id": "5e30b870fbd6abf43b000038",
+  "type": "factoid",
+  "question": "Which graph database is used by the Reactome graph database?",
+  "ideal_answer": "Reactome is a free, open-source, open-data, curated and peer-reviewed knowledgebase of biomolecular pathways. The Neo4j graph database and its query language, Cypher, provide efficient access to the complex Reactome data model, facilitating easy traversal and knowledge discovery.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29377902"
+  ],
+  "snippets": [
+    {
+      "text": "Reactome is a free, open-source, open-data, curated and peer-reviewed knowledgebase of biomolecular pathways. One of its main priorities is to provide easy and efficient access to its high quality curated data. At present, biological pathway databases typically store their contents in relational databases. This limits access efficiency because there are performance issues associated with queries traversing highly interconnected data. The same data in a graph database can be queried more efficiently. Here we present the rationale behind the adoption of a graph database (Neo4j) as well as the new ContentService (REST API) that provides access to these data. The Neo4j graph database and its query language, Cypher, provide efficient access to the complex Reactome data model, facilitating easy traversal and knowledge discovery. The adoption of this technology greatly improved query efficiency, reducing the average query time by 93%. The web service built on top of the graph database provides programmatic access to Reactome data by object oriented queries, but also supports more complex queries that take advantage of the new underlying graph-based data storage. By adopting graph database technology we are providing a high performance pathway data resource to the community. The Reactome graph database use case shows the power of NoSQL database engines for complex biological data types.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29377902",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Neo4j graph database and its query language, Cypher, provide efficient access to the complex Reactome data model, facilitating easy traversal and knowledge discovery.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29377902",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Neo4j graph database and its query language, Cypher, provide efficient access to the complex Reactome data model, facilitating easy traversal and knowledge discovery.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29377902",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Neo4j"
+}

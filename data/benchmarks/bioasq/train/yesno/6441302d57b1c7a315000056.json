@@ -1,0 +1,39 @@
+{
+  "id": "6441302d57b1c7a315000056",
+  "type": "yesno",
+  "question": "Is music therapy effective for pain management in neonates?",
+  "ideal_answer": "No, although there are beneficial effects of music-based interventions, there are no clear evidence of their effectiveness on pain management in neonates.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25467598",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34919292",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31532835"
+  ],
+  "snippets": [
+    {
+      "text": "This review supports the beneficial effects of music-based interventions on the health of preterm infants in a neonatal intensive care unit; however, it also offers suggestions for future studies in order to increase the number of interventions with music therapists, since the results of music therapy approaches were more consistent for physiological and behavioural outcomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34919292",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "No effect of a musical intervention on stress response to venepuncture in a neonatal population.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31532835",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Our findings did not support the additional benefit of music intervention on neonatal stress response to venepuncture in preterm infants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31532835",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BF could significantly reduce pain response in healthy-term neonates during heel lance. MT did not enhance the effect of pain relief of BF.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25467598",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

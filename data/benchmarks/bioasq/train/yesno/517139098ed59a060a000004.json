@@ -1,0 +1,71 @@
+{
+  "id": "517139098ed59a060a000004",
+  "type": "yesno",
+  "question": "Is calcium overload involved in the development of diabetic cardiomyopathy?",
+  "ideal_answer": "Yes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22402252",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3850773",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8864644",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10359740",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3384188",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8761317"
+  ],
+  "snippets": [
+    {
+      "text": "High-glucose treatment resulted in increased intracellular calcium ([Ca2+]i) which was mobilized to the mitochondria. Concomitant intra-mitochondrial calcium ([Ca2+]m) increase resulted in enhanced reactive oxygen and nitrogen species generation. These events led to mitochondrial dysfunction and apoptosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22402252",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The novel findings of the study reveal that high glucose induces apoptosis by both mitochondria-dependent and independent pathways via concomitant rise in intracellular calcium.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22402252",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Diabetes-induced myocardial dysfunction has been attributed, in part, to calcium overload within individual myocytes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8761317",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "It seems that intracellular calcium overload is intimately involved in the development of diabetic cardiomyopathy;",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3850773",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "BACKGROUND: It has been suggested that intracellular Ca2+ overload in cardiac myocytes leads to the development of diabetic cardiomyopathy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10359740",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The results from the alloxan-rat model of diabetes support the view that membrane abnormalities with respect to Ca2+ handling may lead to the occurrence of intracellular Ca2+ overload and the development of diabetic cardiomyopathy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8864644",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "It seems that intracellular calcium overload is intimately involved in the development of diabetic cardiomyopathy; however, a concentrated research effort is required to understand the primary biochemical lesion in the pathogenesis of cardiac dysfunction in diabetes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3850773",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "It has been suggested that the occurrence of an intracellular Ca2+ overload may result in the development of diabetic cardiomyopathy, which is associated with depletion of high-energy phosphate stores and a derangement of ultrastructure and cardiac dysfunction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3384188",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002118",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D058065",
+    "http://www.biosemantics.org/jochem#4071295",
+    "http://www.disease-ontology.org/api/metadata/DOID:9351"
+  ],
+  "exact_answer": "Yes"
+}

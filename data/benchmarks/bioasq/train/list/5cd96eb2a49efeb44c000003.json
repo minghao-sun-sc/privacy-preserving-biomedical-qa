@@ -1,0 +1,78 @@
+{
+  "id": "5cd96eb2a49efeb44c000003",
+  "type": "list",
+  "question": "Which software are used for the detection of selective sweeps?",
+  "ideal_answer": "Four open-source software releases (SweeD, SweepFinder, SweepFinder2, and OmegaPlus) are able to detect selective sweeps accurately. RAiSD (Raised Accuracy in Sweep Detection), an open-source software implements a parameter-free detection mechanism that relies on multiple signatures of a selective sweep via the enumeration of SNP vectors.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26862394",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25838885",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23099783",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23777627",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28405579",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30271960"
+  ],
+  "snippets": [
+    {
+      "text": "Using gPLINK software to set quality control standards, a total of 34 304 SNPs were selected for statistical analysis. Fst values between two breeds were estimated with Genepop package and the average Fst value was 0.3209.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23099783",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SweeD: likelihood-based detection of selective sweeps in thousands of genomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23777627",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "It analyzes site frequency spectra and represents a substantial extension of the widely used SweepFinder program",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23777627",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The sequential version of SweeD is up to 22 times faster than SweepFinder and, more importantly, is able to analyze thousands of sequences. We also provide a parallel implementation of SweeD for multi-core processors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23777627",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present SweeD (Sweep Detector), an open-source tool for the rapid detection of selective sweeps in whole genomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23777627",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SmileFinder is a simple program that looks for diversity and divergence patterns consistent with selection sweeps by evaluating allele frequencies in windows, including neighboring loci from two or more populations of a diploid species against the genome-wide neutral expectation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25838885",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, we compare the accuracy of our open-source sweep-detection software OmegaPlus, which implements all four parallelization strategies presented here, with a variety of neutrality tests",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26862394",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Additionally, we summarize the results of comparisons among four open-source software releases (SweeD, SweepFinder, SweepFinder2, and OmegaPlus) regarding sensitivity, specificity, and execution times. In equilibrium neutral models or mild bottlenecks, both SFS- and LD-based methods are able to detect selective sweeps accurately.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28405579",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RAiSD detects positive selection based on multiple signatures of a selective sweep and SNP vectors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30271960",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present RAiSD (Raised Accuracy in Sweep Detection), an open-source software that implements a novel, to our knowledge, and parameter-free detection mechanism that relies on multiple signatures of a selective sweep via the enumeration of SNP vectors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30271960",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "SweeD, SweepFinder, SweepFinder2, OmegaPlus, RAiSD"
+}

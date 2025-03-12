@@ -1,0 +1,30 @@
+{
+  "id": "530e1c985937551c09000004",
+  "type": "list",
+  "question": "List common symptoms of patients with the DOORS syndrome.",
+  "ideal_answer": "DOORS syndrome is a constellation of deafness, onychodystrophy, osteodystrophy, mental retardation, and seizures. It is a rare autosomal recessive disorder of unknown cause.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24291220"
+  ],
+  "snippets": [
+    {
+      "text": "Deafness, onychodystrophy, osteodystrophy, mental retardation, and seizures (DOORS) syndrome is a rare autosomal recessive disorder of unknown cause. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24291220",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Through a search of available case studies and communication with collaborators, we identified families that included at least one individual with at least three of the five main features of the DOORS syndrome: deafness, onychodystrophy, osteodystrophy, intellectual disability, and seizures. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24291220",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013568",
+    "http://www.disease-ontology.org/api/metadata/DOID:225",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012816",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013577"
+  ],
+  "exact_answer": "deafness, onychodystrophy, osteodystrophy, mental retardation, seizures"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "5c7d520ed774d0424000000f",
+  "type": "list",
+  "question": "List adipokines.",
+  "ideal_answer": "adiponectin\nleptin\nresistin",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27629594",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28877872",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28857629",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28393393"
+  ],
+  "snippets": [
+    {
+      "text": "adipokines (adiponectin and leptin)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27629594",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " number of adipokines, like Resistin (RETN)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28393393",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Plasma adipokine levels were measured before exercise, and at 5 and 90\u2009min after exercise on the first and the last training days. Adiponectin was higher at 5\u2009min than 90\u2009min post-exercise (11.7\u2009\u00b1\u20097.3 and 10.5\u2009\u00b1\u20095.8\u2009ng/ml; p\u2009=\u2009.01) in the first exercise day. Leptin decreased 5\u2009min after exercise (23.6\u2009\u00b1\u200913.2 vs. baseline 27.8\u2009\u00b1\u200914.4\u2009ng/ml; p\u2009<\u2009.01) and remained depressed following 90\u2009min (p\u2009<\u2009.01)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28857629",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " leptin, adiponectin, resistin, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28877872",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "adiponectin, leptin, resistin"
+}

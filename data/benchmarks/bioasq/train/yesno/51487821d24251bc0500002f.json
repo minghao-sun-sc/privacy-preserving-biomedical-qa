@@ -1,0 +1,48 @@
+{
+  "id": "51487821d24251bc0500002f",
+  "type": "yesno",
+  "question": "Is Mammaprint approved by the United States Food and Drug Administration?",
+  "ideal_answer": "Yes, Mammaprint has been approved by the US Food and Drug Administration.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19506735",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18515733",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18786252",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19546609",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21479927",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19879448",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17462970"
+  ],
+  "snippets": [
+    {
+      "text": "an FDA-cleared 70-gene signature of MammaPrint panel ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21479927",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "on MammaPrint, the first and only assay for breast cancer management that has been cleared by the FDA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19879448",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The MammaPrint assay has the advantages of a 510(k) clearance by the US Food and Drug Administration, a larger gene number which may enhance further utility, and the potentially wider patient eligibility including lymph node-positive, ER-negative, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19546609",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The MammaPrint assay has the advantages of a 510(k) clearance by the U.S. Food and Drug Administration, a larger gene number, which may enhance further utility, and a potentially wider patient eligibility, including lymph node-positive, estrogen receptor (ER)-negative, and younger patients being accrued into the prospective trial (Microarray in Node-Negative Disease May Avoid Chemotherapy). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18515733",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017322",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017321",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017327",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017326"
+  ],
+  "exact_answer": "Yes"
+}

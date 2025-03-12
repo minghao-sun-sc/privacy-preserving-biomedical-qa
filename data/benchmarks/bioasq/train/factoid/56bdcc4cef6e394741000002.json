@@ -1,0 +1,22 @@
+{
+  "id": "56bdcc4cef6e394741000002",
+  "type": "factoid",
+  "question": "Which R/bioconductor package utilizes the Hilbert curve in order to visualize genomic data?",
+  "ideal_answer": "The so-called Hilbert curve visualization can complement genome browsers and help to get further insights into the structure of one's data. An open-source application, called HilbertVis, has been developed for R/bioconductor that allows the user to produce and interactively explore such plots.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19297348"
+  ],
+  "snippets": [
+    {
+      "text": "In many genomic studies, one works with genome-position-dependent data, e.g. ChIP-chip or ChIP-Seq scores. Using conventional tools, it can be difficult to get a good feel for the data, especially the distribution of features. This article argues that the so-called Hilbert curve visualization can complement genome browsers and help to get further insights into the structure of one's data. This is demonstrated with examples from different use cases. An open-source application, called HilbertVis, is presented that allows the user to produce and interactively explore such plots.AVAILABILITY: http://www.ebi.ac.uk/huber-srv/hilbert/.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19297348",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016678",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D023281"
+  ],
+  "exact_answer": "HilbertVis"
+}

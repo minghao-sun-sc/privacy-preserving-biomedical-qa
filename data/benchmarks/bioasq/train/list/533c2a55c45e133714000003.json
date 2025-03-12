@@ -1,0 +1,63 @@
+{
+  "id": "533c2a55c45e133714000003",
+  "type": "list",
+  "question": "Which are the mammalian orthologs of Drosophila Yki?",
+  "ideal_answer": "There are two mammalian orthologs of Yki: YAP and TAZ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17980593",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18413746",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23484853",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22898666",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23985272",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22101275",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19878874"
+  ],
+  "snippets": [
+    {
+      "text": "Yorkie ortholog YAP",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22898666",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Yorkie ortholog, Yap1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19878874",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "human ortholog of Yorkie, YAP",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18413746",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "YAP1, the ortholog of Drosophila Yorkie",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17980593",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Yorkie ortholog YAP",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23985272",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Yorkie homolog YAP",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23484853",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Yki (YAP/TAZ in vertebrates",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22101275",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/YORKI_DROME"
+  ],
+  "exact_answer": "YAP, TAZ"
+}

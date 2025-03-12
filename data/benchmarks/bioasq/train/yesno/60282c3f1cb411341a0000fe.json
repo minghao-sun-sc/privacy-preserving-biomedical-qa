@@ -1,0 +1,19 @@
+{
+  "id": "60282c3f1cb411341a0000fe",
+  "type": "yesno",
+  "question": "Is istiratumab effective for pancreatic cancer?",
+  "ideal_answer": "No. In clinical trial, istiratumab failed to improve efficacy of standard of care for pancreatic cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31912800"
+  ],
+  "snippets": [
+    {
+      "text": "CONCLUSIONS: Istiratumab failed to improve the efficacy of SOC chemotherapy in this patient setting. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31912800",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

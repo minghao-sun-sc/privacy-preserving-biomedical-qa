@@ -1,0 +1,33 @@
+{
+  "id": "58dff5776fddd3e83e000008",
+  "type": "yesno",
+  "question": "Is it feasible to obtain DNA read lengths that exceed 30 Kb?",
+  "ideal_answer": "The emergence and development of so called third generation sequencing platforms such as PacBio has permitted exceptionally long reads (over 20\u2009kb) to be generated but not yet read length >30 Kb.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25977818",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27712583",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27587671"
+  ],
+  "snippets": [
+    {
+      "text": "Single-molecule, real-time sequencing (SMRT) developed by Pacific BioSciences produces longer reads than secondary generation sequencing technologies such as Illumina. The long read length enables PacBio sequencing to close gaps in genome assembly, reveal structural variations, and identify gene isoforms with higher accuracy in transcriptomic sequencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27587671",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Third-generation sequencing, with read lengths>10 kb, will improve the assembly of complex genomes, but these techniques require high-molecular-weight genomic DNA (gDNA), and gDNA extraction protocols used for obtaining smaller fragments for short-read sequencing are not suitable for this purpose.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27712583",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The emergence and development of so called third generation sequencing platforms such as PacBio has permitted exceptionally long reads (over 20\u2009kb) to be generated.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25977818",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

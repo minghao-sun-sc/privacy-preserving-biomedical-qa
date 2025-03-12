@@ -1,0 +1,50 @@
+{
+  "id": "54edef0594afd6150400000d",
+  "type": "yesno",
+  "question": "Can the iPS cell technology be used in Fanconi anemia therapy?",
+  "ideal_answer": "iPS cell technology can be used for the generation of disease-corrected, patient-specific cells with potential value for cell therapy applications in Fanconi anemia.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20224565",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19483674"
+  ],
+  "snippets": [
+    {
+      "text": "We explain a protocol for the reproducible generation of genetically corrected iPSCs starting from the skin biopsies of Fanconi anemia patients using retroviral transduction with OCT4, SOX2 and KLF4",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20224565",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Before reprogramming, the fibroblasts and/or keratinocytes of the patients are genetically corrected with lentiviruses expressing FANCA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20224565",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Disease-corrected haematopoietic progenitors from Fanconi anaemia induced pluripotent stem cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19483674",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we show that, on correction of the genetic defect, somatic cells from Fanconi anaemia patients can be reprogrammed to pluripotency to generate patient-specific iPS cells. These cell lines appear indistinguishable from human embryonic stem cells and iPS cells from healthy individuals",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19483674",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Most importantly, we show that corrected Fanconi-anaemia-specific iPS cells can give rise to haematopoietic progenitors of the myeloid and erythroid lineages that are phenotypically normal, that is, disease-free",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19483674",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D057026",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051856",
+    "http://www.disease-ontology.org/api/metadata/DOID:13636",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005199",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D064987"
+  ],
+  "exact_answer": "Yes"
+}

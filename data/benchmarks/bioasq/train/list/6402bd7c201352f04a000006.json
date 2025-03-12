@@ -1,0 +1,45 @@
+{
+  "id": "6402bd7c201352f04a000006",
+  "type": "list",
+  "question": "Which drugs were tested in the FAKTION trial?",
+  "ideal_answer": "The FAKTION trial investigated whether the addition of capivasertib to fulvestrant improved progression-free survival in patients with aromatase inhibitor-resistant advanced breast cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32035020",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35671774",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36110891"
+  ],
+  "snippets": [
+    {
+      "text": "Fulvestrant plus capivasertib versus placebo after relapse or progression on an aromatase inhibitor in metastatic, oestrogen receptor-positive, HER2-negative breast cancer (FAKTION): overall survival, updated progression-free survival, and expanded biomarker analysis from a randomised, phase 2 trial.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35671774",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "INTERPRETATION: Updated FAKTION data showed that capivasertib addition to fulvestrant extends the survival of participants with aromatase inhibitor-resistant ER-positive, HER2-negative advanced breast cancer. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35671774",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Similarly, there was an overall survival benefit in the FAKTION study with capivasertib. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36110891",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Fulvestrant plus capivasertib versus placebo after relapse or progression on an aromatase inhibitor in metastatic, oestrogen receptor-positive breast cancer (FAKTION): a multicentre, randomised, controlled, phase 2 trial.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32035020",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The FAKTION trial investigated whether the addition of capivasertib to fulvestrant improved progression-free survival in patients with aromatase inhibitor-resistant advanced breast cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32035020",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "capivasertib, fulvestrant"
+}

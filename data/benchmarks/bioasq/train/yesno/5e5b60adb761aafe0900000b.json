@@ -1,0 +1,33 @@
+{
+  "id": "5e5b60adb761aafe0900000b",
+  "type": "yesno",
+  "question": "Is the protein ABCG2 transmembrane?",
+  "ideal_answer": "Yes,\nthe protein ABCG2 is transmembrane.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30021380",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29514827",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29407974"
+  ],
+  "snippets": [
+    {
+      "text": "the transmembrane ATP-binding cassette transporter G2",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29407974",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ATP-binding cassette (ABC) transporters are transmembrane efflux transporters mediating the extrusion of an array of substrates ranging from amino acids and lipids to xenobiotics, and many therapeutic compounds, including anticancer drugs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29514827",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The ATP-binding cassette (ABC) transporter family is a large class of ATP energy-dependent transmembrane proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30021380",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

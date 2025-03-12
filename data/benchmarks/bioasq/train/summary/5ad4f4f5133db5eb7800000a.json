@@ -1,0 +1,31 @@
+{
+  "id": "5ad4f4f5133db5eb7800000a",
+  "type": "summary",
+  "question": "What is the aim of the PhenCode database?",
+  "ideal_answer": "PhenCode (Phenotypes for ENCODE; http://www.bx.psu.edu/phencode) is a collaborative, exploratory project to help understand phenotypes of human mutations in the context of sequence and functional data from genome projects.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25385275",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17326095"
+  ],
+  "snippets": [
+    {
+      "text": "PhenCode (Phenotypes for ENCODE; http://www.bx.psu.edu/phencode) is a collaborative, exploratory project to help understand phenotypes of human mutations in the context of sequence and functional data from genome projects.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17326095",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PhenCode: connecting ENCODE data with mutations and phenotype.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17326095",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "These subsets were filtered against disease-related variants in the ClinVar, UniProtKB/Swiss-Prot, and PhenCode databases, to identify neutral or nonpathogenic cases. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25385275",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

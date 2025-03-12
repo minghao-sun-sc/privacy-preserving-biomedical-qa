@@ -1,0 +1,40 @@
+{
+  "id": "5aacd38efcf4565872000006",
+  "type": "yesno",
+  "question": "Is DNA polymerase \u03b8 involved in DNA repair?",
+  "ideal_answer": "Yes, \tDNA polymerase \u03b8 protects against genomic instability via an alternative end-joining repair pathway for DNA double-strand breaks.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25775267",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28668117",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25851856",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28459528"
+  ],
+  "snippets": [
+    {
+      "text": "DNA polymerase \u03b8 (Pol \u03b8) is implicated in various cellular processes including double-strand break repair and apurinic/apyrimidinic site bypass.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28459528",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Pol \u03b8 is the defining enzyme for a pathway of DSB repair termed \"alternative end-joining\" (altEJ) or \"theta-mediated end-joining.\"",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28668117",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA polymerase \u03b8 is a key player in PARP-mediated DNA damage repair and essential for the survival of cancer cells where homologous recombination is compromised. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25851856",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA polymerase \u03b8 protects against genomic instability via an alternative end-joining repair pathway for DNA double-strand breaks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25775267",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

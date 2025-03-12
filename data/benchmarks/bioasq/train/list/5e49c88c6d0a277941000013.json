@@ -1,0 +1,19 @@
+{
+  "id": "5e49c88c6d0a277941000013",
+  "type": "list",
+  "question": "List the members of a network of noncoding regulatory RNAs that play a role in the mammalian brain",
+  "ideal_answer": "In mice, the long ncRNA Cyrano uses an extensively paired site to miR-7 to trigger destruction of this microRNA. Cyrano-directed miR-7 degradation is much more effective than previously described examples of target-directed microRNA degradation, which come primarily from studies of artificial and viral RNAs. By reducing miR-7 levels, Cyrano prevents repression of miR-7-targeted mRNAs and enables accumulation of Cdr1as, a circular RNA known to regulate neuronal activity. Without Cyrano, excess miR-7 causes cytoplasmic destruction of Cdr1as in neurons, in part through enhanced slicing of Cdr1as by a second miRNA, miR-671. Thus, several types of ncRNAs can collaborate to establish a sophisticated regulatory network.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29887379"
+  ],
+  "snippets": [
+    {
+      "text": "Noncoding RNAs (ncRNAs) play increasingly appreciated gene-regulatory roles. Here, we describe a regulatory network centered on four ncRNAs-a long ncRNA, a circular RNA, and two microRNAs-using gene editing in mice to probe the molecular consequences of disrupting key components of this network. The long ncRNA Cyrano uses an extensively paired site to miR-7 to trigger destruction of this microRNA. Cyrano-directed miR-7 degradation is much more effective than previously described examples of target-directed microRNA degradation, which come primarily from studies of artificial and viral RNAs. By reducing miR-7 levels, Cyrano prevents repression of miR-7-targeted mRNAs and enables accumulation of Cdr1as, a circular RNA known to regulate neuronal activity. Without Cyrano, excess miR-7 causes cytoplasmic destruction of Cdr1as in neurons, in part through enhanced slicing of Cdr1as by a second miRNA, miR-671. Thus, several types of ncRNAs can collaborate to establish a sophisticated regulatory network.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29887379",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "long ncRNA Cyrano, miR-7 miRNA, Cdr1as circular RNA, miR-671 miRNA"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "54d63d873706e89528000006",
+  "type": "yesno",
+  "question": "Is there any association of the chromosomal region harboring the gene ITIH3 with schizophrenia?",
+  "ideal_answer": "Yes, genome-wide significant associations in schizophrenia has been linked to the locus harboring the ITIH3/4 genes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22614287",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24373612",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25136889",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25414627",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24618187",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24461634",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21926972",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21926974"
+  ],
+  "snippets": [
+    {
+      "text": "The most widely shared subset of genes-common to five of six disorders-included ANK3, AS3MT, CACNA1C, CACNB2, CNNM2, CSMD1, DPCR1, ITIH3, NT5C2, PPP1R11, SYNE1, TCF4, TENM4, TRIM26, and ZNRD1. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25414627",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Genome-wide significant associations in schizophrenia to ITIH3/4, CACNA1C and SDCCAG8, and extensive replication of associations reported by the Schizophrenia PGC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22614287",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "After combining the new schizophrenia data with those of the PGC, variants at three loci (ITIH3/4, CACNA1C and SDCCAG8) that had not previously been GWS in schizophrenia attained that level of support.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22614287",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In a joint analysis with a bipolar disorder sample (16,374 affected individuals and 14,044 controls), three loci reached genome-wide significance: CACNA1C (rs4765905, P = 7.0 \u00d7 10(-9)), ANK3 (rs10994359, P = 2.5 \u00d7 10(-8)) and the ITIH3-ITIH4 region (rs2239547, P = 7.8 \u00d7 10(-9)).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21926974",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, a combined GWAS analysis of schizophrenia and bipolar disorder yielded strong association evidence for SNPs in CACNA1C and in the region of NEK4-ITIH1-ITIH3-ITIH4. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21926972",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A recent genome-wide analysis indicated that a polymorphism (rs2535629) of ITIH3 showed the strongest association signal with susceptibility to psychiatric disorders in Caucasian populations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24373612",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We detected a novel association between suicide attempt and the ITIH3/4-region in a combined group of patients with BD, SCZ and related psychosis spectrum disorders. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24461634",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These include variations in chromosomal structure at 16p11.2, rare de novo point mutations at the gene SCN2A, and common single nucleotide polymorphisms (SNPs) mapping near loci encoding the genes ITIH3, AS3MT, CACNA1C and CACNB2. These selected examples point to the challenges to current diagnostic approaches. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24618187",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "STAB1 is located in close proximity to PBMR1 and the NEK4-ITIH1-ITIH3-ITIH4 region, which are the top findings from GWAS meta-analyses of mood disorder, and a combined BD and schizophrenia data set.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25136889",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our findings suggest that rs2535629 influences the susceptibility to psychiatric disorders by affecting the expression level of GLT8D1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24373612",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:1229",
+    "http://www.uniprot.org/uniprot/ITIH3_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012559",
+    "http://www.uniprot.org/uniprot/ITIH3_RABIT",
+    "http://www.biosemantics.org/jochem#4252946",
+    "http://www.uniprot.org/uniprot/ITIH3_PONAB",
+    "http://www.disease-ontology.org/api/metadata/DOID:5419",
+    "http://www.uniprot.org/uniprot/ITIH3_MESAU"
+  ],
+  "exact_answer": "Yes"
+}

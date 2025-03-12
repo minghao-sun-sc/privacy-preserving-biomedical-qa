@@ -1,0 +1,33 @@
+{
+  "id": "606b295294d57fd87900005b",
+  "type": "list",
+  "question": "Which are the lactate isomers?",
+  "ideal_answer": "Lactate contains a chiral carbon and thus has two optical isomers-d-lactate and l-lactate.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27119568",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32365804",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29501496"
+  ],
+  "snippets": [
+    {
+      "text": "D(-) and L(+) lactate isomers produced by Lactobacillus spp",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32365804",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lactate contains a chiral carbon and thus has two optical isomers-d-lactate and l-lactate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29501496",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mucosal cells of the gastrointestinal and female reproductive tract are constantly exposed to l- and d-lactate of bacterial origin. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27119568",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "d-lactate, l-lactate"
+}

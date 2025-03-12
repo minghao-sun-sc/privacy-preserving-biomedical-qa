@@ -1,0 +1,83 @@
+{
+  "id": "58eb4ce7eda5a57672000004",
+  "type": "factoid",
+  "question": "Which cellular function is associated with transcription factors forkhead 1 and 2 (Fkh1 and Fkh2)?",
+  "ideal_answer": "Forkhead transcription factors establish origin timing and long-range clustering in S. cerevisiae. Here we show that the yeast Forkhead transcription factors, Fkh1 and Fkh2, are global determinants of replication origin timing. Forkhead box O (FOXO) transcription factors have a conserved function in regulating metazoan lifespan. Fkh1 and Fkh2 bind Fkh-activated origins, and interact physically with ORC, providing a plausible mechanism to cluster origins. Instead, we show that Fkh1 and Fkh2 are required for the clustering of early origins and their association with the key initiation factor Cdc45 in G1 phase, suggesting that Fkh1 and Fkh2 selectively recruit origins to emergent replication factories. ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22438832",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22265405",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15777722",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12702877",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26728715"
+  ],
+  "snippets": [
+    {
+      "text": "Forkhead transcription factors establish origin timing and long-range clustering in S. cerevisiae.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22265405",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we show that the yeast Forkhead transcription factors, Fkh1 and Fkh2, are global determinants of replication origin timing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22265405",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Instead, we show that Fkh1 and Fkh2 are required for the clustering of early origins and their association with the key initiation factor Cdc45 in G1 phase, suggesting that Fkh1 and Fkh2 selectively recruit origins to emergent replication factories. Fkh1 and Fkh2 bind Fkh-activated origins, and interact physically with ORC, providing a plausible mechanism to cluster origins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22265405",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Forkhead box O (FOXO) transcription factors have a conserved function in regulating metazoan lifespan. A key function in this process involves the regulation of the cell cycle and stress responses including free radical scavenging.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22438832",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report that the deletion of both FKH genes impedes normal lifespan and stress resistance, particularly in stationary phase cells, which are non-responsive to caloric restriction. Conversely, increased expression of the FKHs leads to extended lifespan and improved stress response.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22438832",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This study establishes the FKHs role as evolutionarily conserved regulators of lifespan in yeast and identifies the APC as a novel component of this mechanism under certain conditions, likely through combined regulation of stress response, genomic stability, and cell cycle regulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22438832",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The genome of Schizosaccharomyces pombe has four genes that code for proteins containing fork-head domains (FKH), two of which have been characterised. Here we describe the remaining two genes, fhl1 and fkh2, that code for proteins containing fork-head-associated domains (FHA) besides their FKHs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15777722",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show that the yeast forkhead transcription factors, Fkh1p and Fkh2p, associate with the coding regions of active genes and influence, in opposing ways, transcriptional elongation and termination.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12702877",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results suggest that, in addition to their documented promoter function, Fkh1p and Fkh2p coordinate early transcription elongation and pre-mRNA processing. This may reflect a general feature of gene regulation in eukaryotes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12702877",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show that the yeast Forkhead transcription factors, Fkh1 and Fkh2, are global determinants of replication origin timing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22265405",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Saccharomyces cerevisiae Forkhead Box (FOX) proteins, Fkh1 and Fkh2, regulate diverse cellular processes including transcription, long-range DNA interactions during homologous recombination, and replication origin timing and long-range origin clustering.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26728715",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "DNA replication"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "5d386ed6a1e1595105000004",
+  "type": "factoid",
+  "question": "Which part of the TNFR2 gene is genetically associated with Systemic Lupus Erythematosus?",
+  "ideal_answer": "There is a TNFR2 3' flanking region polymorphism in systemic lupus erythematosus.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11196716",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11607787",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11169260",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10395102",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11197692"
+  ],
+  "snippets": [
+    {
+      "text": "A TNFR2 3' flanking region polymorphism in systemic lupus erythematosus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11196716",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We therefore characterized the frequency of a genetic polymorphism in the 3' untranslated region of the TNFR2 gene in Caucasoid SLE patients and geographically matched controls.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11196716",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " In conclusion, the TNFR2 196R allele was found to be significantly associated with the susceptibility to SLE in the Japanese population. Further population and functional studies will be of particular importance to establish TNFR2 as one of the susceptibility genes to SLE.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10395102",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thus, among the non-synonymous cSNPs, only nt587 (T-->G) (M196R) was found to be significantly associated with SLE in Japanese.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11197692",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "No transmission distortion was observed for TNFR2-196R allele. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11607787",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lack of association between the Met196Arg polymorphism in the TNFR2 gene and autoimmune diseases accompanied by vasculitis including SLE in Japanese.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11169260",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "3' flanking region"
+}

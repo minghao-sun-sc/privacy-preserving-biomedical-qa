@@ -1,0 +1,39 @@
+{
+  "id": "5d35e7ddb3a638076300000e",
+  "type": "factoid",
+  "question": "In which cell organelle is the SAF-A protein localized?",
+  "ideal_answer": "saf-a/hnrnp u is an abundant nuclear protein that interacts specifically with nuclear matrix attachment region dna",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10933876",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19556781",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22162999"
+  ],
+  "snippets": [
+    {
+      "text": "SAF-A/hnRNP U is an abundant nuclear protein that interacts specifically with nuclear matrix attachment region DNA (MAR) and RNA as a component of hnRNPs. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19556781",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Scaffold attachment factor A (SAF-A) participates in the regulation of gene expression by organizing chromatin into transcriptionally active domains and by interacting directly with RNA polymerase II.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22162999",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Functional analyses reveal that dual depletion of SAF-A and BRG1 abolishes global transcription by RNA polymerase II, while the nucleolar RNA polymerase I transcription machinery remains unaffected",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22162999",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using this domain as a probe, we performed a yeast two-hybrid screening and we found that scaffold attachment factor B (SAF-B), a nuclear matrix-associated protein, exhibits protein-protein interaction to this region. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10933876",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "the nucleus"
+}

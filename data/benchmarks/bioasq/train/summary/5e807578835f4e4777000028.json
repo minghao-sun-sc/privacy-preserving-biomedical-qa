@@ -1,0 +1,39 @@
+{
+  "id": "5e807578835f4e4777000028",
+  "type": "summary",
+  "question": "What is a \"cytokine storm\"?",
+  "ideal_answer": "During infectious processes, the production of inflammatory cytokines including tumor necrosis factor (TNF), interleukin-1b (IL-1b), gamma interferon (IFNg) and chemokines orchestrates the anti-infectious innate immune response. However, an overzealous production, leading up to a cytokine storm, can be deleterious and contributes to mortality consecutive to sepsis or toxic shock syndrome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28918421",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29455535",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29307884",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29056305"
+  ],
+  "snippets": [
+    {
+      "text": "Macrophage activation syndrome (MAS) is a life-threatening hyperinflammatory state mediated by uncontrolled cytokine storm and haemophagocytosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28918421",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "During infectious processes, the production of inflammatory cytokines including tumor necrosis factor (TNF), interleukin-1\u03b2 (IL-1\u03b2), gamma interferon (IFN\u03b3) and chemokines orchestrates the anti-infectious innate immune response. However, an overzealous production, leading up to a cytokine storm, can be deleterious and contributes to mortality consecutive to sepsis or toxic shock syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29056305",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Reactive oxygen species (ROS) are signaling molecules responsible for the production of cytokines and chemokines that can mediate hyperactivation of the immune response called cytokine storm. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29455535",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " cytokine storm leading to severe organ damage",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29307884",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

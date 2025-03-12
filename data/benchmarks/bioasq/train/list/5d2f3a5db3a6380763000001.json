@@ -1,0 +1,54 @@
+{
+  "id": "5d2f3a5db3a6380763000001",
+  "type": "list",
+  "question": "Which drugs used in the treatment of Systemic Lupus Erythematosus are targeting granulocytes?",
+  "ideal_answer": "Epratuzumab, a humanized monoclonal antibody against disialoganglioside, is the only officially approved treatment for the treatment of Systemic Lupus Erythematosus.Food and Drug Administration approval of SLE treatment with rituximab; however, more research is required before a large-scale application for clinical decision-making can be recommended.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19341181",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9891923",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21993386",
+    "http://www.ncbi.nlm.nih.gov/pubmed/623681",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27481040",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23821660"
+  ],
+  "snippets": [
+    {
+      "text": "After treatment with any of the xenobiotic compounds, immunolabeling demonstrated the additional presence of granulocytes in foci, and, at electron microscope level neutrophils, eosinophils and their precursors were clearly recognizable.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9891923",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cerebrospinal fluid (CSF) examination in patients with ATM in the course of SLE indicate usually pleocytosis with prevalence of granulocytes, increased protein levels, low glucose levels, significantly hindering differential diagnosis in the early stage of the disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19341181",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Granulocytes isolated from 17 patients with systemic lupus erythematosus (SLE) had a significantly increased (P less than 0.001) mean initial rate of phagocytosis (0.91 min-u). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/623681",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Both syndromes were refractory to conventional treatment but responded to rituximab and cyclophosphamide.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21993386",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although some Fc-independent loss of CD22 is expected from internalization by epratuzumab, the concurrent and prominent reduction of CD19, CD21, and CD79b is Fc dependent and results from their transfer from epratuzumab-opsonized B cells to Fc\u03b3R-expressing monocytes, natural killer cells, and granulocytes via trogocytosis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23821660",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " ANCA also occurs in 30%-40% of patients with eosinophilic granulomatosis with polyangiitis (EGPA) and anti-GBM disease, but is uncommon in other forms of vasculitis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27481040",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "rituximab, cyclophosphamide"
+}

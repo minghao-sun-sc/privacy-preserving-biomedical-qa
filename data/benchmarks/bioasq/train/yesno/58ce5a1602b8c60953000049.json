@@ -1,0 +1,41 @@
+{
+  "id": "58ce5a1602b8c60953000049",
+  "type": "yesno",
+  "question": "Is ABCE1 involved in ribosomal recycling?",
+  "ideal_answer": "Yes, recent studies have identified ABCE1 as a ribosome-recycling factor important for translation termination in mammalian cells, yeast and also archaea",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27824037",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26276635",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25001285",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25659154",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25128630"
+  ],
+  "snippets": [
+    {
+      "text": "Ribosome recycling orchestrated by the ATP binding cassette (ABC) protein ABCE1 can be considered as the final-or the first-step within the cyclic process of protein synthesis, connecting translation termination and mRNA surveillance with re-initiation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27824037",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Recent studies have identified ABCE1 as a ribosome-recycling factor important for translation termination in mammalian cells, yeast and also archaea.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25659154",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "d a termination/prerecycling complex containing eRF1-ABCE1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25001285",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ABCE1, a eukaryotic ribosome recycling factor",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25128630",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

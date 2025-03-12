@@ -1,0 +1,37 @@
+{
+  "id": "517575558ed59a060a00002d",
+  "type": "summary",
+  "question": "What are the most frequent non-canonical sequence motifs at the donor and acceptor splice sites in vertebrates?",
+  "ideal_answer": "There are two major exceptions to the canonical GT-AG dinucleotides at donor and acceptor sites: the GG-AG splice site pairs, recognized through the typical U2 splicing machinery, and the AT-AC splice pairs recognized by the U12 splicing machinery.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21079731",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17082203",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11058137",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11125105",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20163699",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16267086",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16306388",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11574683"
+  ],
+  "snippets": [
+    {
+      "text": "About 1-2% of introns are non-canonical, with the most abundant subtype of non-canonical introns being characterized by GC and AG dinucleotides at their 5'- and 3'-termini, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16306388",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Our results indicate that the incorporation of non-canonical splice site models yields dramatic improvements in annotating genes containing GC-AG and AT-AC non-canonical introns",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16306388",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "If we assume that approximately the same situation is true for the whole set of annotated mammalian non-canonical splice sites, then the 99.24% of splice site pairs should be GT-AG, 0.69% GC-AG, 0.05% AT-AC and finally only 0.02% could consist of other types of non-canonical splice sites.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11058137",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": []
+}

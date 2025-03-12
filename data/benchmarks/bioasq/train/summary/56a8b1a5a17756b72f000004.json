@@ -1,0 +1,33 @@
+{
+  "id": "56a8b1a5a17756b72f000004",
+  "type": "summary",
+  "question": "What is the mechanism of DNA replication termination in vertebrates?",
+  "ideal_answer": "Eukaryotic DNA replication terminates when replisomes from adjacent replication origins converge. Termination involves local completion of DNA synthesis, decatenation of daughter molecules and replisome disassembly. DNA synthesis does not slow detectably as forks approach each other, and leading strands pass each other unhindered before undergoing ligation to downstream lagging strands. Dissociation of the replicative CMG helicase (comprising CDC45, MCM2-7 and GINS) occurs only after the final ligation step, and is not required for completion of DNA synthesis, strongly suggesting that converging CMGs pass one another and dissociate from double-stranded DNA. This termination mechanism allows rapid completion of DNA synthesis while avoiding premature replisome disassembly.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26322582"
+  ],
+  "snippets": [
+    {
+      "text": "Eukaryotic DNA replication terminates when replisomes from adjacent replication origins converge. Termination involves local completion of DNA synthesis, decatenation of daughter molecules and replisome disassembly.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26322582",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show that DNA synthesis does not slow detectably as forks approach each other, and that leading strands pass each other unhindered before undergoing ligation to downstream lagging strands. Dissociation of the replicative CMG helicase (comprising CDC45, MCM2-7 and GINS) occurs only after the final ligation step, and is not required for completion of DNA synthesis, strongly suggesting that converging CMGs pass one another and dissociate from double-stranded DNA. This termination mechanism allows rapid completion of DNA synthesis while avoiding premature replisome disassembly",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26322582",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:2000621",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004261",
+    "http://amigo.geneontology.org/amigo/term/GO:0097047",
+    "http://amigo.geneontology.org/amigo/term/GO:0071170",
+    "http://www.uniprot.org/uniprot/RTP_BACPZ",
+    "http://www.uniprot.org/uniprot/RTP_BACVA",
+    "http://amigo.geneontology.org/amigo/term/GO:0006274",
+    "http://amigo.geneontology.org/amigo/term/GO:0071946"
+  ]
+}

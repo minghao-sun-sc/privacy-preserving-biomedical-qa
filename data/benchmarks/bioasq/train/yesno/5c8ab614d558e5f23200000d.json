@@ -1,0 +1,46 @@
+{
+  "id": "5c8ab614d558e5f23200000d",
+  "type": "yesno",
+  "question": "Is the protein Asporin related to disease?",
+  "ideal_answer": "Yes,\nAccumulating evidence demonstrates the involvement of asporin in OA pathogenesis. Asporin has been reported as a tumor suppressor in breast cancer, while asporin-activated invasion has been described in gastric cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25689697",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27409832",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28152543",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27705916"
+  ],
+  "snippets": [
+    {
+      "text": "Accumulating evidence demonstrates the involvement of asporin in OA pathogenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25689697",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Asporin has been reported as a tumor suppressor in breast cancer, while asporin-activated invasion has been described in gastric cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27409832",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Asporin has been implicated as an oncogene in various types of human cancers; ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27705916",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " These results suggested that asporin promoted the tumor growth and metastasis of CRC, and it could be a potential therapeutic target for CRC patients in future.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27705916",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results suggest that ASPN is a stromally expressed biomarker that correlates with disease progression, and is observed in reactive stroma. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28152543",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

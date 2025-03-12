@@ -1,0 +1,25 @@
+{
+  "id": "6030fcb51cb411341a000127",
+  "type": "factoid",
+  "question": "Which database exists that contains regulatory sites for splicing in human basal ganglia?",
+  "ideal_answer": "Braineacv2 has been identified as a database that contains regulatory sites for splicing in human basal ganglia.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32098967"
+  ],
+  "snippets": [
+    {
+      "text": "Regulatory sites for splicing in human basal ganglia are enriched for disease-relevant information.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32098967",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Genome-wide association studies have generated an increasing number of common genetic variants associated with neurological and psychiatric disease risk. An improved understanding of the genetic control of gene expression in human brain is vital considering this is the likely modus operandum for many causal variants. However, human brain sampling complexities limit the explanatory power of brain-related expression quantitative trait loci (eQTL) and allele-specific expression (ASE) signals. We address this, using paired genomic and transcriptomic data from putamen and substantia nigra from 117 human brains, interrogating regulation at different RNA processing stages and uncovering novel transcripts. We identify disease-relevant regulatory loci, find that splicing eQTLs are enriched for regulatory information of neuron-specific genes, that ASEs provide cell-specific regulatory information with evidence for cellular specificity, and that incomplete annotation of the brain transcriptome limits interpretation of risk loci for neuropsychiatric disease. This resource of regulatory data is accessible through our web\u00a0server, http://braineacv2.inf.um.es/.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32098967",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "http://braineacv2.inf.um.es/"
+}

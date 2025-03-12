@@ -1,0 +1,40 @@
+{
+  "id": "58bc58c302b8c60953000001",
+  "type": "yesno",
+  "question": "Is Stat4 a transcription factor?",
+  "ideal_answer": "Yes, Stat4 is a transcription factor.\nStat4 is a member of the signal transducer and activator of transcription (STAT) family of molecules that localizes to the cytoplasm. STAT4 regulates various genes expression as a transcription factor after it is phosphorylated, dimerizes and translocates to the nucleus.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25178516",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25829541",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25798064",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25852285"
+  ],
+  "snippets": [
+    {
+      "text": "transcription factors T-bet and STAT4",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25829541",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "STAT4 is a member of the signal transducer and activator of transcription (STAT) family of molecules that localizes to the cytoplasm. STAT4 regulates various genes expression as a transcription factor after it is phosphorylated, dimerizes and translocates to the nucleus. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25798064",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "STAT4 is a latent cytosolic factor that encodes a transcription factor transmitting signals stimulated by cytokines. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25178516",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " To investigate the role of signal transduction and activation of transcription 4 (STAT4) in the development and progression of human hepatocellular carcinoma (HCC)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25852285",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

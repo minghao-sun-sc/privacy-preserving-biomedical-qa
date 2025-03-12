@@ -1,0 +1,25 @@
+{
+  "id": "602905e81cb411341a000108",
+  "type": "yesno",
+  "question": "Is there a link between rare variants in PPARG and type 1 diabetes?",
+  "ideal_answer": "No. Rare variants in PPARG with decreased activity in adipocyte differentiation are associated with increased risk of type 2 diabetes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25157153"
+  ],
+  "snippets": [
+    {
+      "text": "Rare variants in PPARG with decreased activity in adipocyte differentiation are associated with increased risk of type 2 diabetes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25157153",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "By sequencing PPARG in 19,752 T2D cases and controls drawn from multiple studies and ethnic groups, we identified 49 previously unidentified, nonsynonymous PPARG variants (MAF < 0.5%). Considered in aggregate (with or without computational prediction of functional consequence), these rare variants showed no association with T2D (OR = 1.35; P = 0.17). The function of the 49 variants was experimentally tested in a novel high-throughput human adipocyte differentiation assay, and nine were found to have reduced activity in the assay. Carrying any of these nine LOF variants was associated with a substantial increase in risk of T2D (OR = 7.22; P = 0.005). The combination of large-scale DNA sequencing and functional testing in the laboratory reveals that approximately 1 in 1,000 individuals carries a variant in PPARG that reduces function in a human adipocyte differentiation assay and is associated with a substantial risk of T2D.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25157153",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

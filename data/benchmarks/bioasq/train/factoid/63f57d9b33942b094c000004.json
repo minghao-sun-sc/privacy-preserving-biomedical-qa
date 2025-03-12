@@ -1,0 +1,26 @@
+{
+  "id": "63f57d9b33942b094c000004",
+  "type": "factoid",
+  "question": "Which amino acid in implicated in the Blue diaper syndrome?",
+  "ideal_answer": "Blue diaper syndrome is an extremely rare disorder with characteristic finding is a bluish discoloration of urine spots in the diapers of affected infants. An intestinal defect of tryptophan absorption was postulated as the underlying pathology.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29610180",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1818237"
+  ],
+  "snippets": [
+    {
+      "text": "Blue diaper syndrome (BDS) (Online Mendelian Inheritance in Man number 211000) is an extremely rare disorder that was first described in 1964. The characteristic finding is a bluish discoloration of urine spots in the diapers of affected infants. Additional clinical features of the first described patients included diarrhea, inadequate weight gain, hypercalcemia, and nephrocalcinosis. An intestinal defect of tryptophan absorption was postulated as the underlying pathology.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29610180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We describe the ocular abnormalities seen in a new metabolic disease which is deficient in the transport of tryptophan. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1818237",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "tryptophan"
+}

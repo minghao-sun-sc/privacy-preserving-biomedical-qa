@@ -1,0 +1,36 @@
+{
+  "id": "58cefcfb8acda34529000002",
+  "type": "factoid",
+  "question": "What is  Achondroplasia?",
+  "ideal_answer": "Achondrogenesis type II also known as  Achondroplasia  is an autosomal-dominant disease leading to severe micromelic dwarfism",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20624921",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24365319",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25823796"
+  ],
+  "snippets": [
+    {
+      "text": "Achondrogenesis type II is an autosomal-dominant disease leading to severe micromelic dwarfism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25823796",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Physical basis behind achondroplasia, the most common form of human dwarfism",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20624921",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Achondroplasia is the best described and most common form of the congenital short-limbed dwarfing conditions. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24365319",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:4480",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000130"
+  ],
+  "exact_answer": "An autosomal dominant form of dwarfism"
+}

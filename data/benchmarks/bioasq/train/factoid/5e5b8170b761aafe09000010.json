@@ -1,0 +1,40 @@
+{
+  "id": "5e5b8170b761aafe09000010",
+  "type": "factoid",
+  "question": "Which diagnostic test is approved for coronavirus infection screening?",
+  "ideal_answer": "Real-time reverse transcription-PCR (rRT-PCR) is mostly used as the lab test for screening coronaviral infection.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/14707219",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28191331",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24153118",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14522060"
+  ],
+  "snippets": [
+    {
+      "text": ": In this study, we present two real-time reverse-transcription polymerase chain reaction (rRT-PCR) assays for in-house rapid and sensitive diagnostic testing of MERS-CoV, detecting the regions upstream of the envelope gene (upE) and open reading frame (ORF) 1b, respectively, for initial screening and final confirmation of MERS-CoV infection, as recommended by the world health organization (WHO)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28191331",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " In response, we developed two real-time reverse transcription-PCR (rRT-PCR) assays targeting the MERS-CoV nucleocapsid (N) gene and evaluated these assays as a panel with a previously published assay targeting the region upstream of the MERS-CoV envelope gene (upE) for the detection and confirmation of MERS-CoV infection. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24153118",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SARS-CoV was detected by means of reverse-transcriptase polymerase chain reaction (RT-PCR) in at least one specimen in 59 (54.1%) of 109 patients. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14707219",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Early diagnosis of SARS coronavirus infection by real time RT-PCR.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14522060",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "real-time reverse transcription-PCR"
+}

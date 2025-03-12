@@ -1,0 +1,58 @@
+{
+  "id": "5c73ad377c78d6947100009a",
+  "type": "yesno",
+  "question": "Does Panitumumab prolong survival of biliary tract cancer patients?",
+  "ideal_answer": "No. Panitumumab in combination with chemotherapy does not improve survival of biliary cancer patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23819169",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29413685",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29893894",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26540314"
+  ],
+  "snippets": [
+    {
+      "text": "Panitumumab in combination with gemcitabine and oxaliplatin does not prolong survival in wild-type KRAS advanced biliary tract cancer: A randomized phase 2 trial (Vecti-BIL study).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26540314",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "CONCLUSIONS: Panitumumab in combination with chemotherapy does not improve ORR, PFS and OS in patients with KRAS wild-type, advanced biliary cancer. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29413685",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "No survival differences were observed: the median overall survival was 9.9 months in arm A and 10.2 months in arm B (P\u2009=\u2009.42). In a subgroup analysis, no differences in PFS according to the site of the primary tumor were observed; patients with intrahepatic cholangiocarcinoma treated with panitumumab may have had a survival benefit in comparison with the control group (15.1 vs 11.8 months, P\u2009=\u2009.13). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26540314",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS\nPanitumumab in combination with chemotherapy does not improve ORR, PFS and OS in patients with KRAS wild-type, advanced biliary cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29413685",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS Panitumumab in combination with chemotherapy does not improve ORR, PFS and OS in patients with KRAS wild-type, advanced biliary cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29413685",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Despite many clinical trials being conducted with molecular targeted agents including erlotinib, cetuximab, panitumumab, bevacizumab, sorafenib, cediranib, trametinib and vandetanib, no agent has shown to be effective for advanced biliary tract cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29893894",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Adding panitumumab to standard protocols does not prolong survival but provokes additional adverse effects.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23819169",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

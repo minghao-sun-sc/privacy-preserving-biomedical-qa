@@ -1,0 +1,47 @@
+{
+  "id": "6217dc173a8413c65300002b",
+  "type": "yesno",
+  "question": "Do we find bacteriophages in the gut?",
+  "ideal_answer": "yes,\nBacterial viruses (bacteriophages, phages) of the gut have increasingly become a focus in microbiome studies, with an understanding that they are likely key players in health and disease.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34560321",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33171009",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33465423",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33176253",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33137401"
+  ],
+  "snippets": [
+    {
+      "text": "a multitude of symbiotic bacteria and bacteriophages are decreased in abundance in patients with COVID-19",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34560321",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bacterial viruses (bacteriophages, phages) of the gut have increasingly become a focus in microbiome studies, with an understanding that they are likely key players in health and disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33465423",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Already without exogenous intervention, a multitude of phage-bacterial interactions occur within the human gut, some of which might play a direct role in disease progression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33176253",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We are surrounded by microbes, mostly bacteria and their viruses or phages, on the inside and outside of our bodies. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33171009",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "crAssphages are a broad group of diverse bacteriophages in the order Caudovirales that have been found to be highly abundant in the human gastrointestinal tract. Despite their high prevalence, we have an incomplete understanding of how crAssphages shape and respond to ecological and evolutionary dynamics in the gut.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33137401",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

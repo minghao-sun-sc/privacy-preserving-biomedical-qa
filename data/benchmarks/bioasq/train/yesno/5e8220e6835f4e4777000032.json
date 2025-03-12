@@ -1,0 +1,39 @@
+{
+  "id": "5e8220e6835f4e4777000032",
+  "type": "yesno",
+  "question": "Is Protoporphyrinogen oxidase localized to the mitochondrium?",
+  "ideal_answer": "Yes,\nMitochondrial targeting of human protoporphyrinogen oxidase.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12556518",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20603160",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16621625"
+  ],
+  "snippets": [
+    {
+      "text": "We showed that 28 amino acids in the amino terminus of PPOX contain an independently functioning signal for mitochondrial targeting.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12556518",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Based on our results we propose a mechanism for protoporphyrinogen oxidase targeting to the mitochondrion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16621625",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mitochondrial targeting of human protoporphyrinogen oxidase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16621625",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In the present study, PfPPO has been cloned, expressed and shown to be localized to the mitochondrion by immunofluorescence microscopy. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20603160",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

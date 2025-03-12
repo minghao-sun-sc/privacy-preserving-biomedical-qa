@@ -1,0 +1,19 @@
+{
+  "id": "606bfeb494d57fd879000074",
+  "type": "factoid",
+  "question": "What methodology does the Oncomine Dx target test use?",
+  "ideal_answer": "The Oncomine Dx target test uses the next generation sequencing methodology.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31349061"
+  ],
+  "snippets": [
+    {
+      "text": "FISH-positive samples were also analyzed with next-generation sequencing (Oncomine Dx Target Test Panel, Thermo Fisher Scientific).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31349061",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "next generation sequencing, NGS"
+}

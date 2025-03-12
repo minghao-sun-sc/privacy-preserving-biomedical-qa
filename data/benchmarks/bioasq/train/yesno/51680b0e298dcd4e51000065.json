@@ -1,0 +1,39 @@
+{
+  "id": "51680b0e298dcd4e51000065",
+  "type": "yesno",
+  "question": "Is the UGT1A1*28 polymorphism associated with irinotecan response in Caucasians?",
+  "ideal_answer": "Yes, it has been shown that the polymorphism UGT1A1*28 is associated with irinotecan response in Caucasians.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17762398",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18832463",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23516488",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23529007",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18633245",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22077505",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22866151",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15286088"
+  ],
+  "snippets": [
+    {
+      "text": "These variants are associated with greater risk of serious toxicity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22077505",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Homozygous carriers of UGT1A1*28 as well as those with additional UGT1A variants can suffer from severe irinotecan toxicity",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18832463",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D044465",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011110",
+    "http://www.biosemantics.org/jochem#4260100",
+    "http://www.biosemantics.org/jochem#4231334",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020641",
+    "http://www.uniprot.org/uniprot/UD11_HUMAN"
+  ],
+  "exact_answer": "Yes"
+}

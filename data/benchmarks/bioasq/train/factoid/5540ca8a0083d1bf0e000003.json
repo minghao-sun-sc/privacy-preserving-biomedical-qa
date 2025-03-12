@@ -1,0 +1,102 @@
+{
+  "id": "5540ca8a0083d1bf0e000003",
+  "type": "factoid",
+  "question": "Which intermediate filament (IF) protein can be used as a non-specific marker of the neuronal precursor cells of the subventricular zone?",
+  "ideal_answer": "Nestin can be used as a nonspecific marker protein for precursor cells in the subventricular zone (SVZ). Nestin is a unique intermediate filament protein. While it is robustly expressed in developing brain, postnatal expression is limited to the brain's SVZ.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21527990",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23131160",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20552272",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15458607",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16567040",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16647786",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17717696",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11294470",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22027098",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10802345",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15056462",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11078926",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23407958",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14715941",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12812760"
+  ],
+  "snippets": [
+    {
+      "text": "Nestin is a unique intermediate filament protein. While it is robustly expressed in developing brain, postnatal expression is limited to the brain's subventricular zone (SVZ)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15056462",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "nestin, a marker protein for precursor cells in the subventricular zone",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11078926",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "adult subventricular zone (SVZ) stem and progenitor cells express nestin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21527990",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the typical protein of neural progenitors, nestin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20552272",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the nonspecific precursor cell marker Nestin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23407958",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the subventricular zone, this effect was exerted selectively on a precursor subpopulation expressing nestin but not neuronal or glial cell-specific proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14715941",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nestin is an intermediate filament protein expressed in neuroepithelial stem cells during development and it is later replaced by cell specific neuronal or glial filaments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23131160",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The results indicate that administration of thyroid hormone and retinoic acid increases the expression of Ki67, a nuclear antigen associated with cell proliferation, and of nestin, a marker protein for precursor cells in the subventricular zone of adult male rats.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11078926",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Only a minority of stem cells expressed nestin, a marker for neural precursor cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16647786",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, bone marrow transplantation promoted proliferation of ependymal and subependymal cells, identified by nestin (a neuroepithelial stem cell marker), within the ventricular zone and subventricular zone (VZ/SVZ).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11294470",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The results indicate that administration of thyroid hormone and retinoic acid increases the expression of Ki67, a nuclear antigen associated with cell proliferation, and of nestin, a marker protein for precursor cells in the subventricular zone of adult male rats",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11078926",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In all animals, 20-40% of the newly generated cells in the dentate gyrus and subventricular zone expressed the neural progenitor cell markers Musashi1 or Nestin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12812760",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005882",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0021849"
+  ],
+  "exact_answer": "Nestin"
+}

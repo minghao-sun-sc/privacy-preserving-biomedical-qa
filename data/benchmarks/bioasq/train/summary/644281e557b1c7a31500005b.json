@@ -1,0 +1,38 @@
+{
+  "id": "644281e557b1c7a31500005b",
+  "type": "summary",
+  "question": "What is the difference between Facioscapulohumeral Muscular Dystrophy type 1 (FSHD1) and type 2 (FSHD2)?",
+  "ideal_answer": "FSHD type 1 (FSHD1) and FSHD type 2 (FSHD2)  have different genetic causes but are phenotypically indistinguishable. FSHD1 is caused by a deletion on chromosome 4q, leading to hypomethylation and derepression of DUX4. FSHD type 2 (FSHD2) is due to mutations in SMCHD1 with resulting hypomethylation of the same subtelomeric region of chromosome 4q and derepression of DUX4.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31794465",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30871534",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21496633"
+  ],
+  "snippets": [
+    {
+      "text": "FSHD type 1 (FSHD1) is due to a deletion on chromosome 4q, leading to hypomethylation and derepression of DUX4. FSHD type 2 (FSHD2) is due to mutations in SMCHD1 with resulting hypomethylation of the same subtelomeric region of chromosome 4q and derepression of DUX4.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31794465",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The molecular genetics of FSHD are complex, with current understanding focusing on epigenetic effects related to contraction-dependent (FSHD1) and contraction-independent (FSHD2) effects of a hypomethylated repeat sequence (D4Z4)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21496633",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In FSHD1, partial deletion of the D4Z4 repeats on the 4th chromosome affects the expression of DUX4, whereas FSHD2 is caused by the mutations in the protein regulating the methylation status of chromatin - SMCHD1. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30871534",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "There are two types of the disease: FSHD1 (MIM:158900) and FSHD2 (MIM: 158901), which have different genetic causes but are phenotypically indistinguishable.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30871534",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

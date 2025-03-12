@@ -1,0 +1,94 @@
+{
+  "id": "58a5b01760087bc10a000023",
+  "type": "yesno",
+  "question": "Is NADPH oxidase 5 expressed in rodents?",
+  "ideal_answer": "No, NADPH oxidase 5 is not expressed in rodents, because the gene is absent.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22511941",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17612411",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24262797",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17400358",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25415612",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24688893"
+  ],
+  "snippets": [
+    {
+      "text": "Because the Nox5 gene is absent in rodents, we generated transgenic mice expressing human Nox5 in a podocyte-specific manner (Nox5(pod+)). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24262797",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The NADPH oxidase 5 (NOX5) gene is present in humans but not rodents. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24688893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The data document that the NOX5 gene was expressed in cells of lagomorphs unlike rodents, making the rabbit an interesting model to study NOX5 functions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22511941",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nox5 was lost in rodents, and Nox3, which functions in the inner ear in gravity perception, emerged the most recently, corresponding to full-time adaptation of vertebrates to land. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17612411",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "NOX expression patterns in animals are complex and ancestral NOXes, NOX5-like isoforms and DUOXes are generally found. But there are exceptions; for example rodents lack NOX5 and Caenorhabditis elegans expresses only DUOXes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17400358",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The NADPH oxidase 5 (NOX5) gene is present in humans but not rodents.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24688893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The NADPH oxidase 5 (NOX5) gene is present in humans but not rodents",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24688893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "NADPH oxidases are the major sources of reactive oxygen species in cardiovascular, neural, and kidney cells. The NADPH oxidase 5 (NOX5) gene is present in humans but not rodents.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24688893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "But there are exceptions; for example rodents lack NOX5 and Caenorhabditis elegans expresses only DUOXes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17400358",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Because the Nox5 gene is absent in rodents, we generated transgenic mice expressing human Nox5 in a podocyte-specific manner (Nox5(pod+)).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24262797",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The data document that the NOX5 gene was expressed in cells of lagomorphs unlike rodents, making the rabbit an interesting model to study NOX5 functions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22511941",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The most recently identified member of the Nox family, Nox5, has for the most part been overlooked in renal disease, partly owing to its absence from the rodent genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25415612",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4270191",
+    "http://www.uniprot.org/uniprot/NOX5_HUMAN",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019255"
+  ],
+  "exact_answer": "Yes"
+}

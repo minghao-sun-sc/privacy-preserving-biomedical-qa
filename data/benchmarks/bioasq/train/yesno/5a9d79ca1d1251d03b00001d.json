@@ -1,0 +1,41 @@
+{
+  "id": "5a9d79ca1d1251d03b00001d",
+  "type": "yesno",
+  "question": "Is the gene CDKN2A nevogenic?",
+  "ideal_answer": "Yes, CDKN2A is nevogenic",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15304099",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28830827",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12406345",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10620111",
+    "http://www.ncbi.nlm.nih.gov/pubmed/475444"
+  ],
+  "snippets": [
+    {
+      "text": "Germline mutations in CDKN2A are frequently identified among melanoma kindreds and are associated with increased atypical nevus counts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28830827",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Phenotypic characteristics of members of a melanoma prone kindred with a V126D CDKN2A gene mutation were monitored over approximately 15 y.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15304099",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Rare germline mutations in CDKN2A predispose to melanoma and appear to be nevogenic, although the correlation between nevus phenotype and mutation status is poor. It is plausible that more common CDKN2A variants may influence both melanoma susceptibility and nevus susceptibility. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12406345",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "supporting the view that CDKN2A is nevogenic.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10620111",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

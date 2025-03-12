@@ -1,0 +1,33 @@
+{
+  "id": "5c92869aecadf2e73f000015",
+  "type": "factoid",
+  "question": "What is the function of the protein Magt1?",
+  "ideal_answer": "The magnesium transporter 1 (MAGT1) is a critical regulator of basal intracellular free magnesium ([Mg2+]i) levels.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30385806",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29581357",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29051561"
+  ],
+  "snippets": [
+    {
+      "text": "magnesium transporter 1 (MAGT1)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29581357",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "magnesium transporter MagT1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30385806",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The magnesium transporter 1 (MAGT1) is a critical regulator of basal intracellular free magnesium ([Mg2+]i) levels. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29051561",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Magnesium transporter"
+}

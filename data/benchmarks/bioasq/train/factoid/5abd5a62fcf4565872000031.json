@@ -1,0 +1,52 @@
+{
+  "id": "5abd5a62fcf4565872000031",
+  "type": "factoid",
+  "question": "Which bacteria was EcoRI, restriction endonuclease isolated from?",
+  "ideal_answer": "Among hundreds of restriction endonucleases, the Eco R1 enzyme is the most useful and widely investigated enzyme and was isolated from E. coli RY 13",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/2996987",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6099579",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3025706",
+    "http://www.ncbi.nlm.nih.gov/pubmed/349563"
+  ],
+  "snippets": [
+    {
+      "text": ". Among hundreds of restriction endonucleases, the Eco R1 enzyme is the most useful and widely investigated enzyme. After sonication and ultracentrifugation, crude extracts of E. coli RY 13 ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/6099579",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "An endonuclease having EcoRI specificity is produced by bacteria containing the ColE1 plasmid.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/349563",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Such bacterial cells fail to express restriction or modification functions in vivo, and phage or plasmid DNA obtained from ColE1-containing cells has unmodified EcoRI sites that are cleaved in vitro by purified EcoRI endonuclease or by enzyme extracted from bacteria that carry ColE1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/349563",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "[Characteristics of RecA-independent recombination of plasmids in E. coli cells producing restriction endonuclease EcoRI].",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3025706",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " The purification of the EcoRI restriction enzyme from a strain of Escherichia coli that over-produces this enzyme was hampered by the insolubility of the protein, and hence the purification procedure was modified to optimize the recovery of active enzyme",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2996987",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D015246",
+    "http://www.uniprot.org/uniprot/T2E1_ECOLX",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D015280",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D004262",
+    "http://www.uniprot.org/uniprot/MTE1_ECOLX"
+  ],
+  "exact_answer": "E coli"
+}

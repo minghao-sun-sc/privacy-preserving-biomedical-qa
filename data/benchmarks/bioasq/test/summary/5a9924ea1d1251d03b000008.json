@@ -1,0 +1,43 @@
+{
+  "id": "5a9924ea1d1251d03b000008",
+  "type": "summary",
+  "question": "What is the association of circular RNA to breast cancer?",
+  "ideal_answer": "circRNAs are differentially expressed in breast cancer and are important in carcinogenesis because they participate in cancer-related pathways and sequester miRNAs. circRNA frequency may be a marker for cell proliferation in breast cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28484086",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27829232"
+  ],
+  "snippets": [
+    {
+      "text": "Among 1155 differentially expressed circRNAs, 715 were upregulated and 440 were downregulated in breast cancer tissues. The validation study demonstrated that hsa_circ_103110, hsa_circ_104689 and hsa_circ_104821 levels were elevated in breast cancer tissues, whereas hsa_circ_006054, hsa_circ_100219 and hsa_circ_406697 were downregulated. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28484086",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The area under the receiver operating characteristic curve for distinguishing breast cancer was 0.82 (95% CI: 0.73-0.90) when hsa_circ_006054, hsa_circ_100219 and hsa_circ_406697 were used in combination. This study provides evidence that circRNAs are differentially expressed in breast cancer and are important in carcinogenesis because they participate in cancer-related pathways and sequester miRNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28484086",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Circular RNAs and their associations with breast cancer subtypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27829232",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Notably, circRNA results reveal that normal-adjacent tissues in estrogen receptor positive (ER+) subtype have relatively higher numbers of circRNAs than tumor samples in TCGA. Similar phenomenon of high circRNA numbers were observed in normal breast-mammary tissues from the Genotype-Tissue Expression (GTEx) project. Finally, we observed that number of circRNAs in normal-adjacent samples of ER+ subtype is inversely correlated to the risk-of-relapse proliferation (ROR-P) score for proliferating genes, suggesting that circRNA frequency may be a marker for cell proliferation in breast cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27829232",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We believe that Circ-Seq will be a valuable tool to identify circRNAs useful in the diagnosis and treatment of other cancers and complex diseases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27829232",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

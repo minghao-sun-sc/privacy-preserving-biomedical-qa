@@ -1,0 +1,88 @@
+{
+  "id": "5fe30e06a43ad31278000037",
+  "type": "factoid",
+  "question": "Which histone mark distinguishes active from inactive enhancers?",
+  "ideal_answer": "Histone H3K27ac separates active from poised enhancers and predicts developmental state . In contrast, elements of the second class 'poised enhancers' are linked to genes inactive in hESCs . They are involved in orchestrating early steps in embryogenesis, such as gastrulation, mesoderm formation and neurulation .",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27851968",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24038352",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15448640",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22920947",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28732206",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24565409",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21160473",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26305225",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21106759",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25984238"
+  ],
+  "snippets": [
+    {
+      "text": "We demonstrate that UTX, in a demethylase activity-independent manner, facilitates conversion of inactive enhancers in embryonic stem cells to an active (H3K4me1+/H3K27ac+) state by recruiting and coupling the enzymatic functions of MLL4 and p300. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28732206",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This work reveals a previously unrecognized cooperativity among enhancer-associated chromatin modulators, including a unique function for UTX, in establishing an \"active enhancer landscape\" and defines a detailed mechanism for the joint deposition of H3K4me1 and H3K27ac.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28732206",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In contrast, elements of the second class, which we term 'poised enhancers', are distinguished by the absence of H3K27ac, enrichment of histone H3 lysine 27 trimethylation (H3K27me3), and are linked to genes inactive in hESCs and instead are involved in orchestrating early steps in embryogenesis, such as gastrulation, mesoderm formation and neurulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21160473",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Individual chromatin marks, such as H3K27ac and H3K27me3, have been identified to distinguish active from inactive enhancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24038352",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We find that histone H3K27ac distinguishes active enhancers from inactive/poised enhancer elements containing H3K4me1 alone.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21106759",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "rthermore, like H3K27ac, H3K9ac and H3K14ac can also differentiate active enhancers from inactive ones. A",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22920947",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " observation suggests that histone acetyl transferases (HATs) prime inactive genes by H3K14ac for stimuli dependent activation. In ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22920947",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "e level of binding signal for TAL1 or GATA1 did not help distinguish TAL1-bound DNA segments as active versus inactive enhancers, nor did the density of regulation-related histone modifications. A",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25984238",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover, repressed regions are trimethylated at lysines 9 and 27, suggesting that these histone modifications represent a mark for inactive PcG-controlled regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15448640",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "vidual chromatin marks, such as H3K27ac and H3K27me3, have been identified to distinguish active from inactive enhancers. Howe",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24038352",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "he active modification H3K4m3 are characterized by lower nucleosome occupancy before the transcription start site compared to genes marked by the inactive modification H3K27m3, while bivalent domains, genes associated with both marks, lie exactly in the middle. Combinatorial patt",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26305225",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "H3K27ac, Histone 3 Lysine 27 acetylation"
+}

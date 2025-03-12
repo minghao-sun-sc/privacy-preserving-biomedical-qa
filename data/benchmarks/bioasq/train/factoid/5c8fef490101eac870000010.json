@@ -1,0 +1,25 @@
+{
+  "id": "5c8fef490101eac870000010",
+  "type": "factoid",
+  "question": "Through which protein interaction does MLP regulate F-actin dynamics?",
+  "ideal_answer": "The interaction of MLP with CFL2 has direct implications in actin cytoskeleton dynamics in regulating CFL2-dependent F-actin depolymerization, with maximal depolymerization enhancement at an MLP/CFL2 molecular ratio of 2:1. Deregulation of this interaction by intracellular pH variations, CFL2 phosphorylation, MLP or CFL2 gene mutations, or expression changes, as observed in a range of cardiac and skeletal myopathies, could impair F-actin depolymerization, leading to sarcomere dysfunction and disease.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19752190"
+  ],
+  "snippets": [
+    {
+      "text": "Muscle LIM protein interacts with cofilin 2 and regulates F-actin dynamics in cardiac and skeletal muscle.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19752190",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "This interaction has direct implications in actin cytoskeleton dynamics in regulating CFL2-dependent F-actin depolymerization, with maximal depolymerization enhancement at an MLP/CFL2 molecular ratio of 2:1. Deregulation of this interaction by intracellular pH variations, CFL2 phosphorylation, MLP or CFL2 gene mutations, or expression changes, as observed in a range of cardiac and skeletal myopathies, could impair F-actin depolymerization, leading to sarcomere dysfunction and disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19752190",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Cofilin 2"
+}

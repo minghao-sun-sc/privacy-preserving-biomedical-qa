@@ -1,0 +1,36 @@
+{
+  "id": "5a6fa417b750ff445500005f",
+  "type": "summary",
+  "question": "Describe the RNA Centric Annotation System (RCAS)",
+  "ideal_answer": "The RNA Centric Annotation System (RCAS) is an R package which is designed to ease the process of creating gene-centric annotations and analysis for the genomic regions of interest obtained from various RNA-based omics technologies. The design of RCAS is modular, which enables flexible usage and convenient integration with other bioinformatics workflows. RCAS is an R/Bioconductor package but there are also graphical user interfaces including a Galaxy wrapper and a stand-alone web service. The application of RCAS on published datasets shows that RCAS is not only able to reproduce published findings but also helps generate novel knowledge and hypotheses. The meta-gene profiles, gene-centric annotation, motif analysis and gene-set analysis provided by RCAS provide contextual knowledge which is necessary for understanding the functional aspects of different biological events that involve RNAs. In addition, the array of different interfaces and deployment options adds the convenience of use for different levels of users. RCAS is available at http://bioconductor.org/packages/release/bioc/html/RCAS.html and http://rcas.mdc-berlin.de.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28334930"
+  ],
+  "snippets": [
+    {
+      "text": "Here, we present the RNA Centric Annotation System (RCAS), an R package, which is designed to ease the process of creating gene-centric annotations and analysis for the genomic regions of interest obtained from various RNA-based omics technologies. The design of RCAS is modular, which enables flexible usage and convenient integration with other bioinformatics workflows. RCAS is an R/Bioconductor package but we also created graphical user interfaces including a Galaxy wrapper and a stand-alone web service. The application of RCAS on published datasets shows that RCAS is not only able to reproduce published findings but also helps generate novel knowledge and hypotheses. The meta-gene profiles, gene-centric annotation, motif analysis and gene-set analysis provided by RCAS provide contextual knowledge which is necessary for understanding the functional aspects of different biological events that involve RNAs. In addition, the array of different interfaces and deployment options adds the convenience of use for different levels of users. RCAS is available at http://bioconductor.org/packages/release/bioc/html/RCAS.html and http://rcas.mdc-berlin.de.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28334930",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we present the RNA Centric Annotation System (RCAS), an R package, which is designed to ease the process of creating gene-centric annotations and analysis for the genomic regions of interest obtained from various RNA-based omics technologies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28334930",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RCAS: an RNA centric annotation system for transcriptome-wide regions of interest.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28334930",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "RCAS: an RNA centric annotation system for transcriptome-wide regions of interest.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28334930",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": []
+}

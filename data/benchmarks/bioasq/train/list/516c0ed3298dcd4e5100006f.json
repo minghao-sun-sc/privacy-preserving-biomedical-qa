@@ -1,0 +1,56 @@
+{
+  "id": "516c0ed3298dcd4e5100006f",
+  "type": "list",
+  "question": "Which genes does thyroid hormone receptor alpha1 regulate in the liver?",
+  "ideal_answer": "phosphoenolpyruvate-carboxykinase\"//\n\"pyruvate kinase\"//\n\"D1\", \"deiodinase 1\"//",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11222747",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19282388"
+  ],
+  "snippets": [
+    {
+      "text": "Mice expressing the mutant thyroid hormone receptor TRalpha1R384C, which has a 10-fold reduced affinity to the ligand T(3), exhibit hypermetabolism due to an overactivation of the sympathetic nervous system. To define the consequences in the liver, we analyzed hepatic metabolism and the regulation of liver genes in the mutant mice. Our results showed that hepatic phosphoenolpyruvate-carboxykinase was up-regulated and pyruvate kinase mRNA down-regulated, contrary to what observed after T(3) treatment",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19282388",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Remarkably, there was an obligatory requirement for a TR, whether TRbeta or TRalpha1, for any detectable D1 expression in liver.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11222747",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Liver and kidney D1 mRNA and activity levels were reduced in TRbeta(-/-) but not TRalpha1(-/-) mice",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11222747",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/THA_LITCT",
+    "http://www.uniprot.org/uniprot/THA_APTPA",
+    "http://www.uniprot.org/uniprot/THA_MOUSE",
+    "http://www.uniprot.org/uniprot/THA_PYGAD",
+    "http://www.uniprot.org/uniprot/THA_CHICK",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013963",
+    "http://www.uniprot.org/uniprot/THA_ONCMY",
+    "http://www.uniprot.org/uniprot/THA_CAIMO",
+    "http://www.uniprot.org/uniprot/THA_PIG",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037021",
+    "http://www.uniprot.org/uniprot/THA_HIPHI",
+    "http://www.uniprot.org/uniprot/THAA_DANRE",
+    "http://www.uniprot.org/uniprot/THA_ELECQ",
+    "http://www.uniprot.org/uniprot/THAA_XENLA",
+    "http://www.uniprot.org/uniprot/THA_SPAAU",
+    "http://www.uniprot.org/uniprot/THAA_PAROL",
+    "http://www.uniprot.org/uniprot/THA_HUMAN",
+    "http://www.uniprot.org/uniprot/THA_SHEEP",
+    "http://www.uniprot.org/uniprot/THA_RAT",
+    "http://www.uniprot.org/uniprot/THA_NECMA",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008099",
+    "http://www.uniprot.org/uniprot/THA_SALSA",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005809"
+  ],
+  "exact_answer": "phosphoenolpyruvate-carboxykinase, pyruvate kinase, D1, deiodinase 1"
+}

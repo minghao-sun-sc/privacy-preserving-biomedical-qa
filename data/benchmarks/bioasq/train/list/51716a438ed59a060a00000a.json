@@ -1,0 +1,90 @@
+{
+  "id": "51716a438ed59a060a00000a",
+  "type": "list",
+  "question": "Name five popular  computer  programs used to identify genes in genomic sequences",
+  "ideal_answer": "Any five from the following not exhaustive list:  AUGUSTUS, MGENE, CRAIG, Agene, EUGENE,  Fgenesh++C, Fgenesh++,  Fgenesh, GeneID, GeneMark.hmm,  GENOMIX, GESECA, GLEAN,  GlimmerHMM, Gramene,JIGSAW, MAKER, ,MGENE, N-SCAN,  SGP2, SNAP,  ExonHunter, Evigan, Genescan, HMMGene, MZEF, Genie, Twinscan, SLAM, GRAIL.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16925832",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15691859",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9253604",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16314312",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11337477",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14965344",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11673234",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10779488",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12538242",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16925843",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19099578",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9789092",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16925833",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12023806",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11738707",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12176826",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15924626",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17332020",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15613242",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19329068",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21901741",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15593401",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21901742",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14764563",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15961499",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19564452"
+  ],
+  "snippets": [
+    {
+      "text": "This unit describes how to use the gene-finding programs GeneMark.hmm-E and GeneMark-ES for finding protein-coding genes in the genomic DNA of eukaryotic organisms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21901742",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "YACOP parses and combines the output of the three gene-predicting systems Criticia, Glimmer and ZCURVE.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14965344",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In this paper we have explored the benefits of combining predictions from already existing gene prediction programs. We have introduced three novel methods for combining predictions from programs Genscan and HMMgene",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12176826",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We describe the data sets on which the experiments were performed, the approaches employed by the five algorithms: GenScan, HMMGene, GeneMark, Pombe and FFG, the methodology of our evaluation, and the results of the experiments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11673234",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Phat is based on a generalized hidden Markov model (GHMM) similar to the models used in GENSCAN, Genie and HMMgene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11738707",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We present an independent comparative analysis of seven recently developed gene-finding programs: FGENES, GeneMark.hmm, Genie, Genescan, HMMgene, Morgan, and MZEF.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11337477",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We have explored the effectiveness when the results of several gene-finding programs were re-analyzed and combined. We studied several methods with four programs (FEXH, GeneParser3, GEN-SCAN and GRAIL2)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9789092",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "FGENES; Gene-Mark.hmm; Genie; Genescan; HMMgene; Morgan and MZEF,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12023806",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019542",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012984",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015397"
+  ],
+  "exact_answer": "Genscan, Glimmer, Fgenesh, Augustus, GeneID"
+}

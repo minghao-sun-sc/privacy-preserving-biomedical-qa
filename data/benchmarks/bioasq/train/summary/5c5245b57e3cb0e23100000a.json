@@ -1,0 +1,66 @@
+{
+  "id": "5c5245b57e3cb0e23100000a",
+  "type": "summary",
+  "question": "Briefly describe a deep learning system that is more accurate than human experts at detecting melanoma.",
+  "ideal_answer": "in August of 2018 a study was published where a Convolutional Neural Network's (CNN) diagnostic performance was compared with a large international group of 58 dermatologists, including 30 experts. Most dermatologists were outperformed by the CNN, the CNN had both higher sensitivity and specificity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29439500",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28969863",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29428356",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29846502",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29047032",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28026754",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29266819"
+  ],
+  "snippets": [
+    {
+      "text": "Computer-aided diagnosis systems powered by convolutional neural networks (CNNs) can improve diagnostic accuracy and save lives. CNNs have been successfully used in both skin lesion segmentation and classification. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29047032",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Machine learning-based diagnosis of melanoma using macro images",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29266819",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We tested the use of a deep learning algorithm to classify the clinical images of 12 skin diseases-basal cell carcinoma, squamous cell carcinoma, intraepithelial carcinoma, actinic keratosis, seborrheic keratosis, malignant melanoma, melanocytic nevus, lentigo, pyogenic granuloma, hemangioma, dermatofibroma, and wart",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29428356",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Skin Lesion Analysis towards Melanoma Detection Using Deep Learning Network.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29439500",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Deep learning computer vision systems classified melanoma dermoscopy images with accuracy that exceeded some but not all dermatologists.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28969863",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "diagnostic performance of a deep learning convolutional neural network for dermoscopic melanoma recognition in comparison to 58 dermatologists.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29846502",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Deep learning convolutional neural networks (CNN) may facilitate melanoma detection, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29846502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In order to meet these challenges, we propose a novel method for melanoma recognition by leveraging very deep convolutional neural networks (CNNs).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28026754",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

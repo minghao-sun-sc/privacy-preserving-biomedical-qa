@@ -1,0 +1,41 @@
+{
+  "id": "5314b20bdae131f847000005",
+  "type": "list",
+  "question": "Which substances are dangerous to g6PD deficient individuals?",
+  "ideal_answer": "Antimalarial drugs (primaquine, pamaquine, chloriquine), fava beans, sulfonamides, some antibiotics( nalidixic acid, nitrofurantoin, isoniazid, dapsone, and furazolidone) and henna",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23690191",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22963789",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17355169",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22018328",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23664599",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23874116",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23275730",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23282778",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22171972",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23483616",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23065279"
+  ],
+  "snippets": [
+    {
+      "text": "The principal clinical manifestation encountered was favism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23065279",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "G6PD deficiency is the most common enzymopathy of red blood cells. The clinical symptoms of favism are jaundice, hematuria and haemolytic anaemia that seem to affect liver and kidney in long term. Thus we evaluate kidney and liver function of favism patients in an endemic area of the disease with a high rate of fava beans cultivation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23483616",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005955",
+    "http://www.uniprot.org/uniprot/FGD_BEUC1",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0004345",
+    "http://www.uniprot.org/uniprot/G6PD_BACSU",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007206"
+  ],
+  "exact_answer": "primaquine, pamaquine, chloroquine, fava beans, sulfonamides, antibiotics, henna"
+}

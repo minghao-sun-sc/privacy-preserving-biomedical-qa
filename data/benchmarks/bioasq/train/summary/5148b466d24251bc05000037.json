@@ -1,0 +1,44 @@
+{
+  "id": "5148b466d24251bc05000037",
+  "type": "summary",
+  "question": "What is the mechanism of action of abiraterone?",
+  "ideal_answer": "Abiraterone acts by inhibiting cytochrome P450 17\u03b1-hydroxylase (CYP17A1), a critical step in androgen biosynthesis, thus leading to inhibition of androgen biosynthesis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21860772",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9876107",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23199349",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22291466",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22672122",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23344012"
+  ],
+  "snippets": [
+    {
+      "text": "The recognition of sustained androgen dependence of CRPC has led to the identification of more potent and selective inhibitors of androgen synthesis and androgen-receptor signaling, such as abiraterone and enzalutamide, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23344012",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "This review summarizes the rationale, mechanism of action and relevant clinical data of abiraterone acetate , an oral androgen biosynthesis inhibitor, in the management of CRPC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23199349",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Sipuleucel-T, an immunotherapeutic vaccine, is now available in the US for patients with non-metastatic CRPC and abiraterone, an oral enzyme inhibitor of androgen biosynthesis, as well as cabazitaxel, a cytotoxic chemotherapeutic, have been approved for the treatment of metastatic CRPC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22672122",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Abiraterone (17-(3-pyridyl)androsta-5,16-dien-3beta-ol, 1) is a potent inhibitor (IC50 4 nM for hydroxylase) of human cytochrome P45017alpha.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9876107",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4266316",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D045504"
+  ]
+}

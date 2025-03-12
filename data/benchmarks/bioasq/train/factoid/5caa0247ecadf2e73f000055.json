@@ -1,0 +1,26 @@
+{
+  "id": "5caa0247ecadf2e73f000055",
+  "type": "factoid",
+  "question": "What protein is recruited by Crumbs to regulate tracheal development?",
+  "ideal_answer": "In Drosophila, stellate-shaped tracheal terminal cells make seamless tubes, Early endocytosis maintains normal steady-state levels of Crumbs, which recruits apical phosphorylated (active) Moesin (Moe), which in turn regulates seamless tube shape in the development of the trachea.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21172808",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25065756"
+  ],
+  "snippets": [
+    {
+      "text": "We propose that early endocytosis maintains normal steady-state levels of Crumbs, which recruits apical phosphorylated (active) Moe, which in turn regulates seamless tube shape",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25065756",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "There, Crb, acting in parallel with the epidermal growth factor receptor (Egfr) pathway, is required for tracheal cell apical constriction and for organising an actomyosin complex, which we propose is mediated by Crb recruitment of moesin (Moe).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21172808",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "moesin (Moe)"
+}

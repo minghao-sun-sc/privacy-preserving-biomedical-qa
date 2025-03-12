@@ -1,0 +1,52 @@
+{
+  "id": "53442ca9aeec6fbd0700000b",
+  "type": "factoid",
+  "question": "Which is the  subcellular localization of ERAP2?",
+  "ideal_answer": "Endoplasmic reticulum aminopeptidase 2 (ERAP2) is localized to the luminal side of the endoplasmic reticulum.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23988446",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23946506",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16054015"
+  ],
+  "snippets": [
+    {
+      "text": "The human endoplasmic reticulum aminopeptidase (ERAP) 1 and 2 proteins ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23946506",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "They are categorized as a unique class of proteases based on their subcellular localization on the luminal side of the endoplasmic reticulum. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23946506",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "endoplasmic reticulum aminopeptidase 2 (ERAP2) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23988446",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "ERAP2 is a proteolytic enzyme set in the endoplasmic reticulum (ER) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23988446",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "both A-LAP and L-RAP are retained in the endoplasmic reticulum",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16054015",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0060341",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0008104",
+    "http://www.uniprot.org/uniprot/ERAP2_PONAB",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0051179",
+    "http://www.uniprot.org/uniprot/ERAP2_HUMAN",
+    "http://www.uniprot.org/uniprot/ERAP2_BOVIN"
+  ],
+  "exact_answer": "luminal side of the endoplasmic reticulum"
+}

@@ -1,0 +1,91 @@
+{
+  "id": "5a8718a261bb38fb24000007",
+  "type": "summary",
+  "question": "What is the function of yeast TERRA RNAs?",
+  "ideal_answer": "The ends of linear eukaryotic chromosomes are transcribed into different species of non-coding transcripts (the telomeric transcriptome), including TERRA (telomeric repeat-containing RNA) molecules. TERRA are part of the DNA damage response triggered by dysfunctional telomeres.  In addition to its role as a template-encoding telomeric DNA synthesis, telomerase RNA has been shown to function as a flexible scaffold for protein subunits of the RNP holoenzyme.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27474163",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19716786",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22139922",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21525956",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22504286",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28815538",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29167439",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22641694"
+  ],
+  "snippets": [
+    {
+      "text": "We further show that TERRA (Telomeric Repeat-containing RNA) is increased in post-mitotic cells with short telomeres and correlates with telomere rearrangements",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29167439",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Like human and budding yeast, fission yeast harbours a population of telomeric RNA molecules containing G-rich telomeric repeats transcribed from the subtelomere to the telomere.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22139922",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The ends of linear eukaryotic chromosomes are transcribed into different species of non-coding transcripts (the telomeric transcriptome), including TERRA (telomeric repeat-containing RNA) molecules",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22504286",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TERRA is part of the DNA damage response triggered by dysfunctional telomeres",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22504286",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Telomeric repeat-containing RNA (TERRA) has been implicated in the control of heterochromatin and telomerase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21525956",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "yeast TERRA is regulated by telomere-binding proteins in a chromosome-end-specific manner that is dependent on subtelomeric repetitive DNA elements",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21525956",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Examples of these include the telomerase RNA and telomere-encoded transcripts. In addition to its role as a template-encoding telomeric DNA synthesis, telomerase RNA has been shown to function as a flexible scaffold for protein subunits of the RNP holoenzyme.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28815538",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Here, we present detailed protocols for live-cell imaging of the Saccharomyces cerevisiae telomerase RNA subunit, called TLC1, and also of the non-coding telomeric repeat-containing RNA TERRA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27474163",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Live-cell imaging of budding yeast telomerase RNA and TERRA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27474163",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We show here that TERRA RNA interacts with several telomere-associated proteins, including telomere repeat factors 1 (TRF1) and 2 (TRF2), subunits of the origin recognition complex (ORC), heterochromatin protein 1 (HP1), histone H3 trimethyl K9 (H3 K9me3), and members of the DNA-damage-sensing pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19716786",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "telomere repeat encoding rna referred to as terra has been identified as a potential component of yeast and mammalian telomeres we show here that terra rna interacts with several telomere associated proteins including telomere repeat factors 1 trf1 and 2 trf2 subunits of the origin recognition complex orc heterochromatin protein 1 hp1 histone h3 trimethyl k9 h3 k9me3 and members of the dna damage sensing pathway sirna depletion of terra caused an increase in telomere dysfunction induced foci aberrations in metaphase telomeres and a loss of histone h3 k9me3 and orc at telomere repeat dna previous studies found that trf2 amino terminal gar domain recruited orc to telomeres we now show that terra rna can interact directly with the trf2 gar and orc1 to form a stable ternary complex we conclude that terra facilitates trf2 interaction with orc and plays a central role in telomere structural maintenance and heterochromatin formation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19716786",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "telomeres play crucial roles in the maintenance of genome integrity and control of cellular senescence most eukaryotic telomeres can be transcribed to generate a telomeric repeat containing rna terra that persists as a heterogeneous nuclear rna and can be developmentally regulated however the precise function and regulation of terra in normal and cancer cell development remains poorly understood here we show that terra accumulates in highly proliferating normal and cancer cells and forms large nuclear foci which are distinct from previously characterized markers of dna damage or replication stress using a mouse model for medulloblastoma driven by chronic sonic hedgehog shh signaling terra rna was detected in tumor but not adjacent normal cells using both rna fluorescence in situ hybridization fish and northern blotting rna fish revealed the formation of terra foci terfs in the nuclear regions of rapidly proliferating tumor cells in the normal developing cerebellum terra aggregates could also be detected in highly proliferating zones of progenitor neurons shh could enhance terra expression in purified granule progenitor cells in vitro suggesting that proliferation signals contribute to terra expression in responsive tissue terra foci did not colocalize with \u03b3h2ax foci promyelocytic leukemia pml or cajal bodies in mouse tumor tissue we also provide evidence that terra is elevated in a variety of human cancers these findings suggest that elevated terra levels reflect a novel early form of telomere regulation during replication stress and cancer cell evolution and the terra rna aggregates may form a novel nuclear body in highly proliferating mammalian cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22641694",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "532206819b2d7acc7e00000f",
+  "type": "factoid",
+  "question": "Name a method for enrichment of arginine-methylated peptides.",
+  "ideal_answer": "Immunoaffinity purification using specific antibodies has been used in order to perform enrichment of methylated peptides.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24129315"
+  ],
+  "snippets": [
+    {
+      "text": "To better study protein methylation, we have developed highly specific antibodies against monomethyl arginine; asymmetric dimethyl arginine; and monomethyl, dimethyl, and trimethyl lysine motifs. These antibodies were used to perform immunoaffinity purification of methyl peptides followed by LC-MS/MS analysis to identify and quantify arginine and lysine methylation sites in several model studies. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24129315",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4275376",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D010455",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001120",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008745"
+  ],
+  "exact_answer": "Immunoaffinity purification"
+}

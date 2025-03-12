@@ -1,0 +1,67 @@
+{
+  "id": "52ee065d98d0239505000033",
+  "type": "list",
+  "question": "List five applications of machine learning algorithms in medical diagnosis.",
+  "ideal_answer": "Machine learning technology is well suited for the induction of diagnostic and prognostic rules and solving of small and specialized diagnostic and prognostic problems. The medical diagnostic knowledge can be automatically derived from the description of cases solved in the past. In several medical domains we actually applied machine learning algorithms. Typically, the automatically generated diagnostic rules achieved the same or slightly better diagnostic accuracy than physicians specialists. There many several  application of machine learning algorithms in medical diagnosis such as Brain glioma progression, Microarray classification, Mass spectral proteomics, Lymph disease classification and Parkinson's disease.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22606669",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24321226",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21479187",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24263362",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16226240",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22606665",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24297560",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24286700",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24266942",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24290902",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23322959",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15788095",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23763826"
+  ],
+  "snippets": [
+    {
+      "text": "The ability to differentiate between brain tumor progression and radiation therapy induced necrosis is critical for appropriate patient management. I",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24321226",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Experimental results on public leukemia, prostate, and colon cancer datasets show that fuzzy support vector machine applied in combination with filter or wrapper feature selection methods develops a robust model with higher accuracy than the conventional microarray classification models such as support vector machine, artificial neural network, decision trees, k nearest neighbors, and diagonal linear discriminant analysis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24266942",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mass spectrometry based proteomics technologies have allowed for a great progress in identifying disease biomarkers for clinical diagnosis and prognosis. However, they face acute challenges from a data reproducibility standpoint, in that no two independent studies have been found to produce the same proteomic patterns. Such reproducibility issues cause the identified biomarker patterns to lose repeatability and prevent real clinical usage. In this work, we propose a profile biomarker approach to overcome this problem from a machine-learning viewpoint by developing a novel derivative component analysis (DCA)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24297560",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this paper, a random forest classifier (RFC) approach is proposed to diagnose lymph diseases",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24290902",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The algorithm provides excellent discrimination of PD patients from PSP patients at an individual level, thus encouraging the application of computer-based diagnosis in clinical practice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24286700",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The objective of this project was the development and validation of a multiparameter machine learning algorithm and system capable of predicting the need for life-saving interventions (LSIs) in trauma patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24263362",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003933",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011337",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007858",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000465",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001185"
+  ],
+  "exact_answer": "Brain glioma progression, Microarray classification, Mass spectral proteomics, Lymph disease classification, Parkinson's disease"
+}

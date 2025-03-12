@@ -1,0 +1,31 @@
+{
+  "id": "62266c353a8413c65300008a",
+  "type": "yesno",
+  "question": "Can autophagy related lncRNAs be used for colorectal cancer prognosis?",
+  "ideal_answer": "Yes, a prognostic prediction model of CRC was built based on nine ARlncRNAs (NKILA, LINC00174, AC008760.1, LINC02041, PCAT6, AC156455.1, LINC01503, LINC00957, and CD27-AS1). The 5-year overall survival rate was significantly lower in the high-risk group than in the low-risk group among train set, validation set, and all patients (all p < 0.001). The model had high sensitivity and accuracy in predicting the 1-year overall survival rate (area under the curve = 0.717). The prediction model risk score was an independent predictor of CRC.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34692467"
+  ],
+  "snippets": [
+    {
+      "text": "A Novel Prognostic Prediction Model for Colorectal Cancer Based on Nine Autophagy-Related Long Noncoding RNAs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34692467",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "A prognostic prediction model of CRC was built based on nine ARlncRNAs (NKILA, LINC00174, AC008760.1, LINC02041, PCAT6, AC156455.1, LINC01503, LINC00957, and CD27-AS1). The 5-year overall survival rate was significantly lower in the high-risk group than in the low-risk group among train set, validation set, and all patients (all p < 0.001). The model had high sensitivity and accuracy in predicting the 1-year overall survival rate (area under the curve = 0.717). The prediction model risk score was an independent predictor of CRC. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34692467",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The new ARlncRNA-based model predicts CRC patient prognosis and provides new research ideas regarding potential mechanisms regulating the biological behavior of CRC. ARlncRNAs may play important roles in personalized cancer treatment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34692467",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

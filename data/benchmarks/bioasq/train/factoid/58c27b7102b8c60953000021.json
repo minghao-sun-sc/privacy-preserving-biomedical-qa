@@ -1,0 +1,57 @@
+{
+  "id": "58c27b7102b8c60953000021",
+  "type": "factoid",
+  "question": "Which effects create neighborhoods of transcriptional regulation in eukaryotes?",
+  "ideal_answer": "Enhancer Sharing Promotes Neighborhoods of Transcriptional Regulation Across Eukaryotes. Here, we present cross-organismic evidence suggesting that most EP pairs are compatible, largely determined by physical proximity rather than specific interactions. we find that the transcription of gene neighbors is correlated over distances that scale with genome size. We propose that enhancer sharing is commonplace among eukaryotes, and that EP distance is an important layer of information in gene regulation. ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22084256",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27799341",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17025153"
+  ],
+  "snippets": [
+    {
+      "text": "Enhancer Sharing Promotes Neighborhoods of Transcriptional Regulation Across Eukaryotes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27799341",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we present cross-organismic evidence suggesting that most EP pairs are compatible, largely determined by physical proximity rather than specific interactions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27799341",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we find that the transcription of gene neighbors is correlated over distances that scale with genome size. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27799341",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " We propose that enhancer sharing is commonplace among eukaryotes, and that EP distance is an important layer of information in gene regulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27799341",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This is especially true in mammalian systems, where regulation often occurs through long-range enhancers in gene-rich neighborhoods, rather than proximal promoters, preventing straightforward assignment of a binding site to a target gene.We present EMBER (Expectation Maximization of Binding and Expression pRofiles), a method that integrates high-throughput binding data (e.g. ChIP-chip or ChIP-seq) with gene expression data (e.g. DNA microarray) via an unsupervised machine learning algorithm for inferring the gene targets of sets of TF binding sites",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22084256",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Enhancer Sharing Promotes Neighborhoods of Transcriptional Regulation Across Eukaryotes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27799341",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "One of the dogmas of transcriptional regulation in higher eukaryotes suggests the existence of transcriptional domains with no promoter-enhancer interactions between them.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17025153",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "the sharing of enhancer elements, enhancer sharing"
+}

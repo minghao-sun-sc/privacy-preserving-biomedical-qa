@@ -1,0 +1,65 @@
+{
+  "id": "5545e926d355485447000002",
+  "type": "yesno",
+  "question": "Is there a role for the cylindromatosis tumor suppressor (CYLD) in lung cancer?",
+  "ideal_answer": "To explore a correlation between CYLD expression and responsiveness to TRAIL in lung cancer cell lines, we established lung cancer cell lines that stably express CYLD. Our data provided the first evidence that increased expression of CYLD directly blocks TRAIL-induced NF - B activation, and consequently increases TRAIL-induced apoptosis in lung cancer cells. CYLD may act as a therapeutic target of lung cancer. Targeting CYLD, in combination with TRAIL, may be a new strategy to treat lung cancer with high NF - B activity. Cyld encodes a 956-amino acid deubiquitinating enzyme, which is a negative regulator of nuclear factor kappaB and mitogen-activated protein kinase pathways. Mutations that truncate and inactivate the carboxyl-terminal deubiquitinating domain of CYLD underlie the development of skin appendage tumors in humans, whereas down-regulation of Cyld expression has been associated with the development of various types of human malignancies including lung cancer. To establish an animal model of human CYLD inactivation and characterize the biological role of CYLD in vivo, we generated mice carrying a homozygous deletion of Cyld exon 9 mice ) using a conditional approach. Our study identifies an important role of CYLD in lung maturation, which may underlie the development of many cases of lung cancer. ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19412431",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22017589"
+  ],
+  "snippets": [
+    {
+      "text": "Over-expressing CYLD augments antitumor activity of TRAIL by inhibiting the NF-\u03baB survival signaling in lung cancer cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22017589",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "increased expression of CYLD directly blocks TRAIL-induced NF-\u03baB activation, and consequently increases TRAIL-induced apoptosis in lung cancer cells. CYLD may act as a therapeutic target of lung cancer. Targeting CYLD, in combination with TRAIL, may be a new strategy to treat lung cancer with high NF-\u03baB activity",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22017589",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Truncation of the catalytic domain of the cylindromatosis tumor suppressor impairs lung maturation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19412431",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "down-regulation of Cyld expression has been associated with the development of various types of human malignancies including lung cancer",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19412431",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Deletion of exon 9 would cause a carboxyl-terminal truncation of CYLD and inactivation of its deubiquitinating activity. In accordance with previous studies, fibroblasts from Cyld(Delta 9/Delta 9) embryos had hyperactive nuclear factor kappaB and c-Jun kinase pathways compared with control fibroblasts. Cyld(Delta 9/Delta 9) newborn mice were smaller than wild-type littermates with a short and kinky tail and no major developmental defects. However, Cyld(Delta 9/Delta 9) mice died shortly after birth from apparent respiratory dysfunction. Histological examination of E18.5 Cyld(Delta 9/Delta 9) lungs demonstrated an immature phenotype characterized by hyperplasic mesenchyme but apparently normal epithelial, smooth muscle. and endothelial structures. Our study identifies an important role of CYLD in lung maturation, which may underlie the development of many cases of lung cancer",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19412431",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mutations that truncate and inactivate the carboxyl-terminal deubiquitinating domain of CYLD underlie the development of skin appendage tumors in humans, whereas down-regulation of Cyld expression has been associated with the development of various types of human malignancies including lung cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19412431",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our study identifies an important role of CYLD in lung maturation, which may underlie the development of many cases of lung cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19412431",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mutations that truncate and inactivate the carboxyl-terminal deubiquitinating domain of CYLD underlie the development of skin appendage tumors in humans, whereas down-regulation of Cyld expression has been associated with the development of various types of human malignancies including lung cancer",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19412431",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008175",
+    "http://www.disease-ontology.org/api/metadata/DOID:1324"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "515d692c298dcd4e5100000a",
+  "type": "factoid",
+  "question": "Which is the binding site motif of Sp1?",
+  "ideal_answer": "Sp1 binds to a GC-rich sequence element containing the decanucleotide consensus sequence 5\u2032-(G/T)GGGCGG(G/A)(G/A)(C/T)-3\u2032 (GC box element) in double stranded DNA (dsDNA). Gel shift competition studies and DNase I footprinting analyses revealed that Sp1 specifically interacts with the CACCC motif.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10777687",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8063775",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8702907",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9261349",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12684058",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22021377"
+  ],
+  "snippets": [
+    {
+      "text": "a GC-rich element (Sp1-binding site)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12684058",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Further analysis revealed that the DNA sequence, TTCAAGTCCCGCCCTCCGCT from -65 to -46",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10777687",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Sp1 motif in the UCR",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9261349",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "upstream control region (UCR) containing a GC-rich motif (5'-GGGCGGG-3') and to a unique enhancer core (5'-TGCGGTC-3')",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9261349",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "A GC-rich region containing Sp1 and Sp1-like binding sites",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8702907",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Gel shift competition studies and DNase I footprinting analyses revealed that Sp1 specifically interacts with the CACCC motif",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8063775",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In an effort to identify transcription factors that bind to the CACCC element, we found that purified human Sp1, as well as Sp1 in HeLa nuclear extract, can specifically bind to a DNA probe",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8063775",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Sp1 binds through an inverted CACCC motif",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8063775",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016329"
+  ],
+  "exact_answer": "(G/T)GGGCGG(G/A)(G/A)(C/T)"
+}

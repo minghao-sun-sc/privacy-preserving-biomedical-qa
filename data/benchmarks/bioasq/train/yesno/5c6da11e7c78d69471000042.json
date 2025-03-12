@@ -1,0 +1,44 @@
+{
+  "id": "5c6da11e7c78d69471000042",
+  "type": "yesno",
+  "question": "Are there tools for reviewing variant calls?",
+  "ideal_answer": "Yes. Tools such as the Variant InsPector and Expert Rating tool (VIPER) have been developed that speed up the manual inspection of variant calls by integrating the Integrative Genomics Viewer into a web application. Analysts can then quickly iterate through variants, apply filters and make decisions based on the generated images and variant metadata. VIPER was successfully employed in analyses with manual inspection of more than 10 000 calls.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29092934",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29346510"
+  ],
+  "snippets": [
+    {
+      "text": "VIPER: a web application for rapid expert review of variant calls.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29346510",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "With the rapid development in next-generation sequencing, cost and time requirements for genomic sequencing are decreasing, enabling applications in many areas such as cancer research. Many tools have been developed to analyze genomic variation ranging from single nucleotide variants to whole chromosomal aberrations. As sequencing throughput increases, the number of variants called by such tools also grows. Often employed manual inspection of such calls is thus becoming a time-consuming procedure. We developed the Variant InsPector and Expert Rating tool (VIPER) to speed up this process by integrating the Integrative Genomics Viewer into a web application. Analysts can then quickly iterate through variants, apply filters and make decisions based on the generated images and variant metadata. VIPER was successfully employed in analyses with manual inspection of more than 10 000 calls.Availability and implementation: VIPER is implemented in Java and Javascript and is freely available at https://github.com/MarWoes/viper.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29346510",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Variant Review with the Integrative Genomics Viewer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29092934",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "VIPER: a web application for rapid expert review of variant calls.Supplementary data are available at Bioinformatics online.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29346510",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We developed the Variant InsPector and Expert Rating tool (VIPER) to speed up this process by integrating the Integrative Genomics Viewer into a web application.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29346510",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

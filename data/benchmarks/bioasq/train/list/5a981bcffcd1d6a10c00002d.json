@@ -1,0 +1,92 @@
+{
+  "id": "5a981bcffcd1d6a10c00002d",
+  "type": "list",
+  "question": "List 3 symptoms of Wernicke encephalopathy.",
+  "ideal_answer": "Wernicke's encephalopathy (WE) is a neurological syndrome caused by thiamine deficiency, and clinically characterized by ophthalmoplegia, ataxia and acute confusion.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17698536",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25856744",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27988455",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25550705",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22869492",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26869612",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23935638",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27300674",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28289649",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14644703",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16219837"
+  ],
+  "snippets": [
+    {
+      "text": "Wernicke's encephalopathy (WE) is a neurological syndrome caused by thiamine deficiency, and clinically characterized by ophthalmoplegia, ataxia and acute confusion. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27988455",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "entire triad of classic features of Wernicke-Korsakoff syndrome: confusion, ataxia, and ophthalmoplegia or nystagmus. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27300674",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wernicke encephalopathy (WE) is a medical emergency caused by thiamine deficiency, characterized by cerebellar ataxia, ophthalmoplegia, and cognitive disturbances",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26869612",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wernicke encephalopathy is an acute neuropsychiatric disease with heterogeneous symptoms, including changes in mental status, ataxia and ocular abnormalities; if left untreated, these symptoms can lead to morbidity and even to mortality.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25856744",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wernicke's encephalopathy is an acute neurological disorder characterized by mental confusion, oculomotor dysfunction, and ataxia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25550705",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wernicke's encephalopathy is an acute neurolopsychiatric syndrome caused by thiamine deficiency, and classically presents with the triad of opthalmopathy, ataxia and altered mentality.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22869492",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wernicke's encephalopathy is a serious neurologic disorder caused by vitamin-B1 or thiamine deficiency. The classical triad of clinical symptoms described by Wernicke (gait ataxia, ophthalmoplegia, and confusion) are found in only a third of patients upon initial examination. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14644703",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wernicke's encephalopathy is a well-described syndrome characterized by the classic triad of confusion, ataxia, and ophthalmoplegia. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23935638",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wernicke encephalopathy is a severe neurologic disorder that results from a dietary vitamin B1 deficiency. It is characterized by changes in consciousness, ocular abnormalities, and ataxia",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17698536",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wernicke encephalopathy (WE) is a neurologic disorder characterized by clinical symptoms, such as nystagmus, ataxia, and mental confusion. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28289649",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wernicke encephalopathy is a neurologic disorder that results from thiamine deficiency. It is associated with a classic triad of symptoms consisting of ataxia, ocular motor cranial neuropathies, and changes in consciousness.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16219837",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D014899",
+    "http://www.disease-ontology.org/api/metadata/DOID:2384"
+  ],
+  "exact_answer": "ophthalmoplegia, ataxia, acute confusion"
+}

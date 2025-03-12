@@ -1,0 +1,127 @@
+{
+  "id": "53215fca9b2d7acc7e000005",
+  "type": "list",
+  "question": "Which protein complexes contain mitofilin?",
+  "ideal_answer": "mitochondrial inter-membrane space bridging (MIB) complex \nmitochondrial inner membrane organizing system (MINOS)\nMitOS for mitochondrial organizing structure",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24030101",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23676277",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22252321",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21987634",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22575891",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22014515",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21944719",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22496419",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22918945",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23704930"
+  ],
+  "snippets": [
+    {
+      "text": " and the mitochondrial structural proteins-components of mitochondrial inter-membrane space bridging (MIB) complex (Mitofilin, Sam50, and ChChd3), ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24030101",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mitofilin/MINOS protein complex ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23704930",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " APOOL physically interacts with several subunits of the MINOS complex, namely Mitofilin, MINOS1, and SAMM50. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23704930",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mitofilin/MINOS protein complex ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23704930",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MINOS subunits (mitofilin, MINOS1, and CHCHD3)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23676277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mitofilin, a core MINOS subunit,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23676277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mitochondrial inner membrane organizing system (MINOS) is a large protein complex required for maintaining inner membrane architecture. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22918945",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mitochondria lacking mitofilin, the large core subunit of MINOS,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22918945",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mitochondrial inner membrane contains a large protein complex crucial for membrane architecture, the mitochondrial inner membrane organizing system (MINOS).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22575891",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " To study if outer membrane interactions and maintenance of cristae morphology are directly coupled, we generated mutant forms of mitofilin/Fcj1 (formation of crista junction protein 1), a core component of MINOS. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22575891",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The C-terminal domain of Fcj1 is required for formation of crista junctions and interacts with the TOB/SAM complex in mitochondria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22496419",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Mitofilin/Fcj1, the central component of the MINOS complex,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22014515",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We provide evidence that the SAM components exist in a large protein complex together with the IMM proteins mitofilin and CHCHD3, which we term the mitochondrial intermembrane space bridging (MIB) complex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22252321",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "which we term MitOS for mitochondrial organizing structure, comprised of Fcj1/Mitofilin, a conserved inner membrane protein, and five additional components. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21987634",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mitofilin is part of a large inner membrane complex, and we identify five partner proteins as constituents of the mitochondrial inner membrane organizing system (MINOS) that is required for keeping cristae membranes connected to the inner boundary membrane.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21944719",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Our findings indicate that mitofilin is a central component\u00a0of MINOS",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21944719",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016592",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0043234",
+    "http://www.uniprot.org/uniprot/FCJ1_LODEL",
+    "http://www.uniprot.org/uniprot/FCJ1_SCLS1",
+    "http://www.uniprot.org/uniprot/FCJ1_CANAL",
+    "http://www.uniprot.org/uniprot/FCJ1_AJECN",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D046912",
+    "http://www.uniprot.org/uniprot/FCJ1_CANTT"
+  ],
+  "exact_answer": "MIB, mitochondrial inter-membrane space bridging complex, MINOS, mitochondrial inner membrane organizing system, MitOS"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "6277e4ee56bf9aee6f000008",
+  "type": "factoid",
+  "question": "Should acetaminophen or nonsteroidal anti-inflammatory drugs (NSAIDs) be used when providing supportive care for COVID-19?",
+  "ideal_answer": "Nonsteroidal anti-inflammatory drugs (NSAIDs) have been theorized to cause harm in patients with COVID-19, but clinical data are limited. Given the uncertainty, acetaminophen is the preferred antipyretic agent for most patients rather than NSAIDs. If NSAIDs are needed, the lowest effective dose is recommended.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32805057",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34339037",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34318916",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33135113",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32505846",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32447629",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33824640",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32256706",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32460369",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33997800",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33197762",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33658615"
+  ],
+  "snippets": [
+    {
+      "text": "Although based on existing evidence, NSAIDs have been effective in treating respiratory infections caused by influenza and rhinovirus, since there is no clinical trial on COVID-19 and case-reports and clinical experiences are indicative of elongation of treatment duration and exacerbation of the clinical course of patients with COVID-19, it is recommended to use substitutes such as acetaminophen for controlling fever and inflammation and be cautious about using NSAIDs in management of COVID-19 patients until there are enough evidence.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32460369",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pharmacological approaches like acetaminophen, NSAIDS, spasmolytics etc. can be used if non-pharmacological therapy is inadequate. As per the current strength of evidence, acetaminophen and ibuprofen can be safely administered for pain management in children with COVID-19.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33824640",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recently, the safety of ibuprofen in COVID-19 patients has been questioned due to anecdotal reports of worsening symptoms in previously healthy young adults.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32505846",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Paracetamol (acetaminophen) has been proposed as an alternative to NSAIDs but there are issues with liver toxicity at high doses. There are clearly COVID-19 cases where NSAIDs should not be used, but there is no strong evidence that NSAIDs must be avoided in all patients with COVID-19; clinicians must weigh these choices on an individual basis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32447629",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Concern about the appropriate role of nonsteroidal anti-inflammatory drugs (NSAIDs) in COVID-19 speculate that NSAIDs, in particular ibuprofen, may upregulate the entry point for the virus, the angiotensin-converting enzyme (ACE)\u00a02 receptors and increase susceptibility to the virus or worsen symptoms in existing disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32447629",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Expert Working Group on the Commission of Human Medicines in the UK and other organizations have stated that there is insufficient evidence to establish a link between ibuprofen and susceptibility to or exacerbation of COVID-19.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32447629",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To provide analgesia, paracetamol can be listed as the first option in these patients, and then NSAIDs can also be reliably used for pain management in patients with COVID-19 if there are no absolute contraindications such as kidney failure or gastric bleeding.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34318916",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "There are clearly COVID-19 cases where NSAIDs should not be used, but there is no strong evidence that NSAIDs must be avoided in all patients with COVID-19; clinicians must weigh these choices on an individual basis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32447629",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Paracetamol (acetaminophen) has been proposed as an alternative to NSAIDs but there are issues with liver toxicity at high doses",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32447629",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Acetaminophen, Paracetamol"
+}

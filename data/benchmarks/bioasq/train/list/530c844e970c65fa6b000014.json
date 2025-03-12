@@ -1,0 +1,57 @@
+{
+  "id": "530c844e970c65fa6b000014",
+  "type": "list",
+  "question": "List disorders that are caused by mutations in the mitochondrial MTND6 gene.",
+  "ideal_answer": "Mitochondrial MTND6 gene mutations are the cause of Leigh syndrome and Leber's hereditary optic neuropathy and/or dystonia.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24126373",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16885236",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8090716",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7654063",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22970697",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16044424",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23847141"
+  ],
+  "snippets": [
+    {
+      "text": "It was shown that m14487T>C can also cause the unusual combination of optic atrophy, ptosis, and encephalomyopathy leading to intractable seizures. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24126373",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " MTND6 genes were identified as 'hotspots' of mutations, with Leigh syndrome accounting for the large majority of associated phenotypes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23847141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "he 14487T>C mutation in MTND6 were present in two probands with Leigh's-like and Leigh's syndrome, respectively. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16044424",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results confirm the association of the MTND6*LDYT14459A mutation with Leber's hereditary optic neuropathy and/or dystonia. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7654063",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A novel point mutation in the ND6 subunit of complex I at position 14,459 of the mitochondrial DNA (MTND6*LDY T14459A) was identified as a candidate mutation for the highly tissue-specific disease. Leber's hereditary optic neuropathy plus dystonia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7654063",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Representative of these mutations is a heteroplasmic mutation in MTND6 at np 14459 whose clinical presentations range from adult-onset blindness to pediatric dystonia and basal ganglial degeneration. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8090716",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/NU6M_GADMO"
+  ],
+  "exact_answer": "Leigh syndrome, Leber's hereditary optic neuropathy and/or dystonia"
+}

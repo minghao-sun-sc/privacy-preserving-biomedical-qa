@@ -1,0 +1,25 @@
+{
+  "id": "5ac725250340b9f058000006",
+  "type": "factoid",
+  "question": "Which miRNA is associated with the circular RNA ciRS-7?",
+  "ideal_answer": "circular RNA-7 (ciRS-7) acts as a sponge of miR-7 and thus inhibits its activity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28253710"
+  ],
+  "snippets": [
+    {
+      "text": "In addition, according to recent studies, circular RNA-7 (ciRS-7) acts as a sponge of miR-7 and thus inhibits its activity. Numerous evidences have confirmed expression of miR-7 is dysregulated in cancer tissues, however, whether ciRS-7 invovled in oncogenesis by acting as sponge of miR-7 remains unclear. Most recently, a study reported ciRS-7 acted as an oncogene in hepatocellular carcinoma through targeting miR-7 expression. This suggest ciRS-7/ miR-7 axis affects oncogenesis, and it provides a new perspective on the mechanisms of decreased miR-7 expression in cancer tissues. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28253710",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This review summarizes the structure and function of circRNAs and provides evidence for the impact of ciRS-7 in promoting the development of cancer by acting as sponge of miR-7.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28253710",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "miR-7"
+}

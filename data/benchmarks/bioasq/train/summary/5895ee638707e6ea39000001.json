@@ -1,0 +1,68 @@
+{
+  "id": "5895ee638707e6ea39000001",
+  "type": "summary",
+  "question": "Describe the usefulness of MiRduplexSVM.",
+  "ideal_answer": "MiRduplexSVM is a high-performing miRNA-duplex prediction and evaluation methodology. It's a method that combines a unique problem representation and an unbiased optimization protocol to learn from mirBase19.0 an accurate predictive model. It is the first model that provides precise information about all four ends of the miRNA duplex.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25961860"
+  ],
+  "snippets": [
+    {
+      "text": "MiRduplexSVM: A High-Performing MiRNA-Duplex Prediction and Evaluation Methodology.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25961860",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Our method combines a unique problem representation and an unbiased optimization protocol to learn from mirBase19.0 an accurate predictive model, termed MiRduplexSVM. This is the first model that provides precise information about all four ends of the miRNA duplex. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25961860",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In relation with recent confidence evaluation methods used in miRBase, MiRduplexSVM was successful in identifying high confidence potential miRNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25961860",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our method combines a unique problem representation and an unbiased optimization protocol to learn from mirBase19.0 an accurate predictive model, termed MiRduplexSVM.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25961860",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "(b) In all comparisons, MiRduplexSVM shows superior performance, achieving up to a 60% increase in prediction accuracy for mammalian hairpins and can generalize very well on plant hairpins, without any special optimization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25961860",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MiRduplexSVM: A High-Performing MiRNA-Duplex Prediction and Evaluation Methodology.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25961860",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In relation with recent confidence evaluation methods used in miRBase, MiRduplexSVM was successful in identifying high confidence potential miRNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25961860",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our method combines a unique problem representation and an unbiased optimization protocol to learn from mirBase19.0 an accurate predictive model, termed MiRduplexSVM.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25961860",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "(b) In all comparisons, MiRduplexSVM shows superior performance, achieving up to a 60% increase in prediction accuracy for mammalian hairpins and can generalize very well on plant hairpins, without any special optimization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25961860",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D035683"
+  ]
+}

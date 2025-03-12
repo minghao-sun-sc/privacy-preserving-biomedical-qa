@@ -1,0 +1,51 @@
+{
+  "id": "5357b9bcf1005d6b58000008",
+  "type": "list",
+  "question": "Which are the major intramolecular phosphorylation sites of human Chk2 involved in cell cycle control?",
+  "ideal_answer": "The major phosphorylation sites of human Chk2 involved in cell cycle control are T68, S19, and S33/35.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18812180"
+  ],
+  "snippets": [
+    {
+      "text": "Transfection of HEK293 cells with Chk2 wildtype and Chk2 mutants in the absence or presence of DNA damage showed significant T68 phosphorylation already in the absence of DNA damaging reagents",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18812180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Upon DNA damage, phosphorylation of additional Chk2 sites was observed (S19, S33/35)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18812180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transfection of HEK293 cells with Chk2 wildtype and Chk2 mutants in the absence or presence of DNA damage showed significant T68 phosphorylation already in the absence of DNA damaging reagents",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18812180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Upon DNA damage, phosphorylation of additional Chk2 sites was observed (S19, S33/35)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18812180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Despite distinct time-dependent autophosphorylation kinetics by monitoring the phosphorylation of amino acid residues T68, S19, S33/35, T432, in Chk2 wildtype and Chk2 mutants (T68A, T68D and Q69E) they gave identical specific activities",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18812180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D010766",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D064447",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016310",
+    "http://www.uniprot.org/uniprot/CHK2_HUMAN",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006468",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0042325",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0001932"
+  ],
+  "exact_answer": "T68, S19, S33/35"
+}

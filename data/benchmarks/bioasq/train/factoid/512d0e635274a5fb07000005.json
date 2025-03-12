@@ -1,0 +1,41 @@
+{
+  "id": "512d0e635274a5fb07000005",
+  "type": "factoid",
+  "question": "Which is the most widely used anti-TNF drug?",
+  "ideal_answer": "Etanercept is the most widely used anti-TNF drug.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21881980",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18420660",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22379032",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19854715",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21177290"
+  ],
+  "snippets": [
+    {
+      "text": "higher rates are observed with anti-TNF Abs (e.g., infliximab) as compared with TNF receptor fusion protein (etanercept).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22379032",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Two of them received etanercept and the remainder adalimumab.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21881980",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "45 cases were collected of non-TB OIs in 43 patients receiving infliximab (n=29), adalimumab (n=10) or etanercept (n=4)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21177290",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000894",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D023201",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D044966",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D053199",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016756"
+  ],
+  "exact_answer": "Etanercept"
+}

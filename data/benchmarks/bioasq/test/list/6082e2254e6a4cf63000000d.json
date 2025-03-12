@@ -1,0 +1,33 @@
+{
+  "id": "6082e2254e6a4cf63000000d",
+  "type": "list",
+  "question": "List proteins that promotes calcification.",
+  "ideal_answer": "tissue nonspecific alkaline phosphatase (TNAP)\nmatrix Gla protein (MGP)\nfibroblast growth factor-23 (FGF-23)\nmatrix metalloproteinases",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31852220",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30847765",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31768941"
+  ],
+  "snippets": [
+    {
+      "text": "several promoters and inhibitors of calcification (matrix Gla protein (MGP), fibroblast growth factor-23 (FGF-23), matrix metalloproteinases (MMP-2 and -9),",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30847765",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Primary familial brain calcification (PFBC), widely known as Fahr's disease, is a rare disorder caused by pathogenic variants in SLC20A2, PDGFB, PDGFRB, XPR1, or MYORG genes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31768941",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " calcification-promoting TNAP (tissue nonspecific alkaline phosphatase) activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31852220",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "tissue nonspecific alkaline phosphatase, TNAP, matrix Gla protein, MGP, fibroblast growth factor-23, FGF-23, matrix metalloproteinases"
+}

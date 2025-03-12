@@ -1,0 +1,45 @@
+{
+  "id": "57089865cf1c32585100000c",
+  "type": "yesno",
+  "question": "Is the Wnt protein modified by notum?",
+  "ideal_answer": "Yes, \tNotum deacylates Wnt proteins to suppress signalling activity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18505598",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22669824",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22159580",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18429952",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24523458",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15647319",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25731175",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10049571",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24992682"
+  ],
+  "snippets": [
+    {
+      "text": "Notum deacylates Wnt proteins to suppress signalling activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25731175",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Kinetic and mass spectrometric analyses of human proteins show that Notum is a carboxylesterase that removes an essential palmitoleate moiety from Wnt proteins and thus constitutes the first known extracellular protein deacylase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25731175",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the Wnt inhibitor notum",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24992682",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the WNT-inhibitor notum.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24523458",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

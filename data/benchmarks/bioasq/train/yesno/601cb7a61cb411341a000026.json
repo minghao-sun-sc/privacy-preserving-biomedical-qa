@@ -1,0 +1,39 @@
+{
+  "id": "601cb7a61cb411341a000026",
+  "type": "yesno",
+  "question": "Can Panitumumab cause trichomegaly?",
+  "ideal_answer": "Yes.  Panitumumab is EGFR inhibitor that is associated with eyelash trichomegaly.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20726623",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23010833",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33028137"
+  ],
+  "snippets": [
+    {
+      "text": "Xerosis was present in two cases, and paronychia, pyogenic granuloma, trichomegaly, and madarosis were observed in one patient each. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33028137",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Eyelash trichomegaly is an uncommon drug-associated sequelae experienced during treatment with epidermal growth factor receptor (EGFR) inhibitors. Elongation of the eyelashes induced by these agents has predominantly been observed in oncology patients with either colorectal or lung cancer. It is most frequently associated with cetuximab and erlotinib; however, it has also been described in individuals treated with gefitinib or panitumumab. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20726623",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Trichomegaly of the eyelashes during therapy with epidermal growth factor receptor inhibitors:  report of 3 cases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23010833",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Trichomegaly of the eyelashes is a rare adverse effect of EGFR inhibitor therapy and is characterized by a paradoxical overgrowth of eyelashes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23010833",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

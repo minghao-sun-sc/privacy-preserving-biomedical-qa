@@ -1,0 +1,32 @@
+{
+  "id": "5c647c52e842deac6700001c",
+  "type": "yesno",
+  "question": "Is erythropoietin effective for treatment of amyotrophic lateral sclerosis?",
+  "ideal_answer": "No, erythropoietin is not effective for treatment of amyotrophic lateral sclerosis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25886781",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25595151"
+  ],
+  "snippets": [
+    {
+      "text": "This study was performed to validate the ALS-MITOS as a 6-month proxy of survival in 200 ALS patients followed up to 18 months.METHODS: Analyses were performed on data from the recombinant human erythropoietin RCT that failed to demonstrate differences between groups for both primary and secondary outcomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25886781",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: RhEPO 40,000\u2005IU fortnightly did not change the course of ALS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25595151",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "At 12\u2005months, the annualised rate of death (rhEPO 0.11, 95% CI 0.06 to 0.20; placebo: 0.08, CI 0.04 to 0.17), tracheotomy or >23\u2005h NIV (rhEPO 0.16, CI 0.10 to 0.27; placebo 0.18, CI 0.11 to 0.30) did not differ between groups, also after stratification by onset and ALSFRS-R at baseline.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25595151",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

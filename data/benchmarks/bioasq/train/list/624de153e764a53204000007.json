@@ -1,0 +1,33 @@
+{
+  "id": "624de153e764a53204000007",
+  "type": "list",
+  "question": "Which proteins are markers of myositis?",
+  "ideal_answer": "Blood tests showed significantly increased CK and aldolase values in patients with myositis (p < 0.001 and p < 0.0001).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34571335",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33416262",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34030894"
+  ],
+  "snippets": [
+    {
+      "text": "Biological markers such as serum creatine phosphokinase (CPK) are commonly used to measure muscular tissue injury. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34571335",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cardiac Troponin I and T in Checkpoint Inhibitor-associated Myositis and Myocarditis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33416262",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Blood tests showed significantly increased CK and aldolase values in patients with myositis (p < 0.001 and p < 0.0001). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34030894",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CK, Aldolase"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "64144419201352f04a000045",
+  "type": "summary",
+  "question": "Please summarize haptenization.",
+  "ideal_answer": "Haptenization is the reaction of an antigenic compound (a hapten) with a carrier protein in order to stimulate an immune response.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27539547",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22613852",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23928507"
+  ],
+  "snippets": [
+    {
+      "text": "In contrast to the traditional mechanism of drug action that relies on the reversible, noncovalent interaction of a ligand with its biological target, a targeted covalent inhibitor (TCI) is designed such that the initial, reversible association is followed by the formation of a covalent bond between an electrophile on the ligand and a nucleophilic center in the protein. Although this approach offers a variety of potential benefits (high potency and extended duration of action), concerns over the possible toxicological consequences of prot",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27539547",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Her particular hepatic metabolism further increased the drugs' concentration, favoring the haptenization of liver proteins, eventually leading to the development of an autoimmune hepatitis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23928507",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Drug presentation via antigen-presenting cells to T cells can either involve the classical pathway of haptenization of endogenous proteins or be directly mediated via noncovalent binding to immune receptors (MHC molecules or T cell receptors), t",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22613852",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

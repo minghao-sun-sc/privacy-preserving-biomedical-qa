@@ -1,0 +1,26 @@
+{
+  "id": "5c7836dad774d04240000002",
+  "type": "yesno",
+  "question": "Are Mesenchymal stem cells (MSC) multipotent cells?",
+  "ideal_answer": "Yes, Mesenchymal stem cells (MSC) are multipotent cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19886822",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27102896"
+  ],
+  "snippets": [
+    {
+      "text": "multipotent mesenchymal bone marrow-derived stem cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27102896",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "multipotent hESC-derived mesenchymal cells (MCs)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19886822",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

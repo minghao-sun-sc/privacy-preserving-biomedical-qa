@@ -1,0 +1,69 @@
+{
+  "id": "58e7a1393e8b6dc87c00000b",
+  "type": "list",
+  "question": "Which gene mutations are predictive of response to anti-TNF therapy in Rheumatoid Arthritis patients?",
+  "ideal_answer": "\u039cutations in TLR5 and TLR1 genes contribute to differential response to anti-TNF treatment in RA. Variation at FCGR2A and functionally related genes such as DHX32 and RGS12 is also associated with the response to anti-TNF therapy in rheumatoid arthritis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26440629",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22044414",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25848939"
+  ],
+  "snippets": [
+    {
+      "text": "Genetic Variations in Pattern Recognition Receptor Loci Are Associated with Anti-TNF Response in Patients with Rheumatoid Arthritis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26440629",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Six of twenty successfully genotyped polymorphisms were nominally associated with EULAR treatment response. Three of these were in weak to moderate linkage disequilibrium with polymorphisms previously reported associated with anti-TNF treatment response. TLR5(rs5744174) variant allele carriers (odds ratio(OR) = 1.7(1.1-2.5),p = 0.010,q = 0.46) and TLR1(rs4833095) homozygous variant carriers (OR = 2.8(1.1-7.4),p = 0.037,q = 0.46) had higher odds for a positive treatment response. NLRP3(rs10754558) variant allele carriers (odds ratio(OR) = 0.6(0.4-1.0),p = 0.045,q = 0.46) were more likely to have a negative treatment response. The association in TLR5(rs5744174) remained significant after correction for multiple comparisons among patients negative for RF (OR = 6.2(2.4-16.3),p = 0.0002,q = 0.024). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26440629",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Variation at FCGR2A and functionally related genes is associated with the response to anti-TNF therapy in rheumatoid arthritis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25848939",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We aimed to validate this genetic association in a patient cohort from the Spanish population, and also to identify new genes functionally related to FCGR2A that are also associated with anti-TNF response.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25848939",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A total of 348 RA patients treated with an anti-TNF therapy were included and genotyped for FCGR2A polymorphism rs1081274.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25848939",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Using gene expression profiles from macrophages obtained from synovial fluid of RA patients, we searched for genes highly correlated with FCGR2A expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25848939",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We found a significant association between FCGR2A and the response to adalimumab (P=0.022). Analyzing the subset of anti-CCP positive RA patients (78%), we also found a significant association between FCGR2A and the response to infliximab (P=0.035). DHX32 and RGS12 were the most consistently correlated genes with FCGR2A expression in RA synovial fluid macrophages (P<0.001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25848939",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We found a significant association between the genetic variation at DHX32 (rs12356233, corrected P=0.019) and a nominally significant association between RGS12 and the response to adalimumab (rs4690093, uncorrected P=0.040).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25848939",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the anti-CCP positive group of patients, we also found a nominally significant association between RGS12 and the response to infliximab (rs2857859, uncorrected P=0.042).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25848939",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "TLR5, TLR1, FCGR2A, DHX32, RGS12"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "621218353a8413c653000013",
+  "type": "yesno",
+  "question": "Is REGN5458 a single-targeted antibody?",
+  "ideal_answer": "No, REGN5458 is a bispecific antibody.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33651100"
+  ],
+  "snippets": [
+    {
+      "text": "CD3-engaging bispecific antibodies (bsAbs) and chimeric antigen receptor (CAR) T cells are potent therapeutic approaches for redirecting patient T cells to recognize and kill tumors. Here we describe a fully human bsAb (REGN5458) that binds to B-cell maturation antigen (BCMA) and CD3, and compare its antitumor activities vs those of anti-BCMA CAR T cells to identify differences in efficacy and mechanism of action. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33651100",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

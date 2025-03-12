@@ -1,0 +1,52 @@
+{
+  "id": "56d1d14567f0cb3d66000003",
+  "type": "yesno",
+  "question": "Is there any algorithm for enhancer identification from chromatin state?",
+  "ideal_answer": "yes",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23526891",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22328731"
+  ],
+  "snippets": [
+    {
+      "text": "RFECS: a random-forest based algorithm for enhancer identification from chromatin state.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23526891",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "However, only a limited number of cell types or chromatin marks have previously been investigated for this purpose, leaving the question unanswered whether there exists an optimal set of histone modifications for enhancer prediction in different cell types. Here, we address this issue by exploring genome-wide profiles of 24 histone modifications in two distinct human cell types, embryonic stem cells and lung fibroblasts. We developed a Random-Forest based algorithm, RFECS (Random Forest based Enhancer identification from Chromatin States) to integrate histone modification profiles for identification of enhancers, and used it to identify enhancers in a number of cell-types. We show that RFECS not only leads to more accurate and precise prediction of enhancers than previous methods, but also helps identify the most informative and robust set of three chromatin marks for enhancer prediction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23526891",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We developed a Random-Forest based algorithm, RFECS (Random Forest based Enhancer identification from Chromatin States) to integrate histone modification profiles for identification of enhancers, and used it to identify enhancers in a number of cell-types.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23526891",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we address this issue by exploring genome-wide profiles of 24 histone modifications in two distinct human cell types, embryonic stem cells and lung fibroblasts. We developed a Random-Forest based algorithm, RFECS (Random Forest based Enhancer identification from Chromatin States) to integrate histone modification profiles for identification of enhancers, and used it to identify enhancers in a number of cell-types. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23526891",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ChromaGenSVM selects optimum combinations of specific histone epigenetic marks to predict enhancers. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22328731",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We developed a Random-Forest based algorithm, RFECS (Random Forest based Enhancer identification from Chromatin States) to integrate histone modification profiles for identification of enhancers, and used it to identify enhancers in a number of cell-types.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23526891",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000465"
+  ],
+  "exact_answer": "Yes"
+}

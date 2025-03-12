@@ -1,0 +1,64 @@
+{
+  "id": "5aa55b65d6d6b54f7900000e",
+  "type": "list",
+  "question": "Please list 6 symptoms of Scarlet fever.",
+  "ideal_answer": "Symptoms of scarlet fever include fever, rash, strawberry tongue and sore throat. In some cases other symptoms, angular stomatitis, tonsular exudate, and swollen lymph nodes are seen.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26585817",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29081840",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3619689",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26280141",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9339023",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1789905",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1919136"
+  ],
+  "snippets": [
+    {
+      "text": "A fever is likely to occur with roseola, erythema infectiosum (fifth disease), and scarlet fever.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26280141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The rash associated with scarlet fever usually develops on the upper trunk, then spreads throughout the body, sparing the palms and soles",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26280141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Scarlet fever consists in a diffuse exanthem associated with mucous changes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9339023",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cases of above-38 degrees C temperature were seen in about 81.4%, and from 2 to 5 days-duration of temperature were seen in 86.6% of the patients in the year 1976. Cases of above-moderate rash were observed in 68.2%, sever redness of throat in 29.9%, strawberry tongue in 86.3% and angular stomatitis in 37.7% of the patients",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1919136",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ulture supernatants of strains without a detectable amount of the known ETs were highly mitogenic, indicating the production of other streptococcal mitogens. A correlation with clinical symptoms was determined with regard to exanthema and fever. Strains producing two or three toxins caused a more intense exanthema. Patient temperature was higher (greater than or equal to 38 degrees C) when the infecting strain produced ETB.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1789905",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ") SI with a pronounced generalization including a pharyngeal one (31 cases), 4 of them with a rash (scarlet fever); extrapharyngeal (7 cases), 6 of them with a rash (scarlet fever); 2) SI without pronounced generalization (localized) including 33 cases with the involvement of the lungs and tonsilla and having an ordinary course and 11 cases of a sudden death. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3619689",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A total of 171 out of 252 scarlet fever diagnoses were microbiologically verified in 158 patients. The median age was 3.8 years (interquartile range: 2.91-4.78), with the majority (57%) under the age of 4 years. There was fever in 89% of the processes (95% CI: 84-94%), with a temperature of>38\u00b0C in 73% (95% CI: 65-80%), enlarged lymph nodes in 70% (95% CI: 58-82%), absence of cough in 73% (95% CI: 65-80%), and tonsillar exudate in only 24% (95% CI: 17-31%).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26585817",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D012541",
+    "http://www.disease-ontology.org/api/metadata/DOID:8596"
+  ],
+  "exact_answer": "fever, rash, sore throat, strawberry tongue, angular stomatitis, swollen lymph nodes"
+}

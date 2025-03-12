@@ -1,0 +1,25 @@
+{
+  "id": "5c6638717c78d69471000012",
+  "type": "yesno",
+  "question": "Is celecoxib effective for treatment of amyotrophic lateral sclerosis?",
+  "ideal_answer": "No. In clinical trial celecoxib did not have a beneficial effect on research subjects with ALS, and it was safe. A biological effect of celecoxib was not demonstrated in the cerebrospinal fluid. Further studies of celecoxib at a dosage of 800 mg/day in ALS were not recommended.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16802291"
+  ],
+  "snippets": [
+    {
+      "text": "NTERPRETATION: At the dosage studied, celecoxib did not have a beneficial effect on research subjects with ALS, and it was safe. A biological effect of celecoxib was not demonstrated in the cerebrospinal fluid. Further studies of celecoxib at a dosage of 800 mg/day in ALS are not warranted.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16802291",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Prostaglandin E(2) levels in cerebrospinal fluid were not elevated at baseline and did not decline with treatment.<br><b>INTERPRETATION</b>: At the dosage studied, celecoxib did not have a beneficial effect on research subjects with ALS, and it was safe.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16802291",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

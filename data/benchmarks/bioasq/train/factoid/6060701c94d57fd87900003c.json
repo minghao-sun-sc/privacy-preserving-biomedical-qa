@@ -1,0 +1,25 @@
+{
+  "id": "6060701c94d57fd87900003c",
+  "type": "factoid",
+  "question": "Which R/bioconductor package exists for discovery of intergenic transcripts?",
+  "ideal_answer": "To increase the power of transcript discovery from large collection of RNA-seq data sets, a novel '1-Step' approach named pooling RNA-Seq and Assembling Models (PRAM) has been developed that build transcript models from pooled RNA- sequencing data sets. PRAM is implemented as an R/Bioconductor package.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32958497"
+  ],
+  "snippets": [
+    {
+      "text": "PRAM: a novel pooling approach for discovering intergenic transcripts from large-scale RNA sequencing experiments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32958497",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Publicly available RNA-seq data is routinely used for retrospective analysis to elucidate new biology. Novel transcript discovery enabled by joint analysis of large collections of RNA-seq data sets has emerged as one such analysis. Current methods for transcript discovery rely on a '2-Step' approach where the first step encompasses building transcripts from individual data sets, followed by the second step that merges predicted transcripts across data sets. To increase the power of transcript discovery from large collections of RNA-seq data sets, we developed a novel '1-Step' approach named Pooling RNA-seq and Assembling Models (PRAM) that builds transcript models from pooled RNA-seq data sets. We demonstrate in a computational benchmark that 1-Step outperforms 2-Step approaches in predicting overall transcript structures and individual splice junctions, while performing competitively in detecting exonic nucleotides. Applying PRAM to 30 human ENCODE RNA-seq data sets identified unannotated transcripts with epigenetic and RAMPAGE signatures similar to those of recently annotated transcripts. In a case study, we discovered and experimentally validated new transcripts through the application of PRAM to mouse hematopoietic RNA-seq data sets. We uncovered new transcripts that share a differential expression pattern with a neighboring gene Pik3cg implicated in human hematopoietic phenotypes, and we provided evidence for the conservation of this relationship in human. PRAM is implemented as an R/Bioconductor package.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32958497",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "PRAM, Pooling RNA-seq and Assembling Models"
+}

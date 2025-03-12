@@ -1,0 +1,25 @@
+{
+  "id": "531e2695267d7dd05300000f",
+  "type": "factoid",
+  "question": "What is the localization of the protein encoded by the gene DNAJC11?",
+  "ideal_answer": "mitochondrial inner membrane",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17624330"
+  ],
+  "snippets": [
+    {
+      "text": " DnaJC11, respectively. The first three are outer membrane proteins, CHCHD3 has been assigned to the matrix space, and the other two proteins have not been described in mitochondria previously.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17624330",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/DJC11_PONAB",
+    "http://www.uniprot.org/uniprot/DJC11_DICDI",
+    "http://www.uniprot.org/uniprot/DJC11_HUMAN",
+    "http://www.uniprot.org/uniprot/DJC11_MOUSE",
+    "http://www.uniprot.org/uniprot/DJC11_BOVIN"
+  ],
+  "exact_answer": "mitochondrial inner membrane"
+}

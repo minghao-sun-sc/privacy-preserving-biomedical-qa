@@ -1,0 +1,29 @@
+{
+  "id": "5a7607f683b0d9ea66000014",
+  "type": "yesno",
+  "question": "Is Drk essential for anesthesia-resistant memory (ARM) in Drosophila?",
+  "ideal_answer": "Yes. Drk, the Drosophila ortholog of the adaptor protein Grb2, is essential for ARM within adult mushroom body neurons in Drosophila.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28973902"
+  ],
+  "snippets": [
+    {
+      "text": "Anesthesia-resistant memory (ARM) was described decades ago, but the mechanisms that underlie this protein synthesis-independent form of consolidated memory inDrosophilaremain poorly understood. Whether the several signaling molecules, receptors, and synaptic proteins currently implicated in ARM operate in one or more pathways and how they function in the process remain unclear. We present evidence that Drk, theDrosophilaortholog of the adaptor protein Grb2, is essential for ARM within adult mushroom body neurons.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28973902",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present evidence that Drk, the Drosophila ortholog of the adaptor protein Grb2, is essential for ARM within adult mushroom body neurons.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28973902",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D004331",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D004330",
+    "http://amigo.geneontology.org/amigo/term/GO:0007615"
+  ],
+  "exact_answer": "Yes"
+}

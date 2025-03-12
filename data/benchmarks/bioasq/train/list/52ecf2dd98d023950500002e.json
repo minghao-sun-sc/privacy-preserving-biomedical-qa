@@ -1,0 +1,48 @@
+{
+  "id": "52ecf2dd98d023950500002e",
+  "type": "list",
+  "question": "Which deiodinase polymorphisms are implicated in arterial hypertension?",
+  "ideal_answer": "Two deiodinase polymorphisms are implicated in arterial hypertension: Ala92 type 2 deiodinase allele and rs7140952 polymorphism of DIO2",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21415143",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17224473",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19178511",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18198294",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23329579",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19014646"
+  ],
+  "snippets": [
+    {
+      "text": "However, rs7140952 polymorphism is associated with components of metabolic syndrome including blood pressure and central obesity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23329579",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Among euthyroid adults, the common Ala92 allele of the type 2 iodothyronine deiodinase increases risk for the development of hypertension. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17224473",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ala92 type 2 deiodinase allele increases risk for the development of hypertension.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17224473",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "This study investigates the clinical and biochemical response to L-T4 replacement therapy in hypothyroid patients in correlation with genetic variation in Deiodinase type || (DIO2) gene. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23329579",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:10825",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006973",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007453",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011110",
+    "http://www.disease-ontology.org/api/metadata/DOID:10763"
+  ],
+  "exact_answer": "rs7140952 polymorphism of DIO2, rs7140952, Ala92 type 2 deiodinase allele, DIO 2 Thr92Ala"
+}

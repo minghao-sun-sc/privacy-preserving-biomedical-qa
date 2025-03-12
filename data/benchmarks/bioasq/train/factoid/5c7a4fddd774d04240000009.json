@@ -1,0 +1,47 @@
+{
+  "id": "5c7a4fddd774d04240000009",
+  "type": "factoid",
+  "question": "How rare are CTCs (circulating tumour cells) in the plasma of patients?",
+  "ideal_answer": "Circulating tumour cells (CTCs) are significantly rare entity in the blood of patients with non-small cell lung cancer (NSCLC) patients as well as in other types of cancer. Small-cell lung cancer cells are typically quiescent, whereas CTCs can be up-regulated in response to radiation or chemical agents and may contribute to tumorigenesis as an endogenous red cell marker.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25808775",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30442398",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30345741",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19410375",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20155985"
+  ],
+  "snippets": [
+    {
+      "text": "We have focused on breast cancer as most clinical studies on CTC detection so far have been done in these patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19410375",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, largely because of the extremely low number of CTCs (as low as 1 in 10(9) hematologic cells) in the blood of patients, effective detection and separation of the rare cells remain a tremendous challenge.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20155985",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, selective capture and quantification of CTCs from whole blood was still full of challenge due to the extremely scare number of CTCs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30345741",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, the IMNs were successfully applied to the isolation and detection of CTCs in cancer patient peripheral blood samples and as low as one CTC in the whole blood was captured and identified by the ICC method.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30442398",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This study reports a microfluidic-based optical sensing device for label-free detection of circulating tumor cells (CTCs), a rare cell species in blood circulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25808775",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "1 in 10 to 9th, 1e-9, 1 in 10^9"
+}

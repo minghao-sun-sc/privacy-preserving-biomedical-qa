@@ -1,0 +1,34 @@
+{
+  "id": "5e480ccfd14c9f295d000005",
+  "type": "yesno",
+  "question": "Is g-H2AX a marker for double strand breaks?",
+  "ideal_answer": "Yes,\nThe specific phosphorylation of histone H2AX on serine residue 139, described as g-H2AX, is an excellent indicator or marker of DNA double-strand breaks (DSBs).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29053406",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29540258",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29462394",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29352998"
+  ],
+  "snippets": [
+    {
+      "text": "The specific phosphorylation of histone H2AX on serine residue 139, described as \u03b3-H2AX, is an excellent indicator or marker of DNA double-strand breaks (DSBs). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29053406",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "expression of the DNA double-strand break marker gamma-H2AX (\u03b3H2AX) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29462394",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "pH2AX, a marker of the DNA double-strand break (DSB)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29540258",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

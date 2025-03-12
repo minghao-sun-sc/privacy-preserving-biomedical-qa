@@ -1,0 +1,33 @@
+{
+  "id": "63eefa3bf36125a426000012",
+  "type": "factoid",
+  "question": "What causes Japanese Spotted Fever?",
+  "ideal_answer": "Japanese Spotted Fever is caused by Rickettsia japonica.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35507925",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36016429",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32863353"
+  ],
+  "snippets": [
+    {
+      "text": "Non-pathogenic Rickettsia species LON strains closely related to an agent of Japanese spotted fever (JSF), R. japonica, were isolated in Japan from Haemaphysalis longicornis ticks in 2001. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32863353",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Severe fever with thrombocytopenia syndrome (SFTS) and Japanese spotted fever (JSF; a spotted fever group rickettsiosis) are tick-borne zoonoses that are becoming a significant public health threat in Japan and East Asia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36016429",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rickettsia japonica is a member of SFG rickettsiae causing Japanese spotted fever (JSF) and can transmit to humans via infected ticks. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35507925",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Rickettsia japonica"
+}

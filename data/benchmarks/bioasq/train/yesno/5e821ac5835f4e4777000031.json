@@ -1,0 +1,33 @@
+{
+  "id": "5e821ac5835f4e4777000031",
+  "type": "yesno",
+  "question": "Is endotrophin derived from collagen?",
+  "ideal_answer": "Yes,\nEndotrophin is released from COL VI.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29175445",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30246318",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29229941"
+  ],
+  "snippets": [
+    {
+      "text": "endotrophin production from type IV collagen",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29175445",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "High levels of COL6A3 and its cleaved product, endotrophin (ETP)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30246318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Endotrophin is released from COL VI",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29229941",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

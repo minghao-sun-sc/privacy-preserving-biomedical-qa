@@ -1,0 +1,90 @@
+{
+  "id": "5a895f51fcd1d6a10c000004",
+  "type": "factoid",
+  "question": "What is the preferred orientation of CTCF binding sites for chromatin looping?",
+  "ideal_answer": "chromatin loops preferentially form between CTCF binding sites oriented in a convergent manner. CTCF sites at loop anchors occur predominantly (>90%) in a convergent orientation, with the asymmetric motifs \"facing\" one another.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26276636",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26499245",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26527277",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27940490",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28536180",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25497547"
+  ],
+  "snippets": [
+    {
+      "text": "Recent reports have suggested that CTCF binding is more dynamic during development than previously appreciated",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28536180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Conversely, CTCF binding sites in NPCs are largely preexisting in pluripotent stem cells. Only a small number of CTCF sites arise de novo in NPCs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28536180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Moreover, siRNA knockdown ofYy1specifically disrupts interactions between key NPC enhancers and their target genes. YY1-mediated interactions between NPC regulatory elements are often nested within constitutive loops anchored by CTCF",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28536180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "As recently reported, our data also suggest that chromatin loops preferentially form between CTCF binding sites oriented in a convergent manner",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26527277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In all instances, CTCF and cohesin recruitment were lost, and chromatin loops with distal, convergent CTCF sites were disrupted or destabilized.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26527277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Re-insertion of oppositely oriented CTCF recognition sequences restored CTCF and cohesin recruitment, but did not re-establish chromatin loops.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26527277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent studies identified a correlation between the orientation of CTCF-binding sites (CBSs) and chromatin loops.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26276636",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CRISPR Inversion of CTCF Sites Alters Genome Topology and Enhancer/Promoter Function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26276636",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "CTCF sites at loop anchors occur predominantly (>90%) in a convergent orientation, with the asymmetric motifs \"facing\" one another. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25497547",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "As recently reported, our data also suggest that chromatin loops preferentially form between CTCF binding sites oriented in a convergent manner.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26527277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ccctc binding factor ctcf is an architectural protein involved in the three dimensional 3d organization of chromatin in this study we assayed the 3d genomic contact profiles of a large number of ctcf binding sites with high resolution 4c seq as recently reported our data also suggest that chromatin loops preferentially form between ctcf binding sites oriented in a convergent manner to directly test this we used crispr cas9 genome editing to delete core ctcf binding sites in three loci including the ctcf site in the sox2 super enhancer in all instances ctcf and cohesin recruitment were lost and chromatin loops with distal convergent ctcf sites were disrupted or destabilized re insertion of oppositely oriented ctcf recognition sequences restored ctcf and cohesin recruitment but did not re establish chromatin loops we conclude that ctcf binding polarity plays a functional role in the formation of higher order chromatin structure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26527277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we recently used in situ hi c to create kilobase resolution 3d maps of mammalian genomes here we combine these maps with new hi c microscopy and genome editing experiments to study the physical structure of chromatin fibers domains and loops we find that the observed contact domains are inconsistent with the equilibrium state for an ordinary condensed polymer combining hi c data and novel mathematical theorems we show that contact domains are also not consistent with a fractal globule instead we use physical simulations to study two models of genome folding in one intermonomer attraction during polymer condensation leads to formation of an anisotropic tension globule in the other ccctc binding factor ctcf and cohesin act together to extrude unknotted loops during interphase both models are consistent with the observed contact domains and with the observation that contact domains tend to form inside loops however the extrusion model explains a far wider array of observations such as why loops tend not to overlap and why the ctcf binding motifs at pairs of loop anchors lie in the convergent orientation finally we perform 13 genome editing experiments examining the effect of altering ctcf binding sites on chromatin folding the convergent rule correctly predicts the affected loops in every case moreover the extrusion model accurately predicts in silico the 3d maps resulting from each experiment using only the location of ctcf binding sites in the wt thus we show that it is possible to disrupt restore and move loops and domains using targeted mutations as small as a single base pair.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26499245",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "convergent, Convergent orientation"
+}

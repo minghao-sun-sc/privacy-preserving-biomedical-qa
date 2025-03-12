@@ -1,0 +1,41 @@
+{
+  "id": "56ae70050a360a5e4500000f",
+  "type": "factoid",
+  "question": "What is the role of the RUNX1-MYEF2 complex?",
+  "ideal_answer": "A novel complex, RUNX1-MYEF2, represses hematopoietic genes in erythroid cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22801375"
+  ],
+  "snippets": [
+    {
+      "text": "A novel complex, RUNX1-MYEF2, represses hematopoietic genes in erythroid cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22801375",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Functional analysis shows that a subset of the target genes is suppressed by RUNX1 via the newly identified partner MYEF2. Knockdown of Myef2 expression in developing zebrafish results in a reduced number of HSC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22801375",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Functional analysis shows that a subset of the target genes is suppressed by RUNX1 via the newly identified partner MYEF2. Knockdown of Myef2 expression in developing zebrafish results in a reduced number of HSC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22801375",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chromatin immunoprecipitation followed by sequencing (ChIP-seq) and microarray expression analysis were used to show that RUNX1 binds approximately 9,000 target sites in erythroid cells and is primarily active in the undifferentiated state. Functional analysis shows that a subset of the target genes is suppressed by RUNX1 via the newly identified partner MYEF2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22801375",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D041905",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015672",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006412"
+  ],
+  "exact_answer": "The repression of hematopoietic genes in erythroid cells."
+}

@@ -1,0 +1,65 @@
+{
+  "id": "589480b47d9090f353000007",
+  "type": "factoid",
+  "question": "Which server is used for simulation of macromolecular diffusional association?",
+  "ideal_answer": "Macromolecular interactions play a crucial role in biological systems. Simulation of diffusional association (SDA) is a software for carrying out Brownian dynamics simulations that can be used to study the interactions between two or more biological macromolecules. webSDA allows users to run Brownian dynamics simulations with SDA to study bimolecular association and encounter complex formation, to compute association rate constants, and to investigate macromolecular crowding using atomically detailed macromolecular structures. webSDA facilitates and automates the use of the SDA software, and offers user-friendly visualization of results.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25883142"
+  ],
+  "snippets": [
+    {
+      "text": "webSDA: a web server to simulate macromolecular diffusional association.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25883142",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Macromolecular interactions play a crucial role in biological systems. Simulation of diffusional association (SDA) is a software for carrying out Brownian dynamics simulations that can be used to study the interactions between two or more biological macromolecules. webSDA allows users to run Brownian dynamics simulations with SDA to study bimolecular association and encounter complex formation, to compute association rate constants, and to investigate macromolecular crowding using atomically detailed macromolecular structures. webSDA facilitates and automates the use of the SDA software, and offers user-friendly visualization of results.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25883142",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "webSDA currently has three modules: 'SDA docking' to generate structures of the diffusional encounter complexes of two macromolecules, 'SDA association' to calculate bimolecular diffusional association rate constants, and 'SDA multiple molecules' to simulate the diffusive motion of hundreds of macromolecules.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25883142",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Simulation of diffusional association (SDA) is a software for carrying out Brownian dynamics simulations that can be used to study the interactions between two or more biological macromolecules. webSDA allows users to run Brownian dynamics simulations with SDA to study bimolecular association and encounter complex formation, to compute association rate constants, and to investigate macromolecular crowding using atomically detailed macromolecular structures. webSDA facilitates and automates the use of the SDA software, and offers user-friendly visualization of results. webSDA currently has three modules: SDA docking to generate structures of the diffusional encounter complexes of two macromolecules, SDA association to calculate bimolecular diffusional association rate constants, and SDA multiple molecules to simulate the diffusive motion of hundreds of macromolecules.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25883142",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "webSDA: a web server to simulate macromolecular diffusional association",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25883142",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "webSDA: a web server to simulate macromolecular diffusional association.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25883142",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "webSDA allows users to run Brownian dynamics simulations with SDA to study bimolecular association and encounter complex formation, to compute association rate constants, and to investigate macromolecular crowding using atomically detailed macromolecular structures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25883142",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "webSDA currently has three modules: 'SDA docking' to generate structures of the diffusional encounter complexes of two macromolecules, 'SDA association' to calculate bimolecular diffusional association rate constants, and 'SDA multiple molecules' to simulate the diffusive motion of hundreds of macromolecules.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25883142",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056004",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003198",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D039301"
+  ],
+  "exact_answer": "webSDA"
+}

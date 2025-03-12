@@ -1,0 +1,68 @@
+{
+  "id": "5ad4eddf133db5eb78000009",
+  "type": "list",
+  "question": "List the main PPI databases.",
+  "ideal_answer": "PPIM,\nHPRD,\nSTRING,\nDAPID,\nMIPS,\nINTERACT,\nBioGRID",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27492077",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25622637",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10786290",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27980099",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17503393",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26228302",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15531608",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26620522"
+  ],
+  "snippets": [
+    {
+      "text": "PPIM: A Protein-Protein Interaction Database for Maize.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26620522",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " experimentally validated human protein-protein interaction database, HPRD (interactome) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27492077",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "STRING Protein-Protein interaction database",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26228302",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "human protein-protein interaction database HPRD ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25622637",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DAPID: a 3D-domain annotated protein-protein interaction database.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17503393",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The MIPS mammalian protein-protein interaction database (MPPI) is a new resource of high-quality experimental protein interaction data in mammals. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15531608",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "INTERACT: an object oriented protein-protein interaction database.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10786290",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The BioGRID interaction database",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27980099",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "PPIM, HPRD, STRING, DAPID, MIPS, INTERACT, BioGRID"
+}

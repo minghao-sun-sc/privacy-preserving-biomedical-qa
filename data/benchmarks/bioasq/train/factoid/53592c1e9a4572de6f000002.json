@@ -1,0 +1,40 @@
+{
+  "id": "53592c1e9a4572de6f000002",
+  "type": "factoid",
+  "question": "Which value of nuchal translucency thickness is set as the threshold for high-risk for Down Syndrome?",
+  "ideal_answer": "NT is physiological for a measurement < 3 mm but the incidence of chromosomal abnormalities (essentially trisomies 21, 18 and 13) increases when NT > or = 3 mm. As women aged, this upper NT threshold value changed according to gestational age. In women aged 35 to 37 years, combined prenatal screening was always positive when NT exceeded 2.8 mm, 3.0 mm, and 3.4 mm at 11, 12, and 13 weeks of gestation, respectively.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18461550",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19416569",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16912493",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18726925",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9471429"
+  ],
+  "snippets": [
+    {
+      "text": "Combined prenatal screening was always positive for Down syndrome when NT thickness exceeded 4.0 mm",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19416569",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In women aged 35 to 37 years, combined prenatal screening was always positive when NT exceeded 2.8 mm, 3.0 mm, and 3.4 mm at 11, 12, and 13 weeks of gestation, respectively",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19416569",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "NT is physiological for a measurement < 3 mm but the incidence of chromosomal abnormalities (essentially trisomies 21, 18 and 13) increases when NT > or = 3 mm",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9471429",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004314",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018566",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048208",
+    "http://www.disease-ontology.org/api/metadata/DOID:14250"
+  ],
+  "exact_answer": "3mm"
+}

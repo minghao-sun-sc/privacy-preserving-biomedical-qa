@@ -1,0 +1,59 @@
+{
+  "id": "5312f0f0e3eabad02100000d",
+  "type": "summary",
+  "question": "What is the mechanism of action of DNA topoisomerase II inhibitors?",
+  "ideal_answer": "DNA topoisomerase II inhibitors eliminate cancer cells by causing DNA double-strand breaks, finally leading to apoptotic cell death. Moreover, drug-induced histone eviction was also shown to be associated with attenuated DNA repair, epigenetic changes and transcpription deregulation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23715267",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8824770"
+  ],
+  "snippets": [
+    {
+      "text": "DNA topoisomerase II inhibitors are a major class of cancer chemotherapeutics, which are thought to eliminate cancer cells by inducing DNA double-strand breaks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23715267",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show that anthracyclines promote histone eviction irrespective of their ability to induce DNA double-strand breaks. The histone variant H2AX, which is a key component of the DNA damage response, is also evicted by anthracyclines, and H2AX eviction is associated with attenuated DNA repair.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23715267",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Induction of apoptotic cell death by DNA topoisomerase II inhibitors",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8824770",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The results we have obtained clearly indicate that topoisomerase II poisons induce cell death by apoptosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8824770",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone eviction deregulates the transcriptome in cancer cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23715267",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We define a novel mechanism of action of anthracycline anticancer drugs doxorubicin and daunorubicin on chromatin biology, with important consequences for DNA damage responses, epigenetics, transcription",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23715267",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0008657",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D059003",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0003918",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D059005",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0003916",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0008156",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:2000371",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004250",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D026942"
+  ]
+}

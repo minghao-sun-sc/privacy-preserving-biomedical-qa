@@ -1,0 +1,73 @@
+{
+  "id": "5cf4ea83a49efeb44c00000d",
+  "type": "summary",
+  "question": "What is the basis of the capture Hi-C experimental protocol?",
+  "ideal_answer": "Capture Hi-C (CHi-C) allows high-resolution analysis of targeted regions of the genome by incorporating a sequence capture step into a Hi-C protocol. Capture Hi-C (CHi-C) enriches standard Hi-C libraries for regions of biological interest, for example by specifically targeting gene promoters, aiding identification of biologically significant chromatin interactions compared to conventional Hi-C, for an equivalent number of sequence reads",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25938943",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26616563",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25695508",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29531215",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25122612",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29979818",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30224643",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30010637"
+  ],
+  "snippets": [
+    {
+      "text": " We use Capture Hi-C to investigate, for the first time, the interactions between associated variants for four autoimmune diseases and their functional targets in B- and T-cell lines.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26616563",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chromosome conformation capture implemented in Hi-C allows for genome-wide agnostic characterization of chromatin contacts. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25695508",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we develop a capture Hi-C (cHi-C) approach to allow an agnostic characterization of these physical interactions on a genome-wide scale. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25695508",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Capture Hi-C (CHi-C), which, by incorporating a sequence capture step into a Hi-C protocol, allows high-resolution analysis of targeted regions of the genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25122612",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we use Capture Hi-C (CHi-C), an adapted genome conformation assay, to examine the long-range interactions of almost 22,000 promoters in 2 human blood cell types.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25938943",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we use high-throughput chromosome conformation capture techniques (Hi-C) for 19,023 promoter fragments to catalog the regulatory landscape of colorectal cancer in cell lines, mapping CREs and integrating these with whole-genome sequence and expression data from The Cancer Genome Atlas7,8",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30224643",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To address this, Capture Hi-C (CHi-C) enriches standard Hi-C libraries for regions of biological interest, for example by specifically targeting gene promoters, aiding identification of biologically significant chromatin interactions compared to conventional Hi-C, for an equivalent number of sequence reads",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29979818",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We developed Promoter Capture Hi-C (PCHi-C) to enable the genome-wide detection of distal promoter-interacting regions (PIRs), for all promoters in a single experiment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30010637",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we use Capture Hi-C (CHi-C) to annotate 63 loci; we identify 110 putative target genes at 33 loci. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29531215",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

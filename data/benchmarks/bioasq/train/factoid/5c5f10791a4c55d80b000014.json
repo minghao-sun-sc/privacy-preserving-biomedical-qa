@@ -1,0 +1,33 @@
+{
+  "id": "5c5f10791a4c55d80b000014",
+  "type": "factoid",
+  "question": "What is the function of PAPOLA/PAP?",
+  "ideal_answer": "Poly(A)polymerase-alpha (PAPOLA) has been the most extensively investigated mammalian polyadenylating enzyme, mainly in regard to its multifaceted post-translational regulation. PolyA polymerase (PAP) adds a polyA tail onto the 3'-end of RNAs without a nucleic acid template, using adenosine-5'-triphosphate (ATP) as a substrate.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21300291",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20174964",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15909992"
+  ],
+  "snippets": [
+    {
+      "text": "Poly(A)polymerase-alpha (PAPOLA) has been the most extensively investigated mammalian polyadenylating enzyme, mainly in regard to its multifaceted post-translational regulation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20174964",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PolyA polymerase (PAP) adds a polyA tail onto the 3'-end of RNAs without a nucleic acid template, using adenosine-5'-triphosphate (ATP) as a substrate. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21300291",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Polyadenylate polymerase (PAP) catalyzes the synthesis of 3'-polyadenylate tails onto mRNA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15909992",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "PolyA polymerase (PAP) adds a polyA tail onto the 3'-end of RNAs without a nucleic acid template, using adenosine-5'-triphosphate (ATP) as a substrate."
+}

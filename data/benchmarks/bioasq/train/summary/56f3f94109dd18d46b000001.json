@@ -1,0 +1,53 @@
+{
+  "id": "56f3f94109dd18d46b000001",
+  "type": "summary",
+  "question": "What is the methodological principle of ChIA-PET?",
+  "ideal_answer": "Chromatin interaction analysis with paired-end tag sequencing (ChIA-PET) is a new technology to study genome-wide long-range chromatin interactions bound by protein factors. To minimize non-specific noise and reduce complexity, as well as to increase the specificity of the chromatin interaction analysis, chromatin immunoprecipitation (ChIP) is used against specific protein factors to enrich chromatin fragments of interest before proximity ligation. Combining Chromatin Immunoprecipitation (ChIP), proximity ligation and high-throughput sequencing, ChIA-PET provides a global and unbiased interrogation of higher-order chromatin structures associated with specific protein factors. Here, we propose a statistical model taking into account the genomic distance relationship, as well as the general propensity of anchors to be involved in contacts overall.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20181287",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25563301",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22564980",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22926262",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24051548",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25114054"
+  ],
+  "snippets": [
+    {
+      "text": "Overall we show that ChIA-PET is the cornerstone to explore the three-dimensional (3D) chromatin structure, and certainly will lead the forthcoming wave of 3D genomics studies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25563301",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chromatin interaction analysis with paired-end tag sequencing (ChIA-PET) is a new technology to study genome-wide long-range chromatin interactions bound by protein factors. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20181287",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chromatin Interaction Analysis using Paired-End Tag sequencing (ChIA-PET) is a method which converts functional chromatin structure into millions of short tag sequences. Combining Chromatin Immunoprecipitation (ChIP), proximity ligation and high-throughput sequencing, ChIA-PET provides a global and unbiased interrogation of higher-order chromatin structures associated with specific protein factors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22926262",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chromatin Interaction Analysis by Paired-End Tag Sequencing (ChIA-PET) was developed to identify these higher-order chromatin structures",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22564980",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " ChIA-PET is a novel method to identify such interactions, where physical contacts between regions bound by a specific protein are quantified using next-generation sequencing. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25114054",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Proximity ligation assays commonly known as chromosome conformation capture (3C) and 3C based methodologies (e.g., GCC, HiC and ChIA-Pet) are increasingly being incorporated into empirical studies to investigate the role that three-dimensional genome structure plays in the regulation of phenotype.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24051548",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

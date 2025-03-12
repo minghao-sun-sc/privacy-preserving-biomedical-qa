@@ -1,0 +1,25 @@
+{
+  "id": "5e2deb35fbd6abf43b00001c",
+  "type": "factoid",
+  "question": "Which method has been developed for mapping of Transcription Start Sites (TSS) starting from nanograms of RNA?",
+  "ideal_answer": "SLIC-CAGE has been developed as a method to identify transcriptome-wide the binding sites of transcription start sites (TSSs) using a simple two-step protocol with 500-50,000 cells and reveals the interplay between genomic locations of DNA-binding proteins, transcription, individual nucleosomes and transcriptional starting sites.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30404778"
+  ],
+  "snippets": [
+    {
+      "text": "SLIC-CAGE: high-resolution transcription start site mapping using nanogram-levels of total RNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30404778",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Cap analysis of gene expression (CAGE) is a methodology for genome-wide quantitative mapping of mRNA 5' ends to precisely capture transcription start sites at a single nucleotide resolution. In combination with high-throughput sequencing, CAGE has revolutionized our understanding of the rules of transcription initiation, led to discovery of new core promoter sequence features, and discovered transcription initiation at enhancers genome-wide. The biggest limitation of CAGE is that even the most recently improved version (nAnT-iCAGE) still requires large amounts of total cellular RNA (5 \u00b5g), preventing its application to scarce biological samples such as those from early embryonic development or rare cell types. Here, we present SLIC-CAGE, a Super-Low Input Carrier-CAGE approach to capture 5' ends of RNA polymerase II transcripts from as little as 5-10 ng of total RNA. This dramatic increase in sensitivity is achieved by specially designed, selectively degradable carrier RNA. We demonstrate the ability of SLIC-CAGE to generate data for genome-wide promoterome with 1000-fold less material than required by existing CAGE methods, by generating a complex, high-quality library from mouse embryonic day 11.5 primordial germ cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30404778",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "SLIC-CAGE"
+}

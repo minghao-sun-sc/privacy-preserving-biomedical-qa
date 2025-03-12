@@ -1,0 +1,37 @@
+{
+  "id": "535d75ab7d100faa09000004",
+  "type": "yesno",
+  "question": "Is TENS machine effective in pain?",
+  "ideal_answer": "Transcutaneous electrical nerve stimulation is widely used in pain management",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/7644247",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17333874"
+  ],
+  "snippets": [
+    {
+      "text": "Transcutaneous electrical nerve stimulation is widely used in pain management but its effectiveness depends on the stimulation being targeted appropriately",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17333874",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "hypoalgesic effects of transcutaneous electrical nerve stimulation upon experimentally induced ischaemic pain.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7644247",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The results of this study have provided evidence of the hypoalgesic effects of TENS upon experimental ischaemic pain which were found to be frequency specific with the lower frequency used here (4 Hz) demonstrating the only significant effect",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7644247",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018710",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D010146",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D059350",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004561"
+  ],
+  "exact_answer": "Yes"
+}

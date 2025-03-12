@@ -1,0 +1,47 @@
+{
+  "id": "56b1f4300a360a5e4500001b",
+  "type": "factoid",
+  "question": "Which peptide plays a pivotal role in human cystatin C fibrillization?",
+  "ideal_answer": "Human cystatin C (HCC) is a low molecular weight member of the cystatin family (type2). HCC consists of 120 amino acids. Normally it is an inhibitor of cysteine proteases, but in pathological conditions it forms amyloid fibrils in brain arteries of young adults. An 'aggregation-prone' pentapeptide ((47)LQVVR(51)) was located within the HCC sequence using AmylPred, an 'aggregation-prone' peptide prediction algorithm developed in our lab. This peptide was synthesized and self-assembled into amyloid-like fibrils in vitro, as electron microscopy, X-ray fiber diffraction, Attenuated Total Reflectance Fourier-Transform Spectroscopy and Congo red staining studies reveal. Thus, the (47)LQVVR(51) peptide seems to have an important role in HCC fibrillization.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25479090"
+  ],
+  "snippets": [
+    {
+      "text": "Human cystatin C (HCC) is a low molecular weight member of the cystatin family (type2). HCC consists of 120 amino acids. Normally it is an inhibitor of cysteine proteases, but in pathological conditions it forms amyloid fibrils in brain arteries of young adults. An 'aggregation-prone' pentapeptide ((47)LQVVR(51)) was located within the HCC sequence using AmylPred, an 'aggregation-prone' peptide prediction algorithm developed in our lab. This peptide was synthesized and self-assembled into amyloid-like fibrils in vitro, as electron microscopy, X-ray fiber diffraction, Attenuated Total Reflectance Fourier-Transform Spectroscopy and Congo red staining studies reveal. Thus, the (47)LQVVR(51) peptide seems to have an important role in HCC fibrillization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25479090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The pentapeptide LQVVR plays a pivotal role in human cystatin C fibrillization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25479090",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "the (47)LQVVR(51) peptide seems to have an important role in HCC fibrillization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25479090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thus, the (47)LQVVR(51) peptide seems to have an important role in HCC fibrillization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25479090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/CYT_COTJA",
+    "http://www.uniprot.org/uniprot/CYT_CHICK",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015891",
+    "http://www.uniprot.org/uniprot/CYT_MICIK",
+    "http://www.biosemantics.org/jochem#4262068",
+    "http://www.biosemantics.org/jochem#4262069",
+    "http://www.uniprot.org/uniprot/CYT_NAJKA",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D055316",
+    "http://www.uniprot.org/uniprot/CYT_CYPCA"
+  ],
+  "exact_answer": "LQVVR"
+}

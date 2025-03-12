@@ -1,0 +1,33 @@
+{
+  "id": "603400051cb411341a00014e",
+  "type": "yesno",
+  "question": "Is histone variant H3.3K27M associated with gliomas?",
+  "ideal_answer": "Yes,\nDiffuse intrinsic pontine gliomas (DIPG) are the most aggressive brain tumors in children with 5-year survival rates of only 2%. About 85% of all DIPG are characterized by a lysine-to-methionine substitution in histone 3, which leads to global H3K27 hypomethylation accompanied by H3K27 hyperacetylation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32647372",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33155136",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32826850"
+  ],
+  "snippets": [
+    {
+      "text": "Reciprocal H3.3 gene editing identifies K27M and G34R mechanisms in pediatric glioma including NOTCH signaling.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32647372",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Well-known oncohistones, with mutations on both H3.1 and H3.3, include H3K36M in chondroblastoma, H3K27M in glioma",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33155136",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Diffuse intrinsic pontine gliomas (DIPG) are the most aggressive brain tumors in children with 5-year survival rates of only 2%. About 85% of all DIPG are characterized by a lysine-to-methionine substitution in histone 3, which leads to global H3K27 hypomethylation accompanied by H3K27 hyperacetylation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32826850",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

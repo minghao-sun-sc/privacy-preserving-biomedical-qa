@@ -1,0 +1,75 @@
+{
+  "id": "516281e6298dcd4e51000040",
+  "type": "list",
+  "question": "Global quantitative phosphoproteomic analyses are emerging. List the preferred technologies for the enrichment for phosphorylated peptides?",
+  "ideal_answer": "There are many different approaches to enrich for phosphorylated peptides: titanium dioxide, IMAC, simple derivatization through phosphoramidate chemistry and antibodies.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22345495",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20340162",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22369663",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20927383",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22499768",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21822884",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22499769",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23485197",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22906719",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17372656"
+  ],
+  "snippets": [
+    {
+      "text": "TiSH--a robust and sensitive global phosphoproteomics strategy employing a combination of TiO2, SIMAC, and HILIC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22906719",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "An initial TiO(2) phosphopeptide pre-enrichment step is followed by post-fractionation using sequential elution from IMAC (SIMAC) to separate multi- and mono-phosphorylated peptides, and hydrophilic interaction liquid chromatography (HILIC) of the mono-phosphorylated peptides (collectively abbreviated \"TiSH\").",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22906719",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "After enrichment by anti-phosphotyrosine antibodies, we identified 29 potential novel c-Src substrate proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22499769",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Combining immunoprecipitation with an antiphosphotyrosine antibody, titanium dioxide phosphopeptide enrichment, isobaric tag for the relative and absolute quantitation methodology, and strong cation exchange separation, we were able to identify 2814 phosphopeptides.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22499768",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Phosphopeptide fractionation by strong cation exchange chromatography combined with immobilized metal affinity chromatography (IMAC) enrichment enabled quantification of more than 8000 distinct phosphorylation sites in Ppt1 wild-type versus Ppt1-deficient yeast cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22369663",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "By employing titanium dioxide in addition to antiphosphotyrosine antibodies as enrichment methods, we identified 4164 phosphopeptides on 1670 phosphoproteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22345495",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Our method combines the use of strong cation exchange (SCX) and titanium dioxide (TiO(2)) for phosphopeptide enrichment, high-resolution MS for peptide and protein identification, and stable isotope labeling by amino acids in cell culture (SILAC) for quantification.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21822884",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Phosphopeptides were isolated with high specificity through a simple derivatization procedure based on phosphoramidate chemistry.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17372656",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D010748",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020543",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D045163",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D040901"
+  ],
+  "exact_answer": "enriched for phosphorylated peptides using titanium dioxide, sequential elution from IMAC, simple derivatization procedure based on phosphoramidate chemistry, antiphosphotyrosine antibodies"
+}

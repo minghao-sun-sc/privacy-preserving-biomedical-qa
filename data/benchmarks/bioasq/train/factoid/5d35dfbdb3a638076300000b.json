@@ -1,0 +1,105 @@
+{
+  "id": "5d35dfbdb3a638076300000b",
+  "type": "factoid",
+  "question": "What is the role of STAG1/STAG2 proteins in differentiation?",
+  "ideal_answer": "STAG1/STAG2 proteins are tumour suppressor proteins that suppress cell proliferation and are essential for differentiation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18276799",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12034751",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28430577",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26997282",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15361841",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21589869",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27298259",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19822671",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29867216"
+  ],
+  "snippets": [
+    {
+      "text": "STAG2 and Rad21 mammalian mitotic cohesins are implicated in meiosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12034751",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " Two members of this family, STAG1/SA1 and STAG2/SA2,double dagger are classified as mitotic cohesins, as they are found in human somatic cells and in Xenopus laevis as components of the cohesin(SA1) and cohesin(SA2) complexes, in which the shared subunits are Rad21/SCC1, SMC1 and SMC3 proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12034751",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Identification of STAG1 as a key mediator of a p53-dependent apoptotic pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15361841",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The STAG1 gene was one of the transcripts showing higher expression levels in cells infected with Ad-p53-121F as opposed to Ad-wtp53. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15361841",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the expression of STAG1 mRNA was induced in response to various genotoxic stresses in a p53-dependent manner; moreover, enforced expression of STAG1 led to apoptosis in several additional cancer cell lines.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15361841",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Differential regulation of telomere and centromere cohesion by the Scc3 homologues SA1 and SA2, respectively, in human cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19822671",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we show that cohesin(SA1) and cohesin(SA2) are differentially required for telomere and centromere cohesion, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19822671",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest that at telomeres cohesion relies on the molecular interplay between TRF1 and SA1 to promote DNA-DNA pairing, while along chromosomal arms the core cohesin assembly might also depend on SA1 1D diffusion on DNA and sequence-specific DNA binding.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27298259",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Here we show that the loss-of-function of STAG2, a core component of cohesin and an emerging tumour suppressor, leads to synthetic dependency of mutated cancer cells on its paralog STAG1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28430577",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In all cases, we observed that the simultaneous blocking of STAG1 and STAG2 significantly reduces cell proliferation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28430577",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "cohesin-SA1 preferentially contributes to the stabilization of topologically associating domain boundaries together with CTCF, whereas cohesin-SA2 promotes cell-type-specific contacts between enhancers and promoters independently of CTCF.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29867216",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Expression analyses of Gli1-expressing NSCs identified significant induction of Gadd45a and decreased cyclin A2 and Stag1 mRNA, genes involved in the G2-M transition and apoptosis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18276799",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, we show that Nanog physically interacts with the cohesin or cohesin interacting proteins STAG1 and WAPL further substantiating this association.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21589869",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A striking finding was the identification of members of the cohesin complex (STAG2, RAD21, STAG1, and SMC3) among the top 20 genes from the screen. Upon individual validation of these cohesin genes, we found that their knockdown led to an immediate expansion of cells with an HSC phenotype in\u00a0vitro.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26997282",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "meiosis and cell proliferation"
+}

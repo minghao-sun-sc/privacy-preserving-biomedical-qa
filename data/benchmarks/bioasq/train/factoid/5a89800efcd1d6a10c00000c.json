@@ -1,0 +1,26 @@
+{
+  "id": "5a89800efcd1d6a10c00000c",
+  "type": "factoid",
+  "question": "Where is the enzyme PM20D1 localized?",
+  "ideal_answer": "PM20D1 is enriched in UCP1+ adipocytes",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27374330",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27378359"
+  ],
+  "snippets": [
+    {
+      "text": "we identify a secreted enzyme, peptidase M20 domain containing 1 (PM20D1), that is enriched in UCP1(+) versus UCP1(-) adipocytes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27374330",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " A secreted enzyme, PM20D1, enriched in UCP1+ adipocytes, exhibits catalytic and hydrolytic activity to reversibly form N-acyl amino acids.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27378359",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "UCP1+ adipocytes"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "6404199d201352f04a000019",
+  "type": "yesno",
+  "question": "Is ocrelizumab effective for primary progressive multiple sclerosis?",
+  "ideal_answer": "Yes, ocrelizumab is effective and approved for primary progressive multiple sclerosis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35583174",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35590041",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35192158"
+  ],
+  "snippets": [
+    {
+      "text": "Ocrelizumab (Ocrevus\u00ae) is an intravenously administered, humanized anti-CD20 monoclonal antibody approved for the treatment of adults with relapsing forms of multiple sclerosis (RMS) or primary progressive multiple sclerosis (PPMS).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35192158",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "When using the anti-CD20 monoclonal antibodies ocrelizumab and ofatumumab in the treatment of MS, it is not necessary to test for NAbs as these occur very infrequently. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35590041",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ocrelizumab for multiple sclerosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35583174",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "BACKGROUND: Ocrelizumab is a humanised anti-CD20 monoclonal antibody developed for the treatment of multiple sclerosis (MS). It was approved by the Food and Drug Administration (FDA) in March 2017 for using in adults with relapsing-remitting multiple sclerosis (RRMS) and primary progressive multiple sclerosis (PPMS).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35583174",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

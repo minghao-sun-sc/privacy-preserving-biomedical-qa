@@ -1,0 +1,26 @@
+{
+  "id": "58a872bd38c171fb5b000002",
+  "type": "factoid",
+  "question": "Which gene-defect causes the Vel-blood type?",
+  "ideal_answer": "A cohort of 70 Vel- individuals was found to be uniformly homozygous for a 17 nucleotide deletion in the coding sequence of SMIM",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26732700",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23505126"
+  ],
+  "snippets": [
+    {
+      "text": "A cohort of 70 Vel- individuals was found to be uniformly homozygous for a 17 nucleotide deletion in the coding sequence of SMIM1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23505126",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The SMIM1 protein carries the Vel blood group antigen, and homozygosity for a 17 bp deletion in the coding region of the SMIM1 gene represents the molecular basis of the Vel- blood group phenotype.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26732700",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "a 17 nucleotide deletion"
+}

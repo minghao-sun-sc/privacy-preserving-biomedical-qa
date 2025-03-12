@@ -1,0 +1,32 @@
+{
+  "id": "5e3da25848dab47f26000004",
+  "type": "factoid",
+  "question": "What rare disease is associated with a mutation in the GPC6 gene on chromosome 13?",
+  "ideal_answer": " The proband had normal molecular analysis of the glypican 6 gene (GPC6), which was recently reported as a candidate for autosomal recessive omodysplasia",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24458798",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19481194"
+  ],
+  "snippets": [
+    {
+      "text": " The proband had normal molecular analysis of the glypican 6 gene (GPC6), which was recently reported as a candidate for autosomal recessive omodysplasia",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24458798",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mutations in the heparan-sulfate proteoglycan glypican 6 (GPC6) impair endochondral ossification and cause recessive omodysplasia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19481194",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We now report that autosomal-recessive omodysplasia, a genetic condition characterized by short-limbed short stature, craniofacial dysmorphism, and variable developmental delay, maps to chromosome 13 (13q31.1-q32.2) and is caused by point mutations or by larger genomic rearrangements in glypican 6 (GPC6).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19481194",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "omodysplasia"
+}

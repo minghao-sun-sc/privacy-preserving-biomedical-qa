@@ -1,0 +1,97 @@
+{
+  "id": "587d30fb31b33e8760000001",
+  "type": "list",
+  "question": "Which deep learning-based algorithms are used for enhancer prediction?",
+  "ideal_answer": "EP-DNN and DEEP.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25378307",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27929098",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26091399",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27490187",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27329130"
+  ],
+  "snippets": [
+    {
+      "text": "EP-DNN: A Deep Neural Network-Based Global Enhancer Prediction Algorithm",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27929098",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present EP-DNN, a protocol for predicting enhancers based on chromatin features, in different cell types",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27929098",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DEEP: a general computational framework for predicting enhancers",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25378307",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " In this study we developed DEEP, a novel ensemble prediction framework. DEEP integrates three components with diverse characteristics that streamline the analysis of enhancer's properties in a great variety of cellular conditions. In our method we train many individual classification models that we combine to classify DNA regions as enhancers or non-enhancers. DEEP uses features derived from histone modification marks or attributes coming from sequence characteristics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25378307",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " in this paper, we use recent state-of-the-art Deep Learning methods and develop a deep neural network (DNN)-based architecture, called EP-DNN, to predict the presence and types of enhancers in the human genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27490187",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this paper, we developed EP-DNN, which has high accuracy of prediction, with validation rates above 90\u00a0% for the operational region of enhancer prediction for all four cell lines that we studied, outperforming DEEP-ENCODE and RFECS",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27490187",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present EP-DNN, a protocol for predicting enhancers based on chromatin features, in different cell types. Specifically, we use a deep neural network (DNN)-based architecture to extract enhancer signatures in a representative human embryonic stem cell type (H1) and a differentiated lung cell type (IMR90)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27929098",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We find that EP-DNN has superior accuracy with a validation rate of 91.6%, relative to 85.3% for DEEP-ENCODE and 85.5% for RFECS, for a given number of enhancer predictions and also scales better for a larger number of enhancer predictions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27929098",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PEDLA: predicting enhancers with a deep learning-based algorithmic framework.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27329130",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "DEEP: a general computational framework for predicting enhancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25378307",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "PEDLA: predicting enhancers with a deep learning-based algorithmic framework.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27329130",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "EP-DNN: A Deep Neural Network-Based Global Enhancer Prediction Algorithm.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27929098",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We developed a deep learning-based algorithmic framework named PEDLA (https://github.com/wenjiegroup/PEDLA), which can directly learn an enhancer predictor from massively heterogeneous data and generalize in ways that are mostly consistent across various cell types/tissues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27329130",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000069550"
+  ],
+  "exact_answer": "EP-DNN, DEEP"
+}

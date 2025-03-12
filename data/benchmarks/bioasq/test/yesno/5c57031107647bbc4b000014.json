@@ -1,0 +1,46 @@
+{
+  "id": "5c57031107647bbc4b000014",
+  "type": "yesno",
+  "question": "Has Glyceraldehyde 3-phosphate dehydrogenase (GAPDH) been reported to be a plasminogen receptor in pathogenic bacteria?",
+  "ideal_answer": "Glyceraldehyde 3-phosphate dehydrogenase (GAPDH) has been reported to be a plasminogen receptor in many pathogenic bacteria.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28011643",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15039372",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17449317",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25666684"
+  ],
+  "snippets": [
+    {
+      "text": " binding of plasminogen (Plg) to bacterial surfaces, as it has been shown that this interaction contributes to bacterial adhesion to host cells, invasion of host tissues, and evasion of the immune system. Several bacterial proteins are known to serve as receptors for Plg including glyceraldehyde-3-phosphate dehydrogenase (GAPDH),",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28011643",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover, several isoforms of the glyceraldehyde 3-phosphate dehydrogenase (GAPDH) and galectin (GAL) were identified in both antigenic extracts as plasminogen-binding proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25666684",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Purified GAPDH was found to bind human plasminogen and fibrinogen in Far-Western blot and ELISA-based assays.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17449317",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "GAPDH exhibits a high affinity for plasmin and a significantly lower affinity for plasminogen.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15039372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover, several isoforms of the glyceraldehyde 3-phosphate dehydrogenase (GAPDH) and galectin (GAL) were identified in both antigenic extracts as plasminogen-binding proteins. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25666684",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

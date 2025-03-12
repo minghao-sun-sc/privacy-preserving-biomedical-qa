@@ -1,0 +1,102 @@
+{
+  "id": "56ffdc1ccf1c32585100000b",
+  "type": "factoid",
+  "question": "Which is the most common editing modification in eukaryotic mRNA?",
+  "ideal_answer": "One of the most common forms of pre-mRNA editing is A-to-I editing, in which adenosine is deaminated to inosine, which is read as guanosine during translation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20198873",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25577380",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23543219",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21469143",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23346095",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20185571",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25373143"
+  ],
+  "snippets": [
+    {
+      "text": "One of the most common forms of pre-mRNA editing is A-to-I editing, in which adenosine is deaminated to inosine, which is read as guanosine during translation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20185571",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Deamination of adenine by adenosine deaminases that act on RNA (ADARs) leads to the conversion of adenine into inosine (A-I editing) recognized by the splicing and translation systems as guanine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20198873",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "denosine deaminases editing adenines in transport RNAs (ADATs) convert adenine into inosine in tRNAs of all eukaryotes; as a result, the diversity of tRNA forms in the cell increases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20198873",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A-to-I editing events in normal and cancerous human keratinocytes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23543219",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "A-to-I RNA editing can alter codons, substitute amino acids and affect protein sequence, structure, and function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23543219",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "-to-I RNA editing is a post-transcriptional mechanism frequently used to expand and diversify transcriptome and proteome repertoire in eukaryotic cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23543219",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This study describes for the first time A-to-I editing in the coding sequence of a tumor suppressor gene in humans, and suggests that IGFBP7 editing serves as a fine-tuning mechanism to maintain the equilibrium between proliferation and senescence in normal skin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23543219",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Adenosine deaminases that act on RNA (ADARs) catalyze the adenosine-to-inosine (A-to-I) conversion, the most common type of RNA editing in higher eukaryotes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25373143",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RNA editing is observed in eukaryotic mRNA, transfer RNA, ribosomal RNA, and non-coding RNAs (ncRNA). The most common RNA editing in the mammalian central nervous system is a base modification, where the adenosine residue is base-modified to inosine (A to I).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23346095",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "It occurs in a wide variety of eukaryotic organisms and in some viruses. One of the most common forms of pre-mRNA editing is A-to-I editing, in which adenosine is deaminated to inosine, which is read as guanosine during translation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20185571",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The most common RNA editing in the mammalian central nervous system is a base modification, where the adenosine residue is base-modified to inosine (A to I).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23346095",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "One of the most common forms of pre-mRNA editing is A-to-I editing, in which adenosine is deaminated to inosine, which is read as guanosine during translation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20185571",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RNA editing by adenosine deamination (A-to-I) is widespread in humans and can lead to a variety of biological effects depending on the RNA type or the RNA region involved in the editing modification.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25577380",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012333",
+    "http://amigo.geneontology.org/amigo/term/GO:0016556",
+    "http://amigo.geneontology.org/amigo/term/GO:0009451",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017393"
+  ],
+  "exact_answer": "A-to-I"
+}

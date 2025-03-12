@@ -1,0 +1,41 @@
+{
+  "id": "606b718994d57fd87900006b",
+  "type": "yesno",
+  "question": "Has dupilumab been FDA approved for atopic dermatitis?",
+  "ideal_answer": "Yes, dupilumab has been approved by FDA for atopic dermatitis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31603635",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32344789",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32439390",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31364023",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30785362"
+  ],
+  "snippets": [
+    {
+      "text": "Recent advances and understanding of the pathogenesis of AD have resulted in new therapies that target specific pathways with increased efficacy and the potential for less systemic side effects. New FDA-approved therapies for AD are crisaborole and dupilumab. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31364023",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In March of 2017, the United States Food and Drug Administration (FDA) approved dupilumab for the treatment of moderate-to-severe atopic dermatitis in adults that is uncontrolled with topical medications, becoming the first biologic agent approved to treat this chronic skin condition.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30785362",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dupilumab is the first US FDA approved biologic for treatment of atopic dermatitis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32439390",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dupilumab is the first biological treatment approved for moderate-to-severe atopic dermatitis (AD).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32344789",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

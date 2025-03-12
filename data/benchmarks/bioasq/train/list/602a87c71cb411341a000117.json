@@ -1,0 +1,65 @@
+{
+  "id": "602a87c71cb411341a000117",
+  "type": "list",
+  "question": "List orally bioavailable MPS1 kinase inhibitors",
+  "ideal_answer": "1 h-pyrrolo [3,2-c] pyridine, cct271850, nms-p715, 4-aminopyrazalo,bos172722 and cct251455.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21159646",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29380674",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27335255",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28334731",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31575759"
+  ],
+  "snippets": [
+    {
+      "text": "Identification of the hot spot residues for pyridine derivative inhibitor CCT251455 and ATP substrate binding on monopolar spindle 1 (MPS1) kinase by molecular dynamic simulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29380674",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "High Proliferation Rate and a Compromised Spindle Assembly Checkpoint Confers Sensitivity to the MPS1 Inhibitor BOS172722 in Triple-Negative Breast Cancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31575759",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "BOS172722 (CCT289346) is a highly potent, selective, and orally bioavailable inhibitor of spindle assembly checkpoint kinase MPS1. BOS172722 treatment alone induces significant sensitization to death, particularly in highly proliferative triple-negative breast cancer (TNBC) cell lines with compromised spindle assembly checkpoint activity. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31575759",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Characterisation of CCT271850, a selective, oral and potent MPS1 inhibitor, used to directly measure in vivo MPS1 inhibition vs therapeutic efficacy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28334731",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " CCT271850 is a potent, selective and orally bioavailable MPS1 kinase inhibitor. On the basis of in vivo pharmacodynamic vs efficacy relationships, we predict that more than 80% inhibition of MPS1 activity for at least 24\u2009h is required to achieve tumour stasis or regression by CCT271850.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28334731",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Discovery of 4-(4-aminopyrazolo[1,5-a][1,3,5]triazin-8-yl)benzamides as novel, highly potent and selective, orally bioavailable inhibitors of Tyrosine Threonine Kinase, TTK.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27335255",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Targeting the mitotic checkpoint for cancer therapy with NMS-P715, an inhibitor of MPS1 kinase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21159646",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "MPS1 kinase is a key regulator of the spindle assembly checkpoint (SAC), a mitotic mechanism specifically required for proper chromosomal alignment and segregation. It has been found aberrantly overexpressed in a wide range of human tumors and is necessary for tumoral cell proliferation. Here we report the identification and characterization of NMS-P715, a selective and orally bioavailable MPS1 small-molecule inhibitor, which selectively reduces cancer cell proliferation, leaving normal cells almost unaffected. NMS-P715 accelerates mitosis and affects kinetochore components localization causing massive aneuploidy and cell death in a variety of tumoral cell lines and inhibits tumor growth in preclinical cancer models. Inhibiting the SAC could represent a promising new approach to selectively target cancer cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21159646",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CCT251455, BOS172722, CCT289346, CCT271850, 4-(4-aminopyrazolo[1,5-a][1,3,5]triazin-8-yl)benzamides, NMS-P715"
+}

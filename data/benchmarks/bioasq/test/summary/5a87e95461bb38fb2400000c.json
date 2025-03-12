@@ -1,0 +1,38 @@
+{
+  "id": "5a87e95461bb38fb2400000c",
+  "type": "summary",
+  "question": "Which is the transcriptome of RNA polymerase III?",
+  "ideal_answer": "RNA polymerase III (Pol III) transcribes a limited set of short genes in eukaryotes producing abundant small RNAs, mostly tRNA. The originally defined yeast Pol III transcriptome appears to be expanding owing to the application of new methods. Newly identified Pol III transcripts include small nucleolar RNAs, microRNAs, short interspersed nuclear element-encoded or tRNA-derived RNAs and novel classes of ncRNA that can display significant sequence complementarity to protein-coding genes and might thus regulate their expression.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28228471",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14634212",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17977614"
+  ],
+  "snippets": [
+    {
+      "text": "RNA polymerase III (Pol III) transcribes a limited set of short genes in eukaryotes producing abundant small RNAs, mostly tRNA. The originally defined yeast Pol III transcriptome appears to be expanding owing to the application of new methods. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28228471",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The role of RNA polymerase (Pol) III in eukaryotic transcription is commonly thought of as being restricted to a small set of highly expressed, housekeeping non-protein-coding (nc)RNA genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17977614",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Newly identified Pol III transcripts include small nucleolar RNAs, microRNAs, short interspersed nuclear element-encoded or tRNA-derived RNAs and novel classes of ncRNA that can display significant sequence complementarity to protein-coding genes and might thus regulate their expression. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17977614",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RNA polymerase III (Pol III) transcribes small untranslated RNAs, such as tRNAs. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14634212",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

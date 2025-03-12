@@ -1,0 +1,125 @@
+{
+  "id": "590af75d70f9fc6f0f00001c",
+  "type": "factoid",
+  "question": "Which algorithm is used by the UCSC Genome Browser?",
+  "ideal_answer": "The UCSC Genome Browser organizes data and annotations (called tracks) around the reference sequences or draft assemblies of many eukaryotic genomes and presents them using a powerful web-based graphical interface. The database is optimized to support fast interactive performance with the web-based UCSC Genome Browser, a tool built on top of the database for rapid visualization and querying of the data at many levels. The annotations for a given genome are displayed in the browser as a series of tracks aligned with the genomic sequence. Sequence data and annotations may also be viewed in a text-based tabular format or downloaded as tab-delimited flat files.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22908213",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22080555",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24984850",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23255150",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18428780",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27574198",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17993665",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12519945",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21975940",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24227676",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19957273"
+  ],
+  "snippets": [
+    {
+      "text": "The UCSC Genome Browser organizes data and annotations (called tracks) around the reference sequences or draft assemblies of many eukaryotic genomes and presents them using a powerful web-based graphical interface.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27574198",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The database is optimized to support fast interactive performance with the web-based UCSC Genome Browser, a tool built on top of the database for rapid visualization and querying of the data at many levels. The annotations for a given genome are displayed in the browser as a series of tracks aligned with the genomic sequence. Sequence data and annotations may also be viewed in a text-based tabular format or downloaded as tab-delimited flat files.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12519945",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The University of California Santa Cruz (UCSC) Genome Browser (genome.ucsc.edu) is a popular Web-based tool for quickly displaying a requested portion of a genome at any scale, accompanied by a series of aligned annotation \"tracks\". ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18428780",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The database tables underlying the Genome Browser tracks can be viewed, downloaded, and manipulated using another Web-based application, the UCSC Table Browser.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18428780",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The University of California Santa Cruz (UCSC) Genome Browser is a popular Web-based tool for quickly displaying a requested portion of a genome at any scale, accompanied by a series of aligned annotation \"tracks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21975940",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Saved Session feature allows users to store and share customized views, enhancing the utility of the system for organizing multiple trains of thought. Binary Alignment/Map (BAM), Variant Call Format and the Personal Genome Single Nucleotide Polymorphisms (SNPs) data formats are useful for visualizing a large sequencing experiment (whole-genome or whole-exome), where the differences between the data set and the reference assembly may be displayed graphically. Support for high-throughput sequencing extends to compact, indexed data formats, such as BAM, bigBed and bigWig, allowing rapid visualization of large datasets from RNA-seq and ChIP-seq experiments via local hosting.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22908213",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The database tables underlying the Genome Browser tracks can be viewed, downloaded, and manipulated using another Web-based application, the UCSC Table Browser.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18428780",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The database tables underlying the Genome Browser tracks can be viewed, downloaded, and manipulated using another Web-based application, the UCSC Table Browser.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23255150",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The database tables underlying the Genome Browser tracks can be viewed, downloaded, and manipulated using another Web-based application, the UCSC Table Browser.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19957273",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The comparative genomics annotations in the browser include pairwise alignments, which aid in the identification of orthologous regions between species, and conservation tracks that show measures of evolutionary conservation among sets of multiply aligned species, highlighting regions of the genome that may be functionally important.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17993665",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Genome Bioinformatics group has developed several tools and methodologies in its study of comparative genomics, many of which have been incorporated into the UCSC Genome Browser (http://genome.ucsc.edu), an easy-to-use online tool for browsing genomic data and aligned annotation \"tracks\" in a single window.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17993665",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This protocol describes how to use the UCSC Genome Browser to visualize selected tracks at specified genomic regions, download the data and annotations for further analysis, and retrieve multiple sequence alignments and their conservation scores.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27574198",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This unit describes how to use the Genome Browser and Table Browser for genome analysis, download the underlying database tables, and create and display custom annotation tracks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18428780",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The University of California Santa Cruz (UCSC) Genome Browser (genome.ucsc.edu) is a popular Web-based tool for quickly displaying a requested portion of a genome at any scale, accompanied by a series of aligned annotation \"tracks\".",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18428780",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The University of California Santa Cruz (UCSC) Genome Bioinformatics group has developed several tools and methodologies in its study of comparative genomics, many of which have been incorporated into the UCSC Genome Browser (http://genome.ucsc.edu), an easy-to-use online tool for browsing genomic data and aligned annotation \"tracks\" in a single window.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17993665",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A related tool, the UCSC Table Browser, provides a simple interface for querying, analyzing, and downloading the data underlying the Genome Browser annotation tracks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17993665",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Some of the recently developed or enhanced tracks visualize data from published high-throughput RNA-sequencing studies, the NCBI Conserved Domain Database, sequences from pre-genome sequencing studies, predicted gene boundaries from three different protein gene prediction algorithms, tRNAscan-SE gene predictions with RNA secondary structures and CRISPR locus predictions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22080555",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Genome hashing"
+}

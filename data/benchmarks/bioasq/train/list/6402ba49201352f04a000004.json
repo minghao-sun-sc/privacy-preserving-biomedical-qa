@@ -1,0 +1,25 @@
+{
+  "id": "6402ba49201352f04a000004",
+  "type": "list",
+  "question": "Which drugs were studied in the TRICOTEL study?",
+  "ideal_answer": "TRICOTEL trial studied atezolizumab, vemurafenib, and cobimetinib in patients with melanoma with CNS metastases.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35940183"
+  ],
+  "snippets": [
+    {
+      "text": "Atezolizumab, vemurafenib, and cobimetinib in patients with melanoma with CNS metastases (TRICOTEL): a multicentre, open-label, single-arm, phase 2 study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35940183",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "METHODS: TRICOTEL was a multicentre, open-label, single-arm, phase 2 study done in two cohorts: a BRAFV600 wild-type cohort and a BRAFV600 mutation-positive cohort, recruited at 21 hospitals and oncology centres in Brazil, France, Germany, Hungary, Italy, Spain, and Switzerland. Eligible patients were aged 18 years or older with previously untreated metastatic melanoma, CNS metastases of 5 mm or larger in at least one dimension, and an Eastern Cooperative Oncology Group performance status of 2 or less. Patients in the BRAFV600 wild-type cohort received intravenous atezolizumab (840 mg, days 1 and 15 of each 28-day cycle) plus oral cobimetinib (60 mg once daily, days 1-21). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35940183",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "atezolizumab, vemurafenib, cobimetinib"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "626ae803e764a5320400003c",
+  "type": "factoid",
+  "question": "What is the half-life of epimutations across generations of C. elegans?",
+  "ideal_answer": "In C. elegans, epimutations typically have short half-lives of two to three generations. Nevertheless, some epimutations last at least ten generations.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31301033",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32868918"
+  ],
+  "snippets": [
+    {
+      "text": "We show that epimutations arise spontaneously at a rate approximately 25 times greater than DNA sequence changes and typically have short half-lives of two to three generations. Nevertheless, some epimutations last at least ten generations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32868918",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Typically 2-3 generations. Sometimes >10 generations."
+}

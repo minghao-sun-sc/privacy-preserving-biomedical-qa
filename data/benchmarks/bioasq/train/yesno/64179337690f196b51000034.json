@@ -1,0 +1,79 @@
+{
+  "id": "64179337690f196b51000034",
+  "type": "yesno",
+  "question": "Do machine learning-based methods outperform statistical methods for survival analysis?",
+  "ideal_answer": "Yes, machine learning-based methods outperform statistical methods for survival analysis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35358302",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12603013",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20153956",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35179504",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36227551",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34910160",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31147687",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30409119",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31896241",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33613099",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29920226",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30632193",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33858811"
+  ],
+  "snippets": [
+    {
+      "text": "Our results reveal that machine-learning-based models such as random survival forests, gradient boosted survival model, and survival support vector machine can outperform the traditional statistical methods, i.e., Cox proportional hazard model.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36227551",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DeepSurv models consistently outperformed CoxPH; both approaches performed best when provided with all the datasets. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33858811",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This analysis revealed that survival analysis models outperformed binary classification models for risk assessment, and the performance of the survival analysis methods-Cox model regularized with ridge penalty (Cox-Ridge) and partial least squares (PLS) regression for Cox model (Cox-PLS)-were generally more robust than the other methods.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35358302",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Then, we demonstrate that the resulting method, referred to as ELMCoxBAR, can outperform some other state-of-art survival prediction methods such as L1 - or L2 -regularized Cox regression, random survival forest with various splitting rules, and boosted Cox model, in terms of its predictive performance using both simulated and real world datasets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30632193",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, machine learning approaches have been adapted for survival analysis, to fit nonlinear and complex interaction effects between predictors, and achieve more accurate prediction of individual survival probability.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31896241",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " We review traditional survival methods and regularization methods, with various penalty functions, for the analysis of high-dimensional genomics, and describe machine learning techniques that have been adapted to survival analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31896241",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Furthermore, although machine learning and data mining methods are based on statistics, most such techniques do not address the biologist's requirement for sound mathematical confidence measures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12603013",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND: Machine learning-based risk prediction models may outperform traditional statistical models in large datasets with many variables, by identifying both novel predictors and the complex interactions between them",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34910160",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND: Over the recent years, machine learning methods have been increasingly explored in cancer prognosis because of the appearance of improved machine learning algorithms. These algorithms can use censored data for modeling, such as support vector machines for survival analysis and random survival forest (RSF). However, it is still debated whether traditional (Cox proportional haz",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35179504",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

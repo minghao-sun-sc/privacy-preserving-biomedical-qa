@@ -1,0 +1,58 @@
+{
+  "id": "5c307474133db5eb78000033",
+  "type": "factoid",
+  "question": "Which complex is bound by estrogen-related receptor \u03b2 (Esrrb)?",
+  "ideal_answer": "Co-motif discovery identifies an Esrrb-Sox2-DNA ternary complex as a mediator of transcriptional differences between mouse embryonic and epiblast stem cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23508100",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23169531",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22143885",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24929238"
+  ],
+  "snippets": [
+    {
+      "text": "Knockdown of Mp1 redirected FGF4 signaling from differentiation toward pluripotency and up-regulated the pluripotency-related genes Esrrb, Rex1, Tcl1, and Sox2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22143885",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dax1 associates with Esrrb and regulates its function in embryonic stem cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23508100",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we identified an orphan nuclear receptor, Esrrb (estrogen-related receptor beta), as a Dax1-interacting protein.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23508100",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dax1 is a direct downstream target of Esrrb and that Esrrb can regulate Dax1 expression in an Oct3/4-independent manner.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23508100",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Co-motif discovery identifies an Esrrb-Sox2-DNA ternary complex as a mediator of transcriptional differences between mouse embryonic and epiblast stem cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23169531",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Through the use of knockdown experiments, we argue that the Esrrb-Sox2 complex is an arbiter of gene expression differences between ESCs and epiblast stem cells (EpiSC).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23169531",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Nanog expression in epiblast is directly regulated by Nodal/Smad2 pathway in a visceral endoderm-dependent manner. Notably, Nanog promoters switch from Oct4/Esrrb in ICM/ESCs to Oct4/Smad2 in epiblasts. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24929238",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "The Esrrb-Sox2 complex"
+}

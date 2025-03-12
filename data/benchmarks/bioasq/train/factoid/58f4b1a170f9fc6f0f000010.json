@@ -1,0 +1,34 @@
+{
+  "id": "58f4b1a170f9fc6f0f000010",
+  "type": "factoid",
+  "question": "Which mushroom is poisonous, Amanita phalloides or Agaricus Bisporus",
+  "ideal_answer": "The well-known cultivated species Agaricus bisporus is safe to eat while Amanita Phalloides is poisonous.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27596390",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26304449",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27389675"
+  ],
+  "snippets": [
+    {
+      "text": "Seventeen edible mushrooms commercially available in Korea were analysed for their umami taste compounds (5'-nucleotides: AMP, GMP, IMP, UMP, XMP; free amino acids: aspartic, glutamic acid) and subjected to human sensory evaluation and electronic tongue measurements. Amanita virgineoides featured the highest total 5'-nucleotide content (36.9 \u00b1 1.50 mg/g), while monosodium glutamate-like components (42.4 \u00b1 6.90 mg/g) were highest in Agaricus",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26304449",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "liver transplantation improves patients' short-term post liver transplantation survival in Amanita phalloides poisoning",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27389675",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000363",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000364",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D010947",
+    "http://www.uniprot.org/uniprot/ABL_AGABI",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000545",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009145"
+  ],
+  "exact_answer": "Amanita phalloides"
+}

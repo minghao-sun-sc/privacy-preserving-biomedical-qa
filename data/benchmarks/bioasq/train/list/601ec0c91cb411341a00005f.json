@@ -1,0 +1,116 @@
+{
+  "id": "601ec0c91cb411341a00005f",
+  "type": "list",
+  "question": "Which R/bioconductor have been developed for copy number analysis?",
+  "ideal_answer": "CNVRanger, seqCNA, iGC, PLRS, SomatiCA, Copynumber, crlmm, KC-SMARTR are all R/bioconductor packages for copy number analysis",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24597965",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28088185",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22523482",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23442169",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24265680",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23419375",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31392308",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21070656"
+  ],
+  "snippets": [
+    {
+      "text": "CNVRanger: association analysis of CNVs with gene expression and quantitative phenotypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31392308",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Copy number variation (CNV) is a major type of structural genomic variation that is increasingly studied across different species for association with diseases and production traits. Established protocols for experimental detection and computational inference of CNVs from SNP array and next-generation sequencing data are available. We present the CNVRanger R/Bioconductor package which implements a comprehensive toolbox for structured downstream analysis of CNVs. This includes functionality for summarizing individual CNV calls across a population, assessing overlap with functional genomic regions, and genome-wide association analysis with gene expression and quantitative phenotypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31392308",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "seqCNA: an R package for DNA copy number analysis in cancer using high-throughput sequencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24597965",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We introduce seqCNA, a parallelized R package for an integral copy number analysis of high-throughput sequencing cancer data. The package includes novel methodology on (i) filtering, reducing false positives, and (ii) GC content correction, improving copy number profile quality, especially under great read coverage and high correlation between GC content and copy number. Adequate analysis steps are automatically chosen based on availability of paired-end mapping, matched normal samples and genome annotation.CONCLUSIONS: seqCNA, available through Bioconductor, provides accurate copy number predictions in tumoural data, thanks to the extensive filtering and better GC bias correction, while providing an integrated and parallelized workflow.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24597965",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "iGC-an integrated analysis package of gene expression and copy number alteration.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28088185",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "With the advancement in high-throughput technologies, researchers can simultaneously investigate gene expression and copy number alteration (CNA) data from individual patients at a lower cost. Traditional analysis methods analyze each type of data individually and integrate their results using Venn diagrams. Challenges arise, however, when the results are irreproducible and inconsistent across multiple platforms. To address these issues, one possible approach is to concurrently analyze both gene expression profiling and CNAs in the same individual.RESULTS: We have developed an open-source R/Bioconductor package (iGC). Multiple input formats are supported and users can define their own criteria for identifying differentially expressed genes driven by CNAs. The analysis of two real microarray datasets demonstrated that the CNA-driven genes identified by the iGC package showed significantly higher Pearson correlation coefficients with their gene expression levels and copy numbers than those genes located in a genomic region with CNA. Compared with the Venn diagram approach, the iGC package showed better performance.CONCLUSION: The iGC package is effective and useful for identifying CNA-driven genes. By simultaneously considering both comparative genomic and transcriptomic data, it can provide better understanding of biological and medical questions. The iGC package's source code and manual are freely available at https://www.bioconductor.org/packages/release/bioc/html/iGC.html",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28088185",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PLRS: a flexible tool for the joint analysis of DNA copy number and mRNA expression data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23419375",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " DNA copy number and mRNA expression are commonly used data types in cancer studies. Available software for integrative analysis arbitrarily fixes the parametric form of the association between the two molecular levels and hence offers no opportunities for modelling it. We present a new tool for flexible modelling of this association. PLRS uses a wide class of interpretable models including popular ones and incorporates prior biological knowledge. It is capable to identify the gene-specific type of relationship between gene copy number and mRNA expression. Moreover, it tests the strength of the association and provides confidence intervals. We illustrate PLRS using glioblastoma data from The Cancer Genome Atlas.AVAILABILITY AND IMPLEMENTATION: PLRS is implemented as an R package and available from Bioconductor (as of version 2.12; http://bioconductor.org). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23419375",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SomatiCA: identifying, characterizing and quantifying somatic copy number aberrations from cancer genome sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24265680",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Whole genome sequencing of matched tumor-normal sample pairs is becoming routine in cancer research. However, analysis of somatic copy-number changes from sequencing data is still challenging because of insufficient sequencing coverage, unknown tumor sample purity and subclonal heterogeneity. Here we describe a computational framework, named SomatiCA, which explicitly accounts for tumor purity and subclonality in the analysis of somatic copy-number profiles. Taking read depths (RD) and lesser allele frequencies (LAF) as input, SomatiCA will output 1) admixture rate for each tumor sample, 2) somatic allelic copy-number for each genomic segment, 3) fraction of tumor cells with subclonal change in each somatic copy number aberration (SCNA), and 4) a list of substantial genomic aberration events including gain, loss and LOH. SomatiCA is available as a Bioconductor R package at http://www.bioconductor.org/packages/2.13/bioc/html/SomatiCA.html.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24265680",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Copynumber: Efficient algorithms for single- and multi-track copy number segmentation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23442169",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Cancer progression is associated with genomic instability and an accumulation of gains and losses of DNA. The growing variety of tools for measuring genomic copy numbers, including various types of array-CGH, SNP arrays and high-throughput sequencing, calls for a coherent framework offering unified and consistent handling of single- and multi-track segmentation problems. In addition, there is a demand for highly computationally efficient segmentation algorithms, due to the emergence of very high density scans of copy number.RESULTS: A comprehensive Bioconductor package for copy number analysis is presented. The package offers a unified framework for single sample, multi-sample and multi-track segmentation and is based on statistically sound penalized least squares principles. Conditional on the number of breakpoints, the estimates are optimal in the least squares sense. A novel and computationally highly efficient algorithm is proposed that utilizes vector-based operations in R. Three case studies are presented.CONCLUSIONS: The R package copynumber is a software suite for segmentation of single- and multi-track copy number data using algorithms based on coherent least squares principles.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23442169",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using the R Package crlmm for Genotyping and Copy Number Estimation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22523482",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Genotyping platforms such as Affymetrix can be used to assess genotype-phenotype as well as copy number-phenotype associations at millions of markers. While genotyping algorithms are largely concordant when assessed on HapMap samples, tools to assess copy number changes are more variable and often discordant. One explanation for the discordance is that copy number estimates are susceptible to systematic differences between groups of samples that were processed at different times or by different labs. Analysis algorithms that do not adjust for batch effects are prone to spurious measures of association. The R package crlmm implements a multilevel model that adjusts for batch effects and provides allele-specific estimates of copy number. This paper illustrates a workflow for the estimation of allele-specific copy number and integration of the marker-level estimates with complimentary Bioconductor software for inferring regions of copy number gain or loss. All analyses are performed in the statistical environment R.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22523482",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "KC-SMARTR: An R package for detection of statistically significant aberrations in multi-experiment aCGH data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21070656",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Most approaches used to find recurrent or differential DNA Copy Number Alterations (CNA) in array Comparative Genomic Hybridization (aCGH) data from groups of tumour samples depend on the discretization of the aCGH data to gain, loss or no-change states. This causes loss of valuable biological information in tumour samples, which are frequently heterogeneous. We have previously developed an algorithm, KC-SMART, that bases its estimate of the magnitude of the CNA at a given genomic location on kernel convolution (Klijn et al., 2008). This accounts for the intensity of the probe signal, its local genomic environment and the signal distribution across multiple samples.RESULTS: Here we extend the approach to allow comparative analyses of two groups of samples and introduce the R implementation of these two approaches. The comparative module allows for a supervised analysis to be performed, to enable the identification of regions that are differentially aberrated between two user-defined classes.We analyzed data from a series of B- and T-cell lymphomas and were able to retrieve all positive control regions (VDJ regions) in addition to a number of new regions. A t-test employing segmented data, that we implemented, was also able to locate all the positive control regions and a number of new regions but these regions were highly fragmented.CONCLUSIONS: KC-SMARTR offers recurrent CNA and class specific CNA detection, at different genomic scales, in a single package without the need for additional segmentation. It is memory efficient and runs on a wide range of machines. Most importantly, it does not rely on data discretization and therefore maximally exploits the biological information in the aCGH data.The program is freely available from the Bioconductor website http://www.bioconductor.org/ under the terms of the GNU General Public License.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21070656",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CNVRanger, seqCNA, iGC, PLRS, SomatiCA, Copynumber, crlmm, KC-SMARTR"
+}

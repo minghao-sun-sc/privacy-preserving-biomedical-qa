@@ -1,0 +1,68 @@
+{
+  "id": "54fd5dd86ad7dcbc12000008",
+  "type": "summary",
+  "question": "How does phospholamban affect the biological activity of the calcium ATPase SERCA?",
+  "ideal_answer": "SR calcium uptake is mediated by a Ca(2+)-ATPase (SERCA2), whose activity is reversibly regulated by phospholamban (PLN). Dephosphorylated PLN is an inhibitor of SERCA and phosphorylation of PLN relieves this inhibition. Phospholamban (PLN) is a small integral membrane protein, which binds and inhibits in a yet unknown fashion the Ca(2+)-ATPase (SERCA) in the sarcoplasmic reticulum. Based on structural and dynamics data, a model in which PLN undergoes allosteric activation upon encountering SERCA has been proposed. The allosteric regulation of SERCA depends on the conformational equilibrium of PLN, whose cytoplasmic regulatory domain interconverts between three different states: a ground T state (helical and membrane associated), an excited R state (unfolded and membrane detached), and a B state (extended and enzyme-bound), which is noninhibitory. Phosphorylation of PLN shifts the populations toward the B state, increasing SERCA activity. Phospholamban (PLN) regulates cardiac contractility via its modulation of sarco(endo)plasmic reticulum calcium ATPase (SERCA) activity. Impairment of this regulatory process causes heart failure.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23308118",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15781867",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22679139",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24101520",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21576492",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19708671"
+  ],
+  "snippets": [
+    {
+      "text": "Phospholamban (PLN) is a small integral membrane protein, which binds and inhibits in a yet unknown fashion the Ca(2+)-ATPase (SERCA) in the sarcoplasmic reticulum.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23308118",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SR calcium uptake is mediated by a Ca(2+)-ATPase (SERCA2), whose activity is reversibly regulated by phospholamban (PLN). Dephosphorylated PLN is an inhibitor of SERCA and phosphorylation of PLN relieves this inhibition. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22679139",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Regulation of the SERCA calcium pump by phospholamban (PLB) is largely due to interactions between their respective transmembrane domains. In spite of numerous mutagenesis and kinetic studies, we still do not have a clear mechanistic picture of how PLB influences the calcium transport cycle of SERCA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19708671",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Phospholamban (PLN) regulates cardiac contractility via its modulation of sarco(endo)plasmic reticulum calcium ATPase (SERCA) activity. Impairment of this regulatory process causes heart failure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15781867",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Based on structural and dynamics data, we propose a model in which PLN undergoes allosteric activation upon encountering SERCA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15781867",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The membrane protein complex between the sarcoplasmic reticulum Ca(2+)-ATPase (SERCA) and phospholamban (PLN) controls Ca(2+) transport in cardiomyocytes, thereby modulating cardiac contractility. \u03b2-Adrenergic-stimulated phosphorylation of PLN at Ser-16 enhances SERCA activity via an unknown mechanism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24101520",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We found that the allosteric regulation of SERCA depends on the conformational equilibrium of PLN, whose cytoplasmic regulatory domain interconverts between three different states: a ground T state (helical and membrane associated), an excited R state (unfolded and membrane detached), and a B state (extended and enzyme-bound), which is noninhibitory. Phosphorylation at Ser-16 of PLN shifts the populations toward the B state, increasing SERCA activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24101520",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Phospholamban (PLN) is a type II membrane protein that inhibits the sarcoplasmic reticulum Ca(2+)-ATPase (SERCA), thereby regulating calcium homeostasis in cardiac muscle.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21576492",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/AT2A_CHIOP",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D053498"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "5a761ac7aacfb9cd4c000003",
+  "type": "summary",
+  "question": "What is the ReliableGenome?",
+  "ideal_answer": "The increasing adoption of clinical whole-genome resequencing (WGS) demands for highly accurate and reproducible variant calling (VC) methods. The observed discordance between state-of-the-art VC pipelines, however, indicates that the current practice still suffers from non-negligible numbers of false positive and negative SNV and INDEL calls that were shown to be enriched among discordant calls but also in genomic regions with low sequence complexity. ReliableGenome is a method for partitioning genomes into high and low concordance regions with respect to a set of surveyed VC pipelines. It combines call sets derived by multiple pipelines from arbitrary numbers of datasets and interpolates expected concordance for genomic regions without data.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27605105"
+  ],
+  "snippets": [
+    {
+      "text": "ReliableGenome: annotation of genomic regions with high/low variant calling concordance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27605105",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The increasing adoption of clinical whole-genome resequencing (WGS) demands for highly accurate and reproducible variant calling (VC) methods. The observed discordance between state-of-the-art VC pipelines, however, indicates that the current practice still suffers from non-negligible numbers of false positive and negative SNV and INDEL calls that were shown to be enriched among discordant calls but also in genomic regions with low sequence complexity.RESULTS: Here, we describe our method ReliableGenome (RG) for partitioning genomes into high and low concordance regions with respect to a set of surveyed VC pipelines. Our method combines call sets derived by multiple pipelines from arbitrary numbers of datasets and interpolates expected concordance for genomic regions without data. By applying RG to 219 deep human WGS datasets, we demonstrate that VC concordance depends predominantly on genomic context rather than the actual sequencing data which manifests in high recurrence of regions that can/cannot be reliably genotyped by a single method. This enables the application of pre-computed regions to other data created with comparable sequencing technology and software.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27605105",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we describe our method ReliableGenome (RG) for partitioning genomes into high and low concordance regions with respect to a set of surveyed VC pipelines.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27605105",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The observed discordance between state-of-the-art VC pipelines, however, indicates that the current practice still suffers from non-negligible numbers of false positive and negative SNV and INDEL calls that were shown to be enriched among discordant calls but also in genomic regions with low sequence complexity.<br><b>RESULTS</b>: Here, we describe our method ReliableGenome (RG) for partitioning genomes into high and low concordance regions with respect to a set of surveyed VC pipelines.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27605105",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we describe our method ReliableGenome (RG) for partitioning genomes into high and low concordance regions with respect to a set of surveyed VC pipelines.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27605105",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS Here, we describe our method ReliableGenome (RG) for partitioning genomes into high and low concordance regions with respect to a set of surveyed VC pipelines.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27605105",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "reliablegenome annotation of genomic regions with high low variant calling concordance",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27605105",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "the increasing adoption of clinical whole genome resequencing wgs demands for highly accurate and reproducible variant calling vc methods the observed discordance between state of the art vc pipelines however indicates that the current practice still suffers from non negligible numbers of false positive and negative snv and indel calls that were shown to be enriched among discordant calls but also in genomic regions with low sequence complexity here we describe our method reliablegenome rg for partitioning genomes into high and low concordance regions with respect to a set of surveyed vc pipelines our method combines call sets derived by multiple pipelines from arbitrary numbers of datasets and interpolates expected concordance for genomic regions without data by applying rg to 219 deep human wgs datasets we demonstrate that vc concordance depends predominantly on genomic context rather than the actual sequencing data which manifests in high recurrence of regions that can cannot be reliably genotyped by a single method this enables the application of pre computed regions to other data created with comparable sequencing technology and software rg outperforms comparable efforts in predicting vc concordance and false positive calls in low concordance regions which underlines its usefulness for variant filtering annotation and prioritization rg allows focusing resource intensive algorithms e g consensus calling methods on the smaller discordant share of the genome 20 30 which might result in increased overall accuracy at reasonable costs our method and analysis of discordant calls may further be useful for development benchmarking and optimization of vc algorithms and for the relative comparison of call sets between different studies pipelines rg was implemented in java source code and binaries are freely available for non commercial use at https github com popitsch wtchg rg contact niko wtchg ox ac uksupplementary information supplementary data are available at bioinformatics online.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27605105",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

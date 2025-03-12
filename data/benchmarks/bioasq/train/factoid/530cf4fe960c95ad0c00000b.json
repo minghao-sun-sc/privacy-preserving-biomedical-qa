@@ -1,0 +1,83 @@
+{
+  "id": "530cf4fe960c95ad0c00000b",
+  "type": "factoid",
+  "question": "Which type of lung cancer is afatinib used for?",
+  "ideal_answer": "Afatinib is a small molecule covalently binding and inhibiting the EGFR, HER2 and HER4 receptor tyrosine kinases. Trials showed promising efficacy in patients with EGFR-mutant NSCLC or enriched for clinical benefit from EGFR tyrosine kinase inhibitors gefitinib or erlotinib.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21554040",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22452896",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24086949",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18408761",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23664448",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18520300",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22071596",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23683257"
+  ],
+  "snippets": [
+    {
+      "text": "Afatinib is a novel irreversible inhibitor of the ErbB family members EGFR, tyrosine kinase-type cell surface receptors HER2 and HER4. It shows preclinical efficacy in NSCLC with common EGFR-activating mutations and the T790M mutation typically associated with EGFR TKI resistance",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24086949",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "At present, only first-generation EGFR-tyrosine kinase inhibitors (TKIs) (erlotinib and gefitinib) are available for clinical use. Second-generation irreversible EGFR-TKIs, such as afatinib, are still in clinical trials. In current clinical practice, EGFR-TKI is the first-line treatment of choice for metastatic NSCLC patients with tumor EGFR mutation or as salvage therapy in NSCLC patients who received systemic chemotherapy previously",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23683257",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Afatinib is a small molecule covalently binding and inhibiting the EGFR, HER2 and HER4 receptor tyrosine kinases. In preclinical studies, afatinib not only inhibited the growth of models with common activating EGFR mutations, but was also active in lung cancer models harboring wild-type EGFR or the EGFR L858R/T790M double mutant. Clinical efficacy of afatinib has been extensively studied in the LUX-Lung study program. These trials showed promising efficacy in patients with EGFR-mutant NSCLC or enriched for clinical benefit from EGFR tyrosine kinase inhibitors gefitinib or erlotinib",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23664448",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BIBW2992 is an irreversible EGFR TKI that also inhibits HER2 and vascular epidermal growth factor receptors",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18520300",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In vitro work shows that this compound inhibits wild-type EGFR, EGFR exon 19 deletion, EGFR L858R, and EGFR T790M, the mutation associated with acquired resistance",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18520300",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we show that BIBW2992, an anilino-quinazoline designed to irreversibly bind EGFR and HER2, potently suppresses the kinase activity of wild-type and activated EGFR and HER2 mutants, including erlotinib-resistant isoforms",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18408761",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Afatinib versus placebo for patients with advanced, metastatic non-small-cell lung cancer after failure of erlotinib, gefitinib, or both, and one or two lines of chemotherapy (LUX-Lung 1): a phase 2b/3 randomised trial.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22452896",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Phase I study of continuous afatinib (BIBW 2992) in patients with advanced non-small cell lung cancer after prior chemotherapy/erlotinib/gefitinib (LUX-Lung 4).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22071596",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The LUX-Lung clinical trial program of afatinib for non-small-cell lung cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21554040",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009369",
+    "http://www.disease-ontology.org/api/metadata/DOID:3683",
+    "http://www.disease-ontology.org/api/metadata/DOID:7696",
+    "http://www.disease-ontology.org/api/metadata/DOID:3908",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008175",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008171",
+    "http://www.disease-ontology.org/api/metadata/DOID:1324",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008168"
+  ],
+  "exact_answer": "EGFR-mutant non small cell lung carcinoma, EGFR-mutant NSCLC"
+}

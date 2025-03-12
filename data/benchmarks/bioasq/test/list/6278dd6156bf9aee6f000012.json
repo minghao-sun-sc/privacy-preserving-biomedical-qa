@@ -1,0 +1,131 @@
+{
+  "id": "6278dd6156bf9aee6f000012",
+  "type": "list",
+  "question": "Are there any tools that could predict protein structure considering amino acid sequence?",
+  "ideal_answer": "Yes. Tools such as Jpred, Jnet, Porter 4.0 and PSIPRED Workbench have been developed that predict protein structure based solely on its amino acid sequence, whereas the recently updated Jnet algorithm provides a three-state (alpha-helix, beta-strand and coil) prediction of secondary structure at an accuracy of 81.5%.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31063641",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20066664",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33999203",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31251384",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19433514",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17888742",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34265844",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19046975",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18463136",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31388850",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15980586",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23772049",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18757875",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15215441",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15978619",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21780007",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26519323"
+  ],
+  "snippets": [
+    {
+      "text": "PredictProtein (https://predictprotein.org) is a one-stop online resource for protein sequence analysis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33999203",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Jpred (http://www.compbio.dundee.ac.uk/jpred) is a secondary structure prediction server",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18463136",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The recently updated Jnet algorithm provides a three-state (alpha-helix, beta-strand and coil) prediction of secondary structure at an accuracy of 81.5%",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18463136",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Porter 4.0 and PaleAle 4.0. Porter 4.0 predicts secondary structure correctly for 82.2% of residues",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23772049",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Predicting the three-dimensional structure that a protein will adopt based solely on its amino acid sequence",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34265844",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The PSIPRED Workbench is a web server offering a range of predictive methods",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31251384",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PreSSAPro is a software, available to the scientific community as a free web service designed to provide predictions of secondary structures starting from the amino acid sequence of a given protein.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17888742",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A detailed explanation is provided for the use of Distill, a suite of web servers for the prediction of protein structural features and the prediction of full-atom 3D models from a protein sequence.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21780007",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PROSPECT-PSPP: an automatic computational pipeline for protein structure prediction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15215441",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "PREDICT-2ND: a tool for generalized protein local structure prediction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18757875",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "PaleAle 5.0: prediction of protein relative solvent accessibility by deep learning.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31388850",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "ProTarget: automatic prediction of protein structure novelty.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15980586",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "cutting-edge web-server method IntFOLD2-TS for tertiary structure prediction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26519323",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using PconsC4 and PconsFold2 to Predict Protein Structure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31063641",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Protein structure prediction enhanced with evolutionary diversity: SPEED.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20066664",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Protein secondary structure prediction using three neural networks and a segmental semi Markov model.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19046975",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "PEP-FOLD: an online resource for de novo peptide structure prediction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19433514",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "AlphaFold, PredictProtein, predictprotein, PSIPRED, PSIPRED Workbench, Jpred, jpred, Porter, PaleAle 4.0, porter 4.0, PaleAle, Jnet, jnet algorithm"
+}

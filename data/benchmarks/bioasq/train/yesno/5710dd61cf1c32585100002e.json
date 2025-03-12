@@ -1,0 +1,162 @@
+{
+  "id": "5710dd61cf1c32585100002e",
+  "type": "yesno",
+  "question": "Does replication timing affect the rate of somatic mutations?",
+  "ideal_answer": "Mutation rate, as reflected in recent evolutionary divergence and human nucleotide diversity, is markedly increased in later-replicating regions of the human genome. All classes of substitutions are affected, suggesting a generalized mechanism involving replication time-dependent DNA damage. DNA repair systems, in general, are less efficient in late replicating heterochromatic regions compared to early replicating euchromatic regions of the genome. In yeast the mutation rate increases with the replication timing by more than 30% between the earliest and the latest replicating regions. Limited evidence from one chromosome arm in Drosophila melanogaster suggests the opposite pattern, with regions overlapping early-firing origins showing increased levels of diversity and divergence. In humans DNA replication patterns help shape the mutational landscapes of normal and cancer genomes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23422670",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22023572",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23271586",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12941181",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9560368",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21666225",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19287383",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23821616",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22114361",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23327985",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24598232",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22046001"
+  ],
+  "snippets": [
+    {
+      "text": "Here we observe that mutation rate, as reflected in recent evolutionary divergence and human nucleotide diversity, is markedly increased in later-replicating regions of the human genome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19287383",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ll classes of substitutions are affected, suggesting a generalized mechanism involving replication time-dependent DNA damage",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19287383",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show that mutation rate varies 6-fold across a single chromosome, that this variation is correlated with replication timing, and we propose a model to explain this variation that relies on the temporal separation of two processes for replicating past damaged DNA: error-free DNA damage tolerance and translesion synthesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21666225",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent studies revealed a long suspected replication-timing effect on mutation rate, but the mechanisms that regulate the increase in mutation rate as the genome is replicated remain unclear. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22023572",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA repair systems, in general, are less efficient in late replicating heterochromatic regions compared to early replicating euchromatic regions of the genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22023572",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mutational profile of the yeast genome is shaped by replication",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22114361",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "the mutation rate increases with the replication timing by more than 30% between the earliest and the latest replicating regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22114361",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thus, we show that the leading replicating strands present an excess of C over G and of A over T in the genome of S. cerevisiae (reciprocally an excess of G + T over C + A in lagging strands)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22114361",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Late-replicating domains have higher divergence and diversity in Drosophila melanogaster",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22046001",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Recent evidence also suggests that late replication is associated with high mutability in yeast.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22046001",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Limited evidence from one chromosome arm in Drosophila melanogaster suggests the opposite pattern, with regions overlapping early-firing origins showing increased levels of diversity and divergence",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22046001",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mutation rate for DNA mismatch repair null strains was approximately 1 mutation per genome per generation, 225-fold greater than the wild-type rate. The mutations were distributed randomly throughout the genome, independent of replication timing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23821616",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Many single-nucleotide substitutions in cancer genomes arise because of errors in DNA replication, which is spatio-temporally stratified.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23422670",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we propose that DNA replication patterns help shape the mutational landscapes of normal and cancer genomes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23422670",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using data on five fully sequenced cancer types and two personal genomes, we determined that the frequency of intergenic single-nucleotide substitution is significantly higher in late DNA replication timing regions, even after controlling for a number of genomic features",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23422670",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we found that genomic regions in close spatial proximity to late-replicating domains display similar mutation spectra as the late-replicating regions themselves",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23422670",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, certain chromosome rearrangements found in cancer cells and in cells exposed to ionizing radiation display a significant delay in replication timing of >3 hours that affects the entire chromosome(2,3). Recent work from our lab indicates that disruption of discrete cis-acting autosomal loci result in an extremely late replicating phenotype that affects the entire chromosome(4).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23271586",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A conservative estimate is that at least 1-2% of new deleterious mutations affect some aspect of DNA replication, repair, or chromosome segregation. Since deleterious mutations can have an effect even as heterozygotes, this mutation accumulation can create an inherited background of late-acting mutations that themselves enhance mutation rate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12941181",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Drake calculates that lytic RNA viruses display spontaneous mutation rates of approximately one per genome while most have mutation rates that are approximately 0.1 per genome (Drake 1993). This constancy of germline mutation rates among microbial species need not necessarily mean constancy of the somatic mutation rates.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9560368",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A recent flurry of reports correlates replication timing (RT) with mutation rates during both evolution and cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24598232",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA replication timing, genome stability and cancer: late and/or delayed DNA replication timing is associated with increased genomic instability.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23327985",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Since deleterious mutations can have an effect even as heterozygotes, this mutation accumulation can create an inherited background of late-acting mutations that themselves enhance mutation rate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12941181",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, this method allows for the unambiguous identification of chromosomal rearrangements that correlate with changes in replication timing that affect the entire chromosome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23271586",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

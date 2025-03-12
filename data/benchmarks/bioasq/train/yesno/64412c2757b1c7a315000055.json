@@ -1,0 +1,39 @@
+{
+  "id": "64412c2757b1c7a315000055",
+  "type": "yesno",
+  "question": "Can breastfeeding be used to alleviate the procedural pain in neonates?",
+  "ideal_answer": "Yes, breastfeeding is effective in alleviating procedural pain in neonates.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34983147",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35620884",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36291504"
+  ],
+  "snippets": [
+    {
+      "text": "The duration between breastfeeding and heel lance may influence the perception of pain in newborns. Keeping this period short, may reduce the perception of pain.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34983147",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Breastfeeding and mother's heartbeat sounds, which are non-pharmacological pain relief methods, are effective in neonatal pain management. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35620884",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The best non-pharmacological methods are breastfeeding followed by non-nutritive sucking coupled with sucrose sucking. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36291504",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Non-pharmacological interventions, particularly breastfeeding and non-nutritive sucking as primary strategies for pain management in neonates are useful strategies to consider.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36291504",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

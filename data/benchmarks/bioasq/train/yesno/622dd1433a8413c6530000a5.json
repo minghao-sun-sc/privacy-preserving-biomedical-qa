@@ -1,0 +1,40 @@
+{
+  "id": "622dd1433a8413c6530000a5",
+  "type": "yesno",
+  "question": "Is taxilin a cancer marker?",
+  "ideal_answer": "Yes,\n\u03b1-Taxilin, a binding partner of the syntaxin family, is a candidate tumor marker.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24091795",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32377534",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21042709",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28789367"
+  ],
+  "snippets": [
+    {
+      "text": "\u0391lpha-Taxilin (\u03b1-Taxilin) has been found as one of the novel, significantly up regulated protein in RA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32377534",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Expression of \u03b1-taxilin has been implicated in the development of human glioblastoma, hepatocellular carcinoma and renal cell carcinoma. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28789367",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "\u03b1-Taxilin, a binding partner of the syntaxin family, is a candidate tumor marker. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24091795",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Expression of \u03b1-taxilin in hepatocellular carcinoma correlates with growth activity and malignant potential of the tumor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21042709",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "5a772e9dfaa1ab7d2e000001",
+  "type": "yesno",
+  "question": "Was saracatinib being considered as a treatment for Alzheimer's disease in November 2017?",
+  "ideal_answer": "Yes, saracatinib is being studied as a treatment against Alzheimer's Disease. A clinical Phase Ib study has been completed, and a clinical Phase IIa study is ongoing.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25874001"
+  ],
+  "snippets": [
+    {
+      "text": "A phase Ib multiple ascending dose study of the safety, tolerability, and central nervous system availability of AZD0530 (saracatinib) in Alzheimer's disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25874001",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Herein, we present a Phase Ib trial of the repurposed investigational drug AZD0530, a Src family kinase inhibitor specific for Fyn and Src kinase, for the treatment of patients with mild-to-moderate AD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25874001",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The study was a 4-week Phase Ib multiple ascending dose, randomized, double-blind, placebo-controlled trial of AZD0530 in AD patients with Mini-Mental State Examination (MMSE) scores ranging from 16 to 26. A total of 24 subjects were recruited in three sequential groups, with each randomized to receive oral AZD0530 at doses of 50\u00a0mg, 100\u00a0mg, 125\u00a0mg, or placebo daily for 4\u00a0weeks. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25874001",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AZD0530 is reasonably safe and well tolerated in patients with mild-to-moderate AD, achieving substantial central nervous system penetration with oral dosing at 100-125\u00a0mg. Targeting Fyn kinase may be a promising therapeutic approach in AD, and a larger Phase IIa clinical trial of AZD0530 for the treatment of patients with AD has recently launched.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25874001",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "51713cb58ed59a060a000006",
+  "type": "summary",
+  "question": "What is the role of SERCA in diabetic cardiomyopathy?",
+  "ideal_answer": "Diabetic cardiomyopathy is accompanied by reduced SERCA levels and activity in later stages. The up-regulation of SERCA2a in the early phase of type 2 diabetes is an important physiological adaptation of the heart.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18570267",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16810072",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22137362",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20008278",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22621761",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12217882",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19882101",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12206992",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21441944",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17716638",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18492789",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22590623"
+  ],
+  "snippets": [
+    {
+      "text": "Compared with control group, [Ca(2+)](i) and the expression of CaSR, RyR and SERCA/PLN were decreased, while PKC-\u03b1 and PLN were significantly increased in a time-dependent manner in diabetic group",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22137362",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Diabetic rats showed impaired cardiac structure and function compared with control rats. The expression of PKC, PLB increased significantly, while the PPI-1, SERCA-2 and RyR expression decreased. Treatment with breviscapine could reverse the cardiac dysfunction and structure changes in diabetic cardiomyopathy rats, and decrease the expression of PKC and PLB, as well as increase the expression of PPI-1, SERCA-2 and RyR.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19882101",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Diabetic Ren-2 rats developed impairment of both active and passive phases of diastole, accompanied by reductions in SERCA-2a ATPase and phospholamban along with activation of the fetal gene program.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17716638",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The levels of SERCA and GLUT4, but not PLB, were significantly reduced in diabetic hearts compared with controls.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12217882",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "CONCLUSIONS: CASQ2, FKBP12.6 and SERCA2a were down-regulated in diabetic cardiomyopathy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21441944",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Reduced sarcoplasmic calcium ATPase (SERCA2a) expression has been shown to play a significant role in the cardiac dysfunction in diabetic cardiomyopathy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20008278",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Depressed sarcoplasmic reticulum (SR) Ca(2+)-ATPase (SERCA2a) and Ca(2+)-release channels (ryanodine receptor RyR2) are involved in diabetic cardiomyopathy, however, the implication of intracellular calcium handling proteins in SR is undefined.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18570267",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The depressed sarcoplasmic reticulum (SR) Ca2+-ATPase (SERCA2a) and Ca2+-release channels (ryanodine receptor RyR2) are involved in the diabetic cardiomyopathy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16810072",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Slowed relaxation in diabetic cardiomyopathy (CM) is partially related to diminished expression of the sarcoplasmic reticulum (SR) Ca2+-ATPase SERCA2a.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12206992",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003920",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D058065",
+    "http://www.uniprot.org/uniprot/AT2A_CHIOP",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003924",
+    "http://www.disease-ontology.org/api/metadata/DOID:9351"
+  ]
+}

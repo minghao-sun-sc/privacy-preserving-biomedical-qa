@@ -1,0 +1,43 @@
+{
+  "id": "53175e4fb166e2b806000008",
+  "type": "summary",
+  "question": "What is the role of per genes in circadian rhythm control?",
+  "ideal_answer": "PER1 and PER2 genes are involved in cell cycle regulation and tumor suppression, controlling expression of genes such as c-Myc, Cyclin D1, Cyclin A, Mdm-2 and Gadd45alpha.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16596306",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15817328"
+  ],
+  "snippets": [
+    {
+      "text": "Temporal expression of genes involved in cell cycle regulation and tumor suppression, such as c-Myc, Cyclin D1, Cyclin A, Mdm-2 and Gadd45alpha is deregulated in mPer2 mutant mice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16596306",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Period (Per) genes are key circadian rhythm regulators in mammals. Expression of the mouse Per (mPer) genes have diurnal pattern in the suprachiamstic nuclei and in peripheral tissues. Genetic ablation mPER1 and mPER2 function results in a complete loss of circadian rhythm control based on wheel running activity in mice. In addition, these animals also display apparent premature aging and significant increase in neoplastic and hyperplastic phenotypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16596306",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Period (Per) genes are key circadian rhythm regulators in mammals. Expression of mouse Per (mPer) genes has a diurnal pattern in the suprachiasmatic nucleus and in peripheral tissues. Genetic ablation mPER1 and mPER2 function results in a complete loss of circadian rhythm control based on wheel-running activity in mice. In addition, these animals also display apparent premature aging and a significant increase in neoplastic and hyperplastic phenotypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15817328",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The temporal expression of genes involved in cell cycle regulation and tumor suppression, such as c-Myc, Cyclin D1, Cyclin A, Mdm-2, and Gadd45alpha, is deregulated in mPer2 mutant mice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15817328",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/PER1_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002940",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0007623",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0032922",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0042752"
+  ]
+}

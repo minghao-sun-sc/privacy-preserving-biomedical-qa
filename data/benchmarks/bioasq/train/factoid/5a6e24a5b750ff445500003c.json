@@ -1,0 +1,37 @@
+{
+  "id": "5a6e24a5b750ff445500003c",
+  "type": "factoid",
+  "question": "Which workflow in Bioconductor has been developed for accessing human RNA-seq samples?",
+  "ideal_answer": "The recount2 resource is composed of over 70,000 uniformly processed human RNA-seq samples spanning TCGA and SRA, including GTEx.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29043067"
+  ],
+  "snippets": [
+    {
+      "text": "recount workflow: Accessing over 70,000 human RNA-seq samples with Bioconductor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29043067",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The recount2 resource is composed of over 70,000 uniformly processed human RNA-seq samples spanning TCGA and SRA, including GTEx.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29043067",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "recount workflow accessing over 70 000 human rna seq samples with bioconductor",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29043067",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "the recount2 resource is composed of over 70 000 uniformly processed human rna seq samples spanning tcga and sra including gtex the processed data can be accessed via the recount2 website and the bioconductor package this workflow explains in detail how to use the package and how to integrate it with other bioconductor packages for several analyses that can be carried out with the recount2 resource in particular we describe how the coverage count matrices were computed in recount2 as well as different ways of obtaining public metadata which can facilitate downstream analyses step by step directions show how to do a gene level differential expression analysis visualize base level genome coverage data and perform an analyses at multiple feature levels this workflow thus provides further information to understand the data in recount2 and a compendium of r code to use the data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29043067",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "recount2"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "53380000d6d3ac6a34000059",
+  "type": "yesno",
+  "question": "Is poly (ADP- ribosylation) involved in transcriptional control?",
+  "ideal_answer": "Yes, poly (ADP- ribosylation) plays a role in the maintenance of transcriptional fidelity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/1828533",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9790974",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18396434",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17158748",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17286852",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18851700"
+  ],
+  "snippets": [
+    {
+      "text": "Histone phosphorylation, ubiquitylation, SUMOylation and poly-ADP-ribosylation, as well as ATP-dependent nucleosome remodeling complexes, play equally pivotal roles in the maintenance of transcriptional fidelity",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18851700",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "oly(ADP-ribose) polymerase-1 (PARP-1; EC 2.4.2.30) is an abundant nuclear protein that is involved in DNA repair, cell cycle control, programmed cell death and transcriptional regulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18396434",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Many lines of evidence suggest that poly(ADP-ribose) polymerase-1 (Parp-1) is involved in transcriptional regulation of various genes as a coactivator or a corepressor by modulating chromatin structure",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17286852",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest that Parp-1 is required to maintain transcriptional regulation of a wide variety of genes on a genome-wide scale",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17286852",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PARP-1 was identified as a part of the mH2A1.1 nucleosome complex and was found to be associated with the Hsp70.1 promoter",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17158748",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Upon heat shock, the Hsp70.1 promoter-bound PARP-1 is released to activate transcription through ADP-ribosylation of other Hsp70.1 promoter-bound proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17158748",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cycloheximide-induced cells were treated with two chemical inhibitors of poly(ADP-ribose) polymerase. 3-Aminobenzamide inhibited 75% of PAP gene induction and 4-hydroxyquinazolone, the highly specific inhibitor of the enzyme, blocked almost completely PAP expression, suggesting that ADP-ribosylation was indeed required for the upregulation of PAP gene expression by cycloheximide",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9790974",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " inhibitors of poly(ADP-ribose) polymerase suppressed UV-induced HIV-1 gene expression but not tat-mediated expression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1828533",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "oly(ADP-ribose) polymerase inhibitors suppress UV-induced human immunodeficiency virus type 1 gene expression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1828533",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020727",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006351",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0070212"
+  ],
+  "exact_answer": "Yes"
+}

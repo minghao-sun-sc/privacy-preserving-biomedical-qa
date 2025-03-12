@@ -1,0 +1,41 @@
+{
+  "id": "530cf4e0c8a0b4a00c000002",
+  "type": "factoid",
+  "question": "How is connected \"isolated Non-compaction cardiomyopathy\" with dilated cardiomyopathy?",
+  "ideal_answer": "Mutations in cardiac beta-myosin heavy chain and alpha-tropomyosin link isolated Non-compaction cardiomyopathy with dilated cardiomyopathy",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23147248",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17947214"
+  ],
+  "snippets": [
+    {
+      "text": "A novel alpha-tropomyosin mutation associates with dilated and non-compaction cardiomyopathy and diminishes actin binding",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23147248",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We show that a mutation in TPM1 is associated with DCM and a lethal, early onset form of NCCM, probably as a result of diminished actin binding caused by weakened charge-charge interactions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23147248",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We describe, in two separate autosomal-dominant NCCM families, the identification of mutations in the sarcomeric cardiac beta-myosin heavy chain gene (MYH7), known to be associated with hypertrophic cardiomyopathy (HCM), restricted cardiomyopathy (RCM), and dilated cardiomyopathy (DCM).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17947214",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results confirm the genetic heterogeneity of NCCM and suggest that the molecular classification of cardiomyopathies includes an MYH7-associated spectrum of NCCM with HCM, RCM, and DCM.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17947214",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002311",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056830"
+  ],
+  "exact_answer": "via mutations in beta-MHC and alpha-TPM1"
+}

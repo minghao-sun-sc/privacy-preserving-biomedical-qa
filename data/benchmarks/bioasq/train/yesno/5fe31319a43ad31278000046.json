@@ -1,0 +1,237 @@
+{
+  "id": "5fe31319a43ad31278000046",
+  "type": "yesno",
+  "question": "Can ATAC-Seq be employed in single-cell mode?",
+  "ideal_answer": "Single-cell ATAC-seq detects open chromatin in individual cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30451828",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28138849",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32637041",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32029740",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32620137",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26294014",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30936163",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32029221",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31594952",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31428792",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30580963",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26083756",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29686426",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30335168",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30559361"
+  ],
+  "snippets": [
+    {
+      "text": "Single-cell ATAC-seq: strength in numbers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26294014",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Assembly, and Single-Cell ATAC-Seq.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28138849",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Single cell RNA-seq and ATAC-seq analysis of cardiac progenitor cell transition states and lineage settlement.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30451828",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " Here, we comprehensively characterize mouse cardiac progenitor cells (CPCs) marked by Nkx2-5 and Isl1 expression from E7.5 to E9.5 using single-cell RNA sequencing and transposase-accessible chromatin profiling (ATAC-seq).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30451828",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Classifying cells with Scasat, a single-cell ATAC-seq analysis tool.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30335168",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "When done at single-cell resolution, ATAC-seq provides an insight into the cell-to-cell variability that emerges from otherwise identical DNA sequences by identifying the variability in the genomic location of open chromatin sites in each of the cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30335168",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Single-cell ATAC-Seq in human pancreatic islets and deep learning upscaling of rare cells reveals cell-specific type 2 diabetes regulatory signatures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32029221",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "THODS: We present genome-wide single-cell chromatin accessibility profiles in >1,600 cells derived from a human pancreatic islet sample using single-cell combinatorial indexing ATAC-seq (sci-ATAC-seq). W",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32029221",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Contiguity-Preserving Transposition Sequencing (CPT-Seq) for Genome-Wide Haplotyping, Assembly, and Single-Cell ATAC-Seq.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28138849",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "SCALE method for single-cell ATAC-seq analysis via latent feature extraction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31594952",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Single-cell ATAC-seq (scATAC-seq) profiles the chromatin\u00a0accessibility landscape at single cell level, thus revealing cell-to-cell variability in gene regulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31594952",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The recently developed low-input and single-cell regulome mapping technologies such as ATAC-seq and single-cell ATAC-seq (scATAC-seq) allow analyses of small-cell-number and single-cell samples, but their signals remain highly discrete or noisy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31428792",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This paper presents Scasat (single-cell ATAC-seq analysis tool), a complete pipeline to process scATAC-seq data with simple steps.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30335168",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we comprehensively characterize mouse cardiac progenitor cells (CPCs) marked by Nkx2-5 and Isl1 expression from E7.5 to E9.5 using single-cell RNA sequencing and transposase-accessible chromatin profiling (ATAC-seq).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30451828",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Single-cell ATAC-seq (scATAC-seq) technology has also been developed to study cell type-specific chromatin accessibility in tissue samples containing a heterogeneous cellular population.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32637041",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we combined sequencing of the TCR-encoding genes with assay for transposase-accessible chromatin with sequencing (ATAC-seq) analysis at the single-cell level to provide information on the TCR specificity and epigenomic state of individual T cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29686426",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Substantial advances of this work include the optimization of a single-cell combinatorial indexing assay for transposase accessible chromatin (sci-ATAC-seq); a software suite,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30936163",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The accessible chromatin landscape of the murine hippocampus at single-cell resolution.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30936163",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we present a comprehensive map of the accessible chromatin landscape of the mouse hippocampus at single-cell resolution.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30936163",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We expect this review will provide a guideline for successful data generation and analysis methods using appropriate software tools and databases for the study of chromatin accessibility at single-cell resolution.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32637041",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Single-cell sequencing assay for transposase-accessible chromatin (scATAC-seq) is the state-of-the-art technology for analyzing genome-wide regulatory landscapes in single cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32620137",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Single-cell ATAC-seq data are sparse and noisy, and analyzing such data is challenging.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32620137",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we introduce a method for analyzing scATAC-seq data, called Single-Cell ATAC-seq analysis via Latent feature Extraction (SCALE).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31594952",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Single-cell ATAC-seq signal extraction and enhancement with SCATE.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32620137",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Single-cell ATAC-seq detects open chromatin in individual cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26294014",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Currently data are sparse, but combining information from many single cells can identify determinants of cell-to-cell chromatin variation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26294014",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Predictions based on single-cell RNA-seq (scRNA-seq) can more accurately reconstruct bulk chromatin accessibility than using scATAC-seq.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31428792",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Global prediction of chromatin accessibility using small-cell-number and single-cell RNA-seq.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31428792",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Single-cell ATAC-seq (scATAC-seq) maps from hundreds of single cells in aggregate closely resemble accessibility profiles from tens of millions of cells and provide insights into cell-to-cell variation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26083756",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, very few studies have been performed at the single cell level (scATAC-seq) due to technical challenges.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30559361",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we present Perturb-ATAC, a method that combines multiplexed CRISPR interference or knockout with genome-wide chromatin accessibility profiling in single cells based on the simultaneous detection of CRISPR guide RNAs and open chromatin sites by assay of transposase-accessible chromatin with sequencing (ATAC-seq).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30580963",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Additionally, the same workflow can be used to aid de novo assembly (Adey et al., Genome Res 24(12):2041-2049, 2014), detect structural variants, and perform single cell ATAC-seq analysis (Cusanovich et al., Science 348(6237):910-914, 2015).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28138849",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ChromA can analyze single cell ATAC-seq data, correcting many biases generated by the sparse sampling inherent in single cell technologies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32029740",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " circuits. Existing chromatin profiling methods such as ATAC-seq and DNase-seq, applied to islets in bulk, produce aggregate profiles that mask important cellular and regulatory heterogeneity.METHODS: We present genome-wide single-cell chromatin accessibility profiles in >1,600 cells derived from a human pancreatic islet sample using single-cell combinatorial indexing ATAC",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32029221",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ATAC-seq has become a leading technology for probing the chromatin landscape of single and aggregated cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32029740",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

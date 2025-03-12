@@ -1,0 +1,33 @@
+{
+  "id": "5ca10fefecadf2e73f00004a",
+  "type": "yesno",
+  "question": "Is the Philadelphia chromosome a fusion between parts of chromosomes 1 and 9?",
+  "ideal_answer": "No,\nChronic myeloid leukemia is a stem cell disease with the presence of Philadelphia chromosome generated through reciprocal translocation of chromosome 9 and 22.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29633730",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29435292",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29046997"
+  ],
+  "snippets": [
+    {
+      "text": " The Philadelphia chromosome, t(9;22)(q34;q11), is present in 95% of CML patients, resulting in constitutive tyrosine kinase activity; however, ~5% of CML patients possess a Philadelphia variant. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29435292",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chronic Myeloid Leukemia (CML) is myeloproliferative neoplasm characterized by Philadelphia chromosome which is a balanced translocation between chromosome 9 and 22 in 90% of cases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29633730",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chronic myeloid leukemia is a stem cell disease with the presence of Philadelphia chromosome generated through reciprocal translocation of chromosome 9 and 22. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29046997",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

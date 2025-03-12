@@ -1,0 +1,61 @@
+{
+  "id": "515ae990d24251bc050000ad",
+  "type": "yesno",
+  "question": "Is Rheumatoid Arthritis related to myopathy?",
+  "ideal_answer": "Vacuolar myopathy and statin-induced myopathy have been reported in rheumatoid arthritis patients, but this association may be due to the anti-malarial treatment received. An increased prevalence of neurogenic but not myogenic changes in patients with RA compared with controls has been reported.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12682624",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19642078",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17296665",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10555889",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12652413",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15909088",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23171360"
+  ],
+  "snippets": [
+    {
+      "text": "Prevalence of risk factors for statin-induced myopathy in rheumatoid arthritis patients",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19642078",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "we describe a patient with rheumatoid arthritis and respiratory failure associated with proximal myopathy secondary to HCQ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17296665",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Occurrence of chloroquine-induced myopathy after low-dose treatment of rheumatoid arthritis for seven years",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15909088",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "a 75 year old female with rheumatoid arthritis treated with daily doses of 250 mg of chloroquine for four years. The patient visited because of several months history of predominantly proximal progressive tetraparesis with areflexia",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12652413",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Myopathy and neuropathy in rheumatoid arthritis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10555889",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "with rheumatoid arthritis (RA) have clinical or subclinical evidence of peripheral neuropathy or myopathy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10555889",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The study reveals an increased prevalence of neurogenic but not myogenic changes in patients with RA compared with controls",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10555889",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

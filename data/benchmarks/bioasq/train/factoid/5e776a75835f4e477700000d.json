@@ -1,0 +1,19 @@
+{
+  "id": "5e776a75835f4e477700000d",
+  "type": "factoid",
+  "question": "Which company originally developed the drug Afrezza?",
+  "ideal_answer": "The inhaled insulin Technosphere, also known as Afrezza is produced by the MannKind Corporation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20462282"
+  ],
+  "snippets": [
+    {
+      "text": "MannKind Corporation has developed a powder formulation of insulin that allows for a high percentage of the administered insulin to be absorbed via the lung. Their product, AFREZZA (Technosphere insulin), is currently under review by the FDA for use in patients with diabetes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20462282",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "MannKind Corporation"
+}

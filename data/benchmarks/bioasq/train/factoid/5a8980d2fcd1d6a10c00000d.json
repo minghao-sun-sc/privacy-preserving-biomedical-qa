@@ -1,0 +1,54 @@
+{
+  "id": "5a8980d2fcd1d6a10c00000d",
+  "type": "factoid",
+  "question": "Which is the main protein in brown adipose tissue (BAT) active in thermogenesis?",
+  "ideal_answer": "Uncoupling protein 1 (UCP1) is the hallmark protein responsible for cold- and diet-induced thermogenesis in brown adipose tissue (BAT).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28794154",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26304220",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28453364",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28057582",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26515423",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26518386"
+  ],
+  "snippets": [
+    {
+      "text": "Brown adipose tissue (BAT) mitochondria are distinct from their counterparts in other tissues in that ATP production is not their primary physiologic role. BAT mitochondria are equipped with a specialized protein known as uncoupling protein 1 (UCP1). UCP1 short-circuits the electron transport chain, allowing mitochondrial membrane potential to be transduced to heat, making BAT a tissue capable of altering energy expenditure and fuel metabolism in mammals without increasing physical activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28453364",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Uncoupling protein 1 (UCP1) is the hallmark protein responsible for cold- and diet-induced thermogenesis in brown adipose tissue (BAT).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28057582",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thermogenesis is an important homeostatic mechanism essential for survival and normal physiological functions in mammals. Both brown adipose tissue (BAT) (i.e.uncoupling protein 1 (UCP1)-based)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28794154",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "UCP1's central role in non-shivering thermogenesis is acknowledged",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26518386",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "JAK2 promotes brown adipose tissue function and is required for diet- and cold-induced thermogenesis in mice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26515423",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Brown adipocytes (BAs) are specialized for adaptive thermogenesis and, upon sympathetic stimulation, activate mitochondrial uncoupling protein (UCP)-1 and oxidize fatty acids to generate heat",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26304220",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Uncoupling protein 1, UCP1"
+}

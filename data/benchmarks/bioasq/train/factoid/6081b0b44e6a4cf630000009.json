@@ -1,0 +1,40 @@
+{
+  "id": "6081b0b44e6a4cf630000009",
+  "type": "factoid",
+  "question": "Which disease is associated with DNAJB1-PRKACA fusion gene?",
+  "ideal_answer": "Fibrolamellar carcinoma is distinctive at clinical and histologic levels. A novel DNAJB1-PRKACA fusion gene characterizes almost all cases.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29751881",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32154962",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31736218",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29222914"
+  ],
+  "snippets": [
+    {
+      "text": "DNAJB1-PRKACA fusion gene found in sporadic fibrolamellar carcinomas,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29222914",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the presence of a characteristic DNAJB1-PRKACA fusion gene has been associated with FLC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31736218",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The fibrolamellar carcinoma-associated DNAJB1-PRKACA gene fusion transcript RNA codes for the catalytic domain of protein kinase A and, thus, overexpression of Aurora kinase A. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32154962",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Fibrolamellar carcinoma is distinctive at clinical and histologic levels. A novel DNAJB1-PRKACA fusion gene characterizes almost all cases, distinguishes it from other hepatocellular neoplasms, and drives the pathogenesis of this unique tumor",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29751881",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Fibrolamellar carcinoma"
+}

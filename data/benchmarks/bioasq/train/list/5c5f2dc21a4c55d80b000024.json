@@ -1,0 +1,33 @@
+{
+  "id": "5c5f2dc21a4c55d80b000024",
+  "type": "list",
+  "question": "List some substances important for proper nervous system function that gut microbes produce.",
+  "ideal_answer": "serotonin\ngamma-aminobutyric acid\nshort-chain fatty acids\nneurotransmitters",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27571098",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29748506",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26598580"
+  ],
+  "snippets": [
+    {
+      "text": " Gut microorganisms are capable of producing and delivering neuroactive substances such as serotonin and gamma-aminobutyric acid, which act on the gut-brain axis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26598580",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Prebiotic compounds are appealing for this purpose as they are generally food-grade substances only degraded by microbes, such as bifidobacteria and lactobacilli, from which beneficial short-chain fatty acids are produced.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27571098",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover, gut microbiota are considerable sources of NTs. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29748506",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "serotonin, gamma-aminobutyric acid, short-chain fatty acids, neurotransmitters"
+}

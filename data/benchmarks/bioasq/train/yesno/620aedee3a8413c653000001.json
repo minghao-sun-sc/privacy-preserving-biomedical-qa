@@ -1,0 +1,25 @@
+{
+  "id": "620aedee3a8413c653000001",
+  "type": "yesno",
+  "question": "Is AGO2 related to cytokinesis?",
+  "ideal_answer": "Yes. AGO2 localizes to cytokinetic protrusions in a p38-dependent manner and is needed for accurate cell division.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34117353"
+  ],
+  "snippets": [
+    {
+      "text": "AGO2 localizes to cytokinetic protrusions in a p38-dependent manner and is needed for accurate cell division.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34117353",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We suggest that AGO2 is part of a regulatory mechanism triggered by cytokinetic stress to generate the appropriate micro-environment for local transcript homeostasis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34117353",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

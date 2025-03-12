@@ -1,0 +1,80 @@
+{
+  "id": "532ff917d6d3ac6a34000038",
+  "type": "factoid",
+  "question": "What histone trimethylation has been associated to RNA splicing?",
+  "ideal_answer": "Mostly H3K36me3 but there is some evidence that H3K4me3 may also play a role in splicing",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23740743",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18042460",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22308494",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21807997",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23676078",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19823040",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22188810",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21792193"
+  ],
+  "snippets": [
+    {
+      "text": "histone H3 lysine 36 tri-methylation (H3K36Me3), exhibits different patterns around the cleavage sites of genes using multiple polyadenylation sites from those of genes using a single polyadenylation site.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23740743",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ChIP-sequencing data mapped onto skipped exon events reveal a correlation between histone H3K36 trimethylation peaks and skipped exons, suggesting epigenetic marks being part of alternative splicing regulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23676078",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Vezf1 interacts with Mrg15/Mrgbp, a protein that recognizes H3K36 trimethylation, consistent with the role of histone modifications at alternatively spliced sites",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22308494",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "H2BK123ub1 is also a feature of introns in the yeast genome, and the disruption of this modification alters the intragenic distribution of H3 trimethylation on lysine 36 (H3K36me3), which functionally correlates with alternative RNA splicing in humans",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22188810",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We investigated whether a causal relationship exists between splicing and chromatin modification by asking whether splice-site mutations affect the methylation of histone H3K36",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21807997",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " splicing can also contribute to histone modification,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21792193",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Genome-wide analysis of histone methylation in human cell lines and mouse primary T cells reveals that intron-containing genes are preferentially marked with histone H3 Lys36 trimethylation (H3K36me3) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21792193",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " transcription and splicing are functionally intertwined, and that modified nucleosomes with trimethylation of lysine 36 in histone subunit 3 (H3K36me3) are enriched at internal exons and the downstream flanking intronic regions of highly expressed genes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19823040",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "methylated H3K4 serves to facilitate the competency of pre-mRNA maturation ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18042460",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012326",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010452",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:2001253",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0097198",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016571"
+  ],
+  "exact_answer": "H3K36me3"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "54dfcdf81388e8454a00000a",
+  "type": "summary",
+  "question": "What is the mechanism of action of APOBEC3G cytidine deaminase to inhibit HIV-1 replication?",
+  "ideal_answer": "During reverse transcription, APOBEC3G deaminates dC to dU in nascent minus-strand viral DNA, resulting in G-to-A hypermutation in the plus strand DNA to inhibit replication of HIV-1, due to viral cDNA degradation, production of non-functional proteins, formation of undesired stop codons and decreased viral protein synthesis. In an additional line of antiviral defense, APOBEC3G induces deamination of the apical loop cytidine of the trans-activation response (TAR) element, a short stem-loop RNA structure required for binding of elongation factors during HIV-1 transcription elongation, resulting in accumulation of short viral transcripts and production of lower amounts of full-length HIV-1 transcripts in Vif-deficient HIV-1-infected cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23152537",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22787460",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24651717",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17126871",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24623435",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24345943",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24859335"
+  ],
+  "snippets": [
+    {
+      "text": "APOBEC3G inhibits HIV-1 RNA elongation by inactivating the viral trans-activation response element",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24859335",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Deamination of cytidine residues in viral DNA is a major mechanism by which APOBEC3G (A3G) inhibits vif-deficient human immunodeficiency virus type 1 (HIV-1) replication. dC-to-dU transition following RNase-H activity leads to viral cDNA degradation, production of non-functional proteins, formation of undesired stop codons and decreased viral protein synthesis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24859335",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "HIV-1 transcription elongation is regulated by the trans-activation response (TAR) element, a short stem-loop RNA structure required for elongation factors binding. Vif-deficient HIV-1-infected cells accumulate short viral transcripts and produce lower amounts of full-length HIV-1 transcripts due to A3G deamination of the TAR apical loop cytidine, highlighting the requirement for TAR loop integrity in HIV-1 transcription",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24859335",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The APOBEC3 deoxycytidine deaminase family functions as host restriction factors that can block replication of Vif (virus infectivity factor) deficient HIV-1 virions to differing degrees by deaminating cytosines to uracils in single-stranded (-)HIV-1 DNA. Upon replication of the (-)DNA to (+)DNA, the HIV-1 reverse transcriptase incorporates adenines opposite the uracils, thereby inducing C/G\u2192T/A mutations that can functionally inactivate HIV-1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24651717",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "APOBEC3G is a member of this family that inhibits HIV-1 replication in the absence of the viral infectivity factor Vif. Inhibition of HIV replication occurs by both deamination of viral single-stranded DNA and a deamination-independent mechanism",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24345943",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Suppression of HIV-1 infection by APOBEC3 proteins in primary human CD4(+) T cells is associated with inhibition of processive reverse transcription as well as excessive cytidine deamination",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23152537",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "These proteins exert their suppressive effects through the inhibition of viral reverse transcription as well as the induction of cytidine deamination within nascent viral cDNA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23152537",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We demonstrate that APOBEC3 proteins impart a profound deficiency to reverse transcription from the initial stages of cDNA synthesis, as well as excessive cytidine deamination (hypermutation) of the DNAs that are synthesized",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23152537",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Without Vif, A3 proteins, particularly APOBEC3G (A3G) and APOBEC3F (A3F), inhibit HIV-1 replication by blocking reverse transcription and/or integration and hypermutating nascent viral cDNA. The molecular mechanisms of this antiviral activity have been primarily attributed to two biochemical characteristics common to A3 proteins: catalyzing cytidine deamination in single-stranded DNA (ssDNA) and a nucleic acid-binding capability that is specific to ssDNA or ssRNA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22787460",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A host cytidine deaminase, APOBEC3G (A3G), inhibits replication of human immunodeficiency virus type 1 (HIV-1) by incorporating into virions in the absence of the virally encoded Vif protein (Deltavif virions), at least in part by causing G-to-A hypermutation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17126871",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "APOBEC3F and APOBEC3G cytidine deaminases potently inhibit human immunodeficiency virus type 1 (HIV-1) replication by enzymatically inserting G-to-A mutations in viral DNA and/or impairing viral reverse transcription independently of their deaminase activity",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24623435",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/ABC3G_PANTR",
+    "http://www.uniprot.org/uniprot/ABC3G_SAGLB",
+    "http://www.uniprot.org/uniprot/ABC3G_MACFA",
+    "http://www.uniprot.org/uniprot/ABC3G_LAGLA",
+    "http://www.uniprot.org/uniprot/ABC3G_PAPAN",
+    "http://www.uniprot.org/uniprot/ABC3G_GORGO",
+    "http://www.uniprot.org/uniprot/ABC3G_MACMU",
+    "http://www.uniprot.org/uniprot/ABC3G_PONPY",
+    "http://www.uniprot.org/uniprot/ABC3G_CHLAE",
+    "http://www.uniprot.org/uniprot/ABC3G_ERYPA"
+  ]
+}

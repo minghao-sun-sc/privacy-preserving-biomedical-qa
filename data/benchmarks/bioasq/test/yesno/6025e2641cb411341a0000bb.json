@@ -1,0 +1,26 @@
+{
+  "id": "6025e2641cb411341a0000bb",
+  "type": "yesno",
+  "question": "Can thiotepa be recommended for treatment of osteosarcoma?",
+  "ideal_answer": "No. Thiotepa did not improve survival of patients with osteosarcoma and therefore can not be recommended for treatment of osteosarcoma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31838406",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24672280"
+  ],
+  "snippets": [
+    {
+      "text": "CONCLUSION: Adjuvant HDTp failed to significantly improve OS and PFS in resectable relapsed osteosarcomas. Despite a trend of prolonged survival and an acceptable toxicity, thiotepa cannot be recommended.KEY MESSAGE: HDTp and autologous transplantation added to SCT did not improve OS and PFS in patients with resectable relapsed osteosarcomas. Despite a trend of prolonged survival, thiotepa cannot be recommended.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31838406",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Conclusion. The use of HD thiotepa and ASCT is feasible in patients with relapsed osteosarcoma. A randomized study for recurrent osteosarcoma between standard salvage chemotherapy and high dose thiotepa with stem cell rescue is ongoing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24672280",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

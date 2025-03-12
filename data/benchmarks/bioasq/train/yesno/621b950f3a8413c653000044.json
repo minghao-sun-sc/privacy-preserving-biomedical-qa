@@ -1,0 +1,28 @@
+{
+  "id": "621b950f3a8413c653000044",
+  "type": "yesno",
+  "question": "Is SMOC2 expressed during wound healing?",
+  "ideal_answer": "Yes,\nSMOC2 response to wounding.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33710643",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34876240",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32355542",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32908163"
+  ],
+  "snippets": [
+    {
+      "text": "All three fibroblast populations were PDGFR\u03b1+/CD34\u00a0+\u00a0but were distinct in their expression of Ngfr/Spon2/Angptl7 (F1), Cxcl14/Smoc2/Rgs2 (F2), and Clec3b/Col14a1/Mmp3 (F3), with potential functions in the regulation of immune responses, response to wounding, and organization of extracellular matrix, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33710643",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Deficiency of the SMOC2 matricellular protein impairs bone healing and produces age-dependent bone loss.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32908163",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

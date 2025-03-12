@@ -1,0 +1,136 @@
+{
+  "id": "5a8053effaa1ab7d2e00001e",
+  "type": "summary",
+  "question": "Describe the Manta algorithm for detection of structural variants",
+  "ideal_answer": "Manta is a method to discover structural variants and indels from next generation sequencing data. Manta is optimized for rapid germline and somatic analysis, calling structural variants, medium-sized indels and large insertions on standard compute hardware in less than a tenth of the time that comparable methods require to identify only subsets of these variant types: for example NA12878 at 50\u00d7 genomic coverage is analyzed in less than 20\u2009min. Manta can discover and score variants based on supporting paired and split-read evidence, with scoring models optimized for germline analysis of diploid individuals and somatic analysis of tumor-normal sample pairs. Call quality is similar to or better than comparable methods, as determined by pedigree consistency of germline calls and comparison of somatic calls to COSMIC database variants. Manta consistently assembles a higher fraction of its calls to base-pair resolution, allowing for improved downstream annotation and analysis of clinical significance.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26647377"
+  ],
+  "snippets": [
+    {
+      "text": "We describe Manta, a method to discover structural variants and indels from next generation sequencing data. Manta is optimized for rapid germline and somatic analysis, calling structural variants, medium-sized indels and large insertions on standard compute hardware in less than a tenth of the time that comparable methods require to identify only subsets of these variant types: for example NA12878 at 50\u00d7 genomic coverage is analyzed in less than 20\u2009min. Manta can discover and score variants based on supporting paired and split-read evidence, with scoring models optimized for germline analysis of diploid individuals and somatic analysis of tumor-normal sample pairs. Call quality is similar to or better than comparable methods, as determined by pedigree consistency of germline calls and comparison of somatic calls to COSMIC database variants. Manta consistently assembles a higher fraction of its calls to base-pair resolution, allowing for improved downstream annotation and analysis of clinical significance. We provide Manta as a community resource to facilitate practical and routine structural variant analysis in clinical and research sequencing scenarios.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Manta: rapid detection of structural variants and indels for germline and cancer sequencing applications.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": ": We describe Manta, a method to discover structural variants and indels from next generation sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We provide Manta as a community resource to facilitate practical and routine structural variant analysis in clinical and research sequencing scenarios.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Manta can discover and score variants based on supporting paired and split-read evidence, with scoring models optimized for germline analysis of diploid individuals and somatic analysis of tumor-normal sample pairs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Manta is optimized for rapid germline and somatic analysis, calling structural variants, medium-sized indels and large insertions on standard compute hardware in less than a tenth of the time that comparable methods require to identify only subsets of these variant types: for example NA12878 at 50\u00d7 genomic coverage is analyzed in less than 20\u2009min.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Manta consistently assembles a higher fraction of its calls to base-pair resolution, allowing for improved downstream annotation and analysis of clinical significance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We provide Manta as a community resource to facilitate practical and routine structural variant analysis in clinical and research sequencing scenarios.<br><b>AVAILABILITY AND IMPLEMENTATION</b>: Manta is released under the open-source GPLv3 license.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Manta is optimized for rapid germline and somatic analysis, calling structural variants, medium-sized indels and large insertions on standard compute hardware in less than a tenth of the time that comparable methods require to identify only subsets of these variant types: for example NA12878 at 50\u00d7 genomic coverage is analyzed in less than 20\u2009min.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "<b>UNLABELLED</b>: : We describe Manta, a method to discover structural variants and indels from next generation sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Manta can discover and score variants based on supporting paired and split-read evidence, with scoring models optimized for germline analysis of diploid individuals and somatic analysis of tumor-normal sample pairs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "UNLABELLED: : We describe Manta, a method to discover structural variants and indels from next generation sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Manta can discover and score variants based on supporting paired and split-read evidence, with scoring models optimized for germline analysis of diploid individuals and somatic analysis of tumor-normal sample pairs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "UNLABELLED : We describe Manta, a method to discover structural variants and indels from next generation sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Manta is optimized for rapid germline and somatic analysis, calling structural variants, medium-sized indels and large insertions on standard compute hardware in less than a tenth of the time that comparable methods require to identify only subsets of these variant types: for example NA12878 at 50\u00d7 genomic coverage is analyzed in less than 20\u2009min.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Manta can discover and score variants based on supporting paired and split-read evidence, with scoring models optimized for germline analysis of diploid individuals and somatic analysis of tumor-normal sample pairs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We provide Manta as a community resource to facilitate practical and routine structural variant analysis in clinical and research sequencing scenarios.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Manta consistently assembles a higher fraction of its calls to base-pair resolution, allowing for improved downstream annotation and analysis of clinical significance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we describe manta a method to discover structural variants and indels from next generation sequencing data manta is optimized for rapid germline and somatic analysis calling structural variants medium sized indels and large insertions on standard compute hardware in less than a tenth of the time that comparable methods require to identify only subsets of these variant types for example na12878 at 50 genomic coverage is analyzed in less than 20 min manta can discover and score variants based on supporting paired and split read evidence with scoring models optimized for germline analysis of diploid individuals and somatic analysis of tumor normal sample pairs call quality is similar to or better than comparable methods as determined by pedigree consistency of germline calls and comparison of somatic calls to cosmic database variants manta consistently assembles a higher fraction of its calls to base pair resolution allowing for improved downstream annotation and analysis of clinical significance we provide manta as a community resource to facilitate practical and routine structural variant analysis in clinical and research sequencing scenarios manta is released under the open source gplv3 license source code documentation and linux binaries are available from https github com illumina manta csaunders illumina com supplementary data are available at bioinformatics online.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "manta rapid detection of structural variants and indels for germline and cancer sequencing applications",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26647377",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D000465",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D000073336",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D056914"
+  ]
+}

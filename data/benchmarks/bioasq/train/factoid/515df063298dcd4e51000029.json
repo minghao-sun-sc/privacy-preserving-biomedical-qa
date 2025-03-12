@@ -1,0 +1,38 @@
+{
+  "id": "515df063298dcd4e51000029",
+  "type": "factoid",
+  "question": "What is the indication for prophylactic use of antibiotics in COPD?",
+  "ideal_answer": "In a subset of patients with severe disease and prone to developing infections prophylactic use of antibiotics may reduce number of exacerbations and improve social and health care costs.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20477251",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22108462",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11498704"
+  ],
+  "snippets": [
+    {
+      "text": "Yet recent well-designed studies have demonstrated that prophylactic antibiotic use is of significant benefit to patients prone to developing infections. Study patients suffered from recurrent urinary tract infections, COPD or were mechanically ventilated in intensive care units. In the first 2 populations, use of antibiotics was associated with an increase in carriage of antibiotic-resistant bacteria, but in intensive care patients the opposite was documented",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22108462",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Guidelines do not recommend the use of prophylactic antibiotics in COPD but there is preliminary evidence to suggest that they may reduce the number of exacerbations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20477251",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "A short prophylactic treatment course with azithromycin is a good alternative in the management of patients with severe, advanced COPD, and could lead to an improvement in social and healthcare costs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11498704",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D029424",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000900",
+    "http://www.disease-ontology.org/api/metadata/DOID:3083",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019072"
+  ],
+  "exact_answer": "Reduction of number of exacerbations"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "5311d130e3eabad021000009",
+  "type": "list",
+  "question": "Which proteins in the cerebro-spinal fluid can be used for early diagnosis of Alzheimer's disease?",
+  "ideal_answer": "CSF is a clear fluid that bathes and cushions the brain and spinal cord. Adults have about 1 pint of CSF, which physicians can sample through a minimally invasive procedure called a lumbar puncture, or spinal tap. Research suggests that Alzheimer's disease in its earliest stages may cause changes in CSF levels of tau and beta-amyloid, two proteins that form abnormal brain deposits strongly linked to the disease.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19324376",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10510805",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21996556",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19363993",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20558869",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15975056",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21941496",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8180825",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20538373",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21386929",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9129722",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19278690",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21971452",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14699432",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24133408",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2384121",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21903360",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11204323"
+  ],
+  "snippets": [
+    {
+      "text": "Alzheimer's disease (AD) patients have reduced amyloid (A\u03b2 1-42) and elevated total tau (t-tau) and phosphorylated tau (p-tau 181p) in the cerebro-spinal fluid (CSF), suggesting that these same measures could be used to detect early AD pathology in healthy elderly (CN) and mild cognitive impairment (MCI)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21971452",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "although high CSF tau and low CSF A\u03b242 are predictive of Alzheimer's disease, the criterion \"positive CSF tau/A\u03b242 ratio\" is not well defined. The qualification of biomarkers in the pre-dementia stage of Alzheimer's disease will allow better inclusion criteria of patients in pre-dementia trials in which the benefit/risk is higher for treatment with these novel compounds",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21903360",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "investigate the dynamics of four of the most validated biomarkers for Alzheimer's disease (AD), cerebro-spinal fluid (CSF) Abeta 1-42, tau, hippocampal volume, and FDG-PET, in patients at different stage of AD",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20538373",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Alzheimer's disease (AD) may be facilitated by cerebro-spinal fluid (CSF) biomarkers in combination with imaging and clinical assessments. By determining the concentration of beta amyloid fragments, total tau (t-tau) and phospho-tau (p-tau), it is possible to detect the conversion of mild cognitive impairment (MCI) to AD or distinguish AD vs. pseudo-dementia. However, these markers are poorly sensitive to the progressive disease stages",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19278690",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:10652",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000544",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016229"
+  ],
+  "exact_answer": "phosphorylated tau, beta-amyloid"
+}

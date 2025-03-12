@@ -1,0 +1,59 @@
+{
+  "id": "644ef78f57b1c7a315000084",
+  "type": "factoid",
+  "question": "Chromatin is tightly packed into what structure inside the nucleus?",
+  "ideal_answer": "Chromatin, a complex of DNA and proteins, is tightly packed into a highly organized structure called the nucleosome inside the nucleus. Nucleosomes are the fundamental repeating units of chromatin and consist of approximately 147 base pairs of DNA wrapped around an octamer of histone proteins, which include two copies each of histone H2A, H2B, H3, and H4. The nucleosomes are connected by linker DNA and further compacted through interactions with additional histone proteins such as histone H1. This organization allows for efficient packaging of the long DNA molecules within the confined space of the nucleus while still permitting access to genetic information for processes like transcription, replication, and repair. The degree of chromatin compaction can vary depending on cellular context and regulatory mechanisms, ultimately influencing gene expression patterns in response to various signals or environmental cues.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23109894",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28058066",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34255854",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20444609",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15868422"
+  ],
+  "snippets": [
+    {
+      "text": "Our genetic information is tightly packaged into a rather ingenious nucleoprotein complex called chromatin in a manner that enables it to be rapidly accessed during genomic processes. Formation of the nucleosome, which is the fundamental unit of chromatin, occurs via a stepwise process that is reversed to enable the disassembly of nucleosomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20444609",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA in eukaryotes is packed into chromatin. The basic component of chromatin is the nucleosome consisting of DNA wrapped around a histone octamer. Inside the cell nucleus, chromatin is folded into higher-order structures through various mechanisms, including repositioning of nucleosomes along the DNA, packing of nucleosomes into more condensed 3-dimensional configurations, looping of chromatin fibres, and tethering of chromosomal regions to nuclear structures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15868422",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Inside the cell nucleus, chromatin is folded into higher-order structures through various mechanisms, including repositioning of nucleosomes along the DNA, packing of nucleosomes into more condensed 3-dimensional configurations, looping of chromatin fibres, and tethering of chromosomal regions to nuclear structures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15868422",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chromatin is a tightly packaged structure of DNA and protein within the nucleus of a cell.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34255854",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The basic unit of chromatin is the nucleosome, which consists of a short piece of DNA wrapped around a core of eight histone proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28058066",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition to their role in packaging DNA, nucleosomes impact the regulation of essential nuclear processes such as replication, transcription, and repair by controlling the accessibility of DNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28058066",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA repair in eukaryotic cells takes place in the context of chromatin, where DNA, including damaged DNA, is tightly packed into nucleosomes and higher order chromatin structures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23109894",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Nucleosome"
+}

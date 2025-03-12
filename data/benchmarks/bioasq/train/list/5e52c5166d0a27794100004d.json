@@ -1,0 +1,33 @@
+{
+  "id": "5e52c5166d0a27794100004d",
+  "type": "list",
+  "question": "List the stages/types of Multiple Sclerosis.",
+  "ideal_answer": "Multiple sclerosis presents with different phenotypes, most commonly a relapsing-remitting course and, less frequently, a progressive accumulation of disability from disease onset (primary progressive multiple sclerosis). The majority of people with relapsing-remitting multiple sclerosis, after a variable time, switch to a stage characterised by gradual neurological worsening known as secondary progressive multiple sclerosis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28349074",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29465579",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29968175"
+  ],
+  "snippets": [
+    {
+      "text": " MS and hospitalized were included and analyzed after which they were divided into the primary progressive MS A and B groups, the relapsing-remitting MS (RRMS) C and D groups",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29465579",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Multiple sclerosis presents with different phenotypes, most commonly a relapsing-remitting course and, less frequently, a progressive accumulation of disability from disease onset (primary progressive multiple sclerosis). The majority of people with relapsing-remitting multiple sclerosis, after a variable time, switch to a stage characterised by gradual neurological worsening known as secondary progressive multiple sclerosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29968175",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " relapsing-remitting MS, primary and secondary progressive MS) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28349074",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Primary Progressive, Relapsing-Remitting, Secondary Progressive"
+}

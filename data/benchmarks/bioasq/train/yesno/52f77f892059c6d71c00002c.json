@@ -1,0 +1,77 @@
+{
+  "id": "52f77f892059c6d71c00002c",
+  "type": "yesno",
+  "question": "Is stop codon bypass possible?",
+  "ideal_answer": "In 1999, proof-of-concept for treating these disorders was obtained in a mouse model of muscular dystrophy, when administration of aminoglycosides restored protein translation by inducing the ribosome to bypass a PTC.\nAminoglycosides can bypass nonsense mutations and are the prototypic agents for translational bypass therapy (TBT).\nExpression of retroviral replication enzymes (Pol) requires a controlled translational recoding event to bypass the stop codon at the end of gag. This recoding event occurs either by direct suppression of termination via the insertion of an amino acid at the stop codon (readthrough) or by alteration of the mRNA reading frame (frameshift).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17961216",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2010914",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21969101",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18809619",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23083810",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17187982",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2207158",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17881586",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11492998",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7479046",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23649834",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9223347",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9537381",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22718819",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2103444",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10102819",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17158156",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12711673",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2691247"
+  ],
+  "snippets": [
+    {
+      "text": "In 1999, proof-of-concept for treating these disorders was obtained in a mouse model of muscular dystrophy, when administration of aminoglycosides restored protein translation by inducing the ribosome to bypass a PTC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23083810",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Aminoglycosides can bypass nonsense mutations and are the prototypic agents for translational bypass therapy (TBT).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17881586",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Expression of retroviral replication enzymes (Pol) requires a controlled translational recoding event to bypass the stop codon at the end of gag. This recoding event occurs either by direct suppression of termination via the insertion of an amino acid at the stop codon (readthrough) or by alteration of the mRNA reading frame (frameshift).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22718819",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent studies on translation termination in the yeast Saccharomyces cerevisiae have not only enabled the identification of the key components of the termination machinery, but have also revealed several regulatory mechanisms that might enable the controlled synthesis of C-terminally extended polypeptides via stop-codon readthrough. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17187982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The effects of all possible single-base mutations in the codons flanking the stop indicated that 3' contexts of the form CAR-YYA confer leakiness and that the 3' context permits read through of UAA and UGA stop codons as well as UAG.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2010914",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "As a first step to elucidate the mechanism(s) by which ribosomes bypass leaky stop codons in vivo, we have devised a system in which readthrough is coupled to the transient expression of beta-glucuronidase (GUS) in tobacco protoplasts. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2103444",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/BSC1_YEAST",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018387",
+    "http://www.uniprot.org/uniprot/BSC2_YEAST",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018388",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018389",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003062",
+    "http://www.uniprot.org/uniprot/BSC5_YEAST",
+    "http://www.uniprot.org/uniprot/BSC4_YEAST",
+    "http://www.uniprot.org/uniprot/BSC6_YEAST"
+  ],
+  "exact_answer": "Yes"
+}

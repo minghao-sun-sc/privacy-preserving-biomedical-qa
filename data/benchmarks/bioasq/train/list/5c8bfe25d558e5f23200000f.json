@@ -1,0 +1,33 @@
+{
+  "id": "5c8bfe25d558e5f23200000f",
+  "type": "list",
+  "question": "List the functions of the protein lactotransferrin.",
+  "ideal_answer": "Lactotransferrin has numerous biological roles, including the regulation of iron absorption and modulation of immune responses, and has anti-microbial, anti-viral, antioxidant, anti-cancer, and anti-inflammatory activities.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25535701",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26137081",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29756573"
+  ],
+  "snippets": [
+    {
+      "text": "It has numerous biological roles, including the regulation of iron absorption and modulation of immune responses, and has anti-microbial, anti-viral, antioxidant, anti-cancer, and anti-inflammatory activities.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29756573",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The tumor suppressor function of lactotransferrin (LTF) has been reported in a variety of tumors, including GC, nasopharyngeal carcinoma (NPC) and prostate cancer. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26137081",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lactotransferrin (LTF) is a pleiotropic protein, expressed in various body tissues and fluids, which modulates the host immune-inflammatory response and bone metabolism, and might be involved in dental implant osseointegration",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25535701",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "regulation of iron absorption, modulation of immune responses, anti-microbial, anti-viral, antioxidant, anti-cancer, anti-inflammatory"
+}

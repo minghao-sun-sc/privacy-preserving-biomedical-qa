@@ -1,0 +1,25 @@
+{
+  "id": "5d387c20a1e1595105000010",
+  "type": "factoid",
+  "question": "Approximately how many genes are contained in the X chromosome's non-pseudoautosomal region (non-PAR)?",
+  "ideal_answer": "The total number of genes contained in the X chromosome's non- pseudoautosomal region (PAR) is 783.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27869828"
+  ],
+  "snippets": [
+    {
+      "text": "Six of 783 non-pseudoautosomal region (PAR) X-chromosome genes (ATRX, CNKSR2, DDX3X, KDM5C, KDM6A, and MAGEC3) harbored loss-of-function mutations more frequently in males",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27869828",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Six of 783 non-pseudoautosomal region (PAR) X-chromosome genes (ATRX, CNKSR2, DDX3X, KDM5C, KDM6A, and MAGEC3) harbored loss-of-function mutations more frequently in males (based on a false discovery rate < 0.1), in comparison to zero of 18,055 autosomal and PAR genes (Fisher's exact P < 0.0001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27869828",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "783"
+}

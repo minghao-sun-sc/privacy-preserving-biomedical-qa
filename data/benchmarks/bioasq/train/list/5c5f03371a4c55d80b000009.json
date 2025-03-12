@@ -1,0 +1,40 @@
+{
+  "id": "5c5f03371a4c55d80b000009",
+  "type": "list",
+  "question": "List intramembrane rhomboid peptidases",
+  "ideal_answer": "PARL\nPcp1\nhiGlpG\necGlpG\nYqgP",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12417197",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29301859",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22921757",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21455272"
+  ],
+  "snippets": [
+    {
+      "text": "rhomboid protease PARL ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29301859",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The newly identified Pcp1 protein belongs to the rhomboid-GlpG superfamily of putative intramembrane peptidases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12417197",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We subjected Haemophilus influenzae, (hiGlpG), Escherichia coli GlpG (ecGlpG) and Bacillus subtilis (YqgP)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22921757",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Crystal structures of H. influenzae (hiGlpG) and E. coli GlpG (ecGlpG) rhomboids have revealed a structure with six transmembrane helices and a Ser-His catalytic dyad buried within the membrane. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21455272",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "PARL, Pcp1, hiGlpG, ecGlpG, YqgP"
+}

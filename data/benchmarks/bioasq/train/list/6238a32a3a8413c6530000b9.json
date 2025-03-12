@@ -1,0 +1,32 @@
+{
+  "id": "6238a32a3a8413c6530000b9",
+  "type": "list",
+  "question": "What are the symptoms of an incidental durotomy (ID).",
+  "ideal_answer": "Incidental durotomy can cause postural headaches, nausea, vomiting, dizziness, photophobia, tinnitus, and vertigo. Meningitis is a rare complication reported to occur with a frequency of 0.18%",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10528385",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15260094"
+  ],
+  "snippets": [
+    {
+      "text": "Incidental durotomy can cause postural headaches, nausea, vomiting, dizziness, photophobia, tinnitus, and vertigo. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10528385",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Despite the frequency of dural tears in spinal surgery, meningitis is a rare complication reported to occur with a frequency of 0.18%.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15260094",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ATA: Incidental durotomy can cause postural headaches, nausea, vomiting, dizziness, photophobia, tinnitus, and vertigo. These symptoms are believed to",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10528385",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "postural headaches, vomiting, dizziness, photophobia, tinnitus, vertigo, menningitis"
+}

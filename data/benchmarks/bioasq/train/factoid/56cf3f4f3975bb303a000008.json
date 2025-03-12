@@ -1,0 +1,36 @@
+{
+  "id": "56cf3f4f3975bb303a000008",
+  "type": "factoid",
+  "question": "Which is the chromosomal location of the gene MAOA?",
+  "ideal_answer": "The MAOA gene is locatad on chromosome X (Xp21-p11).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/2906043"
+  ],
+  "snippets": [
+    {
+      "text": "Human monoamine oxidase gene (MAOA): chromosome position (Xp21-p11) and DNA polymorphism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2906043",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " Using rodent-human somatic cell hybrids containing all or part of the human X chromosome, we have mapped these fragments to the region Xp21-p11.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2906043",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/AOFA_CANFA",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005694",
+    "http://www.uniprot.org/uniprot/AOFA_BOVIN",
+    "http://www.uniprot.org/uniprot/AOFA_PONAB",
+    "http://www.uniprot.org/uniprot/AOFA_RAT",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0051303",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002875",
+    "http://www.uniprot.org/uniprot/AOFA_SHEEP",
+    "http://www.uniprot.org/uniprot/AOFA_PIG",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008123"
+  ],
+  "exact_answer": "Xp21-p11"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "53318685d6d3ac6a3400003d",
+  "type": "factoid",
+  "question": "What is the mode of inheritance of Acromicric dysplasia?",
+  "ideal_answer": "Acromicric dysplasia has an autosomal dominant mode of inheritance",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22791552",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19396027",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11694546"
+  ],
+  "snippets": [
+    {
+      "text": "AD has an autosomal dominant mode of inheritance, distinct facial and skeleton features (a hoarse voice and internal notch of the femoral head).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22791552",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, WMS is transmitted either by an autosomal dominant or an autosomal recessive (AR) mode of inheritance, GD by an autosomal recessive mode of inheritance and AD by an autosomal dominant mode of inheritance. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19396027",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The condition appeared to be sporadic in 16 cases but the observation of vertical transmission in three families was consistent with an autosomal dominant mode of inheritance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11694546",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D040582",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001848"
+  ],
+  "exact_answer": "autosomal dominant"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "61f7c904882a024a10000027",
+  "type": "factoid",
+  "question": "Which disease can be treated using Tezepelumab?",
+  "ideal_answer": "Tezepelumab can be used to treat severe asthma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34572294",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33368307",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34572466",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34606305",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34608100"
+  ],
+  "snippets": [
+    {
+      "text": "SUMMARY: Clinical trials demonstrated that tezepelumab, an anti-TSLP monoclonal antibody, is a promising alternative treatment for asthma that is effective also in nontype 2 asthma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34608100",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tezepelumab in adults and adolescents with severe, uncontrolled asthma. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34606305",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In severe, uncontrolled asthma, tezepelumab reduced exacerbations and improved asthma control at 1 y.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34606305",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Tezepelumab and other anti-alarmins are thus likely to become, in the near future, valuable therapeutic options for the biological treatment of uncontrolled severe asthma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34572294",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Omalizumab, dupilumab, and tezepelumab can directly modulate the ASM in asthma, by specifically blocking the interaction between IgE, IL-4, and TSLP, and their receptors are located on the surface of ASM cells. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34572466",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AHR has been suggested as the main treatable trait towards precision medicine in patients suffering from eosinophilic asthma, therefore, well-designed head-to-head trials are needed to compare the efficacy of those mAbs that directly target ASM contractility specifically against the AHR in severe asthma, namely omalizumab, dupilumab, and tezepelumab.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34572466",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tezepelumab is a human monoclonal antibody that blocks thymic stromal lymphopoietin, an epithelial cytokine involved in asthma pathogenesis. In the phase 2b PATHWAY study (ClinicalTrials.gov identifier: NCT02054130), tezepelumab significantly reduced exacerbations in adults with severe, uncontrolled asthma. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33368307",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pharmacokinetic and Pharmacodynamic Modeling of Tezepelumab to Guide Phase 3 Dose Selection for Patients With Severe Asthma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33368307",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "These results support the selection of 210 mg every 4 weeks subcutaneously as the dose for phase 3 studies of tezepelumab in adults and adolescents with severe asthma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33368307",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "severe asthma"
+}

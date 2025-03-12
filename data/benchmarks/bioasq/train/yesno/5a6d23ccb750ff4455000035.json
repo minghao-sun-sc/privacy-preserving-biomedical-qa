@@ -1,0 +1,55 @@
+{
+  "id": "5a6d23ccb750ff4455000035",
+  "type": "yesno",
+  "question": "Does TUC.338 inhibit colorectal cancer?",
+  "ideal_answer": "No. TUC.338 is significantly up-regulated in colorectal cancers (CRC) tissue and CRC cell lines, and the up-regulated TUC.338 is associated with lymph node metastasis. TUC.338 acts as a novel oncogene by targeting the TIMP-1 gene thus promoting colorectal cancer cell migration and invasion.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27914101"
+  ],
+  "snippets": [
+    {
+      "text": "TUC.338 promotes invasion and metastasis in colorectal cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27914101",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Until now, the role of TUC.338 in colorectal cancers remains undefined. This study revealed that TUC.338 is significantly up-regulated in colorectal cancers (CRC) tissue and CRC cell lines, and the up-regulated TUC.338 is associated with lymph node metastasis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27914101",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Thus, these findings suggested that TUC.338 acts as a novel oncogene by targeting the TIMP-1 gene thus promoting colorectal cancer cell migration and invasion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27914101",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thus, these findings suggested that TUC.338 acts as a novel oncogene by targeting the TIMP-1 gene thus promoting colorectal cancer cell migration and invasion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27914101",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This study revealed that TUC.338 is significantly up-regulated in colorectal cancers (CRC) tissue and CRC cell lines, and the up-regulated TUC.338 is associated with lymph node metastasis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27914101",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TUC.338 promotes invasion and metastasis in colorectal cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27914101",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D015179",
+    "http://www.disease-ontology.org/api/metadata/DOID:0080199",
+    "http://www.disease-ontology.org/api/metadata/DOID:9256",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D003123",
+    "http://www.disease-ontology.org/api/metadata/DOID:6981"
+  ],
+  "exact_answer": "Yes"
+}

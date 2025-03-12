@@ -1,0 +1,43 @@
+{
+  "id": "5319ac99b166e2b806000034",
+  "type": "factoid",
+  "question": "Which is the third subunit of the TSC1-TSC2 complex upstream of mTORC1?",
+  "ideal_answer": "TBC1D7 was identified as a stably associated and ubiquitous third core subunit of the TSC1-TSC2 complex. It was demonstrated that TSC1-TSC2-TBC1D7 (TSC-TBC) is the functional complex that senses specific cellular growth conditions and possesses Rheb-GAP activity to negatively regulate mTORC1 activity. In agreement with this, TBC1D7 knockdown was shown to result in increased mTORC1 signaling, delayed induction of autophagy, and enhanced cell growth under poor growth conditions.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22795129"
+  ],
+  "snippets": [
+    {
+      "text": "The tuberous sclerosis complex (TSC) tumor suppressors form the TSC1-TSC2 complex, which limits cell growth in response to poor growth conditions. Through its GTPase-activating protein (GAP) activity toward Rheb, this complex inhibits the mechanistic target of rapamycin (mTOR) complex 1 (mTORC1), a key promoter of cell growth.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22795129",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we identify and biochemically characterize TBC1D7 as a stably associated and ubiquitous third core subunit of the TSC1-TSC2 complex. We demonstrate that the TSC1-TSC2-TBC1D7 (TSC-TBC) complex is the functional complex that senses specific cellular growth conditions and possesses Rheb-GAP activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22795129",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TBC1D7 knockdown decreases the association of TSC1 and TSC2 leading to decreased Rheb-GAP activity, without effects on the localization of TSC2 to the lysosome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22795129",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Like the other TSC-TBC components, TBC1D7 knockdown results in increased mTORC1 signaling, delayed induction of autophagy, and enhanced cell growth under poor growth conditions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22795129",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/TSC1_HUMAN",
+    "http://www.biosemantics.org/jochem#4266396",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0033596",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0031931",
+    "http://www.uniprot.org/uniprot/TSC2_HUMAN"
+  ],
+  "exact_answer": "TBC1D7"
+}

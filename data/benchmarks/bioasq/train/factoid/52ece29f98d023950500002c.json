@@ -1,0 +1,74 @@
+{
+  "id": "52ece29f98d023950500002c",
+  "type": "factoid",
+  "question": "Which thyroid hormone transporter is implicated in thyroid hormone resistance syndrome?",
+  "ideal_answer": "thyroid hormone transporter MCT8 is implicated in thyroid hormone resistance syndrome",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21874823",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17132274",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22986150",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21459689",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8421095",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17574009",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9350446",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18334584",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19541799",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21825978",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12946875",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17684393",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17040361",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1422238",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10687857",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24170966",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8115332",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17161330",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9092799",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8594618",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8475937",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7833674",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23392090",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21468521",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18940949",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2885829",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1580595"
+  ],
+  "snippets": [
+    {
+      "text": "Hemizygous MCT8 mutations in males cause severe psychomotor retardation, known as the Allan-Herndon-Dudley syndrome (AHDS), and abnormal serum TH levels. AHDS thus represents a type of TH resistance caused by a defect in cellular TH transport.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23392090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Novel mutation in MCT8 gene in a Brazilian boy with thyroid hormone resistance and severe neurologic abnormalities.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21468521",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "When thyroid hormone production was reduced by PTU, high doses of LT(4) (3.7 microg/kg.d) were needed to normalize serum TSH, confirming that mutation of MCT8 is a cause of resistance to thyroid hormone",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18334584",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "One, producing severe psychomotor defects in > 100 males from 26 families, is caused by mutations in the cell-membrane transporter of TH, MCT8",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17574009",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013963",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0009914",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014284",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011815",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037021",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D060467",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018382",
+    "http://www.disease-ontology.org/api/metadata/DOID:11633",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014186",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037042"
+  ],
+  "exact_answer": "monocarboxylate transporter 8, TH monocarboxylate transporter 8 (MCT8) mutation is implicated in the TH resistance syndrome, MCT8"
+}

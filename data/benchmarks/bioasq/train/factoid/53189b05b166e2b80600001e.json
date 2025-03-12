@@ -1,0 +1,82 @@
+{
+  "id": "53189b05b166e2b80600001e",
+  "type": "factoid",
+  "question": "Which glands are subject to attack by lymphocytes in Sjogren's syndrome?",
+  "ideal_answer": "Sj\u00f6gren's syndrome (SjS) is a human autoimmune disease characterized by exocrine dysfunction resulting from chronic autoimmune attack primarily against the lacrimal and/or salivary glands.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16221495",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21777618",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11439159",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20408860",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16761498",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17472721",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17823290",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17127420",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11464341"
+  ],
+  "snippets": [
+    {
+      "text": "In Sj\u00f6gren's syndrome the autoimmune response is directed against the exocrine glands, which, as histopathological hallmark of the disease, display persistent and progressive focal mononuclear cell infiltrates.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21777618",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sj\u00f6gren's syndrome (SS) is an autoimmune disease characterized by clonal B cell attack of the exocrine glands and dysregulated expression of B cell-activating factor (BAFF).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20408860",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sj\u00f6gren's syndrome (SjS) is a human autoimmune disease characterized by exocrine dysfunction resulting from chronic autoimmune attack primarily against the lacrimal and/or salivary glands.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17823290",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sj\u00f6gren's syndrome is an autoimmune disease in which immune cells chronically attack the lachrymal and salivary glands.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17472721",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sj\u00f6gren's syndrome (SjS) is a systemic autoimmune disease in which an immunological attack against the salivary and lacrimal glands results, respectively, in severe dry mouth and dry eye diseases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17127420",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sj\u00f6gren's syndrome (SS) is a chronic autoimmune disease affecting epithelial tissues. Exocrine glands are the primary target and their functional impairment comes as a result of immune attack of epithelial cells of the affected organs (autoimmune epithelitis).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16761498",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sj\u00f6gren's syndrome (SjS) is a human autoimmune disease characterized by the loss of exocrine function as a result of a chronic immune attack directed primarily against the salivary and lacrimal glands leading to xerostomia (dry mouth) and xerophthalmia (dry eyes).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16221495",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The purpose of this qualitative research was to explore the lived experiences of women with Sjogren's Syndrome (SS), a chronic autoimmune syndrome in which invading lymphocytes attack moisture-producing glands of the body. This syndrome, affecting 4 million Americans, involves extreme dryness of the eyes and mouth and other systemic complications such as fatigue and muscle and joint pain.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11464341",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "NOD mice manifest many features of autoimmune exocrinopathy (Sj\u00f6gren's syndrome), a disease generally characterized by a chronic, progressive immunological attack against the exocrine tissues of the salivary and lacrimal glands.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11439159",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012469",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012859",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005088",
+    "http://www.disease-ontology.org/api/metadata/DOID:12894",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0046649",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007765"
+  ],
+  "exact_answer": "The lacrimal and/or salivary glands"
+}

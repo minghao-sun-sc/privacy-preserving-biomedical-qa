@@ -1,0 +1,47 @@
+{
+  "id": "5ad303970340b9f05800001a",
+  "type": "list",
+  "question": "In what states are GDF15 expression increased?",
+  "ideal_answer": "Growth differentiation factor 15 (GDF-15) is expressed and secreted in response to inflammation, oxidative stress, hypoxia, telomere erosion, and oncogene activation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28025863",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28062617",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28081177",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27750354",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28159780"
+  ],
+  "snippets": [
+    {
+      "text": "Macrophage inhibitory cytokine-1 (MIC-1), also known as growth differentiation factor 15 (GDF15), is a stress response cytokine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28081177",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Growth differentiation factor 15 (GDF-15) is expressed and secreted in response to inflammation, oxidative stress, hypoxia, telomere erosion, and oncogene activation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28062617",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the tumour-derived macrophage inhibitory cytokine-1 (MIC-1) emerged as a possible mediator of cancer anorexia because lesions of these brainstem areas attenuated the anorectic effect of exogenous MIC-1 in mice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28025863",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Growth differentiation factor-15, also known as macrophage inhibitory cytokine-1 (MIC-1/GDF15) is a member of the transforming growth factor- \u03b2 super family and increases during inflammatory states.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27750354",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Growth differentiation factor-15 (GDF-15) is a member of the TGF-\u03b2cytokine superfamily that is widely expressed and may be induced in response to tissue injury. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28159780",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "inflammation, oxidative stress, hypoxia, telomere erosion, oncogene activation, tissue injury"
+}

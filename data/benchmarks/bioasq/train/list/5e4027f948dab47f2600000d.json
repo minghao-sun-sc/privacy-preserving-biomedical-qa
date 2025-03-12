@@ -1,0 +1,45 @@
+{
+  "id": "5e4027f948dab47f2600000d",
+  "type": "list",
+  "question": "List diseases that are caused by the Meningococcus B?",
+  "ideal_answer": "The prevention of paediatric bacterial meningitis and septicaemia has recently entered a new era with the availability of two vaccines against capsular group B meningococcus",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12642606",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16825336",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28778616"
+  ],
+  "snippets": [
+    {
+      "text": "The prevention of paediatric bacterial meningitis and septicaemia has recently entered a new era with the availability of two vaccines against capsular group B meningococcus",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28778616",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Meningitis and sepsis caused by serogroup B meningococcus are two severe diseases that still cause significant mortality.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16825336",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sepsis and meningitis caused by serogroup B meningococcus are devastating diseases of infants and young adults , which cannot yet be prevented by vaccination . ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12642606",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The prevention of paediatric bacterial meningitis and septicaemia has recently entered a new era with the availability of two vaccines against capsular group B meningococcus ( MenB) . ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28778616",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Meningitis and sepsis caused by serogroup B meningococcus are two severe diseases that still cause significant mortality.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16825336",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "meningitis, septicemia"
+}

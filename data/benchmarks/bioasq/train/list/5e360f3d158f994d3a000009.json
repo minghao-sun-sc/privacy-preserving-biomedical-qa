@@ -1,0 +1,41 @@
+{
+  "id": "5e360f3d158f994d3a000009",
+  "type": "list",
+  "question": "What are 3 symptoms of Waardenburg Syndrome?",
+  "ideal_answer": "Waardenburg syndrome  is a rare genetic disorder of neural crest cells (NCC) characterized by congenital sensorineural hearing loss, dystopia canthorum, and abnormal iris pigmentation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/6791571",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29630160",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30394532",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28544110",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29158168"
+  ],
+  "snippets": [
+    {
+      "text": "Waardenburg syndrome type 1 (WS1) is a rare autosomal dominant genetic disorder of neural crest cells (NCC) characterized by congenital sensorineural hearing loss, dystopia canthorum, and abnormal iris pigmentation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29158168",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Waardenburg Syndrome (WS) is a condition characterized by pigmentary changes of the hair or skin, hearing loss, heterochromia iridis, and dystopia canthorum. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29630160",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Waardenburg syndrome (WS) is a disorder of neural crest cell migration characterized by auditory and pigmentary abnormalities.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30394532",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Waardenburg syndrome (WS) is a rare disorder comprising sensorineural deafness and pigmentation abnormalities.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28544110",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "hearing loss, dystopia canthorum, abnormal iris pigmentation"
+}

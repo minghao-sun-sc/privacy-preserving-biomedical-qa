@@ -1,0 +1,40 @@
+{
+  "id": "5aa4faaed6d6b54f7900000b",
+  "type": "yesno",
+  "question": "Is Citrobacter rodentium pathogenic?",
+  "ideal_answer": "Yes, the mouse pathogen Citrobacter rodentium, colonize the gut mucosa via attaching and effacing lesion formation and cause diarrheal diseases.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27633986",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27624779",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27821583",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28085133"
+  ],
+  "snippets": [
+    {
+      "text": "One day after colonization, mice were infected with the colonic pathogen, Citrobacter rodentium.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27633986",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The human pathogen enteropathogenic Escherichia coli (EPEC), as well as the mouse pathogen Citrobacter rodentium, colonize the gut mucosa via attaching and effacing lesion formation and cause diarrheal diseases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27624779",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "EPEC-like mouse pathogen Citrobacter rodentium",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28085133",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we develop a model that provides that link for the investigation of Citrobacter rodentium infection, a mouse model for enteropathogenic Escherichia coli (EPEC). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27821583",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

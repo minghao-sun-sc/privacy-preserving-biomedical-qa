@@ -1,0 +1,47 @@
+{
+  "id": "642d4c9b57b1c7a315000013",
+  "type": "yesno",
+  "question": "Are Luminopsins a fusion proteins of luminol and Rhodopsin ?",
+  "ideal_answer": "No, Luminopsins are fusion proteins of light-sensing opsins and light-emitting luciferases.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33398820",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26733686",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31263065",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30957296",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28862809"
+  ],
+  "snippets": [
+    {
+      "text": "Bioluminescence-optogenetics is mediated by luminopsin fusion proteins-light-sensing opsins fused to light-emitting luciferases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33398820",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we have expanded and refined the versatility of luminopsin tools by fusing an alternative luciferase variant with high light emission, Gaussia luciferase mutant GLucM23, to depolarizing and hyperpolarizing channelrhodopsins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28862809",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " luminopsins by fusing light-sensing opsins with light-emitting luciferases. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30957296",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ouse iPS-NPCs were transduced with a novel optochemogenetics fusion protein, luminopsin 3 (LMO3), which consisted of a bioluminescent luciferase, Gaussia luciferase, and an opsin, Volvox Channelrhodopsin 1. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31263065",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Luminopsins are fusion proteins of luciferase and opsin that allow interrogation of neuronal circuits at different temporal and spatial resolutions by choosing either extrinsic physical or intrinsic biological light for its activation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26733686",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

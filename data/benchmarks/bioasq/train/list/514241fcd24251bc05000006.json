@@ -1,0 +1,85 @@
+{
+  "id": "514241fcd24251bc05000006",
+  "type": "list",
+  "question": "The protein NONO forms heterodimers. With which proteins?",
+  "ideal_answer": "The protein NONO forms heterodimers with PSPC1, SFPQ.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16148043",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22101825",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22102035",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20421735",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18655028",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19423654",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22416126"
+  ],
+  "snippets": [
+    {
+      "text": "The paraspeckle component 1 (PSPC1) and non-POU-domain-containing octamer-binding protein (NONO) heterodimer is an essential structural component of paraspeckles,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22102035",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "PSPC1-NONO heterodimer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22101825",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Crystallization of a paraspeckle protein PSPC1-NONO heterodimer",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22102035",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "difficult heterodimeric complex of two human proteins, paraspeckle component 1 (PSPC1) and non-POU domain-containing octamer-binding protein (NONO), that are involved in gene regulation and the structural integrity of nuclear bodies termed paraspeckles is described.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22101825",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "SFPQ (PSF) and NONO (p54) are nuclear proteins that interact with each other and have diverse roles in nucleic acids metabolism. The SFPQ/NONO heterodimer was previously found to enhance DNA strand break rejoining in vitro.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20421735",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We identified a heterodimer, p54nrb and PSF,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18655028",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "P54nrb forms a heterodimer with PSP1 that localizes to paraspeckles in an RNA-dependent manner.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16148043",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "e demonstrated that the PSF heterodimer partner, p54nrb (non-POU-domain-containing, octamer binding protein), can also function as a transcription corepressor, independent of PSF.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19423654",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The PSPC1/NONO heterodimer has a right-handed antiparallel coiled-coil",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22416126",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Structure of the heterodimer of human NONO and paraspeckle protein component 1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22416126",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/NONO_HUMAN",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0043497",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019281",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D055503",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0046982"
+  ],
+  "exact_answer": "PSPC1, SFPQ"
+}

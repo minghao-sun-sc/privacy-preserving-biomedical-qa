@@ -1,0 +1,33 @@
+{
+  "id": "5cb3a2dd99d1e53537000001",
+  "type": "yesno",
+  "question": "Is CD63 an exosomal marker?",
+  "ideal_answer": "Yes,\nCD63 is a exosomal marker",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28346015",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28770472",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28819811"
+  ],
+  "snippets": [
+    {
+      "text": "f exosome marker proteins (e.g., CD63, Alix) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28770472",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " CD63 levels and acetylcholinesterase (AChE) activity were used as markers of exosome,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28819811",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The results demonstrated these exosomes all expressed CD9, CD63, CD81, Alix",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28346015",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6057003594d57fd879000020",
+  "type": "yesno",
+  "question": "Are the major royal jelly proteins similar to the yellow proteins?",
+  "ideal_answer": "Yes,\nMajor royal jelly proteins (named MRJP1-5) of honeybee (Apis mellifera), yellow proteins of Drosophila, together with putative proteins found in several bacteria, form a protein family termed the MRJP/yellow family.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15037093",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10772900"
+  ],
+  "snippets": [
+    {
+      "text": "Major royal jelly proteins (named MRJP1-5) of honeybee (Apis mellifera), yellow proteins of Drosophila, together with putative proteins found in several bacteria, form a protein family termed the MRJP/yellow family.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15037093",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Analysis of Drosophila yellow-B cDNA reveals a new family of proteins related to the royal jelly proteins in the honeybee",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10772900",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "he Yellow proteins are related to the Royal Jelly proteins and have no relatives in other non-insect metazoan species. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10772900",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

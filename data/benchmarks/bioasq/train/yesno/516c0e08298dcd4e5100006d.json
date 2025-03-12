@@ -1,0 +1,47 @@
+{
+  "id": "516c0e08298dcd4e5100006d",
+  "type": "yesno",
+  "question": "Does  thyroid hormone receptor beta1 affect insulin secretion?",
+  "ideal_answer": "No",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17293442"
+  ],
+  "snippets": [
+    {
+      "text": "We demonstrated that thyroid hormone T3 rapidly induces Akt activation in pancreatic beta cells rRINm5F and hCM via thyroid hormone receptor (TR) beta1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17293442",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The silencing of TRbeta1 expression through RNAi confirmed this receptor to be crucial for the T3-induced activation of Akt.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17293442",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "T3 is able to specifically activate Akt in the islet beta cells rRINm5F and hCM through the interaction between TRbeta1 and PI3K p85alpha, demonstrating the involvement of TRbeta1 in this novel T3 non-genomic action in islet beta cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17293442",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011988",
+    "http://www.uniprot.org/uniprot/THBA_XENLA",
+    "http://www.uniprot.org/uniprot/INS_APLCA",
+    "http://www.uniprot.org/uniprot/THB_SHEEP",
+    "http://www.uniprot.org/uniprot/THB_PAROL",
+    "http://www.uniprot.org/uniprot/THB_CHICK",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0004887",
+    "http://www.uniprot.org/uniprot/THB_DANRE",
+    "http://www.uniprot.org/uniprot/THB_RAT",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013963",
+    "http://www.uniprot.org/uniprot/THB_HUMAN",
+    "http://www.uniprot.org/uniprot/THB_CAIMO",
+    "http://www.uniprot.org/uniprot/THB_MOUSE",
+    "http://www.uniprot.org/uniprot/THB_LITCT",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037042"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "52e7b7cb98d023950500001c",
+  "type": "list",
+  "question": "Which drugs affect insulin resistance in obesity?",
+  "ideal_answer": "Enistein treatment could help reduce insulin resistance\nACE inhibitor drugs may improve insulin resistance",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17482151",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9374813",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19236237",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21276223",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23619228",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17437648",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21270237",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22292446",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23702383",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24090942",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22412882",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22983924",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23735317",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21440024",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22435392",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23144896",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18925326",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22275759",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22878697",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24072084",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23176795",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23808738",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22247785",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23820981"
+  ],
+  "snippets": [
+    {
+      "text": "enistein treatment could help reduce insulin resistance through the amelioration of OVX-induced metabolic dysfunction, and the GSEA approach may be useful in proposing putative targets related to insulin resistance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23176795",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "he positive effects of ACE inhibitor drugs, particularly on hypertriglyceridemia and insulin resistance, might bring them forth as first-line drugs in the treatment of obese and hypertensive children. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24072084",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007333",
+    "http://www.disease-ontology.org/api/metadata/DOID:14221",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009765",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D061385",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007328",
+    "http://www.disease-ontology.org/api/metadata/DOID:9970",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019440",
+    "http://www.uniprot.org/uniprot/INS_CAIMO"
+  ],
+  "exact_answer": "Enistein, ACE inhibitors"
+}

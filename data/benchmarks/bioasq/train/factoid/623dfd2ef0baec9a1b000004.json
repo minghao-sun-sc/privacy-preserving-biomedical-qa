@@ -1,0 +1,40 @@
+{
+  "id": "623dfd2ef0baec9a1b000004",
+  "type": "factoid",
+  "question": "What is the function of the protein calreticulin?",
+  "ideal_answer": "Calreticulin (CALR) is an endoplasmic reticulum (ER)-resident protein involved in a spectrum of cellular processes. In healthy cells, CALR operates as a chaperone and Ca2+ buffer to assist correct protein folding within the ER.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33360823",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34472223",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34495528",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32733014"
+  ],
+  "snippets": [
+    {
+      "text": "Subsequently, the N-glycosylated nascent proteins enter the folding step, in which N-glycans contribute largely to attaining the correct protein fold by recruiting the lectin-like chaperones, calnexin, and calreticulin. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34495528",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The lectin chaperones calnexin (CNX) and calreticulin (CRT) localized in the endoplasmic reticulum play important roles in glycoprotein quality control. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33360823",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Calreticulin (CRT), an endoplasmic reticulum-resident protein generally overexpressed in cancer cells, is associated with radiation resistance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34472223",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Calreticulin (CALR) is an endoplasmic reticulum (ER)-resident protein involved in a spectrum of cellular processes. In healthy cells, CALR operates as a chaperone and Ca2+ buffer to assist correct protein folding within the ER.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32733014",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "chaperone and Ca2+ buffer to assist correct protein folding within the ER"
+}

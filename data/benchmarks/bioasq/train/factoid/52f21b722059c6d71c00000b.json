@@ -1,0 +1,90 @@
+{
+  "id": "52f21b722059c6d71c00000b",
+  "type": "factoid",
+  "question": "What is the usual HER-2 status in breast cancer associated with Li-Fraumeni syndrome?",
+  "ideal_answer": "In up to two thirds of breast cancer patients associated with Li-Fraumeni syndrome, the HER-2 status was found to be positive.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23580068",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21761402",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20805372",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22392042"
+  ],
+  "snippets": [
+    {
+      "text": "Breast cancer is the most frequent tumor in Li-Fraumeni syndrome (LFS), a rare inherited cancer syndrome associated with germline mutations in the TP53 gene. Recent data show that breast cancer in germline TP53 mutation carriers is commonly HER2+ (63-83 %).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23580068",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Breast cancers in TP53 mutation carriers recently have more often been reported to be hormone receptor and HER-2 positive by immunohistochemistry and FISH in small series.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22392042",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Most DCIS and invasive ductal carcinomas in LFS are hormone receptor positive and/or HER-2 positive.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22392042",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Early onset HER2-positive breast cancer is associated with germline TP53 mutations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21761402",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Germline TP53 mutations predispose to early onset breast cancer in women and are associated with Li-Fraumeni syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21761402",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Patients who tested positive for germlineTP53 mutations (n = 30) were compared with controls (n = 79). Human epidermal growth factor receptor 2 (HER2) amplification and/or overexpression was found in 67% of the tumors from the cases, compared with 25% for the controls (P = .0001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21761402",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This study suggests an association between germline TP53 mutations and early onset HER2-positive breast cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21761402",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A novel HER2-positive breast cancer phenotype arising from germline TP53 mutations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20805372",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The Li-Fraumeni Syndrome is caused by a germline TP53 mutation and is associated with a high risk of breast cancer at young ages.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20805372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Patients carrying a TP53 mutation showed a significantly higher likelihood of developing a breast cancer with Human Epidermal growth factor Receptor (HER2) amplification (83%) when compared to the cohort of young onset breast cancer cases (16%);",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20805372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "breast cancer developing on a background of an inherited TP53 mutation is highly likely to present with amplification of HER2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20805372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:1612",
+    "http://www.disease-ontology.org/api/metadata/DOID:0060079",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001943",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050671",
+    "http://www.disease-ontology.org/api/metadata/DOID:3012",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018579",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016864"
+  ],
+  "exact_answer": "Positive"
+}

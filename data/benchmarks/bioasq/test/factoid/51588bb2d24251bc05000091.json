@@ -1,0 +1,79 @@
+{
+  "id": "51588bb2d24251bc05000091",
+  "type": "factoid",
+  "question": "Which antiepileptic drug is most strongly associated with spina bifida? ",
+  "ideal_answer": "Phenytoin is not used in pregnancy as it is associated with a severe fetal deformation. From the other anticonvulsants most studies report the higher association between use during pregnancy and spin bifida to occur with Valproate.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/3939491",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10339792",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8075508",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23082254",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22051200",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17075842",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19490036",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11077457",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2707392",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21766433"
+  ],
+  "snippets": [
+    {
+      "text": "The teratogenicity of antiepilepsy drug valproic acid (VPA) mostly is found in genetic and somatic levels, causing teratogenesis involving neurotubular defects (NTDs), anencephaly, lumbosacral meningomyelocele, and leg dysfunction due to spina bifida aperta.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22051200",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The summary odds ratio estimate for the association between valproic acid and spina bifida was 11.9 (95% uncertainty interval (UI): 4.0-21.2); for valproic acid and cleft palate 5.8 (95% UI: 3.3-9.5); for carbamazepine and spina bifida 3.6 (95% UI: 1.3-7.8); and for carbamazepine and cleft palate 2.4 (95% UI: 1.1-4.5) in the United States.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21766433",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Increased risk for MCMs could be demonstrated only for exposure to valproate (5.6%, p = 0.005) and AED polytherapy (6.1%, p = 0.02). Neonatal spina bifida was not significantly increased, but was a major indication for elective pregnancy termination among women with epilepsy. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19490036",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Valproic acid, a drug commonly used to treat seizures and other psychiatric disorders, causes neural tube defects (NTDs) in exposed fetuses at a rate 20 times higher than in the general population. Failure of the neural tube to close during development results in exencephaly or anencephaly, as well as spina bifida.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17075842",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Associations were found for spina bifida with valproic acid. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11077457",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Fetal exposure to valproic acid or carbamazepine increases the risk of neural tube defect (NTD)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10339792",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Women with epilepsy giving birth during 1973 to 1991 were identified by record linkage of Swedish health registries. Among 3,625 identified infants, 9 had spina bifida. A nested case-control study was performed, comparing drugs used in early pregnancy in the 9 cases and in 18 controls, matched for year of delivery, maternal age, and parity. Six of the spina bifida mothers had used carbamazepine and two had used valproic acid. Among the controls, 5 women used carbamazepine and one valproic acid. There is an apparent excess risk for spina bifida after use of either of these two drugs, but it is not statistically significant when the analysis is restricted to drug-using women. T",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8075508",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "A significant association was seen between maternal use of valproic acid and spina bifida, and a weaker, non-significant one between carbamazepine and spina bifida.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2707392",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "A statistically significant association between Spina Bifida and Valproic Acid (odds ratio 22.7; Fisher p value = 0.0364) was observed: no other anticonvulsant tested showed any association with any type of malformation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3939491",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:0080016",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000927"
+  ],
+  "exact_answer": "Valproate"
+}

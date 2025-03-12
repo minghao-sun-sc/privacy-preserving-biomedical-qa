@@ -1,0 +1,25 @@
+{
+  "id": "5c8857e975a4a5d219000009",
+  "type": "yesno",
+  "question": "Are apoE mimetics being considered as a treatment against Alzheimer's disease?",
+  "ideal_answer": "Yes, apoE mimetics are being considered as a treatment against Alzheimer's disease, and  they have been shown to protect AD mouse models against these AD-like features.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22965147"
+  ],
+  "snippets": [
+    {
+      "text": "The apolipoprotein-E-mimetic COG112 protects amyloid precursor protein intracellular domain-overexpressing animals from Alzheimer's disease-like pathological features.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22965147",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Studies show that administration of apolipoprotein E (apoE) and apoE-derived small peptide mimetics protect AD mouse models against these AD-like features.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22965147",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

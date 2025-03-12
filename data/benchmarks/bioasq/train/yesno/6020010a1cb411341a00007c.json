@@ -1,0 +1,19 @@
+{
+  "id": "6020010a1cb411341a00007c",
+  "type": "yesno",
+  "question": "Is co-loss of BRCA2-RB1 associated with better prognosis for prostate cancer patients?",
+  "ideal_answer": "No. Co-loss of BRCA2-RB1 in human prostate cancer cells induces an epithelial-to-mesenchymal transition, which is associated with invasiveness and a more aggressive disease phenotype.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31796516"
+  ],
+  "snippets": [
+    {
+      "text": "In human prostate cancer cell lines (LNCaP and LAPC4), loss of BRCA2 leads to the castration-resistant phenotype. Co-loss of BRCA2-RB1 in human prostate cancer cells induces an epithelial-to-mesenchymal transition, which is associated with invasiveness and a more aggressive disease phenotype. Importantly, PARP inhibitors attenuate cell growth in human mCRPC-derived organoids and human CRPC cells harboring single-copy loss of both genes.CONCLUSIONS: Our findings suggest that early identification of this aggressive form of prostate cancer offers potential for improved outcomes with early introduction of PARP inhibitor-based therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31796516",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

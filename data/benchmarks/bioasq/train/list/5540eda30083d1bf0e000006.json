@@ -1,0 +1,150 @@
+{
+  "id": "5540eda30083d1bf0e000006",
+  "type": "list",
+  "question": "Which proteins constitute the methyl-directed mismatch repair system (MMR) in bacteria?",
+  "ideal_answer": "The mismatch repair system (MMR) recognizes and corrects mismatched or unpaired bases caused mainly by DNA polymerase, and contributes to the fidelity of DNA replication in living cells. In bacteria, the methyldirected mismatch repair (MMR) is comprised of MutS and MutL proteins, encoded by the mutS/L operon.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21940221",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14602928",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12067333",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16414311",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9852252",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11591694",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8244947",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1920448",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15709980",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10652107",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18687413",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15503140",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12860461",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19192394",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22473602",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20018207",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24214875",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12513688",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19474347",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24062730",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17951114",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20971907",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20921378",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11952911",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3280983",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23228104",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19029144",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15113836"
+  ],
+  "snippets": [
+    {
+      "text": "MutY and MutSL (mismatch repair system [MMR])",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20971907",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Escherichia coli DNA Mismatch Repair (MMR) protein MutS ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18687413",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We have characterized the mismatch repair system (MMR) of the highly radiation-resistant type strain of Deinococcus radiodurans, ATCC 13939. We show that the MMR system is functional in this organism, where it participates in ensuring the fidelity of DNA replication and recombination. The system relies on the activity of two key proteins, MutS1 and MutL, which constitute a conserved core involved in mismatch recognition.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15503140",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the mutS/L operon essential for methyldirected mismatch repair (MMR) activity",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24214875",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mismatch repair system (mutS, mutL and uvrD genes) in Pseudomonas aeruginosa",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11952911",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The mismatch repair system (MMR) recognizes and corrects mismatched or unpaired bases caused mainly by DNA polymerase, and contributes to the fidelity of DNA replication in living cells. In Escherichia coli, the MutHLS system is known to function in MMR, and homologues of MutS and MutL are widely conserved in almost all organisms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15113836",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A simple genetic system has been developed to test the effect of over-expression of wild-type or mutated human MutL homologue 1 (hMLH1) proteins on methyl-directed mismatch repair (MMR) in Escherichia coli.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12513688",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Among these six mutated genes was mutS, which encodes a component of the methyl-directed mismatch repair (MMR) system.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22473602",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The majority of naturally occurring, strong mutators contain defects in the methyl-directed mismatch repair (MMR) system, with mutations in mutS predominating.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12860461",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The picture of MutH-independent MMR in other bacteria is less clear, as MMR components other than MutS and MutL have not been identified in the majority of bacteria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21940221",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The methyl-directed mismatch repair (MMR) mechanism has been extensively studied in vitro and in vivo, but one of the difficulties in determining the biological relationships between the MMR-related proteins is the tendency of MutL to self-aggregate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19192394",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Among these six mutated genes was mutS, which encodes a component of the methyl-directed mismatch repair (MMR) system.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22473602",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MutL is required to assist the mismatch repair protein MutS during initiation of the methyl-directed mismatch repair (MMR) response in various organisms ranging from prokaryotes to eukaryotes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19029144",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover, methyl-directed mismatch repair (MMR) is known to trigger sensitivity to methylating agents via a mechanism that involves recognition by MutS of the O(6)-mG:T replication intermediates.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20921378",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The system relies on the activity of two key proteins, MutS1 and MutL, which constitute a conserved core involved in mismatch recognition.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15503140",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In Escherichia coli, the best studied mismatch repair (MMR) pathway is the methyl-directed long patch repair system which is mediated by three gene products; MutS, MutL and MutH.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9852252",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cells devoid of MutS1 or MutL proteins were as resistant to gamma-rays, mitomycin C and UV-irradiation as wild-type bacteria, suggesting that the mismatch repair system is not essential for the reconstitution of a functional genome after DNA damage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15503140",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The system relies on the activity of two key proteins, MutS1 and MutL, which constitute a conserved core involved in mismatch recognition",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15503140",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006298"
+  ],
+  "exact_answer": "mutS, mutL, mutH"
+}

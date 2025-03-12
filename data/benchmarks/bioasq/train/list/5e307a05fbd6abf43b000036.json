@@ -1,0 +1,56 @@
+{
+  "id": "5e307a05fbd6abf43b000036",
+  "type": "list",
+  "question": "Which algorithms have been developed for analysing CRISPR/Cas9 knockout screens data?",
+  "ideal_answer": "HiTSelect and MAGeCK (Model-based Analysis of Genome-wide CRISPR/Cas9 Knockout)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25476604",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25428347"
+  ],
+  "snippets": [
+    {
+      "text": "HiTSelect: a comprehensive tool for high-complexity-pooled screen analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25428347",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Genetic screens of an unprecedented scale have recently been made possible by the availability of high-complexity libraries of synthetic oligonucleotides designed to mediate either gene knockdown or gene knockout, coupled with next-generation sequencing. However, several sources of random noise and statistical biases complicate the interpretation of the resulting high-throughput data. We developed HiTSelect, a comprehensive analysis pipeline for rigorously selecting screen hits and identifying functionally relevant genes and pathways by addressing off-target effects, controlling for variance in both gene silencing efficiency and sequencing depth of coverage and integrating relevant metadata. We document the superior performance of HiTSelect using data from both genome-wide RNAi and CRISPR/Cas9 screens. HiTSelect is implemented as an open-source package, with a user-friendly interface for data visualization and pathway exploration. Binary executables are available at http://sourceforge.net/projects/hitselect/, and the source code is available at https://github.com/diazlab/HiTSelect.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25428347",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MAGeCK enables robust identification of essential  genes from genome-scale CRISPR/Cas9 knockout  screens.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25476604",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We propose the Model-based Analysis of Genome-wide CRISPR/Cas9 Knockout (MAGeCK) method for prioritizing single-guide RNAs, genes and pathways in genome-scale CRISPR/Cas9 knockout screens. MAGeCK demonstrates better performance compared with existing methods, identifies both positively and negatively selected genes simultaneously, and reports robust results across different experimental conditions. Using public datasets, MAGeCK identified novel essential genes and pathways, including EGFR in vemurafenib-treated A375 cells harboring a BRAF mutation. MAGeCK also detected cell type-specific essential genes, including BCR and ABL1, in KBM7 cells bearing a BCR-ABL fusion, and IGF1R in HL-60 cells, which depends on the insulin signaling pathway for proliferation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25476604",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We propose the Model-based Analysis of Genome-wide CRISPR/Cas9 Knockout (MAGeCK) method for prioritizing single-guide RNAs, genes and pathways in genome-scale CRISPR/Cas9 knockout screens.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25476604",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We propose the Model-based Analysis of Genome-wide CRISPR/Cas9 Knockout (MAGeCK) method for prioritizing single-guide RNAs, genes and pathways in genome-scale CRISPR/Cas9 knockout screens.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25476604",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We document the superior performance of HiTSelect using data from both genome-wide RNAi and CRISPR/Cas9 screens.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25428347",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "HiTSelect, MAGeCK, Model-based Analysis of Genome-wide CRISPR/Cas9 Knockout"
+}

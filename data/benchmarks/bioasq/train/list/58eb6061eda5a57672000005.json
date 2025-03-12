@@ -1,0 +1,110 @@
+{
+  "id": "58eb6061eda5a57672000005",
+  "type": "list",
+  "question": "In which fields of DNA sequencing are Bloom filters applied?",
+  "ideal_answer": "A novel algorithm, fast and accurate classification of sequences (FACSs), is introduced that can accurately and rapidly classify sequences as belonging or not belonging to a reference sequence.  Classification of DNA sequences using Bloom filters Lighter is a fast, memory-efficient tool for correcting sequencing errors.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26539459",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27412092",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25252952",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24565280",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27828710",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20472541",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25398208",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25183486"
+  ],
+  "snippets": [
+    {
+      "text": "A novel algorithm, fast and accurate classification of sequences (FACSs), is introduced that can accurately and rapidly classify sequences as belonging or not belonging to a reference sequence. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20472541",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Classification of DNA sequences using Bloom filters",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20472541",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Lighter is a fast, memory-efficient tool for correcting sequencing errors. Lighter avoids counting k-mers. Instead, it uses a pair of Bloom filters, one holding a sample of the input k-mers and the other holding k-mers likely to be correct.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25398208",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Fast lossless compression via cascading Bloom filters",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25252952",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In contrast to reference-based methods that first align reads to the genome, we hash all reads into Bloom filters to encode, and decode by querying the same Bloom filters using read-length subsequences of the reference genome. Further compression is achieved by using a cascade of such filters",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25252952",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using cascading Bloom filters to improve the memory usage for de Brujin graphs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24565280",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In this work, we show how to reduce the memory required by the data structure of Chikhi and Rizk (WABI'12) that represents de Brujin graphs using Bloom filters.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24565280",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We introduce a novel hash-based method for constructing the string graph. We use incremental hashing, and specifically a modification of the Karp-Rabin fingerprint, and Bloom filters",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25183486",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Further, we note that Bloom filters would be suitable to implicitly store spaced seeds and be tolerant to sequencing errors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26539459",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " It uses a pair of cache oblivious Bloom filters, one holding a uniform sample of [Formula: see text]-spaced sequenced [Formula: see text]-mers and the other holding [Formula: see text]-mers classified as likely correct, using a simple statistical test.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27412092",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Improving Bloom Filter Performance on Sequence Data Using k-mer Bloom Filters",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27828710",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "BFs reduce the memory footprint required to store millions of k-mers while allowing for fast set containment queries, at the cost of a low false positive rate (FPR).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27828710",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We consider several variants of such k-mer Bloom filters (kBFs), derive theoretical upper bounds for their FPR, and discuss their range of applications and limitations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27828710",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Fast lossless compression via cascading Bloom filters.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25252952",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Fast lossless compression via cascading Bloom filters.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25252952",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "storage, compression, alignment-free comparisons"
+}

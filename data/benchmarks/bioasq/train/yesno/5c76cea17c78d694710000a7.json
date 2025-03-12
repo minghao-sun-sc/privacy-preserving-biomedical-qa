@@ -1,0 +1,33 @@
+{
+  "id": "5c76cea17c78d694710000a7",
+  "type": "yesno",
+  "question": "Is ADP-ribosylation a PTM?",
+  "ideal_answer": "Yes,\nPoly-ADP-ribosylation (PARylation) is a protein posttranslational modification (PTM) that is critically involved in many biological processes that are linked to cell stress responses.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29327913",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29172462",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29554239"
+  ],
+  "snippets": [
+    {
+      "text": "ADP-ribosylation is a PTM, in which ADP-ribosyltransferases use nicotinamide adenine dinucleotide (NAD+) to modify target proteins with ADP-ribose",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29172462",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Poly-ADP-ribosylation (PARylation) is a protein posttranslational modification (PTM) that is critically involved in many biological processes that are linked to cell stress responses.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29327913",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ADP-ribosylation is a post-translational modification (PTM) implicated in several crucial cellular processes, ranging from regulation of DNA repair and chromatin structure to cell metabolism and stress responses.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29554239",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "5ca0848aecadf2e73f000044",
+  "type": "yesno",
+  "question": "Are there any anti-amyloid antibody approved as drug for Alzheimer's disease treatment?",
+  "ideal_answer": "No new drugs have been approved during the past 15 years; and the available medications are not cost-effective.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29607687",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26697860"
+  ],
+  "snippets": [
+    {
+      "text": "Treatment with memantine, a noncompetitive NMDA receptor antagonist which is an approved drug for treatment of Alzheimer's disease, rescued protein phosphatase-2A activity by decreasing its demethylation at Leu309 selectively and attenuated Alzheimer's disease-like pathology and cognitive impairment in adeno-associated virus vector-1-I1PP2A rats. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26697860",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "anti-Amyloid agents (13.30%)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29607687",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "no new drugs have been approved during the past 15\u00a0years; and the available medications are not cost-effective. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29607687",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "5175b97a8ed59a060a00002f",
+  "type": "yesno",
+  "question": "Is alternative splicing of apoptotic genes playing a role in the response to DNA or mitochondrial damage?",
+  "ideal_answer": "Yes, alternative splicing seem to play a key role in the response to DNA or mitocondrial damage as suggested by the number of apoptotic genes that are alternatively spliced, with often antagonistic roles of the isoforms generated.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19450518",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18806759",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9010037",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17692132",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19690168",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21483803",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19170108",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18571879",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18211505",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12067235",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10391249",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22266985"
+  ],
+  "snippets": [
+    {
+      "text": "Apoptosis promoted by UV in cells lacking p53 is prevented when the change in AS of the apoptotic gene bcl-x is reverted, confirming the relevance of this mechanism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19450518",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We demonstrate that E2F1 requires SC35 to switch the alternative splicing profile of various apoptotic genes such as c-flip, caspases-8 and -9 and Bcl-x, towards the expression of pro-apoptotic splice variants. Finally, we provide evidence that E2F1 upregulates SC35 in response to DNA-damaging agents and show that SC35 is required for apoptosis in response to these drugs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18806759",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "This analysis revealed that DNA damage resulted in changes in splicing activity that modified the splicing pattern of Fas, a key pro-apoptotic, p53-inducible death receptor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18571879",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Bortezomib induces mitochondrial damage in native cells and also activates the UPR by splicing of Xbp-1 and induction of CHOP, which is significantly reduced by silencing of MUC4.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22266985",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The tumour-suppressor protein p53 is an important activator of apoptosis. Although p53-deficient cancer cells are less responsive to chemotherapy, their resistance is not complete, which suggests that other apoptotic pathways may exist. A p53-related gene, p73, which encodes several proteins as a result of alternative splicing, can also induce apoptosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10391249",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Induction of apoptosis was significantly reduced in P388/SPR cells, as indicated by minimal DNA fragmentation. Analysis of oncogenes regulating apoptotic cell death revealed a marked decrease of bcl-2 in combination with a moderate reduction of bax protein, but a striking overexpression of the long form of the bcl-X protein.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9010037",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004249",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017398"
+  ],
+  "exact_answer": "Yes"
+}

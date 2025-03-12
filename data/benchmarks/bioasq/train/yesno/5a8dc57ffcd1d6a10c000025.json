@@ -1,0 +1,51 @@
+{
+  "id": "5a8dc57ffcd1d6a10c000025",
+  "type": "yesno",
+  "question": "Are the human bombesin receptors, GRPR and NMBR, frequently overexpressed G-protein-coupled-receptors by lung-cancers?",
+  "ideal_answer": "The human bombesin receptors, GRPR and NMBR, are two of the most frequently overexpressed G-protein-coupled-receptors by lung-cancers",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25554218",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18975117",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20438784",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10545285",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21060250",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22828605"
+  ],
+  "snippets": [
+    {
+      "text": "Members of the gastrin-releasing peptide (GRP) family and its analogs bombesin (BBN) have been implicated in the biology of several human cancers including prostate, breast, colon and lung.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18975117",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "All 3 bombesin receptor subtypes (GRPR, NMBR, and BRS-3) were present on pulmonary and intestinal carcinoids by immunohistochemistry",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21060250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "There is increased interest in the Bn-receptor family because they are frequently over/ectopically expressed by tumors and thus useful as targets for imaging or receptor-targeted-cytotoxicity. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22828605",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ML-18 is a non-peptide bombesin receptor subtype-3 antagonist which inhibits lung cancer growth.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25554218",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Gastrin-releasing peptide (GRP), a member of the bombesin family of peptides, has been shown to have mitogenic activity in small cell lung carcinoma (SCLC), and to be produced by SCLC in an autocrine fashion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10545285",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D018004",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D008175"
+  ],
+  "exact_answer": "Yes"
+}

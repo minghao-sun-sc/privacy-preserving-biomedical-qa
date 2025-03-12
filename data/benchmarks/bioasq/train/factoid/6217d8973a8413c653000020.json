@@ -1,0 +1,47 @@
+{
+  "id": "6217d8973a8413c653000020",
+  "type": "factoid",
+  "question": "What is the role of cytidine deaminase in healthy cells?",
+  "ideal_answer": "Activation-induced cytidine deaminase (AID) catalyses the deamination of deoxycytidines to deoxyuracils within immunoglobulin genes to induce somatic hypermutation and class-switch recombination.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34819671",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34819670",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34528388",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32729075",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32729074"
+  ],
+  "snippets": [
+    {
+      "text": "The AID/APOBEC family of enzymes are cytidine deaminases that act upon DNA and RNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32729074",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "APOBEC1 is a member of the AID/APOBECs, a group of deaminases responsible for the editing of C>U in both DNA and RNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32729075",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The human genome contains 11 APOBEC (apolipoprotein B mRNA editing catalytic polypeptide-like) cytidine deaminases classified into four families. These proteins function mainly in innate antiviral immunity and can also restrict endogenous retrotransposable element multiplication. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34528388",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Activation-induced cytidine deaminase (AID) catalyses the deamination of deoxycytidines to deoxyuracils within immunoglobulin genes to induce somatic hypermutation and class-switch recombination",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34819670",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Efficient humoral responses rely on DNA damage, mutagenesis and error-prone DNA repair. Diversification of B cell receptors through somatic hypermutation and class-switch recombination are initiated by cytidine deamination in DNA mediated by activation-induced cytidine deaminase\u00a0(AID)1 and by the subsequent excision of the resulting uracils by uracil DNA glycosylase (UNG) and by mismatch repair proteins1-3. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34819671",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "deamination of deoxycytidines"
+}

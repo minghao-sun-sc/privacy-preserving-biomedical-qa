@@ -1,0 +1,31 @@
+{
+  "id": "5171651e8ed59a060a000009",
+  "type": "list",
+  "question": "Which are the synonyms of prostate-specific antigen?",
+  "ideal_answer": "Prostate-specific antigen (PSA) is a 33 kDa single chain glycoprotein belonging to the kallikrein family of serine proteases which is produced by epithelial cells of both normal and malignant prostate tissue. PSA is an important marker for the diagnosis of prostate cancer. PSA is also known as human kallikrein-related peptidase 3 (hK3).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19079621"
+  ],
+  "snippets": [
+    {
+      "text": "Evidence for the novel expression of human kallikrein-related peptidase 3, prostate-specific antigen, in the brain.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19079621",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Human kallikrein-related peptidase 3 (hK3), also known as prostate-specific antigen (PSA), is a 33 kDa single chain glycoprotein belonging to the kallikrein family of serine proteases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19079621",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020840",
+    "http://www.uniprot.org/uniprot/KLK2_CAVPO",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017430",
+    "http://www.uniprot.org/uniprot/KLK3_MACFA",
+    "http://www.uniprot.org/uniprot/KLK3_HUMAN"
+  ],
+  "exact_answer": "human kallikrein-related peptidase 3, hK3"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "5abc9ecffcf4565872000021",
+  "type": "factoid",
+  "question": "Where do mitochondrial DNA deletion breakpoints tend to occur?",
+  "ideal_answer": "Circular dichroism and UV spectral analysis demonstrated that mitochondrial G-rich sequences near deletion breakpoints prevalent in human disease form G-quadruplex DNA structures.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25193669",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10912916",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26530670",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22661583",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9128755",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25124333"
+  ],
+  "snippets": [
+    {
+      "text": "n this work, we performed a computational analysis of the human mitochondrial genome using the \"Pattern Finder\" G-quadruplex (G4) predictor algorithm to assess whether G4-forming sequences reside in close proximity (within 20 base pairs) to known mitochondrial DNA deletion breakpoints.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25193669",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Circular dichroism and UV spectral analysis demonstrated that mitochondrial G-rich sequences near deletion breakpoints prevalent in human disease form G-quadruplex DNA structures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25193669",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Direct repeat sequences are not required at the breakpoints of age-associated mitochondrial DNA deletions in rhesus monkeys.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9128755",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Most of the analyzed deletion breakpoints showed nucleotide repeats flanking the deletions. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10912916",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Currently, the multiple types of GQ sequences and their association with human mtDNA stability are unknown.<br><b>RESULTS</b>: Here, we show an association between human mtDNA deletion breakpoint locations (sites where DNA ends rejoin after deletion of a section) and sequences with G-quadruplex forming potential (QFP), and establish the ability of selected sequences to form GQ in vitro.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25124333",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A biochemical analysis of purified recombinant human Twinkle protein (gene product of c10orf2) showed that the mitochondrial replicative helicase inefficiently unwinds well characterized intermolecular and intramolecular G-quadruplex DNA substrates, as well as a unimolecular G4 substrate derived from a mitochondrial sequence that nests a deletion breakpoint described in human renal cell carcinoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25193669",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA sequences proximal to human mitochondrial DNA deletion breakpoints prevalent in human disease form G-quadruplexes, a class of DNA structures inefficiently unwound by the mitochondrial replicative Twinkle helicase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25193669",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Association of G-quadruplex forming sequences with human mtDNA deletion breakpoints.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25124333",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D054856"
+  ],
+  "exact_answer": "Near mitochondrial G-rich sequences "
+}

@@ -1,0 +1,38 @@
+{
+  "id": "6424154d690f196b5100004a",
+  "type": "summary",
+  "question": "What is the R value with respect to hepatoxicity",
+  "ideal_answer": "The R value is a measure of hepatotoxicity, which is calculated by dividing the peak serum alanine aminotransferase (ALT) level by the upper limit of normal (ULN) for ALT. A value of greater than 5 is considered to be indicative of hepatotoxicity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24704526",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32205565",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25809419"
+  ],
+  "snippets": [
+    {
+      "text": "RECENT FINDINGS: Several case series of DILI because of various drugs have been published, and analysis of these case series points to the fact that individual drugs have characteristic DILI signatures. These clinical phenotypes can be characterized by latency, biochemical features (R-value), as well as clinical symptoms and signs. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32205565",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We aimed to explore the validity of using aspartate aminotransferase (AST) and gamma-glutamyl transpeptidase (GGT) as biomarkers of hepatocelullar and cholestatic damage, respectively, when calculating the R value.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25809419",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AST can reliably replace ALT when calculating pattern of liver injury in DILI, while GGT can only substitute ALP when the R value scores as hepatocellular. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25809419",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We compared 3 ways to use Hy's Law to predict which patients would develop ALF; all included TBL greater than 2-fold the upper limit of normal (\u00d7ULN) and either ALT\u00a0level greater than 3\u00a0\u00d7 ULN, a ratio (R) value (ALT\u00a0\u00d7 ULN/alkaline phosphatase\u00a0\u00d7 ULN) of 5 or greater, or a new ratio (nR) value (ALT or AST, whichever produced the highest\u00a0\u00d7ULN/ alkaline phosphatase\u00a0\u00d7 ULN value) of 5 or greater.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24704526",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

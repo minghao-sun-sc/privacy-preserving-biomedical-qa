@@ -1,0 +1,48 @@
+{
+  "id": "530b01a6970c65fa6b000008",
+  "type": "summary",
+  "question": "Why is lock mass used in Orbitrap measurements?",
+  "ideal_answer": "The lock mass is a compound of known mass and is used to compensate for drifts in instrument calibration.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21133379",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22941912",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21953191",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16249172",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16478717"
+  ],
+  "snippets": [
+    {
+      "text": "Benzyldimethylphenylammonium was used as an internal lock mass.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22941912",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To compensate for drifts in instrument calibration, a compound of known mass is often employed. This 'lock mass' provides an internal mass standard in every spectrum.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21953191",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The use of mass calibrants (lock masses) to reduce the systematic error of mass-to-charge measurements has also been reported and, in some cases, incorporated in the instrument control software by the instrument manufacturers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21133379",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We achieved absolute mass accuracies for intact proteins between 0.92 and 2.8 ppm using the \"lock mass\" mode of operation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16478717",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Real time recalibration on the \"lock mass\" by corrections of mass shift removes mass error associated with calibration of the mass scale.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16249172",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013058"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "5aa825b1fcf4565872000003",
+  "type": "yesno",
+  "question": "Are stress granules membraneous?",
+  "ideal_answer": "Stress granules (SG) are membrane-less compartments involved in regulating mRNAs during stress.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28377462",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27838525",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28306503",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23279909"
+  ],
+  "snippets": [
+    {
+      "text": "PMLOs are different in size, shape, and composition, and almost invariantly contain intrinsically disordered proteins (e.g., eIF4B and TDP43 in stress granules,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27838525",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Liquid-liquid phase separation (LLPS) of RNA-binding proteins plays an important role in the formation of multiple membrane-less organelles involved in RNA metabolism, including stress granules.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28306503",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Stress granules (SG) are membrane-less compartments involved in regulating mRNAs during stress.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28377462",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " In addition to membrane delimited organelles, proteins and RNAs can organize themselves into specific domains. Some examples include stress granules and subnuclear bodies. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23279909",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

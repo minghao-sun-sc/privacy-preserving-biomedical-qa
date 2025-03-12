@@ -1,0 +1,39 @@
+{
+  "id": "63f581e933942b094c000007",
+  "type": "factoid",
+  "question": "Risdiplam is used for treatment of which disease?",
+  "ideal_answer": "Risdiplam is approved for treatment of spinal muscular atrophy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34620695",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35614235",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35567422"
+  ],
+  "snippets": [
+    {
+      "text": "Risdiplam (Evrysdi)-an orally bioavailable, small molecule approved by the US Food and Drug Administration and more recently by the European Medicines Agency for the treatment of patients \u22652 months of age with spinal muscular atrophy-is presented here as a case study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34620695",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "An expanded access program of risdiplam for patients with Type 1 or 2 spinal muscular atrophy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35567422",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "OBJECTIVE: The US risdiplam expanded access program (EAP; NCT04256265) was opened to provide individuals with Type 1 or 2 spinal muscular atrophy (SMA) who had no satisfactory treatment options access to risdiplam prior to commercial availability. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35567422",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SMN1 produces SMN, a ubiquitously expressed protein, that is essential for the development and survival of motor neurons. Major advances and developments in SMA therapeutics are shifting the natural history of the disease. With three relatively new available therapies, nusinersen (Spinraza), onasemnogene abeparvovec (Zolgensma), and risdiplam (Evrysdi), patients survive longer and have improved outcomes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35614235",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "spinal muscular atrophy"
+}

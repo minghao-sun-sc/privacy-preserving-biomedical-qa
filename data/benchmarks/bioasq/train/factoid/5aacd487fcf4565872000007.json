@@ -1,0 +1,26 @@
+{
+  "id": "5aacd487fcf4565872000007",
+  "type": "factoid",
+  "question": "Which human gene encode for DNA polymerase \u03b8?",
+  "ideal_answer": "DNA polymerase theta (pol \u03b8) is an evolutionarily conserved protein encoded by the POLQ gene in mammalian genomes",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27264557",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28668117"
+  ],
+  "snippets": [
+    {
+      "text": "DNA polymerase theta (pol \u03b8) is an evolutionarily conserved protein encoded by the POLQ gene in mammalian genomes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28668117",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA polymerase theta (pol \u03b8) is encoded in the genomes of many eukaryotes, though not in fungi. Pol \u03b8 is encoded by the POLQ gene in mammalian cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27264557",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "DNA polymerase theta (pol \u03b8) is an evolutionarily conserved protein encoded by the POLQ gene in mammalian genomes"
+}

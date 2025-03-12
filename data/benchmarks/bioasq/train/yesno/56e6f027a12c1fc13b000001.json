@@ -1,0 +1,33 @@
+{
+  "id": "56e6f027a12c1fc13b000001",
+  "type": "yesno",
+  "question": "Is Wnt16b secreted in response to chemotherapy?",
+  "ideal_answer": "Yes, WNT16B is secreted into the microenvironment by human ovarian fibroblasts after DNA damage-associated treatment, including chemotherapy drugs and radiation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23114711",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25050785",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22863786"
+  ],
+  "snippets": [
+    {
+      "text": " In this study, we found WNT16B could be expressed and secreted into the microenvironment by human ovarian fibroblasts after DNA damage-associated treatment, including chemotherapy drugs and radiation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25050785",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In a recent article in Nature Medicine, Sun et al. show that increased expression of Wnt family member wingless-type MMTV integration site family member 16B (WNT16B) by the tumor microenvironment in response to cytotoxic damage and signals through the canonical Wnt pathway to promote tumor growth and chemotherapy resistance. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23114711",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using a genome-wide analysis of transcriptional responses to genotoxic stress induced by cancer therapeutics, we identified a spectrum of secreted proteins derived from the tumor microenvironment that includes the Wnt family member wingless-type MMTV integration site family member 16B (WNT16B).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22863786",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

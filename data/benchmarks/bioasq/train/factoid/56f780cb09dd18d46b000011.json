@@ -1,0 +1,54 @@
+{
+  "id": "56f780cb09dd18d46b000011",
+  "type": "factoid",
+  "question": "Which is the target protein of the drug nivolumab?",
+  "ideal_answer": "Nivolumab was developed as a monoclonal antibody against programmed death receptor-1, an immune checkpoint inhibitor which negatively regulates T-cell proliferation and activation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26028407",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26448890",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26273207",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26027431",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25897158",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26406148"
+  ],
+  "snippets": [
+    {
+      "text": "nivolumab, a fully human IgG4 programmed death 1 (PD-1) immune-checkpoint-inhibitor antibody",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26028407",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Nivolumab (a programmed death 1 [PD-1] checkpoint inhibitor)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26027431",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nivolumab, a fully human immunoglobulin G4 programmed death 1 immune checkpoint inhibitor antibody, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25897158",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " programmed death receptor-1 (PD-1) inhibitors pembrolizumab and nivolumab were approved for the treatment of advanced melanoma",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26448890",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nivolumab was developed as a monoclonal antibody against programmed death receptor-1, an immune checkpoint inhibitor which negatively regulates T-cell proliferation and activation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26273207",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nivolumab, a programmed death 1 (PD-1) checkpoint inhibitor,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26406148",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "programmed death receptor-1"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "6415c6b6690f196b51000015",
+  "type": "list",
+  "question": "On which two clinical trials was the approval of Keytruda based?",
+  "ideal_answer": "Approval was based on two randomized, open-label, active-controlled trials demonstrating statistically significant improvements in progression-free survival (PFS) and overall survival (OS) for patients randomized to pembrolizumab compared with chemotherapy, namely KEYNOTE-024 and KEYNOTE-010.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28835513"
+  ],
+  "snippets": [
+    {
+      "text": "Approval was based on two randomized, open-label, active-controlled trials demonstrating statistically significant improvements in progression-free survival (PFS) and overall survival (OS) for patients randomized to pembrolizumab compared with chemotherapy. In KEYNOTE-024, patients with previously untreated mNSCLC who received pembrolizumab (200 mg intravenously [IV] every 3 weeks) had a statistically significant improvement in OS (hazard ratio [HR] 0.60; 95% confidence interval [CI]: 0.41-0.89; p\u2009=\u2009.005), and significant improvement in PFS (HR 0.50; 95% CI: 0.37-0.68; p\u2009<\u2009.001). In KEYNOTE-010, patients with disease progression on or after platinum-containing chemotherapy received pembrolizumab IV 2 mg/kg, 10 mg/kg, or docetaxel 75 mg/m2 every 3 weeks. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28835513",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "KEYNOTE-024, KEYNOTE-010"
+}

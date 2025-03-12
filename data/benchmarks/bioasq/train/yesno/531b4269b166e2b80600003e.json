@@ -1,0 +1,85 @@
+{
+  "id": "531b4269b166e2b80600003e",
+  "type": "yesno",
+  "question": "Is thyroid hormone therapy indicated in patients with heart failure?",
+  "ideal_answer": "There are several experimental and clinical evidences of the potential benefits of Thyroid hormone replacement therapy in heart failure. Initial clinical data showed also a good safety profile and tolerance of TH replacement therapy in patients withheart failure. \nHowever currently there is no indication to treat patients with heart failure withTHreplacementtherapy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/2189307",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18171701",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17710084",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9485134",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23660007",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8936682",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8936683",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9312172",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15604125",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23369135",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15572044",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19808346",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19778808",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19917524",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10194658",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8333798",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22009366",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12145478",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8353891",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10474790",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12165115",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12165118",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18221125",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19506112",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20100314",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17893267",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19125327",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7954115",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23837113"
+  ],
+  "snippets": [
+    {
+      "text": "Patients with chronic heart failure and subclinical hypothyroidism significantly improved their physical performance when normal TSH levels were reached.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23660007",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Early and sustained physiological restoration of circulating L-T3 levels after MI halves infarct scar size and prevents the progression towards heart failure. This beneficial effect is likely due to enhanced capillary formation and mitochondrial protection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20100314",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These data indicate that T(3) replacement to euthyroid levels improves systolic function and tends to improve diastolic function, potentially through changes in myocardial gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19808346",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In these patients, the administration of synthetic triiodothyronine (T(3)) was well tolerated and induced significant improvement in cardiac function without increased heart rate and metabolic demand.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18221125",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In DC patients, short-term synthetic L-T(3) replacement therapy significantly improved neuroendocrine profile and ventricular performance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18171701",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Triiodothyronine was well tolerated without episodes of ischemia or clinical arrhythmia. There was no significant change in heart rate or metabolic rate and there was minimal increase in core temperature. Cardiac output increased with a reduction in systemic vascular resistance in patients receiving the largest dose, consistent with a peripheral vasodilatory effect.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9485134",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013963",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020249",
+    "http://www.disease-ontology.org/api/metadata/DOID:6000",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006321",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006333",
+    "http://www.disease-ontology.org/api/metadata/DOID:9651",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D054143"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "63eef3ebf36125a42600000a",
+  "type": "factoid",
+  "question": "What is the target of Litifilimab?",
+  "ideal_answer": "Litifilimab is a humanized monoclonal antibody against BDCA2 that is being developed for treatment of cutaneous lupus erythematosus.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35939578",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36069871"
+  ],
+  "snippets": [
+    {
+      "text": "Trial of Anti-BDCA2 Antibody Litifilimab for Cutaneous Lupus Erythematosus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35939578",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Whether treatment with litifilimab, a humanized monoclonal antibody against BDCA2, would be efficacious in reducing disease activity in patients with cutaneous lupus erythematosus has not been extensively studied.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35939578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Trial of Anti-BDCA2 Antibody Litifilimab for Systemic Lupus Erythematosus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36069871",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " The safety and efficacy of subcutaneous litifilimab, a humanized monoclonal antibody that binds to BDCA2, in patients with SLE have not been extensively studied.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36069871",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "BDCA2"
+}

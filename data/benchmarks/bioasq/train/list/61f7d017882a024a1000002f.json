@@ -1,0 +1,19 @@
+{
+  "id": "61f7d017882a024a1000002f",
+  "type": "list",
+  "question": "Which drugs were included in the polypill that was tested in TIPS-3 trial?",
+  "ideal_answer": "Polypill tested in the TIPS-3 trial was comprised of atenolol, ramipril, hydrochlorothiazide, and a statin.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30342297"
+  ],
+  "snippets": [
+    {
+      "text": "METHODS: TIPS-3 is a 2x2x2 factorial randomized controlled trial that will examine the effect of a FDC polypill on major CV outcomes in a primary prevention population. This study aims to determine whether the Polycap (comprised of atenolol, ramipril, hydrochlorothiazide, and a statin) reduces CV events in persons without a history of CVD, but who are at least at intermediate CVD risk. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30342297",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "atenolol, ramipril, hydrochlorothiazide, statin"
+}

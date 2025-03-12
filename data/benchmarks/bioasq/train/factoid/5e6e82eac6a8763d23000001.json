@@ -1,0 +1,33 @@
+{
+  "id": "5e6e82eac6a8763d23000001",
+  "type": "factoid",
+  "question": "What is the SLC25A20 protein transporting?",
+  "ideal_answer": "The carnitine/acylcarnitine transporter (CACT; SLC25A20) mediates an antiport reaction allowing entry of acyl moieties in the form of acylcarnitines into the mitochondrial matrix and exit of free carnitine.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29296668",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27864727",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29408889"
+  ],
+  "snippets": [
+    {
+      "text": "carnitine translocase Slc25a20",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29408889",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The carnitine/acylcarnitine transporter (CACT; SLC25A20) mediates an antiport reaction allowing entry of acyl moieties in the form of acylcarnitines into the mitochondrial matrix and exit of free carnitine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27864727",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Prominent among these targets was the mitochondrial carnitine-acylcarnitine translocase SLC25A20",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29296668",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "The carnitine/acylcarnitine transporter (CACT; SLC25A20) mediates an antiport reaction allowing entry of acyl moieties in the form of acylcarnitines into the mitochondrial matrix and exit of free carnitine."
+}

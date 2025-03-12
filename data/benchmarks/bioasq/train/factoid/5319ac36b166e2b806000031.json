@@ -1,0 +1,57 @@
+{
+  "id": "5319ac36b166e2b806000031",
+  "type": "factoid",
+  "question": "Which G protein is essential in the formation and function of lamellipodia?",
+  "ideal_answer": "Recruitment of the small G-protein Rac1 to the plasma membrane is essential in inducing the local formation of specialized cellular processes termed lamellipodia.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11709084",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19801976",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24265417",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9301423",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11230698"
+  ],
+  "snippets": [
+    {
+      "text": "We specifically identified that the Spa homology domain (aa 250-420) of GIT1 is required for GIT1-cortactin complex localization to the leading edge. The mechanisms involved extracellular signal-regulated kinases 1 and 2-mediated Cortactin-S405 phosphorylation and activation of Rac1/Cdc42.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24265417",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We demonstrated the utility of this system with LAD constructs that can recruit the small G-protein Rac1 to the plasma membrane and induce the local formation of lamellipodia in response to focal illumination.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19801976",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We found that fibroblasts from EDG-1 null embryos did not migrate toward PDGF or SPP, and inhibition of motility correlated with defective activation of the small guanosine triphosphatase Rac, which is required for lamellipodia formation and directional locomotion",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11709084",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Deletion of edg-1 or inhibition of sphingosine kinase suppressed chemotaxis toward PDGF and also activation of the small guanosine triphosphatase Rac, which is essential for protrusion of lamellipodia and forward movement.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11230698",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Evidence from these models indicates that migration is a highly complex process, which is likely to involve the tightly controlled spatial and temporal interaction of multiple factors:",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9301423",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "(v) molecules which regulate cytoskeletal function (e.g. Rac), which allows the formation of specialized cellular processes termed lamellipodia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9301423",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011554",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019204",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020744"
+  ],
+  "exact_answer": "Rac1"
+}

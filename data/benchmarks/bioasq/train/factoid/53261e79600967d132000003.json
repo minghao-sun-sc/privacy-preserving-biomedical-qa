@@ -1,0 +1,32 @@
+{
+  "id": "53261e79600967d132000003",
+  "type": "factoid",
+  "question": "What is the relationship between thyroid hormone and inflammatory markers in heart failure patients?",
+  "ideal_answer": "There is an inverse correlation between inflammatory markers (IL-6 and TNF alfa and PCR) and FT3 levels in patients with heart failure",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15259379",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12165115",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11021766",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15521205",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19926244",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16524802"
+  ],
+  "snippets": [
+    {
+      "text": "Considering normal subjects, patients without and with low T3 syndrome, IL-6 and TNFalpha increased progressively from normal to patients with fT3<2 pg/ml (p<0.01 and p<0.01) while CRP only respect to the group with low T3 syndrome (p<0.01). The inflammatory markers were all inversely correlated with FT3 levels.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19926244",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013963",
+    "http://www.disease-ontology.org/api/metadata/DOID:6000",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007249",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006333",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0002544",
+    "http://www.disease-ontology.org/api/metadata/DOID:9651",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D054143"
+  ],
+  "exact_answer": "There is an inverse correlation between inflammatory markers and FT3 circulating levels"
+}

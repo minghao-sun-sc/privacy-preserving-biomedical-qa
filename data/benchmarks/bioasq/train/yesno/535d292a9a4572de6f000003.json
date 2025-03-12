@@ -1,0 +1,57 @@
+{
+  "id": "535d292a9a4572de6f000003",
+  "type": "yesno",
+  "question": "Are long non coding RNAs spliced?",
+  "ideal_answer": "Long non coding RNAs appear to be spliced through the same pathway as the mRNAs",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22955988",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22955974",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24285305",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22707570",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21622663",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24106460"
+  ],
+  "snippets": [
+    {
+      "text": "Our analyses indicate that lncRNAs are generated through pathways similar to that of protein-coding genes, with similar histone-modification profiles, splicing signals, and exon/intron lengths.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22955988",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "For alternative exons and long noncoding RNAs, splicing tends to occur later, and the latter might remain unspliced in some cases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22955974",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "bosome-mapping data to identify lncRNAs of Caenorhabditis elegans. We found 170 long intervening ncRNAs (lincRNAs), which had single- or multiexonic structures that did not overlap protein-coding transcripts, and about sixty antisense lncRNAs (ancRNAs), which were complementary to protein-coding transcripts",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22707570",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We introduce an approach to predict spliced lncRNAs in vertebrate genomes combining comparative genomics and machine learning.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21622663",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Owing to similar alternative splicing pattern to mRNAs, the concept of lncRNA genes was put forward to help systematic understanding of lncRNAs. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24285305",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our synthesis of recent studies suggests that neither size, presence of a poly-A tail, splicing, direction of transcription, nor strand specificity are of importance to lncRNA function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24106460",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012326",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D062085"
+  ],
+  "exact_answer": "Yes"
+}

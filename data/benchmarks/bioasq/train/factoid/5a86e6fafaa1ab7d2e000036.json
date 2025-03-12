@@ -1,0 +1,36 @@
+{
+  "id": "5a86e6fafaa1ab7d2e000036",
+  "type": "factoid",
+  "question": "What is the nucleotide composition of the Lamin Associated Domains (LADs)?",
+  "ideal_answer": "Instead, cLADs are universally characterized by long stretches of DNA of high A/T content. This suggests that the A/T rule represents a default positioning mechanism that is locally overruled during lineage commitment.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23124521"
+  ],
+  "snippets": [
+    {
+      "text": "Instead, cLADs are universally characterized by long stretches of DNA of high A/T content. Cell-type specific LADs also tend to adhere to this \"A/T rule\" in embryonic stem cells, but not in differentiated cells. This suggests that the A/T rule represents a default positioning mechanism that is locally overruled during lineage commitment. Analysis of paralogs suggests that during evolution changes in A/T content have driven the relocation of genes to and from the nuclear lamina, in tight association with changes in expression level",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23124521",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Constitutive nuclear lamina-genome interactions are highly conserved and associated with A/T-rich sequence.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23124521",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In metazoans, the nuclear lamina is thought to play an important role in the spatial organization of interphase chromosomes, by providing anchoring sites for large genomic segments named lamina-associated domains (LADs). Some of these LADs are cell-type specific, while many others appear constitutively associated with the lamina. Constitutive LADs (cLADs) may contribute to a basal chromosome architecture. By comparison of mouse and human lamina interaction maps, we find that the sizes and genomic positions of cLADs are strongly conserved. Moreover, cLADs are depleted of synteny breakpoints, pointing to evolutionary selective pressure to keep cLADs intact. Paradoxically, the overall sequence conservation is low for cLADs. Instead, cLADs are universally characterized by long stretches of DNA of high A/T content. Cell-type specific LADs also tend to adhere to this \"A/T rule\" in embryonic stem cells, but not in differentiated cells. This suggests that the A/T rule represents a default positioning mechanism that is locally overruled during lineage commitment. Analysis of paralogs suggests that during evolution changes in A/T content have driven the relocation of genes to and from the nuclear lamina, in tight association with changes in expression level. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23124521",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D034921",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D034882",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D001482",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D034904"
+  ],
+  "exact_answer": "A/T rich sequences"
+}

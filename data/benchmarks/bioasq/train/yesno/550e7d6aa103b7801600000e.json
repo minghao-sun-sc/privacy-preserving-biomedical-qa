@@ -1,0 +1,86 @@
+{
+  "id": "550e7d6aa103b7801600000e",
+  "type": "yesno",
+  "question": "Does smoking increase risk for glioblastoma?",
+  "ideal_answer": "No. Smoking does not increase risk for glioblastoma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/2319291",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17372252",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19568697",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21742680",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19022673",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19494549",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19107440",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16217772",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20487573",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15685439"
+  ],
+  "snippets": [
+    {
+      "text": "Glioma risk has consistently been inversely associated with allergy history but not with smoking history despite putative biologic plausibility.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21742680",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "No relation was observed between glioma risk and smoking (odds ratio = 0.92, 95% confidence interval: 0.77, 1.10; P = 0.37), and there were no interactions for glioma risk of smoking history with any of the risk alleles. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21742680",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Non-smokers with G/A and A/A genotype showed increased glioma risk compared with G/G genotype (adjusted OR = 1.72, 95%CI: 1.29-2.30, p = 0.0002 and adjusted OR = 1.81, 95%CI: 1.10-2.99, p = 0.020, respectively). This association was not found in ever- or current-smokers. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20487573",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "There was no significant association between glioma and alcohol consumption, smoking and mobile phone use. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19494549",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS: We found no associations between the GSTM3, GSTP1, NQO1, CYP1A1, GSTM1, or GSTT1 polymorphisms and adult brain tumor risk with the possible exception of a weak association between the G-C (Val-Ala) GSTP1 105/114 haplotype and glioma [odds ratio (OR), 0.73; 95% confidence interval (95% CI), 0.54, 0.99], nor was there an interaction between the effects of the GSTM3 or GSTP1 polymorphisms and cigarette smoking.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17372252",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We did not find any evidence for an association with life-style characteristics such as cigarette smoking, alcohol consumption, use of drugs of any kind, or dietary intake of cured or smoked meat or fish.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2319291",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "No relation was observed between glioma risk and smoking (odds ratio = 0",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21742680",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Glioma risk has consistently been inversely associated with allergy history but not with smoking history despite putative biologic plausibility",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21742680",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Compared with nonsmokers, duration of cigarette smoking, number of cigarettes smoked per day and pack-years of smoking were associated with increased glioma risk, although the increases in risk were relatively modest",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16217772",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Among ever smokers, women who reported having quit smoking had a 51% increase in risk of glioma compared with never smokers (HR = 1.51, 95% CI = 0.97-2.34), while current smokers did not appear to have an increase in risk",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16217772",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012907",
+    "http://www.disease-ontology.org/api/metadata/DOID:3068",
+    "http://www.disease-ontology.org/api/metadata/DOID:3073"
+  ],
+  "exact_answer": "Yes"
+}

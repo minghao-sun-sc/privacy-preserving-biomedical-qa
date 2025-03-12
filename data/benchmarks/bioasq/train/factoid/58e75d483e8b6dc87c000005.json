@@ -1,0 +1,57 @@
+{
+  "id": "58e75d483e8b6dc87c000005",
+  "type": "factoid",
+  "question": "Which gene controls the expression of GATA-1 isoforms?",
+  "ideal_answer": "In this study, we report a transcriptional network in which PU.1 positively regulates GATA-1 expression in mast cell development.  This isoform contains an alternatively spliced first exon (IB) that is distinct from the first exon (IE) incorporated in the major erythroid mRNA transcript.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12202480",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24453067",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20304827"
+  ],
+  "snippets": [
+    {
+      "text": "Mutations in exon 2 interfere with the synthesis of the full-length isoform of GATA-1 and lead to the production of a shortened isoform, GATA-1s.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24453067",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this study, we report a transcriptional network in which PU.1 positively regulates GATA-1 expression in mast cell development. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20304827",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This isoform contains an alternatively spliced first exon (IB) that is distinct from the first exon (IE) incorporated in the major erythroid mRNA transcript.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20304827",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Reintroduction of PU.1 restores variant IB isoform and upregulates total GATA-1 protein expression, which is concurrent with mast cell differentiation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20304827",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Novel combinatorial interactions of GATA-1, PU.1, and C/EBPepsilon isoforms regulate transcription of the gene encoding eosinophil granule major basic protein.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12202480",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Furthermore, we observe that in PU.1(-/-) fetal liver cells, low levels of the IE GATA-1 isoform is expressed, but the variant IB isoform is absent.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20304827",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our findings identify novel combinatorial protein-protein interactions for GATA-1, PU.1, and C/EBPepsilon isoforms in eosinophil gene transcription that include GATA-1/PU.1 synergy and repressor activity for C/EBPepsilon(27)..",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12202480",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "PU.1"
+}

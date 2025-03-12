@@ -1,0 +1,33 @@
+{
+  "id": "5a7600b983b0d9ea6600000c",
+  "type": "list",
+  "question": "Which clinical trials for psoriasis involved tofacitinib? (November 2017)",
+  "ideal_answer": "Four phase 3 clinical trials have been performed to assess tofacitinib in psoriasis patients: OPT Retreatment, OPT Pivotal 1, OPT Pivotal 2, OPT Compare",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27600367",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27271195",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28396102"
+  ],
+  "snippets": [
+    {
+      "text": "A Phase 3 withdrawal/re-treatment study (NCT01186744; OPT Retreatment) showed tofacitinib re-treatment was effective in patients with chronic plaque psoriasis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27600367",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In 2 identical phase 3 studies (OPT Pivotal 1 and 2), patients were randomized 2:2:1 to receive tofacitinib 5\u00a0mg, tofacitinib 10\u00a0mg, or placebo, twice daily. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28396102",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To evaluate HRQoL with tofacitinib, vs. placebo or etanercept, in the Phase 3, randomized, placebo-controlled, non-inferiority, Oral-treatment Psoriasis Trial (OPT) Compare Study (NCT01241591).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27271195",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "OPT Retreatment, OPT Pivotal 1, OPT Pivotal 2, OPT Compare"
+}

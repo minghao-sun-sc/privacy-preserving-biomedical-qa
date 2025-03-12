@@ -1,0 +1,25 @@
+{
+  "id": "64402bb057b1c7a315000043",
+  "type": "factoid",
+  "question": "In what type of clinical trial has RT001 been evaluated against Friedreich's ataxia?",
+  "ideal_answer": "RT001 was evaluatd in a phase I/II double-blind, randomized, comparator-controlled trial in Friedreich's ataxia patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29624723"
+  ],
+  "snippets": [
+    {
+      "text": "Randomized, clinical trial of RT001: Early signals of efficacy in Friedreich's ataxia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29624723",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We conducted a phase I/II double-blind, comparator-controlled trial with 2 doses of RT001 in Friedreich's ataxia patients (9 subjects each cohort). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29624723",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "phase I/II double-blind, randomized, comparator-controlled trial"
+}

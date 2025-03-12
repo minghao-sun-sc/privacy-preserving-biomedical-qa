@@ -1,0 +1,87 @@
+{
+  "id": "54ff45966ad7dcbc12000010",
+  "type": "factoid",
+  "question": "Which protein is causing Netherton syndrome?",
+  "ideal_answer": "Netherton syndrome (NS) is a serious inherited skin disorder caused by mutations in the gene SPINK5 (serine protease inhibitor Kazal type 5) which encodes for a serine protease inhibitor LEKTI (lymphoepithelial Kazal type-related inhibitor)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23344365",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24015757",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24292773",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21697885",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21895535",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24138501",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23347305",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23407075",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24211642",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20657595"
+  ],
+  "snippets": [
+    {
+      "text": "Netherton syndrome (NTS) is a rare genetic skin disease caused by mutations in the serine protease inhibitor Kazal-type 5 gene, which encodes the lympho-epithelial Kazal-type-related inhibitor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24292773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Netherton syndrome is caused by loss-of-function mutations in SPINK5 encoding the Kazal-type inhibitor LEKTI-1 ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24211642",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Netherton syndrome (NS) is a serious inherited skin disorder caused by mutations in the gene SPINK5 (serine protease inhibitor Kazal type 5) which encodes for a serine protease inhibitor LEKTI (lymphoepithelial Kazal type-related inhibitor)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24138501",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mutations in the serine protease inhibitor Kazal type 5 (SPINK5) gene leading to lymphoepithelial Kazal-type-related inhibitor (LEKTI) deficiency cause NS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24015757",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "NS is due to loss-of-function mutations in the SPINK5 gene and to the consequent lack of expression of its encoded protein LEKTI in the skin and all stratified epithelial tissues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23407075",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "syndrome and caused by a genetic mutation in SPINK5, may be a facilitating factor for the infection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23347305",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "NS is caused by loss-of-function mutations in SPINK5 (serine protease inhibitor of kazal type 5) encoding LEKTI-1 (lympho-epithelial kazal type related inhibitor type 5) expressed in stratified epithelia. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23344365",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Netherton syndrome, which arises due to mutations in serine protease inhibitor Kazal-type 5 (SPINK5)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21895535",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lympho-epithelial Kazal-type-related inhibitor (LEKTI) is the defective protein of the ichthyosiform condition Netherton syndrome (NS).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21697885",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Deficiency in the serine protease inhibitor LEKTI is the etiological origin of Netherton syndrome, which causes detachment of the stratum corneum and chronic inflammation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20657595",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056770",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013577",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050474",
+    "http://www.disease-ontology.org/api/metadata/DOID:225"
+  ],
+  "exact_answer": "LEKTI, lymphoepithelial Kazal type-related inhibitor"
+}

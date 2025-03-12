@@ -1,0 +1,25 @@
+{
+  "id": "61f9cb19c9dfcb9c09000002",
+  "type": "yesno",
+  "question": "Is Adamts18 deficiency associated with cancer?",
+  "ideal_answer": "Yes. ADAMTS18 is a novel tumor suppressor and is critical to the pathology of human colorectal cancer. Adamts18 deficiency enhances tumorigenesis and intestinal inflammation through elevated Wnt/\u03b2-catenin and p38MAPK/ERK1/2 signaling and promotes colon cancer in this mouse model.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28145888"
+  ],
+  "snippets": [
+    {
+      "text": "Adamts18 deficiency promotes colon carcinogenesis by enhancing \u03b2-catenin and p38MAPK/ERK1/2 signaling in the mouse model of AOM/DSS-induced colitis-associated colorectal cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28145888",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "ADAMTS18 is a novel tumor suppressor and is critical to the pathology of human colorectal cancer. However, the underlying mechanism is not clear. Here we generated an Adamts18-deficient mouse strain as an in vivo model to investigate the role of ADAMTS18 in the pathogenesis of colorectal cancer. In AOM/DSS-induced colitis-associated colorectal cancer, the deficiency of Adamts18 in mice resulted in enhanced tumorigenesis and colon inflammation that could be attributed in part to enhanced nuclear translocation of \u03b2-catenin and elevated expression of its downstream target genes, cyclin D1 and c-myc. Moreover, increased p38MAPK and ERK1/2 activities were detected in colon cancer cells from Adamts18-deficient mice. Further studies revealed that ADAMTS18 deficiency reduced intestinal E-cadherin levels in mice, which ultimately led to intestinal barrier dysfunction. These data indicate that Adamts18 deficiency enhances tumorigenesis and intestinal inflammation through elevated Wnt/\u03b2-catenin and p38MAPK/ERK1/2 signaling and promotes colon cancer in this mouse model.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28145888",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

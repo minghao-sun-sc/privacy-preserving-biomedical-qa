@@ -1,0 +1,125 @@
+{
+  "id": "5925227670f9fc6f0f000020",
+  "type": "list",
+  "question": "Which enzymes are responsible for base J creation in Trypanosoma brucei?",
+  "ideal_answer": "The base is synthesized in a two-step pathway. Initially, a thymidine residue in DNA is hydroxylated by a thymidine hydroxylase (TH). This intermediate (HOMedU) is then glucosylated to form base J. Two proteins involved in J synthesis, JBP1 (J binding protein 1) and JBP2, contain a putative TH domain related to the family of Fe(2+)/2-oxoglutarate-dependent hydroxylases. JBP2 is a chromatin re-modeling protein that induces de novo J-synthesis, allowing JBP1, a J-DNA binding protein, to stimulate additional J-synthesis. A recent computational screen identified a possible candidate for the base J-associated glucosyltransferase (JGT) in trypanosomatid genomes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25064607",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19136460",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20215442",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17706299",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24891501"
+  ],
+  "snippets": [
+    {
+      "text": "Synthesis of the modified thymine base, beta-d-glucosyl-hydroxymethyluracil or J, within telomeric DNA of Trypanosoma brucei correlates with the bloodstream form specific epigenetic silencing of telomeric variant surface glycoprotein genes involved in antigenic variation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17706299",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " We have recently proposed a model in which chromatin remodeling by a SWI2/SNF2-like protein (JBP2) regulates the developmental and de novo site-specific localization of J synthesis within bloodstream form trypanosome DNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17706299",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "JBP1 and JBP2 are two distinct thymidine hydroxylases involved in J biosynthesis in genomic DNA of African trypanosomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19136460",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The base is synthesized in a two-step pathway. Initially, a thymidine residue in DNA is hydroxylated by a thymidine hydroxylase (TH). This intermediate (HOMedU) is then glucosylated to form base J. Two proteins involved in J synthesis, JBP1 (J binding protein 1) and JBP2, contain a putative TH domain related to the family of Fe(2+)/2-oxoglutarate-dependent hydroxylases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19136460",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show that mutation of key residues in the TH domain of JBP2 ablate its ability to induce de novo J synthesis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19136460",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " We conclude that JBP2 and JBP1 are the TH enzymes involved in J biosynthesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19136460",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Two thymidine hydroxylases differentially regulate the formation of glucosylated DNA at regions flanking polymerase II polycistronic transcription units throughout the genome of Trypanosoma brucei.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20215442",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We have previously characterized two thymidine-hydroxylases (TH), JBP1 and JBP2, which regulate J-biosynthesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20215442",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "JBP2 is a chromatin re-modeling protein that induces de novo J-synthesis, allowing JBP1, a J-DNA binding protein, to stimulate additional J-synthesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20215442",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "JBP2 and JBP1 are capable of stimulating de novo J-synthesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20215442",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chromosome-internal J deposition is primarily mediated by JBP1, whereas JBP2-stimulated J deposition at the telomeric regions. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20215442",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "\u03b2-d-glucopyranosyloxymethyluracil (base J) synthesis is initiated by the JBP1/2 enzymes that hydroxylate thymine, forming 5-hydroxymethyluracil (hmU)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24891501",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A recent computational screen identified a possible candidate for the base J-associated glucosyltransferase (JGT) in trypanosomatid genomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24891501",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we discuss the regulation of hmU and base J formation in the trypanosome genome by JGT and base J-binding protein.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24891501",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The thymidine hydroxylases (JPB1 and JBP2) that catalyze the first step have been characterized, but the identity of the glucosyltransferase catalyzing the second step has proven elusive. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25064607",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The deletion of both alleles of JGT from the genome of Trypanosoma brucei generates a cell line that completely lacks base J",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24891501",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The deletion of both alleles of JGT from the genome of Trypanosoma brucei generates a cell line that completely lacks base J.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24891501",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "\u03b2-d-glucopyranosyloxymethyluracil (base J) synthesis is initiated by the JBP1/2 enzymes that hydroxylate thymine, forming 5-hydroxymethyluracil (hmU).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24891501",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "JBP1, JBP2, JGT"
+}

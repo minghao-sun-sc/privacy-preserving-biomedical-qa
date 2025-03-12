@@ -1,0 +1,105 @@
+{
+  "id": "54d7a1047035c08008000002",
+  "type": "factoid",
+  "question": "Which is the subcellular localization of the protein angiogenin?",
+  "ideal_answer": "Under growth conditions, ANG is located in nucleolus where it promotes ribosomal RNA (rRNA) transcription thereby stimulating cell growth. In adverse conditions, ANG is relocated to cytoplasm to promote damage repairs and cell survival.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23843625",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11443914",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24603325",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21528671",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9299500",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22384259",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18246300",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22438557",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7945327"
+  ],
+  "snippets": [
+    {
+      "text": "Under growth conditions, ANG is located in nucleolus where it promotes ribosomal RNA (rRNA) transcription thereby stimulating cell growth. In adverse conditions, ANG is relocated to cytoplasm to promote damage repairs and cell survival. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24603325",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Under growth conditions, ANG undergoes nuclear translocation and accumulates in the nucleolus where it stimulates rRNA transcription",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23843625",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Under growth conditions, ANG is located in the nucleus ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23843625",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Under stress conditions, ANG is localized to the cytoplasm and is concentrated in stress granules",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23843625",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Silencing ANG or inhibiting its nuclear translocation resulted in decreased nuclear LANA-1 and ANG levels,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22438557",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " results in loss of nuclear translocation activity in ANG mutants",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22384259",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Immunofluorescence staining was applied to investigate co-localization and nuclear translocation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21528671",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recombinant angiogenin was found to mainly concentrate in the pars granulosa of the nucleus, where the protein accumulates to form ribonucleoprotein particles.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18246300",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Identification of the nucleolar targeting signal of human angiogenin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7945327",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Angiogenin is endocytosed by subconfluent endothelial cells, translocated to the nucleus and accumulates in the nucleolus. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7945327",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nuclear translocation of human angiogenin in cultured human umbilical artery endothelial cells is microtubule and lysosome independent.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9299500",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Exogenous angiogenin undergoes rapid nuclear translocation in cultured human umbilical artery endothelial cells at 37 degrees C but not at 4 degrees ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9299500",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the nuclear localization of angiogenin in proliferating endothelial cells ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11443914",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0051234",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0051641",
+    "http://www.uniprot.org/uniprot/ANGI_CHICK",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0051179",
+    "http://www.uniprot.org/uniprot/ANGI_HORSE"
+  ],
+  "exact_answer": "Both nucleolar and cytoplasmic"
+}

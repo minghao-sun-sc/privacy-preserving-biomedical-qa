@@ -1,0 +1,57 @@
+{
+  "id": "5539062dbc4f83e828000013",
+  "type": "summary",
+  "question": "What is the implication of histone lysine methylation in medulloblastoma?",
+  "ideal_answer": "Aberrant patterns of H3K4, H3K9, and H3K27 histone lysine methylation were shown to result in histone code alterations, which induce changes in gene expression, and affect the proliferation rate of cells in medulloblastoma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23179372",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23184418",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19270706"
+  ],
+  "snippets": [
+    {
+      "text": "Through targeted re-sequencing, we identified mutations of MLL2 in 8 % (14/175) of MBs, the majority of which were loss of function. Notably, we also report mutations affecting the MLL2-binding partner KDM6A, in 4 % (7/175) of tumors. While MLL2 mutations were independent of age, gender, histological subtype, M-stage or molecular subgroup, KDM6A mutations were most commonly identified in Group 4 MBs, and were mutually exclusive with MLL2 mutations. Immunohistochemical staining for H3K4me3 and H3K27me3, the chromatin effectors of MLL2 and KDM6A activity, respectively, demonstrated alterations of the histone code in 24 % (53/220) of MBs across all subgroups. Correlating these MLL2- and KDM6A-driven histone marks with prognosis, we identified populations of MB with improved (K4+/K27-) and dismal (K4-/K27-) outcomes, observed primarily within Group 3 and 4 MBs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23184418",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we identified previously unknown amplifications and homozygous deletions, including recurrent, mutually exclusive, highly focal genetic events in genes targeting histone lysine methylation, particularly that of histone 3, lysine 9 (H3K9). Post-translational modification of histone proteins is critical for regulation of gene expression, can participate in determination of stem cell fates and has been implicated in carcinogenesis. Consistent with our genetic data, restoration of expression of genes controlling H3K9 methylation greatly diminishes proliferation of medulloblastoma in vitro",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19270706",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Copy number aberrations of genes with critical roles in writing, reading, removing and blocking the state of histone lysine methylation, particularly at H3K9, suggest that defective control of the histone code contributes to the pathogenesis of medulloblastoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19270706",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Aberrant patterns of H3K4 and H3K27 histone lysine methylation occur across subgroups in medulloblastoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23184418",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Copy number aberrations of genes with critical roles in writing, reading, removing and blocking the state of histone lysine methylation, particularly at H3K9, suggest that defective control of the histone code contributes to the pathogenesis of medulloblastoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19270706",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent studies showed frequent mutations in histone H3 lysine 27 (H3K27) demethylases in medulloblastomas of Group 3 and Group 4, suggesting a role for H3K27 methylation in these tumors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23179372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0034968",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0031060",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0051567",
+    "http://www.disease-ontology.org/api/metadata/DOID:3873",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016571",
+    "http://www.disease-ontology.org/api/metadata/DOID:3858"
+  ]
+}

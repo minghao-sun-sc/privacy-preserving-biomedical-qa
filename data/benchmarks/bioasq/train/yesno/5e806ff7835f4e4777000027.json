@@ -1,0 +1,26 @@
+{
+  "id": "5e806ff7835f4e4777000027",
+  "type": "yesno",
+  "question": "Is ACE2 expressed on cell surfaces?",
+  "ideal_answer": "Yes,\nACE2 is a type 1 integral membrane protein and contains a catalytically active ectodomain that can be shed from the cell surface into the extracellular space.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27889958",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28116710"
+  ],
+  "snippets": [
+    {
+      "text": " Recent studies reported that shedding of the enzymatically active ectodomain of ACE2 from the cell surface",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27889958",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ACE2 is a type 1 integral membrane protein and contains a catalytically active ectodomain that can be shed from the cell surface into the extracellular space,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28116710",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

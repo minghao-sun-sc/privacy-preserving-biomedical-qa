@@ -1,0 +1,62 @@
+{
+  "id": "5e2e136bfbd6abf43b000023",
+  "type": "factoid",
+  "question": "Which portal has been developed to explore protein-protein interactions in cancer cell lines?",
+  "ideal_answer": "The OncoPPi Portal has been developed as an interactive web resource that allows investigators to access, manipulate and interpret a high-quality cancer-focused network of protein-protein interactions (PPIs) experimentally detected in cancer cell lines. To facilitate prioritization of PPIs for further biological studies, this resource combines network connectivity analysis, mutual exclusivity analysis of genomic alterations, cellular co-localization of interacting proteins and domain-domain interactions. Estimates of PPI essentiality allow users to evaluate the functional impact of PPI disruption on cancer cell proliferation. Furthermore, connecting the OncoPPi network with the approved drugs and compounds in clinical trials enables discovery of new tumor dependencies to inform strategies to interrogate undruggable targets like tumor suppressors. The OncoPPi Portal serves as a resource for the cancer research community to facilitate discovery of cancer targets and therapeutic development.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29186335",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31583637"
+  ],
+  "snippets": [
+    {
+      "text": "The OncoPPi Portal: an integrative resource to explore and prioritize protein-protein interactions for cancer target discovery.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29186335",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "As cancer genomics initiatives move toward comprehensive identification of genetic alterations in cancer, attention is now turning to understanding how interactions among these genes lead to the acquisition of tumor hallmarks. Emerging pharmacological and clinical data suggest a highly promising role of cancer-specific protein-protein interactions (PPIs) as druggable cancer targets. However, large-scale experimental identification of cancer-related PPIs remains challenging, and currently available resources to explore oncogenic PPI networks are limited.Results: Recently, we have developed a PPI high-throughput screening platform to detect PPIs between cancer-associated proteins in the context of cancer cells. Here, we present the OncoPPi Portal, an interactive web resource that allows investigators to access, manipulate and interpret a high-quality cancer-focused network of PPIs experimentally detected in cancer cell lines. To facilitate prioritization of PPIs for further biological studies, this resource combines network connectivity analysis, mutual exclusivity analysis of genomic alterations, cellular co-localization of interacting proteins and domain-domain interactions. Estimates of PPI essentiality allow users to evaluate the functional impact of PPI disruption on cancer cell proliferation. Furthermore, connecting the OncoPPi network with the approved drugs and compounds in clinical trials enables discovery of new tumor dependencies to inform strategies to interrogate undruggable targets like tumor suppressors. The OncoPPi Portal serves as a resource for the cancer research community to facilitate discovery of cancer targets and therapeutic development.Availability and implementation: The OncoPPi Portal is available at http://oncoppi.emory.edu.Contact: andrey.ivanov@emory.edu or hfu@emory.edu.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29186335",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we present the OncoPPi Portal, an interactive web resource that allows investigators to access, manipulate and interpret a high-quality cancer-focused network of PPIs experimentally detected in cancer cell lines.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29186335",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Explore Protein-Protein Interactions for Cancer Target Discovery Using the OncoPPi Portal",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31583637",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The established network of oncogenic PPIs , termed the OncoPPi network , is available through the OncoPPi Portal , an interactive web resource that allows to access and interpret a high-quality cancer-focused network of PPIs experimentally detected in cancer cell lines integrated with the analysis of mutual exclusivity of genomic alterations , cellular co-localization of interacting proteins , domain-domain interactions , and therapeutic connectivity",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31583637",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Explore Protein-Protein Interactions for Cancer Target Discovery Using the OncoPPi Portal.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31583637",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "This chapter presents a guide to explore the OncoPPi network using the OncoPPi Portal to facilitate cancer biology.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31583637",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The established network of oncogenic PPIs, termed the OncoPPi network, is available through the OncoPPi Portal, an interactive web resource that allows to access and interpret a high-quality cancer-focused network of PPIs experimentally detected in cancer cell lines integrated with the analysis of mutual exclusivity of genomic alterations, cellular co-localization of interacting proteins, domain-domain interactions, and therapeutic connectivity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31583637",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "The OncoPPi Portal"
+}

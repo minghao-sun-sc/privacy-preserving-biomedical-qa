@@ -1,0 +1,40 @@
+{
+  "id": "6056fbfc94d57fd87900001d",
+  "type": "yesno",
+  "question": "Does the royal jelly contain proteins?",
+  "ideal_answer": "Yes, main bioactive compounds of Royal Jelly, include proteins and  peptides.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31473899",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31936187",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32042077",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33297150"
+  ],
+  "snippets": [
+    {
+      "text": " We observed differences in the metabolome, proteome, and phytosterol compositions of royal jelly synthesized by nurse bees from multi-pesticide exposed colonies, including significant reductions of key nutrients such as 24-methylenecholesterol, major royal jelly proteins, and 10-hydroxy-2-decenoic acid. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33297150",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Two-dimensional electrophoresis was used for the fractionation of royal jelly proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31473899",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the main bioactive compounds of RJ, such as proteins, peptides, fatty acids, and phenolic",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31936187",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " the expression of four of the major royal jelly proteins (MRJP1, MRJP2, MRJP4, and MRJP5) and also several proteins associated with carbohydrate metabolism and energy synthesis, the antioxidant system, detoxification, biosynthesis, amino acid metabolism, transcription and translation, protein folding and binding, olfaction, and learning and memory.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32042077",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

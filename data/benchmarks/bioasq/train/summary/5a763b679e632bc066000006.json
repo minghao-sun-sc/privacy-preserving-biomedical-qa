@@ -1,0 +1,60 @@
+{
+  "id": "5a763b679e632bc066000006",
+  "type": "summary",
+  "question": "Describe RIblast",
+  "ideal_answer": "LncRNAs play important roles in various biological processes. Although more than 58\u2009000 human lncRNA genes have been discovered, most known lncRNAs are still poorly characterized. One approach to understanding the functions of lncRNAs is the detection of the interacting RNA target of each lncRNA. Because experimental detections of comprehensive lncRNA-RNA interactions are difficult, computational prediction of lncRNA-RNA interactions is an indispensable technique. However, the high computational costs of existing RNA-RNA interaction prediction tools prevent their application to large-scale lncRNA datasets. 'RIblast' is an ultrafast RNA-RNA interaction prediction method based on the seed-and-extension approach. RIblast discovers seed regions using suffix arrays and subsequently extends seed regions based on an RNA secondary structure energy model. Computational experiments indicate that RIblast achieves a level of prediction accuracy similar to those of existing programs, but at speeds over 64 times faster than existing programs.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28459942"
+  ],
+  "snippets": [
+    {
+      "text": "RIblast: an ultrafast RNA-RNA interaction prediction system based on a seed-and-extension approach.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28459942",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "LncRNAs play important roles in various biological processes. Although more than 58\u2009000 human lncRNA genes have been discovered, most known lncRNAs are still poorly characterized. One approach to understanding the functions of lncRNAs is the detection of the interacting RNA target of each lncRNA. Because experimental detections of comprehensive lncRNA-RNA interactions are difficult, computational prediction of lncRNA-RNA interactions is an indispensable technique. However, the high computational costs of existing RNA-RNA interaction prediction tools prevent their application to large-scale lncRNA datasets.Results: Here, we present 'RIblast', an ultrafast RNA-RNA interaction prediction method based on the seed-and-extension approach. RIblast discovers seed regions using suffix arrays and subsequently extends seed regions based on an RNA secondary structure energy model. Computational experiments indicate that RIblast achieves a level of prediction accuracy similar to those of existing programs, but at speeds over 64 times faster than existing programs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28459942",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, the high computational costs of existing RNA-RNA interaction prediction tools prevent their application to large-scale lncRNA datasets.<br><b>Results</b>: Here, we present 'RIblast', an ultrafast RNA-RNA interaction prediction method based on the seed-and-extension approach.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28459942",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RIblast discovers seed regions using suffix arrays and subsequently extends seed regions based on an RNA secondary structure energy model.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28459942",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RIblast discovers seed regions using suffix arrays and subsequently extends seed regions based on an RNA secondary structure energy model.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28459942",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Results Here, we present 'RIblast', an ultrafast RNA-RNA interaction prediction method based on the seed-and-extension approach.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28459942",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RIblast: an ultrafast RNA-RNA interaction prediction system based on a seed-and-extension approach.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28459942",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "RIblast discovers seed regions using suffix arrays and subsequently extends seed regions based on an RNA secondary structure energy model.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28459942",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

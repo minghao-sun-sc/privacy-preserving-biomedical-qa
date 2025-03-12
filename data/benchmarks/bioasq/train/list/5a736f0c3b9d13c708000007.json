@@ -1,0 +1,40 @@
+{
+  "id": "5a736f0c3b9d13c708000007",
+  "type": "list",
+  "question": "What is included in the Mentzer index?",
+  "ideal_answer": "Mentzer index (MCV/RBC) is mean corpuscular volume (MCV) and red blood cell count (RBC) ratio. It is used for differentiation of thalassemia and iron deficiency anemia.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18445163",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26187724",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18192142",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8162086"
+  ],
+  "snippets": [
+    {
+      "text": "In this study, macrocytic anemia due to FAD was defined as having an MCV \u2265100 fL and folic acid \u22646 ng/mL; pernicious anemia as having MCV \u2265100 fL, vitamin B12<200 pg/mL, and serum gastric parietal cell antibody positivity; iron deficiency anemia as having MCV<80 fL and iron<60 \u03bcg/dL; and thalassemia trait as having MCV<74 fL, red blood cell (RBC) count>5.0 \u00d7 10(12)/L, and Mentzer index (MCV/RBC)<13.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26187724",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Complete blood count (CBC) parameters of 2196 certainly diagnosed (1272 beta-thalassaemia minor and 924 iron deficiency) samples were used to evaluate the following indices and formulas: Bessman index (RDW), Mentzer formula (MCV/RBC), England and Fraser formula (MCV - RBC - 5 x Hb- 3.4), Shine and Lal formula (MCV2 x MCH/100), Ehsani formula (MCV-10 x RBC), Srivastava formula (MCH/RBC), Green and King formula (MCV2 x RDW/Hb x 100), red distribution width index RDWI (RDW x MCV/RBC), RDW/RBC, as well as our formula (MCV-RBC -3 x Hb). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18445163",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The ratio of the mean corpuscular volume (MCV) and red blood cell count (RBC) can be automatically calculated with any of the newer hematology analyzers.METHODS: The results of 398 patient screens were collected. Data from the set were divided into training and validation subsets. The Mentzer ratio was determined through a receiver operating characteristic (ROC) curve on the first subset, and screened for thalassemia using the second subset. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18192142",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mentzer ratio MCV/RBC detected all cases of beta thalassemia but was a poor index for iron deficiency detection. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8162086",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "mean corpuscular volume, red blood cell count"
+}

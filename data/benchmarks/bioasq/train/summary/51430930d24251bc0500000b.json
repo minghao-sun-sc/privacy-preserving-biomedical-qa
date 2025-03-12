@@ -1,0 +1,34 @@
+{
+  "id": "51430930d24251bc0500000b",
+  "type": "summary",
+  "question": "Super-SILAC is a method used in quantitative proteomics. What is the super-SILAC mix?\n(SILAC: Stable Isotopic labelling by aminoacids in cell culture)",
+  "ideal_answer": "The Super-SILAC mix consists of the combination of multiple SILAC-labeled cell lines.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21293456",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20364148",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22278370",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20431548",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23090970",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22442255",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22623409"
+  ],
+  "snippets": [
+    {
+      "text": ", a mixture of five SILAC-labeled cell lines that accurately represents the tissue",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21293456",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We describe a method to accurately quantify human tumor proteomes by combining a mixture of five stable-isotope labeling by amino acids in cell culture (SILAC)-labeled cell lines with human carcinoma tissue. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20364148",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020543",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D040901",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007553"
+  ]
+}

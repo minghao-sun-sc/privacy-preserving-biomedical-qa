@@ -1,0 +1,40 @@
+{
+  "id": "6057151094d57fd879000027",
+  "type": "yesno",
+  "question": "Are there antimicrobial proteins in royal jelly?",
+  "ideal_answer": "Yes,\nJelleines, isolated as novel antibacterial peptides from the Royal Jelly (RJ) of bees, exhibit broad-spectrum protection against microbial infections.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33151599",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31862270",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31936187",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32627752"
+  ],
+  "snippets": [
+    {
+      "text": "Jellein, a peptide derived from royal jelly of honeybee has been shown to have promising effect against several bacterial and fungal species. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31862270",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "It is also the most studied bee product, aimed at unravelling its bioactivities, such as antimicrobial, antioxidant, anti-aging, immunomodulatory, and general tonic action against laboratory animals, microbial organisms, farm animals, and clinical trials",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31936187",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Jelleines, isolated as novel antibacterial peptides from the Royal Jelly (RJ) of bees, exhibit broad-spectrum protection against microbial infections.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32627752",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The study showed significant antimicrobial activity from several proteins present in the honey of M. beecheii.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33151599",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}
