@@ -17,7 +17,8 @@ bashCopypython -m venv biomedqa-env
 source biomedqa-env/bin/activate  # On Windows: biomedqa-env\Scripts\activate
 
 Install dependencies:
-bashCopypip install -r requirements.txt
+```
+pip install -r requirements.txt
 
 Install the package in development mode:
 bashCopypip install -e .
@@ -26,14 +27,14 @@ Set up API keys (if applicable):
 
 Create a .env file in the project root
 Add your API keys:
-CopyPUBMED_API_KEY=your_api_key_here
+PUBMED_API_KEY=your_api_key_here
 
 
 
 
 Testing the Installation
 Run the test suite to verify the installation:
-bashCopypytest
+```pytest
 Troubleshooting
 If you encounter any issues during installation, please check:
 

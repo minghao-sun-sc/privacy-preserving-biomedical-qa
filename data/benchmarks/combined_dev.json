@@ -1,0 +1,456 @@
+[
+  {
+    "id": "medqa_1002",
+    "question": "A 68-year-old woman presents to the emergency room with productive cough and fever. She has a chronic cough that has been getting progressively worse over the last 2 weeks. Last night she developed a fever and vomited. She smoked one pack of cigarettes per day for 40 years and recently quit. Her past medical history includes COPD and her medications include ipratropium and fluticasone. On physical exam her temperature is 102.2\u00b0F (39\u00b0C), blood pressure is 131/78 mmHg, pulse is 110/min, respirations are 22/min, and oxygen saturation is 95% on room air. She has decreased breath sounds bilaterally with diffuse crackles. You obtain a sputum sample and identify an organism that grows selectively on medium containing factors V and X. Which of the following organisms is the most likely cause of this patient's symptoms?",
+    "answer": "Haemophilus influenzae",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Haemophilus influenzae",
+        "Streptococcus pneumoniae",
+        "Mycoplasma pneumoniae",
+        "Fusobacterium species"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_69",
+    "question": "Seven days after initiation of induction chemotherapy for acute myeloid leukemia, a 56-year-old man develops leukopenia. He feels well. He has no history of serious cardiopulmonary disease. His temperature is 36.7\u00b0C (98.1\u00b0F), blood pressure is 110/65 mm Hg, pulse is 72/min, and respiratory rate is 14/min. Examination of the skin, head and neck, heart, lungs, abdomen, and perirectal area reveals no abnormalities. Laboratory studies show:\nHemoglobin 9 g/dL\nLeukocyte count 1,500/mm3\nPercent segmented neutrophils 50%\nPlatelet count 85,000/mm3\nTo reduce the likelihood of complications, it is most appropriate to administer which of the following?",
+    "answer": "Ciprofloxacin",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Ciprofloxacin",
+        "Granulocyte colony-stimulating factor",
+        "Vancomycin",
+        "No pharmaco-prophylaxis at this time"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_22491528",
+    "question": "Combining process indicators to evaluate quality of care for surgical patients with colorectal cancer: are scores consistent with short-term outcome?",
+    "answer": "maybe",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "22491528",
+      "label": "maybe",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_19",
+    "question": "A 30-year-old man is brought to the doctor's office by his wife. She complains that over the past week there have been 3 episodes where he has fallen asleep while speaking with her. She mentioned that these events began a few months ago and have been increasing in frequency. She also says that his snoring has gotten to the point where she has a hard time sleeping next to him. When asked, the patient says that he frequently falls asleep while reading or watching television in the afternoons and feels refreshed after a short nap. The patient is worried because he sometimes hears people who aren\u2019t in the room as he falls asleep. He is worried he might be \u201cgoing crazy.\u201d He has noticed that when his friends tell him a joke or he laughs at something on the TV, he drops whatever he\u2019s holding and feels like his legs become weak. These episodes self-resolve in a few seconds. Examination shows a morbidly obese man in no acute distress. Which of the following is the best treatment for the most likely cause for this patient\u2019s illness?",
+    "answer": "Modafinil",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Modafinil",
+        "Taking longer naps",
+        "Continuous positive airway pressure",
+        "Changing bedtime to earlier in the evening"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_412",
+    "question": "A 54-year-old woman comes to the emergency department because of sharp chest pain and shortness of breath for 1 day. She has been coughing intermittently, which worsens the pain. She has osteoporosis, for which she takes raloxifene. Arterial blood gas analysis on room air shows:\npH 7.52\nPCO2 25 mm Hg\nPO2 65 mm Hg\nO2 saturation 92%\nPhysical examination is most likely to show which of the following findings?\"",
+    "answer": "Unilateral swelling of the leg",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Unilateral swelling of the leg",
+        "Increased anteroposterior diameter of the thorax",
+        "Grouped vesicles on the right hemithorax",
+        "Absent left radial pulse"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_25981682",
+    "question": "Preparing patients at high risk of falls for discharge home after rehabilitation: Do we meet the guidelines?",
+    "answer": "There was little evidence that people at high risk of falls received systematic falls risk assessment during rehabilitation. When a risk was identified, generally a strategy was implemented. However, failure to assess some risk factors might have limited fall prevention strategies offered. Failure to adequately address risks during hospitalization could contribute to falls post-discharge. Geriatr Gerontol Int 2016; 16: 570-576.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "25981682",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_1245",
+    "question": "A 25-year-old man comes to the emergency department because of left flank pain for 2 hours. The pain is colicky in nature and he describes it as 8 out of 10 in intensity. He has nausea and has vomited once. He had a similar episode 6 months ago for which he took naproxen. There is no personal or family history of serious illness. He is a second-year medical student and has been consuming more coffee and energy drinks than normal to stay awake and study for the past 2 days. He does not smoke or drink alcohol. He takes no medications. His temperature is 37.3\u00b0C (99.1\u00b0F), pulse is 98/min, and blood pressure is 124/78 mm Hg. The abdomen is soft and nontender. Examination of the back shows no costovertebral angle tenderness. The remainder of the examination shows no abnormalities. Urinalysis is unremarkable. Which of the following is the most likely underlying cause of this patient's symptoms?",
+    "answer": "Ureteropelvic junction obstruction",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Bilateral renal cysts",
+        "Glomerular IgA deposits",
+        "Ureteropelvic junction obstruction",
+        "Ascending urinary tract infection\n\""
+      ],
+      "answer_idx": "C",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_24698298",
+    "question": "MR arthrography of the shoulder: do we need local anesthesia?",
+    "answer": "no",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "24698298",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_670",
+    "question": "A 69-year-old female presents to the emergency department with crampy abdominal pain. She has a past medical history of hypertension, dyslipidemia, and cholelithiasis status post cholecystectomy. The patient states she has not passed stool or gas for 48 hrs. On physical exam vitals are T 98.4 F HR 105 bpm BP 155/101 mmHg RR 16 SpO2 96%, abdominal exam is notable for distension, tympany to percussion, and tenderness to palpation without rebound or guarding. Which of the following findings are most likely on radiograph?",
+    "answer": "Ladder-like series of distended bowel loops with air-fluid levels on abdominal radiograph",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Apple core defect after lower GI series",
+        "Multiple punctate mucosal outpouchings through the serosa on lower GI series",
+        "Ladder-like series of distended bowel loops with air-fluid levels on abdominal radiograph",
+        "Loss of haustral markings and \"lead pipe\" appearance to the descending colon on lower GI series"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_20337202",
+    "question": "Continuation of pregnancy after antenatal corticosteroid administration: opportunity for rescue?",
+    "answer": "maybe",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "20337202",
+      "label": "maybe",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_587",
+    "question": "A 23-year-old man comes to the emergency department complaining of 10/10 abdominal pain. He describes the pain as sharp, stabbing, intermittent, and concentrated at the left lower quadrant. It started about 3 hours ago with no obvious precipitating factor. He reports multiple similar episodes in the past but they have all resolved within 1 hour or so. He denies fever, weight changes, headaches, nausea/vomiting, or gastrointestinal changes but endorses \u201cred-colored urine\u201d for the past day. He just returned from an extensive hiking trip in Colorado. A radiograph of the abdomen was unremarkable. What is the most likely explanation for this patient\u2019s presentation?",
+    "answer": "Hereditary defect of amino acid transporter in the kidney",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Hereditary defect of amino acid transporter in the kidney",
+        "Infection with urease positive bacteria",
+        "Presence of antibodies to the glomerular basement membrane",
+        "Thinning and splitting of the glomerular basement membrane"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_19459018",
+    "question": "Very high serum CA 19-9 levels: a contraindication to pancreaticoduodenectomy?",
+    "answer": "Patients who normalized their CA19-9 levels postoperatively had equivalent survival to patients with normal preoperative CA 19-9 levels. Preoperative serum CA 19-9 level by itself should not preclude surgery in patients who have undergone careful preoperative staging.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "19459018",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_606",
+    "question": "A 33-year-old African American woman comes to the physician because of a 4-month history of progressive fatigue, shortness of breath, constipation, and a nonproductive cough. She returned from a trip to Nigeria 6 months ago. Physical examination is unremarkable. Serum calcium concentration is 11.7 mg/dL. An x-ray of the chest shows bilateral hilar lymphadenopathy with coarse, nodular opacities in both lower lobes. A photomicrograph of a biopsy specimen of the affected area of the lungs is shown. Which of the following best describes the pathogenesis of this patient's histopathological findings?",
+    "answer": "TNF-\u03b1 secretion by CD4+ T cells",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "MHC I binding to CD8+ T cells",
+        "Antigen binding to IgM",
+        "TNF-\u03b1 secretion by CD4+ T cells",
+        "IL-5 secretion by Th2 cells"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_17179167",
+    "question": "Human papillomavirus and pterygium. Is the virus a risk factor?",
+    "answer": "The low presence of HPV DNA in pterygia does not support the hypothesis that HPV is involved in the development of pterygia in Denmark.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "17179167",
+      "label": "maybe",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_8738894",
+    "question": "Diabetes mellitus among Swedish art glass workers--an effect of arsenic exposure?",
+    "answer": "no",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "8738894",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_299",
+    "question": "A 47-year-old woman visits the emergency department due to painful, swollen fingers in both of her hands. She has worked as a bus driver for the county school system for the last 20 years. Her past medical history is significant for a transient ischemic attack 5 years ago. She reports that she has lost weight in the last 2 months although there have been no changes in her diet. She also says that she generally feels fatigued all day. On examination, nodules are seen over her Achilles tendon and both wrists are erythematous, swollen, and tender to touch. Laboratory tests are presented below:\nHemoglobin: 11.0 g/dL\nHematocrit: 40.5%\nLeukocyte count: 7400/mm3\nMean corpuscular volume: 80.1 \u03bcm3\nPlatelet count: 210,000/mm3\nErythrocyte sedimentation rate: 55 mm/h\nAnti-cyclic citrullinated peptide antibody: 45 (Normal reference values: < 20)\nWhich side-effect is associated with the drug of choice for the treatment of this patient\u2019s condition?",
+    "answer": "Pneumonitis",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Retinopathy",
+        "Arterial hypertension",
+        "Pneumonitis",
+        "Reactivation of latent tuberculosis"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_789",
+    "question": "A 73-year-old man with a past medical history significant for high blood pressure, hypothyroidism, and diabetes presents to the outpatient clinic. He complains of joint pain, muscle pain, and fatigue that has been present for the last several weeks. On examination, you notice a butterfly-shaped rash across the bridge of his nose and cheeks. He has a blood pressure of 124/72 mm Hg and heart rate of 64/min. Of the following, which medication is most likely responsible for his presentation?",
+    "answer": "Hydralazine",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Verapamil",
+        "Clonidine",
+        "Hydralazine",
+        "Terazosin"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_10401824",
+    "question": "Is laparoscopic reoperation for failed antireflux surgery feasible?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "10401824",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_24793469",
+    "question": "Is there any relation between cervical cord plaques and discopathy in patients with multiple sclerosis?",
+    "answer": "The study data suggests a possible correlation between cervical discopathy and cervical MS plaque.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "24793469",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_778",
+    "question": "A 24-year-old patient presents to your gastroenterology practice on a referral from her primary care provider. The patient has been experiencing postprandial bloating and abdominal pain for one year. Symptoms occur following the ingestion of milk products. Which of the following drugs has a mechanism of action that is similar to the pathophysiology of this patient's disease?",
+    "answer": "Magnesium hydroxide",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Omeprazole",
+        "Bismuth",
+        "Octreotide",
+        "Magnesium hydroxide"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_1180",
+    "question": "A 49-year-old woman comes to the physician because of a growing lump in the right breast that she first noticed 1 month ago. Physical examination of the right breast shows a 3.5-cm firm, fixed mass in the right upper quadrant. There is dimpling of the overlying skin. A mammogram shows a mass with poorly-defined margins and microcalcifications. Immunohistochemical analysis of a biopsy specimen from the mass shows malignant cells that stain negative for estrogen and progesterone receptors and positive for human epidermal growth factor receptor 2. The drug that most specifically targets this patient's tumor is also used in the treatment of which of the following conditions?",
+    "answer": "Gastric cancer",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Multiple sclerosis",
+        "Gastric cancer",
+        "Osteoporosis",
+        "Rheumatoid arthritis"
+      ],
+      "answer_idx": "B",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_521",
+    "question": "A 3-year-old girl is brought to the pediatrician by her father for fever and cough. The patient\u2019s father states that she had a sore throat and runny nose 2 weeks ago. Then last night she developed a productive cough and a fever. The father is worried that this is pneumonia again, and reports that she has been hospitalized 5 times already with pneumonia. Her medical history is also significant for chronic diarrhea. The father reports that the patient has 2 older brothers who are both healthy. The patient\u2019s temperature is 102\u00b0F (38.9\u00b0C), blood pressure is 102/60 mmHg, pulse is 110/min, and respirations are 28/min with an oxygen saturation of 94% on room air. On physical examination, decreased breath sounds are appreciated on the right. A chest radiography shows consolidation in the right upper lobe, consistent with pneumonia. An antibody panel and flow cytometry are obtained in the setting of the patient\u2019s recurrent infections. The results show a normal lymphocyte count with low levels of IgA, IgG, and IgE and elevated levels of IgM. Which of the following is the patient most at risk for developing?",
+    "answer": "Blurry vision",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Ataxia",
+        "Atopic dermatitis",
+        "Blurry vision",
+        "Scant tonsils"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_22227642",
+    "question": "Can we measure mesopic pupil size with the cobalt blue light slit-lamp biomicroscopy method?",
+    "answer": "no",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "22227642",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_20353735",
+    "question": "Treatment of vitamin D deficiency in CKD patients with ergocalciferol: are current K/DOQI treatment guidelines adequate?",
+    "answer": "Current K/DOQI guidelines are inadequate for correcting VDDI or secondary hyperparathyroidism in CKD patients. Future studies should examine the effects of higher or more frequent dosing of ergocalciferol on these clinical endpoints.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "20353735",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_25887165",
+    "question": "Does Sensation Return to the Nasal Tip After Microfat Grafting?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "25887165",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_994",
+    "question": "A group of investigators is studying hemodynamic regulatory mechanisms in a human volunteer subject. The volunteer is administered a stimulant drug, and a sudden increase in blood pressure is observed. It is hypothesized that the increase in blood pressure causes stretching of the atria. Increased atrial stretch would most likely lead to which of the following changes?",
+    "answer": "Decreased reabsorption of sodium",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Vasodilation and decreased platelet aggregation",
+        "Decreased reabsorption of sodium",
+        "Increased reabsorption of solute-free water",
+        "Vasoconstriction and stimulation of thirst"
+      ],
+      "answer_idx": "B",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_12238307",
+    "question": "Vaccine protection in the elderly: are Austrian seniors adequately protected by vaccinations?",
+    "answer": "The data demonstrate that vaccination has a relatively weak and short-lasting effect in old age. The results of the study should stimulate discussions about strategies how vaccinations can be made more effective in old age. Improved campaigns, shortened vaccination intervals as well as the design of novel vaccines tailored to fulfill the specific demands of the aging immune system are imaginable.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "12238307",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_1071",
+    "question": "A 73-year-old man is brought to the emergency department 30 minutes after the sudden onset of right-sided body weakness. His wife reports that he does not seem to understand simple questions. He has type 2 diabetes mellitus and has smoked 1 pack of cigarettes daily for 45 years. The patient speaks fluently, but he answers questions with nonsensical phrases and cannot repeat single words. Which of the following is the most likely diagnosis?",
+    "answer": "Wernicke aphasia",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Conduction aphasia",
+        "Global aphasia",
+        "Wernicke aphasia",
+        "Transcortical sensory aphasia"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_602",
+    "question": "A 55-year-old right-handed woman is being evaluated for a long history of numbness and tingling in both of her hands, particularly in the third digits, that is worse at night. She works as a medical office assistant in a local travel medicine clinic. Her past medical history is significant for hypothyroidism, managed medically with thyroxine. Physical examination showed thenar eminence atrophy, decreased sensation in the 3 first digits of both hands that extends proximally, and weakness on thumb abduction and thumb opposition; deep tendon reflexes are normal. Phalen and Tinel tests are positive. Which of the following is the most inclusive list of spinal roots that contribute to the affected nerve in this patient?",
+    "answer": "C5, C6, C7, C8, T1",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "C4, C5",
+        "C6, C7, C8",
+        "C3, C4, C5",
+        "C5, C6, C7, C8, T1"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_12145243",
+    "question": "Are lower fasting plasma glucose levels at diagnosis of type 2 diabetes associated with improved outcomes?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "12145243",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  }
+]

@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "pubmedqa_26601554",
+    "question": "Do viral infections have a role in benign paroxysmal positional vertigo?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "26601554",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_419",
+    "question": "A 50-year-old man has a kidney transplantation for end-stage renal disease in the setting of long-standing polycystic kidney disease. His postoperative course is uncomplicated. He had smoked one pack of cigarettes daily for 20 years but quit 5 years ago. He does not drink alcohol or use illicit drugs. Current medications include basiliximab, mycophenolate mofetil, and prednisone. His vital signs are within normal limits. On physical examination, the surgical incisions appear clean and intact. Prior to discharge, administration of which of the following is most appropriate in this patient?",
+    "answer": "Trimethoprim-sulfamethoxazole",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Azithromycin",
+        "Trimethoprim-sulfamethoxazole",
+        "Acyclovir",
+        "Varicella vaccine"
+      ],
+      "answer_idx": "B",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_377",
+    "question": "A 3086-g (6-lb) male newborn is delivered at 39 weeks' gestation to a 29-year-old woman. Initial examination shows micrognathia, a broad nasal bridge, short philtrum, and a cleft palate. Intermittent muscle spasms are seen predominantly in the hands and feet. A harsh systolic murmur is heard over the lower left sternal border. Which of the following is the most likely cause of this infant\u2019s symptoms?",
+    "answer": "Deletion in chromosome 22",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Deletion in chromosome 7",
+        "Deletion in chromosome 22",
+        "Nondisjunction of chromosome 21",
+        "Nondisjunction of chromosome 13"
+      ],
+      "answer_idx": "B",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_145",
+    "question": "A 35-year-old patient presents to the dermatologist with a new skin rash. The patient has noticed new bumps on her arm over the past 1 month. The bumps are about 0.5 cm in diameter and are filled with a clear fluid. They extend on both arms but are not in her mouth or torso. The lesions do not pop with pressure but remain tense. Her skin does not slough off with rubbing. The patient denies any other symptoms including joint pain or fever. The patient has no other medical history. The patient\u2019s condition is most likely caused by antibodies against which of the following compounds?",
+    "answer": "Hemidesmosomes",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Desmoglein",
+        "Hemidesmosomes",
+        "Double-stranded DNA",
+        "U1 ribonucleotide polypeptide"
+      ],
+      "answer_idx": "B",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_42",
+    "question": "A 25-year-old woman complains of dyspnea and mild chest pain on exertion, which increases gradually with continued exertion. She had similar symptoms last year and her medical record included the following arterial blood gas findings:\npH 7.51\npO2 77 mm Hg\npCO2  32 mm Hg\nAn ECG last year demonstrated a right axis deviation. The current chest X-ray showed enlarged pulmonary arteries but no parenchymal in\ufb01ltrates. A lung perfusion scan revealed a low probability for pulmonary thromboembolism. The current ECG showed right heart strain but no evidence of primary cardiac disease. What is the most logical diagnostic test for this patient?",
+    "answer": "Echocardiography",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Echocardiography",
+        "Holter monitoring",
+        "Lung biopsy",
+        "Transbronchial biopsy"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_25940336",
+    "question": "Does Residency Selection Criteria Predict Performance in Orthopaedic Surgery Residency?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "25940336",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_1123",
+    "question": "A 66-year-old woman comes to the emergency department because of fever and difficulty swallowing for 5 hours. She appears anxious. Her temperature is 39.1\u00b0C (102.4\u00b0F). Physical examination shows an extended neck and excessive drooling. Her voice is muffled and there is inspiratory stridor. There is tender bilateral cervical lymphadenopathy and pain upon palpation of the hyoid. Laboratory studies show a leukocyte count of 18,800/mm3 with 85% neutrophils. Which of the following is the most likely causal organism?",
+    "answer": "Haemophilus influenzae type b",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Haemophilus influenzae type b",
+        "Streptococcus pyogenes",
+        "Corynebacterium diphtheriae",
+        "Parainfluenza virus\n\""
+      ],
+      "answer_idx": "A",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_721",
+    "question": "A 2-week-old infant is brought to the pediatrician for the first time by his parents. His mother received regular prenatal care and the child was born at home under the guidance of a midwife and a doula. The child appears well. The parents tell you they do not plan to have their child receive any vaccines. After a discussion regarding the risks and benefits of vaccines, the parents are still adamant in their wishes to forgo. Which of the following is the most appropriate course of action?",
+    "answer": "Document the visit, specifically the detailing of risks and benefits and the parents' refusal of treatment",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Call child protective services",
+        "Refuse to continue to care for the child",
+        "Give any scheduled vaccines during that visit against the will of the parents",
+        "Document the visit, specifically the detailing of risks and benefits and the parents' refusal of treatment"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_18322741",
+    "question": "Does laparoscopic surgery decrease the risk of atrial fibrillation after foregut surgery?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "18322741",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_16962519",
+    "question": "Volume change of uterine myomas during pregnancy: do myomas really grow?",
+    "answer": "no",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "16962519",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_185",
+    "question": "A 30-year-old G1P1 woman gives birth to a healthy infant at 39 weeks gestation. The mother attended all her prenatal visits and took all her appropriate prenatal vitamins. Her past medical history is notable for diabetes mellitus, for which she takes metformin. Apgar scores were 8 and 9 at 1 and 5 minutes, respectively. The infant's temperature is 99.2\u00b0F (37.3\u00b0C), blood pressure is 65/40 mmHg, pulse is 110/min, and respirations are 22/min. On exam, the child has ambiguous genitalia. A karyotype analysis demonstrates the presence of a Y chromosome. Further workup reveals internal testes with normal levels of serum luteinizing hormone and testosterone. Which of the following additional findings would most likely be seen in this patient?",
+    "answer": "Testosterone-to-dihydrotestosterone ratio > 20",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Decreased androgen receptor responsiveness",
+        "Impaired sense of smell",
+        "Long extremities",
+        "Testosterone-to-dihydrotestosterone ratio > 20"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_1004",
+    "question": "An 7-year-old girl is brought to the pediatrician by her concerned mother, because she is \"more physically matured\" than the rest of the girls in her class. On physical exam, she is noted to have breast development and pubic hair. On gonadotropin reseasing hormone (GnRH) stimulation, she has an increase in leutienizing hormone (LH) levels. Thyroid function tests and an MRI of the head are both within normal limits. Which of the following is the most appropriate treatment for this condition?",
+    "answer": "Leuprolide",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Leuprolide",
+        "Finasteride",
+        "Octreotide",
+        "Anastrozole"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_341",
+    "question": "A 7-year-old boy with sickle cell disease is brought into the clinic by his mother for knee and hip pain. The child has been admitted several times in the past for pain crises managed with fluids and hydromorphone. He started complaining of worsening hip pain over the last several days and now walks with a limp. His temperature is 97.9\u00b0F (36.6\u00b0C), blood pressure is 84/54 mmHg, pulse is 100/min, respirations are 19/min, and oxygen saturation is 99% on room air. On physical exam, the hip appears normal and is cool to the touch. There is decreased range of motion at the hip and pain with ambulation. Which of the following is the most appropriate next step in management?",
+    "answer": "Radiograph",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "CT",
+        "Ibuprofen and acetaminophen",
+        "MRI",
+        "Radiograph"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_1050",
+    "question": "A 27-year-old woman presents to her primary care physician\u2019s office with fatigue, headaches, and concentration difficulties. Her symptoms began approximately 7 months prior to presentation. Throughout this time, she reports problems with initiating and remaining asleep, has noticed periods of muscle soreness, and has feelings of restlessness. She states that she is very concerned about whether she will be able to pay her monthly expenses and if her parents are satisfied with her career choices. She is also worried about how her colleagues and supervisor think of her performance at work. She denies any significant past medical history besides occasional palpitations. She takes a daily multivitamin. Family history is significant for panic disorder in her mother. She currently lives alone and at times socializes with friends. She occasionally drinks alcohol during social gatherings, does not smoke, and denies any illicit drug use. Her temperature is 99\u00b0F (37.2 \u00b0C), blood pressure is 110/75, pulse is 101/min, and respirations are 18/min. Physical examination is unremarkable. Which of the following is the most appropriate pharmacologic treatment for this patient?",
+    "answer": "Buspirone",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Buspirone",
+        "Mirtazapine",
+        "Olanzapine",
+        "Trazodone"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_10575390",
+    "question": "Do follow-up recommendations for abnormal Papanicolaou smears influence patient adherence?",
+    "answer": "Adherence to follow-up was low in this family planning clinic population, no matter what type of follow-up was advised. Adherence was improved by the use of up to 3 reminders. Allocating resources to effective methods for improving adherence to follow-up of abnormal results may be more important than which follow-up procedure is recommended.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "10575390",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_12607120",
+    "question": "Does anastomotic leakage affect functional outcome after rectal resection for cancer?",
+    "answer": "Continence function remained undisturbed after anastomotic leakage due to rectal resection",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "12607120",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_23690198",
+    "question": "Implementation of epidural analgesia for labor: is the standard of effective analgesia reachable in all women?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "23690198",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_16647887",
+    "question": "Are women who are treated for hypothyroidism at risk for pregnancy complications?",
+    "answer": "Compared with patients without hypothyroidism, patients with treated hypothyroidism are not at any increased risk for perinatal morbidity.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "16647887",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_12377809",
+    "question": "Is anorectal endosonography valuable in dyschesia?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "12377809",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_21346501",
+    "question": "Can students' scores on preclerkship clinical performance examinations predict that they will fail a senior clinical performance examination?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "21346501",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_695",
+    "question": "A 10-year-old boy initially presented with a runny nose, fever, and watery eyes. His parents gave him aspirin. Over the next few days, the boy developed jaundice, became irritable, lethargic, and had seizures. The hepatic transaminases were significantly raised. The blood ammonia levels were also increased. A liver biopsy is performed. Which of the following histopathological findings will most likely be seen on the liver biopsy in this patient?",
+    "answer": "Cytoplasmic fatty vacuolization in hepatocytes and swollen mitochondria",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Hepatic granulomas",
+        "Iron accumulation and proliferation of smooth endoplasmic reticulum",
+        "Hepatocytes proliferation",
+        "Cytoplasmic fatty vacuolization in hepatocytes and swollen mitochondria"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_853",
+    "question": "An 18-year-old girl comes to the emergency room with abdominal pain. She states that the pain started 6 hours ago, is 8/10, and localizes to the right lower abdomen. She recalls a similar episode last month. Her older brother was hospitalized 2 years ago for perforated appendicitis. Her mother has diverticulitis. The patient got her first menstrual period at age 14. Her periods occur regularly every 28 days. Her last menstrual period was 2 weeks ago. She is sexually active with multiple partners and uses condoms inconsistently. The patient\u2019s temperature is 99\u00b0F (37.2\u00b0C), blood pressure is 110/74 mmHg, pulse is 89/min, and respirations are 14/min with an oxygen saturation of 98% on room air. On physical exam, the patient is in moderate distress. There is lower abdominal tenderness with guarding. A pelvic examination reveals clear mucous in the vaginal introitus, a mobile uterus, and tenderness of the right adnexa. Labs are obtained, as shown below:\n\nLeukocyte count: 10,000/mm^3 with normal differential\nHemoglobin: 13.5 g/dL\nPlatelet count: 200,000/mm^3\nBeta-human chorionic gonadotropin: Pending\n\nA pelvic ultrasound demonstrates a small fluid collection in the cul-de-sac posterior to the uterus. Which of the following is the most likely diagnosis?",
+    "answer": "Midcycle pain",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Appendicitis",
+        "Endometriosis",
+        "Midcycle pain",
+        "Ruptured ectopic pregnancy"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_21398266",
+    "question": "Do symptoms matter when considering patients for phase I clinical trials?",
+    "answer": "Older adults enrolled in PICT with more symptoms may sacrifice QOL for experimental treatment.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "21398266",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_7664228",
+    "question": "Discharging patients earlier from Winnipeg hospitals: does it adversely affect quality of care?",
+    "answer": "no",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "7664228",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_851",
+    "question": "A 61-year-old man comes to the physician because of weight loss and a non-productive cough for 4 months. He has smoked 2 packs of cigarettes daily for 42 years. A CT scan of the chest shows an irregular mass at the right hilum and axillary lymphadenopathy. A biopsy of the mass obtained on bronchoscopy confirms the diagnosis of metastatic non-small cell lung cancer. Results of a molecular diagnostic test show a microdeletion on the short arm of chromosome 7. The physician recommends chemotherapy with erlotinib. The beneficial effect of this drug is most likely due to arrest in which of the following phases of the cell cycle?",
+    "answer": "G1 phase",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "G2 phase",
+        "G1 phase",
+        "G0 phase",
+        "S phase"
+      ],
+      "answer_idx": "B",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_1064",
+    "question": "A 4-year-old boy is brought to the physician because of a 1-month history of generalized fatigue. During the past week, he has also had fever and severe leg pain that keeps him awake at night. Examination shows cervical and axillary lymphadenopathy. His liver is palpated 4 cm below the right costal margin and the spleen is palpated 3 cm below the left costal margin. His hemoglobin concentration is 10.2 g/dL, leukocyte count is 64,500/mm3, and platelet count is 29,000/mm3. A bone marrow aspirate predominantly shows immature cells that stain positive for CD10, CD19, and TdT. Which of the following is the most likely diagnosis?",
+    "answer": "Acute lymphoblastic leukemia",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Idiopathic thrombocytopenic purpura",
+        "Acute myeloid leukemia",
+        "Acute lymphoblastic leukemia",
+        "Hodgkin lymphoma"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_1107",
+    "question": "A 7-year-old boy suffers from generalized edema. Urine protein excretion is 5.2 g over 24 hours, and serum analysis reveals hyperlipidemia. The patient responds to treatment with prednisone, and, 8 weeks later, his urine does not contain measurable protein. If a kidney biopsy had been performed while the patient\u2019s condition was pathologic, which of the following would you expect to find upon glomerular electron microscopy?",
+    "answer": "Effacement of podocyte foot processes",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Effacement of podocyte foot processes",
+        "Subepithelial \u2018spike and dome\u2019 deposits",
+        "Subepithelial humps",
+        "Subendothelial thickening"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_27909738",
+    "question": "Prostate bed target interfractional motion using RTOG consensus definitions and daily CT on rails : Does target motion differ between superior and inferior portions of the clinical target volume?",
+    "answer": "There are no statistically apparent motion differences between SUP-CTV and INF-CTV. Current uniform planning target volume (PTV) margins are adequate to cover both portions of the CTV.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "27909738",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_425",
+    "question": "An 8-month-old boy is brought to the office by his mother for recurrent infections. Over the past 2 months, the boy had multiple visits to the urgent care clinic for respiratory, ear, and skin infections. His mother is concerned about the health of her child. Currently, the child had a runny nose for the last 2 days. There is no fever but the mother adds that the boy is not eating very well. His mother denies any history of infection during her pregnancy and was tested negative for HIV. The patient\u2019s heart rate is 90/min, respiratory rate is 14/min, and temperature is 36.7\u00b0C (98.0\u00b0F). On physical exam, there are decreased lung sounds in the left lower lobe. A chest X-ray reveals an absent thymic shadow and fails to show any lung pathology. There is no history of similar symptoms in the families of either parent. What is the most likely cause of this patient\u2019s condition?\n ",
+    "answer": "Adenosine deaminase deficiency",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Adenosine deaminase deficiency",
+        "Hypoxanthine-guanine phosphoribosyl transferase (HGPRT) deficiency",
+        "HIV infection",
+        "Purine nucleoside phosphorylase deficiency"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_19103915",
+    "question": "Are home sampling kits for sexually transmitted infections acceptable among men who have sex with men?",
+    "answer": "maybe",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "19103915",
+      "label": "maybe",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_1172",
+    "question": "An 84-year-old woman with an indwelling urinary catheter and a history of recurrent nephrolithiasis is brought to the emergency department from her nursing home because of increasing confusion over the past day. On arrival, she is oriented only to person. Her temperature is 38.3\u00b0C (100.9\u00b0F). Examination shows dry mucous membranes. Urine studies show:\npH 8.3\nWBC 40/hpf\nBacteria moderate\nNitrites positive\nThe urine has an ammonia odor. Which of the following is most likely to be present on this patient's urine culture?\"",
+    "answer": "Gram-negative, oxidase-negative rods",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Gram-negative, oxidase-positive rods",
+        "Gram-positive, novobiocin-resistant cocci",
+        "Gram-positive, gamma-hemolytic cocci",
+        "Gram-negative, oxidase-negative rods"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_1249",
+    "question": "A 55-year-old man presents to the emergency department with chest pain that started 1 hour ago and has not been improving. He has a past medical history of diabetes, hypertension, and obesity. His temperature is 98.5\u00b0F (36.9\u00b0C), blood pressure is 147/68 mmHg, pulse is 130/min, respirations are 13/min, and oxygen saturation is 100% on room air. Physical exam is notable for jugular venous distension and bilateral lower extremity pitting edema. The patient is given nitroglycerin, and his chest pain improves. Which of the following is the best explanation for this patient\u2019s improvement in symptoms?",
+    "answer": "Preload reduction",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Coronary artery vasodilation",
+        "Decreased adrenergic tone",
+        "Mu receptor agonism",
+        "Preload reduction"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_9278754",
+    "question": "Are head and neck specific quality of life measures necessary?",
+    "answer": "Head and neck-specific QOL measures are necessary and should include domains that reflect ES, SC, and AP.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "9278754",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_71",
+    "question": "A 12-year-old boy is brought to the emergency department by ambulance after he was struck by a car while crossing the road. He is found to have a femur fracture and multiple bruises on presentation, but he is alert and hemodynamically stable. He says that the car \"came out of nowhere\" and that he has had multiple similar near misses in recent months. He has no past medical history but says that he has been having headaches that he describes as dull and continuous. He has also noticed that he has been waking up at night several times to go to the restroom. Otherwise, he has been healthy with no major concerns. A basic metabolic panel shows mild hypernatremia. The most likely pathology underlying this patient's symptoms is derived from which of the following embryonic layers?",
+    "answer": "Surface ectoderm",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Mesoderm",
+        "Neural crest",
+        "Neuroectoderm",
+        "Surface ectoderm"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_8199520",
+    "question": "Are physicians meeting the needs of family caregivers of the frail elderly?",
+    "answer": "no",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "8199520",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_20602784",
+    "question": "Identification of racial disparities in breast cancer mortality: does scale matter?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "20602784",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_282",
+    "question": "A 35-year-old woman comes to employee health services 30 minutes after a work-related incident. She works as a phlebotomist and reports that blood splashed into her right eye when she was drawing blood from a 30-year-old male patient. Immediately following the incident, she flushed her eye with water for several minutes. The patient from whom she drew blood was admitted for hemoptysis, weight loss, and night sweats. He is an intravenous drug user and is sexually active with several male and female partners. The phlebotomist has no history of serious illness and takes no medications. Her immunizations are up-to-date. Physical examination shows no abnormalities. In addition to drawing her blood for viral serologies, which of the following is the most appropriate next step?",
+    "answer": "Start raltegravir, tenofovir, and emtricitabine",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Start raltegravir, tenofovir, and emtricitabine",
+        "Start zidovudine",
+        "Start tenofovir and emtricitabine",
+        "Administer hepatitis B immune globulin and vaccine"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_23831910",
+    "question": "Double balloon enteroscopy: is it efficacious and safe in a community setting?",
+    "answer": "DBE appears to be equally safe and effective when performed in the community setting as compared to a tertiary referral center with a comparable yield, efficacy, and complication rate.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "23831910",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_17032327",
+    "question": "Do supervised colorectal trainees differ from consultants in terms of quality of TME surgery?",
+    "answer": "no",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "17032327",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_9100537",
+    "question": "Can nonproliferative breast disease and proliferative breast disease without atypia be distinguished by fine-needle aspiration cytology?",
+    "answer": "no",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "9100537",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_93",
+    "question": "A 62-year-old man presents to his primary care provider complaining of abdominal pain. He reports a 6-month history of gradually progressive epigastric pain and 10 pounds of unexpected weight loss. He has also noticed that his skin feels itchier than usual. His past medical history is notable for gout, hypertension, and diabetes mellitus. He takes allopurinol, enalapril, and glyburide. He has a 10-pack-year smoking history and a distant history of cocaine abuse. His temperature is 100.1\u00b0F (37.8\u00b0C), blood pressure is 135/85 mmHg, pulse is 100/min, and respirations are 20/min. On exam, he has notable hepatomegaly and a palpable gallbladder. A right upper quadrant ultrasound reveals an irregular extrahepatic mass originating from the gallbladder wall. Which of the following serum markers is most likely elevated in this patient?",
+    "answer": "CA 19-9",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Bombesin",
+        "CA-125",
+        "CA 19-9",
+        "S-100"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_901",
+    "question": "A 5-month-old male infant is brought to the physician by his parents for the evaluation of a progressive enlargement of his head circumference. His parents report that he has been healthy except for an episode of tonsillitis 3 months ago treated with penicillin. The patient was born at term by a lower segment transverse cesarean section because of a transverse lie. He has met all developmental milestones. His immunizations are up-to-date. The patient is at the 50th percentile for length, 50th percentile for weight, and 95th percentile for head circumference. He appears well-nourished. His temperature is 37\u00b0C (98.6\u00b0F), pulse is 120/min, and blood pressure is 90/60 mm Hg. Physical examination shows a tense anterior fontanelle. The eyes deviate inferiorly and the eyelids are retracted. Which of the following is the most appropriate next step in the management of this patient?",
+    "answer": "Ultrasound of the head",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Serial lumbar punctures",
+        "CT scan of the head",
+        "Place a CSF shunt",
+        "Ultrasound of the head"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_271",
+    "question": "A 12-year-old boy is brought to his pediatrician in order to be medically cleared for playing baseball. On presentation, the boy\u2019s only complaint is that he has never been able to completely keep up with his classmates during gym or on the playground because he feels fatigued and short of breath. A review of his prior medical history reveals that he hit all his developmental milestones as expected and has otherwise been healthy. He lives with his parents and eats a diet consisting of mostly fast food and soda. Physical exam reveals a thin, pale boy with decreased color under his eyelids. A panel of hematologic tests are obtained with the following results:\n\nHemoglobin: 11 g/dL\nLeukocyte count: 4,250/mm^3\nPlatelet count: 185,000/mm^3\nMean corpuscular volume: 116 \u00b5m^3\nBlood smear: neutrophils with extra lobes\n\nCrystals are also found within this patient's urine. Which of the following treatments would be effective for this patient\u2019s most likely condition?",
+    "answer": "Administration of uridine",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Administration of uridine",
+        "Administration of purine",
+        "Cobalamin supplementation",
+        "Folate supplementation"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_26063028",
+    "question": "Esophagogastric devascularization without splenectomy in portal hypertension: safe and effective?",
+    "answer": "EDWS is a safe and effective treatment for esophagogastric varices secondary to portal hypertension in selected patients. Patients treated with EDWS had a lower complication rate of portal venous system thrombosis compared with those treated with conventional MED.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "26063028",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_114",
+    "question": "A 13-month-old male needs to have surgery for an undescended testicle. The child lives with his 16-year-old mother only. His 19-year-old father is not involved. From whom should the surgeon get consent for the procedure?",
+    "answer": "The mother",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "The mother",
+        "The father",
+        "A grandparent",
+        "The hospital's medical ethics committee"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_17462393",
+    "question": "Does normothermic normokalemic simultaneous antegrade/retrograde perfusion improve myocardial oxygenation and energy metabolism for hypertrophied hearts?",
+    "answer": "Normothermic normokalemic simultaneous antegrade/retrograde perfusion did not improve, but slightly impaired myocardial oxygenation and energy metabolism of beating hypertrophied hearts relative to NNAP. Therefore, NNSP for protection of beating hypertrophied hearts during valve surgery should be used with extra caution.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "17462393",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_38",
+    "question": "A 46-year-old woman presents to the emergency department with progressive dyspnea and chest pain. She reports that her symptoms started 1 week ago and have gotten progressively worse. The chest pain is left-sided and is exacerbated by coughing or deep breaths. She also endorses a 6-month history of joint pains involving her knees, elbows, and digits. She does not have a significant medical or surgical history. She takes ibuprofen as needed. She works as a pre-school teacher. The patient\u2019s temperature is 99\u00b0F (37.2\u00b0C), blood pressure is 120/78 mmHg, pulse is 89/min, and respirations are 17/min with an oxygen saturation of 93% on room air. On physical examination, a friction rub upon inspiration/expiration and crackles are appreciated at the base of the left lung. She has an erythematous rash that spans the bilateral cheeks and nose. There are also scattered ecchymoses on her arms and legs. A chest radiograph shows a small left-sided pleural effusion. A complete blood count is obtained, as shown below:\n\nHemoglobin: 9 g/dL\nHematocrit: 28%\nLeukocyte count: 1,500/mm^3 with normal differential\nPlatelet count: 80,000/mm^3\n\nA urinalysis shows elevated protein levels. Serologic antibodies are pending. Which of the following is the primary cause of the patient\u2019s lab results?",
+    "answer": "Immune-mediated destruction",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Hematologic malignancy",
+        "Immune-mediated destruction",
+        "Mechanical shearing",
+        "Viral infection"
+      ],
+      "answer_idx": "B",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_22023714",
+    "question": "Does delivery mode affect women's postpartum quality of life in rural China?",
+    "answer": "no",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "22023714",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_21889895",
+    "question": "Will CT ordering practices change if we educate residents about the potential effects of radiation exposure?",
+    "answer": "no",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "21889895",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_23025584",
+    "question": "Does stress increase imitation of drinking behavior?",
+    "answer": "no",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "23025584",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_443",
+    "question": "A 27-year-old female presents to the emergency department with complaints of acute-onset fatigue, blurred vision, and rash earlier today. Her husband rushed her to emergency department when he noted that she was exhibiting changes in her mental status and had trouble speaking. Her vital signs are as follows: T 38.4, HR 87, BP 110/85, RR 14, and SpO2 96%. Physical examination reveals petechiae, pallor, and left upper extremity weakness. Work-up reveals Hgb 8.5 g/dL, platelets 22,000 cells/uL, normal PT/INR and PTT, absent fibrin split products, elevated fibrinogen, a negative Coombs test, 3.7 mg/dL creatinine, 3.8 mg/dL indirect bilirubin, and LDH 1000 IU/L. Which of the following would be expected on a peripheral blood smear from this patient?",
+    "answer": "Schistocytes",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Spherocytes",
+        "Atypical lymphocytes",
+        "Schistocytes",
+        "Rouleaux formation"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_19351635",
+    "question": "Do older patients receive adequate stroke care?",
+    "answer": "maybe",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "19351635",
+      "label": "maybe",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_15208005",
+    "question": "The Omega-3 Index: a new risk factor for death from coronary heart disease?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "15208005",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_968",
+    "question": "A 55-year-old man presents to his primary care provider complaining of blood clots in his urine. On further questioning, he also reports suprapubic discomfort and a feeling of bladder fullness with difficulty voiding. The patient reports recently starting treatment for a newly diagnosed non-Hodgkin lymphoma. Vital signs are within normal limits. Physical exam reveals pain on palpation of the suprapubic region. What is the mechanism of action of the drug most likely responsible for the patient\u2019s complaints?",
+    "answer": "Alkylating agent",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Alkylating agent",
+        "Intercalating agent",
+        "Reverse transcriptase inhibitor",
+        "Microtubule inhibitor"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_434",
+    "question": "A 63-year-old man comes to the physician for the evaluation of difficulty walking for the last 6 months. He reports weakness in his lower legs that improves with exercise and throughout the day. Three months ago, he started adding flax seeds to his breakfast because he is frequently constipated. He has hypertension and type 2 diabetes mellitus. He has smoked 2 packs of cigarettes daily for the last 45 years. His current medications include enalapril and metformin. Vital signs are within normal limits. Examination shows dry mucous membranes. Muscle strength in the lower extremities is decreased. Sensation to pinprick and light touch is normal. Deep tendon reflexes are 1+ bilaterally. Active muscle contraction or repeated muscle tapping increases reflex activity. Which of the following is most likely to confirm the diagnosis?",
+    "answer": "Autoantibodies against voltage-gated calcium channels",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Demyelinating plaques on a brain MRI",
+        "Autoantibodies against voltage-gated calcium channels",
+        "Decremental response following repetitive nerve stimulation",
+        "Fasciculations and positive sharp waves on EMG"
+      ],
+      "answer_idx": "B",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_63",
+    "question": "A 4-year-old boy who recently emigrated from Ghana is brought to the physician because of a 5-day history of pain and swelling in his hands. He has had similar episodes in the past. The patient appears distressed. His temperature is 38.1\u00b0C (100.5\u00b0F). Physical examination shows pallor. The dorsum of his hands and fingers are swollen, warm, and tender to palpation. Which of the following additional findings is most likely in this patient?",
+    "answer": "Microhematuria",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Coronary artery aneurysm",
+        "Hyperuricemia",
+        "Thickened heart valves",
+        "Microhematuria"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_214",
+    "question": "A 32-year-old man from the Czech Republic is brought to the emergency department by his girlfriend with a 2-day history of yellowing of the skin. His girlfriend also reports a several-week history of anorexia, nausea without vomiting, and diffuse low-grade abdominal pain. He is a frequent injection drug user. His temperature is 38.1\u00b0C (100.6\u00b0F). He is grossly confused and somnolent. Physical examination is notable for scleral icterus and diffuse jaundice; when asked to hold his hands in wrist extension, a flapping movement is observed. Liver function tests show alanine aminotransferase 1,830 U/L, aspartate aminotransferase 1,377 U/L, and direct bilirubin 15 mg/dL. Coagulation studies reveal an international normalized ratio of 3.8. On serological testing, HBsAg is positive, and HBsAb is negative. Which of the following laboratory tests should be performed in this patient prior to initiating treatment?",
+    "answer": "Hepatitis D serologies",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Hepatitis D serologies",
+        "HIV ELISA",
+        "PPD skin test",
+        "Lumbar puncture"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_154",
+    "question": "A 6-year-old boy is brought to his pediatrician due to increased shortness of breath. His mother is particularly disturbed because her son wakes up breathless one or 2 nights every week. He was diagnosed with asthma 2 years ago. Over the past few months, he has not been able to participate in any sport and is also using his inhaler more than 3 times a week. On examination, the patient appears to be in slight distress and seems pale and fatigued. There are slight expiratory wheezes and crackles in both lungs. The pediatrician starts him on a low dose of another inhaler which needs to be taken once daily. She asks his mother to avoid any conditions that might aggravate her son\u2019s symptoms and make it difficult for him to breathe. Three months later, the mother is back with her son at the same pediatrician\u2019s office. She is concerned about a painless white plaque on his tongue. When the physician scrapes the lesion it reveals a red base with minimal bleeding. A photograph of the lesion is shown. Which of the following was most likely prescribed during the previous visit?",
+    "answer": "Inhaled beclomethasone",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Inhaled beclomethasone",
+        "Inhaled ipratropium bromide",
+        "Nebulized theophylline",
+        "Inhaled salmeterol"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_18388848",
+    "question": "Does having a regular primary care clinician improve quality of preventive care for young children?",
+    "answer": "Having a regular primary care clinician is embraced in pediatrics, although team care among physicians is also widely practiced. For young children, having a regular clinician is associated with modest gains in interpersonal quality and no differences in content of anticipatory guidance. The benefit of having a regular clinician may primarily occur in interpersonal quality for subgroups of young children.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "18388848",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_22453060",
+    "question": "Does a 4 diagram manual enable laypersons to operate the Laryngeal Mask Supreme\u00ae?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "22453060",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_836",
+    "question": "A 55-year-old man presents to his primary care physician for back pain. The patient states that his back pain is worse in the morning and improves with certain activities. He does not experience pain when cycling but notices the pain when standing or walking. 2 months prior to presentation he was lifting heavy boxes and furniture into his daughter's new home. He is requesting pain medication and a doctor's note to take off work for the week as his symptoms are disrupting his life. Which of the following is most likely to be seen in this patient?",
+    "answer": "Narrowing of the lumbar spinal canal on MRI",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Bamboo appearance of the spine on radiography",
+        "Muscular tenderness with perispinal palpation",
+        "Multiple doctors visits for other unrelated problems",
+        "Narrowing of the lumbar spinal canal on MRI"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_615",
+    "question": "A 67-year-old man with a past medical history of obesity and diabetes presents to the emergency department with fatigue. The patient has become more confused over the past several days and has been urinating profusely. His temperature is 99.0\u00b0F (37.2\u00b0C), blood pressure is 120/68 mmHg, pulse is 160/min, respirations are 19/min, and oxygen saturation is 98% on room air. Physical exam is notable for a confused man with dry mucous membranes. He is unable to answer simple questions and is moving all extremities spontaneously. Which of the following is also likely to be found in this patient?",
+    "answer": "Blurred vision",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Blurred vision",
+        "Meningeal symptoms",
+        "Seizures",
+        "Tremulousness"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_140",
+    "question": "A 6-week-old boy is brought to see his pediatrician. His mother says that he has not been feeding well and forcefully vomited after every feed over the past 4 days. The infant was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. However, a week after delivery he developed a respiratory infection involving an aggressive cough followed by a high-pitched intake of breath. Respiratory cultures were positive for a gram-negative coccobacilli for which he received erythromycin. Since then he has remained healthy until now. On examination, the infant\u2019s vitals are normal but he appears lethargic and mildly dehydrated with depressed fontanelles and decreased skin turgor. A firm non-tender mass is palpated in the epigastric region. Which of the following is most likely a cause of this baby\u2019s symptoms?",
+    "answer": "Antibiotic use",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Deficiency of nitric oxide synthase",
+        "Antibiotic use",
+        "Inadequate myenteric plexus innervation",
+        "Telescoping of the proximal bowel into a distal segment"
+      ],
+      "answer_idx": "B",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_15222284",
+    "question": "The effective orifice area/patient aortic annulus area ratio: a better way to compare different bioprostheses?",
+    "answer": "Comparisons of absolute EOA values grouped by the manufacturers' valve sizes are misleading because of specific differences in geometric dimensions. The EOA:patient aortic annulus area ratio provides a new hemodynamic index which may facilitate objective comparisons between different valve types.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "15222284",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_17224424",
+    "question": "Effects of exercise training on heart rate and QT interval in healthy young individuals: are there gender differences?",
+    "answer": "The results of this study suggest that the cardiovascular response to exercise training may be different in men and women. Women may benefit more from interventions aimed to increase physical activity as a tool for prevention of cardiovascular morbidity and mortality.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "17224424",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_1221",
+    "question": "A 6-month-old infant is brought to a pediatrician for his scheduled immunizations. The parents deny any specific current complaints, but his facial features differ from those of other children in the family. During the physical examination, the pediatrician notes that the infant\u2019s vital signs are stable. His facial features include a medial epicanthic fold, a face that appears flat, and a flat occiput with low-set ears. The pediatrician also notes a single transverse palmar crease on both hands. An echocardiogram is performed which suggests that the infant has a congenital heart disease which is the most common form of congenital heart disease seen in children with this particular genetic disorder. Which of the following congenital heart diseases does this infant most likely present with?",
+    "answer": "Atrioventricular septal defect",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Supravalvar aortic stenosis",
+        "Tetralogy of Fallot",
+        "Atrial septal defect",
+        "Atrioventricular septal defect"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_21823940",
+    "question": "Department of Transportation vs self-reported data on motor vehicle collisions and driving convictions for stroke survivors: do they agree?",
+    "answer": "no",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "21823940",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_22302761",
+    "question": "Can fractional lasers enhance transdermal absorption of topical lidocaine in an in vivo animal model?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "22302761",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_110",
+    "question": "A 42-year-old woman presents to her primary care physician for fatigue and blurry vision. She is a refugee from Syria who arrived in the United States 1 week ago. She has lived for the last 8 months in a refugee camp. She worked at a grocery store in Syria before being displaced from her home. She has one son who is 9 years old and was seen by a pediatrician the day prior. She reports that while she was in the refugee camp, she ate very little and gave most of her food to her son to ensure that he stayed healthy. She denies any past medical history and takes no medications. She does not smoke or drink alcohol. Her temperature is 97.8\u00b0F (36.6\u00b0C), blood pressure is 108/68 mmHg, pulse is 102/min, and respirations are 18/min. On exam, she appears fatigued but is fully cooperative with the examination. There are fissures at the corners of her mouth. A funduscopic examination reveals corneal vascularization in both eyes. Her tongue is darkly erythematous. This patient is most likely deficient in a vitamin that has which of the following functions?",
+    "answer": "Precursor to FAD and FMN",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Cofactor for homocysteine methyltransferase",
+        "Cofactor for pyruvate dehydrogenase enzyme",
+        "Precursor to FAD and FMN",
+        "Constituent of NAD+ and NADP+"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_843",
+    "question": "A 53-year-old woman is brought to the emergency department for a 2-hour history of balance problems. She was gardening when she suddenly felt very dizzy and she quickly called for her husband. When he arrived, she was sitting on the ground, swaying back and forth but overall leaning to the right. When she tried to stand up they found she was very unsteady and unbalanced, so her husband carried her to the car. In the emergency department, while lying in bed, she complains of a room-spinning sensation; when she sits up, she sways to the right. She is unable to walk more than 3 steps without falling. Finger-nose-finger and heel-knee-shin testing are abnormal. She has a past medical history of hypertension, polycystic ovarian syndrome, and type 2 diabetes mellitus. All of her vital signs are all within normal limits. Angiography would most likely show a dissection in which of the following vessels?",
+    "answer": "Vertebral artery",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Anterior cerebral artery",
+        "Middle cerebral artery",
+        "Vertebral artery",
+        "Anterior spinal artery"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_319",
+    "question": "A 55-year-old obese man presents to the emergency department with abdominal pain. His pain started 2 days ago and has been worsening steadily. His only current medication is allopurinol. His temperature is 101.0\u00b0F (38.3\u00b0C), blood pressure is 157/98 mmHg, pulse is 120/min, respirations are 17/min, and oxygen saturation is 98% on room air. Physical exam is notable for left lower quadrant abdominal tenderness and rectal exam is unremarkable. A CT scan is performed demonstrating inflamed outpouchings of the colonic mucosa with a 4-cm abscess. Which of the following is appropriate treatment of this patient?",
+    "answer": "CT-guided percutaneous drainage",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Ciprofloxacin and gentamicin",
+        "CT-guided percutaneous drainage",
+        "Laparoscopy and drainage",
+        "Piperacillin-tazobactam and vancomycin"
+      ],
+      "answer_idx": "B",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_22540518",
+    "question": "Is micro-computed tomography reliable to determine the microstructure of the maxillary alveolar bone?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "22540518",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_693",
+    "question": "A 38-year-old female visits your office complaining of several years of joint swelling and stiffness that is worse in the morning and improves throughout the day. Physical examination reveals bilateral deformities at her proximal interphalangeal and metacarpophalangeal joints. The presence of which of the following in this patient\u2019s serum would most help 'rule in' a diagnosis of rheumatoid arthritis:",
+    "answer": "Anti-citrullinated protein antibody",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Anti-nuclear antibody",
+        "Anti-citrullinated protein antibody",
+        "Anti-centromere antibody",
+        "Anti-smooth muscle antibody"
+      ],
+      "answer_idx": "B",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_19444061",
+    "question": "Does ossification of the posterior longitudinal ligament affect the neurological outcome after traumatic cervical cord injury?",
+    "answer": "No evidence was found for OPLL to have any effect on the initial neurologic status or recovery in motor function after traumatic cervical cord injury, suggesting that the neurologic outcome is not significantly dependent on canal space.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "19444061",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_12595848",
+    "question": "Is specialty care associated with improved survival of patients with congestive heart failure?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "12595848",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_14599616",
+    "question": "Can a practicing surgeon detect early lymphedema reliably?",
+    "answer": "maybe",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "14599616",
+      "label": "maybe",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_586",
+    "question": "A 42-year-old man is brought to the emergency department by EMS from the scene of an automobile accident, where he appeared to be an unrestrained passenger. The patient is confused and unable to answer questions. His temperature is 98.6\u00b0F (37\u00b0C), pulse is 120/min, blood pressure is 75/44 mmHg, and respiratory rate is 22/min. On physical exam, there is bruising over his sternum and left chest, with tenderness to palpation. Cardiac auscultation reveals normal heart sounds with no murmurs, rubs, or gallops. He has marked jugular venous distention and bibasilar crackles on pulmonary auscultation with equal air entry bilaterally. Abdominal and cranial nerve exams are within normal limits. His extremities are cool with prolonged capillary refill, and he is diaphoretic. The patient is admitted to the intensive care unit and hemodynamic monitoring is established, which reveals a pulmonary capillary wedge pressure (PCWP) of 22 mmHg (normal range 8-12 mmHg), central venous pressure (CVP) of 12 cmH2O (normal range 4-12 cmH2O), cardiac output (CO) of 2.2 L/min (normal range 4-8 L/min), and systemic vascular resistance (SVR) of 1800 dynes/seconds/cm^-5 (normal range 700\u20131600 dynes/seconds/cm^-5). Which of the following types of shock best describes this patient's condition?",
+    "answer": "Cardiogenic",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Cardiogenic",
+        "Anaphylactic",
+        "Neurogenic",
+        "Obstructive"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_428",
+    "question": "A 1-year-old girl is brought to the physician because of fever and crying while passing urine for 2 days. She was born at term and has been healthy since. Three months ago, she was treated for a urinary tract infection with oral cefixime. Her temperature is 39\u00b0C (102.2\u00b0F), pulse is 144/min, and blood pressure is 85/40 mm Hg. Physical examination shows no abnormalities. Her leukocyte count is 14,000/mm3. Urine dipstick shows leukocyte esterase and nitrites; urinalysis shows WBCs and gram-negative rods. Urine culture results are pending. Renal ultrasonography shows hydronephrosis of the left kidney. Empirical antimicrobial therapy is initiated, following which the patient's symptoms improve. Which of the following is the most appropriate next step in diagnosis?",
+    "answer": "Voiding cystourethrography",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Intravenous pyelography",
+        "Dynamic renal scintigraphy",
+        "Urodynamic testing",
+        "Voiding cystourethrography"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_743",
+    "question": "A 27-year-old woman presents with loss of consciousness at work. The patient\u2019s colleagues say that she had been complaining of a headache all day. Her past medical history is significant for diabetes mellitus type 1. Her blood pressure is 70/60 mm Hg, pulse is 105/min, temperature is 37.2\u00b0C (99.0\u00b0F), and her respiratory rate is 28/min and shallow. On physical examination, there is a black eschar formation on her nose and her breath has a fruity odor. Laboratory findings are significant for serum glucose of 750 mg/dL, potassium of 3.3 mmol/L, and blood pH of 7.1. Which of the following diabetic complications is most likely the cause of this patient\u2019s presenting symptoms?",
+    "answer": "Diabetic ketoacidosis",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Diabetic ketoacidosis",
+        "Hyperosmolar coma",
+        "Lactic acidosis",
+        "Hypoglycemic coma"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_18307476",
+    "question": "Upstream solutions: does the supplemental security income program reduce disability in the elderly?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "18307476",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_15223725",
+    "question": "Does blood pressure change in treated hypertensive patients depending on whether it is measured by a physician or a nurse?",
+    "answer": "Systolic BP measured by the nurse in treated hypertensive patients is significantly lower than the readings obtained by the physician, and are almost identical to ambulatory BP monitoring. Blood pressure determination by the nurse is desirable not only for diagnosis but also to evaluate the level of control of blood pressure during the follow-up of treated hypertensive patients.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "15223725",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_25571931",
+    "question": "Do elderly patients call 911 when presented with clinical scenarios suggestive of acute stroke?",
+    "answer": "maybe",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "25571931",
+      "label": "maybe",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_27394685",
+    "question": "Bony defects in chronic anterior posttraumatic dislocation of the shoulder: Is there a correlation between humeral and glenoidal lesions?",
+    "answer": "no",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "27394685",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_18179827",
+    "question": "Does topical ropivacaine reduce the post-tonsillectomy morbidity in pediatric patients?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "18179827",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_21864397",
+    "question": "Factors determining the survival of nasopharyngeal carcinoma with lung metastasis alone: does combined modality treatment benefit?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "21864397",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_481",
+    "question": "A 29-year-old pregnant woman is brought to the emergency department complaining of the sudden onset of severe, sharp pelvic pain. She is at 6 weeks\u2019 gestation. The patient is bleeding heavily from the vagina and feels very dizzy. Substantial pain is noted in the lower right quadrant, which intensified towards the end of the physical exam. On examination, there is evidence of abdominal and cervical motion tenderness. Her blood pressure is 71/37 mm Hg, respiratory rate is 21/min, pulse is 117/min, and temperature is 38.4\u00b0C (101.1\u00b0F). Which of the following is the most appropriate definitive step in the management of this patient?",
+    "answer": "Surgery",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Surgery",
+        "Methotrexate",
+        "Transvaginal ultrasound",
+        "Serial hCG"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_1054",
+    "question": "A 17-year-old girl is brought in a wheelchair because of gradually progressive difficulty in walking, incoordination, and frequent falls. Her symptoms started at 9 years old with clumsiness while walking. She later experienced difficulties with coordination, which later involved her arms and trunk. She was born at term with normal developmental milestones. The physical examination reveals severely ataxic gait, nystagmus, absent deep tendon reflexes, and loss of vibration and proprioception. Presuming it is an inherited condition, what is the most likely genetic pathophysiology of this disorder?",
+    "answer": "GAA trinucleotide repeats",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "GAA trinucleotide repeats",
+        "Mitochondrial DNA mutation",
+        "NOTCH3 mutation",
+        "PMP22 gene duplication"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_531",
+    "question": "A 42-year-old female presents to the emergency department with two days of severe abdominal pain and fever. The patient has a history of gallstones, for which she was scheduled to have a cholecystectomy in two weeks. On physical exam, her abdomen is tender to palpation over the epigastrium, without rebound or guarding. The patient is noticeably jaundiced. Laboratory evaluation is notable for a leukocytosis and a total bilirubin of 6.4 mg/dL. What is the diagnosis in this patient?",
+    "answer": "Acute cholangitis",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Acute pancreatitis",
+        "Chronic pancreatitis",
+        "Acute cholangitis",
+        "Primary sclerosing cholangitis"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_632",
+    "question": "A 37-year-old male with a history of diabetes is prescribed a drug that would decrease the risk of the patient developing glomerular renal capillary damage, nodular glomerular sclerosis, and eventual nephrotic syndrome. After some time being on this medication, the patient complains of a bad cough. Which of the following physiologic changes is most likely expected after being prescribed that medication?",
+    "answer": "Decreased aldosterone, decreased GFR, increased renal plasma flow, increased bradykinin",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Decreased aldosterone, decreased GFR, decreased renal plasma flow, increased bradykinin",
+        "Increased aldosterone, increased GFR, decreased renal plasma flow, increased bradykinin",
+        "Decreased aldosterone, decreased GFR, increased renal plasma flow, increased bradykinin",
+        "Increased aldosterone, increased GFR, increased renal plasma flow, increased bradykinin"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_74",
+    "question": "While studying the metabolism of a novel drug, the researcher identifies a molecule that inhibits its metabolism by binding with enzyme E. Molecule A inhibits the enzyme E by reversibly binding at the same active site on the enzyme where the drug binds. Which of the following statements best describes the effects of molecule A on Vmax and Km on the metabolic reactions of the novel drug?",
+    "answer": "Value of Vmax is unchanged but value of Km is increased",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Value of Vmax is unchanged but value of Km is increased",
+        "Value of Vmax is decreased but value of Km is unchanged",
+        "Values of both Vmax and Km are unchanged",
+        "Value of Vmax is unchanged but value of Km is decreased"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_9745063",
+    "question": "Is laparoscopic sonography a reliable and sensitive procedure for staging colorectal cancer?",
+    "answer": "The results obtained in this study demonstrate that LUS is an accurate and highly sensitive procedure in staging colorectal cancer, providing a useful and reliable diagnostic tool complementary to laparoscopy.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "9745063",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_26686513",
+    "question": "Cycloplegic autorefraction in young adults: is it mandatory?",
+    "answer": "Young hypermetropic adults possessed +1 to +2\u00a0D of latent hypermetropia. In contrast, young myopic adults revealed pseudomyopia of -0.5\u00a0D. Cycloplegic refraction should be performed in young hypermetropic adults complaining of various signs of asthenopia.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "26686513",
+      "label": "maybe",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_22211919",
+    "question": "Actinobaculum schaalii, a cause of urinary tract infections in children?",
+    "answer": "Actinobaculum schaalii is CO(2)-dependent. Therefore, if there are clinical symptoms and/or a negative culture despite the presence of leucocytes in the urine, Gram staining and incubation in 5% CO(2) or species-specific real-time PCR should be performed to identify A. schaalii.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "22211919",
+      "label": "maybe",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_23240452",
+    "question": "Can we predict urinary stone composition based on an analysis of microelement concentration in the hair and urine?",
+    "answer": "The data obtained did not allow for the creation of a proper and practical algorithm to predict stone chemical composition based on hair and urine analysis.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "23240452",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_24516646",
+    "question": "Is the determination of specific IgE against components using ISAC 112 a reproducible technique?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "24516646",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_21881325",
+    "question": "Do preoperative statins reduce atrial fibrillation after coronary artery bypass grafting?",
+    "answer": "Our study indicated that preoperative statin therapy seems to reduce AF development after CABG.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "21881325",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_342",
+    "question": "A 65-year-old asian man presents to his primary care physician because of abdominal distension, right upper quadrant (RUQ) abdominal pain, decreased appetite, and weight loss for several weeks. He denies smoking or excess alcohol intake. His temperature is 37.1\u00b0C (98.7\u00b0F), blood pressure is 120/80 mm Hg, and pulse is 85/min. Physical examination reveals a cachectic man with jaundice, palmar erythema, ascites, and a palpable mass in the RUQ. Abdominal ultrasound shows a 3 cm hypoechoic mass in the right lobe of the liver. Alpha fetoprotein (AFP) is 500 \u03bcg/L. Which of the following is a risk factor for this patient condition?",
+    "answer": "Chronic hepatitis C infection",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Exposure to nitrosamines  ",
+        "Cyclophosphamide use",
+        "Clonorchis sinensis infection",
+        "Chronic hepatitis C infection"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_1025",
+    "question": "A 15-month-old boy is brought to his pediatrician by his mother with a swollen and painful right elbow. She reports that he stumbled and fell on the carpeted floor of their living room, hitting his right elbow on the ground. The mother reports that he did not appear to be in a great deal of pain after the fall, and that she noted the swelling of the joint a few hours after the fall. He recently started walking approximately 2 weeks ago. He does not have any known medical issues, and he is not currently on medication. The mother's pregnancy was without complications and the boy was delivered vaginally without complications at 40 weeks. Aspiration of the right elbow joint reveals frank blood. Which of the following should be included in the work-up of this patient?",
+    "answer": "Prothrombin time/partial thromboplastin time",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Peripheral blood smear",
+        "Creatinine level and percutaneous kidney biopsy",
+        "Prothrombin time/partial thromboplastin time",
+        "24 hour urine collection for porphyrin levels"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_1035",
+    "question": "A 7-year-old girl presents to the emergency department with a bloody nose that spontaneously started bleeding 20 minutes ago. On physical examination, she appears well and has no lymphadenopathy. Her heart has a regular rate and rhythm, her lungs are clear to auscultation bilaterally, and her abdomen is soft without hepatosplenomegaly, but she does have petechiae over her lower extremities. A complete blood count is obtained and reveals a leukocyte count of 11,300 cells/mcL, hemoglobin 12.1 g/dL, hematocrit 36%, and platelets 15,000/mcL. A peripheral smear shows a few morphologically normal platelets. Her mother reports that she had a viral infection 2 weeks ago but has been otherwise healthy. Which of the following is the next best step?",
+    "answer": "Start intravenous immunoglobulin",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Start intravenous immunoglobulin",
+        "Perform a splenectomy",
+        "Perform a bone marrow aspiration",
+        "Observation"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_907",
+    "question": "A 23-year-old woman presents to the emergency department for vomiting and abdominal pain. The patient states that she has been unable to eat or drink for the past 24 hours without vomiting. She also complains of worsening abdominal pain that started 3 days ago. The patient has a past medical history of IV drug abuse and alcohol abuse. She is not on any current medications. Her temperature is 99.5\u00b0F (37.5\u00b0C), blood pressure is 127/68 mmHg, pulse is 120/min, respirations are 17/min, and oxygen saturation is 98% on room air. On physical exam, tenderness is elicited when the right lower quadrant of her abdomen is palpated. Deep palpation and release of the left lower quadrant of her abdomen also causes severe pain. Rectal exam reveals normal tone and stool is Guiac negative. Laboratory studies are ordered as seen below.\n\nHemoglobin: 12 g/dL\nHematocrit: 36%\nLeukocyte count: 11,500/mm^3 with normal differential\nPlatelet count: 197,000/mm^3\n\nSerum:\nNa+: 139 mEq/L\nCl-: 100 mEq/L\nK+: 4.3 mEq/L\nHCO3-: 27 mEq/L\nBUN: 20 mg/dL\nGlucose: 67 mg/dL\nCreatinine: 1.1 mg/dL\nCa2+: 10.2 mg/dL\nAST: 12 U/L\nALT: 15 U/L\n\nUrine:\nCocaine: positive\nAmphetamines: positive\n\u00df-hCG: positive\nMarijuana: positive\nHeroin: negative\nPCP: negative\nMDMA: positive\nGlucose: negative\nKetones: negative\n\nWhich of the following is the next best step in management?",
+    "answer": "Ultrasound",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Chest radiograph",
+        "Abdominal CT",
+        "Ultrasound",
+        "Colonoscopy"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_227",
+    "question": "A 49-year-old woman otherwise healthy presents to the outpatient department with swelling of the neck. Family history is negative for any thyroid disorders. Physical examination shows a nontender thyroid gland with a nodule on the right side. The thyroid gland is mobile on deglutition. Cervical lymphadenopathy is present. Fine needle aspiration and cytology show empty appearing nuclei with central clearing, nuclear grooves and branching structures interspersed with calcific bodies. Which of the following is the most likely diagnosis in this patient?",
+    "answer": "Papillary carcinoma",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Follicular carcinoma",
+        "Papillary carcinoma",
+        "Anaplastic carcinoma",
+        "Follicular adenoma"
+      ],
+      "answer_idx": "B",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_729",
+    "question": "An investigator is studying the association between exclusive breastfeeding and body weight in infants. The body weights of 15 exclusively breastfed infants at the age of 6 months are measured. Results are shown:\nPatient Body weight (kg)\n1 7.0\n2 6.0\n3 6.1\n4 6.8\n5 7.2\n6 6.4\n7 6.2\n8 6.8\n9 6.5\n10 7.3\n11 6.3\n12 8.5\n13 6.9\n14 6.6\n15 5.2\nOne of the computed measures of central tendency is 6.8 kg. Which of the following characteristics is generally true about this measurement?\"",
+    "answer": "It is resistant to outliers.",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "It is not applicable for qualitative data analysis.",
+        "It is resistant to outliers.",
+        "Its value only occurs once in a data set.",
+        "It is useful to assess the extent of data variability."
+      ],
+      "answer_idx": "B",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_17062225",
+    "question": "Thoracic and thoracoabdominal aneurysm repair: is reimplantation of spinal cord arteries a waste of time?",
+    "answer": "With monitoring of MEP and SSEP, sacrifice--without reimplantation--of as many as 15 intercostal and lumbar arteries during TAA/A repair is safe, resulting in acceptably low rates of immediate and delayed paraplegia. This experience suggests that routine surgical implantation of segmental vessels is not indicated, and that, with evolving understanding of spinal cord perfusion, endovascular repair of the entire thoracic aorta should ultimately be possible without spinal cord injury.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "17062225",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_18251357",
+    "question": "Does histologic chorioamnionitis correspond to clinical chorioamnionitis?",
+    "answer": "Histologic chorioamnionitis is a reliable indicator of infection whether or not it is clinically apparent.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "18251357",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_563",
+    "question": "A 67-year-old man presents to his physician\u2019s office with a progressive cough. It has been increasing in intensity over the past week. He has also been noticing an increase in the amount of sputum he usually produces, which is thick and yellow. He also complains of increased difficulty in breathing, more so than he previously experienced. He was diagnosed with chronic obstructive lung disease (COPD) about 3 years ago and has been on treatment for it since then. He doesn\u2019t report any fever, chills, or night sweats. He has observed a foul smell to his sputum. His blood pressure is 100/65 mm Hg, the respirations are 23/min and the pulse is about 110/min. Currently, his FEV1 is around 48% of the normal predicted value. He is currently receiving a yearly influenza shot and has taken the pneumococcal vaccination at the time of his diagnosis. In spite of this, he has had acute exacerbations of his symptoms 4 times over the last year. His last episode was 2 months ago, for which he was treated with a short course of antibiotics. He is also currently receiving treatment for diabetes. Which of the following pathogens should be considered before initiating treatment for the current episode?",
+    "answer": "P. aeruginosa",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "S. pneumonia",
+        "H. influenzae",
+        "P. aeruginosa",
+        "Syncytial virus"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_19142546",
+    "question": "Does quantitative left ventricular regional wall motion change after fibrous tissue resection in endomyocardial fibrosis?",
+    "answer": "no",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "19142546",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_11888773",
+    "question": "Stage I non-small cell lung carcinoma: really an early stage?",
+    "answer": "Despite advances in early diagnosis and surgical technique, 5-year survival of stage I non-small cell lung carcinoma remains low as compared to survival of other solid organ neoplasm. Tumour size<or=3cm, adenocarcinoma histologic type and negative bronchial resection margins were associated with a more favourable outcome in our patient population. More effective multimodality treatments are needed to increase survival rates.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "11888773",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_28359277",
+    "question": "Do healthier lifestyles lead to less utilization of healthcare resources?",
+    "answer": "no",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "28359277",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_26518378",
+    "question": "Are Reviewers' Scores Influenced by Citations to Their Own Work?",
+    "answer": "In a leading specialty journal, cited reviewers gave higher scores than noncited reviewers. However, this\u00a0was likely due to their being assigned higher-quality manuscripts and not because they were cited in the manuscript. Reviewer requests that their work be cited were rare.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "26518378",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_11481599",
+    "question": "Acute respiratory distress syndrome in children with malignancy--can we predict outcome?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "11481599",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_269",
+    "question": "A group of epidemiologists is studying the rates of cardiac surgeries performed in several Southeast Asian countries compared to the United States. Results show a significant increase in the number of mitral valve replacements performed in Vietnam in adults aged 30\u201350 years compared to the same age group in the United States. Which of the following public health interventions is most likely to decrease this number?",
+    "answer": "Prompt antibiotic treatment for bacterial pharyngitis",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Prompt antibiotic treatment for bacterial pharyngitis",
+        "Improved access to drug rehabilitation centers",
+        "Genetic screening program for FBN1 gene mutation",
+        "Screening echocardiography for prolapsed anterior mitral valve leaflets"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_171",
+    "question": "A 53-year-old man is brought to the emergency department by his wife after the sudden onset of dizziness, nausea, and left-sided weakness. His blood pressure is 165/95 mm Hg. Neurological examination shows decreased muscle tone and hyperreflexia in the right upper and lower extremities. His gait is unsteady, and he falls to the left when attempting to walk. Finger-to-nose testing shows dysmetria on the left side. A CT scan of the head shows a small lesion in the left lateral pons that involves the nucleus of a cranial nerve that exits the brain at the middle cerebellar peduncle. Which of the following additional findings is most likely in this patient?",
+    "answer": "Difficulty chewing and deviation of the jaw to the left",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Ptosis and inability to look up with the right eye",
+        "Winging of the left scapula and weakness turning the head to the right",
+        "Difficulty chewing and deviation of the jaw to the left",
+        "Inability to smell vanilla or coffee"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_548",
+    "question": "A young researcher wants to develop a method of increasing oxygen delivery to the peripheral tissues. He brainstorms several ideas but is informed by his mentor that only one of his ideas will most likely help him achieve the desired result. Of the following proposed mechanisms, which one would best serve the researcher's purpose?",
+    "answer": "Increase taut form hemoglobin in muscle capillaries",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Decrease lactic acid production by skeletal muscle",
+        "Increase fetal hemoglobin concentration in circulation",
+        "Increase relaxed form hemoglobin in muscle capillaries",
+        "Increase taut form hemoglobin in muscle capillaries"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_813",
+    "question": "A 43-year-old female presents with several years of pain and stiffness in her wrists and hands. Her symptoms have been getting progressively worse. She reports that her hands feel stiff for an hour or more after awaking in the morning. She undergoes subsequent testing, and is found to have anti-citrullinated protein antibodies. Her physician is concerned for rheumatoid arthritis, and discusses treatment with a biologic disease-modifying anti-rheumatic agent.\n\nWhich of the following must be done before beginning treatment with a TNF inhibitor?",
+    "answer": "Test for latent mycobacterial infection",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Confirm diagnosis with a test for rheumatoid factor",
+        "Confirm diagnosis with elevated ESR and CRP",
+        "Test for latent mycobacterial infection",
+        "Obtain a radiograph demonstrating osteophytes"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_18784527",
+    "question": "Can mandibular depiction be improved by changing the thickness of double-oblique computed tomography images?",
+    "answer": "We concluded that depiction of the superior wall of the mandibular canal cannot be improved by changing the thickness of images.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "18784527",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_18565233",
+    "question": "Does the lipid-lowering peroxisome proliferator-activated receptors ligand bezafibrate prevent colon cancer in patients with coronary artery disease?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "18565233",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_22990761",
+    "question": "Cardiovascular risk in a rural adult West African population: is resting heart rate also relevant?",
+    "answer": "Significant associations were observed between RHR and several established cardiovascular risk factors. Prospective studies are needed in sub-Saharan African populations to establish the potential value of RHR in cardiovascular risk assessment.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "22990761",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_22154448",
+    "question": "Epidural analgesia for surgical treatment of peritoneal carcinomatosis: a risky technique?",
+    "answer": "no",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "22154448",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_16510651",
+    "question": "Birth characteristics and risk of low intellectual performance in early adulthood: are the associations confounded by socioeconomic factors in adolescence or familial effects?",
+    "answer": "We found that all of the studied dimensions of restricted fetal growth are independently associated with increased risks of low intellectual performance and that these associations are only partly mediated by socioeconomic or familial factors.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "16510651",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_1200",
+    "question": "A 56-year-old woman presents to the emergency department with acute onset of pain and redness of the skin of her right arm for the past 3 days. She has had type 2 diabetes mellitus for the past 22 years, but she is not compliant with her medications. Her temperature is 38.0\u00b0C (100.4\u00b0F), pulse is 105/min, and blood pressure is 116/74 mm Hg. On physical examination, her forearm is tender and erythematous. She is diagnosed with acute cellulitis, and intravenous clindamycin is started. On the 6th day of antibiotic therapy, the patient complains of severe watery diarrhea, fever, and abdominal tenderness without rigidity. Which of the following is the best initial diagnostic test for her current complaint?",
+    "answer": "Polymerase chain reaction",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Complete blood count with differential",
+        "Sigmoidoscopy or colonoscopy",
+        "Fecal occult blood test",
+        "Polymerase chain reaction"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_195",
+    "question": "A 19-year-old man presents with a 10-day history of progressive lower back pain and leg weakness, followed by severe lower abdominal pain for the past 12-hours. He describes the back pain as moderate in intensity which radiates to both legs. The weakness has progressively increased, and he cannot ambulate without support. He is also complaining of fever but never checks it. He is a captain of the college basketball team and the back pain and lower limb weakness is preventing him from participating in practices or games. Past medical history is significant for schizophrenia and a suicide attempt. His vital signs include: blood pressure 128/84 mm Hg, temperature 38.8\u00b0C (101.8\u00b0F). A mass is palpable in the lower abdomen. Strength is 5 out of 5 in the upper limbs bilaterally and 3 out of 5 in the lower limbs bilaterally. Deep tendon reflexes are 2+ in the upper limbs while they are reduced in the lower limbs. Sensitivity to pinprick is absent from below the umbilicus. 1270 mL of urine is collected after placing a Foley catheter. Which of the following is the next best step in the management of this patient?",
+    "answer": "Spinal magnetic resonance imaging (MRI)",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Nerve conduction studies",
+        "Psychiatric consultation",
+        "Spinal magnetic resonance imaging (MRI)",
+        "Ultrasound of kidneys, ureters, and bladder"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_27554179",
+    "question": "Is routine dissection of the station 9 lymph nodes really necessary for primary lung cancer?",
+    "answer": "The metastasis rate of station 9 lymph nodes was significantly lower than other mediastinal stations in lung cancer patients. The metastasis status of station 9 had no significant influence on tumor staging or prognosis. Routine dissection of station 9 lymph nodes may not be necessary, especially in patients with a low T stage, upper or middle lobe tumors, or without intrapulmonary lymph node metastasis.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "27554179",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_948",
+    "question": "A 24-year-old female is brought to the ED from a nearby nightclub by the local police due to aggressive and violent behavior over the past hour. A friend accompanying the patient reports that the patient smoked marijuana that \"seemed different\" approximately one hour ago. The patient has never had this kind of reaction to marijuana use in the past. On examination, the patient is combative with slurred speech and active visual hallucinations; eye examination shows prominent vertical nystagmus. This patient's presentation can be best explained by intoxication with a substance that acts at which of the following receptors?",
+    "answer": "NMDA",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Serotonin",
+        "Cannabinoid",
+        "NMDA",
+        "Norepinephrine"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_11566686",
+    "question": "In vivo visualization of pyloric mucosal hypertrophy in infants with hypertrophic pyloric stenosis: is there an etiologic role?",
+    "answer": "Mucosal redundancy is a constant associated finding in IHPS. Although the origin of the redundancy and a cause-and-effect relationship are difficult to establish, our findings support the hypothesis that hypergastrinemia may be implicated in the pathogenesis of IHPS, and suggest that mucosal thickening could be implicated as one of the initiating factors in its development.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "11566686",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_1260",
+    "question": "A 32-year-old man comes with his wife to the primary care physician because she is concerned about his drinking behavior. Specifically, he drinks 7 drinks every day and has abandoned many social activities that he previously enjoyed. In addition, he starts drinking in the morning because he feels shaky when he does not have a drink. When asked about his behavior, the man says that he knows that he probably should drink less but feels that he is not motivated enough to change. He says that perhaps the topic should be addressed again next year. Which of the following stages does this patient's behavior most likely represent?",
+    "answer": "Contemplation",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Contemplation",
+        "Precontemplation",
+        "Preparation",
+        "Relapse"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_20488985",
+    "question": "The English antibiotic awareness campaigns: did they change the public's knowledge of and attitudes to antibiotic use?",
+    "answer": "There is little evidence that the 2008 public antibiotic campaigns were effective. The use and visibility of future campaign materials needs auditing. A carefully planned approach that targets the public in GP waiting rooms and through clinicians in consultations may be a more effective way of improving prudent antibiotic use.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "20488985",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_25747932",
+    "question": "Living in an urban environment and non-communicable disease risk in Thailand: Does timing matter?",
+    "answer": "Urbanicity was associated with increases in behavioral and physiological risk factors. However, these associations may not translate directly into increases in biological risk factors. It is likely that these biological risk factors were results of a complex interaction between both long term accumulation of exposure and early life exposures.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "25747932",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_1250",
+    "question": "An investigator is studying energy metabolism in athletes. Baseline serum lactate levels at rest are recorded and repeat levels are obtained directly after a 1000-meter sprint. Compared to the baseline measurements, the serum lactate levels are significantly increased after the sprint. This increase in serum lactate is necessary to regenerate an essential cofactor for which of the following enzymes?",
+    "answer": "Glyceraldehyde-3 phosphate dehydrogenase",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Glycogen phosphorylase",
+        "Glyceraldehyde-3 phosphate dehydrogenase",
+        "Phosphofructokinase-1",
+        "Pyruvate carboxylase"
+      ],
+      "answer_idx": "B",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_143",
+    "question": "A 23-year-old woman comes to the physician because of a painless lesion on the arm that first appeared 5 days after she visited a petting zoo. The lesion began as a small papule and then became a blister that has since ulcerated. Her temperature is 38.3\u00b0C (101\u00b0F). Examination shows a black eschar with edematous borders on the left upper arm. There is axillary lymphadenopathy. The virulence factor responsible for the edema seen in this patient has a mechanism of action similar to which of the following enzymes?",
+    "answer": "Adenylate cyclase",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Adenylate cyclase",
+        "Catalase",
+        "Guanylate cyclase",
+        "SNARE protein"
+      ],
+      "answer_idx": "A",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_1157",
+    "question": "An otherwise healthy 8-year-old boy is brought to the emergency department by his mother 2 hours after the sudden onset of scrotal pain. Physical examination shows nontender testes and a tender, 5-mm, bluish nodule at the superior pole of the left testis. The patient undergoes urgent surgical exploration of the scrotum. During the operation, the nodule on the superior pole of the testis is found to be necrotic. In the process of embryologic development, this nodule forms as a result of the activity of which of the following?",
+    "answer": "Sertoli cells",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Leydig cells",
+        "Estradiol",
+        "Luteinizing hormone",
+        "Sertoli cells"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_22876568",
+    "question": "Is vitamin D deficiency a feature of pediatric celiac disease?",
+    "answer": "no",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "22876568",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_283",
+    "question": "A 65-year-old Asian woman comes to the physician for a routine health maintenance examination. On questioning, she has had occasional night sweats during the past 2 months. She has not had fevers or weight loss. Seven months ago, she had an acute myocardial infarction and was treated with percutaneous coronary intervention. She has hypertension, hyperlipidemia, and gastroesophageal reflux disease. She has smoked one pack of cigarettes daily for 37 years. Current medications include aspirin, atorvastatin, ramipril, metoprolol, and esomeprazole. She is 178 cm (5 ft 10 in) tall and weighs 89 kg (207 lbs); BMI is 29.7 kg/m2. Her temperature is 37.4\u00b0C (99.3\u00b0F), pulse is 84/min, respirations are 18/min, and blood pressure is 145/80 mm Hg. The lungs are clear to auscultation. Cardiac examination shows an S4. There is a nontender skin lesion near the right large toenail. A photograph of the lesion is shown. The remainder of the examination shows no abnormalities. Which of the following is the most likely diagnosis?",
+    "answer": "Malignant melanoma",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Traumatic subungual hemorrhage",
+        "Malignant melanoma",
+        "Onychomycosis",
+        "Squamous cell carcinoma"
+      ],
+      "answer_idx": "B",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_26606599",
+    "question": "Do Surrogates of Injury Severity Influence the Occurrence of Heterotopic Ossification in Fractures of the Acetabulum?",
+    "answer": "maybe",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "26606599",
+      "label": "maybe",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_805",
+    "question": "A 49-year-old man, with a history of alcohol abuse over the last 2 decades, presents with a complaint of epigastric pain for about a year. He previously had one episode of acute pancreatitis for which he was hospitalized. He continued to drink 4\u20135 beers/day after he was discharged. His appetite is good, but he has a history of weight loss. He also complains of oily and bulky stools. He takes aluminum hydroxide gel and ranitidine for partial pain relief. Vital signs are stable. Routine physical exam and blood work are normal except for mild hypocalcemia. Abdominal CT scan is shown below. Which of the following tests is comparatively less useful in assessing the function of the organ involved in this condition?",
+    "answer": "Serum amylase and lipase levels",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Secretin stimulation test",
+        "Serum amylase and lipase levels",
+        "Fecal elastase level",
+        "Magnetic resonance cholangiopancreatography (MRCP)"
+      ],
+      "answer_idx": "B",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_17578985",
+    "question": "Parasacral sciatic nerve block: does the elicited motor response predict the success rate?",
+    "answer": "Eliciting a tibial motor response predicts a higher success rate than eliciting a peroneal motor response with parasacral sciatic nerve block.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "17578985",
+      "label": "maybe",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "medqa_429",
+    "question": "A 69-year-old woman presents to her primary care physician complaining of a new-onset, left-sided, throbbing headache that has lasted for several days. She reports that the pain is worsened by eating. Which of the following is a complication of this condition if not treated promptly?",
+    "answer": "Monocular blindness",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Skin nodules",
+        "Intestinal ischemia",
+        "Monocular blindness",
+        "Ischemic stroke"
+      ],
+      "answer_idx": "C",
+      "meta_info": "step1",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_837",
+    "question": "A 75-year-old man presents to the emergency department from his doctor\u2019s office with a 2-day history of urinary hesitancy, fever, and chills. He additionally notes that he has been getting up frequently during the night to urinate. For the last 2 years, it has taken him longer than usual to initiate urination and his stream has gotten weaker. He has a history of hypertension for which he takes losartan. His blood pressure is 128/84 mm Hg, heart rate is 84/min, respiratory rate is 14/min, and temperature is 38.2\u00b0C (100.8\u00b0F). No costovertebral angle tenderness is present on physical examination. The patient declines rectal examination. Significant laboratory results are as follows:\nWBC 15.2 x  10\u00b0/L\nHemoglobin 13.4 g/dL\nPlatelets 185 x 109/L\nProstate-specific antigen (PSA) 10 ng/mL\nWhat is the most likely cause of the patient\u2019s symptoms?",
+    "answer": "Prostatitis",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Prostate cancer",
+        "Pyelonephritis",
+        "Nephrolithiasis",
+        "Prostatitis"
+      ],
+      "answer_idx": "D",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "medqa_528",
+    "question": "A 35-year-old is brought into the emergency room after a bicycle vs motored vehicle accident. He was unconscious after hitting the side of his head on the road, but recovered consciousness after a few minutes. He started to ride his bicycle again, but then developed a severe headache with nausea and vomiting, at which time he called EMS. While in the hospital, the patient is confused and cannot provide a history. He quickly loses consciousness and his CT scan is displayed in Figure 1. What is the most likely diagnosis?",
+    "answer": "Epidural hematoma",
+    "metadata": {
+      "source": "MedQA",
+      "options": [
+        "Subdural hematoma",
+        "Epidural hematoma",
+        "Subgaleal hematoma",
+        "Caput succedaneum"
+      ],
+      "answer_idx": "B",
+      "meta_info": "step2&3",
+      "dataset": "medqa"
+    }
+  },
+  {
+    "id": "pubmedqa_25859857",
+    "question": "Could the extent of lymphadenectomy be modified by neoadjuvant chemotherapy in cervical cancer?",
+    "answer": "The frequency and topographic distribution of LNM are not modified by NACT, and clinical non-responders showed more involved LNs. A systemic and extensive lymphadenectomy should be performed in patients treated with NACT plus surgery regardless of the response to NACT.",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "25859857",
+      "label": "no",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  },
+  {
+    "id": "pubmedqa_22075911",
+    "question": "Is there a differential in the dental health of new recruits to the British Armed Forces?",
+    "answer": "yes",
+    "metadata": {
+      "source": "PubMedQA",
+      "pmid": "22075911",
+      "label": "yes",
+      "pubdate": "",
+      "journal": "",
+      "dataset": "pubmedqa"
+    }
+  }
+]

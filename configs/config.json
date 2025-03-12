@@ -1,0 +1,22 @@
+{
+    "retriever_config": {
+      "use_privacy_protection": true,
+      "max_results": 5,
+      "embedding_model": "pritamdeka/S-BioBERT-CORD19-STS"
+    },
+    "generator_config": {
+      "model_name": "microsoft/BioGPT-Large",
+      "temperature": 0.7,
+      "apply_privacy_filtering": true
+    },
+    "privacy_config": {
+      "enabled": true,
+      "use_synthetic_data": true,
+      "pii_filtering_level": "standard"
+    },
+    "api_config": {
+      "host": "0.0.0.0",
+      "port": 8000,
+      "enable_cors": true
+    }
+  }
