@@ -10,20 +10,20 @@ Usage:
 
 import os
 import sys
+import argparse
+import json
+from tqdm import tqdm
 
-# Get the absolute path of the current script
+# Add project root to path to ensure imports work correctly
 script_dir = os.path.dirname(os.path.abspath(__file__))
-# Get the project root directory (two directories up from the script)
-project_root = os.path.dirname(os.path.dirname(os.path.dirname(script_dir)))
-# Add the project root to the Python path
+project_root = os.path.dirname(os.path.dirname(script_dir))
 sys.path.append(project_root)
 
-# Now you can import from src
 from src.privacy.sage_pipeline import SAGEPipeline
-import os
-import json
-import argparse
-from tqdm import tqdm
+from src.privacy.synthetic_generator import SyntheticGenerator
+from src.privacy.privacy_agent import PrivacyAgent
+from src.privacy.rewriting_agent import RewritingAgent
+from src.privacy.attribute_extractor import AttributeExtractor
 
 def process_mtsamples_with_sage(input_dir, output_dir, limit=None):
     """
@@ -34,47 +34,89 @@ def process_mtsamples_with_sage(input_dir, output_dir, limit=None):
         output_dir: Directory to save synthetic records
         limit: Optional limit on number of records to process
     """
-    # Initialize SAGE pipeline
-    sage = SAGEPipeline(output_dir=output_dir)
-    
-    # Get list of original MTSamples records
-    record_files = [f for f in os.listdir(input_dir) if f.endswith('.txt')]
-    
-    # Apply limit if specified
-    if limit and limit > 0:
-        record_files = record_files[:limit]
+    print(f"Starting MTSamples processing with SAGE pipeline")
+    print(f"Input directory: {input_dir}")
+    print(f"Output directory: {output_dir}")
     
     # Create output directory
     os.makedirs(output_dir, exist_ok=True)
     
+    # Initialize SAGE pipeline components
+    attribute_extractor = AttributeExtractor()
+    synthetic_generator = SyntheticGenerator()
+    privacy_agent = PrivacyAgent()
+    rewriting_agent = RewritingAgent()
+    
+    # Create the SAGE pipeline
+    sage_pipeline = SAGEPipeline(
+        attribute_extractor=attribute_extractor,
+        synthetic_generator=synthetic_generator,
+        privacy_agent=privacy_agent,
+        rewriting_agent=rewriting_agent,
+        max_iterations=3,
+        output_dir=output_dir
+    )
+    
+    # Get list of original MTSamples records
+    record_files = [f for f in os.listdir(input_dir) if f.endswith('.txt')]
+    print(f"Found {len(record_files)} records in {input_dir}")
+    
+    # Apply limit if specified
+    if limit and limit > 0:
+        record_files = record_files[:limit]
+        print(f"Processing limited set of {len(record_files)} records")
+    
     # Process each record
     results = []
-    for filename in tqdm(record_files, desc="Processing MTSamples with SAGE"):
+    
+    for filename in tqdm(record_files, desc="Processing records"):
         record_id = os.path.splitext(filename)[0]
         record_path = os.path.join(input_dir, filename)
         
         # Read the original record
-        with open(record_path, 'r') as f:
+        with open(record_path, 'r', encoding='utf-8', errors='replace') as f:
             original_content = f.read()
         
-        # Process with SAGE pipeline
-        result = sage.process_document(record_id, original_content)
-        results.append(result)
+        try:
+            # Process with SAGE pipeline
+            result = sage_pipeline.process_document(record_id, original_content)
+            results.append(result)
+            
+            # Log progress details
+            tqdm.write(f"Processed {record_id}: {result['iterations_required']} iterations, is_safe={result['is_safe']}")
+        except Exception as e:
+            tqdm.write(f"Error processing {record_id}: {str(e)}")
+            # Create a basic error result
+            error_result = {
+                "document_id": record_id,
+                "error": str(e),
+                "is_safe": False,
+                "iterations_required": 0
+            }
+            results.append(error_result)
     
-    # Save summary statistics
+    # Calculate and save summary statistics
+    safe_count = sum(1 for r in results if r.get("is_safe", False))
+    avg_iterations = sum(r.get("iterations_required", 0) for r in results) / max(1, len(results))
+    
     summary = {
         "total_documents": len(results),
-        "safe_documents": sum(1 for r in results if r.get("is_safe", False)),
-        "avg_iterations": sum(r.get("iterations_required", 0) for r in results) / max(1, len(results)),
-        "avg_original_length": sum(r.get("original_length", 0) for r in results) / max(1, len(results)),
-        "avg_synthetic_length": sum(r.get("synthetic_length", 0) for r in results) / max(1, len(results)),
+        "safe_documents": safe_count,
+        "safety_rate": safe_count / max(1, len(results)) * 100,
+        "avg_iterations": avg_iterations,
+        "failed_documents": len(results) - safe_count
     }
     
-    with open(os.path.join(output_dir, "summary_stats.json"), "w") as f:
+    # Save summary statistics
+    with open(os.path.join(output_dir, "processing_summary.json"), "w") as f:
         json.dump(summary, f, indent=2)
     
-    print(f"Processed {len(results)} MTSamples records with SAGE pipeline")
-    print(f"Summary: {summary}")
+    print(f"\nProcessing complete! Results:")
+    print(f"- Total documents processed: {summary['total_documents']}")
+    print(f"- Documents marked safe: {summary['safe_documents']} ({summary['safety_rate']:.1f}%)")
+    print(f"- Average iterations required: {summary['avg_iterations']:.2f}")
+    print(f"- Summary saved to {os.path.join(output_dir, 'processing_summary.json')}")
+    
     return results
 
 if __name__ == "__main__":
