@@ -66,6 +66,7 @@ class AttributeExtractor:
         
         return attributes
     
+    # Improved attribute extraction in AttributeExtractor class
     def _extract_from_mtsamples(self, document: str) -> Dict[str, str]:
         """Extract attributes from MTSamples formatted document"""
         # Initialize attribute dictionary
@@ -78,7 +79,7 @@ class AttributeExtractor:
             "Medications": ""
         }
         
-        # Extract specialty and sample type (these are useful context)
+        # Extract specialty and sample type
         specialty_match = re.search(r"SPECIALTY:\s*([^\n]+)", document)
         specialty = specialty_match.group(1).strip() if specialty_match else ""
         
@@ -88,116 +89,99 @@ class AttributeExtractor:
         description_match = re.search(r"DESCRIPTION:\s*([^\n]+)", document)
         description = description_match.group(1).strip() if description_match else ""
         
-        # Extract content section (main clinical text)
+        # Content section
         content_match = re.search(r"CONTENT:(.*?)(?:KEYWORDS:|$)", document, re.DOTALL)
         content = content_match.group(1).strip() if content_match else document
         
-        # First, check if there's a description that contains medical information
-        if description:
-            # If description mentions procedures/treatments
-            if any(term in description.lower() for term in ["procedure", "surgery", "exam", "operation", "intervention"]):
-                attributes["Treatment"] = description
+        # Process surgical/procedural documents
+        if any(term in content.lower() for term in ["performed", "operation", "procedure", "surgical", "arthroscopy", "debridement"]):
+            # Extract diagnoses
+            preop_match = re.search(r"PREOPERATIVE DIAGNOSIS:?\s*([^\n]+)", content, re.IGNORECASE)
+            postop_match = re.search(r"POSTOPERATIVE DIAGNOSIS:?\s*([^\n]+)", content, re.IGNORECASE)
+            diagnosis_match = re.search(r"DIAGNOSIS:?\s*([^\n]+)", content, re.IGNORECASE)
             
-            # If description mentions diagnosis
-            elif any(term in description.lower() for term in ["diagnosed", "diagnosis", "assessment"]):
-                attributes["Diagnosis"] = description
-        
-        # Next, look for common sections in the content
-        
-        # Diagnosis patterns
-        diagnosis_sections = [
-            r"(?:DIAGNOSIS|IMPRESSION|ASSESSMENT)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)",
-            r"(?:POSTOPERATIVE DIAGNOSIS|PREOPERATIVE DIAGNOSIS)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)",
-            r"(?:FINAL DIAGNOSIS)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)"
-        ]
-        
-        for pattern in diagnosis_sections:
-            match = re.search(pattern, content, re.IGNORECASE)
-            if match:
-                diagnosis_text = match.group(1).strip()
-                if len(diagnosis_text) > 5:  # Ensure it's not just punctuation
-                    attributes["Diagnosis"] = diagnosis_text
-                    break
-        
-        # Treatment/Procedure patterns
-        treatment_sections = [
-            r"(?:PROCEDURE PERFORMED|OPERATION PERFORMED)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)",
-            r"(?:PROCEDURE|OPERATION|INTERVENTION)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)",
-            r"(?:TREATMENT|PLAN|RECOMMENDATION)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)"
-        ]
-        
-        for pattern in treatment_sections:
-            match = re.search(pattern, content, re.IGNORECASE)
-            if match:
-                treatment_text = match.group(1).strip()
-                if len(treatment_text) > 5:
-                    attributes["Treatment"] = treatment_text
-                    break
-        
-        # If we have a sample type but no treatment, use sample type as treatment
-        if not attributes["Treatment"] and sample_type:
-            # Filter very short or non-informative sample types
-            if len(sample_type) > 5 and sample_type.lower() != "dictation":
-                attributes["Treatment"] = sample_type
+            diagnoses = []
+            if preop_match:
+                diagnoses.append(f"Preoperative: {preop_match.group(1).strip()}")
+            if postop_match:
+                diagnoses.append(f"Postoperative: {postop_match.group(1).strip()}")
+            if diagnosis_match and not preop_match and not postop_match:
+                diagnoses.append(diagnosis_match.group(1).strip())
                 
-        # Attempt to extract other attributes if we have content
-        if content:
-            # Symptoms/Complaints
-            symptom_sections = [
-                r"(?:CHIEF COMPLAINT|PRESENT ILLNESS|REASON FOR VISIT)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)",
-                r"(?:INDICATION)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)"
-            ]
+            if diagnoses:
+                attributes["Diagnosis"] = " ".join(diagnoses)
             
-            for pattern in symptom_sections:
-                match = re.search(pattern, content, re.IGNORECASE)
-                if match:
-                    symptom_text = match.group(1).strip()
-                    if len(symptom_text) > 5:
-                        attributes["Symptoms"] = symptom_text
-                        break
+            # Extract procedures
+            procedure_match = re.search(r"(?:OPERATION|PROCEDURE)S? PERFORMED:?\s*(.*?)(?:\n\n|\n[A-Z])", content, re.IGNORECASE | re.DOTALL)
+            if procedure_match:
+                attributes["Treatment"] = procedure_match.group(1).strip()
+                
+        # Process cardiac/stress test documents
+        elif any(term in content.lower() for term in ["echocardiogram", "stress test", "dobutamine", "cardiac", "echo"]):
+            # Extract relevant sections
+            if "atrial fibrillation" in content.lower() or "coronary" in content.lower():
+                conditions = re.findall(r"(?:atrial fibrillation|afib|coronary disease|heart failure)", content, re.IGNORECASE)
+                if conditions:
+                    attributes["Symptoms"] = ", ".join(conditions)
             
-            # Medical History
-            history_sections = [
-                r"(?:MEDICAL HISTORY|PAST MEDICAL HISTORY|HISTORY)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)",
-                r"(?:PAST HISTORY|PAST SURGICAL HISTORY)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)"
-            ]
+            # Extract stress test info
+            stress_match = re.search(r"STRESS TECHNIQUE:?\s*(.*?)(?:\n\n|\n[A-Z])", content, re.IGNORECASE | re.DOTALL)
+            if stress_match:
+                attributes["Treatment"] = f"Stress Test: {stress_match.group(1).strip()}"
             
-            for pattern in history_sections:
-                match = re.search(pattern, content, re.IGNORECASE)
-                if match:
-                    history_text = match.group(1).strip()
-                    if len(history_text) > 5:
-                        attributes["Medical History"] = history_text
-                        break
-            
-            # Medications
-            medication_sections = [
-                r"(?:MEDICATIONS|CURRENT MEDICATIONS|MEDS)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)",
-                r"(?:MEDICATION LIST|DRUGS)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)"
-            ]
-            
-            for pattern in medication_sections:
-                match = re.search(pattern, content, re.IGNORECASE)
-                if match:
-                    medication_text = match.group(1).strip()
-                    if len(medication_text) > 5:
-                        attributes["Medications"] = medication_text
-                        break
-                        
-            # Lab Results
-            lab_sections = [
-                r"(?:LABORATORY DATA|LAB RESULTS|LABORATORY FINDINGS)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)",
-                r"(?:LABORATORY|LABS|TEST RESULTS)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)"
-            ]
-            
-            for pattern in lab_sections:
-                match = re.search(pattern, content, re.IGNORECASE)
-                if match:
-                    lab_text = match.group(1).strip()
-                    if len(lab_text) > 5:
-                        attributes["Lab Results"] = lab_text
-                        break
+            # Extract medications
+            if "dobutamine" in content.lower():
+                attributes["Medications"] = "Dobutamine (for stress test)"
         
+        # General extraction patterns if nothing specific found
+        if not any(value for value in attributes.values()):
+            # Diagnosis patterns
+            diagnosis_sections = [
+                r"(?:DIAGNOSIS|IMPRESSION|ASSESSMENT)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)",
+                r"(?:POSTOPERATIVE DIAGNOSIS|PREOPERATIVE DIAGNOSIS)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)",
+                r"(?:FINAL DIAGNOSIS)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)"
+            ]
+            
+            for pattern in diagnosis_sections:
+                match = re.search(pattern, content, re.IGNORECASE)
+                if match:
+                    diagnosis_text = match.group(1).strip()
+                    if len(diagnosis_text) > 5:
+                        attributes["Diagnosis"] = diagnosis_text
+                        break
+            
+            # Treatment/Procedure patterns
+            treatment_sections = [
+                r"(?:PROCEDURE PERFORMED|OPERATION PERFORMED)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)",
+                r"(?:PROCEDURE|OPERATION|INTERVENTION)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)",
+                r"(?:TREATMENT|PLAN|RECOMMENDATION)(?:\s*:)?\s*([^\n]+(?:\n[^\n]+)*)"
+            ]
+            
+            for pattern in treatment_sections:
+                match = re.search(pattern, content, re.IGNORECASE)
+                if match:
+                    treatment_text = match.group(1).strip()
+                    if len(treatment_text) > 5:
+                        attributes["Treatment"] = treatment_text
+                        break
+            
+            # Try to use description and sample type if needed
+            if not attributes["Treatment"] and (description or sample_type):
+                combined = f"{description} {sample_type}".strip()
+                if combined:
+                    attributes["Treatment"] = combined
+        
+        # Clean all attributes to ensure text quality
+        for key, value in attributes.items():
+            if value:
+                # Clean up numbered lines
+                value = re.sub(r',\s*\d+\.\s+', '\n- ', value)
+                value = re.sub(r'^\s*\d+\.\s+', '- ', value)
+                # Limit length
+                if len(value) > 200:
+                    value = value[:197] + "..."
+                attributes[key] = value
+                
         return attributes
     
     def _rule_based_extraction(self, document: str) -> Dict[str, str]:

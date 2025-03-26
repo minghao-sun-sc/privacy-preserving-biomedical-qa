@@ -362,30 +362,36 @@ SYNTHETIC {doc_type.upper()}:
         except Exception as e:
             print(f"Error in text generation: {e}")
             return ""
-    
+
     def _determine_document_type(self, attributes: Dict[str, str]) -> str:
         """Determine the type of medical document to generate"""
-        treatment = attributes.get("Treatment", "").lower()
+        # Combine all attributes into a single string for analysis
+        all_text = " ".join(str(v) for v in attributes.values()).lower()
         
-        if "echocardiogram" in treatment or "echo" in treatment:
-            return "Echocardiogram Report"
-        elif "colonoscopy" in treatment:
-            return "Colonoscopy Report"
-        elif "endoscopy" in treatment:
-            return "Endoscopy Report"
-        elif "mri" in treatment or "magnetic resonance" in treatment:
-            return "MRI Report"
-        elif "ct" in treatment or "computed tomography" in treatment:
-            return "CT Scan Report"
-        elif "x-ray" in treatment or "radiograph" in treatment:
-            return "X-Ray Report"
-        elif "ultrasound" in treatment:
-            return "Ultrasound Report"
-        elif "biopsy" in treatment:
-            return "Biopsy Report"
-        elif "surgery" in treatment or "surgical" in treatment:
+        # Check for specific indicators
+        if "arthroscop" in all_text or "debridement" in all_text or "osteoplasty" in all_text:
             return "Surgical Report"
-        elif "consultation" in treatment or "consult" in treatment:
+        elif "hip" in all_text and ("surgery" in all_text or "operation" in all_text):
+            return "Surgical Report"
+        elif "dobutamine" in all_text or "stress test" in all_text or "atrial fibrillation" in all_text:
+            return "Cardiac Stress Test Report"
+        elif "echocardiogram" in all_text or "echo" in all_text:
+            return "Echocardiogram Report"
+        elif "colonoscopy" in all_text:
+            return "Colonoscopy Report"
+        elif "endoscopy" in all_text:
+            return "Endoscopy Report"
+        elif "mri" in all_text or "magnetic resonance" in all_text:
+            return "MRI Report"
+        elif "ct" in all_text or "computed tomography" in all_text:
+            return "CT Scan Report"
+        elif "x-ray" in all_text or "radiograph" in all_text:
+            return "X-Ray Report"
+        elif "ultrasound" in all_text:
+            return "Ultrasound Report"
+        elif "biopsy" in all_text:
+            return "Biopsy Report"
+        elif "consultation" in all_text or "consult" in all_text:
             return "Consultation Note"
         else:
             return "Clinical Note"
