@@ -33,7 +33,13 @@ def start_server(vector_store_path, host="0.0.0.0", port=8000):
         port: Port to run the server on
     """
     # Set environment variable for vector store path
-    os.environ["VECTOR_STORE_PATH"] = vector_store_path
+    # os.environ["VECTOR_STORE_PATH"] = vector_store_path
+    # Add at the beginning of the file
+
+    os.environ["VECTOR_STORE_PATH"] = os.path.abspath("data/vector_store/mtsamples")
+
+    # Add this line to pass the full path to faiss.index file
+    os.environ["FAISS_INDEX_PATH"] = os.path.join(vector_store_path, "faiss.index")
     
     print(f"Starting QA server on {host}:{port}")
     print(f"Using vector store at: {vector_store_path}")

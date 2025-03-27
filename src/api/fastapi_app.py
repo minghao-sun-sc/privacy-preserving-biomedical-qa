@@ -49,15 +49,16 @@ retriever = None
 generator = None
 validator = None
 
+# Find the function that loads the vector store
 def get_vector_store():
     global vector_store
     if vector_store is None:
         # Initialize with synthetic data
         vector_store = VectorStore(embedding_model_name="pritamdeka/S-PubMedBert-MS-MARCO")
         
-        # Load index if available
-        index_path = "data/vector_store"
-        if os.path.exists(index_path):
+        # Load index if available - FIX THE PATH HERE
+        index_path = os.environ.get("VECTOR_STORE_PATH", "data/vector_store/mtsamples")
+        if os.path.exists(os.path.join(index_path, "faiss.index")):
             vector_store.load(index_path)
         else:
             # Create empty index if not available

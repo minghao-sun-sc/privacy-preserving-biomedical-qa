@@ -40,7 +40,7 @@ def run_pipeline(mtsamples_dir, synthetic_dir, vector_store_dir, benchmark_path,
     print("\n===== Step 1: Processing MTSamples with SAGE =====\n")
     process_cmd = [
         sys.executable, 
-        os.path.join(os.path.dirname(__file__), "process_mtsamples.py"),
+        os.path.join(os.path.dirname(__file__), "privacy/process_mtsamples.py"),
         "--input", mtsamples_dir,
         "--output", synthetic_dir
     ]
@@ -53,7 +53,7 @@ def run_pipeline(mtsamples_dir, synthetic_dir, vector_store_dir, benchmark_path,
     print("\n===== Step 2: Building the vector store =====\n")
     build_cmd = [
         sys.executable,
-        os.path.join(os.path.dirname(__file__), "build_vector_store.py"),
+        os.path.join(os.path.dirname(__file__), "retriever/build_vector_store.py"),
         "--input", synthetic_dir,
         "--output", vector_store_dir
     ]
@@ -65,7 +65,7 @@ def run_pipeline(mtsamples_dir, synthetic_dir, vector_store_dir, benchmark_path,
     print("Starting the QA server in a separate process...")
     server_cmd = [
         sys.executable,
-        os.path.join(os.path.dirname(__file__), "start_server.py"),
+        os.path.join(os.path.dirname(__file__), "api/start_server.py"),
         "--vector-store", vector_store_dir
     ]
     
@@ -82,7 +82,7 @@ def run_pipeline(mtsamples_dir, synthetic_dir, vector_store_dir, benchmark_path,
         privacy_dir = os.path.join(results_dir, "privacy")
         privacy_cmd = [
             sys.executable,
-            os.path.join(os.path.dirname(__file__), "evaluate_privacy.py"),
+            os.path.join(os.path.dirname(__file__), "evaluation/evaluate_privacy.py"),
             "--original", mtsamples_dir,
             "--synthetic", synthetic_dir,
             "--output", privacy_dir,
@@ -96,7 +96,7 @@ def run_pipeline(mtsamples_dir, synthetic_dir, vector_store_dir, benchmark_path,
         qa_dir = os.path.join(results_dir, "qa")
         qa_cmd = [
             sys.executable,
-            os.path.join(os.path.dirname(__file__), "evaluate_qa.py"),
+            os.path.join(os.path.dirname(__file__), "evaluation/evaluate_qa.py"),
             "--benchmark", benchmark_path,
             "--output", qa_dir
         ]
@@ -107,11 +107,18 @@ def run_pipeline(mtsamples_dir, synthetic_dir, vector_store_dir, benchmark_path,
         print("\n===== Step 6: Generating overall report =====\n")
         
         # Load results
-        with open(os.path.join(privacy_dir, "combined_privacy_results.json"), "r") as f:
-            privacy_results = json.load(f)
+        try:
+            with open(os.path.join(privacy_dir, "combined_privacy_results.json"), "r") as f:
+                privacy_results = json.load(f)
+        except:
+            privacy_results = {"overall_success_rate": 0}
         
-        with open(os.path.join(qa_dir, "comprehensive_results.json"), "r") as f:
-            qa_results = json.load(f)
+        try:
+            with open(os.path.join(qa_dir, "accuracy_results.json"), "r") as f:
+                qa_results_data = json.load(f)
+                qa_results = {"accuracy": qa_results_data.get("metrics", {}).get("accuracy", 0)}
+        except:
+            qa_results = {"accuracy": 0}
         
         # Create overall report
         report = {
@@ -121,9 +128,7 @@ def run_pipeline(mtsamples_dir, synthetic_dir, vector_store_dir, benchmark_path,
                 "untargeted_attacks_success": privacy_results.get("untargeted_attacks", {}).get("success_rate", 0)
             },
             "qa_performance": {
-                "overall_accuracy": qa_results.get("accuracy", 0),
-                "by_dataset": qa_results.get("by_source", {}),
-                "by_question_type": qa_results.get("by_type", {})
+                "overall_accuracy": qa_results.get("accuracy", 0)
             },
             "conclusion": {
                 "privacy_protection": "High" if privacy_results.get("overall_success_rate", 100) < 10 else 

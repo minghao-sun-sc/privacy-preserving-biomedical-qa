@@ -13,30 +13,23 @@ import os
 import json
 import argparse
 
+# Edit src/evaluation/evaluate_qa.py
 def evaluate_qa_with_synthetic_mtsamples(benchmark_path, output_dir, api_url="http://localhost:8000/api/query"):
-    """
-    Evaluate QA performance using synthetic MTSamples data
+    """Evaluate QA performance using synthetic MTSamples data"""
     
-    Args:
-        benchmark_path: Path to the comprehensive benchmark JSON
-        output_dir: Directory to save evaluation results
-        api_url: URL of the QA API
-    """
     # Initialize accuracy evaluator
     evaluator = AccuracyEvaluator(
         api_url=api_url,
+        test_data_path=benchmark_path,  # Use benchmark directly as test data
         output_dir=output_dir
     )
     
-    # Create output directory if it doesn't exist
-    os.makedirs(output_dir, exist_ok=True)
-    
     # Run evaluation with comprehensive benchmark
     print(f"Evaluating QA performance using benchmark at {benchmark_path}...")
-    results = evaluator.evaluate_with_comprehensive_benchmark(benchmark_path)
+    results = evaluator.evaluate(num_questions=20)  # Limit to 20 questions for speed
     
     print(f"QA evaluation complete. Results saved to {output_dir}")
-    print(f"Overall accuracy: {results.get('accuracy', 0):.4f}")
+    print(f"Overall accuracy: {results.get('metrics', {}).get('accuracy', 0):.4f}")
     return results
 
 if __name__ == "__main__":

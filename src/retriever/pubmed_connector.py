@@ -5,6 +5,7 @@ import requests
 import xml.etree.ElementTree as ET
 from dotenv import load_dotenv
 import json
+import hashlib
 
 class PubMedConnector:
     """
@@ -68,10 +69,10 @@ class PubMedConnector:
         Returns:
             Path to cache file
         """
-        # Generate a safe filename
-        safe_name = "".join(c if c.isalnum() else "_" for c in query)
+        # Use hashing for all queries to avoid filename issues
+        query_hash = hashlib.md5(query.encode()).hexdigest()
         prefix = "id_" if is_id else "query_"
-        return os.path.join(self.cache_dir, f"{prefix}{safe_name}.json")
+        return os.path.join(self.cache_dir, f"{prefix}{query_hash}.json")
     
     def search(self, query: str, max_results: Optional[int] = None) -> List[str]:
         """
@@ -87,9 +88,13 @@ class PubMedConnector:
         # Check cache first
         cache_path = self._get_cache_path(query)
         if os.path.exists(cache_path):
-            with open(cache_path, 'r') as f:
-                data = json.load(f)
-                return data.get("ids", [])
+            try:
+                with open(cache_path, 'r') as f:
+                    data = json.load(f)
+                    return data.get("ids", [])
+            except Exception as e:
+                print(f"Error loading cache: {e}")
+                # Continue with normal search if cache loading fails
         
         # Respect rate limit
         self._respect_rate_limit()
@@ -106,23 +111,27 @@ class PubMedConnector:
         
         if self.api_key:
             params["api_key"] = self.api_key
-            
-        # Make request
-        response = requests.get(self.search_url, params=params)
         
-        if response.status_code != 200:
-            print(f"Error searching PubMed: {response.status_code}")
+        try:
+            # Make request
+            response = requests.get(self.search_url, params=params, timeout=10)
+            
+            if response.status_code != 200:
+                print(f"Error searching PubMed: {response.status_code}")
+                return []
+                
+            # Parse results
+            data = response.json()
+            ids = data.get("esearchresult", {}).get("idlist", [])
+            
+            # Cache results
+            with open(cache_path, 'w') as f:
+                json.dump({"query": query, "ids": ids}, f)
+                
+            return ids
+        except Exception as e:
+            print(f"Error in PubMed search: {e}")
             return []
-            
-        # Parse results
-        data = response.json()
-        ids = data.get("esearchresult", {}).get("idlist", [])
-        
-        # Cache results
-        with open(cache_path, 'w') as f:
-            json.dump({"query": query, "ids": ids}, f)
-            
-        return ids
     
     def fetch_article(self, pubmed_id: str) -> Dict[str, Any]:
         """
@@ -137,8 +146,12 @@ class PubMedConnector:
         # Check cache first
         cache_path = self._get_cache_path(pubmed_id, is_id=True)
         if os.path.exists(cache_path):
-            with open(cache_path, 'r') as f:
-                return json.load(f)
+            try:
+                with open(cache_path, 'r') as f:
+                    return json.load(f)
+            except Exception as e:
+                print(f"Error loading article cache: {e}")
+                # Continue with fetch if cache loading fails
         
         # Respect rate limit
         self._respect_rate_limit()
@@ -152,58 +165,63 @@ class PubMedConnector:
         
         if self.api_key:
             params["api_key"] = self.api_key
-            
-        # Make request
-        response = requests.get(self.fetch_url, params=params)
         
-        if response.status_code != 200:
-            print(f"Error fetching PubMed article {pubmed_id}: {response.status_code}")
-            return {}
-            
-        # Parse XML response
         try:
-            tree = ET.fromstring(response.content)
-            article = tree.find(".//PubmedArticle")
+            # Make request
+            response = requests.get(self.fetch_url, params=params, timeout=10)
             
-            if article is None:
+            if response.status_code != 200:
+                print(f"Error fetching PubMed article {pubmed_id}: {response.status_code}")
                 return {}
                 
-            # Extract article data
-            title_elem = article.find(".//ArticleTitle")
-            abstract_elem = article.find(".//AbstractText")
-            journal_elem = article.find(".//Journal/Title")
-            year_elem = article.find(".//PubDate/Year")
-            authors = article.findall(".//Author")
-            
-            # Process authors
-            author_names = []
-            for author in authors:
-                last_name = author.find("LastName")
-                fore_name = author.find("ForeName")
+            # Parse XML response
+            try:
+                tree = ET.fromstring(response.content)
+                article = tree.find(".//PubmedArticle")
                 
-                if last_name is not None and fore_name is not None:
-                    author_names.append(f"{fore_name.text} {last_name.text}")
-                elif last_name is not None:
-                    author_names.append(last_name.text)
-            
-            # Construct article data
-            article_data = {
-                "pubmed_id": pubmed_id,
-                "title": title_elem.text if title_elem is not None else "",
-                "abstract": abstract_elem.text if abstract_elem is not None else "",
-                "journal": journal_elem.text if journal_elem is not None else "",
-                "year": year_elem.text if year_elem is not None else "",
-                "authors": author_names
-            }
-            
-            # Cache result
-            with open(cache_path, 'w') as f:
-                json.dump(article_data, f)
+                if article is None:
+                    return {}
+                    
+                # Extract article data
+                title_elem = article.find(".//ArticleTitle")
+                abstract_elem = article.find(".//AbstractText")
+                journal_elem = article.find(".//Journal/Title")
+                year_elem = article.find(".//PubDate/Year")
+                authors = article.findall(".//Author")
                 
-            return article_data
-            
+                # Process authors
+                author_names = []
+                for author in authors:
+                    last_name = author.find("LastName")
+                    fore_name = author.find("ForeName")
+                    
+                    if last_name is not None and fore_name is not None:
+                        author_names.append(f"{fore_name.text} {last_name.text}")
+                    elif last_name is not None:
+                        author_names.append(last_name.text)
+                
+                # Construct article data
+                article_data = {
+                    "pubmed_id": pubmed_id,
+                    "title": title_elem.text if title_elem is not None else "",
+                    "abstract": abstract_elem.text if abstract_elem is not None else "",
+                    "journal": journal_elem.text if journal_elem is not None else "",
+                    "year": year_elem.text if year_elem is not None else "",
+                    "authors": author_names
+                }
+                
+                # Cache result
+                with open(cache_path, 'w') as f:
+                    json.dump(article_data, f)
+                    
+                return article_data
+                
+            except Exception as e:
+                print(f"Error parsing PubMed article {pubmed_id}: {e}")
+                return {}
+                
         except Exception as e:
-            print(f"Error parsing PubMed article {pubmed_id}: {e}")
+            print(f"Error fetching PubMed article: {e}")
             return {}
     
     def fetch_multiple_articles(self, pubmed_ids: List[str]) -> List[Dict[str, Any]]:
@@ -216,7 +234,16 @@ class PubMedConnector:
         Returns:
             List of dictionaries containing article details
         """
-        return [self.fetch_article(pubmed_id) for pubmed_id in pubmed_ids]
+        articles = []
+        for pubmed_id in pubmed_ids:
+            try:
+                article = self.fetch_article(pubmed_id)
+                if article:
+                    articles.append(article)
+            except Exception as e:
+                print(f"Error fetching article {pubmed_id}: {e}")
+                
+        return articles
     
     def search_and_fetch(self, query: str, max_results: Optional[int] = None) -> List[Dict[str, Any]]:
         """
@@ -229,8 +256,12 @@ class PubMedConnector:
         Returns:
             List of dictionaries containing article details
         """
-        ids = self.search(query, max_results)
-        return self.fetch_multiple_articles(ids)
+        try:
+            ids = self.search(query, max_results)
+            return self.fetch_multiple_articles(ids)
+        except Exception as e:
+            print(f"Error in search and fetch: {e}")
+            return []
     
     def format_for_retrieval(self, article: Dict[str, Any]) -> str:
         """
