@@ -64,6 +64,9 @@ class SAGEPipeline:
         print(f"Processing document {document_id}...")
         
         try:
+            # Store the original document for reference in sanitization methods
+            self.original_document = document
+            
             # Stage 1: Attribute-based Generation
             print(f"  Stage 1: Extracting attributes...")
             attributes = self.attribute_extractor.extract_attributes(document)

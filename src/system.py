@@ -86,7 +86,18 @@ class BiomedicalQASystem:
             for i, doc in enumerate(retrieved_docs):
                 if "abstract" in doc and self._contains_sensitive_info(doc["abstract"]):
                     logger.info(f"Applying synthetic data generation to document {i}")
-                    doc["abstract"] = self.synthetic_generator.generate(doc["abstract"])
+                    # doc["abstract"] = self.synthetic_generator.generate(doc["abstract"])
+                    # Change to:
+                    if isinstance(doc["abstract"], str):
+                        # Create a basic attribute dictionary expected by synthetic_generator
+                        attributes = {
+                            "Diagnosis": "",
+                            "Symptoms": "",
+                            "Treatment": "",
+                            "Medical History": "",
+                            "Content": doc["abstract"],  # Put the abstract in Content field
+                        }
+                        doc["abstract"] = self.synthetic_generator.generate(attributes)
                     doc["contains_synthetic_data"] = True
                 else:
                     doc["contains_synthetic_data"] = False
