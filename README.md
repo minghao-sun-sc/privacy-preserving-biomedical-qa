@@ -1,61 +1,137 @@
 # Privacy-Preserving Biomedical QA
 
-A Privacy-Preserving Biomedical QA System with Dynamic Research Integration using Retrieval-Augmented Generation (RAG) and Synthetic Data Techniques.
+A Privacy-Preserving Biomedical Question-Answering System with Dynamic Research Integration using Retrieval-Augmented Generation (RAG) and Synthetic Data Techniques.
 
 ## Overview
 
-This project aims to develop a biomedical question-answering system that:
-- Leverages a hybrid RAG pipeline combining pretrained medical LLMs with dynamic research integration.
-- Incorporates state-of-the-art privacy-preserving methods, including synthetic data substitution and federated learning, to protect sensitive patient information.
-- Integrates external databases such as PubMed and clinical trials, ensuring up-to-date and evidence-based responses.
+This project implements a biomedical question-answering system that addresses a critical challenge in healthcare AI: providing accurate medical information while maintaining strict privacy guarantees. We accomplish this through:
 
-## Features
+- A hybrid RAG pipeline combining pretrained medical language models with dynamic research integration
+- A two-stage privacy protection system using synthetic data generation and PII filtering
+- Comprehensive evaluation frameworks for both privacy guarantees and information accuracy
 
-- **Dynamic Research Integration:** Real-time retrieval from external biomedical databases.
-- **Privacy-Preserving Techniques:** Two-stage privacy protection comprising synthetic data generation and agent-based PII filtering.
-- **Hybrid RAG Pipeline:** Custom retriever modules paired with a fine-tuned BioGPT generator under privacy constraints.
+## Key Features
 
-## Repository Structure
+- **SAGE Pipeline:** Synthetic Attribute-based Generation with agEnt-based refinement for creating privacy-preserving medical data
+- **Privacy-Aware RAG System:** Customized retriever modules paired with a fine-tuned BioGPT generator under privacy constraints
+- **Dynamic Research Integration:** Real-time retrieval from external biomedical databases with privacy safeguards
+- **Comprehensive Evaluation Framework:** Benchmark-based evaluation of both privacy protection and answer accuracy
+
+## Project Structure
 
 | Directory/File    | Description                                                            |
 | ----------------- | ---------------------------------------------------------------------- |
-| `src/`            | Contains source code for retriever, generator, and privacy modules.    |
-| `data/`           | Synthetic clinical cases and external database entries.                |
-| `notebooks/`      | Jupyter Notebooks for prototype experiments and data analysis.         |
-| `docs/`           | Additional project documentation and usage guides.                     |
-| `requirements.txt`| List of Python dependencies.                                           |
-| `.gitignore`      | Specifies intentionally untracked files to ignore.                   |
-| `LICENSE`         | Project license details.                                               |
+| `src/`            | Source code for all system components                                   |
+| `├── privacy/`    | Privacy protection modules (SAGE pipeline, PII detection)               |
+| `├── retriever/`  | Document retrieval and vector store components                          |
+| `├── generator/`  | Answer generation with privacy constraints                              |
+| `├── api/`        | FastAPI server for system interaction                                   |
+| `├── evaluation/` | Privacy and accuracy evaluation frameworks                              |
+| `data/`           | Datasets and benchmarks for system training and evaluation              |
+| `configs/`        | Configuration files for different system components                      |
+| `notebooks/`      | Jupyter notebooks demonstrating key concepts and techniques             |
+| `docs/`           | Additional project documentation and guides                             |
 
-## Setup and Installation
+
+## Usage
 
 ### Prerequisites
 
 - Python 3.8 or later
 - Git
-- [Optional] A GPU-enabled machine (for model training/inference)
+- [Optional] GPU-enabled machine for improved performance
 
-### Installation Steps
+### Installation
 
 1. **Clone the Repository:**
 
-```
+```bash
 git clone https://github.com/minghao-sun-sc/privacy-preserving-biomedical-qa.git
 cd privacy-preserving-biomedical-qa
 ```
 
-
 2. **Create a Virtual Environment:**
-```
-python -m venv venv
-source venv/bin/activate # On Windows, use "venv\Scripts\activate"
-```
 
+```bash
+python -m venv biomedqa-env
+source biomedqa-env/bin/activate  # On Windows: biomedqa-env\Scripts\activate
+```
 
 3. **Install Dependencies:**
-```
+
+```bash
 pip install -r requirements.txt
 ```
+
+### Running the System
+
+1. **Process Medical Records with SAGE:**
+
+```bash
+python src/privacy/process_mtsamples.py \
+  --input data/original/mtsamples/records \
+  --output data/synthetic/mtsamples
+```
+
+2. **Build the Vector Store:**
+
+```bash
+python src/retriever/build_vector_store.py \
+  --input data/synthetic/mtsamples \
+  --output data/vector_store/mtsamples
+```
+
+3. **Start the QA Server:**
+
+```bash
+python src/api/start_server.py \
+  --vector-store data/vector_store/mtsamples
+```
+
+4. **Query the System:**
+
+```bash
+python src/demo_query.py \
+  --vector-store data/vector_store/mtsamples \
+  --question "What are common treatments for allergic rhinitis?"
+```
+
+### Evaluation
+
+1. **Privacy Evaluation:**
+
+```bash
+python src/evaluation/evaluate_privacy.py \
+  --original data/original/mtsamples/records \
+  --synthetic data/synthetic/mtsamples \
+  --output results/privacy_evaluation
+```
+
+2. **QA Performance Evaluation:**
+
+```bash
+python src/evaluation/evaluate_qa.py \
+  --benchmark data/benchmarks/comprehensive_benchmark.json \
+  --output results/qa_evaluation
+```
+
+3. **Run Full Pipeline:**
+
+```bash
+python src/run_pipeline.py \
+  --mtsamples data/original/mtsamples/records \
+  --synthetic data/synthetic/mtsamples \
+  --vector-store data/vector_store/mtsamples \
+  --benchmark data/benchmarks/comprehensive_benchmark.json \
+  --results results
+```
+
+## Publications
+
+This project builds upon techniques presented in:
+- Med-PaLM (Singhal et al., 2022)
+- Privacy Risks in RAG (Zeng et al., 2024)
+- SAGE Framework (Zeng et al., 2024)
 
 ## License
 
@@ -63,4 +139,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-If you have any questions or suggestions, please feel free to open an issue or contact the project maintainers.
+For questions or suggestions, please open an issue or contact the project maintainers.
