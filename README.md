@@ -161,7 +161,7 @@ After running an experiment, the results will be saved in the specified output d
 
 ## License
 
-[Specify License]
+MIT
 
 ## Acknowledgements
 
