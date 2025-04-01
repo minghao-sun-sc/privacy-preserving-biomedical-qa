@@ -4,9 +4,13 @@ import numpy as np
 import faiss
 import pickle
 import json
+import re
 from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModel
 import torch
+import logging
+
+logger = logging.getLogger(__name__)
 
 class VectorStore:
     """
@@ -20,7 +24,9 @@ class VectorStore:
         self,
         embedding_model_name: str = "pritamdeka/S-PubMedBert-MS-MARCO",
         index_path: Optional[str] = None,
-        device: Optional[str] = None
+        device: Optional[str] = None,
+        chunk_size: int = 512,
+        chunk_overlap: int = 128,
     ):
         """
         Initialize the vector store with a biomedical embedding model.
@@ -29,9 +35,15 @@ class VectorStore:
             embedding_model_name: Name of the pre-trained embedding model
             index_path: Path to load existing FAISS index
             device: Device to run embedding model on ('cuda' or 'cpu')
+            chunk_size: Size of document chunks for indexing
+            chunk_overlap: Overlap between consecutive chunks
         """
         self.device = device or ('cuda' if torch.cuda.is_available() else 'cpu')
         self.embedding_model_name = embedding_model_name
+        self.chunk_size = chunk_size
+        self.chunk_overlap = chunk_overlap
+        
+        logger.info(f"Initializing VectorStore with model={embedding_model_name}, device={self.device}")
         
         # Load embedding model
         self.tokenizer = AutoTokenizer.from_pretrained(embedding_model_name)
@@ -42,10 +54,14 @@ class VectorStore:
         self.index = None
         self.documents = {}
         self.doc_ids = []
+        self.chunk_mapping = {}  # Maps chunk IDs to original document IDs
+        self.chunk_texts = {}    # Stores the text of each chunk
         
         # Load existing index if provided
         if index_path and os.path.exists(index_path):
             self.load(index_path)
+            
+        logger.info("VectorStore initialization complete")
     
     def embed_text(self, text: str) -> np.ndarray:
         """
@@ -74,6 +90,61 @@ class VectorStore:
         
         return embeddings[0]  # Return as 1D array
     
+    def _chunk_document(self, doc_id: str, text: str) -> List[Dict[str, Any]]:
+        """
+        Chunk a document into smaller pieces for more effective retrieval.
+        
+        Args:
+            doc_id: ID of the document
+            text: Document text
+            
+        Returns:
+            List of chunk dictionaries with IDs and text
+        """
+        # Split by paragraphs first
+        paragraphs = re.split(r'\n\s*\n', text)
+        
+        chunks = []
+        curr_chunk = ""
+        chunk_id = 0
+        
+        for para in paragraphs:
+            # If adding paragraph exceeds chunk size and we have content,
+            # save current chunk and start new one
+            if len(curr_chunk) + len(para) > self.chunk_size and curr_chunk:
+                chunk_dict = {
+                    "id": f"{doc_id}_chunk_{chunk_id}",
+                    "text": curr_chunk,
+                    "original_doc_id": doc_id
+                }
+                chunks.append(chunk_dict)
+                
+                # Start new chunk with overlap
+                words = curr_chunk.split()
+                if len(words) > self.chunk_overlap // 4:  # Use average word length of 4
+                    curr_chunk = " ".join(words[-self.chunk_overlap // 4:]) + " " + para
+                else:
+                    curr_chunk = para
+                    
+                chunk_id += 1
+            else:
+                # Add paragraph to current chunk
+                if curr_chunk:
+                    curr_chunk += "\n\n" + para
+                else:
+                    curr_chunk = para
+        
+        # Add the last chunk if not empty
+        if curr_chunk:
+            chunk_dict = {
+                "id": f"{doc_id}_chunk_{chunk_id}",
+                "text": curr_chunk,
+                "original_doc_id": doc_id
+            }
+            chunks.append(chunk_dict)
+        
+        return chunks
+    
     def build_index(self, documents: Dict[str, str], save_path: Optional[str] = None):
         """
         Build a FAISS index from a collection of documents.
@@ -82,16 +153,31 @@ class VectorStore:
             documents: Dictionary mapping document IDs to document texts
             save_path: Path to save the index after building
         """
-        print(f"Building vector index for {len(documents)} documents...")
+        logger.info(f"Building vector index for {len(documents)} documents...")
         
-        # Store documents and IDs
+        # Store original documents
         self.documents = documents
         self.doc_ids = list(documents.keys())
         
-        # Generate embeddings for all documents
+        # Chunk documents for better retrieval
+        all_chunks = []
+        for doc_id, text in tqdm(documents.items(), desc="Chunking documents"):
+            chunks = self._chunk_document(doc_id, text)
+            all_chunks.extend(chunks)
+            
+            # Update mapping and chunk texts
+            for chunk in chunks:
+                chunk_id = chunk["id"]
+                self.chunk_mapping[chunk_id] = doc_id
+                self.chunk_texts[chunk_id] = chunk["text"]
+        
+        # Generate embeddings for all chunks
         embeddings = []
-        for doc_id in tqdm(self.doc_ids, desc="Embedding documents"):
-            embedding = self.embed_text(documents[doc_id])
+        chunk_ids = []
+        
+        for chunk in tqdm(all_chunks, desc="Embedding chunks"):
+            chunk_ids.append(chunk["id"])
+            embedding = self.embed_text(chunk["text"])
             embeddings.append(embedding)
         
         # Convert to numpy array
@@ -99,10 +185,16 @@ class VectorStore:
         
         # Build FAISS index
         dimension = embeddings_array.shape[1]
-        self.index = faiss.IndexFlatL2(dimension)  # L2 distance index
+        
+        # Use L2 normalization and inner product for better semantic similarity
+        faiss.normalize_L2(embeddings_array)
+        self.index = faiss.IndexFlatIP(dimension)  # Inner product index (cosine similarity with normalized vectors)
         self.index.add(embeddings_array)
         
-        print(f"Index built with {self.index.ntotal} vectors of dimension {dimension}")
+        # Save chunk IDs
+        self.doc_ids = chunk_ids
+        
+        logger.info(f"Index built with {self.index.ntotal} vectors (chunks) from {len(documents)} documents")
         
         # Save index if path provided
         if save_path:
@@ -120,18 +212,30 @@ class VectorStore:
         # Save FAISS index
         faiss.write_index(self.index, os.path.join(path, "faiss.index"))
         
-        # Save document mappings
+        # Save document mappings and metadata
         with open(os.path.join(path, "documents.pkl"), "wb") as f:
             pickle.dump(self.documents, f)
         
         with open(os.path.join(path, "doc_ids.json"), "w") as f:
             json.dump(self.doc_ids, f)
             
-        # Save model name for reference
-        with open(os.path.join(path, "config.json"), "w") as f:
-            json.dump({"embedding_model": self.embedding_model_name}, f)
+        with open(os.path.join(path, "chunk_mapping.json"), "w") as f:
+            json.dump(self.chunk_mapping, f)
             
-        print(f"Vector store saved to {path}")
+        with open(os.path.join(path, "chunk_texts.pkl"), "wb") as f:
+            pickle.dump(self.chunk_texts, f)
+            
+        # Save configuration
+        config = {
+            "embedding_model": self.embedding_model_name,
+            "chunk_size": self.chunk_size,
+            "chunk_overlap": self.chunk_overlap
+        }
+            
+        with open(os.path.join(path, "config.json"), "w") as f:
+            json.dump(config, f)
+            
+        logger.info(f"Vector store saved to {path}")
     
     def load(self, path: str):
         """
@@ -154,7 +258,27 @@ class VectorStore:
         with open(os.path.join(path, "doc_ids.json"), "r") as f:
             self.doc_ids = json.load(f)
             
-        print(f"Loaded vector store with {self.index.ntotal} documents")
+        # Load chunk mappings if available
+        chunk_mapping_path = os.path.join(path, "chunk_mapping.json")
+        if os.path.exists(chunk_mapping_path):
+            with open(chunk_mapping_path, "r") as f:
+                self.chunk_mapping = json.load(f)
+                
+        # Load chunk texts if available
+        chunk_texts_path = os.path.join(path, "chunk_texts.pkl")
+        if os.path.exists(chunk_texts_path):
+            with open(chunk_texts_path, "rb") as f:
+                self.chunk_texts = pickle.load(f)
+        
+        # Load configuration if available
+        config_path = os.path.join(path, "config.json")
+        if os.path.exists(config_path):
+            with open(config_path, "r") as f:
+                config = json.load(f)
+                self.chunk_size = config.get("chunk_size", self.chunk_size)
+                self.chunk_overlap = config.get("chunk_overlap", self.chunk_overlap)
+            
+        logger.info(f"Loaded vector store with {self.index.ntotal} vectors")
     
     def search(self, query: str, k: int = 5, threshold: Optional[float] = None) -> List[Dict[str, Any]]:
         """
@@ -163,10 +287,10 @@ class VectorStore:
         Args:
             query: The search query
             k: Number of results to return
-            threshold: Optional distance threshold to filter results
+            threshold: Optional similarity threshold to filter results
             
         Returns:
-            List of dictionaries containing document ID, text, and distance
+            List of dictionaries containing document ID, text, and similarity score
         """
         if self.index is None:
             raise ValueError("No index available. Build or load an index first.")
@@ -175,21 +299,60 @@ class VectorStore:
         query_embedding = self.embed_text(query)
         query_embedding_array = np.array([query_embedding]).astype('float32')
         
-        # Search in the index
-        distances, indices = self.index.search(query_embedding_array, k)
+        # Normalize for cosine similarity
+        faiss.normalize_L2(query_embedding_array)
         
-        # Format results
-        results = []
-        for i, (distance, idx) in enumerate(zip(distances[0], indices[0])):
-            # Skip if index is invalid or distance exceeds threshold
-            if idx == -1 or (threshold is not None and distance > threshold):
+        # Search in the index
+        similarities, indices = self.index.search(query_embedding_array, k * 2)  # Get more results to deduplicate
+        
+        # Group results by original document
+        doc_scores = {}
+        doc_chunks = {}
+        
+        for i, (similarity, idx) in enumerate(zip(similarities[0], indices[0])):
+            # Skip if index is invalid or similarity is below threshold
+            if idx == -1 or (threshold is not None and similarity < threshold):
                 continue
                 
-            doc_id = self.doc_ids[idx]
+            chunk_id = self.doc_ids[idx]
+            chunk_text = self.chunk_texts.get(chunk_id, "")
+            
+            # Get original document ID from chunk mapping
+            if chunk_id in self.chunk_mapping:
+                doc_id = self.chunk_mapping[chunk_id]
+            else:
+                doc_id = chunk_id
+                
+            # Update best score for this document
+            if doc_id not in doc_scores or similarity > doc_scores[doc_id]:
+                doc_scores[doc_id] = similarity
+                
+            # Add chunk to document's chunks
+            if doc_id not in doc_chunks:
+                doc_chunks[doc_id] = []
+                
+            doc_chunks[doc_id].append({
+                "chunk_id": chunk_id,
+                "text": chunk_text,
+                "score": float(similarity)
+            })
+        
+        # Format results with deduplication
+        results = []
+        for doc_id, score in sorted(doc_scores.items(), key=lambda x: x[1], reverse=True)[:k]:
+            # Get full document text or concatenate chunks
+            if doc_id in self.documents:
+                doc_text = self.documents[doc_id]
+            else:
+                # Fallback to chunk text
+                chunks = sorted(doc_chunks[doc_id], key=lambda x: x["score"], reverse=True)
+                doc_text = "\n\n".join([c["text"] for c in chunks[:3]])  # Use top 3 chunks
+            
             results.append({
                 "id": doc_id,
-                "text": self.documents[doc_id],
-                "distance": float(distance)
+                "text": doc_text,
+                "score": float(score),
+                "chunks": doc_chunks[doc_id]
             })
         
         return results
@@ -202,22 +365,19 @@ class VectorStore:
             doc_id: ID of the document to update
             document: New document text
         """
-        if doc_id not in self.doc_ids:
-            # Add new document
-            self.doc_ids.append(doc_id)
-            self.documents[doc_id] = document
-            
-            # Generate embedding
-            embedding = self.embed_text(document)
-            embedding_array = np.array([embedding]).astype('float32')
-            
-            # Add to index
-            self.index.add(embedding_array)
-        else:
-            # For updates, we need to rebuild the index
-            # This is a limitation of FAISS for simple IndexFlatL2
-            self.documents[doc_id] = document
-            self.build_index(self.documents)
+        # For updates, we need to rebuild the index
+        self.documents[doc_id] = document
+        
+        # Remove old chunks for this document
+        old_chunk_ids = [c_id for c_id, d_id in self.chunk_mapping.items() if d_id == doc_id]
+        for chunk_id in old_chunk_ids:
+            if chunk_id in self.chunk_texts:
+                del self.chunk_texts[chunk_id]
+            if chunk_id in self.chunk_mapping:
+                del self.chunk_mapping[chunk_id]
+                
+        # Rebuild index with all documents
+        self.build_index(self.documents)
     
     def delete_document(self, doc_id: str):
         """
@@ -226,12 +386,19 @@ class VectorStore:
         Args:
             doc_id: ID of the document to remove
         """
-        if doc_id in self.doc_ids:
-            # Remove from documents and doc_ids
+        if doc_id in self.documents:
+            # Remove from documents
             del self.documents[doc_id]
-            self.doc_ids.remove(doc_id)
             
-            # Rebuild index (FAISS doesn't support direct deletion)
+            # Remove chunks associated with this document
+            chunk_ids_to_remove = [c_id for c_id, d_id in self.chunk_mapping.items() if d_id == doc_id]
+            for chunk_id in chunk_ids_to_remove:
+                if chunk_id in self.chunk_texts:
+                    del self.chunk_texts[chunk_id]
+                if chunk_id in self.chunk_mapping:
+                    del self.chunk_mapping[chunk_id]
+            
+            # Rebuild index
             self.build_index(self.documents)
         else:
-            print(f"Document {doc_id} not found.")
+            logger.warning(f"Document {doc_id} not found.")

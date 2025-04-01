@@ -44,29 +44,241 @@ class AttributeExtractor:
                 self.use_rule_based = True
                 print("Falling back to rule-based attribute extraction")
     
-    def extract_attributes(self, document: str) -> Dict[str, str]:
+    def extract_attributes(self, text: str) -> Dict[str, str]:
         """
-        Extract key attribute information from a single document.
+        Extract attributes from text.
         
         Args:
-            document: The biomedical document to analyze
+            text: The document text to extract attributes from
             
         Returns:
-            A dictionary mapping attribute names to their extracted values
+            Dictionary of attribute names and their extracted values
         """
-        # First check if this is an MTSample document with specific format
-        if "SPECIALTY:" in document or "SAMPLE TYPE:" in document:
-            attributes = self._extract_from_mtsamples(document)
+        # First, check document type to apply appropriate extraction method
+        if "CHIEF COMPLAINT" in text or "ASSESSMENT AND PLAN" in text or "HISTORY OF PRESENT ILLNESS" in text:
+            # Likely a clinical note
+            return self._extract_from_clinical_note(text)
+        elif "OPERATIVE NOTE" in text or "SURGICAL PROCEDURE" in text or "ANESTHESIA" in text:
+            # Likely a surgical note
+            return self._extract_from_surgical_note(text)
+        elif "RADIOLOGY REPORT" in text or "IMPRESSION" in text or "MRI" in text or "CT SCAN" in text:
+            # Likely a radiology report
+            return self._extract_from_radiology_report(text)
+        elif "PATHOLOGY REPORT" in text or "SPECIMEN" in text or "MICROSCOPIC" in text:
+            # Likely a pathology report
+            return self._extract_from_pathology_report(text)
+        elif "DISCHARGE SUMMARY" in text or "ADMISSION" in text or "DISCHARGE" in text:
+            # Likely a discharge summary
+            return self._extract_from_discharge_summary(text)
         else:
-            # If not a recognized format, use standard extraction
-            attributes = self._rule_based_extraction(document)
+            # Try MTSamples extraction first (most common)
+            mtsamples_attrs = self._extract_from_mtsamples(text)
             
-        # For any empty attributes, try to infer from document content
-        self._infer_missing_attributes(document, attributes)
+            # If we couldn't get good attributes from MTSamples, try other methods
+            meaningful_attrs = sum(1 for v in mtsamples_attrs.values() if v and len(v.strip()) > 10)
+            
+            if meaningful_attrs >= 2:
+                return mtsamples_attrs
+            
+            # Try section-based extraction as fallback
+            return self._extract_from_sections(text)
+    
+    def _extract_from_sections(self, text: str) -> Dict[str, str]:
+        """
+        Extract attributes from any medical document using section headers.
+        This is a robust fallback method that looks for common section headers.
+        
+        Args:
+            text: The document text to extract from
+            
+        Returns:
+            Dictionary of attribute names and their extracted values
+        """
+        # Initialize attributes dictionary
+        attributes = {
+            "Diagnosis": "",
+            "Symptoms": "",
+            "Treatment": "",
+            "Medications": "",
+            "Medical History": "",
+            "Physical Examination": "",
+            "Lab Results": "",
+            "Imaging": "",
+            "Procedure": "",
+            "Findings": "",
+            "Assessment": "",
+            "Plan": ""
+        }
+        
+        # Common section headers and their mapping to our attributes
+        section_mapping = {
+            # Diagnosis sections
+            r"(?:FINAL )?DIAGNOSIS": "Diagnosis",
+            r"IMPRESSION": "Diagnosis",
+            r"ASSESSMENT": "Diagnosis",
+            
+            # Symptoms sections
+            r"CHIEF COMPLAINT": "Symptoms",
+            r"(HISTORY|HX) OF PRESENT ILLNESS": "Symptoms",
+            r"PRESENT(ING)? ILLNESS": "Symptoms",
+            r"PRESENTING COMPLAINT": "Symptoms",
+            r"SYMPTOMS?": "Symptoms",
+            
+            # Treatment sections
+            r"TREATMENT( PLAN)?": "Treatment",
+            r"PLAN": "Treatment",
+            r"RECOMMENDATION": "Treatment",
+            r"DISPOSITION": "Treatment",
+            
+            # Medication sections
+            r"MEDICATIONS?": "Medications",
+            r"DRUGS?": "Medications",
+            r"PRESCRIPTIONS?": "Medications",
+            
+            # Medical history sections
+            r"(?:PAST )?MEDICAL HISTORY": "Medical History",
+            r"PMH": "Medical History",
+            r"HISTORY": "Medical History",
+            
+            # Physical examination sections
+            r"PHYSICAL (?:EXAM|EXAMINATION)": "Physical Examination",
+            r"EXAMINATION": "Physical Examination",
+            r"EXAM": "Physical Examination",
+            
+            # Lab results sections
+            r"LAB(?:ORATORY)? (?:RESULTS|DATA|FINDINGS)": "Lab Results",
+            r"LABORATORY": "Lab Results",
+            r"LABS?": "Lab Results",
+            
+            # Imaging sections
+            r"IMAGING(?: STUDIES)?": "Imaging",
+            r"RADIOLOGY": "Imaging",
+            r"(?:CT|MRI|ULTRASOUND|XRAY|X-RAY)": "Imaging",
+            
+            # Procedure sections
+            r"PROCEDURE": "Procedure",
+            r"OPERATION": "Procedure",
+            r"SURGICAL TECHNIQUE": "Procedure",
+            r"TECHNIQUE": "Procedure",
+            
+            # Findings sections
+            r"FINDINGS": "Findings",
+            r"RESULTS": "Findings",
+            r"OBSERVATIONS?": "Findings",
+        }
+        
+        # Extract content from each section
+        for section_pattern, attribute in section_mapping.items():
+            # Look for the section header followed by content until the next section header
+            pattern = f"(?:{section_pattern})[:.]?\\s*(.*?)(?=\\n\\s*[A-Z][A-Z\\s]+[:.]|$)"
+            matches = re.findall(pattern, text, re.IGNORECASE | re.DOTALL)
+            
+            if matches:
+                # Use the longest match as it's likely the most complete
+                longest_match = max(matches, key=len)
+                content = longest_match.strip()
+                
+                # Clean up the content
+                content = re.sub(r'\s+', ' ', content)  # Normalize whitespace
+                content = re.sub(r'^\s*-\s*', '', content)  # Remove leading dashes
+                
+                # Only update if we found meaningful content and it's longer than existing
+                if content and len(content) > 5 and len(content) > len(attributes[attribute]):
+                    attributes[attribute] = content[:1000]  # Limit length
+        
+        # Special handling for procedure notes, which often contain the treatment
+        if attributes["Procedure"] and not attributes["Treatment"]:
+            attributes["Treatment"] = attributes["Procedure"]
+        
+        # Special handling for assessment and plan, which are often combined
+        assessment_plan_pattern = r"ASSESSMENT AND PLAN[:.]?\s*(.*?)(?=\n\s*[A-Z][A-Z\s]+[:.]|$)"
+        a_p_matches = re.findall(assessment_plan_pattern, text, re.IGNORECASE | re.DOTALL)
+        
+        if a_p_matches:
+            content = max(a_p_matches, key=len).strip()
+            if content:
+                # Try to split into assessment and plan
+                parts = re.split(r'\n\s*(?:PLAN|RECOMMENDATION|DISPOSITION)[:.]?', content, flags=re.IGNORECASE)
+                if len(parts) > 1:
+                    # We found a separate plan section
+                    if not attributes["Diagnosis"]:
+                        attributes["Diagnosis"] = parts[0].strip()[:1000]
+                    if not attributes["Treatment"]:
+                        attributes["Treatment"] = parts[1].strip()[:1000]
+                else:
+                    # It's combined, so use the whole thing for both if they're empty
+                    if not attributes["Diagnosis"]:
+                        attributes["Diagnosis"] = content[:1000]
+                    if not attributes["Treatment"]:
+                        attributes["Treatment"] = content[:1000]
+        
+        # Extract key medical terms
+        medical_terms = self._extract_medical_terms(text)
+        
+        # If diagnosis is still empty, use the top medical terms
+        if not attributes["Diagnosis"] and medical_terms:
+            attributes["Diagnosis"] = "Medical assessment involving: " + ", ".join(medical_terms[:5])
         
         return attributes
     
-    # Improved attribute extraction in AttributeExtractor class
+    def _extract_medical_terms(self, text: str) -> List[str]:
+        """
+        Extract medical terms from text using pattern matching.
+        
+        Args:
+            text: The document text
+            
+        Returns:
+            List of extracted medical terms
+        """
+        # Common medical conditions and procedures
+        medical_conditions = [
+            "hypertension", "diabetes", "asthma", "COPD", "arthritis", 
+            "depression", "anxiety", "cancer", "coronary artery disease",
+            "congestive heart failure", "stroke", "myocardial infarction",
+            "pneumonia", "urinary tract infection", "chronic kidney disease",
+            "osteoporosis", "Alzheimer's", "Parkinson's", "multiple sclerosis",
+            "epilepsy", "hypothyroidism", "hyperthyroidism", "anemia", "lupus",
+            "rheumatoid arthritis", "fibromyalgia", "migraine", "gastritis",
+            "ulcerative colitis", "Crohn's disease", "hepatitis", "cirrhosis",
+            "appendicitis", "diverticulitis", "gallstones", "pancreatitis",
+            "gastroesophageal reflux disease", "GERD", "influenza", "bronchitis",
+            "sinusitis", "tonsillitis", "otitis media", "conjunctivitis",
+            "dermatitis", "eczema", "psoriasis", "gout", "sciatica", "herniated disc",
+            "fracture", "sprain", "strain", "concussion", "traumatic brain injury"
+        ]
+        
+        # Common medical procedures
+        medical_procedures = [
+            "surgery", "operation", "procedure", "incision", "excision",
+            "biopsy", "resection", "transplant", "implant", "extraction",
+            "amputation", "angioplasty", "bypass", "catheterization",
+            "endoscopy", "colonoscopy", "esophagogastroduodenoscopy", "bronchoscopy",
+            "cystoscopy", "laparoscopy", "thoracoscopy", "arthroscopy",
+            "MRI", "CT scan", "X-ray", "ultrasound", "echocardiogram",
+            "electrocardiogram", "EKG", "ECG", "EEG", "electromyography",
+            "mammogram", "PET scan", "bone density scan", "stress test"
+        ]
+        
+        # Create combined patterns for searching
+        conditions_pattern = r'\b(?:' + '|'.join(medical_conditions) + r')\b'
+        procedures_pattern = r'\b(?:' + '|'.join(medical_procedures) + r')\b'
+        
+        # Find matches
+        condition_matches = re.findall(conditions_pattern, text.lower())
+        procedure_matches = re.findall(procedures_pattern, text.lower())
+        
+        # Count occurrences
+        term_counts = {}
+        for term in condition_matches + procedure_matches:
+            term_counts[term] = term_counts.get(term, 0) + 1
+        
+        # Sort by frequency
+        sorted_terms = sorted(term_counts.items(), key=lambda x: x[1], reverse=True)
+        
+        # Return just the terms
+        return [term for term, count in sorted_terms]
+    
     def _extract_from_mtsamples(self, document: str) -> Dict[str, str]:
         """Extract attributes from MTSamples formatted document"""
         # Initialize attribute dictionary

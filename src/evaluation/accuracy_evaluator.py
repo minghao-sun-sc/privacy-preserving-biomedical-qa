@@ -206,6 +206,156 @@ class AccuracyEvaluator:
         # Run standard evaluation
         return self.evaluate()
     
+    def evaluate_with_comprehensive_benchmark(self, benchmark_path: str) -> Dict[str, Any]:
+        """
+        Evaluate the QA system using a comprehensive benchmark file.
+        
+        Args:
+            benchmark_path: Path to comprehensive benchmark file
+            
+        Returns:
+            Dictionary with evaluation results
+        """
+        import requests
+        import time
+        
+        if not os.path.exists(benchmark_path):
+            print(f"Error: Benchmark file {benchmark_path} does not exist.")
+            return {}
+            
+        # Load benchmark data
+        with open(benchmark_path, 'r') as f:
+            benchmark = json.load(f)
+            
+        # Get questions list
+        if isinstance(benchmark, dict) and "questions" in benchmark:
+            questions = benchmark["questions"]
+        elif isinstance(benchmark, list):
+            questions = benchmark
+        else:
+            print(f"Error: Unrecognized benchmark format in {benchmark_path}")
+            return {}
+            
+        results = []
+        
+        print(f"Evaluating {len(questions)} questions from benchmark...")
+        for q in tqdm(questions):
+            question = q.get("question", "")
+            expected_keywords = q.get("expected_keywords", [])
+            reference_answer = q.get("answer", "")
+            
+            if not question:
+                continue
+                
+            # Query API
+            try:
+                start_time = time.time()
+                response = requests.post(
+                    self.api_url, 
+                    json={"query": question},
+                    timeout=300  # 5 minute timeout
+                )
+                end_time = time.time()
+                
+                if response.status_code != 200:
+                    print(f"Error: {response.status_code} - {response.text}")
+                    results.append({
+                        "question": question,
+                        "error": f"API error: {response.status_code}",
+                        "expected_keywords": expected_keywords,
+                        "score": 0,
+                        "response_time": end_time - start_time
+                    })
+                    continue
+                    
+                response_data = response.json()
+                answer = response_data.get("answer", "")
+                
+                # Calculate score based on keywords or reference answer
+                if expected_keywords:
+                    # Keyword-based evaluation
+                    score = self._calculate_keyword_score(answer, expected_keywords)
+                elif reference_answer:
+                    # Reference answer-based evaluation
+                    try:
+                        from rouge import Rouge
+                        rouge = Rouge()
+                        rouge_scores = rouge.get_scores(answer, reference_answer)[0]
+                        score = rouge_scores["rouge-l"]["f"]
+                    except Exception:
+                        # Fallback to basic matching
+                        score = self._calculate_simple_match_score(answer, reference_answer)
+                else:
+                    # No reference for evaluation
+                    score = 0 if not answer else 0.5  # Give partial credit if there's any answer
+                
+                results.append({
+                    "question": question,
+                    "answer": answer,
+                    "expected_keywords": expected_keywords,
+                    "reference_answer": reference_answer,
+                    "score": score,
+                    "response_time": end_time - start_time
+                })
+                
+            except Exception as e:
+                print(f"Error querying API for question: {question}")
+                print(f"Error details: {str(e)}")
+                results.append({
+                    "question": question,
+                    "error": str(e),
+                    "expected_keywords": expected_keywords,
+                    "score": 0,
+                    "response_time": 0
+                })
+        
+        # Calculate metrics
+        scores = [r["score"] for r in results if "score" in r]
+        avg_score = sum(scores) / len(scores) if scores else 0
+        response_times = [r["response_time"] for r in results if "response_time" in r]
+        avg_response_time = sum(response_times) / len(response_times) if response_times else 0
+        
+        summary = {
+            "total_questions": len(questions),
+            "questions_evaluated": len(results),
+            "average_score": avg_score,
+            "average_response_time": avg_response_time
+        }
+        
+        # Save results
+        os.makedirs(self.output_dir, exist_ok=True)
+        with open(os.path.join(self.output_dir, "qa_results.json"), "w") as f:
+            json.dump({"results": results, "summary": summary}, f, indent=2)
+            
+        print(f"QA Evaluation complete. Results saved to {os.path.join(self.output_dir, 'qa_results.json')}")
+        print(f"Average score: {avg_score:.2f}, Average response time: {avg_response_time:.2f}s")
+        
+        return {"results": results, "summary": summary}
+        
+    def _calculate_keyword_score(self, answer, expected_keywords):
+        """Calculate a score based on how many expected keywords are in the answer"""
+        if not answer or not expected_keywords:
+            return 0
+            
+        answer = answer.lower()
+        count = sum(1 for keyword in expected_keywords if keyword.lower() in answer)
+        return count / len(expected_keywords)
+        
+    def _calculate_simple_match_score(self, answer, reference_answer):
+        """Calculate a simple match score between answer and reference"""
+        if not answer or not reference_answer:
+            return 0
+            
+        # Simple word overlap
+        answer_words = set(answer.lower().split())
+        reference_words = set(reference_answer.lower().split())
+        
+        if not reference_words:
+            return 0
+            
+        overlap = len(answer_words.intersection(reference_words))
+        return overlap / len(reference_words)
+        
     def generate_test_data(self, num_questions: int = 100, output_path: Optional[str] = None) -> List[Dict[str, str]]:
         """
         Generate test data with biomedical questions and reference answers.

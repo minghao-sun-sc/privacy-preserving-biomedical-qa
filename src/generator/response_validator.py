@@ -1,157 +1,172 @@
 from typing import Dict, List, Optional, Union, Any
 import re
+import logging
+
+logger = logging.getLogger(__name__)
 
 class ResponseValidator:
     """
-    Validator for checking generated responses for medical accuracy and safety.
-    
-    This class processes generated responses to verify citations, check for
-    potential hallucinations, and ensure medical accuracy.
+    Validator for checking and cleaning responses from the biomedical QA system.
     """
     
-    def __init__(
-        self,
-        require_citations: bool = True,
-        check_hallucinations: bool = True
-    ):
+    def __init__(self, config=None):
         """
         Initialize the response validator.
         
         Args:
-            require_citations: Whether to require citations to context
-            check_hallucinations: Whether to check for potential hallucinations
+            config: Configuration dictionary
         """
-        self.require_citations = require_citations
-        self.check_hallucinations = check_hallucinations
+        self.config = config or {}
+        self.min_answer_length = self.config.get("min_answer_length", 10)
+        self.max_answer_length = self.config.get("max_answer_length", 1000)
+        self.apply_formatting = self.config.get("apply_formatting", True)
+        
+        logger.info(f"Initialized ResponseValidator with min_length={self.min_answer_length}, max_length={self.max_answer_length}")
     
-    def validate(
-        self,
-        response: str,
-        query: str,
-        context: str,
-        context_documents: List[Dict[str, Any]]
-    ) -> Dict[str, Any]:
+    def validate(self, 
+                 answer: str, 
+                 question: str, 
+                 context: str,
+                 results: List[Dict[str, Any]]) -> Dict[str, Any]:
         """
-        Validate a generated response.
+        Validate and clean a generated answer.
         
         Args:
-            response: Generated response
-            query: Original query
-            context: Retrieved context
-            context_documents: List of context documents with metadata
+            answer: The generated answer
+            question: The original question
+            context: The context used for generation
+            results: The retrieval results
             
         Returns:
-            Dictionary with validation results
+            Dictionary with validation results and cleaned answer
         """
-        # Initialize validation results
-        results = {
+        logger.info(f"Validating answer of length {len(answer)}")
+        
+        # Clean the answer
+        cleaned_answer = self.clean_answer(answer)
+        
+        # Calculate quality metrics
+        validation_results = self.calculate_quality_metrics(cleaned_answer, question, context, results)
+        
+        # Update the answer in the validation results
+        validation_results["answer"] = cleaned_answer
+        
+        logger.info(f"Validation complete, cleaned answer length: {len(cleaned_answer)}")
+        return validation_results
+    
+    def clean_answer(self, answer: str) -> str:
+        """
+        Clean and format the answer by removing artifacts and standardizing formatting.
+        
+        Args:
+            answer: The answer to clean
+            
+        Returns:
+            Cleaned answer
+        """
+        if not answer:
+            return ""
+        
+        # Remove XML/HTML-like tags
+        cleaned = re.sub(r'<[^>]+>', ' ', answer)
+        
+        # Remove special Unicode block characters
+        cleaned = re.sub(r'[\u2580-\u259F]', '', cleaned)
+        
+        # Remove FREETEXT, ABSTRACT, PARAGRAPH markers
+        cleaned = re.sub(r'(FREETEXT|ABSTRACT|PARAGRAPH)', '', cleaned)
+        
+        # Remove strange numbering patterns like "1 0. 5" or "1 2. 3 4"
+        cleaned = re.sub(r'\b\d+\s+\d+\b', lambda m: m.group().replace(' ', ''), cleaned)
+        
+        # Fix spacing around punctuation
+        cleaned = re.sub(r'\s+([.,;:!?)])', r'\1', cleaned)
+        cleaned = re.sub(r'([({])\s+', r'\1', cleaned)
+        
+        # Remove repeated whitespace
+        cleaned = re.sub(r'\s+', ' ', cleaned)
+        
+        # Remove common synthetic data markers
+        cleaned = re.sub(r'NOTE: This is a synthetic medical document with fictional patient details created for privacy-preserving information retrieval\.?', '', cleaned)
+        cleaned = re.sub(r'Question: .*? Answer:', '', cleaned)
+        
+        # Remove repeated questions
+        question_pattern = r'Question: .+?\?'
+        cleaned = re.sub(question_pattern, '', cleaned)
+        
+        # Remove trailing citations and references
+        cleaned = re.sub(r'\[PubMed\]|\[Google Scholar\]|\[PMC free article\]', '', cleaned)
+        cleaned = re.sub(r'\[\d+\]', '', cleaned)
+        
+        # Remove any text looking like URLs or broken URLs
+        cleaned = re.sub(r'https?:\/\/\S+|www\.\S+', '', cleaned)
+        cleaned = re.sub(r'https?\s*:\s*\/\s*\/\s*\S+', '', cleaned)
+        
+        # Check if result is too short after cleaning
+        if len(cleaned.strip()) < self.min_answer_length:
+            return "Insufficient information was found to answer this question accurately."
+            
+        # Truncate if too long
+        if len(cleaned) > self.max_answer_length:
+            cleaned = cleaned[:self.max_answer_length] + "..."
+            
+        return cleaned.strip()
+    
+    def calculate_quality_metrics(self, 
+                                  answer: str, 
+                                  question: str,
+                                  context: str,
+                                  results: List[Dict[str, Any]]) -> Dict[str, Any]:
+        """
+        Calculate quality metrics for the answer.
+        
+        Args:
+            answer: The generated answer
+            question: The original question
+            context: The context used for generation
+            results: The retrieval results
+            
+        Returns:
+            Dictionary with quality metrics
+        """
+        # Initialize metrics
+        metrics = {
+            "length": len(answer),
             "is_valid": True,
-            "warnings": [],
-            "citations_found": [],
-            "missing_citations": [],
-            "potential_hallucinations": []
+            "issues": []
         }
         
-        # Check for citations
-        if self.require_citations:
-            self._validate_citations(response, context, context_documents, results)
+        # Check if answer is too short
+        if len(answer) < self.min_answer_length:
+            metrics["is_valid"] = False
+            metrics["issues"].append("Answer is too short")
         
-        # Check for hallucinations
-        if self.check_hallucinations:
-            self._check_hallucinations(response, context, results)
+        # Check if answer is too long
+        if len(answer) > self.max_answer_length:
+            metrics["is_valid"] = False
+            metrics["issues"].append("Answer is too long")
         
-        # Set overall validity
-        results["is_valid"] = len(results["warnings"]) == 0
+        # Check if answer contains hallmarks of truncation
+        if re.search(r'ce: p|ce:p|<\/|\\u', answer):
+            metrics["is_valid"] = False
+            metrics["issues"].append("Answer contains formatting artifacts")
         
-        return results
-    
-    def _validate_citations(
-        self,
-        response: str,
-        context: str,
-        context_documents: List[Dict[str, Any]],
-        results: Dict[str, Any]
-    ):
-        """
-        Validate that claims in the response are supported by citations.
+        # Check for synthetic data indicators
+        if "synthetic" in answer.lower() or "fictional" in answer.lower():
+            metrics["contains_synthetic_indicator"] = True
         
-        Args:
-            response: Generated response
-            context: Retrieved context
-            context_documents: List of context documents with metadata
-            results: Dictionary to store validation results
-        """
-        # Extract citation references from the response
-        citation_pattern = r'\[([^]]+)\]'
-        citations = re.findall(citation_pattern, response)
+        # Check relevance to question
+        question_keywords = set(re.findall(r'\b\w+\b', question.lower()))
+        answer_keywords = set(re.findall(r'\b\w+\b', answer.lower()))
+        keyword_overlap = len(question_keywords.intersection(answer_keywords))
+        metrics["question_relevance"] = keyword_overlap / len(question_keywords) if question_keywords else 0
         
-        if not citations and len(context_documents) > 0:
-            results["warnings"].append("No citations found in response.")
-            return
+        # Check if answer is actually answering the question
+        is_yes_no_question = any(question.lower().startswith(w) for w in ["is", "are", "does", "do", "can", "could", "should", "would", "has", "have"])
+        contains_yes_no = re.search(r'\b(yes|no)\b', answer.lower()) is not None
         
-        # Check if citations refer to actual context documents
-        for citation in citations:
-            citation_found = False
-            for i, doc in enumerate(context_documents, 1):
-                source_label = f"[{doc['source'].capitalize()} {i}]"
-                if citation == source_label or citation in source_label:
-                    citation_found = True
-                    results["citations_found"].append({
-                        "citation": citation,
-                        "document_id": doc.get("metadata", {}).get("id", ""),
-                        "source": doc["source"]
-                    })
-                    break
+        if is_yes_no_question and not contains_yes_no and len(answer) < 100:
+            metrics["is_valid"] = False
+            metrics["issues"].append("Yes/No question without clear Yes/No answer")
             
-            if not citation_found:
-                results["warnings"].append(f"Citation {citation} does not match any context document.")
-                results["missing_citations"].append(citation)
-    
-    def _check_hallucinations(
-        self,
-        response: str,
-        context: str,
-        results: Dict[str, Any]
-    ):
-        """
-        Check for potential hallucinations in the response.
-        
-        Args:
-            response: Generated response
-            context: Retrieved context
-            results: Dictionary to store validation results
-        """
-        # Split response and context into sentences
-        response_sentences = [s.strip() for s in re.split(r'[.!?]+', response) if s.strip()]
-        
-        # Check for statements that claim specific facts not in context
-        medical_fact_patterns = [
-            r'studies (show|demonstrate|indicate|reveal)',
-            r'research (has shown|demonstrates|indicates|reveals)',
-            r'according to',
-            r'(statistically|significantly) (higher|lower|increased|decreased)',
-            r'(recommended|approved) (dosage|dose|treatment)',
-            r'clinical (trials|studies) (show|demonstrate|confirm)',
-            r'(standard|common) (treatment|protocol)',
-            r'(effective|efficacy|efficiency) (of|for|in) (treating|treatment)',
-            r'(administered|prescribed) (to patients|for)',
-            r'(causes|caused by|results from|leads to)',
-            r'(risk|risks) (of|for|include|factor|factors)',
-        ]
-
-        for sentence in response_sentences:
-            for pattern in medical_fact_patterns:
-                if re.search(pattern, sentence, re.IGNORECASE):
-                    # Check if similar information exists in context
-                    found_in_context = False
-                    for context_sentence in re.split(r'[.!?]+', context):
-                        # Simple similarity check
-                        common_words = set(sentence.lower().split()) & set(context_sentence.lower().split())
-                        if len(common_words) >= 3:  # At least 3 common words
-                            found_in_context = True
-                            break
-                    
-                    if not found_in_context:
-                        results["warnings"].append(f"Potential hallucination: '{sentence}'")
-                        results["potential_hallucinations"].append(sentence)
-                        break
+        return metrics

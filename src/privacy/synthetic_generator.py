@@ -4,6 +4,7 @@ from typing import Dict, List, Optional, Any
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import re
+import random
 
 class SyntheticGenerator:
     """
@@ -219,8 +220,68 @@ class SyntheticGenerator:
     
     def _generate_imaging_report(self, attributes: Dict[str, str]) -> str:
         """Generate a synthetic imaging report"""
-        # Implementation for imaging reports
-        return self._generate_procedure_report(attributes)
+        diagnosis = attributes.get("Diagnosis", "").strip()
+        treatment = attributes.get("Treatment", "").strip()
+        symptoms = attributes.get("Symptoms", "").strip()
+        findings = attributes.get("Findings", "").strip()
+        
+        # Determine imaging type
+        imaging_type = "diagnostic imaging"
+        for img_type in ["MRI", "CT", "X-ray", "Ultrasound", "PET", "Mammogram", "Fluoroscopy"]:
+            if img_type.lower() in treatment.lower():
+                imaging_type = img_type
+                break
+        
+        # Create report with variable content
+        report = f"SYNTHETIC IMAGING REPORT - {imaging_type.upper()}\n\n"
+        
+        # Patient info with variation
+        report += "PATIENT INFORMATION:\n"
+        report += f"A patient was seen for {imaging_type} examination.\n\n"
+        
+        # Procedure with specific details
+        report += "PROCEDURE:\n"
+        if treatment and len(treatment) > 10:
+            clean_treatment = re.sub(r'\.\.\.', '', treatment)
+            report += f"{clean_treatment}\n\n"
+        else:
+            report += f"{imaging_type.capitalize()} study\n\n"
+        
+        # Add indication if symptoms exist
+        if symptoms and len(symptoms) > 5:
+            report += "INDICATION:\n"
+            report += f"{symptoms}\n\n"
+        
+        # Findings with details from the original document
+        report += "FINDINGS:\n"
+        if findings and len(findings) > 10:
+            clean_findings = re.sub(r'\.\.\.', '', findings)
+            report += f"{clean_findings}\n\n"
+        elif diagnosis and len(diagnosis) > 10:
+            clean_diagnosis = re.sub(r'\.\.\.', '', diagnosis)
+            report += f"{clean_diagnosis}\n\n"
+        else:
+            report += f"The {imaging_type} study was performed according to protocol. "
+            report += f"Images were technically adequate for interpretation.\n\n"
+        
+        # Conclusion with variation
+        report += "CONCLUSION:\n"
+        conclusions = [
+            f"Study completed successfully. Findings as described above.",
+            f"The {imaging_type} examination reveals findings as detailed above.",
+            f"This {imaging_type} study demonstrates the findings described above.",
+            f"Findings are consistent with the clinical presentation.",
+            f"Further clinical correlation is recommended."
+        ]
+        
+        # Pick 1-3 random conclusions
+        selected_conclusions = random.sample(conclusions, min(3, len(conclusions)))
+        report += " ".join(selected_conclusions) + "\n\n"
+        
+        # Add synthetic note
+        report += "NOTE: This is a synthetic medical document with fictional patient details created for privacy-preserving information retrieval."
+        
+        return report
     
     def _generate_surgical_report(self, attributes: Dict[str, str]) -> str:
         """Generate a synthetic surgical report"""
@@ -443,66 +504,102 @@ SYNTHETIC {doc_type.upper()}:
         return text.strip()
     
     def _generate_minimal_note(self) -> str:
-        """Generate a minimal medical note when no attributes are available"""
-        return """
-SYNTHETIC CLINICAL NOTE
-
-This is a synthetic medical record generated for demonstration purposes.
-No specific medical information was available in the source document.
-
-ASSESSMENT:
-Patient seen for routine medical care. No specific medical conditions identified.
-
-PLAN:
-Continue current management. Follow up as needed.
-
-NOTE: This is a synthetic medical document with fictional patient details created for privacy-preserving information retrieval.
-"""
+        """Generate a minimal but valid synthetic document when attributes are missing"""
+        # Create several possible template variations
+        templates = [
+            "SYNTHETIC CLINICAL NOTE\n\nPATIENT INFORMATION:\nA patient was seen for medical evaluation.\n\nASSESSMENT:\nLimited clinical information available for assessment.\n\nPLAN:\nRecommended follow-up as clinically indicated.\n\nNOTE: This is a synthetic medical document with fictional patient details created for privacy-preserving information retrieval.",
+            
+            "SYNTHETIC MEDICAL RECORD\n\nPATIENT INFORMATION:\nPatient presented for clinical evaluation.\n\nCLINICAL NOTES:\nInsufficient clinical data available for comprehensive assessment.\n\nIMPRESSION:\nClinical correlation recommended.\n\nNOTE: This is a synthetic medical document with fictional patient details created for privacy-preserving information retrieval.",
+            
+            "SYNTHETIC HEALTH RECORD\n\nPATIENT INFORMATION:\nA patient was evaluated in the clinical setting.\n\nCLINICAL SUMMARY:\nLimited clinical information available at this time.\n\nRECOMMENDATIONS:\nContinue standard of care based on clinical presentation.\n\nNOTE: This is a synthetic medical document with fictional patient details created for privacy-preserving information retrieval."
+        ]
+        
+        # Choose a random template
+        random.seed()  # Use system time for true randomness
+        return random.choice(templates)
     
     def _generate_fallback_document(self, attributes: Dict[str, str]) -> str:
         """
-        Generate a fallback document when other generation methods fail.
+        Generate a fallback document when other methods fail
         
         Args:
             attributes: Dictionary of attribute names and their values
             
         Returns:
-            A synthetically generated document using templates
+            Synthetic document with basic clinical information
         """
-        # Create a template-based document
-        synthetic_doc = "SYNTHETIC CLINICAL NOTE\n\n"
+        # Use attributes hash to create deterministic but varied documents
+        random.seed(hash(str(attributes)) % 10000)
         
-        # Add fictional patient details
-        synthetic_doc += "PATIENT INFORMATION:\n"
-        synthetic_doc += "A patient was seen at the medical facility.\n\n"
+        # Extract the most reliable attributes for content
+        diagnosis = attributes.get("Diagnosis", "").strip()
+        symptoms = attributes.get("Symptoms", "").strip()
+        treatment = attributes.get("Treatment", "").strip()
         
-        # Add sections for attributes that have content
-        if attributes.get("Diagnosis"):
-            synthetic_doc += f"DIAGNOSIS:\n{attributes['Diagnosis']}\n\n"
-            
-        if attributes.get("Symptoms"):
-            synthetic_doc += f"CHIEF COMPLAINT:\n{attributes['Symptoms']}\n\n"
-            
-        if attributes.get("Medical History"):
-            synthetic_doc += f"MEDICAL HISTORY:\n{attributes['Medical History']}\n\n"
-            
-        if attributes.get("Medications"):
-            synthetic_doc += f"MEDICATIONS:\n{attributes['Medications']}\n\n"
-            
-        if attributes.get("Lab Results"):
-            synthetic_doc += f"LABORATORY RESULTS:\n{attributes['Lab Results']}\n\n"
-            
-        if attributes.get("Treatment"):
-            synthetic_doc += f"TREATMENT/PLAN:\n{attributes['Treatment']}\n\n"
+        # Determine document type based on content
+        document_type = self._determine_document_type(attributes)
         
-        # Add a generic conclusion if no treatments specified
-        if not attributes.get("Treatment"):
-            synthetic_doc += "PLAN:\nPatient advised on appropriate care. Follow up as clinically indicated.\n\n"
+        # Generate random ID to ensure uniqueness
+        doc_id = f"{random.randint(10000, 99999)}"
+        
+        # Create report header with variation
+        headers = [
+            f"SYNTHETIC {document_type.upper()} REPORT #{doc_id}",
+            f"SYNTHETIC {document_type.upper()} NOTE #{doc_id}",
+            f"SYNTHETIC {document_type.upper()} DOCUMENT #{doc_id}"
+        ]
+        report = f"{random.choice(headers)}\n\n"
+        
+        # Patient section with variation
+        patient_intros = [
+            "A patient was seen for medical evaluation and management.",
+            "Patient presented for clinical assessment.",
+            "A patient was evaluated in the clinical setting.",
+            f"Patient was seen for {document_type.lower()} evaluation.",
+        ]
+        report += "PATIENT INFORMATION:\n"
+        report += f"{random.choice(patient_intros)}\n\n"
+        
+        # Clinical sections with variation and content from attributes
+        section_names = ["PROCEDURE", "ASSESSMENT", "FINDINGS", "CLINICAL NOTES", "IMPRESSION"]
+        random.shuffle(section_names)
+        
+        for i, section in enumerate(section_names[:3]):  # Use only 3 random sections
+            report += f"{section}:\n"
+            
+            # Add content based on available attributes
+            if i == 0 and treatment:
+                report += f"{treatment[:300]}\n\n"
+            elif i == 1 and diagnosis:
+                report += f"{diagnosis[:300]}\n\n"
+            elif i == 2 and symptoms:
+                report += f"{symptoms[:300]}\n\n"
+            else:
+                # Fallback content with variation
+                fallbacks = [
+                    "Standard clinical protocols were followed.",
+                    "The procedure was completed according to guidelines.",
+                    "Clinical evaluation was performed.",
+                    "Findings were documented in the clinical record.",
+                    "Assessment was completed as per standard protocol."
+                ]
+                report += f"{random.choice(fallbacks)}\n\n"
+        
+        # Conclusion with variation
+        conclusions = [
+            "Findings as noted above. Clinical correlation recommended.",
+            "Clinical correlation and appropriate follow-up recommended.",
+            "Follow-up care as clinically indicated.",
+            "Management plan to be determined based on clinical presentation.",
+            "Further evaluation may be warranted based on clinical course."
+        ]
+        report += "CONCLUSION:\n"
+        report += f"{random.choice(conclusions)}\n\n"
         
         # Add synthetic note
-        synthetic_doc += "NOTE: This is a synthetic medical document with fictional patient details created for privacy-preserving information retrieval."
+        report += "NOTE: This is a synthetic medical document with fictional patient details created for privacy-preserving information retrieval."
         
-        return synthetic_doc
+        return report
     
     def batch_generate(self, batch_attributes: List[Dict[str, str]]) -> List[str]:
         """
