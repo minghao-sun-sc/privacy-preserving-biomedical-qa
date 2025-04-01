@@ -1,0 +1,48 @@
+{
+  "id": "5a6e4136b750ff4455000045",
+  "type": "summary",
+  "question": "Describe the Match BAM to VCF (MBV) method.",
+  "ideal_answer": "MBV (Match BAM to VCF) is a method to quickly solve sample mislabeling and detect cross-sample contamination and PCR amplification bias.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28186259"
+  ],
+  "snippets": [
+    {
+      "text": "MBV: a method to solve sample mislabeling and detect technical bias in large combined genotype and sequencing assay datasets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28186259",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We described here MBV (Match BAM to VCF); a method to quickly solve sample mislabeling and detect cross-sample contamination and PCR amplification bias.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28186259",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "<b>Motivation</b>: Large genomic datasets combining genotype and sequence data, such as for expression quantitative trait loci (eQTL) detection, require perfect matching between both data types.<br><b>Results</b>: We described here MBV (Match BAM to VCF); a method to quickly solve sample mislabeling and detect cross-sample contamination and PCR amplification bias.<br><b>Availability and Implementation</b>: MBV is implemented in C\u2009++\u2009as an independent component of the QTLtools software package, the binary and source codes are freely available at https://qtltools.github.io/qtltools/ .<br><b>Contact</b>: olivier.delaneau@unige.ch or emmanouil.dermitzakis@unige.ch.<br><b>Supplementary information</b>: Supplementary data are available at Bioinformatics online.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28186259",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Results We described here MBV (Match BAM to VCF); a method to quickly solve sample mislabeling and detect cross-sample contamination and PCR amplification bias.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28186259",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We described here MBV (Match BAM to VCF); a method to quickly solve sample mislabeling and detect cross-sample contamination and PCR amplification bias.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28186259",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MBV: a method to solve sample mislabeling and detect technical bias in large combined genotype and sequencing assay datasets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28186259",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": []
+}

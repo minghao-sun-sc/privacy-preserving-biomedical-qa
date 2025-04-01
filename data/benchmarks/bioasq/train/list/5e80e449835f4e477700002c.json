@@ -1,0 +1,46 @@
+{
+  "id": "5e80e449835f4e477700002c",
+  "type": "list",
+  "question": "Which tissues express the ACE2 protein?",
+  "ideal_answer": "Abundant ACE2 immunostaining was found in lung, kidney, heart, and islets of pancreas, but not in hepatocytes",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15221932",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24564768",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19333547",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19014390"
+  ],
+  "snippets": [
+    {
+      "text": "in keeping with the variability of ACE2 expression we have observed previously",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24564768",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ACE2 has been identified in various tissues and is supposed to be a modulator of cardiovascular function. Decreases in ACE2 expression and activity have been reported in models of hypertension, heart failure, atherosclerosis, diabetic nephropathy and others. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19014390",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ACE2 is expressed at high level in the primary target cells of SARS-CoV, namely pneumocytes and surface enterocytes of the small intestine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15221932",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "endothelial cells, which express ACE2 to a high level,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15221932",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Abundant ACE2 immunostaining was found in lung, kidney, heart, and islets of pancreas, but not in hepatocytes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19333547",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "lung, kidney, heart, pancreas"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "5c58962286df2b9174000007",
+  "type": "factoid",
+  "question": "Which intoxication is associated with Burton's line?",
+  "ideal_answer": "Burton's line is characteristic for lead poisoning.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27803011",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24559541",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17179719"
+  ],
+  "snippets": [
+    {
+      "text": "The patient's serum lead concentration was substantially elevated and he perhaps demonstrated Burton's line. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27803011",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The second patient presented with abdominal pain and a Burton's line. The lead level was 52\u03bcg/dL and free erythrocyte protoporphyrin was 262\u03bcg/dL. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24559541",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Burton's line in lead poisoning.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17179719",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "This paper sketches the early history and remembers the important contribution of Henry Burton, who described the gums to be bordered by a narrow leaden-blue line, about the one-twentieth part of an inch in width, whilst the substance of the gum apparently retained its ordinary colour and condition.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17179719",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "lead"
+}

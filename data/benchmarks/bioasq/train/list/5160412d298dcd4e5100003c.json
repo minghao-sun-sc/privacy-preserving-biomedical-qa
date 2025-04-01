@@ -1,0 +1,53 @@
+{
+  "id": "5160412d298dcd4e5100003c",
+  "type": "list",
+  "question": "Which histone marks are deposited by Set7?",
+  "ideal_answer": "Set7 is H4K20 monomethyltransferase. Upregulation of PR-Set7 expression upon loss of HCF-1 leads to improper mitotic H4-K20 methylation. Set7 (or some variant) has also been reported to perform mono-methylation on lysine-4 of H3.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12208845",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21963854",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15200950",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12086618"
+  ],
+  "snippets": [
+    {
+      "text": "the loss of H4 lysine 20 methylation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12086618",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Transcriptionally competent regions lack H4 lysine 20 methylation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12086618",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "a human histone H4 lysine 20 methyltransferase and cloned the encoding gene, PR/SET07",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12086618",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Localization of PR-Set7 to mitotic chromosomes and subsequent increase in H4 Lys 20 methylation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12208845",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "the H4-K20 methyltransferase PR-Set7. Indeed, upregulation of PR-Set7 expression upon loss of HCF-1 leads to improper mitotic H4-K20 methylation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15200950",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011495",
+    "http://www.uniprot.org/uniprot/SETD7_HALRO",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0042393",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006657",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0016571",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0016570"
+  ],
+  "exact_answer": "H4K20 monomethylation, H3K4 monomethylation"
+}

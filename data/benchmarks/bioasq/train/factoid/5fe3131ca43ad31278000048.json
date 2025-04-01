@@ -1,0 +1,80 @@
+{
+  "id": "5fe3131ca43ad31278000048",
+  "type": "factoid",
+  "question": "What is the major sequence determinant for nucleosome positioning?",
+  "ideal_answer": "G+C content is the primary determinant of MNase-derived nucleosome occupancy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20232936",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19620965",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21551148",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22435808",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26305225",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30113318",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21206756",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17038564"
+  ],
+  "snippets": [
+    {
+      "text": "Many yeast promoter and terminator regions intrinsically disfavor nucleosome formation, and nucleosomes assembled in vitro show strong rotational positioning.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19620965",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sequence analysis of 284,091 putative nucleosome cores obtained in this manner from a mixed-stage population of C. elegans reveals a combined picture of flexibility and constraint in nucleosome positioning",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17038564",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nucleosome positioning influences the overall rate of sequence evolution. However, its impacts on specific patterns of sequence evolution are still poorly understood.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21551148",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "his strongly affects nucleosome positioning data and especially sequence-dependent models for nucleosome positioning.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21206756",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "e argue that, in budding yeast, while DNA sequence-specified nucleosome positioning may contribute to positions flanking the regions lacking nucleosomes, DNA thermodynamic stability is a major component determinant of the genetic organization of this organism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22435808",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA sequence preferences are associated with heterogeneous chromatin organization around transcription start sites.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26305225",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This paper rigorously quantifies the contribution of hitherto-debated sequence features-including G+C content, 10.5\u2009bp periodicity, and poly(dA:dT) tracts-to three distinct aspects of genome-wide nucleosome landscape: occupancy, translational positioning and rotational positioning.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30113318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We further show that the 10.5\u2009bp nucleotide periodicity facilitates rotational but not translational positioning.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30113318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We find that although G+C content is the primary determinant of MNase-derived nucleosome occupancy, MNase digestion biases may substantially influence this GC dependence. By contrast, poly(dA:dT) tracts are seen to deter nucleosome formation, regardless of the experimental method used",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30113318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we consider the anisotropic flexibility of pyrimidine-purine (YR) dimeric steps in the context of their neighbors (e.g., YYRR versus RYRY); (iii) we postulate that alternating AT-rich and GC-rich motifs reflect sequence-dependent interactions between histone arginines and DNA in the minor groove.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20232936",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "G+C content, GC%"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "53319653d6d3ac6a3400003e",
+  "type": "yesno",
+  "question": "Does prudent diet reduce cardiovascular risk?",
+  "ideal_answer": "a high adherence to prudent diet is associated with reduced risk of CVD. The adherence to prudent diet was associated to a 28% lower risk of cardiovascular mortality and a 17% lower risk of all-cause mortality in a large cohort of healthy women",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/14972059",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11493127",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19656644",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9430390",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18574045",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18936332",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10597981",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22012753",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23953031",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19303267",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22739999",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16401383"
+  ],
+  "snippets": [
+    {
+      "text": "Using this approach, large prospective studies have reported reductions in CVD risk ranging from 10 to 60% in groups whose diets can be variously classified as \u2018Healthy\u2019, \u2018Prudent\u2019, Mediterranean\u2019 or \u2018DASH compliant\u2019.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23953031",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our findings suggest that a heart healthy dietary pattern is associated with moderately reduced risk of MI, but not related to risk of VTE.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22739999",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The systematically reviewed studies reveal that a high adherence to a Mediterranean type of diet or \"prudent diet\" is associated with reduced risk of CVD and some types of cancer, even in the elderly.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19656644",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In a large healthy Italian population, non-predefined dietary patterns including foods considered to be rather unhealthy, were associated with higher levels of cardiovascular risk factors, CRP and individual global CVD risk, whereas a \"prudent-healthy\" pattern was associated with lower levels.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19303267",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We observed an inverse association between the prudent pattern and AMI, with higher levels being protective.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18936332",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "After multivariable adjustment, the prudent diet was associated with a 28% lower risk of cardiovascular mortality (95% confidence interval [CI], 13 to 40) and a 17% lower risk of all-cause mortality (95% CI, 10 to 24) when the highest quintile was compared with the lowest quintile. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18574045",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Greater adherence to the prudent pattern may reduce the risk of cardiovascular and total mortality, whereas greater adherence to the Western pattern may increase the risk among initially healthy women.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18574045",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Composite diets (such as DASH diets, Mediterranean diet, 'prudent' diet) have been demonstrated to reduce the risk of hypertension and CHD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14972059",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:114",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012306",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012307",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002318",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006331",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005526",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004032"
+  ],
+  "exact_answer": "Yes"
+}

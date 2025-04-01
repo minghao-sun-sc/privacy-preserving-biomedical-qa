@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04156",
+  "original_length": 4373,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "of Functioning 40.,RECOMMENDATION:,  The patient will be hospitalized to assess.,Along the issues, the fact that he is been living in disability in the fact that his family has had to support him f...",
+    "Symptoms": "",
+    "Treatment": "growing up and after completing college worked in retail part time.,He states he injured his back about 10 yeas ago.  He told he had disk problems but never had surgery.  He subsequently was put on...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Celexa 40 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',He states he injured his back about 10 yeas ago...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

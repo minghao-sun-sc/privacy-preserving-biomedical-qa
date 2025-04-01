@@ -1,0 +1,41 @@
+{
+  "id": "532aad53d6d3ac6a34000010",
+  "type": "yesno",
+  "question": "Is there a crystal structure of the full-length of the flaviviridae NS5(Methyltransferase - RNA depended RNA Polymerase) ?",
+  "ideal_answer": "Yes, there is the crystal Structure of the full-length Japanese encephalitis virus (Flaviviridae) NS5 - PDB:4K6M",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22365326",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19710254",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23355615",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22757685",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17287213",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23950717"
+  ],
+  "snippets": [
+    {
+      "text": " flavivirus NS5 harbors a methyltransferase (MTase) in its N-terminal \u2248 265 residues and an RNA-dependent RNA polymerase (RdRP) within the C-terminal part. One of the major interests and challenges in NS5 is to understand the interplay between RdRP and MTase as a unique natural fusion protein in viral genome replication and cap formation. Here, we report the first crystal structure of the full-length flavivirus NS5 from Japanese encephalitis virus. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23950717",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "(DENV) nonstructural protein 5 (NS5) is composed of two globular domains separated by a 10-residue linker. The N-terminal domain participates in the synthesis of a mRNA cap 1 structure ((7Me)GpppA(2'OMe)) at the 5' end of the viral genome and possesses guanylyltransferase, guanine-N7-methyltransferase, and nucleoside-2'O-methyltransferase activities. The C-terminal domain is an RNA-dependent RNA polymerase responsible for viral RNA synthesis. Although crystal structures of the two isolated domains have been obtained, there are no structural data for full-length NS5. It is also unclear whether the two NS5 domains interact with each other to form a stable structure in which the relative orientation of the two domains is fixed. To investigate the structure and dynamics of DENV type 3 NS5 in solution, we conducted small-angle X-ray scattering experiments with the full-length protein. NS5 was found to be monomeric and well-folded under the conditions tested.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22757685",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "West Nile virus (WNV) NS5 protein contains a methyltransferase (MTase) domain involved in RNA capping and an RNA-dependent RNA polymerase (RdRp) domain essential for virus replication. Crystal structures of individual WNV MTase and RdRp domains have been solved; however, the structure of full-length NS5 has not been determined. To gain more insight into the structure of NS5 and interactions between the MTase and RdRp domains, we generated a panel of seven monoclonal antibodies (mAbs) to the NS5 protein of WNV (Kunjin strain) and mapped their binding sites using a series of truncated NS5 proteins and synthetic peptides. Binding sites of four mAbs (5D4, 4B6, 5C11 and 6A10) were mapped to residues 354-389 in the fingers subdomain of the RdRp. This is consistent with the ability of these mAbs to inhibit RdRp activity in vitro and suggests that this region represents a potential target for RdRp inhibitors. Using a series of synthetic peptides, we also identified a linear epitope (bound by mAb 5H1) that mapped to a 13 aa stretch surrounding residues 47 and 49 in the MTase domain, a region predicted to interact with the palm subdomain of the RdRp. The failure of one mAb (7G6) to bind both N- and C-terminally truncated NS5 recombinants indicates that the antibody recognizes a conformational epitope that requires the presence of residues in both the MTase and RdRp domains. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19710254",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018067",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003460",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018178",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006127"
+  ],
+  "exact_answer": "Yes"
+}

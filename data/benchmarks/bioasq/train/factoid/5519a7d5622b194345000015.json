@@ -1,0 +1,55 @@
+{
+  "id": "5519a7d5622b194345000015",
+  "type": "factoid",
+  "question": "Which is the most abundant membrane protein on Earth?",
+  "ideal_answer": "LHCII, the largest plant photosynthetic pigment-protein complex of photosystem II, is a most abundant membrane protein in living organisms and comprises approximately half of the pool of chlorophyll molecules in the biosphere.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21718685",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24018323",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23298812",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16307124",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23933017",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19403948"
+  ],
+  "snippets": [
+    {
+      "text": "LHCII, the largest plant photosynthetic pigment-protein complex of photosystem II, is a most abundant membrane protein in living organisms and comprises approximately half of the pool of chlorophyll molecules in the biosphere. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24018323",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LHCII is the most abundant membrane protein on earth.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23933017",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LHCII, the most abundant membrane protein on earth, is the major light-harvesting complex of plants. I",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23298812",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Light-harvesting pigment-protein complex of Photosystem II (LHCII) is the largest photosynthetic antenna complex of plants and the most abundant membrane protein in the biosphere.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21718685",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "still very little is known about protein degradation and its regulation. The degradation of the most abundant membrane protein on Earth, the light-harvesting complex of Photosystem II (LHC II), is highly regulated under different environmental conditions, e.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16307124",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051380",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0051205",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008566",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D026901",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016020",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008565"
+  ],
+  "exact_answer": "Light-harvesting pigment-protein complex of Photosystem II, LHCII"
+}

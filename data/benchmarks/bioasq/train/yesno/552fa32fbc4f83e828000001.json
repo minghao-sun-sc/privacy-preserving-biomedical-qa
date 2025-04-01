@@ -1,0 +1,78 @@
+{
+  "id": "552fa32fbc4f83e828000001",
+  "type": "yesno",
+  "question": "Is CD56 useful in Ewing sarcoma prognosis?",
+  "ideal_answer": "Excellent prognosis in a subset of patients with Ewing sarcoma identified at diagnosis by CD56 using flow cytometryIn patients with localized nonpelvic disease, those expressing low/negative CD56 had 100% PFS versus 40% in the high expressing group (P = 0.02)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21467162",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9692823",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22498946"
+  ],
+  "snippets": [
+    {
+      "text": "Excellent prognosis in a subset of patients with Ewing sarcoma identified at diagnosis by CD56 using flow cytometry",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21467162",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "There was a highly significant correlation between CD56 expression and progression-free survival (PFS; 69% in low/negative expression versus 30% in high expression groups, P = 0.024)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21467162",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In patients with localized nonpelvic disease, those expressing low/negative CD56 had 100% PFS versus 40% in the high expressing group (P = 0.02)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21467162",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CD56 was found to be an independent prognostic marker with an 11-fold increased risk for relapse in patients with localized disease (P = 0.006)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21467162",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CD56 expression could be used to reveal ES patients with excellent prognosis or patients predisposed to relapse, thus improving treatment stratification and implementation of personalized therapy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21467162",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Excellent prognosis in a subset of patients with Ewing sarcoma identified at diagnosis by CD56 using flow cytometry.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21467162",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Three years after diagnosis the patient presented with severe respiratory difficulty and following resection, the final pathology revealed multiple tumors with foci of high grade sarcoma compatible with primitive neuroectodermal tumor/extraskeletal Ewing sarcoma based on morphology and immunohistochemistry (CD99, CD56).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22498946",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CD56 expression could be used to reveal ES patients with excellent prognosis or patients predisposed to relapse, thus improving treatment stratification and implementation of personalized therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21467162",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Identification of CD56 and CD57 by flow cytometry in Ewing's sarcoma or primitive neuroectodermal tumor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9692823",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "CD56 expression could be used to reveal ES patients with excellent prognosis or patients predisposed to relapse, thus improving treatment stratification and implementation of personalized therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21467162",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011379",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012512"
+  ],
+  "exact_answer": "Yes"
+}

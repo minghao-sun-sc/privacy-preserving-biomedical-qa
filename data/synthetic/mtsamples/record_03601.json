@@ -1,0 +1,33 @@
+{
+  "document_id": "record_03601",
+  "original_length": 2070,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Hypoattenuating mass in the lower uterine segment and cervix of uncertain etiology measuring approximately 4.4 x 2.5 x 3.4 cm.\n- Multiple uterine fibroids.\n- Prominent endometrium.\n- Followup pe...",
+    "Symptoms": "",
+    "Treatment": "Abdominal pain.  CT examination of the abdomen and pelvis with intravenous contrast. CT Abdomen & Pelvis - OB-GYN",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'CT examination of the abdomen and pelvis with intr...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "58a71f7460087bc10a00002e",
+  "type": "list",
+  "question": "Which protein complexes recognize centromeric (CEN) DNA in yeast?",
+  "ideal_answer": "The Schizosaccharomyces pombe centromere-linked genes, LYS1 and CYH1 on chromosome I and TPS13 and RAN1 on chromosome II, have been isolated. In budding yeast, as well as in other eukaryotes, the Cse4 histone variant (known in vertebrates as CENP-A) is believed to substitute for histone H3 at the centromeric nucleosome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22693454",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3464952",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23620291"
+  ],
+  "snippets": [
+    {
+      "text": "The Schizosaccharomyces pombe centromere-linked genes, LYS1 and CYH1 on chromosome I and TPS13 and RAN1 on chromosome II, have been isolated",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3464952",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone H3 localizes to the centromeric DNA in budding yeast",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22693454",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " In budding yeast, as well as in other eukaryotes, the Cse4 histone variant (known in vertebrates as CENP-A) is believed to substitute for histone H3 at the centromeric nucleosome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22693454",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Surprisingly, we observed a strong interaction of H3, as well as Cse4, H4, H2A, and H2B, but not histone chaperone Scm3 (HJURP in human) with the centromeric DNA. H3 localizes to centromeric DNA at all stages of the cell cycle.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22693454",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results favor a H3-Cse4 heterotypic octamer at the budding yeast centromere",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22693454",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In budding yeast, a single right-handed cenH3/H4/H2A/H2B tetramer wraps the \u223c80-bp Centromere DNA Element II (CDE II) sequence of each centromere into a 'hemisome'. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23620291",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we show that Cse4 octamers remain intact under conditions of low salt and urea that dissociate H3 octamers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23620291",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Lys1, Cyh1, Tps13, Ran1, H3, Cse4"
+}

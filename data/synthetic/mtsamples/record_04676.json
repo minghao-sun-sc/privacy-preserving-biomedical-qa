@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04676",
+  "original_length": 2008,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- No evidence of exercise induced ischemia at a high myocardial workload.  This essentially excludes obstructive CAD as a cause of her elevated troponin.\n- Mild hypertensive cardiomyopathy with an...",
+    "Symptoms": "",
+    "Treatment": "Elevated cardiac enzymes, fullness in chest, abnormal EKG, and risk factors.  No evidence of exercise induced ischemia at a high myocardial workload.  This essentially excludes obstructive CAD as a...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'No evidence of exercise induced ischemia at a high...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

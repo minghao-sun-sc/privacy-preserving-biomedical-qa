@@ -1,0 +1,37 @@
+{
+  "document_id": "record_00121",
+  "original_length": 1422,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Slightly high insertion of the median raphe.  I see no reason he cannot be circumcised as long as they are careful and do a very complete Gomco circumcision.  This kid should otherwise do reasona...",
+    "Symptoms": "",
+    "Treatment": ",Follow up as needed.  But my other recommendation is that this kid as I went over with the mother may actually do somewhat better if he simply has a formal circumcision at one year of age, but may...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'I see no reason he cannot be circumcised as long a...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "5be2a070133db5eb78000013",
+  "type": "list",
+  "question": "In which tissues is the lincRNA Xist expressed?",
+  "ideal_answer": "Relative expression of X-linked genes was examined in liver, kidney and brain tissue by real-time PCR in adult XX(Y)* and XY* males and XX females. X-chromosome inactive specific transcript (Xist) was expressed only in female adipose tissue. X-chromosome inactive specific transcript (Xist) was expressed only in female adipose tissue. It was also expressed in duodenum and testis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25548914",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21241365",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10026129",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23122604",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17373633",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1345168",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22925639"
+  ],
+  "snippets": [
+    {
+      "text": "Xist (female-only) and Eif2s3y (male-only). The frequency of SDE probesets varied widely between tissues, and was highest in the duodenum (6.2%), whilst less than 0.05% in over half of the surveyed tissues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25548914",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Embryos positive for Xist expression were classified as female, and Xist negative and equine sex determining region of the Y chromosome positive embryos were classified as male. From 28 embryos tested, 15 (54%) showed positive Xist expression and were thus classified as female.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23122604",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Preattachment embryos at different times after ovulation (Day 8: n = 9; Day 10: n = 12; Day 12: n = 15) were analyzed for Xist RNA expression using quantitative and qualitative reverse transcription-polymerase chain reaction (RT-PCR).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22925639",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Relative expression of X-linked genes was examined in liver, kidney and brain tissue by real-time PCR in adult XX(Y)* and XY* males and XX females",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21241365",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "X-chromosome inactive specific transcript (Xist) was expressed only in female adipose tissue.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17373633",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Reverse transcription-polymerase chain reaction (RT-PCR) revealed the presence of Xist transcripts in all adult female somatic tissues evaluated. In contrast, among the male tissues examined, Xist expression was detected only in testis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10026129",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We now report the presence of Xist/XIST transcripts in newborn and adult mouse testes, and in human testicular tissue with normal spermatogenesis, but not in the testes of patients who lack germ cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1345168",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "duodenum, kidney, brain, liver, adipose tissue, testis"
+}

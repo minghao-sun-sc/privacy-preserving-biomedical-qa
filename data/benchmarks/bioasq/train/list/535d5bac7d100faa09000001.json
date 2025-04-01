@@ -1,0 +1,50 @@
+{
+  "id": "535d5bac7d100faa09000001",
+  "type": "list",
+  "question": "List all articles on network meta-analysis for smoking cessation",
+  "ideal_answer": "Cardiovascular events associated with smoking cessation pharmacotherapies: a network meta-analysis.\nPharmacological interventions for smoking cessation: an overview and network meta-analysis\nEffectiveness and cost-effectiveness of computer and other electronic aids for smoking cessation: a systematic review and network meta-analysis.\nSmoking cessation interventions in COPD: a network meta-analysis of randomised trials.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23728690",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22992327",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24323793",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19357145",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23046909"
+  ],
+  "snippets": [
+    {
+      "text": "Cardiovascular events associated with smoking cessation pharmacotherapies: a network meta-analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24323793",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Pharmacological interventions for smoking cessation: an overview and network meta-analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23728690",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Effectiveness and cost-effectiveness of computer and other electronic aids for smoking cessation: a systematic review and network meta-analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23046909",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "network meta-analysis on interventions for smoking cessation including over 100 trials",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22992327",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Smoking cessation interventions in COPD: a network meta-analysis of randomised trials.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19357145",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017418",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016540"
+  ],
+  "exact_answer": "Cardiovascular events associated with smoking cessation pharmacotherapies: a network meta-analysis., Pharmacological interventions for smoking cessation: an overview and network meta-analysis, Effectiveness and cost-effectiveness of computer and other electronic aids for smoking cessation: a systematic review and network meta-analysis., Smoking cessation interventions in COPD: a network meta-analysis of randomised trials."
+}

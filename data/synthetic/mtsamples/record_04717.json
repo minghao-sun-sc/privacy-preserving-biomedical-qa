@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04717",
+  "original_length": 3790,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "S PLANNED AND PERFORMED\n- Implantation of a single-chamber pacemaker.\n- Fluoroscopic guidance for implantation of single-chamber pacemaker.,FLUOROSCOPY TIME:  ,1.2 minutes.,MEDICATIONS AT THE TIME ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Ancef 1 g, Benadryl 50 mg, Versed 3 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

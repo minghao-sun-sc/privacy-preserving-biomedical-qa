@@ -1,0 +1,54 @@
+{
+  "id": "5c34a029da8336e21a000003",
+  "type": "list",
+  "question": "Which organs are mostly affected in Systemic Lupus Erythematosus (SLE)?",
+  "ideal_answer": "In systemic lupus erythematosus (SLE), brain and kidney are the most frequently affected organs. The heart is one of the most frequently affected organs in SLE. Skin is one of the most commonly affected organs in SLE. Other affected organs in SLE-AAC included hematologic system (11, 84.6%), followed by mucocutaneous (seven, 53.8%), musculoskeletal (seven, 53.8%) and neuropsychiatric (two, 15.4%) systems.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25186992",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7588946",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19758166",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21767292",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28355987",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24268009"
+  ],
+  "snippets": [
+    {
+      "text": "In systemic lupus erythematosus (SLE), brain and kidney are the most frequently affected organs. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7588946",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The heart is one of the most frequently affected organs in SLE. Any part of the heart can be affected, including the pericardium, myocardium, coronary arteries, valves, and the conduction system",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24268009",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Skin is one of the most commonly affected organs in SLE",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25186992",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Other affected organs in SLE-AAC included kidney (11, 84.6%) and hematologic system (11, 84.6%), followed by mucocutaneous (seven, 53.8%), musculoskeletal (seven, 53.8%) and neuropsychiatric (two, 15.4%) systems.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28355987",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Systemic lupus erythematosus (SLE) is a systemic autoimmune disease which affects multiple organs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21767292",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cutaneous lupus erythematosus (CLE) includes skin symptoms seen in SLE and cutaneous-limited LE.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21767292",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "kidney, brain, heart, skin"
+}

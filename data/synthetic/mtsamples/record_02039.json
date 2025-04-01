@@ -1,0 +1,37 @@
+{
+  "document_id": "record_02039",
+  "original_length": 6074,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "\n- Partial tarsectomy navicula, right foot.\n- Partial metatarsectomy, right foot.,HISTORY:  ,This 41-year-old Caucasian female who presents to ABCD [person] with the above chief complaint. ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, NRP",
+        "Data leakage detected: Demographic information leaked: ',HISTORY:  ,This 41-year-old Caucasian f'"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

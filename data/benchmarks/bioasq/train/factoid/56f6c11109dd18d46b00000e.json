@@ -1,0 +1,33 @@
+{
+  "id": "56f6c11109dd18d46b00000e",
+  "type": "factoid",
+  "question": "Which is the receptor for the immunosuppressive drug cyclosporin A (CsA)?",
+  "ideal_answer": "Cyclophilin is the intracellular receptor protein for cyclosporin A  (CsA).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25707381",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2477715",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3043797"
+  ],
+  "snippets": [
+    {
+      "text": "hemical modification of CsA has led to analogs with distinct biological activities associated with its protein receptor family, cyclophilins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25707381",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " the CsA receptor, cyclophilin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2477715",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results would support cyclophilin as the major, if not only, intracellular receptor protein for CsA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3043797",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "cyclophilin"
+}

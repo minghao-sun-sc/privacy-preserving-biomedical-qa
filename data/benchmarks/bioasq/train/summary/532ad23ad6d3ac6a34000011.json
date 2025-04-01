@@ -1,0 +1,66 @@
+{
+  "id": "532ad23ad6d3ac6a34000011",
+  "type": "summary",
+  "question": "What systems have been developed for the numbering of antibody residues?",
+  "ideal_answer": "The most prevalent antibody numbering systems are the Kabat system, the Chothia system as well as the IMGT numbering system.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23157214",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22907343",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8227075",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22665257",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2687698",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12182069",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10592229",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19900967",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18503082",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16305737",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8918594",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9367782",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22390639"
+  ],
+  "snippets": [
+    {
+      "text": "IMGT is a high quality integrated knowledge resource specialized in immunoglobulins (IG), T cell receptors (TR), major histocompatibility complex (MHC) of human and other vertebrates, and related proteins of the immune system (RPI) of any species which belong to the immunoglobulin superfamily (IgSF) and to the MHC superfamily (MhcSF). IMGT consists of five databases, ten on-line tools and more than 8,000 HTML pages of Web resources. IMGT provides a common access to standardized data from genome, genetics, proteome and three-dimensional structures. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16305737",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "amino acid positions according to the IMGT unique numbering (NUMEROTATION) that are used in IMGT/3Dstructure-DB cards, results of contact analysis and renumbered flat files.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19900967",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Standardized sequence and structure analysis of antibody using IMGT(\u00ae) databases and tools allows one to bridge, for the first time, the gap between antibody sequences and three-dimensional (3D) structures. This is achieved through the IMGT Scientific chart rules, based on the IMGT-ONTOLOGY concepts of classification (IMGT gene and allele nomenclature), description (IMGT standardized labels), and numerotation (IMGT unique numbering and IMGT Colliers de Perles). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22907343",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Kabat Database was initially started in 1970 to determine the combining site of antibodies based on the available amino acid sequences at that time.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10592229",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "comparative analysis of the main-chain conformation of the L1, L2, L3, H1 and H2 hypervariable regions in 17 immunoglobulin structures that have been accurately determined at high resolution is described. This involves 79 hypervariable regions in all. We also analysed a part of the H3 region in 12 of the 15 VH domains considered here. On the basis of the residues at key sites the 79 hypervariable regions can be assigned to one of 18 different canonical structures. We show that 71 of these hypervariable regions have a conformation that is very close to what can be defined as a \"standard\" conformation of each canonical structure. These standard conformations are described in detail. The other eight hypervariable regions have small deviations from the standard conformations that, in six cases, involve only the rotation of a single peptide group",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9367782",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the basis of comparative studies of known antibody structures and sequences it has been argued that there is a small repertoire of main-chain conformations for at least five of the six hypervariable regions of antibodies, and that the particular conformation adopted is determined by a few key conserved residues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2687698",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4000002",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007158",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007136",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0003823",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000906"
+  ]
+}

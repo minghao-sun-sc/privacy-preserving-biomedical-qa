@@ -1,0 +1,36 @@
+{
+  "document_id": "record_03200",
+  "original_length": 3510,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Viral syndrome, which we have been seeing in many cases throughout the week.  The patient asked me about antibiotics and I did not see a need to do this since he did not appear to have an infecti...",
+    "Symptoms": "",
+    "Treatment": "and was discharged in approximately 30 to 45 minutes later.  His wife calls me very angry that I did not give him antibiotics.  I explained her exactly what I explained to him that they were not in...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'His wife calls me very angry that I did not give h...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

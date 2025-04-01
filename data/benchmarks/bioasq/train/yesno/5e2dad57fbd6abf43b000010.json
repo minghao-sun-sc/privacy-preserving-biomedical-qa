@@ -1,0 +1,19 @@
+{
+  "id": "5e2dad57fbd6abf43b000010",
+  "type": "yesno",
+  "question": "Is amantadine ER the first approved treatment for akinesia?",
+  "ideal_answer": "No, extended-release amantadine (amantadine ER) is the first approved medication for the treatment of dyskinesia.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29564954"
+  ],
+  "snippets": [
+    {
+      "text": "Extended-release amantadine (amantadine ER) is the first approved medication for the treatment of dyskinesia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29564954",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

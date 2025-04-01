@@ -1,0 +1,24 @@
+{
+  "id": "603256981cb411341a00013c",
+  "type": "summary",
+  "question": "Describe the INSPEcT R package",
+  "ideal_answer": "INSPEcT is a computational tool to infer mRNA synthesis, processing and degradation dynamics from RNA- and 4sU-seq time course experiments.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25957348"
+  ],
+  "snippets": [
+    {
+      "text": "INSPEcT: a computational tool to infer mRNA synthesis, processing and degradation dynamics from RNA- and 4sU-seq time course experiments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25957348",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "INSPEcT is an R package for the integrative analysis of RNA- and 4sU-seq data to study the dynamics of transcriptional regulation. INSPEcT provides gene-level quantification of these rates, and a modeling framework to identify which of these regulatory processes are most likely to explain the observed mRNA and pre-mRNA concentrations. Software performance is tested on a synthetic dataset, instrumental to guide the choice of the modeling parameters and the experimental design.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25957348",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

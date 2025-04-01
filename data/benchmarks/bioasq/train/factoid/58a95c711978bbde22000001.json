@@ -1,0 +1,40 @@
+{
+  "id": "58a95c711978bbde22000001",
+  "type": "factoid",
+  "question": "What disease is the drug aducanumab targeting?",
+  "ideal_answer": "Aducanumab is an anti-A\u03b2 antibody being developed for the treatment of Alzheimer's disease (AD).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27025652",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27810931",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27582220",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27251914"
+  ],
+  "snippets": [
+    {
+      "text": " Most importantly, recent trials of three different A\u03b2 antibodies (solanezumab, crenezumab, and aducanumab) have suggested a slowing of cognitive decline in post hoc analyses of mild AD subjects. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27025652",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ecent results from trials of agents such as aducanumab are encouraging but must also be interpreted with caution. Such medicines could potentially delay the onset of dementia and would therefore markedly reduce its prevalence.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27251914",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Aducanumab is an anti-A\u03b2 antibody being developed for the treatment of AD, and interim analyses of a phase 1b clinical trial have suggested potential beneficial effects on the amyloid pathology and the cognitive status in patients treated with aducanumab",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27810931",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The antibody aducanumab reduces A\u03b2 plaques in Alzheimer's disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27582220",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Alzheimer's disease"
+}

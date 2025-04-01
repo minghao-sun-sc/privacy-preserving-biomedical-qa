@@ -1,0 +1,19 @@
+{
+  "id": "6057a1ed94d57fd87900002f",
+  "type": "list",
+  "question": "List example genes that SWIM tool has identified and which are down-regulated in glioblastoma",
+  "ideal_answer": "SWIM is a software able to unveil a small pool of genes - called switch genes - critically associated with drastic changes in cell phenotype. Applying SWIM to the expression profiling of glioblastoma stem-like cells and conventional glioma cell lines identifies switch genes related to stem-like phenotype. SWIM identifies 171 switch genes that are all down-regulated in glioblastoma stem-like cells. This list encompasses genes like CAV1, COL5A1, COL6A3, FLNB, HMMR, ITGA3, ITGA5, MET, SDC1, THBS1, and VEGFC, involved in \"ECM-receptor interaction\" and \"focal adhesion\" pathways.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30497369"
+  ],
+  "snippets": [
+    {
+      "text": "It is well-known that glioblastoma contains self-renewing, stem-like subpopulation with the ability to sustain tumor growth. These cells - called cancer stem-like cells - share certain phenotypic characteristics with untransformed stem cells and are resistant to many conventional cancer therapies, which might explain the limitations in curing human malignancies. Thus, the identification of genes controlling the differentiation of these stem-like cells is becoming a successful therapeutic strategy, owing to the promise of novel targets for treating malignancies.METHODS: Recently, we developed SWIM, a software able to unveil a small pool of genes - called switch genes - critically associated with drastic changes in cell phenotype. Here, we applied SWIM to the expression profiling of glioblastoma stem-like cells and conventional glioma cell lines, in order to identify switch genes related to stem-like phenotype.RESULTS: SWIM identifies 171 switch genes that are all down-regulated in glioblastoma stem-like cells. This list encompasses genes like CAV1, COL5A1, COL6A3, FLNB, HMMR, ITGA3, ITGA5, MET, SDC1, THBS1, and VEGFC, involved in \"ECM-receptor interaction\" and \"focal adhesion\" pathways.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30497369",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CAV1, COL5A1, COL6A3, FLNB, HMMR, ITGA3, ITGA5, MET, SDC1, THBS1, VEGFC"
+}

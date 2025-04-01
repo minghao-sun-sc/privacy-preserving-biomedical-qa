@@ -1,0 +1,40 @@
+{
+  "id": "5a8866958cb19eca6b000003",
+  "type": "yesno",
+  "question": "Are neurexins localized at pre-synapses?",
+  "ideal_answer": "Yes, neurexins are localized at pre-synapses.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28154140",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28643105",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27664583",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27725662"
+  ],
+  "snippets": [
+    {
+      "text": "Neurexins and neuroligins are two distinct families of single-pass transmembrane proteins localized at pre- and postsynapses, respectively. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27664583",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "presynaptic neurexins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27725662",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "best-characterized transsynaptic interactions are formed by presynaptic neurexins, which bind to diverse postsynaptic ligands.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28154140",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "presynaptic neurexin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28643105",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

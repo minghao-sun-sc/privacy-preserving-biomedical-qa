@@ -1,0 +1,35 @@
+{
+  "id": "55032bbfe9bde69634000032",
+  "type": "yesno",
+  "question": "Is there an association between TERT promoter mutation and survival of glioblastoma patients?",
+  "ideal_answer": "Telomerase reverse transcriptase (TERT) promoter are associated with shorter survival of glioblastoma patients. Prognostic value of TERT mutations for poor survival is largely due to their inverse correlation with IDH1 mutations.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23393205",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24937153",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23955565"
+  ],
+  "snippets": [
+    {
+      "text": "Glioblastoma patients with TERT mutations showed a shorter survival than those without TERT mutations in univariate analysis (median, 9.3 vs. 10.5 months; P = 0.015) and multivariate analysis after adjusting for age and gender (HR 1.38, 95 % CI 1.01-1.88, P = 0.041). However, TERT mutations had no significant impact on patients' survival in multivariate analysis after further adjusting for other genetic alterations, or when primary and secondary glioblastomas were separately analysed. These results suggest that the prognostic value of TERT mutations for poor survival is largely due to their inverse correlation with IDH1 mutations, which are a significant prognostic marker of better survival in patients with secondary glioblastomas.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23955565",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Patients with tumors lacking hTERT expression/TA showed a significant survival benefit (Kaplan-Meier test, both P < .01), which, however, was based exclusively on the younger patient subgroup (\u226460 y, both P < .005; >60 y, both ns). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23393205",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Glioblastoma patients with TERT mutations showed a shorter survival than those without TERT mutations in univariate analysis (median, 9.3 vs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23955565",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:3073"
+  ],
+  "exact_answer": "Yes"
+}

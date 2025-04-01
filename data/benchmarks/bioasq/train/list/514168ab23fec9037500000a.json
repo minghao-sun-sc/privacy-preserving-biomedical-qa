@@ -1,0 +1,196 @@
+{
+  "id": "514168ab23fec9037500000a",
+  "type": "list",
+  "question": "Which are the major transcription factors regulating glycolysis in mammals?",
+  "ideal_answer": "The main positive transcriptional regulator of Glycolysis in mammals is HIF1-alpha (Hypoxia Inducible Factor 1a). HIF1-alpha is upregulated by the oncogenes c-Myc and Src, which therefore also positively regulate glycolysis. Several reports have linked HIF-1\u03b1 induction with STAT3 activation. SIRT6 appears to function as a corepressor of the transcription factor Hif1alpha. NF-\u03baB also stimulates glycolysis through the inhibition of PDK4 expression. Loss of the widely expressed transcription factor Oct1 induces a coordinated metabolic shift: mitochondrial activity and amino acid oxidation are increased, while glucose metabolism is reduced. HNF4alpha is critical for regulating glucose transport and glycolysis and in doing so is crucial for maintaining glucose homeostasis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21810481",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20141841",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21625432",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18391940",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18606808",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21042593",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21673794",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15664996",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16627239",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15838239",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9371825",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10823814",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17442734",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23388203",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12054621",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22891351",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19219035",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12200433",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16374431",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22886605",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19861459",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19056893",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21968997",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7649406",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21084727"
+  ],
+  "snippets": [
+    {
+      "text": "myc regulates hepatic glycolysis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7649406",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "increase in c-Myc protein was able to induce liver glucose utilization and accumulation, and suggested that c-Myc transcription factor is involved in the control in vivo of liver carbohydrate metabolism",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7649406",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "STAT3 is a negative regulator of aerobic glycolysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22891351",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "HIF1 alpha-mediated switches in the energy production of tumor cells from OXPHOS to glycolysis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22886605",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "NF-\u03baB organizes energy metabolism networks by controlling the balance between the utilization of glycolysis and mitochondrial respiration. NF-\u03baB inhibition causes cellular reprogramming to aerobic glycolysis under basal conditions and induces necrosis on glucose starvation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21968997",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Hypoxia-inducible factor-1\u03b1 (HIF-1\u03b1), which is a transcription factor that enhances glycolysis in cells in response to hypoxia",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21810481",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "SIRT6 appears to function as a corepressor of the transcription factor Hif1alpha, a critical regulator of nutrient stress responses",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20141841",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "SIRT6-deficient cells exhibit increased Hif1alpha activity and show increased glucose uptake with upregulation of glycolysis and diminished mitochondrial respiration",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20141841",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "c-Myc regulates genes involved in the biogenesis of ribosomes and mitochondria, and regulation of glucose and glutamine metabolism",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19861459",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Myc regulates gene expression either directly, such as glycolytic genes including lactate dehydrogenase A (LDHA)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19861459",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "loss of the widely expressed transcription factor Oct1 induces a coordinated metabolic shift: mitochondrial activity and amino acid oxidation are increased, while glucose metabolism is reduced.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19219035",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "PVHL is a regulator of glucose metabolism",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19056893",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Carbohydrate response element-binding protein (ChREBP) is a glucose-responsive transcription factor that plays a critical role in the glucose-mediated induction of gene products involved in hepatic glycolysis and lipogenesis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18606808",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Activation of NF-kappaB, by loss of p53, caused an increase in the rate of aerobic glycolysis and upregulation of Glut3",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18391940",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "p53 restricts activation of the IKK-NF-kappaB pathway through suppression of glycolysis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18391940",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "cells express hypoxia-inducible factor (HIF)-1alpha, a transcription factor that responds to oxygen tension and regulates glycolysis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17442734",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The HIF-1 dependent genic products are involved in tumoral angiogenesis, in the metabolic switch to anaerobic glycolysis and in prosurvival, proliferative and apoptotic mechanisms",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16627239",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "he hypoxia-inducible transcription factor (HIF) regulates the expression of genes involved in angiogenesis, erythropoiesis and glycolysis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16374431",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "hypoxia-inducible factor-1, which activates a gene program associated with angiogenesis, glycolysis, and adaptation to pH",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15838239",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "ChREBP (carbohydrate response element-binding protein) was recently identified as a candidate transcription factor in the glucose-signaling pathway",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15664996",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Hypoxia-inducible factor (HIF)-1 is a master transcription factor, which up-regulates glycolysis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12200433",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "(Src) express HIF-1alpha protein under normoxia, which results in the expression of multiple HIF-1alpha target genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12200433",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "HIF-1 alpha can then translocate to the nucleus and facilitate transcription of numerous target genes, the majority of which are involved in glycolysis and angiogenesis via heterodimerisation with the beta subunit (HIF-1 beta/ARNT)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12054621",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We previously observed that the c-Myc oncogenic transcription factor regulates lactate dehydrogenase A and induces lactate overproduction. We, therefore, sought to determine whether c-Myc controls other genes regulating glucose metabolism",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10823814",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "overexpression of the c-Myc oncoprotein deregulates glycolysis through the activation of several components of the glucose metabolic pathway",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10823814",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "HNF4alpha is critical for regulating glucose transport and glycolysis and in doing so is crucial for maintaining glucose homeostasis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9371825",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D035165",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006019"
+  ],
+  "exact_answer": "HIF1-alpha, c-Myc, Src, STAT3, SIRT6, NF-\u03baB, Oct1, HNF4-alpha, PVHL"
+}

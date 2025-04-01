@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01759",
+  "original_length": 6529,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "t.  He stated that his main symptom is extreme fatigue.  He has no energy and is unable to engage in many activities.  Over the past year he was admitted to the hospital four times for confusion an...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Nexium 4 mg, Propanolol 10 mg, Spironolactone 100 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'He stated that his main symptom is extreme fatigue...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

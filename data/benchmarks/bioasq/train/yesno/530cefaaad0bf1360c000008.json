@@ -1,0 +1,65 @@
+{
+  "id": "530cefaaad0bf1360c000008",
+  "type": "yesno",
+  "question": "Is lambrolizumab effective for treatment of patients with melanoma ?",
+  "ideal_answer": "Lambrolizumab, a programmed death-1 receptor (PD-1)/its ligand (PD-L1) antibody, has been shown to be effective for treatment of patients with melanoma. High rate of sustained tumor regression with mainly minimal adverse effects in melanoma patients treated with lambrolizumab has been reported. Because of all these reasons PD-1/PD-L1 antibodies are considered 'drug of the year.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23724846",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24416617",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23847357",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24089441",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24499550",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23970885",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24516336",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23907003",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24348481",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23997828"
+  ],
+  "snippets": [
+    {
+      "text": "However, through parallel efforts that have showcased the efficacy of small-molecule BRAF and MAP-ERK kinase (MEK) inhibitors, as well as the immune checkpoint inhibitors, namely ipilimumab and the anti-PD1/PDL1 antibodies (lambrolizumab, nivolumab, MPDL3280), an opportunity exists to transform the treatment of melanoma specifically and cancer generally by exploring rational combinations of molecularly targeted therapies, immunotherapies, and molecular targeted therapies with immunotherapies. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24089441",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Programmed death-1 receptor (PD-1)/its ligand (PD-L1) antibodies have changed the landscape in oncology in 2013. The most mature results have been obtained in advanced melanoma patients. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23907003",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Merck's lambrolizumab (MK-3475) monoclonal antibody received \"Breakthrough Therapy\" designation from the U.S. Food and Drug Administration in April for treating patients with advanced melanoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23847357",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The programmed death 1 (PD-1) receptor is a negative regulator of T-cell effector mechanisms that limits immune responses against cancer. We tested the anti-PD-1 antibody lambrolizumab (previously known as MK-3475) in patients with advanced melanoma. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23724846",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In patients with advanced melanoma, including those who had had disease progression while they had been receiving ipilimumab, treatment with lambrolizumab resulted in a high rate of sustained tumor regression, with mainly grade 1 or 2 toxic effects. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23724846",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Because of all these reasons PD-1/PD-L1 antibodies are considered 'drug of the year'.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23907003",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018328",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013812",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018326",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016896",
+    "http://www.disease-ontology.org/api/metadata/DOID:1909",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008545"
+  ],
+  "exact_answer": "Yes"
+}

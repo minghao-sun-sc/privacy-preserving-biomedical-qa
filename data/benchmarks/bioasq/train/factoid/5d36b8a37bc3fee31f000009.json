@@ -1,0 +1,39 @@
+{
+  "id": "5d36b8a37bc3fee31f000009",
+  "type": "factoid",
+  "question": "What is the effect of Satb1 knock-out in mice?",
+  "ideal_answer": "inhibited cell viability and migration",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30024617",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15851481",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29388727"
+  ],
+  "snippets": [
+    {
+      "text": "ur studies indicate that both nuclear matrix association and DNA binding are required for optimal SATB1-mediated repression of the integrated MMTV promoter and may allow insulation from cellular regulatory elements.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15851481",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " T cells from SATB1 conditional knockout (SATB1cKO) mice, in which the Satb1 gene is deleted from hematopoietic cells, impair phosphorylation of signaling molecules in response to T cell receptor (TCR) crosslinking",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29388727",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SATB1 is essential for maintaining TCR responsiveness during the induction and effector phases and may provide a novel therapeutic target for T cell-mediated autoimmune diseases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29388727",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "knock-out of Satb1 significantly inhibited cell viability and migration, and promoted Schwann cells apoptosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30024617",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "apoptosis"
+}

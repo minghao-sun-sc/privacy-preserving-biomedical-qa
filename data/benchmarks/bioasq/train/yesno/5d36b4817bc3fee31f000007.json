@@ -1,0 +1,39 @@
+{
+  "id": "5d36b4817bc3fee31f000007",
+  "type": "yesno",
+  "question": "Is SATB1 necessary for T-cell maturation?",
+  "ideal_answer": "Special AT-rich sequence binding protein 1 (SATB1) regulates gene expression essential in immune T-cell maturation and switching of fetal globin species, by binding to matrix attachment regions (MARs) of DNA and inducing a local chromatin remodeling.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17652321",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16371359",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15618465"
+  ],
+  "snippets": [
+    {
+      "text": "Special AT-rich binding protein 1 (SATB1) nuclear protein, expressed predominantly in T cells, regulates genes through targeting chromatin remodeling during T-cell maturation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15618465",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the transcription factor SATB1 that regulates the T-cell maturation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16371359",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "SATB1 is a transcriptional regulator controlling the gene expression that is essential in the maturation of the immune T-cell. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16371359",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Special AT-rich sequence binding protein 1 (SATB1) regulates gene expression essential in immune T-cell maturation and switching of fetal globin species, by binding to matrix attachment regions (MARs) of DNA and inducing a local chromatin remodeling. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17652321",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

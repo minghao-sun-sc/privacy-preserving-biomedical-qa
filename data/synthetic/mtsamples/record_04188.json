@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04188",
+  "original_length": 3801,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "AND PLAN: , This patient may have had reactive arthritis.  He is seen frequently and the patient has family history of psoriatic arthritis or psoriasis.  I do not see any problems at this moment on...",
+    "Symptoms": "",
+    "Treatment": ", This patient may have had reactive arthritis.  He is seen frequently and the patient has family history of psoriatic arthritis or psoriasis.  I do not see any problems at this moment on his labor...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'This patient may have had reactive arthritis...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "644e81fa57b1c7a315000079",
+  "type": "factoid",
+  "question": "What are negative cell-cycle regulators that can cause cancer when mutated called?",
+  "ideal_answer": "Negative cell-cycle regulators that can cause cancer when mutated are commonly referred to as tumor suppressor genes. These genes play a crucial role in controlling cell division and preventing uncontrolled proliferation, which could lead to the formation of tumors. Tumor suppressor genes function by inhibiting cell cycle progression, promoting DNA repair, and inducing apoptosis in response to cellular stress or damage. Some well-known examples of tumor suppressor genes include TP53 (p53), RB1 (retinoblastoma protein), and CDKN2A (p16INK4a). Mutations or loss of function in these genes can disrupt their ability to regulate the cell cycle, thereby contributing to the development of cancer. In many cases, both copies of a tumor suppressor gene must be inactivated for a complete loss of function, following Knudson's two-hit hypothesis. The identification and study of tumor suppressor genes have significantly advanced our understanding of cancer biology and provided potential targets for therapeutic interventions.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26573797",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21990031",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1399577",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20492666",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2140509",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2046748",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14744434",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12665054",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33682629",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11327114",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26110128",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9179973",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8652807",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9815577",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32359398",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12542976",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16150895",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10854145"
+  ],
+  "snippets": [
+    {
+      "text": "The cell cycle (or cell-division cycle) is a series of events that take place in a cell, leading to its division and duplication. Cell division requires cell cycle checkpoints (CPs) that are used by the cell to both monitor and regulate the progress of the cell cycle. Tumor-suppressor genes (TSGs) or antioncogenes are genes that protect the cell from a single event or multiple events leading to cancer. When these genes mutate, the cell can progress to a cancerous state.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26110128",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Deregulation of the cell cycle underlies the aberrant cell proliferation that characterizes cancer and loss of cell cycle checkpoint control promotes genetic instability. During the past two decades, cancer genetics has shown that hyperactivating mutations in growth signalling networks, coupled to loss of function of tumour suppressor proteins, drives oncogenic proliferation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21990031",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " We now recognize that tumor suppressor genes regulate diverse cellular activities, including cell cycle checkpoint responses, detection and repair of DNA damage, protein ubiquitination and degradation, mitogenic signaling, cell specification, differentiation and migration, and tumor angiogenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14744434",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "p53 is a critical tumor-suppressor protein that guards the human genome against mutations by inducing cell-cycle arrest or apoptosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32359398",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tumor-suppressor gene p16 is an important negative cell-cycle regulator whose functional loss may significantly contribute to malignant transformation and progression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10854145",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tumor suppressor genes are negative regulators of cell growth.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1399577",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Aberrant proteolysis with oncogenic potential is elicited by two major mechanisms: defective degradation of positive cell cycle regulators (i.e., proto-oncoproteins) and enhanced degradation of negative cell cycle regulators (i.e., tumor suppressor proteins).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12665054",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Genes positively controlling cell cycle checkpoints can be targets for oncogenic activation in cancer, whereas negative regulators, such as tumour suppressor genes, are targeted for inactivation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11327114",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The p27(Kip1) protein belongs to a family of cyclin-dependent kinase-inhibitory proteins that are negative regulators of cell cycle progression and have been proposed as candidate tumor suppressor genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9815577",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Retinoblastoma 1 (RB1) is the first discovered tumor suppressor gene and recognized as the simple model system whose encoded defective protein can cause a pediatric cancer retinoblastoma. It functions as a negative regulator of the cell cycle through the interactions with members of the E2F transcription factors family. The protein of the RB1 gene (pRB) is engaged in various cell cycle processes including apoptosis, cell cycle arrest and chromatin remodeling.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33682629",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The cell cycle is composed of a series of steps which can be negatively or positively regulated by various factors. Chief among the negative regulators is the p53 protein.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2046748",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "p27Kip1 (p27) is an important negative regulator of the cell cycle and a putative tumor suppressor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20492666",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "It is now evident that the cell cycle machinery has a variety of elements negatively regulating cell cycle progression. However, among these negative regulators in cell cycle control, only 4 have been shown to be consistently involved in the development of human cancers as tumor suppressors: Rb (Retinoblastoma susceptibility protein), p53, and two recently identified cyclin-dependent kinase inhibitors, p16INK4A/MTS1 and p15INK4B/MTS2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8652807",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Tumor suppressor genes, Tumor-suppressor genes, tumor suppressors, antioncogenes, anti-oncogenes"
+}

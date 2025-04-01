@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01084",
+  "original_length": 2020,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": ", Carpal tunnel release.,INDICATIONS FOR SURGERY: , Nerve conduction study tests diagnostic of carpal tunnel syndrome.  The patient failed to improve satisfactorily on conservative care, including ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Nerve conduction study tests diagnostic of carpal ...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

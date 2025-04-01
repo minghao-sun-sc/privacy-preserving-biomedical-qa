@@ -1,0 +1,133 @@
+{
+  "id": "5542644fed966d112c000004",
+  "type": "list",
+  "question": "Which are the methods for in silico prediction of the origin of replication (ori) among bacteria?",
+  "ideal_answer": "Several in silico methods have been applied for prediction of the origin of replication (ori). DNA base composition asymmetry, such as GC skew, is the basis of numerous in silico methods used to detect the ori in prokaryotes. The Z curve analysis is also used for ori identification. Comparative genomics, by BLAST analyses of the intergenic sequences compared to related species have been applied in ori prediction. The finding of the dnaA gene and its binding sites, DnaA boxes, as well as the finding of the binding sites of other proteins, such as CtrA and IHF, are fundamental characteristics used for in silico prediction of the ori. Also, the localization of boundary genes, such as cell division cycle (cdc6) gene, and consensus origin recognition box (ORB) sequences have been employed for ori detection. The study of the gene order around the origin sequence and the distribution of the genes encoded in the leading versus the lagging strand are also used for in silico detection of the ori.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18582175",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12218031",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18237442",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24822028",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23093601",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25309521",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17188685",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14643658",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21364800",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17584494",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21945744",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24808892",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19332823",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12732098"
+  ],
+  "snippets": [
+    {
+      "text": "Based on the Z-curve theory, we have developed a web-based system Ori-Finder to predict oriCs in bacterial genomes with high accuracy and reliability by taking advantage of comparative genomics",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23093601",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we have applied a combination of multiple in silico approaches - Z curve, the cell division cycle (cdc6) gene location and location of consensus origin recognition box (ORB) sequences for location of origin of replication",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21364800",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using features that have been previously experimentally verified in the alpha-Proteobacterium Caulobacter crescentus, the origin of DNA replication (ori) regions were identified in silico for Wolbachia strains and eleven other related bacteria belonging to Ehrlichia, Anaplasma, and Rickettsia genera. These features include DnaA-, CtrA- and IHF-binding sites as well as the flanking genes in C. crescentus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17584494",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The sequences of the ori regions described here are only similar among closely related bacteria while fundamental characteristics like presence of DnaA and IHF binding sites as well as the boundary genes are more widely conserved.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17584494",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We propose a correlation measure and show that it is correctly able to predict the origin of replication in most of the bacterial genomes. When applied to Methanocaldococcus jannaschii, Plasmodium falciparum apicoplast and Nicotiana tabacum plastid, this correlation based method is able to correctly predict the origin of replication whereas the generally used GC skew measure fails.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21945744",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA base composition asymmetry is the basis of numerous in silico methods used to detect the origin and terminus of replication in prokaryotes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18582175",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These analyses include finding the dnaA gene and its binding sites; making BLAST analyses of the intergenic sequences compared to related species; studying the gene order around the origin sequence; and studying the distribution of the genes encoded in the leading versus the lagging strand.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18582175",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DnaA binds a single DnaA box as a monomer",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14643658",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In silico comparative analysis of sequenced mollicute genomes indicated the lack of conservation of gene order in the region containing the predicted origin of replication (oriC) and the existence, in most of the mollicute genomes examined, of putative DnaA boxes lying upstream and downstream from the dnaA gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12218031",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this paper we have applied a combination of multiple in silico approaches - Z curve, the cell division cycle (cdc6) gene location and location of consensus origin recognition box (ORB) sequences for location of origin of replication in Thermococcus onnurineus, Thermococcus gammatolerans and other Themococcales and compared the results to that of the well-documented case of Pyrococcus abyssi.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21364800",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA base composition asymmetry is the basis of numerous in silico methods used to detect the origin and terminus of replication in prokaryotes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18582175",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "It increases the prediction accuracy of the replication termini compared with previously documented methods based on genomic base composition.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17188685",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using compositional skews such as the GC skew, replication origin and terminus can be predicted in silico by observing the shift points.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17188685",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we summarize the recent advances of in silico prediction of oriCs in bacterial and archaeal genomes using the Z-curve based method",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24822028",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA base composition asymmetry is the basis of numerous in silico methods used to detect the origin and terminus of replication in prokaryotes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18582175",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent Advances in the Identification of Replication Origins Based on the Z-curve Method.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24822028",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present a web-based tool Ori-Finder 2 to predict oriCs in the archaeal genomes automatically, based on the integrated method comprising the analysis of base composition asymmetry using the Z-curve method, the distribution of origin recognition boxes identified by FIMO tool, and the occurrence of genes frequently close to oriCs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25309521",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0000808",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004261",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018741",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0003688"
+  ],
+  "exact_answer": "GC skew analysis, Z curve analysis, comparative genomics, dnaA gene location, localization of dnaA binding sites (DnaA boxes), localization of CtrA binding sites, localization of IHF binding sites, localization of cell division cycle (cdc6) gene, localization of other boundary genes, localization of other consensus origin recognition box (ORB) sequences, the gene order around the ori, gene distribution in leading versus lagging strand"
+}

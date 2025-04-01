@@ -1,0 +1,37 @@
+{
+  "document_id": "record_00288",
+  "original_length": 3626,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Herniated nucleus pulposus T8-T9.,POSTOPERATIVE DIAGNOSIS: , Herniated nucleus pulposus T8-T9.,OPERATION PERFORMED: , Thoracic right-sided discectomy at T8-T9.,BRIEF HISTORY AND IND...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON, US_DRIVER_LICENSE",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',POSTOPERATIVE DIAGNOSIS: , Herniated nucleus pulp...'"
+      ],
+      "pii_detected": [
+        "PERSON",
+        "US_DRIVER_LICENSE"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

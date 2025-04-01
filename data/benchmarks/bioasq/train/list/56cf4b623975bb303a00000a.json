@@ -1,0 +1,100 @@
+{
+  "id": "56cf4b623975bb303a00000a",
+  "type": "list",
+  "question": "List the neurotransmitters that are metabolized by MAOA.",
+  "ideal_answer": "The monoamine oxidase-A (MAOA) gene plays a vital role in the metabolism of neurotransmitters, e.g, serotonin, norepinephrine, and dopamine.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19214141",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24652311",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24865426",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23761378",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24510409",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25733484",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19456107",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20485326",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20204405",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19368859",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18227761",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21554924"
+  ],
+  "snippets": [
+    {
+      "text": " MAOA metabolizes monoamine neurotransmitters. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25733484",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Monoamine oxidase A (MAOA) modulates metabolism of serotonin and dopamine metabolism, neurotransmitters involved in regulation of appetite and food intake. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23761378",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tumors from patients with high-grade aggressive prostate cancer (PCa) exhibit increased expression of monoamine oxidase A (MAOA), a mitochondrial enzyme that degrades monoamine neurotransmitters and dietary amines.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24865426",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Monoamine oxidase A (MAOA) catalyzes monoamine neurotransmitters including dopamine, 5-hydroxytryptamine (5-HT, serotonin), and norepinephrine. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24510409",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These traits are controlled by neurotransmitters like dopamine, serotonin and norepinephrine. Monoamine oxidase A (MAOA), a mitochondrial enzyme involved in the degradation of amines, has been reported to be associated with aggression, impulsivity, depression, and mood changes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24652311",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Monoamine Oxidase A (MAOA) is a critical enzyme in the catabolism of monoaminergic neurotransmitters. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21554924",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Monoamine oxidases (MAO-A and MAO-B) have a key role in the degradation of amine neurotransmitters, such as dopamine, norepinephrine and serotonin. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20485326",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Inhibitors of monoamine oxidase A (MAOA), a mitochondrial enzyme that degrades neurotransmitters including serotonin and norepinephrine, are commonly used to treat neurological conditions including depression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20204405",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Monoamine oxidase A (MAOA) is one of the major enzymes responsible for the degradation of neurotransmitters.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19368859",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Monoamine oxidase membrane enzymes are responsible for the catalytic breakdown of extra- and intracellular neurotransmitters",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19456107",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Monoamine oxidase-A (MAO-A) is a key mitochondrial enzyme that metabolizes biogenic amine neurotransmitters such as dopamine and serotonin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19214141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The monoamine oxidase-A (MAOA) gene plays a vital role in the metabolism of neurotransmitters, e.g, serotonin, norepinephrine, and dopamine. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18227761",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018377",
+    "http://www.uniprot.org/uniprot/AOFA_BOVIN",
+    "http://www.uniprot.org/uniprot/AOFA_CANFA"
+  ],
+  "exact_answer": "serotonin, norepinephrine, dopamine"
+}

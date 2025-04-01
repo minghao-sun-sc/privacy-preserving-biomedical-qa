@@ -1,0 +1,33 @@
+{
+  "document_id": "record_02494",
+  "original_length": 1932,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "AND PLAN:,  For her headaches we are going to titrate Zonegran up to 200 mg q.h.s. to try to maximize the Zonegran therapy.  If this is not effective, when she comes back on [date] we will ...",
+    "Symptoms": "",
+    "Treatment": ",  For her headaches we are going to titrate Zonegran up to 200 mg q.h.s. to try to maximize the Zonegran therapy.  If this is not effective, when she comes back on [date] we will then cons...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "to 200 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'to try to maximize the Zonegran therapy...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

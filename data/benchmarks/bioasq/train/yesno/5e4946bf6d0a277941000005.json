@@ -1,0 +1,25 @@
+{
+  "id": "5e4946bf6d0a277941000005",
+  "type": "yesno",
+  "question": "Are genomic regulatory blocks (GRBs) any different than TADs?",
+  "ideal_answer": "No, clusters of CNEs (GRBs) strongly coincide with topological organisation, predicting the boundaries of hundreds of topologically associating domains (TADs) in human and Drosophila. The set of TADs that are associated with high levels of noncoding conservation exhibit distinct properties compared to TADs devoid of extreme noncoding conservation. The close correspondence between extreme noncoding conservation and TADs suggests that these TADs are ancient, revealing a regulatory architecture conserved over hundreds of millions of years.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28874668"
+  ],
+  "snippets": [
+    {
+      "text": "Topologically associating domains are ancient features that coincide with Metazoan clusters of extreme noncoding conservation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28874668",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Clusters of CNEs define the span of regulatory inputs for many important developmental regulators and have been described previously as genomic regulatory blocks (GRBs). Their function and distribution around important regulatory genes raises the question of how they relate to 3D conformation of these loci. Here, we show that clusters of CNEs strongly coincide with topological organisation, predicting the boundaries of hundreds of topologically associating domains (TADs) in human and Drosophila. The set of TADs that are associated with high levels of noncoding conservation exhibit distinct properties compared to TADs devoid of extreme noncoding conservation. The close correspondence between extreme noncoding conservation and TADs suggests that these TADs are ancient, revealing a regulatory architecture conserved over hundreds of millions of years.Metazoan genomes contain many clusters of conserved noncoding elements. Here, the authors provide evidence that these clusters coincide with distinct topologically associating domains in humans and Drosophila, revealing a conserved regulatory genomic architecture.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28874668",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

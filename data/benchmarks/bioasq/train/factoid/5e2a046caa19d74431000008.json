@@ -1,0 +1,25 @@
+{
+  "id": "5e2a046caa19d74431000008",
+  "type": "factoid",
+  "question": "How many different miRNAs can be upregulated by LB-100?",
+  "ideal_answer": "LB-100 has been reported to upregulate one miRNA, namely miR-181b-1.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28588271"
+  ],
+  "snippets": [
+    {
+      "text": "PP2A inhibition from LB100 therapy enhances daunorubicin cytotoxicity in secondary acute myeloid leukemia via miR-181b-1 upregulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28588271",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " LB100 profoundly upregulates miR-181b-1, which we show directly binds to the 3' untranslated region of Bcl-2 mRNA leading to its translational inhibition. MiR-181b-1 ectopic overexpression further diminishes Bcl-2 expression leading to suppression of sAML cell growth, and enhancement of DNR cytotoxicity. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28588271",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "One"
+}

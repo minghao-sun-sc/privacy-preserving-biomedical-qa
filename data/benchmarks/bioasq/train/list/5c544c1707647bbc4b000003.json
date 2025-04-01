@@ -1,0 +1,44 @@
+{
+  "id": "5c544c1707647bbc4b000003",
+  "type": "list",
+  "question": "List uniparental disomy (UPD) detection algorithms",
+  "ideal_answer": "UPDtool and AsCNAR are tools for detecting uniparental disomy (UPD). UPDtool is a computational tool for detection and classification of uniparental disomy (UPD) in trio SNP-microarray experiments. AsCNAR (allele-specific copy-number analysis using anonymous references) detects the copy-number neutral LOH, or uniparental disomy (UPD), in a large number of acute leukemia samples.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17564968",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23589652"
+  ],
+  "snippets": [
+    {
+      "text": "UPDtool: a tool for detection of iso- and heterodisomy in parent-child trios using SNP microarrays.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23589652",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "UPDtool is a computational tool for detection and classification of uniparental disomy (UPD) in trio SNP-microarray experiments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23589652",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The performance of the new algorithm, called \"AsCNAR\" (allele-specific copy-number analysis using anonymous references), was demonstrated by detecting the copy-number neutral LOH, or uniparental disomy (UPD), in a large number of acute leukemia samples. We next applied this technique to detection of UPD involving the 9p arm in myeloproliferative disorders (MPDs), which is tightly associated with a homozygous JAK2 mutation. It revealed an unexpectedly high frequency of 9p UPD that otherwise would have been undetected and also disclosed the existence of multiple subpopulations having distinct 9p UPD within the same MPD specimen. In conclusion, AsCNAR should substantially improve our ability to dissect the complexity of cancer genomes and should contribute to our understanding of the genetic basis of human cancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17564968",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results were compared with both the gold standard, microsatellite analysis and SNPtrio, another program available for UPD detection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23589652",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results were compared with both the gold standard, microsatellite analysis and SNPtrio, another program available for UPD detection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23589652",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "UPDtool, AsCNAR (allele-specific copy-number analysis using anonymous references)"
+}

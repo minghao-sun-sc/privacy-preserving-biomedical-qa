@@ -1,0 +1,195 @@
+{
+  "id": "5549de44f35db7552600000c",
+  "type": "summary",
+  "question": "By which mechanism MutT proteins act against DNA lesions in bacteria?",
+  "ideal_answer": "MutT proteins belong to a class of Nudix hydrolases. The common substrate structure for the proteins of the functionally diverse Nudix superfamily is nucleotide-diphosphate-X, where X is a large variety of leaving groups. The activities of Nudix hydrolases usually result in the release of an inorganic phosphate ion or of a product bearing a terminal phosphate moiety. MutT proteins hydrolyze 8-oxo-G nucleoside triphosphates/diphosphates to the corresponding nucleoside monophosphates and sanitize the nucleotide pool. MutT proteins cleave 8-oxo-dGTP (8-oxo-7,8-dihydro-2'-deoxyguanosine 5'-triphosphate) at the \u03b1-\u03b2 position; they also cleave 8-oxo-dGTP at the \u03b2-\u03b3 phosphate bond at a rate of 3% of that recorded for hydrolysis at the \u03b1-\u03b2 position. 8-oxo-dGTP induces A to C transversions when misincorporated in DNA opposite to template A. By hydrolyzing 8-oxo-dGTP before their incorporation into DNA, MutT proteins play a critical role in allowing bacteria to avoid A-to-C mutations, which are a hallmark of MutT deficiency. Thus, MutT proteins prevent oxidative DNA lesions, as part of the GO system. Oxidized nucleotides can occur when bacteria are exposed to reactive oxygen species. Also, reactive oxygen species are produced as side products of oxygen utilization, leading to the oxidation of nucleic acids and their precursor nucleotides. Distinct from the Escherichia coli MutT, which hydrolyzes 8-oxo-dGTP and 8-oxo-GTP, the mycobacterial proteins hydrolyze not only 8-oxo-dGTP and 8-oxo-GTP but also dCTP and 5-methyl-dCTP. Moreover, the hydrolysis of 8-oxo-dGTP and 8-oxo-GTP in mycobacteria seems to be catalysed in a two-stage mechanism, since MutT converts these oxidized nucleoside triphosphates to their corresponding nucleoside diphosphates, and not to monophosphates.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23354752",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22556419",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9328176",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23463507",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25294823",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11856756",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20345942",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1309939",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10608900",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9603880",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9756871",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23481913",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12717778",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12717453",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21178309",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15475388",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17545288",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7739614",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22092761",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12767940",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9140059",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21111690",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21147134",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23043439",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10954591",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20880409",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15850400",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23006569",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11892789",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17616589",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23376345",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12531387"
+  ],
+  "snippets": [
+    {
+      "text": "in addition to the well-characterized hydrolysis of 8-oxo-dGTP at the \u03b1-\u03b2 position, MutT cleaves at the \u03b2-\u03b3 phosphate bond at a rate of 3% of that recorded for hydrolysis at the \u03b1-\u03b2 position",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23481913",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MutT also catalyzes the hydrolysis of 5-methyl-dCTP",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23481913",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The common substrate structure for the functionally diverse Nudix protein superfamily is nucleotide-diphosphate-X, where X is a large variety of leaving groups. The substrate specificity is known for less than 1% of the 29,400 known members. Most activities result in the release of an inorganic phosphate ion or of a product bearing a terminal phosphate moiety.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23481913",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the pathogen is exposed to reactive oxygen species, known to damage dGTP and GTP to 8-oxo-dGTP and 8-oxo-GTP, respectively. Incorporation of the damaged nucleotides in nucleic acids is detrimental to organisms. MutT proteins, belonging to a class of Nudix hydrolases, hydrolyze 8-oxo-G nucleoside triphosphates/diphosphates to the corresponding nucleoside monophosphates and sanitize the nucleotide pool.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23463507",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we characterized MtuMutT1 and Rv1700 proteins of M. tuberculosis. Unlike other MutT proteins, MtuMutT1 converts 8-oxo-dGTP to 8-oxo-dGDP, and 8-oxo-GTP to 8-oxo-GDP. Rv1700 then converts them to the corresponding nucleoside monophosphates. This observation suggests the presence of a two-stage mechanism of 8-oxo-dGTP/8-oxo-GTP detoxification in mycobacteria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23463507",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A to C mutations (a hallmark of MutT deficiency)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23463507",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Reactive oxygen species are produced as side products of oxygen utilization and can lead to the oxidation of nucleic acids and their precursor nucleotides. Among the various oxidized bases, 8-oxo-7,8-dihydroguanine seems to be the most critical during the transfer of genetic information because it can pair with both cytosine and adenine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23376345",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "oxidized form of GMP (8-oxo-GMP) formed by the oxidation of GMP or by the cleavage of 8-oxo-GDP and 8-oxo-GTP by MutT protein.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23376345",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The 8-oxo-GTP produced in this way and by the oxidation of GTP can be used for RNA synthesis. This misincorporation is prevented by MutT protein, which has the potential to cleave 8-oxo-GTP as well as 8-oxo-GDP to 8-oxo-GMP.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23376345",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "By hydrolyzing the oxidized guanine nucleotides before their incorporation into nucleic acids, MutT proteins play a critical role in allowing organisms to avoid their deleterious effects.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23354752",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Distinct from the Escherichia coli MutT, which hydrolyzes 8-oxo-dGTP and 8-oxo-GTP, the mycobacterial proteins hydrolyze not only 8-oxo-dGTP and 8-oxo-GTP but also dCTP and 5-methyl-dCTP. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23354752",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A-to-C mutations (a hallmark of MutT deficiency)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23354752",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Reactive oxygen species induce oxidative damage in DNA precursors, i.e. dNTPs, leading to point mutations upon incorporation. Escherichia coli mutT strains, deficient in the activity hydrolysing 8-oxo-7,8-dihydro-2'-deoxyguanosine 5'-triphosphate (8-oxo-dGTP), display more than a 100-fold higher spontaneous mutation frequency over the wild-type strain. 8-oxo-dGTP induces A to C transversions when misincorporated opposite template A.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23043439",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Prevention and correction of oxidative DNA lesions in Pseudomonas aeruginosa is ensured by the DNA oxidative repair system (GO). Single inactivation of mutT, mutY and mutM involved in GO led to elevated mutation rates (MRs)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22092761",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the GO system (mutM, mutY and mutT)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20880409",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Human MTH1 and Escherichia coli MutT proteins hydrolyze 7, 8-dihydro-8-oxo-dGTP (8-oxo-dGTP) to monophosphate, thus avoiding the incorporation of 8-oxo-7,8-dihydroguanine into nascent DNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10608900",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Unlike other MutT proteins, MtuMutT1 converts 8-oxo-dGTP to 8-oxo-dGDP, and 8-oxo-GTP to 8-oxo-GDP.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23463507",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MutT proteins, belonging to a class of Nudix hydrolases, hydrolyze 8-oxo-G nucleoside triphosphates/diphosphates to the corresponding nucleoside monophosphates and sanitize the nucleotide pool.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23463507",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "By hydrolyzing the oxidized guanine nucleotides before their incorporation into nucleic acids, MutT proteins play a critical role in allowing organisms to avoid their deleterious effects.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23354752",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MutT-related proteins, including the Escherichia coli MutT and human MutT homologue 1 (MTH1) proteins, degrade 8-oxo- 7,8-dihydrodeoxyguanosine triphosphate (8-oxo-dGTP) to a monophosphate, thereby preventing mutations caused by the misincorporation of 8-oxoguanine into DNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12717453",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In mutator strains lacking MutT and/or MutM proteins, 8-oxoguanine of DNA increased to a concentration expected from the increased rate of mutation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7739614",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "coli strains with mutations in genes responsible for the repair of DNA containing oxidative lesions (mutY, mutS, mutM, mutT, nth) were less resistant to AgNP than wild type strains.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23006569",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MutT and MutY proteins, when active, protect bacteria from mutations induced by 8-oxoG lesions in DNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12717778",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MutT-related proteins degrade 8-oxo-7,8-dihydrodeoxyguanosine triphosphate (8-oxo-dGTP), a mutagenic substrate for DNA synthesis, in the nucleotide pool, thereby preventing DNA replication errors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12767940",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "coli strains with mutations in genes responsible for the repair of DNA containing oxidative lesions (mutY, mutS, mutM, mutT, nth) were less resistant to AgNP than wild type strains",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23006569",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/MUTT_PROVU"
+  ]
+}

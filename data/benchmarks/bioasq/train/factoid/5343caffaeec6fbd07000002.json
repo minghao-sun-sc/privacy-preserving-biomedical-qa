@@ -1,0 +1,92 @@
+{
+  "id": "5343caffaeec6fbd07000002",
+  "type": "factoid",
+  "question": "Which is the human selenoprotein that contains several Se-Cys residues?",
+  "ideal_answer": "Selenoprotein P, that contains 10 selenocysteines.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15104205",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15777501",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11122377",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7637580",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19345254",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20417644",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17000762",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9288402",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10692426"
+  ],
+  "snippets": [
+    {
+      "text": "selenoprotein P and several other selenoproteins are known to contain multiple selenocysteines",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20417644",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sepp1) is a secreted protein that is made up of 2 domains. The larger N-terminal domain contains 1 selenocysteine residue in a redox motif and the smaller C-terminal domain contains the other 9 selenocysteines",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19345254",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "selenoprotein P genes encode multiple UGAs and two SECIS elements",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17000762",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Human selenoprotein P (HSelP) is unique protein that contains 10 selenocysteines encoded by 10 inframe UGA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15777501",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SeP) is an extracellular glycoprotein with 8-10 selenocysteines per molecule",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15104205",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "human, bovine and rodent selenoprotein P genes encode proteins containing 10-12 selenocysteines",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11122377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Selenoprotein P is unique in that its mRNA encodes 10-12 selenocysteine residues",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10692426",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The deduced polypeptide sequence comprises 380 residues including ten selenocysteines",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9288402",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "selenoprotein-P",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9288402",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "selenoprotein P-like protein containing 12 selenocysteines ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7637580",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " rat and human selenoprotein P cDNA but contained 12 rather than 10 TGAs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7637580",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4275372",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017279",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051149",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051140"
+  ],
+  "exact_answer": "Selenoprotein P"
+}

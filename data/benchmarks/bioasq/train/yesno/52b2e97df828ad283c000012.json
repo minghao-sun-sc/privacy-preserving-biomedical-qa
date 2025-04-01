@@ -1,0 +1,70 @@
+{
+  "id": "52b2e97df828ad283c000012",
+  "type": "yesno",
+  "question": "Has overexpression of sirtuins been reported to increase lifespan in budding yeast (Saccharomyces cerevisiae)?",
+  "ideal_answer": "Overexpression of sirtuins (NAD(+)-dependent protein deacetylases) has been reported to increase lifespan in budding yeast (Saccharomyces cerevisiae).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12006491",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21938067",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15308206",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23082874"
+  ],
+  "snippets": [
+    {
+      "text": "In addition, Sir2 overexpression prevents Rif1 deletion from disrupting Sir2 at IGS1 and shortening lifespan. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23082874",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Roles for sirtuin proteins at telomeres are thought to promote lifespan in yeast and mammals.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23082874",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Overexpression of sirtuins (NAD(+)-dependent protein deacetylases) has been reported to increase lifespan in budding yeast (Saccharomyces cerevisiae)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21938067",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "When overexpressed, the NAD-dependent protein deacetylase Sir2 extends the lifespan of both budding yeast ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15308206",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "When overexpressed in primary mouse embryo fibroblasts (MEFs), SIRT1 antagonizes PML-induced acetylation of p53 and rescues PML-mediated premature cellular senescence. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12006491",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/SIR2_MOUSE",
+    "http://www.uniprot.org/uniprot/SIR2_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004718",
+    "http://www.uniprot.org/uniprot/SIR6_HUMAN",
+    "http://www.uniprot.org/uniprot/SIR3_MOUSE",
+    "http://www.uniprot.org/uniprot/SIR7_HUMAN",
+    "http://www.uniprot.org/uniprot/SIR6_MOUSE",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015003",
+    "http://www.uniprot.org/uniprot/SIR2_PONAB",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037761",
+    "http://www.uniprot.org/uniprot/SIR2_DANRE",
+    "http://www.uniprot.org/uniprot/SIR7_MOUSE",
+    "http://www.uniprot.org/uniprot/SIR4_HUMAN",
+    "http://www.uniprot.org/uniprot/SIR4_BOVIN",
+    "http://www.uniprot.org/uniprot/SIR1_HUMAN",
+    "http://www.uniprot.org/uniprot/SIR7_BOVIN",
+    "http://www.uniprot.org/uniprot/SIR2_RAT",
+    "http://www.uniprot.org/uniprot/SIR4_MOUSE",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056564",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056565",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056566",
+    "http://www.uniprot.org/uniprot/SIR1_MOUSE",
+    "http://www.uniprot.org/uniprot/SIR2_MACFA"
+  ],
+  "exact_answer": "Yes"
+}

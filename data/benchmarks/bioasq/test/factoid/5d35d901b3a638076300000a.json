@@ -1,0 +1,40 @@
+{
+  "id": "5d35d901b3a638076300000a",
+  "type": "factoid",
+  "question": "What is the human RCA locus size in bps?",
+  "ideal_answer": "The human RCA locus is located on chromosome 1 (CA1) and consists of approximately 750 kb.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/2564419",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2164822",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19319518",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2451706"
+  ],
+  "snippets": [
+    {
+      "text": " The human homologues of these genes are tightly linked, composing the RCA locus, which maps to human chromosome (Chr.)1q32, within a large linkage group conserved between human Chr.1q21-32 and mouse Chr.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2564419",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The primary sequence of the most common structural allotype of CR1 and that of CR2 have been established, and ligand binding on the molecules has been mapped. CR1 and CR2 genes are located in close vicinity in the RCA locus of chromosome 1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2164822",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Genome and expressed sequence tag information of Xenopus tropicalis suggested that short-consensus repeat (SCR)-containing proteins are encoded by three genes that are mapped within a 300-kb downstream of PFKFB2, which is a marker gene for the regulator of complement activation (RCA) loci in human and chicken.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19319518",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The organization and physical linkage of four members of a major complement locus, the RCA locus, have been determined using the technique of pulsed field gradient gel electrophoresis in conjunction with Southern blotting",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2451706",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "300kbp"
+}

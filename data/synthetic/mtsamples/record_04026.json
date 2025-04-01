@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04026",
+  "original_length": 3124,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "\n- Extraction of teeth #2.  #5, #12, #15, #18, #19, #31.\n- Incision and drainage (I&D) of left mandibular vestibular abscess adjacent to teeth #18 and #19.,ANESTHESIA:,  General nasotracheal.,COMPL...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Incision and drainage (I&D) of left mandibular ves...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

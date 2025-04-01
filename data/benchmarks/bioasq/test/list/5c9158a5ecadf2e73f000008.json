@@ -1,0 +1,19 @@
+{
+  "id": "5c9158a5ecadf2e73f000008",
+  "type": "list",
+  "question": "Which malignancies is Keytruda approved for before 2017?",
+  "ideal_answer": "Before 2017 Keytruda was approved for the treatment of several types of malignancies, such as metastatic melanoma, metastatic non-small-cell lung cancer, recurrent or metastatic head and neck cancer, refractory Hodgkin lymphoma, and urothelial carcinoma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29209918"
+  ],
+  "snippets": [
+    {
+      "text": "FDA previously approved Keytruda for treatment of several types of malignancies, such as metastatic melanoma, metastatic non-small-cell lung cancer, recurrent or metastatic head and neck cancer, refractory Hodgkin lymphoma, and urothelial carcinoma, all of which carry positive programmed death-1/programmed death-ligand 1 biomarkers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29209918",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "metastatic melanoma, metastatic non-small cell lung cancer, recurrent or metastatic head and neck cancer, refractory Hodgkin lymphoma, urothelial carcinoma"
+}

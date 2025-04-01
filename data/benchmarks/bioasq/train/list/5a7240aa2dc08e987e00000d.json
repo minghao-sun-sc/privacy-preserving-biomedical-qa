@@ -1,0 +1,81 @@
+{
+  "id": "5a7240aa2dc08e987e00000d",
+  "type": "list",
+  "question": "List two human monoclonal antibodies against Clostridium difficile toxins.",
+  "ideal_answer": "Actoxumab and bezlotoxumab are human monoclonal antibodies against C. difficile toxins A and B, respectively. They were shown to decrease Clostridium difficile recurrence. Bezlotoxumab was approved by the Food and Drug Administration and the European Medicines Agency for Clostridium difficile recurrence.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27905086",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28121498",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25451052",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28274145",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25486992",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28730660",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27757389"
+  ],
+  "snippets": [
+    {
+      "text": "Actoxumab and bezlotoxumab are human monoclonal antibodies against C. difficile toxins A and B, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28121498",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Notably, the authors lay emphasis on the phase III clinical trial (MODIFY II), which allowed bezlotoxumab to be approved by the Food and Drug Administration and the European Medicines Agency. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28274145",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bezlotoxumab, a human monoclonal antibody that binds and neutralizes C. difficile toxin B, is the first therapeutic agent to receive United States Food and Drug Administration approval for the prevention of CDI recurrence.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28730660",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Monoclonal Antitoxin Antibodies (Actoxumab-Bezlotoxumab) Treatment Facilitates Normalization of the Gut Microbiota of Mice with",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27757389",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Human monoclonal antibodies MK-3415A (actoxumab-bezlotoxumab) toC. difficiletoxin A and toxin B, as an emerging non-antibiotic approach, significantly reduced the recurrence of CDI in animal models and human clinical trials. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27757389",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bezlotoxumab (Zinplava\u2122) is a human monoclonal antibody against Clostridium difficile toxin B developed by Merck&Co. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27905086",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mechanisms of protection against Clostridium difficile infection by the monoclonal antitoxin antibodies actoxumab and bezlotoxumab.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25486992",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "A combination of human monoclonal antibodies, actoxumab and bezlotoxumab, directed against TcdA and TcdB, respectively, has been shown to decrease the rate of recurrence in patients treated with standard-of-care antibiotics. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25486992",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Actoxumab and bezlotoxumab are human monoclonal antibodies that neutralize the cytotoxic/cytopathic effects of TcdA and TcdB, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25451052",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bezlotoxumab (Zinplava\u2122) is a human monoclonal antibody against Clostridium difficile toxin B developed by Merck & Co.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27905086",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D000911"
+  ],
+  "exact_answer": "actoxumab, bezlotoxumab"
+}

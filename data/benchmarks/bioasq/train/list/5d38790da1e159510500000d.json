@@ -1,0 +1,25 @@
+{
+  "id": "5d38790da1e159510500000d",
+  "type": "list",
+  "question": "Which X chromosome abnormalities present lupus-like symptoms?",
+  "ideal_answer": "Lupus-like symptoms of systemic lupus erythematosus (SLE) are caused by X-linked mutations in the genes Tlr7 and Y.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18606711"
+  ],
+  "snippets": [
+    {
+      "text": "The accelerated development of systemic lupus erythematosus (SLE) in male BXSB mice is associated with the genetic abnormality in its Y chromosome, designated Yaa (Y-linked autoimmune acceleration).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18606711",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Yaa-mediated acceleration of SLE as well as various Yaa-linked cellular traits cannot be explained by the Tlr7 gene duplication alone, and suggest additional contributions from other duplicated genes in the translocated X chromosome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18606711",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Y-linked autoimmune acceleration, Yaa, X-linked translocations"
+}

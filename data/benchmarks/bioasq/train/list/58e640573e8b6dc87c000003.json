@@ -1,0 +1,20 @@
+{
+  "id": "58e640573e8b6dc87c000003",
+  "type": "list",
+  "question": "Which are the most common methods for circular RNA detection from RNASeq?",
+  "ideal_answer": "The main algorithms are circRNA_finder, find_circ, CIRCexplorer, CIRI, and MapSplice.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26657634",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27167008"
+  ],
+  "snippets": [
+    {
+      "text": "Here, we use common RNAseq datasets to scrutinize and compare the output from five different algorithms; circRNA_finder, find_circ, CIRCexplorer, CIRI, and MapSplice and evaluate the levels of bona fide and false positive circRNAs based on RNase R resistance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26657634",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "circRNA_finder, find_circ, CIRCexplorer, CIRI, MapSplice"
+}

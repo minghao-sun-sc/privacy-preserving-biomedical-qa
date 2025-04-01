@@ -1,0 +1,24 @@
+{
+  "id": "5316d4fcb166e2b806000005",
+  "type": "yesno",
+  "question": "Is invasion and metastasis one of the hallmarks of cancer?",
+  "ideal_answer": "Yes, invasion and metastasis are one of the so-called hallmarks of cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19662202"
+  ],
+  "snippets": [
+    {
+      "text": "The pathogenesis of MM involves the accumulation of extensive cytogenetic changes, as well as cancer-related phenotypic alterations that facilitate tumor cell survival, invasion and metastasis. This review presents current knowledge regarding the biological characteristics of this disease that are linked to the so-called hallmarks of cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19662202",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009362",
+    "http://www.disease-ontology.org/api/metadata/DOID:162",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009361",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009369"
+  ],
+  "exact_answer": "Yes"
+}

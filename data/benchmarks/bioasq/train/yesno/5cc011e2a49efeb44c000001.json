@@ -1,0 +1,47 @@
+{
+  "id": "5cc011e2a49efeb44c000001",
+  "type": "yesno",
+  "question": "Does association with the nuclear pore promote gene silencing?",
+  "ideal_answer": "MicroRNA (miRNA)-guided mRNA repression, mediated by the miRNA-induced silencing complex (miRISC), is an important component of post-transcriptional gene silencing. The nucleoporin Nup358 plays an important role in this process",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17724121",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28039207",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20407419",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21811608",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12802065"
+  ],
+  "snippets": [
+    {
+      "text": "Here, we show that the nucleoporin Nup358 plays an important role in this process. Nup358 localizes to the nuclear pore complex and to the cytoplasmic annulate lamellae (AL), and these structures dynamically associate with two mRNP granules: processing bodies (P bodies) and stress granules (SGs). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28039207",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MicroRNA (miRNA)-guided mRNA repression, mediated by the miRNA-induced silencing complex (miRISC), is an important component of post-transcriptional gene silencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28039207",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To assess Tpr's role as an architectural element of the NPC, we have studied the sequential disassembly and reassembly of NPCs in mitotic cells, paralleled by studies of cells depleted of Tpr as a result of posttranscriptional tpr gene silencing by RNA interference (RNAi).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12802065",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The results raise the possibility that NPC-localized protein desumoylation may be a key regulatory event preventing inappropriate pre-mRNA export.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17724121",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Silencing nuclear pore protein Tpr elicits a senescent-like phenotype in cancer cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21811608",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

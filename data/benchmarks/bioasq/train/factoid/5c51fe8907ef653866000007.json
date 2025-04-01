@@ -1,0 +1,37 @@
+{
+  "id": "5c51fe8907ef653866000007",
+  "type": "factoid",
+  "question": "What is the percentage of individuals at risk of dominant medically actionable disease?",
+  "ideal_answer": "1 in 38 individuals at risk of a dominant medically actionable disease.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30291343"
+  ],
+  "snippets": [
+    {
+      "text": "1 in 38 individuals at risk of a dominant medically actionable disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30291343",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Our study shows that 1 in 38 healthy individuals (2.7%) has a (likely) pathogenic variant in one of 59 medically actionable dominant disease genes for which the American College of Medical Genetics and Genomics (ACMG) recommends disclosure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30291343",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our study shows that 1 in 38 healthy individuals (2.7%) has a (likely) pathogenic variant in one of 59 medically actionable dominant disease genes for which the American College of Medical Genetics and Genomics (ACMG) recommends disclosure. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30291343",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "1 in 38 individuals at risk of a dominant medically actionable disease.Clinical genomic sequencing can identify pathogenic variants unrelated to the initial clinical question, but of medical relevance to the patients and their families. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30291343",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "2.7%, 1/38"
+}

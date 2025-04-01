@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00908",
+  "original_length": 2795,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "Her cervix on admission was not ripe, so she was given a dose of Cytotec 25 mcg intravaginally and in the afternoon, she was having frequent contractions and fetal heart tracing was reassuring.  At...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Cytotec 25 mcg, Cytotec 25 mcg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Her cervix on admission was not ripe, so she was g...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

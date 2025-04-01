@@ -1,0 +1,33 @@
+{
+  "document_id": "record_03309",
+  "original_length": 2156,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  Report of vomiting and abdominal pain after eating raw carrots and celery.  Etiology of this is unknown.,PLAN:,  I talked with mother about this.  Certainly, it does not suggest any kind of an a...",
+    "Symptoms": "",
+    "Treatment": ",  I talked with mother about this.  Certainly, it does not suggest any kind of an allergic reaction, nor obstruction.  At this time, they will simply avoid those foods.  In the future, they may ce...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Certainly, it does not suggest any kind of an alle...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

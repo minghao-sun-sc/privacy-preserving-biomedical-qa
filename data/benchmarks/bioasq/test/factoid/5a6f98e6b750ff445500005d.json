@@ -1,0 +1,29 @@
+{
+  "id": "5a6f98e6b750ff445500005d",
+  "type": "factoid",
+  "question": "Which ligament is most commonly injured in dashboard injury?",
+  "ideal_answer": "Posterior cruciate ligament injuries have a reported incidence of between 3 and 37%, depending on the clinical setting. The most common mechanism of injury in motor vehicle accidents is a dashboard injury or direct force to the proximal anterior tibia.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/3425783",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20306414",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10623985"
+  ],
+  "snippets": [
+    {
+      "text": "Posterior cruciate ligament (PCL) injuries have a reported incidence of between 3 and 37%, depending on the clinical setting. The most common mechanism of injury in motor vehicle accidents is a dashboard injury or direct force to the proximal anterior tibia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10623985",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hyperflexion was the most common mechanism of injury, followed by pretibial trauma in the hyperflexed knee or in the \"dashboard\" injury. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3425783",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D008022"
+  ],
+  "exact_answer": "Posterior cruciate ligament"
+}

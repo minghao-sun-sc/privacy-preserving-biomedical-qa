@@ -1,0 +1,26 @@
+{
+  "id": "5a9db99ffd02ddc336000001",
+  "type": "yesno",
+  "question": "Is CXCL7 a chemokine?",
+  "ideal_answer": "Yes, CXCL7 is a chemokine highly expressed in platelets. ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28368308",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28245630"
+  ],
+  "snippets": [
+    {
+      "text": "CXCL7, a chemokine highly expressed in platelets, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28245630",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chemokine CXCL7 Heterodimers",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28368308",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

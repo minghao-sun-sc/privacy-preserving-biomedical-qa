@@ -1,0 +1,37 @@
+{
+  "document_id": "record_00261",
+  "original_length": 6532,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,  Aortic stenosis.,POSTOPERATIVE DIAGNOSIS:  ,Aortic stenosis.,PROCEDURES PERFORMED\n- Insertion of a **-mm Toronto stentless porcine valve.\n- Cardiopulmonary bypass.\n- Cold cardiople...",
+    "Symptoms": "",
+    "Treatment": "Pulmonary evaluation",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, LOCATION, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "LOCATION",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

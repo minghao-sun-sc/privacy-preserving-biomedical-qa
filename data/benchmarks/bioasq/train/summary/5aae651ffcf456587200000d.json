@@ -1,0 +1,49 @@
+{
+  "id": "5aae651ffcf456587200000d",
+  "type": "summary",
+  "question": "What is the function of penicillinase, also known as beta lactamase?",
+  "ideal_answer": "Beta-lactamases are a family of serine enzymes that hydrolyse beta-lactam antibiotics following an acylation-deacylation mechanism.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19100272",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26521981",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11453693",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16870770"
+  ],
+  "snippets": [
+    {
+      "text": "eta-lactamases, a family of serine enzymes that hydrolyse beta-lactam antibiotics following an acylation-deacylation mechanism, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11453693",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "\u03b2-lactamase-mediated antibiotic resistance",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26521981",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "beta-lactamases hydrolyze penicillins very fast,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19100272",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "beta-Lactam antibiotics are extremely effective in disrupting the synthesis of the bacterial cell wall in both gram-positive and gram-negative bacteria",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16870770",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/BLAC_KLEPN",
+    "http://www.uniprot.org/uniprot/BLAC_BACTU",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D001618",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D010405",
+    "http://www.uniprot.org/uniprot/BLAC_BACSU",
+    "http://www.uniprot.org/uniprot/BLAC_BACAM",
+    "http://www.uniprot.org/uniprot/BLAC_CITKO",
+    "http://www.uniprot.org/uniprot/BLAC_KITAU",
+    "http://www.uniprot.org/uniprot/BLAC_AMYLA"
+  ]
+}

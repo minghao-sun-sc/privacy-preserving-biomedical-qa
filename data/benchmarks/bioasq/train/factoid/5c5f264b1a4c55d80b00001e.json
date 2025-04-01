@@ -1,0 +1,33 @@
+{
+  "id": "5c5f264b1a4c55d80b00001e",
+  "type": "factoid",
+  "question": "What is the function of Plasminogen activator inhibitor 1?",
+  "ideal_answer": "Plasminogen activator inhibitor-1 (PAI-1) is an important physiological inhibitor of tissue-type plasminogen activator (tPA) and plays a critical role in fibrinolysis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29967603",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29228113",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29454747"
+  ],
+  "snippets": [
+    {
+      "text": "Plasminogen activator inhibitor-1 (PAI-1) is an important physiological inhibitor of tissue-type plasminogen activator (tPA) and plays a critical role in fibrinolysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29454747",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Plasminogen activator inhibitor-1 (PAI-1), the gene product of SERPINE1, inhibited cell adhesion, suggesting that PAI-1, like THBS1, has anti-angiogenic properties. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29228113",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Plasminogen activator inhibitor-1 (PAI-1), a crucial regulator of fibrinolysis, is increased in sepsis, but its values in predicting disease severity or mortality outcomes have been controversial",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29967603",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "PAI-1 is important in fibrinolysis."
+}

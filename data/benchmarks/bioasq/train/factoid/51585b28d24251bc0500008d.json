@@ -1,0 +1,418 @@
+{
+  "id": "51585b28d24251bc0500008d",
+  "type": "factoid",
+  "question": "Which enzyme is involved in the maintenance of DNA (cytosine-5-)-methylation?",
+  "ideal_answer": "The mammalian DNA (cytosine-5) methyltransferase 1, DNMT1 is the major enzyme responsible for the maintenance of the DNA methylation patterns on the newly synthesized strand after DNA replication. DNMT1 prefers hemimethylated DNA and during DNA replication methylates hemimethylated CpG sites by copying methylation patterns from the parental DNA strand to the newly synthesized daughter strand. The equivalent of DNMT1 in plants is MET1.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21268065",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19468253",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7638194",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20506537",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18536530",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17312023",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22704242",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17929180",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19778587",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19282482",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22072770",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18665914",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22967183",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15799776",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22761581",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22088914",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22278882",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20940144",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21559294",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20864525",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19417133",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18302924",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16963560",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22413869",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17989773",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20035856",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20007090",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22898819",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21553025",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17965600",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22563479",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22284370",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19825994",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19966177",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22934696",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18922972",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21625467",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23029374",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22633409",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20139415",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20364115",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16500889",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20071334",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22323818",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22073356",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21389349",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22064703",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21163962",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17033890",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21507353",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21913078",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16807237",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22538524",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21518897",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19932585",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18297739",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22048250",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20348135",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23393137",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19016755",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21532572",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19819843",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20820192",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19173286",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19450230",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19789556",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17576694",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19923434"
+  ],
+  "snippets": [
+    {
+      "text": "his defect does not appear in mouse models with mutations in Dnmt3a and Mthfr genes and, therefore, it is specific for the Dnmt1 gene and is suggestive of a role of DNMT1 in imprint resetting or maintenance in the male germ line.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22967183",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Specificity of Dnmt1 for methylation of hemimethylated CpG sites resides in its catalytic domain.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22633409",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We obtained evidence that some 5-methylcytosine residues in these single-stranded DNAs can stimulate de novo methylation of adjacent sites by murine DNA 5-cytosine methyltransferase as effectively as 5-methylcytosine residues in double-stranded DNA stimulate maintenance methylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7638194",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We present in vitro evidence that the mammalian de novo DNA methyltransferases DNMT3A and DNMT3B, but not the maintenance enzyme DNMT1, are also redox-dependent DNA dehydroxymethylases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22898819",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Direct comparison to met1 plants, deficient in maintenance methyltransferase MET1, showed higher sensitivity of ddm1 plants to NaCl.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22538524",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "DNMT1, the major maintenance DNA methyltransferase in animals, helps to regulate gene expression, genome imprinting, and X-chromosome inactivation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22323818",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Correct establishment and maintenance of methylation patterns at imprinted genes has been associated with placental function and regulation of embryonic/fetal development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22088914",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Contributions of CTCF and DNA methyltransferases DNMT1 and DNMT3B to Epstein-Barr virus restricted latency.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22072770",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Thus, differential expression of CTCF and DNMT1 and -3B is not critical for maintenance of restricted latency.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22072770",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Recent studies demonstrate that UHRF1 is required for DNA methylation maintenance by targeting DNMT1 to DNA replication foci, presumably through its unique hemi-methylated DNA-binding activity and interaction with DNMT1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22064703",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "It is generally accepted that DNA methyltransferases carry out specific and non-overlapping functions, Dnmt3a and Dnmt3b being responsible for the establishment of methylation around the time of implantation and Dnmt1 ensuring that methylation is faithfully copied to daughter cells via what has come to be known as \"maintenance methylation.\"",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22048250",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "A new model is emerging that takes into account a contribution of the de novo enzymes Dnmt3a and Dnmt3b in the maintenance of the DNA methylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22048250",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We propose here observations in support of the hypothesis that the maintenance of methylation and subsequent silencing of a handful of germ line genes requires Dnmt3b but not Dnmt1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22048250",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "DNA methyltransferase 1 (Dnmt1) is the enzyme responsible for maintaining the methylation marks through cell division. However, the de novo methyltransferases, Dnmt3a and Dnmt3b, can also contribute to the maintenance of the methylation pattern.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21913078",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "These new data support the notion that de novo DNMTs also have an important role in the maintenance of DNA methylation and suggest that, in addition to acting as oncogenes, they also behave as tumor suppressors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22704242",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Structural insight into maintenance methylation by mouse DNA methyltransferase 1 (Dnmt1).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21518897",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The DNA methyltransferase Dnmt1 is responsible for the propagation of methylation patterns to the next generation via its preferential methylation of hemimethylated CpG sites in the genome; however, how Dnmt1 maintains methylation patterns is not fully understood.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21518897",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Usp7 and Uhrf1 control ubiquitination and stability of the maintenance DNA methyltransferase Dnmt1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21268065",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In mammals Dnmt1 is the DNA methyltransferase chiefly responsible for maintaining genomic methylation patterns through DNA replication cycles, but how its maintenance activity is controlled is still not well understood.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21268065",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "DMAP1 is a potent activator of DNMT1 methylation in vitro, suggesting that DMAP1 is a co-repressor that supports the maintenance and de novo action of DNMT1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20864525",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "A group of enzymes, the DNA methyltransferases (DNMTs) tightly regulate both the initiation and maintenance of these methyl marks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20364115",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Maintenance of DNA methylation depends on DNA methyltransferase 1 (Dnmt1) and intracellular S-adenosylmethionine (SAM) levels, and is inhibited by S-adenosylhomocysteine (SAH).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20035856",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "While DNMT3a is mostly involved in de novo methylation, DNMT1 acts as a maintenance methyltransferase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19468253",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We propose a new model that suggests that the maintenance of DNA methylation relies not only on the recognition of hemimethylated DNA by DNA methyltransferase 1 (DNMT1) but also on the localization of the DNMT3A and DNMT3B enzymes to specific chromatin regions that contain methylated DNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19789556",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The maintenance methylase, DNMT1 (DNA methyltransferase 1), is a prominent enzyme in the process that is linked to DNA replication and drives the heritable nature of epigenetic modifications.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19450230",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We have shown previously that these drugs selectively and rapidly induce degradation of the maintenance DNA methyltransferase (DNMT) 1 by a proteasomal pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19417133",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Inheritance of epigenetic information encoded by cytosine DNA methylation patterns is crucial for mammalian cell survival, in large part through the activity of the maintenance DNA methyltransferase (DNMT1).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19282482",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We and others have shown that DNA methyltransferase 1 (DNMT1), the maintenance methyltransferase, contributes to the cellular response to DNA damage, yet DNMT1's exact role in this process remains unclear.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20940144",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The maintenance function of Dnmt1 is regulated by its large regulatory N-terminal domain that interacts with other chromatin factors and is essential for the recognition of hemi-methylated DNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19173286",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In the absence of a human pituitary tumor cell line, small interfering RNA-mediated knockdown of the maintenance methyltransferase DNA methyltransferase (cytosine 5)-1 (Dnmt1) was used in the murine pituitary adenoma cell line AtT-20.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18922972",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We found that DNA methylation was maintained only when exogenous DNA methyltransferase 1 (DNMT1) and S-adenosyl methionine (SAM) were added to the reaction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19016755",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We examined the expression of DNMT1 and DNMT3a, representative of a maintenance and de novo methyltransferase respectively, in response to in-vitro depolarization of cortical neurons, using standard techniques such as high potassium (KCl) or the sodium channel agonist veratridine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18536530",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "DNA methyltransferase-1 (DNMT1) has a higher specific activity on hemimethylated DNA than on unmethylated DNA, but this preference is too small to explain the faithful mitotic inheritance of genomic methylation patterns. New genetic studies in plants and mammals have identified a novel factor that increases the fidelity of maintenance methylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18302924",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Dnmt1 is the main maintenance methyltransferase in the mouse and its expression is regulated by a splicing mechanism that dictates the expression of stage-specific isoforms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18297739",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Phosphorylation of serine-515 activates the Mammalian maintenance methyltransferase Dnmt1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17965600",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "DNA methyltransferase 1 methylates hemi-methylated CG sites generated during DNA replication.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17965600",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "DNA methylation is catalyzed by a family of DNA methyltransferases (DNMTs) including the maintenance enzyme DNMT 1 and de novo methyltransferases DNMT 3a and DNMT 3b.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17929180",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Our data suggest that DNMT1 might be essential for maintenance of DNA methylation, proliferation, and survival of cancer cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16963560",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Maintenance DNA methyltransferase (Met1) and silencing of CpG-methylated foreign DNA in Volvox carteri.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17033890",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "DNA methylation plays an important role in the gene-silencing network of higher eukaryotes. We have analyzed the 21.5-kb maintenance methyltransferase (M-MTase) gene, met1, of the multicellular green alga Volvox carteri.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17033890",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "DNA damage-induced down-regulation of human Cdc25C and Cdc2 is mediated by cooperation between p53 and maintenance DNA (cytosine-5) methyltransferase 1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16807237",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Methylation at the 5-position of DNA cytosine on the vertebrate genomes is accomplished by the combined catalytic actions of three DNA methyltransferases (DNMTs), the de novo enzymes DNMT3A and DNMT3B and the maintenance enzyme DNMT1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23393137",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "DNA methylation, the major form of epigenetic modifications, is catalyzed by the maintenance DNA methyltransferase (DNMT) 1 and/or the de novo methyltransferases DNMT3A and DNMT3B.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22934696",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The maintenance methylation of hemimethylated CpG sites by the DNA methyltransferase Dnmt1 is the molecular basis of the inheritance of DNA methylation patterns.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22633409",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The allosteric site(s) on Dnmt1 can regulate processes of de novo and maintenance DNA methylation in cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21507353",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Dnmt1 (DNA methyltransferase 1) is the principal enzyme responsible for maintenance of cytosine methylation at CpG dinucleotides in the mammalian genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21389349",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Maintenance of genomic methylation patterns is mediated primarily by DNA methyltransferase-1 (DNMT1).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21163962",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In this study, we showed that DNMT1, which encodes a methylation maintenance enzyme, is a transcriptional target of BRCA1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20820192",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "DNA methyltransferases (DNMTs) are essential for maintenance of aberrant methylation in cancer cells and play important roles in the development of cancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20506537",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "DNA methyltransferase-1 (Dnmt1) is involved in the maintenance of DNA methylation patterns and is crucial for normal mammalian development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20007090",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "DNMT1, which is important for maintenance of methylation, increased across development and stayed high in adult cortex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19966177",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Our results indicate that DNMT1 plays the main role in maintenance of methylation of CXCR4 promoter, while DNMT3B may function as an accessory DNA methyltransferase to modulate CXCR4 expression in AsPC1 cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19932585",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "DNA methylation patterns are established and maintained by three DNA methyltransferases: DNMT1, DNMT3A, and DNMT3B.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19825994",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "According to their structure and functions, DNA methyltransferases (Dnmts) are divided into two major families in mammalian cells: maintenance methyltransferase (Dnmt1) and de novo methyltransferases (Dnmt3a, Dnmt3b, and Dnmt3L).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19819843",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The 5-LOX DNA methylation increased with the age of the cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19778587",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/CMT1_MAIZE",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0010216",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019175",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0090116",
+    "http://www.uniprot.org/uniprot/DCM_ECOLI",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015257",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0003886"
+  ],
+  "exact_answer": "DNMT1, MET1"
+}

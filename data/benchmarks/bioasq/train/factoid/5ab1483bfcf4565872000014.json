@@ -1,0 +1,29 @@
+{
+  "id": "5ab1483bfcf4565872000014",
+  "type": "factoid",
+  "question": "The common house cat, Felis silvestris catus and the domestic dog, Canis familiaris both belong to what taxonomic order?",
+  "ideal_answer": "Domestic dogs and cats can be interpreted in terms of their descent from members of the order Carnivora. ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16772461"
+  ],
+  "snippets": [
+    {
+      "text": "domestic dogs and cats can be interpreted in terms of their descent from members of the order Carnivora.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16772461",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The dentition, sense of taste and meal patterning of domestic dogs and cats can be interpreted in terms of their descent from members of the order Carnivora.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16772461",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D000829",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D004285",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D002415"
+  ],
+  "exact_answer": "Carnivora"
+}

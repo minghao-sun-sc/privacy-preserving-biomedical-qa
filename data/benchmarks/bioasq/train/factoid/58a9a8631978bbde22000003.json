@@ -1,0 +1,81 @@
+{
+  "id": "58a9a8631978bbde22000003",
+  "type": "factoid",
+  "question": "Which is the enzymatic activity of OTULIN?",
+  "ideal_answer": "OTULIN is a deubiquitinase, that specifically cleaves Met1-linked polyUb.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26503766",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23746843",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24461064",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24726327",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26235645",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26085216",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23806334",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24726323",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27559085"
+  ],
+  "snippets": [
+    {
+      "text": "deubiquitinase OTULIN",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26503766",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "OTULIN (FAM105B), encoding a deubiquitinase ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27559085",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Otulin/Gumby/FAM105b are by far the most active DUBs acting on these precursors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26235645",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Removal of ubiquitin chains is mediated by deubiquitinases (DUBs). Two of them, OTULIN and CYLD, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26085216",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " are disassembled by the linear ubiquitin-specific deubiquitinase OTULIN",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24726327",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "deubiquitinases CYLD and OTULIN",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24461064",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We recently discovered OTULIN as a deubiquitinase that specifically cleaves Met1-linked polyUb",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24726323",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "deubiquitinase OTULIN specifically disassembles Met1-Ub.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23806334",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Our data suggest that OTULIN regulates Met1-polyUb signaling.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23746843",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "OTULIN antagonizes LUBAC signaling by specifically hydrolyzing Met1-linked polyubiquitin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23746843",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "deubiquitination"
+}

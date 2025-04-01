@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04711",
+  "original_length": 3238,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Moderate peripheral effusion with early tamponade, probably secondary to lung cancer.\n- Lung cancer with metastasis most likely.\n- Pneumonia.\n- COPD.,PLAN: , We will get CT surgery consult for p...",
+    "Symptoms": "",
+    "Treatment": ", We will get CT surgery consult for pericardial window.  Continue present medication.",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Moderate peripheral effusion with early tamponade,...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

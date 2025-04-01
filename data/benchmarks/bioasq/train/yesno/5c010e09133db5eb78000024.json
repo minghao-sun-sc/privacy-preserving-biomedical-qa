@@ -1,0 +1,25 @@
+{
+  "id": "5c010e09133db5eb78000024",
+  "type": "yesno",
+  "question": "Can simvastatin alleviate depressive symptoms?",
+  "ideal_answer": "Yes, simvastatin decreases depressive symptoms.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25827645"
+  ],
+  "snippets": [
+    {
+      "text": "Simvastatin-treated patients experienced significantly more reductions in HDRS scores compared to the placebo group by the end of the trial (p=0.02). Early improvement and response rates were significantly greater in the simvastatin group than the placebo group (p=0.02 and p=0.01, respectively) but remission rate was not significantly different between the two groups (p=0.36).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25827645",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In conclusion, simvastatin seems to be a safe and effective adjuvant therapy for patients suffering from major depressive disorder.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25827645",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

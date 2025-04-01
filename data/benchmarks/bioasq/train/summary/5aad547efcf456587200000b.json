@@ -1,0 +1,46 @@
+{
+  "id": "5aad547efcf456587200000b",
+  "type": "summary",
+  "question": "What is the \"protein inference problem\"?",
+  "ideal_answer": "A major challenge in shotgun proteomics has been the assignment of identified peptides to the proteins from which they originate, referred to as the protein inference problem.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28821210",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26935399",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17990506",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23385215",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22954624"
+  ],
+  "snippets": [
+    {
+      "text": " the protein inference problem still hampers the automatic assignment of peptide sequences to proteins, consequently impeding the quantification of sequence variants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28821210",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the protein inference problem can be regarded as a special protein quantification problem in the sense that truly present proteins are those proteins whose abundance values are not zero.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26935399",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Protein inference is an important issue in proteomics research. Its main objective is to select a proper subset of candidate proteins that best explain the observed peptides. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23385215",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Assembling peptides identified from tandem mass spectra into a list of proteins, referred to as protein inference, is an important issue in shotgun proteomics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22954624",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A major challenge in shotgun proteomics has been the assignment of identified peptides to the proteins from which they originate, referred to as the protein inference problem. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17990506",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

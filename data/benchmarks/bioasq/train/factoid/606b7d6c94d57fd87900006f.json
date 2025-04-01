@@ -1,0 +1,19 @@
+{
+  "id": "606b7d6c94d57fd87900006f",
+  "type": "factoid",
+  "question": "Which protein does capmatinib bind?",
+  "ideal_answer": "Capmatinib binds MET.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32557339"
+  ],
+  "snippets": [
+    {
+      "text": "Capmatinib (Tabrecta\u2122) is an oral, small molecule mesenchymal-epithelial transition (MET) inhibitor being developed by Novartis Oncology, under a license from Incyte Corporation, for the treatment of lung cancer. Capmatinib targets and selectively binds to MET, including the mutant variant produced by exon 14 skipping, and inhibits cancer cell growth driven by the mutant MET variant. In May 2020, oral capmatinib received its first global approval in the USA for the treatment of adults with metastatic non-small cell lung cancer (NSCLC) whose tumours have a mutation that leads to MET exon 14 skipping, as detected by an FDA-approved test. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32557339",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "MET, mesenchymal-epithelial transition"
+}

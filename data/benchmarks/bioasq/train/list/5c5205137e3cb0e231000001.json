@@ -1,0 +1,44 @@
+{
+  "id": "5c5205137e3cb0e231000001",
+  "type": "list",
+  "question": "What type of data does the UK biobank resource contain?",
+  "ideal_answer": "The UK Biobank contains deep phenotyping and genomic data. A rich variety of phenotypic and health-related information is available on each participant, including biological measurements, lifestyle indicators, biomarkers in blood and urine, and imaging of the body and brain. Follow-up information is provided by linking health and medical records. Genome-wide genotype data have been collected on all participants, providing many opportunities for the discovery of new genetic associations and the genetic bases of complex traits.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30305743",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27773354"
+  ],
+  "snippets": [
+    {
+      "text": "The UK Biobank resource with deep phenotyping and genomic data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30305743",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The UK Biobank project is a prospective cohort study with deep genetic and phenotypic data collected on approximately 500,000 individuals from across the United Kingdom, aged between 40 and 69 at recruitment. The open resource is unique in its size and scope. A rich variety of phenotypic and health-related information is available on each participant, including biological measurements, lifestyle indicators, biomarkers in blood and urine, and imaging of the body and brain. Follow-up information is provided by linking health and medical records. Genome-wide genotype data have been collected on all participants, providing many opportunities for the discovery of new genetic associations and the genetic bases of complex traits.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30305743",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The UK Biobank resource with deep phenotyping and genomic data.The UK Biobank project is a prospective cohort study with deep genetic and phenotypic data collected on approximately 500,000 individuals from across the United Kingdom, aged between 40 and 69 at recruitment. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30305743",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "BACKGROUND\nThe UK Biobank is a unique resource for biomedical research, with extensive phenotypic and genetic data on half a million adults from the general population.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27773354",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND The UK Biobank is a unique resource for biomedical research, with extensive phenotypic and genetic data on half a million adults from the general population.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27773354",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "genomic data, phenotypic data"
+}

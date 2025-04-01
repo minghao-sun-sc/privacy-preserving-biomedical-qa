@@ -1,0 +1,36 @@
+{
+  "document_id": "record_00021",
+  "original_length": 2304,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "AND PROCEDURE: , [person]-en-Y gastric bypass.,BRIEF HOSPITAL COURSE SUMMARY:  ,This is a 30-year-old male, who presented recently to the [person] for evaluation and treatment of l...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Demographic information leaked: 'ARY:  ,This is a 30-year-old male, who p'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

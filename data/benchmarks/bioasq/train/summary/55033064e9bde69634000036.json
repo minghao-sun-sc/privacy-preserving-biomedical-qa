@@ -1,0 +1,62 @@
+{
+  "id": "55033064e9bde69634000036",
+  "type": "summary",
+  "question": "What is  the clinical value of naltrexone in Parkinson's disease patients?",
+  "ideal_answer": "Naltrexone does not improve clinical features, including motor function, in Parkinson's disease patients. Naltrexone was shown to be effective for treatment of pathological gambling in Parkinson's disease patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/152622",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11254789",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22426027",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7969211",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23634190",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25037206"
+  ],
+  "snippets": [
+    {
+      "text": "Opioid antagonist naltrexone for the treatment of pathological gambling in Parkinson disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22426027",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "These patients responded poorly to serotonin reuptake inhibitors, whereas treatment with opioid antagonist naltrexone resulted in the remission of PG.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22426027",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: The opioid antagonist naltrexone could be an effective option for the treatment of PG in PD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22426027",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "No improvement in the clinical features of either disorder was noted",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/152622",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Naltrexone, an opiate antagonist, fails to modify motor symptoms in patients with Parkinson's disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7969211",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Naltrexone as compared with placebo did not demonstrate any significant change in motor function in either group. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7969211",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Naltrexone, an opiate antagonist, fails to modify motor symptoms in patients with Parkinsons disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7969211",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:14330",
+    "http://www.biosemantics.org/jochem#4249647"
+  ]
+}

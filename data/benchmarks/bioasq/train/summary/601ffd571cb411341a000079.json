@@ -1,0 +1,24 @@
+{
+  "id": "601ffd571cb411341a000079",
+  "type": "summary",
+  "question": "Describe bigPint",
+  "ideal_answer": "BigPint is  a data visualization package available on Bioconductor under the GPL-3 license (https://bioconductor.org/packages/release/bioc/html/bigPint.html). This software introduces new visualization technology that enables independent layers of interactivity using Plotly in R, which aids in the exploration of large biological datasets. The bigPint package presents modernized versions of scatterplot matrices, volcano plots, and litre plots through the implementation of layered interactivity. These graphics have detected normalization issues, differential expression designation problems, and common analysis errors in public RNA-sequencing datasets. Researchers can apply bigPint graphics to their data by following recommended pipelines written in reproducible code in the user manual.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32542031"
+  ],
+  "snippets": [
+    {
+      "text": "bigPint: A Bioconductor visualization package that makes big data pint-sized.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32542031",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Interactive data visualization is imperative in the biological sciences. The development of independent layers of interactivity has been in pursuit in the visualization community. We developed bigPint, a data visualization package available on Bioconductor under the GPL-3 license (https://bioconductor.org/packages/release/bioc/html/bigPint.html). Our software introduces new visualization technology that enables independent layers of interactivity using Plotly in R, which aids in the exploration of large biological datasets. The bigPint package presents modernized versions of scatterplot matrices, volcano plots, and litre plots through the implementation of layered interactivity. These graphics have detected normalization issues, differential expression designation problems, and common analysis errors in public RNA-sequencing datasets. Researchers can apply bigPint graphics to their data by following recommended pipelines written in reproducible code in the user manual. In this paper, we explain how we achieved the independent layers of interactivity that are behind bigPint graphics. Pseudocode and source code are provided. Computational scientists can leverage our open-source code to expand upon our layered interactive technology and/or apply it in new ways toward other computational biology tasks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32542031",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": "60320ef51cb411341a000130",
+  "type": "factoid",
+  "question": "What is a decoy exosome?",
+  "ideal_answer": "exosomes display a large repertoire of tumor antigens that induce autoantibodies and exert a decoy function against complement-mediated cytotoxicity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27843457",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30651550",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21364924",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22396543"
+  ],
+  "snippets": [
+    {
+      "text": "exosomes display a large repertoire of tumor antigens that induce autoantibodies and exert a decoy function against complement-mediated cytotoxicity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30651550",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Acting as a decoy, the NKG2D ligand-bearing exosomes downregulate the in vitro NKG2D receptor-mediated cytotoxicity and thus impair NK-cell function. I",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21364924",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Acting as a decoy, the HSP-bearing exosomes efficiently stimulated NK cell cytotoxicity and granzyme B production, up-regulated the expression of inhibitory receptor CD94, and down-regulated the expression of activating receptors CD69, NKG2D, and NKp44. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22396543",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "an exosome may carry antigens as a decoy, "
+}

@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01499",
+  "original_length": 1032,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "especially of the right lower extremity.,As visualized, there is no gross evidence of DVT.  The right leg grayscale images are limited.  No obvious clot identified on the color flow or Doppler imag...",
+    "Symptoms": "",
+    "Treatment": "Bilateral lower extremity ultrasound for deep venous thrombus. Ultrasound - [person]",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',As visualized, there is no gross evidence of DVT...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

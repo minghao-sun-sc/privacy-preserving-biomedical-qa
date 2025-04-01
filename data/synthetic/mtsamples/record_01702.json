@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01702",
+  "original_length": 3154,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "tar responses were flexor bilaterally.,[person]: unremarkable. No carotid/cranial bruits.,COURSE:, CT Brain showed large, enhancing 4 x 4 x 3 cm suprasellar-sellar mass without surrounding edema. D...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',COURSE:, CT Brain showed large, enhancing 4 x 4 x...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

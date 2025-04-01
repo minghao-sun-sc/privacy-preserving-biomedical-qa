@@ -1,0 +1,65 @@
+{
+  "id": "513efe01bee46bd34c00000e",
+  "type": "yesno",
+  "question": "Is paramyxovirus involved in human subacute thyroiditis?",
+  "ideal_answer": "There is no evidence that paramyxovirus are involved in etiology of subacute thyroiditis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22819125",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1691523",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20960165",
+    "http://www.ncbi.nlm.nih.gov/pubmed/806773",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16279854",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22459018",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2998895",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20886354",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1180050",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9637274",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9797"
+  ],
+  "snippets": [
+    {
+      "text": "Most cases of subacute thyroiditis are caused by a variety of viruses, for example, Coxsackie, cytomegalovirus, Epstein-Barr virus, and adenovirus. Influenza immunization or infection may cause subacute thyroiditis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22819125",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Coxsackie virus has been reported to be one of the viruses associated with the disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20886354",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The etiology of subacute granulomatous thyroiditis (SAT) is obscure, although it is postulated to be associated with viral infections and genetic factors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9637274",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The results suggest that SAT is not usually associated with acute infections",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9637274",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "No evidence was obtained to support the proposed role of enteroviruses as an important etiologic agent of SAT.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9637274",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The viral antibodies evaluated were those of Influenza A and B, Coxsackie A9, B1, B2, B3, B4, B5 and B6, Echo 3, 7, 11 and 12, Parainfluenza 1, 2, 3 and 4, and Adeno 8 virus. The following results were obtained: In class I HLA typing, the frequency of HLA-Bw35 in SAT was 67.4%, which was significantly (p less than 0.0001) higher than that in the control (14.1%). On the other hand, the frequency of Cw1 in SAT (14.6%) was significantly (p less than 0.01) lower than that of the control (32.1%), and that of Cw3 (65.2%) was significantly (p less than 0.01) higher than that of the control (46.5%).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2998895",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013968",
+    "http://www.disease-ontology.org/api/metadata/DOID:7165",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018109",
+    "http://www.disease-ontology.org/api/metadata/DOID:7187",
+    "http://www.disease-ontology.org/api/metadata/DOID:7166"
+  ],
+  "exact_answer": "Yes"
+}

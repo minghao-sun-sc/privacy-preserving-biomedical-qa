@@ -1,0 +1,19 @@
+{
+  "id": "5c920f13ecadf2e73f000010",
+  "type": "factoid",
+  "question": "What type of drug is apixaban?",
+  "ideal_answer": "Apixaban is an anticoagulant.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27653758"
+  ],
+  "snippets": [
+    {
+      "text": "Like other direct oral anticoagulants (DOACs), apixaban has generally predictable pharmacological properties and does not require routine anticoagulation monitoring.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27653758",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "anticoagulant"
+}

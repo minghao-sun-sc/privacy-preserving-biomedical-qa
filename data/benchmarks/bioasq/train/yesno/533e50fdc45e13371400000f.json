@@ -1,0 +1,42 @@
+{
+  "id": "533e50fdc45e13371400000f",
+  "type": "yesno",
+  "question": "Do thyroid hormone receptors change after brain injury?",
+  "ideal_answer": "thyroid hormone receptors increase after brain injury",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/14761671",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24174657",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6329444"
+  ],
+  "snippets": [
+    {
+      "text": "For example, the T3 receptor alpha was predominantly expressed in stroke-tissue, indicating that regeneration of nerves in stroke tissue may be facilitated by increased T3 receptor alpha expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14761671",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TR\u03b1 expression was also increased in human infants with IVH. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24174657",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thus, in infants with IVH the combined elevation in deiodinase-3 and reduction in deiodinase-2 decreases TH signaling that can be worsened by an increase in unliganded TR\u03b1. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24174657",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A rapid increase of the total number of binding sites for T3 appeared within 30 min of ischemia and reached over 40% by 3 h. During the same 3-h period, the relative binding affinity was reduced by 25%. Upon recirculation after 30 min or 3 h of ischemia, a rapid reversal of measured T3 binding sites occurred, which progressed to 20-30% below the control value by the recirculation period of 3 h. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/6329444",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011988",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001930"
+  ],
+  "exact_answer": "Yes"
+}

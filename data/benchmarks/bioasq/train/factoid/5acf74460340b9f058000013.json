@@ -1,0 +1,38 @@
+{
+  "id": "5acf74460340b9f058000013",
+  "type": "factoid",
+  "question": "Which gene controls the consistency of cerumen (ear wax)?",
+  "ideal_answer": "A single nucleotide polymorphism (SNP) in ABCC11 affects the cerumen VOC profiles of individuals from African, Caucasian, and Asian descent Our findings also reveal that ABCC11 genotype alone does not predict the type and relative levels of volatiles found in human cerumen, and suggest that other biochemical pathways must be involved",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25501636",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24572763"
+  ],
+  "snippets": [
+    {
+      "text": "A single nucleotide polymorphism (SNP) in ABCC11 affects the cerumen VOC profiles of individuals from African, Caucasian, and Asian descent",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25501636",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our findings also reveal that ABCC11 genotype alone does not predict the type and relative levels of volatiles found in human cerumen, and suggest that other biochemical pathways must be involved",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25501636",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ABCC11 encodes an ATP-driven efflux pump protein that plays an important function in ceruminous apocrine glands of the auditory canal and the secretion of axillary odor precursors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24572763",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent studies link a single nucleotide polymorphism (SNP) in the adenosine triphosphate (ATP) binding cassette, sub-family C, member 11 gene (ABCC11) to the production of different types of axillary odorants and cerumen",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24572763",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "ABCC11"
+}

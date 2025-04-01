@@ -1,0 +1,35 @@
+{
+  "document_id": "record_03619",
+  "original_length": 2473,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Blood loss anemia.,POSTOPERATIVE DIAGNOSES:\n- Diverticulosis coli.\n- Internal hemorrhoids.\n- Poor prep.,PROCEDURE PERFORMED:,  Colonoscopy with photos.,ANESTHESIA: , Conscious sedat...",
+    "Symptoms": "",
+    "Treatment": "Colonoscopy",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

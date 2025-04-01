@@ -1,0 +1,19 @@
+{
+  "id": "6432f75757b1c7a31500001d",
+  "type": "yesno",
+  "question": "Is Zanubrutinib a first-generation BTK inhibitor approved by US Food and Drug Administration (FDA)?",
+  "ideal_answer": "No, Zanubrutinib is a next-generation BTK inhibitor.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35651781"
+  ],
+  "snippets": [
+    {
+      "text": "In the United States, zanubrutinib, a next-generation BTK inhibitor, has been approved for treating adults with mantle cell lymphoma who have received at least one prior therapy, for adults with Waldenstr\u00f6m macroglobulinemia, and for adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35651781",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

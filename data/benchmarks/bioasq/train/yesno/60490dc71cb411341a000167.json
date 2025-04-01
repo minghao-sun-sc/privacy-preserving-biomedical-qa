@@ -1,0 +1,40 @@
+{
+  "id": "60490dc71cb411341a000167",
+  "type": "yesno",
+  "question": "Are interferons defensive proteins?",
+  "ideal_answer": "Yes,\nThe innate immune system, in particular the type I interferon (IFN) response, is a powerful defence against virus infections.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31711273",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31783148",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32827605",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32755617"
+  ],
+  "snippets": [
+    {
+      "text": "In response to viral infections, various pattern recognition receptors (PRRs) are activated for the production of type I interferon (IFN I). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32827605",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " activating interferon (IFN) production and positively regulating antiviral response in mammals. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32755617",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The innate immune system, in particular the type I interferon (IFN) response, is a powerful defence against virus infections. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31711273",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The interferon-induced GTP-binding protein Mx is responsible for a specific antiviral state against a broad spectrum of viral infections that are induced by type-I interferons (IFN \u03b1/\u03b2) in different vertebrates",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31783148",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

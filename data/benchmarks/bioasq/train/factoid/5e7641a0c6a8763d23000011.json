@@ -1,0 +1,25 @@
+{
+  "id": "5e7641a0c6a8763d23000011",
+  "type": "factoid",
+  "question": "Which was the first cholera vaccine approved in the US?",
+  "ideal_answer": "Vaxchora is the first vaccine approved by the Food and Drug Administration for the prophylaxis of cholera infection.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29018300"
+  ],
+  "snippets": [
+    {
+      "text": "Vaxchora: The First FDA-Approved Cholera Vaccination in the United States.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29018300",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Vaxchora is the first vaccine approved by the Food and Drug Administration for the prophylaxis of cholera infection. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29018300",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Vaxchora"
+}

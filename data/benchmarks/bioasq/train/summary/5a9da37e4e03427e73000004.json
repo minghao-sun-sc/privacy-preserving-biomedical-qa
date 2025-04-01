@@ -1,0 +1,25 @@
+{
+  "id": "5a9da37e4e03427e73000004",
+  "type": "summary",
+  "question": "What is Mendelian randomization?",
+  "ideal_answer": "Instrumental variable analysis is an approach for obtaining causal inferences on the effect of an exposure (risk factor) on an outcome from observational data. It has gained in popularity over the past decade with the use of genetic variants as instrumental variables, known as Mendelian randomization.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26282889",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27846416"
+  ],
+  "snippets": [
+    {
+      "text": "Instrumental variable analysis is an approach for obtaining causal inferences on the effect of an exposure (risk factor) on an outcome from observational data. It has gained in popularity over the past decade with the use of genetic variants as instrumental variables, known as Mendelian randomization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26282889",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We use Mendelian randomization, with the genetic score as an instrumental variable (IV) for height to account for potential confounders that are related to socioeconomic background, early life conditions and parental investments, which are otherwise very difficult to fully account for when using covariates in observational studies. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27846416",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

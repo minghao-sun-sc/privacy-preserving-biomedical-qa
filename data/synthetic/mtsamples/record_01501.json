@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01501",
+  "original_length": 1010,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", No evidence of left lower extremity deep venous thrombosis.",
+    "Symptoms": "",
+    "Treatment": "Ultrasound left lower extremity, duplex venous, due to swelling and to rule out DVT.  Duplex and color Doppler interrogation of the left lower extremity deep venous system was performed. Ultrasound...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Duplex and color Doppler interrogation of the left...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

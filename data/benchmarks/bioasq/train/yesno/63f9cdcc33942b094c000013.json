@@ -1,0 +1,25 @@
+{
+  "id": "63f9cdcc33942b094c000013",
+  "type": "yesno",
+  "question": "Does silencing of SRRM4 inhibit tumor growth across cancers?",
+  "ideal_answer": "No, silencing of SRRM4 promotes tumor growth across cancers.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33621242"
+  ],
+  "snippets": [
+    {
+      "text": "Silencing of SRRM4 suppresses microexon inclusion and promotes tumor growth across cancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33621242",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We show that this silencing is favorable for tumor growth, as decreased SRRM4 expression in tumors is correlated with an increase in mitotic gene expression, and up-regulation of SRRM4 in cancer cell lines dose-dependently inhibits proliferation in vitro and in a mouse xenograft model. Further, this proliferation inhibition is accompanied by induction of neural-like expression and splicing patterns in cancer cells, suggesting that SRRM4 expression shifts the cell state away from proliferation and toward differentiation. We therefore conclude that SRRM4 acts as a proliferation brake, and tumors gain a selective advantage by cutting off this brake.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33621242",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

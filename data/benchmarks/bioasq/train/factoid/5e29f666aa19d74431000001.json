@@ -1,0 +1,31 @@
+{
+  "id": "5e29f666aa19d74431000001",
+  "type": "factoid",
+  "question": "Which phosphatase is inhibited by LB-100?",
+  "ideal_answer": "LB-100 is a phosphatase 2A inhibitor",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29199006"
+  ],
+  "snippets": [
+    {
+      "text": "Here, we examined radiosensitizing effects of LB-100, a novel inhibitor of PP2A against AAM as a novel treatment strategy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29199006",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LB-100, a novel Protein Phosphatase 2A (PP2A) inhibitor, sensitizes malignant meningioma cells to the therapeutic effects of radiation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29199006",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Pharmacologic PP2A inhibition with LB-100 prior to RT enhanced the radiosensitivity of meningioma cells and reduced survival fraction in clonogenic assays. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29199006",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Protein phosphatase 2A"
+}

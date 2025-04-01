@@ -1,0 +1,31 @@
+{
+  "id": "5c51f44c07ef653866000004",
+  "type": "yesno",
+  "question": "Are Copy Number Variants (CNVs) depleted in regions of low mappability?",
+  "ideal_answer": "No. Low-mappability regions are approximately 5 times more likely to harbor germline CNVs, in stark contrast to the nearly uniform distribution observed for somatic CNVs in 95 cancer genomes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30137632"
+  ],
+  "snippets": [
+    {
+      "text": "Human copy number variants are enriched in regions of low mappability.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30137632",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Applying PopSV to 640 human genomes, we find that low-mappability regions are approximately 5\u00a0times more likely to harbor germline CNVs, in stark contrast to the nearly uniform distribution observed for somatic CNVs in 95 cancer genomes. In addition to known enrichments in segmental duplication and near centromeres and telomeres, we also report that CNVs are enriched in specific types of satellite and in some of the most recent families of transposable elements. Finally, using this comprehensive approach, we identify 3455 regions with recurrent CNVs that were missing from existing catalogs. In particular, we identify 347 genes with a novel exonic CNV in low-mappability regions, including 29 genes previously associated with disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30137632",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Human copy number variants are enriched in regions of low mappability.Copy number variants (CNVs) are known to affect a large portion of the human genome and have been implicated in many diseases. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30137632",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

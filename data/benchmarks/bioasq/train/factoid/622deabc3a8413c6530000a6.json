@@ -1,0 +1,40 @@
+{
+  "id": "622deabc3a8413c6530000a6",
+  "type": "factoid",
+  "question": "What is the SPRTN protein function?",
+  "ideal_answer": "The protease SPRTN emerged as the essential enzyme for DNA-protein crosslink proteolysis repair.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33348378",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33183910",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34551432",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34189469"
+  ],
+  "snippets": [
+    {
+      "text": "we explored the role of Spartan (SPRTN), a metalloprotease associated with DNA replication, which removes proteins forming DPCs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34551432",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Repair of covalent DNA-protein crosslinks (DPCs) by the metalloprotease SPRTN prevents genome instability, premature aging and carcinogenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33348378",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The protease SPRTN emerged as the essential enzyme for DNA-protein crosslink proteolysis repair",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33183910",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Covalent DNA-protein crosslinks (DPCs) have emerged as pervasive sources of genome instability. DPCs are targeted for repair by DNA-dependent proteases of the Wss1/SPRTN family.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34189469",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "DNA-protein crosslink proteolysis repair"
+}

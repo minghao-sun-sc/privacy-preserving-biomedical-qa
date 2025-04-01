@@ -1,0 +1,35 @@
+{
+  "document_id": "record_00980",
+  "original_length": 1373,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": ",  Change in bowel function.,POSTPROCEDURE DIAGNOSIS:,  Proctosigmoiditis.,PROCEDURE PERFORMED:,  Colonoscopy with biopsy.,ANESTHESIA: , IV sedation.,POSTPROCEDURE CONDITION: , Stable.  ,INDICATION...",
+    "Symptoms": "",
+    "Treatment": "Colonoscopy",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: NRP"
+      ],
+      "pii_detected": [
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

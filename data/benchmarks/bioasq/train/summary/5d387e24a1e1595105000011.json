@@ -1,0 +1,32 @@
+{
+  "id": "5d387e24a1e1595105000011",
+  "type": "summary",
+  "question": "What is particular about the mouse Fxy gene's chromosomal position?",
+  "ideal_answer": "We have previously described a gene, Fxy , that spans the pseudoautosomal boundary in mice such that the first three exons of the gene are located on the X chromosome, but the remainder of the gene is located on both X and Y chromosomes. The Fxy gene in mice is also located on the X chromosome but spans the pseudoautosomal boundary in this species.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/9425238",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10508587",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10644436"
+  ],
+  "snippets": [
+    {
+      "text": "We have previously described a gene, Fxy , that spans the pseudoautosomal boundary in mice such that the first three exons of the gene are located on the X chromosome, but the remainder of the gene is located on both X and Y chromosomes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9425238",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Fxy gene in mice is also located on the X chromosome but spans the pseudoautosomal boundary in this species. Here we describe a gene closely related to FXY/MID1, called FXY2, which also maps to the X chromosome within Xq22",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10644436",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The gene Fxy (also known as MID1 [7]) spans the pseudoautosomal boundary (PAB) in the laboratory mouse (Mus musculus domesticus, C57BL/6) such that the 5' three exons of the gene are located on the X chromosome but the seven exons encoding the carboxy-terminal two-thirds of the protein are located within the PAR and are therefore present on both the X and Y chromosomes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10508587",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

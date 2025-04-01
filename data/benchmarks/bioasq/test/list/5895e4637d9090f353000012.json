@@ -1,0 +1,48 @@
+{
+  "id": "5895e4637d9090f353000012",
+  "type": "list",
+  "question": "List clinical features of the IMAGe syndrome.",
+  "ideal_answer": "Clinical features of IMAGe syndrome include intra-uterine growth restriction, metaphyseal dysplasia, adrenal hypoplasia congenita and genital abnormalities. It is s caused by gain-of-function mutations of maternally expressed gene CDKN1C on chromosome 11p15.5.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25517553",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25861374",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16835919",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25258553",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22634751",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25541901",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24313804",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24617583",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14760276",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21108398"
+  ],
+  "snippets": [
+    {
+      "text": "Recently, our group described gain-of-function mutations in the PCNA-binding site of CDKN1C that result in an undergrowth syndrome called IMAGe Syndrome (Intrauterine Growth Restriction, Metaphyseal dysplasia, Adrenal hypoplasia, and Genital anomalies), with life-threatening consequences. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25861374",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "IMAGe syndrome is an exceedingly rare condition first described in 1999. Components of the syndrome are intrauterine growth retardation (IUGR), metaphyseal dysplasia, congenital adrenal hypoplasia and genital anomalies. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25541901",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "OBJECTIVE: Arboleda et al. have recently shown that IMAGe (intra-uterine growth restriction, metaphyseal dysplasia, adrenal hypoplasia congenita and genital abnormalities) syndrome is caused by gain-of-function mutations of maternally expressed gene CDKN1C on chromosome 11p15.5. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24313804",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Intriguing is that CDKN1C gain-of-function variations were recently found in patients with IMAGe syndrome (intrauterine growth restriction, metaphyseal dysplasia, congenital adrenal hypoplasia, and genital anomalies). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25258553",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:0050885"
+  ],
+  "exact_answer": "intra-uterine growth restriction, metaphyseal dysplasia, adrenal hypoplasia congenita, genital abnormalities"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "553f7a71ab98a37113000009",
+  "type": "list",
+  "question": "In which types of DNA repair is the UvrAB complex involved?",
+  "ideal_answer": "UvrB and the lesion-recognition factor UvrA form the UvrAB complex, which plays a key role in bacterial nucleotide excision repair (NER). In transcription-coupled repair (TCR), the transcription repair coupling factor Mfd recruits uvrA, and the assembled UvrAB complex initiates repair. UvrAB complex also suppresses illegitimate recombination.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10913608",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8702928",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11551204",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17630776",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2665605",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12145219",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10811888",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8969181",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11101153",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22749141",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9049316",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9049317",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20227373"
+  ],
+  "snippets": [
+    {
+      "text": "illegitimate recombination is mostly suppressed by UvrA and UvrB.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10811888",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "UvrAB complex suppresses illegitimate recombination",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10811888",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription-coupled repair (TCR) is a subpathway of nucleotide excision repair (NER) that acts specifically on lesions in the transcribed strand of expressed genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22749141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the transcription repair coupling factor, Mfd. This protein recruits the NER lesion-recognition factor UvrA, and then dissociates from the DNA. UvrA binds UvrB, and the assembled UvrAB* complex initiates repair.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22749141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "UvrB plays a key role in bacterial nucleotide excision repair. It is the ultimate damage-binding protein that interacts with both UvrA and UvrC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17630776",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "UvrB subunits bind to UvrA, most likely as part of a UvrA2B2 complex",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17630776",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Escherichia coli nucleotide excision repair (NER) is responsible for removing bulky DNA adducts by dual incisions of the UvrABC endonuclease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10913608",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the activity of the UvrAB complex which can induce DNA conformational change is employed in NER",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10913608",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The recognition by Escherichia coli Uvr nucleotide excision repair proteins of a variety of lesions with diverse chemical structures and the presence of helicase activity in the UvrAB complex which can displace short oligonucleotides annealed to single-stranded DNA led to a model in which this activity moves UvrAB along undamaged DNA to damaged sites where the lesion blocks further translocation and the protein-DNA pre-incision complex is formed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9049317",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription when coupled to nucleotide excision repair specifies the location in active genes where preferential DNA repair is to take place.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8702928",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription when coupled to nucleotide excision repair specifies the location in active genes where preferential DNA repair is to take place",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8702928",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The recognition by Escherichia coli Uvr nucleotide excision repair proteins of a variety of lesions with diverse chemical structures and the presence of helicase activity in the UvrAB complex which can displace short oligonucleotides annealed to single-stranded DNA led to a model in which this activity moves UvrAB along undamaged DNA to damaged sites where the lesion blocks further translocation and the protein-DNA pre-incision complex is formed",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9049317",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription-coupled DNA repair in prokaryotes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22749141",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006281",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004260"
+  ],
+  "exact_answer": "nucleotide excision repair (NER), transcription-coupled repair (TCR), suppression of illegitimate recombination"
+}

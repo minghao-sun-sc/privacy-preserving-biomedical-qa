@@ -1,0 +1,70 @@
+{
+  "id": "58967c9978275d0c4a000011",
+  "type": "yesno",
+  "question": "Does mTOR regulate the translation of MAPKAPK2?",
+  "ideal_answer": "Yes. mTOR regulates the translation of the MK2 (also known as MAPKAPK2) kinase through 4EBP1.  In turn, MAPKAPK2 phosphorylates the RNA-binding protein ZFP36L1 during senescence, inhibiting its ability to degrade the transcripts of numerous senescence-associated secretory phenotype (SASP) components. Consequently, mTOR inhibition or constitutive activation of ZFP36L1 impairs the non-cell-autonomous effects of senescent cells in both tumour-suppressive and tumour-promoting contexts.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26269117",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26280535"
+  ],
+  "snippets": [
+    {
+      "text": "mTOR regulates MAPKAPK2 translation to control the senescence-associated secretory phenotype.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26280535",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Senescent cells secrete a combination of factors collectively known as the senescence-associated secretory phenotype (SASP). The SASP reinforces senescence and activates an immune surveillance response, but it can also show pro-tumorigenic properties and contribute to age-related pathologies. In a drug screen to find new SASP regulators, we uncovered the mTOR inhibitor rapamycin as a potent SASP suppressor. Here we report a mechanism by which mTOR controls the SASP by differentially regulating the translation of the MK2 (also known as MAPKAPK2) kinase through 4EBP1. In turn, MAPKAPK2 phosphorylates the RNA-binding protein ZFP36L1 during senescence, inhibiting its ability to degrade the transcripts of numerous SASP components. Consequently, mTOR inhibition or constitutive activation of ZFP36L1 impairs the non-cell-autonomous effects of senescent cells in both tumour-suppressive and tumour-promoting contexts. Altogether, our results place regulation of the SASP as a key mechanism by which mTOR could influence cancer, age-related diseases and immune responses.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26280535",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we report a mechanism by which mTOR controls the SASP by differentially regulating the translation of the MK2 (also known as MAPKAPK2) kinase through 4EBP1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26280535",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mTOR regulates MAPKAPK2 translation to control the senescence-associated secretory phenotype",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26280535",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we report a mechanism by which mTOR controls the SASP by differentially regulating the translation of the MK2 (also known as MAPKAPK2) kinase through 4EBP1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26280535",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we report a mechanism by which mTOR controls the SASP by differentially regulating the translation of the MK2 (also known as MAPKAPK2) kinase through 4EBP1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26280535",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Both Beclin1-PI3KIII and Beclin1-MAPKAPK2 interactions as were remarkably affected by silencing either ATM or MAPK14.ATM promoted IR-induced autophagy via the MAPK14 pathway, mTOR pathway and Beclin1/PI3KIII complexes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26269117",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mTOR regulates MAPKAPK2 translation to control the senescence-associated secretory phenotype.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26280535",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/MAPK2_RABIT",
+    "http://amigo.geneontology.org/amigo/term/GO:0070438",
+    "http://www.uniprot.org/uniprot/MAPK2_DROME",
+    "http://amigo.geneontology.org/amigo/term/GO:0038201",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D058570",
+    "http://www.uniprot.org/uniprot/MAPK2_HUMAN",
+    "http://www.uniprot.org/uniprot/MAPK2_CRILO"
+  ],
+  "exact_answer": "Yes"
+}

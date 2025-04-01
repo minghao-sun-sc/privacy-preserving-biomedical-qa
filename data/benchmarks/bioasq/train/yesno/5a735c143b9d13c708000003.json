@@ -1,0 +1,39 @@
+{
+  "id": "5a735c143b9d13c708000003",
+  "type": "yesno",
+  "question": "Is patisiran currently (November 2017) in clinical phase II trials?",
+  "ideal_answer": "No, patisiran is in phase 3 clinical studies.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26338094",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28389707",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28893208"
+  ],
+  "snippets": [
+    {
+      "text": "This review addresses nine small-interfering RNAs (siRNAs) and one unique microRNA (miRNA) inhibitor, which entered the phase 2-3 clinical trials. The siRNAs in focus are PF-04523655, TKM-080301, Atu027, SYL040012, SYL1001, siG12D-LODER (phase 2), QPI-1002, QPI-1007, and patisiran (phase 3). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28389707",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " patisiran (phase 3)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28389707",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Phase 3 APOLLO study, a randomized, double-blind, placebo-controlled, global study to evaluate the efficacy and safety of patisiran in patients with hATTR amyloidosis with polyneuropathy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28893208",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Efficacy and safety of patisiran for familial amyloidotic polyneuropathy: a phase II multi-dose study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26338094",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "6206bf3cc9dfcb9c0900003d",
+  "type": "factoid",
+  "question": "Which kinase does PD98059 inhibit?",
+  "ideal_answer": "PD98059 is a specific, reversible MEK inhibitor.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32378175"
+  ],
+  "snippets": [
+    {
+      "text": "An injectable microparticle formulation for the sustained release of the specific MEK inhibitor PD98059: in vitro evaluation and pharmacokinetics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32378175",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "PD98059 is a reversible MEK inhibitor that we are investigating as a potential treatment for neurochemical changes in the brain that drive neurohumoral excitation in heart failure. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32378175",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "MEK"
+}

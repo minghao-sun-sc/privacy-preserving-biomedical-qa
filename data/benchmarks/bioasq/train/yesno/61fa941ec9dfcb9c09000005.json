@@ -1,0 +1,32 @@
+{
+  "id": "61fa941ec9dfcb9c09000005",
+  "type": "yesno",
+  "question": "Should Intepirdine be used for Alzheimer's disease?",
+  "ideal_answer": "No. In a phase 3 clinical trial Intepirdine as adjunctive therapy to donepezil did not produce statistical improvement over placebo on cognition or activities of daily living in mild-to-moderate Alzheimer's disease dementia patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34095437",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29848076"
+  ],
+  "snippets": [
+    {
+      "text": "There were no statistically significant differences between intepirdine and placebo groups (adjusted mean [95% confidence interval]) on the co-primary endpoints ADAS-Cog (-0.36 [-0.95, 0.22], P\u00a0=\u00a00.2249) and ADCS-ADL (-0.09 [-0.90, 0.72], P\u00a0=\u00a00.8260). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34095437",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Discussion: Intepirdine as adjunctive therapy to donepezil did not produce statistical improvement over placebo on cognition or activities of daily living in mild-to-moderate AD dementia patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34095437",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "EXPERT OPINION: Despite early positive findings, larger phase-III trials have failed to demonstrate any statistically significant impact on cognition for both idalopirdine and intepirdine, as adjunct to cholinesterase inhibitors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29848076",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

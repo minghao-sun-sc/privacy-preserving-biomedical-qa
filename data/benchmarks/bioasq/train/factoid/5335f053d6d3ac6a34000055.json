@@ -1,0 +1,100 @@
+{
+  "id": "5335f053d6d3ac6a34000055",
+  "type": "factoid",
+  "question": "How can the expression of SerH3 immobilization antigen be regulated?",
+  "ideal_answer": "The expression of Tetrahymena surface proteins serotype H3 (SerH3) is under temperature regulation. SerH3 is expressed when cells are incubated between the temperatures of 20 and 35 degrees C.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/2854007",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3537733",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3915784",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7828814",
+    "http://www.ncbi.nlm.nih.gov/pubmed/4054606",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2233735",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8414992",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11973302",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3211135",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1522546",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3336362",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7731807"
+  ],
+  "snippets": [
+    {
+      "text": "mRNA stability plays a major role in regulating the temperature-specific expression of a Tetrahymena thermophila surface protein.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3336362",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The presence of specific proteins (known as immobilization antigens) on the surface of the ciliated protozoan Tetrahymena thermophila is under environmental regulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3537733",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A temperature shift from 40 to 28 degrees C rapidly induced expression of a specific immobilization antigen at the cell surface in Tetrahymena thermophila. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3915784",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Expression of each allele is regulated by temperature-sensitive mRNA stability. H mRNAs are stable at <36 degrees but are unstable at >36 degrees. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11973302",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In Tetrahymena thermophila, the expression of the temperature-specific surface protein SerH3 is controlled primarily by a temperature-dependent change in the stability of its mRNA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7731807",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we studied SerH3-ts1, a temperature-sensitive allele of the temperature-regulated SerH3 gene normally expressed from 20-36 degrees. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7828814",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In Tetrahymena thermophila, the expression of a temperature-specific surface protein known as SerH3 is primarily controlled by a temperature-dependent change in the stability of the mRNA that encodes this protein. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8414992",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The expression of Tetrahymena surface proteins serotype H3 (SerH3) and serotype T (SerT) is under environmental regulation. SerH3 is expressed when cells are incubated between the temperatures of 20 and 35 degrees C, while SerT is expressed when cells are grown at temperatures above 35 degrees C. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3211135",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The surfaces of Tetrahymena thermophila cells grown between 20 and 35 degrees C are covered by one or more variants of H antigens. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2854007",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SerH3, a Tetrahymena thermophila gene encoding a temperature-regulated surface antigen.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2233735",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In the holotrich Tetrahymena thermophila five alternative cell surface immobilization proteins (i-antigens) are expressed under different conditions of temperature (L, H, T) and culture media (I, S).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1522546",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005786",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012703",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010628",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010629",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010468",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007103",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010467",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015870",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000941"
+  ],
+  "exact_answer": "Temperature regulation"
+}

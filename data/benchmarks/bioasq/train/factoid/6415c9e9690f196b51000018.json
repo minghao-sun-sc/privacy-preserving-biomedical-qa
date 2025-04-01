@@ -1,0 +1,19 @@
+{
+  "id": "6415c9e9690f196b51000018",
+  "type": "factoid",
+  "question": "Which form of breast cancer has Keytruda been FDA approved for?",
+  "ideal_answer": "Keytruda has been FDA approved for use in combination with chemotherapy for treating PD-L1-positive mTNBC.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33983696"
+  ],
+  "snippets": [
+    {
+      "text": "The combination of chemotherapy and immunotherapy is a potential therapeutic option for PD-L1-positive mTNBC, as the FDA recently approved atezolizumab (Tecentriq) and pembrolizumab (Keytruda) in combination with chemotherapy. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33983696",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "triple-negative breast cancer"
+}

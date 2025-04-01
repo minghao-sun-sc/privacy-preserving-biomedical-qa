@@ -1,0 +1,57 @@
+{
+  "id": "5a6fabfeb750ff4455000062",
+  "type": "yesno",
+  "question": "Are there mammalian promoters with distal enhancer functions?",
+  "ideal_answer": "Yes. Several studies have suggested that some promoters might have enhancer functions. By exploiting a high-throughput enhancer reporter assay, scientists have unraveled a set of mammalian promoters displaying enhancer activity. These promoters have distinct genomic and epigenomic features and frequently interact with other gene promoters. Extensive CRISPR-Cas9 genomic manipulation demonstrated the involvement of these promoters in the cis regulation of expression of distal genes in their natural loci.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28581502"
+  ],
+  "snippets": [
+    {
+      "text": "Genome-wide characterization of mammalian promoters with distal enhancer functions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28581502",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Gene expression in mammals is precisely regulated by the combination of promoters and gene-distal regulatory regions, known as enhancers. Several studies have suggested that some promoters might have enhancer functions. However, the extent of this type of promoters and whether they actually function to regulate the expression of distal genes have remained elusive. Here, by exploiting a high-throughput enhancer reporter assay, we unravel a set of mammalian promoters displaying enhancer activity. These promoters have distinct genomic and epigenomic features and frequently interact with other gene promoters. Extensive CRISPR-Cas9 genomic manipulation demonstrated the involvement of these promoters in the cis regulation of expression of distal genes in their natural loci. Our results have important implications for the understanding of complex gene regulation in normal development and disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28581502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, by exploiting a high-throughput enhancer reporter assay, we unravel a set of mammalian promoters displaying enhancer activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28581502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Several studies have suggested that some promoters might have enhancer functions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28581502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "genome wide characterization of mammalian promoters with distal enhancer functions",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28581502",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "gene expression in mammals is precisely regulated by the combination of promoters and gene distal regulatory regions known as enhancers several studies have suggested that some promoters might have enhancer functions however the extent of this type of promoters and whether they actually function to regulate the expression of distal genes have remained elusive here by exploiting a high throughput enhancer reporter assay we unravel a set of mammalian promoters displaying enhancer activity these promoters have distinct genomic and epigenomic features and frequently interact with other gene promoters extensive crispr cas9 genomic manipulation demonstrated the involvement of these promoters in the cis regulation of expression of distal genes in their natural loci our results have important implications for the understanding of complex gene regulation in normal development and disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28581502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0001206",
+    "http://amigo.geneontology.org/amigo/term/GO:0001205",
+    "http://amigo.geneontology.org/amigo/term/GO:0035326",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D011401",
+    "http://amigo.geneontology.org/amigo/term/GO:0003705",
+    "http://amigo.geneontology.org/amigo/term/GO:0071733",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D004742"
+  ],
+  "exact_answer": "Yes"
+}

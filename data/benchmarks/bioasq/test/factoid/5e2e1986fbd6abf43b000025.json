@@ -1,0 +1,19 @@
+{
+  "id": "5e2e1986fbd6abf43b000025",
+  "type": "factoid",
+  "question": "Which loss-of-function ABCC8 mutation is associated with Pulmonary Arterial Hypertension (PAH)?",
+  "ideal_answer": "A de novo novel heterozygous predicted deleterious missense variant c.G2873A (p.R958H) in ABCC8 in a child with idiopathic PAH.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30354297"
+  ],
+  "snippets": [
+    {
+      "text": "Exome sequencing was performed to identify novel genes in a cohort of 99 pediatric and 134 adult-onset group I PAH patients. Novel rare variants in the gene identified were independently identified in a cohort of 680 adult-onset patients. Variants were expressed in COS cells and function assessed by patch-clamp and rubidium flux analysis.RESULTS: We identified a de novo novel heterozygous predicted deleterious missense variant c.G2873A (p.R958H) in ABCC8 in a child with idiopathic PAH. We then evaluated all individuals in the original and a second cohort for rare or novel variants in ABCC8 and identified 11 additional heterozygous predicted damaging ABCC8 variants. ABCC8 encodes SUR1 (sulfonylurea receptor 1)-a regulatory subunit of the ATP-sensitive potassium channel. We observed loss of ATP-sensitive potassium channel function for all ABCC8 variants evaluated and pharmacological rescue of all channel currents in vitro by the SUR1 activator, diazoxide.CONCLUSIONS: Novel and rare missense variants in ABCC8 are associated with PAH. Identified ABCC8 mutations decreased ATP-sensitive potassium channel function, which was pharmacologically recovered.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30354297",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "c.G2873A, p.R958H"
+}

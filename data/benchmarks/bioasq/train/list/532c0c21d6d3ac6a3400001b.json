@@ -1,0 +1,95 @@
+{
+  "id": "532c0c21d6d3ac6a3400001b",
+  "type": "list",
+  "question": "Which are the main methods for pharmacophore modelling?",
+  "ideal_answer": "A pharmacophore describes the arrangement of molecular features a ligand must contain to efficaciously bind a receptor. Pharmacophore models are developed to improve molecular understanding of ligand\u2013protein interactions, and can be used as a tool to identify novel compounds that fulfil the pharmacophore requirements and have a high probability of being biologically active. Protein structure-based pharmacophores (SBPs) derive these molecular features by conversion of protein properties to reciprocal ligand space. Unlike ligand-based pharmacophore models, which require templates of ligands in their bioactive conformation, SBPs do not depend on ligand information.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23651479",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23651482",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16783689",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22650262",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23651486",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23933279",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15807512",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18410307",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24504131",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23862697",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21521148",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22380004",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16996282",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23621564",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23957390",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20362693",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24266725",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21400356",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23334436",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23675939"
+  ],
+  "snippets": [
+    {
+      "text": "protein interactions are becoming increasingly significant as potential drug targets; however, the rational identification of small molecule inhibitors of such interactions remains a challenge. Pharmacophore modelling is a popular tool for virtual screening of compound libraries, and has previously been successfully applied to the discovery of enzymatic inhibitors. However, the application of pharmacophore modelling in the field of protein:protein interaction inhibitors has historically been considered more of a challenge and remains limited. In this review, we explore the interaction mimicry by known inhibitors that originate from in vitro screening, demonstrating the validity of pharmacophore mapping in the generation of queries for virtual screening. We discuss the pharmacophore mapping methods that have been successfully employed in the discovery of first-in-class inhibitors. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23651479",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " a popular tool for virtual screening of libraries to identify novel active substances that can be potentially developed into drugs. While they have been applied for years on common drug targets, their application in the discovery of protein-protein interaction inhibitors remains limited. This review describes current pharmacophore modelling methods applied in the discovery of novel inhibitors targeting protein-protein interactions. We first address the mimicry of protein-protein interactions with their respective inhibitors as observed in crystal structure complexes. This mimicry can be exploited to derive a pharmacophore query from protein-protein complex structures. We then discuss several cases where pharmacophore queries were utilized for the discovery of first-in-class inhibitors of their respective protein-protein interaction targets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22650262",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The best HypoGen pharmacophore model for ACC2 inhibitors (Hypo1_ACC2) consists of one hydrogen bond acceptor, one hydrophobic aliphatic and one hydrophobic aromatic feature, whereas the best pharmacophore (Hypo1_ACC1) for ACC1 consists of one additional hydrogen-bond donor (HBD) features. The best pharmacophore hypotheses were validated by various methods such as test set, decoy set and Cat-Scramble methodology. The validated pharmacophore models were used to screen several small-molecule databases, including Specs, NCI, ChemDiv and Natural product databases to identify the potential dual ACC inhibitors. The virtual hits were then subjected to several filters such as estimated [Formula: see text] value, quantitative estimation of drug-likeness and molecular docking analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23334436",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "pharmacophore model has been developed using diverse classes of epidermal growth factor receptor (EGFR) tyrosine kinase (TK) inhibitors useful in the treatment of human tumours. Among the top 10 generated hypotheses, the second hypothesis, with one hydrogen bond acceptor, one ring aromatic and three hydrophobic features, was found to be the best on the basis of Cat Scramble validation as well as test set prediction (r(training) = 0.89, r(test) = 0.82). The model also maps well to the external test set molecules as well as clinically active molecules and corroborates the docking studies. Finally, 10 hits were identified as potential leads after virtual screening of ZINC database for EGFR TK inhibition. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21400356",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In order to clarify the essential structure-activity relationship for the known Aurora-A inhibitors as well as identify new lead compounds against Aurora-A, 3D pharmacophore models were developed based on the known inhibitors. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18410307",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "computational methods for molecular design are well established in medicinal chemistry research, their application in the field of natural products is still not exhaustively explored. This article gives a short introduction into both the potential for the application of computer-assisted approaches, such as pharmacophore modelling, virtual screening, docking, and neural networking to efficiently access the bioactive metabolites, and the requirements and limitations related to this specific field. The challenge is which selection criteria and/or multiple filtering tools to apply for a target-oriented isolation of potentially bioactive secondary metabolites. Application examples are provided where in silico tools and classical methods used by natural product scientists are used in an effort to maximize their efficacy in drug discovery. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16783689",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "pharmacophore models derived from protein binding site atoms without the inclusion of any ligand information have become more popular in virtual screening studies. However, the accuracy of protein-based pharmacophore models for reproducing the critical protein-ligand interactions has never been explicitly assessed. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23621564",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results demonstrate that there are significant variations in the success of protein-based pharmacophore models to reproduce native contacts and consequently native ligand poses dependent on the details of the pharmacophore generation process. We show that the generation of optimized protein-based pharmacophore models is a promising approach for ligand pose prediction and pose rankings",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23621564",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "pharmacophore model does not describe a real molecule or a real association of functional groups but illustrates a molecular recognition of a biological target shared by a group of compounds. Pharmacophores also represent the spatial arrangement of essential interactions in a receptor-binding pocket. Structure based pharmacophores (SBPs) can work both with a free (apo) structure or a macromolecule-ligand complex (holo) structure. The SBP methods that derive pharmacophore from protein-ligand complexes use the potential interactions observed between ligand and protein, whereas, the SBP method that aims to derive pharmacophore from ligand free protein, uses only protein active site information",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23651482",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "3D pharmacophore methods are now commonly used as part of more complex workflows in drug discovery campaigns, and have been successfully and extensively applied in virtual screening (VS) approaches. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23651486",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015195",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008722"
+  ],
+  "exact_answer": "Ligand-based, pharmacophore modeling, Structure-base, pharmacophore modeling"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "52fa73e82059c6d71c000059",
+  "type": "list",
+  "question": "List the existing methods for genetic manipulation of cells.",
+  "ideal_answer": "Genetic engineering, also called genetic modification, is the direct manipulation of an organism's genome using biotechnology. New DNA may be inserted in the host genome by first isolating and copying the genetic material of interest using molecular cloning methods to generate a DNA sequence, or by synthesizing the DNA, and then inserting this construct into the host organism. Genes may be removed, or \"knocked out\", using a nuclease. Gene targeting is a different technique that uses homologous recombination to change an endogenous gene, and can be used to delete a gene, remove exons, add a gene, or introduce point mutations. Based on results there are developed many methods for genetic manipulation of cells such as Microinjection, electroporation, liposomes and via viral vectors.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24296066",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12719540",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19678910",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24269346",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24222505",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18988631",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24048932",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21249368",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18556259",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19594452",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16451554",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24060313",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24050263",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24055287",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22675075",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24158830",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24296044"
+  ],
+  "snippets": [
+    {
+      "text": "For efficient genetic transformation, Agrobacterium-mediated as well as direct delivery methods have been used successfully. However, these methods suffer from many disadvantages especially in terms of transfer of large genes, gene complexes and gene silencing. To overcome these problems, recently, some efforts have been made to develop genetic transformation systems based on engineered plant chromosomes called minichromosomes or plant artificial chromosomes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21249368",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Existing methods for site-directed plasmid mutagenesis are restrained by the small spectrum of modifications that can be introduced by mutagenic primers and the amplicon size limitations of in vitro DNA synthesis. As demonstrated here, the combined use of Red/ET recombination and unique restriction site elimination enables extensive manipulation regardless of plasmid size and DNA sequence elements.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19594452",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bacterial artificial chromosomes (BACs) derived from genomes of large DNA viruses are powerful tools for functional delineation of viral genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18988631",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we describe a novel method for cloning the genomes of large DNA viruses as BACs, which entails direct in vitro transposition of viral genomes with a BAC cassette, and subsequent recovery in Escherichia coli. Determination of insertion sites and adjacent viral sequences identify the BAC clones for genetic manipulation and functional characterization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18988631",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we describe a vector system for efficient multigene assembly and transformation. The system consists of a transformation-competent artificial chromosome (TAC)-based acceptor vector together with two donor vectors. By exploiting the CreloxP recombination system and homing endonucleases, multiple rounds of gene assembly cycling were carried out with alternate use of the donor vectors, and multiple genes were sequentially delivered into the TAC vector.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12719540",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D053672",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002477",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0009292",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014158",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008967",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008845",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D039361",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018274",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D055614",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015316",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005826",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005821",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D036281",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005823",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005822",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006579",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014162",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004247",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005820"
+  ],
+  "exact_answer": "Agrobacterium-mediated delivery, direct delivery methods, methods using plant artificial chromosomes, site-directed plasmid mutagenesis, combined use of Red/ET recombination and unique restriction site elimination, Bacterial artificial chromosomes (BACs), direct in vitro transposition of viral genomes with a BAC cassette, and subsequent recovery in Escherichia coli, transformation-competent artificial chromosome (TAC)-based acceptor vector, by exploiting the CreloxP recombination system and homing endonucleases, Microinjection, electroporation, viral vectors, liposomes"
+}

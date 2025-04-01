@@ -1,0 +1,38 @@
+{
+  "document_id": "record_01531",
+  "original_length": 1992,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- No evidence of any focal areas of consolidation, pneumothoraces, or pleural effusions.\n- Slight prominence to the mediastinum which may be secondary to thymus and/or technique.\n- Slight prominen...",
+    "Symptoms": "",
+    "Treatment": "Single frontal view of the chest. Respiratory distress.  The patient has a history of malrotation. [person] View - Chest - Pediatric",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, DATE_TIME, US_DRIVER_LICENSE, PERSON"
+      ],
+      "pii_detected": [
+        "URL",
+        "DATE_TIME",
+        "US_DRIVER_LICENSE",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

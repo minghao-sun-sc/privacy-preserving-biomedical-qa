@@ -1,0 +1,38 @@
+{
+  "document_id": "record_01777",
+  "original_length": 3216,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Grossly intact.  The patient is alert and oriented x 3.,Judgment:  Poor, shown by noncompliance with treatment.,Assets:  Include stable physical status.,Limitations:  Include recurrent psychosis.,F...",
+    "Symptoms": "",
+    "Treatment": ".,HISTORY OF PRESENT ILLNESS: , The patient has a history of schizophrenia and chronic paranoid, for which she has received treatment in Houston, Texas.  According to mental health professionals, t...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, DATE_TIME, PHONE_NUMBER, PERSON"
+      ],
+      "pii_detected": [
+        "URL",
+        "DATE_TIME",
+        "PHONE_NUMBER",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

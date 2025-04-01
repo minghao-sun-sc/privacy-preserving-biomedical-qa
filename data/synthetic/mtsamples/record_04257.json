@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04257",
+  "original_length": 1552,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Mr. ABC is doing about the same.  We discussed the issue of adherence to Copaxone.  In order to facilitate this, I would like him to take Copaxone every other day, but on a regular rhythm.  His w...",
+    "Symptoms": "",
+    "Treatment": "Neurologic consultation and follow-up. [person] - 1",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

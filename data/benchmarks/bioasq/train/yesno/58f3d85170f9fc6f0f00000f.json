@@ -1,0 +1,40 @@
+{
+  "id": "58f3d85170f9fc6f0f00000f",
+  "type": "yesno",
+  "question": "Is Downs syndrome associated with decreased risk of leukemia?",
+  "ideal_answer": "No, multiple studies have established the incidence of leukemia in Down's syndrome patients to be 10- to 20-fold higher than that in the general population.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19332933",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25332567",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16321814",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2955886"
+  ],
+  "snippets": [
+    {
+      "text": "The association of Down's syndrome and leukemia has been documented for over 50 years. Multiple studies have established the incidence of leukemia in Down's syndrome patients to be 10- to 20-fold higher than that in the general population.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2955886",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present a case of congenital acute myeloid leukemia manifesting from the very first day of birth. Diagnosis of acute myeloid leukemia was suspected by the presence of blasts in the peripheral blood smear and was confirmed on bone marrow by flowcytometry. Karyotyping revealed Trisomy 21.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25332567",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Juvenile myelomonocytic leukemia (JMML) and a solitary cases of acute myeloid leukemia (AML) in Downs syndrome. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16321814",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This was thus confirmed to be a case with transient leukemia with Downs syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19332933",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "56cdf4875795f9a73e000040",
+  "type": "factoid",
+  "question": "Which domain of TIA-1 is necessary for stress granule assembly?",
+  "ideal_answer": "TIA-1 is an RNA binding protein that promotes the assembly of stress granules (SGs), discrete cytoplasmic inclusions into which stalled translation initiation complexes are dynamically recruited in cells subjected to environmental stress. The RNA recognition motifs of TIA-1 are linked to a glutamine-rich prion-related domain (PRD). Truncation mutants lacking the PRD domain do not induce spontaneous SGs and are not recruited to arsenite-induced SGs, whereas the PRD forms aggregates that are recruited to SGs in low-level-expressing cells but prevent SG assembly in high-level-expressing cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24981173",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18775331",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15371533"
+  ],
+  "snippets": [
+    {
+      "text": "Tia1/Pub1 is a stress granule component carrying a Q/N-rich prion domain",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24981173",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Codependent functions of RSK2 and the apoptosis-promoting factor TIA-1 in stress granule assembly and cell survival",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18775331",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We report an unanticipated link between stress granules and the serine/threonine kinase RSK2. In stressed breast cells, endogenous RSK2 colocalizes in granules with TIA-1 and poly(A)-binding protein 1, and the sequestration of RSK2 and TIA-1 exhibits codependency. The RSK2 N-terminal kinase domain controls the direct interaction with the prion-related domain of TIA-1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18775331",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Stress granule assembly is mediated by prion-like aggregation of TIA-1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15371533",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "TIA-1 is an RNA binding protein that promotes the assembly of stress granules (SGs), discrete cytoplasmic inclusions into which stalled translation initiation complexes are dynamically recruited in cells subjected to environmental stress. The RNA recognition motifs of TIA-1 are linked to a glutamine-rich prion-related domain (PRD). Truncation mutants lacking the PRD domain do not induce spontaneous SGs and are not recruited to arsenite-induced SGs, whereas the PRD forms aggregates that are recruited to SGs in low-level-expressing cells but prevent SG assembly in high-level-expressing cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15371533",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The PRD of TIA-1 exhibits many characteristics of prions: concentration-dependent aggregation that is inhibited by the molecular chaperone heat shock protein (HSP)70; resistance to protease digestion; sequestration of HSP27, HSP40, and HSP70; and induction of HSP70, a feedback regulator of PRD disaggregation. Substitution of the PRD with the aggregation domain of a yeast prion, SUP35-NM, reconstitutes SG assembly, confirming that a prion domain can mediate the assembly of SGs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15371533",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results reveal that prion-like aggregation of TIA-1 regulates SG formation downstream of eIF2alpha phosphorylation in response to stress",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15371533",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Stress granule assembly is mediated by prion-like aggregation of TIA-1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15371533",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " TIA-1 is an RNA binding protein that promotes the assembly of stress granules (SGs), discrete cytoplasmic inclusions into which stalled translation initiation complexes are dynamically recruited in cells subjected to environmental stress. The RNA recognition motifs of TIA-1 are linked to a glutamine-rich prion-related domain (PRD).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15371533",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "The glutamine-rich prion-related domain (PRD)"
+}

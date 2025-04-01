@@ -1,0 +1,25 @@
+{
+  "id": "606c017294d57fd879000076",
+  "type": "yesno",
+  "question": "Has the companion diagnostic HercepTest received FDA approval?",
+  "ideal_answer": "Yes, the HercepTest has received FDA approval.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30668632"
+  ],
+  "snippets": [
+    {
+      "text": "The FDA-Approved Breast Cancer HER2 Evaluation Kit (HercepTest; Dako) May Miss Some HER2-Positive Breast Cancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30668632",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "HER2 fluorescence in situ hybridization (FISH) and immunohistochemistry (IHC) tests were performed on 52 cases using a US Food and Drug Administration (FDA)-approved kit (HercepTest, FDA kit) and a laboratory-developed test (LDT) with the HercepTest antibody and a Leica Bond automated stainer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30668632",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

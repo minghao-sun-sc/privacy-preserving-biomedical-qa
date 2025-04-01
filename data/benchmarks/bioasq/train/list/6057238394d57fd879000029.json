@@ -1,0 +1,40 @@
+{
+  "id": "6057238394d57fd879000029",
+  "type": "list",
+  "question": "List the main proteins found in human saliva.",
+  "ideal_answer": "Amylases\nCystatins\nImmunoglobulins\nMucins",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30632771",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32260553",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31998446",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16440601"
+  ],
+  "snippets": [
+    {
+      "text": "Mucins, as the major salivary proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30632771",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the two thirds of identified spots corresponding to amylases, cystatins and immunoglobulins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16440601",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "several protein spots of immunoglobulin chains",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32260553",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The concentration of total protein and salivary amylase was significantly lower in NWS and SWS of psoriatic patients compared to the healthy control. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31998446",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Amylases, Cystatins, Immunoglobulins, Mucins"
+}

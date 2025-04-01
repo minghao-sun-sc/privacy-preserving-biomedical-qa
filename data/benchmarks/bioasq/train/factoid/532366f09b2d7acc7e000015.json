@@ -1,0 +1,63 @@
+{
+  "id": "532366f09b2d7acc7e000015",
+  "type": "factoid",
+  "question": "Which amino acid residue appears mutated in most of the cases reported with  cadasil syndrome?",
+  "ideal_answer": "CADASIL is caused mostly by missense mutations in the NOTCH3 gene, invariably involving a cysteine residue.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24086431",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11706120",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23587639",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15304596",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21772710",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21038489",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22623959",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19043263",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16717210",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17726918",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23799017",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22367627",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20224942",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22082899",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18710532",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23597439",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21616505",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19006080",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18313300"
+  ],
+  "snippets": [
+    {
+      "text": "missense mutations and small deletions in the NOTCH3 gene, not involving cysteine residues, have been described in patients considered to be affected by paucisymptomatic CADASIL. However, the significance of such molecular variants is still unclear",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23597439",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CADASIL is caused mostly by missense mutations in the NOTCH3 gene, invariably involving a cysteine residue.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23587639",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (CADASIL) is an inherited cerebrovascular disease due to mutations involving loss or gain of a cysteine residue in the NOTCH3 gene. A cluster of mutations around exons 3 and 4 was originally reported",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21616505",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The authors report a family with CADASIL carrying a deletion in the Notch3 gene that did not involve a cysteine residue",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15304596",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D046589",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D024342",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000596",
+    "http://www.disease-ontology.org/api/metadata/DOID:225",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013577",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009154",
+    "http://www.disease-ontology.org/api/metadata/DOID:13945"
+  ],
+  "exact_answer": "Cysteine"
+}

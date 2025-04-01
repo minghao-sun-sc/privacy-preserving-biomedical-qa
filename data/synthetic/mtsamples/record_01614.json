@@ -1,0 +1,55 @@
+{
+  "document_id": "record_01614",
+  "original_length": 1707,
+  "synthetic_length": 604,
+  "attributes": {
+    "Diagnosis": "\n- Normal nuclear myocardial perfusion scan.\n- Ejection fraction 41% by gated SPECT.",
+    "Symptoms": "",
+    "Treatment": "[person] [person] Scan.  Chest pain.  Patient unable to walk on a treadmill.  [person].  Normal nuclear myocardial perfusion scan. [person] Scan",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": false,
+  "iterations_required": 3,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, PHONE_NUMBER, URL, NRP, LOCATION"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "PHONE_NUMBER",
+        "URL",
+        "NRP",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 2,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "52bf1df903868f1b06000013",
+  "type": "summary",
+  "question": "What is the mechanism of action of Nalmefene?",
+  "ideal_answer": "Nalmefene shows opioid receptor antagonism, binds the \u03bc-opioid receptor (MOR1) and modulates opioidergic transmission in the CNS.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22078567",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21651459",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21291870"
+  ],
+  "snippets": [
+    {
+      "text": "Opioids that stimulate the \u03bc-opioid receptor (MOR1) are the most frequently prescribed and effective analgesics. Here we present a structural model of MOR1. Molecular dynamics simulations show a ligand-dependent increase in the conformational flexibility of the third intracellular loop that couples with the G protein complex. These simulations likewise identified residues that form frequent contacts with ligands. We validated the binding residues using site-directed mutagenesis coupled with radioligand binding and functional assays. The model was used to blindly screen a library of \u223c1.2 million compounds. From the 34 compounds predicted to be strong binders, the top three candidates were examined using biochemical assays. One compound showed high efficacy and potency. Post hoc testing revealed this compound to be nalmefene, a potent clinically used antagonist, thus further validating the model. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22078567",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The neurobiological mechanism by which opioid modulators affect drinking behavior is based on the strong connection between the endogenous opioid system, the dopamine system and the influence of the CNS stress response.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21651459",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Naltrexone- and to a lesser extent nalmefene- is an agent that modulates opioidergic transmission in the CNS and it shows a limited but well-studied efficacy in treating alcohol dependence. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21651459",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Several derivatives of Naltrexone, Nalmefene (Nal) and JKB-119, exert immunomodulatory activity; however, unlike Nal, JKB-119 does not show significant opioid receptor antagonism. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21291870",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D045504",
+    "http://www.biosemantics.org/jochem#4258016",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D040542"
+  ]
+}

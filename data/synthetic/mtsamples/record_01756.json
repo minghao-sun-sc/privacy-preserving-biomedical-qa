@@ -1,0 +1,50 @@
+{
+  "document_id": "record_01756",
+  "original_length": 934,
+  "synthetic_length": 604,
+  "attributes": {
+    "Diagnosis": "\n- Normal LV systolic function.\n- Ejection fraction estimated around 60%.,",
+    "Symptoms": "",
+    "Treatment": "Echocardiogram and Doppler 2-D Echocardiogram - 4",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": false,
+  "iterations_required": 3,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 2,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    }
+  ]
+}

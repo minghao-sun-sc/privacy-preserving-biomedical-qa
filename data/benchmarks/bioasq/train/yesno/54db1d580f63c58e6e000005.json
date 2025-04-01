@@ -1,0 +1,58 @@
+{
+  "id": "54db1d580f63c58e6e000005",
+  "type": "yesno",
+  "question": "Is Alu hypomethylation associated with breast cancer?",
+  "ideal_answer": "Yes, Alu elements were found to be hypomethylated in breast cancer, especially in the HER2-enriched subtype. Furthermore, Alu hypomethylation was identified as a late event during breast cancer progression, and in invasive breast cancer, tended to be associated with negative estrogen receptor status and poor disease-free survival of the patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20682973",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24971511"
+  ],
+  "snippets": [
+    {
+      "text": "Alu and LINE-1 hypomethylation is associated with HER2 enriched subtype of breast cancer",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24971511",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In IBC, Alu hypomethylation correlated with negative estrogen receptor (ER) status",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24971511",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In survival analyses, low Alu methylation status tended to be associated with poor disease-free survival of the patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24971511",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Alu hypomethylation is probably a late event during breast cancer progression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24971511",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "prominent hypomethylation of Alu and LINE-1 in HER2 enriched subtype may be related to chromosomal instability of this specific subtype.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24971511",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA methylation for three repetitive elements (LINE1, Sat2 and Alu) were analyzed in invasive ductal carcinoma of the breast, paired adjacent normal tissue and WBC from 40 breast cancer patients",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20682973",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA methylation for the three repetitive elements was lower in tumor compared to adjacent tissue and WBC DNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20682973",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:1612"
+  ],
+  "exact_answer": "Yes"
+}

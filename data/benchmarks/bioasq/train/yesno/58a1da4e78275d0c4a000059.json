@@ -1,0 +1,79 @@
+{
+  "id": "58a1da4e78275d0c4a000059",
+  "type": "yesno",
+  "question": "Has small pox been eradicated from the world?",
+  "ideal_answer": "smallpox is now eradicated.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22566811",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11808015",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10742580",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14969309",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23436190",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12822115",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7013291",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11503361",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22185830"
+  ],
+  "snippets": [
+    {
+      "text": "small pox has been eradicated.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10742580",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "smallpox is now eradicated",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11808015",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In May 1980 the World Health Assembly in Geneva announced in solemn form the world-wide eradication of the small-pox and gave recommendations to the member countries for concluding measures concerning the small-pox vaccination, the foundation of vaccine reserves and the control of the epidemiological situation in the world.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7013291",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "As a result of vaccination, diseases such as polio and measles have been controlled and small pox has been eradicated",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10742580",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Small pox eradication from the world is the perfect example of the role of mass vaccination of the entire community of the universe. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23436190",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The French owe a lot to this Central Committee of Vaccine, which greatly contributed to fighting small pox and eradicating the disease finally.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11503361",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Small pox eradication from the world is the perfect example of the role of mass vaccination of the entire community of the universe.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23436190",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Also, the vaccine that Jenner used, which decreased the prevalence of Small Pox worldwide in his own time, and later was used to eradicate Small Pox altogether, is discussed in light of recent data..",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22566811",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the only known cases of smallpox happened from an outbreak in Birmingham, England caused by a laboratory accident in the year of 1979. On May the 8 th 1980 the disease was declared as eliminated from the world by the WHO (WHO-Resolution 33.33).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12822115",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:8736",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012899",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012900"
+  ],
+  "exact_answer": "Yes"
+}

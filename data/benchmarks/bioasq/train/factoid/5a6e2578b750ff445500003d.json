@@ -1,0 +1,43 @@
+{
+  "id": "5a6e2578b750ff445500003d",
+  "type": "factoid",
+  "question": "Which package in Bioconductor has been developed with the aim to analyze differential DNA loops from sequencing data?",
+  "ideal_answer": "Diffloop is an R/Bioconductor package that provides a suite of functions for the quality control, statistical testing, annotation, and visualization of DNA loops.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29028898"
+  ],
+  "snippets": [
+    {
+      "text": "diffloop: a computational framework for identifying and analyzing differential DNA loops from sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29028898",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "To systematically assess changes in DNA looping architecture between samples, we introduce diffloop, an R/Bioconductor package that provides a suite of functions for the quality control, statistical testing, annotation, and visualization of DNA loops. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29028898",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To systematically assess changes in DNA looping architecture between samples, we introduce diffloop, an R/Bioconductor package that provides a suite of functions for the quality control, statistical testing, annotation, and visualization of DNA loops.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29028898",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "diffloop: a computational framework for identifying and analyzing differential DNA loops from sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29028898",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "To systematically assess changes in DNA looping architecture between samples, we introduce diffloop, an R/Bioconductor package that provides a suite of functions for the quality control, statistical testing, annotation, and visualization of DNA loops.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29028898",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Diffloop"
+}

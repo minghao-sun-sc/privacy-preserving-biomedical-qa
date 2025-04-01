@@ -1,0 +1,39 @@
+{
+  "document_id": "record_03267",
+  "original_length": 4520,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Acute tiredness.\n- Anemia of unknown etiology.\n- Acute hyponatremia.,PLAN:  ,The patient is advised to put salt on her food for the next week.  Should be given discharge instruction sheet for an...",
+    "Symptoms": "",
+    "Treatment": ".  Repeat lung exam reveals resolution of expiratory wheezing.  The patient later had normal saline lock started by the nurse.  She was given IV fluids of normal saline 1L wide open over approximat...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, URL, NRP, LOCATION"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "URL",
+        "NRP",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

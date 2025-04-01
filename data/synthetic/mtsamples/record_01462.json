@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01462",
+  "original_length": 3943,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Obstructive sleep apnea syndrome, supine position dependent, moderate (780.53-0).\n- Periodic limb movement in sleep disorder, moderate (780.53-4).,CASE DISCUSSION: , Thank you once again for all...",
+    "Symptoms": "",
+    "Treatment": "may be helpful or necessary if such conditions exist.  Alternatively, ________ may be of benefit in some patients depending upon the anatomical abnormalities.,Obstructive sleep apnea is worsened by...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Obstructive sleep apnea syndrome, supine position ...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

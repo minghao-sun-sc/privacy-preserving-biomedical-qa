@@ -1,0 +1,38 @@
+{
+  "id": "64138ce8201352f04a000042",
+  "type": "factoid",
+  "question": "Hairpatches is a single gene mutation associated with what disease?",
+  "ideal_answer": "Hairpatches is a single gene mutation associated with progressive renal failure and alopecia in mice, and may be a potential model for a newly described heritable human disorder.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23301070",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1836514"
+  ],
+  "snippets": [
+    {
+      "text": "\"Hairpatches\" (Hpt) is a naturally occurring, autosomal semi-dominant mouse mutation. Hpt/Hpt homozygotes die in utero, while Hpt/+ heterozygotes exhibit progressive renal failure accompanied by patchy alopecia. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23301070",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hairpatches, a single gene mutation characterized by progressive renal disease and alopecia in the mouse. A potential model for a newly described heritable human disorder.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1836514",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Retrotransposon insertion in the T-cell acute lymphocytic leukemia 1 (Tal1) gene is associated with severe renal disease and patchy alopecia in Hairpatches (Hpt) mice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23301070",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Hairpatches, a single gene mutation characterized by progressive renal disease and alopecia in the mouse.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1836514",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "alopecia and renal failure"
+}

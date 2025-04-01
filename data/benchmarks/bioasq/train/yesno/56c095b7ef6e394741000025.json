@@ -1,0 +1,98 @@
+{
+  "id": "56c095b7ef6e394741000025",
+  "type": "yesno",
+  "question": "Is there an association between TERT promoter mutation and survival of glioma patients?",
+  "ideal_answer": "Yes, TERT mutation is associated with survival of glioma patients and was suggested as a bio-marker of gliomas.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25081751",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25314060",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24722048",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24937153",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26061753"
+  ],
+  "snippets": [
+    {
+      "text": "Mutations lead to TERT upregulation and are associated with aggressive clinical behavior in glioblastomas.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25081751",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Kaplan-Meier's survival analysis showed that TERT promoter mutation (P=0.037), Isocitrate dehydrogenase (IDH) mutation (P<0.001), and 1p/19q codeletion (P<0.001) were associated with favorable overall survival (OS). In the subset of 116 IDH-mutated lower-grade gliomas lacking 1p/19q codeletion, 19 TERT promoter-mutated tumors exhibited longer progression-free survival (PFS) (P=0.027) and OS (P=0.004). Consistent with this observation, in the subset of 97 IDH-mutated astrocytomas, 14 TERT promoter-mutated tumors showed longer PFS (P=0.001) and OS (P=0.001). In contrast, among the subset of 74 IDH wild-type lower-grade gliomas with intact 1p/19q, TERT promoter mutation was associated with shorter PFS (P=0.001) and OS (P=0.001). Similarly, in the subset of 65 IDH wild-type astrocytomas, 16 TERT promoter-mutated tumors exhibited unfavorable PFS (P=0.007) and OS (P=0.008). Our results indicate that when combined with IDH status, TERT promoter mutation contributes to prognostic subgroups of lower-grade astrocytic tumors or 1p/19q intact lower-grade gliomas and this may further refine future molecular classification of lower-grade gliomas.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25081751",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS: TERTp-mut identified in 60.8% of gliomas (491 out of 807) was globally associated with poorer outcome (Hazard ratio (HR)=1.50). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25314060",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TERT promoter mutations lead to high transcriptional activity under hypoxia and temozolomide treatment and predict poor prognosis in gliomas.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24937153",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Patients with TERT promoter mutations had lower survival rates, even after adjusting for other known or potential risk factors, and the incidence of mutation was correlated with patient age.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24937153",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TERT promoter mutations maintained its ability of inducing high transcriptional activity even under hypoxic and TMZ treatment conditions, and the presence of mutations was associated with poor prognosis in glioma patients. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24937153",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Patients whose Grade III-IV gliomas exhibit TERT promoter mutations alone predominately have primary GBMs associated with poor median OS (11.5 months). Patients whose Grade III-IV gliomas exhibit IDH1/2 mutations alone predominately have astrocytic morphologies and exhibit a median OS of 57 months while patients whose tumors exhibit both TERT promoter and IDH1/2 mutations predominately exhibit oligodendroglial morphologies and exhibit median OS of 125 months.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24722048",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Patients with TERT promoter mutations had lower survival rates, even after adjusting for other known or potential risk factors, and the incidence of mutation was correlated with patient age.CONCLUSION: TERT promoter mutations were specific to gliomas. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24937153",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We defined, based on TERTp-mut and IDH mutation status, four prognostic groups: (1) TERTp-mut and IDH-mut associated with 1p19q codeletion, overall survival (OS)>17 years; (2) TERTp-wt and IDH-mut, associated with TP53 mutation, OS=97.5 months; (3) TERTp-wt and IDH-wt, with no specific association, OS=31.6 months; (4) TERTp-mut and IDH-wt, associated with EGFR amplification, OS=15.4 months. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25314060",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mutations lead to TERT upregulation and are associated with aggressive clinical behavior in glioblastomas. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25081751",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the subset of 116 IDH-mutated lower-grade gliomas lacking 1p/19q codeletion, 19 TERT promoter-mutated tumors exhibited longer progression-free survival (PFS) (P=0.027) and OS (P=0.004). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25081751",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mean age at diagnosis was lowest (37 years) among patients who had gliomas with only IDH mutations and was highest (59 years) among patients who had gliomas with only TERT mutations. The molecular groups were independently associated with overall survival among patients with grade II or III gliomas but not among patients with grade IV gliomas.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26061753",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mutations were detected in gliomas, but not in meningiomas, pituitary adenomas, cavernomas, intracranial metastases, normal brain tissues, or peripheral blood of glioma patients. Patients with TERT promoter mutations had lower survival rates, even after adjusting for other known or potential risk factors, and the incidence of mutation was correlated with patient age.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24937153",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009154",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005910"
+  ],
+  "exact_answer": "Yes"
+}

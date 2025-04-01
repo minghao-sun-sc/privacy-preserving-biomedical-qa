@@ -1,0 +1,33 @@
+{
+  "document_id": "record_02516",
+  "original_length": 1334,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- No evidence for torsion.\n- Large, complex cystic left ovarian mass as described.  This could represent a large hemorrhagic cyst; however, an abscess/neoplasm cannot be excluded.  Recommend eithe...",
+    "Symptoms": "",
+    "Treatment": "Transvaginal ultrasound to evaluate pelvic pain. Ultrasound - Transvaginal",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Large, complex cystic left ovarian mass as describ...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

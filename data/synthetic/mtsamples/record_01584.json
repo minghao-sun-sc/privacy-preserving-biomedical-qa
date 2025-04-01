@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01584",
+  "original_length": 2206,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", C-spine lesion.,COURSE: ,MRI C-spine revealed a central C5-6 disk herniation with compression of the spinal cord at that level. EMG/NCV showed normal NCV, but 1+ sharps and fibrillations in the r...",
+    "Symptoms": "",
+    "Treatment": "tar responses were flexor bilaterally. Rectal exam: normal tone.,IMPRESSION:, C-spine lesion.,COURSE: ,MRI C-spine revealed a central C5-6 disk herniation with compression of the spinal cord at tha...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: US_DRIVER_LICENSE",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',COURSE: ,MRI C-spine revealed a central C5-6 disk...'"
+      ],
+      "pii_detected": [
+        "US_DRIVER_LICENSE"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

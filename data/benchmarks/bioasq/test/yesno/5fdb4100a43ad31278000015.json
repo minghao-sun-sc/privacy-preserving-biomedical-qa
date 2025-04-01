@@ -1,0 +1,87 @@
+{
+  "id": "5fdb4100a43ad31278000015",
+  "type": "yesno",
+  "question": "Is Mediator present at super enhancers?",
+  "ideal_answer": "Yes. Super enhancers are clusters of enhancers that are densely occupied by the master regulator and mediator.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27376235",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28839111",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25263550",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23582322",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23582323",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26416749",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25547603",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25955728",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28978570"
+  ],
+  "snippets": [
+    {
+      "text": "BRD4 and Mediator were found to co-occupy thousands of enhancers associated with active genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23582323",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Master transcription factors and mediator establish super-enhancers at key cell identity genes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23582322",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Master transcription factors Oct4, Sox2, and Nanog bind enhancer elements and recruit Mediator to activate much of the gene expression program of pluripotent embryonic stem cells (ESCs).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23582322",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These domains, which we call super-enhancers, consist of clusters of enhancers that are densely occupied by the master regulators and Mediator",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23582322",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BRD4 maintains transcription of core stem cell genes such as OCT4 and PRDM14 by occupying their super-enhancers (SEs), large clusters of regulatory elements, and recruiting to them Mediator and CDK9, the catalytic subunit of the positive transcription elongation factor b (P-TEFb), to allow Pol-II-dependent productive elongation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25263550",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The term 'super-enhancer' has been used to describe groups of putative enhancers in close genomic proximity with unusually high levels of Mediator binding, as measured by chromatin immunoprecipitation and sequencing (ChIP-seq).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25547603",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mediator kinase inhibition further activates super-enhancer-associated genes in AML.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26416749",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Furthermore, the binding of SIM2 marks a particular sub-category of enhancers known as super-enhancers. These regions are characterized by typical DNA modifications and Mediator co-occupancy (MED1 and MED12). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25955728",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Many genes determining cell identity are regulated by clusters of Mediator-bound enhancer elements collectively referred to as super-enhancers. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27376235",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A number of studies have recently demonstrated that super-enhancers, which are large cluster of enhancers typically marked by a high level of acetylation of histone H3 lysine 27 and mediator bindings, are frequently associated with genes that control and define cell identity during normal development. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28978570",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Super-enhancers are characterized by high levels of Mediator binding and are major contributors to the expression of their associated genes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28839111",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

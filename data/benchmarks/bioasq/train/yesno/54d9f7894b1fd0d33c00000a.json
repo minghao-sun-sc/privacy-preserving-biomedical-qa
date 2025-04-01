@@ -1,0 +1,92 @@
+{
+  "id": "54d9f7894b1fd0d33c00000a",
+  "type": "yesno",
+  "question": "Is DNA methylation an epigenetic modification of chromatin related to gene expression?",
+  "ideal_answer": "Epigenetic changes such as DNA methylation alter gene expression at the level of transcription by upregulating, downregulating, or silencing genes completely.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25512710",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25514241",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25534027",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22359296",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22078060",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25437055",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25531272",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22922032",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23604474",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22992936"
+  ],
+  "snippets": [
+    {
+      "text": "DNA methylation is a chemical modification of DNA involved in the regulation of gene expression by controlling the access to the DNA sequence. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25531272",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Epigenetic marks such as DNA methylation play important biological roles in gene expression regulation and cellular differentiation during development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25534027",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA methylation patterns are characterized by highly conserved developmental programs, but allow for divergent gene expression resulting from stochastic epigenetic drift or divergent environments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25437055",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA methylation plays a critical role in the regulation of gene expression. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25514241",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Epigenetic changes such as DNA methylation and histone methylation and acetylation alter gene expression at the level of transcription by upregulating, downregulating, or silencing genes completely.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25512710",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dysregulation of epigenetic events can be pathological, leading to cardiovascular disease, neurological disorders, metabolic disorders, and cancer development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25512710",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA methylation is a pervasive epigenetic DNA modification that strongly affects chromatin regulation and gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22922032",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Epigenetic control, which includes DNA methylation and histone modifications, leads to chromatin remodeling and regulated gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23604474",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Epigenetic modifications on the DNA sequence (DNA methylation) or on chromatin-associated proteins (i.e., histones) comprise the \"cellular epigenome\"; together these modifications play an important role in the regulation of gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22992936",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Epigenetics is a process involved in gene regulation, mediated via DNA methylation, histone modification, chromatin remodeling, and functional noncoding RNAs, which influences the accessibility of the underlying DNA to transcriptional regulatory factors that activate or repress expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22359296",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Significant progress has been made in the basic understanding of how various epigenetic changes such as DNA methylation, histone modification, miRNA expression, and higher order chromatin structure affect gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22078060",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010467",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006306",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0000785"
+  ],
+  "exact_answer": "Yes"
+}

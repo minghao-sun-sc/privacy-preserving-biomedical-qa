@@ -1,0 +1,35 @@
+{
+  "document_id": "record_01824",
+  "original_length": 1380,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "of her nails.  The patient has last seen primary in December 2006.,PRIMARY MEDICAL HISTORY: , Edema, venous insufficiency, schizophrenia, and anemia.,ALLERGIES: , THE PATIENT HAS NO KNOWN ALLERGIES...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

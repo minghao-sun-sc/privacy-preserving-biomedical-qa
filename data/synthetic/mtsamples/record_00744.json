@@ -1,0 +1,36 @@
+{
+  "document_id": "record_00744",
+  "original_length": 6126,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Successful percutaneous transluminal angioplasty and stent placement of the right coronary artery.\n- Two-vessel coronary artery disease.\n- Elevated left ventricular end-diastolic pressure.\n- Mil...",
+    "Symptoms": "",
+    "Treatment": "\n- Left heart catheterization with left ventriculography and selective coronary angiography.\n- Percutaneous transluminal coronary angioplasty and stent placement of the right coronary artery.,HISTO...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: LOCATION",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Percutaneous transluminal coronary angioplasty and...'"
+      ],
+      "pii_detected": [
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

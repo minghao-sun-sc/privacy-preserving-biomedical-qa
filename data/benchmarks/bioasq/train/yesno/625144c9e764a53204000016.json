@@ -1,0 +1,53 @@
+{
+  "id": "625144c9e764a53204000016",
+  "type": "yesno",
+  "question": "Is neurofilament light marker for disease?",
+  "ideal_answer": "Yes,\nSerum neurofilament light chain (sNfL) is a marker of neuroaxonal injury leading to numerous diseases such as frontotemporal dementia (FTD) and Multiple sclerosis (MS).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34375485",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32255388",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31961243",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34602928",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32306372"
+  ],
+  "snippets": [
+    {
+      "text": "sNfL levels during the first demyelinating event of MS are associated with greater impairment of BBB integrity, immune cell extravasation, and brain lesion activity on MRI.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32255388",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Neurofilament light chain (NfL) has recently been proposed as a promising biomarker in frontotemporal dementia (FTD). We investigated the correlation of both cerebrospinal fluid (CSF) and serum NfL with detailed neuropsychological data and cognitive decline in a cohort of sporadic and familial FTD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34375485",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Neurofilament light chain has a potential role in differentiating patients with frontotemporal dementia from healthy controls, patients with Alzheimer's dementia, and psychiatric disorders. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32306372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Serum neurofilament light chain (sNfL) is a marker of neuroaxonal injury.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31961243",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "sNfL is associated with ongoing neuroinflammation and predictive of future neurodegeneration in early MS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31961243",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Neurofilament light chain (NfL) is a relatively new biomarker for MS diagnosis and follow up. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34602928",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

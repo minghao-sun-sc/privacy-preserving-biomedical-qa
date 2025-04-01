@@ -1,0 +1,39 @@
+{
+  "document_id": "record_03329",
+  "original_length": 4045,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "AND PLAN:, [person] is a 59-year-old gravida 1, para 0-0-1-0 with stage IIIC papillary serous adenocarcinoma of the ovary. She is postop day 21 of an exploratory laparotomy with ovarian cancer st...",
+    "Symptoms": "",
+    "Treatment": ", [person] is a 59-year-old gravida 1, para 0-0-1-0 with stage IIIC papillary serous adenocarcinoma of the ovary. She is postop day 21 of an exploratory laparotomy with ovarian cancer staging. Sh...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Lovenox 1 mg, Coumadin 5 mg, Aranesp 200 mcg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: US_DRIVER_LICENSE, DATE_TIME, PERSON, URL, LOCATION"
+      ],
+      "pii_detected": [
+        "US_DRIVER_LICENSE",
+        "DATE_TIME",
+        "PERSON",
+        "URL",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

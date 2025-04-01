@@ -1,0 +1,69 @@
+{
+  "id": "533eb89fc45e133714000012",
+  "type": "yesno",
+  "question": "Does the concentration of protein HIF-1\u03b1 increase after the administration of the cytoprotective prodrug\"amifostine\" (ethyol) ?",
+  "ideal_answer": "The key-protein that when associated with HREs leads to the activation of all of these genes, is identified as\u201cHypoxia Inducible Factor-1\u201d (HIF1). It is a heterodimer composed of two subunits (IIF1a 120kDa and HIF-1b 91-94kDa), both of which belong to the group of \"basic helix-loop-helix\" (bHLH)-Pas proteins. The heterodimer HIF1 and IIF2 increase in the cytoplasm of cells exposed to hypoxia.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17852557",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24147016",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20334641",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19478935",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21875443",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21452059",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14574457"
+  ],
+  "snippets": [
+    {
+      "text": "We demonstrated that the treatment of several human cancer cell lines with therapeutical doses of WR-1065 led to a strong induction of different VEGF-A mRNA isoforms independently of HIF-1alpha",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20334641",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "e investigated the involvement of hypoxia-regulated proteins (Hypoxia inducible factors HIF1alpha, HIF2alpha and carbonic anhydrase CA9) in HNC resistance to accelerated and hypofractionated radiotherapy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17852557",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In accord with previously reported studies, high levels of the hypoxia regulated proteins HIF1alpha and CA9 in HNC predict resistance to platinum based radio-chemotherapy. Whether HIF2alpha expressing tumors are more sensitive to larger radiotherapy fractions, compared to standard radiotherapy fractionation, is an issue that deserves further investigation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17852557",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "HIF1alpha and HIF2alpha were expressed in the nuclei and cytoplasm of cancer cells, while CA9 had a membrane reactivity. A high expression of HIF1alpha, HIF2alpha and CA9 was noted in 21/39 (53.8%), 20/39 (51.3%) and 23/39 (58.9%) cases, respectively. Complete response was obtained in 85.2% of patients and HIF1alpha was marginally related with persistent disease after RT (p = 0.05). HIF1alpha was significantly associated with poor local relapse free survival (LRFS) (p = 0.006) and overall survival (p = 0.008), whilst HIF2alpha was no",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17852557",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The glucose and oxygen levels in the peripheral blood of patients receiving 1000 mg amifostine were determined at various time-points in order to investigate the metabolic changes induced by amifostine. MDA468 breast tumor cell lines were incubated with a high amifostine concentration (10 m M) to overcome the natural resistance of cancer cells to influx of the non-hydrolyzed WR-2721, and the HIF1 alpha protein levels were determined by Western blot analysis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14574457",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Since it is doubtful whether dephosphorylation of amifostine to the active metabolite WR-1065 occurs within tumoral tissues (an acidic environment that lacks vascular alkaline phosphatase activity), intracellular hypoxia and upregulation of HIF1 alpha represents an additional, normal tissue-specific, amifostine cytoprotective pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14574457",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ". Incubation of cell lines with amifostine resulted in HIF1 alpha induction",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14574457",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/HIF1A_BOSMU",
+    "http://www.biosemantics.org/jochem#4217067",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011355",
+    "http://www.biosemantics.org/jochem#4277891",
+    "http://www.uniprot.org/uniprot/HIF1A_EOSBA",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004999",
+    "http://www.uniprot.org/uniprot/HIF1A_ONCMY"
+  ],
+  "exact_answer": "Yes"
+}

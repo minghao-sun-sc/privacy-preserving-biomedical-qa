@@ -1,0 +1,26 @@
+{
+  "id": "5e67bc121af46fc13000001c",
+  "type": "yesno",
+  "question": "Are Spinal Intradural Primary Malignant Peripheral Nerve Sheath Tumors(MPNST) rare in neurofibromatosis patients?",
+  "ideal_answer": "Spinal intradural primary malignant peripheral nerve sheath tumors (MPNST) are rare in patients without neurofibromatosis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27593814",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24926928"
+  ],
+  "snippets": [
+    {
+      "text": "Spinal intradural primary malignant peripheral nerve sheath tumors (MPNST) are rare in patients without neurofibromatosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27593814",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Primary malignant peripheral nerve sheath tumors (MPNSTs) are extremely rare in patients without a history of neurofibromatosis; only 18 cases have been reported in the English-language literature to this point.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24926928",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "535d35779a4572de6f000005",
+  "type": "factoid",
+  "question": "What is the proportion of non canonical splice sites in the human genome?",
+  "ideal_answer": "Between 1% and 2% of human splice sites do not contain the canonical GT-AG dinucleotides",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11125105",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11058137"
+  ],
+  "snippets": [
+    {
+      "text": "Of these, 98.71% contain canonical GT-AG junctions (22 199 entries) and 0.56% have non-canonical GC-AG splice site pairs. The remainder (0.73%) occurs in a lot of small groups (with a maximum size of 0.05%).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11125105",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Of these, 98.71% contain canonical dinucleotides GT and AG for donor and acceptor sites, respectively; 0.56% hold non-canonical GC-AG splice site pairs; and the remaining 0.73% occurs in a lot of small groups (with a maximum size of 0.05%). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11058137",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012326",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015894",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004274",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019154"
+  ],
+  "exact_answer": "Between 1% and 2% "
+}

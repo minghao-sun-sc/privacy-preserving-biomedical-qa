@@ -1,0 +1,77 @@
+{
+  "id": "5544de7a5beec11c10000005",
+  "type": "factoid",
+  "question": "In which phase of cell cycle does  stress-induced transcription-associated mutagenesis (TAM) occur?",
+  "ideal_answer": "Factors involved in RNA polymerase (RNAP) processivity or transcriptional derepression, such as Mfd (transcription coupling repair factor), contribute to the generation of stress-induced mutations. Under stress, transcription-associated mutagenesis is increased. Stress-induced transcription-associated mutations are acquired by nondividing cells, during stationary phase, and are not observed under conditions of exponential growth.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16950921",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22201950",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20435731",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20479947",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20036541"
+  ],
+  "snippets": [
+    {
+      "text": "factors involved in RNA polymerase (RNAP) processivity or transcriptional derepression contribute to the generation of stress-induced mutations. In Bacillus subtilis, transcription-associated mutagenesis has been shown to be independent of recombination-dependent repair and, in some cases, of the Y DNA polymerases. Central to stationary-phase mutagenesis in B. subtilis is the requirement for Mfd, transcription coupling repair factor",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22201950",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Adaptive (stationary phase) mutagenesis is a phenomenon by which nondividing cells acquire beneficial mutations as a response to stress.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20435731",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the level of Leu(+) reversions increased significantly in parallel with the induced increase in transcription levels. This mutagenic response was not observed under conditions of exponential growth. Since transcription is a ubiquitous biological process, transcription-associated mutagenesis may influence evolutionary processes in all organisms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20435731",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription-associated mutation in Bacillus subtilis cells under stress.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20435731",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Transcription-associated mutagenesis is increased under stress and depends on the DNA sequence.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20479947",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nonrandom transcription-associated mutagenesis under stress should improve the survival of E.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20479947",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription-associated mutagenesis is increased under stress and depends on the DNA sequence.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20479947",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Stress-induced mutagenesis describes the accumulation of mutations that occur in nongrowing cells, in contrast to mutagenesis that occurs in actively dividing populations, and has been referred to as stationary-phase or adaptive mutagenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20036541",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Central to stationary-phase mutagenesis in B",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22201950",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0007049",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006351",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0022403",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0000115",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0090418"
+  ],
+  "exact_answer": "stationary phase"
+}

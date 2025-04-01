@@ -1,0 +1,62 @@
+{
+  "id": "553d061cf321868558000013",
+  "type": "list",
+  "question": "List available databases containing information about conserved noncoding elements.",
+  "ideal_answer": "Ancora and TFCONES.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18279518",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18045502"
+  ],
+  "snippets": [
+    {
+      "text": "Ancora: a web resource for exploring highly conserved noncoding elements and their association with developmental regulatory genes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18279518",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " We describe Ancora http://ancora.genereg.net, a web resource that provides data and tools for exploring genomic organization of HCNEs for multiple genomes. Ancora includes a genome browser that shows HCNE locations and features novel HCNE density plots as a powerful tool to discover developmental regulatory genes and distinguish their regulatory elements and domains",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18279518",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TFCONES: a database of vertebrate transcription factor-encoding genes and their associated conserved noncoding elements",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18045502",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " We have created a database named TFCONES (Transcription Factor Genes & Associated COnserved Noncoding ElementS) (http://tfcones.fugu-sg.org) which contains all human, mouse and fugu TF-encoding genes and conserved noncoding elements (CNEs) associated with them",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18045502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The conserved noncoding elements identified in TFCONES represent a catalog of highly prioritized putative cis-regulatory elements of TF-encoding genes and are candidates for functional assay.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18045502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TFCONES: a database of vertebrate transcription factor-encoding genes and their associated conserved noncoding elements.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18045502",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We have created a database named TFCONES (Transcription Factor Genes & Associated COnserved Noncoding ElementS) (http://tfcones.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18045502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We have created a database named TFCONES (Transcription Factor Genes & Associated COnserved Noncoding ElementS) (http://tfcones.fugu-sg.org) which contains all human, mouse and fugu TF-encoding genes and conserved noncoding elements (CNEs) associated with them",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18045502",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Ancora, TFCONES"
+}

@@ -1,0 +1,140 @@
+{
+  "id": "533c384dc45e133714000006",
+  "type": "list",
+  "question": "In which genomic positions is the histone variant macroH2A enriched?",
+  "ideal_answer": "macroH2A1 is enriched on the inactive X chromosome in female mammalian cells, where it functions to maintain gene silencing. The transcribed regions of most active genes are depleted of macroH2A, often in sharply localized domains that show depletion of 4-fold or more relative to bulk mouse liver chromatin. This repressor activity of marcroH2A is further supported by the substantial and relatively uniform macroH2A1 enrichment along the inactive X chromosome, which averages 4-fold. In addition to localizing to the MCB, macroH2A accumulates at a perinuclear structure centered at the centrosome",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16738309",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16213499",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20670405",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14608463",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20937776",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12082075",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17570398",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18195046",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18936163"
+  ],
+  "snippets": [
+    {
+      "text": "Although macroH2A1 nucleosomes are widely distributed across the genome, their local concentration varies over a range of 100-fold or more",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20937776",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The transcribed regions of most active genes are depleted of macroH2A1, often in sharply localized domains that show depletion of 4-fold or more relative to bulk mouse liver chromatin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20937776",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This repressor activity is further supported by the substantial and relatively uniform macroH2A1 enrichment along the inactive X chromosome, which averages 4-fold",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20937776",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mH2A1 consistently colocalizes with a heterochromatin marker (H3K27me2; histone H3 trimethylated at lysine 27) and mH2A2 with a euchromatin marker (H3K4me3; histone H3 trimethylated at lysine 4)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20670405",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Similar results were found for the L41gene, with enrichment of mH2A in the promoter region.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20670405",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "By using highly specific antibodies against mH2A1 and stable HEK 293 cell lines expressing either green fluorescent protein (GFP)-mH2A1 or GFP-H2A, we found that the Xi chromosome contains approximately 1.5-fold more mH2A1 than the autosomes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18936163",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The data show that mH2A1 is uniformly distributed across the entire Xi chromosome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18936163",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Interestingly, a stronger mH2A1 enrichment along the pseudoautosomal X chromosome region was observed in both sexes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18936163",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "macroH2A1 nucleosomes were enriched on endogenous MLVs, with the highest enrichment occurring on the 5' end of pro-pol",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18195046",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "macroH2A1 is enriched on the inactive X chromosome in female mammalian cells, where it functions to maintain gene silencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17570398",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We found that macroH2A1 was depleted on the transcribed regions of active genes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16738309",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In contrast, macroH2A1 was concentrated on the inactive X chromosome, consistent with our previous immunofluorescence studies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16738309",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results support the hypothesis that macroH2As function as transcriptional repressors",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16738309",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Taking into account the properties of macroH2A toward chromatin structure and dynamics and its role in gene repression our data suggest that the increased expression of macroH2A and the hypermethylation of DNA which occurs upon winter-acclimatization plays a major role for the reorganization of chromatin structure and the regulation of gene expression during the physiological adaptation to a colder environment",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16213499",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Inactivation is a multistep process that involves a large non-coding RNA termed XIST, a variety of epigenetic modifications of chromatin, and alterations in protein composition such as enrichment of the histone variant macroH2A",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14608463",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "One of several features acquired by chromatin of the inactive X chromosome (Xi) is enrichment for the core histone H2A variant macroH2A within a distinct nuclear structure referred to as a macrochromatin body (MCB)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12082075",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition to localizing to the MCB, macroH2A accumulates at a perinuclear structure centered at the centrosome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12082075",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The centrosomal pool of macroH2A1 accumulates in the presence of an inhibitor of the 20S proteasome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12082075",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although the MCB dissipates during late S phase and G2 before reforming in late G1, macroH2A1 remains associated during mitosis with specific regions of the Xi, including at the X inactivation center",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12082075",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006657",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016678",
+    "http://www.biosemantics.org/jochem#4278518",
+    "http://www.uniprot.org/uniprot/H2AW_MOUSE"
+  ],
+  "exact_answer": "Repressed regions, Inactive X chromosome, Centromeres"
+}

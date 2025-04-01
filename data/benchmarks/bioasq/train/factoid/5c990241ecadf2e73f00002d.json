@@ -1,0 +1,26 @@
+{
+  "id": "5c990241ecadf2e73f00002d",
+  "type": "factoid",
+  "question": "What is the function of the transcriptional co-activator p300?",
+  "ideal_answer": "The transcriptional co-activator p300 is a histone acetyltransferase (HAT) that is typically recruited to transcriptional enhancers and regulates gene expression by acetylating chromatin.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23211718",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30323286"
+  ],
+  "snippets": [
+    {
+      "text": "The transcriptional co-activator p300 is a histone acetyltransferase (HAT) that is typically recruited to transcriptional enhancers and regulates gene expression by acetylating chromatin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30323286",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "p300, a transcriptional co-activator with histone acetyl transferase (HAT) activity, plays an essential role in the pathogenesis of cardiomyocyte hypertrophy in response to multiple pro-hypertrophic stimuli including hyperglycemia. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23211718",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "histone acetyltransferase"
+}

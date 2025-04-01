@@ -1,0 +1,44 @@
+{
+  "id": "535d3c069a4572de6f000006",
+  "type": "factoid",
+  "question": "What is the number of protein coding genes in the human genome?",
+  "ideal_answer": "The number of protein coding genes in the human genome is currently estimated between 20,000 and 25,000",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18040051",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15034132",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20175080",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22955987"
+  ],
+  "snippets": [
+    {
+      "text": "Here, seven membrane protein topology prediction methods based on different underlying algorithms, such as hidden Markov models, neural networks and support vector machines, have been used for analysis of the protein sequences from the 21,416 annotated genes in the human genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20175080",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "he GENCODE 7 release contains 20,687 protein-coding and 9640 long noncoding RNA loci and has 33,977 coding transcripts not represented in UCSC genes and RefSeq",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22955987",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Current catalogs list a total of approximately 24,500 putative protein-coding genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18040051",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Clustering of these sequences using cross-species relationships suggests that millions of expressed sequences may correspond to only approximately 20,000 distinct protein-coding transcripts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15034132",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016366",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011506",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005796"
+  ],
+  "exact_answer": "Between 20,000 and 25,000"
+}

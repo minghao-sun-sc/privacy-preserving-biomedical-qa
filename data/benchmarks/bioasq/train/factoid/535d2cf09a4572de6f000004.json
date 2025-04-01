@@ -1,0 +1,36 @@
+{
+  "id": "535d2cf09a4572de6f000004",
+  "type": "factoid",
+  "question": "What is the number of long non coding RNAs in the human genome",
+  "ideal_answer": "Different estimates put currently the number of human long non coding RNAs between 10,000 and 20,000",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23126680",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23846593",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23369519"
+  ],
+  "snippets": [
+    {
+      "text": "The recent ENCODE (Encyclopedia of DNA Elements) study reported 9,640 lncRNA loci in the human genome, which corresponds to around half the number of protein-coding genes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23126680",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Over 18,000 transcripts are presently annotated as lncRNA, and encompass previously annotated classes of noncoding transcripts including large intergenic noncoding RNA, antisense RNA and processed pseudogenes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23846593",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND: Over 10,000 long intergenic non-coding RNAs (lincRNAs) have been identified in the human genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23369519",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015894",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D062085"
+  ],
+  "exact_answer": "between 10,000 and 20,000"
+}

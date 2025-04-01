@@ -1,0 +1,38 @@
+{
+  "document_id": "record_04505",
+  "original_length": 2197,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "AND PLAN:  ,The patient is suffering from multilevel lumbar internal disc disruption as well as an element of lumbar facet joint syndrome.  Her lumbar facet joints were denervated approximately 6 m...",
+    "Symptoms": "",
+    "Treatment": "helped her axial back pain approximately 40% when standing.  With extension and rotation it helped her axial back pain approximately 70%.  She is now able to swing a golf club.  She was unable to s...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "diclofenac 75 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, DATE_TIME, US_DRIVER_LICENSE, PERSON"
+      ],
+      "pii_detected": [
+        "URL",
+        "DATE_TIME",
+        "US_DRIVER_LICENSE",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

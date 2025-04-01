@@ -1,0 +1,25 @@
+{
+  "id": "61f86c03882a024a10000044",
+  "type": "factoid",
+  "question": "Which disease is caused by repeat expansion in VWA1?",
+  "ideal_answer": "An ancestral 10-bp repeat expansion in VWA1 causes recessive hereditary motor neuropathy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33559681"
+  ],
+  "snippets": [
+    {
+      "text": "An ancestral 10-bp repeat expansion in VWA1 causes recessive hereditary motor neuropathy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33559681",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In summary, we estimate that biallelic variants in VWA1 may be responsible for up to 1% of unexplained hereditary motor neuropathy cases in Europeans. The detailed clinical characterization provided here will facilitate targeted testing on suitable patient cohorts. This novel disease gene may have previously evaded detection because of high GC content, consequential low coverage and computational difficulties associated with robustly detecting repeat-expansions. Reviewing previously unsolved exomes using lower QC filters may generate further diagnoses.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33559681",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Recessive hereditary motor neuropathy"
+}

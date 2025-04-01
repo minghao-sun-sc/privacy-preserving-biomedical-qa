@@ -1,0 +1,64 @@
+{
+  "id": "5321bb019b2d7acc7e00000b",
+  "type": "yesno",
+  "question": "Is low T3 syndrome related with high BNP in cardiac patients?",
+  "ideal_answer": "BNP and fT3 are independently associated in severely compromised HF patients.\nNT-pro-BNP was significantly associated with low-T3 syndrome in cardiac patients.\nHigher NT-pro BNP concentrations are related to lower total T3 concentrations in cardiac patients",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/14678288",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18073483",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17375888",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16649727",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18620103",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18729306",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17646607",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12655635",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22870736",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8345811",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20492497",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18949097",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19423177",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12578873",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19181292",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17635576",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20888651",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16952785",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19221174",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19778808"
+  ],
+  "snippets": [
+    {
+      "text": "BNP and fT3 are independently associated with exercise capacity in severely compromised HF patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20888651",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "fter adjustment for known confounders, NT-pro-BNP was significantly associated with fT3 and low-T3 syndrome. fT3 (HR 0.58, 95%CI 0.34-0.98) and low-T3 syndrome (HR 3.0, 95%CI 1.4-6.3) were predictive for mortality after adjustment for NT-pro-BNP levels and other cardiovascular prognostic variables.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19423177",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "fT3 and low-T3 syndrome are significantly related to NT-pro-BNP in patients with cardiovascular disease, but are predictors of mortality independently of NT-pro-BNP and other known cardiovascular risk parameters.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19423177",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Higher NT-pro BNP concentrations were related to lower total T3 concentrations (r = -0.294, p = 0.011) and to higher reverse T3 concentrations (r = 0.353, p = 0.002)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16649727",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/ANFB_OREMO",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005067",
+    "http://www.disease-ontology.org/api/metadata/DOID:2856",
+    "http://www.disease-ontology.org/api/metadata/DOID:1287",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006331",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011988",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020097"
+  ],
+  "exact_answer": "Yes"
+}

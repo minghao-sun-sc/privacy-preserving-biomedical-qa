@@ -1,0 +1,69 @@
+{
+  "id": "56c44ce83aaba2a675000001",
+  "type": "yesno",
+  "question": "Are there transposon-free regions in mammalian genomes?",
+  "ideal_answer": "Yes. Despite the presence of over 3 million transposons separated on average by approximately 500 bp, the human and mouse genomes each contain almost 1000 transposon-free regions (TFRs) over 10 kb in length. The majority of human TFRs correlate with orthologous TFRs in the mouse, despite the fact that most transposons are lineage specific. Many human TFRs also overlap with orthologous TFRs in the marsupial opossum, indicating that these regions have remained refractory to transposon insertion for long evolutionary periods. Over 90% of the bases covered by TFRs are noncoding, much of which is not highly conserved. Most TFRs are not associated with unusual nucleotide composition, but are significantly associated with genes encoding developmental regulators, suggesting that they represent extended regions of regulatory information that are largely unable to tolerate insertions, a conclusion difficult to reconcile with current conceptions of gene regulation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18093339",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16365385",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21515576"
+  ],
+  "snippets": [
+    {
+      "text": "Transposon-free regions in mammalian genomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16365385",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Despite the presence of over 3 million transposons separated on average by approximately 500 bp, the human and mouse genomes each contain almost 1000 transposon-free regions (TFRs) over 10 kb in length. The majority of human TFRs correlate with orthologous TFRs in the mouse, despite the fact that most transposons are lineage specific. Many human TFRs also overlap with orthologous TFRs in the marsupial opossum, indicating that these regions have remained refractory to transposon insertion for long evolutionary periods. Over 90% of the bases covered by TFRs are noncoding, much of which is not highly conserved. Most TFRs are not associated with unusual nucleotide composition, but are significantly associated with genes encoding developmental regulators, suggesting that they represent extended regions of regulatory information that are largely unable to tolerate insertions, a conclusion difficult to reconcile with current conceptions of gene regulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16365385",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "All three elements insert only rarely within many Polycomb-regulated regions, a property that may contribute to the origin of \"transposon-free regions\" (TFRs) in metazoan genomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21515576",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Despite the presence of over 3 million transposons separated on average by approximately 500 bp, the human and mouse genomes each contain almost 1000 transposon-free regions (TFRs) over 10 kb in length.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16365385",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS: Here we report that transposon-free regions (TFRs) are prominent genomic features of amphibian and fish lineages, and that many have been maintained throughout vertebrate evolution, although most transposon-derived sequences have entered these lineages after their divergence. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18093339",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Despite the presence of over 3 million transposons separated on average by approximately 500 bp, the human and mouse genomes each contain almost 1000 transposon-free regions (TFRs) over 10 kb in length. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16365385",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "All three elements insert only rarely within many Polycomb-regulated regions, a property that may contribute to the origin of \"transposon-free regions\" (TFRs) in metazoan genomes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21515576",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Despite the presence of over 3 million transposons separated on average by approximately 500 bp, the human and mouse genomes each contain almost 1000 transposon-free regions (TFRs) over 10 kb in length.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16365385",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we report that transposon-free regions (TFRs) are prominent genomic features of amphibian and fish lineages, and that many have been maintained throughout vertebrate evolution, although most transposon-derived sequences have entered these lineages after their divergence.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18093339",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

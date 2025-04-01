@@ -1,0 +1,114 @@
+{
+  "id": "58caf86f02b8c60953000030",
+  "type": "yesno",
+  "question": "Does Yersinia pestis causes a respiratory infection?",
+  "ideal_answer": "Inhalation of Yersinia pestis results in primary pneumonic plague.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17041851",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19629028",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16239527",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21859946",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26123398",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25928467",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25974210",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16714568",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26463167",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12474416",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16964684",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24721571",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25691593"
+  ],
+  "snippets": [
+    {
+      "text": "Inhalation of Yersinia pestis results in primary pneumonic plague, a highly lethal and rapidly progressing necrotizing pneumonia",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25691593",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Yersinia pestis causes the fatal respiratory disease pneumonic plague.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26123398",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pulmonary infection by Yersinia pestis causes pneumonic plague, a rapidly progressing and often fatal disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16714568",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pulmonary infection with the bacterium Yersinia pestis causes pneumonic plague, an often-fatal disease for which no vaccine is presently available.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16239527",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Yersinia pestis causes the fatal respiratory disease pneumonic plague",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26123398",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pneumonic plague is a deadly respiratory disease caused by Yersinia pestis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24721571",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "On July 8, 2014, the Colorado Department of Public Health and Environment (CDPHE) laboratory identified Yersinia pestis, the bacterium that causes plague, in a blood specimen collected from a man (patient A) hospitalized with pneumonia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25928467",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Early emergence of Yersinia pestis as a severe respiratory pathogen.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26123398",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The aerosol form of the bacterium Yersinia pestis causes the pneumonic plague, a rapidly fatal disease",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17041851",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " plague bacterium, Yersinia pestis, has historically been regarded as one of the deadliest pathogens known to mankind, having caused three major pandemics. After being transmitted by the bite of an infected flea arthropod vector, Y. pestis can cause three forms of human plague: bubonic, septicemic, and pneumonic,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21859946",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Plague is an infectious disease caused by the Yersinia pestis microorganism, which is transmitted to the human host from a natural reservoir (different rodent species) by a flea bite. Plague is still encountered in humans in the areas of its enzootic prevalence in local rodent populations. Infection by flea bite results in a bubonic or septicemic plague, possibly complicated by secondary pneumonia. The person with pneumonic symptoms may be a source of a droplet-borne inhalatory infection for other people who consequently develop primary pneumonic plague. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12474416",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "uring pneumonic plague, the bacterium Yersinia pestis elicits the development of inflammatory lung lesions that continue to expand throughout infection. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26463167",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In November 2006, the Uganda Ministry of Health received reports of an increase in bubonic plague cases and a possible outbreak of pneumonic plague among residents in the Arua and Nebbi districts. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19629028",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pneumonic plague is a fatal disease caused by Yersinia pestis that is associated with a delayed immune response in the lungs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25974210",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015010",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015007",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050069",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015009"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "5e2f6353fbd6abf43b00002b",
+  "type": "list",
+  "question": "Which type of variants can be called by the VarDict algorithm?",
+  "ideal_answer": "VarDict is a novel and versatile variant caller for both DNA- and RNA-sequencing data. It simultaneously calls SNV, MNV, InDels, complex and structural variants, expanding the detected genetic driver landscape of tumors. It performs local realignments on the fly for more accurate allele frequency estimation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27060149"
+  ],
+  "snippets": [
+    {
+      "text": "Here we present VarDict, a novel and versatile variant caller for both DNA- and RNA-sequencing data. VarDict simultaneously calls SNV, MNV, InDels, complex and structural variants, expanding the detected genetic driver landscape of tumors. It performs local realignments on the fly for more accurate allele frequency estimation. VarDict performance scales linearly to sequencing depth, enabling ultra-deep sequencing used to explore tumor evolution or detect tumor DNA circulating in blood.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27060149",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "VarDict simultaneously calls SNV, MNV, InDels, complex and structural variants, expanding the detected genetic driver landscape of tumors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27060149",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "VarDict simultaneously calls SNV, MNV, InDels, complex and structural variants, expanding the detected genetic driver landscape of tumors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27060149",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "SNV, MNV, InDels, complex variants, structural variants"
+}

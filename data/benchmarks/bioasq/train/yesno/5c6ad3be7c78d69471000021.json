@@ -1,0 +1,49 @@
+{
+  "id": "5c6ad3be7c78d69471000021",
+  "type": "yesno",
+  "question": "Are there tools for visualizing and processing long-read sequencing data?",
+  "ideal_answer": "Yes. Tools such as NanoPack for instance have been developed for visualization and processing of long-read sequencing data from Oxford Nanopore Technologies and Pacific Biosciences.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29547981"
+  ],
+  "snippets": [
+    {
+      "text": "NanoPack: visualizing and processing long-read sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29547981",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we describe NanoPack, a set of tools developed for visualization and processing of long-read sequencing data from Oxford Nanopore Technologies and Pacific Biosciences.Availability and implementation: The NanoPack tools are written in Python3 and released under the GNU GPL3.0 License. The source code can be found at https://github.com/wdecoster/nanopack, together with links to separate scripts and their documentation. The scripts are compatible with Linux, Mac OS and the MS Windows 10 subsystem for Linux and are available as a graphical user interface, a web service at http://nanoplot.bioinf.be and command line tools.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29547981",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Summary\nHere we describe NanoPack, a set of tools developed for visualization and processing of long-read sequencing data from Oxford Nanopore Technologies and Pacific Biosciences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29547981",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "NanoPack: visualizing and processing long-read sequencing data.Supplementary data are available at Bioinformatics online.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29547981",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "<b>Summary</b>: Here we describe NanoPack, a set of tools developed for visualization and processing of long-read sequencing data from Oxford Nanopore Technologies and Pacific Biosciences.<br><b>Availability and implementation</b>: The NanoPack tools are written in Python3 and released under the GNU GPL3.0 License.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29547981",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we describe NanoPack, a set of tools developed for visualization and processing of long-read sequencing data from Oxford Nanopore Technologies and Pacific Biosciences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29547981",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

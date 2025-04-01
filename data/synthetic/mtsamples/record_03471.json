@@ -1,0 +1,38 @@
+{
+  "document_id": "record_03471",
+  "original_length": 2001,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "AND PLAN:,  She had a bowel movement today and is continuing to improve.,I anticipate another 3 days in the hospital for strengthening and continued TPN and resolution of elevated white count.",
+    "Symptoms": "",
+    "Treatment": "due to difficult anatomy.  Her postoperative course has been lengthened due to a prolonged ileus, which resolved with tetracycline and Reglan.  The patient is starting to improve, gain more strengt...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, LOCATION, URL"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "LOCATION",
+        "URL"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

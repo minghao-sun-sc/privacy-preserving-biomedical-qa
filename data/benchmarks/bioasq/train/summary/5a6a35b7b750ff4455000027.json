@@ -1,0 +1,78 @@
+{
+  "id": "5a6a35b7b750ff4455000027",
+  "type": "summary",
+  "question": "What is libgapmis?",
+  "ideal_answer": "libgapmis is a library for extending pairwise short-read alignments. Apart from the standard CPU version, it includes ultrafast SSE- and GPU-based implementations. libgapmis is based on an algorithm computing a modified version of the traditional dynamic-programming matrix for sequence alignment. The open-source code of libgapmis is available at http://www.exelixis-lab.org/gapmis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24564250"
+  ],
+  "snippets": [
+    {
+      "text": "libgapmis, a library for extending pairwise short-read alignments. Apart from the standard CPU version, it includes ultrafast SSE- and GPU-based implementations. libgapmis is based on an algorithm computing a modified version of the traditional dynamic-programming matrix for sequence alignment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24564250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present libgapmis, a library for extending pairwise short-read alignments. We show that libgapmis is better-suited and more efficient than existing algorithms for this task. The importance of our contribution is underlined by the fact that the provided functions may be seamlessly integrated into any short-read alignment pipeline. The open-source code of libgapmis is available at http://www.exelixis-lab.org/gapmis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24564250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "libgapmis is based on an algorithm computing a modified version of the traditional dynamic-programming matrix for sequence alignment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24564250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The fact that the reads are rather short and that the gap occurrence frequency observed in various studies is rather low suggest that aligning (parts of) those reads with a single gap is in fact desirable.<br><b>RESULTS</b>: In this article, we present libgapmis, a library for extending pairwise short-read alignments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24564250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present libgapmis, a library for extending pairwise short-read alignments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24564250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this article, we present libgapmis, a library for extending pairwise short-read alignments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24564250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS We present libgapmis, a library for extending pairwise short-read alignments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24564250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS In this article, we present libgapmis, a library for extending pairwise short-read alignments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24564250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The library also provides the user the flexibility to split the read into fragments, based on the observed gap occurrence frequency and the length of the read, thereby allowing for a variable, but bounded, number of gaps in the alignment.<br><b>CONCLUSIONS</b>: We present libgapmis, a library for extending pairwise short-read alignments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24564250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present libgapmis, a library for extending pairwise short-read alignments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24564250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this article, we present libgapmis, a library for extending pairwise short-read alignments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24564250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,113 @@
+{
+  "id": "54fc58df6ea36a810c000004",
+  "type": "summary",
+  "question": "What is the main biological function of the CRISPR-CAS9 genome editing system?",
+  "ideal_answer": "The CRISPR/Cas9 system (clustered regularly interspaced short palindromic repeats/CRISPR-associated) has recently emerged as an efficient and simple tool for site-specific engineering of eukaryotic genomes. The CRISPR/Cas9 system has attracted significant attention for its potential to transform genome engineering. It has been shown that the RNA-guided Cas9 nuclease can be employed to engineer the Drosophila genome, and that these modifications are efficiently transmitted through the germline. The CRISPR/Cas9 system has been reported to efficiently induce targeted gene disruption and homologous recombination in both prokaryotic and eukaryotic cells. The CRISPR/Cas9 system has been used to create knock-out alleles with great efficiency, and it has also been employed in knock-in of DNA cassettes at defined loci via homologous recombination (HR). The ease and efficiency of the CRISPR/Cas9 system with limited off-target effects make it a powerful genome engineering tool for in vivo studies.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23918387",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24179142",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24326186",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23827738",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24088745",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24199189",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24141137",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24257628",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23643243"
+  ],
+  "snippets": [
+    {
+      "text": "Mutagenesis and homologous recombination in Drosophila cell lines using CRISPR/Cas9.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24326186",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We have applied the CRISPR/Cas9 system to Drosophila S2 cells to generate targeted genetic mutations in more than 85% of alleles. By targeting a constitutive exon of the AGO1 gene, we demonstrate homozygous mutation in up to 82% of cells, thereby allowing the study of genetic knockouts in a Drosophila cell line for the first time. We have shown that homologous gene targeting is possible at 1-4% efficiency using this system, allowing for the construction of defined insertions and deletions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24326186",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This technology enables controlled genetic manipulation in Drosophila cell lines, and its simplicity offers the opportunity to study cellular phenotypes genome-wide.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24326186",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The prokaryotic CRISPR/Cas9 type II genome editing system has recently been applied in cell lines and vertebrates.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24257628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We now demonstrate that CRISPR/Cas9 mutagenesis in zebrafish is highly efficient, reaching up to 86.0%, and is heritable. The efficiency of the CRISPR/Cas9 system further facilitated the targeted knock-in of a protein tag provided by a donor oligonucleotide with knock-in efficiencies of 3.5-15.6%. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24257628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The ease and efficiency of the CRISPR/Cas9 system with limited off-target effects make it a powerful genome engineering tool for in vivo studies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24257628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cas9/CRISPR has been reported to efficiently induce targeted gene disruption and homologous recombination in both prokaryotic and eukaryotic cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24199189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sequence-specific nucleases like TALENs and the CRISPR/Cas9 system have greatly expanded the genome editing possibilities in model organisms such as zebrafish. Both systems have recently been used to create knock-out alleles with great efficiency, and TALENs have also been successfully employed in knock-in of DNA cassettes at defined loci via homologous recombination (HR). Here we report CRISPR/Cas9-mediated knock-in of DNA cassettes into the zebrafish genome at a very high rate by homology-independent double-strand break (DSB) repair pathways.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24179142",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The type II CRISPR/Cas9 system (clustered regularly interspaced short palindromic repeats/CRISPR-associated) has recently emerged as an efficient and simple tool for site-specific engineering of eukaryotic genomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24141137",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The CRISPR/Cas9 system has attracted significant attention for its potential to transform genome engineering. We and others have recently shown that the RNA-guided Cas9 nuclease can be employed to engineer the Drosophila genome, and that these modifications are efficiently transmitted through the germline.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24088745",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we highlight the variety of genome modifications facilitated by the CRISPR/Cas9 system along with key considerations for starting your own CRISPR genome engineering project.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24088745",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we present a simple and highly efficient method for generating and detecting mutations of\u00a0any gene in Drosophila melanogaster through the\u00a0use of the CRISPR/Cas9 system (clustered regularly\u00a0interspaced palindromic repeats/CRISPR-associated).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23827738",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recently the type II prokaryotic clustered regularly interspaced short palindromic repeats (CRISPR)/CRISPR-associated proteins (Cas) system has been adapted to serve as a targeted genome mutagenesis tool.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23918387",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This CRISPR/Cas9 system represents a highly effective and scalable gene knockout method in zebrafish and has the potential for applications in other model organisms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23918387",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The CRISPR/Cas system has been adapted as an efficient gene-targeting technology with the potential for multiplexed genome editing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23643243",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D064113",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D064112"
+  ]
+}

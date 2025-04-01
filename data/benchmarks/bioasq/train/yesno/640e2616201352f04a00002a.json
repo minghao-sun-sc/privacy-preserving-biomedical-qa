@@ -1,0 +1,45 @@
+{
+  "id": "640e2616201352f04a00002a",
+  "type": "yesno",
+  "question": "Is medical hydrology the same as Spa therapy?",
+  "ideal_answer": "No, medical hydrology and spa therapy are related but not the same. Medical hydrology involves the therapeutic use of water in a medical setting, while spa therapy uses water treatments in a relaxation and wellness setting.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35779167",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32568298",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32875343"
+  ],
+  "snippets": [
+    {
+      "text": "hydrotherapy,\" \"balneotherapy,\" \"spa therapy,\" \"spa treatment,\" \"creno-balneotherapy,\" \"water treatments,\" and \"aqua therapy,\" o",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35779167",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Spa therapy is an integral part of the treatment of burn scars. The objective of this systematic review is to provide an overview of the spa therapy used in the treatment of burn scars and analyze its effects reported in clinical studies. We used the PRISMA checklist and queried 8 scientific databases from August 2019 to July 2020 for articles referenced with the specific key words: (burn) AND ((spa) OR (crenotherap*) OR (sulfur bath) OR (balneo*) OR (hydrotherap*) OR (mineral water) OR (thermal water) OR (spring water) OR (health resort medicine))",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32875343",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Soon after qualification, Fortescue Fox (1858-1940) began practice in a Scottish spa where he acquired a lifelong interest in chronic disorders, especially arthritis. He worked to improve the status of spa medicine, recasting it as medical hydrology",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32568298",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "He worked to improve the status of spa medicine, recasting it as medical hydrology.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32568298",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " He worked to improve the status of spa medicine, recasting it as medical hydrology.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32568298",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

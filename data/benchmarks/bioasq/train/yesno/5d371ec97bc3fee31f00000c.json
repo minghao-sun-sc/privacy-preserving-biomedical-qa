@@ -1,0 +1,53 @@
+{
+  "id": "5d371ec97bc3fee31f00000c",
+  "type": "yesno",
+  "question": "Is CTCF bound at nucleosome free regions?",
+  "ideal_answer": "yes, robust inter-nucleosomal interactions exist around transcription start site (TSS), transcription termination sites (TTS) or around CTCF binding sites",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30188887",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21249180",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25348714",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30414923",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16877759"
+  ],
+  "snippets": [
+    {
+      "text": "Nucleosome depletion at 5'-HS4 was dependent on interaction of the insulator protein CCCTC-binding factor (CTCF) and was required for enhancer blocking. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16877759",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we show that promoter classes are significantly differentiated by nucleosome organization and chromatin structure. Dispersed promoters display higher associations with well-positioned nucleosomes downstream of the TSS and a more clearly defined nucleosome free region upstream, while focused promoters have a less organized nucleosome structure, yet higher presence of RNA polymerase II.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21249180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "hese differences extend to histone variants (H2A.Z) and marks (H3K4 methylation), as well as insulator binding (such as CTCF), independent of the expression levels of affected genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21249180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "nucleosome occupancy at nucleosome-free regions (NFRs), many of which are located at sites occupied by the multivalent factors Ctcf and cohesin. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25348714",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This general architectural change correlates with enhanced binding of CTCF and cohesins and more pronounced insulation of contacts across chromatin boundaries in lineage-committed cells. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30414923",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "robust inter-nucleosomal interactions exist around transcription start site (TSS), transcription termination sites (TTS) or around CTCF binding sites",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30188887",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

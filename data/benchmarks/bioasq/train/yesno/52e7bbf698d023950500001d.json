@@ -1,0 +1,72 @@
+{
+  "id": "52e7bbf698d023950500001d",
+  "type": "yesno",
+  "question": "Does resveratrol reduce cardiac remodeling?",
+  "ideal_answer": "Resveratrol attenuates left ventricular remodeling.\nResveratrol is a beneficial pharmacological tool that augments autophagy to bring about reverse remodeling in the postinfarction heart.\nResveratrol administration improved cardiac environment by reducing inflammatory state and decreased unfavorable ventricular remodeling of the diabetic heart, leading to a marked recovery of ventricular function.\nResveratrol can constitute an adjuvant therapeutic option in prevention of dilated cardiomyopathy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22926332",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22473781",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20869962",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23274061",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18853243",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19370079",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18310510",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22245452",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18356487",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20874677",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20491649",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22050707",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12679191",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18639559",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20675566",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19460403",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19370081",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20429690",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21352470",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17488730",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20008278",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19942861",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19959541",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18562309",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20716127",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17875610",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16198371",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22768138",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15498824",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23784505",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24289075",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22229508",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21054406"
+  ],
+  "snippets": [
+    {
+      "text": "In conclusion, resveratrol attenuated cardiac oxidative damage and left ventricular remodeling and enhanced the decreased expression of SIRT1 in hearts of old rats with emphysema and thus might be a therapeutic modality for cardiac injury complicated in chronic obstructive pulmonary disease (COPD).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24289075",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In conclusion, resveratrol is a beneficial pharmacological tool that augments autophagy to bring about reverse remodeling in the postinfarction heart.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23274061",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Resveratrol administration reduced atrial CSPC loss, succeeded in preserving the functional abilities of CSPCs and mature cardiac cells, improved cardiac environment by reducing inflammatory state and decreased unfavorable ventricular remodeling of the diabetic heart, leading to a marked recovery of ventricular function. These findings indicate that RSV can constitute an adjuvant therapeutic option in DCM prevention.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22768138",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4272358",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020257",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D064752",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006331",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006332",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0003015",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009206",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002306"
+  ],
+  "exact_answer": "Yes"
+}

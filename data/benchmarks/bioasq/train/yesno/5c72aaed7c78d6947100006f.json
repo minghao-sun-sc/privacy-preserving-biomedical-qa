@@ -1,0 +1,26 @@
+{
+  "id": "5c72aaed7c78d6947100006f",
+  "type": "yesno",
+  "question": "Is pazopanib an effective treatment of glioblastoma?",
+  "ideal_answer": "No. Pazopanib does not improve survival of glioblastoma patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20200024",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23363814"
+  ],
+  "snippets": [
+    {
+      "text": "RESULTS: The six-month progression-free survival (PFS) rates in phase II (n = 41) were 0% and 15% in the PTEN/EGFRvIII-positive and PTEN/EGFRvIII-negative cohorts, respectively, leading to early termination. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23363814",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Single-agent pazopanib did not prolong PFS in this patient population but showed in situ biological activity as demonstrated by radiographic responses.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20200024",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

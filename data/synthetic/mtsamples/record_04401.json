@@ -1,0 +1,39 @@
+{
+  "document_id": "record_04401",
+  "original_length": 2158,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  Clinical sinusitis and secondary cough.,PLAN:,  Amoxicillin a teaspoon twice daily for 10 days.  Plenty of fluids.  Tylenol and Motrin p.r.n., as well as oral decongestant and if coughing is not...",
+    "Symptoms": "",
+    "Treatment": ",  Amoxicillin a teaspoon twice daily for 10 days.  Plenty of fluids.  Tylenol and Motrin p.r.n., as well as oral decongestant and if coughing is not improving.",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: US_DRIVER_LICENSE, DATE_TIME, PERSON, PHONE_NUMBER, URL"
+      ],
+      "pii_detected": [
+        "US_DRIVER_LICENSE",
+        "DATE_TIME",
+        "PERSON",
+        "PHONE_NUMBER",
+        "URL"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

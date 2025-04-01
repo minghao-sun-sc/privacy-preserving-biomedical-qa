@@ -1,0 +1,89 @@
+{
+  "id": "552421082c8b63434a000005",
+  "type": "factoid",
+  "question": "What is the enzymatic activity of the breast cancer associated gene BRCA1?",
+  "ideal_answer": "E3-ubiquitin ligase activity is the only known enzymatic activity of BRCA1, which is mediated by the N-terminal RING finger domain.BRCA1 nuclear transport and ubiquitin E3 ligase enzymatic activity are tightly regulated by the BRCA1 dimeric binding partner BARD1 and further modulated by cancer mutations and diverse signaling pathways.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20681793",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24278741",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15254397",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16479151",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16710298",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17420471",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22034435",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19088202"
+  ],
+  "snippets": [
+    {
+      "text": "E3-ubiquitin ligase activity is the only known enzymatic activity of BRCA1, which is mediated by the N-terminal RING finger domain.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20681793",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BRCA1 nuclear transport and ubiquitin E3 ligase enzymatic activity are tightly regulated by the BRCA1 dimeric binding partner BARD1 and further modulated by cancer mutations and diverse signaling pathways.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24278741",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "E3 ligase activity of BRCA1 is not essential for mammalian cell viability or homology-directed repair of double-strand DNA breaks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19088202",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The protein encoded by BRCA1 interacts in vivo with the related BARD1 protein to form a heterodimeric complex that acts as a ubiquitin E3 ligase. Because the enzymatic activity of the BRCA1/BARD1 heterodimer is conserved over a broad phylogenetic range, it is thought to be critical for the central functions of BRCA1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19088202",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A mechanism for transcriptional repression dependent on the BRCA1 E3 ubiquitin ligase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17420471",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In this study, we identified an ubiquitin-dependent mechanism by which BRCA1 inhibits transcription. BRCA1 ubiquitinates the transcriptional preinitiation complex, preventing stable association of TFIIE and TFIIH, and thus blocks the initiation of mRNA synthesis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17420471",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the structure the arrangement of the Ring-domains is similar to another H2A E3 ligase, the BRCA1/BARD1 complex, but complex formation depends on an N-terminal arm of Ring1b that embraces the Bmi1 Ring-domain.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16710298",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Discovering the precise function of the breast and ovarian specific tumor suppressor, BRCA1, has proven to be quite complicated. It has been determined that BRCA1, together with BARD1, comprise an E3 ubiquitin ligase. Since it is now known that BRCA1 is an enzyme, the challenge for BRCA1 research is to learn how this enzymatic activity functions in normal breast and ovarian cells in order to suppress cancerous transformation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16479151",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The BRCA1 tumor suppressor gene is expressed in all mammalian cells. Within these cells, the BRCA1 protein product interacts with several seemingly distinct nuclear complexes. Proteins within these complexes are potential targets for the E3-ubiquitin ligase activity associated with BRCA1:BARD1 complexes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15254397",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "During both DNA replication and DNA repair, BRCA1 appears to serve both adaptor and enzymatic functions. Roles include transient physical recruitment of NBS1, gammaH2AX, FANCD2 and other proteins in specific repair associated complexes, and enzymatic activity as an E3-ubiquitin ligase against a subset of these proteins. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15254397",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The BRCA1 protein displays E3 ubiquitin ligase activity, and this enzymatic function is thought to be required for tumor suppression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22034435",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/BRCA1_GORGO",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0070531"
+  ],
+  "exact_answer": "E3 ubiquitin ligase activity"
+}

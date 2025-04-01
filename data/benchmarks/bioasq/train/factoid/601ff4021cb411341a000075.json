@@ -1,0 +1,38 @@
+{
+  "id": "601ff4021cb411341a000075",
+  "type": "factoid",
+  "question": "In what year did Gregor Mendel die?",
+  "ideal_answer": "The life and personality of Johann Gregor Mendel (1822-1884)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/1887835",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14602707"
+  ],
+  "snippets": [
+    {
+      "text": "Historical study: Johann Gregor Mendel 1822-1884.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1887835",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The life and personality of Johann Gregor Mendel (1822-1884)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1887835",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Gregor Mendel, OSA (1822-1884), founder of scientific genetics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14602707",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The life and personality of Johann Gregor Mendel (1822-1884), the founder of scientific genetics, are reviewed against the contemporary background of his times.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1887835",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "1884"
+}

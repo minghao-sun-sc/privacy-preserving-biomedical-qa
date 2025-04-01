@@ -1,0 +1,37 @@
+{
+  "document_id": "record_00429",
+  "original_length": 1254,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,Left hemothorax, rule out empyema.,POSTOPERATIVE DIAGNOSIS: , Left hemothorax rule out empyema.,PROCEDURE: , Insertion of a 12-French pigtail catheter in the left pleural space.,PROC...",
+    "Symptoms": "",
+    "Treatment": "X-ray imaging",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON, NRP",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Insertion of a 12-French pigtail catheter in the l...'"
+      ],
+      "pii_detected": [
+        "PERSON",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

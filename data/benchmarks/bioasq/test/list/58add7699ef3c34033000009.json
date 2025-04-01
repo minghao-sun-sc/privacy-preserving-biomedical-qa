@@ -1,0 +1,79 @@
+{
+  "id": "58add7699ef3c34033000009",
+  "type": "list",
+  "question": "Which proteins does the yeast Cleavage and Polyadenylation Complex contain?",
+  "ideal_answer": "The proteins Nrd1, Rap1, Trf4, Rrp6, Ssu72, Cstf64, Pcf11 and PAP are the major components of the 3' cleavage and polyadenylation complex.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12773397",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15659578",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23514951",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25877920",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18951092",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20226668",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19049464"
+  ],
+  "snippets": [
+    {
+      "text": "Gene loops have been described in different organisms from yeast to human and form through interaction between components of the transcription pre-initiation complex and Ssu72, a member of the 3' end cleavage and polyadenylation complex",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23514951",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A large cleavage and polyadenylation complex containing the major poly(A) polymerase Pap1 produces mRNA 3' ends, whereas those of nonpolyadenylated snoRNAs in yeast are formed either by endonucleolytic cleavage or by termination, followed by trimming by the nuclear exosome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18951092",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Poly(A) tails are added by Pap1 to both forms, whereas the alternative poly(A) polymerase Tfr4 adenylates major precursors and processing intermediates to facilitate further polyadenylation by Pap1 and maturation by the exosome/Rrp6",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18951092",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A more important role of Trf4/TRAMP, however, is to enhance Nrd1 association with snoRNA genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18951092",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Screening crude natural product extracts with this technology has resulted in the identification of a novel family of antifungal natural products, named the parnafungins, which inhibit the enzyme polyadenosine polymerase (PAP), a key component of the mRNA cleavage and polyadenylation complex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19049464",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show that phosphorylation of TFIIB at serine 65 regulates the interaction between TFIIB and the CstF-64 component of the CstF 3' cleavage and polyadenylation comple",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20226668",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We now show that Pcf11, a component of the cleavage and polyadenylation complex (CPAC), is also generally required for NRD-dependent transcription termination through the action of its C-terminal domain (CTD)-interacting domain (CID)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25877920",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Like the yeast counterpart, mammalian Ssu72 associates with TFIIB and the yeast cleavage/polyadenylation factor Pta1, and exhibits intrinsic phosphatase activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15659578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We also provide evidence that Pti1p probably acts by uncoupling cleavage and polyadenylation, and functions in coordination with the Nrd1p-dependent pathway for 3' end formation of non-polyadenylated transcripts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12773397",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Like the yeast counterpart, mammalian Ssu72 associates with TFIIB and the yeast cleavage/polyadenylation factor Pta1, and exhibits intrinsic phosphatase activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15659578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Nrd1, Rap1, Trf4, Rrp6, Ssu72, PAP, Cstf64, Pcf11"
+}

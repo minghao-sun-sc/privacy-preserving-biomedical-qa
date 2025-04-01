@@ -1,0 +1,32 @@
+{
+  "id": "5150b807d24251bc05000072",
+  "type": "factoid",
+  "question": "How many clinical trials for off-label drugs in neonates are cited in the literature.",
+  "ideal_answer": "There are no reports on clinical trials of off-label drugs in neonates. An analysis of Pediatric Investigation Plans submitted between 2007 and 2010 shows that neonates were included in the study of 4 products, but it is unknown if the trial drugs are off-label and if the trials are being conducted at all.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20821198"
+  ],
+  "snippets": [
+    {
+      "text": "Of the 17 Paediatric Investigation Plans submitted, 14 have resulted in an EMA Decision, 3 were withdrawn by the applicants, 8 were granted a full waiver from development, and 1 resulted in a negative opinion. Decisions as issued included 15 clinical trials, with at least 1,282 children to be recruited into studies across five different products. Neonates were included in four of the products. CONCLUSIONS: The small number of submissions indicates a lack of new drugs being developed for the management of pain. Ethical concerns that too many vulnerable children will be recruited into clinical trials must be balanced against limiting the number of off-label prescribing and obtaining age-appropriate information on paediatric use.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20821198",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Paediatric Investigations Plans (PIPs) submitted with a Decision (outcome) reached between September 2007 and March 2010 were included in the analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20821198",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056687",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002986",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017326",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016032",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007231",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018849"
+  ],
+  "exact_answer": "none, 0, zero"
+}

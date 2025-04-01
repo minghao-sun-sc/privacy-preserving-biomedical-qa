@@ -1,0 +1,33 @@
+{
+  "id": "5e482160d14c9f295d00000c",
+  "type": "list",
+  "question": "List five proteins with antioxidant properties?",
+  "ideal_answer": "thioredoxin 1 (Trx1), \nperoxiredoxin 1 (Prx1), \nGSH reductase (GSR),\nphosphatase and tensin homolog (PTEN)\nsuperoxide dismutase (SOD)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30387809",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29077914",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29577948"
+  ],
+  "snippets": [
+    {
+      "text": "Non\u2011reducing redox western blotting was performed to detect the redox status of intracellular antioxidant proteins, including thioredoxin 1 (Trx1), peroxiredoxin 1 (Prx1), GSH reductase (GSR), and phosphatase and tensin homolog (PTEN). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30387809",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "birds fed the ALA-supplemented diet had the highest plasma total antioxidant capacity (T-AOC) and superoxide dismutase (T-SOD) and glutathione peroxidase (GSH-PX) enzyme activities",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29077914",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "on activation of Nrf2, the expressions of antioxidant responsive element (ARE)-dependent genes and proteins (GCLC, GCLM, GS, GR, GST, GPx, CAT, SOD, NQO1, HO-1) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29577948",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "thioredoxin 1, peroxiredoxin 1, GSH reductase, phosphatase and tensin homolog, superoxide dismutase"
+}

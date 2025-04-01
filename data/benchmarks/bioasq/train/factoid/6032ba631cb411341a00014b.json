@@ -1,0 +1,33 @@
+{
+  "id": "6032ba631cb411341a00014b",
+  "type": "factoid",
+  "question": "What is the function of lysozyme?",
+  "ideal_answer": "Lysozymes are an ancient group of antimicrobial enzymes of the innate immune system. Lysozyme activity is a marker of Paneth cell function.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32730854",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31790908",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31989035"
+  ],
+  "snippets": [
+    {
+      "text": "Lysozyme activity (a marker of Paneth cell function)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31989035",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lysozymes are an ancient group of antimicrobial enzymes of the innate immune system. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32730854",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " It displays chitinase and lysozyme activity, which could be important for the defense against pathogenic fungi, insects and bacteria. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31790908",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "lysozyme is an antimicrobial enzyme."
+}

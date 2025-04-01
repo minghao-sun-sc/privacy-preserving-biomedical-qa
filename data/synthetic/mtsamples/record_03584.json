@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03584",
+  "original_length": 1860,
+  "synthetic_length": 586,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,  Abdominal pain.,POSTOPERATIVE DIAGNOSIS:,  Normal endoscopy.,PREMEDICATION: , Fentanyl 125 mcg IV, Versed 8 mg IV.,INDICATIONS:  ,This healthy 28-year-old woman has had biliary col...",
+    "Symptoms": "",
+    "Treatment": "Endoscopy",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Fentanyl 125 mcg, Versed 8 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',PREMEDICATION: , Fentanyl 125 mcg IV, Versed 8 mg...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

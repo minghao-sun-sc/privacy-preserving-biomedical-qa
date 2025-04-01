@@ -1,0 +1,33 @@
+{
+  "document_id": "record_02298",
+  "original_length": 13310,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "S PERFORMED:\n- Bunionectomy, right foot with Biopro hemi implant, right first metatarsophalangeal joint.\n- Arthrodesis, right second, third, and fourth toes with external rod fixation.\n- Hammertoe ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Naprosyn 375 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Arthrodesis, right second, third, and fourth toes ...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

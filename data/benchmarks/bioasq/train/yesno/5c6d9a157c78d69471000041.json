@@ -1,0 +1,102 @@
+{
+  "id": "5c6d9a157c78d69471000041",
+  "type": "yesno",
+  "question": "Can you computationally predict Molecular Recognition Features (MoRFs) regions in Intrinsically Disordered Proteins (IDPs)?",
+  "ideal_answer": "Yes. There are various tools available in the literature that enable computational identification of Molecular Recognition Features (MoRFs) regions in intrinsically disordered protein sequences.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30324701",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30298407",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25637562",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26517836",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29360926",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29042212"
+  ],
+  "snippets": [
+    {
+      "text": "Predicting Functions of Disordered Proteins with MoRFpred.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30298407",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Intrinsically disordered proteins and regions are involved in a wide range of cellular functions, and they often facilitate protein-protein interactions. Molecular recognition features (MoRFs) are segments of intrinsically disordered regions that bind to partner proteins, where binding is concomitant with a transition to a structured conformation. MoRFs facilitate translation, transport, signaling, and regulatory processes and are found across all domains of life. A popular computational tool, MoRFpred, accurately predicts MoRFs in protein sequences. MoRFpred is implemented as a user-friendly web server that is freely available at http://biomine.cs.vcu.edu/servers/MoRFpred/ . We describe this predictor, explain how to run the web server, and show how to interpret the results it generates. We also demonstrate the utility of this web server based on two case studies, focusing on the relevance of evolutionary conservation of MoRF regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30298407",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MoRFPred-plus: Computational Identification of MoRFs in Protein Sequences using Physicochemical Properties and HMM profiles.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29042212",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Intrinsically Disordered Proteins (IDPs) lack stable tertiary structure and they actively participate in performing various biological functions. These IDPs expose short binding regions called Molecular Recognition Features (MoRFs) that permit interaction with structured protein regions. Upon interaction they undergo a disorder-to-order transition as a result of which their functionality arises. Predicting these MoRFs in disordered protein sequences is a challenging task.METHOD: In this study, we present MoRFpred-plus, an improved predictor over our previous proposed predictor to identify MoRFs in disordered protein sequences. Two separate independent propensity scores are computed via incorporating physicochemical properties and HMM profiles, these scores are combined to predict final MoRF propensity score for a given residue. The first score reflects the characteristics of a query residue to be part of MoRF region based on the composition and similarity of assumed MoRF and flank regions. The second score reflects the characteristics of a query residue to be part of MoRF region based on the properties of flanks associated around the given residue in the query protein sequence. The propensity scores are processed and common averaging is applied to generate the final prediction score of MoRFpred-plus.RESULTS: Performance of the proposed predictor is compared with available MoRF predictors, MoRFchibi, MoRFpred, and ANCHOR. Using previously collected training and test sets used to evaluate the mentioned predictors, the proposed predictor outperforms these predictors and generates lower false positive rate. In addition, MoRFpred-plus is a downloadable predictor, which makes it useful as it can be used as input to other computational tools.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29042212",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "OPAL: prediction of MoRF regions in intrinsically disordered protein sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29360926",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Intrinsically disordered proteins lack stable 3-dimensional structure and play a crucial role in performing various biological functions. Key to their biological function are the molecular recognition features (MoRFs) located within long disordered regions. Computationally identifying these MoRFs from disordered protein sequences is a challenging task. In this study, we present a new MoRF predictor, OPAL, to identify MoRFs in disordered protein sequences. OPAL utilizes two independent sources of information computed using different component predictors. The scores are processed and combined using common averaging method. The first score is computed using a component MoRF predictor which utilizes composition and sequence similarity of MoRF and non-MoRF regions to detect MoRFs. The second score is calculated using half-sphere exposure (HSE), solvent accessible surface area (ASA) and backbone angle information of the disordered protein sequence, using information from the amino acid properties of flanks surrounding the MoRFs to distinguish MoRF and non-MoRF residues.Results: OPAL is evaluated using test sets that were previously used to evaluate MoRF predictors, MoRFpred, MoRFchibi and MoRFchibi-web. The results demonstrate that OPAL outperforms all the available MoRF predictors and is the most accurate predictor available for MoRF prediction. It is available at http://www.alok-ai-lab.com/tools/opal/.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29360926",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "OPAL+: Length-Specific MoRF Prediction in Intrinsically Disordered Protein Sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30324701",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Intrinsically disordered proteins (IDPs) contain long unstructured regions, which play an important role in their function. These intrinsically disordered regions (IDRs) participate in binding events through regions called molecular recognition features (MoRFs). Computational prediction of MoRFs helps identify the potentially functional regions in IDRs. In this study, OPAL+, a novel MoRF predictor, is presented. OPAL+ uses separate models to predict MoRFs of varying lengths along with incorporating the hidden Markov model (HMM) profiles and physicochemical properties of MoRFs and their flanking regions. Together, these features help OPAL+ achieve a marginal performance improvement of 0.4-0.7% over its predecessor for diverse MoRF test sets. This performance improvement comes at the expense of increased run time as a result of the requirement of HMM profiles. OPAL+ is available for download at https://github.com/roneshsharma/OPAL-plus/wiki/OPAL-plus-Download.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30324701",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Computational Identification of MoRFs in Protein Sequences Using Hierarchical Application of Bayes Rule.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26517836",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Key to their regulatory function is often the binding to globular protein domains via sequence elements known as molecular recognition features (MoRFs). Development of computational tools for the identification of candidate MoRF locations in amino acid sequences is an important task and an area of growing interest. Given the relative sparseness of MoRFs in protein sequences, the accuracy of the available MoRF predictors is often inadequate for practical usage, which leaves a significant need and room for improvement. In this work, we introduce MoRFCHiBi_Web, which predicts MoRF locations in protein sequences with higher accuracy compared to current MoRF predictors.METHODS: Three distinct and largely independent property scores are computed with component predictors and then combined to generate the final MoRF propensity scores. The first score reflects the likelihood of sequence windows to harbour MoRFs and is based on amino acid composition and sequence similarity information. It is generated by MoRFCHiBi using small windows of up to 40 residues in size. The second score identifies long stretches of protein disorder and is generated by ESpritz with the DisProt option. Lastly, the third score reflects residue conservation and is assembled from PSSM files generated by PSI-BLAST. These propensity scores are processed and then hierarchically combined using Bayes rule to generate the final MoRFCHiBi_Web predictions.RESULTS: MoRFCHiBi_Web was tested on three datasets. Results show that MoRFCHiBi_Web outperforms previously developed predictors by generating less than half the false positive rate for the same true positive rate at practical threshold values.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26517836",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Computational identification of MoRFs in protein sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25637562",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In this study, we introduce MoRFCHiBi, a new computational approach for fast and accurate prediction of MoRFs in protein sequences. MoRFCHiBi combines the outcomes of two support vector machine (SVM) models that take advantage of two different kernels with high noise tolerance. The first, SVMS, is designed to extract maximal information from the general contrast in amino acid compositions between MoRFs, their surrounding regions (Flanks), and the remainders of the sequences. The second, SVMT, is used to identify similarities between regions in a query sequence and MoRFs of the training set.RESULTS: We evaluated the performance of our predictor by comparing its results with those of two currently available MoRF predictors, MoRFpred and ANCHOR. Using three test sets that have previously been collected and used to evaluate MoRFpred and ANCHOR, we demonstrate that MoRFCHiBi outperforms the other predictors with respect to different evaluation metrics. In addition, MoRFCHiBi is downloadable and fast, which makes it useful as a component in other computational prediction tools.AVAILABILITY AND IMPLEMENTATION: http://www.chibi.ubc.ca/morf/.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25637562",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "OPAL: prediction of MoRF regions in intrinsically disordered protein sequences.Supplementary data are available at Bioinformatics online.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29360926",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Computational prediction of MoRFs helps identify the potentially functional regions in IDRs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30324701",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

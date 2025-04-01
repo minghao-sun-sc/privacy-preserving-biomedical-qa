@@ -1,0 +1,33 @@
+{
+  "document_id": "record_03924",
+  "original_length": 2068,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": "ON ADMISSION: , Gastrointestinal bleed.,DIAGNOSES ON DISCHARGE\n- Gastrointestinal bleed, source undetermined, but possibly due to internal hemorrhoids.\n- Atherosclerotic cardiovascular disease.\n- H...",
+    "Symptoms": "",
+    "Treatment": "Colonoscopy",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Pepcid 40 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Gastrointestinal bleed, source undetermined, but p...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

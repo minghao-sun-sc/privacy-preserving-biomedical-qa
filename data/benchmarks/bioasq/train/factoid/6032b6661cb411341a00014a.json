@@ -1,0 +1,26 @@
+{
+  "id": "6032b6661cb411341a00014a",
+  "type": "factoid",
+  "question": "Which human tissue synthesize CRP?",
+  "ideal_answer": "CRP is predominantly produced in the liver in a native pentameric form (nCRP).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31758923",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31840602"
+  ],
+  "snippets": [
+    {
+      "text": "The accumulating data suggests that CRP has two distinct forms. It is predominantly produced in the liver in a native pentameric form (nCRP). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31840602",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "analysis of liver tissue from donors with pathologically elevated C-reactive protein (CRP)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31758923",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "liver"
+}

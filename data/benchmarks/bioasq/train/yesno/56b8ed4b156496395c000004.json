@@ -1,0 +1,25 @@
+{
+  "id": "56b8ed4b156496395c000004",
+  "type": "yesno",
+  "question": "Is there any link between conserved noncoding elements and alternative splicing in vertebrates?",
+  "ideal_answer": "Yes. Some of the most highly conserved sequences occur in genes encoding RNA binding proteins, particularly the RNA splicing-associated SR genes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24681619"
+  ],
+  "snippets": [
+    {
+      "text": "Some of the most highly conserved sequences occur in genes encoding RNA binding proteins, particularly the RNA splicing-associated SR genes. Differences in sequence conservation between plants and animals are likely to reflect differences in the biology of the organisms, with plants being much more able to tolerate genomic deletions and whole-genome duplication events due, in part, to their far greater fecundity compared with vertebrates.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24681619",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017124",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017398",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014714",
+    "http://amigo.geneontology.org/amigo/term/GO:0000381",
+    "http://amigo.geneontology.org/amigo/term/GO:0000380"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "53061af558348c0f52000002",
+  "type": "list",
+  "question": "Which are the major characteristics of cellular senescence?",
+  "ideal_answer": "The defining characteristics of cellular senescence are altered morphology, arrested cell-cycle progression, development of aberrant gene expression with proinflammatory behavior, and telomere shortening.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/9624027",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18976161",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8824885"
+  ],
+  "snippets": [
+    {
+      "text": "Cellular senescence is recognized as a critical cellular response to prolonged rounds of replication and environmental stresses. Its defining characteristics are arrested cell-cycle progression and the development of aberrant gene expression with proinflammatory behavior.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18976161",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "telomeres are the central timing mechanism for cellular aging",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9624027",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent research has shown that inserting a gene for the protein component of telomerase into senescent human cells reextends their telomeres to lengths typical of young cells, and the cells then display all the other identifiable characteristics of young, healthy cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9624027",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our data demonstrate that Sod1 transfected cell lines that have an elevation in the ratio of Sod1 activity to Gpx1 activity produce higher levels of H2O2 and exhibit well characterised markers of cellular senescence viz. slower proliferation and altered morphology.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8824885",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0090398",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016922",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:2000772",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:2000773",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:2000774"
+  ],
+  "exact_answer": "altered morphology, arrested cell-cycle progression, development of aberrant gene expression with proinflammatory behavior, telomere shortening"
+}

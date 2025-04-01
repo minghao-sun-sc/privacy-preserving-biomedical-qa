@@ -1,0 +1,38 @@
+{
+  "document_id": "record_03179",
+  "original_length": 3055,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "ending in May 2008.  She then started on Arimidex, but unfortunately she did not tolerate the Arimidex and I changed her to Femara.  She also did not tolerate the Femara and I changed it to tamoxif...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Avapro 300 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, DATE_TIME, NRP, PERSON"
+      ],
+      "pii_detected": [
+        "URL",
+        "DATE_TIME",
+        "NRP",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

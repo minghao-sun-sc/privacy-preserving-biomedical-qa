@@ -1,0 +1,61 @@
+{
+  "id": "5e52a4ec6d0a277941000044",
+  "type": "factoid",
+  "question": "Which R package has been developed for MS-based label-free phosphoproteomics?",
+  "ideal_answer": "Phosphonormalizer is an R package for normalization of MS-based label-free phosphoproteomics.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28968644"
+  ],
+  "snippets": [
+    {
+      "text": "Phosphonormalizer: an R package for normalization of MS-based label-free phosphoproteomics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968644",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Global centering-based normalization is a commonly used normalization approach in mass spectrometry-based label-free proteomics. It scales the peptide abundances to have the same median intensities, based on an assumption that the majority of abundances remain the same across the samples. However, especially in phosphoproteomics, this assumption can introduce bias, as the samples are enriched during sample preparation which can mask the underlying biological changes. To address this possible bias, phosphopeptides quantified in both enriched and non-enriched samples can be used to calculate factors that mitigate the bias.Results: We present an R package phosphonormalizer for normalizing enriched samples in label-free mass spectrometry-based phosphoproteomics.Availability and implementation: The phosphonormalizer package is freely available under GPL (\u2009>\u2009=2) license from Bioconductor (https://bioconductor.org/packages/phosphonormalizer).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968644",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Results\n\nWe present an R package phosphonormalizer for normalizing enriched samples in label-free mass spectrometry-based phosphoproteomics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968644",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Results We present an R package phosphonormalizer for normalizing enriched samples in label-free mass spectrometry-based phosphoproteomics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968644",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Phosphonormalizer: an R package for normalization of MS-based label-free phosphoproteomics",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968644",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Results\nWe present an R package phosphonormalizer for normalizing enriched samples in label-free mass spectrometry-based phosphoproteomics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968644",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To address this possible bias, phosphopeptides quantified in both enriched and non-enriched samples can be used to calculate factors that mitigate the bias.Results: We present an R package phosphonormalizer for normalizing enriched samples in label-free mass spectrometry-based phosphoproteomics.Availability and implementation: The phosphonormalizer package is freely available under GPL (\u2009>\u2009=2) license from Bioconductor (https://bioconductor.org/packages/phosphonormalizer).Contact: sohrab.saraei@utu.fi or laura.elo@utu.fi.Supplementary information: Supplementary data are available at Bioinformatics online.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968644",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present an R package phosphonormalizer for normalizing enriched samples in label-free mass spectrometry-based phosphoproteomics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968644",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Phosphonormalizer"
+}

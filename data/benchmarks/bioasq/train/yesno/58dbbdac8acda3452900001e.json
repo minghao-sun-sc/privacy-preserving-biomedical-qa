@@ -1,0 +1,60 @@
+{
+  "id": "58dbbdac8acda3452900001e",
+  "type": "yesno",
+  "question": "Is hydroxyurea usually used to treated infectious disease?",
+  "ideal_answer": "Hydroxyurea represents the only available disease-modifying therapy for Sickle Cell Anemia (SCA).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21196716",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26275071",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27677923",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15307105",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20008183"
+  ],
+  "snippets": [
+    {
+      "text": "Hydroxyurea represents the only available disease-modifying therapy for SCA, and has proven safety and efficacy in high-resource countries",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26275071",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In conclusion, the data here presented suggests that hydroxyurea may prevent priapism attacks in sickle cell disease, probably at higher doses than usually prescribed for painful crisis prevention..",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15307105",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Clinical follow-up of hydroxyurea-treated adults with sickle cell disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21196716",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "t may also attenuate optimal response to hydroxyurea therapy, the only effective and practical treatment option for SCD in sub-Saharan Africa",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27677923",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hydroxyurea is one of the most successfully used therapies for sickle cell disease",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15307105",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Clinical experience with hydroxyurea for patients with sickle cell disease (SCD) has been accumulating for the past 25 years. The bulk of the current evidence suggests that hydroxyurea is well-tolerated, safe, and efficacious for most patients with SCD",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20008183",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:10923",
+    "http://www.biosemantics.org/jochem#4275774",
+    "http://www.biosemantics.org/jochem#http://www.biosemantics.org/jochem#:4275774",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000755",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006450",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006918"
+  ],
+  "exact_answer": "Yes"
+}

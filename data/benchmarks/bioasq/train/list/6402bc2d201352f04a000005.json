@@ -1,0 +1,40 @@
+{
+  "id": "6402bc2d201352f04a000005",
+  "type": "list",
+  "question": "What are the targets of Mosunetuzumab?",
+  "ideal_answer": "Mosunetuzumab is an anti-CD20/CD3 T-cell engaging bispecific antibody, is being developed by Roche for the treatment of relapsed or refractory follicular lymphoma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35803286",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35947358",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35928819",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35182296"
+  ],
+  "snippets": [
+    {
+      "text": "They combine two different monospecific antigen-binding regions that target CD20 on B cells and engage T cells via CD3 in a 1:1 or 2:1 CD20:CD3 antigen binding fragment (Fab) format. The results of different phase 1 trials with BsAbs, including mosunetuzumab, glofitamab, epcoritamab and odeonextamab, have been recently published.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35928819",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mosunetuzumab (Lunsumio\u00ae), an anti-CD20/CD3 T-cell engaging bispecific antibody, is being developed by Roche for the treatment of relapsed or refractory follicular lymphoma. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35947358",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND: Mosunetuzumab is a CD20\u2009\u00d7\u2009CD3 T-cell-engaging bispecific monoclonal antibody that redirects T cells to eliminate malignant B cells. I",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35803286",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, several CD20 \u00d7 CD3 BsAbs including odronextamab, mosunetuzumab, glofitamab, and epcoritamab emerged recently. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35182296",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CD20, CD3"
+}

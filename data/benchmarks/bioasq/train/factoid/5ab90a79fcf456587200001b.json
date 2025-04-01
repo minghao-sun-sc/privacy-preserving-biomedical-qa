@@ -1,0 +1,71 @@
+{
+  "id": "5ab90a79fcf456587200001b",
+  "type": "factoid",
+  "question": "What drug treatment can cause a spinal epidural hematoma?",
+  "ideal_answer": "Spinal epidural hematoma (SEH) is a rare disease that causes cord compression and neurologic deficit. Spontaneous SEH is related to minor trauma, bleeding disorders, and anticoagulant medications.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28255506",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12520314",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26074484",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2797370",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15043358",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27923756",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23351908",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27347652"
+  ],
+  "snippets": [
+    {
+      "text": "Spinal epidural hematomas are rare entity in neurosurgery practice. Most of them are spontaneous due to anticoagulant therapy and called spontaneous spinal epidural hematomas (SSEHs).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27347652",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Spinal epidural hematoma (SEH) is a rare disease that causes cord compression and neurologic deficit. Spontaneous SEH is related to minor trauma, bleeding disorders, and anticoagulant medications.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28255506",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chronic Spinal Subdural Hematoma Associated with Antiplatelet Therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27923756",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "pinal subdural hematoma associated with antiplatelet therapy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27923756",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The authors report a case of acute spinal epidural hematoma occurring in a patient receiving antiplatelet drugs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2797370",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Spontaneous epidural hematoma of the spine (SEHS) is an extremely rare entity. Patients known to have thrombophilia or on anticoagulant drugs are the most affected",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26074484",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Most cases of spinal hematoma have a multifactorial etiology whose individual components are not all understood in detail. In up to a third of cases (29.7%) of spinal hematoma, no etiological factor can be identified as the cause of the bleeding. Following idiopathic spinal hematoma, cases related to anticoagulant therapy and vascular malformations represent the second and third most common categories. Spinal and epidural anesthetic procedures in combination with anticoagulant therapy represent the fifth most common etiological group and spinal and epidural anesthetic procedures alone represent the tenth most common cause of spinal hematoma. Anticoagulant therapy alone probably does not trigger spinal hemorrhage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12520314",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report the case of a man of 65 who, at 20 and 37 days from surgery of C6 corpectomy, experienced two epidural hematomas at C7-D1. We assume that the pathogenic cause of this rare disease was an overlap between three main factors: the surgical aggression of the internal anterior epidural venous plexus; a possible increase of intra-thoracic pressure due to chronic obstructive pulmonary disease; and double antiplatelet drug therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23351908",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D006407",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D046748"
+  ],
+  "exact_answer": "Anticoagulant therapy"
+}

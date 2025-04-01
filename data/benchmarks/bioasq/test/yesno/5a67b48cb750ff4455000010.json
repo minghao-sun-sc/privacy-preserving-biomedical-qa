@@ -1,0 +1,61 @@
+{
+  "id": "5a67b48cb750ff4455000010",
+  "type": "yesno",
+  "question": "SGOT is an abbreviation for an enzyme other wise known as alanine amino transferase, yes or no?",
+  "ideal_answer": "patients with aspartate amino transferase (SGOT), alanine amino transferase (SGPT),",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17880731",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15803962",
+    "http://www.ncbi.nlm.nih.gov/pubmed/589307",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21375200",
+    "http://www.ncbi.nlm.nih.gov/pubmed/5470040"
+  ],
+  "snippets": [
+    {
+      "text": "patients with aspartate amino transferase (SGOT), alanine amino transferase (SGPT),",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21375200",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Alanine amino transferase (SGPT), ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17880731",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "aspartate aminotransferase (AST-SGOT), alanine amino-transferase (ALT-SGPT)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15803962",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mean values of glutamate dehydrogenase (GDH), serum aspartate and alanine transferase (SGOT and SGPT), ornithine carbamoyltransferase (OCT), and gamma-glutamyltranspeptidase (gamma-GTP) tended to rise with increasing liver cell necrosis, though values of SGOT, SGPT, OCT, and gamma-GTP showed considerable overlap between the 32 patients with histologically proved hepatitis and the 68 without.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/589307",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Serum aspartate aminotransferase (SGOT), alanine aminotransferase (SGPT), creatinine phosphokinase (CPK), and butyric acid dehydrogenase (BDH) were determined in 94 patients before, 1(1/2) hours, and 24 hours after cardioversion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/5470040",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The study excluded by screening for AntiHCV, HBsAg and patients with aspartate amino transferase (SGOT), alanine amino transferase (SGPT), GGT levels more than three times the normal and subject with a total leukocyte count more than 10,000/microl.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21375200",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Complete blood picture, differential leukocyte count, and serum levels of Estrogen, Alanine amino transferase (SGPT), Aspartate amino transferase (SGOT), total protein and albumin were estimated.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17880731",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D004798"
+  ],
+  "exact_answer": "Yes"
+}

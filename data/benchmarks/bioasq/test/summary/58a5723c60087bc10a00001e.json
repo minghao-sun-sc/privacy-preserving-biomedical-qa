@@ -1,0 +1,44 @@
+{
+  "id": "58a5723c60087bc10a00001e",
+  "type": "summary",
+  "question": "What is the benserazide's mechanism of function when co-administered with L-DOPA in patients with Parkinson's Disease?",
+  "ideal_answer": "Benserazide is a peripheral decarboxylase inhibitor. Benserazide in combination with L-DOPA constitutes a slow-release formulation of L-DOPA in patients with Parkinson's disease (PD), it reduces peaks and rapid fluctuations of L-DOPA plasma levels (possibly responsible for peak-dose dyskinesias and end-of-dose deterioration) and considered as the best available therapy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20303948",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3768865",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12703659",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11166288",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8584079",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11587490",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25511986",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6437857",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9372552",
+    "http://www.ncbi.nlm.nih.gov/pubmed/452602"
+  ],
+  "snippets": [
+    {
+      "text": "Recent human and animal biochemical investigations clearly confirm and extend previous findings indicating that benserazide is much more potent than carbidopa as peripheral decarboxylase inhibitor. L-DOPA in combination with benserazide or carbidopa constitutes the best available therapy for Parkinson's disease (PD). To reduce peaks and rapid fluctuations of L-DOPA plasma levels (possibly responsible for peak-dose dyskinesias and end-of-dose deterioration) a slow-release formulation of L-DOPA in combination with benserazide or with benserazide plus catechol-O-methyltransferase inhibitors should be developed. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/6437857",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In an open label study 63 patients with idiopathic Parkinson's disease suffering from end-of-dose akinesia were switched from a treatment with a L-DOPA standard formulation to a combined therapy of L-DOPA standard in the morning and L-DOPA slow release (levodopa, benserazide, Madopar Depot) at the remaining single doses.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8584079",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the present study, L-dopa and benserazide were loaded by poly (lactic-co-glycolic acid) microspheres (LBM), which can release levodopa and benserazide in a sustained manner in order to continuous stimulate dopaminergic receptors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25511986",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:14330",
+    "http://www.biosemantics.org/jochem#http://www.biosemantics.org/jochem#:4275540",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D010300",
+    "http://www.biosemantics.org/jochem#4275540"
+  ]
+}

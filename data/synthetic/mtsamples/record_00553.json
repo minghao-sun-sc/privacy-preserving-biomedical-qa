@@ -1,0 +1,36 @@
+{
+  "document_id": "record_00553",
+  "original_length": 2700,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": ", Mediastinal exploration with repair of right atrium.,ANESTHESIA: , General endotracheal.,INDICATIONS: , The patient had undergone mitral valve repair about seven days ago.  He had epicardial paci...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PHONE_NUMBER"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PHONE_NUMBER"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

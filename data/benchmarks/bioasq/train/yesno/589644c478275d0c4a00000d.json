@@ -1,0 +1,41 @@
+{
+  "id": "589644c478275d0c4a00000d",
+  "type": "yesno",
+  "question": "Have the promoter regions of the genes implicated in Rett Syndrome been characterized with CAGE?",
+  "ideal_answer": "Yes. Promoter regions of the genes implicated in Rett Syndrome have been characterized using CAGE.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25539566"
+  ],
+  "snippets": [
+    {
+      "text": "CAGE-defined promoter regions of the genes implicated in Rett Syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25539566",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Mutations in three functionally diverse genes cause Rett Syndrome. Although the functions of Forkhead box G1 (FOXG1), Methyl CpG binding protein 2 (MECP2) and Cyclin-dependent kinase-like 5 (CDKL5) have been studied individually, not much is known about their relation to each other with respect to expression levels and regulatory regions. Here we analyzed data from hundreds of mouse and human samples included in the FANTOM5 project, to identify transcript initiation sites, expression levels, expression correlations and regulatory regions of the three genes.RESULTS: Our investigations reveal the predominantly used transcription start sites (TSSs) for each gene including novel transcription start sites for FOXG1. We show that FOXG1 expression is poorly correlated with the expression of MECP2 and CDKL5. We identify promoter shapes for each TSS, the predicted location of enhancers for each gene and the common transcription factors likely to regulate the three genes. Our data imply Polycomb Repressive Complex 2 (PRC2) mediated silencing of Foxg1 in cerebellum.CONCLUSIONS: Our analyses provide a comprehensive picture of the regulatory regions of the three genes involved in Rett Syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25539566",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CAGE-defined promoter regions of the genes implicated in Rett Syndrome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25539566",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "CAGE-defined promoter regions of the genes implicated in Rett Syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25539566",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015518",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011401",
+    "http://www.disease-ontology.org/api/metadata/DOID:1206"
+  ],
+  "exact_answer": "Yes"
+}

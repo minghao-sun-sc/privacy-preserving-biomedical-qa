@@ -1,0 +1,32 @@
+{
+  "id": "5c85234775a4a5d219000007",
+  "type": "factoid",
+  "question": "What antibiotic is currently used as the standard of care for Clostridium Difficile infection as of 2018",
+  "ideal_answer": "Fidaxomicin has recently been introduced as a new antibiotic that has been shown to significantly reduce the recurrence of this infection. Fidaxomicin is a new antibiotic used to treat Clostridium difficile infection (CDI).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27601193",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28009682"
+  ],
+  "snippets": [
+    {
+      "text": " Fidaxomicin has recently been introduced as a new antibiotic that has been shown to significantly reduce the recurrence of this infection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27601193",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Fidaxomicin is a new antibiotic used to treat Clostridium difficile infection (CDI). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28009682",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Outcomes With Fidaxomicin Therapy in Clostridium difficile Infection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28009682",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Fidaxomicin"
+}

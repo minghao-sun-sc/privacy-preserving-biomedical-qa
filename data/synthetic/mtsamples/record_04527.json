@@ -1,0 +1,52 @@
+{
+  "document_id": "record_04527",
+  "original_length": 3496,
+  "synthetic_length": 604,
+  "attributes": {
+    "Diagnosis": "/ DIAGNOSIS:, [person] Prolapse. Palpitations.,TESTS ORDERED:, Cardiac tests: Echocardiogram.,MEDICATION PRESCRIBED:, ,Cardizem 30-60 qid prn.",
+    "Symptoms": "",
+    "Treatment": "Patient with palpitations and rcent worsening of chronic chest discomfort. Chest discomfort & palpitations - Consult.",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": false,
+  "iterations_required": 3,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "URL",
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 2,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    }
+  ]
+}

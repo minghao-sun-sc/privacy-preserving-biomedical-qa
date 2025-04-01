@@ -1,0 +1,43 @@
+{
+  "id": "55192f20622b194345000014",
+  "type": "list",
+  "question": "Which proteins are the different members of the NF-kappaB family of transcription factors?",
+  "ideal_answer": "Nuclear factor kappa B (NF\u03baB) is a dimeric transcription factor comprised of five family members RelA (p65), RelB, c-Rel, NF-kB1/p50 and NF-kB2/p52.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21122287",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22405852",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9129142",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9950430"
+  ],
+  "snippets": [
+    {
+      "text": "The transcription factor NF-kappaB is composed of homodimeric and heterodimeric complexes of Rel/NF-kappaB-family polypeptides, which include Rel-A, c-Rel, Rel-B, NF-kappaB/p50 and NF-kappaB2/p52 .",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9950430",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nuclear factor kappa B (NF\u03baB) is a dimeric transcription factor comprised of five family members RelA (p65), RelB, c-Rel, p50 and p52.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22405852",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In mammals, the genes rela, relb, crel, nfkappa\u03921, and nfkappaB encode the five NF-kB protein family members RelA (p65), RelB, c-Rel, p50, and p52, respectively, which form homo- and heterodimeric DNA-binding complexes capable of regulating target gene transcription of specific biological responses differentially.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21122287",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest that the Rel-homology domain can act as an allosteric effector to promote transcription by p50/NFkappaB1 and that the configuration of p50 is important for its activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9129142",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4263986",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016328"
+  ],
+  "exact_answer": "RelA, p65, RelB, c-Rel, NF-kB1/p50, NF-kB2/p52"
+}

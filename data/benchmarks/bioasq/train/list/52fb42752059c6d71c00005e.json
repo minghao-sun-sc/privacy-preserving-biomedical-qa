@@ -1,0 +1,60 @@
+{
+  "id": "52fb42752059c6d71c00005e",
+  "type": "list",
+  "question": "Which are the thyroid hormone analogs utilized in human studies?",
+  "ideal_answer": "TRIAC and TETRAC are two different thyroid hormone analogs utilized in human studies",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18954857",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20187783",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22947347",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7608251",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18080776",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16384862",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19903697",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23970761",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23307789",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22123068",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3730832",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1193013",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9001190",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23298477",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18386142",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23565368",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21896621"
+  ],
+  "snippets": [
+    {
+      "text": "Here, we evaluate the therapeutic potential of the TH analog 3,5,3',5'-tetraiodothyroacetic acid (tetrac) as a replacement for T(4) in brain development. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23307789",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This treatment was sufficient to promote TH-dependent neuronal differentiation in the cerebellum, cerebral cortex, and striatum but was ineffective in suppressing hypothalamic TRH expression. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23307789",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the current study, we investigated the effect of a natural thyroid hormone analogue - 3, 3?, 5-triiodo-thyroacetic acid (TRIAC) on regulating proliferation and differentiation and its possible molecular mechanism in normal human epidermal keratinocytes and C57BL/6 mice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23298477",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TRIAC was effective and safe in ameliorating the effects of hyperthyroidism and ADHD symptoms in a child with known genetic RTH.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22947347",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013963",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011455",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014284",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006730",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011988",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013956"
+  ],
+  "exact_answer": "TRIAC, TETRAC"
+}

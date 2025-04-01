@@ -1,0 +1,36 @@
+{
+  "document_id": "record_02205",
+  "original_length": 2960,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Postoperative wound infection, complicated (ICD-9 code 998.59).,POSTOP DIAGNOSIS: , Postoperative wound infection, complicated (ICD-9 code 998.59).,PROCEDURE DETAIL:  ,The patient is a 59-year-ol...",
+    "Symptoms": "",
+    "Treatment": "Infectious disease evaluation and treatment",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',POSTOP DIAGNOSIS: , Postoperative wound infection...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01096",
+  "original_length": 3970,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Acute ST-elevation myocardial infarction, culprit lesion, left anterior descending occlusion.\n- Two-vessel coronary disease.\n- Mild-to-moderate impaired LV systolic function.\n- Successful stent ...",
+    "Symptoms": "",
+    "Treatment": "report.,PROCEDURES:\n- Left heart catheterization, coronary angiography, left ventriculography.\n- PTCA/Endeavor stent, proximal LAD.,INDICATIONS: , Acute anterior ST-elevation MI.,ACCESS: , Right fe...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Left heart catheterization, coronary angiography, ...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "5c596ad686df2b9174000015",
+  "type": "list",
+  "question": "Which integrin genes are activated by the immune system in inflammatory bowel disease?",
+  "ideal_answer": "ITGA4, ITGB8, ITGAL and ICAM1. In all four cases, the expression-increasing allele also increases disease risk.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28067908"
+  ],
+  "snippets": [
+    {
+      "text": "Genetic association studies have identified 215 risk loci for inflammatory bowel disease, thereby uncovering fundamental aspects of its molecular biology. We performed a genome-wide association study of 25,305 individuals and conducted a meta-analysis with published summary statistics, yielding a total sample size of 59,957 subjects. We identified 25 new susceptibility loci, 3 of which contain integrin genes that encode proteins in pathways that have been identified as important therapeutic targets in inflammatory bowel disease. The associated variants are correlated with expression changes in response to immune stimulus at two of these genes (ITGA4 and ITGB8) and at previously implicated loci (ITGAL and ICAM1). In all four cases, the expression-increasing allele also increases disease risk. We also identified likely causal missense variants in a gene implicated in primary immune deficiency, PLCG2, and a negative regulator of inflammation, SLAMF8. Our results demonstrate that new associations at common variants continue to identify genes relevant to therapeutic target identification and prioritization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28067908",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The associated variants are correlated with expression changes in response to immune stimulus at two of these genes (ITGA4 and ITGB8) and at previously implicated loci (ITGAL and ICAM1).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28067908",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "ITGA4, ITGB8, ITGAL, ICAM1"
+}

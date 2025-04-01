@@ -1,0 +1,36 @@
+{
+  "document_id": "record_03589",
+  "original_length": 2986,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": ", Dysphagia.,POSTPROCEDURE DIAGNOSIS: , Active reflux esophagitis, distal esophageal stricture, ring due to reflux esophagitis, dilated with balloon to 18 mm.,PROCEDURE: , Informed consent was obta...",
+    "Symptoms": "",
+    "Treatment": "Endoscopy",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: NRP",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',POSTPROCEDURE DIAGNOSIS: , Active reflux esophagi...'"
+      ],
+      "pii_detected": [
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

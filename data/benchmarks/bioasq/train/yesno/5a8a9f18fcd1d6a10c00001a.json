@@ -1,0 +1,60 @@
+{
+  "id": "5a8a9f18fcd1d6a10c00001a",
+  "type": "yesno",
+  "question": "Is NEMO a zinc finger protein?",
+  "ideal_answer": "NEMO function is mediated by two distal ubiquitin binding domains located in the regulatory C-terminal domain of the protein: the coiled-coil 2-leucine zipper (CC2-LZ) domain and the zinc finger (ZF) domain.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26224629",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21622571",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28814200",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25734227",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24100029",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28035815"
+  ],
+  "snippets": [
+    {
+      "text": "To better understand the thermodynamics and dynamics of the zinc finger of NEMO (NF-\u03baB essential modulator)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28035815",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "an alteration in the zinc finger domain of NEMO (K392R) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26224629",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CYLD and the NEMO Zinc Finger Regulate Tumor Necrosis Factor Signaling and Early Embryogenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26224629",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "our simulations of the zinc finger NEMO",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25734227",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "An important regulatory domain of NF-[Formula: see text]B Essential Modulator (NEMO) is a ubiquitin-binding zinc finger, with a tetrahedral CYS3HIS1 zinc-coordinating binding site.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28814200",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "NEMO function is mediated by two distal ubiquitin binding domains located in the regulatory C-terminal domain of the protein: the coiled-coil 2-leucine zipper (CC2-LZ) domain and the zinc finger (ZF) domain. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24100029",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " We show here that the NEMO C terminus, comprising the ubiquitin binding region and a zinc finger,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21622571",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

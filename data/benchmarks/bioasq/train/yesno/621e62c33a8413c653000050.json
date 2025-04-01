@@ -1,0 +1,25 @@
+{
+  "id": "621e62c33a8413c653000050",
+  "type": "yesno",
+  "question": "Are there any R packages that help with visualizing data on spirals?",
+  "ideal_answer": "Yes. Spiralize is an R package for visualizing data on spirals.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34849585"
+  ],
+  "snippets": [
+    {
+      "text": "spiralize: an R package for Visualizing Data on Spirals.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34849585",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Spiral layout has two major advantages for data visualization. First, it is able to visualize data with long axes, which greatly improves the resolution of visualization. Second, it is efficient for time series data to reveal periodic patterns. Here we present the R package spiralize that provides a general solution for visualizing data on spirals. spiralize implements numerous graphics functions so that self-defined high-level graphics can be easily implemented by users. The flexibility and power of spiralize are demonstrated by five examples from real-world datasets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34849585",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

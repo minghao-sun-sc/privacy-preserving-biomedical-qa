@@ -1,0 +1,174 @@
+{
+  "id": "5354f289288f4dae47000008",
+  "type": "list",
+  "question": "Name five programs for transcript quantification from RNASeq experiments",
+  "ideal_answer": "Popular programs for transcript quantification from RNASeq experiments include: Cufflinks, RSEM, Flux Capacitor, Mitie, Miso, Tigar, Montebello, Drut, Traph, Pome, IsoformEx, Neuma,",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20436464",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24209455",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21896509",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23616006",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23888185",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23821651",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23349747",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22537040",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21816040",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22072384",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24130305",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21106091",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22285831",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21059678",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21794104",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23980025",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23329413",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23155066",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23461570",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23202426",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23734627",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22592379"
+  ],
+  "snippets": [
+    {
+      "text": "Splicing Analysis Kit (Spanki",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24209455",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ORMAN ( O ptimal R esolution of M ultimapping A mbiguity of R N A-Seq Reads), which aims to compute the minimum number of potential transcript products for each gene and to assign each multimapping read to one of these transcripts based on the estimated distribution of the region covering the read.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24130305",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MITIE (Mixed Integer Transcript IdEntification) for simultaneous transcript reconstruction and quantification.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23980025",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Montebello, an integrated statistical approach which performs simultaneous isoform discovery and quantification by using a Monte Carlo simulation to find the most likely isoform composition",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23888185",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "IGAR: transcript isoform abundance estimation method with gapped alignment of RNA-Seq data",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23821651",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "a statistical method to estimate transcript isoform abundances from RNA-Seq data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23821651",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RNA-Seq data with TopHat and Cufflinks",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23616006",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Experimental results on prediction accuracy show that our method is very competitive with popular tools such as Cufflinks and IsoLasso. Our tool, called Traph",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23734627",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "By resolving the linear system with LASSO, our approach can infer an accurate set of dominantly expressed transcripts while existing methods tend to assign positive expression to every candidate isoform",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23461570",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the Minimum Unique Length Tool (MULTo), a framework for efficient and comprehensive representation of mappability information, through identification of the shortest possible length required for each genomic coordinate to become unique in the genome and transcriptome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23349747",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " a pipeline for processing and analyzing RNA-Seq data, that we have named Grape (Grape RNA-Seq Analysis Pipeline Environment)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23329413",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our method, referred as Discovery and Reconstruction of Unannotated Transcripts (DRUT), can be used to enhance existing transcriptome assemblers, such as Cufflinks, as well as to accurately estimate the transcript frequencies",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23202426",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DiffSplice",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23155066",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Omicsoft sequence aligner (OSA), a fast and accurate alignment tool for RNA-Seq data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22592379",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " two popular tools for isoform quantification, MISO and Cufflinks",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22537040",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The method is implemented in the seqbias R/Bioconductor package, available freely under the LGPL license",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22285831",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Poisson mixed-effects (POME) model to characterize base-level read coverage within each transcript",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22072384",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SpliceTrap, a method to quantify exon inclusion levels using paired-end RNA-seq data",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21896509",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present RSEM, an user-friendly software package for quantifying gene and isoform abundances from single-end or paired-end RNA-Seq data",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21816040",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We propose a novel algorithm (IsoformEx) that employs weighted non-negative least squares estimation method to estimate the expression levels of transcript isoforms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21794104",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rnnotator, an automated software pipeline that generates transcript models by de novo assembly of RNA-Seq data without the need for a reference genome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21106091",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we introduce such algorithms in an open-source software program called Cufflinks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20436464",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "propose a novel, efficient and intuitive approach of estimating mRNA abundances from the whole transcriptome shotgun sequencing (RNA-Seq) data. Our method, NEUMA (Normalization by Expected Uniquely Mappable Area), is based on effective length normalization using uniquely mappable areas of gene and mRNA isoform models.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21059678",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017423"
+  ],
+  "exact_answer": "Cufflinks, RSEM, Flux Capacitor, Mitie, Miso, Tigar, Montebello, Drut, Traph, Pome, IsoformEx, Neuma"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "5c6582207c78d69471000001",
+  "type": "yesno",
+  "question": "Is lucatumumab a polyclonal antibody?",
+  "ideal_answer": "No, lucatumumab is a a monoclonal antibody against CD40.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22861192"
+  ],
+  "snippets": [
+    {
+      "text": "A phase 1 study of lucatumumab, a fully human anti-CD40 antagonist monoclonal antibody administered intravenously to patients with relapsed or refractory multiple myeloma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22861192",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In this open-label, multicentre, phase 1 study a fully human anti-CD40 antagonist monoclonal antibody, lucatumumab, was evaluated in patients with relapsed/refractory multiple myeloma (MM).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22861192",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

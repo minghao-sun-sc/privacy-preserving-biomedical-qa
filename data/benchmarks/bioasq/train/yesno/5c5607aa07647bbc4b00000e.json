@@ -1,0 +1,86 @@
+{
+  "id": "5c5607aa07647bbc4b00000e",
+  "type": "yesno",
+  "question": "Is durvalumab used for lung cancer treatment?",
+  "ideal_answer": "Yes, Durvalumab is an anti-PDL-1 antibody that is used for treatment of non-small-cell lung cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29069302",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30012210",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29593890",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28585617",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28664936",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30489337",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28705024",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29239189",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30116683",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29958099",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29140105",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29358503",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29760563",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29303787",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29545095",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28885881",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27196116",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28960263",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28512504",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30327351"
+  ],
+  "snippets": [
+    {
+      "text": " In the phase III PACIFIC trial consolidation with durvalumab, an anti-PDL-1 antibody, was associated with survival benefit in patients diagnosed with LA-NSCLC who responded to concurrent chemoradiotherapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30489337",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "METHODS: An electronic literature search was performed of public databases (MEDLINE, Excerpta Medica dataBASE [EMBASE], and Cochrane) and conference proceedings for trials using PD-1 inhibitors (nivolumab and pembrolizumab) and PD-L1 inhibitors (atezolizumab, durvalumab, and avelumab) in patients with NSCLC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28960263",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Durvalumab in non-small-cell lung cancer patients: current developments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29140105",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Single-agent durvalumab showed clinical efficacy and a manageable safety profile in advanced non-small-cell lung cancer, particularly the \u226525% PD-L1+ population.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29140105",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Six drugs including one CTLA-4 blocker (ipilimumab), two PD-1 blockers (nivolumab and pembrolizumab) and three PD-L1 blockers (atezolizumab, avelumab and durvalumab) are approved for the treatment of different types of cancers including both solid tumors such as melanoma, lung cancer, head and neck cancer, bladder cancer and Merkel cell cancer as well as hematological tumors such as classic Hodgkin's lymphoma. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069302",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PURPOSE OF REVIEW: The therapeutic armamentarium for advanced non-small-cell lung cancer has evolved considerably over the past years. Immune checkpoint inhibitors targeting programmed cell death-1 such as pembrolizumab and nivolumab or programmed cell death ligand 1 such as atezolizumab, durvalumab and avelumab have shown favorable efficacy results in this patient population in the first-line and second-line setting.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29303787",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, preclinical and early clinical evidence suggests that chemotherapy and radiation may work synergistically with anti-PD-1/PD-L1 therapy to promote antitumor immunity, which has led to the initiation of clinical trials testing these drugs in patients with stage III NSCLC. A preliminary report of a randomized phase III trial, the PACIFIC trial, demonstrated an impressive increase in median progression-free survival with consolidative durvalumab, a PD-L1 inhibitor, compared with observation after cCRT. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29358503",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ICI, such as the PD-1 inhibitors nivolumab and pembrolizumab and the PD-L1 inhibitor atezolizumab, have already been marketed for the treatment of pretreated patients with advanced NSCLC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28705024",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The PACIFIC trial assessing durvalumab after standard chemoradiotherapy for locally advanced NSCLC has already met its primary endpoint and the potential of durvalumab will be reinforced if phase III randomized studies of first-line (MYSTIC trial) and second or subsequent (ARCTIC trial) lines of therapy demonstrate superiority over the current standard of care.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28705024",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

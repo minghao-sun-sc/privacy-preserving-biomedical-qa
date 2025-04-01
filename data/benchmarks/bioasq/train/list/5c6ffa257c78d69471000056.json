@@ -1,0 +1,26 @@
+{
+  "id": "5c6ffa257c78d69471000056",
+  "type": "list",
+  "question": "Please list the 4 genes involved in Sanfilippo syndrome, also known as mucopolysaccharidosis III (MPS-III).",
+  "ideal_answer": "Mucopolysaccharidosis type III (MPS III, Sanfilippo syndrome) is a lysosomal storage disorder, caused by a deficiency in one of the four enzymes involved in the catabolism of glycosaminoglycan heparan sulfate. The genes are SGSH, NAGLU, HGSNAT or GNS.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27100513",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21910976"
+  ],
+  "snippets": [
+    {
+      "text": "This disease is a complex of four conditions caused by dysfunctions of one of genes coding for lysosomal enzymes involved in degradation of heparan sulfate: SGSH (coding for heparan N-sulfatase) - causing MPS IIIA, NAGLU (coding for alpha-N-acetylglucosaminidase) - causing MPS IIIB, HGSNAT (coding for acetyl CoA alpha-glucosaminide acetyltransferase) - causing MPS IIIC), and GNS (coding for N-acetylglucosamine-6-sulfatase) - causing MPS IIID.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27100513",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MPS III results from a deficiency in one of the four enzymes involved in the heparan sulfate degradation, with sulfamidase (SGSH), \u03b1-N-acetylglucosaminidase (NAGLU), acetyl-coenzyme A: \u03b1-glucosaminide N-acetyltransferase (HGSNAT), and N-acetylglucosamine-6-sulfatase (GNS) being deficient respectively in MPS IIIA, MPS IIIB, MPS IIIC and MPS IIID. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21910976",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "SGSH, NAGLU, HGSNAT, GNS"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "6026ee821cb411341a0000d3",
+  "type": "yesno",
+  "question": "Is eptinezumab a small molecule?",
+  "ideal_answer": "No, eptinezumab is a humanized monoclonal antibody.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32266704"
+  ],
+  "snippets": [
+    {
+      "text": "Eptinezumab-jjmr (referred to as eptinezumab hereafter; Vyepti\u2122) is a humanised monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) and blocks its binding to the receptor. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32266704",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04547",
+  "original_length": 2039,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- First-degree and second-degree burns, right arm secondary to hot oil spill.\n- Workers' Compensation industrial injury.,TREATMENT: , The wound is cooled and cleansed with soaking in antiseptic so...",
+    "Symptoms": "",
+    "Treatment": ", The wound is cooled and cleansed with soaking in antiseptic solution.  The patient was ordered Demerol 50 mg IM for pain, but he refused and did not want pain medication.  A burn dressing is appl...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Demerol 50 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON, LOCATION"
+      ],
+      "pii_detected": [
+        "PERSON",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

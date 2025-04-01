@@ -1,0 +1,33 @@
+{
+  "document_id": "record_02635",
+  "original_length": 3349,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "\n- Dilatation and curettage.\n- Laparoscopy.\n- Injection of indigo carmine dye.,GROSS FINDINGS: , The uterus was anteverted, firm, enlarged, irregular, and mobile.  The cervix is nulliparous without...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',GROSS FINDINGS: , The uterus was anteverted, firm...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

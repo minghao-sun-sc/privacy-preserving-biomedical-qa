@@ -1,0 +1,26 @@
+{
+  "id": "6410eb95201352f04a00002e",
+  "type": "list",
+  "question": "Which splicing factors have been associated with alternative splicing in PLN R14del hearts?",
+  "ideal_answer": "Bioinformatical analysis pointed to the tissue-specific splicing factors Srrm4 and Nova1 as likely upstream regulators of the observed splicing changes in the PLN-R14del cardiomyocytes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/36375644",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33941934"
+  ],
+  "snippets": [
+    {
+      "text": "Our work suggests that an intricate interplay of programs controlling gene expression levels and AS is fundamental to organ development, especially for the brain and heart.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33941934",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bioinformatical analysis pointed to the tissue-specific splicing factors Srrm4 and Nova1 as likely upstream regulators of the observed splicing changes in the PLN-R14del cardiomyocytes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36375644",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Srrm4, Nova1"
+}

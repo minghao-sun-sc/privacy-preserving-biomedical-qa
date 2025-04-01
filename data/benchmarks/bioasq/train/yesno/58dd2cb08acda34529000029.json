@@ -1,0 +1,78 @@
+{
+  "id": "58dd2cb08acda34529000029",
+  "type": "yesno",
+  "question": "Is autophagy the process where bacteria ingest viral particles?",
+  "ideal_answer": "Autophagy, a cellular degradation process",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24906121",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23121192",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27814601",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21946213",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23388380",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21175768",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27027951",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24198400",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24384599",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27812870"
+  ],
+  "snippets": [
+    {
+      "text": "Autophagy, a cellular degradation process",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27812870",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Autophagy, a form of lysosomal degradation capable of eliminating dysfunctional proteins and organelles, is a cellular process associated with homeostasis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27814601",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Autophagy, a programmed process in which cell contents are delivered to lysosomes for degradation, appears to have both tumor-suppressive and tumor-promoting functions; both stimulation and inhibition of autophagy have been reported to induce cancer cell death, and particular genes and proteins have been associated both positively and negatively with autophagy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24906121",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Autophagy is a lysosome-mediated catabolic process involving the degradation of intracellular contents (e.g., proteins and organelles) as well as invading microbes (e.g., parasites, bacteria and viruses).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23388380",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Autophagy is a cellular process that targets proteins, lipids and organelles to lysosomes for degradation, but it has also been shown to combat infection with various pathogenic bacteria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24384599",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Autophagy, an intracellular degradation process highly conserved from yeast to humans, is viewed as an important defence mechanism to clear intracellular bacteria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23121192",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Autophagy has intracellular anti-viral and anti-bacterial functions, and plays a role in the initiation of innate and adaptive immune system responses to viral and bacterial infections.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21175768",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "documented abundant autophagy within VZV-infected cells throughout the infectious cycle but also demonstrated that VZV-induced autophagy facilitated VZV glycoprotein biosynthesis and processing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24198400",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Autophagy is a highly conserved process by which cells can recycle organelles and proteins by degrading them in the lysosomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27027951",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001343"
+  ],
+  "exact_answer": "Yes"
+}

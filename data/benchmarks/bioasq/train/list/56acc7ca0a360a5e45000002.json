@@ -1,0 +1,54 @@
+{
+  "id": "56acc7ca0a360a5e45000002",
+  "type": "list",
+  "question": "List available tools for genomic visualisation in comparative genomics",
+  "ideal_answer": "Insyght, Genomicus and Sockeye.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25249626",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15123592",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23193262"
+  ],
+  "snippets": [
+    {
+      "text": "Insyght: navigating amongst abundant homologues, syntenies and gene functional annotations in bacteria, it's that symbol!",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25249626",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Insyght is a comparative genomic visualization tool that combines three complementary displays: (i) a table for thoroughly browsing amongst homologues, (ii) a comparator of orthologue functional annotations and (iii) a genomic organization view designed to improve the legibility of rearrangements and distinctive loci",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25249626",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Genomicus: five genome browsers for comparative genomics in eukaryota",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23193262",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Genomicus (http://www.dyogen.ens.fr/genomicus/) is a database and an online tool that allows easy comparative genomic visualization in>150 eukaryote genomes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23193262",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sockeye: a 3D environment for comparative genomics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15123592",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We have developed a Java-based application called Sockeye that uses three-dimensional (3D) graphics technology to facilitate the visualization of annotation and conservation across multiple sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15123592",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D023281",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016678"
+  ],
+  "exact_answer": "Insyght, Genomicus, Sockeye"
+}

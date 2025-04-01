@@ -1,0 +1,89 @@
+{
+  "id": "515bd543298dcd4e51000001",
+  "type": "list",
+  "question": "In which isochores are Alu elements enriched?",
+  "ideal_answer": "Alu elements are enriched in high GC% isochores due to reduced Alu loss by recombination in these regions. The frequency of Alu sequences increases with increasing GC, but attains a maximum in H2 isochores.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/8828040",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19543403",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9931467",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15871047",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22057813",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11591470",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6572942",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7723057"
+  ],
+  "snippets": [
+    {
+      "text": " the vast majority of Alu sequences were shown to have the highest density in GC-rich isochores",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22057813",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Alu sequences being unstable in the GC-poor isochores but stable in the compositionally matching GC-rich isochores,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22057813",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Alu retrotransposons do not show a homogeneous distribution over the human genome but have a higher density in GC-rich (H) than in AT-rich (L) isochores",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15871047",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "This result, together with the known higher selective disadvantage of recombination products in H isochores, points to Alu-Alu recombination as the main agent provoking the density shift of Alus toward the GC-rich parts of the genome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15871047",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "whereas GC-rich Alus are mostly present in GC-rich isochores",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11591470",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "the present results on Alu and LINE stability/exclusion predict significant losses of Alu DNA from the GC-poor isochores during evolution, a phenomenon apparently due to negative selection against sequences that differ from the isochore composition",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11591470",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The frequency of Alu sequences also increases with increasing GC, but attains a maximum in H2 isochores, in agreement with previous experimental data",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9931467",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The CpG levels of both Alus and CpG islands increase with their GC levels",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9931467",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "characterized as a GC-rich isochore enriched for CpG islands, genes, and Alu-like repeats",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8828040",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Microsatellites and SINES (Alu, B1, B2) are found at roughly equal frequencies in introns from all isochore classes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7723057",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The results indicate that the short repeats of the B1 family of mouse and of the Alu I family of man are most frequent in the heavy components, whereas the long repeats of the BamHI family of mouse and of the Kpn I family of man are mainly present in the two light components.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/6572942",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D032085",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020087"
+  ],
+  "exact_answer": "H2, H3"
+}

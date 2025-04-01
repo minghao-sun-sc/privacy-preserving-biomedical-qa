@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03942",
+  "original_length": 2420,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  Morbid obesity.  BMI is 51.,DISCHARGE DIAGNOSIS: , Morbid obesity.  BMI is 51.,PROCEDURE: , Laparoscopic gastric bypass.,SERVICE: , Surgery.,CONSULT: , Anesthesia and pain.,HISTORY OF PRESENT IL...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON, LOCATION, NRP"
+      ],
+      "pii_detected": [
+        "PERSON",
+        "LOCATION",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

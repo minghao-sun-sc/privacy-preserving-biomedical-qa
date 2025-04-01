@@ -1,0 +1,38 @@
+{
+  "id": "602918381cb411341a00010c",
+  "type": "list",
+  "question": "Which tools have been developed for identifying and visualising ncRNA promoters?",
+  "ideal_answer": "Epd, ncpro-ml and ucsc genome browser are tools that have been developed for identifying and visualising ncRNA promoters.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31680159",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33005306"
+  ],
+  "snippets": [
+    {
+      "text": "EPD in 2020: enhanced data visualization and extension to ncRNA promoters.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31680159",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The Eukaryotic Promoter Database (EPD), available online at https://epd.epfl.ch, provides accurate transcription start site (TSS) information for promoters of 15 model organisms plus corresponding functional genomics data that can be viewed in a genome browser, queried or analyzed via web interfaces, or exported in standard formats (FASTA, BED, CSV) for subsequent analysis with other tools. Recent work has focused on the improvement of the EPD promoter viewers, which use the UCSC Genome Browser as visualization platform. Thousands of high-resolution tracks for CAGE, ChIP-seq and similar data have been generated and organized into public track hubs. Customized, reproducible promoter views, combining EPD-supplied tracks with native UCSC Genome Browser tracks, can be accessed from the organism summary pages or from individual promoter entries. Moreover, thanks to recent improvements and stabilization of ncRNA gene catalogs, we were able to release promoter collections for certain classes of ncRNAs from human and mouse. Furthermore, we developed automatic computational protocols to assign orphan TSS peaks to downstream genes based on paired-end (RAMPAGE) TSS mapping data, which enabled us to add nearly 9000 new entries to the human promoter collection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31680159",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ncPro-ML: An integrated computational tool for identifying non-coding RNA promoters in multiple species.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33005306",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The promoter is located near the transcription start sites and regulates transcription initiation of the gene. Accurate identification of promoters is essential for understanding the mechanism of gene regulation. Since experimental methods are costly and ineffective, developing efficient and accurate computational tools to identify promoters are necessary. Although a series of methods have been proposed for identifying promoters, none of them is able to identify the promoters of non-coding RNA (ncRNA). In the present work, a new method called ncPro-ML was proposed to identify the promoter of ncRNA in Homo sapiens and Mus musculus, in which different kinds of sequence encoding schemes were used to convert DNA sequences into feature vectors. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33005306",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Eukaryotic Promoter Database, EPD, ncPro-ML"
+}

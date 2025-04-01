@@ -1,0 +1,24 @@
+{
+  "id": "620058b3c9dfcb9c09000016",
+  "type": "summary",
+  "question": "Describe ANTISOMA",
+  "ideal_answer": "The ANTISOMA method is a computerized pipeline for the reduction of the aggregation tendency of monoclonal antibodies (mAbs) based on an automated amino acid substitution approach. The method is available online at http://bioinformatics.biol.uoa.gr/antisoma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32468552"
+  ],
+  "snippets": [
+    {
+      "text": "ANTISOMA: A Computational Pipeline for the Reduction of the Aggregation Propensity of Monoclonal Antibodies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32468552",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "ANTISOMA is a pipeline for the reduction of the aggregation tendency of mAbs through the decrease in their intrinsic aggregation propensity, based on an automated amino acid substitution approach. The method takes into consideration the special features of mAbs and aims at proposing specific point mutations that could lead to the redesign of those promising therapeutics, without affecting their epitope-binding ability. The method is available online at http://bioinformatics.biol.uoa.gr/ANTISOMA .",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32468552",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

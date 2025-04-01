@@ -1,0 +1,50 @@
+{
+  "document_id": "record_03413",
+  "original_length": 6411,
+  "synthetic_length": 604,
+  "attributes": {
+    "Diagnosis": "atherosclerotic change in the aortic knob.\n- On 3/26/2006, chest, portable, single view. Impression: Mild tortuosity of the thoracic aorta, maybe secondary to hypertension; right lateral costophren...",
+    "Symptoms": "",
+    "Treatment": "S:\n- On 3/26/2006, portable chest, single view. Impression: atherosclerotic change in the aortic knob.\n- On 3/26/2006, chest, portable, single view. Impression: Mild tortuosity of the thoracic aort...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "aspirin 325 mg, Zocor 20 mg, Cipro 250 mg"
+  },
+  "is_safe": false,
+  "iterations_required": 3,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 2,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    }
+  ]
+}

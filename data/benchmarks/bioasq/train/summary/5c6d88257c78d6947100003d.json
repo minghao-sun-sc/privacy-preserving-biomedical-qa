@@ -1,0 +1,48 @@
+{
+  "id": "5c6d88257c78d6947100003d",
+  "type": "summary",
+  "question": "Describe CGmapTools",
+  "ideal_answer": "CGmapTools improves the precision of heterozygous SNV calls and supports allele-specific methylation detection and visualization in bisulfite-sequencing data.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28968643"
+  ],
+  "snippets": [
+    {
+      "text": "CGmapTools improves the precision of heterozygous SNV calls and supports allele-specific methylation detection and visualization in bisulfite-sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968643",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "DNA methylation is important for gene silencing and imprinting in both plants and animals. Recent advances in bisulfite sequencing allow detection of single nucleotide variations (SNVs) achieving high sensitivity, but accurately identifying heterozygous SNVs from partially C-to-T converted sequences remains challenging.Results: We designed two methods, BayesWC and BinomWC, that substantially improved the precision of heterozygous SNV calls from \u223c80% to 99% while retaining comparable recalls. With these SNV calls, we provided functions for allele-specific DNA methylation (ASM) analysis and visualizing the methylation status on reads. Applying ASM analysis to a previous dataset, we found that an average of 1.5% of investigated regions showed allelic methylation, which were significantly enriched in transposon elements and likely to be shared by the same cell-type. A dynamic fragment strategy was utilized for DMR analysis in low-coverage data and was able to find differentially methylated regions (DMRs) related to key genes involved in tumorigenesis using a public cancer dataset. Finally, we integrated 40 applications into the software package CGmapTools to analyze DNA methylomes. This package uses CGmap as the format interface, and designs binary formats to reduce the file size and support fast data retrieval, and can be applied for context-wise, gene-wise, bin-wise, region-wise and sample-wise analyses and visualizations.Availability and implementation: The CGmapTools software is freely available at https://cgmaptools.github.io/.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968643",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, we integrated 40 applications into the software package CGmapTools to analyze DNA methylomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968643",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, we integrated 40 applications into the software package CGmapTools to analyze DNA methylomes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968643",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, we integrated 40 applications into the software package CGmapTools to analyze DNA methylomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968643",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This package uses CGmap as the format interface, and designs binary formats to reduce the file size and support fast data retrieval, and can be applied for context-wise, gene-wise, bin-wise, region-wise and sample-wise analyses and visualizations.<br><b>Availability and implementation</b>: The CGmapTools software is freely available at https://cgmaptools.github.io/.<br><b>Contact</b>: guoweilong@cau.edu.cn.<br><b>Supplementary information</b>: Supplementary data are available at Bioinformatics online.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968643",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

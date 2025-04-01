@@ -1,0 +1,70 @@
+{
+  "id": "532f49f8d6d3ac6a34000035",
+  "type": "list",
+  "question": "What is the triple screening test performed during pregnancy measuring?",
+  "ideal_answer": "Alpha-fetoprotein (AFP), human chorionic gonadotropin (hCG) and unconjugated estriol (uE3)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/7522195",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9333577",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11925409",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20120938",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18817910",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7688977",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18839465",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11920888"
+  ],
+  "snippets": [
+    {
+      "text": "AFP--1.18 MoM and estriol--1.29 MoM and significantly higher mean median value for the free beta-hCG",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20120938",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "alpha-fetoprotein (AFP), 1.02 for human chorionic gonadotropin (hCG) and 1.01 for unconjugated estriol (uE3",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18839465",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "alpha fetoprotein (AFP), beta human chorionic gonadotropin (beta-hCG), and unconjugated estriol (uE3) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18817910",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "alpha-fetoprotein (AFP), intact HCG and unconjugated estriol (uE3)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11925409",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "lpha-fetoprotein (AFP), total beta human chorionic gonadotrophin (hCG) and estriol (uE(3)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11920888",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "alpha feto-protein, HCG and unconjugated estriol",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9333577",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "maternal serum alpha-fetoprotein, human chorionic gonadotropin and unconjugated oestriol ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7522195",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "maternal serum alpha fetoprotein, unconjugated oestriol and human chorionic gonadotrophin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7688977",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011258"
+  ],
+  "exact_answer": "AFP, Estriol, hCG"
+}

@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04489",
+  "original_length": 6246,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- A 50-year-old female whose 51-year-old sister has a history of multiple colon polyps, which may slightly increase her risk for colon cancer in the future.\n- Reports of recurrent bright red blood...",
+    "Symptoms": "",
+    "Treatment": "s were explained in detail including risks and complications such as adverse reaction to medication, as well as respiratory embarrassment, infection, bleeding, perforation, and possibility of missi...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Tramadol 50 mg, zolpidem 10 mg, atenolol 50 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'A 50-year-old female whose 51-year-old sister has ...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

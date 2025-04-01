@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01810",
+  "original_length": 2610,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Tinea pedis.,PLAN:  ,Obtained fungal culture of skin from right toes.  KOH prep performed revealed no visible microbes.,PRESCRIPTIONS:,  Lotrimin AF  Dosage:  1% cream  Sig:  apply qid  Dispense:...",
+    "Symptoms": "",
+    "Treatment": "s for this condition.  Duration:  Condition has existed for 4 weeks.  Location:  She indicates the problem location is right great toe, right 2nd toe, right 3rd toe and right 4th toe.  Modifying fa...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04027",
+  "original_length": 1959,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  Acne with folliculitis.,TREATMENT:\n- Discussed condition and treatment with the patient.\n- Continue the amoxicillin 500 mg two at bedtime.\n- [person] DS every morning with extra water.\n- Conti...",
+    "Symptoms": "",
+    "Treatment": "s and skin care products, etc.  The patient is married.  She is a secretary.,FAMILY, SOCIAL, AND ALLERGY HISTORY:,  She has hay fever, eczema, sinus, and hives.  She has no melanoma or skin cancers...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "amoxicillin 500 mg, amoxicillin 500 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Discussed condition and treatment with the patient...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

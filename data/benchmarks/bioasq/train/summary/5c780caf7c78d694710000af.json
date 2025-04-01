@@ -1,0 +1,32 @@
+{
+  "id": "5c780caf7c78d694710000af",
+  "type": "summary",
+  "question": "What is an organoid?",
+  "ideal_answer": "Organoids are a three-dimensional in vitro culture platform constructed from self-organizing stem cells. They can almost accurately recapitulate tumor heterogeneity and microenvironment \"in a dish,\" which surpass established cell lines and are not as expensive and time-consuming as PDTXs. As an intermediate model, tumor organoids are also used to study the fundamental issues of tumorigenesis and metastasis. They are specifically applied for drug testing and stored as \"living biobanks.\"",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30510992",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29174804",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30324441"
+  ],
+  "snippets": [
+    {
+      "text": ". Organoids are a three-dimensional in\u00a0vitro culture platform constructed from self-organizing stem cells. They can almost accurately recapitulate tumor heterogeneity and microenvironment \"in a dish,\" which surpass established cell lines and are not as expensive and time-consuming as PDTXs. As an intermediate model, tumor organoids are also used to study the fundamental issues of tumorigenesis and metastasis. They are specifically applied for drug testing and stored as \"living biobanks.\"",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29174804",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The introduction of stem cell-based technologies for the derivation of three-dimensional retinal tissues, the so-called retinal organoids, offers many new possibilities for vision research: Organoids facilitate studies on retinal development and in vitro retinal disease modeling, as well as being valuable for drug testing. Further, retinal organoids also provide an unlimited cell source for cell replacement therapies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30324441",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The single cell-based 3D organoid system may\u00a0serve as a highly efficient platform to explore cancer therapeutics and therapy resistance mechanisms in conjunction with morphological and functional assays with implications for translation in personalized medicine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30510992",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01021",
+  "original_length": 6427,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": ", Closed open reduction and internal fixation of right ankle.,ANESTHESIA:  ,Spinal with sedation.,COMPLICATIONS:  ,None.,ESTIMATED BLOOD LOSS:  ,Minimal.,TOTAL TOURNIQUET TIME:  ,75 minutes at 325 ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Closed open reduction and internal fixation of rig...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

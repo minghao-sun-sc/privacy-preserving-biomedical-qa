@@ -1,0 +1,40 @@
+{
+  "id": "5a75f6e083b0d9ea66000009",
+  "type": "factoid",
+  "question": "Which data simulator is available for CLIP-SEQ experiments?",
+  "ideal_answer": "CLIP-Seq protocols such as PAR-CLIP, HITS-CLIP or iCLIP allow a genome-wide analysis of protein-RNA interactions. For the processing of the resulting short read data, various tools are utilized. Some of these tools were specifically developed for CLIP-Seq data, whereas others were designed for the analysis of RNA-Seq data. To this date, however, it has not been assessed which of the available tools are most appropriate for the analysis of CLIP-Seq data. This is because an experimental gold standard dataset on which methods can be accessed and compared, is still not available. To address this lack of a gold-standard dataset, Cseq-Simulator was developed as a simulator for PAR-CLIP, HITS-CLIP and iCLIP-data. This simulator can be applied to generate realistic datasets that can serve as surrogates for experimental gold standard dataset.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26776207"
+  ],
+  "snippets": [
+    {
+      "text": "CSEQ-SIMULATOR: A DATA SIMULATOR FOR CLIP-SEQ EXPERIMENTS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26776207",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "CLIP-Seq protocols such as PAR-CLIP, HITS-CLIP or iCLIP allow a genome-wide analysis of protein-RNA interactions. For the processing of the resulting short read data, various tools are utilized. Some of these tools were specifically developed for CLIP-Seq data, whereas others were designed for the analysis of RNA-Seq data. To this date, however, it has not been assessed which of the available tools are most appropriate for the analysis of CLIP-Seq data. This is because an experimental gold standard dataset on which methods can be accessed and compared, is still not available. To address this lack of a gold-standard dataset, we here present Cseq-Simulator, a simulator for PAR-CLIP, HITS-CLIP and iCLIP-data. This simulator can be applied to generate realistic datasets that can serve as surrogates for experimental gold standard dataset. In this work, we also show how Cseq-Simulator can be used to perform a comparison of steps of typical CLIP-Seq analysis pipelines, such as the read alignment or the peak calling. These comparisons show which tools are useful in different settings and also allow identifying pitfalls in the data analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26776207",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this work, we also show how Cseq-Simulator can be used to perform a comparison of steps of typical CLIP-Seq analysis pipelines, such as the read alignment or the peak calling.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26776207",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CSEQ-SIMULATOR: A DATA SIMULATOR FOR CLIP-SEQ EXPERIMENTS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26776207",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D017423",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D059014"
+  ],
+  "exact_answer": "Cseq-Simulator"
+}

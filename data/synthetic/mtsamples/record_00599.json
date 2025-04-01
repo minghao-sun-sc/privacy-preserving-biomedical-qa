@@ -1,0 +1,37 @@
+{
+  "document_id": "record_00599",
+  "original_length": 2334,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,  Mass lesion, right upper extremity.,POSTOPERATIVE DIAGNOSIS: , Intramuscular lipoma, right arm, approximately 4 cm.,PROCEDURE PERFORMED:  ,Excision of intramuscular lipoma with fla...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON, LOCATION",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',POSTOPERATIVE DIAGNOSIS: , Intramuscular lipoma, ...'"
+      ],
+      "pii_detected": [
+        "PERSON",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

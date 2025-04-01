@@ -1,0 +1,56 @@
+{
+  "id": "5173b5ea8ed59a060a00001f",
+  "type": "summary",
+  "question": "Which histone modifications have been associated to alternative splicing?",
+  "ideal_answer": "H3K36m3 has been systematically associated to exon inclusion in almost all published studies. Other marks have been associated as well in specific studies to exon expression, but it can not be concluded that the effect of these marks in exon expression it is not a consequence of their effect in gene expression.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21289049",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20407423",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19687145",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19182803",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20133523",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22242188",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21358630",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22455468",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21057525",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21173847",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22345622",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23353998"
+  ],
+  "snippets": [
+    {
+      "text": "We found that several types of histone modifications including H3K36me3 were associated with the inclusion or exclusion of alternative exons. Furthermore, we observed that the levels of H3K36me3 and H3K79me1 in the cell lines were well correlated with the differences in alternative splicing patterns between the cell lines.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23353998",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Here we find that elevated levels of trimethylation of histone H3 on Lys9 (H3K9me3) are a characteristic of the alternative exons of several genes including CD44.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21358630",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "he first report shows that a physiological stimulus such as neuron depolarization promotes intragenic histone acetylation (H3K9ac) and chromatin relaxation, causing the skipping of exon 18 of the neural cell adhesion molecule gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21289049",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Using small interfering RNAs (siRNAs), we increased the levels of H3K9me2 and H3K27me3 in the proximity of alternative exon 33 of the human fibronectin gene, favoring its inclusion into mature messenger RNA (mRNA) through a mechanism that recalls RNA-mediated transcriptional gene silencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21289049",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Among the 38 histone modifications analyzed in man, H3K36me3, H3K79me1, H2BK5me1, H3K27me1, H3K27me2, and H3K27me3 had evidently higher signals in internal exons than in the following introns and were clearly related to exon expression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19687145",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D042421",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017398"
+  ]
+}

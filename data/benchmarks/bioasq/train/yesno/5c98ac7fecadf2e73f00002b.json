@@ -1,0 +1,26 @@
+{
+  "id": "5c98ac7fecadf2e73f00002b",
+  "type": "yesno",
+  "question": "Anaplasma phagocytophilum is an obligate gram-negative, intracellular bacterium, yes  or no",
+  "ideal_answer": "Anaplasma phagocytophilum is an obligate gram-negative, intracellular bacterium and causes anaplasmosis",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29398602",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30217516"
+  ],
+  "snippets": [
+    {
+      "text": "The genus Anaplasma belonging to the Anaplasmataceae family (order Rickettsiales) comprises obligate intracellular Gram-negative bacteria of veterinary and public health importance. Six species and five types of strains genetically related are currently assigned to the genus Anaplasma including Anaplasma marginale, A. centrale, A. bovis, A. phagocytophilum, A. ovis and A. platys as classified species, and \"A. capra\", A. odocolei sp. nov.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29398602",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Human granulocytic anaplasmosis (HGA), an increasingly recognized febrile tick-borne illness, is caused by a gram-negative obligate intracellular bacterium Anaplasma phagocytophilum",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30217516",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

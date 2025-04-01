@@ -1,0 +1,38 @@
+{
+  "document_id": "record_04972",
+  "original_length": 1463,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": "\n- Normal nuclear myocardial perfusion scan.\n- Ejection fraction 58% by gated SPECT.",
+    "Symptoms": "",
+    "Treatment": "Adenosine with nuclear scan as the patient unable to walk on a treadmill.  Nondiagnostic adenosine stress test.  Normal nuclear myocardial perfusion scan. [person] Scan",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, LOCATION, PHONE_NUMBER, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "LOCATION",
+        "PHONE_NUMBER",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

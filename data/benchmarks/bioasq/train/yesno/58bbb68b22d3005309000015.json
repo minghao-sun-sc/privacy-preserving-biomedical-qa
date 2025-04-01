@@ -1,0 +1,34 @@
+{
+  "id": "58bbb68b22d3005309000015",
+  "type": "yesno",
+  "question": "Has \"RNA interference\" been awarded Nobel prize?",
+  "ideal_answer": "Since the first unequivocal description of RNA interference (RNAi) in 1998, it has remained one of the hottest topics under investigation, culminating in the award of a Nobel Prize to its discoverers in 2006.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20717561",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24235106",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26648823",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25048083"
+  ],
+  "snippets": [
+    {
+      "text": "Since the first unequivocal description of RNA interference (RNAi) in 1998, it has remained one of the hottest topics under investigation, culminating in the award of a Nobel Prize to its discoverers in 2006.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20717561",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RNA interference (RNAi) is considered one of the most powerful genomic tools which allows the study of drug discovery and understanding of the complex cellular processes by high-content screens. This field of study, which was the subject of 2006 Nobel Prize of medicine, has drastically changed the conventional methods of analysis of genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24235106",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Almost 10 years after Fire and Mello received the Nobel Prize for the discovery of this mechanism in flat worms, RNA interference is on the edge of becoming a new class of therapeutics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26648823",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

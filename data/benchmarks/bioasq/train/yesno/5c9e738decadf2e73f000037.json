@@ -1,0 +1,32 @@
+{
+  "id": "5c9e738decadf2e73f000037",
+  "type": "yesno",
+  "question": "Can mitochondria transfer from cell to cell?",
+  "ideal_answer": "Yes,\nthe recently discovered phenomenon of mitochondrial transfer between mammalian cells has gained momentum since it was first described in cell culture systems more than a decade ago.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29158129",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29357914"
+  ],
+  "snippets": [
+    {
+      "text": "Interest in the recently discovered phenomenon of mitochondrial transfer between mammalian cells has gained momentum since it was first described in cell culture systems more than a decade ago.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29158129",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show evidence that mitochondria transfer from Jurkat cells to MSCs, which is mediated by cell adhesion",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29357914",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This process of mitochondria transfer is mediated by tunneling nanotubes, which are protrusions that extend from the cell membrane .",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29357914",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

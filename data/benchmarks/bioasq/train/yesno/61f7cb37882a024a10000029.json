@@ -1,0 +1,59 @@
+{
+  "id": "61f7cb37882a024a10000029",
+  "type": "yesno",
+  "question": "Is rilonacept effective for pericarditis?",
+  "ideal_answer": "Yes, rilonacept is effective for pericarditis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34459270",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34556390",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34599390",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34528670",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34569270"
+  ],
+  "snippets": [
+    {
+      "text": " Concerning acute recurrent pericarditis (RP), an innovative interaction between cardiologists, internists and pediatric rheumatologists led to the intuition of a pivotal role of IL-1 in recurrent pericarditis characterized by an evident inflammatory recurrent phenotype, and recent data have shown the striking efficacy of anakinra and rilonacept in these patients. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34556390",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pericarditis is regarded as a stereotypical response to an acute damage of the mesothelial cells of the pericardial layers. NLRP3 inflammasome, a macromolecular structure sensing damage and releasing pro-inflammatory cytokines, is centrally involved as it releases interleukin (IL)-1\u03b2, whose auto-induction feeds an autoinflammatory disease, mostly responsible for recurrences. Colchicine, an inhibitor of NLRP3 inflammasome formation, and IL-1-targeted therapies, such as anakinra and rilonacept, were found to effectively blunt the acute inflammation and reduce the risk for recurrences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34599390",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Currently, anakinra and rilonacept, have demonstrated beneficial impact in clinical outcomes with a reasonable safety profile in randomized clinical trials. There is still paucity of data regarding the use of canakinumab in the treatment of patients with RP. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34569270",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rilonacept: A Newly Approved Treatment for Recurrent Pericarditis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34459270",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "OBJECTIVE: To review the pharmacology, efficacy, and safety of rilonacept for the prevention and treatment of recurrent pericarditis (RP).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34459270",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION: Rilonacept is a safe, once weekly, subcutaneously administered IL-1 \"trap,\" indicated for the treatment of RP, and reduction in risk of recurrent pericarditis in adults and children \u226512 years of age.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34459270",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Overproduction of both IL-1\u03b1 (released by inflamed/damaged pericardial cells) and IL-1\u03b2 (released by inflammatory cells) is now a well-recognized therapeutic target in patients with recurrent idiopathic pericarditis. Currently, there are three available anti-IL-1 agents: anakinra (recombinant human IL-1Ra), rilonacept (a soluble decoy receptor 'trap', binding both IL-1\u03b1 and IL-1\u03b2), and canakinumab (human monoclonal anti-IL-1\u03b2 antibody). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34528670",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

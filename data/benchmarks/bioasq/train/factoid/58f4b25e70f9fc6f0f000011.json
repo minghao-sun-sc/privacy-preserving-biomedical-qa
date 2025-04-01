@@ -1,0 +1,83 @@
+{
+  "id": "58f4b25e70f9fc6f0f000011",
+  "type": "factoid",
+  "question": "Hy's law measures failure for what organ?",
+  "ideal_answer": "Hy's law correlates enzyme elevations with liver injury ad subsequent failure.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24203912",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26116527",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23874514",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22928730",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24704526",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26159259",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23300062",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26122767",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25683797"
+  ],
+  "snippets": [
+    {
+      "text": " Hy's Law of drug-induced hepatocellular jaundice causing a case-fatality rate or need for transplant of 10% or higher has been validated in several large national registries, including the ongoing, prospective U.S. Drug-Induced Liver Injury Network. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26116527",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Enzyme elevations alone may not be harmful, but if caused by a drug and followed by jaundice (called 'Hy's law') there is a high possibility of serious DILI.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26159259",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "No additional alleles outside those associated with liver injury patterns were found to affect potential severity as measured by Hy's Law criteria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23874514",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We compared its performance with that of Hy's Law, which predicts severity of DILI based on levels of alanine aminotransferase or aspartate aminotransferase and total bilirubin, and validated the model in a separate sample.We conducted a retrospective cohort study of 15,353 Kaiser Permanente Northern California members diagnosed with DILI from 2004 through 2010, liver aminotransferase levels above the upper limit of normal, and no pre-existing liver disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26122767",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Risk of Acute Liver Failure in Patients With Drug-Induced Liver Injury: Evaluation of Hy's Law and a New Prognostic Model.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26122767",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Hy's Law, which states that hepatocellular drug-induced liver injury (DILI) with jaundice indicates a serious reaction, is used widely to determine risk for acute liver failure (ALF).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24704526",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hy's law is a method used to identify drug-induced liver injury (DILI)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25683797",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Potential severe liver injury is identified in clinical trials by ALT>3\u2009\u00d7\u2009upper limits of normal (ULN) and total bilirubin>2\u2009\u00d7\u2009ULN, and termed 'Hy's Law' by the US FDA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22928730",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Severe liver injury is identified by the liver chemistry threshold of alanine aminotransferase (ALT)>3\u00d7 upper limit of normal (ULN) and bilirubin>2\u00d7 ULN, termed Hy's law by the Food and Drug Administration. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23300062",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D065290",
+    "http://www.disease-ontology.org/api/metadata/DOID:2044",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056486",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056487",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008111",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017114",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D058625"
+  ],
+  "exact_answer": "liver"
+}

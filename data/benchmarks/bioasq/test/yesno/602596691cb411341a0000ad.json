@@ -1,0 +1,25 @@
+{
+  "id": "602596691cb411341a0000ad",
+  "type": "yesno",
+  "question": "Is tofacitinib a JAK inhibitor?",
+  "ideal_answer": "Yes, tofacitinib is a small JAK inhibitor.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31721311"
+  ],
+  "snippets": [
+    {
+      "text": "The Janus Kinase inhibitor tofacitinib impacts human dendritic cell differentiation and favours M1 macrophage development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31721311",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Tofacitinib, a small JAK inhibitor, is approved for the treatment of RA and has demonstrated good efficacy in psoriasis phase III clinical trials. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31721311",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

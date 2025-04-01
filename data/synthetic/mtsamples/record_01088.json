@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01088",
+  "original_length": 1385,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": ", Unsuccessful direct current cardioversion with permanent atrial fibrillation.",
+    "Symptoms": "",
+    "Treatment": "IN DETAIL: , The procedure was explained to the patient with risks and benefits.  The patient agreed and signed the consent form.  The patient received sedation prior to the cardioversion with a tr...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "of 50 mcg, and 6 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Unsuccessful direct current cardioversion with per...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

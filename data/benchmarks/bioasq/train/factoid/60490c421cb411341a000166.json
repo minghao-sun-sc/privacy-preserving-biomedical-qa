@@ -1,0 +1,47 @@
+{
+  "id": "60490c421cb411341a000166",
+  "type": "factoid",
+  "question": "How is the STING protein activated?",
+  "ideal_answer": "During DNA virus infections, detection of cytosolic DNA by the cGAS-STING pathway leads to activation of IFN-\u03b2.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31928996",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31991682",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31980485",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31820985",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31896590"
+  ],
+  "snippets": [
+    {
+      "text": "Stimulator of interferon genes (STING) is an endoplasmic reticulum-localized adaptor protein (STING receptor) that has been shown to be activated by binding to natural cyclic dinucleotide (CDN) ligands and plays a vital role in innate immune sensing of exogenous or endogenous DNA, which then induces type I interferons and other cytokines. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31820985",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "During DNA virus infections, detection of cytosolic DNA by the cGAS-STING pathway leads to activation of IFN-\u03b2. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31928996",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Herpes simplex virus 1 (HSV-1) triggers both the cyclic GMP-AMP synthase (cGAS)-stimulator of interferon genes (STING)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31896590",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Detection of intracellular DNA by the cGAS-STING pathway activates a type I interferon-mediated innate immune response that protects from virus infection. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31980485",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Several DNA viruses have evolved antagonists to inhibit the cyclic GMP-AMP synthase (cGAS)-stimulator of interferon genes (STING) DNA-sensing immune pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31991682",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "By intracellular DNA"
+}

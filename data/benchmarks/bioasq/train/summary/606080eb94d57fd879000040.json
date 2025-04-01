@@ -1,0 +1,24 @@
+{
+  "id": "606080eb94d57fd879000040",
+  "type": "summary",
+  "question": "Describe MSstatsTMT",
+  "ideal_answer": "MSstatsTMT is a general statistical approach for relative protein quantification in MS- based experiments with TMT labeling.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32680918"
+  ],
+  "snippets": [
+    {
+      "text": "MSstatsTMT: Statistical Detection of Differentially Abundant Proteins in Experiments with Isobaric Labeling and Multiple Mixtures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32680918",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "This manuscript proposes a general statistical approach for relative protein quantification in MS- based experiments with TMT labeling. It is applicable to experiments with multiple conditions, multiple biological replicate runs and multiple technical replicate runs, and unbalanced designs. It is based on a flexible family of linear mixed-effects models that handle complex patterns of technical artifacts and missing values. The approach is implemented in MSstatsTMT, a freely available open-source R/Bioconductor package compatible with data processing tools such as Proteome Discoverer, MaxQuant, OpenMS, and SpectroMine. Evaluation on a controlled mixture, simulated datasets, and three biological investigations with diverse designs demonstrated that MSstatsTMT balanced the sensitivity and the specificity of detecting differentially abundant proteins, in large-scale experiments with multiple biological mixtures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32680918",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

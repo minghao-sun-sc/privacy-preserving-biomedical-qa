@@ -1,0 +1,40 @@
+{
+  "id": "62507602e764a5320400000d",
+  "type": "factoid",
+  "question": "What does temsirolimus inhibit?",
+  "ideal_answer": "Temsirolimus is a mTOR inhibitor",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34804848",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31331862",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34589671",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34565342"
+  ],
+  "snippets": [
+    {
+      "text": "a clinically relevant mTOR inhibitor, temsirolimus,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34565342",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "e mTOR-inhibitor temsirolimus ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34589671",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mTOR inhibitors: 23 everolimus and 21 temsirolimus;",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31331862",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Temsirolimus is a mTOR inhibitor approved for the first-line treatment of advanced or metastatic renal cell carcinoma (a/mRCC) with poor prognosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34804848",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "mTOR"
+}

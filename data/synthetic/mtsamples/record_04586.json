@@ -1,0 +1,38 @@
+{
+  "document_id": "record_04586",
+  "original_length": 3574,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "ACUTE EPISODE OF AGITATION.,PLAN:  At this time, I had reviewed the patient's records and it is not particularly enlightening as to what could have triggered off this episode.  The patient herself ...",
+    "Symptoms": "",
+    "Treatment": "At this time, I had reviewed the patient's records and it is not particularly enlightening as to what could have triggered off this episode.  The patient herself has good vital signs.  She does not...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, PHONE_NUMBER, NRP"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "PHONE_NUMBER",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

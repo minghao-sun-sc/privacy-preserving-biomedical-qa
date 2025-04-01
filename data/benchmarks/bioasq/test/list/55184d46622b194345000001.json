@@ -1,0 +1,100 @@
+{
+  "id": "55184d46622b194345000001",
+  "type": "list",
+  "question": "List protein gel staining methods visualizing the entire protein set.",
+  "ideal_answer": "Several staining protocols for the visualization of proteins separated by SDS-PAGE have been described in literature: \nfluorescence\nSypro Ruby\nColloidal Coomassie Blue\nCoomassie Blue\nSilver staining\nCoomassie Brilliant Blue",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24043422",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23977684",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24114871",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22665294",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22821490",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23681577",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23428344",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23256673",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23161123",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23941326",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24136520"
+  ],
+  "snippets": [
+    {
+      "text": "DIGE requires the labelling of proteins by fluorochromes prior to their separation on 2DE gels. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24136520",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Stains-All (ISA) staining method for phosphoproteins in SDS-PAGE was described.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24114871",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Pro-Q Diamond stain",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24114871",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Quantitative proteome analyses suggest that the well-established stain colloidal Coomassie Blue, when used as an infrared dye, may provide sensitive, post-electrophoretic in-gel protein detection that can rival even Sypro Ruby.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24043422",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Several new fast staining protocols for the visualization of proteins separated by SDS-PAGE utilizing Coomassie Blue staining (CBS) have been described in literature. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23977684",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The CyDye family of fluorescent dyes is currently the overwhelming choice for applications in proteomic analysis, using two-dimensional difference gel electrophoresis (2D-DIGE)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23941326",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "his enables the co-detection of phosphoproteins as well as total proteins from the same gel and is accomplished by utilizing two different fluorescent stains, the ProQ-Diamond, which stains only phosphorylated proteins, and Sypro Ruby, which stains the entire subset of proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23681577",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Detection of the resulting protein maps relies on staining (i.e. colloidal coomassie blue (CCB) or SYPRO Ruby (SR), in addition to many others). Fluorescent in-gel protein stains are generally preferred for higher sensitivity, reduced background, and wider dynamic range.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23428344",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Commonly used staining methods with excellent mass spectrometry compatibility are coomassie brilliant blue (CBB) or fluorescent dyes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23256673",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The typical concentration of protein loaded varies from 0.13 to 1.40 \u03bcg/\u03bcL for a classical silver staining method in 2DE gel",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23161123",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Silver staining is widely used to detect protein in polyacrylamide gels when high sensitivity is required.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22821490",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Silver staining is used to detect proteins after electrophoretic separation on polyacrylamide gels",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22665294",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013194",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016622",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004396",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005782"
+  ],
+  "exact_answer": "fluorochromes, fluorescence, Sypro Ruby, Colloidal Coomassie Blue, Coomassie Blue, Silver staining, Coomassie Brilliant Blue"
+}

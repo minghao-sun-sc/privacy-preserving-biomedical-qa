@@ -1,0 +1,43 @@
+{
+  "id": "56cafa845795f9a73e00002e",
+  "type": "factoid",
+  "question": "Which protein pathway is regulating SGK1-mediated phosphorylation of FOXO3a to control cell proliferation?",
+  "ideal_answer": "mTORC1, in coordination with mTORC2, controls cell proliferation by regulating FoxO3a gene expression and SGK1-mediated phosphorylation of FOXO3a at Ser314.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24558442"
+  ],
+  "snippets": [
+    {
+      "text": "The mTOR pathway controls cell proliferation by regulating the FoxO3a transcription factor via SGK1 kinase",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24558442",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "the FoxO3a transcription factor is coordinately regulated by mTORC1 and mTORC2, and plays a crucial role in controlling cell proliferation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24558442",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mTORC1, in coordination with mTORC2, controls cell proliferation by regulating FoxO3a gene expression and SGK1-mediated phosphorylation of FoxO3a at Ser314",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24558442",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest that mTORC1, in coordination with mTORC2, controls cell proliferation by regulating FoxO3a gene expression and SGK1-mediated phosphorylation of FoxO3a at Ser314",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24558442",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SGK1 overexpression suppressed CDKI expression in p18-deficient cells, whereas SGK1 knockdown induced CDKI expression in wild-type cells, resulting in the suppression of cell proliferation. These results suggest that mTORC1, in coordination with mTORC2, controls cell proliferation by regulating FoxO3a gene expression and SGK1-mediated phosphorylation of FoxO3a at Ser314.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24558442",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "The mTOR pathway"
+}

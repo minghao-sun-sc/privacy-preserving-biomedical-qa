@@ -1,0 +1,35 @@
+{
+  "document_id": "record_00997",
+  "original_length": 1970,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,  Prior history of neoplastic polyps.,POSTOPERATIVE DIAGNOSIS:,  Small rectal polyps/removed and fulgurated.,PREMEDICATIONS:,  Prior to the colonoscopy, the patient complained of a s...",
+    "Symptoms": "",
+    "Treatment": "Colonoscopy",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "her 25 mg, given 25 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

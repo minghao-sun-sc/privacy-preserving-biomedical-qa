@@ -1,0 +1,105 @@
+{
+  "id": "58eb2887eda5a57672000003",
+  "type": "list",
+  "question": "Which NGS alignment software implement the Burrows-Wheeler Transform?",
+  "ideal_answer": "The most widely used software belong to the family of the Burrows-Wheeler Aligner (BWA) and its variants for local alignment BWASW, map reduce BWASW-PMR and multi-threaded implementation BWA-MT. Other approaches include Bowtie, SOAP2, BWBBLE, SOAP2 and FANSe2.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21724593",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26405948",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19261174",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19451168",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24743329",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23813006",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26839887",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19497933",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20080505"
+  ],
+  "snippets": [
+    {
+      "text": "For the human genome, Burrows-Wheeler indexing allows Bowtie to align more than 25 million reads per CPU hour with a memory footprint of approximately 1.3 gigabytes. Bowtie extends previous Burrows-Wheeler techniques with a novel quality-aware backtracking algorithm that permits mismatches.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19261174",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We implemented Burrows-Wheeler Alignment tool (BWA), a new read alignment package that is based on backward search with Burrows-Wheeler Transform (BWT), to efficiently align short sequencing reads against a large reference sequence such as the human genome, allowing mismatches and gaps.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19451168",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SOAP2 is a significantly improved version of the short oligonucleotide alignment program that both reduces computer memory usage and increases alignment speed at an unprecedented rate. We used a Burrows Wheeler Transformation (BWT) compression index to substitute the seed strategy for indexing the reference sequence in the main memory.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19497933",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We designed and implemented a new algorithm, Burrows-Wheeler Aligner's Smith-Waterman Alignment (BWA-SW), to align long sequences up to 1 Mb against a large sequence database (e.g. the human genome) with a few gigabytes of memory.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20080505",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we propose a new base-calling algorithm, TotalReCaller, to achieve improved performance. A linear error model for the raw intensity data and Burrows-Wheeler transform (BWT) based alignment are combined utilizing a Bayesian score function, which is then globally optimized over all possible genomic locations using an efficient branch-and-bound approach.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21724593",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To tackle this problem, a new alignment tool BWBBLE is introduced in this article. We (i) introduce a new compressed representation of a collection of genomes, which explicitly tackles the genomic variation observed at every position, and (ii) design a new alignment algorithm based on the Burrows-Wheeler transform that maps short reads from a newly sequenced genome to an arbitrary collection of two or more (up to millions of) genomes with high accuracy and no inherent bias to one specific genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23813006",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Seed-based algorithms are generally slow but robust, while Burrows-Wheeler Transform (BWT) based algorithms are fast but less robust. To have both advantages, we developed an algorithm FANSe2 with iterative mapping strategy based on the statistics of real-world sequencing error distribution to substantially accelerate the mapping without compromising the accuracy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24743329",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Therefore, in this paper, we introduce Burrows-Wheeler Aligner's Smith-Waterman Alignment on Parallel MapReduce (BWASW-PMR) cloud platform for long sequence alignment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26839887",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this paper, we propose a BWA-MT tool, evolved from BWA but supporting multi-thread computation, designed to fully utilize the underlying multi-core architecture of computing resources. By using multi-thread computation, BWA-MT can significantly shorten the time needed to generate an alignment for single-end read sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26405948",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The speed of MAQ is also a concern when the alignment is scaled up to the resequencing of hundreds of individuals.We implemented Burrows-Wheeler Alignment tool (BWA), a new read alignment package that is based on backward search with Burrows-Wheeler Transform (BWT), to efficiently align short sequencing reads against a large reference sequence such as the human genome, allowing mismatches and gaps",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19451168",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although the Burrows-Wheeler Aligner (BWA) tool is one of the most widely used open-source software tools to align read sequences, it is still limited in that it does not fully support multi-thread mechanisms during the alignment steps",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26405948",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We implemented Burrows-Wheeler Alignment tool (BWA), a new read alignment package that is based on backward search with Burrows-Wheeler Transform (BWT), to efficiently align short sequencing reads against a large reference sequence such as the human genome, allowing mismatches and gaps.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19451168",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We designed and implemented a new algorithm, Burrows-Wheeler Aligner's Smith-Waterman Alignment (BWA-SW), to align long sequences up to 1 Mb against a large sequence database (e.g.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20080505",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although the Burrows-Wheeler Aligner (BWA) tool is one of the most widely used open-source software tools to align read sequences, it is still limited in that it does not fully support multi-thread mechanisms during the alignment steps.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26405948",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Bowtie, Burrows-Wheeler Alignment Tool, BWA, SOAP2, Burrows-Wheeler Aligner's Smith-Waterman Alignment, BWA-SW, TotalReCaller, BWBBLE, FANSe2, Burrows-Wheeler Aligner's Smith-Waterman Alignment Map Reduce, BWASW-PMR, Burrows-Wheeler Aligner Multi-Thread, BWA-MT"
+}

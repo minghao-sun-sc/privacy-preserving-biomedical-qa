@@ -1,0 +1,25 @@
+{
+  "id": "5be44bef133db5eb78000014",
+  "type": "yesno",
+  "question": "Are there microbes in human breast milk?",
+  "ideal_answer": "Yes, human milk is a rich source of diverse bacteria.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27940404"
+  ],
+  "snippets": [
+    {
+      "text": "Contrary to long-held dogma, human milk is not sterile. Instead, it provides infants a rich source of diverse bacteria, particularly microbes belonging to the Staphylococcus, Streptococcus, and Pseudomonas genera.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27940404",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The origins of the bacteria in milk are thought to include the maternal gastrointestinal tract (via an entero-mammary pathway) and through bacterial exposure of the breast during nursing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27940404",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

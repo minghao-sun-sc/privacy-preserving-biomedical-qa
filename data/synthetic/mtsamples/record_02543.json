@@ -1,0 +1,37 @@
+{
+  "document_id": "record_02543",
+  "original_length": 2839,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Term pregnancy at 40 and 3/7th weeks.,PROCEDURE PERFORMED: , Spontaneous vaginal delivery.,HISTORY OF PRESENT ILLNESS:  ,The patient is a 36-year-old African-American female who is ...",
+    "Symptoms": "",
+    "Treatment": "",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, NRP, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "NRP",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

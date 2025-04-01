@@ -1,0 +1,54 @@
+{
+  "id": "58aa0a62396a458e50000007",
+  "type": "yesno",
+  "question": "Are microtubules marked by glutamylation?",
+  "ideal_answer": "Yes, glutamylation is the most prevalent tubulin posttranslational modification and marks stable microtubules.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26227334",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19700636",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23973077",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26000474",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25959773",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25030760"
+  ],
+  "snippets": [
+    {
+      "text": "Together with detyrosination, glutamylation and other modifications, tubulin acetylation may form a unique 'language' to regulate microtubule structure and function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26227334",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Glutamylation, the most prevalent tubulin posttranslational modification, marks stable microtubules and regulates recruitment and activity of microtubule- interacting proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25959773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Enzymes of the tubulin tyrosine ligase-like (TTLL) family posttranslationally modify and thereby mark microtubules by glutamylation, generating specific recognition sites for microtubule-interacting proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26000474",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " PTMs of the cytoskeleton, including phosphorylation, glycosylation, ubiquitination, detyrosination/tyrosination, (poly)glutamylation and (poly)glycylation, acetylation, sumoylation, and palmitoylation, will be addressed in this chapter.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25030760",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The tubulin posttranslational modifications: acetylation, detyrosination, polyglutamylation, and polyglycylation play important roles in microtubule functions",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23973077",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In most eukaryotic cells, tubulin is subjected to posttranslational glutamylation, a conserved modification of unclear function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19700636",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

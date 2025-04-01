@@ -1,0 +1,39 @@
+{
+  "document_id": "record_00728",
+  "original_length": 2583,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "\n- Placement of a subclavian single-lumen tunneled Hickman central venous catheter.\n- Surgeon-interpreted fluoroscopy.,OPERATION IN DETAIL:,  After obtaining informed consent from the patient, incl...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: US_DRIVER_LICENSE, DATE_TIME, PERSON, IP_ADDRESS, URL"
+      ],
+      "pii_detected": [
+        "US_DRIVER_LICENSE",
+        "DATE_TIME",
+        "PERSON",
+        "IP_ADDRESS",
+        "URL"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

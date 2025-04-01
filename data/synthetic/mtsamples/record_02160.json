@@ -1,0 +1,37 @@
+{
+  "document_id": "record_02160",
+  "original_length": 5293,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Recurrent degenerative spondylolisthesis and stenosis at L4-5 and L5-S1 with L3 compression fracture adjacent to an instrumented fusion from T11 through L2 with hardware malfunction...",
+    "Symptoms": "",
+    "Treatment": "Orthopedic evaluation and management",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, US_DRIVER_LICENSE, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "US_DRIVER_LICENSE",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

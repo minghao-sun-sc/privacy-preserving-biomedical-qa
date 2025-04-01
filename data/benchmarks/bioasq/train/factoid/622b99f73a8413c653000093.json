@@ -1,0 +1,26 @@
+{
+  "id": "622b99f73a8413c653000093",
+  "type": "factoid",
+  "question": "Which protein is targeted by Herceptin?",
+  "ideal_answer": "Her2 is targeted by Herceptin.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33468562",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34532642"
+  ],
+  "snippets": [
+    {
+      "text": "HER2-targeting agents such as Herceptin\u00ae, Kadcyla\u00ae and ENHERTU\u00ae have been approved by the FDA for the treatment of breast cancer,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34532642",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Herceptin toward ErbB2-positive breast cancer cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33468562",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Her2"
+}

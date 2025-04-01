@@ -1,0 +1,194 @@
+{
+  "id": "53355befd6d3ac6a34000046",
+  "type": "list",
+  "question": "List programs suitable for protein docking",
+  "ideal_answer": "Macromolecular docking is the computational modelling of the quaternary structure of complexes formed by two or more interacting biological macromolecules. Protein\u2013protein complexes are the most commonly attempted targets of such modelling, followed by protein\u2013nucleic acid complexes.\nThe ultimate goal of docking is the prediction of the three-dimensional structure of the macromolecular complex of interest as it would occur in a living organism. Docking itself only produces plausible candidate structures. These candidates must be ranked using methods such as scoring functions to identify structures that are most likely to occur in nature.\nNowadays there a lot of programs suitable for proteins docking  such as CSBB-ConeExclusion, HADDOCK, ZDOCK, GalaxyDock, PHASE, DockRank, HotLig, SOL, AutodockVina, DockoMatic, DockoMatic, DockTrina, CAVITY, LiGenDock and DOCK.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23198780",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23436713",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23862697",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23633577",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23812908",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23351099",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17444519",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23451944",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16933295",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23712937",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23836482",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24108416",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23808933",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24050689",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15215358",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24063890",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24187131",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23775700",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23873600",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23818491",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23647909",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23813626",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23590204",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23829357",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11841293",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24266324",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24123140"
+  ],
+  "snippets": [
+    {
+      "text": "We present CSBB-ConeExclusion, a methodology and computer program which provides a measure of the applicability of solution dockings to solid support",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24266324",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The structure of the \u03b11I-peptide complex was investigated using data from NMR, small angle x-ray scattering, and size exclusion chromatography that were used to generate and validate a model of the complex using the data-driven docking program, HADDOCK (High Ambiguity Driven Biomolecular Docking). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24187131",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report the performance of our approaches for protein-protein docking and interface analysis in CAPRI rounds 20-26. At the core of our pipeline was the ZDOCK program for rigid-body protein-protein docking",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24123140",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "GalaxyDock protein-ligand docking program is introduced. GalaxyDock performs conformational space annealing (CSA) global optimization to find the optimal binding pose of a ligand both in the rigid-receptor mode and the flexible-receptor mode",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24108416",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Utilizing NMR titration data, we generated the structural models of S100B-FGF2 complex from the computational docking program, HADDOCK which were further proved stable during 15ns unrestrained molecular dynamics (MD) simulations",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24063890",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thereafter, all molecules were docked into the newly generated active site environment of the selected protein using glide docking program, and the 3D-QSAR analysis was performed in PHASE program utilizing the docking based alignment of the molecules",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24050689",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DockRank uses interface residues predicted by partner-specific sequence homology-based protein-protein interface predictor (PS-HomPPI), which predicts the interface residues of a query protein with a specific interaction partner. We compared the performance of DockRank with several state-of-the-art docking scoring functions using Success Rate (the percentage of cases that have at least one near-native conformation among the top m conformations) and Hit Rate (the percentage of near-native conformations that are included among the top m conformations). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23873600",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this study, we developed a novel scoring program, HotLig, which applies the Connolly surface of a protein to calculate hydrophobic interaction and paired pharmacophore interactions with ligands. In addition to molecular surface distance, ligand-contacting areas and hydrogen-bond angles were also introduced to the scoring functions in HotLig",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23862697",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "a method called residue contact frequency (RCF), which uses the complex structures generated by the protein-protein docking algorithm ZDOCK to predict interface residues",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23836482",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "devoted to results obtained by the docking program SOL and the post-processing program DISCORE at the CSAR benchmark. SOL and DISCORE programs are described. SOL is the original docking program developed on the basis of the genetic algorithm, MMFF94 force field, rigid protein, precalculated energy grid including desolvation in the frame of simplified GB model, vdW, and electrostatic interactions and taking into account the ligand internal strain energy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23829357",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "improves the binding energy scoring by the local energy optimization of the ligand docked pose and a simple linear regression on the base of available experimental data",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23829357",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The template-based methods showed similar performance to a docking method (ZDOCK) when the latter was allowed one prediction for each complex, but when the same number of predictions was allowed for each method, the docking approach outperformed template-based approaches",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23818491",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "VinaMPI is a massively parallel Message Passing Interface (MPI) program based on the multithreaded virtual docking program AutodockVina, and is used to distribute tasks while multithreading is used to speed-up individual docking tasks",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23813626",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Prime and the binding energy function in YASARA suggested it could be possible to evaluate the quality of the orthosteric binding site based on the prediction of relative binding energies",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23812908",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " is a free and open source application that unifies a suite of software programs within a user-friendly graphical user interface (GUI) to facilitate molecular docking experiments",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23808933",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This article presents DockTrina, a novel protein docking method for modeling the 3D structures of nonsymmetrical triangular trimers",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23775700",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To account for the important docking interactions between the UBSAs ligand and hCA II enzyme, a molecular docking program AutoDock Vina is used. The molecular docking results obtained by AutoDock Vina revealed that the docked conformer has root mean square deviation value less than 1.50 \u00c5 compared to X-ray crystal structures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23712937",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Four possible binding pockets (Pocket A, B, C, and D) at the stalk region of hemagglutinin were detected and defined using the CAVITY program",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23647909",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Within this context, low-resolution shape data obtained from either ion-mobility mass spectrometry (IM-MS) or SAXS experiments have been integrated into the conventional scoring function of the information-driven docking program HADDOCK",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23633577",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "a novel de novo design program, called LiGen, we developed a docking program, LiGenDock, based on pharmacophore models of binding sites, including a non-enumerative docking algorithm.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23590204",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we present the functionalities of LiGenDock and its accompanying module LiGenPocket, aimed at the binding site analysis and structure-based pharmacophore definition",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23590204",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we describe the application of the program AutoDock to the design of a focused library that was used in the \"click chemistry in-situ\" generation of the most potent noncovalent inhibitor of the native enzyme acetylcholinesterase (AChE) yet developed (K(d) = ~100 fM). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23451944",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " the method yields improved success over the standard DOCK energy function for pose identification across a large test set of experimental co-crystal structures, for crossdocking, and for database enrichment",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23436713",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The pose prediction success rate of each docking program alone was found in this trial to be 55% for Autodock, 58% for DOCK, and 64% for Vina.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23351099",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005785",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005047",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012984",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016560",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0022406",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0048278",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0000059",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0022614",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0022615",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019542"
+  ],
+  "exact_answer": "CSBB-ConeExclusion, HADDOCK, ZDOCK, GalaxyDock, PHASE, DockRank, HotLig, SOL, AutodockVina, DockoMatic, DockTrina, CAVITY, LiGenDock, DOCK, DISCORE"
+}

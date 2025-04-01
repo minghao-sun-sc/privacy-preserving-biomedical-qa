@@ -1,0 +1,26 @@
+{
+  "id": "5c9d18f1ecadf2e73f000033",
+  "type": "list",
+  "question": "List targets of classical analgesics.",
+  "ideal_answer": "Patient phenotypes in pharmacological pain treatment varies between individuals, which could be partly assigned to their genotypes regarding the targets of classical analgesics (OPRM1, PTGS2)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19474215",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20942817"
+  ],
+  "snippets": [
+    {
+      "text": "Patient phenotypes in pharmacological pain treatment varies between individuals, which could be partly assigned to their genotypes regarding the targets of classical analgesics (OPRM1, PTGS2) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20942817",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Morphine is the current gold standard analgesic acting at MOP receptors but produces a range of variably troublesome side-effects, in particular tolerance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19474215",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "OPRM1, PTGS2"
+}

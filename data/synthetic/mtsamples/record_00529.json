@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00529",
+  "original_length": 4758,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "\n- Nasal septal reconstruction.\n- Bilateral submucous resection of the inferior turbinates.\n- Bilateral outfracture of the inferior turbinates.,ANESTHESIA:,  General endotracheal tube.,BLOOD LOSS: ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Bilateral submucous resection of the inferior turb...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

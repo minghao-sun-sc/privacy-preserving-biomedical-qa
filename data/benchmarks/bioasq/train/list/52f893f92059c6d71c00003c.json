@@ -1,0 +1,59 @@
+{
+  "id": "52f893f92059c6d71c00003c",
+  "type": "list",
+  "question": "List clinical trials for prevention of sarcopenia",
+  "ideal_answer": "Several clinical trials with androgen replacement therapy. \nStudy was to evaluate the effect of omega-3 fatty acid supplementation on the rate of muscle protein synthesis. This trial was registered at clinical trials.gov as NCT00794079",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21968872",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18615229",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22739566",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23892221",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21159787"
+  ],
+  "snippets": [
+    {
+      "text": "several clinical trials with androgen replacement therapy have failed to show clinical benefit.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23892221",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Clinical trials are needed to find better interventions for this syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22739566",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "emergence of many promising interventions towards this age-related condition (e.g., physical exercise [in particular, resistance training], testosterone, antioxidant supplementations), the need for Phase II trial designs is high. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21968872",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The objective of this study was to evaluate the effect of omega-3 fatty acid supplementation on the rate of muscle protein synthesis in older adults.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21159787",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This trial was registered at clinical trials.gov as NCT00794079.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21159787",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The extreme paucity of clinical trials on sarcopenia in literature is mainly due to difficulties in designing studies able to isolate the aging process from its multiple and interconnected consequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18615229",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016032",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002986",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D055948",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016430",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011315"
+  ],
+  "exact_answer": "androgen replacement trials, omega-3 fatty acid supplementation, NCT00794079"
+}

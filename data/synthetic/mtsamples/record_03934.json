@@ -1,0 +1,33 @@
+{
+  "document_id": "record_03934",
+  "original_length": 4076,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  Aftercare of multiple trauma from an motor vehicle accident.,DISCHARGE DIAGNOSES:\n- Aftercare following surgery for injury and trauma.\n- Decubitus ulcer, lower back.\n- Alcohol induced persisting...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "sulfate 325 mg, patch 21 mg, Seroquel 25 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Aftercare following surgery for injury and trauma...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

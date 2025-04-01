@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01495",
+  "original_length": 935,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",Gestational sac with a fetal pole but no fetal heart motion consistent with fetal demise at 6 weeks 4 days. By dates the patient is 8 weeks, 2 days.,A preliminary report was called by the ultrasou...",
+    "Symptoms": "",
+    "Treatment": "A 34-year old female with no fetal heart motion noted on office scan. Ultrasound OB - 2",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'By dates the patient is 8 weeks, 2 days...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

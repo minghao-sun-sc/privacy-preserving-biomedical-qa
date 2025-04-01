@@ -1,0 +1,39 @@
+{
+  "document_id": "record_01521",
+  "original_length": 1345,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "DONE:,  Graded exercise treadmill stress test.,STRESS ECG RESULTS:,  The patient was stressed by continuous graded treadmill testing for nine minutes of the standard Bruce protocol.  The heart rate...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: US_DRIVER_LICENSE, PERSON, PHONE_NUMBER, URL, NRP"
+      ],
+      "pii_detected": [
+        "US_DRIVER_LICENSE",
+        "PERSON",
+        "PHONE_NUMBER",
+        "URL",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

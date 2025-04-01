@@ -1,0 +1,33 @@
+{
+  "document_id": "record_03323",
+  "original_length": 4294,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "/PLAN:\n- Diabetes and hypertension, both under less than appropriate control.  In fact, we discussed increasing the Lantus.  He appears genuine in his desire to embark on a substantial weight-lower...",
+    "Symptoms": "",
+    "Treatment": "\n- Diabetes and hypertension, both under less than appropriate control.  In fact, we discussed increasing the Lantus.  He appears genuine in his desire to embark on a substantial weight-lowering re...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Diabetes and hypertension, both under less than ap...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "document_id": "record_02234",
+  "original_length": 4036,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: \n- Left carpal tunnel syndrome.\n- de Quervain's tenosynovitis.,POSTOPERATIVE DIAGNOSIS:,  \n- Left carpal tunnel syndrome.\n- de Quervain's tenosynovitis.,OPERATIONS PERFORMED:  \n- Endo...",
+    "Symptoms": "",
+    "Treatment": "",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, LOCATION, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "LOCATION",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "5c0119f3133db5eb7800002b",
+  "type": "list",
+  "question": "List bacterial families for which delafloxacin has been shown to be effective.",
+  "ideal_answer": "Delafloxacin has been shown to be effective against multiple gram-positive and gram-negative bacteria, including Strepotococcus pneumoniae, Haemophilus influenzae, Moraxella atarrhalis, Staphylococcus aureus, Klebsiella pneumoniae and more.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27216072",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27458220"
+  ],
+  "snippets": [
+    {
+      "text": "In this study, 200 Streptococcus pneumoniae (plus 30 levofloxacin-resistant isolates), 200 Haemophilus influenzae, and 100 Moraxella catarrhalis isolates selected primarily from the United States (2014) were tested against delafloxacin and comparator agents. Delafloxacin was the most potent agent tested.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27458220",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Delafloxacin demonstrated in vitro and in vivo potency against a diverse group of pathogens, including those with phenotypic drug resistance to other classes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27216072",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The goal of the study was to determine the pharmacokinetic/pharmacodynamic (PK/PD) targets in the murine lung infection model for Staphylococcus aureus, Streptococcus pneumoniae, and Klebsiella pneumoniae ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27216072",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis, Staphylococcus aureus, Klebsiella pneumoniae"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "553fca6054168f6c79000002",
+  "type": "list",
+  "question": "Which proteins compose the error prevention GO (8-oxo-G) system in Pseudomonas putida?",
+  "ideal_answer": "In P. putida (Pseudomonas putida) the error prevention GO (8-oxo-G) system is composed of MutY, MutM, and MutT enzymes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17545288"
+  ],
+  "snippets": [
+    {
+      "text": "the GO repair enzymes MutY, MutM, and MutT are involved in the prevention of base substitution mutations in carbon-starved P. putida.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17545288",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results demonstrated that the GO repair enzymes MutY, MutM, and MutT are involved in the prevention of base substitution mutations in carbon-starved P. putida.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17545288",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0044715",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0044716"
+  ],
+  "exact_answer": "MutY, MutM, MutT"
+}

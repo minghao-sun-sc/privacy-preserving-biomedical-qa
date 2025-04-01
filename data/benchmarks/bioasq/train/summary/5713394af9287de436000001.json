@@ -1,0 +1,59 @@
+{
+  "id": "5713394af9287de436000001",
+  "type": "summary",
+  "question": "Which is the underlying mechanism for exon skipping used to treat Duchenne muscular dystrophy?",
+  "ideal_answer": "Antisense-mediated exon skipping therapy is a promising therapeutic approach that uses short DNA-like molecules called antisense oligonucleotides (AOs) to skip over/splice out the mutated part of the gene to produce a shortened but functional dystrophin protein. Many Duchenne Muscular Dystrophy patients need exon skipping of multiple exons in order to restore the reading frame, depending on how many base pairs the mutated exon(s) and adjacent exons have.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19140108",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22086232",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23521559",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20150322",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24380394",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17612397"
+  ],
+  "snippets": [
+    {
+      "text": "Antisense-mediated exon skipping therapy is a promising therapeutic approach that uses short DNA-like molecules called antisense oligonucleotides (AOs) to skip over/splice out the mutated part of the gene to produce a shortened but functional dystrophin protein",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24380394",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "many DMD patients need exon skipping of multiple exons in order to restore the reading frame, depending on how many base pairs the mutated exon(s) and adjacent exons have. Theoretically, multiple exon skipping could be used to treat approximately 90%, 80%, and 98% of DMD patients with deletion, duplication, and nonsense mutations, respectively",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24380394",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Antisense oligonucleotides (AONs) that bind to complementary sequences of the dystrophin pre-mRNA to induce skipping of the targeted exon by modulating pre-mRNA splicing are promising therapeutic agents for DMD. Such AONs can restore the open reading frame of the DMD gene and produce internally deleted, yet partially functional dystrophin protein isoforms in skeletal muscle",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23521559",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Of all novel molecular interventions currently being investigated for Duchenne muscular dystrophy, perhaps the most promising method aiming to restore dystrophin expression to diseased cells is known as 'exon skipping' or splice-modulation, whereby antisense oligonucleotides eliminate the deleterious effects of DMD mutations by modulating dystrophin pre-messenger RNA splicing, such that functional dystrophin protein is produced.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20150322",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We previously conducted a proof of principle; dose escalation study in Duchenne muscular dystrophy (DMD) patients using the morpholino splice-switching oligonucleotide AVI-4658 (eteplirsen) that induces skipping of dystrophin exon 51 in patients with relevant deletions, restores the open reading frame and induces dystrophin protein expression after intramuscular (i.m.) injection",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22086232",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using antisense oligonucleotides (AONs), the disrupted DMD reading frame is restored, allowing generation of partially functional dystrophin and conversion of a severe Duchenne into a milder Becker muscular dystrophy phenotype. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19140108",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using antisense oligonucleotides (AONs) targeting specific exons the DMD reading frame is restored and partially functional dystrophins are produced. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17612397",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

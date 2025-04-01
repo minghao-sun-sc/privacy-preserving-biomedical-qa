@@ -1,0 +1,45 @@
+{
+  "id": "5e493bc06d0a277941000003",
+  "type": "list",
+  "question": "List types of cancer where Long intergenic nonprotein coding RNA p53-induced transcript (LINC-PINT) is involved",
+  "ideal_answer": "Long intergenic nonprotein coding RNA p53-induced transcript (LINC-PINT) is involved in the development of pancreatic cancer, glioblastoma and breast cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28408616",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27708234",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30367041"
+  ],
+  "snippets": [
+    {
+      "text": "A peptide encoded by circular form of LINC-PINT suppresses oncogenic transcriptional elongation in glioblastoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30367041",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We identify an 87-amino-acid peptide encoded by the circular form of the long intergenic non-protein-coding RNA p53-induced transcript (LINC-PINT) that suppresses glioblastoma cell proliferation in vitro and in vivo. This peptide directly interacts with polymerase associated factor complex (PAF1c) and inhibits the transcriptional elongation of multiple oncogenes. The expression of this peptide and its corresponding circRNA are decreased in glioblastoma compared with the levels in normal tissues. Our results establish the existence of peptides encoded by circRNAs and demonstrate their potential functions in glioblastoma tumorigenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30367041",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Breast cancer is a heterogeneous and polygenic disease that can be divided into different molecular subtypes based on histological and genomic features. To date, numerous susceptibility loci of breast cancer have been discovered by genome-wide association studies and may expand the genetic features. However, few loci have been further studied according to molecular subtypes.MATERIALS AND METHODS: We genotyped 23 recently discovered single nucleotide polymorphisms using the Sequenom iPLEX platform in a female Chinese cohort of 3,036 breast cancer patients (2,935 samples matched molecular subtypes) and 3,036 healthy controls.RESULTS: Through a stratification analysis, 5q11.2/MAP3K1 (rs16886034, rs16886364, rs16886397, rs1017226, rs16886448) and 7q32.3/LINC-PINT (rs4593472) were associated with Luminal A, and 10q26.1/FGFR2 (rs35054928) was associated with Luminal B.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28408616",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Plasma and tumor levels of Linc-pint are diagnostic and prognostic biomarkers for pancreatic cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27708234",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Long intergenic non-protein coding RNA, p53 induced transcript (Linc-pint) is a long noncoding RNA (lncRNA) that regulates tumor cell viability and proliferation. We used qRT-PCR and RNA FISH analysis to evaluate Linc-pint levels in the plasma and tumor tissues of pancreatic cancer (PCa) patients. Our data demonstrate that Linc-pint expression is lower in plasma samples from PCa patients than from healthy individuals, and indicate that plasma Linc-pint levels are more sensitive than CA19-9 for detecting PCa. Our data also show that Linc-pint levels are lower in PCa tumors than in adjacent tissues, carcinoma of the ampulla of Vater (CAV) and cholangiocarcinoma (CCA), and suggest that Linc-pint could be used for distinguishing the cause of malignant obstructive jaundice. Low plasma Linc-pint levels correlate with tumor recurrence, while low tumor Linc-pint levels correlate with poor prognosis for PCa patients after pancreatectomy. These results thus indicate that low plasma Linc-pint expression could serve as a minimally invasive biomarker for early PCa detection, and that low Linc-pint levels in PCa tumors could be used for predicting patient prognosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27708234",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Glioblastoma, Breast cancer, Pancreatic cancer"
+}

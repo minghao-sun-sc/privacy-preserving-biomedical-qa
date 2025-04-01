@@ -1,0 +1,37 @@
+{
+  "document_id": "record_02488",
+  "original_length": 400,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "Persistent left hip pain.  Left hip avascular necrosis.  Discussed the possibility of hip arthrodesis versus hip replacement versus hip resurfacing [person]",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, DATE_TIME, US_DRIVER_LICENSE"
+      ],
+      "pii_detected": [
+        "URL",
+        "DATE_TIME",
+        "US_DRIVER_LICENSE"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "5ad255210340b9f058000018",
+  "type": "yesno",
+  "question": "Is lumican a secreted protein?",
+  "ideal_answer": "Yes, Lumican is a secreted proteoglycan that regulates collagen fibril assembly.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17050378",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22814255",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22266188",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27126993",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26351669"
+  ],
+  "snippets": [
+    {
+      "text": "fibroblasts stimulated with the fibrocyte-secreted inflammatory signal tumor necrosis factor-\u03b1 secrete the small leucine-rich proteoglycan lumican",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26351669",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TNF-\u03b1-stimulated fibroblasts secrete lumican to promote fibrocyte differentiation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26351669",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Secreted 70kDa lumican stimulates growth and inhibits invasion of human pancreatic cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22266188",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "the elevated level of lumican secretion to extracellular space leads to actin cytoskeletal remodeling followed by an increase in migration capacity of human colon LS180 cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22814255",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lumican is a secreted proteoglycan that regulates collagen fibril assembly.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27126993",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This is the first time that the synthesis and secretion of lumican in human melanoma cell lines is reported. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17050378",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

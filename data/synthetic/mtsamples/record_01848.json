@@ -1,0 +1,39 @@
+{
+  "document_id": "record_01848",
+  "original_length": 6614,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Bunion, left foot.,POSTOPERATIVE DIAGNOSIS: ,Bunion, left foot.,PROCEDURE PERFORMED:\n- Bunionectomy with first metatarsal osteotomy base wedge type with internal screw fixation.\n- A...",
+    "Symptoms": "",
+    "Treatment": "",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Naprosyn 500 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: US_DRIVER_LICENSE, DATE_TIME, PERSON, URL, LOCATION"
+      ],
+      "pii_detected": [
+        "US_DRIVER_LICENSE",
+        "DATE_TIME",
+        "PERSON",
+        "URL",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

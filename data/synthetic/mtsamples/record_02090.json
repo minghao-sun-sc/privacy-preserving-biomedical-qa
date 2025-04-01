@@ -1,0 +1,33 @@
+{
+  "document_id": "record_02090",
+  "original_length": 6091,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Small cell lung cancer with metastasis at the lower lumbar spine, pelvis, and both femurs.\n- Symptomatic facet and sacroiliac joint syndrome on the right.\n- Chronic pain syndrome.,RECOMMENDATION...",
+    "Symptoms": "",
+    "Treatment": ", possible complications, and she voiced understanding and wished to proceed.  She understands that she is on warfarin therapy and that we generally do not perform injections while they are on this...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "patch 250 mcg, Celebrex 200 mg, iron 240 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Small cell lung cancer with metastasis at the lowe...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "550af222c2af5d5b7000000b",
+  "type": "factoid",
+  "question": "Which is the E3 ubiquitin ligase which ubiquitinates IkB leading to its proteasomal degradation?",
+  "ideal_answer": "I\u03baB degradation involves ubiquitination mediated by a specific E3 ubiquitin ligase SCF(\u03b2-TrCP). SCF(\u03b2-TrCP) -mediated I\u03baB ubiquitination and degradation is a very efficient process, often resulting in complete degradation of the key inhibitor I\u03baB\u03b1 within a few minutes of cell stimulation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22435548",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17001349",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16778892",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10837071",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20028970"
+  ],
+  "snippets": [
+    {
+      "text": "IKK activation and I\u03baB degradation involve different ubiquitination modes; the latter is mediated by a specific E3 ubiquitin ligase SCF(\u03b2-TrCP) . The F-box component of this E3, \u03b2-TrCP, recognizes the I\u03baB degron formed following phosphorylation by IKK and thus couples I\u03baB phosphorylation to ubiquitination. SCF(\u03b2-TrCP) -mediated I\u03baB ubiquitination and degradation is a very efficient process, often resulting in complete degradation of the key inhibitor I\u03baB\u03b1 within a few minutes of cell stimulation. In vivo ablation of \u03b2-TrCP results in accumulation of all the I\u03baBs and complete NF-\u03baB inhibition. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22435548",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sequence comparison analysis showed sequence motif identity between CLU and beta-transducin repeat-containing protein (beta-TrCP), a main E3 ubiquitin ligase involved in IkappaB-alpha degradation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20028970",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "IkappaB degradation is dependent upon its phosphorylation by the IkappaB kinase (IKK) complex and subsequent ubiquitination facilitated by beta-Trcp E3 ubiquitin ligase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17001349",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show that beta-catenin stabilizes the mRNA encoding the F-box protein betaTrCP1, and identify the RNA-binding protein CRD-BP (coding region determinant-binding protein) as a previously unknown target of beta-catenin/Tcf transcription factor. CRD-BP binds to the coding region of betaTrCP1 mRNA. Overexpression of CRD-BP stabilizes betaTrCP1 mRNA and elevates betaTrCP1 levels (both in cells and in vivo), resulting in the activation of the Skp1-Cullin1-F-box protein (SCF)(betaTrCP) E3 ubiquitin ligase and in accelerated turnover of its substrates including IkappaB and beta-catenin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16778892",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The multisubunit IkappaB kinase (IKK) responsible for inducible IkappaB phosphorylation is the point of convergence for most NF-kappaB-activating stimuli. IKK contains two catalytic subunits, IKKalpha and IKKbeta, both of which are able to correctly phosphorylate IkappaB. Gene knockout studies have shed light on the very different physiological functions of IKKalpha and IKKbeta. After phosphorylation, the IKK phosphoacceptor sites on IkappaB serve as an essential part of a specific recognition site for E3RS(IkappaB/beta-TrCP), an SCF-type E3 ubiquitin ligase, thereby explaining how IKK controls IkappaB ubiquitination and degradation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10837071",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D044767"
+  ],
+  "exact_answer": "SCF(\u03b2-TrCP), SCF beta-transducin repeat-containing protein (beta-TrCP), beta-Trcp"
+}

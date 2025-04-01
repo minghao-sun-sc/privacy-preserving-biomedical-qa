@@ -1,0 +1,74 @@
+{
+  "id": "56d2ee61f22319765a000007",
+  "type": "yesno",
+  "question": "Are messenger RNA molecules epigenetically methylated?",
+  "ideal_answer": "Yes, methyltranscriptome is an exciting new area that studies the mechanisms and functions of methylation in transcripts.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26121403",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24768686",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25469751",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24480744",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25378335",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26458103",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25430002"
+  ],
+  "snippets": [
+    {
+      "text": "The most abundant mRNA post-transcriptional modification is N(6)-methyladenosine (m(6)A), which has broad roles in RNA biology.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26458103",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "N(6)-methyladenosine (m6A) is the most abundant modified base in eukaryotic mRNA and has been linked to diverse effects on mRNA fate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26121403",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Recently, methylation patterns have also been revealed in mRNA. Surprisingly, the two most commonly studied methylation states in mRNA (m6A and m5C) are found to be enriched in 3'-UTRs (untranslated regions), the target site for the majority of miRNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25469751",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MeT-DB: a database of transcriptome methylation in mammalian cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25378335",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Methyltranscriptome is an exciting new area that studies the mechanisms and functions of methylation in transcripts. The MethylTranscriptome DataBase (MeT-DB, http://compgenomics.utsa.edu/methylation/) is the first comprehensive resource for N6-methyladenosine (m(6)A) in mammalian transcriptome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25378335",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mammalian messenger RNA (mRNA) and long noncoding RNA (lncRNA) contain tens of thousands of posttranscriptional chemical modifications. Among these, the N(6)-methyl-adenosine (m(6)A) modification is the most abundant and can be removed by specific mammalian enzymes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24768686",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent discoveries of reversible N(6)-methyladenosine (m(6)A) methylation on messenger RNA (mRNA) and mapping of m(6)A methylomes in mammals and yeast have revealed potential regulatory functions of this RNA modification.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25430002",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "There are several identified methylation modifications in eukaryotic messenger RNA (mRNA), such as N(7)-methylguanosine (m(7)G) at the cap, N(6)-methyl-2'-O-methyladenosine (m(6)Am), 2'-O-methylation (Nm) within the cap and the internal positions, and internal N(6)-methyladenosine (m(6)A) and 5-methylcytosine (m(5)C).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24480744",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012333",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0080188",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0032259",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008745",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0036265",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0001510"
+  ],
+  "exact_answer": "Yes"
+}

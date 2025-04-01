@@ -1,0 +1,48 @@
+{
+  "id": "56fcf1b8cf1c325851000005",
+  "type": "factoid",
+  "question": "Which type of genes are modulated by SATB1?",
+  "ideal_answer": "Lack of effector T cell (T(eff) cell) function and gain of suppressive activity by T(reg) cells are dependent on the transcriptional program induced by Foxp3. Here we report that repression of SATB1, a genome organizer that regulates chromatin structure and gene expression, was crucial for the phenotype and function of T(reg) cells. Release of SATB1 from the control of Foxp3 in T(reg) cells caused loss of suppressive function, establishment of transcriptional T(eff) cell programs and induction of T(eff) cell cytokines. At an Associative t-test threshold of P",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15371550",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16034473",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21841785"
+  ],
+  "snippets": [
+    {
+      "text": "Repression of the genome organizer SATB1 in regulatory T cells is required for suppressive function and inhibition of effector differentiation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21841785",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "SATB1, a genome organizer that regulates chromatin structure and gene expression, was crucial for the phenotype and function of T(reg) cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21841785",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Foxp3, acting as a transcriptional repressor, directly suppressed the SATB1 locus and indirectly suppressed it through the induction of microRNAs that bound the SATB1 3' untranslated region.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21841785",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Release of SATB1 from the control of Foxp3 in T(reg) cells caused loss of suppressive function, establishment of transcriptional T(eff) cell programs and induction of T(eff) cell cytokines.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21841785",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Consistent with previous reports in a non-superantigen in vivo anergy model, mRNA for CD18 and the transcription factor Satb1 (special AT-rich-binding protein 1) was increased in SEB-energized T cells. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16034473",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/SATB1_HUMAN",
+    "http://www.uniprot.org/uniprot/SATB1_MOUSE"
+  ],
+  "exact_answer": "it supresses cell cytokines and differentiation genes"
+}

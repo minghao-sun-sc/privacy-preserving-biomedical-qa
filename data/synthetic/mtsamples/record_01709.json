@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01709",
+  "original_length": 1284,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Acute appendicitis.",
+    "Symptoms": "",
+    "Treatment": "Right-sided abdominal pain with nausea and fever.  CT abdomen with contrast and CT pelvis with contrast.  Axial CT images of the abdomen and pelvis were obtained utilizing 100 mL of Isovue-300. CT ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'CT abdomen with contrast and CT pelvis with contra...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

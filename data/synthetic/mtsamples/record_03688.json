@@ -1,0 +1,35 @@
+{
+  "document_id": "record_03688",
+  "original_length": 2556,
+  "synthetic_length": 704,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Abdominal wall abscess.,POSTOPERATIVE DIAGNOSIS: , Abdominal wall abscess.,PROCEDURE: , Incision and drainage (I&D) of abdominal abscess, excisional debridement of nonviable and via...",
+    "Symptoms": "",
+    "Treatment": "CT scan",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

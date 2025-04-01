@@ -1,0 +1,45 @@
+{
+  "id": "5e3390fafbd6abf43b000060",
+  "type": "yesno",
+  "question": "Does radiotherapy for cervical cancer increases risk of colon cancer?",
+  "ideal_answer": "Yes, there is epidemiological evidence to suggest that radiotherapy for cervical cancer increases risk for colon cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17971527",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6957649",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24696219"
+  ],
+  "snippets": [
+    {
+      "text": "After 8 years, the hazard ratio for developing colon cancer was 2.00 (95% CI 1.43-2.80) for women with radiation versus those without radiation treatment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24696219",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "After 35 years of follow-up, the absolute risk of developing colon cancer was 6.5% for those who received radiation versus 2.5% for those without, and 3.7 versus 0.8% for rectum. The risk of colon and rectum cancer over 20 years of follow-up after radiation remained the same across three eras (1973-1980, 1981-1990, and 1991-2000). Radiation-induced second cancers of the colon and rectum may occur 8 years after radiation treatment for cervical cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24696219",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The data suggested that high-dose pelvic irradiation was associated with increase in cancers of the bladder, kidneys, rectum, ovaries, corpus uteri, and non-Hodgkin's lymphoma but, apparently, not leukemia, Hodgkin's disease, breast cancer, or colon cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/6957649",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Radiation-induced second cancers of the colon and rectum may occur 8 years after radiation treatment for cervical cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24696219",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cervical cancer patients treated with radiotherapy, but not those who did not receive radiotherapy, were at increased risk for all second cancers and cancers at heavily irradiated sites (colon, rectum/anus, urinary bladder, ovary, and genital sites) beyond 40 years of follow-up compared with women in the general population. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17971527",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

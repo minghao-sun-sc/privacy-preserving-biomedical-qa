@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01473",
+  "original_length": 1507,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  Abnormal electroencephalogram with repetitive bursts of 3 per second spike and wave activity exacerbated by hyperventilation.  This activity could represent true petit mal epilepsy.  Clinical co...",
+    "Symptoms": "",
+    "Treatment": ",  A 21-channel digital electroencephalogram was performed on a patient in the awake state.  Per the technician's notes, the patient is taking Depakene.,The recording consists of symmetric 9 Hz alp...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Per the technician's notes, the patient is taking ...'"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

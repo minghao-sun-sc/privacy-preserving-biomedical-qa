@@ -1,0 +1,110 @@
+{
+  "id": "55390901bc4f83e828000014",
+  "type": "factoid",
+  "question": "What is the effect of CRD-BP on the stability of c-myc mRNA?",
+  "ideal_answer": "The c-myc mRNA coding region determinant-binding protein (CRD-BP) has high affinity for the coding region determinant (CRD) of c-myc mRNA. Such affinity is believed to protect c-myc CRD from endonucleolytic attack.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17264115",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16778892",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11745432",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10692488",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12024010",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10850408",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9178888",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9801297",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12894594"
+  ],
+  "snippets": [
+    {
+      "text": "CRD-BP shields c-myc and MDR-1 RNA from endonucleolytic attack by a mammalian endoribonuclease",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17264115",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The c-myc mRNA coding region determinant-binding protein (CRD-BP) has high affinity for the coding region determinant (CRD) of c-myc mRNA. Such affinity is believed to protect c-myc CRD from endonucleolytic attack",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17264115",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " These results provide the first direct evidence that CRD-BP can indeed protect c-myc CRD cleavage initiated by an endoribonuclease",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17264115",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CRD-BP: a c-Myc mRNA stabilizing protein with an oncofetal pattern of expression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12894594",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The Coding Region Determinant-Binding Protein (CRD-BP) is an RRM and KH-domain-containing protein that recognizes specifically at least three RNAs. It binds to one of the two c-myc mRNA instability elements",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12894594",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CRD-BP has been assigned a role in stabilizing c-myc mRNA by preventing its endonucleolytic cleavage",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12894594",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A 249-nucleotide coding region instability determinant (CRD) destabilizes c-myc mRNA. Previous experiments identified a CRD-binding protein (CRD-BP) that appears to protect the CRD from endonuclease cleavage",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12024010",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These data suggest that c-myc mRNA is rapidly degraded unless it is (i) translated without pausing or (ii) protected by the CRD-BP when pausing occurs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12024010",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we confirm that human CRD-BP/IMP-1 binds to c-myc mRNA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11745432",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The coding region determinant-binding protein (CRD-BP) binds in vitro to c-myc mRNA and is thought to stabilize the mRNA and increase c-Myc protein abundance",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10850408",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Two regions within c- myc mRNA determine its short half-life. One is in the 3'-untranslated region, the other is in the coding region. A cytoplasmic protein, the coding region determinant-binding protein (CRD-BP), binds in vitro to the c- myc coding region instability determinant. We have proposed that the CRD-BP, when bound to the mRNA, shields the mRNA from endonucleolytic attack and thereby prolongs the mRNA half-life",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9801297",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Developmental regulation of CRD-BP, an RNA-binding protein that stabilizes c-myc mRNA in vitro",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9178888",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We previously isolated and characterized a coding region determinant-binding protein (CRD-BP) that might regulate c-myc mRNA post-transcriptionally",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9178888",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CRD-BP binds specifically to the coding region of c-myc mRNA and might stabilize c-myc mRNA in vitro by protecting it from endonucleolytic cleavage",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9178888",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0043488",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0070937",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0070934",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0048255"
+  ],
+  "exact_answer": "To protect c-myc CRD from endonucleolytic attack."
+}

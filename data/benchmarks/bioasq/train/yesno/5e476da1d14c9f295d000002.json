@@ -1,0 +1,45 @@
+{
+  "id": "5e476da1d14c9f295d000002",
+  "type": "yesno",
+  "question": "Is marimastat effective for small-cell lung cancer?",
+  "ideal_answer": "No. Marimastat is not effective for small-cell lung cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11894017",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12757409",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12431965"
+  ],
+  "snippets": [
+    {
+      "text": "The phase III trial in small cell lung cancer was discontinued when the results of study 140 were released in February 2001 showing that marimastat was not significantly more effective than placebo in prolonging the survival of small cell lung cancer patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12757409",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION: Treatment with marimastat after induction therapy for SCLC did not result in improved survival and had a negative impact on quality of life.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12431965",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "There were no significant differences in survival in a non-small cell lung cancer prinomastat study, and in a small cell lung cancer marimastat trial.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11894017",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "There were no significant differences in survival in a non-small cell lung cancer prinomastat study , and in a small cell lung cancer marimastat trial. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11894017",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The phase III trial in small cell lung cancer was discontinued when the results of study 140 were released in February 2001 showing that marimastat was not significantly more effective than placebo in prolonging the survival of small cell lung cancer patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12757409",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

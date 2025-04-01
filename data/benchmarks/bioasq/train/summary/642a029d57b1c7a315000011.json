@@ -1,0 +1,171 @@
+{
+  "id": "642a029d57b1c7a315000011",
+  "type": "summary",
+  "question": "Histone acetyltransferases (HATs) transfer acetyl groups from acetyl CoA to lysine residues on histones. What is the purpose of this transfer?",
+  "ideal_answer": "Histone acetylation is a critical epigenetic modification that changes chromatin architecture and regulates gene expression by opening or closing the chromatin structure. It relaxes DNA coiling around histones and allows transcription factors to bind promoter regions and promote increased gene expression via transcription.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15955204",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32791974",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31606071",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12624111",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12368900",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26065557",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32157780",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11395403",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10790315",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35042977",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17325692",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28240169",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10373413",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30069049",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20493978",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33130515",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17694092",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31191565",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29261229",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33972799",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11479283",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21908798",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12185447",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15313419",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25707943",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26440431",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9708888",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9780836",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10485713",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21243716",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15959560",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10579936",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33373635",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32764680"
+  ],
+  "snippets": [
+    {
+      "text": "Histone acetylation is a critical epigenetic modification that changes chromatin architecture and regulates gene expression by opening or closing the chromatin structure. It plays an essential role in cell cycle progression and differentiation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32791974",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone acetylation is an influential post-translational modification in chromatin architecture. Acetylation affects chromatin structure by offering binding signals for reader proteins that harbor acetyl-lysine recognition domains.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33373635",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In cancer cells, enhancer hijacking mediated by chromosomal alterations and/or increased deposition of acetylated histone H3 lysine 27 (H3K27ac) can support oncogene expression. However, how the chromatin conformation of enhancer-promoter interactions is affected by these events is unclear. In the present study, by comparing chromatin structure and H3K27ac levels in normal and lymphoma B cells, we show that enhancer-promoter-interacting regions assume different conformations according to the local abundance of H3K27ac.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33972799",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone acetyltransferases (HATs) catalyze the acetyl-group transfer from acetyl-CoA to the epsilon-amino group of specific lysine residues within core histone proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10790315",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone acetyltransferases (HATs) mediate the transfer of an acetyl group from the cofactor, acetyl-CoA, to the side chain amino group of specific lysines in diverse protein substrates, most notably nuclear histones.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26065557",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone acetyltransferases (HATs) catalyze the transfer of an acetyl group from acetyl-CoA to lysine residues of histones and play a central role in transcriptional regulation in diverse biological processes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32764680",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "HATs and other chromatin-remodeling enzymes have been recently shown to regulate gene activation within specific loci.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10790315",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone acetyltransferases (HATs) are important enzymes that transfer acetyl groups onto histones and thereby regulate both gene expression and chromosomal structures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32157780",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone acetyltransferases (HATs) are enzymes able to acetylate lysine side chains of histones.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20493978",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The transfer of acetyl groups from acetyl-coenzyme A on histone lysine residues is catalyzed by histone acetyltransferases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31191565",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone lysine acetylation is well known for being important in the epigenetic regulation of gene expression in eukaryotic cells. Recent studies have uncovered a plethora of acetylated proteins involved in important metabolic pathways, such as photosynthesis and respiration in plants. Enzymes involved in histone acetylation and deacetylation are being identified as regulators of acetylation of metabolic enzymes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26440431",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone modifications and more specifically \u03b5-lysine acylations are key epigenetic regulators that control chromatin structure and gene transcription, thereby impacting on various important cellular processes and phenotypes. Furthermore, lysine acetylation of many non-histone proteins is involved in key cellular processes including transcription, DNA damage repair, metabolism, cellular proliferation, mitosis, signal transduction, protein folding, and autophagy. Acetylation affects protein functions through multiple mechanisms including regulation of protein stability, enzymatic activity, subcellular localization, crosstalk with other post-translational modifications as well as regulation of protein-protein and protein-DNA interactions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33130515",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone acetyltransferases (HATs) catalyze the transfer of an acetyl group from an acetyl-coenzyme A donor molecule to specific lysine residues within proteins. The acetylation state of proteins, particularly histones, is known to modulate their intermolecular binding properties and control various cellular processes, most notably transcriptional activation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21908798",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Yeast ESA1 is a member of the MYST subfamily of histone acetyltransferases (HATs), which use acetyl-coenzyme A (CoA) to acetylate specific Lys residues within histones to regulate gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12368900",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone acetylation regulates gene transcription. Histone acetylation is a reversible process: histone acetyltransferases (HAT) transfer the acetyl moiety from acetyl coenzyme A to the lysine, and histone deacetylases (HDAC) remove the acetyl groups re-establishing the positive charge in the histones.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15955204",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Acetylation is a core cellular process involved in maintaining genomic integrity, gene regulation, and metabolism. Histone acetyltransferases (HATs) are an enzyme family that regulates these processes by catalyzing the transfer of an acetyl moiety onto target proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29261229",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone acetylation is a diagnostic feature of transcriptionally active chromatin. The group of enzymes, histone acetyltransferases (HATs), involved in this crucial step of gene regulation, covalently modifies the N-terminal lysine residues of histones by the addition of an acetyl group from acetyl coenzyme A. Dysfunction of these enzymes is often associated with several diseases, ranging from neurodegenerative disorders to cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15313419",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Acetylation of histones by lysine acetyltransferases (KATs) is essential for chromatin organization and function",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30069049",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcriptional regulation in eukaryotes occurs within a chromatin setting and is strongly influenced by nucleosomal barriers imposed by histone proteins. Among the well-known covalent modifications of histones, the reversible acetylation of internal lysine residues in histone amino-terminal domains has long been positively linked to transcriptional activation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11395403",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone acetylation emerges as a central switch that allows interconversion between permissive and repressive chromatin domains in terms of transcriptional competence. The mechanisms underlying the histone acetylation-dependent control of gene expression include a direct effect on the stability of nucleosomal arrays and the creation of docking sites for the binding of regulatory proteins. Histone acetyltransferases and deacetylases are, respectively, the enzymes devoted to the addition and removal of acetyl groups from lysine residues on the histone N-terminal tails. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15959560",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone acetyltransferases (HATs) are a group of enzymes that play a significant role in the regulation of gene expression. These enzymes covalently modify the N-terminal lysine residues of histones by the addition of acetyl groups from acetyl-CoA. Dysfunction of these enzymes is often associated with the manifestation of several diseases, predominantly cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12624111",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

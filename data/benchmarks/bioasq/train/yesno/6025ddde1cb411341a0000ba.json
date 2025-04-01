@@ -1,0 +1,47 @@
+{
+  "id": "6025ddde1cb411341a0000ba",
+  "type": "yesno",
+  "question": "Is Tranexamic acid effective for intracerebral haemorrhage?",
+  "ideal_answer": "No. According to clinical trial data tranexamic acid does not improve outcomes of patients with intracerebral haemorrhage.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31322116",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32637645",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31008298",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29778325",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33128912"
+  ],
+  "snippets": [
+    {
+      "text": "Tranexamic acid did not increase the risk of post-intracerebral haemorrhage seizures in the first 90\u2009days.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32637645",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The primary outcome was not different between the two groups: 26 (52%) patients in the placebo group and 22 (44%) in the tranexamic acid group had intracerebral haemorrhage growth (odds ratio [OR] 0\u00b772 [95% CI 0\u00b732-1\u00b759], p=0\u00b741). There was no evidence of a difference in the proportions of patients who died or had thromboembolic complications between the groups: eight (16%) in the placebo group vs 13 (26%) in the tranexamic acid group died and two (4%) vs one (2%) had thromboembolic complications. None of the deaths was considered related to study medication.INTERPRETATION: Our study does not provide evidence that tranexamic acid prevents intracerebral haemorrhage growth, although the treatment was safe with no increase in thromboembolic complications. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33128912",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: Tranexamic acid did not affect a patient's functional status at 90 days after ICH, despite there being significant modest reductions in early death (by 7 days), haematoma expansion and SAEs, which is consistent with an antifibrinolytic effect. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31322116",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "INTERPRETATION: Functional status 90 days after intracerebral haemorrhage did not differ significantly between patients who received tranexamic acid and those who received placebo, despite a reduction in early deaths and serious adverse events. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29778325",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Of these, two randomised controlled trials (RCTs) comparing intravenous tranexamic acid to placebo (n\u2009=\u200954) reported no significant difference in death or dependency. Three observational studies (n\u2009=\u2009281) suggested less haematoma growth with rapid tranexamic acid infusion. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31008298",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

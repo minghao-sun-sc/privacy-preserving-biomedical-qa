@@ -1,0 +1,31 @@
+{
+  "id": "6200411cc9dfcb9c09000014",
+  "type": "factoid",
+  "question": "Which java utility has been developed for class hidden markov models?",
+  "ideal_answer": "JUCHMME is an open-source software package designed to fit arbitrary custom Hidden Markov Models (HMMs) with a discrete alphabet of symbols, and is used for biological sequence analysis and class hidden markov models in Java EE 8 and Java EE 9.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31250907"
+  ],
+  "snippets": [
+    {
+      "text": "JUCHMME: a Java Utility for Class Hidden Markov Models and Extensions for biological sequence analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31250907",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "JUCHMME is an open-source software package designed to fit arbitrary custom Hidden Markov Models (HMMs) with a discrete alphabet of symbols.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31250907",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SUMMARY: JUCHMME is an open-source software package designed to fit arbitrary custom Hidden Markov Models (HMMs) with a discrete alphabet of symbols.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31250907",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "JUCHMME"
+}

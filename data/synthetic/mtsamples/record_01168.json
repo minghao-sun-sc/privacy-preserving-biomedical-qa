@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01168",
+  "original_length": 2753,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "was finished.,The patient left the OR in satisfactory condition.  The patient was given 50 mg of Demerol IM with 25 mg of Phenergan.",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "given 50 mg, with 25 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: LOCATION",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',The patient left the OR in satisfactory condition...'"
+      ],
+      "pii_detected": [
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

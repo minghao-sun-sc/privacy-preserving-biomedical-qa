@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00607",
+  "original_length": 1403,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",The patient needed reintubation due to a leaking tube.  I explained to the patient the procedure that I was going to do and he nodded in seeming understanding of the procedure.,[person] and su...",
+    "Symptoms": "",
+    "Treatment": "that I was going to do and he nodded in seeming understanding of the procedure.,[person] and succinylcholine, we were able to sedate and paralyze him to perform the procedure.  His potassium th...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'I explained to the patient the procedure that I wa...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

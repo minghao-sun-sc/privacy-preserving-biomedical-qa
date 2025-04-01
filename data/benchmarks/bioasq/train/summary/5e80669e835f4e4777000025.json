@@ -1,0 +1,25 @@
+{
+  "id": "5e80669e835f4e4777000025",
+  "type": "summary",
+  "question": "List angiotensin-converting-enzyme inhibitors.",
+  "ideal_answer": "captopril\nenalapril\nlisinopril\nramipril",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27100959",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28475676"
+  ],
+  "snippets": [
+    {
+      "text": "angiotensin-converting enzyme inhibitor captopril",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27100959",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "enalapril, lisinopril, or ramipril ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28475676",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

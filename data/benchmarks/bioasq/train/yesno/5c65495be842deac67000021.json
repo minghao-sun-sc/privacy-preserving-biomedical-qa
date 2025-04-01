@@ -1,0 +1,19 @@
+{
+  "id": "5c65495be842deac67000021",
+  "type": "yesno",
+  "question": "Has ivosidenib been FDA approved for use against acute myeloid leukemia?",
+  "ideal_answer": "The FDA approved ivosidenib for patients with IDH1-mutant relapsed/refractory acute myeloid leukemia.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30093505"
+  ],
+  "snippets": [
+    {
+      "text": "The FDA approved ivosidenib for patients with IDH1-mutant relapsed/refractory acute myeloid leukemia. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30093505",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

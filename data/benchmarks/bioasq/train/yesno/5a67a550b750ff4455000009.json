@@ -1,0 +1,64 @@
+{
+  "id": "5a67a550b750ff4455000009",
+  "type": "yesno",
+  "question": "Is there an association between carcinoid syndrome and mitral valve disease?",
+  "ideal_answer": "Yes, mitral valve damage was reported in patients with carcinoid syndrome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/7453210",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11568027",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22364692",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26564596",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8131775",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7236050",
+    "http://www.ncbi.nlm.nih.gov/pubmed/261962"
+  ],
+  "snippets": [
+    {
+      "text": "Other concomitant operations included mitral valve procedure (11%), aortic valve procedure (9%), patent foramen ovale or atrial septal defect closure (23%), cardiac metastasectomies or biopsy (4%), and simultaneous coronary artery bypass (11%). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26564596",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "High circulating serotonin (carcinoid syndrome) and serotoninergic drugs are known to cause valvulopathy that shares pathologic features with DMVD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22364692",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Surgery included tricuspid valve replacement in all patients, pulmonary valve replacement in 3 and valvectomy in 7, mitral valve replacement in 6 and repair in 1, aortic valve replacement in 4 and repair in 2, CABG in 2, and patent foramen ovale closure in 5. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11568027",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report two observations of significant left heart involvement in patients with the carcinoid syndrome assessed by transthoracic and transoesophageal echocardiography. Echocardiographic lesions of this kind have only been reported twice. In the present cases, there was mitral involvement with mitral regurgitation in one case and a mitro-aortic involvement with mitral and aortic regurgitation in the other.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8131775",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "An observation of carcinoid syndrome in a woman of 47 suffering from malignant carcinoid of the ileum with metastases into the liver and right ovary is described. The clinical picture included diarrhea, heat waves, bronchospasms, hypertension, hyperserotoninemia, affection of the mitral valve and left atrium. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7236050",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A case of carcinoid syndrome, stemming from a tumor of the large intestine with hepatic metastases, is reported. Clinical features included cardiac disease with triple valvular lesion: tricuspid insufficiency with stenosis, pulmonary artery stenosis and mitral insufficiency. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/261962",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "High circulating serotonin (carcinoid syndrome) and serotoninergic drugs are known to cause valvulopathy that shares pathologic features with DMVD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22364692",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D001244",
+    "http://www.disease-ontology.org/api/metadata/DOID:8600"
+  ],
+  "exact_answer": "Yes"
+}

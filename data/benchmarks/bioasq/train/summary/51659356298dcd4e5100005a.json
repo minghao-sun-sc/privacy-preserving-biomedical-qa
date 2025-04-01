@@ -1,0 +1,154 @@
+{
+  "id": "51659356298dcd4e5100005a",
+  "type": "summary",
+  "question": "How do histone methyltransferases cause histone modification?",
+  "ideal_answer": "Histone methyltransferases (HMTs) are responsible for the site-specific addition of covalent modifications on the histone tails, which serve as markers for the recruitment of chromatin organization complexes. There are two major types of HMTs: histone-lysine N-Methyltransferases and histone-arginine N-methyltransferases. The former methylate specific lysine (K) residues such as 4, 9, 27, 36, and 79 on histone H3 and residue 20 on histone H4. The latter methylate arginine (R) residues such as 2, 8, 17, and 26 on histone H3 and residue 3 on histone H4. Depending on what residue is modified and the degree of methylation (mono-, di- and tri-methylation), lysine methylation of histones is linked to either transcriptionally active or silent chromatin.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19571682",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20026581",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17468742",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18058811",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12893173",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22393255",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12154089",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17548343",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17584191",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11316813",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14690609",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22483804",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16581777",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20305384",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23150054",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22357272",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18846226",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22476432",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11850410",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15775980",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16409643",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18231586",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17846168",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18498648",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23195220"
+  ],
+  "snippets": [
+    {
+      "text": "Lysine methylation of histones is associated with both transcriptionally active chromatin and with silent chromatin, depending on what residue is modified. Histone methyltransferases and demethylases ensure that histone methylations are dynamic and can vary depending on cell cycle- or developmental stage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23195220",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "This approach identified Txr1p as a histone methyltransferase in Tetrahymena thermophila and characterized the relationships of the Txr1p and Ezl2p methyltransferases to histone H3 modification.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23150054",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Histone methyltransferases catalyze site-specific deposition of methyl groups, enabling recruitment of transcriptional regulators. In mammals, trimethylation of lysine 4 in histone H3, a modification localized at the transcription start sites of active genes, is catalyzed by six enzymes (SET1a and SET1b, MLL1-MLL4) whose specific functions are largely unknown. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22483804",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Epigenetic regulation of gene expression by covalent modification of histones is important for germ line cell development. In mammals, histone H3 lysine 9 (H3K9)-specific histone methyltransferases (HMTases), such as G9a, SETDB1, and SUV39H, play critical roles, but the contribution of H3K9-specific HMTases in Drosophila remains to be clarified, especially in male sperm.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22476432",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "By analyzing the distribution of histone modifications in nuclei using quantitative fluorescence microscopy, we found that H4K16 acetylation (H4K16ac) is underrepresented and H4K20 monomethylation (H4K20me1) is enriched on hermaphrodite X chromosomes in a DCC-dependent manner. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22393255",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": " Here, we found the epigenetic modification of the BZLF1 promoter in latent Raji cells by histone H3 lysine 27 trimethylation (H3K27me3), H3K9me2/me3, and H4K20me3. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22357272",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Although DNA methyltransferases have been shown to interact with histone methyltransferases such as EZH2 (which methylates histone H3 on lysine 27) and G9a (which methylates histone H3 on lysine 9), the relationship between DNA methylation and repressive histone marks has not been fully studied. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20305384",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Methylation of histone H4 lysine 20 (H4K20me) plays critical roles in diverse cellular processes such as gene expression, cell cycle progression and DNA damage repair, with each of the three degrees of methylation (mono-, di- and tri-methylation) making a unique contribution. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19571682",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Histone H3-lysine (K) 4, H3-K9 and H3-K27 modifications in all these four genes were examined by chromatin immunoprecipitation (ChIP) assay in HCC cell lines. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17584191",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The histone H4 N-terminal tail has long been regarded as a major regulator in chromatin structure and function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17548343",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Gene transcription is critically influenced by chromatin structure and the modification status of histone tails. Methylation of lysine residues in histone tails is dynamically regulated by the opposing activities of histone methyltransferases and histone demethylases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17468742",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The SAS3-dependent NuA3 histone acetyltransferase complex was originally identified on the basis of its ability to acetylate histone H3 in vitro.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16581777",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "SU(VAR)3-9 like histone methyltransferases control heterochromatic domains in eukaryotes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15775980",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Methylation of position-specific lysine residues in histone N termini is a central modification for regulating epigenetic transitions in chromatin. Each methylatable lysine residue can exist in a mono-, di-, or trimethylated state, thereby extending the indexing potential of this particular modification. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14690609",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "One of these modifications, histone lysine methylation, has been shown to be highly stable and to represent an epigenetic alteration.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12893173",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Primarily because of the recent discovery of the SET domain-depending H3-specific histone methyltransferases SUV39H1 and Suv39h1, which selectively methylate lysine 9 of the H3 N terminus, this posttranslational modification has regained scientific interest.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12154089",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Set9, a novel histone H3 methyltransferase that facilitates transcription by precluding histone tail modifications required for heterochromatin formation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11850410",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Our results suggest that the methylation of histone tails can have distinct effects on transcription, depending on its chromosomal location, the combination of posttranslational modifications, and the enzyme (or protein complex) involved in the particular modification.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11850410",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Among the different groups of enzymes known to catalyze the covalent modification, the most recent additions are the histone methyltransferases (HMTases), whose functions are now being characterized.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11316813",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011495",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0016570",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0008469"
+  ]
+}

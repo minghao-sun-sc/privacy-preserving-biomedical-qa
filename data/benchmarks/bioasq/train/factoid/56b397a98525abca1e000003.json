@@ -1,0 +1,59 @@
+{
+  "id": "56b397a98525abca1e000003",
+  "type": "factoid",
+  "question": "What is the lipid droplet used for in the cell?",
+  "ideal_answer": "Lipid droplets (LDs) are ubiquitous and physiologically active organelles regulating storage and mobilization of lipids in response to metabolic demands.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26121906",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25189622",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25132820",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24394544",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25894691",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25110833"
+  ],
+  "snippets": [
+    {
+      "text": "Eukaryotic cells store excess fatty acids as neutral lipids, predominantly triacylglycerols and sterol esters, in organelles termed lipid droplets (LDs) that bulge out from the endoplasmic reticulum. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25894691",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lipid droplets (LD) are spherical cellular inclusion devoted to lipids storage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26121906",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cells store fatty acids (FAs) as triacylglycerol and package them into cytoplasmic lipid droplets (LDs). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25132820",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lipid droplets are found in all cell types",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25189622",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lipid droplets (LDs) are ubiquitous and physiologically active organelles regulating storage and mobilization of lipids in response to metabolic demands. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25110833",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lipids accumulate in spherical cellular inclusions called lipid droplets (LDs) whose sizes range from fraction to one hundred of micrometers in adipocytes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24394544",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005811",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D066292",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0034389",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002477"
+  ],
+  "exact_answer": "lipid storage and lipid mobilization"
+}

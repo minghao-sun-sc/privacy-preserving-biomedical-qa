@@ -1,0 +1,44 @@
+{
+  "id": "534e364e288f4dae47000001",
+  "type": "factoid",
+  "question": "Approximately how many recombination hotspots have been found in the yeast genome?",
+  "ideal_answer": "In the fission yeast genome DSBs are located within 194 prominent peaks separated on average by 65-kbp intervals of DNA that are largely free of DSBs.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18449558",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8290959",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17478517",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16640774",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18682829",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19557188"
+  ],
+  "snippets": [
+    {
+      "text": "In the fission yeast genome DSBs are located within 194 prominent peaks separated on average by 65-kbp intervals of DNA that are largely free of DSBs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18682829",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Most meiotic recombination is positioned at hotspots, but knowledge of the mechanisms is nebulous",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18682829",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "meiotic recombination is initiated by double-strand DNA breaks (DSBs) which occur at relatively high frequencies in some genomic regions (hotspots) and relatively low frequencies in others (coldspots)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17478517",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015003",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006312",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010844",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012441",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0051598",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011995",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016678"
+  ],
+  "exact_answer": "Approximately 200, 200, ~200"
+}

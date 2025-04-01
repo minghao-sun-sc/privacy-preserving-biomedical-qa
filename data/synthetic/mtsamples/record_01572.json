@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01572",
+  "original_length": 1999,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",Probable small tear in the anterior horn of the lateral meniscus at the meniscal root.,Interstitial sprain/partial tear of the anterior cruciate ligament.,Arthrosis, joint effusion and synovial hy...",
+    "Symptoms": "",
+    "Treatment": "MRI left knee. MRI Knee - 3",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',Interstitial sprain/partial tear of the anterior ...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

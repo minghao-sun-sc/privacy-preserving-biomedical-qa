@@ -1,0 +1,74 @@
+{
+  "id": "58bcabc702b8c6095300000e",
+  "type": "factoid",
+  "question": "What gene is mutated in Sickle Cell Anemia?",
+  "ideal_answer": "Sickle cell anemia (SCA) is an autosomal recessive disease caused by by the HBB:c.20A>T mutation that leads to hemoglobin S synthesis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27802215",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27814292",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17662889",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1301951",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11172667",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20886046",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8745433",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6310991",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7624311"
+  ],
+  "snippets": [
+    {
+      "text": "Sickle cell anemia (SCA) is an inherited blood disorder. SCA patients present clinical and hematologic variability that cannot be only explained by the single mutation in the beta-globin gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27802215",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sickle cell anemia (SCA) is an autosomal recessive disease caused by the HBB:c.20A>T mutation that leads to hemoglobin S synthesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27814292",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sickle cell anemia is caused by a single type of mutation, a homozygous A\u2192T substitution in the \u00df globin gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20886046",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Implementation of this approach for disorders resulting from mutations affecting the beta-globin gene (e.g., beta-thalassemia and sickle cell anemia), however, has been hampered by the inability to generate recombinant viruses able to efficiently and faithfully transmit the necessary sequences for appropriate gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7624311",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The allele-specific PCR approach has been modified by introducing a second mismatch at the 3'-penultimate link of the primer and used to identify the sickle cell anemia mutation (A-->T transversion in the sixth codon of the human beta-globin gene causing Glu-->Val substitution in the protein), thus obviating the problem of an interpretationally ambiguous 3'-terminal mismatch including T residue.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1301951",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sickle-cell anemia results from an A leads to T transversion in the second nucleotide of codon 6 of the beta-globin gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/6310991",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sickle cell anemia is a genetic blood disorder arising from a point mutation in the beta-globin gene that leads to the replacement of glutamic acid residue by valine at the sixth position of the beta--chain of hemoglobin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11172667",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sickle cell anemia is a genetic blood disease resulting from production of mutant beta-globin (beta(S)) and has severe clinical consequences. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17662889",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000755",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006451",
+    "http://www.disease-ontology.org/api/metadata/DOID:10923",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012805"
+  ],
+  "exact_answer": "HBB"
+}

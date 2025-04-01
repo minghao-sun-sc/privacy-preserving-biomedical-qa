@@ -1,0 +1,43 @@
+{
+  "id": "5aae6a86fcf456587200000e",
+  "type": "list",
+  "question": "What are the 3 types of ultraviolet (UV) solar radiation?",
+  "ideal_answer": "Solar ultraviolet (UV) radiation, an ubiquitous environmental carcinogen, is classified depending on the wavelength, into three regions; short-wave UVC (200-280 nm), mid-wave UVB (280-320 nm), and long-wave UVA (320- 400 nm)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24891049",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16117741",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23834148",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11100018"
+  ],
+  "snippets": [
+    {
+      "text": "short-wave UVC (200-280 nm), medium-wave UVB (280-320 nm), and long-wave UVA (320-400 nm).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16117741",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " short-wave UVC (200-280 nm), mid-wave UVB (280-320 nm), and long-wave UVA (320- 400 nm)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23834148",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "solar UV, largely confined to the UVB (290-320 nm) and short-wavelength UVA (320-340 nm) region, there is currently no agreed-upon method to measure broad-spectrum protection against long-wavelength UVA (340-400 nm).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11100018",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ultraviolet radiation is made up of UV-C, UV-B, and UV-A.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24891049",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D012993",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D014466"
+  ],
+  "exact_answer": "short wave UVC (200-280 nm), mid-wave UVB (280-320 nm), long-wave UVA (320- 400 nm)"
+}

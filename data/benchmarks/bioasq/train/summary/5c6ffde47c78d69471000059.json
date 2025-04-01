@@ -1,0 +1,189 @@
+{
+  "id": "5c6ffde47c78d69471000059",
+  "type": "summary",
+  "question": "What is CIBERSORT used for?",
+  "ideal_answer": "CIBERSORT is a versatile computational method for characterizing cell composition of complex tissues from their gene expression profiles.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29796177",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30374348",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30117315",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29770915",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30479695",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26193342",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28405516",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29670256",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27737921",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27233495",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28193155",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25822800",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28826097",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27959923",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30261315",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29344893"
+  ],
+  "snippets": [
+    {
+      "text": "We recently described CIBERSORT, a versatile computational method for quantifying cell fractions from bulk tissue gene expression profiles (GEPs). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29344893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We introduce CIBERSORT, a method for characterizing cell composition of complex tissues from their gene expression profiles. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25822800",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "By applying CIBERSORT, a computational approach for inferring leukocyte representation in bulk tumor transcriptomes, we identified complex associations between 22 distinct leukocyte subsets and cancer survival. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26193342",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We applied an established computational approach (CIBERSORT) to bulk gene expression profiles of almost 11,000 tumours to infer the proportions of 22 subsets of immune cells. We investigated associations between each cell type and survival and response to chemotherapy, modelling cellular proportions as quartiles. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27959923",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, we characterised the overall abundance of tumour-infiltrating immune cells in breast cancers from TCGA and METABRIC using ESTIMATE and relative frequency of 22 immune cell subsets in breast cancers from METABRIC using CIBERSORT",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27233495",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this chapter, we provide a primer on the CIBERSORT method and illustrate its use for characterizing TILs in tumor samples profiled by microarray or RNA-Seq.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29344893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We recently described CIBERSORT, a versatile computational method for quantifying cell fractions from bulk tissue gene expression profiles (GEPs).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29344893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Combining support vector regression with prior knowledge of expression profiles from purified leukocyte subsets, CIBERSORT can accurately estimate the immune composition of a tumor biopsy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29344893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The main limitations of this study are the use of diverse platforms for measuring gene expression, including some not previously used with CIBERSORT, and the combined analysis of different forms of follow-up across studies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27959923",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this study, based on a deconvolution algorithm (known as CIBERSORT) and clinical annotated expression profiles, we comprehensively analyzed the tumor-infiltrating immune cells present in CRC for the first time.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30117315",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this study, based on a metagene approach (known as CIBERSORT) and an online databse, The Cancer Immunome Atlas (https://tcia.at/), we comprehensively analyzed the tumor-infiltrating immune cells present in lung adenocarcinoma (LUAD) and lung squamous cell carcinoma (LUSC).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28826097",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using this framework we compare a widely used state-of-the-art reference-based algorithm (called constrained projection) to two non-constrained approaches including CIBERSORT and a method based on robust partial correlations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28193155",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CYT was defined by GZMA and PRF1 expression, and CIBERSORT was used to evaluate intratumoral immune cell composition.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29770915",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CIBERSORT was used to estimate the fraction of 22 immune cell types to study their relations with pathological complete response (pCR), disease-free survival (DFS), and overall survival (OS).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27737921",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "By applying CIBERSORT, a computational approach for inferring leukocyte representation in bulk tumor transcriptomes, we identified complex associations between 22 distinct leukocyte subsets and cancer survival.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26193342",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The recently developed CIBERSORT method allows immune cell profiling by deconvolution of gene expression microarray data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29670256",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our data demonstrate that deconvolution of gene expression data by CIBERSORT provides valuable information about immune cell composition of HCC patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29670256",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CIBERSORT was used to resolve 22 immune cell types from the tumor transcriptomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30374348",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We used Cibersort to deconvolute immune cell components based on PBMCs or whole blood IPF genomics datasets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30261315",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Novel algorithms allowing the deconvolution of bulk tumor transcriptomes to find the relative proportions of infiltrating leucocytes, such as CIBERSORT, should be appropriate for this aim but in practice they fail to accurately recognize \u03b3\u03b4 T lymphocytes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28405516",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CIBERSORT should enable large-scale analysis of RNA mixtures for cellular biomarkers and therapeutic targets (http://cibersort.stanford.edu/).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25822800",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We introduce CIBERSORT, a method for characterizing cell composition of complex tissues from their gene expression profiles.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25822800",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Additionally, CIBERSORT in silico deconvolution was used to determine fractions of immune cell sub-populations within the gene expression datasets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30479695",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We analyzed IL-34 mRNA expression in breast cancer cell lines and breast cancer patients and applied established computational approaches (CIBERSORT, ESTIMATE, TIMER, TCIA), to analyze gene expression data from The Cancer Genome Atlas (TCGA). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29796177",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "When applied to enumeration of hematopoietic subsets in RNA mixtures from fresh, frozen and fixed tissues, including solid tumors, CIBERSORT outperformed other methods with respect to noise, unknown mixture content and closely related cell types.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25822800",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this chapter, we provide a primer on the CIBERSORT method and illustrate its use for characterizing TILs in tumor samples profiled by microarray or RNA-Seq.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29344893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "By applying CIBERSORT, we assessed the relative proportions of immune cells in 41 healthy human livers, 305 HCC samples and 82 HCC adjacent tissues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29670256",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

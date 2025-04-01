@@ -1,0 +1,51 @@
+{
+  "id": "5abc9157fcf456587200001e",
+  "type": "summary",
+  "question": "What is \"enhancer hijacking\"?",
+  "ideal_answer": "Enhancer hijacking is the molecular process through which a structural variant removes or moves a TAD boundary to expose TSSs to regulatory enhancers from which they would normally be insulated.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29059320",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27869826",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26229090",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28726821"
+  ],
+  "snippets": [
+    {
+      "text": "Pan-cancer analysis of somatic copy-number alterations implicates IRS4 and IGF2 in enhancer hijacking.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27869826",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we present a framework for inferring cancer-related gene overexpression resulting from CRE reorganization (e.g., enhancer hijacking) by integrating SCNAs, gene expression data and information on topologically associating domains (TADs).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27869826",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We additionally pursued cancer-type-specific analyses and uncovered IGF2 as a target for enhancer hijacking in colorectal cancer. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27869826",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "New molecular subtypes were differentially enriched for specific driver events, including hotspot in-frame insertions that target KBTBD4 and 'enhancer hijacking' events that activate PRDM6.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28726821",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Importantly, such variants could affect enhancer regulation by changing transcription factor bindings or enhancer hijacking, and in turn, make an essential contribution to disease progression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29059320",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We demonstrate a novel approach for simultaneous detection of genomic rearrangements and enhancer activity in tumor biopsies. We identify novel mechanisms of enhancer-driven regulation of the oncogenes MYC and BCL6, and show that the BCL6 locus can serve as an enhancer donor in an \"enhancer hijacking\" translocation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26229090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

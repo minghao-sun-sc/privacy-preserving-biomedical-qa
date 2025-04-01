@@ -1,0 +1,32 @@
+{
+  "id": "56d34fbcf22319765a000009",
+  "type": "yesno",
+  "question": "Can chronological age be predicted by measuring telomere length?",
+  "ideal_answer": "No, telomere length measurement by real-time quantitative PCR cannot be used to predict age of a person, due to the presence of large inter-individual variations in telomere lengths.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23167566",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18378481"
+  ],
+  "snippets": [
+    {
+      "text": "Human somatic cells gradually lose telomeric repeats with age. This study investigated if one could use a correlation between telomere length and age, to predict the age of an individual from their DNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18378481",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Therefore, telomere length measurement by real-time quantitative PCR cannot be used to predict age of a person, due to the presence of large inter-individual variations in telomere lengths.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18378481",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ur results provide the first clear and unambiguous evidence of a relationship between telomere length and mortality in the wild, and substantiate the prediction that telomere length and shortening rate can act as an indicator of biological age further to chronological age when exploring life history questions in natural conditions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23167566",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

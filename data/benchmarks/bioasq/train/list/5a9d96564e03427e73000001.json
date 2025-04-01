@@ -1,0 +1,47 @@
+{
+  "id": "5a9d96564e03427e73000001",
+  "type": "list",
+  "question": "List major risk factors for Alzheimer's disease. ",
+  "ideal_answer": "Apolipoprotein E4\ntype 2 diabetes\nClusterin\nHypertension\nadvancing age\nobesity",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28884281",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28396259",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28435465",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28272510",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27300264"
+  ],
+  "snippets": [
+    {
+      "text": "Apolipoprotein E4 (E4) and type 2 diabetes are major risk factors for cognitive decline and late onset Alzheimer's disease (AD)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28272510",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cardiovascular risk factors, especially hypertension, are also major risk factors for Alzheimer's disease (AD).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28435465",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Clusterin (Apo J) is one of the major risk factors for sporadic form of AD. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28396259",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hypertension is one of the major risk factors for central nervous system (CNS) disorders like stroke and Alzheimer's disease (AD).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28884281",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Major risk factors for AD are advancing age and diabetes. Lately, obesity has been associated with an increased risk of dementia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27300264",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Apolipoprotein E4, type 2 diabetes, Clusterin, Hypertension, advancing age, obesity"
+}

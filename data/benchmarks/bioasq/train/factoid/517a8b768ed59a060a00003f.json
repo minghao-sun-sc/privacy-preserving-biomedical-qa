@@ -1,0 +1,42 @@
+{
+  "id": "517a8b768ed59a060a00003f",
+  "type": "factoid",
+  "question": "Which deiodinase is known to be present in liver?",
+  "ideal_answer": "High D1 and D3 activities are present in fetal human liver, and high D1 and mostly absent D3 activities are present in adult human liver.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/9389494",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9794474",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8550759",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9709961",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7629231",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15072569"
+  ],
+  "snippets": [
+    {
+      "text": "Iodothyronine deiodinase in vitro activity studies in the chicken showed the presence of type I and type III iodothyronine deiodinase activity in both liver and kidney.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15072569",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In embryonic chicken liver (ECL) two types of iodothyronine deiodinases are expressed: D1 and D3.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9389494",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In liver homogenates, D1 activity was not correlated with age, whereas D3 activity showed a strong negative correlation with age (r -0.84), with high D3 activities in preterm infants and (except in 1 infant of 35 weeks) absent D3 activity in full-term infants. In microsomes, D1 activities amounted to 4.3-60 pmol/min/mg protein in fetal livers and to 170-313 pmol/min/mg protein in adult livers, whereas microsomal D3 activities were 0.15-1.45 pmol/min/mg protein in fetuses and <0.1 pmol/min/mg protein in all but one adult.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9709961",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "high D1 and D3 activities in fetal human liver, and high D1 and mostly absent D3 activities in adult human liver.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9709961",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Type 1 deiodinase, type 3 deiodinase"
+}

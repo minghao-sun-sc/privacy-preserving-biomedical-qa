@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04406",
+  "original_length": 3076,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Hypertension, suboptimal control.\n- Hypothyroidism.\n- Arthritis.\n- Allergic rhinitis.\n- History of kidney stones.\n- Osteoporosis.,PLAN:\n- CBC, complete metabolic profile, UA for hypertension.\n- ...",
+    "Symptoms": "",
+    "Treatment": "\n- CBC, complete metabolic profile, UA for hypertension.\n- Chest x-ray for history of breast cancer.\n- DEXA scan, full body for osteoporosis.\n- Flex is up to date.\n- Pneumovax has been given in the...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'CBC, complete metabolic profile, UA for hypertensi...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

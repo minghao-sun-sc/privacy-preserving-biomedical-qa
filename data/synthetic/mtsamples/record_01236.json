@@ -1,0 +1,37 @@
+{
+  "document_id": "record_01236",
+  "original_length": 3193,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Severe low back pain.,POSTOPERATIVE DIAGNOSIS: , Severe low back pain.,OPERATIONS PERFORMED: , Anterior lumbar fusion, L4-L5, L5-S1, PEEK vertebral spacer, structural autograft from...",
+    "Symptoms": "",
+    "Treatment": "MRI scan",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON, US_DRIVER_LICENSE",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',POSTOPERATIVE DIAGNOSIS: , Severe low back pain...'"
+      ],
+      "pii_detected": [
+        "PERSON",
+        "US_DRIVER_LICENSE"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

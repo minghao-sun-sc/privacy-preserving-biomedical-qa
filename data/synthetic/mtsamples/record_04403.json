@@ -1,0 +1,39 @@
+{
+  "document_id": "record_04403",
+  "original_length": 3866,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  A 2-year-old with chronic lung disease, doing the sprints, some bowel difficulties, also just weight gain issues because of the high-energy expenditure with the sprints that she is doing.,PLAN:,...",
+    "Symptoms": "",
+    "Treatment": ",  At this point is to continue with the Isomil and pureed baby foods, a little bit of Pediasure.  They are going to see Dr. XYZ towards the end of this month and follow up with [person].  I w...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, PHONE_NUMBER, URL, NRP"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "PHONE_NUMBER",
+        "URL",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

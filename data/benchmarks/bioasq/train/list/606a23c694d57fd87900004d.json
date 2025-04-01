@@ -1,0 +1,20 @@
+{
+  "id": "606a23c694d57fd87900004d",
+  "type": "list",
+  "question": "Which two genes are predominantly considered by warfarin initial dosing algorithms?",
+  "ideal_answer": "Polymorphisms in CYP2C9 and VKORC1 are taken into consideration by warfarin initial dosing algorithms.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32710457",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31673144"
+  ],
+  "snippets": [
+    {
+      "text": " 507 adults were randomized to receive initial dosing as determined by an algorithm containing genetic (VKORC1 and CYP2C9) plus clinical information or only clinical information.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32710457",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CYP2C9, VKORC1"
+}

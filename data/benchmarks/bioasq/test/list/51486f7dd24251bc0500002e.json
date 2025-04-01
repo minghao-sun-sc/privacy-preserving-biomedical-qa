@@ -1,0 +1,53 @@
+{
+  "id": "51486f7dd24251bc0500002e",
+  "type": "list",
+  "question": "Which scales are recommended by the American Heart Association for depression screening in cardiovascular patients? ",
+  "ideal_answer": "Patient Health Questionnaire-2 (PHQ-2) and Patient Health Questionnaire-9 (PHQ-9) are recommended by the American Heart Association for depression screening in cardiovascular patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23283084",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19840561",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18824640",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21862720",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20435186",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19261139",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21505152"
+  ],
+  "snippets": [
+    {
+      "text": "In 2008, the American Heart Association (AHA) recommended a 2-step screening method, consisting of the 2-item Patient Health Questionnaire (PHQ-2) followed by the 9-item Patient Health Questionnaire (PHQ-9), for identifying depression in cardiovascular patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21862720",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The American Heart Association (AHA) statement has recommended routine screening for depression in coronary artery disease with a 2-stage implementation of the Patient Health Questionnaire (PHQ).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21505152",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "A recent American Heart Association (AHA) Prevention Committee report recommended depression screening of all coronary heart disease patients using 2- and 9-item instruments from the Patient Health Questionnaire (PHQ-2 and PHQ-9) to identify patients who may need further assessment and treatment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20435186",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Patients were screened for depression using a protocol identical to the one endorsed by the AHA in a cardiology community clinic in Elmhurst (Queens, New York). Depression was assessed using the Patient Health Questionnaire.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19840561",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Depression screening in cardiac patients has been recommended by the American Heart Association, but the best approach remains unclear. OBJECTIVE: To evaluate nurse-administered versions of the Patient Health Questionnaire for depression screening in patients hospitalized for acute coronary syndrome. METHODS: Staff nurses in an urban cardiac care unit administered versions 2, 9, and 10 of the questionnaire to 100 patients with acute coronary syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23283084",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003863",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000572",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008403"
+  ],
+  "exact_answer": "patient health questionnaire-2, patient health questionnaire-9"
+}

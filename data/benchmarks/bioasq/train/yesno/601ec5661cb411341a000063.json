@@ -1,0 +1,38 @@
+{
+  "id": "601ec5661cb411341a000063",
+  "type": "yesno",
+  "question": "Is SLIC-CAGE used for quantification of translation?",
+  "ideal_answer": "No. Cap analysis of gene expression (CAGE) is a method used for single-nucleotide resolution detection of RNA polymerase II transcription start sites (TSSs). Accurate detection of TSSs enhances identification and discovery of core promoters. In addition, active enhancers can be detected through signatures of bidirectional transcription initiation. Described here is a protocol for performing super-low input carrier-CAGE (SLIC-CAGE). The SLIC adaptation of the CAGE protocol minimizes RNA losses by artificially increasing the RNA amount through use of an in vitro transcribed RNA carrier mix that is added to the sample of interest, thus enabling library preparation from nanogram-amounts of total RNA (i.e., thousands of cells).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30404778",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31305534"
+  ],
+  "snippets": [
+    {
+      "text": "Transcription Start Site Mapping Using Super-low Input Carrier-CAGE.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31305534",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "SLIC-CAGE: high-resolution transcription start site mapping using nanogram-levels of total RNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30404778",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Cap analysis of gene expression (CAGE) is a methodology for genome-wide quantitative mapping of mRNA 5' ends to precisely capture transcription start sites at a single nucleotide resolution. In combination with high-throughput sequencing, CAGE has revolutionized our understanding of the rules of transcription initiation, led to discovery of new core promoter sequence features, and discovered transcription initiation at enhancers genome-wide. The biggest limitation of CAGE is that even the most recently improved version (nAnT-iCAGE) still requires large amounts of total cellular RNA (5 \u00b5g), preventing its application to scarce biological samples such as those from early embryonic development or rare cell types. Here, we present SLIC-CAGE, a Super-Low Input Carrier-CAGE approach to capture 5' ends of RNA polymerase II transcripts from as little as 5-10 ng of total RNA. This dramatic increase in sensitivity is achieved by specially designed, selectively degradable carrier RNA. We demonstrate the ability of SLIC-CAGE to generate data for genome-wide promoterome with 1000-fold less material than required by existing CAGE methods, by generating a complex, high-quality library from mouse embryonic day 11.5 primordial germ cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30404778",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cap analysis of gene expression (CAGE) is a method used for single-nucleotide resolution detection of RNA polymerase II transcription start sites (TSSs). Accurate detection of TSSs enhances identification and discovery of core promoters. In addition, active enhancers can be detected through signatures of bidirectional transcription initiation. Described here is a protocol for performing super-low input carrier-CAGE (SLIC-CAGE). This SLIC adaptation of the CAGE protocol minimizes RNA losses by artificially increasing the RNA amount through use of an in vitro transcribed RNA carrier mix that is added to the sample of interest, thus enabling library preparation from nanogram-amounts of total RNA (i.e., thousands of cells). The carrier mimics the expected DNA library fragment length distribution, thereby eliminating biases that could be caused by the abundance of a homogenous carrier. In the last stages of the protocol, the carrier is removed through degradation with homing endonucleases and the target library is amplified. The target sample library is protected from degradation, as the homing endonuclease recognition sites are long (between 18 and 27 bp), making the probability of their existence in the eukaryotic genomes very low. The end result is a DNA library ready for next-generation sequencing. All steps in the protocol, up to sequencing, can be completed within 6 days. The carrier preparation requires a full working day; however, it can be prepared in large quantities and kept frozen at -80 \u00b0C. Once sequenced, the reads can be processed to obtain genome-wide single-nucleotide resolution TSSs. TSSs can be used for core promoter or enhancer discovery, providing insight into gene regulation. Once aggregated to promoters, the data can also be used for 5'-centric expression profiling.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31305534",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,33 @@
+{
+  "document_id": "record_03685",
+  "original_length": 2861,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Choledocholithiasis, ? cholecystitis.,PLAN: , He will be admitted and placed on IV antibiotics.  We will get an ultrasound this morning.  He will need his gallbladder out, probably with intraoper...",
+    "Symptoms": "",
+    "Treatment": ", He will be admitted and placed on IV antibiotics.  We will get an ultrasound this morning.  He will need his gallbladder out, probably with intraoperative cholangiogram.  Hopefully, the stone wil...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',PLAN: , He will be admitted and placed on IV anti...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "5709ee36cf1c32585100001e",
+  "type": "factoid",
+  "question": "Which syndrome is associated with mutant DVL1?",
+  "ideal_answer": "Mutations in DVL1 cause an osteosclerotic form of Robinow syndrome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25817014",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25817016"
+  ],
+  "snippets": [
+    {
+      "text": "Mutations in DVL1 cause an osteosclerotic form of Robinow syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25817014",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we identified de novo frameshift mutations in DVL1, a mediator of both canonical and non-canonical Wnt signaling, as the cause of RS-OS, an RS subtype involving osteosclerosis, in three unrelated individuals.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25817014",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DVL1 frameshift mutations clustering in the penultimate exon cause autosomal-dominant Robinow syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25817016",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "argeted Sanger sequencing in additional subjects with DRS uncovered DVL1 exon 14 mutations in five individuals, including a pair of monozygotic twins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25817016",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Robinow syndrome"
+}

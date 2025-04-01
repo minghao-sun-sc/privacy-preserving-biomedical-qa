@@ -1,0 +1,32 @@
+{
+  "id": "56cdf5315795f9a73e000046",
+  "type": "factoid",
+  "question": "Which is the enzyme that degrades decapped mRNAs?",
+  "ideal_answer": "The removal of the 5'-cap structure by the decapping enzyme DCP2 and its coactivator DCP1 shuts down translation and exposes the mRNA to 5'-to-3' exonucleolytic degradation by XRN1",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24510189",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22383165"
+  ],
+  "snippets": [
+    {
+      "text": "The removal of the 5'-cap structure by the decapping enzyme DCP2 and its coactivator DCP1 shuts down translation and exposes the mRNA to 5'-to-3' exonucleolytic degradation by XRN1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24510189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DCP2 activation by DCP1 occurs preferentially on the EDC4 scaffold, which may serve to couple DCP2 activation by DCP1 with 5'-to-3' mRNA degradation by XRN1 in human cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24510189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "XRN1 is a 5' \u2192 3' processive exoribonuclease that degrades mRNAs after they have been decapped",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22383165",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "XRN1"
+}

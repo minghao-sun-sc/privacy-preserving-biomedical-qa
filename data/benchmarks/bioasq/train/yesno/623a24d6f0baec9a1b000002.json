@@ -1,0 +1,108 @@
+{
+  "id": "623a24d6f0baec9a1b000002",
+  "type": "yesno",
+  "question": "Is telomestatin, a novel statin drug used to treat high cholesterol?",
+  "ideal_answer": "Telomestatin is a natural product isolated from Streptomyces anulatus 3533-SV4 and has been shown to be a very potent telomerase inhibitor and is used to treat cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11878947",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28611443",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23909929",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16652154",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15283144",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12917635"
+  ],
+  "snippets": [
+    {
+      "text": "Telomestatin is a natural product isolated from Streptomyces anulatus 3533-SV4 and has been shown to be a very potent telomerase inhibitor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11878947",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Telomestatin, a potent telomerase inhibitor that interacts quite specifically with the human telomeric intramolecular g-quadruplex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11878947",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Activity of a novel G-quadruplex-interactive telomerase inhibitor, telomestatin (SOT-095), ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12917635",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " G-quadruplex-interactive telomerase inhibitor, telomestatin (SOT-095),",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12917635",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " We found that treatment with telomestatin reproducibly inhibited telomerase activity in the BCR-ABL-positive leukemic cell lines",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12917635",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A novel telomerase inhibitor, telomestatin, isolated from Streptomyces anulatus is the most potent telomerase inhibitor so far.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15283144",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Telomerase inhibitor, telomestatin, a specific mechanism to interact with telomere structure",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15283144",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Telomestatin specifically inhibited telomerase without affecting reverse transcriptases and polymerases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15283144",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, telomestatin induced telomere shortening, but its ratio was extremely faster than that observed in physiological telomere shortening.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15283144",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A novel telomerase inhibitor, telomestatin, isolated from Streptomyces anulatus is the most potent telomerase inhibitor so far. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15283144",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ructure has been yet resolved for the complex with telomestatin, one of the most promising G-quadruplex-targeting anticancer drug candidates. Here",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23909929",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Telomestatin, a strong telomerase inhibitor with G-quadruplex stabilizing activity, is a potential therapeutic agent for treating cancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28611443",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thus, telomestatin provide the novel therapeutic molecular target for cancer chemotherapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15283144",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Telomerase inhibition with a novel G-quadruplex-interactive agent, telomestatin: in vitro and in vivo studies in acute leukemia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16652154",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Activity of a novel G-quadruplex-interactive telomerase inhibitor, telomestatin (SOT-095), against human leukemia cells: involvement of ATM-dependent DNA damage response pathways.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12917635",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

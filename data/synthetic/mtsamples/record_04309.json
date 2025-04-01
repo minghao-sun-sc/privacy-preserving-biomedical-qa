@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04309",
+  "original_length": 3467,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  ACUTE ALLERGIC REACTION WITH URTICARIA AND PRURITUS.,ASSESSMENT AND PLAN: , The patient has what looks to be some type of allergic reaction, although the underlying cause is difficult to assess....",
+    "Symptoms": "",
+    "Treatment": ", The patient has what looks to be some type of allergic reaction, although the underlying cause is difficult to assess.  He will make sure he goes home to look around to see if there is in fact an...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "with 50 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',ASSESSMENT AND PLAN: , The patient has what looks...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

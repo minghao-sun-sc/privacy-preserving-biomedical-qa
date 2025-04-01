@@ -1,0 +1,110 @@
+{
+  "id": "5fe31322a43ad3127800004c",
+  "type": "list",
+  "question": "Which lncRNAs are induced by heatshock?",
+  "ideal_answer": "Malat1, papas, long noncoding rnas, circrna, neat1, and mirna are induced by heat shock.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27518140",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27257073",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26634309",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22976942",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30305397",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26142536",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29228702",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24002685"
+  ],
+  "snippets": [
+    {
+      "text": "The Malat1 long non-coding RNA is upregulated by signalling through the PERK axis of unfolded protein response during flavivirus infection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26634309",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Following the initial discovery of the heat shock RNA omega (hsr\u03c9) gene of Drosophila melanogaster to be non-coding (nc) and also inducible by cell stress, other stress-inducible long non-coding RNAs (lncRNA) have been described in diverse organisms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22976942",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Non-coding RNAs turn up the heat: an emerging layer of novel regulators in the mammalian heat shock response.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24002685",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "It is our hope that much of what is discussed herein may help researchers in integrating the fields of heat shock and ncRNA in mammals.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24002685",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Indeed, as discussed in this review, long noncoding RNAs (lncRNAs), the largest family of noncoding transcripts, have emerged as common regulators of many cellular stressors; including heat shock, metabolic deprivation and DNA damage. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26142536",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Attenuation of pre-rRNA synthesis in response to heat stress is accompanied by upregulation of PAPAS, a long non-coding RNA (lncRNA) that is transcribed in antisense orientation to pre-rRNA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27257073",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Yet-to-be-explored genomics areas include miRNA, lncRNA, copy number variations, RNA sequencing, and human genome-wide association study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27518140",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LncRNA and mRNA profiling during activation of tilapia macrophages by HSP70",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29228702",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "56 lncRNA, 10173 mRNA and 1782 transcripts of uncertain coding potential (TUCP) were differentially expressed by pairwise comparison.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29228702",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LNC_00035 and LNC_000466",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29228702",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LNC_000792, LNC_000215, LNC_000035 and LNC_000310, with cis and/or trans relationships with mRNAs, were also involved in ceRNA network.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29228702",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The long non-coding RNA NEAT1 and nuclear paraspeckles are upregulated by the transcription factor HSF1 in the heat shock response.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30305397",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "NEAT1 and paraspeckle formation are increased in cells upon exposure to a variety of environmental stressors, and believed to play an important role in cell survival. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30305397",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show that NEAT1 is a novel target gene of heat shock transcription factor 1 (HSF1), and upregulated when the heat shock response pathway is activated by Sulforaphane (SFN) or elevated temperature",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30305397",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We have found that the expression of HSP70, HSP90, and HSP27 is amplified and sustained during heat shock in NEAT1-depleted cells compared to control cells, indicating that NEAT1 feeds back via an unknown mechanism to regulate HSF1 activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30305397",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Malat1, hsr-omega, hsr\u03c9, PAPAS, NEAT1"
+}

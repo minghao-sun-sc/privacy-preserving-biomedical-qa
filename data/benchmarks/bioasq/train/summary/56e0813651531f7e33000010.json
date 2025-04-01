@@ -1,0 +1,132 @@
+{
+  "id": "56e0813651531f7e33000010",
+  "type": "summary",
+  "question": "What are viral vectors used for in optogenetics?",
+  "ideal_answer": "Viral vectors are used to express optogenetic constructs in selected cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23283335",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21041318",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25352792",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24647936",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22341326",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23724838",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23217739",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25070340",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23877069",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24572099",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23088961",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25954011",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21278729",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24001071",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23044043",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21373649",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22341319",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22890236",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24285886",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24048849",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25741722",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25759964",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21782903"
+  ],
+  "snippets": [
+    {
+      "text": "To express ChR in neurons, the common expression systems include viral vectors, in utero electroporation, and transgenic animals, each with their advantages and limitations regarding the cost, expression pattern, and the required effort. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22341319",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this review, the various strategies for selective genetic targeting of a defined neuronal population are discussed as well as the pros and cons of the use of transgenic animals and recombinant viral vectors for the expression of transgenes in a specific set of neurons.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22341326",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We demonstrate how the ability to target astrocytes with cell-specific viral vectors to express optogenetic constructs helped to unravel some previously unsuspected roles of these inconspicuous cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21041318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Optogenetics, the use of light to stimulate or inhibit neural circuits via viral transduction of protein channels, has emerged as a possible method of treating epilepsy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23724838",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We demonstrate how the ability to target astrocytes with cell-specific viral vectors to express optogenetic constructs helped to unravel some previously unsuspected roles of these inconspicuous cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21041318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We conclude that a viral vector approach with a strong promoter is required for successful optogenetic stimulation of distal axons to evoke transmitter release in pre-autonomic PVN neurons.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22890236",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS: Extracellular single-unit recordings were made from infralimbic (IL) pyramidal cells, IL interneurons and prelimbic (PL) pyramidal cells 2-3 weeks after intra-IL injection of a viral vector encoding channel rhodopsin 2 (ChR2) under the control of the CaMKII promoter (rAAV5/CaMKIIa-ChR2(H134R)-EYFP) or a control vector that lacked the ChR2 sequence (rAAV5/CaMKIIa-EYFP). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23044043",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We conclude that a viral vector approach with a strong promoter is required for successful optogenetic stimulation of distal axons to evoke transmitter release in pre-autonomic PVN neurons. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22890236",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We selectively expressed ChR2(H134R) in rostral VLM catecholaminergic neurons by injecting Cre-dependent adeno-associated viral vectors into the brain of adult dopamine-\u03b2-hydroxylase (D\u03b2H)(Cre/0) mice. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24285886",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We developed driver and double reporter mouse lines and viral vectors using the Cre/Flp and Cre/Dre double recombinase systems and established a new, retargetable genomic locus, TIGRE, which allowed the generation of a large set of Cre/tTA-dependent reporter lines expressing fluorescent proteins, genetically encoded calcium, voltage, or glutamate indicators, and optogenetic effectors, all at substantially higher levels than before. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25741722",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We generated rabies glycoprotein-pseudotyped lentiviral vectors that use a positive feedback loop composed of a Tet promoter driving both its own tetracycline-dependent transcription activator (tTA) (\"TLoop\") and channelrhodopsin-2-YFP (ChR2YFP). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24572099",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Optogenetic control of cardiomyocytes via viral delivery.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25070340",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we used an optogenetic approach, in which female rats received bilateral dorsal mPFC microinjections of viral constructs coding light-sensitive eNpHR3.0-eYFP or control eYFP protein and intracranial fiber optic implants. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23283335",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We transduced rat LC neurons by direct injection of a lentiviral vector expressing channelrhodopsin2 under the control of the PRS promoter. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24647936",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we describe the construction of a blue-light-induced K(+) channel 1 (BLINK1) engineered by fusing the plant LOV2-J\ufffd photosensory module to the small viral K(+) channel Kcv. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25954011",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In parallel, remarkable success in the development of highly efficient viral vectors for ocular gene therapy led to new strategies of using these novel optogenetic tools for vision restoration.  These recent findings show that novel optogenetic tools and viral vectors for ocular gene delivery are now available providing many opportunities to develop potential optogenetic strategies for vision restoration.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25759964",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0044009"
+  ]
+}

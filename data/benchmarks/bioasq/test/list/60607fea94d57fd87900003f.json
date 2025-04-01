@@ -1,0 +1,92 @@
+{
+  "id": "60607fea94d57fd87900003f",
+  "type": "list",
+  "question": "Which R packages have been developed for studying TADs?",
+  "ideal_answer": "TADCompare is an R Package for differential and temporal analysis of Topologically Associated Domains. SpectralTAD is an R package for defining a hierarchy of topologically associated domains using spectral clustering.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32689928",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32211023"
+  ],
+  "snippets": [
+    {
+      "text": "TADCompare: An R Package for Differential and Temporal Analysis of Topologically Associated Domains.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32211023",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We developed TADCompare, a method for differential analysis of boundaries of interacting domains between two or more Hi-C datasets. TADCompare is based on a spectral clustering-derived measure called the eigenvector gap, which enables a loci-by-loci comparison of boundary differences. Using this measure, we introduce methods for identifying differential and consensus boundaries of interacting domains and tracking boundary changes over time. We further propose a novel framework for the systematic classification of boundary changes. Colocalization- and gene enrichment analysis of different types of boundary changes demonstrated distinct biological functionality associated with them. TADCompare is available on https://github.com/dozmorovlab/TADCompare and Bioconductor (submitted).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32211023",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SpectralTAD: an R package for defining a hierarchy of topologically associated domains using spectral clustering.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32689928",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Our method, implemented in an R package, SpectralTAD, detects hierarchical, biologically relevant TADs, has automatic parameter selection, is robust to sequencing depth, resolution, and sparsity of Hi-C data. SpectralTAD outperforms four state-of-the-art TAD callers in simulated and experimental settings. We demonstrate that TAD boundaries shared among multiple levels of the TAD hierarchy were more enriched in classical boundary marks and more conserved across cell lines and tissues. In contrast, boundaries of TADs that cannot be split into sub-TADs showed less enrichment and conservation, suggesting their more dynamic role in genome regulation.CONCLUSION: SpectralTAD is available on Bioconductor, http://bioconductor.org/packages/SpectralTAD/ .",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32689928",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LTS: Our method, implemented in an R package, SpectralTAD, detects hierarchical, biologically relevant TADs, has automatic parameter selection, is robust to sequencing depth, resolution, and sparsity of Hi-C data. Spe",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32689928",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TADCompare: An R Package for Differential and Temporal Analysis of Topologically Associated Domains",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32211023",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "SpectralTAD: an R package for defining a hierarchy of topologically associated domains using spectral clustering",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32689928",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "d TADCompare, a method for differential analysis of boundaries of interacting domains between two or more Hi-C datasets. TADCompare",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32211023",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "r method, implemented in an R package, SpectralTAD, detects hierarchical, biologically relevant TADs, has automatic parameter selection, is robust to sequencing depth, resolution, and sparsity of Hi-C data. S",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32689928",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "regulation. Existing tools for TAD calling are frequently sensitive to biases in Hi-C data, depend on tunable parameters, and are computationally inefficient.METHODS: To address these challenges, we developed a novel sliding window-based spectral clustering framework that uses gaps between consecutive eigenvectors for TAD boundary identification.RESULTS: Our method, implemented in an R package, SpectralTAD, detects hierarchical, biologically relevant TADs, has automatic parameter selection, is robust to sequencing depth, resoluti",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32689928",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "cross cell lines and tissues. In contrast, boundaries of TADs that cannot be split into sub-TADs showed less enrichment and conservation, suggesting their more dynamic role in genome regulation.CONCLUSION: SpectralTAD is available on Bioconductor, http:",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32689928",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We developed TADCompare, a method for differential analysis of boundaries of interacting domains between two or more Hi-C datasets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32211023",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TADCompare is based on a spectral clustering-derived measure called the eigenvector gap, which enables a loci-by-loci comparison of boundary differences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32211023",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "TADCompare, SpectralTAD"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "6217db763a8413c653000028",
+  "type": "yesno",
+  "question": "Is Mycobacterium abscessus a human pathogen?",
+  "ideal_answer": "Yes,\nMycobacterium abscessus is unique in terms of its high morbidity and treatment failure rates.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32662049",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34460298",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34526902",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34516254"
+  ],
+  "snippets": [
+    {
+      "text": "Mycobacterium abscessus is unique in terms of its high morbidity and treatment failure rates",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32662049",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mycobacterium abscessus has emerged as a successful pathogen owing to its intrinsic drug resistance. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34460298",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mycobacterium abscessus lung disease is difficult to treat due to intrinsic drug resistance and the persistence of drug-tolerant bacteria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34516254",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mycobacterium abscessus has been recognised as a dreadful respiratory pathogen among the non-tuberculous mycobacteria (NTM) because of misdiagnosis, prolonged therapy with poor treatment outcomes and a high cost. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34526902",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,38 @@
+{
+  "document_id": "record_04335",
+  "original_length": 4019,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": "\n- Bilateral pulmonary embolism, most consistent with emboli from right lower extremity, on intravenous heparin, rule out hereditary hypercoagulable state.\n- Leukocytosis, most likely leukemoid rea...",
+    "Symptoms": "",
+    "Treatment": "e and car and attending several sales shows, developed acute shortness of breath with an episode of syncope this weekend and was brought in by paramedics to Hospital.  A V/Q scan revealed multiple ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, DATE_TIME, LOCATION, PERSON"
+      ],
+      "pii_detected": [
+        "URL",
+        "DATE_TIME",
+        "LOCATION",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

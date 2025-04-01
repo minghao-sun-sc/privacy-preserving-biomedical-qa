@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04695",
+  "original_length": 6209,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "is aspiration pneumonia.  The patient will continue with a dysphagia 2 diet with thin liquids after discharge.  The patient discharged with home health.  A dietary and speech therapy evaluation has...",
+    "Symptoms": "",
+    "Treatment": "X-ray imaging",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Ativan 1 mg, Metformin 1000 mg, Glucotrol 5 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: IN_PAN",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'The patient will continue with a dysphagia 2 diet ...'"
+      ],
+      "pii_detected": [
+        "IN_PAN"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

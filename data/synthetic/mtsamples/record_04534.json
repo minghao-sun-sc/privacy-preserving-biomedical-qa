@@ -1,0 +1,37 @@
+{
+  "document_id": "record_04534",
+  "original_length": 4454,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",Cervical cord lesion at the C7 to T2 level of unclear etiology. Consider a transverse myelitis, tumor, contusion or ischemic lesion.,PLAN:, Will check labs including sedimentation rate, MRI of the...",
+    "Symptoms": "",
+    "Treatment": "tar stimulation on the left, but did not have a Babinski response clearly present. He had intact finger-to-nose testing. Marked impairment in heel-to-shin testing. He was able to sit unassisted. He...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: US_DRIVER_LICENSE, NRP",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Consider a transverse myelitis, tumor, contusion o...'"
+      ],
+      "pii_detected": [
+        "US_DRIVER_LICENSE",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

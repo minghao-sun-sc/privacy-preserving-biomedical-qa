@@ -1,0 +1,63 @@
+{
+  "id": "5719f5b27de986d80d00000c",
+  "type": "factoid",
+  "question": "What is the function of Neu5Gc (N-Glycolylneuraminic acid)?",
+  "ideal_answer": "N-glycolylneuraminic acid (Neu5Gc) is an immunogenic sugar of dietary origin that metabolically incorporates into diverse native glycoconjugates in humans.  Humans lack a functional cytidine monophosphate-N-acetylneuraminic acid hydroxylase (CMAH) protein and cannot synthesize the sugar Neu5Gc, an innate mammalian signal of self. N-Glycolylneuraminic acid (Neu5Gc) can be incorporated in human cells and can trigger immune response, a response that is diverse and polyclonal. As dietary Neu5Gc is primarily found in red meat and milk products, it is suggested that this ongoing antigen-antibody reaction may generate chronic inflammation, possibly contributing to the high frequency of diet-related carcinomas and other diseases in humans.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25003133",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25124893",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18669916",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23945141",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23520510",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11786991"
+  ],
+  "snippets": [
+    {
+      "text": "Humans lack a functional cytidine monophosphate-N-acetylneuraminic acid hydroxylase (CMAH) protein and cannot synthesize the sugar Neu5Gc, an innate mammalian signal of self",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25124893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "N-glycolylneuraminic acid (Neu5Gc) is an immunogenic sugar of dietary origin that metabolically incorporates into diverse native glycoconjugates in humans. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23520510",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "N-Glycolylneuraminic acid (Neu5Gc) is a sialic acid synthesized by animals, but not by humans or birds. However, it can be incorporated in human cells and can trigger immune response.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25003133",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Human heterophile antibodies that agglutinate animal erythrocytes are known to detect the nonhuman sialic acid N-glycolylneuraminic acid (Neu5Gc). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18669916",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " the human anti-Neu5Gc antibody response is diverse and polyclonal.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18669916",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "As dietary Neu5Gc is primarily found in red meat and milk products, we suggest that this ongoing antigen-antibody reaction may generate chronic inflammation, possibly contributing to the high frequency of diet-related carcinomas and other diseases in humans.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18669916",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These data suggest that anti-Neu5Gc Abs represent a barrier for long-term acceptance of porcine xenografts. Because anti-Neu5Gc Abs can promote chronic inflammation, the long-term safety of living and acellular pig tissue implants in recipients warrants further evaluation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23945141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4256873",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019158"
+  ],
+  "exact_answer": "Neu5Gc is an immune message to self"
+}

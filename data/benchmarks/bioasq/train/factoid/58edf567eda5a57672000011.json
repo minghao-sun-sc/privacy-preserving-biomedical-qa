@@ -1,0 +1,67 @@
+{
+  "id": "58edf567eda5a57672000011",
+  "type": "factoid",
+  "question": "How many genes constitute the DosR regulon, controlled by the dormancy survival regulator (DosR) in Mycobacterium tuberculosis?",
+  "ideal_answer": "The Mycobacterium dormancy survival regulator (DosR) regulon is composed of 48 co-regulated genes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22833514",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17502400",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19553548",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23651670",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18294384",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21653552",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22759512"
+  ],
+  "snippets": [
+    {
+      "text": "During this phase, at least 48 genes, collectively named Dormancy survival regulator (DosR) regulon, are important for the long-term survival of bacilli under a non-respiring state, a condition that bacilli encounter inside granulomatous lesions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23651670",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The dormancy survival regulator (DosR) regulon, composed of 48 co-regulated genes, is held as essential for Mtb persistence.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22833514",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " DosR/DevR of M. tuberculosis is a two component dormancy survival response regulator which induces the expression of 48 genes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22759512",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The functional importance of tandem arrangement was established by analyzing promoter variants harboring Dev boxes with altered spacing. Conserved sequence logos were generated from 47 binding sequences which included 24 newly discovered Dev boxes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21653552",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The two component sensor/regulator dosRS is a major mediator in the transcriptional response of M. tuberculosis to hypoxia and controls a regulon of approximately 50 genes that are induced under this condition.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18294384",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In silico analysis of the DosR regulon in BCG and M. tuberculosis showed at least 97% amino acid sequence homology, with 41 out of 48 genes being identical.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17502400",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DosR/DevR of M. tuberculosis is a two component dormancy survival response regulator which induces the expression of 48 genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22759512",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "tuberculosis is a two component dormancy survival response regulator which induces the expression of 48 genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22759512",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "48 genes"
+}

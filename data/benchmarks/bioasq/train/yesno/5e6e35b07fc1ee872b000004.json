@@ -1,0 +1,26 @@
+{
+  "id": "5e6e35b07fc1ee872b000004",
+  "type": "yesno",
+  "question": "Are astrocytes part of the blood brain barrier?",
+  "ideal_answer": "Yes\nThe blood-brain barrier (BBB) is a tight boundary formed between endothelial cells and astrocytes, which separates and protects brain from most pathogens as well as neural toxins in circulation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28883042",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28822114"
+  ],
+  "snippets": [
+    {
+      "text": "The blood-brain barrier (BBB) is a tight boundary formed between endothelial cells and astrocytes, which separates and protects brain from most pathogens as well as neural toxins in circulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28822114",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The blood-brain barrier (BBB) consists of endothelial cells, astrocytes, and pericytes embedded in basal lamina (BL).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28883042",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

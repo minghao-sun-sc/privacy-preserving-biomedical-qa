@@ -1,0 +1,73 @@
+{
+  "id": "5a6e3155b750ff445500003f",
+  "type": "factoid",
+  "question": "Which R/Bioconductor package has been developed for cancer subtype identification?",
+  "ideal_answer": "Identifying molecular cancer subtypes from multi-omics data is an important step in the personalized medicine. CancerSubtypes is an R/Bioconductor package for molecular cancer subtype identification, validation and visualization. CancerSubtypes integrates four main computational methods which are highly cited for cancer subtype identification and provides a standardized framework for data pre-processing, feature selection, and result follow-up analyses, including results computing, biology validation and visualization. The input and output of each step in the framework are packaged in the same data format, making it convenience to compare different methods.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28605519"
+  ],
+  "snippets": [
+    {
+      "text": "CancerSubtypes: an R/Bioconductor package for molecular cancer subtype identification, validation and visualization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28605519",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Identifying molecular cancer subtypes from multi-omics data is an important step in the personalized medicine. We introduce CancerSubtypes, an R package for identifying cancer subtypes using multi-omics data, including gene expression, miRNA expression and DNA methylation data. CancerSubtypes integrates four main computational methods which are highly cited for cancer subtype identification and provides a standardized framework for data pre-processing, feature selection, and result follow-up analyses, including results computing, biology validation and visualization. The input and output of each step in the framework are packaged in the same data format, making it convenience to compare different methods. The package is useful for inferring cancer subtypes from an input genomic dataset, comparing the predictions from different well-known methods and testing new subtype discovery methods, as shown with different application scenarios in the Supplementary Material.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28605519",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CancerSubtypes integrates four main computational methods which are highly cited for cancer subtype identification and provides a standardized framework for data pre-processing, feature selection, and result follow-up analyses, including results computing, biology validation and visualization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28605519",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We introduce CancerSubtypes, an R package for identifying cancer subtypes using multi-omics data, including gene expression, miRNA expression and DNA methylation data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28605519",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We introduce CancerSubtypes, an R package for identifying cancer subtypes using multi-omics data, including gene expression, miRNA expression and DNA methylation data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28605519",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CancerSubtypes integrates four main computational methods which are highly cited for cancer subtype identification and provides a standardized framework for data pre-processing, feature selection, and result follow-up analyses, including results computing, biology validation and visualization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28605519",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We introduce CancerSubtypes, an R package for identifying cancer subtypes using multi-omics data, including gene expression, miRNA expression and DNA methylation data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28605519",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CancerSubtypes integrates four main computational methods which are highly cited for cancer subtype identification and provides a standardized framework for data pre-processing, feature selection, and result follow-up analyses, including results computing, biology validation and visualization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28605519",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "cancersubtypes an r bioconductor package for molecular cancer subtype identification validation and visualization",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28605519",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "identifying molecular cancer subtypes from multi omics data is an important step in the personalized medicine we introduce cancersubtypes an r package for identifying cancer subtypes using multi omics data including gene expression mirna expression and dna methylation data cancersubtypes integrates four main computational methods which are highly cited for cancer subtype identification and provides a standardized framework for data pre processing feature selection and result follow up analyses including results computing biology validation and visualization the input and output of each step in the framework are packaged in the same data format making it convenience to compare different methods the package is useful for inferring cancer subtypes from an input genomic dataset comparing the predictions from different well known methods and testing new subtype discovery methods as shown with different application scenarios in the supplementary material the package is implemented in r and available under gpl 2 license from the bioconductor website http bioconductor org packages cancersubtypes thuc le unisa edu au or jiuyong li unisa edu au supplementary data are available at bioinformatics online.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28605519",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CancerSubtypes"
+}

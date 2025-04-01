@@ -1,0 +1,66 @@
+{
+  "id": "5a6e33e4b750ff4455000041",
+  "type": "summary",
+  "question": "Describe annotatr",
+  "ideal_answer": "Analysis of next-generation sequencing data often results in a list of genomic regions. These may include differentially methylated CpGs/regions, transcription factor binding sites, interacting chromatin regions, or GWAS-associated SNPs, among others. A common analysis step is to annotate such genomic regions to genomic annotations (promoters, exons, enhancers, etc.). The annotatr Bioconductor package flexibly and quickly summarizes and plots annotations of genomic regions. The annotatr package reports all intersections of regions and annotations, giving a better understanding of the genomic context of the regions.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28369316"
+  ],
+  "snippets": [
+    {
+      "text": "Analysis of next-generation sequencing data often results in a list of genomic regions. These may include differentially methylated CpGs/regions, transcription factor binding sites, interacting chromatin regions, or GWAS-associated SNPs, among others. A common analysis step is to annotate such genomic regions to genomic annotations (promoters, exons, enhancers, etc.). Existing tools are limited by a lack of annotation sources and flexible options, the time it takes to annotate regions, an artificial one-to-one region-to-annotation mapping, a lack of visualization options to easily summarize data, or some combination thereof.Results: We developed the annotatr Bioconductor package to flexibly and quickly summarize and plot annotations of genomic regions. The annotatr package reports all intersections of regions and annotations, giving a better understanding of the genomic context of the regions. A variety of graphics functions are implemented to easily plot numerical or categorical data associated with the regions across the annotations, and across annotation intersections, providing insight into how characteristics of the regions differ across the annotations. We demonstrate that annotatr is up to 27\u00d7 faster than comparable R packages. Overall, annotatr enables a richer biological interpretation of experiments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28369316",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Overall, annotatr enables a richer biological interpretation of experiments.<br><b>Availability and Implementation</b>: http://bioconductor.org/packages/annotatr/ and https://github.com/rcavalcante/annotatr.<br><b>Contact</b>: rcavalca@umich.edu.<br><b>Supplementary information</b>: Supplementary data are available at Bioinformatics online.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28369316",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The annotatr package reports all intersections of regions and annotations, giving a better understanding of the genomic context of the regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28369316",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Existing tools are limited by a lack of annotation sources and flexible options, the time it takes to annotate regions, an artificial one-to-one region-to-annotation mapping, a lack of visualization options to easily summarize data, or some combination thereof.<br><b>Results</b>: We developed the annotatr Bioconductor package to flexibly and quickly summarize and plot annotations of genomic regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28369316",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The annotatr package reports all intersections of regions and annotations, giving a better understanding of the genomic context of the regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28369316",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Results We developed the annotatr Bioconductor package to flexibly and quickly summarize and plot annotations of genomic regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28369316",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Overall, annotatr enables a richer biological interpretation of experiments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28369316",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We developed the annotatr Bioconductor package to flexibly and quickly summarize and plot annotations of genomic regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28369316",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The annotatr package reports all intersections of regions and annotations, giving a better understanding of the genomic context of the regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28369316",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

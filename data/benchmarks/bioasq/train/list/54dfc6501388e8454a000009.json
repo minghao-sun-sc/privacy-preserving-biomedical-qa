@@ -1,0 +1,102 @@
+{
+  "id": "54dfc6501388e8454a000009",
+  "type": "list",
+  "question": "Which are the main functions of the APOBEC3 family of proteins?",
+  "ideal_answer": "The APOBEC3 family of cytidine deaminases play a critical role in host-mediated defense against exogenous viruses, most notably, human immunodeficiency virus type-1 (HIV-1), and endogenous transposable elements, such as LINE-1 and Alu retrotransposons.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22915799",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15466872",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17439959",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21966267",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22720156",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22203821",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15994766",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16557012"
+  ],
+  "snippets": [
+    {
+      "text": "The APOBEC3 cytidine deaminases play a critical role in host-mediated defense against exogenous viruses, most notably, human immunodeficiency virus type-1 (HIV-1) and endogenous transposable elements",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22915799",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the identification of APOBEC3G (A3G) as a potent restriction factor of HIV-1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22720156",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "additional A3 family members have been identified as antiviral proteins, mechanistic details of the restrictive capacity of these proteins have been elucidated",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22720156",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Human APOBEC3 (A3) proteins are cellular cytidine deaminases that potently restrict the replication of retroviruses by hypermutating viral cDNA and/or inhibiting reverse transcription",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22203821",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A3F and A3G are the most potent inhibitors of HIV-1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22203821",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "APOBEC3A is a specific inhibitor of the early phases of HIV-1 infection in myeloid cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21966267",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "we demonstrate that the pool of APOBEC3A in target cells inhibits the early phases of HIV-1 infection",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21966267",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results indicate that APOBEC3A is a previously unrecognized antiviral factor that targets primate lentiviruses specifically in myeloid cells and that acts during the early phases of infection directly in target cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21966267",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Foamy virus Bet proteins function as novel inhibitors of the APOBEC3 family of innate antiretroviral defense factors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15994766",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "This inhibition correlated with the packaging of inhibitory APOBEC3 proteins into PFV virions, due to a specific PFV Gag/APOBEC3 interaction, and resulted in the G to A hypermutation of PFV reverse transcripts",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15994766",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "[Antiviral defense by APOBEC3 family proteins].",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16557012",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "All APOBEC3 family proteins differentially inhibit LINE-1 retrotransposition.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17439959",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "These findings raise the possibility that the different APOBEC3 family members function to neutralize specific lentiviruses.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15466872",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/ABEC3_MOUSE",
+    "http://www.uniprot.org/uniprot/ABEC3_CRILO",
+    "http://www.uniprot.org/uniprot/ABEC3_RAT"
+  ],
+  "exact_answer": "host-mediated defense against exogenous viruses, defense against endogenous transposable elements"
+}

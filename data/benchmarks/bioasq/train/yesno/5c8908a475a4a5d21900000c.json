@@ -1,0 +1,25 @@
+{
+  "id": "5c8908a475a4a5d21900000c",
+  "type": "yesno",
+  "question": "Is L-4F an apoE mimetic peptide?",
+  "ideal_answer": "No, L-4F is an apoA-I mimetic peptide.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29245934"
+  ],
+  "snippets": [
+    {
+      "text": "Apolipoprotein A-I mimetic peptide 4F suppresses tumor-associated macrophages and pancreatic cancer progression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29245934",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "L-4F, an Apolipoprotein A-I (ApoA-I) mimetic peptide, is engineered to mimic the anti-inflammatory and anti-oxidative functionalities of ApoA-I.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29245934",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

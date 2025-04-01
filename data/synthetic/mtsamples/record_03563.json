@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03563",
+  "original_length": 3058,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": "\n- Scope passage massive liquid in stomach with some fresh blood near the fundus, unable to identify source due to gastric contents.\n- Endoscopy following erythromycin demonstrated grade I esophage...",
+    "Symptoms": "",
+    "Treatment": ", Esophagogastroduodenoscopy performed in the emergency department.,INDICATION: , Melena, acute upper GI bleed, anemia, and history of cirrhosis and varices.,FINAL IMPRESSION\n- Scope passage massiv...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "fentanyl 100 mcg, midazolam 4 mg, additional 50 mcg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, LOCATION, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "LOCATION",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

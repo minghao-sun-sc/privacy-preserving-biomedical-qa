@@ -1,0 +1,45 @@
+{
+  "id": "5506eca18e1671127b00000f",
+  "type": "list",
+  "question": "Which are the subunits of the transcription factor NF-kappaB in the canonical pathway activation?",
+  "ideal_answer": "The NF-\u03baB canonical pathway is mediated by the p65/relA and p50 subunits.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22726116",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17686849",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23636254"
+  ],
+  "snippets": [
+    {
+      "text": "In this study, we demonstrated that the HSV-1 UL42 protein, a DNA polymerase processivity factor, was a novel antagonism of the canonical NF-\u03baB signaling pathway. UL42 was shown to significantly suppress TNF-\u03b1 mediated NF-\u03baB activation. Co-immunoprecipitation experiment revealed that UL42 bound to the NF-\u03baB subunits p65 and p50. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23636254",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thus, it was first time we demonstrated that HSV-1 UL42 appeared to prevent NF-\u03baB-dependent gene expression by retaining p65 and p50 in the cytoplasm, and UL42-dependent transcriptional activation were inherently coupled to promote HSV-1 lytic replication, which also may contribute to immune evasion and pathogenesis of HSV-1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23636254",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The review describes NF-\u03baB and its two pathways: the canonical, mediated by the p65 and p50 subunits, and the non-canonical, mediated by the subunits RelB, p52 and p50. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22726116",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The function of the TTV open reading frame (ORF) in the nuclear factor kappaB (NF-kappaB) pathway has not yet been established. In this study, we found for the first time that the TTV ORF2 protein could suppress NF-kappaB activity in a dose-dependent manner in the canonical NF-kappaB pathway. By Western blot analysis, we proved that the TTV ORF2 protein did not alter the level of NF-kappaB expression but prevented the p50 and p65 subunits from entering the nucleus due to the inhibition of IkappaBalpha protein degradation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17686849",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Herpes simplex virus 1 DNA polymerase processivity factor UL42 inhibits TNF-\u03b1-induced NF-\u03baB activation by interacting with p65/RelA and p50/NF-\u03baB1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23636254",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "p65, RelA, p50, NF-\u03baB1"
+}

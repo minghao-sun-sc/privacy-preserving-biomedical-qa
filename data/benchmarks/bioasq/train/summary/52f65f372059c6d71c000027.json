@@ -1,0 +1,41 @@
+{
+  "id": "52f65f372059c6d71c000027",
+  "type": "summary",
+  "question": "What is known about potential implication of thyroid hormone receptors in arterial hypertension?",
+  "ideal_answer": "thyroid hormone receptors are implicated in arterial hypertension",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11172625",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22068246",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15611830",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8070428",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15701601",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21654857",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23257356",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22837855"
+  ],
+  "snippets": [
+    {
+      "text": "For the first time, our study showed associations between the THRA rs939348 polymorphism and systolic BP and the risk of hypertension but not with CHD, although we admit that the statistical power available to study any relationship with CHD was very limited.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21654857",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The results of Western blot analyses showed that the levels of the three TR isoforms do not differ significantly between SHRs and control rats of the same age, either in the left or in the right ventricle.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11172625",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/THBA_XENLA",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013963",
+    "http://www.disease-ontology.org/api/metadata/DOID:10763",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006973",
+    "http://www.uniprot.org/uniprot/THA_APTPA",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037021",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011989",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011988",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037042"
+  ]
+}

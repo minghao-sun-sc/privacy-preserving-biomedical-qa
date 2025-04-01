@@ -1,0 +1,25 @@
+{
+  "id": "6025fd261cb411341a0000bf",
+  "type": "yesno",
+  "question": "Is isradipine effective for Parkinson's disease?",
+  "ideal_answer": "No. Long-term treatment with immediate-release isradipine did not slow the clinical progression of early-stage Parkinson's disease.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32227247"
+  ],
+  "snippets": [
+    {
+      "text": "Adjusted least-squares mean changes in total UPDRS score in the antiparkinson medication ON state over 36 months for isradipine and placebo recipients were 2.99 (95% CI, 0.95 to 5.03) points versus 3.26 (CI, 1.25 to 5.26) points, respectively, with a treatment effect of -0.27 (CI, -3.02 to 2.48) point (P\u00a0= 0.85).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32227247",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Conclusion: Long-term treatment with immediate-release isradipine did not slow the clinical progression of early-stage PD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32227247",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

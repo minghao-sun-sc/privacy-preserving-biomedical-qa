@@ -1,0 +1,42 @@
+{
+  "id": "5a6f7138b750ff445500004f",
+  "type": "summary",
+  "question": "How does parathyroid hormone affect circulating levels of periostin?",
+  "ideal_answer": "Parathyroid hormone can upregulate periostin levels.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22927401",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20654714"
+  ],
+  "snippets": [
+    {
+      "text": "Periostin (Postn) is a matricellular protein preferentially expressed by osteocytes and periosteal osteoblasts in response to mechanical stimulation and parathyroid hormone (PTH).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22927401",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, periostin mRNA was transiently up-regulated in osteoblasts by PTH.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20654714",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PTH stimulated periostin and inhibited MEF2C and sclerostin (Sost) expression in bone and osteoblasts in vitro.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22927401",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "periostin is a collagen associated bone matrix protein regulated by parathyroid hormone",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20654714",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0071107",
+    "http://www.uniprot.org/uniprot/POSTN_MOUSE",
+    "http://www.uniprot.org/uniprot/POSTN_HUMAN",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D010281"
+  ]
+}

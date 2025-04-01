@@ -1,0 +1,33 @@
+{
+  "id": "5708a845cf1c32585100000f",
+  "type": "factoid",
+  "question": "Which signaling pathway is activating the dishevelled proteins?",
+  "ideal_answer": "Dishevelled (Xdsh) controls cell fate via canonical Wnt signaling",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25358879",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15936275",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19561403"
+  ],
+  "snippets": [
+    {
+      "text": "Wnt signaling is known to be important for diverse embryonic and post-natal cellular events and be regulated by the proteins Dishevelled and Axin. Although Dishevelled is activated by Wnt and involved in signal transduction, it is not clear how Dishevelled-mediated signaling is turned off. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19561403",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Dishevelled protein mediates several diverse biological processes. Intriguingly, within the same tissues where Xenopus Dishevelled (Xdsh) controls cell fate via canonical Wnt signaling,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15936275",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dishevelled (DVL) proteins, three of which have been identified in humans, are highly conserved components of canonical and noncanonical Wnt signaling pathways.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25358879",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Wnt signaling"
+}

@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04579",
+  "original_length": 2375,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  Right ankle sprain.,PLAN:\n- Motrin 800 mg t.i.d.\n- Tylenol 1 gm q.i.d. as needed.\n- Walking cast is prescribed.\n- I told the patient to call back if any problems.  The next morning she called ba...",
+    "Symptoms": "",
+    "Treatment": "\n- Motrin 800 mg t.i.d.\n- Tylenol 1 gm q.i.d. as needed.\n- Walking cast is prescribed.\n- I told the patient to call back if any problems.  The next morning she called back complaining of worsening ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Motrin 800 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

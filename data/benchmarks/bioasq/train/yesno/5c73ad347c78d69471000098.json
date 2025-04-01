@@ -1,0 +1,75 @@
+{
+  "id": "5c73ad347c78d69471000098",
+  "type": "yesno",
+  "question": "Does Axitinib prolong survival of Pancreatic Cancer patients?",
+  "ideal_answer": "No. The addition of axitinib to gemcitabine does not improve overall survival in advanced pancreatic cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21306953",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24328549",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25647781"
+  ],
+  "snippets": [
+    {
+      "text": "CONCLUSIONS: Axitinib/gemcitabine, while tolerated, did not provide survival benefit over gemcitabine alone in patients with advanced pancreatic cancer from Japan or other regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25647781",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS: Among Japanese patients, median overall survival was not estimable (95% confidence interval, 7.4 months-not estimable) with axitinib/gemcitabine (n = 58) and 9.9 months (95% confidence interval, 7.4-10.5) with placebo/gemcitabine (n = 56) (hazard ratio 1.093 [95% confidence interval, 0.525-2.274]). Median survival follow-up (range) was 5.1 months (0.02-12.3) with axitinib/gemcitabine vs. 5.4 months (1.8-10.5) with placebo/gemcitabine. Similarly, no difference was detected in overall survival between axitinib/gemcitabine and placebo/gemcitabine in patients from North America or the European Union. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25647781",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "At an interim analysis in January, 2009, the independent data monitoring committee concluded that the futility boundary had been crossed. Median overall survival was 8\u00b75 months (95% CI 6\u00b79-9\u00b75) for gemcitabine plus axitinib (n=314, data missing for two patients) and 8\u00b73 months (6\u00b79-10\u00b73) for gemcitabine plus placebo (n=316; hazard ratio 1\u00b7014, 95% CI 0\u00b7786-1\u00b7309; one-sided p=0\u00b75436). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21306953",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "INTERPRETATION: The addition of axitinib to gemcitabine does not improve overall survival in advanced pancreatic cancer. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21306953",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "INTERPRETATION\nThe addition of axitinib to gemcitabine does not improve overall survival in advanced pancreatic cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21306953",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, as with other tyrosine kinase inhibitors of the same class, axitinib does not prolong overall survival; therefore, selection of second-line tyrosine kinase inhibitor therapy, including axitinib, must be carefully considered to maximize outcomes for each patient.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24328549",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS\nAxitinib/gemcitabine, while tolerated, did not provide survival benefit over gemcitabine alone in patients with advanced pancreatic cancer from Japan or other regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25647781",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Similarly, no difference was detected in overall survival between axitinib/gemcitabine and placebo/gemcitabine in patients from North America or the European Union.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25647781",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Axitinib/gemcitabine, while tolerated, did not provide survival benefit over gemcitabine alone in patients with advanced pancreatic cancer from Japan or other regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25647781",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The addition of axitinib to gemcitabine does not improve overall survival in advanced pancreatic cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21306953",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

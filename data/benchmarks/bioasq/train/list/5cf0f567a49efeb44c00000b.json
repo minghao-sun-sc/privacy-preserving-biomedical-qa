@@ -1,0 +1,59 @@
+{
+  "id": "5cf0f567a49efeb44c00000b",
+  "type": "list",
+  "question": "Which are the main G1/S transcription factors in yeast?",
+  "ideal_answer": "MBF/SBF is the major transcriptional repressor of G1/S genes in Saccharomyces cerevisiae.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21257795",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29792825",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23382076",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28505153",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10512874"
+  ],
+  "snippets": [
+    {
+      "text": "To understand how commitment to cell division in late G1 phase (Start) is controlled by growth and nutrients in budding yeast, we determined the absolute concentrations of the G1/S transcription factors SBF (composed of Swi4 and Swi6) and MBF (composed of Mbp1 and Swi6), the transcriptional repressor Whi5, and the G1 cyclins, Cln1 and Cln2, in single live yeast cells using scanning number and brightness (sN&B) microscopy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29792825",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We previously isolated the SKN7 gene in a screen designed to isolate new components of the G1-S cell cycle transcription machinery in budding yeast. We have now found that Skn7 associates with Mbp1, the DNA-binding component of the G1-S transcription factor DSC1/MBF",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10512874",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To gain more insight into the G(1)/S circuitry, we characterized Swi6p, Swi4p and Mbp1p, the closest orthologues of SBF (Swi6p and Swi4p) and MBF (Swi6p and Mbp1p) components in S. cerevisiae",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21257795",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The G(1)/S transition is a critical control point for cell proliferation and involves essential transcription complexes termed SBF and MBF in Saccharomyces cerevisiae or MBF in Schizosaccharomyces pombe",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21257795",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In Saccharomyces cerevisiae, G1/S transcription factors MBF and SBF regulate a large family of genes important for entry to the cell cycle and DNA replication and repair. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23382076",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " MBF and SBF consist of a common component, Swi6, and a DNA-specific binding protein, Mbp1 and Swi4, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23382076",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Over 200 G1/S genes are regulated by either one of the two TF complexes, SBF and MBF, which bind to specific DNA binding sequences, SCB and MCB, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28505153",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "SBF complex, MBF complex, Skn7"
+}

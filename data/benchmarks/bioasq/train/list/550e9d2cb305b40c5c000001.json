@@ -1,0 +1,50 @@
+{
+  "id": "550e9d2cb305b40c5c000001",
+  "type": "list",
+  "question": "Which variables are included in the SPAN-100 score?",
+  "ideal_answer": "SPAN-100 score includes patient's age and NIH Stroke Scale score. SPAN-100 is used for prognostication of stroke patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23894342",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24557701",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25194739",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25542499",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23175723",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25064957",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24798141",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24473180"
+  ],
+  "snippets": [
+    {
+      "text": "Furthermore, MR-proADM levels significantly improved reclassification of patients in the prediction of outcome by the Stroke Prognostication using Age and NIHSS-100 (SPAN-100; NRI\u200a=\u200a0.175; p\u200a=\u200a0.04). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23894342",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Stroke Prognostication using Age and NIH Stroke Scale: SPAN-100.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23175723",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "METHODS: We created the Stroke Prognostication using Age and NIH Stroke Scale (SPAN) index by combining age in years plus NIH Stroke Scale (NIHSS) \u2265100. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23175723",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The SPAN-100 index is considered positive if the sum of the age and the NIH Stroke Scale (a 15-item neurological examination scale with scores ranging from 0 to 42, with higher scores indicating more severe strokes) score is greater than or equal to 100",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24798141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Stroke Prognostication using Age and the NIH Stroke Scale index, created by combining age in years plus a National Institutes of Health (NIH) Stroke Scale score of 100 or higher (and hereafter referred to as the SPAN-100 index), is a simple risk score for estimating clinical outcomes for patients with acute ischemic stroke (AIS)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24798141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Age, NIH Stroke Scale score"
+}

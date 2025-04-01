@@ -1,0 +1,62 @@
+{
+  "id": "52c7275103868f1b0600001c",
+  "type": "factoid",
+  "question": "What is the inheritance pattern of Apert syndrome?",
+  "ideal_answer": "The Apert syndrome is a disorder of autosomal dominant inheritance.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19089249",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11057397",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8830082",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16354263",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16440883",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2061407",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3359672"
+  ],
+  "snippets": [
+    {
+      "text": "The Apert syndrome is a rare disorder of autosomal dominant inheritance caused by mutations in the FGFR2 gene at locus 10q26; patients with this syndrome present severe syndactyly, exophthalmia, ocular hypertelorism and hypoplastic midface with Class III malocclusion, besides systemic alterations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19089249",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Apert syndrome is characterized by craniosynostosis and syndactyly of hands and feet. Although most cases are sporadic, an autosomal dominant mode of inheritance is well documented.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16440883",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Apert syndrome, or acrocephalosyndactyly, is characterized by craniosynostosis and early epiphyseal closure resulting in various deformities of the skull, hands, and feet. Typically a sporadic condition, autosomal dominant inheritance with complete penetrance has been known to occur. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16354263",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report two observations of antenatal diagnosis of Apert syndrome. This uncommon genetic disorder suggest an autosomal dominant inheritance, but almost all cases described are sporadic; the responsible gene is yet not located.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8830082",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The familial cases, the equal number of affected males and females, and the increased paternal age in sporadic cases strongly suggest autosomal dominant inheritance. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2061407",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This report presents the first example of male transmission of Apert acrocephalosyndactyly syndrome. Female transmission has been reported in the five previous well-documented cases of dominant inheritance of the syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/3359672",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:225",
+    "http://www.disease-ontology.org/api/metadata/DOID:12960",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000168",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013577",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D040582",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014918"
+  ],
+  "exact_answer": "Autosomal dominant"
+}

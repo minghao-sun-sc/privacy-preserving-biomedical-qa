@@ -1,0 +1,35 @@
+{
+  "id": "644ec7fe57b1c7a315000082",
+  "type": "factoid",
+  "question": "What are the proteins that are necessary for the use of lactose in E. coli collectively called?",
+  "ideal_answer": "The proteins necessary for the use of lactose in E. coli are collectively called the lac operon. This gene regulatory circuit controls the transcription of genes involved in lactose metabolism and is nearly ubiquitous in E. coli strains, making it a useful phenotype for species identification. The activity of the lac operon is controlled by both cis- and trans-acting regulators, which integrate environmental signals such as glucose and lactose availability to fine-tune gene expression. While most studies of lac operon regulation have focused on a few closely related strains, this system remains an important model for understanding how bacteria adapt their metabolism to changing nutritional conditions.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31719176",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34367115",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34891476",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34953812",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26415599"
+  ],
+  "snippets": [
+    {
+      "text": "The lac operon is one of the best known gene regulatory circuits and constitutes a landmark example of how bacteria tune their metabolism to nutritional conditions. It is nearly ubiquitous in Escherichia coli strains justifying the use of its phenotype, the ability to consume lactose, for species identification.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34367115",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription of bacterial genes is controlled by the coordinated action of cis- and trans-acting regulators. The activity and mode of action of these regulators can reflect different requirements for gene products in different environments. A well-studied example is the regulatory function that integrates the environmental availability of glucose and lactose to control the Escherichia colilac operon. Most studies of lac operon regulation have focused on a few closely related strains.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31719176",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the induced state of the lac pathway, the genes comprising the lac operon are transcribed, leading to the production of proteins that import and metabolize lactose.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34953812",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Lac operon"
+}

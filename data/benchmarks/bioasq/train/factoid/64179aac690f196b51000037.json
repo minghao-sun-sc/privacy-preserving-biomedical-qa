@@ -1,0 +1,48 @@
+{
+  "id": "64179aac690f196b51000037",
+  "type": "factoid",
+  "question": "What is the life expectancy for Duchenne muscular dystrophy patients?",
+  "ideal_answer": "The life expectancy for Duchenne muscular dystrophy patients varies depending on the time period they were born in, but patients born after 1990 have a median life expectancy of 28.1 years.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34645707",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10193393",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17939910",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26153505",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34802091",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1450492"
+  ],
+  "snippets": [
+    {
+      "text": "Analyses stratified by 3 time periods in which patients were born showed markedly increased life expectancy in more recent patient populations; patients born after 1990 have a median life expectancy of 28.1 years (95% CI 25.1, 30.3)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34645707",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "s (95% confidence interval [CI] 21.2, 22.4). Analyses stratified by 3 time periods in which patients were born showed markedly increased life expectancy in more recent patient populations; patients born after 1990 have a median life expectancy of 28.1 years (95% CI 25.1, 30.3).DISCUSSION: This article presents a full overview of mortality across the lifetime of a patient",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34645707",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Over the course of the last century, the average life expectancy of these patients has doubled and now stands at \u223c25\u2005years.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26153505",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Duchenne muscular dystrophy (DMD) is a severe neuromuscular disorder with increasing life expectancy from late teens to over 30\u00a0years of age.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34802091",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The special medical care in the National Sanatorium prolonged the life span of the patients with progressive muscular dystrophy from 15.8 years to 20.4 years over the last 20 years.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1450492",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "28.1 years of age, 28.1 years (95% CI 25.1, 30.3)"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "5c7c0e2fd774d0424000000d",
+  "type": "yesno",
+  "question": "Are phagosomal proteins ubiquitinated?",
+  "ideal_answer": "Yes,\nPhagosomal proteins are ubiquitylated, and ubiquitylation was found to be required for formation of acidic multivesicular structures.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15703218",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29376029"
+  ],
+  "snippets": [
+    {
+      "text": "Phagosomal proteins are ubiquitylated, and ubiquitylation was found to be required for formation of acidic multivesicular structures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15703218",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "membranes of the bacterial phagosome are enriched with ubiquitinated proteins in a way that requires its Dot/Icm type IV secretion system, suggesting the involvement of effectors in the manipulation of the host ubiquitination machinery.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29376029",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

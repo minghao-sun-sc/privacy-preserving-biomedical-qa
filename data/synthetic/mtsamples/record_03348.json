@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03348",
+  "original_length": 2729,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Hypoglycemia due to not eating her meals on a regular basis.\n- Hypertension.\n- Renal insufficiency, may be dehydration, or diabetic nephropathy.,PLAN: , Admit the patient to the medical ward, IV...",
+    "Symptoms": "",
+    "Treatment": ", Admit the patient to the medical ward, IV fluid, glucometer checks, and adjust the blood pressure medication and also diabetic medication.",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, LOCATION, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "LOCATION",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "document_id": "record_04598",
+  "original_length": 8403,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": ".  The patient also underwent an MRI of the cervical spine on 08/03/1994, which again revealed multilevel degenerative disc disease in his neck.  There is some suggestion of bilateral neuroforamina...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, IN_PAN",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'The patient also underwent an MRI of the cervical ...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "IN_PAN"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

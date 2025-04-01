@@ -1,0 +1,48 @@
+{
+  "id": "514c3fd7d24251bc05000062",
+  "type": "factoid",
+  "question": "Intact macromolecular assemblies are analysed by advanced mass spectrometry. How large complexes (in molecular weight) have been studied?",
+  "ideal_answer": "2.3 megadalton",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23064518",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8006040",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19140748",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16939266"
+  ],
+  "snippets": [
+    {
+      "text": "Here we show that the Orbitrap mass analyzer can be used to measure protein assemblies of molecular weights approaching one megadalton with sensitivity down to the detection of single ions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23064518",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Using this relationship we show that we can determine masses of both 30S subunits and intact 2.3 MDa 70S ribosomes from Thermus thermophilus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16939266",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We confirm the existence of these subpopulations using tandem mass spectrometry of intact 30S subunits. Overall, the results show that, rather than uniform particles, gas-phase ribosomes consist of a number of discrete populations. More generally, the results establish a rigorous procedure for accurate mass measurement and spectral analysis of heterogeneous macromolecular assemblies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16939266",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0043933",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D046912",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013057",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D046911",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0065003",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D021241",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013058",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0034621",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0032991",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008970",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0034622",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018629",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D053719"
+  ],
+  "exact_answer": "2.3 megadalton"
+}

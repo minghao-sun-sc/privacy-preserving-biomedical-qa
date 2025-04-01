@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03666",
+  "original_length": 3886,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "of C. diff for which she was admitted here in 5/2009, who presents to the hospital on 6/18/2009 with abdominal pain, cramping, and persistent diarrhea.  After admission, she had a CT of the abdomen...",
+    "Symptoms": "",
+    "Treatment": "X-ray imaging",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, IN_PAN",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'diff for which she was admitted here in 5/2009, wh...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "IN_PAN"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

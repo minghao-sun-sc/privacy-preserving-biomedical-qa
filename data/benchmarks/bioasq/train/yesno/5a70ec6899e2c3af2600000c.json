@@ -1,0 +1,36 @@
+{
+  "id": "5a70ec6899e2c3af2600000c",
+  "type": "yesno",
+  "question": "Is pregabalin effective for sciatica?",
+  "ideal_answer": "No. Treatment with pregabalin did not significantly reduce the intensity of leg pain associated with sciatica and did not significantly improve other outcomes, as compared with placebo, over the course of 8 weeks. The incidence of adverse events was significantly higher in the pregabalin group than in the placebo group.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26633090",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28328324"
+  ],
+  "snippets": [
+    {
+      "text": "CONCLUSIONS: Treatment with pregabalin did not significantly reduce the intensity of leg pain associated with sciatica and did not significantly improve other outcomes, as compared with placebo, over the course of 8 weeks. The incidence of adverse events was significantly higher in the pregabalin group than in the placebo group. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28328324",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Whilst pregabalin (PGB) and gabapentin (GBP) are both used to treat neuropathic pain, their relative role in sciatica is unclear.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26633090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "GBP and PGB appeared to demonstrate comparable efficacy and SE. However, the amount and quality of evidence was low, and only indirect comparisons were available. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26633090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D012585",
+    "http://www.biosemantics.org/jochem#4236113",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D000069583"
+  ],
+  "exact_answer": "Yes"
+}

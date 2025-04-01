@@ -1,0 +1,35 @@
+{
+  "document_id": "record_02107",
+  "original_length": 2459,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Left lateral malleolus fracture.,POSTOPERATIVE DIAGNOSIS:,  Left lateral malleolus fracture.,PROCEDURE PERFORMED: , Open reduction and internal fixation of left lateral malleolus.,A...",
+    "Symptoms": "",
+    "Treatment": "Orthopedic evaluation and management",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

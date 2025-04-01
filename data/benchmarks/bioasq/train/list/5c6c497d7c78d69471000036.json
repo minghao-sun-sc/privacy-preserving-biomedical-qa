@@ -1,0 +1,51 @@
+{
+  "id": "5c6c497d7c78d69471000036",
+  "type": "list",
+  "question": "Which tools have been developed for computing split-networks?",
+  "ideal_answer": "Split-networks are a generalization of phylogenetic trees that have proven to be a powerful tool in phylogenetics. Tools for computing such networks include SPECTRE, FlatNJ and QNet.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29186450",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24436254",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17119010"
+  ],
+  "snippets": [
+    {
+      "text": "SPECTRE: a suite of phylogenetic tools for reticulate evolution.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29186450",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Split-networks are a generalization of phylogenetic trees that have proven to be a powerful tool in phylogenetics. Various ways have been developed for computing such networks, including split-decomposition, NeighborNet, QNet and FlatNJ. Some of these approaches are implemented in the user-friendly SplitsTree software package. However, to give the user the option to adjust and extend these approaches and to facilitate their integration into analysis pipelines, there is a need for robust, open-source implementations of associated data structures and algorithms. Here, we present SPECTRE, a readily available, open-source library of data structures written in Java, that comes complete with new implementations of several pre-published algorithms and a basic interactive graphical interface for visualizing planar split networks. SPECTRE also supports the use of longer running algorithms by providing command line interfaces, which can be executed on servers or in High Performance Computing environments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29186450",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "FlatNJ: a novel network-based approach to visualize evolutionary and biogeographical relationships.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24436254",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Split networks are a type of phylogenetic network that allow visualization of conflict in evolutionary data. We present a new method for constructing such networks called FlatNetJoining (FlatNJ).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24436254",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "QNet: an agglomerative method for the construction of phylogenetic networks from weighted quartets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17119010",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present QNet, a method for constructing split networks from weighted quartet trees. QNet can be viewed as a quartet analogue of the distance-based Neighbor-Net (NNet) method for network construction. Just as NNet, QNet works by agglomeratively computing a collection of circular weighted splits of the taxa set which is subsequently represented by a planar split network.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17119010",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "SPECTRE, FlatNJ, QNet"
+}

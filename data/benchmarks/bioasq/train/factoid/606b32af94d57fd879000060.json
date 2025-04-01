@@ -1,0 +1,33 @@
+{
+  "id": "606b32af94d57fd879000060",
+  "type": "factoid",
+  "question": "What is the Versene Solution used for?",
+  "ideal_answer": "the Versene Solution is used for the detachment of stem cell sheets.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28041835",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29244941",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8266579"
+  ],
+  "snippets": [
+    {
+      "text": " in 0.01 versene solution, containing 0.011% w/v trypsin (Difco), 0.4 mg/ml D-glucose, 0.17 mg/ml KCl, 1.7 mg/ml NaCl.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8266579",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " stem cell sheets detached by Versene solution ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28041835",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The object of study was follicular thyroid carcinoma cells suspension prepared with use of Versene solution and 0.25% trypsin solution.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29244941",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "for the detachment of cells"
+}

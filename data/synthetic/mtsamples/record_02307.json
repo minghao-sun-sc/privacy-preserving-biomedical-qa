@@ -1,0 +1,37 @@
+{
+  "document_id": "record_02307",
+  "original_length": 4173,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Ruptured distal biceps tendon, right elbow.,POSTOPERATIVE DIAGNOSIS:,  Ruptured distal biceps tendon, right elbow.,PROCEDURE PERFORMED: , Repair of distal biceps tendon, right elbow...",
+    "Symptoms": "",
+    "Treatment": "",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, LOCATION, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "LOCATION",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

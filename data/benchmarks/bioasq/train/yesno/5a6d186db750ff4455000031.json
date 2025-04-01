@@ -1,0 +1,35 @@
+{
+  "id": "5a6d186db750ff4455000031",
+  "type": "yesno",
+  "question": "Is there any role of Dlx1 and Dlx2 transcription factors in cortical interneurons?",
+  "ideal_answer": "Yes. DLX2 directly drives Gad1, Gad2, and Vgat expression, and mutants have reduced mIPSC amplitude. In addition, the mutants formed fewer GABAergic synapses on excitatory neurons and have reduced mIPSC frequency. Furthermore, Dlx1/2 CKO have hypoplastic dendrites, fewer excitatory synapses, and reduced excitatory input.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29028947"
+  ],
+  "snippets": [
+    {
+      "text": "The postnatal functions of the Dlx1&2 transcription factors in cortical interneurons (CINs) are unknown. Here, using conditional Dlx1, Dlx2, and Dlx1&2 knockouts (CKOs), we defined their roles in specific CINs. The CKOs had dendritic, synaptic, and survival defects, affecting even PV+ CINs. We provide evidence that DLX2 directly drives Gad1, Gad2, and Vgat expression, and show that mutants had reduced mIPSC amplitude. In addition, the mutants formed fewer GABAergic synapses on excitatory neurons and had reduced mIPSC frequency. Furthermore, Dlx1/2 CKO had hypoplastic dendrites, fewer excitatory synapses, and reduced excitatory input. We provide evidence that some of these phenotypes were due to reduced expression of GRIN2B (a subunit of the NMDA receptor), a high confidence Autism gene. Thus, Dlx1&2 coordinate key components of CIN postnatal development by promoting their excitability, inhibitory output, and survival.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29028947",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, Dlx1/2 CKO had hypoplastic dendrites, fewer excitatory synapses, and reduced excitatory input.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29028947",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/DLX2_RAT",
+    "http://www.uniprot.org/uniprot/DLX2A_DANRE",
+    "http://www.uniprot.org/uniprot/DLX2_ELECQ",
+    "http://www.uniprot.org/uniprot/DLX2_HUMAN",
+    "http://www.uniprot.org/uniprot/DLX1_MOUSE",
+    "http://www.uniprot.org/uniprot/DLX1_HUMAN",
+    "http://www.uniprot.org/uniprot/DLX2_MOUSE",
+    "http://www.uniprot.org/uniprot/DLX1_RAT",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D014157"
+  ],
+  "exact_answer": "Yes"
+}

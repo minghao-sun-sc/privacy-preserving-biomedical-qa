@@ -1,0 +1,37 @@
+{
+  "document_id": "record_02450",
+  "original_length": 2340,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "S:,  Telemetry monitoring.,HISTORY FINDINGS HOSPITAL COURSE: , The patient was originally hospitalized on 04/26/07, secondary to dizziness and disequilibrium.  Extensive workup during her first hos...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "and 15 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PHONE_NUMBER, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PHONE_NUMBER",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

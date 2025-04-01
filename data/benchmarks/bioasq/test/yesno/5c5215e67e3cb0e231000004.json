@@ -1,0 +1,99 @@
+{
+  "id": "5c5215e67e3cb0e231000004",
+  "type": "yesno",
+  "question": "Have machine learning methods been used to predict the severity of major depressive disorder(MDD)?",
+  "ideal_answer": "Machine-learning (ML) models developed from self-reports can be used to predict persistence and severity of major depressive disorder(MDD)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26821982",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29879133",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25066141",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28702811",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27551669",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30286415",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26728563",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22544901",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29682732"
+  ],
+  "snippets": [
+    {
+      "text": "Here, we conduct a meta-review to identify predictors of response to antidepressant therapy in order to select robust input features for machine learning models of treatment response. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30286415",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "machine learning framework involving EEG-based functional connectivity to diagnose major depressive disorder (MDD).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28702811",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Identification of risk factors of treatment resistance may be useful to guide treatment selection, avoid inefficient trial-and-error, and improve major depressive disorder (MDD) care. We extended the work in predictive modeling of treatment resistant depression (TRD) via partition of the data from the Sequenced Treatment Alternatives to Relieve Depression (STAR*D) cohort into a training and a testing dataset.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29879133",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "persistence and severity of major depressive disorder from baseline self-reports",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26728563",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " These results confirm that clinically useful MDD risk-stratification models can be generated from baseline patient self-reports and that ML methods improve on conventional methods in developing such models",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26728563",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, machine learning weighting factors may reflect an objective biomarker of major depressive disorder illness severity, based on abnormalities of brain structure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22544901",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Notably, while the only information provided for training the classifiers was T(1)-weighted scans plus a categorical label (major depressive disorder versus controls), both relevance vector machine and support vector machine 'weighting factors' (used for making predictions) correlated strongly with subjective ratings of illness severity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22544901",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND\nAlthough variation in the long-term course of major depressive disorder (MDD) is not strongly predicted by existing symptom subtype distinctions, recent research suggests that prediction can be improved by using machine learning methods.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25066141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND Although variation in the long-term course of major depressive disorder (MDD) is not strongly predicted by existing symptom subtype distinctions, recent research suggests that prediction can be improved by using machine learning methods.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25066141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND Growing evidence documents the potential of machine learning for developing brain based diagnostic methods for major depressive disorder (MDD).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27551669",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "OBJECTIVE We aimed to integrate neural data and an advanced machine learning technique to predict individual major depressive disorder (MDD) patient severity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26821982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, machine learning weighting factors may reflect an objective biomarker of major depressive disorder illness severity, based on abnormalities of brain structure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22544901",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "<b>BACKGROUND</b>: Although variation in the long-term course of major depressive disorder (MDD) is not strongly predicted by existing symptom subtype distinctions, recent research suggests that prediction can be improved by using machine learning methods.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25066141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

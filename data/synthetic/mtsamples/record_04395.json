@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04395",
+  "original_length": 3106,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "/PLAN:\n- Elevated white count.  This patient is admitted to the hospital for treatment of a febrile illness.  There is concern that she has a progression of pneumonia.  She may have aspirated.  She...",
+    "Symptoms": "",
+    "Treatment": "of profound hypokalemia, dehydration, intractable diarrhea, and febrile illness.,PAST MEDICAL HISTORY: , Recent history of pneumonia, urosepsis, dementia, amputation, osteoporosis, and hypothyroidi...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'This patient is admitted to the hospital for treat...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

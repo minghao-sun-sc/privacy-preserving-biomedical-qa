@@ -1,0 +1,33 @@
+{
+  "document_id": "record_02190",
+  "original_length": 2954,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Right knee injury suggestive of a recurrent anterior cruciate ligament tear, possible internal derangement.,PLAN: , The patient will be referred for an MRI of the right knee to evaluate the integ...",
+    "Symptoms": "",
+    "Treatment": ", The patient will be referred for an MRI of the right knee to evaluate the integrity of her revision ACL graft.  In the meantime, she will continue to use ice as needed.  Moderate her activities a...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'In the meantime, she will continue to use ice as n...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

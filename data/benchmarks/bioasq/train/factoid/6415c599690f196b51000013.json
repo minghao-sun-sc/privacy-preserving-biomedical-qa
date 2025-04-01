@@ -1,0 +1,19 @@
+{
+  "id": "6415c599690f196b51000013",
+  "type": "factoid",
+  "question": "Which company produces Keytruda?",
+  "ideal_answer": "Keytruda is produced by Merck & Co., Inc..",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28835513"
+  ],
+  "snippets": [
+    {
+      "text": "On October 24, 2016, the U.S. Food and Drug Administration (FDA) approved pembrolizumab (Keytruda; Merck & Co., Inc., https://www.merck.com) for treatment of patients with metastatic non-small cell lung cancer (mNSCLC) whose tumors express programmed death-ligand 1 (PD-L1) as determined by an FDA-approved test, as follows: (a) first-line treatment of patients with mNSCLC whose tumors have high PD-L1 expression (tumor proportion score [TPS] \u226550%), with no epidermal growth factor receptor (EGFR) or anaplastic lymphoma kinase (ALK) genomic tumor aberrations, and (b) treatment of patients with mNSCLC whose tumors express PD-L1 (TPS \u22651%), with disease progression on or after platinum-containing chemotherapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28835513",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Merck & Co., Inc."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "58ef9ff170f9fc6f0f000002",
+  "type": "yesno",
+  "question": "Is skin color affected by variations of the SLC24A5 gene?",
+  "ideal_answer": "Yes. The alleles of single-nucleotide polymorphisms rs1426654 and rs1834640 (SLC24A5) are associated with light skin pigmentation in Eurasian population.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25370040",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26918427"
+  ],
+  "snippets": [
+    {
+      "text": "the alleles of single-nucleotide polymorphisms rs1426654 and rs1834640 (SLC24A5) associated with light skin pigmentation in Eurasian populati",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25370040",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Associations between five single nucleotide polymorphisms (SNPs) known to play a role in pigmentation (rs1426654-SLC24A5, rs1042602-TYR, rs16891982-SLC45A2, rs6058017-ASIP, and rs642742-KITLG) and MI measures were tested using standard one-way analysis of variance (ANOVA) within each population.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26918427",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

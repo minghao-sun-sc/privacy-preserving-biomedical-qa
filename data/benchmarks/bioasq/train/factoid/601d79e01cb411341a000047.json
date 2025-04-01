@@ -1,0 +1,43 @@
+{
+  "id": "601d79e01cb411341a000047",
+  "type": "factoid",
+  "question": "Which R/Bioconductor package has been developed for network-based differential expression analysis?",
+  "ideal_answer": "INDEED is an R/Bioconductor package for network based differential expression analysis. INDEED allows users to construct a sparse network based on partial correlation, and to identify biomolecules that have significant changes both at individual expression and pairwise interaction levels.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31179159"
+  ],
+  "snippets": [
+    {
+      "text": "INDEED: R package for network based differential expression analysis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31179159",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "These interactions are typically evaluated by correlation methods that tend to generate over-complicated networks due to many seemingly indirect associations. In this paper, we introduce a new R/Bioconductor package INDEED that allows users to construct a sparse network based on partial correlation, and to identify biomolecules that have significant changes both at individual expression and pairwise interaction levels. We applied INDEED for analysis of two omic datasets acquired in a cancer biomarker discovery study to help rank disease-associated biomolecules. We believe biomolecules selected by INDEED lead to improved sensitivity and specificity in detecting disease status compared to those selected by conventional statistical methods. Also, INDEED's framework is amenable to further expansion to integrate networks from multi-omic studies, thereby allowing selection of reliable disease-associated biomolecules or disease biomarkers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31179159",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "INDEED: R package for network based differential expression analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31179159",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "er, we introduce a new R/Bioconductor package INDEED that allows users to construct a sparse network based on partial correlation, and to identify biomolecules that have significant changes both at individual expression and pairwise interaction levels. We applied ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31179159",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Also, INDEED's framework is amenable to further expansion to integrate networks from multi-omic studies, thereby allowing selection of reliable disease-associated biomolecules or disease biomarkers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31179159",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "INDEED"
+}

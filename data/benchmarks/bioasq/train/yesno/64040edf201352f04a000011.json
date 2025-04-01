@@ -1,0 +1,19 @@
+{
+  "id": "64040edf201352f04a000011",
+  "type": "yesno",
+  "question": "Based on clinical trial data, can pioglitazone delay cognitive impairment for people at risk for Alzheimer's disease?",
+  "ideal_answer": "No. Pioglitazone did not delay the onset of mild cognitive impairment.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34146512"
+  ],
+  "snippets": [
+    {
+      "text": "INTERPRETATION: Pioglitazone did not delay the onset of mild cognitive impairment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34146512",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

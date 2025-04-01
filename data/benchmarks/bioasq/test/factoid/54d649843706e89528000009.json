@@ -1,0 +1,130 @@
+{
+  "id": "54d649843706e89528000009",
+  "type": "factoid",
+  "question": "What is the target of the drug Olaparib?",
+  "ideal_answer": "The drug Olaparib target the protein poly(ADP-ribose) polymerase.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25221646",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25120693",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25366685",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25417706",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25275045",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25302833",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25127709",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25531448",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25218906",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25128455",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25481791",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25144364",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25526472",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25483710",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25139258",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25374341"
+  ],
+  "snippets": [
+    {
+      "text": "We show that targeting PARP by the small molecule inhibitors, Olaparib ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25531448",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Following treatment with the PARP1 inhibitor olaparib, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25526472",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the PARP inhibitor olaparib",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25483710",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Olaparib (AZD-2281, Ku-0059436) is an orally bioavailable and well-tolerated poly(ADP-ribose) polymerase (PARP) inhibitor currently under investigation in patients with solid tumors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25483710",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The poly(ADP-ribose) polymerase inhibitor olaparib",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25481791",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "olaparib (poly(ADP ribose)polymerase inhibitor)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25417706",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " olaparib, a PARP inhibitor, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25374341",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Olaparib is an oral poly (ADP-ribose) polymerase inhibitor",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25366685",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "olaparib, a small molecule inhibitor of the repair enzymes PARP1/2. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25302833",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "he poly (ADP-ribose) polymerase inhibitor olaparib ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25275045",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " PARP-inhibitor, Olaparib",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25221646",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Olaparib is a poly(ADP-ribose) polymerase inhibitor",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25218906",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "olaparib, a specific PARP1 inhibitor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25144364",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PARP inhibitor olaparib ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25139258",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We used two PARP inhibitors in clinical development, olaparib and rucaparib",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25128455",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " the PARPi, olaparib, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25127709",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004364",
+    "http://www.uniprot.org/uniprot/PARP_DROME",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0042493",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011065",
+    "http://www.uniprot.org/uniprot/PARP_SARPE"
+  ],
+  "exact_answer": "poly(ADP-ribose) polymerase, PARP"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "6057c2f894d57fd879000033",
+  "type": "factoid",
+  "question": "Which method has been developed for detection of ATAC-seq or ChIP-seq signals with DNA methylation?",
+  "ideal_answer": "EpiMethylTag is a fast, low- input, low sequencing depth method that combines ATAC-seq or ChIP-seq (M-ATAC or M-ChIP) with bisulfite conversion, to simultaneously examine accessibility/TF binding and methylation on the same DNA.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31752933"
+  ],
+  "snippets": [
+    {
+      "text": "EpiMethylTag: simultaneous detection of ATAC-seq or ChIP-seq signals with DNA methylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31752933",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Activation of regulatory elements is thought to be inversely correlated with DNA methylation levels. However, it is difficult to determine whether DNA methylation is compatible with chromatin accessibility or transcription factor (TF) binding if assays are performed separately. We developed a fast, low-input, low sequencing depth method, EpiMethylTag, that combines ATAC-seq or ChIP-seq (M-ATAC or M-ChIP) with bisulfite conversion, to simultaneously examine accessibility/TF binding and methylation on the same DNA. Here we demonstrate that EpiMethylTag can be used to study the functional interplay between chromatin accessibility and TF binding (CTCF and KLF4) at methylated sites.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31752933",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We developed a fast, low-input, low sequencing depth method, EpiMethylTag, that combines ATAC-seq or ChIP-seq (M-ATAC or M-ChIP) with bisulfite conversion, to simultaneously examine accessibility/TF binding and methylation on the same DNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31752933",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "veloped a fast, low-input, low sequencing depth method, EpiMethylTag, that combines ATAC-seq or ChIP-seq (M-ATAC or M-ChIP) with bisulfite conversion, to simultaneously examine accessibility/TF binding and methylation on the same DNA. Here we de",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31752933",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "EpiMethylTag: simultaneous detection of ATAC-seq or ChIP-seq signals with DNA methylation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31752933",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "EpiMethylTag"
+}

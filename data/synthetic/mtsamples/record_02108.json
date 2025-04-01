@@ -1,0 +1,37 @@
+{
+  "document_id": "record_02108",
+  "original_length": 5132,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Severely comminuted fracture of the distal radius, left.,POSTOPERATIVE DIAGNOSIS: , Severely comminuted fracture of the distal radius, left.,OPERATIVE PROCEDURE:  ,Open reduction an...",
+    "Symptoms": "",
+    "Treatment": "Orthopedic evaluation and management",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, IP_ADDRESS, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "IP_ADDRESS",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

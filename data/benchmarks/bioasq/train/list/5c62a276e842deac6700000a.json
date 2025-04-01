@@ -1,0 +1,31 @@
+{
+  "id": "5c62a276e842deac6700000a",
+  "type": "list",
+  "question": "De novo mutations in which novel genes are involved in systemic lupus erythematosus?",
+  "ideal_answer": "DNMT3A, PRKCD, and C1QTNF4.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29177435"
+  ],
+  "snippets": [
+    {
+      "text": "De novo mutations implicate novel genes in systemic lupus erythematosus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29177435",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " Rare variant associations, expected to explain far less of the heritability, may be enriched in core disease genes and thus will be instrumental in the understanding of complex disease pathogenesis and their potential therapeutic targets. Here, using complementary whole-exome sequencing, high-density imputation, and in vitro cellular assays, we identify candidate core genes in the pathogenesis of systemic lupus erythematosus (SLE). Using extreme-phenotype sampling, we sequenced the exomes of 30 SLE parent-affected-offspring trios and identified 14 genes with missense de novo mutations (DNM), none of which are within the\u2009>80 SLE susceptibility loci implicated through genome-wide association studies. In a follow-up cohort of 10, 995 individuals of matched European ancestry, we imputed genotype data to the density of the combined UK10K-1000 genomes Phase III reference panel across the 14 candidate genes. Gene-level analyses indicate three functional candidates: DNMT3A, PRKCD, and C1QTNF4. We identify a burden of rare variants across PRKCD associated with SLE risk (P\u2009=\u20090.0028), and across DNMT3A associated with two severe disease prognosis sub-phenotypes (P\u2009=\u20090.0005 and P\u2009=\u20090.0033). We further characterise the TNF-dependent functions of the third candidate gene C1QTNF4 on NF-\u03baB activation and apoptosis, which are inhibited by the p.His198Gln DNM. Our results identify three novel genes in SLE susceptibility and support extreme-phenotype sampling and DNM gene discovery to aid the search for core disease genes implicated through rare variation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29177435",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We identify a burden of rare variants across PRKCD associated with SLE risk (P\u2009=\u20090.0028), and across DNMT3A associated with two severe disease prognosis sub-phenotypes (P\u2009=\u20090.0005 and P\u2009=\u20090.0033).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29177435",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "DNMT3A, PRKCD, C1QTNF4"
+}

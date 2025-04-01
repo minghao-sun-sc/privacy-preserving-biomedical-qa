@@ -1,0 +1,25 @@
+{
+  "id": "5e36d5b9b5b409ea53000009",
+  "type": "factoid",
+  "question": "Which algorithm has been developed for detecting expansions of tandem repeats?",
+  "ideal_answer": "Identifying large expansions of short tandem repeats (STRs), such as those that cause amyotrophic lateral sclerosis (ALS) and fragile X syndrome, is challenging for short-read whole-genome sequencing (WGS) data. A solution to this problem is an important step toward integrating WGS into precision medicine. For that purpose, ExpansionHunter has been developed as a software tool that, using PCR-free WGS short- read data, can genotype repeats at the locus of interest, even if the expanded repeat is larger than the read length.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28887402"
+  ],
+  "snippets": [
+    {
+      "text": "Identifying large expansions of short tandem repeats (STRs), such as those that cause amyotrophic lateral sclerosis (ALS) and fragile X syndrome, is challenging for short-read whole-genome sequencing (WGS) data. A solution to this problem is an important step toward integrating WGS into precision medicine. We developed a software tool called ExpansionHunter that, using PCR-free WGS short-read data, can genotype repeats at the locus of interest, even if the expanded repeat is larger than the read length. We applied our algorithm to WGS data from 3001 ALS patients who have been tested for the presence of the C9orf72 repeat expansion with repeat-primed PCR (RP-PCR). Compared against this truth data, ExpansionHunter correctly classified all (212/212, 95% CI [0.98, 1.00]) of the expanded samples as either expansions (208) or potential expansions (4). Additionally, 99.9% (2786/2789, 95% CI [0.997, 1.00]) of the wild-type samples were correctly classified as wild type by this method with the remaining three samples identified as possible expansions. We further applied our algorithm to a set of 152 samples in which every sample had one of eight different pathogenic repeat expansions, including those associated with fragile X syndrome, Friedreich's ataxia, and Huntington's disease, and correctly flagged all but one of the known repeat expansions. Thus, ExpansionHunter can be used to accurately detect known pathogenic repeat expansions and provides researchers with a tool that can be used to identify new pathogenic repeat expansions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28887402",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We developed a software tool called ExpansionHunter that , using PCR-free WGS short-read data , can genotype repeats at the locus of interest , even if the expanded repeat is larger than the read length",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28887402",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "ExpansionHunter"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "58ce69cd1f5fb2b734000003",
+  "type": "yesno",
+  "question": "Does HuR bind to the untranslated regions (UTRs) of mRNAs?",
+  "ideal_answer": "Yes, the RNA-binding protein HuR binds at 3' untranslated regions (UTRs) of target transcripts, thereby protecting them against degradation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27941336",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23389914",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25841336",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25265983",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23312841",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24687854"
+  ],
+  "snippets": [
+    {
+      "text": "HuR is also overexpressed during tumourigenesis and is abnormally present within the cytoplasm, where it binds to AU-rich elements in the 3'UTRs of target mRNA and post-transcriptionally regulates the expression of its target genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27941336",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Human antigen R (HuR) is a ubiquitous 32 kDa protein comprising three RNA Recognition Motifs (RRMs), whose main function is to bind Adenylate and uridylate Rich Elements (AREs) in 3' UnTranslated Regions (UTRs) of mRNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25841336",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Human antigen R (HuR) is a ubiquitously expressed RNA-binding protein that modulates gene expression at the post-transcriptional level.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25265983",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The RNA-binding protein HuR binds at 3' untranslated regions (UTRs) of target transcripts, thereby protecting them against degradation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24687854",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ELAV/Hu proteins bind to AU-rich elements (ARE) in mRNAs and regulate their stability from splicing to translation, and the ubiquitous HuR protein has been implicated in cancerous cell growth. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23312841",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This is achieved by altered expression of the proteins TTP and HuR, which bind 3' untranslated region (UTR) elements in cancer-related genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23389914",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,36 @@
+{
+  "document_id": "record_03396",
+  "original_length": 4065,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": ", Mr. ABC was admitted to 7 [person] under [person] under the direction of Dr. XYZ.  Mr. ABC had a noncomplicated post-intervention hospital course.  He was stable for discharge home...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'ABC had a noncomplicated post-intervention hospita...'"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

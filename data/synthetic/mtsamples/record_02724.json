@@ -1,0 +1,33 @@
+{
+  "document_id": "record_02724",
+  "original_length": 2248,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "S PERFORMED:\n- Bilateral carotid cerebral angiogram.\n- Right femoral-popliteal angiogram.,FINDINGS: , The right carotid cerebral system was selectively catheterized and visualized.  The right inter...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',FINDINGS: , The right carotid cerebral system was...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

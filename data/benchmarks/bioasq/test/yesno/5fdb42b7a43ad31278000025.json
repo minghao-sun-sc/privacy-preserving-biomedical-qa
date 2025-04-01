@@ -1,0 +1,52 @@
+{
+  "id": "5fdb42b7a43ad31278000025",
+  "type": "yesno",
+  "question": "Are super enhancers structurally insulated in chromatin loops?",
+  "ideal_answer": "Although there is evidence that chromatin neighbourhoods, formed by the zinc-finger protein CTCF, can sequester enhancers and their target genes, there is limited in vivo evidence for CTCF demarcating super-enhancers and preventing cross talk between distinct regulatory elements. CTCF sites are porous borders, allowing a super-enhancer to activate a secondary target.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30285185",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29507293",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28714474",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25263550"
+  ],
+  "snippets": [
+    {
+      "text": "Dissecting super-enhancer hierarchy based on chromatin interactions",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29507293",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Genetic ablation of hub enhancers results in profound defects in gene activation and local chromatin landscape.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29507293",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We also demonstrate that the Wap super-enhancer, which is built on STAT5 and other common transcription factors, retains its exquisite mammary specificity when placed into globally permissive chromatin, suggesting a limited role of chromatin in controlling cell specificity. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30285185",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although there is evidence that chromatin neighbourhoods, formed by the zinc-finger protein CTCF, can sequester enhancers and their target genes, there is limited in vivo evidence for CTCF demarcating super-enhancers and preventing cross talk between distinct regulatory elements.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28714474",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CTCF sites are porous borders, allowing a super-enhancer to activate a secondary target.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28714474",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription factors and chromatin-remodeling complexes are key determinants of embryonic stem cell (ESC) identity. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25263550",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

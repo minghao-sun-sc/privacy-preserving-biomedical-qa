@@ -1,0 +1,36 @@
+{
+  "document_id": "record_02030",
+  "original_length": 5417,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,  Severe degenerative joint disease of the right knee.,POSTOPERATIVE DIAGNOSIS: , Severe degenerative joint disease of the right knee.,PROCEDURE:,  Right total knee arthroplasty usin...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',POSTOPERATIVE DIAGNOSIS: , Severe degenerative jo...'"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

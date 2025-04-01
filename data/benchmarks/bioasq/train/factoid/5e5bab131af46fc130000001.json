@@ -1,0 +1,33 @@
+{
+  "id": "5e5bab131af46fc130000001",
+  "type": "factoid",
+  "question": "What is the protein product of the gene GBA2?",
+  "ideal_answer": "The GBA2 gene encodes the non-lysosomal glucosylceramidase (NLGase), an enzyme that catalyzes the conversion of glucosylceramide (GlcCer) to ceramide and glucose.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29524657",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30308956",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29234271"
+  ],
+  "snippets": [
+    {
+      "text": "b-glucosidase 2 gene (GBA2)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29524657",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The GBA2 gene encodes the non-lysosomal glucosylceramidase (NLGase), an enzyme that catalyzes the conversion of glucosylceramide (GlcCer) to ceramide and glucose. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30308956",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The non-lysosomal glucosylceramidase GBA2 catalyzes the hydrolysis of glucosylceramide to glucose and ceramide. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29234271",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "The GBA2 gene encodes the non-lysosomal glucosylceramidase (NLGase), an enzyme that catalyzes the conversion of glucosylceramide (GlcCer) to ceramide and glucose."
+}

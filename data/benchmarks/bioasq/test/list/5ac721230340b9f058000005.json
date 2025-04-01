@@ -1,0 +1,82 @@
+{
+  "id": "5ac721230340b9f058000005",
+  "type": "list",
+  "question": "Name 4 circular RNA molecules associated with carcinogenesis.",
+  "ideal_answer": "circ-ABCB10 knockdown suppressed the proliferation and increased apoptosis of breast cancer cells.\nHsa_circ_0058246 was elevated in tumor specimens of patients with poor clinical outcomes.\nCirc-FBXW7 expression positively associated with glioblastoma patient overall survival.\nciRS-7 promotes the development of cancer by acting as sponge of miR-7.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28639908",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28253710",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28744405",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28903484"
+  ],
+  "snippets": [
+    {
+      "text": " In particular, we found that the expression of hsa_circ_0058246 was elevated in tumor specimens of patients with poor clinical outcomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28639908",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Circular RNA circ-ABCB10 promotes breast cancer proliferation and progression through sponging miR-1271.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28744405",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Results found circ-ABCB10, was significantly up-regulated in breast cancer tissue.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28744405",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In vitro, loss-of-function experiments showed circ-ABCB10 knockdown suppressed the proliferation and increased apoptosis of breast cancer cells. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28744405",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Overall, results identified a new functional circ-ABCB10 in breast cancer tumorigenesis, and reveal the important regulatory role of circ-ABCB10 through sponging miR-1271, providing a novel insight for breast cancer pathogenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28744405",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Novel Role of FBXW7 Circular RNA in Repressing Glioma Tumorigenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28903484",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Upregulation of FBXW7-185aa in cancer cells inhibited proliferation and cell cycle acceleration, while knockdown of FBXW7-185aa promoted malignant phenotypes invitro and invivo. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28903484",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover, circ-FBXW7 and FBXW7-185aa levels were reduced in glioblastoma clinical samples compared with their paired tumor-adjacent tissues (P<.001). Circ-FBXW7 expression positively associated with glioblastoma patient overall survival (P = .03).Conclusions: Endogenous circRNA encodes a functional protein in human cells, and circ-FBXW7 and FBXW7-185aa have potential prognostic implications in brain cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28903484",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Detection and characterization of ciRS-7: a potential promoter of the development of cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28253710",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Most recently, a study reported ciRS-7 acted as an oncogene in hepatocellular carcinoma through targeting miR-7 expression. This suggest ciRS-7/ miR-7 axis affects oncogenesis, and it provides a new perspective on the mechanisms of decreased miR-7 expression in cancer tissues. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28253710",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This review summarizes the structure and function of circRNAs and provides evidence for the impact of ciRS-7 in promoting the development of cancer by acting as sponge of miR-7.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28253710",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "ciRS-7, FBXW7, circ-ABCB10, hsa_circ_0058246"
+}

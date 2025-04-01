@@ -1,0 +1,162 @@
+{
+  "id": "5a468785966455904c00000d",
+  "type": "yesno",
+  "question": "Does RNA polymerase II have RNA cleavage activity?",
+  "ideal_answer": "In addition to RNA synthesis, multisubunit RNA polymerases (msRNAPs) support enzymatic reactions such as intrinsic transcript cleavage. The eukaryotic transcription factor TFIIS enhances elongation and nascent transcript cleavage activities of RNA polymerase II in a stalled elongation complex.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/8798387",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12692127",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25764335",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1379232",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9869639",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1371280",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7513257",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8090778",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8312968",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21454497",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7503982",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17535246"
+  ],
+  "snippets": [
+    {
+      "text": "In addition to RNA synthesis, multisubunit RNA polymerases (msRNAPs) support enzymatic reactions such as intrinsic transcript cleavage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25764335",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "msRNAP active sites from different species appear to exhibit differential intrinsic transcript cleavage efficiency and have likely evolved to allow fine-tuning of the transcription process.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25764335",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show that a single amino-acid substitution in the trigger loop (TL) of Saccharomyces RNAP II, Rpb1 H1085Y, engenders a gain of intrinsic cleavage activity where the substituted tyrosine appears to participate in acid-base chemistry at alkaline pH for both intrinsic cleavage and nucleotidyl transfer. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25764335",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The eukaryotic transcription factor TFIIS enhances elongation and nascent transcript cleavage activities of RNA polymerase II in a stalled elongation complex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8090778",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The transcription factor TFIIS zinc ribbon dipeptide Asp-Glu is critical for stimulation of elongation and RNA cleavage by RNA polymerase II",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8090778",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "By site-directed mutagenesis, we have demonstrated that invariant residues Asp-261 and Glu-262 of the nucleic acid-binding TFIIS Zn ribbon are critical for stimulation of both elongation and RNA cleavage activities of RNA polymerase II.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8090778",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Complexes of yeast RNA polymerase II and RNA are substrates for TFIIS-induced RNA cleavage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7513257",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "RNA in such RNA-RNA polymerase complexes undergoes reactions previously thought to be unique to nascent RNA in ternary complexes with DNA, including TFIIS-dependent cleavage and elongation by 3'-terminal addition of NMP from NTP.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7513257",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nascent RNA cleavage by arrested RNA polymerase II does not require upstream translocation of the elongation complex on DNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7503982",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we show that in the presence of SII and nucleotides, transcript cleavage is detected during SII-dependent elongation but not during SII-independent transcription. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7503982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "under typical transcription conditions, SII is necessary but insufficient to activate RNA cleavage. RNA cleavage could serve to move RNA polymerase II away from the transcriptional impediment and/or permit RNA polymerase II multiple attempts at RNA elongation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7503982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SII is an RNA polymerase II-binding protein that stimulates transcription elongation and also activates nascent transcript cleavage by RNA polymerase II in elongation complexes in vitro",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1379232",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The RNA polymerase II elongation complex. Factor-dependent transcription elongation involves nascent RNA cleavage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1379232",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Cleavage was not restricted to an elongation complex arrested at this particular site, showing that nascent RNA hydrolysis is a general property of RNA polymerase II elongation complexes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1379232",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Elongation factor SII (also known as TFIIS) is an RNA polymerase II binding protein that allows bypass of template arrest sites by activating a nascent RNA cleavage reaction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8798387",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "During gene transcription, the RNA polymerase (Pol) active center can catalyze RNA cleavage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21454497",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "During gene transcription, the RNA polymerase (Pol) active center can catalyze RNA cleavage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21454497",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The eukaryotic transcription factor TFIIS enhances elongation and nascent transcript cleavage activities of RNA polymerase II in a stalled elongation complex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8090778",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rpb9, a small subunit of RNA polymerase II, enhances the cleavage stimulation activity of S-II.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17535246",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest that both S-II and Rpb9 maintain transcriptional fidelity by stimulating the cleavage activity intrinsic to RNA polymerase II.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17535246",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "It is also possible that the transcript cleavage activity of RNA polymerase II represents a proofreading function of the enzyme..",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1371280",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nascent RNA cleavage by arrested RNA polymerase II does not require upstream translocation of the elongation complex on DNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7503982",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Intrinsic transcript cleavage in yeast RNA polymerase II elongation complexes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12692127",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

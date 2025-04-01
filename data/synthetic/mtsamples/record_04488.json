@@ -1,0 +1,35 @@
+{
+  "document_id": "record_04488",
+  "original_length": 6388,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  The patient has had worsening of his gait, his dementia, and his incontinence.  The new finding for me today is the limited upgaze.  This would be consistent either with progressive supranuclear...",
+    "Symptoms": "",
+    "Treatment": ", I had a long talk with him and his family.  Even though he has already had a trial of CSF drainage via spinal catheter at Hospital over a year ago, I offered this test to them again.  I do so on ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Aricept 10 mg, Colace 100 mg, Tylenol 650 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "56cc947b5795f9a73e000033",
+  "type": "yesno",
+  "question": "Can SUMO affect calcium homeostasis?",
+  "ideal_answer": "Yes, SUMO proteins can affect calcium homeostasis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10995744",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23510938",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24290762",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21900893"
+  ],
+  "snippets": [
+    {
+      "text": "Increasing SUMOylation levels correlated inversely with calcium influx in sensory neurons.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23510938",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CRMP2 deSUMOylation by SUMO proteases SENP1 and SENP2 normalized calcium influx to those in the CRMP2AAA mutant.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23510938",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thus, our results identify a novel role for SUMO modification in CRMP2/CaV2.2 signaling pathway",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23510938",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover, SUMO1 overexpression in isolated cardiomyocytes augmented contractility and accelerated Ca(2+) decay.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21900893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " RIM1\u03b1 SUMOylation at lysine residue K502 facilitates\u00a0the clustering of CaV2.1 calcium channels and\u00a0enhances the Ca(2+) influx necessary for vesicular release, whereas non-SUMOylated RIM1\u03b1 participates in the docking/priming of synaptic vesicles and maintenance of active zone structure. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24290762",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Identification and characterization of a SUMO-1 conjugation system that modifies neuronal calcium/calmodulin-dependent protein kinase II in Drosophila melanogaster.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10995744",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0055074",
+    "http://www.uniprot.org/uniprot/SUMO_CAEEL"
+  ],
+  "exact_answer": "Yes"
+}

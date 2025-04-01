@@ -1,0 +1,55 @@
+{
+  "id": "532670e7d6d3ac6a34000008",
+  "type": "factoid",
+  "question": "What is the typical alteration of the thyroid profile metabolism early after coronary artery bypass graft surgery?",
+  "ideal_answer": "Low T3 Syndrome is the more frequent alteration of thyroid hormone profile early after coronary artery bypass graft surgery.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/6422832",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15843233",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22358266",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12537197",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9010711"
+  ],
+  "snippets": [
+    {
+      "text": "FT3 concentration dropped significantly (p < 0.0001), reaching its lowest value 12 hours postoperatively. There were no significant differences between CPB and OPCAB patients. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12537197",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In on-pump CABG surgery, inflammatory effects encompass activation of total leukocytes, neutrophils and platelets, reduction of serum level of total proteins and albumin and decreased thyroid hormones levels, especially within first postoperative 24 hours.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22358266",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Typical NTIS was observed in all patients, and the FT3 concentration was still reduced by postoperative day 5 (p<0.0001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15843233",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We could demonstrate that CPB induces a low T3 syndrome up to 3 days after surgery. Those patients with low T3 concentrations prior to surgery demonstrate postoperatively a more severe degree of nonthyroidal illness (NTI).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9010711",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "It is concluded that the coronary bypass operation evokes a rapid decline in T3, which is not normalized by the TSH induced response of the thyroid gland, while the post-operative period is characterized by a \"low T3 state\". ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/6422832",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D047549",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013963",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001026",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003324",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013959",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003327",
+    "http://www.disease-ontology.org/api/metadata/DOID:3393"
+  ],
+  "exact_answer": "Low T3 syndrome occurs frequently after CABG"
+}

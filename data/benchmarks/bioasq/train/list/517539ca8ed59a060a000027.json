@@ -1,0 +1,49 @@
+{
+  "id": "517539ca8ed59a060a000027",
+  "type": "list",
+  "question": "Which genes are regulated by TRalpha2  in the heart?",
+  "ideal_answer": "ARB1, ARB2, TAK1, p38, TRalpha1",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11731613",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18031713",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15831522"
+  ],
+  "snippets": [
+    {
+      "text": "n FM the reduced mRNA expression of ARB1 (p<0.05, -37%) and ARB2 (p<0.05, -42%) was associated with a reduction of the messenger for TRalpha1 (p<0.05, -85%) and TRalpha2 (p<0.05, -73%).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18031713",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "hese data reveal that in human heart failure the reduction of beta-adrenergic receptors is associated with reduced expression of both TRalpha1 and TRalpha2 isoforms of thyroid hormone receptors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18031713",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Mitigating TRalpha1 effects, both TRalpha2 and TRbeta1 attenuate TRalpha1-induced myocardial growth and gene expression by diminishing TAK1 and p38 activities, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15831522",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Selective ablation of TRalpha2 resulted in an inevitable, concomitant overexpression of TRalpha1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11731613",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "These data reveal that in human heart failure the reduction of beta-adrenergic receptors is associated with reduced expression of both TRalpha1 and TRalpha2 isoforms of thyroid hormone receptors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18031713",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006321",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009206",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005796"
+  ],
+  "exact_answer": "ARB1, ARB2, TAK1, p38, TRalpha1"
+}

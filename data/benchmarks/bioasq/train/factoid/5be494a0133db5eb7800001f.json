@@ -1,0 +1,25 @@
+{
+  "id": "5be494a0133db5eb7800001f",
+  "type": "factoid",
+  "question": "Which cancer has the kynureninase pathway been associated to?",
+  "ideal_answer": "The kynurenine pathway has been associated with human glioma pathophysiology.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25415278"
+  ],
+  "snippets": [
+    {
+      "text": "Involvement of the kynurenine pathway in human glioma pathophysiology.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25415278",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "These results provide further evidence for the involvement of the KP in glioma pathophysiology and highlight a potential role of KP products as novel and highly attractive therapeutic targets to evaluate for the treatment of brain tumors, aimed at restoring anti-tumor immunity and reducing the capacity for malignant cells to produce NAD(+), which is necessary for energy production and DNA repair.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25415278",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Glioma"
+}

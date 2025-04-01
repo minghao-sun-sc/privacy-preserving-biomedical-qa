@@ -1,0 +1,78 @@
+{
+  "id": "64371a4257b1c7a315000029",
+  "type": "factoid",
+  "question": "In prokaryotes, functionally related genes are sometimes positioned adjacent to each other in the genome and can be under the control of the same regulatory machinery. What are these called?",
+  "ideal_answer": "In prokaryotes, functionally related genes are often organized into operons. Operons are clusters of adjacent genes that are transcribed together under the control of a single promoter, allowing for coordinated gene expression and efficient co-translation of proteins involved in the same cellular pathway. This organization is a fundamental element of how genetic information is arranged in prokaryotes and ensures that coregulated gene expression occurs through co-transcription. The arrangement of functionally-related genes in operons provides spatiotemporal control over cellular processes, contributing to the overall regulation and efficiency of prokaryotic gene expression.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18269733",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30635413",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17671982",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35934590",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12220896",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15487932",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21690561",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24012761",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32209657",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26543854",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16755590",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33483546"
+  ],
+  "snippets": [
+    {
+      "text": "Coordinated gene expression allows spatiotemporal control of cellular processes and is achieved by the cotranscription/translation of functionally related genes/proteins. Prokaryotes evolved polycistronic messages (operons) to confer expression from a single promoter to efficiently cotranslate proteins functioning on the same pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35934590",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The arrangement of functionally-related genes in operons is a fundamental element of how genetic information is organized in prokaryotes. This organization ensures coordinated gene expression by co-transcription.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32209657",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Clustering of functionally related genes in operons allows for coregulated gene expression in prokaryotes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24012761",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Operons are clusters of genes that are transcribed as a single message, and regulated by the same gene expression machinery.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16755590",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bacterial genes are commonly encoded in clusters, known as operons, which share transcriptional regulatory control and often encode functionally related proteins that take part in certain biological pathways.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21690561",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In prokaryotic genomes, related genes are frequently clustered in operons and higher-order arrangements that reflect functional context.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15487932",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Genes in operons are located next to each other in the same DNA strand, and thus their presence should result in a higher proportion of predicted functional interactions among adjacent genes in the same strand than among adjacent genes in opposite strands.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17671982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Genes that are part of the same operon in prokaryotes, or have the same expression pattern in eukaryotes, are transcriptionally co-regulated.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12220896",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The presence of operons (polycistronic transcription units formed of functionally related genes) in prokaryotic genomes offers such an alternative.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17671982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Operons"
+}

@@ -1,0 +1,36 @@
+{
+  "document_id": "record_02937",
+  "original_length": 5343,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "was \"Dementia of the Alzheimer's Type.\",One to two weeks prior to her 1/12/95 presentation, she became repeatedly lost in her own home. In addition, she, and especially her family, noticed increase...",
+    "Symptoms": "",
+    "Treatment": "e her children hid a toy gun in her carry-on luggage. As the patient walked through security the alarm went off and within seconds she was surrounded, searched and interrogated. She and her family ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

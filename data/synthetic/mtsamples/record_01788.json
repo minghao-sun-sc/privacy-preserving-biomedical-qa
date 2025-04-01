@@ -1,0 +1,35 @@
+{
+  "document_id": "record_01788",
+  "original_length": 11695,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "is highly complicated by presence of a strong personality disorder component, most likely borderline personality disorder.  This latter diagnosis seems to be the most active at this time with the p...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Synthroid 75 mcg, lithium 1200 mg, of 40 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: IN_PAN"
+      ],
+      "pii_detected": [
+        "IN_PAN"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

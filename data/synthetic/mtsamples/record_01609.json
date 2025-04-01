@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01609",
+  "original_length": 3656,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ". Neuropsychologic testing revealed widespread cognitive dysfunction with particular impairment of language function. She had long latencies responding and understood only simple questions. Affect ...",
+    "Symptoms": "",
+    "Treatment": "tars were flexor bilaterally.,[person]: unremarkable.,INITIAL STUDIES:, CBC, GS, UA, PT, PTT, ESR, CRP, EKG were all unremarkable. Outside HCT showed hypodensities in the right putamen, left ca...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',INITIAL STUDIES:, CBC, GS, UA, PT, PTT, ESR, CRP,...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

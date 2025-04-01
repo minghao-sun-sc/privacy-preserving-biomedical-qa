@@ -1,0 +1,37 @@
+{
+  "document_id": "record_04330",
+  "original_length": 3015,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "s. For 6 months prior to presentation, he and his wife noted (his) increasingly slurred speech and slowed motor skills (i.e. dressing himself and house chores). His walk became slower and he had di...",
+    "Symptoms": "",
+    "Treatment": "s did not appear to improve his mood and affect.,MEDS:, Fluoxetine.,PMH: ,1)Right knee arthroscopic surgery 3 yrs ago. 2)Vasectomy.,FHX:, Mother died age 60 of complications of [person] (...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Elavil 25mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'For 6 months prior to presentation, he and his wif...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

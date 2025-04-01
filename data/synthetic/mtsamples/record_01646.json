@@ -1,0 +1,39 @@
+{
+  "document_id": "record_01646",
+  "original_length": 2639,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", This electrical study is abnormal.  It reveals the following:\n- Inactive right S1 (L5) radiculopathy.\n- There is no evidence of left lower extremity radiculopathy, peripheral neuropathy or entrap...",
+    "Symptoms": "",
+    "Treatment": "A ight-handed inpatient with longstanding history of cervical spinal stenosis status post decompression, opioid dependence, who has had longstanding low back pain radiating into the right leg. EMG/...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: US_DRIVER_LICENSE, DATE_TIME, PERSON, URL, LOCATION"
+      ],
+      "pii_detected": [
+        "US_DRIVER_LICENSE",
+        "DATE_TIME",
+        "PERSON",
+        "URL",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

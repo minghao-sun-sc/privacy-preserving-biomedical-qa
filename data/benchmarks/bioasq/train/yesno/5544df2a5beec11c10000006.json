@@ -1,0 +1,40 @@
+{
+  "id": "5544df2a5beec11c10000006",
+  "type": "yesno",
+  "question": "Do conserved noncoding elements co-occur with matrix-attachment regions?",
+  "ideal_answer": "Yes. It is estimated that 11% of the conserved noncoding DNA consists of predicted MARs. Conversely, more than half of the predicted MARs co-occur with one or more independently identified conserved sequence blocks. An excess of conserved predicted MARs is seen in intergenic regions preceding 5' ends of genes, suggesting that these MARs are primarily involved in transcriptional control.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12615002"
+  ],
+  "snippets": [
+    {
+      "text": "We hypothesized that some of these regions might be matrix-scaffold attachment regions, MARs (or S/MARs). MARs comprise one of the few classes of eukaryotic noncoding DNA with an experimentally characterized function, being involved in the attachment of chromatin to the nuclear matrix, chromatin remodeling and transcription regulation. To test our hypothesis, we analyzed the co-occurrence of predicted MARs with highly conserved noncoding DNA regions in human-mouse genomic alignments. We found that 11% of the conserved noncoding DNA consists of predicted MARs. Conversely, more than half of the predicted MARs co-occur with one or more independently identified conserved sequence blocks. An excess of conserved predicted MARs is seen in intergenic regions preceding 5' ends of genes, suggesting that these MARs are primarily involved in transcriptional control",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12615002",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A significant fraction of conserved noncoding DNA in human and mouse consists of predicted matrix attachment regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12615002",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "To test our hypothesis, we analyzed the co-occurrence of predicted MARs with highly conserved noncoding DNA regions in human-mouse genomic alignments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12615002",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To test our hypothesis, we analyzed the co-occurrence of predicted MARs with highly conserved noncoding DNA regions in human-mouse genomic alignments",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12615002",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D045170",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D036961"
+  ],
+  "exact_answer": "Yes"
+}

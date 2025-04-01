@@ -1,0 +1,69 @@
+{
+  "id": "5157539ed24251bc0500008a",
+  "type": "factoid",
+  "question": "Gene silencing can be achieved by RNA interference (RNAi) in eukaryotic organisms. What is the name of the analogous process in prokaryotic organisms?",
+  "ideal_answer": "Bacteria have developed several defense mechanisms against bacteriophages over evolutionary time, but the concept of prokaryotic RNA interference mediated defense mechanism against phages and other invading genetic elements has emerged only recently. Clustered regularly interspaced short palindromic repeats (CRISPR) together with closely associated genes (cas genes) constitute the CASS system that is believed to provide a RNAi-like defense mechanism against bacteriophages within the host bacterium.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20109154",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16545108",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19706170",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21441598",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17537822",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18971321",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23439366",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19945378"
+  ],
+  "snippets": [
+    {
+      "text": "he CRISPR-Cas (clustered regularly interspaced short palindromic repeats, CRISPR-associated genes) is an adaptive immunity system in bacteria and archaea that functions via a distinct self-non-self recognition mechanism that is partially analogous to the mechanism of eukaryotic RNA interference (RNAi).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23439366",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "RNA-guided RNA cleavage by a CRISPR RNA-Cas protein complex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19945378",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Compelling evidence indicates that the CRISPR-Cas system protects prokaryotes from viruses and other potential genome invaders.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19945378",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "RNA in defense: CRISPRs protect prokaryotes against mobile genetic elements.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21441598",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "n this article, we discuss our current understanding of this fascinating adaptive and heritable defense system, and describe functional similarities and differences with RNAi in eukaryotes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21441598",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Bacteria have developed several defense mechanisms against bacteriophages over evolutionary time, but the concept of prokaryotic RNA interference mediated defense mechanism against phages and other invading genetic elements has emerged only recently. Clustered regularly interspaced short palindromic repeats (CRISPR) together with closely associated genes (cas genes) constitute the CASS system that is believed to provide a RNAi-like defense mechanism against bacteriophages within the host bacterium.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20109154",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In many prokaryotes, noncoding RNAs that arise from the clustered regularly interspaced short palindromic repeat (CRISPR) loci are now thought to mediate defense against viruses and other molecular invaders by an RNAi-like pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18971321",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=1900370",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0016246",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=1900368",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011387",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056890",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005057"
+  ],
+  "exact_answer": "CRISPR-Cas"
+}

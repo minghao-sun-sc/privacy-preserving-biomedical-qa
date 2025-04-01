@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01571",
+  "original_length": 2500,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",Sizeable joint effusion which is complex and may contain blood products.,Myxoid degenerative type changes medial and lateral meniscus with no definite evidence of a tear.,Soft tissue swelling and ...",
+    "Symptoms": "",
+    "Treatment": "MRI left knee without contrast. MRI Knee - 4",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',Myxoid degenerative type changes medial and later...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

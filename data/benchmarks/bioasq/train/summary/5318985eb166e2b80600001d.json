@@ -1,0 +1,43 @@
+{
+  "id": "5318985eb166e2b80600001d",
+  "type": "summary",
+  "question": "What is the Arnold-Chiari syndrome?",
+  "ideal_answer": "Arnold Chiari syndrome is a condition characterized by herniation of the cerebellar tonsils through the foramen magnum, manifesting usually with downbeat nystagmus, palsy of the caudal cerebral nerves, headache, and vertigo.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18546951",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19287845",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15785984",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17874345"
+  ],
+  "snippets": [
+    {
+      "text": "Arnold Chiari syndrome is a condition characterized by herniation of the cerebellar tonsils through the foramen magnum.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19287845",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Arnold-Chiari malformation is very rare hindbrain abnormalities characterized by herniation of the hindbrain through the foramen magnum.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18546951",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The origin of Arnold-Chiari syndrome is connected with narrowness in the posterior fossa, particularly with narrowing of the arachnoid spaces.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17874345",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Arnold-Chiari Syndrome I is a malformation of the cervicomedullary junction, manifesting usually with downbeat nystagmus, palsy of the caudal cerebral nerves, headache, and vertigo.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15785984",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:225",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001139",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013577"
+  ]
+}

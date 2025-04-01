@@ -1,0 +1,106 @@
+{
+  "id": "531b1e3cb166e2b80600003b",
+  "type": "list",
+  "question": "Which histone modifications are associated with Polycomb group (PcG) proteins?",
+  "ideal_answer": "A member of the polycomb repressive complex 2 (PRC2) directly mediates the addition of K27me3 to histone H3, a modification associated with heterochromatin, and it is believed that this activity mediates transcriptional repression. At the same time PRC2 activity results in a global increase in H3K27 acetylation. Some members of the PcG display affinity towards both histone H3 trimethylated at K9 and H3K27me3, and one CD prefers K9me3.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23694722",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19723660",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23322639",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20385584",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16537902",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17525233",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23104054"
+  ],
+  "snippets": [
+    {
+      "text": "The PcG proteins are well-conserved chromatin factors that repress transcription of numerous target genes. They bind the genome at specific sites, forming chromatin domains of associated histone modifications as well as higher-order chromatin structures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23694722",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A component of Polycomb repressive complex 2 (PRC2), which mediates the addition of K27me3 to histone H3 (Suz12), was also recruited by 14 dpi",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23322639",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We found that a component of the PRC1 complex (Bmi1), which binds to H3K27me3, was not enriched at promoters found previously to be enriched for H3K27me3",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23322639",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Here we show that the HSV DNA first associates with histone H3, with later recruitment of Polycomb repressor complex 2 (PRC2) and trimethylation of the lysine 27 residue of histone H3 (H3K27me3), a modification associated with heterochromatin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23322639",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show that direct recognition of methylated histone H3 Lys36 (H3K36me), a mark associated with activation, by the PRC2 subunit Phf19 is required for the full enzymatic activity of the PRC2 complex",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23104054",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, we show that Phf19 binds to a subset of PRC2 targets in mouse embryonic stem cells and that this is required for their repression and for H3K27me3 deposition",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23104054",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Polycomb repressive complex 2 (PRC2) catalyzes trimethylation (me3) of histone H3 lysine 27 (K27), and it is believed that this activity mediates transcriptional repression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20385584",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show that loss of PRC2 activity results in a global increase in H3K27 acetylation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20385584",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover, we provide evidence that the acetylation of H3K27 is catalyzed by the acetyltransferases p300 and CBP.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20385584",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Taken together, these studies suggest that patterns of epigenetic modifiers and the histone code influence the propensity of a gene to become hypermethylated in cancer and that DNMT3B plays an important role in regulating PRC1 function",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19723660",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "During differentiation, binding of polycomb repressive complex 2 (PRC2), which mediates trimethylation of lysine 27 on histone H3 (K27me3), is lost on developmental genes that are transcriptionally induced",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17525233",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "chromodomain (CD) of the Drosophila Polycomb protein exhibits preferential binding affinity for histone H3 when trimethylated at lysine 27",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16537902",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Not all CDs bind preferentially to K27me3; rather, some display affinity towards both histone H3 trimethylated at K9 and H3K27me3, and one CD prefers K9me3",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16537902",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0031519",
+    "http://www.biosemantics.org/jochem#4278518",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D063146",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016573",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016570",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016571",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006657",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0035102"
+  ],
+  "exact_answer": "H3K27me3, H3K27Ac, H3K9me3, H3K36me"
+}

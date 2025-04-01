@@ -1,0 +1,26 @@
+{
+  "id": "5c7d5ae9d774d04240000010",
+  "type": "factoid",
+  "question": "Which tissue secretes vaspin?",
+  "ideal_answer": "Visceral adipose tissue-derived serine protease inhibitor (Vaspin) is an adipocytokine that has been shown to exert anti-inflammatory effects and inhibits apoptosis under diabetic conditions.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28756250",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29734265"
+  ],
+  "snippets": [
+    {
+      "text": "Vaspin expression is increased in white adipose tissue",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28756250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Visceral adipose tissue-derived serine protease inhibitor (Vaspin) is an adipocytokine that has been shown to exert anti-inflammatory effects and inhibits apoptosis under diabetic conditions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29734265",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Adipose Tissue"
+}

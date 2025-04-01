@@ -1,0 +1,79 @@
+{
+  "id": "5a43b2d7966455904c00000c",
+  "type": "list",
+  "question": "Which are the best methods for the prediction of circular RNA (circRNA)?",
+  "ideal_answer": "A circRNA prediction software for plants . Circular RNA profile in gliomas revealed by identification tool UROBORUS. Numerous algorithms that are used to detect genome-wide circRNA expression from RNA sequencing  data have been developed in the past few years, but there is little overlap in their predictions and no clear gold-standard method to assess the accuracy of these algorithms. MiARma-Seq: a comprehensive tool for miRNA, mRNA and circRNA analysis. Here, we use common RNAseq datasets to scrutinize and compare the output from five different algorithms; circRNA_finder, find_circ, CIRCexplorer, CIRI, and MapSplice and evaluate the levels of bona fide and false positive circRNAs based on RNase R resistance. ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27739534",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26657634",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26873924",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27167008",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29165116",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26556385",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27493192"
+  ],
+  "snippets": [
+    {
+      "text": "Numerous algorithms that are used to detect genome-wide circRNA expression from RNA sequencing (RNA-seq) data have been developed in the past few years, but there is little overlap in their predictions and no clear gold-standard method to assess the accuracy of these algorithms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27739534",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We developed the software tandem, DCC and CircTest DCC uses output from the STAR read mapper to systematically detect back-splice junctions in next-generation sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26556385",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Circular RNA profile in gliomas revealed by identification tool UROBORUS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26873924",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In this work, we have developed a computational pipeline named UROBORUS to detect circRNAs in total RNA-seq data. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26873924",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Here, we use common RNAseq datasets to scrutinize and compare the output from five different algorithms; circRNA_finder, find_circ, CIRCexplorer, CIRI, and MapSplice and evaluate the levels of bona fide and false positive circRNAs based on RNase R resistance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26657634",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "miARma-Seq: a comprehensive tool for miRNA, mRNA and circRNA analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27167008",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "PcircRNA_finder: a software for circRNA prediction in plants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27493192",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "A circRNA prediction software for plants (termed PcircRNA_finder) was developed that is more sensitive in detecting circRNAs than other frequently used programs (such as find_circ and CIRCexplorer)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27493192",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recently, circular RNA (circRNA), a class of endogenous non-protein coding RNAs that contain a circular loop, was found to exhibit multiple biological effects.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29165116",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS A circRNA prediction software for plants (termed PcircRNA_finder) was developed that is more sensitive in detecting circRNAs than other frequently used programs (such as find_circ and CIRCexplorer), Based on analysis of simulated and real rRNA-/RNAase R RNA-Seq data from Arabidopsis thaliana and rice PcircRNA_finder provides a more comprehensive sensitive, precise prediction method for plants circRNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27493192",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "circRNA_finder, find_circ, CIRCexplorer, CIRI, MapSplice, UROBORUS, Circ TEST DCC, miARma-Seq"
+}

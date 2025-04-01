@@ -1,0 +1,82 @@
+{
+  "id": "531d744c267d7dd053000009",
+  "type": "factoid",
+  "question": "What is the function of the protein encoded by the gene PABPC4?",
+  "ideal_answer": "The main function of PABPC4 is in mRNA stability and translation initiation. PABPC4 may also play a role in chronic inflammation and in the pathogenesis of colorectal cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23938467",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22884093",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21300955",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23300856",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22530058",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21940797",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11328870",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20943973",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22896784",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23181716"
+  ],
+  "snippets": [
+    {
+      "text": "In testis mRNA stability and translation initiation are extensively under the control of poly(A)-binding proteins (PABP).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11328870",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Taken together, our findings indicate that PABPC4 may play a role in the pathogenesis of colorectal cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22884093",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Consistent with these biochemical activities, plus corresponding histological profiles, the identified RNA processing factors are predicted to collectively drive post-transcriptional expression of an alternative exome that fuels finishing steps of sperm maturation and fitness.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23938467",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This is the first evidence that PABPCs have a targeted role in hTERT regulation leading to a growth advantage in cells expressing HPV16 E6.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20943973",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "to play a role in chronic inflammation (PPP1R3B, SALL1, PABPC4,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21300955",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "and with the exception of PABP4, appear to be restricted in their expression to a small number of cell types. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21940797",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PABPC4 (p(Het) = 0.034) for HDL-C. Our findings suggest that some of the previously identified variants associate differently with lipid traits in adolescents compared to adults, either because of developmental changes or because of greater interactions with environmental differences in adults.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22530058",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, PABP4 was associated with the poly(A) tract of pre-mRNA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23300856",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006378",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D026723",
+    "http://www.uniprot.org/uniprot/PABP_DROME",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002352",
+    "http://www.uniprot.org/uniprot/PABP4_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011485",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0043631",
+    "http://www.biosemantics.org/jochem#4249823",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005515",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0008143",
+    "http://www.biosemantics.org/jochem#4002540"
+  ],
+  "exact_answer": "PABC4 is important for mRNA stability and translation initiation, in chronic inflammation and in the pathogenesis of colorectal cancer."
+}

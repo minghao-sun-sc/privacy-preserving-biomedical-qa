@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04741",
+  "original_length": 2255,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Normal stress/rest cardiac perfusion with no indication of ischemia.\n- Normal LV function and low likelihood of significant epicardial coronary narrowing.,",
+    "Symptoms": "",
+    "Treatment": "Lexiscan myoview stress study.  Chest discomfort.  Normal stress/rest cardiac perfusion with no indication of ischemia.  Normal LV function and low likelihood of significant epicardial coronary nar...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Normal stress/rest cardiac perfusion with no indic...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

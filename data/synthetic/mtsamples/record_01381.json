@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01381",
+  "original_length": 4298,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Multiple problems including left leg swelling.\n- History of leukocytosis.\n- Joint pain involving the left shoulder, probably impingement syndrome.\n- Low back pain, chronic with obesity.\n- Obesit...",
+    "Symptoms": "",
+    "Treatment": "\n- I will schedule for a venous Doppler of the left leg and will have her come back in the morning for a CBC and a metabolic panel.  We will start her on Detrol 0.4 mg one daily and also started on...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Mobic 15 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON, LOCATION"
+      ],
+      "pii_detected": [
+        "PERSON",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

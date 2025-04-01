@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03700",
+  "original_length": 851,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,  Chronic tonsillitis.,POSTOPERATIVE DIAGNOSIS: , Chronic tonsillitis.,PROCEDURE:  ,Tonsillectomy.,DESCRIPTION OF PROCEDURE: , Under general orotracheal anesthesia, a Crowe-Davis mou...",
+    "Symptoms": "",
+    "Treatment": "",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "URL",
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

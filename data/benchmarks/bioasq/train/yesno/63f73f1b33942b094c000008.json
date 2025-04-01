@@ -1,0 +1,25 @@
+{
+  "id": "63f73f1b33942b094c000008",
+  "type": "yesno",
+  "question": "Is erenumab effective for trigeminal neuralgia?",
+  "ideal_answer": "No. In a randomized clinical trial erenumab was not effective for treatment of trigeminal neuralgia.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/36113495"
+  ],
+  "snippets": [
+    {
+      "text": "INTERPRETATION: Erenumab did not reduce pain intensity compared with placebo in patients with trigeminal neuralgia and CGRP probably does not have an important role in paroxysmal pain.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36113495",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "There was no difference between groups in the number of responders at 4 weeks in the intention-to-treat population (14 [35%] of 40 with erenumab vs 18 [45%] of 40 with placebo; estimated effect size -10% [95% CI -31 to 11]; p=0\u00b736). 20 (50%) of 40 participants reported adverse events in each group. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36113495",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

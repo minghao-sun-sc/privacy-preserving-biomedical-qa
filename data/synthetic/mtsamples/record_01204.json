@@ -1,0 +1,37 @@
+{
+  "document_id": "record_01204",
+  "original_length": 3436,
+  "synthetic_length": 704,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,  Medial meniscal tear, left knee.,POSTOPERATIVE DIAGNOSIS: , Chondromalacia of medial femoral condyle.,PROCEDURE PERFORMED:\n- Arthroscopy of the left knee.\n- Left arthroscopic media...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON, LOCATION",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',POSTOPERATIVE DIAGNOSIS: , Chondromalacia of medi...'"
+      ],
+      "pii_detected": [
+        "PERSON",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

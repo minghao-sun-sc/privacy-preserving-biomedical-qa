@@ -1,0 +1,24 @@
+{
+  "id": "61f9cc19c9dfcb9c09000003",
+  "type": "summary",
+  "question": "Describe SPar-K",
+  "ideal_answer": "SPar-K is a method to search for archetypical chromatin architectures by partitioning a set of genomic regions characterized by chromatin signal profiles around ChIP-seq peaks and other kinds of functional sites. This method efficiently deals with problems of data heterogeneity, limited misalignment of anchor points and unknown orientation of asymmetric patterns.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31116370"
+  ],
+  "snippets": [
+    {
+      "text": "SPar-K: a method to partition NGS signal data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31116370",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present SPar-K (Signal Partitioning with K-means), a method to search for archetypical chromatin architectures by partitioning a set of genomic regions characterized by chromatin signal profiles around ChIP-seq peaks and other kinds of functional sites. This method efficiently deals with problems of data heterogeneity, limited misalignment of anchor points and unknown orientation of asymmetric patterns.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31116370",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "5319a73cb166e2b806000026",
+  "type": "summary",
+  "question": "What is the mechanism of action of geldanamycin?",
+  "ideal_answer": "Geldanamycin is an ansamycin antibiotic which holds the ability to bind heat-shock protein 90. This interaction can lead to the disruption of heat-shock protein 90-containing multimolecular complexes. Additionally, it can induce inhibition or even degradation of partner proteins dissociated from the 90 kDa chaperone and, eventually, cause apoptosis in a variety of cell types.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21525416",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18001136",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9817749",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23986774",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23701727",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15971989",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20534344"
+  ],
+  "snippets": [
+    {
+      "text": "Geldanamycin (HSP90 inhibitor)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23986774",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Geldanamycin is an antibiotic originally discovered based on its ability to bind heat-shock protein 90. This interaction can lead to the disruption of heat-shock protein 90-containing multimolecular complexes. It can also induce the inhibition or even degradation of partner proteins dissociated from the 90 kDa chaperone and, eventually, can cause apoptosis, for instance, in PC12 cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23701727",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "An Hsp90 ATPase inhibitor, geldanamycin, inhibits luciferase reactivation demonstrating the importance of the ATP-dependent chaperone activity of E. coli Hsp90 during client protein remodeling.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21525416",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Unique proteome patterns were observed in HeLa cells treated with the HSP90 inhibitor geldanamycin, and were similar to the patterns induced by radicicol, a structurally different HSP90 inhibitor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20534344",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the Hsp90 inhibitor geldanamycin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18001136",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The molecular chaperone heat-shock protein (Hsp) 90 is an important anticancer drug target because it maintains the conformation, stability, and function of many important oncogenic client proteins, including those involved with signal transduction, cell proliferation, survival, differentiation, motility angiogenesis, and metastasis. Using the standard inhibitors of the adenosine triphosphatase (ATPase) activity of Hsp90, geldanamycin (GA) and 17-allylamino-17- demethoxygeldanamycin (17AAG), novel solid-phase immunoassays have been validated using a time-resolved fluorescence (TRF) end point. Their utility for confirming the mechanism of action of Hsp90 inhibition in secondary cell-based assays has been shown and applied to the novel Hsp90 inhibitor CCT018159.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15971989",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A recent crystal structure of the NH2-terminal domain of yeast Hsp90 established the presence of a conserved nucleotide binding site that is identical with the binding site of geldanamycin, a specific inhibitor of Hsp90.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9817749",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The functional significance of nucleotide binding by Hsp90 has remained unclear. Here we present evidence for a slow but clearly detectable ATPase activity in purified Hsp90.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9817749",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D045504",
+    "http://www.biosemantics.org/jochem#4250710",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020228"
+  ]
+}

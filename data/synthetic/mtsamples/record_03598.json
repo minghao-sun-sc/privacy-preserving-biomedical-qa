@@ -1,0 +1,33 @@
+{
+  "document_id": "record_03598",
+  "original_length": 1927,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Postoperative changes seen within the pelvis without appreciable evidence for free fluid.\n- Numerous subcentimeter nodules seen within the lung bases.  Consider chest CT for further characteriza...",
+    "Symptoms": "",
+    "Treatment": "CT scan of the abdomen and pelvis with contrast to evaluate abdominal pan. CT Scan of Abdomen & Pelvis with Contrast",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Postoperative changes seen within the pelvis witho...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

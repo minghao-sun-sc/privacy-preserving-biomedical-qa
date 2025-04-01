@@ -1,0 +1,56 @@
+{
+  "id": "5e360b81158f994d3a000008",
+  "type": "summary",
+  "question": "What does the Smith\u2013Waterman algorithm do?",
+  "ideal_answer": "The Smith-Waterman algorithm performs local sequence alignments. ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11301301",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28432608",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26445214"
+  ],
+  "snippets": [
+    {
+      "text": "The Smith-Waterman (SW) algorithm based on dynamic programming is a well-known classical method for high precision sequence matching and has become the gold standard to evaluate sequence alignment software. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28432608",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND\n\nThe Smith-Waterman algorithm is known to be a more sensitive approach than heuristic algorithms for local sequence alignment algorithms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26445214",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND\nThe Smith-Waterman algorithm is known to be a more sensitive approach than heuristic algorithms for local sequence alignment algorithms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26445214",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Smith-Waterman algorithm finds the local alignment with maximal score but it is unable to find local alignment with maximum degree of similarity (e.g.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11301301",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Smith-Waterman algorithm for local sequence alignment is one of the most important techniques in computational molecular biology.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11301301",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Smith-Waterman algorithm for local sequence alignment is one of the most important techniques in computational molecular biology.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11301301",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Smith-Waterman algorithm finds the local alignment with maximal score but it is unable to find local alignment with maximum degree of similarity (e.g.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11301301",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

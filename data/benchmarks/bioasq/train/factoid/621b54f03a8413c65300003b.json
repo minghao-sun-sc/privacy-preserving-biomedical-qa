@@ -1,0 +1,32 @@
+{
+  "id": "621b54f03a8413c65300003b",
+  "type": "factoid",
+  "question": "Where are the PUX proteins found?",
+  "ideal_answer": "PUX proteins specifically associate with the nucleoskeleton underneath the INM.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32601292",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34141135"
+  ],
+  "snippets": [
+    {
+      "text": " These PUX proteins specifically associate with the nucleoskeleton underneath the INM and physically interact with CDC48 proteins to negatively regulate INM protein degradation in plants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32601292",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " plant UBX-containing (PUX) proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34141135",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The activity and targeting of CDC48 are controlled by adaptor proteins, of which the plant ubiquitin regulatory\u00a0X\u00a0(UBX) domain-containing (PUX) proteins constitute the largest family. Emerging knowledge on the structure and function of PUX proteins highlights that these proteins are versatile factors for plant homeostasis and adaptation that might inspire biotechnological applications.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34141135",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "PUX proteins specifically associate with the nucleoskeleton underneath the INM."
+}

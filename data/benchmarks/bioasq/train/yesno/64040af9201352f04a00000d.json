@@ -1,0 +1,26 @@
+{
+  "id": "64040af9201352f04a00000d",
+  "type": "yesno",
+  "question": "Is levosimendan effective for amyotrophic lateral sclerosis?",
+  "ideal_answer": "No. Levosimendan was not superior to placebo in maintaining respiratory function in a broad population with amyotrophic lateral sclerosis. Although levosimendan was generally well tolerated, increased heart rate and headache occurred more frequently with levosimendan than with placebo.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34536404",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31315908"
+  ],
+  "snippets": [
+    {
+      "text": "INTERPRETATION: Levosimendan was not superior to placebo in maintaining respiratory function in a broad population with amyotrophic lateral sclerosis. Although levosimendan was generally well tolerated, increased heart rate and headache occurred more frequently with levosimendan than with placebo.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34536404",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: Levosimendan did not achieve the primary endpoint of improving sitting SVC in ALS. Headache and increased heart rate were increased on levosimendan, although it was otherwise well tolerated. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31315908",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

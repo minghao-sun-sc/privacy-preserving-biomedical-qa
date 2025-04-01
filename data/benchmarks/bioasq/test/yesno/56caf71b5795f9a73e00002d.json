@@ -1,0 +1,77 @@
+{
+  "id": "56caf71b5795f9a73e00002d",
+  "type": "yesno",
+  "question": "Is STAT3 transcription factor regulated by mTORC1?",
+  "ideal_answer": "mTORC1 was found to regulate STAT3 activity in, at least, three ways: 1) after induction by IL6, 2) by direct phosphorylation during hypoxia, to promote HIF-1\u03b1 mRNA transcription, and 3) after activation by excess amino acids, which then positively regulate Notch1 expression through STAT3 activation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24931163",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22055460",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26026060",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24302004",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23641065"
+  ],
+  "snippets": [
+    {
+      "text": "Mechanistically, mTORC1 mediated IL-6-induced Stat3 activation in intestinal epithelial cells to stimulate the expression of downstream targets essential for cell proliferation and tissue regeneration. Therefore, mTORC1 signaling critically protects against inflammatory bowel disease through modulation of inflammation-induced Stat3 activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26026060",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we demonstrated that STAT3 is directly phosphorylated by mTORC1 on Ser727 during hypoxia, promoting HIF-1\u03b1 mRNA transcription",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24931163",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mechanistically, mTORC1 signaling was activated by excess amino acids, which then positively regulated Notch1 expression through the activation of the signal transducer and activator of transcription 3 (STAT3).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24302004",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we present evidence for the involvement of STAT3, a known mTORC1 regulated transcription factor, in this process",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22055460",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, we demonstrated that STAT3 is directly phosphorylated by mTORC1 on Ser727 during hypoxia, promoting HIF-1\u03b1 mRNA transcription. mTORC1 also regulates HIF-1\u03b1 synthesis on a translational level via co-operative regulation of both initiation factor 4E-binding protein 1 (4E-BP1) and ribosomal protein S6 kinase-1 (S6K1), whereas\u00a0HIF-1\u03b1 degradation remains unaffected",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24931163",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we present evidence for the involvement of STAT3, a known mTORC1 regulated transcription factor, in this process. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22055460",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TSC1/TSC2 inactivation inhibits AKT through mTORC1-dependent up-regulation of STAT3-PTEN cascade.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22055460",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Mechanistically, mTORC1 signaling was activated by excess amino acids, which then positively regulated Notch1 expression through the activation of the signal transducer and activator of transcription 3 (STAT3). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24302004",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Suppression of the mTORC1/STAT3/Notch1 pathway by activated AMPK prevents hepatic insulin resistance induced by excess amino acids.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24302004",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we review the connections between mTORC1 and gene transcription by focusing on its impact in regulating the activation of specific transcription factors including including STAT3, SREBPs, PPAR\u03b3, PPAR\u03b1, HIF1\u03b1, YY1\u2013PGC1\u03b1 and TFEB. We also discuss the importance of these transcription factors in mediating the effects of mTORC1 on various cellular processes in physiological and pathological contexts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23641065",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

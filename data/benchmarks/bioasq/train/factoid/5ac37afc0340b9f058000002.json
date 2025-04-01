@@ -1,0 +1,49 @@
+{
+  "id": "5ac37afc0340b9f058000002",
+  "type": "factoid",
+  "question": "What type of sequences do enhancers evolve from?",
+  "ideal_answer": "Studies have identified enhancers that were pivotal for morphological divergence and highlighted how novel genetic networks shaping form emerged from pre-existing ones.Most of the recently evolved enhancers arise from ancestral dna exaptation , rather than lineage-specific expansions of repeat elements.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24097306",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28527813",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25635462",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21783031",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24218638",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24218631",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24218635"
+  ],
+  "snippets": [
+    {
+      "text": "The sequences of some gene regulatory elements diverge considerably, even between closely related species. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21783031",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The trend is one of high divergence of cis-regulatory elements between species, possibly compensated by extensive creation and loss of regulatory elements and rewiring of their target genes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24218635",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These studies have identified enhancers that were pivotal for morphological divergence and highlighted how novel genetic networks shaping form emerged from pre-existing ones.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28527813",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Most of the recently evolved enhancers arise from ancestral DNA exaptation, rather than lineage-specific expansions of repeat elements.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25635462",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "santomea enhancer activity evolved from a weak ancestral activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24218638",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "exaptation of ancestral DNA"
+}

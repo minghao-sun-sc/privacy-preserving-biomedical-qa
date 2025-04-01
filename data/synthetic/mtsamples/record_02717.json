@@ -1,0 +1,33 @@
+{
+  "document_id": "record_02717",
+  "original_length": 4703,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "S:\n- Right frontal craniotomy with resection of right medial frontal brain tumor.\n- Stereotactic image-guided neuronavigation for resection of tumor.\n- Microdissection and micro-magnification for r...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Right frontal craniotomy with resection of right m...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "document_id": "record_01710",
+  "original_length": 3542,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "well and his brain was allowed to swell. He then underwent mitral valve replacement on 7/11/95 with a St. Judes valve. His post-operative recovery was complicated by pneumonia, pericardial effusion...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Rifampin 600mg, Gentamicin 130mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, PERSON, LOCATION, US_DRIVER_LICENSE"
+      ],
+      "pii_detected": [
+        "URL",
+        "PERSON",
+        "LOCATION",
+        "US_DRIVER_LICENSE"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

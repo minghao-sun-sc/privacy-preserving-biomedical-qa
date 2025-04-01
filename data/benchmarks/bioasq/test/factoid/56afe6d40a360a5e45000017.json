@@ -1,0 +1,43 @@
+{
+  "id": "56afe6d40a360a5e45000017",
+  "type": "factoid",
+  "question": "Which tool is used for promoterome mining using CAGE data?",
+  "ideal_answer": "Despite their high resolution and functional significance, published CAGE data are still underused in promoter analysis due to the absence of tools that enable its efficient manipulation and integration with other genome data types. CAGEr is an R implementation of novel methods for the analysis of differential TSS usage and promoter dynamics, integrated with CAGE data processing and promoterome mining into a first comprehensive CAGE toolbox on a common analysis platform.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25653163"
+  ],
+  "snippets": [
+    {
+      "text": "CAGEr: precise TSS data retrieval and high-resolution promoterome mining for integrative analyses.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25653163",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " Despite their high resolution and functional significance, published CAGE data are still underused in promoter analysis due to the absence of tools that enable its efficient manipulation and integration with other genome data types. Here we present CAGEr, an R implementation of novel methods for the analysis of differential TSS usage and promoter dynamics, integrated with CAGE data processing and promoterome mining into a first comprehensive CAGE toolbox on a common analysis platform. Crucially, we provide collections of TSSs derived from most published CAGE datasets, as well as direct access to FANTOM5 resource of TSSs for numerous human and mouse cell/tissue types from within R, greatly increasing the accessibility of precise context-specific TSS data for integrative analyses. The CAGEr package is freely available from Bioconductor at http://www.bioconductor.org/packages/release/bioc/html/CAGEr.html.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25653163",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we present CAGEr, an R implementation of novel methods for the analysis of differential TSS usage and promoter dynamics, integrated with CAGE data processing and promoterome mining into a first comprehensive CAGE toolbox on a common analysis platform",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25653163",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CAGEr: precise TSS data retrieval and high-resolution promoterome mining for integrative analyses",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25653163",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Despite their high resolution and functional significance, published CAGE data are still underused in promoter analysis due to the absence of tools that enable its efficient manipulation and integration with other genome data types. Here we present CAGEr, an R implementation of novel methods for the analysis of differential TSS usage and promoter dynamics, integrated with CAGE data processing and promoterome mining into a first comprehensive CAGE toolbox on a common analysis platform.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25653163",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CAGEr"
+}

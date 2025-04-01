@@ -1,0 +1,31 @@
+{
+  "id": "5c641c60e842deac67000013",
+  "type": "list",
+  "question": "Which databases can exchange data using Matchmaker Exchange's API?",
+  "ideal_answer": "Matchmaker Exchange (MME) was created to establish a federated network connecting databases of genomic and phenotypic data using a common application programming interface (API). To date, seven databases can exchange data using the API: GeneMatcher, PhenomeCentral, DECIPHER, MyGene2, matchbox, Australian Genomics Health Alliance Patient Archive, and Monarch Initiative; the latter included for model organism matching.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29044468"
+  ],
+  "snippets": [
+    {
+      "text": "To facilitate such communication and improve the search for patients or model organisms with similar phenotypes and variants in specific candidate genes, we have developed the Matchmaker Exchange (MME). MME was created to establish a federated network connecting databases of genomic and phenotypic data using a common application programming interface (API). To date, seven databases can exchange data using the API (GeneMatcher, PhenomeCentral, DECIPHER, MyGene2, matchbox, Australian Genomics Health Alliance Patient Archive, and Monarch Initiative; the latter included for model organism matching).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29044468",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To date, seven databases can exchange data using the API (GeneMatcher, PhenomeCentral, DECIPHER, MyGene2, matchbox, Australian Genomics Health Alliance Patient Archive, and Monarch Initiative; the latter included for model organism matching).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29044468",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To date, seven databases can exchange data using the API (GeneMatcher, PhenomeCentral, DECIPHER, MyGene2, matchbox, Australian Genomics Health Alliance Patient Archive, and Monarch Initiative; the latter included for model organism matching). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29044468",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "GeneMatcher, PhenomeCentral, DECIPHER, MyGene2, matchbox, Australian Genomics Health Alliance Patient Archive, Monarch Initiative"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "63f0494cf36125a426000028",
+  "type": "factoid",
+  "question": "Which viral disease can be treated with EDP-938?",
+  "ideal_answer": "Respiratory Syncytial Virus can be treated with EDP-938.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33720995",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35172056",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36401806"
+  ],
+  "snippets": [
+    {
+      "text": "EDP-938, a Respiratory Syncytial Virus Inhibitor, in a Human Virus Challenge.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35172056",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "EDP-938, a nonfusion replication inhibitor of RSV, acts by modulating the viral nucleoprotein.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35172056",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "EDP-938, a new antiviral with inhibitory activity against the nucleoprotein of the respiratory syncytial virus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36401806",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "EDP-938 has shown high efficacy against RSV. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36401806",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "EDP-938, a novel nucleoprotein inhibitor of respiratory syncytial virus, demonstrates potent antiviral activities in vitro and in a non-human primate model.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33720995",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "EDP-938 is a novel non-fusion replication inhibitor of respiratory syncytial virus (RSV). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33720995",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Respiratory Syncytial Virus"
+}

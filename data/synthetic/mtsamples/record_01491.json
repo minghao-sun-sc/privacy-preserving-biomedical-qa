@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01491",
+  "original_length": 1360,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Single intrauterine pregnancy at 6 weeks 0 days with an estimated date of delivery of 09/28/09.  A live intrauterine pregnancy, however, could not be confirmed, as a sonographic fetal heart rate ...",
+    "Symptoms": "",
+    "Treatment": "Pregnant female with nausea, vomiting, and diarrhea.  OB ultrasound less than 14 weeks, transvaginal. Ultrasound OB - 8",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'OB ultrasound less than 14 weeks, transvaginal...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "621b8dee3a8413c653000042",
+  "type": "yesno",
+  "question": "Is Lysozyme abundant in human tears?",
+  "ideal_answer": "Yes,\nlysozyme is the most prevalent protein in tear fluid.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31839581",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32081946",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32227027",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33964291",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34384745",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34431892"
+  ],
+  "snippets": [
+    {
+      "text": "lysozyme present in the natural tear",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33964291",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lysozyme (Lyz) is a naturally occurring enzyme that operates against Gram-positive bacteria and leads to cell death. This antimicrobial enzyme forms the part of the innate defense system of nearly all animals and exists in their somatic discharges such as milk, tears, saliva and urine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34384745",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "tear lysozyme",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34431892",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "lysozyme in tears, saliva, sweat, and other body fluids, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31839581",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this study we quantify lysozyme, the most prevalent protein in tear fluid, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32227027",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lysozyme (LZM) is a natural anti-bacterial protein that is found in the saliva, tears and milk of all mammals including humans. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32081946",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

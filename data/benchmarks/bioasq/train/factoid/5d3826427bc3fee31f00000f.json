@@ -1,0 +1,55 @@
+{
+  "id": "5d3826427bc3fee31f00000f",
+  "type": "factoid",
+  "question": "What percentage of patients of nasopharyngeal carcinoma (NPC) develop recurrent disease?",
+  "ideal_answer": "1.04% of patients with nasopharyngeal carcinoma develop recurrent disease. The overall recurrence rate is 75%.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30142809",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29290287",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28849027",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28900497",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25265358",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25607111",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21982471"
+  ],
+  "snippets": [
+    {
+      "text": "IMRT group achieved better locoregional control rate, with the 5-year locoregional relapse-free survival (LRRFS) were 84.9% and 87.7% among patients received 2D-RT and IMRT, respectively (P\u202f=\u202f0.050)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29290287",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The patients were divided into the local recurrence (n\u200a=\u200a39), fibrosis (n\u200a=\u200a51), clivus recurrence (n\u200a=\u200a22), and clivus nonrecurrence (n\u200a=\u200a48) groups. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30142809",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Serum was collected from 40\u00a0patients with NPC\u00a0[recurrence\u00a0(n=20) and no recurrence\u00a0(n=20)]. Compared to non\u2011recurrent NPC\u00a0(nrNPC), we found 59\u00a0proteins to be significantly dysregulated in rNPC; most of these have been previously reported to play a role in carcinogenesis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28849027",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "With a median follow up of 49.50 months, the 3- and 5- year LR-free rate were 95.43% and 94.30% respectively; the 3- and 5- year RR-free rate were 95.94% and 95.41% respectively. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28900497",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The overall recurrence rate was 75% in HPV negative patients and 11% in HPV positive ones.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25265358",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Disease recurred in a spared parotid gland in three patients (1.04%).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21982471",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "11-75%"
+}

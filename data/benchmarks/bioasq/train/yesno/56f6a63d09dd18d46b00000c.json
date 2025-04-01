@@ -1,0 +1,40 @@
+{
+  "id": "56f6a63d09dd18d46b00000c",
+  "type": "yesno",
+  "question": "Are cyclophilins proteins that bind to prolines?",
+  "ideal_answer": "Cyclophilins are ubiquitously expressed proteins that bind to prolines.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24831536",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12358793",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25967372",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18823995"
+  ],
+  "snippets": [
+    {
+      "text": "Cyclophilins are ubiquitously expressed proteins that bind to prolines and can catalyse cis/trans isomerization of proline residues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25967372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "a characteristic of the cyclophilin family of proteins that bind prolines and often act as cis-trans peptidyl-prolyl isomerases. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18823995",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The cyclophilins are widely expressed enzymes that catalyze the interconversion of the cis and trans peptide bonds of prolines. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24831536",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " an immunophilin on the isomerization of critical prolines that are found in the tCHT1 sequence.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12358793",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

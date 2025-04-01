@@ -1,0 +1,51 @@
+{
+  "document_id": "record_03060",
+  "original_length": 2789,
+  "synthetic_length": 604,
+  "attributes": {
+    "Diagnosis": "of cirrhosis that they were concerned about in [person] is in doubt.  His LFTs have remained normal and his copper level has been undetectable on his current dose of penicillamine.,I would ap...",
+    "Symptoms": "",
+    "Treatment": "Echocardiogram",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "aspirin 325 mg, penicillamine 250 mg, aspirin 325 mg"
+  },
+  "is_safe": false,
+  "iterations_required": 3,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'His LFTs have remained normal and his copper level...'"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 2,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    }
+  ]
+}

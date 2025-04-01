@@ -1,0 +1,58 @@
+{
+  "id": "532c0ac4d6d3ac6a3400001a",
+  "type": "list",
+  "question": "What are the main benefits of pharmacophore models?",
+  "ideal_answer": "As researchers continue to search for new targets of therapeutic interest, transmembrane and G-protein coupled receptors are of ever-increasing importance. However, crystal structures for these targets may be impossible to resolve, posing great challenges in rational drug design. Structure-based virtual screening is not an option when the active site geometry is unknown, but assaying an entire library for hits is an inefficient and expensive proposition.\nPharmacophore modeling solves this problem by determining the spatial arrangement of chemical features that confer drug activity toward a target receptor. Having established the chemical space occupied by active ligands, pharmacophore modeling software allows researchers to create 3-D structure-activity relationships, screen databases, and generate hits without the benefit of a receptor structure.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24245803",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24212027",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24119198",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24287559",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24112046",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22192589",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24294969",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23662282",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20838973",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24140950"
+  ],
+  "snippets": [
+    {
+      "text": "To discover novel RNAP inhibitors, a pharmacophore based on the alignment of described inhibitors was used for virtual screening. In an optimization process of hit compounds, novel derivatives with improved in vitro potency were discovered. Investigations concerning the molecular mechanism of RNAP inhibition reveal that they prevent the protein-protein interaction (PPI) between \u03c3(70) and the RNAP core enzyme.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24112046",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the primary structural features required for estrogen receptor binding, the phenols, are not required for inhibiting parasitic growth. Significantly, the most active antileishmanial benzothiophenes lack the pharmacophore for estrogen receptor activity and therefore address potential concerns about the undesirable effects of using selective estrogen receptor modulators in women and children with leishmaniasis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24119198",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "series of novel diastereoisomeric \u03c3 ligands 3 was designed, synthesized and pharmacologically evaluated. The highly rigid [4.3.3]propellane scaffold was used to fix the three dimensional orientation of the pharmacophoric moieties required for \u03c3 affinity",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24140950",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This study was performed to identify natural iNOS inhibitors from traditional Chinese herbs through a combination of pharmacophore modeling, molecular docking and virtual screening. First, the pharmacophore models were generated though six known iNOS inhibitors and validated by a test database. The pharmacophore model_017 showed good performance in external validation and was employed to screen Traditional Chinese Medicine Database (Version 2009), which resulting in a hit list of 498 compounds with matching score (QFIT) above 40. Then, the hits were subjected to molecular docking for further refinement. An empirical scoring function was used to evaluate the affinity of the compounds and the target protein. Parts of compounds with high docking scores have been reported to have the related pharmacological activity from the literatures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24212027",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hit compound 8 was identified as an inhibitor of tankyrases through a combination of substructure searching of the Amgen compound collection based on a minimal binding pharmacophore hypothesis and high-throughput screening. Herein we report the structure- and property-based optimization of compound 8 leading to the identification of more potent and selective tankyrase inhibitors 22 and 49 with improved pharmacokinetic properties in rodents, which are well suited as tool compounds for further in vivo validation studies",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24294969",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003198",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008956",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015195",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008961",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008954"
+  ],
+  "exact_answer": "They represent chemical functions valid not only for the existing bounds but also for unknown molecules., Due their simplicity they are proper for large scale virtual screening, They are comprehensive and editable, so by changing chemical feature contains information can be easily trace back."
+}

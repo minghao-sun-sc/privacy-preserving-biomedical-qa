@@ -1,0 +1,68 @@
+{
+  "id": "621b85993a8413c653000041",
+  "type": "list",
+  "question": "List known pseudokinases.",
+  "ideal_answer": "TRIB1\nTRIB2\nTRIB3\nMLKL\nULK4\nHER3\nCASK",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34496019",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34537014",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32730594",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34567510",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34543009",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32397857",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32687661",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34548332"
+  ],
+  "snippets": [
+    {
+      "text": "TRIB3 pseudokinase",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32397857",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " mixed-lineage kinase domain-like pseudokinase (MLKL) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32687661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "pseudokinase Trib1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32730594",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ULK4 pseudokinase",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34537014",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "JAK1 pseudokinase",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34496019",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CASK, led to the classification as a pseudokinase",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34543009",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "HER3 is a unique pseudokinase",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34548332",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "tribbles pseudokinase 2 (TRIB2)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34567510",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "TRIB1, TRIB2, TRIB3, MLKL, ULK4, HER3, CASK"
+}

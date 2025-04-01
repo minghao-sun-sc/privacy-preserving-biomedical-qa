@@ -1,0 +1,39 @@
+{
+  "document_id": "record_02985",
+  "original_length": 1611,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "Pyelonephritis likely secondary to mucous plugging of indwelling Foley in the ileal conduit, hypertension, mild renal insufficiency, and anemia, which has been present chronically over the past yea...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, PHONE_NUMBER, URL, NRP"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "PHONE_NUMBER",
+        "URL",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

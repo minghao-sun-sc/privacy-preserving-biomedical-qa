@@ -1,0 +1,61 @@
+{
+  "id": "5c9789a9ecadf2e73f000024",
+  "type": "factoid",
+  "question": "What cellular process is the gene product of NANOG involved in?",
+  "ideal_answer": "NANOG is a transcription factor and a biomarker of cancer and pluripotent stem cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26339994",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29177763",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29414604",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29243835",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28866747",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29204746",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29486740"
+  ],
+  "snippets": [
+    {
+      "text": "The objective of this study was to explore the prognostic value of cancer stem cell markers, namely CD133, NANOG, and NOTCH1, in early stage oral squamous cell carcinoma (OSCC)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28866747",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " transcription factors (TFs) such as Oct4, Sox2, and Nanog",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29177763",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "expression of breast CSCs markers (CD44, ALDH1A1, Nanog, and Oct4),",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29243835",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "pluripotency markers OCT-4, SOX-2 and NANOG ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29204746",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The obtained induced pluripotent stem cell (iPSC) line showed pluripotency verified by the expression of pluripotency markers, NANOG, SOX2, OCT4,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29414604",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nanog is one of the transcription factors that are essential for stem cellular physiology process.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26339994",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS\nNanog has been recognized as a critical pluripotency gene in stem cell regulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29486740",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "regulation of transcription"
+}

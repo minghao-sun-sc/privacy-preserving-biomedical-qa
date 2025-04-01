@@ -1,0 +1,47 @@
+{
+  "id": "515d7693298dcd4e5100000c",
+  "type": "list",
+  "question": "A common problem in proteomics is the contamination of samples with exogenous proteins (often from other species). These proteins can be found in specific databases. List some contaminants.",
+  "ideal_answer": "Some common contaminants in proteomics are proteases (used for the digestion of the proteins), keratins (usually from the skin),  proteins originated from the serum of the culture media and antibodies if used in the experiment.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12422360",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22954629",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12915006",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12872232",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20641139"
+  ],
+  "snippets": [
+    {
+      "text": "protease autolysis or keratin contaminants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12422360",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Most of the interfering masses originate from trypsin autolysis and human keratins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12872232",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "5-15% FBS. Contamination by bovine proteins is difficult to avoid because of adherence to the plastic vessel and the cultured cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20641139",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The main disadvantage of traditional IP and co-IP is that the conditions used to elute the precipitated antigen also release the antibody thus contaminating the antigen",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12915006",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "MaConDa: a publicly accessible mass spectrometry contaminants database.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22954629",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Proteases, Keratins, Bovine serum proteins, Antibodies"
+}

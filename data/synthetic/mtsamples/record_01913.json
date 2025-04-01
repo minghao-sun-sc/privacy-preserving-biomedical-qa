@@ -1,0 +1,37 @@
+{
+  "document_id": "record_01913",
+  "original_length": 2485,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "The patient is an 1812 g baby boy born by vaginal delivery to a 32-year-old gravida 3, para 2 at 34 weeks of gestation.  Mother had two previous C-sections. [person] Summary",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, IN_PAN",
+        "Data leakage detected: Demographic information leaked: 'al delivery to a 32-year-old gravida 3, '"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "IN_PAN"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

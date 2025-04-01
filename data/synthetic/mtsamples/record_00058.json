@@ -1,0 +1,38 @@
+{
+  "document_id": "record_00058",
+  "original_length": 2813,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Abdominal cramping in the past 2 days.  No more than 1 to 2 of 10 in intensity.,PERFORMANCE STATUS: , Karnofsky score 100.  He continues to work full-time.,NUTRITIONAL STATUS: , Appetite has been...",
+    "Symptoms": "",
+    "Treatment": ", Discussed significance of this in detail with the patient.  He understands the probability that there may be residual cancer although the location is unknown.  For now there is no good evidence t...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON, DATE_TIME, LOCATION, NRP"
+      ],
+      "pii_detected": [
+        "PERSON",
+        "DATE_TIME",
+        "LOCATION",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

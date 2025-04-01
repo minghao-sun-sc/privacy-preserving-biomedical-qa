@@ -1,0 +1,74 @@
+{
+  "id": "52d832dd98d0239505000003",
+  "type": "list",
+  "question": "List phosphorylation consensus motifs for Casein Kinase 1 (CK1)?",
+  "ideal_answer": "The most common consensus motifs for CK1 are: pSer-Xaa-Xaa-Ser, K/R-X-K/R-X-X-S/T, SLS and acidic cluster motifs and SerP/ThrP-Xaa-Xaa-Ser/Thr.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/8055935",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18239272",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15975091",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12925738",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11781102",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14710188",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18799313"
+  ],
+  "snippets": [
+    {
+      "text": "Members of the protein kinase CK1 family usually phosphorylate residues of serine that are close to other phosphoserine in a consensus motif of pS-X-X-S,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18799313",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "a novel consensus phosphorylation motif (K/R-X-K/R-X-X-S/T) for CK1 ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18239272",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CK1 acts as a 'phosphate-directed' kinase whose targeting is primed by a single phosphorylated side chain at position n-3 or n-4 relative to serine/threonine",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15975091",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The protein kinase CK1 phosphorylates serine residues that are located close to another phosphoserine in the consensus pSer-Xaa-Xaa-Ser.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14710188",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The results demonstrate that SLS and acidic cluster motifs are crucial for CK1 recognition. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12925738",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The common features include an SLS motif followed two to five residues downstream by a cluster of acidic residues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12925738",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These data provide the clear-cut demonstration that the consensus sequence with N-terminal prephosphorylated residue(s), SerP/ThrP-Xaa-Xaa-Ser/Thr",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8055935",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D010766",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D047389",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016310",
+    "http://www.uniprot.org/uniprot/KC1A_RAT",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0042327",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D032921",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016384",
+    "http://www.uniprot.org/uniprot/KC1_PLAF7",
+    "http://www.uniprot.org/uniprot/KC1A_CAEEL",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0042325",
+    "http://www.uniprot.org/uniprot/KC1A_HUMAN",
+    "http://www.uniprot.org/uniprot/KC1AL_HUMAN"
+  ],
+  "exact_answer": "pSer-Xaa-Xaa-Ser, K/R-X-K/R-X-X-S/T, SLS and acidic cluster motifs, SerP/ThrP-Xaa-Xaa-Ser/Thr"
+}

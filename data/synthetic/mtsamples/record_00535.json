@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00535",
+  "original_length": 6946,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Left ventricular dysfunction with ejection fraction of 10% to 15%.\n- High complex percutaneous coronary intervention of the left main coronary artery, left anterior descending artery, and diagon...",
+    "Symptoms": "",
+    "Treatment": "\n- Left heart catheterization, left ventriculogram, aortogram, coronary angiogram.\n- PCI of the LAD and left main coronary artery with Impella assist device.,INDICATIONS FOR PROCEDURE: , Unstable a...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Left heart catheterization, left ventriculogram, a...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "document_id": "record_03411",
+  "original_length": 3235,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "ation as to why she had lost all this weight.  She was admitted because of the persistent vomiting, but there was concern about the weight loss.,Physical examination on admission was unremarkable e...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, US_DRIVER_LICENSE, NRP"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "US_DRIVER_LICENSE",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

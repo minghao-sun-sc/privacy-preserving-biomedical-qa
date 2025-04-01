@@ -1,0 +1,37 @@
+{
+  "id": "5e36d924b5b409ea5300000b",
+  "type": "yesno",
+  "question": "Is AND-1/Ctf4 essential for proliferation?",
+  "ideal_answer": "Yes. AND-1 fork protection function prevents fork resection and is essential for proliferation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30082684"
+  ],
+  "snippets": [
+    {
+      "text": "AND-1 fork protection function prevents fork resection and is essential for proliferation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30082684",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "AND-1/Ctf4 bridges the CMG helicase and DNA polymerase alpha, facilitating replication. Using an inducible degron system in avian cells, we find that AND-1 depletion is incompatible with proliferation, owing to cells accumulating in G2 with activated DNA damage checkpoint. Replication without AND-1 causes fork speed slow-down and accumulation of long single-stranded DNA (ssDNA) gaps at the replication fork junction, with these regions being converted to DNA double strand breaks (DSBs) in G2. Strikingly, resected forks and DNA damage accumulation in G2, but not fork slow-down, are reverted by treatment with mirin, an MRE11 nuclease inhibitor. Domain analysis of AND-1 further revealed that the HMG box is important for fast replication but not for proliferation, whereas conversely, the WD40 domain prevents fork resection and subsequent DSB-associated lethality. Thus, our findings uncover a fork protection function of AND-1/Ctf4 manifested via the WD40 domain that is essential for proliferation and averts genome instability.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30082684",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thus , our findings uncover a fork protection function of AND-1/Ctf4 manifested via the WD40 domain that is essential for proliferation and averts genome instability",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30082684",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thus, our findings uncover a fork protection function of AND-1/Ctf4 manifested via the WD40 domain that is essential for proliferation and averts genome instability.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30082684",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

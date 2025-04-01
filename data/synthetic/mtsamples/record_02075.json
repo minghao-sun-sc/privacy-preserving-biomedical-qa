@@ -1,0 +1,37 @@
+{
+  "document_id": "record_02075",
+  "original_length": 4521,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  Synovitis/anterior cruciate ligament tear of the left knee.,HISTORY: , The patient is a 52-year-old male, who was referred to [person], secondary to left knee pain.  The patient states t...",
+    "Symptoms": "",
+    "Treatment": "",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, LOCATION, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "LOCATION",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

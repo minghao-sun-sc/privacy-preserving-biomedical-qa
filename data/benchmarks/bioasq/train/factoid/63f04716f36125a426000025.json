@@ -1,0 +1,32 @@
+{
+  "id": "63f04716f36125a426000025",
+  "type": "factoid",
+  "question": "Donidalorsen was tested for which disease?",
+  "ideal_answer": "Donidalorsen is tested for hereditary angioedema.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/36172291",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35294812"
+  ],
+  "snippets": [
+    {
+      "text": "BACKGROUND: Hereditary angioedema is characterized by recurrent and unpredictable swellings that are disabling and potentially fatal. Selective inhibition of plasma prekallikrein production by antisense oligonucleotide treatment (donidalorsen) may reduce the frequency of attacks and the burden of disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35294812",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: Among patients with hereditary angioedema, donidalorsen treatment resulted in a significantly lower rate of angioedema attacks than placebo in this small, phase 2 trial.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35294812",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Investigational therapies, including the activated factor XII inhibitor garadacimab and an antisense oligonucleotide targeting plasma prekallikrein messenger RNA (donidalorsen), have shown promise as long-term prophylaxis. Given the requirement of lifelong management for HAE, further research is needed to determine how best to individualize optimal treatments for each patient.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36172291",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "hereditary angioedema"
+}

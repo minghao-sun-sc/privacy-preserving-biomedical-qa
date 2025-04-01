@@ -1,0 +1,36 @@
+{
+  "document_id": "record_03076",
+  "original_length": 5122,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "for diabetes, which I believe he should.  This, however, I will leave entirely up to you to decide.  If indeed, he is considered to be a diabetic, a much more aggressive program should be entertain...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "of 136 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

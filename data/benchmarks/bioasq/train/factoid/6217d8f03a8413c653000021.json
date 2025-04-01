@@ -1,0 +1,40 @@
+{
+  "id": "6217d8f03a8413c653000021",
+  "type": "factoid",
+  "question": "What is the main use of ETD fragmentation?",
+  "ideal_answer": "Electron-based fragmentation methods have revolutionized biomolecular mass spectrometry, in particular native and top-down protein analysis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34788003",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33068214",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31999103",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32070774"
+  ],
+  "snippets": [
+    {
+      "text": "Electron transfer dissociation (ETD) is an analytically useful tool for primary structure interrogation of intact proteins, but its utility is limited by higher-order reactions with the products. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34788003",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Electron-based fragmentation methods have revolutionized biomolecular mass spectrometry, in particular native and top-down protein analysis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31999103",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "nalyzed with less conventional mass spectrometry, i.e. using Electron Transfer Dissociation (ETD) for analyte fragmentation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32070774",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using a longer than normal electron transfer dissociation (ETD) reaction time, we obtained enhanced coverage of peptide bonds that facilitated the localization of O-glycosites",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33068214",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Analysis of intact proteins"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "58a1c0f178275d0c4a000056",
+  "type": "factoid",
+  "question": "When did the polio vaccine becomes available?",
+  "ideal_answer": "Inactivated poliovirus vaccine (IPV), developed in the USA by Jonas Salk in the early 1950s, was field tested in 1954,",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12931339",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14997988",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11326104"
+  ],
+  "snippets": [
+    {
+      "text": "Inactivated poliovirus vaccine (IPV), developed in the USA by Jonas Salk in the early 1950s, was field tested in 1954,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14997988",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the use of an oral polio vaccine (OPV) during a vaccination campaign launched by the Wistar Institute, Philadelphia, PA, USA, in the Belgian Congo in 1958 and 1959. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11326104",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000071497",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011051",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011052",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011054",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011055",
+    "http://www.disease-ontology.org/api/metadata/DOID:9786",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050513",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050514"
+  ],
+  "exact_answer": "1954"
+}

@@ -1,0 +1,35 @@
+{
+  "document_id": "record_00217",
+  "original_length": 2380,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Adenotonsillar hypertrophy and chronic otitis media.,POSTOPERATIVE DIAGNOSIS:,  Adenotonsillar hypertrophy and chronic otitis media.,PROCEDURE PERFORMED:\n- Tympanostomy and tube pla...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

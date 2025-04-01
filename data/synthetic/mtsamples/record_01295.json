@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01295",
+  "original_length": 1993,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  Upper respiratory infection.,PLAN:,  At this point just treat symptomatically.  I gave him some samples of Levall for the congestion and as an expectorant.  Push fluids and rest.  May use ibupro...",
+    "Symptoms": "",
+    "Treatment": ",  At this point just treat symptomatically.  I gave him some samples of Levall for the congestion and as an expectorant.  Push fluids and rest.  May use ibuprofen or Tylenol for discomfort.",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'I gave him some samples of Levall for the congesti...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

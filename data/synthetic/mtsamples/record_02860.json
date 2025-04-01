@@ -1,0 +1,38 @@
+{
+  "document_id": "record_02860",
+  "original_length": 3943,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "tool, which showed a balance score of 13/16 and a gait score of 11/12 for a total score of 24/28.,ASSESSMENT:,  Ms. ABC has been experiencing difficulty with walking over the past several months.,P...",
+    "Symptoms": "",
+    "Treatment": ", Before we recommend anything more, we would like to get a hold of the notes from Dr. XYZ to try to come up with a concrete plan as to what we can do next for Ms. ABC.  We believe that her walking...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Rhinocort 32 mg, Singulair 10 mg, Xyzal 5 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, DATE_TIME, US_DRIVER_LICENSE, PERSON"
+      ],
+      "pii_detected": [
+        "URL",
+        "DATE_TIME",
+        "US_DRIVER_LICENSE",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

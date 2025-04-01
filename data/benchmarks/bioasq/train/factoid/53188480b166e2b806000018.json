@@ -1,0 +1,40 @@
+{
+  "id": "53188480b166e2b806000018",
+  "type": "factoid",
+  "question": "Which is the cellular target of gefitinib?",
+  "ideal_answer": "The specific cellular target of Gefitinib (Iressa) is the epidermal growth factor receptor (EGFR).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19276163",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18089711",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23255952"
+  ],
+  "snippets": [
+    {
+      "text": "Gefitinib, the specific inhibitor of the epidermal growth factor receptor (EGFR), may cause growth delay in cancer cell lines.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23255952",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Gefitinib (Iressa) is a specific and effective epidermal growth factor receptor inhibitor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19276163",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Gefitinib is a specific inhibitor of the epidermal growth factor receptor (EGFR) that causes growth delay in cancer cell lines and human tumor xenografts expressing high levels of EGFR.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18089711",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D058990",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016503",
+    "http://www.biosemantics.org/jochem#4274201",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011958",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005006",
+    "http://www.uniprot.org/uniprot/EGFR_CHICK"
+  ],
+  "exact_answer": "Epidermal growth factor receptor (EGFR)"
+}

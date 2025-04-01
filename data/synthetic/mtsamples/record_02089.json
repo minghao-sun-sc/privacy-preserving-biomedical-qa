@@ -1,0 +1,36 @@
+{
+  "document_id": "record_02089",
+  "original_length": 3181,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "& PLAN: , This is a pleasant 49-year-old with chronic pain plus lumbar disk replacement with radiculitis and myofascial complaints.  We discussed treatment options at length and he is willing to un...",
+    "Symptoms": "",
+    "Treatment": "al procedures have not been helpful in alleviating his pain.  He has also tried acupuncture, TENS unit, physical therapy, chiropractic treatment and multiple neuropathic medications including Elavi...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Kadian 30 mg, for 150 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, NRP"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

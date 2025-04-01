@@ -1,0 +1,37 @@
+{
+  "id": "5e475d3035b8f0833c000002",
+  "type": "list",
+  "question": "Which factors are included in the the APPEND score?",
+  "ideal_answer": "APPEND score components are anorexia, migratory Pain, local Peritonism, Elevated C-reactive protein, Neutrophilia and male gender (Dude). It is an acute appendicitis clinical prediction rule.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28512853"
+  ],
+  "snippets": [
+    {
+      "text": "Derivation and validation of the APPEND score: an acute appendicitis clinical prediction rule.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28512853",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "RESULTS: The final components of the new CPR, the APPEND score, were Anorexia, migratory Pain, local Peritonism, Elevated C-reactive protein, Neutrophilia and male gender (Dude). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28512853",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS\nThe final components of the new CPR, the APPEND score, were Anorexia, migratory Pain, local Peritonism, Elevated C-reactive protein, Neutrophilia and male gender (Dude).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28512853",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS: The final components of the new CPR, the APPEND score, were Anorexia, migratory Pain, local Peritonism, Elevated C-reactive protein, Neutrophilia and male gender (Dude).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28512853",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "anorexia, migratory Pain, local Peritonism, Elevated C-reactive protein, Neutrophilia, male gender"
+}

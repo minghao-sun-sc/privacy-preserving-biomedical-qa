@@ -1,0 +1,19 @@
+{
+  "id": "5e7f5a18835f4e4777000013",
+  "type": "list",
+  "question": "List the vaccine strains contained in Fluvirin.",
+  "ideal_answer": "Fluvirin contains 18 mg of haemagglutinin per H1N1 vaccine strain, 17 mg of haemagglutinin per H3N2 vaccine strain, and 15 mg of haemagglutinin per B vaccine strain.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28666680"
+  ],
+  "snippets": [
+    {
+      "text": "Participants were randomly assigned (1:1:1:1) to four groups and received a single dose of inactivated influenza vaccine (fluvirin: 18 \u03bcg of haemagglutinin per H1N1 vaccine strain, 17 \u03bcg of haemagglutinin per H3N2 vaccine strain, and 15 \u03bcg of haemagglutinin per B vaccine strain) (1) by microneedle patch or (2) by intramuscular injection, or received (3) placebo by microneedle patch, all administered by an unmasked health-care worker; or received a single dose of (4) inactivated influenza vaccine by microneedle patch self-administered by study participants. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28666680",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "H1N1 vaccine strain, H3N2 vaccine strain, B vaccine strain"
+}

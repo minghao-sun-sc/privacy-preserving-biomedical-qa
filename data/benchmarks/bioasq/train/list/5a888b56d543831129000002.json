@@ -1,0 +1,47 @@
+{
+  "id": "5a888b56d543831129000002",
+  "type": "list",
+  "question": "What induces Arabidopsis ROF1 expression?",
+  "ideal_answer": "The abundance of ROF1 increased several-fold under stress conditions such as  wounding, heat stress or exposure to elevated NaCl levels.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23133621",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19366428",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14996219",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17080288",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8914512"
+  ],
+  "snippets": [
+    {
+      "text": "Endogenous ROF1 was shown to accumulate in response to high salt treatment in Arabidopsis thaliana young leaves as well as in seedlings germinated on high salt media (0.15 and 0.2 M NaCl) at both an mRNA and protein level. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23133621",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Arabidopsis ROF1 (AtFKBP62) is a peptidyl prolyl cis/trans isomerase and a member of the FKBP (FK506 binding protein) family. ROF1 expression is induced by heat stress and developmentally regulated.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19366428",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Exposure of plants to low levels of MDA using a recently developed protocol powerfully upregulated many genes on a cDNA microarray with a bias towards those implicated in abiotic/environmental stress (e.g. ROF1 and XERO2).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14996219",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Arabidopsis immunophilins ROF1 (AtFKBP62) and ROF2 (AtFKBP65) exhibit tissue specificity, are heat-stress induced, and bind HSP90.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17080288",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The abundance of ROF1 mRNA increased several-fold under stress conditions such as wounding or exposure to elevated NaCl levels.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8914512",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Wounding, Elevated NaCl levels, Heat"
+}

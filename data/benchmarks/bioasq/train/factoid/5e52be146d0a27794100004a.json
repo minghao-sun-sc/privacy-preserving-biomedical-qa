@@ -1,0 +1,55 @@
+{
+  "id": "5e52be146d0a27794100004a",
+  "type": "factoid",
+  "question": "Which type of distance is used in the R-package XenofilteR?",
+  "ideal_answer": "The R-package XenofilteR separates mouse from human sequence reads based on the edit-distance between a sequence read and reference genome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30286710"
+  ],
+  "snippets": [
+    {
+      "text": "XenofilteR: computational deconvolution of mouse and human reads in tumor xenograft sequence data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30286710",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Mouse xenografts from (patient-derived) tumors (PDX) or tumor cell lines are widely used as models to study various biological and preclinical aspects of cancer. However, analyses of their RNA and DNA profiles are challenging, because they comprise reads not only from the grafted human cancer but also from the murine host. The reads of murine origin result in false positives in mutation analysis of DNA samples and obscure gene expression levels when sequencing RNA. However, currently available algorithms are limited and improvements in accuracy and ease of use are necessary.RESULTS: We developed the R-package XenofilteR, which separates mouse from human sequence reads based on the edit-distance between a sequence read and reference genome. To assess the accuracy of XenofilteR, we generated sequence data by in silico mixing of mouse and human DNA sequence data. These analyses revealed that XenofilteR removes >\u200999.9% of sequence reads of mouse origin while retaining human sequences. This allowed for mutation analysis of xenograft samples with accurate variant allele frequencies, and retrieved all non-synonymous somatic tumor mutations.CONCLUSIONS: XenofilteR accurately dissects RNA and DNA sequences from mouse and human origin, thereby outperforming currently available tools. XenofilteR is open source and available at https://github.com/PeeperLab/XenofilteR .",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30286710",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS\n\nWe developed the R-package XenofilteR, which separates mouse from human sequence reads based on the edit-distance between a sequence read and reference genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30286710",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS We developed the R-package XenofilteR, which separates mouse from human sequence reads based on the edit-distance between a sequence read and reference genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30286710",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS\nWe developed the R-package XenofilteR, which separates mouse from human sequence reads based on the edit-distance between a sequence read and reference genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30286710",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS: We developed the R-package XenofilteR, which separates mouse from human sequence reads based on the edit-distance between a sequence read and reference genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30286710",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We developed the R-package XenofilteR, which separates mouse from human sequence reads based on the edit-distance between a sequence read and reference genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30286710",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Edit-distance"
+}

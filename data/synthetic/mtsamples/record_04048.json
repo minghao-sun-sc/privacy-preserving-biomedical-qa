@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04048",
+  "original_length": 2850,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Carious teeth and periodontal disease affecting all remaining teeth.,POSTOPERATIVE DIAGNOSIS: , Carious teeth and periodontal disease affecting all remaining teeth and partial bony ...",
+    "Symptoms": "",
+    "Treatment": "",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

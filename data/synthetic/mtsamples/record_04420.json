@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04420",
+  "original_length": 3049,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  [person] joint sprain.,PLAN:,  I have spoken to XYZ about this. Continue with ice and boot for weightbearing activities. We will start him on a functional rehab program and progress him back...",
+    "Symptoms": "",
+    "Treatment": ",  I have spoken to XYZ about this. Continue with ice and boot for weightbearing activities. We will start him on a functional rehab program and progress him back to activities when his symptoms al...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Continue with ice and boot for weightbearing activ...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

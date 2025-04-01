@@ -1,0 +1,82 @@
+{
+  "id": "5fdb41c5a43ad3127800001e",
+  "type": "factoid",
+  "question": "What is FeatureCounts used for?",
+  "ideal_answer": "featureCounts is a general purpose program for assigning sequence reads to genomic features. It is a read summarization program suitable for counting reads generated from either RNA or genomic DNA sequencing experiments.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24227677",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28096075",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28915787",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30379987"
+  ],
+  "snippets": [
+    {
+      "text": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24227677",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present featureCounts, a read summarization program suitable for counting reads generated from either RNA or genomic DNA sequencing experiments",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24227677",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mmquant is a drop-in replacement of the widely used tools htseq-count and featureCounts that handles multi-mapping reads in an unabiased way.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28915787",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We also show the correlation for raw read counts reported by TPMCalculator, HTSeq and featureCounts",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30379987",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "It features six independent core-workflows comprising the state-of-the-art technology with dozens of popular cutting-edge tools such as Tophat-Cufflink-Cuffdiff, Subread-featureCounts-DESeq2, STAR-RSEM-EBSeq, Bowtie-eXpress-edgeR, kallisto-sleuth, HISAT-StringTie-Ballgown, and embeds itself in Snakemake, which is a modern pipeline management system.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28096075",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SULTS: We present featureCounts, a read summarization program suitable for counting reads generated from either RNA or genomic DNA sequencing experiments. f",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24227677",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "e present featureCounts, a read summarization program suitable for counting reads generated from either RNA or genomic DNA sequencing experiments. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24227677",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "t is considerably faster than existing methods (by an order of magnitude for gene-level summarization) and requires far less computer memory. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24227677",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Read summarization is required for a great variety of genomic analyses but has so far received relatively little attention in the literature.R",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24227677",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The process of counting reads is called read summarization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24227677",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "marization. Read summarization is required for a great variety of genomic analyses but has so far received relatively little attention in the literature.RESULTS: We present featureCounts, a read summarization program suitable for counting reads generated from either RNA or genomic DNA se",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24227677",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "assigning sequence reads to genomic features"
+}

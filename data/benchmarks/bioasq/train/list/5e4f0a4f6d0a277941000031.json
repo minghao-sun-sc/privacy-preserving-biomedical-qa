@@ -1,0 +1,33 @@
+{
+  "id": "5e4f0a4f6d0a277941000031",
+  "type": "list",
+  "question": "List the 5 different human immunoglobulin heavy chains.",
+  "ideal_answer": "The 5 human immunoglobulin heavy chains are Alpha, Delta Epsilon, Gamma and Mu",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16148123",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23105292",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23105285"
+  ],
+  "snippets": [
+    {
+      "text": ". Despite this, Ag-specific single H chain Ig repertoires, using mu-, gamma-, epsilon-, or alpha-H chain",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16148123",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "he neoplastic proliferation of single clones of plasma cells causes synthesis of very large amount of monoclonal immunoglobulins consisting of only one type of heavy either the gamma, alpha, mu, delta or epsilon chain ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23105285",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "using heavy chain specific gamma, alpha, mu, delta and epsilon",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23105292",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "alpha, delta, epsilon, gamma, mu"
+}

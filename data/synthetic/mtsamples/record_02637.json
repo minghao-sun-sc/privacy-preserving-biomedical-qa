@@ -1,0 +1,33 @@
+{
+  "document_id": "record_02637",
+  "original_length": 2258,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "S PERFORMED:\n- Hysteroscopy.\n- Dilatation and curettage (D&C).\n- Myomectomy.,COMPLICATIONS: , Large endometrial cavity fibroid requiring careful dissection and excision.,BLOOD TRANSFUSIONS: , Two u...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',COMPLICATIONS: , Large endometrial cavity fibroid...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

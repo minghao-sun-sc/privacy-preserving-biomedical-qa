@@ -1,0 +1,19 @@
+{
+  "id": "643305b257b1c7a315000025",
+  "type": "factoid",
+  "question": "Which company produces Ruconest?",
+  "ideal_answer": "Ruconest is produced by the company Pharming.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21426252"
+  ],
+  "snippets": [
+    {
+      "text": "Recombinant human C1 esterase inhibitor (rhC1INH) (Ruconest(\u00ae), Pharming) is a new drug developed for the relief of symptoms occurring in patients with angioedema due to C1-inhibitor deficiency.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21426252",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Pharming"
+}

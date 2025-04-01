@@ -1,0 +1,73 @@
+{
+  "id": "5d386fbfa1e1595105000005",
+  "type": "factoid",
+  "question": "Which is the target of belimumab in Systemic Lupus Erythematosus treatment?",
+  "ideal_answer": "Belimumab is a fully human monoclonal antibody directed against BAFF.  Belimumab, a human monoclonal antibody specific for soluble BLyS, was ultimately approved by the United States Food and Drug Administration (FDA) in March 2011 for active autoantibody patients with systemic lupus erythematosus (SLE) despite standard therapy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25543845",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27587201",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23568179",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23251765",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23553779",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21081710",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29572471"
+  ],
+  "snippets": [
+    {
+      "text": "Belimumab: a BLyS-specific inhibitor for systemic lupus erythematosus",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21081710",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "To review the efficacy, safety, dosing, drug interactions, as well as economic and therapeutic considerations of belimumab, an investigational B-lymphocyte stimulator (BLyS) inhibitor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21081710",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Belimumab, an anti-BAFF monoclonal antibody",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29572471",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here our crystal structure of the BAFF-belimumab Fab complex shows the precise epitope and the BAFF-neutralizing mechanism of belimumab, and demonstrates that the therapeutic activity of belimumab involves not only antagonizing the BAFF-receptor interaction, but also disrupting the formation of the more active BAFF 60-mer to favor the induction of the less active BAFF trimer through interaction with the flap region of BAFF",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29572471",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In recent years, a member of the tumor necrosis factor (TNF) family, soluble human B Lymphocyte Stimulator protein (BLyS), also referred to as B-cell activating factor (BAFF) and TNFSF13B has been studied extensively. This protein is synthesized by myeloid cell lines, specifically interacts with B lymphocytes and increases their life-span",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27587201",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Belimumab, a fully human monoclonal antibody against B lymphocyte stimulator (BLyS), a B-cell survival factor, was licensed in 2011 for the treatment of autoantibody-positive SLE",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25543845",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Belimumab is a fully human monoclonal antibody directed against BAFF. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23568179",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Belimumab, a human monoclonal antibody specific for soluble BLyS, was ultimately approved by the United States Food and Drug Administration (FDA) in March 2011 for active autoantibody patients with systemic lupus erythematosus (SLE) despite standard therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23553779",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Targeted therapy with belimumab, the monoclonal antibody against BLyS, has shown clinical benefit in two large-scale, multicenter phase III trials leading to US Food and Drug Administration approval for patients with serologically positive SLE who have active disease despite standard therapy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23251765",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "B-cell activating factor, BAFF, BLyS (B-lymphocyte stimulator)"
+}

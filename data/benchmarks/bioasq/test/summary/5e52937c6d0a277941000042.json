@@ -1,0 +1,48 @@
+{
+  "id": "5e52937c6d0a277941000042",
+  "type": "summary",
+  "question": "Describe f-scLVM",
+  "ideal_answer": "Single-cell RNA-sequencing (scRNA-seq) allows studying heterogeneity in gene expression in large cell populations. Such heterogeneity can arise due to technical or biological factors, making decomposing sources of variation difficult. F-scLVM (factorial single-cell latent variable model) is a method based on factor analysis that uses pathway annotations to guide the inference of interpretable factors underpinning the heterogeneity. The model jointly estimates the relevance of individual factors, refines gene set annotations, and infers factors without annotation. F-scLVM robustly decomposes scRNA-seq datasets into interpretable components, thereby facilitating the identification of novel subpopulations.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29115968"
+  ],
+  "snippets": [
+    {
+      "text": "f-scLVM: scalable and versatile factor analysis for single-cell RNA-seq.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29115968",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Single-cell RNA-sequencing (scRNA-seq) allows studying heterogeneity in gene expression in large cell populations. Such heterogeneity can arise due to technical or biological factors, making decomposing sources of variation difficult. We here describe f-scLVM (factorial single-cell latent variable model), a method based on factor analysis that uses pathway annotations to guide the inference of interpretable factors underpinning the heterogeneity. Our model jointly estimates the relevance of individual factors, refines gene set annotations, and infers factors without annotation. In applications to multiple scRNA-seq datasets, we find that f-scLVM robustly decomposes scRNA-seq datasets into interpretable components, thereby facilitating the identification of novel subpopulations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29115968",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We here describe f-scLVM (factorial single-cell latent variable model), a method based on factor analysis that uses pathway annotations to guide the inference of interpretable factors underpinning the heterogeneity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29115968",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We here describe f-scLVM ( factorial single-cell latent variable model) , a method based on factor analysis that uses pathway annotations to guide the inference of interpretable factors underpinning the heterogeneity",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29115968",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "f-scLVM: scalable and versatile factor analysis for single-cell RNA-seq",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29115968",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We here describe f-scLVM (factorial single-cell latent variable model), a method based on factor analysis that uses pathway annotations to guide the inference of interpretable factors underpinning the heterogeneity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29115968",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

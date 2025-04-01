@@ -1,0 +1,40 @@
+{
+  "id": "5e8101e3835f4e477700002e",
+  "type": "yesno",
+  "question": "Is cathepsin L active in endosomes?",
+  "ideal_answer": "yes,\nCathepsin L is found in the Late Endosome/Lysosome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26343556",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22238299",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26953343",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27733646"
+  ],
+  "snippets": [
+    {
+      "text": "Cathepsin L in the Late Endosome/Lysosome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26953343",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "endosomal cathepsin L",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27733646",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Immunofluorescence and immunoblotting investigations revealed the presence of cathepsin L in the nuclear compartment in addition to its expected endo-lysosomal localization in colorectal carcinoma cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26343556",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "cleavage by the endosomal/lysosomal protease cathepsin L",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22238299",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

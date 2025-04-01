@@ -1,0 +1,116 @@
+{
+  "id": "531d6bfc267d7dd053000007",
+  "type": "list",
+  "question": "How is active neurotoxin of Clostridium botulinum detected?",
+  "ideal_answer": "Active neurotoxin of Clostridium botulinum can be detected by:\nmouse lethality assay\nby mass spectrometry\nbioassay\ndifferentiated cell models\npeptide cleavage assay\nFDC (functional dual coating) microtitre plate immuno-biochemical assay\nendopeptidase activity monitored via UV-Visible spectroscopy",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23925142",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22223483",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18571757",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7989542",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23518650",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16318699",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23181535",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23239357",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16614251"
+  ],
+  "snippets": [
+    {
+      "text": "The neurotoxin detection is based on the mouse lethality assay. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16614251",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "which could be shown by bioassay to produce biologically active type B toxin in culture.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7989542",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Human induced pluripotent stem cells (hiPSC) hold great promise for providing various differentiated cell models for in vitro toxigenicity testing. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22223483",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A direct comparison of BoNT detection using primary rat spinal cord cells and hiPSC-derived neurons showed equal or increased sensitivity",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22223483",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BoNT/A intoxication studies demonstrate that the hiPSC-derived neurons reproducibly and quantitatively detect biologically active BoNT/A with high sensitivity (EC(50) \u223c0.3 U).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22223483",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " these data suggest that neurons derived from hiPSCs provide an ideal and highly sensitive platform for BoNT potency determination, neutralizing antibody detection and for mechanistic studies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22223483",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Detection of botulinum neurotoxin-A activity in food by peptide cleavage assay.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18571757",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "his study reports the successful use of an enzymatic assay employing an internally quenched fluorogenic peptide as a fast, simple and inexpensive alternative to the mouse bioassay. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18571757",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BoNT endopeptidase assays",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23181535",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "in vivo mouse bioassay has for years been the 'gold standard' assay used for this purpose",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23239357",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cell-based assays are currently the only in vitro alternative that detect fully functional BoNTs in a single assay and have been utilized for years for research purposes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23239357",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mouse bioassay (MBA) is traditionally used to confirm the presence of toxin in serum or food",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23518650",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A novel FDC (functional dual coating) microtitre plate immuno-biochemical assay,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23518650",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This report demonstrates a novel assay that utilises the endopeptidase activity of the toxin to detect Botulinum neurotoxin in a pharmaceutical sample. The cleaving of SNAP-25 is monitored via UV-Visible spectroscopy with a limit of detection of 373 fg/mL and has been further developed into a high throughput method using a microplate reader detecting down to 600 fg/mL of active toxin. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23925142",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009498",
+    "http://www.disease-ontology.org/api/metadata/DOID:11976",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0014865",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003013",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D042241",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D010061",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003014",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001905",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019274",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0009405"
+  ],
+  "exact_answer": "mouse lethality assay, by mass spectrometry, bioassay, differentiated cell models, peptide cleavage assay, FDC (functional dual coating) microtitre plate immuno-biochemical assay, endopeptidase activity monitored via UV-Visible spectroscopy"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "63eef4f5f36125a42600000b",
+  "type": "factoid",
+  "question": "What disease is treated with Ublituximab?",
+  "ideal_answer": "Ublituximab is being tested for multiple sclerosis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35779372",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35570581",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35869335",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36001711",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35378683"
+  ],
+  "snippets": [
+    {
+      "text": "Outcomes of Ublituximab compared to Teriflunomide for relapsing multiple sclerosis: A meta-analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35779372",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Ublituximab is an anti-CD20 antibody that immunomodulates B-cells for relapsing multiple sclerosis (MS).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35779372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " In the second part of the review, we summarize medications that have targeted B cells in patients with MS and their current position in the therapeutic armamentarium based on clinical trials and real-world data. Covered therapeutic strategies include the targeting of surface molecules such as CD20 (rituximab, ocrelizumab, ofatumumab, ublituximab) and CD19 (inebilizumab), and molecules necessary for B-cell activation such as B cell activating factor (BAFF) (belimumab) and Bruton's Tyrosine Kinase (BTK) (evobrutinib).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35570581",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ublituximab versus Teriflunomide in Relapsing Multiple Sclerosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36001711",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Ublituximab is being evaluated for the treatment of relapsing multiple sclerosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36001711",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: Among participants with relapsing multiple sclerosis, ublituximab resulted in lower annualized relapse rates and fewer brain lesions on MRI than teriflunomide over a period of 96 weeks but did not result in a significantly lower risk of worsening of disability. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36001711",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The glycoengineered antibody ublituximab is the next anti-CD20 therapy about to be approved. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35869335",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "On the other hand, the anti-CD52 monoclonal antibody alemtuzumab and the anti-CD20 monoclonal antibodies rituximab, ocrelizumab, ofatumumab, and ublituximab work via eliminating selected pathogenic cell populations. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35378683",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "multiple sclerosis"
+}

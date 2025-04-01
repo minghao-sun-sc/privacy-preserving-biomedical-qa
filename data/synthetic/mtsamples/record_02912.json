@@ -1,0 +1,37 @@
+{
+  "document_id": "record_02912",
+  "original_length": 3617,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "tar was flexor; and Left plantar was equivocal.,COURSE:, CBC revealed normal Hgb, Hct, Plt and WBC, but Mean corpuscular volume was large at 103FL (normal 82-98). Urinalysis revealed 20+WBC. GS, TS...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Thiamine 100mg, Folate 1mg, ASA 325mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, NRP",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',COURSE:, CBC revealed normal Hgb, Hct, Plt and WB...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

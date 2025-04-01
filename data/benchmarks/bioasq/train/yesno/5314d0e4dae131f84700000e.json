@@ -1,0 +1,72 @@
+{
+  "id": "5314d0e4dae131f84700000e",
+  "type": "yesno",
+  "question": "Can administration of the thyrotropin releasing hormone reduce fatigue in cancer patients?",
+  "ideal_answer": "yes, in cancer patients, thyrotropin releasing hormone (TRH) administration was associated with significant improvement in cancer related fatigue levels as measured by the Visual Analog Scale-Energy, fatigue and vigor subscales of the POMS, and the fatigue subscale of FACIT-F. TRH administration was safe and tolerable in the treatment of cancer-related with a positive impact on quality of life, suggesting the need for further studies investigating TRH for treatment of fatigue in cancer patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21947558",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23387883",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19761698"
+  ],
+  "snippets": [
+    {
+      "text": "TRH administration was associated with significant improvement (p < 0.05) in fatigue levels as measured by the Visual Analog Scale-Energy (VAS-E), was associated with significant (p < 0.05) improvement in sleep disturbances and improved quality of life. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23387883",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This decrease in CRP level with TRH administration was associated with improvement in energy levels as measured by the VAS-E. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23387883",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the present pilot, randomized, placebo-controlled, crossover study, we investigated the efficacy and safety of TRH as a treatment for CF.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21947558",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TRH administration was associated with significant improvement in fatigue level as measured by the VAS-E, the fatigue and vigor subscales of the POMS, and the fatigue subscale of FACIT-F (p < 0.05). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21947558",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TRH administration was efficacious, safe, and tolerable in the treatment of CF with a positive impact on quality of life. These results provide a crucial impetus for pursuing TRH therapeutics to treat CF.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21947558",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thyrotropin-releasing hormone can relieve cancer-related fatigue: hypothesis and preliminary observations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19761698",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Global assessment using both subjective and objective parameters showed that TRH exerted clear anti-fatigue effects in four of the six TRH treatments. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19761698",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These initial findings support the proposal that TRH can ameliorate cancer-related fatigue.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19761698",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/TRH_NOTVI",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013973",
+    "http://www.uniprot.org/uniprot/TRHA_XENLA",
+    "http://www.uniprot.org/uniprot/TRH_BOMOR",
+    "http://www.disease-ontology.org/api/metadata/DOID:162",
+    "http://www.uniprot.org/uniprot/TRH_PIG",
+    "http://www.uniprot.org/uniprot/TRH_SHEEP",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005221"
+  ],
+  "exact_answer": "Yes"
+}

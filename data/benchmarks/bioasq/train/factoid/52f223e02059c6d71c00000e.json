@@ -1,0 +1,84 @@
+{
+  "id": "52f223e02059c6d71c00000e",
+  "type": "factoid",
+  "question": "Which is the genetic defect causing Neurofibromatosis type 1?",
+  "ideal_answer": "Neurofibromatosis type 1 (NF1) is due to all types of mutations in the neurofibromin (NF1) gene.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16835897",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16323217",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21567923",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14722917",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2129297"
+  ],
+  "snippets": [
+    {
+      "text": "Neurofibromatosis type 1 and Noonan syndrome are both common genetic disorders with autosomal dominant inheritance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21567923",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Molecular analysis showed a missense mutation in exon 25 of the NF1 gene (4288A>G, p.N1430D)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21567923",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Identification of forty-five novel and twenty-three known NF1 mutations in Chinese patients with neurofibromatosis type 1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16835897",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Neurofibromatosis type 1 (NF1), characterized by skin neurofibromas and an excess of caf\u00e9-au-lait spots, is due to mutations in the neurofibromin (NF1) gene. Identifying the genetic defect in individuals with the disease represents a significant challenge because the gene is extremely large with a high incidence of sporadic mutations across the entire gene ranging from single nucleotide substitutes to large deletions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16835897",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Fifty-eight were initially identified using heteroduplex analytical techniques and confirmed by sequence analysis. A further five were identified by direct sequence analysis alone. The reminders were shown to carry large deletions in the NF1 gene by demonstrating loss of heterozygosity that was confirmed by gene dosage measurements using quantitative-PCR techniques. Mis-sense, non-sense, frame-shift or splice-site mutations were identified across the entire gene of which the majority (45/68) were novel in nature.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16835897",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Neurofibromatosis type 1 (NF1) is a common tumor predisposition syndrome affecting approximately 1 in 4,000 persons. It is an autosomal-dominant disorder with half of the cases resulting from spontaneous mutations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16323217",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Characterization of the somatic mutational spectrum of the neurofibromatosis type 1 (NF1) gene in neurofibromatosis patients with benign and malignant tumors",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14722917",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Ninety-one tumors from 31 NF1 patients were screened for gross changes in the NF1 gene using microsatellite/restriction fragment length polymorphism (RFLP) markers; loss of heterozygosity (LOH) was found in 17 out of 91 (19%) tumors (including two out of seven MPNSTs). Denaturing high performance liquid chromatography (DHPLC) was then used to screen 43 LOH-negative and 10 LOH-positive tumors for NF1 microlesions at both RNA and DNA levels. Thirteen germline and 12 somatic mutations were identified, of which three germline (IVS7-2A>G, 3731delT, 6117delG) and eight somatic (1888delG, 4374-4375delCC, R2129S, 2088delG, 2341del18, IVS27b-5C>T, 4083insT, Q519P) were novel. A mosaic mutation (R2429X) was also identified in a neurofibroma by DHPLC analysis and cloning/sequencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14722917",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The region of DNA located between two translocation breakpoints has been cloned and a DNA sequence encoding a 11-13 kb mRNA identified. That this sequence shows deletions and point mutations in NF1 affected individuals and not in normal controls provides strong evidence that it is indeed the NF1 gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2129297",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D025542",
+    "http://www.uniprot.org/uniprot/NF1_RAT",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050325",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016514",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009456",
+    "http://www.uniprot.org/uniprot/NF1_HUMAN",
+    "http://www.uniprot.org/uniprot/NF1_CHICK",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020022",
+    "http://www.disease-ontology.org/api/metadata/DOID:8712",
+    "http://www.uniprot.org/uniprot/NF1_MOUSE",
+    "http://www.disease-ontology.org/api/metadata/DOID:630",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005820"
+  ],
+  "exact_answer": "Mutation in NF1 gene."
+}

@@ -1,0 +1,39 @@
+{
+  "document_id": "record_04805",
+  "original_length": 2816,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": ".  The patient has had a complicated postoperative course with rapid atrial fibrillation, pleural effusions, anemia and thrombocytopenia.  He is currently stabilized and improving in strength.  He ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "XL 25 mg, Simvastatin 80 mg, Aspirin 81 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: US_DRIVER_LICENSE, DATE_TIME, PERSON, URL, LOCATION"
+      ],
+      "pii_detected": [
+        "US_DRIVER_LICENSE",
+        "DATE_TIME",
+        "PERSON",
+        "URL",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

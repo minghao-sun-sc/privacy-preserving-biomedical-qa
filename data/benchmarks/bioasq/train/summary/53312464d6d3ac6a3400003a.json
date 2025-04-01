@@ -1,0 +1,37 @@
+{
+  "id": "53312464d6d3ac6a3400003a",
+  "type": "summary",
+  "question": "What is the extracellular core \"matrisome\"?",
+  "ideal_answer": "The \"matrisome\" is defined as the ensemble of extracellular matrix proteins (ECM) proteins and associated factors. The core matrisome have been defined in mammals through the analysis of whole genome sequences and comprises of ~ 300 proteins.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23539364",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21937732",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22159717"
+  ],
+  "snippets": [
+    {
+      "text": "Over 300 ECM molecules have been defined as comprising the \"core matrisome\" in mammals through the analysis of whole genome sequences. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23539364",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Completion of genome sequences for many organisms allows a reasonably complete definition of the complement of extracellular matrix (ECM) proteins. In mammals this \"core matrisome\" comprises \u223c300 proteins. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21937732",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we have developed a bioinformatic approach to predict the in silico \"matrisome\" defined as the ensemble of ECM proteins and associated factors. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22159717",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0031012",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005576",
+    "http://www.uniprot.org/uniprot/MATRX_BRSVA",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005109"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "56c865d25795f9a73e000016",
+  "type": "factoid",
+  "question": "Which compound is a specific inhibitor for Nox1 and Nox4?",
+  "ideal_answer": "GKT136901 is a specific inhibitor of Nox1 and Nox4.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25656366",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24511132",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22806357",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21419746",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20558727"
+  ],
+  "snippets": [
+    {
+      "text": "The efficacy of the Nox1/Nox4 inhibitor GKT137831 on the manifestations of DN was studied in OVE26 mice, a model of type 1 diabetes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25656366",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "At both doses, GKT137831 inhibited NADPH oxidase activity, superoxide generation, and hydrogen peroxide production in the renal cortex from diabetic mice without affecting Nox1 or Nox4 protein expression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25656366",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "GKT136901, a specific inhibitor of Nox1- and Nox4-containing NADPH oxidase activity, attenuated ROS generation and atherosclerosis and decreased CD44 and HA expression in atherosclerotic lesions. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20558727",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Basal NAD(P)H oxidase activity was blocked by GKT136901 (Nox1/4 inhibitor) and by Nox1 siRNA in WKY cells and by siNOX1 and siNOX2 in SHR.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21419746",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "GKT136901, a specific inhibitor of Nox1- and Nox4-containing NADPH oxidase activity, attenuated ROS generation and atherosclerosis and decreased CD44 and HA expression in atherosclerotic lesions",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20558727",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Importantly, administration of the most specific Nox1/4 inhibitor, GKT137831, replicated these renoprotective effects of Nox4 deletion",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24511132",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The efficacy of the Nox1/Nox4 inhibitor GKT137831 on the manifestations of DN was studied in OVE26 mice, a model of type 1 diabetes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25656366",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Importantly, administration of the most specific Nox1/4 inhibitor, GKT137831, replicated these renoprotective effects of Nox4 deletion. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24511132",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/NOX4_MOUSE",
+    "http://www.uniprot.org/uniprot/NOX4_RAT",
+    "http://www.uniprot.org/uniprot/NOX4_PONAB",
+    "http://www.uniprot.org/uniprot/NOX1_RAT",
+    "http://www.uniprot.org/uniprot/NOX4_HUMAN",
+    "http://www.uniprot.org/uniprot/NOX1_MOUSE"
+  ],
+  "exact_answer": "GKT136901"
+}

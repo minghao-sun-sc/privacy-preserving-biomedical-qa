@@ -1,0 +1,36 @@
+{
+  "document_id": "record_03435",
+  "original_length": 6591,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", A 21-day-old with:\n- Rule out sepsis.\n- Possible upper respiratory infection.,Given the patient's multiple sick contacts, he is possibly with a viral upper respiratory infection causing his upper...",
+    "Symptoms": "",
+    "Treatment": "s given in the ER.  His urine output has also decreased; normally he has 8 to 10 wet and 5 dirty diapers per 24 hours, now he has down to 4 wet diapers per 24 hours.  Mom denies any diarrhea.  His ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

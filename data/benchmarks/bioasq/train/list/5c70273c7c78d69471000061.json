@@ -1,0 +1,45 @@
+{
+  "id": "5c70273c7c78d69471000061",
+  "type": "list",
+  "question": "Which organs are primarily damaged in SLE?",
+  "ideal_answer": "The patients with SLE are mostly affected by renal, peripheral vascular, musculoskeletal and neurological damage. The skin and heart are also damaged very frequently.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/9458204",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26936891",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23229448"
+  ],
+  "snippets": [
+    {
+      "text": "The patients with SLE and SS had the greatest renal, peripheral vascular, and musculoskeletal damage (24, 19, 38% of patients, respectively) followed by the SLE group",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9458204",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Observations from lupus centres worldwide revealed that the prevalence of damage occurring in the cardiovascular system in patients with SLE has increased over the past four decades.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23229448",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "lupus-related organ damage involving the neuropsychiatric and renal systems also remains a major factor that limits survival improvement in patients with this disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23229448",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This Review discusses the pattern and trend of organ damage in patients with SLE worldwide, the potential serological and genetic mechanisms of organ damage, and the advances in research on potential tools for early detection of lupus-related organ damage, such as functional brain imaging techniques, measurement of endothelial function, identification of biomarkers from body fluids, and development of risk calculation models.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23229448",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Patients with SLE treated with long-term belimumab plus SoC had a low incidence of organ damage accrual and no unexpected AEs. High-risk patients with pre-existing organ damage also had low accrual, suggesting a favorable effect on future damage development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26936891",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "kidney, skin, vascular organs, heart, musculoskeletal organs, brain"
+}

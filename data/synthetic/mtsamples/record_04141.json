@@ -1,0 +1,37 @@
+{
+  "document_id": "record_04141",
+  "original_length": 4260,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Acute renal failure, suspected. Likely due to multi-organ system failure syndrome, with antecedent lisinopril use at home and at time of demise. He also reportedly was on Lasix prior to hospital...",
+    "Symptoms": "",
+    "Treatment": "e. Bowel sounds presently are normal. Abdomen, I believe, is soft on plane, normal bowel sounds, no bruits, no liver edge felt, no HJR, no spleen tip, no suprapubic fullness.,GU: Catheter draining ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, LOCATION, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "LOCATION",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

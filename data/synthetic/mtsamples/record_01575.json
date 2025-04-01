@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01575",
+  "original_length": 1360,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- No abnormal/unexpected foci of contrast enhancement; specifically, no evidence for metastases or masses.  \n- No evidence for acute infarction. \n- Mild, scattered, patchy, chronic small vessel is...",
+    "Symptoms": "",
+    "Treatment": "MRI Head W&WO Contrast. MRI Head",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'No abnormal/unexpected foci of contrast enhancemen...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

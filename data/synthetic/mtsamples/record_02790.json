@@ -1,0 +1,39 @@
+{
+  "document_id": "record_02790",
+  "original_length": 5197,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  A 2-1/2-year-old female with history of febrile seizures, now with concern for spells of unclear etiology, but somewhat concerning for partial complex seizures and to a slightly lesser extent no...",
+    "Symptoms": "",
+    "Treatment": "s.,FAMILY MEDICAL HISTORY: , There is a strong history of epilepsy on the maternal side of family including mom with some nonconvulsive seizure during childhood and additional seizures in maternal ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "at 150 mg, at 20 mg, to 300 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: US_DRIVER_LICENSE, DATE_TIME, PERSON, URL, LOCATION"
+      ],
+      "pii_detected": [
+        "US_DRIVER_LICENSE",
+        "DATE_TIME",
+        "PERSON",
+        "URL",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

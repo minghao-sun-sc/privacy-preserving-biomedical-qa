@@ -1,0 +1,45 @@
+{
+  "id": "5e44c59848dab47f26000021",
+  "type": "yesno",
+  "question": "Should tirilazad be used for treatment of ischemic stroke?",
+  "ideal_answer": "No. Tirilazad should not be used for treatment of stroke because it does not improve disease outcomes, but may increase death and disability.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10978061",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18810661",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11781420"
+  ],
+  "snippets": [
+    {
+      "text": "CONCLUSION: Tirilazad had no effect on clinical outcome but did decrease symptomatic vasospasm in five trials of aneurysmal SAH. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18810661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tirilazad did not significantly decrease unfavorable clinical outcome on the GOS (odds ratio [OR] 1.04, 95% confidence interval [CI] 0.89-1.20) or cerebral infarction (OR 1.04, 95% CI 0.89-1.22). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18810661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The authors investigated whether the lack of effect of tirilazad on clinical outcome in patients with acute ischemic stroke is explained by failure of tirilazad to reduce infarct volume. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11781420",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tirilazad did not alter early case fatality (odds ratio [OR] 1.11, 95% confidence interval [CI] 0.79 to 1.56) or end-of-trial case fatality (OR 1.12, 95% CI 0.88 to 1.44). A just-significant increase in death and disability, assessed as either the expanded Barthel Index (OR 1.23, 95% CI 1.01 to 1.51) or Glasgow Outcome Scale (OR 1. 23, 95% CI 1.01 to 1.50) was observed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10978061",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: Tirilazad mesylate increases death and disability by about one fifth when given to patients with acute ischemic stroke. Although further trials of tirilazad are now unwarranted, analysis of individual patient data from the trials may help elucidate why tirilazad appears to worsen outcome in acute ischemic stroke.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10978061",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

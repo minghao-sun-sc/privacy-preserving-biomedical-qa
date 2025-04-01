@@ -1,0 +1,19 @@
+{
+  "id": "6217dd013a8413c65300002f",
+  "type": "yesno",
+  "question": "Do the proteins Talin and Amot interact?",
+  "ideal_answer": "Yes,\nAmot binds Talin",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34433061"
+  ],
+  "snippets": [
+    {
+      "text": "we show that Amot binds Talin and is essential for relaying forces between fibronectin and the cytoskeleton",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34433061",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

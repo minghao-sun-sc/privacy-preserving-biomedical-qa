@@ -1,0 +1,19 @@
+{
+  "id": "5e2d7ceefbd6abf43b00000b",
+  "type": "yesno",
+  "question": "Is BNN20 involved in Parkinson's disease?",
+  "ideal_answer": "Yes. Neurotrophic factors are among the most promising treatments aiming at slowing or stopping and even reversing Parkinson's disease (PD). BNN-20 has been suggested as an important neuroprotective agent acting through the TrkB neurotrophin receptor pathway, mimicking the action of the endogenous neurotrophin BDNF. Thus BNN-20 could be proposed for treatment of PD.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28461162"
+  ],
+  "snippets": [
+    {
+      "text": "Neurotrophic factors are among the most promising treatments aiming at slowing or stopping and even reversing Parkinson's disease (PD). However, in most cases, they cannot readily cross the human blood-brain-barrier (BBB). Herein, we propose as a therapeutic for PD the small molecule 17-beta-spiro-[5-androsten-17,2'-oxiran]-3beta-ol (BNN-20), a synthetic analogue of DHEA, which crosses the BBB and is deprived of endocrine side-effects. Using the \"weaver\" mouse, a genetic model of PD, which exhibits progressive dopaminergic neurodegeneration in the Substantia Nigra (SN), we have shown that long-term administration (P1-P21) of BNN-20 almost fully protected the dopaminergic neurons and their terminals, via i) a strong anti-apoptotic effect, probably mediated through the Tropomyosin receptor kinase B (TrkB) neurotrophin receptor's PI3K-Akt-NF-\u03baB signaling pathway, ii) by exerting an efficient antioxidant effect, iii) by inducing significant anti-inflammatory activity and iv) by restoring Brain-Derived Neurotrophic Factor (BDNF) levels. By intercrossing \"weaver\" with NGL mice (dual GFP/luciferase-NF-\u03ba\u0392 reporter mice, NF-\u03ba\u0392.GFP.Luc), we obtained Weaver/NGL mice that express the NF-\u03baB reporter in all somatic cells. Acute BNN-20 administration to Weaver/NGL mice induced a strong NF-\u03baB-dependent transcriptional response in the brain as detected by bioluminescence imaging, which was abolished by co-administration of the TrkB inhibitor ANA-12. This indicates that BNN-20 exerts its beneficial action (at least in part) through the TrkB-PI3K-Akt-NF-\u03baB signaling pathway. These results could be of clinical relevance, as they suggest BNN-20 as an important neuroprotective agent acting through the TrkB neurotrophin receptor pathway, mimicking the action of the endogenous neurotrophin BDNF. Thus BNN-20 could be proposed for treatment of PD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28461162",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

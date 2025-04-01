@@ -1,0 +1,33 @@
+{
+  "id": "5c5f0f581a4c55d80b000012",
+  "type": "list",
+  "question": "List lymphocytes that are analyzed by a flow cytometer.",
+  "ideal_answer": "Quantitation of lymphocyte subsets (B cells, T cells, CD4 and CD8 T cells and NK cells) classically relies on quantitation of lymphocytes and immunophenotyping by flow cytometry.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29516957",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29935030",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29466232"
+  ],
+  "snippets": [
+    {
+      "text": " Quantitation of lymphocyte subsets (B cells, T cells, CD4 and CD8 T cells and NK cells) classically relies on quantitation of lymphocytes and immunophenotyping by flow cytometry. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29466232",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The distributions of Th17 cells, regulatory Treg-cells, CD4+ T-cells, CD8+ T-cells, and CD3+ T-cells were determined by flow cytometer. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29516957",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " main lymphocyte subsets (T, B and NK cell ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29935030",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "B cells, T cells, CD4 and CD8 T cells, NK cells"
+}

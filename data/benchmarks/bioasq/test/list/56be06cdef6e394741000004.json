@@ -1,0 +1,50 @@
+{
+  "id": "56be06cdef6e394741000004",
+  "type": "list",
+  "question": "List symptoms of congenital toxoplasmosis triad.",
+  "ideal_answer": "Classic triad of toxoplasmosis include hydrocephalus, cerebral calcification and chorioretinitis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19744303",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25547178",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7193392",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2089735"
+  ],
+  "snippets": [
+    {
+      "text": "Most patients had systemic manifestations, but only 25% of diagnosed patients exhibited the classic triad of hydrocephalus, cerebral calcification and chorioretinitis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25547178",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The pathogenic potential of T. gondii was recognized in the 1920s and 1930s, in congenitally infected children presenting with the classic triad of symptoms, namely hydrocephalus, retinochoroiditis and encephalitis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19744303",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Intracranial calcifications within the classical triad were only found in two cases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7193392",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Congenital toxoplasmosis is characterized by the classical triads: hydrocephaly, chorioretinitis and intracerebral calcifications.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2089735",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Most patients had systemic manifestations, but only 25% of diagnosed patients exhibited the classic triad of hydrocephalus, cerebral calcification and chorioretinitis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25547178",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014125",
+    "http://www.disease-ontology.org/api/metadata/DOID:13336",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012816"
+  ],
+  "exact_answer": "hydrocephalus, cerebral calcification, chorioretinitis"
+}

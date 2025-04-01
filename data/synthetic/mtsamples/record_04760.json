@@ -1,0 +1,39 @@
+{
+  "document_id": "record_04760",
+  "original_length": 3152,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Syncopal episodes with injury.  See electrophysiology consultation.,POSTOPERATIVE DIAGNOSES:\n- Normal electrophysiologic studies.\n- No inducible arrhythmia.\n- Procainamide infusion ...",
+    "Symptoms": "",
+    "Treatment": "",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: US_DRIVER_LICENSE, DATE_TIME, PERSON, IP_ADDRESS, URL"
+      ],
+      "pii_detected": [
+        "US_DRIVER_LICENSE",
+        "DATE_TIME",
+        "PERSON",
+        "IP_ADDRESS",
+        "URL"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

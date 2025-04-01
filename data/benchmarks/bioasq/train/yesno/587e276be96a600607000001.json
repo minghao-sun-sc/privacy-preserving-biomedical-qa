@@ -1,0 +1,69 @@
+{
+  "id": "587e276be96a600607000001",
+  "type": "yesno",
+  "question": "Are alterations in ultraconserved elements implicated in breast cancer?",
+  "ideal_answer": "Yes. SNPs in ultraconserved elements (UCEs) might be associated with cancer risk.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18174240",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21331621"
+  ],
+  "snippets": [
+    {
+      "text": "SNPs in ultraconserved elements and familial breast cancer risk",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18174240",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " In the present study, we investigated the influence of six SNPs within UCEs on familial breast cancer risk. Two out of six SNPs showed an association with familial breast cancer risk",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18174240",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This is the first study indicating that SNPs in UCEs might be associated with cancer risk",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18174240",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SNPs in ultraconserved elements and familial breast cancer risk.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18174240",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Recent studies have indicated that UCEs are not mutation cold regions and likely to be concerned with cancers, including breast cancer (BC). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21331621",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SNPs in ultraconserved elements and familial breast cancer risk.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18174240",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Genetic variants in ultraconserved elements and risk of breast cancer in Chinese population.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21331621",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001943",
+    "http://www.disease-ontology.org/api/metadata/DOID:0060548",
+    "http://www.disease-ontology.org/api/metadata/DOID:1612",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000069584",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000072656",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D050436",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D058922",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001940",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018567",
+    "http://www.disease-ontology.org/api/metadata/DOID:14521",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D061325",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D064726"
+  ],
+  "exact_answer": "Yes"
+}

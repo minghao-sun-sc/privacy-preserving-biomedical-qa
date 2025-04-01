@@ -1,0 +1,32 @@
+{
+  "id": "5c88550075a4a5d219000008",
+  "type": "list",
+  "question": "List 3 apoE mimetics.",
+  "ideal_answer": "COG133, COG112 and Ac-hE18A-NH(2) are apoE mimetics.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22149316",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16740622"
+  ],
+  "snippets": [
+    {
+      "text": "Using a murine experimental autoimmune encephalomyelitis (EAE) model of human multiple sclerosis, we found that a peptidomimetic of apoE protein, COG133, substantially reduces the clinical symptoms of EAE and promotes remission from the disability when administered before or after onset of disease. Most notably, fusion of COG133 to a protein transduction domain creates COG112, a modified apoE-mimetic peptide with significantly enhanced anti-inflammatory bioactivities in vitro, and improved therapeutic effects on EAE in vivo, which renders a nearly full remission from the disability. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16740622",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Toward this end, we describe the design and studies of a dual-domain apoE mimetic peptide, Ac-hE18A-NH(2). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22149316",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ApoE mimetics such as Ac-hE18A-NH(2) may therefore restore or replace ligands in genetically induced hyperlipidemias to enable reduction in atherogenic lipoproteins via HSPG even in the absence of functional low-density lipoprotein receptors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22149316",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "COG133, COG112, Ac-hE18A-NH(2)"
+}

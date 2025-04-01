@@ -1,0 +1,34 @@
+{
+  "id": "6081b64d4e6a4cf63000000a",
+  "type": "factoid",
+  "question": "What is the function of the HSJ1 proteins?",
+  "ideal_answer": "HSJ1 is a neuronal enriched member of the HSP40/DNAJ co-chaperone family.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28031292",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21625540",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22522442",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25274842"
+  ],
+  "snippets": [
+    {
+      "text": "HSJ1 (DNAJB2), a member of the DNAJ family of molecular chaperones, is a key player in neuronal proteostasis maintenance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28031292",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "HSJ1 is a neuronal enriched member of the HSP40/DNAJ co-chaperone family. Previous studies have shown that HSP40 proteins play a crucial role in protein aggregation and neurodegeneration in several neuronal types, in animal models and human diseases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22522442",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Homo sapiens J domain protein (HSJ1) is a J-domain containing co-chaperone that is known to stimulate ATPase activity of HSP70 chaperone, while it also harbors two ubiquitin (Ub)-interacting motifs (UIMs) that may bind with ubiquitinated substrates and potentially function in protein degradation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21625540",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "HSJ1 are chaperones."
+}

@@ -1,0 +1,47 @@
+{
+  "id": "5311ceeae3eabad021000008",
+  "type": "yesno",
+  "question": "Is there any software for automated analysis of immuno-histochemistry images?",
+  "ideal_answer": "In some studies of breast cancer, quantitation of immunohistochemically highlighted microvessel \u2018hot spots\u2019 has been shown to be a powerful prognostic tool. However, the antibody used, the number and size of the \u2018hot spots\u2019 assessed, and the stratification of patients into high and low vascular groups vary between studies. Furthermore, little is known about the relationship between microvessel density and other vascular parameters. These uncertainties and the laborious nature of the technique make it unsuitable for diagnostic practice. Both manual and computerized image analysis techniques were used in this study to examine the relationship between microvessel density and the vascular parameters in different sized microscopic fields in a pilot series of 30 invasive breast carcinomas. Automated pixel analysis of immunohistochemical staining, Chalkley point counting, and observer subjective vascular grading were also assessed as more rapid methods of measuring tumour vascularity",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21818782",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23625497",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22114700",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20663194",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20588996",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24003130",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23586030",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24262147"
+  ],
+  "snippets": [
+    {
+      "text": "The LIM homeobox gene Lhx2 is expressed in cortical progenitors during development and also in the superficial layers of the neocortex in maturity. However, analysis of Lhx2 function at later stages of cortical development has been hampered by severe phenotypes associated with early loss of function. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24262147",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The vein graft samples were obtained on each time point after surgery. The expression of the EDRz transfected in the vein graft was detected using a fluorescent microscope. Early growth response gene-1 (Egr-1) mRNA was measured using reverse transcription-PCR and in situ hybridization. And the protein expression of Egr-1 was detected by using western blot and immunohistochemistry analyses.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23586030",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tissue Transglutaminase (TG2) is a multifunctional enzyme, which amongst other functions, is involved in cell differentiation. Therefore, we hypothesized that TG2 contributes to differentiation of OPCs into OLGs and thereby stimulates remyelination. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21818782",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:4943",
+    "http://www.uniprot.org/uniprot/HCP_ECOSE",
+    "http://www.uniprot.org/uniprot/GFP_AEQVI",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007150",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017403",
+    "http://www.uniprot.org/uniprot/HCP_CLOB1",
+    "http://www.uniprot.org/uniprot/HCP_ENT38",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005453"
+  ],
+  "exact_answer": "Yes"
+}

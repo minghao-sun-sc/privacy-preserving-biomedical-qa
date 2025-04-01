@@ -1,0 +1,78 @@
+{
+  "id": "513711055274a5fb0700000e",
+  "type": "yesno",
+  "question": "Are viruses involved in the etiology of human subacute thyroiditis?",
+  "ideal_answer": "Subacute thyroiditis (SAT) is an inflammatory disorder of the thyroid caused probably by viruses\nThe principal classes of viruses involed  in SAT include Epstein Barr and Retroviridae",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18422033",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19138419",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20960165",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11109652",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23227861",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22819125",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19627727",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20671410",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22527824",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1856259",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1691523",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18421188",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12608662",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22459018",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20886354",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9790279",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10971829",
+    "http://www.ncbi.nlm.nih.gov/pubmed/4936649",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10525005",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22136271",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15332726",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16279854",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9915102"
+  ],
+  "snippets": [
+    {
+      "text": "he etiology of subacute (de Quervain's) thyroiditis (SAT) is uncertain, although it probably represents a nonspecific inflammatory response by the thyroid to a variety of viruses.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1856259",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Subacute thyroiditis is an inflammatory disorder of the thyroid caused probably by viruses. I",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11109652",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We believe that the etiologic agent was the Epstein-Barr virus because heterophile and Epstein-Barr virus-specific antibodies were positive.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11109652",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "ltogether, these results indicate that the mechanism of inhibition of Spumavirinae infection by interferon differs from that described for the other Retroviridae, and particularly for types B, C and D viruses. Our data is of therapeutic interest since Spumavirinae have been linked to pathological processes such as de Quervain thyroiditis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1691523",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014780",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D050033",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013190",
+    "http://www.disease-ontology.org/api/metadata/DOID:7187",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0003831",
+    "http://www.disease-ontology.org/api/metadata/DOID:7166",
+    "http://www.disease-ontology.org/api/metadata/DOID:7165",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007453",
+    "http://www.uniprot.org/uniprot/PERT_CANFA",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013958",
+    "http://www.uniprot.org/uniprot/PERT_RAT",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013962",
+    "http://www.uniprot.org/uniprot/PERT_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013966",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013968",
+    "http://www.uniprot.org/uniprot/PERT_PIG",
+    "http://www.uniprot.org/uniprot/PERT_MOUSE",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013957"
+  ],
+  "exact_answer": "Yes"
+}

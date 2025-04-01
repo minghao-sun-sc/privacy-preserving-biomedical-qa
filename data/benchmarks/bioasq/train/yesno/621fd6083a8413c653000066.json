@@ -1,0 +1,88 @@
+{
+  "id": "621fd6083a8413c653000066",
+  "type": "yesno",
+  "question": "Unlike DNA, RNA is not methylated, yes or no?",
+  "ideal_answer": "In addition to DNA methylation, reversible epigenetic modification occurring in RNA has been discovered recently. The most abundant type of RNA methylation is N6-methyladenosine (m6A) modification, which is dynamically regulated by methylases (\"writers\"), demethylases (\"erasers\") and m6A-binding proteins (\"readers\")",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18567810",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34694621",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27375676",
+    "http://www.ncbi.nlm.nih.gov/pubmed/4992370",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16424344",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19808971",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16111635",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33526437",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34694619",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28349450"
+  ],
+  "snippets": [
+    {
+      "text": "Mapping the position and quantifying the level of 5-methylcytosine (m5C) as a modification in different types of cellular RNA is an important objective in the field of epitranscriptomics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34694621",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "N6-methyladenosine (m6A) is the most abundant internal modification on messenger RNAs (mRNAs) and long noncoding RNAs (lncRNAs) in eukaryotes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34694619",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Gluten-induced RNA methylation changes regulate intestinal inflammation via allele-specific XPO1 translation in epithelial cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33526437",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "nogaster was methylated to a lower degree, but in the case of Dictyostelium, there was no difference in the methylation of RNA isolated from wild-type and Dnmt2 knock-out strains. Meth",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18567810",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The detection and quantification of methylated RNA can be beneficial to understand certain cellular regulation processes such as transcriptional modulation of gene expression, immune response, or epigenetic alterations. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28349450",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ombined genetic and biochemical approach revealed that human DNMT2 did not methylate DNA but instead methylated a small RNA; mass spectrometry showed that this RNA is aspartic acid transfer RNA (tRNA(Asp)) and that DNMT2 specifically methylated cytosine 38 in the anticodon loop. The",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16424344",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ted nucleosides in naturally occurring RNA are also methylated or otherwise modified, but the immunomodulatory effects of these alterations remain untested. We s",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16111635",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "-induced loss of RNA methylation seemed specific for DNMT2 target sites because we did not observe any significant demethylation at sites known to be methylated by other RNA methyltransferases. Our results ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19808971",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Crude extracts of this organism possess RNA methylase activity but no detectable DNA methylase activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/4992370",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A combined genetic and biochemical approach revealed that human DNMT2 did not methylate DNA but instead methylated a small RNA; mass spectrometry showed that this RNA is aspartic acid transfer RNA (tRNA(Asp)) and that DNMT2 specifically methylated cytosine 38 in the anticodon loop.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16424344",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we propose that RNA methylation began prior to DNA methylation in the early forms of life evolving on Earth.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27375676",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

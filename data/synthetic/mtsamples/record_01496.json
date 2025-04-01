@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01496",
+  "original_length": 971,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",Essential replacement of the uterus by fibroids.  It is difficult to measure given their heterogenous and diffuse nature.  MRI of the pelvis could be performed for further evaluation to evaluate f...",
+    "Symptoms": "",
+    "Treatment": "Ultrasound of pelvis - menorrhagia. Ultrasound - Pelvis",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'It is difficult to measure given their heterogenou...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

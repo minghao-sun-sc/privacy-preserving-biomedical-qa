@@ -1,0 +1,80 @@
+{
+  "id": "52fc94572059c6d71c000070",
+  "type": "yesno",
+  "question": "Is apixaban effective for treatment of acute venous thromboembolism?",
+  "ideal_answer": "Apixaban is a direct inhibitor of factor Xa, and is a potential alternative for the treatment of acute venous thromboembolism. These results suggest a lack of clear superiority of apixaban relative to enoxaparin. Apixaban is an oral alternative with similar efficacy and safety to existing anticoagulant therapies.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18393142",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24554904",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23117646",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22153026",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24057162",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23808982",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22084658",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19014462",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22795419",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23233582",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19308891",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24278706",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23822763",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23150473"
+  ],
+  "snippets": [
+    {
+      "text": "Apixaban is a direct inhibitor of factor Xa, and is a potential alternative for the treatment of acute venous thromboembolism. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24057162",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest a lack of clear superiority of apixaban relative to enoxaparin. Apixaban is an oral alternative with similar efficacy and safety to existing anticoagulant therapies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24057162",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A fixed-dose regimen of apixaban alone was noninferior to conventional therapy for the treatment of acute venous thromboembolism and was associated with significantly less bleeding",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23808982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To critically review the effectiveness of the novel oral anticoagulants (rivaroxaban, dabigatran, ximelagatran, and apixaban) in the treatment of acute venous thromboembolism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23150473",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ompared with vitamin K antagonists, the novel oral anticoagulants had a similar risk of recurrence of acute venous thromboembolism and all cause mortality, though rivaroxaban was associated with a reduced risk of bleeding",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23150473",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nowadays, the new anticoagulants, such as dabigatran, rivaroxaban and apixaban, show potential advantages over classical treatments. These agents inhibit specific coagulation factors and are administered orally at fixed doses.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23117646",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In a recently completed phase III trial, apixaban also demonstrated promising efficacy and safety in that indication",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22795419",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the most advanced oral direct inhibitors to factor Xa (rivaroxaban and apixaban) and IIa (dabigatran)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18393142",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013923",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013812",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020246",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D054556",
+    "http://www.biosemantics.org/jochem#4243936"
+  ],
+  "exact_answer": "Yes"
+}

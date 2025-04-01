@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04716",
+  "original_length": 4857,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  Successful implantation of DDDR permanent pacemaker.,PLAN:\n- The patient will be monitored on telemetry for 24 hours to ensure adequate pacemaker function.\n- The patient will be placed on antibi...",
+    "Symptoms": "",
+    "Treatment": ",DDDR permanent pacemaker.,INDICATION: , Tachybrady syndrome.,PROCEDURE:,  After all risks, benefits, and alternatives of the procedure were explained in detail to the patient, informed consent was...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'The patient will be monitored on telemetry for 24 ...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

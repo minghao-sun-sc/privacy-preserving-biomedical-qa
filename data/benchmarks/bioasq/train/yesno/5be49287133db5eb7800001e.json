@@ -1,0 +1,25 @@
+{
+  "id": "5be49287133db5eb7800001e",
+  "type": "yesno",
+  "question": "Is pembrolizumab effective against Ewing's sarcoma?",
+  "ideal_answer": "None of the 13 patients with Ewing's sarcoma receiving pembrolizumab had an objective response.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28988646"
+  ],
+  "snippets": [
+    {
+      "text": "None of the 13 patients with Ewing's sarcoma had an objective response. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28988646",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Between March 13, 2015, and Feb 18, 2016, we enrolled 86 patients, 84 of whom received pembrolizumab (42 in each disease cohort) and 80 of whom were evaluable for response (40 in each disease cohort). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28988646",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

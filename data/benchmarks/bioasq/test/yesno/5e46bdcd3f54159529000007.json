@@ -1,0 +1,45 @@
+{
+  "id": "5e46bdcd3f54159529000007",
+  "type": "yesno",
+  "question": "Is there a vaccine for peanut allergy?",
+  "ideal_answer": "Yes, there is a vaccine for peanut allergy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30319619",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25459578",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26288733"
+  ],
+  "snippets": [
+    {
+      "text": "Currently, two forms of peanut immunotherapy, oral immunotherapy (OIT) and epicutaneous immunotherapy (EPIT), are in Phase III clinical trials and have shown promise to induce desensitization in many subjects",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30319619",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This article presents an overview of potential treatments of food allergy, with an emphasis on various forms of immunotherapy (including oral immunotherapy, sublingual immunotherapy, epicutaneous immunotherapy, immunotherapy with modified food antigens, and immunotherapy with a recombinant peanut vaccine).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25459578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent advances in immunotherapy and vaccine development for peanut allergy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26288733",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Efforts have been made to develop a vaccine for peanut allergy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26288733",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "So far, results, especially from oral immunotherapy studies, have shown good efficacy in achieving desensitization to peanut with a good safety profile.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26288733",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

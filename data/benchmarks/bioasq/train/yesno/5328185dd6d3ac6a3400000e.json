@@ -1,0 +1,51 @@
+{
+  "id": "5328185dd6d3ac6a3400000e",
+  "type": "yesno",
+  "question": "Is metabolic syndrome related with cardiovascular disease?",
+  "ideal_answer": "The metabolic syndrome (MetS) is characterized by a cluster of risk factors including central obesity, hypertension, dyslipidemia and insulin resistance, The MetS is associated with an increased risk for cardiovascular disease (CVD) and type 2 diabetes mellitus (T2DM).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18945929",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24247648",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19196885",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24320036",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24320031",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24287796",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24328010",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21234418",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24320038",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24290090"
+  ],
+  "snippets": [
+    {
+      "text": "The metabolic syndrome (MetS) is characterized by a cluster of risk factors including central obesity, hypertension, dyslipidemia and insulin resistance, The MetS is associated with an increased risk for cardiovascular disease (CVD) and type 2 diabetes mellitus (T2DM). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24320038",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "As a molecular link between metabolic signals, inflammation, and vascular dysfunction, resistin can be proposed as playing a significant role in the heightened inflammatory state induced by metabolic stress linked to excessive caloric intake, thus contributing to the risk for metabolic syndrome (MetS), type 2 diabetes (T2DM), and cardiovascular disease (CVD). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24320036",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The metabolic syndrome (MetS) is associated with a higher risk for both, type 2 diabetes mellitus and cardiovascular disease. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24320031",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "arotid intima-media thickness (CIMT) has been widely used as a surrogate marker of atherosclerosis and cardiovascular disease (CVD)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24328010",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D024821",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002318",
+    "http://www.disease-ontology.org/api/metadata/DOID:14221",
+    "http://www.disease-ontology.org/api/metadata/DOID:1287"
+  ],
+  "exact_answer": "Yes"
+}

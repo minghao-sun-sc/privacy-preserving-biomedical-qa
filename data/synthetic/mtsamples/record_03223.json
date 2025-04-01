@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03223",
+  "original_length": 3481,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Ulceration of bilateral upper extremities.\n- Cellulitis of upper extremities.\n- Lymphedema of upper extremities.\n- Other noninfectious disorders of lymphatic channels.\n- Ventilatory-dependent re...",
+    "Symptoms": "",
+    "Treatment": "Patient with a previous history of working in the coalmine and significant exposure to silica with resultant pneumoconiosis and fibrosis of the lung. Pneumoconiosis",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, LOCATION, MEDICAL_RECORD_NUMBER"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "LOCATION",
+        "MEDICAL_RECORD_NUMBER"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "6428da98690f196b51000053",
+  "type": "yesno",
+  "question": "Is there a way to distinguish COVID-19 clinically from other respiratory illnesses, such as influenza?",
+  "ideal_answer": "No, the clinical features of COVID-19 overlap substantially with influenza and other respiratory viral illnesses. There is no way to distinguish among them without testing.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32127123",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33135801",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36119462",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32881022",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34484383",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34226206",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33995342",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33615750",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32903584",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35412847"
+  ],
+  "snippets": [
+    {
+      "text": " Unfortunately, COVID-19 patients have symptoms similar to other common illnesses. Here, we hypothesize the order of symptom occurrence could help patients and medical professionals more quickly distinguish COVID-19 from other respiratory diseases, yet such essential information is largely unavailable.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32903584",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "No symptoms are characteristic of a single infectious agent, with flu-like disorders being the most common.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36119462",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show that although COVID-19 and influenza are different in many ways, there are numerous similarities; thus, in addition to using nucleic acid-based polymerase chain reaction (PCR) and antibody-based approaches, clinicians and epidemiologists should distinguish between the two using their respective characteristics in early stages.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33615750",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "An understanding of differences in clinical phenotypes and outcomes COVID-19 compared with other respiratory viral infections is important to optimise the management of patients and plan healthcare.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34226206",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SARS-CoV-2 is associated with more severe outcomes compared with other respiratory viruses, and although associated with specific patient and clinical characteristics at admission, a substantial overlap precludes discrimination based on these characteristics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34226206",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Unfortunately, COVID-19 patients have symptoms similar to other common illnesses.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32903584",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Clinical presentation of COVID-19, however, can be difficult to distinguish from other respiratory viral infections.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32881022",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "It is difficult to distinguish coronavirus disease-2019 (COVID-19) from other viral respiratory tract infections owing to the similarities in clinical and radiological findings.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33135801",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although COVID-19 has been extensively characterized clinically, the factors distinguishing SARS-CoV-2 from other respiratory viruses are unknown.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33995342",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Since the symptoms are similar to other respiratory infections, differential diagnosis in travellers arriving from countries with wide-spread COVID-19 must include other more common infections such as influenza and other respiratory tract diseases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32127123",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Clinical presentation of COVID-19, however, can be difficult to distinguish from other respiratory viral infections.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32881022",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "COVID-19 and flu are two respiratory illnesses which share similar clinical symptoms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35412847",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "During influenza season, differentiating other causes of respiratory illness from COVID-19 is difficult, because common clinical manifestations of COVID-19 mimic those of influenza.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34484383",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

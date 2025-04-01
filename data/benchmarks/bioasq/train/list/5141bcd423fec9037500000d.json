@@ -1,0 +1,84 @@
+{
+  "id": "5141bcd423fec9037500000d",
+  "type": "list",
+  "question": "The CXCR2 receptor is targeted in cancer. Name five antagonists.",
+  "ideal_answer": "There are numerous CXCR2 receptor antagonists, such as SB225002, G31P, SCH-527123, AZ10397767, SCH-479833.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15623601",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19549892",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15805273",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22590561",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21328342",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19809428",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17634442",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18289803",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20967859",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23204236",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11700073",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20652010",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23019013",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16540656",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21670971",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18790747",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18780829",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22391039",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23359652",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12244149",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12753603",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19293256",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21035946"
+  ],
+  "snippets": [
+    {
+      "text": "CXCR2 small-molecule antagonist (SB225002)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23204236",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "G31P, an antagonist against CXC chemokine receptors 1 and 2, inhibits growth of human prostate cancer cells in nude mice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23019013",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The CXCR2 antagonist, SCH-527123, shows antitumor activity",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22391039",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "retreatment with the CXCR2 antagonist AZ10397767",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18790747",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The aim of this study was to investigate whether the CXCR2 antagonist, SCH-527123, inhibits colorectal cancer proliferation and if it can sensitize colorectal cancer cells to oxaliplatin both in vitro and in vivo.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22391039",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "we report that targeting CXCR2 and CXCR1 activity using orally active small molecule antagonist (SCH-527123, SCH-479833) inhibits human colon cancer liver metastasis mediated by decreased neovascularization and enhanced malignant cell apoptosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21035946",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "CXCR2-specific small molecule inhibitor (AZ10397767) to investigate the recruitment and function of human neutrophils in tumors",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21328342",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0048019",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0006605",
+    "http://www.uniprot.org/uniprot/CXCR2_HUMAN",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0045238",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0046817",
+    "http://www.disease-ontology.org/api/metadata/DOID:162"
+  ],
+  "exact_answer": "SB225002, G31P, SCH-527123, AZ10397767, SCH-479833"
+}

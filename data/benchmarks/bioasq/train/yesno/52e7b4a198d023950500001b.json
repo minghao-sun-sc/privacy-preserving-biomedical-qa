@@ -1,0 +1,69 @@
+{
+  "id": "52e7b4a198d023950500001b",
+  "type": "yesno",
+  "question": "Does thyroid hormone affect cardiac remodeling ?",
+  "ideal_answer": "Cardiac function and mechanics are significantly affected by low thyroid function. l-T4 therapy improves but does not completely recover cardiac function in patients with mild hypothyroidism.\nLong-term T4 treatment after myocardial infarction has beneficial effects on myocyte, arteriolar, and collagen matrix remodeling in the non-infarcted area. Most importantly, results suggest improved survival of myocytes in the peri-infarct area.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24195179",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23532677",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23409791",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17315395",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24152286",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24014964",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19096930",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14704232",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23990180",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24159562",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19125327",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21568669",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24157158",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24315768",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24114432",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23554452",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24187401",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24217559",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19107595",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22649319",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23555069",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24322910",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9489964",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24246300",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23762386",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23958074",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16719939"
+  ],
+  "snippets": [
+    {
+      "text": "Thyroid hormones exert important effects on heart remodeling through mir-208.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24246300",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RV and RA function and mechanics are significantly affected by SHT. l-T4 therapy and 1-year maintenance of euthyroid status improved but did not completely recover RV and RA function and deformation in the SHT patients, which implies that right heart remodeling caused by SHT is not reversible in a 1-year period.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24114432",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest that long-term T4 treatment after MI has beneficial effects on myocyte, arteriolar, and collagen matrix remodeling in the non-infarcted area. Most importantly, results suggest improved survival of myocytes in the peri-infarct area.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23409791",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013963",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020257",
+    "http://www.uniprot.org/uniprot/THB_CHICK",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014284",
+    "http://www.uniprot.org/uniprot/THA_ONCMY",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037021",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011989",
+    "http://www.biosemantics.org/jochem#4250045",
+    "http://www.uniprot.org/uniprot/TSHR_MOUSE",
+    "http://www.biosemantics.org/jochem#4275389",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037042"
+  ],
+  "exact_answer": "Yes"
+}

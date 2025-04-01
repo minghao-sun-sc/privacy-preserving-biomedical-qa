@@ -1,0 +1,40 @@
+{
+  "id": "604906ed1cb411341a000163",
+  "type": "yesno",
+  "question": "Are mucin overexpression associated with disease?",
+  "ideal_answer": "Yes,\nmucins are overexpressed in various malignancies and inflammations.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31837357",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33300069",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32195770",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31729101"
+  ],
+  "snippets": [
+    {
+      "text": "The pathological mechanism underlying hepatolithiasis is closely related to bacterial infections of the intrahepatic bile duct, followed by chronic inflammation and the overexpression of mucin\u00a05AC (MUC5AC).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33300069",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MUC1 is a membrane glycoprotein, which in adenocarninomas is overexpressed and exhibits truncated O-glycosylation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31729101",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mucin 13 (MUC13) is reportedly overexpressed in human malignancies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31837357",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Inflammation causes MUC1 overexpression and hypoglycosylation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32195770",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "621911323a8413c653000038",
+  "type": "factoid",
+  "question": "Which tool has been developed to discover VNTR-associated deletions?",
+  "ideal_answer": "\u03a4rfermikit is a software tool designed to detect deletions larger than 50\u2009bp occurring in Variable Number Tandem Repeats (VNTRs) using Illumina DNA sequencing reads. In such regions, it achieves a better trade-off between sensitivity and false discovery than a state-of-the-art structural variation (SV) caller, Manta, and complements it by recovering a significant number of deletions that Manta missed. trfermikit is based upon the fermikit pipeline, which performs read assembly, maps the assembly to the reference genome, and calls variants from the alignment.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34864893"
+  ],
+  "snippets": [
+    {
+      "text": "trfermikit: a tool to discover VNTR-associated deletions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34864893",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present trfermikit, a software tool designed to detect deletions larger than 50\u2009bp occurring in Variable Number Tandem Repeats (VNTRs) using Illumina DNA sequencing reads. In such regions, it achieves a better trade-off between sensitivity and false discovery than a state-of-the-art structural variation (SV) caller, Manta, and complements it by recovering a significant number of deletions that Manta missed. trfermikit is based upon the fermikit pipeline, which performs read assembly, maps the assembly to the reference genome, and calls variants from the alignment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34864893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS: We present trfermikit, a software tool designed to detect deletions larger than 50\u2009bp occurring in Variable Number Tandem Repeats (VNTRs) using Illumina DNA sequencing reads.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34864893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS: We present trfermikit, a software tool designed to detect deletions larger than 50\u2009bp occurring in Variable Number Tandem Repeats (VNTRs) using Illumina DNA sequencing",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34864893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "trfermikit is based upon the fermikit pipeline, which performs read assembly, maps the assembly to the reference genome, and calls variants from the alignment.AV",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34864893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS: We present trfermikit, a software tool designed to detect deletions larger than 50\u2009bp occurring in Variable Number Tandem Repeats (VNTRs) using Illumina DNA sequenci",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34864893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "trfermikit"
+}

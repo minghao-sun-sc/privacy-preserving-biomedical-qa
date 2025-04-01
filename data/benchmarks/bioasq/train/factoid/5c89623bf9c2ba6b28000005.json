@@ -1,0 +1,47 @@
+{
+  "id": "5c89623bf9c2ba6b28000005",
+  "type": "factoid",
+  "question": "Which cancer is associated with increased levels of Serum alpha fetoprotein (AFP) ?",
+  "ideal_answer": "Serum alpha fetoprotein (AFP) is a marker of germ cell neoplasms,\r\nSerum \u03b1-Fetoprotein (AFP) is a widely used diagnostic biomarker, but it has limited sensitivity and is not elevated in all HCC cases.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28482112",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28750141",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29052791",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28989060",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28582340"
+  ],
+  "snippets": [
+    {
+      "text": "In the competing-risk regression, the sum of tumor number and size and of log10 level of AFP were significantly associated with HCC-specific death (P < .001), returning an average c-statistic of 0.780 (95% confidence interval, 0.763-0.798).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28989060",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ovarian Sertoli-Leydig cell tumors (SLCTs) are uncommon neoplasms that are occasionally associated with an elevated level of serum alpha fetoprotein (AFP), a marker of germ cell neoplasms, particularly yolk sac tumor (YST). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28582340",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Serum \u03b1-Fetoprotein (AFP) is a widely used diagnostic biomarker, but it has limited sensitivity and is not elevated in all HCC cases so, we incorporate a second blood-based biomarker, des'\u03b3 carboxy-prothrombin (DCP), that has shown potential as a screening marker for HCC. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28482112",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cirrhosis in patients with chronic hepatitis C increases the risk of hepatocellular carcinoma (HCC), and surveillance with ultrasound (US) and alpha-fetoprotein (AFP) is recommended.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28750141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The combination of enhancement patterns on CEUS and serum tumor markers (AFP and CA19-9) may be a potentially specific diagnostic method to differentiate CHC from HCC and CC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29052791",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "HCC, hepatocelluar carcinoma"
+}

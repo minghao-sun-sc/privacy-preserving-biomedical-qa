@@ -1,0 +1,36 @@
+{
+  "document_id": "record_02431",
+  "original_length": 3383,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Cataract to right eye.,POSTOPERATIVE DIAGNOSIS: , Cataract to right eye.,PROCEDURE PERFORMED:  ,Cataract extraction with intraocular lens implant of the right eye, anterior vitrecto...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',POSTOPERATIVE DIAGNOSIS: , Cataract to right eye...'"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

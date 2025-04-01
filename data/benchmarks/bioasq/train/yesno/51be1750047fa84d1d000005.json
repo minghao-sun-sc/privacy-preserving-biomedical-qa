@@ -1,0 +1,83 @@
+{
+  "id": "51be1750047fa84d1d000005",
+  "type": "yesno",
+  "question": "Has field-programmable gate array (FPGA) technology been used to solve sequence alignment problems?",
+  "ideal_answer": "Yes. Field-Programmable Gate Arrays (FPGAs) are reconfigurable computing platforms that have found several applications in diverse domains, including  digital signal processing, medical imaging and bioinformatics. Specific applications of FPGAs for biological sequence alignment have been reported for dynamic programming-based pairwise (local or global) sequence alignment, progressive multiple sequence alignment, profile alignment, Burrows-Wheeler transform (BWT) based alignment, heuristic pairwise alignment.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21724593",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17555593",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18798993",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17946720",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18412963",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22151470",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18048180",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15919726",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16342039",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19273034",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19208138",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19492068",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8481828"
+  ],
+  "snippets": [
+    {
+      "text": "A linear error model for the raw intensity data and Burrows-Wheeler transform (BWT) based alignment are combined utilizing a Bayesian score function, which is then globally optimized over all possible genomic locations using an efficient branch-and-bound approach. The algorithm has been implemented in soft- and hardware [field-programmable gate array (FPGA)] to achieve real-time performance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21724593",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "we have designed and built a high-performance FPGA-accelerated version of BLASTP, Mercury BLASTP. In this paper, we describe the architecture of the portions of the application that are accelerated in the FPGA, and we also describe the integration of these FPGA-accelerated portions with the existing BLASTP software. We have implemented Mercury BLASTP on a commodity workstation with two Xilinx Virtex-II 6000 FPGAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19492068",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "This paper shows how reconfigurable architectures can be used to derive an efficient fine-grained parallelization of the dynamic programming calculation. We describe how this technique leads to significant runtime savings for HMM database scanning on a standard off-the-shelf field-programmable gate array (FPGA).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19273034",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We have constructed a linear systolic array to perform pairwise sequence distance computations using dynamic programming. This results in an implementation with significant runtime savings on a standard FPGA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18048180",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "in this paper, we focused on accelerating the Smith-Waterman algorithm by modifying the computationally repeated portion of the algorithm by FPGA hardware custom instructions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17946720",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We present a reconfigurable systolic architecture that can be applied for the efficient treatment of several dynamic programming methods for resolving well-known problems, such as global and local sequence alignment, approximate string matching and longest common subsequence. The dynamicity of the reconfigurability was found to be useful for practical applications in the construction of sequence alignments. A VHDL (VHSIC hardware description language) version of this new architecture was implemented on an APEX FPGA (Field programmable gate array).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16342039",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "This results in an implementation of ClustalW with significant runtime savings on a standard off-the-shelf FPGA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15919726",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The accelerator implements a version of the Needleman-Wunsch algorithm for nucleotide sequence alignment. Sequence lengths are constrained only by available memory; the product of sequence lengths in the current implementation can be up to 2(22). The machine is implemented as two NuBus boards connected to a Mac IIf/x, using a mixture of TTL and FPGA technology clocked at 10 MHz.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8481828",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017421",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017422",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017423",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017385",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012689",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017386",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003201",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016415",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020539"
+  ],
+  "exact_answer": "Yes"
+}

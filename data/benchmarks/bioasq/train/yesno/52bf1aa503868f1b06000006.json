@@ -1,0 +1,88 @@
+{
+  "id": "52bf1aa503868f1b06000006",
+  "type": "yesno",
+  "question": "Is it safe to use Abatacept during pregnancy?",
+  "ideal_answer": "It is not safe to use the drug abatacept during pregnancy, since there is very limited experience/knowledge yet. Additionally, it is recommended to withdraw the drug before pregnancy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21120498",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21346578",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18504282",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23292481",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19506586",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18819772",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22772888",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21985166"
+  ],
+  "snippets": [
+    {
+      "text": "These patients were exposed to rituximab (anti-CD20 monoclonal antibody) or abatacept (fusion protein CTLA4Ig) during the first trimester of their pregnancies. No significant adverse effects or complications were observed during the pregnancies, and all three patients delivered healthy newborns. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23292481",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Despite these favorable outcomes, the use of these two biological agents must follow international recommendations. Their use is not currently allowed during pregnancy except in cases where the potential benefit to the mother justifies the potential risk to the fetus",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23292481",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PREGNANCY:                          Azathioprine, chloroquine, cyclosporin A, prednisolone, sulfasalazine, tacrolimus and cyclophosphamide (only after the second trimester) may be administered during pregnancy. Biologics should be avoided unless there is a treatment need in cases of uncontrolled disease activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22772888",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "As such, it is recommended that abatacept, rituximab and tocilizumab be withheld prior to pregnancy; however, tumour necrosis factor inhibitors and anakinra may be continued until conception. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21985166",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Case reports on abatacept, tocilizumab or anakinra in pregnancy are not conclusive.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21346578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The very limited experience with abatacept, tocilizumab or anakinra in pregnancy allows no statement as to their compatibility with pregnancy. At present use of biological agents throughout pregnancy cannot be recommended.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21346578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Drugs recommended to be stopped before pregnancy include methotrexate and leflunomide, plus the biologics: anti-TNF agents, rituximab and abatacept.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21120498",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Whereas methotrexate, leflunomide, abatacept and rituximab must be withdrawn before a planned pregnancy, tumor necrosis factor inhibitors and bisphosphonates can be continued until conception.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19506586",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pregnancy experience with abatacept and rituximab is still too limited to prove their safety for the developing fetus. They must be withdrawn before a planned pregnancy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18504282",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Prophylactic withdrawal of drugs before pregnancy is mandatory for abatacept, rituximab, LEF and MMF. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18504282",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011248",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0007565",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011256",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011247",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018566",
+    "http://www.biosemantics.org/jochem#4002070",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0060136"
+  ],
+  "exact_answer": "Yes"
+}

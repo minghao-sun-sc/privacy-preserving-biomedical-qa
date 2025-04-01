@@ -1,0 +1,33 @@
+{
+  "id": "604903551cb411341a000162",
+  "type": "yesno",
+  "question": "Are mucins glycosylated proteins?",
+  "ideal_answer": "Yes,\nMany members of the mucin family are evolutionarily conserved and are often aberrantly expressed and glycosylated in various benign and malignant pathologies leading to tumor invasion, metastasis, and immune evasion.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31907968",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31908009",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31904283"
+  ],
+  "snippets": [
+    {
+      "text": "Many\u00a0members of the mucin family are evolutionarily conserved and are often aberrantly expressed and glycosylated in various benign and malignant pathologies leading to tumor invasion, metastasis, and immune evasion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31908009",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mucin is a glycoprotein that is the primary component of the mucus overlaying the epithelial tissues. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31907968",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mucin-type O-linked glycosylation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31904283",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

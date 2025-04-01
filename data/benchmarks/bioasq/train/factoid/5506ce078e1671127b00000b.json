@@ -1,0 +1,53 @@
+{
+  "id": "5506ce078e1671127b00000b",
+  "type": "factoid",
+  "question": "Which protein phosphatase has been found to interact with the heat shock protein, HSP20?",
+  "ideal_answer": "Protein phosphatase-1 activity is regulated by two binding partners, inhibitor-1 and the small heat shock protein 20, Hsp20. Cell fractionation, coimmunoprecipitation, and coimmunolocalization studies, revealed an association between Hsp20 and PP1. Small heat shock protein 20 interacts with protein phosphatase-1 and enhances sarcoplasmic reticulum calcium cycling.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24244723",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21493896"
+  ],
+  "snippets": [
+    {
+      "text": " Moreover, protein phosphatase-1 activity is regulated by two binding partners, inhibitor-1 and the small heat shock protein 20, Hsp20. Indeed, human genetic variants of inhibitor-1 (G147D) or Hsp20 (P20L) result in reduced binding and inhibition of protein phosphatase-1, suggesting aberrant enzymatic regulation in human carriers. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24244723",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Small heat shock protein 20 interacts with protein phosphatase-1 and enhances sarcoplasmic reticulum calcium cycling.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21493896",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " Hsp20 overexpression in intact animals resulted in significant enhancement of cardiac function, coupled with augmented Ca cycling and sarcoplasmic reticulum Ca load in isolated cardiomyocytes. This was associated with specific increases in phosphorylation of phospholamban (PLN) at both Ser16 and Thr17, relieving its inhibition of the apparent Ca affinity of SERCA2a. Accordingly, the inotropic effects of Hsp20 were abrogated in cardiomyocytes expressing nonphosphorylatable PLN (S16A/T17A). Interestingly, the activity of type 1 protein phosphatase (PP1), a known regulator of PLN signaling, was significantly reduced by Hsp20 overexpression, suggesting that the Hsp20 stimulatory effects are partially mediated through the PP1-PLN axis. This hypothesis was supported by cell fractionation, coimmunoprecipitation, and coimmunolocalization studies, which revealed an association between Hsp20, PP1, and PLN.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21493896",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hsp20 is a novel regulator of sarcoplasmic reticulum Ca cycling by targeting the PP1-PLN axis. These findings, coupled with the well-recognized cardioprotective role of Hsp20, suggest a dual benefit of targeting Hsp20 in heart disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21493896",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover, protein phosphatase-1 activity is regulated by two binding partners, inhibitor-1 and the small heat shock protein 20, Hsp20.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24244723",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover, protein phosphatase-1 activity is regulated by two binding partners, inhibitor-1 and the small heat shock protein 20, Hsp20",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24244723",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016791",
+    "http://www.uniprot.org/uniprot/HSP20_NIPBR"
+  ],
+  "exact_answer": "Protein phosphatase 1, PP1"
+}

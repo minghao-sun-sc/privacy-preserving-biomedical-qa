@@ -1,0 +1,19 @@
+{
+  "id": "5a885daa61bb38fb24000018",
+  "type": "factoid",
+  "question": "Which is the conserved motif of DEAD box proteins?",
+  "ideal_answer": "The conserved motif is: Asp(D)-Glu-(E)-Ala(A)-Asp(D)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/7731693"
+  ],
+  "snippets": [
+    {
+      "text": "DEAD box proteins are putative RNA helicases that have been implicated in cellular processes involving alteration of RNA secondary structure, such as translation initiation and splicing. These proteins share eight conserved amino acid motifs, including Asp(D)-Glu-(E)-Ala(A)-Asp(D) which is part of a more extended motif. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7731693",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Asp(D)-Glu-(E)-Ala(A)-Asp(D)"
+}

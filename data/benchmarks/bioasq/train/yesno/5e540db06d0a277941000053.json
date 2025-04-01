@@ -1,0 +1,58 @@
+{
+  "id": "5e540db06d0a277941000053",
+  "type": "yesno",
+  "question": "Has saracatinib been tested in clinical trials?",
+  "ideal_answer": "Yes, saracatinib has been tested in multiple clinical trials.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25874001",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26493492",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26062928",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26009269"
+  ],
+  "snippets": [
+    {
+      "text": "Saracatinib as a metastasis inhibitor in metastatic castration-resistant prostate cancer: A University of Chicago Phase 2 Consortium and DOD/PCF Prostate Cancer Clinical Trials Consortium Study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26493492",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "A phase II study of saracatinib (AZD0530), a Src inhibitor, administered orally daily to patients with advanced thymic malignancies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26009269",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Phase II study of saracatinib (AZD0530) in patients with previously treated metastatic colorectal cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26062928",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Metastatic colorectal cancer patients who had received one prior treatment and had measurable disease were enrolled in this phase 2 study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26062928",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A phase Ib multiple ascending dose study of the safety, tolerability, and central nervous system availability of AZD0530 (saracatinib) in Alzheimer's disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25874001",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Herein, we present a Phase Ib trial of the repurposed investigational drug AZD0530, a Src family kinase inhibitor specific for Fyn and Src kinase, for the treatment of patients with mild-to-moderate AD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25874001",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The study was a 4-week Phase Ib multiple ascending dose, randomized, double-blind, placebo-controlled trial of AZD0530 in AD patients with Mini-Mental State Examination (MMSE) scores ranging from 16 to 26.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25874001",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01326",
+  "original_length": 6877,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": "of liver cirrhosis.  Since the last visit the patient was asked to sign a lease of information form and we sent request for information from the doctor the patient saw before, Dr. X in [person] a...",
+    "Symptoms": "",
+    "Treatment": "Colonoscopy",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "for 10 mg, take 10 mg, about 25 g"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Since the last visit the patient was asked to sign...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

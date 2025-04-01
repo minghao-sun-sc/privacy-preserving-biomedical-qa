@@ -1,0 +1,61 @@
+{
+  "id": "54297ed2289fd6cb07000001",
+  "type": "yesno",
+  "question": "Can siRNA affect response to afatinib treatment?",
+  "ideal_answer": "When afatinib was combined with an EGFR-specific siRNA there was a strong biological effect on growth inhibition and induction of apoptosis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23555954",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22436374",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23266614"
+  ],
+  "snippets": [
+    {
+      "text": "On the other hand, miR-146a enhanced the inhibition of cell proliferation by drugs targeting EGFR, including both TKIs (gefitinib, erlotinib, and afatinib) and a monoclonal antibody (cetuximab)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23555954",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These effects were independent of the EGFR mutation status (wild type, sensitizing mutation or resistance mutation), but were less potent compared to the effects of siRNA targeting of EGFR",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23555954",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Among the anti-EGFR agents tested, the strongest biological effect was observed when afatinib was combined with T790M-specific-siRNAs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23266614",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The combination of a potent, irreversible kinase inhibitor such as afatinib, with T790M-specific-siRNAs should be further investigated as a new strategy in the treatment of lung cancer containing the resistant T790M mutation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23266614",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The strongest biological effect was observed when afatinib was combined with an EGFR-specific siRNA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22436374",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The addition of EGFR siRNA to either TKIs or cetuximab additively enhanced growth inhibition and induction of apoptosis in all five cell lines, independent of the EGFR mutation status (wild-type or sensitizing mutation or resistant mutation).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22436374",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The combination of a potent, irreversible kinase inhibitor such as afatinib, with EGFR-specific siRNAs should be further investigated as a new strategy in the treatment of lung cancer and other EGFR dependent cancers, including those with downstream resistance mutations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22436374",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0030422",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D034741",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0090065"
+  ],
+  "exact_answer": "Yes"
+}

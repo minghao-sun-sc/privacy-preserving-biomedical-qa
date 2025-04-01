@@ -1,0 +1,37 @@
+{
+  "document_id": "record_00200",
+  "original_length": 1909,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,  Vitreous hemorrhage, right eye.,POSTOPERATIVE DIAGNOSIS: , Vitreous hemorrhage, right eye.,PROCEDURE:  ,Vitrectomy, right eye.,PROCEDURE IN DETAIL:  ,The patient was prepared and d...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON, LOCATION",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',POSTOPERATIVE DIAGNOSIS: , Vitreous hemorrhage, r...'"
+      ],
+      "pii_detected": [
+        "PERSON",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

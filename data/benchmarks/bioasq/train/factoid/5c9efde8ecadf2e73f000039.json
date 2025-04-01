@@ -1,0 +1,33 @@
+{
+  "id": "5c9efde8ecadf2e73f000039",
+  "type": "factoid",
+  "question": "What is the cause of Krabbe disease?",
+  "ideal_answer": "Globoid cell leukodystrophy (GLD), or Krabbe disease, is an inherited, neurologic disorder that results from deficiency of a lysosomal enzyme, galactosylceramidase.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29316812",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28598007",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29391017"
+  ],
+  "snippets": [
+    {
+      "text": "Krabbe disease (KD) is a rare disease caused by the deficiency of \u03b2-galactocerebrosidase. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28598007",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Globoid cell leukodystrophy (GLD), or Krabbe disease, is an inherited, neurologic disorder that results from deficiency of a lysosomal enzyme, galactosylceramidase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29316812",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Krabbe disease is a rare neurodegenerative genetic disorder caused by deficiency of galactocerebrosidase. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29391017",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "deficiency of \u03b2-galactocerebrosidase"
+}

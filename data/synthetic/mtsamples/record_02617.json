@@ -1,0 +1,36 @@
+{
+  "document_id": "record_02617",
+  "original_length": 1425,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Stable mammographic appearance from mm/dd/yy.\n- No sonographic evidence of a mass at 10 o'clock in the right breast to correspond to the palpable abnormality.  The need for further assessment of...",
+    "Symptoms": "",
+    "Treatment": "[person] and ultrasound of the breast. [person]",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'No sonographic evidence of a mass at 10 o'clock in...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

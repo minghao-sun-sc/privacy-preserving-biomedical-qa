@@ -1,0 +1,34 @@
+{
+  "id": "58f4b73b70f9fc6f0f000014",
+  "type": "list",
+  "question": "The MMR vaccine protects against what 3 viruses?",
+  "ideal_answer": "The MMR vaccine provides immunity to measles, mumps and rubella.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/7686463",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26265115"
+  ],
+  "snippets": [
+    {
+      "text": " measles, mumps and rubella (MMR) vaccine ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26265115",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Measles, mumps, rubella (MMR) vaccine is a live vaccine preparation containing attenuated strains of all 3 viruses.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7686463",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012411",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012412",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008458",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D022542",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009109",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009108",
+    "http://www.disease-ontology.org/api/metadata/DOID:934"
+  ],
+  "exact_answer": "Measles, Mumps, Rubella"
+}

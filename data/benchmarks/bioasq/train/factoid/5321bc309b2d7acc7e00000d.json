@@ -1,0 +1,72 @@
+{
+  "id": "5321bc309b2d7acc7e00000d",
+  "type": "factoid",
+  "question": "What is the target protein of the drug Idelalisib?",
+  "ideal_answer": "Idelalisib represents a first-in-class specific inhibitor of the phosphoinositol-3 kinase (PI3K) delta isoform.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24261963",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24009233",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24085367",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23847354",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24323900",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24014301",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23617253",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24273091",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24060900"
+  ],
+  "snippets": [
+    {
+      "text": " PI3K\u03b4 (idelalisib). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24323900",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Idelalisib (PI3K inhibitor) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24273091",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the last few years, several classes of potent and selective small molecule PI3K inhibitors have been developed, and at least fifteen compounds have progressed into clinical trials as new anticancer drugs. Among these, idelalisib",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24261963",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " idelalisib represents a first-in-class specific inhibitor of the phosphoinositol-3 kinase (PI3K) delta isoform.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24085367",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PI3K inhibitor idelalisib ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24014301",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the PI3K inhibitor idelalisib ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24009233",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PI3K-\u03b4 inhibitor idelalisib",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23847354",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "idelalisib (GS-1101) -a specific isoform of the PI3K (PI3K) inhibitor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23617253",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011955",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004364"
+  ],
+  "exact_answer": "PI3K-\u03b4, phosphoinositol-3 kinase delta isoform"
+}

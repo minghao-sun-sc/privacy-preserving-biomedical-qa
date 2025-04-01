@@ -1,0 +1,76 @@
+{
+  "id": "550889db098a1b487b000005",
+  "type": "summary",
+  "question": "What is the advantage of neutral loss detection in phosphoproteomics?",
+  "ideal_answer": "The localization of phosphorylation sites in peptide sequences is a challenging problem in large-scale phosphoproteomics analysis. The intense neutral loss peaks and the coexistence of multiple serine/threonine and/or tyrosine residues are limiting factors for objectively scoring site patterns across thousands of peptides.\nCID of phosphopeptides typically results in spectra dominated by a neutral loss of the phosphate group  allowing detection and sequencing of phosphopeptides.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21455477",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16641100",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18785766",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21526838",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15665377",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19241031",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19504542",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19056867",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22844594",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23918812",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21033674"
+  ],
+  "snippets": [
+    {
+      "text": "The higher-order fragmentations of neutral loss ions enhance the fragment ion mass spectra of phosphorylated peptides.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22844594",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we identified a novel fragmentation mechanism that generates a phosphorylation site-specific neutral loss derived x-ion, which directly pinpoints the phosphorylated residue",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21526838",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CID of phosphopeptides typically results in spectra dominated by a neutral loss of the phosphate group. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19504542",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this procedure we use a combination of tools to assign b-, y-, neutral loss, and internal fragment ions, with the goal of assigning all significant ions in the MS/MS spectrum. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19241031",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We extended the proteomic analysis to phosphoproteomic profiling using neutral loss scanning, and this yielded multiple novel phosphorylation sites, including serine-811 in the thiazide-sensitive Na-Cl co-transporter, NCC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19056867",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LC separation and MS/MS are followed by neutral loss-dependent MS/MS/MS for phosphopeptide identification using a linear ion trap (LTQ)-FT mass spectrometer. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18785766",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "phosphorylation site identification by liquid chromatography-mass spectrometry(n) neutral loss scanning.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16641100",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MS/MS and neutral loss-directed MS/MS/MS analysis allowed detection and sequencing of phosphopeptides with exceptional accuracy and specificity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15665377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The localization of phosphorylation sites in peptide sequences is a challenging problem in large-scale phosphoproteomics analysis. The intense neutral loss peaks and the coexistence of multiple serine/threonine and/or tyrosine residues are limiting factors for objectively scoring site patterns across thousands of peptides. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23918812",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

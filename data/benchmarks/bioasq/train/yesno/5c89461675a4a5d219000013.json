@@ -1,0 +1,54 @@
+{
+  "id": "5c89461675a4a5d219000013",
+  "type": "yesno",
+  "question": "Is Netrin-1 a secreted protein?",
+  "ideal_answer": "Yes,\nnetrin-1 is a secreted protein.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21303223",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17174565",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26039999",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28174720",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22046354",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24174661"
+  ],
+  "snippets": [
+    {
+      "text": "The axon guidance cues netrin-1 is a secreted protein overexpressed in many different cancer tissues",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21303223",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Netrin-1 is a secreted protein that directs long-range axon guidance during early stages of neural circuit formation and continues to be expressed in the mammalian forebrain during the postnatal period of peak synapse formation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24174661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Netrin-1, a laminin-related secreted protein, displays proto-oncogenic activity in cancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26039999",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Netrin-1, a multifunctional secreted protein, is up-regulated in cancer and inflammation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28174720",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "etrin-1 is a laminin-related secreted protein, is highly induced after tissue injury, and may serve as a marker of injury.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22046354",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Netrins are a family of secreted protein related to laminin and act as tropic cues directing axon growth and cell migration during neural development. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17174565",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "5ca64b5becadf2e73f000051",
+  "type": "list",
+  "question": "List the ERM proteins.",
+  "ideal_answer": "ezrin\nradixin\nmoesin",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29777033",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29311472",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29329782"
+  ],
+  "snippets": [
+    {
+      "text": "ezrin/radixin/moesin (ERM) proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29329782",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ezrin, radixin and moesin (ERM proteins)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29311472",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ezrin/radixin/moesin (ERM) proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29777033",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "ezrin, radixin, moesin"
+}

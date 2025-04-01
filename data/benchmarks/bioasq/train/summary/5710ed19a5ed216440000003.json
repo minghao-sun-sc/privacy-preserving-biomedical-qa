@@ -1,0 +1,287 @@
+{
+  "id": "5710ed19a5ed216440000003",
+  "type": "summary",
+  "question": "How does Rif1 regulate DNA replication?",
+  "ideal_answer": "Rif1 (Rap1-interacting-factor-1), originally identified as a telomere-binding factor in yeast, is a critical determinant of the replication timing programme in human cells. Rif1 tightly binds to nuclear-insoluble structures at late-M-to-early-G1 and regulates chromatin-loop sizes. Furthermore, Rif1 colocalizes specifically with the mid-S replication foci. Thus, Rif1 establishes the mid-S replication domains that are restrained from being activated at early-S-phase. Overall, Rif1 plays crucial roles in determining the replication timing domain structures in human cells through regulating higher-order chromatin architecture. This function of Rif1 depends on its interaction with PP1 phosphatases and the PP1/Rif1 interaction is downregulated by the phosphorylation of Rif1, most likely by CDK/DDK.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24462468",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24656819",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23809990",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24685139",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22850673",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24634216",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24879017",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24532715",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22279046",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19948482",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22850674",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15342490"
+  ],
+  "snippets": [
+    {
+      "text": "Protein phosphatase 1 recruitment by Rif1 regulates DNA replication origin firing by counteracting DDK activity",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24656819",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Yeast Rif1 associates with telomeres and regulates their length. In contrast, human Rif1 did not accumulate at functional telomeres, but localized to dysfunctional telomeres and to telomeric DNA clusters in ALT cells, a pattern of telomere association typical of DNA-damage-response factors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15342490",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "After induction of double-strand breaks (DSBs), Rif1 formed foci that colocalized with other DNA-damage-response factors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15342490",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These data reveal that human Rif1 contributes to the ATM-mediated protection against DNA damage and point to a remarkable difference in the primary function of this protein in yeast and mammals.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15342490",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mammalian Rif1 contributes to replication stress survival and homology-directed repair.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19948482",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Rif1 deficiency leads to failure in embryonic development, and conditional deletion of Rif1 from mouse embryo fibroblasts affects S-phase progression, rendering cells hypersensitive to replication poisons",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19948482",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rif1 deficiency does not alter the activation of the DNA replication checkpoint but rather affects the execution of repair.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19948482",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Consistent with a role in S-phase progression, Rif1 accumulates at stalled replication forks, preferentially around pericentromeric heterochromatin. Collectively, these findings reveal a function for Rif1 in the repair of stalled forks by facilitating HDR.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19948482",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rif1 regulates the replication timing domains on the human genome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22850674",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " Rif1 (Rap1-interacting-factor-1), originally identified as a telomere-binding factor in yeast, is a critical determinant of the replication timing programme in human cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22850674",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Depletion of Rif1 results in specific loss of mid-S replication foci profiles, stimulation of initiation events in early-S-phase and changes in long-range replication timing domain structures",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22850674",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rif1 tightly binds to nuclear-insoluble structures at late-M-to-early-G1 and regulates chromatin-loop sizes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22850674",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rif1 colocalizes specifically with the mid-S replication foci. Thus, Rif1 establishes the mid-S replication domains that are restrained from being activated at early-S-phase. Our results indicate that Rif1 plays crucial roles in determining the replication timing domain structures in human cells through regulating higher-order chromatin architecture.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22850674",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mouse Rif1 as a key player in the regulation of DNA replication timin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22850673",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mouse Rif1 is a key regulator of the replication-timing programme in mammalian cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22850673",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Rif1 deficiency in primary cells results in an unprecedented global alteration of the temporal order of replication",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22850673",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rif1 deletion and is neither accompanied by alterations in the transcriptional landscape nor by major changes in the biochemical identity of constitutive heterochromatin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22850673",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rif1 deficiency leads to both defective G1/S transition and chromatin re-organization after DNA replication",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22850673",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rif1 is a global regulator of timing of replication origin firing in fission yeast",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22279046",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We identified rif1\u0394, a null mutant of rif1(+), a conserved telomere-binding factor, as an efficient bypass mutant of fission yeast hsk1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22279046",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "At the same time, many early-firing, efficient origins are suppressed or delayed in firing timing in rif1\u0394",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22279046",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rif1 binds not only to telomeres, but also to many specific locations on the arm segments that only partially overlap with the prereplicative complex assembly sites, although Rif1 tends to bind in the vicinity of the late/dormant origins activated in rif1\u0394",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22279046",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rif1 is a critical determinant of the origin activation program on the fission yeast chromosomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22279046",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rif1 as a global regulator of replication timing",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23809990",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Rif1 which plays crucial roles in the regulation of the replication timing program in yeast as well as in higher eukaryotes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23809990",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In mammalian cells, Rif1 appears to regulate the structures of replication timing domains through its ability to organize chromatin loop structures. Regulation of chromatin architecture by Rif1 may be linked to other chromosome transactions including recombination, repair, or transcription.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23809990",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rif1 has recently been identified as a genome-wide regulator of replication timing in fission yeast and in mammalian cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24879017",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, previous studies in budding yeast have suggested that Rif1's role in controlling replication timing may be limited to subtelomeric domains and derives from its established role in telomere length regulation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24879017",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We have analyzed replication timing by analyzing BrdU incorporation genome-wide, and report that Rif1 regulates the timing of late/dormant replication origins throughout the S. cerevisiae genome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24879017",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rif1 regulates replication timing through a mechanism independent of this checkpoint.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24879017",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the Rif1 mechanism regulates origin timing irrespective of proximity to a chromosome end, and suggest instead that telomere sequences merely provide abundant binding sites for proteins that recruit Rif1. Still, the abundance of Rif1 binding in telomeric domains may facilitate Rif1-mediated repression of non-telomeric origins that are more distal from centromeres.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24879017",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rif1 controls DNA replication by directing Protein Phosphatase 1 to reverse Cdc7-mediated phosphorylation of the MCM complex",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24532715",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Mammalian Rif1 is a key regulator of DNA replication timing, double-stranded DNA break repair, and replication fork restart. Dissecting the molecular functions of Rif1 is essential to understand how it regulates such diverse processes. However, Rif1 is a large protein that lacks well defined functional domains and is predicted to be largely intrinsically disordered; these features have hampered recombinant expression of Rif1 and subsequent functional characterization. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24634216",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the first structural study of the mammalian Rif1, identifying a domain that directly links its function to DNA binding. The high specificity of Rif1 for cruciform structures is significant given the role of this key protein in regulating origin firing and DNA repair.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24634216",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RIF1: a novel regulatory factor for DNA replication and DNA damage response signaling.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24462468",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Rif1 is conserved from yeast to humans but its function has evolved from telomere length regulation in yeast to the maintenance of genome integrity in mammalian cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24462468",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recently its role in the maintenance of genomic integrity has been expanded to include the regulation of chromatin structure, replication timing and intra-S phase checkpoint",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24462468",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "budding yeast Rif1 protein inhibits activation of prereplication complexes (pre-RCs).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24685139",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Rif1 protein, originally identified as a telomere-binding factor in yeast, has recently been implicated in DNA replication control from yeast to metazoans",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24685139",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rif1 controls DNA replication timing in yeast through the PP1 phosphatase Glc7",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24685139",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Rif1 also interacts with Dbf4 in yeast two-hybrid assays, further implicating this protein in direct modulation of pre-RC activation through the DDK. Finally, we demonstrate Rif1 RVxF/SILK motif-dependent recruitment of Glc7 to telomeres and earlier replication of these regions in cells where the motifs are mutated. Our data thus link Rif1 to negative regulation of replication origin firing through recruitment of the Glc7 phosphatase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24685139",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rif1, originally identified as a telomeric protein, was recently implicated in specifying replication timing in yeast and mammals. We show that this function of Rif1 depends on its interaction with PP1 phosphatases",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24656819",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our data suggest that the PP1/Rif1 interaction is downregulated by the phosphorylation of Rif1, most likely by CDK/DDK. These findings elucidate the mechanism of action of Rif1 in the control of DNA replication and demonstrate a role of PP1 phosphatases in the regulation of origin firing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24656819",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent studies have identified factors that regulate the timing of origin activation, including Rif1 which plays crucial roles in the regulation of the replication timing program in yeast as well as in higher eukaryotes. In mammalian cells, Rif1 appears to regulate the structures of replication timing domains through its ability to organize chromatin loop structures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23809990",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

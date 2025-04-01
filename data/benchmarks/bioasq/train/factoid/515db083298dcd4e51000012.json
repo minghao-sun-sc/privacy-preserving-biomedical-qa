@@ -1,0 +1,20 @@
+{
+  "id": "515db083298dcd4e51000012",
+  "type": "factoid",
+  "question": "How many genes does the human hoxD cluster contain?",
+  "ideal_answer": "The human HOXD complex contains nine genes: HOXD1, HOXD3, HOXD4, HOXD8, HOXD9, HOXD10, HOXD11, HOXD12 and HOXD13, which are clustered from 3\u2032 to 5\u2032 in an approximately 100-kb stretch on chromosome 2q31.1 with HOXD1 at the 3' end and HOXD13 the 5\u2032 end.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10364522",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22879880"
+  ],
+  "snippets": [
+    {
+      "text": "Both children are heterozygous for a deletion that eliminates at least eight (HOXD3-HOXD13) of the nine genes in the HOXD cluster",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10364522",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "9"
+}

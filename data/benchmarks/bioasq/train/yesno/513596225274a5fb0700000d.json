@@ -1,0 +1,47 @@
+{
+  "id": "513596225274a5fb0700000d",
+  "type": "yesno",
+  "question": "Are nucleosomes positioned at DNA replication origins?",
+  "ideal_answer": "No, origins of replication occur in nucleosome-free regions in both budding yeast and Drosophila. Open chromatin domains, characterized by nucleosome depletion, are preferentially permissive for replication.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21148149",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19463783",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20351051",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1587867"
+  ],
+  "snippets": [
+    {
+      "text": "yeast origins are characterized by an asymmetric pattern of positioned nucleosomes flanking the ACS. The origin sequences are sufficient to maintain a nucleosome-free origin; however, ORC is required for the precise positioning of nucleosomes flanking the origin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20351051",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Here, we identify nucleosome occupancy as a likely candidate to set up ORI distribution",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19463783",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "we demonstrate that open chromatin domains, characterized by nucleosome depletion, are preferentially permissive for replication",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19463783",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Nucleosome assembly of the template prevented DNA replication. Replication of chromosomes was severely inhibited at more than two-thirds of physiological nucleosome density",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1587867",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018741",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009707",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051738",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004261",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D042522",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051716"
+  ],
+  "exact_answer": "Yes"
+}

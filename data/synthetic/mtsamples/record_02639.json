@@ -1,0 +1,36 @@
+{
+  "document_id": "record_02639",
+  "original_length": 3230,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "AND PLAN:  A 34-year-old Caucasian female, gravida 2 para 1-0-0-1, at unknown gestation who presents after suicide attempt.\n- Given the substances taken, medications are unlikely to affect the deve...",
+    "Symptoms": "",
+    "Treatment": "ned; however, she would desire to continue the pregnancy.,PAST MEDICAL HISTORY:  Diabetes mellitus which resolved after weight loss associated with gastric bypass surgery.,PAST SURGICAL HISTORY:\n- ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Lexapro 10 mg, Tramadol 50 mg, Ambien 10 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, NRP"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

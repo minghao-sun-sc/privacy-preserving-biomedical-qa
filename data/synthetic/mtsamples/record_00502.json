@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00502",
+  "original_length": 3109,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": ", Attempted incision and drainage (I&D) of odontogenic abscess.,ANESTHESIA:  ,1% lidocaine plain approximately 5 cc total.,COMPLICATIONS: , The patient is very noncompliant with attempted procedure...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "clindamycin 900 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Attempted incision and drainage (I&D) of odontogen...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

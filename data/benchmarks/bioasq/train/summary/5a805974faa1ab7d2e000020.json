@@ -1,0 +1,118 @@
+{
+  "id": "5a805974faa1ab7d2e000020",
+  "type": "summary",
+  "question": "What is the Strelka workflow?",
+  "ideal_answer": "Whole genome and exome sequencing of matched tumor-normal sample pairs is becoming routine in cancer research. The consequent increased demand for somatic variant analysis of paired samples requires methods specialized to model this problem so as to sensitively call variants at any practical level of tumor impurity. Strelka is a method for somatic SNV and small indel detection from sequencing data of matched tumor-normal samples. The method uses a novel Bayesian approach which represents continuous allele frequencies for both tumor and normal samples, while leveraging the expected genotype structure of the normal. This is achieved by representing the normal sample as a mixture of germline variation with noise, and representing the tumor sample as a mixture of the normal sample with somatic variation. A natural consequence of the model structure is that sensitivity can be maintained at high tumor impurity without requiring purity estimates. Strelka has superior accuracy and sensitivity on impure samples compared with approaches based on either diploid genotype likelihoods or general allele-frequency tests.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28522612",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28954988",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29020110",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24678773",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28177460",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23842810",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27002637",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27874022",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22581179"
+  ],
+  "snippets": [
+    {
+      "text": "Strelka: accurate somatic small-variant calling from sequenced tumor-normal sample pairs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22581179",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Whole genome and exome sequencing of matched tumor-normal sample pairs is becoming routine in cancer research. The consequent increased demand for somatic variant analysis of paired samples requires methods specialized to model this problem so as to sensitively call variants at any practical level of tumor impurity.RESULTS: We describe Strelka, a method for somatic SNV and small indel detection from sequencing data of matched tumor-normal samples. The method uses a novel Bayesian approach which represents continuous allele frequencies for both tumor and normal samples, while leveraging the expected genotype structure of the normal. This is achieved by representing the normal sample as a mixture of germline variation with noise, and representing the tumor sample as a mixture of the normal sample with somatic variation. A natural consequence of the model structure is that sensitivity can be maintained at high tumor impurity without requiring purity estimates. We demonstrate that the method has superior accuracy and sensitivity on impure samples compared with approaches based on either diploid genotype likelihoods or general allele-frequency tests.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22581179",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The consequent increased demand for somatic variant analysis of paired samples requires methods specialized to model this problem so as to sensitively call variants at any practical level of tumor impurity.<br><b>RESULTS</b>: We describe Strelka, a method for somatic SNV and small indel detection from sequencing data of matched tumor-normal samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22581179",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "For SNV calling, we report EBCall, Mutect, Virmid and Strelka to be the most reliable somatic variant callers for both exome sequencing and targeted deep sequencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27002637",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS We describe Strelka, a method for somatic SNV and small indel detection from sequencing data of matched tumor-normal samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22581179",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Four recently published algorithms for the detection of somatic SNV sites in matched cancer-normal sequencing datasets are VarScan, SomaticSniper, JointSNVMix and Strelka.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23842810",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "whole genome and exome sequencing of matched tumor normal sample pairs is becoming routine in cancer research the consequent increased demand for somatic variant analysis of paired samples requires methods specialized to model this problem so as to sensitively call variants at any practical level of tumor impurity we describe strelka a method for somatic snv and small indel detection from sequencing data of matched tumor normal samples the method uses a novel bayesian approach which represents continuous allele frequencies for both tumor and normal samples while leveraging the expected genotype structure of the normal this is achieved by representing the normal sample as a mixture of germline variation with noise and representing the tumor sample as a mixture of the normal sample with somatic variation a natural consequence of the model structure is that sensitivity can be maintained at high tumor impurity without requiring purity estimates we demonstrate that the method has superior accuracy and sensitivity on impure samples compared with approaches based on either diploid genotype likelihoods or general allele frequency tests the strelka workflow source code is available at ftp strelka ftp illumina com csaunders illumina com.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22581179",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "strelka accurate somatic small variant calling from sequenced tumor normal sample pairs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22581179",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "four popular somatic single nucleotide variant snv calling methods varscan somaticsniper strelka and mutect2 were carefully evaluated on the real whole exome sequencing wes depth of 50x and ultra deep targeted sequencing udt seq depth of 370x data the four tools returned poor consensus on candidates only 20 of calls were with multiple hits by the callers for both wes and udt seq mutect2 and strelka obtained the largest proportion of cosmic entries as well as the lowest rate of dbsnp presence and high alternative alleles in control calls demonstrating their superior sensitivity and accuracy combining different callers does increase reliability of candidates but narrows the list down to very limited range of tumor read depth and variant allele frequency calling snv on udt seq data which were of much higher read depth discovered additional true positive variations despite an even more tremendous growth in false positive predictions our findings not only provide valuable benchmark for state of the art snv calling methods but also shed light on the access to more accurate snv identification in the future.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27874022",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "high throughput next generation sequencing is a powerful tool to identify the genotypic landscapes of somatic variants and therapeutic targets in various cancers including gastric cancer forming the basis for personalized medicine in the clinical setting although the advent of many computational algorithms leads to higher accuracy in somatic variant calling no standard method exists due to the limitations of each method here we constructed a new pipeline we combined two different somatic variant callers with different algorithms strelka and varscan 2 and evaluated performance using whole exome sequencing data obtained from 19 japanese cases with gastric cancer gc then we characterized these tumors based on identified driver molecular alterations more single nucleotide variants snvs and small insertions deletions were detected by strelka and varscan 2 respectively snvs detected by both tools showed higher accuracy for estimating somatic variants compared with those detected by only one of the two tools and accurately showed the mutation signature and mutations of driver genes reported for gc our combinatorial pipeline may have an advantage in detection of somatic mutations in gc and may be useful for further genomic characterization of japanese patients with gc to improve the efficacy of gc treatments j med invest 64 233 240 august 2017.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28954988",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "with the advent of relatively affordable high throughput technologies dna sequencing of cancers is now common practice in cancer research projects and will be increasingly used in clinical practice to inform diagnosis and treatment somatic cancer only single nucleotide variants snvs are the simplest class of mutation yet their identification in dna sequencing data is confounded by germline polymorphisms tumour heterogeneity and sequencing and analysis errors four recently published algorithms for the detection of somatic snv sites in matched cancer normal sequencing datasets are varscan somaticsniper jointsnvmix and strelka in this analysis we apply these four snv calling algorithms to cancer normal illumina exome sequencing of a chronic myeloid leukaemia cml patient the candidate snv sites returned by each algorithm are filtered to remove likely false positives then characterized and compared to investigate the strengths and weaknesses of each snv calling algorithm comparing the candidate snv sets returned by varscan somaticsniper jointsnvmix2 and strelka revealed substantial differences with respect to the number and character of sites returned the somatic probability scores assigned to the same sites their susceptibility to various sources of noise and their sensitivities to low allelic fraction candidates data accession number sra081939 code at http code google com p snv caller review david adelson adelaide edu au supplementary data are available at bioinformatics online.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23842810",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "next generation sequencing is extensively applied to catalogue somatic mutations in cancer in research settings and increasingly in clinical settings for molecular diagnostics guiding therapy decisions somatic variant callers perform paired comparisons of sequencing data from cancer tissue and matched normal tissue in order to detect somatic mutations the advent of many new somatic variant callers creates a need for comparison and validation of the tools as no de facto standard for detection of somatic mutations exists and only limited comparisons have been reported we have performed a comprehensive evaluation using exome sequencing and targeted deep sequencing data of paired tumor normal samples from five breast cancer patients to evaluate the performance of nine publicly available somatic variant callers ebcall mutect seurat shimmer indelocator somatic sniper strelka varscan 2 and virmid for the detection of single nucleotide mutations and small deletions and insertions we report a large variation in the number of calls from the nine somatic variant callers on the same sequencing data and highly variable agreement sequencing depth had markedly diverse impact on individual callers as for some callers increased sequencing depth highly improved sensitivity for snv calling we report ebcall mutect virmid and strelka to be the most reliable somatic variant callers for both exome sequencing and targeted deep sequencing for indel calling ebcall is superior due to high sensitivity and robustness to changes in sequencing depths.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27002637",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "high throughput sequencing is rapidly becoming common practice in clinical diagnosis and cancer research many algorithms have been developed for somatic single nucleotide variant snv detection in matched tumor normal dna sequencing although numerous studies have compared the performance of various algorithms on exome data there has not yet been a systematic evaluation using pcr enriched amplicon data with a range of variant allele fractions the recently developed gold standard variant set for the reference individual na12878 by the nist led genome in a bottle consortium nist giab provides a good resource to evaluate admixtures with various snv fractions using the nist giab gold standard we compared the performance of five popular somatic snv calling algorithms gatk unifiedgenotyper followed by simple subtraction mutect strelka somaticsniper and varscan2 for matched tumor normal amplicon and exome sequencing data we demonstrated that the five commonly used somatic snv calling methods are applicable to both targeted amplicon and exome sequencing data however the sensitivities of these methods vary based on the allelic fraction of the mutation in the tumor sample our analysis can assist researchers in choosing a somatic snv calling method suitable for their specific needs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24678773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "identifying genomic variants is a fundamental first step toward the understanding of the role of inherited and acquired variation in disease the accelerating growth in the corpus of sequencing data that underpins such analysis is making the data download bottleneck more evident placing substantial burdens on the research community to keep pace as a result the search for alternative approaches to the traditional download and analyze paradigm on local computing resources has led to a rapidly growing demand for cloud computing solutions for genomics analysis here we introduce the genome variant investigation platform genomevip an open source framework for performing genomics variant discovery and annotation using cloud or local high performance computing infrastructure genomevip orchestrates the analysis of whole genome and exome sequence data using a set of robust and popular task specific tools including varscan gatk pindel breakdancer strelka and genome strip through a web interface genomevip has been used for genomic analysis in large data projects such as the tcga pancanatlas and in other projects such as the icgc pilots cptac icgc tcga dream challenges and the 1000 genomes sv project here we demonstrate genomevip s ability to provide high confidence annotated somatic germline and de novo variants of potential biological significance using publicly available data sets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28522612",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "precision medicine attempts to individualize cancer therapy by matching tumor specific genetic changes with effective targeted therapies a crucial first step in this process is the reliable identification of cancer relevant variants which is considerably complicated by the impurity and heterogeneity of clinical tumor samples we compared the impact of admixture of non cancerous cells and low somatic allele frequencies on the sensitivity and precision of 19 state of the art snv callers we studied both whole exome and targeted gene panel data and up to 13 distinct parameter configurations for each tool we found vast differences among callers based on our comprehensive analyses we recommend joint tumor normal calling with mutect ebcall or strelka for whole exome somatic variant calling and haplotypecaller or freebayes for whole exome germline calling for targeted gene panel data on a single tumor sample lofreqstar performed best we further found that tumor impurity and admixture had a negative impact on precision and in particular sensitivity in whole exome experiments at admixture levels of 60 to 90 sometimes seen in pathological biopsies sensitivity dropped significantly even when variants were originally present in the tumor at 100 allele frequency sensitivity to low frequency snvs improved with targeted panel data but whole exome data allowed more efficient identification of germline variants effective somatic variant calling requires high quality pathological samples with minimal admixture a consciously selected sequencing strategy and the appropriate variant calling tool with settings optimized for the chosen type of data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29020110",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we performed whole exome sequencing of pretreatment biopsies and examined whether genome wide metrics of overall mutational load clonal heterogeneity or alterations at variant gene and pathway levels are associated with treatment response and survival two hundred and three biopsies from the neoaltto trial were analyzed mutations were called with mutect and strelka using pooled normal dna associations between dna alterations and outcome were evaluated by logistic and cox proportional hazards regression there were no recurrent single gene mutations significantly associated with pathologic complete response pcr except pik3ca odds ratio or 0 42 p 0 0185 mutations in 33 of 714 pathways were significantly associated with response but different genes were affected in different individuals pik3ca was present in 23 of these pathways defining a trastuzumab resistance network of 459 genes cases with mutations in this network had low pcr rates to trastuzumab 2 50 4 compared with cases with no mutations 9 16 56 or 0 035 p 0 001 mutations in the regulation of rhoa activity pathway were associated with higher pcr rate to lapatinib or 14 8 adjusted p 0 001 lapatinib trastuzumab or 3 0 adjusted p 0 09 and all arms combined or 3 77 adjusted p 0 02 patients n 124 with mutations in the trastuzumab resistance network but intact rhoa pathway had 2 1 41 pcr rate with trastuzumab alone or 0 026 p 0 001 but adding lapatinib increased pcr rate to 45 17 38 or 1 68 p 0 3 patients n 46 who had no mutations in either gene set had 6 pcr rate 1 15 with lapatinib but had the highest pcr rate 52 8 15 with trastuzumab alone mutations in the rhoa pathway are associated with pcr to lapatinib and mutations in a pik3ca related network are associated with resistance to trastuzumab the combined mutation status of these two pathways could define patients with very low response rate to trastuzumab alone that can be augmented by adding lapatinib or substituting trastuzumab with lapatinib.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28177460",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D014644"
+  ]
+}

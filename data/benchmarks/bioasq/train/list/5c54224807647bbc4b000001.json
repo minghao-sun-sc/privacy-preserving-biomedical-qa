@@ -1,0 +1,69 @@
+{
+  "id": "5c54224807647bbc4b000001",
+  "type": "list",
+  "question": "What are the roles of LEM-3?",
+  "ideal_answer": "LEM-3 is a midbody-tethered DNA nuclease that resolves chromatin bridges during late mitosis. The conserved LEM-3/Ankle1 nuclease is involved in the combinatorial regulation of meiotic recombination repair and chromosome segregation in Caenorhabditis elegans. LEM-3 is able to process erroneous recombination intermediates that persist into the second meiotic division.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29879106",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29463814",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22383942"
+  ],
+  "snippets": [
+    {
+      "text": "LEM-3 is a midbody-tethered DNA nuclease that resolves chromatin bridges during late mitosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29463814",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Using C. elegans embryos we show that the LEM-3/Ankle1 nuclease defines a previously undescribed genome integrity mechanism by processing DNA bridges right before cells divide. LEM-3 acts at the midbody, the structure where abscission occurs at the end of cytokinesis. LEM-3 localization depends on factors needed for midbody assembly, and LEM-3 accumulation is increased and prolonged when chromatin bridges are trapped at the cleavage plane. LEM-3 locally processes chromatin bridges that arise from incomplete DNA replication, unresolved recombination intermediates, or the perturbance of chromosome structure. Proper LEM-3 midbody localization and function is regulated by AIR-2/Aurora B kinase. Strikingly, LEM-3 acts cooperatively with the BRC-1/BRCA1 homologous recombination factor to promote genome integrity. These findings provide a molecular basis for the suspected role of the LEM-3 orthologue Ankle1 in human breast cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29463814",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The conserved LEM-3/Ankle1 nuclease is involved in the combinatorial regulation of meiotic recombination repair and chromosome segregation in Caenorhabditis elegans.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29879106",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we show that the LEM-3 nuclease, mutation of which by itself does not have an overt meiotic phenotype, genetically interacts with slx-1 and mus-81 mutants, the respective double mutants displaying 100% embryonic lethality. The combined loss of LEM-3 and MUS-81 leads to altered processing of recombination intermediates, a delayed disassembly of foci associated with CO designated sites, and the formation of univalents linked by SPO-11 dependent chromatin bridges (dissociated bivalents). However, LEM-3 foci do not colocalize with ZHP-3, a marker that congresses into CO designated sites. In addition, neither CO frequency nor distribution is altered in lem-3 single mutants or in combination with mus-81 or slx-4 mutations. Finally, we found persistent chromatin bridges during meiotic divisions in lem-3; slx-4 double mutants. Supported by the localization of LEM-3 between dividing meiotic nuclei, this data suggest that LEM-3 is able to process erroneous recombination intermediates that persist into the second meiotic division.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29879106",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LEM-3 - A LEM domain containing nuclease involved in the DNA damage response in C. elegans.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22383942",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Strikingly, LEM-3 acts cooperatively with the BRC-1/BRCA1 homologous recombination factor to promote genome integrity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29463814",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LEM-3 locally processes chromatin bridges that arise from incomplete DNA replication, unresolved recombination intermediates, or the perturbance of chromosome structure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29463814",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using C. elegans embryos we show that the LEM-3/Ankle1 nuclease defines a previously undescribed genome integrity mechanism by processing DNA bridges right before cells divide.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29463814",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LEM-3 acts at the midbody, the structure where abscission occurs at the end of cytokinesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29463814",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "LEM-3 resolves chromatin bridges during late mitosis, LEM-3 is involved in the combinatorial regulation of meiotic recombination repair and chromosome segregation in Caenorhabditis elegans, LEM-3 is able to process erroneous recombination intermediates that persist into the second meiotic division."
+}

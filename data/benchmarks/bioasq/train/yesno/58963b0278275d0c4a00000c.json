@@ -1,0 +1,38 @@
+{
+  "id": "58963b0278275d0c4a00000c",
+  "type": "yesno",
+  "question": "Is there alternative polyadenylation during zebrafish development?",
+  "ideal_answer": "Yes. There is extensive alternative polyadenylation during zebrafish development.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22722342"
+  ],
+  "snippets": [
+    {
+      "text": "Extensive alternative polyadenylation during zebrafish development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22722342",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "At 2 h post-fertilization, thousands of unique poly(A) sites appear at locations lacking a typical polyadenylation signal, which suggests a wave of widespread cytoplasmic polyadenylation of mRNA degradation intermediates. Our insights into the identities, formation, and evolution of zebrafish 3' UTRs provide a resource for studying gene regulation during vertebrate development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22722342",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Extensive alternative polyadenylation during zebrafish development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22722342",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D026723",
+    "http://amigo.geneontology.org/amigo/term/GO:1900365",
+    "http://amigo.geneontology.org/amigo/term/GO:1900364",
+    "http://amigo.geneontology.org/amigo/term/GO:1900363",
+    "http://amigo.geneontology.org/amigo/term/GO:0006378",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015027"
+  ],
+  "exact_answer": "Yes"
+}

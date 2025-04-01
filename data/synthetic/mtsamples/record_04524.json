@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04524",
+  "original_length": 3351,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "she had absolutely no symptoms.  As mentioned above, she was noted to have abnormal alkaline phosphatase and total bilirubin, AST and ALT, which prompted the followup.  She has had some difficulty ...",
+    "Symptoms": "",
+    "Treatment": "MRI scan",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Lipitor 10 mg, Lutein 20 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'As mentioned above, she was noted to have abnormal...'"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

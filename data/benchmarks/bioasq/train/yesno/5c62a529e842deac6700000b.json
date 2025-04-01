@@ -1,0 +1,50 @@
+{
+  "id": "5c62a529e842deac6700000b",
+  "type": "yesno",
+  "question": "Is the yeast (Saccharomyces cerevisiae) genome organized into topologically associated domains (TADs)?",
+  "ideal_answer": "Yes. By analyzing Hi-C data for budding yeast, 200-kb scale topologically associated domains (TADs) have been identified, whose boundaries are enriched for transcriptional activity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28348222",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28780612"
+  ],
+  "snippets": [
+    {
+      "text": "Recent advances in our understanding of the three-dimensional organization of the eukaryotic nucleus have rendered the spatial distribution of genes increasingly relevant. In a recent work (Tsochatzidou et al., Nucleic Acids Res 45:5818-5828, 2017), we proposed the existence of a functional compartmentalization of the yeast genome according to which, genes occupying the chromosomal regions at the nuclear periphery have distinct structural, functional and evolutionary characteristics compared to their centromeric-proximal counterparts. Around the same time, it was also shown that the genome of Saccharomyces cerevisiae is organized in topologically associated domains (TADs), which are largely associated with the replication timing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28780612",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Form and function of topologically associating genomic domains in budding yeast.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28348222",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Although similar structures appear to be conserved in fission yeast, computational modeling and analysis of high-throughput chromosome conformation capture (Hi-C) data have been used to argue that the small, highly constrained budding yeast chromosomes could not have these structures. In contrast, herein we analyze Hi-C data for budding yeast and identify 200-kb scale TADs, whose boundaries are enriched for transcriptional activity. Furthermore, these boundaries separate regions of similarly timed replication origins connecting the long-known effect of genomic context on replication timing to genome architecture. To investigate the molecular basis of TAD formation, we performed Hi-C experiments on cells depleted for the Forkhead transcription factors, Fkh1 and Fkh2, previously associated with replication timing. Forkhead factors do not regulate TAD formation, but do promote longer-range genomic interactions and control interactions between origins near the centromere. Thus, our work defines spatial organization within the budding yeast nucleus, demonstrates the conserved role of genome architecture in regulating DNA replication, and identifies a molecular mechanism specifically regulating interactions between pericentric origins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28348222",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Around the same time, it was also shown that the genome of Saccharomyces cerevisiae is organized in topologically associated domains (TADs), which are largely associated with the replication timing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28780612",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Around the same time, it was also shown that the genome of Saccharomyces cerevisiae is organized in topologically associated domains (TADs), which are largely associated with the replication timing. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28780612",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In contrast, herein we analyze Hi-C data for budding yeast and identify 200-kb scale TADs, whose boundaries are enriched for transcriptional activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28348222",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

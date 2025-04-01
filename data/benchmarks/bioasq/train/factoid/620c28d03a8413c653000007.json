@@ -1,0 +1,25 @@
+{
+  "id": "620c28d03a8413c653000007",
+  "type": "factoid",
+  "question": "Which type of cancer has been suggested as a strategy for potential small-molecule inhibition of METTL3?",
+  "ideal_answer": "Small-molecule inhibition of METTL3 is a strategy against myeloid leukaemia. Targeting of RNA-modifying enzymes represents a promising avenue for anticancer therapy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33902106"
+  ],
+  "snippets": [
+    {
+      "text": "Small-molecule inhibition of METTL3 as a strategy against myeloid leukaemia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33902106",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we present the identification and characterization of STM2457, a highly potent and selective first-in-class catalytic inhibitor of METTL3, and a crystal structure of STM2457 in complex with METTL3-METTL14. Treatment of tumours with STM2457 leads to reduced AML growth and an increase in differentiation and apoptosis. These cellular effects are accompanied by selective reduction of m6A levels on known leukaemogenic mRNAs and a decrease in their expression consistent with a translational defect. We demonstrate that pharmacological inhibition of METTL3 in vivo leads to impaired engraftment and prolonged survival in various mouse models of AML, specifically targeting key stem cell subpopulations of AML. Collectively, these results reveal the inhibition of METTL3 as a potential therapeutic strategy against AML, and provide proof of concept that the targeting of RNA-modifying enzymes represents a promising avenue for anticancer therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33902106",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "myeloid leukaemia"
+}

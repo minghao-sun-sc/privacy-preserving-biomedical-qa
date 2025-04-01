@@ -1,0 +1,33 @@
+{
+  "id": "5c72c9207c78d6947100007b",
+  "type": "list",
+  "question": "Which methods are used for genome segmentation of gene expression data?",
+  "ideal_answer": "Most of the used methods are variations of Markov Models such as Markov Chain Monte Carlo (MCMC) or Combinatorial methods.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17358192",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23077526",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12386005"
+  ],
+  "snippets": [
+    {
+      "text": "We use piecewise constant intensity models with varying number of pieces, and show how a reversible jump Markov Chain Monte Carlo (RJMCMC) method can be used to obtain a posteriori distribution on the intensity of the patterns along the genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12386005",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We introduce Markov models for segmentation of symbolic sequences, extending a segmentation procedure based on the Jensen-Shannon divergence that has been introduced earlier. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17358192",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our method is based on a combinatorial genome segmentation solely using information on combinations of epigenetic marks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23077526",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Reversible Jump Markov Chain Monte Carlo, RJMCMC, Markov Models, combinatorial genome segmentation"
+}

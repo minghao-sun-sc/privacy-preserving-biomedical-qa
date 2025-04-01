@@ -1,0 +1,26 @@
+{
+  "id": "63eeec79f36125a426000006",
+  "type": "factoid",
+  "question": "Talquetamab was developed for treatment of which disease?",
+  "ideal_answer": "Talquetamab was developed for treatment of multiple myeloma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/36352205",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36006441"
+  ],
+  "snippets": [
+    {
+      "text": "Effects of teclistamab and talquetamab on soluble BCMA levels in patients with relapsed/refractory multiple myeloma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36006441",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The bispecific antibodies teclistamab (BCMA\u00d7CD3) and talquetamab (G protein-coupled receptor family C group 5 member D [GPRC5D]\u00d7CD3) are in clinical development as therapies for MM. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36006441",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "multiple myeloma"
+}

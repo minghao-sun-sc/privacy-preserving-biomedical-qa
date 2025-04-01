@@ -1,0 +1,76 @@
+{
+  "id": "61f59592882a024a10000010",
+  "type": "yesno",
+  "question": "Is Sotrovimab effective for COVID-19?",
+  "ideal_answer": "Yes. Among high-risk patients with mild-to-moderate Covid-19, sotrovimab reduced the risk of disease progression.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34531332",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34819468",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34706189",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34556486"
+  ],
+  "snippets": [
+    {
+      "text": "It seems that monoclonal antibodies (e.g., low dosage bamlanivimab, baricitinib, imatinib, and sotrovimab) are a better choice for treating severe or non-severe COVID-19 patients. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34531332",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Food and Drug Administration has granted emergency use authorization to sotrovimab for the treatment of mild to moderate COVID-19 in patients at increased risk for progression to severe illness.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34819468",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Early Treatment for Covid-19 with SARS-CoV-2 Neutralizing Antibody Sotrovimab.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34706189",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Sotrovimab is a pan-sarbecovirus monoclonal antibody that was designed to prevent progression of Covid-19 in high-risk patients early in the course of disease",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34706189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: Among high-risk patients with mild-to-moderate Covid-19, sotrovimab reduced the risk of disease progression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34706189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Food and Drug Administration has granted emergency use authorization to sotrovimab for the treatment of mild to moderate COVID-19 in patients at increased risk for progression to severe illness.Sotrovimab is a monoclonal antibody that works directly against the spike protein of SARS-CoV-2 to block its attachment and entry into a human cell.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34819468",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In patients with non-severe covid-19, casirivimab-imdevimab probably reduces hospitalisation; bamlanivimab-etesevimab, bamlanivimab, and sotrovimab may reduce hospitalisation. Convalescen",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34556486",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ms that monoclonal antibodies (e.g., low dosage bamlanivimab, baricitinib, imatinib, and sotrovimab) are a better choice for treating severe or non-severe COVID-19 patients. Clini",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34531332",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Early Treatment for Covid-19 with SARS-CoV-2 Neutralizing Antibody Sotrovimab",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34706189",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The Food and Drug Administration has granted emergency use authorization to sotrovimab for the treatment of mild to moderate COVID-19 in patients at increased risk for progression to severe illness",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34819468",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

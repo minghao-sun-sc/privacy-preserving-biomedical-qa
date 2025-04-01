@@ -1,0 +1,36 @@
+{
+  "document_id": "record_02317",
+  "original_length": 4018,
+  "synthetic_length": 704,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Partial rotator cuff tear, left shoulder.,POSTOPERATIVE DIAGNOSIS: , Partial rotator cuff tear, left shoulder.,PROCEDURE PERFORMED:, Arthroscopy of the left shoulder with arthroscop...",
+    "Symptoms": "",
+    "Treatment": "MRI scan",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',POSTOPERATIVE DIAGNOSIS: , Partial rotator cuff t...'"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

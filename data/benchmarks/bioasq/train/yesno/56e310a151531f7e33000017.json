@@ -1,0 +1,63 @@
+{
+  "id": "56e310a151531f7e33000017",
+  "type": "yesno",
+  "question": "Do RNA:DNA hybrids preferentially form in high or low GC regions?",
+  "ideal_answer": "Transcription through a GC-rich region favors R-loop formation, with the nascent (G-rich) RNA forming a stable RNA:DNA hybrid with the template DNA strand.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24976131",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2415514",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20729633",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18358810",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24743386"
+  ],
+  "snippets": [
+    {
+      "text": "Intrinsic termination signals for multisubunit bacterial RNA polymerases (RNAPs) encode a GC-rich stem-loop structure followed by a polyuridine [poly(U)] tract, and it has been proposed that steric clash of the stem-loop with the exit pore of the RNAP imposes a shearing force on the RNA in the downstream RNA:DNA hybrid, resulting in misalignment of the active site",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24976131",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We have observed that transcription through the GC-rich FMR1 5'UTR region favors R-loop formation, with the nascent (G-rich) RNA forming a stable RNA:DNA hybrid with the template DNA strand, thereby displacing the non-template DNA strand.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24743386",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription termination by bacterial RNA polymerase (RNAP) occurs at sequences coding for a GC-rich RNA hairpin followed by a U-rich tract. We used single-molecule techniques to investigate the mechanism by which three representative terminators (his, t500, and tR2) destabilize the elongation complex (EC).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18358810",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the 5' flanking region, nucleotides -234 to -213 encompass a GC-rich region which exhibits high homology (greater than 70%) to the 5' flanking regions of the genes of all the apolipoproteins published to date, namely, apo-A-II (-497 to -471), apo-A-I (approximately -196 to -179), apo-E (-409 to -391), and apo-C-III (approximately -116 to -103).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2415514",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recently, we demonstrated that cotranscriptional RNA\u2022DNA hybrids are preferentially formed at GC-rich trinucleotide and tetranucleotide repeat sequences in vitro as well as in human genomic DNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20729633",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Considering the extent of transcription through the human genome as well as the abundance of GC-rich and/or non-canonical DNA structure forming tandem repeats, RNA\u2022DNA hybrids may represent a common mutagenic conformation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20729633",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recently, we demonstrated that cotranscriptional RNA\u2022DNA hybrids are preferentially formed at GC-rich trinucleotide and tetranucleotide repeat sequences in vitro as well as in human genomic DNA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20729633",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012313",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004247",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020862"
+  ],
+  "exact_answer": "Yes"
+}

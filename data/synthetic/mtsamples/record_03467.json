@@ -1,0 +1,36 @@
+{
+  "document_id": "record_03467",
+  "original_length": 5024,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,Esophageal rupture.,POSTOPERATIVE DIAGNOSIS:,  Esophageal rupture.,OPERATION PERFORMED\n- Left thoracotomy with drainage of pleural fluid collection.\n- Esophageal exploration and repa...",
+    "Symptoms": "",
+    "Treatment": "CT scan",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Left thoracotomy with drainage of pleural fluid co...'"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

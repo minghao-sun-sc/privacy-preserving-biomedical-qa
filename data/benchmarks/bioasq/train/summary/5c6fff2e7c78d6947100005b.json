@@ -1,0 +1,195 @@
+{
+  "id": "5c6fff2e7c78d6947100005b",
+  "type": "summary",
+  "question": "What is GeneWeaver used for?",
+  "ideal_answer": "GeneWeaver: a web-based system for integrative functional genomics.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24233775",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26834590",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23195309",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22080549",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24731198",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27933523",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25374613",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26656951",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26092690",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24923803"
+  ],
+  "snippets": [
+    {
+      "text": "GeneWeaver: a web-based system for integrative functional genomics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22080549",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The freely available GeneWeaver (http://www.GeneWeaver.org) powered by the Ontological Discovery Environment is a curated repository of genomic experimental results with an accompanying tool set for dynamic integration of these data sets, enabling users to interactively address questions about sets of biological functions and their relations to sets of genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22080549",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The GeneWeaver.org system provides a platform for cross-species integration and interrogation of heterogeneous curated and experimentally derived functional genomics data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26092690",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "GeneWeaver enables researchers to store, share, analyze, and compare results of their own genome-wide functional genomics experiments in an environment containing rich companion data obtained from major curated repositories, including the Mouse Genome Database and other model organism databases, along with derived data from highly specialized resources, publications, and user submissions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26092690",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The GeneWeaver data and analytics website (www.geneweaver.org) is a publically available resource for storing, curating and analyzing sets of genes from heterogeneous data sources.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26656951",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "GeneWeaver empowers users with the ability to construct data driven descriptions of shared and unique biological processes, diseases and traits within and across species.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26656951",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our interactive web-based software system, Gene Weaver (http://www.geneweaver.org), couples curated results from genomic studies to graph-theoretical tools for combinatorial analysis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26834590",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "GeneWeaver is an online database and suite of tools at www.geneweaver.org that allows for fast aggregation and analysis of gene set-centric data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27933523",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we use GeneWeaver to find genes common to multiple gene sets, prioritize candidate genes from a quantitative trait locus, and characterize a set of differentially expressed genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27933523",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These can be entered directly into GeneWeaver or transferred from widely used resources such as GeneNetwork.org.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27933523",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "GeneWeaver contains curated experimental data together with resource-level data such as GO annotations, MP annotations, and KEGG pathways, along with persistent stores of user entered data sets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27933523",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "By enumerating the common and distinct biological molecules associated with all subsets of curated or user submitted groups of gene sets and gene networks, GeneWeaver empowers users with the ability to construct data driven descriptions of shared and unique biological processes, diseases and traits within and across species.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26656951",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The GeneWeaver bipartite data model provides an efficient means to evaluate shared molecular components from sets derived across diverse species, disease states and biological processes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25374613",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Interrogating common relationships among biological networks and conventional GeneWeaver gene lists will increase functional specificity and reliability of the shared biological components.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25374613",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our interactive web-based software system, Gene Weaver (http://www.geneweaver.org), couples curated results from genomic studies to graph-theoretical tools for combinatorial analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26834590",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A robust implementation has been incorporated into GeneWeaver, an online tool for integrating and analyzing functional genomics experiments, available at http://geneweaver.org.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24731198",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The GeneWeaver web-based software system brings together a large data archive from diverse functional genomics data with a suite of combinatorial tools in an interactive environment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24233775",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Data from multiple such publications and public data resources have been incorporated in the GeneWeaver database with >60,000 gene sets including 285 alcohol withdrawal and preference-related gene sets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24923803",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Data from multiple such publications and public data resources have been incorporated in the GeneWeaver database with &amp;gt;60,000 gene sets including 285 alcohol withdrawal and preference-related gene sets. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24923803",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These can be entered directly into GeneWeaver or transferred from widely used resources such as GeneNetwork.org. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27933523",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A robust implementation has been incorporated into GeneWeaver, an online tool for integrating and analyzing functional genomics experiments, available at http://geneweaver.org. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24731198",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The freely available GeneWeaver (http://www.GeneWeaver.org) powered by the Ontological Discovery Environment is a curated repository of genomic experimental results with an accompanying tool set for dynamic integration of these data sets, enabling users to interactively address questions about sets of biological functions and their relations to sets of genes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22080549",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "GeneWeaver.org is a web-based software system that employs many of these techniques and has been used in the study of complex behavior and addiction. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23195309",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "GeneWeaver: data driven alignment of cross-species genomics in biology and disease.The GeneWeaver data and analytics website (www.geneweaver.org) is a publically available resource for storing, curating and analyzing sets of genes from heterogeneous data sources. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26656951",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "GeneWeaver contains curated experimental data together with resource-level data such as GO annotations, MP annotations, and KEGG pathways, along with persistent stores of user entered data sets. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27933523",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Since the previous review in the 2012 Nucleic Acids Research Database issue, GeneWeaver's underlying analytics platform has been enhanced, its number and variety of publically available gene set data sources has been increased, and its advanced search mechanisms have been expanded.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26656951",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A search of over 60,000 gene sets in GeneWeaver's database revealed alcohol-related experimental results including genes identified in mouse genetic mapping studies, alcohol selected Drosophila lines, Rattus differential expression, and human alcoholic brains.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26834590",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A robust implementation has been incorporated into GeneWeaver, an online tool for integrating and analyzing functional genomics experiments, available at http://geneweaver.org.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24731198",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Integrative Functional Genomics for Systems Genetics in GeneWeaver.org.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27933523",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": []
+}

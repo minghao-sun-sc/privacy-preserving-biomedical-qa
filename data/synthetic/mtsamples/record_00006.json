@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00006",
+  "original_length": 4516,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "S:\n- Revision, right breast reconstruction.\n- Excision, soft tissue fullness of the lateral abdomen and flank.\n- Liposuction of the supraumbilical abdomen.,ANESTHESIA: , General.,INDICATION FOR OPE...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Excision, soft tissue fullness of the lateral abdo...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

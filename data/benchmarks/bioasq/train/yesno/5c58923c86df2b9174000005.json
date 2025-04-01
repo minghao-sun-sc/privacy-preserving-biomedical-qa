@@ -1,0 +1,81 @@
+{
+  "id": "5c58923c86df2b9174000005",
+  "type": "yesno",
+  "question": "Is Tecovirimat effective for smallpox?",
+  "ideal_answer": "Yes, tecovirimat FDA approved for treatment of smallpox.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20393639",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25480757",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23530860",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30120738",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24100494",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29773767",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25896687",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29982575",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29972742"
+  ],
+  "snippets": [
+    {
+      "text": "Oral Tecovirimat for the Treatment of Smallpox.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29972742",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "CONCLUSIONS: On the basis of its efficacy in two animal models and pharmacokinetic and safety data in humans, tecovirimat is being advanced as a therapy for smallpox in accordance with the FDA Animal Rule.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29972742",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Background: Tecovirimat (ST-246) is being developed as an antiviral therapeutic for smallpox for use in the event of an accidental or intentional release. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29982575",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Conclusions: Tecovirimat treatment initiated up to 8 days following a lethal aerosol MPXV challenge improves survival and, when initiated earlier than 5 days after challenge, provides protection from clinical effects of disease, supporting the conclusion that it is a promising smallpox antiviral therapeutic candidate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29982575",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tecovirimat: First Global Approval.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30120738",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In July 2018, oral tecovirimat was approved in the USA for the treatment of human smallpox disease caused by variola virus in adults and paediatric patients weighing \u2265\u00a013\u00a0kg.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30120738",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "An intravenous formulation of tecovirimat is undergoing phase I development for the treatment of smallpox infection. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30120738",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Brincidofovir, an oral antiviral in late stage development, has proven effective against orthopoxviruses in vitro and in vivo, has a different mechanism of action from tecovirimat (the only oral smallpox antiviral currently in the US Strategic National Stockpile), and has a resistance profile that reduces concerns in the scenario of a bioterror attack using genetically engineered smallpox.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29773767",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Treatment with the smallpox antiviral tecovirimat (ST-246) alone or in combination with ACAM2000 vaccination is effective as a postsymptomatic therapy for monkeypox virus infection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25896687",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Tecovirimat appears to be an effective smallpox therapeutic in nonhuman primates, suggesting that it is reasonably likely to provide therapeutic benefit in smallpox-infected humans.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24100494",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

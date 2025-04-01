@@ -1,0 +1,57 @@
+{
+  "id": "5a80a63ffaa1ab7d2e000023",
+  "type": "summary",
+  "question": "What is the HPG pore?",
+  "ideal_answer": "The use of nanopore technologies is expected to spread in the future because they are portable and can sequence long fragments of DNA molecules without prior amplification. The first nanopore sequencer available, the MinION\u2122 from Oxford Nanopore Technologies, is a USB-connected, portable device that allows real-time DNA analysis. In addition, other new instruments are expected to be released soon, which promise to outperform the current short-read technologies in terms of throughput. Despite the flood of data expected from this technology, the data analysis solutions currently available are only designed to manage small projects and are not scalable. HPG pore is a toolkit for exploring and analysing nanopore sequencing data. HPG Pore can run on both individual computers and in the Hadoop distributed computing framework, which allows easy scale-up to manage the large amounts of data expected to result from extensive use of nanopore technologies in the future.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26921234"
+  ],
+  "snippets": [
+    {
+      "text": "HPG pore: an efficient and scalable framework for nanopore sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26921234",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The use of nanopore technologies is expected to spread in the future because they are portable and can sequence long fragments of DNA molecules without prior amplification. The first nanopore sequencer available, the MinION\u2122 from Oxford Nanopore Technologies, is a USB-connected, portable device that allows real-time DNA analysis. In addition, other new instruments are expected to be released soon, which promise to outperform the current short-read technologies in terms of throughput. Despite the flood of data expected from this technology, the data analysis solutions currently available are only designed to manage small projects and are not scalable.RESULTS: Here we present HPG Pore, a toolkit for exploring and analysing nanopore sequencing data. HPG Pore can run on both individual computers and in the Hadoop distributed computing framework, which allows easy scale-up to manage the large amounts of data expected to result from extensive use of nanopore technologies in the future.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26921234",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we present HPG Pore, a toolkit for exploring and analysing nanopore sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26921234",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Despite the flood of data expected from this technology, the data analysis solutions currently available are only designed to manage small projects and are not scalable.<br><b>RESULTS</b>: Here we present HPG Pore, a toolkit for exploring and analysing nanopore sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26921234",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS Here we present HPG Pore, a toolkit for exploring and analysing nanopore sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26921234",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the use of nanopore technologies is expected to spread in the future because they are portable and can sequence long fragments of dna molecules without prior amplification the first nanopore sequencer available the minion from oxford nanopore technologies is a usb connected portable device that allows real time dna analysis in addition other new instruments are expected to be released soon which promise to outperform the current short read technologies in terms of throughput despite the flood of data expected from this technology the data analysis solutions currently available are only designed to manage small projects and are not scalable here we present hpg pore a toolkit for exploring and analysing nanopore sequencing data hpg pore can run on both individual computers and in the hadoop distributed computing framework which allows easy scale up to manage the large amounts of data expected to result from extensive use of nanopore technologies in the future hpg pore allows for virtually unlimited sequencing data scalability thus guaranteeing its continued management in near future scenarios hpg pore is available in github at http github com opencb hpg pore.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26921234",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "hpg pore an efficient and scalable framework for nanopore sequencing data",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26921234",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D020411",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D017422"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "621ebec63a8413c65300005d",
+  "type": "yesno",
+  "question": "Is Epistaxis associated with dental implant placement?",
+  "ideal_answer": "Epistaxis is a frequent complication associated with dental implant placement.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24155599",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30719578"
+  ],
+  "snippets": [
+    {
+      "text": " The overall survival rate of the implants into the sinus cavity was 95.6%, without statistical differences according to the level of penetration. The clinical and radiological complications were 3.4% and 14.8% respectively. The most frequent clinical complication was the epistaxis, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30719578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "implant placement and protrusion of the implant up to 3mm beyond the sinus floor does not alter the stability and outcome of dental implants, one year post-restoration. This could be associated with minor complications ranging from epistaxis to sinusitis, which are manageable.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24155599",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "5c76d0417c78d694710000a8",
+  "type": "factoid",
+  "question": "What is the cause if the rare disease cystinosis?",
+  "ideal_answer": "Cystinosis is a rare autosomal recessive disorder resulting from defective lysosomal transport of cystine due to mutations in the cystinosin lysosomal cystine transporter (CTNS) gene.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29416314",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29421779",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29467429"
+  ],
+  "snippets": [
+    {
+      "text": "Cystinosis is a rare, autosomal recessive disorder leading to defective transport of cystine out of lysosomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29416314",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cystinosis is a rare autosomal recessive disorder resulting from defective lysosomal transport of cystine due to mutations in the cystinosin lysosomal cystine transporter (CTNS) gene. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29421779",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cystinosin, a lysosomal transporter is involved in the efflux of cystine from the lysosome to the cytosol. Mutations in the human cystinosin gene (CTNS) cause cystinosis, a recessive autosomal disorder. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29467429",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Mutations in the cystinosin lysosomal cystine transporter (CTNS) gene"
+}

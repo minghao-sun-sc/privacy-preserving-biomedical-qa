@@ -1,0 +1,35 @@
+{
+  "document_id": "record_01523",
+  "original_length": 1078,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "AND INTERPRETATION: \n- Baseline heart rate:  67.\n- Baseline blood pressure:  150/86.\n- Total time:  6 minute 51 seconds.\n- METs:  10.1.\n- Peak heart rate:  140.\n- Percent of maximum-predicted heart...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

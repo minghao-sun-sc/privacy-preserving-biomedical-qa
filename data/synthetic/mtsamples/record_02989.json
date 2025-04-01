@@ -1,0 +1,33 @@
+{
+  "document_id": "record_02989",
+  "original_length": 5784,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "t.\",When and how did subject of donation arise - \"My mom and I talked about it together as a family.\",RECIPIENT'S REACTION TO OFFER:,What was the recipient's reaction to your offer:  \"I would rathe...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: '\",When and how did subject of donation arise - \"My...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

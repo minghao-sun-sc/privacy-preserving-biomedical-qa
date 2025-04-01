@@ -1,0 +1,33 @@
+{
+  "id": "587d36ab859bf79568000001",
+  "type": "summary",
+  "question": "Describe the applicability of Semantic MediaWiki in the case of FANTOM5",
+  "ideal_answer": "To make the heterogeneous data set accessible and useful for investigators, a web-based database called Semantic catalog of Samples, Transcription initiation And Regulators (SSTAR) has been developed. SSTAR utilizes the open source wiki software MediaWiki along with the Semantic MediaWiki (SMW) extension, which provides flexibility to model, store, and display a series of data sets produced during the course of the FANTOM5 project. The use of SMW demonstrates the utility of the framework for dissemination of large-scale analysis results. SSTAR is a case study in handling biological data generated from a large-scale research project in terms of maintenance and growth alongside research activities",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27402679"
+  ],
+  "snippets": [
+    {
+      "text": "To make the heterogeneous data set accessible and useful for investigators, we developed a web-based database called Semantic catalog of Samples, Transcription initiation And Regulators (SSTAR). SSTAR utilizes the open source wiki software MediaWiki along with the Semantic MediaWiki (SMW) extension, which provides flexibility to model, store, and display a series of data sets produced during the course of the FANTOM5 project. Our use of SMW demonstrates the utility of the framework for dissemination of large-scale analysis results. SSTAR is a case study in handling biological data generated from a large-scale research project in terms of maintenance and growth alongside research activities",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27402679",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SSTAR utilizes the open source wiki software MediaWiki along with the Semantic MediaWiki (SMW) extension, which provides flexibility to model, store, and display a series of data sets produced during the course of the FANTOM5 project.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27402679",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SSTAR utilizes the open source wiki software MediaWiki along with the Semantic MediaWiki (SMW) extension, which provides flexibility to model, store, and display a series of data sets produced during the course of the FANTOM5 project.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27402679",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012660",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D059467"
+  ]
+}

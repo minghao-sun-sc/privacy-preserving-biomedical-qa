@@ -1,0 +1,133 @@
+{
+  "id": "54fb6fb5d176fff445000004",
+  "type": "list",
+  "question": "Which proteins participate in the formation of the Notch transcriptional activation complex?",
+  "ideal_answer": "The Notch intracellular domain (NICD) forms a transcriptional activation complex with the DNA-binding factor CSL and a transcriptional co-activator of the Mastermind family (MAML). ICN binds to a highly conserved DNA-binding transcription factor called CSL (also known as RBP-Jkappa, CBF1, Suppressor of Hairless, and Lag-1) and recruits Mastermind-like transcriptional co-activators to form a transcriptional activation complex.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20972443",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18758478",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11536431",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20118921",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21124806",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12644465",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12205678",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21245387",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16530044",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22325781"
+  ],
+  "snippets": [
+    {
+      "text": "The Notch intracellular domain (NICD) forms a transcriptional activation complex with the DNA-binding factor CSL and a transcriptional co-activator of the Mastermind family (MAML). The \"RAM\" region of NICD recruits Notch to CSL, facilitating the binding of MAML at the interface between the ankyrin (ANK) repeat domain of NICD and CSL.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22325781",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Inappropriate release of the intracellular domain of Notch (N(ICD)) from the plasma membrane results in the accumulation of deregulated nuclear N(ICD) that has been linked to human cancers, notably T-cell acute lymphoblastic leukemia (T-ALL). Nuclear N(ICD) forms a transcriptional activation complex by interacting with the coactivator protein Mastermind-like 1 and the DNA binding protein CSL (for CBF-1/Suppressor of Hairless/Lag-1) to regulate target gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21245387",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although it is well understood that N(ICD) forms a transcriptional activation complex, little is known about how the complex is assembled.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21245387",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Canonical Notch signaling is initiated when ligand binding induces proteolytic release of the intracellular part of Notch (ICN) from the cell membrane. ICN then travels into the nucleus where it drives the assembly of a transcriptional activation complex containing the DNA-binding transcription factor CSL, ICN, and a specialized co-activator of the Mastermind family. A consensus DNA binding site motif for the CSL protein was previously defined using selection-based methods, but whether subsequent association of Notch and Mastermind-like proteins affects the DNA binding preferences of CSL has not previously been examined.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21124806",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report here the crystal structure of a Notch transcriptional activation complex containing the ankyrin domain of human Notch1 (ANK), the transcription factor CSL on cognate DNA, and a polypeptide from the coactivator Mastermind-like-1 (MAML-1). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16530044",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ligand binding by Notch receptors triggers a series of proteolytic cleavages that liberate the intracellular portion of Notch (ICN) from the cell membrane, permitting it to translocate to the nucleus. Nuclear ICN binds to a highly conserved DNA-binding transcription factor called CSL (also known as RBP-Jkappa, CBF1, Suppressor of Hairless, and Lag-1) and recruits Mastermind-like transcriptional co-activators to form a transcriptional activation complex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12644465",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "On the basis of our results, we present a working structural model for the organization of the MAML1.ICN.CSL.DNA complex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12644465",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The requirement for cooperative assembly of the MAML1.ICN.CSL.DNA complex suggests that a primary function of ICN is to render CSL competent for MAML loading.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12644465",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report here that the astrogliogenic role of Notch is in part mediated by direct binding of the Notch intracellular domain to the CSL DNA binding protein, forming a transcriptional activation complex onto the astrocyte marker gene, glial fibrillary acidic protein (GFAP).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12205678",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Importantly, although the classical CSL-dependent Notch signaling pathway is intact and able to activate the Notch canonical target promoter during the neurogenic phase, it is unable to activate the GFAP promoter during neurogenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12205678",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mastermind (Mam) is a component of Notch pathway signaling. In combination with the intracellular domain of Notch and Suppressor of Hairless, Mam forms a transcriptional activation complex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11536431",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "High levels of Notch-mediated transcriptional activation require the formation of a ternary complex consisting of NotchICD, CSL (CBF-1, suppressor of hairless, LAG-1) and a Mastermind family member.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20118921",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This function relies on the formation of transcriptional activation complexes that include intracellular Notch, a Mastermind co-activator and the transcription factor CSL bound to cognate DNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20972443",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This function relies on the formation of transcriptional activation complexes that include intracellular Notch, a Mastermind co-activator and the transcription factor CSL bound to cognate DNA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20972443",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "High levels of Notch-mediated transcriptional activation require the formation of a ternary complex consisting of NotchICD, CSL (CBF-1, suppressor of hairless, LAG-1) and a Mastermind family member",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20118921",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "NotchIC, together with the transcriptional coactivator Mastermind, form a ternary complex with CSL that activates transcription from genes that are responsive to Notch signaling",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18758478",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nuclear N(ICD) forms a transcriptional activation complex by interacting with the coactivator protein Mastermind-like 1 and the DNA binding protein CSL (for CBF-1/Suppressor of Hairless/Lag-1) to regulate target gene expression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21245387",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nuclear ICN binds to a highly conserved DNA-binding transcription factor called CSL (also known as RBP-Jkappa, CBF1, Suppressor of Hairless, and Lag-1) and recruits Mastermind-like transcriptional co-activators to form a transcriptional activation complex",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12644465",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015533",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051880"
+  ],
+  "exact_answer": "Notch intracellular domain (NICD), NICD, Intracellular part of Notch, ICN, NIC, Transcription factor CSL, RBP-Jkappa, CBF1, Suppressor of Hairless, Lag-1, The coactivator protein Mastermind-like 1, MAML-1"
+}

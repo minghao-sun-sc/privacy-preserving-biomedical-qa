@@ -1,0 +1,34 @@
+{
+  "id": "6217dccc3a8413c65300002e",
+  "type": "list",
+  "question": "List the main protein families found in human tears?",
+  "ideal_answer": "Lipocalin\nCystatin S (CST4), \ncalcyclin (S100A6),\ncalgranulin A (S100A8) \nmatrix metalloproteinase 9 (MMP9)\nLTF, \nLYZ, \nZAG,\nDNAJC3",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31369467",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31951085",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34489718",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34012227"
+  ],
+  "snippets": [
+    {
+      "text": "Tear lipocalin is a primate protein",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34489718",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " tear concentration of cystatin S (CST4), calcyclin (S100A6), calgranulin A (S100A8), and matrix metalloproteinase 9 (MMP9)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34012227",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LTF, LYZ, ZAG, and DNAJC3 have the potential to be the biomarkers of DE in diabetes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31951085",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Lipocalin, Cystatin S, calcyclin, calgranulin A, matrix metalloproteinase 9, LTF, LYZ, ZAG, DNAJC3"
+}

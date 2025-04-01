@@ -1,0 +1,33 @@
+{
+  "id": "5c5f22951a4c55d80b00001d",
+  "type": "yesno",
+  "question": "Is phospholipid hydroperoxide glutathione peroxidase a selenoprotein?",
+  "ideal_answer": "Yes,\nthe phospholipid hydroperoxide glutathione peroxidase (PHGPx/GPx4) is  the major selenoprotein.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29502249",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25922076",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24795696"
+  ],
+  "snippets": [
+    {
+      "text": "Glutathione peroxidase (Gpx1) is the major selenoprotein in most tissues in animals.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29502249",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The selenoenzyme Gpx4 is essential for early embryogenesis and cell viability for its unique function to prevent phospholipid oxidation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25922076",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the major selenoprotein expressed by germ cells in the testis, the phospholipid hydroperoxide glutathione peroxidase (PHGPx/GPx4) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24795696",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

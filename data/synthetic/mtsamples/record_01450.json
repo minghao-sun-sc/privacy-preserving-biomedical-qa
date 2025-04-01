@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01450",
+  "original_length": 4585,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Overall impressions continues to be critically ill 67-year-old with multiple medical problems probably still showing signs of volume depletion with hypotension and atrial flutter with difficult t...",
+    "Symptoms": "",
+    "Treatment": "with diltiazem and amiodarone, being followed by Dr. X of cardiology through most of the day.  This afternoon, when I am seeing the patient, nursing informs me that rate has finally been controlled...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

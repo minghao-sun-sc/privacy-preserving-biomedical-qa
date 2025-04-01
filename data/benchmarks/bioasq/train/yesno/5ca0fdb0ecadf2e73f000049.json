@@ -1,0 +1,47 @@
+{
+  "id": "5ca0fdb0ecadf2e73f000049",
+  "type": "yesno",
+  "question": "Is actin present in the nucleus?",
+  "ideal_answer": "Yes,\nThe revitalization of research into nuclear actin occurred after it was found that cellular stresses induce the nuclear localization and alter the structure of actin.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29568381",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30193156",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30019087",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29925947",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30312531"
+  ],
+  "snippets": [
+    {
+      "text": "Moreover, inhibition of ATM kinase or deficiency in nuclear actin polymerization causes carcinogenic RET/PTC chromosome rearrangements after DSBs induction in human cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29568381",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Our findings establish that nuclear actin-based mobility shapes chromatin organization by generating repair domains that are essential for homology-directed repair in eukaryotic cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29925947",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The discovery of nuclear actin opened new perspective on the field, suggesting that the nuclear activities of actin reflect the functions of primordial actin-like proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30019087",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The revitalization of research into nuclear actin occurred after it was found that cellular stresses induce the nuclear localization and alter the structure of actin. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30312531",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "While it is long known that actin is part of the nuclear proteome, its properties and functions as regulated, functional and dynamically assembled actin filaments are only recently emerging.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30193156",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

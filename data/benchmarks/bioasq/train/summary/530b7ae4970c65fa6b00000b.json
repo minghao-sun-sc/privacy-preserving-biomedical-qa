@@ -1,0 +1,72 @@
+{
+  "id": "530b7ae4970c65fa6b00000b",
+  "type": "summary",
+  "question": "what is the role of TGFbeta in cardiac regeneration after myocardial injury?",
+  "ideal_answer": "TGF\u03b2 is activated in the myocardium in response to injury and plays a crucial role in cardiac repair by suppressing inflammation while promoting myofibroblast phenotypic modulation and extracellular matrix deposition. In fact, upregulation of TGF-beta signaling promotes the formation of a myofibroblast-like phenotype. TGF-beta interacts with bone morphogenic protein and Wnt pathways to form a complex signaling network that is critical in regulating the fate choices of both stromal and tissue-specific resident stem cells, determining whether functional regeneration or the formation of scar tissue follows an injury. In addition, TGF-beta enhances the formation of cardiospheres and could potentially enhance the regenerative potential of adult cardiac progenitor cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21611174",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23293297",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22982064",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22765842",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23166366",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23270300",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18620057",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18832581"
+  ],
+  "snippets": [
+    {
+      "text": "Transforming growth factor (TGF)-beta plays a crucial role in cardiac repair by suppressing inflammation while promoting myofibroblast phenotypic modulation and extracellular matrix deposition.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18620057",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We then performed a chemical screen and identified several small molecules that increase or reduce cardiomyocyte proliferation during heart development. These compounds act via Hedgehog, Insulin-like growth factor or Transforming growth factor \u03b2 signaling pathways. Direct examination of heart regeneration after mechanical or genetic ablation injuries indicated that these pathways are activated in regenerating cardiomyocytes and that they can be pharmacologically manipulated to inhibit or enhance cardiomyocyte proliferation during adult heart regeneration. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23293297",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transforming growth factor beta, bone morphogenic protein and Wnt pathways interact to form a complex signaling network that is critical in regulating the fate choices of both stromal and tissue-specific resident stem cells (TSCs), determining whether functional regeneration or the formation of scar tissue follows an injury. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23270300",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the adult heart under pressure overload, Notch inhibited the development of cardiomyocyte hypertrophy and transforming growth factor-\u03b2/connective tissue growth factor-mediated cardiac fibrosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23166366",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "EMT and CSps formation is enhanced in the presence of transforming growth factor \u03b21 (TGF\u03b21) and drastically blocked by the type I TGF\u03b2-receptor inhibitor SB431452, indicating that TGF\u03b2-dependent EMT is essential for the formation of these niche-like 3D-multicellular clusters. Since TGF\u03b2 is activated in the myocardium in response to injury, our data suggest that CSps formation mimics an adaptive mechanism that could potentially be enhanced to increase in vivo or ex vivo regenerative potential of adult CPCs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22765842",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "During the proliferative phase of healing, infarct fibroblasts undergo myofibroblast transdifferentiation forming stress fibers and expressing contractile proteins (such as \u03b1-smooth muscle actin). Mechanical stress, transforming growth factor (TGF)-\u03b2/Smad3 signaling and alterations in the composition of the extracellular matrix induce acquisition of the myofibroblast phenotype. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22982064",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Collectively, this data strongly suggests Wnt3a promotes the formation of a myofibroblast-like phenotype in cultured fibroblasts, in part, by upregulating TGF-\u03b2 signaling through SMAD2 in a \u03b2-catenin-dependent mechanism. As myofibroblasts are critical regulators of wound healing responses, these findings may have important implications for our understanding of normal and aberrant injury and repair events.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21611174",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Conversely, exogenous addition of TGF-beta to the wound increased VIC activation, proliferation, wound closure rate, and stress fibers. Thus, wounding activates VICs, and TGF-beta signaling modulates VIC response to injury.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18832581",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016212",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006321",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006335",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012038"
+  ]
+}

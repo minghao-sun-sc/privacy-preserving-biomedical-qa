@@ -1,0 +1,49 @@
+{
+  "id": "511a16f9df1ebcce7d000005",
+  "type": "yesno",
+  "question": "Are there any DNMT3 proteins present in plants?",
+  "ideal_answer": "Yes. The plant DOMAINS REARRANGED METHYLTRANSFERASE2 (DRM2) is a homolog of the mammalian de novo methyltransferase DNMT3. DRM2 contains a novel arrangement of the motifs required for DNA methyltransferase catalytic activity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22058406",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11487702",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20505370",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15946751",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17660570",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11459824",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21150311",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23021223",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21060858",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15282033",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9584105",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18488247",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12121623",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12151602",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10781108"
+  ],
+  "snippets": [
+    {
+      "text": "De novo DNA methylation in Arabidopsis thaliana is catalyzed by the methyltransferase DRM2, a homolog of the mammalian de novo methyltransferase DNMT3.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21150311",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Here we describe DNA methyltransferase genes from both Arabidopsis and maize that show a high level of sequence similarity to Dnmt3, suggesting that they encode plant de novo methyltransferases. Relative to all known eukaryotic methyltransferases, these plant proteins contain a novel arrangement of the motifs required for DNA methyltransferase catalytic activity. The N termini of these methyltransferases contain a series of ubiquitin-associated (UBA) domains. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10781108",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "BLASTX searches and phylogenetic analysis suggested that five cDNAs belonged to four classes (Dnmt1, Dnmt2, CMT and Dnmt3) of DNA methyltransferase genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15946751",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/CMT3_ARATH",
+    "http://www.uniprot.org/uniprot/CMT2_ARATH",
+    "http://www.uniprot.org/uniprot/CMT1_ARATH"
+  ],
+  "exact_answer": "Yes"
+}

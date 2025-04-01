@@ -1,0 +1,48 @@
+{
+  "id": "601efe051cb411341a00006a",
+  "type": "factoid",
+  "question": "Covid-19 is though to have arisen from what species?",
+  "ideal_answer": "COVID-19 caused by SARS-CoV-2 most likely originated in bats and transmitted to humans through a possible intermediate host.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32580969",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32369435",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34695342",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32760632",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34329631",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33457109"
+  ],
+  "snippets": [
+    {
+      "text": "COVID-19 caused by SARS-CoV-2 most likely originated in bats and transmitted to humans through a possible intermediate host. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32760632",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "cent Findings: Based on high similarities in the genome sequences, the virus is thought to have arisen from SARS-like CoVs in bats but the lack of an intermediate species containing a CoV with even greater similarity has so far eluded discovery. T",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33457109",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "es of the conclusions of the different documents here assessed show that even considering the zoonotic hypothesis as the most likely, with bats and pangolins being possibly in the origin of the coronavirus, today's date the intermediate source species of SARS-CoV-2 has not been confirmed yet. On the othe",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34329631",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transmission rate of SARS-CoV-2 in the population is high, and the origin of this coronavirus appears to be related to some species of the bat.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34695342",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "o other betacoronaviruses, SARS-CoV-2 appears to have crossed the species barrier, most likely from bats, clearly reinforcing the One Health concept. Veterinary",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32369435",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "bats"
+}

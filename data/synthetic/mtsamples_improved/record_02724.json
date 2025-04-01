@@ -1,0 +1,39 @@
+{
+  "document_id": "record_02724",
+  "original_length": 2248,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Medical assessment involving: procedure",
+    "Symptoms": "",
+    "Treatment": "S PERFORMED:,1. Bilateral carotid cerebral angiogram.,2. Right femoral-popliteal angiogram.,FINDINGS: , The right carotid cerebral system was selectively catheterized and visualized. The right internal carotid artery was found to be very tortuous with kinking in its cervical portions, but no focal stenosis was noted. Likewise, the intracranial portion of the right internal carotid artery showed no significant disease nor did the right middle cerebral artery.,The left carotid cerebral system was selectively catheterized and visualized. The cervical portion of the left internal carotid artery showed a 30 to 40% stenosis with small ulcer crater present. The intracranial portion of the left internal carotid artery showed no significant disease nor did the left middle cerebral artery.,Visualization of the right lower extremity showed no significant disease.,PROCEDURE: , With the patient in supine position under local anesthesia plus intravenous sedation, the groin areas were prepped and dra",
+    "Medications": "",
+    "Medical History": "",
+    "Physical Examination": "",
+    "Lab Results": "",
+    "Imaging": "ively catheterized and visualized. The right internal carotid artery was found to be very tortuous with kinking in its cervical portions, but no focal stenosis was noted. Likewise, the intracranial portion of the right internal carotid artery showed no significant disease nor did the right middle cerebral artery.,The left carotid cerebral system was selectively catheterized and visualized. The cervical portion of the left internal carotid artery showed a 30 to 40% stenosis with small ulcer crater present. The intracranial portion of the left internal carotid artery showed no significant disease nor did the left middle cerebral artery.,Visualization of the right lower extremity showed no significant disease.,PROCEDURE: , With the patient in supine position under local anesthesia plus intravenous sedation, the groin areas were prepped and draped in a sterile fashion.,The common femoral artery was punctured in a routine retrograde fashion and a 5-French introducer sheath was advanced unde",
+    "Procedure": "S PERFORMED:,1. Bilateral carotid cerebral angiogram.,2. Right femoral-popliteal angiogram.,FINDINGS: , The right carotid cerebral system was selectively catheterized and visualized. The right internal carotid artery was found to be very tortuous with kinking in its cervical portions, but no focal stenosis was noted. Likewise, the intracranial portion of the right internal carotid artery showed no significant disease nor did the right middle cerebral artery.,The left carotid cerebral system was selectively catheterized and visualized. The cervical portion of the left internal carotid artery showed a 30 to 40% stenosis with small ulcer crater present. The intracranial portion of the left internal carotid artery showed no significant disease nor did the left middle cerebral artery.,Visualization of the right lower extremity showed no significant disease.,PROCEDURE: , With the patient in supine position under local anesthesia plus intravenous sedation, the groin areas were prepped and dra",
+    "Findings": ", The right carotid cerebral system was selectively catheterized and visualized. The right internal carotid artery was found to be very tortuous with kinking in its cervical portions, but no focal stenosis was noted. Likewise, the intracranial portion of the right internal carotid artery showed no significant disease nor did the right middle cerebral artery.,The left carotid cerebral system was selectively catheterized and visualized. The cervical portion of the left internal carotid artery showed a 30 to 40% stenosis with small ulcer crater present. The intracranial portion of the left internal carotid artery showed no significant disease nor did the left middle cerebral artery.,Visualization of the right lower extremity showed no significant disease.,PROCEDURE: , With the patient in supine position under local anesthesia plus intravenous sedation, the groin areas were prepped and draped in a sterile fashion.,The common femoral artery was punctured in a routine retrograde fashion and ",
+    "Assessment": "",
+    "Plan": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',FINDINGS: , The right carotid cerebral system was...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

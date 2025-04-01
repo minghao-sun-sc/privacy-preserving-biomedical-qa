@@ -1,0 +1,32 @@
+{
+  "id": "5c76be617c78d694710000a5",
+  "type": "yesno",
+  "question": "Is the enzyme ERAP2 associated with the disease birdshot chorioretinopathy?",
+  "ideal_answer": "Yes,\nBSCR is also associated with endoplasmic reticulum aminopeptidase 2 (ERAP2), an enzyme involved in processing HLA class I ligands.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24957906",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29769354"
+  ],
+  "snippets": [
+    {
+      "text": "Allele-specific Alterations in the Peptidome Underlie the Joint Association of HLA-A*29:02 and Endoplasmic Reticulum Aminopeptidase 2 (ERAP2) with Birdshot Chorioretinopathy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29769354",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "BSCR is also associated with endoplasmic reticulum aminopeptidase 2 (ERAP2), an enzyme involved in processing HLA class I ligands, thus implicating the A*29:02 peptidome in this disease. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29769354",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A genome-wide association study identifies a functional ERAP2 haplotype associated with birdshot chorioretinopathy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24957906",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

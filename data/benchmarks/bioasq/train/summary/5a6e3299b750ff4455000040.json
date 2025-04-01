@@ -1,0 +1,30 @@
+{
+  "id": "5a6e3299b750ff4455000040",
+  "type": "summary",
+  "question": "What is the main focus of the CVE R/Bioconductor package?",
+  "ideal_answer": "The CVE package allows interactive variant prioritisation to expedite the analysis of cancer sequencing studies.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28545463"
+  ],
+  "snippets": [
+    {
+      "text": "CVE: an R package for interactive variant prioritisation in precision oncology.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28545463",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Leveraging Oncotator and the Drug Gene Interaction Database, CVE offers exploration of variants within single or multiple tumour exomes to identify drivers, resistance mechanisms and to assess druggability.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28545463",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The CVE package allows interactive variant prioritisation to expedite the analysis of cancer sequencing studies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28545463",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

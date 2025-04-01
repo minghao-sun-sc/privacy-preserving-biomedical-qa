@@ -1,0 +1,47 @@
+{
+  "id": "5a8881118cb19eca6b000006",
+  "type": "yesno",
+  "question": "Has the proteome of mice hippocampus been analysed?",
+  "ideal_answer": "Yes, numerous proteomic studies of mice hippcampi has been performed.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26549202",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28775826",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26977433",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27378549",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27001617"
+  ],
+  "snippets": [
+    {
+      "text": "We employed a discovery-based proteomic approach in subcellular fractions of hippocampal tissue from chronic intermittent alcohol (CIE)-exposed C57Bl/6J mice to gain insight into alcohol-induced changes in GluN2B signaling complexes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26549202",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " We employed shotgun liquid chromatography-mass spectrometry (LC-MS) proteomic and metabonomic profiling approaches on prefrontal cortex (PFC) and hippocampal (HPC) tissue from Df(16)A+/-mice, a model of the 22q11.2 deletion syndrome. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27001617",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Molecular alterations in the frontal cortex and hippocampus ofTsc1+/-and control mice, with or without rapamycin treatment, were investigated. A quantitative mass spectrometry-based shotgun proteomic approach (LC-MSE) was employed as an unbiased method to detect changes in protein levels.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28775826",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This dataset reports on the analysis of mouse hippocampus by LC-MS/MS, from mice fed a diet that was either deficient in n-3 FA (n-3 Def) or sufficient in n-3 FA (n-3 Adq). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26977433",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using isobaric tags for relative and absolute quantitation (iTRAQ) and proteomic methods, here we identified learning-induced changes in the hippocampal proteome of non-transgenic (NonTg) and 3 \u00d7 Tg-AD mice, a widely used animal model of AD. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27378549",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

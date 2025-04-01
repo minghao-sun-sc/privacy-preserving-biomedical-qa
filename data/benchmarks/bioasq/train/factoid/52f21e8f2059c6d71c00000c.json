@@ -1,0 +1,44 @@
+{
+  "id": "52f21e8f2059c6d71c00000c",
+  "type": "factoid",
+  "question": "What is the most probable defect underlying triple negative breast cancer?",
+  "ideal_answer": "The most probable defect underlying triple negative breast cancer is BRCA1 dysfunction.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22357256"
+  ],
+  "snippets": [
+    {
+      "text": "We have previously reported an array comparative genomic hybridization profile that identifies triple-negative breast cancers (TNBC), with BRCA1 dysfunction",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22357256",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BRCA1-like status was assessed in 101 patients with early-stage TNBC receiving adjuvant cyclophosphamide-based chemotherapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22357256",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sixty-six tumors (65%) had a BRCA1-like profile.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22357256",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D064726",
+    "http://www.disease-ontology.org/api/metadata/DOID:0060078",
+    "http://www.disease-ontology.org/api/metadata/DOID:0060076",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D061325",
+    "http://www.disease-ontology.org/api/metadata/DOID:1612",
+    "http://www.disease-ontology.org/api/metadata/DOID:0060080",
+    "http://www.disease-ontology.org/api/metadata/DOID:0060081",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001943",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050671",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019313",
+    "http://www.disease-ontology.org/api/metadata/DOID:5683",
+    "http://www.disease-ontology.org/api/metadata/DOID:6741"
+  ],
+  "exact_answer": "BRCA1 dysfunction"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "5c56fd7407647bbc4b000013",
+  "type": "yesno",
+  "question": "Does epidural anesthesia for pain management during labor affect the Apgar score of the the infant?",
+  "ideal_answer": "Epidural analgesia for labor pain management did not appear to have an immediate effect on neonatal status as determined by Apgar scores or in admissions to neonatal intensive care.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19466346",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28013485"
+  ],
+  "snippets": [
+    {
+      "text": " We retrospectively analyzed 93 consecutive single-pregnancy patients who underwent cesarean section with combined spinal-epidural anesthesia. The patients were divided into two groups, depending on the use of 6% HES 130/0.4: group A (461\u00a0\u00b1\u00a0167\u00a0ml of saline-based HES was administered; 43 patients) and group B (HES not administered; 50 patients). The major outcome was umbilical cord chloride level at delivery. The volume infused from operating room admission until delivery was not significantly different between groups. The umbilical cord chloride level at delivery was statistically significantly higher in group A than in group B, but clinically similar (108\u00a0\u00b1\u00a02 vs. 107\u00a0\u00b1\u00a02\u00a0mmol/l, P\u00a0=\u00a00.02). No differences were observed in the Apgar score or other umbilical cord laboratory data at delivery (Na+, K+, pH, base excess)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28013485",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION\nSubarachnoid or epidural sufentanil, in the doses used in this study, associated with local anesthetics, had the same effect on the duration of labor after analgesia and in the Apgar score of newborns.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19466346",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION Subarachnoid or epidural sufentanil, in the doses used in this study, associated with local anesthetics, had the same effect on the duration of labor after analgesia and in the Apgar score of newborns.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19466346",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

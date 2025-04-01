@@ -1,0 +1,35 @@
+{
+  "document_id": "record_01582",
+  "original_length": 4156,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",Multilevel degenerative disc disease with uncovertebral joint arthrosis with foraminal compromise as described above.,C3-4 posterior central disc herniation of the protrusion type but no cord impi...",
+    "Symptoms": "",
+    "Treatment": "MRI report [person] ([person]) MRI [person] - [person]",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: US_DRIVER_LICENSE"
+      ],
+      "pii_detected": [
+        "US_DRIVER_LICENSE"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

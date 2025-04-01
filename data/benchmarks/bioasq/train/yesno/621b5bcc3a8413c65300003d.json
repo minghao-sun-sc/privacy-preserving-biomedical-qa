@@ -1,0 +1,40 @@
+{
+  "id": "621b5bcc3a8413c65300003d",
+  "type": "yesno",
+  "question": "Is Otolin-1 a matrix protein?",
+  "ideal_answer": "Yes,\notolin-1 is a otoconia matrix protein.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29076638",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28498270",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18410381",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20856818"
+  ],
+  "snippets": [
+    {
+      "text": "otoconia matrix protein, otolin-1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28498270",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Otolin-1 is a collagen-like protein expressed in the inner ear of vertebrates. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29076638",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mammalian Otolin: a multimeric glycoprotein specific to the inner ear that interacts with otoconial matrix protein Otoconin-90 and Cerebellin-1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20856818",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "binds to otolin-1 and forming matrix protein architectures",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18410381",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

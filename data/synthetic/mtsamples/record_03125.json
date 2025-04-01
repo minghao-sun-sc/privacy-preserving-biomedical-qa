@@ -1,0 +1,33 @@
+{
+  "document_id": "record_03125",
+  "original_length": 2243,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "Sepsis.  The patient was found to have a CT scan with dilated bladder with thick wall suggesting an outlet obstruction as well as bilateral hydronephrosis and hydroureter. Sepsis - Consult",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'The patient was found to have a CT scan with dilat...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

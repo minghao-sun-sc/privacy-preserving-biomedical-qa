@@ -1,0 +1,180 @@
+{
+  "id": "51740da48ed59a060a000024",
+  "type": "list",
+  "question": "Which are the bioinformatics tools for gene structure prediction?\n",
+  "ideal_answer": "The in silico prediction of the complete structure of genes is one of the main challenges of bioinformatics. A critical part in the gene structure prediction is to identify the boundaries between exons and introns (i.e. splice sites) in the coding region. Several advanced bioinformatics tools have been developed for the precise delineation of a given gene structure: WPSS, SCGPred, TICO, GLIMMER, MetWAMer, WebScipio, GeneSeqer,  SplicePredictor, DGSplicer, Transcript Assembly Program (TAP), GeneBuilder, SeqHelp, HSPL, RNASPL, HEXON, CDSB, HBR, FGENE and FGENEH for human genes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16306388",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16772025",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19329068",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21056007",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15608279",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18801175",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7584460",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9521933",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16963498",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14654703",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11337482",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14764557",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15784153",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15980556",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10764574",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22537006",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15564294",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10487869",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18801164",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15374869",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20726803"
+  ],
+  "snippets": [
+    {
+      "text": "The prediction of the complete structure of genes is one of the very important tasks of bioinformatics, especially in eukaryotes. A crucial part in the gene structure prediction is to determine the splice sites in the coding region. Identification of splice sites depends on the precise recognition of the boundaries between exons and introns of a given DNA sequence. This problem can be formulated as a classification of sequence elements into 'exon-intron' (EI), 'intron-exon' (IE) or 'None' (N) boundary classes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21056007",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The proposed WPSS method poses efficient results compared with the performance of many methods proposed in the literature.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21056007",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "SCGPred: a score-based method for gene structure prediction by combining multiple sources of evidence.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19329068",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Moreover, computational gene finding in newly sequenced genomes is especially a difficult task due to the absence of a training set of abundant validated genes. Here we present a new gene-finding program, SCGPred, to improve the accuracy of prediction by combining multiple sources of evidence.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19329068",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Therefore, SCG-Pred can serve as an alternative gene-finding tool for newly sequenced eukaryotic genomes. The program is freely available at http://bio.scu.edu.cn/SCGPred/.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19329068",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Incorporation of splice site probability models for non-canonical introns improves gene structure prediction in plants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16306388",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We pursued one such approach and describe the training and implementation of GC-donor splice site models for Arabidopsis and rice, with the goal of exploring whether specific modeling of non-canonical introns can enhance gene structure prediction accuracy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16306388",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Source code for the updated versions of GeneSeqer and SplicePredictor (distributed with the GeneSeqer code) isavailable at http://bioinformatics.iastate.edu/bioinformatics2go/gs/download.html. Web servers for Arabidopsis, rice and other plant species are accessible at http://www.plantgdb.org/PlantGDB-cgi/GeneSeqer/AtGDBgs.cgi, http://www.plantgdb.org/PlantGDB-cgi/GeneSeqer/OsGDBgs.cgi and http://www.plantgdb.org/PlantGDB-cgi/GeneSeqer/PlantGDBgs.cgi, respectively. A SplicePredictor web server is available at http://bioinformatics.iastate.edu/cgi-bin/sp.cgi. Software to generate training data and parameterizations for Bayesian splice site models is available at http://gremlin1.gdcb.iastate.edu/~volker/SB05B/BSSM4GSQ/",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16306388",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Prediction of splice sites with dependency graphs and their expanded bayesian networks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15374869",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "A crucial part in the gene structure prediction is to determine the precise exon-intron boundaries, i.e. the splice sites, in the coding region.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15374869",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Software (a program called DGSplicer) and datasets used are available at http://csrl.ee.nthu.edu.tw/bioinf/ BACKGROUND: cclu@ee.nthu.edu.tw.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15374869",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Gene structure prediction from consensus spliced alignment of multiple ESTs matching the same genomic locus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14764557",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Accurate gene structure annotation is a challenging computational problem in genomics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14764557",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The splice site prediction tool (SplicePredictor) is distributed with the GeneSeqer code. A SplicePredictor web server is available at http://bioinformatics.iastate.edu/cgi-bin/sp.cgi",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14764557",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We have developed a software tool, Transcript Assembly Program (TAP), to delineate gene structures using genomically aligned EST sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11337482",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "GeneBuilder: interactive in silico prediction of gene structure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10487869",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In the case of low homology, GeneBuilder is still able to predict the gene structure. The GeneBuilder system has been tested by using the standard set (Burset and Guigo, Genomics, 34, 353-367, 1996) and the performances are: 0.89 sensitivity and 0.91 specificity at the nucleotide level.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10487869",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The computer program SeqHelp organizes information from database searches, gene structure prediction, and other information to generate multiply aligned, hypertext-linked reports to allow for fast analysis of molecular sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9521933",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Identification of human gene structure using linear discriminant functions and dynamic programming.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7584460",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Development of advanced technique to identify gene structure is one of the main challenges of the Human Genome Project.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7584460",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "A gene structure prediction system FGENE has been developed based on the exon recognition functions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7584460",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7584460",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In the bioinformatics field, many computer algorithmic and data mining technologies have been developed for gene prediction, protein-protein interaction analysis, sequence analysis, and protein folding predictions, to name a few.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20726803",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The accurate prediction of intron boundaries largely facilitates the correct prediction of gene structure in nuclear genomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15564294",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012984",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005796"
+  ],
+  "exact_answer": "WPSS, SCGPred, TICO, GLIMMER, MetWAMer, WebScipio, GeneSeqer, SplicePredictor, DGSplicer, TAP, GeneBuilder, SeqHelp, FGENE, FGENEH, HSPL, RNASPL, HEXON, CDSB, HBR"
+}

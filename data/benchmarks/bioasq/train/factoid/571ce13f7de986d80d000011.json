@@ -1,0 +1,40 @@
+{
+  "id": "571ce13f7de986d80d000011",
+  "type": "factoid",
+  "question": "In which cells are gasdermins expressed?",
+  "ideal_answer": "Members of the novel gene family Gasdermin (Gsdm) are exclusively expressed in a highly tissue-specific manner in the epithelium of skin and the gastrointestinal tract.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19051310",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23979942",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15737203",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18693275"
+  ],
+  "snippets": [
+    {
+      "text": "Members of the novel gene family Gasdermin (Gsdm) are exclusively expressed in a highly tissue-specific manner in the epithelium of skin and the gastrointestinal tract. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18693275",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results indicate that the mouse Gsdma and Gsdma3 genes share common function to regulate epithelial maintenance ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23979942",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Gasdermin (GSDM or GSDMA), expressed in the upper gastrointestinal tract but frequently silenced in gastric cancers (GCs), regulates apoptosis of the gastric epithelium.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19051310",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ". Immunohistochemical analysis revealed that gasdermins are expressed specifically in cells at advanced stages of differentiation in the upper epidermis, the differentiating inner root sheath and hair shaft and in the most mature sebocytes of the sebaceous gland and preputial, meibomium, ceruminous gland, and anal glands. This expression pattern suggests a role for gasdermins in differentiation of the epidermis and its appendages.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15737203",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "epithelial cells"
+}

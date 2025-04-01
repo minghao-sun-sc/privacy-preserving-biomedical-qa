@@ -1,0 +1,40 @@
+{
+  "id": "6217da133a8413c653000026",
+  "type": "factoid",
+  "question": "Where is the the protein perforin localized?",
+  "ideal_answer": "Perforin are stored inside the leukocytes in secretory granules.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33710487",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33884612",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33410220",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33467515"
+  ],
+  "snippets": [
+    {
+      "text": " a family of pore-forming proteins (PFPs), known as perforin like proteins (PLPs)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33467515",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "cytotoxic granules (granzyme B, granulysin, and perforin)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33410220",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Granzyme B and perforin are stored inside the leukocytes in secretory granules.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33710487",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "T cells produce effector molecules that are either directly cytotoxic, such as granzymes, perforin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33884612",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "In secretory granules"
+}

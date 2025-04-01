@@ -1,0 +1,36 @@
+{
+  "document_id": "record_03218",
+  "original_length": 4095,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Erosive stomatitis probably secondary to methotrexate even though the medication has been used for ten years without any problems.  Methotrexate may produce an erosive stomatitis and enteritis af...",
+    "Symptoms": "",
+    "Treatment": "of sores in her mouth that she has had for the last 10-12 days.  The patient has a long history of severe and debilitating rheumatoid arthritis for which she has had numerous treatments, but over t...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "and 25 mg, from 25 mg, to 20 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

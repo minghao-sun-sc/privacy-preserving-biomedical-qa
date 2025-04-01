@@ -1,0 +1,24 @@
+{
+  "id": "5c8960a6f9c2ba6b28000003",
+  "type": "summary",
+  "question": "What is the dbSUPER database?",
+  "ideal_answer": "dbSUPER is the first integrated and interactive database of super-enhancers, with the primary goal of providing a resource for assistance in further studies related to transcriptional control of cell identity and disease. dbSUPER provides a responsive and user-friendly web interface to facilitate efficient and comprehensive search and browsing. The data can be easily sent to Galaxy instances, GREAT and Cistrome web-servers for downstream analysis, and can also be visualized in the UCSC genome browser where custom tracks can be added automatically. The data can be downloaded and exported in variety of formats. Furthermore, dbSUPER lists genes associated with super-enhancers and also links to external databases such as GeneCards, UniProt and Entrez. dbSUPER also provides an overlap analysis tool to annotate user-defined regions.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26438538"
+  ],
+  "snippets": [
+    {
+      "text": "dbSUPER: a database of super-enhancers in mouse and human genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26438538",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We developed dbSUPER (http://bioinfo.au.tsinghua.edu.cn/dbsuper/), the first integrated and interactive database of super-enhancers, with the primary goal of providing a resource for assistance in further studies related to transcriptional control of cell identity and disease. dbSUPER provides a responsive and user-friendly web interface to facilitate efficient and comprehensive search and browsing. The data can be easily sent to Galaxy instances, GREAT and Cistrome web-servers for downstream analysis, and can also be visualized in the UCSC genome browser where custom tracks can be added automatically. The data can be downloaded and exported in variety of formats. Furthermore, dbSUPER lists genes associated with super-enhancers and also links to external databases such as GeneCards, UniProt and Entrez. dbSUPER also provides an overlap analysis tool to annotate user-defined regions. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26438538",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": "56bdc452a36a056b3d000001",
+  "type": "summary",
+  "question": "Describe the usefulness of the SPIKE database in human signaling pathways",
+  "ideal_answer": "The rapid accumulation of knowledge on biological signaling pathways and their regulatory mechanisms has highlighted the need for specific repositories that can store, organize and allow retrieval of pathway information in a way that will be useful for the research community. SPIKE (Signaling Pathways Integrated Knowledge Engine; http://www.cs.tau.ac.il/&~spike/) is a database for achieving this goal, containing highly curated interactions for particular human pathways, along with literature-referenced information on the nature of each interaction. To make database population and pathway comprehension straightforward, a simple yet informative data model is used, and pathways are laid out as maps that reflect the curator\u2019s understanding and make the utilization of the pathways easy. The database currently focuses primarily on pathways describing DNA damage response, cell cycle, programmed cell death and hearing related pathways. Pathways are regularly updated, and additional pathways are gradually added. The complete database and the individual maps are freely exportable in several formats. The database is accompanied by a stand-alone software tool for analysis and dynamic visualization of pathways.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21097778",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18289391"
+  ],
+  "snippets": [
+    {
+      "text": "The rapid accumulation of knowledge on biological signaling pathways and their regulatory mechanisms has highlighted the need for specific repositories that can store, organize and allow retrieval of pathway information in a way that will be useful for the research community. SPIKE (Signaling Pathways Integrated Knowledge Engine; http://www.cs.tau.ac.il/&~spike/) is a database for achieving this goal, containing highly curated interactions for particular human pathways, along with literature-referenced information on the nature of each interaction. To make database population and pathway comprehension straightforward, a simple yet informative data model is used, and pathways are laid out as maps that reflect the curator\u2019s understanding and make the utilization of the pathways easy. The database currently focuses primarily on pathways describing DNA damage response, cell cycle, programmed cell death and hearing related pathways. Pathways are regularly updated, and additional pathways are gradually added. The complete database and the individual maps are freely exportable in several formats. The database is accompanied by a stand-alone software tool for analysis and dynamic visualization of pathways.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21097778",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SPIKE: a database of highly curated human signaling pathways.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21097778",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "SPIKE (Signaling Pathways Integrated Knowledge Engine; http://www.cs.tau.ac.il/&~spike/) is a database for achieving this goal, containing highly curated interactions for particular human pathways, along with literature-referenced information on the nature of each interaction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21097778",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SPIKE--a database, visualization and analysis tool of cellular signaling pathways.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18289391",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "SPIKE (Signaling Pathways Integrated Knowledge Engine; http://www.cs.tau.ac.il/&~spike/) is a database for achieving this goal, containing highly curated interactions for particular human pathways, along with literature-referenced information on the nature of each interaction. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21097778",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SPIKE (Signaling Pathways Integrated Knowledge Engine; http://www.cs.tau.ac.il/&amp;~spike/) is a database for achieving this goal, containing highly curated interactions for particular human pathways, along with literature-referenced information on the nature of each interaction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21097778",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015398",
+    "http://amigo.geneontology.org/amigo/term/GO:0007165",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019991"
+  ]
+}

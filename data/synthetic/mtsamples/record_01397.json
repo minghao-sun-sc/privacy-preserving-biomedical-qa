@@ -1,0 +1,38 @@
+{
+  "document_id": "record_01397",
+  "original_length": 1584,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Chronic glossitis/xerostomia/probable environmental inhalant allergies/probable food allergies/history of asthma.\n- History of fibromyalgia.\n- History of peptic ulcer disease, history of gastrit...",
+    "Symptoms": "",
+    "Treatment": "of allergies, diminished taste, xerostomia, gastroesophageal reflux disease, possible food allergies, chronic GI irritability, asthma, and environmental inhalant allergies.  Please refer to chart f...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, DATE_TIME, LOCATION, PERSON"
+      ],
+      "pii_detected": [
+        "URL",
+        "DATE_TIME",
+        "LOCATION",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

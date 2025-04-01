@@ -1,0 +1,51 @@
+{
+  "id": "5c57216e07647bbc4b000018",
+  "type": "yesno",
+  "question": "In clinical trials, the H3 R antagonist CEP-26401 has a positive effect on cognition, yes or no?",
+  "ideal_answer": "The H3 R antagonist CEP-26401 had an effect on cognition.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27222271",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18469850",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22001260"
+  ],
+  "snippets": [
+    {
+      "text": "CEP-26401 is a novel orally active, brain-penetrant, high-affinity histamine H3 receptor (H3R) antagonist, with potential therapeutic utility in cognition enhancement",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27222271",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "hese results demonstrate potent behavioral effects of CEP-26401 in rodent models and suggest that this novel H\u2083R antagonist may have therapeutic utility in the treatment of cognitive and attentional disorders",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22001260",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CEP-26401 is a novel orally active, brain-penetrant, high-affinity histamine H3 receptor (H3R) antagonist, with potential therapeutic utility in cognition enhancement.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27222271",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CEP-26401 (irdabisant), a potent and selective histamine H\u2083 receptor antagonist/inverse agonist with cognition-enhancing and wake-promoting activities.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22001260",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "However, although a number of clinical studies examining the efficacy of H3 receptor antagonists for a variety of cognitive disorders are currently underway, no clinical proof of concept for an H3 receptor antagonist has been reported to date.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18469850",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Further clinical studies are required to establish the potential of low-dose CEP-26401 in cognition enhancement.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27222271",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "602c26171cb411341a000122",
+  "type": "yesno",
+  "question": "Is AZD9668 a VEGF mRNA drug?",
+  "ideal_answer": "AZD9668 is a reversible and selective inhibitor of neutrophil elastase.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22197578"
+  ],
+  "snippets": [
+    {
+      "text": "AZD9668, a neutrophil elastase inhibitor, plus ongoing budesonide/formoterol in patients with COPD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22197578",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "AZD9668 is a reversible and selective inhibitor of NE, well tolerated at doses of 60 mg bid during Phase I/IIa development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22197578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "5c5f12d91a4c55d80b000016",
+  "type": "yesno",
+  "question": "Is chlorotoxin a peptide?",
+  "ideal_answer": "Yes",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30486274",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28459137",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29495404",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28415833"
+  ],
+  "snippets": [
+    {
+      "text": "chlorotoxin peptide ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29495404",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chlorotoxin (CTX) is a 36-amino-acid disulfide-containing peptide derived from the venom of the scorpion Leiurus quinquestriatus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30486274",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mature Odontobuthus doriae chlorotoxin peptide has a 35-amino-acid residue and four disulfide bounds. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28415833",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chlorotoxin (CTX), a disulfide-rich peptide from the scorpion Leiurus quinquestriatus,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28459137",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

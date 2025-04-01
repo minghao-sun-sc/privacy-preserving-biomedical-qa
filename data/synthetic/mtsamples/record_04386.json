@@ -1,0 +1,38 @@
+{
+  "document_id": "record_04386",
+  "original_length": 4729,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",The patient presents for evaluation after a contaminated needlestick to the index finger. The source patient was tested and found to be negative for HIV. However, he did test positive for hepatiti...",
+    "Symptoms": "",
+    "Treatment": ",The patient is now six months out from his injury. He had negative lab studies. There were no physical findings that were suggestive of disease transmission. He was counseled on ways to prevent ex...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, US_DRIVER_LICENSE, URL"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "US_DRIVER_LICENSE",
+        "URL"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

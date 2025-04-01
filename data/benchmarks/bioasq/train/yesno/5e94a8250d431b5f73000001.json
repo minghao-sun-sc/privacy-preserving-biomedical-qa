@@ -1,0 +1,26 @@
+{
+  "id": "5e94a8250d431b5f73000001",
+  "type": "yesno",
+  "question": "Does protein ALEX1 contain armadillo repeats?",
+  "ideal_answer": "Yes,\nALEX1 (Arm protein lost in epithelial cancers, on chromosome X), contains two armadillo repeats domains.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26464700",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20398052"
+  ],
+  "snippets": [
+    {
+      "text": "ALEX1 (Arm protein lost in epithelial cancers, on chromosome X), contains two armadillo repeats domains, is expressed different in normal and carcinomas tissues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26464700",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Arm protein lost in epithelial cancers, on chromosome X 1 (ALEX1) is a novel member of the Armadillo family which has two Armadillo repeats as opposed to more than six repeats in the classical Armadillo family members.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20398052",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "56bf487def6e394741000011",
+  "type": "list",
+  "question": "Which CDK targets control cytokinesis?",
+  "ideal_answer": "Aip1, Ede1 and Inn1 are CDK targets whose dephosphorylation is required for cytokinesis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25371407"
+  ],
+  "snippets": [
+    {
+      "text": "We use phosphoproteome analysis of mitotic exit to identify Cdk targets that are dephosphorylated at the time of cytokinesis. We then apply a new and widely applicable tool to generate conditionally phosphorylated proteins to identify those whose dephosphorylation is required for cytokinesis. This approach identifies Aip1, Ede1 and Inn1 as cytokinetic regulators. Our results suggest that cytokinesis is coordinately controlled by the master cell cycle regulator Cdk together with its counteracting phosphatase and that it is executed by concerted dephosphorylation of Cdk targets involved in several cell biological processes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25371407",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048749",
+    "http://amigo.geneontology.org/amigo/term/GO:0032465",
+    "http://amigo.geneontology.org/amigo/term/GO:0000910",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018844"
+  ],
+  "exact_answer": "Aip1, Ede1, Inn1"
+}

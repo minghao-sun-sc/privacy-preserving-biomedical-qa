@@ -1,0 +1,44 @@
+{
+  "id": "5c640fa1e842deac67000011",
+  "type": "yesno",
+  "question": "Is TIAM1 favoring tumor progression in colorectal cancer (CRC)?",
+  "ideal_answer": "No. In colorectal cancer (CRC) TIAM1 suppresses tumor progression by regulating YAP/TAZ activity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28416184",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17132223"
+  ],
+  "snippets": [
+    {
+      "text": "Here, we identify TIAM1 as a critical antagonist of CRC progression through inhibiting TAZ and YAP, effectors of WNT signaling. We demonstrate that TIAM1 shuttles between the cytoplasm and nucleus antagonizing TAZ/YAP by distinct mechanisms in the two compartments. In the cytoplasm, TIAM1 localizes to the destruction complex and promotes TAZ degradation by enhancing its interaction with \u03b2TrCP. Nuclear TIAM1 suppresses TAZ/YAP interaction with TEADs, inhibiting expression of TAZ/YAP target genes implicated in epithelial-mesenchymal transition, cell migration, and invasion, and consequently suppresses CRC cell migration and invasion. Importantly, high nuclear TIAM1 in clinical specimens associates with increased CRC patient survival. Together, our findings suggest that in CRC TIAM1 suppresses tumor progression by regulating YAP/TAZ activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28416184",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Together, our findings suggest that in CRC TIAM1 suppresses tumor progression by regulating YAP/TAZ activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28416184",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nuclear TIAM1 suppresses TAZ/YAP interaction with TEADs, inhibiting expression of TAZ/YAP target genes implicated in epithelial-mesenchymal transition, cell migration, and invasion, and consequently suppresses CRC cell migration and invasion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28416184",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using an orthotopic xenograft model in nude mice, we confirmed that Tiam1 silencing could reduce tumor growth by subcutaneous injection and could suppress lung and liver metastases of colorectal cancer cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17132223",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Together, our findings suggest that in CRC TIAM1 suppresses tumor progression by regulating YAP/TAZ activity.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28416184",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

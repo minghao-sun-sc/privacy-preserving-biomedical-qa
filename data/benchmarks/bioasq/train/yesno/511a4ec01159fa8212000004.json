@@ -1,0 +1,664 @@
+{
+  "id": "511a4ec01159fa8212000004",
+  "type": "yesno",
+  "question": "Is miR-21 related to carcinogenesis?",
+  "ideal_answer": "Yes. It has been demonstrated in several experimental studies that miR-21 has oncogenic potential,  and is significantly dysregulated in numerous types of cancer. Therefore, miR-21 is closely related to carcinogenesis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23288924",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21882851",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18719201",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19509156",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20702469",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16778182",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20978195",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22291592",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21646541",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19748927",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22316494",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22610076",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23049818",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20309880",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19175831",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21279518",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19906824",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22528454",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19546886",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22709411",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19435529",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22265967",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20480266",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19473551",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23239859",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23239858",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18853072",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22678116",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23466817",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20682703",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18507035",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20827319",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22638884",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22747440",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20141427",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21494432",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23224068",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23416953",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23255093",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21880514",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18187804",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22072622",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18591254",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21883657",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22476768",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20620599",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21081469",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19641183",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21170291",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20380575",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21088996",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23483606",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22322462",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20693987",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23175214",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16966691",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17587821",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23417858",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22168593",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21350005",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18230780",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18089790",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17475218",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22860003",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18451233",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19789312",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20483747",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20633539",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21406606",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22430134",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19730150",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19737943",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21937590",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22703586",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20338946",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22618808",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21532496",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22689922",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21468550",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20952761",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23481326",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22001440",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19682430",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23202912",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20221895",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23212265",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23335180",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23446999",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21102586",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20346171",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18372920",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20876285",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18596939",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19901002",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19597153",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22387281",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22550943",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22970173"
+  ],
+  "snippets": [
+    {
+      "text": "miR-21* and miR-203 were significantly dysregulated (P < 0.05) in PTC tissues with BRAFV600E.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23416953",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Expressions of miRNAs in papillary thyroid carcinoma and their associations with the BRAFV600E mutation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23416953",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Levels of miRNA-21 (miR-21) and miR-106a in gastric cancer tissues were significantly higher compared with the levels in adjacent tissues (P = .006 and P = .001, respectively). Patients who had gastric cancer had significantly different levels of gastric juice miR-21 and miR-106a compared with patients who had benign gastric diseases (both P < .001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23335180",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "miR-21 levels in intestinal type gastric cancer specimens were higher than that in diffuse (P = .003) or mixed (P < .001) gastric cancer types.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23335180",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "MiR-155 and miR-21 appeared significantly over-expressed in the colonic mucosa of IBD subjects without CRC, but also in neoplastic tissues of IBD patients compared to non-IBD controls (p<0.001). Importantly, in patients with IBD-CRCs, miR-155 and miR-21 over-expression extended to the distant non-neoplastic mucosa (p<0.001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23288924",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Here we hypothesize that over-expression of miR-155 and miR-21, two inflammation-related miRNAs that target core MMR proteins, may constitute a pre-neoplastic event for the development of MSI IBD-CRCs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23288924",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "After administration, we determined the expressions of miR-21, miR-27a, miR-34a, miR-93, miR-143, miR-146a, miR-148a, miR-155, miR-196a, miR-203, miR-205, miR-221 and nuclear factor kappa-light-chain enhancer of activated B-cells-1 (Nf\u03bab1), mitogen-activated protein kinase-8 (Mapk8) and v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog (K-ras) genes in the liver of mice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23239858",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Programmed cell death 4 (PDCD4) is a tumor suppressor gene whose expression is controlled by miR-21.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23212265",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Consistently with PDCD4 downregulation, miR-21 was upregulated in neoplastic by comparison with nonneoplastic tissue samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23212265",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Expression of miR-21 (p=0.027), miR-181b (p=0.002), and miR-146b (p=0.021) in tumor tissue and miR-21 (p=0.003) in noncancerous tissue were associated with patients' overall survival.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23175214",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We analyzed the expression of nine miRNAs (miR-21, miR-127, miR-154, miR-224, miR-323, miR-370, miR-9*, miR-183, and miR-375) by quantitative real-time-polymerase chain reaction in 34 cases of sMTC, 6 cases of hMTC, and 2 cases of C-cell hyperplasia (CCH).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22747440",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "MTC and CCH were both characterized by a significant overexpression of the whole set of miRNAs (the increase being 4.2-fold for miR-21, 6.7-fold for miR-127, 8.8-fold for miR-154, 6.6-fold for miR-224, 5.8-fold for miR-323, 6.1-fold for miR-370, 13-fold for miR-9*, 6.7-fold for miR-183, and 10.1 for miR-375, p<0.0001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22747440",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The most frequent changes in miRNAs in CLL cells included downregulation of miR-126, miR-572, miR-494, miR-923, miR-638, miR-130a, miR-181a and miR-181b and up-regulation of miR-29a, miR-660, miR-20a, miR-106b, miR-142-5p, miR-101, miR-30b, miR-34a, miR-let-7f, miR-21 and miR-155.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22610076",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Results: MTC and CCH were both characterized by a significant overexpression of the whole set of miRNAs (the increase being 4.2-fold for miR-21, 6.7-fold for miR-127, 8.8-fold for miR-154, 6.6-fold for miR-224, 5.8-fold for miR-323 and 6.1-fold for miR-370, 13-fold for miR-9*, 6.7-fold for miR-183 and 10.1 for miR-375, p<0.0001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22550943",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We found that the onco-miRNAs miR-21 and miR-221 displayed upregulated expression while the liver-specific miR-122 was downregulated.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22265967",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The aim of the present review was to describe the mechanisms of several known miR, summarize recent studies on oncogenic miR (e.g. miR-21, miR-106a and miR-17), tumor suppressor miR (e.g. miR-101, miR-181, miR-449, miR-486, let-7a) and controversial roles of miR (e.g. miR-107, miR-126) for gastric cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22168593",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "MiR-15b and miR-21 were differentially expressed in CSF samples from patients with gliomas, compared to control subjects with various neurologic disorders, including patients with primary CNS lymphoma and carcinomatous brain metastases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21937590",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Moreover, inclusion of miR-15b and miR-21 in combined expression analyses resulted in an increased diagnostic accuracy with 90% sensitivity and 100% specificity to distinguish patients with glioma from control subjects and patients with primary CNS lymphoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21937590",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Many aberrantly expressed miRNAs were related to various cancers (e.g., miR-125b, hepatocellular carcinoma; miR-21, leukemia; miR-16, chronic lymphocytic leukemia; miR-192, pituitary adenomas; miR-199a-3p, ovarian cancer; miR-34a, pancreatic cancer). Several miRNAs (e.g., miR-34a, miR-21) and proteins (e.g., TGM2, NDRG2) that play crucial roles in liver tumorigenesis were first found to be affected by MC-LR in mouse liver.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21882851",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Except for miR-21 and miR-206, the expression levels of all miRNAs significantly changed during the progression of CaP.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21880514",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In addition, diet and carcinogen exposure modulated a number of microRNAs (miR-16, miR-19b, miR-21, miR26b, miR27b, miR-93, and miR-203) linked to canonical oncogenic signaling pathways.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21406606",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "RESULTS: Elevated miR-21 (HR 2.06, 1.13-3.75), miR-17 (HR 2.00, 1.10-3.61), and miR-155 (HR 2.37, 1.27-4.42) was associated with worse cancer-specific mortality in the Maryland cohort.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21350005",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "NF-\u03baB targets miR-16 and miR-21 in gastric cancer: involvement of prostaglandin E receptors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21081469",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Expression of miR-21, miR-29b, miR-34a/b/c, miR-155, and let-7a was determined by quantitative real-time PCR in formalin-fixed paraffin-embedded tumor specimens from 639 IALT patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20978195",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "hese two miRNAs have previously been identified as being overexpressed in MCF-7 breast cancer cells, with miR-21 specifically implicated in down-regulating the tumor suppressor gene, tropomyosin-1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20952761",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "MicroRNA-21 is involved in ionizing radiation-promoted liver carcinogenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20827319",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We showed here that among several hundred miRNAs, miR-21 was the only one that increased 6 folds in high-LET IR-promoted mouse liver tumors when compared with that in the non-irradiated liver tissues. We also showed that miR-21 was up-regulated in human or mouse hepatocytes after exposure to IR, as well as in liver tissues derived from whole body irradiated mice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20827319",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "After the non-irradiated, low-LET or high-LET irradiated human hepatocytes were over-expressed with miR-21, these cells became tumorigenesis in nude mice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20827319",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "METHODS: We used this combined ISH/IHC assay to study a subset of cancer-associated miRNAs, including miRNAs frequently detected at low (miR-34a and miR-126) and high (miR-21 and miR-155) levels, in a panel of breast, colorectal, lung, pancreas, and prostate carcinomas.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20682703",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The miR-15a, miR-16, miR-143, miR-155, and miR-21 were upregulated in M059K, and the modulation of these miRNAs fluctuated in M059J cells in a time-dependent manner.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20380575",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Aberrantly increased expression of miR-21 plays a significant role in lung carcinogenesis and is a potential therapeutic target in both epidermal growth factor receptor-mutant and wild-type cases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20338946",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Additionally, high miR-21 expression was associated with significantly decreased 5 year survival in patients (hazard ratio, 1.68; 95% CI: 1.04-2.77) in a model controlled for patient age, gender and tumor stage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19901002",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "ESULTS: In adenocarcinoma patients, miR-21, miR-223, miR-192, and miR-194 expression was elevated, whereas miR-203 expression was reduced in cancerous compared with noncancerous tissue.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19789312",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Significantly, elevated miR-21 expression in noncancerous tissue of SCC patients and reduced levels of miR-375 in cancerous tissue of adenocarcinoma patients with Barrett's were strongly associated with worse prognosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19789312",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "miR-21, mir-31, miR-130a, miR-146b and miR-377 were consistently upregulated, whereas miR-1 and miR-143 were downregulated in lung tumors relative to normal lungs. In mice treated with VC and given I3C in the diet, levels of miR-21, mir-31, miR-130a, miR-146b and miR-377 were reduced relative to the level in mice treated with the carcinogen only.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19748927",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Further studies with miR-21 indicated that phosphatase and tensin homolog, programmed cell death 4 and rich protein with Kazal motifs are potential targets for the oncogenic effect of miR-21 and the chemopreventive activity of I3C.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19748927",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "This study examines the potential clinical utility of an inflammatory gene expression signature as a prognostic biomarker for colon cancer in addition to previously examined miR-21 expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19737943",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "CONCLUSIONS: IRS and miR-21 expression are independent predictors of colon cancer prognosis and may provide a clinically useful tool to identify high-risk patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19737943",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The most highly expressed miRNAs in gastric cancer tissues were miR-20b, miR-20a, miR-17, miR-106a, miR-18a, miR-21, miR-106b, miR-18b, miR-421, miR-340*, miR-19a and miR-658.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19175831",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Recent findings report their involvement in hair follicle morphogenesis (ablation of miRNAs from keratinocytes causes several defects, such as evagination instead of invagination), in psoriasis (skin-specific expression of miR-203 and psoriasisspecific expression of miR-146a, miR-21 and miR-125b in the skin), in autoimmune diseases affecting the skin, such as SLE and ITP, in wound healing (changes in the expression of specific miRNA at specific phases of the regeneration process), and in skin carcinogenesis (a novel miRNA signature that includes induction of miR-21, a candidate oncogenic miRNA).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18853072",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "RESULTS: Several microRNAs were differentially expressed in serous ovarian carcinoma compared with normal ovarian tissues, including miR-21, miR-125a, miR-125b, miR-100, miR-145, miR-16, and miR-99a, which were each differentially expressed in >16 patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18451233",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Selected for validation were miR-20a, miR-21, miR-106a, miR-181b, and miR-203, and all 5 were enriched in tumors from the validation cohort (P < .001). Higher miR-21 expression was present in adenomas (P = .006) and in tumors with more advanced TNM staging (P < .001). In situ hybridization demonstrated miR-21 to be expressed at high levels in colonic carcinoma cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18230780",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "To test this hypothesis, we studied the pharmacologic roles of three microRNAs previously implicated in cancer biology (let-7i, mir-16, and mir-21) and also used in silico methods to test pharmacologic microRNA effects more broadly.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18187804",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Changing the cellular levels of let-7i, mir-16, and mir-21 affected the potencies of a number of the anticancer agents by up to 4-fold. The effect was most prominent with mir-21, with 10 of 28 cell-compound pairs showing significant shifts in growth-inhibitory activity. Varying mir-21 levels changed potencies in opposite directions depending on compound class; indicating that different mechanisms determine toxic and protective effects. In silico comparison of drug potencies with microRNA expression profiles across the entire NCI-60 panel revealed that approximately 30 microRNAs, including mir-21, show highly significant correlations with numerous anticancer agents.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18187804",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Conversely, expression of other miRNAs was detected at varying levels predominantly within luminal epithelial cells in normal tissue; expression of miR-21 was frequently increased, whereas that of let-7a was decreased in malignant cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18089790",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We describe a novel EMT-specific microRNA signature that includes induction of miR-21, a candidate oncogenic microRNA associated with carcinogenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17587821",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Notable was the high expression of miR-21 and miR-205.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17475218",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Recently, microRNAs (miRNAs) have emerged as key actors in carcinogenesis and we demonstrated that microRNA-21 (miR-21), oncomiR is expressed early during PDA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23481326",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "These results indicated that miR-21 plays a role in the carcinogenesis and metastasis of O. viverrini-associated CCA by suppressing the function of PDCD4.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23417858",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Importantly, in patients with IBD CRCs, miR-155 and miR-21 overexpression extended to the distant non-neoplastic mucosa (P < 0.001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23288924",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Ectopic overexpression of miR-21 promoted Akt activation and phosphorylation of EZH2, whereas inhibiting miR-21 by transfecting the cells with anti-miR-21 inhibited Akt activation and EZH2 phosphorylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23255093",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "PDCD4 nuclear down-regulation (which parallels miR-21 up-regulation) is involved in the molecular pathway of IBD-associated carcinogenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23224068",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The expression levels of miR-21 (p = 0.027), miR-181b (p = 0.002) and miR-146b (p = 0.021) in tumor tissue and miR-21 (p = 0.003) in noncancerous tissue were associated with overall survival of patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23175214",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "OBJECTIVE: As an important oncogenic miRNA, miR-21 has been reported to play crucial roles in glioblastoma (GBM) carcinogenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22709411",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We further analyzed the expression of microRNA-21 (miR-21), an oncogenic noncoding RNA involved in oncogenic Ras signaling, by quantitative reverse-transcription polymerase chain reaction and in situ hybridization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22618808",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "MicroRNA-21 (miR-21) plays crucial roles in carcinogenesis and is considered as one of the most studied oncomiRNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22430134",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Although microRNA-21 (miR-21) has been implicated in various aspects of carcinogenesis, its functions and molecular mechanisms in carcinogen-induced tumorigenesis are unclear.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22387281",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Substantial evidence indicates that microRNA-21 (miR-21) is a key oncomiR in carcinogenesis and is significantly elevated in multiple myeloma (MM).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22316494",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "MicroRNA 21 (miR-21) has been implicated in various aspects of carcinogenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22001440",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Conversely, pAkt and miR-21 expression was significantly up-regulated in the whole spectrum of preneoplastic/neoplastic lesions considered.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21883657",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Several miRNAs (e.g., miR-34a, miR-21) and proteins (e.g., TGM2, NDRG2) that play crucial roles in liver tumorigenesis were first found to be affected by MC-LR in mouse liver.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21882851",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "RESULTS: Except for miR-21 and miR-206, the expression levels of all miRNAs significantly changed during the progression of CaP.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21880514",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "MicroRNA 21 (miR-21) is overexpressed in virtually all types of carcinomas and various types of hematological malignancies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21646541",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "As expected, miR-21 expression was significantly upregulated in preneoplastic/neoplastic samples, consistent with PDCD4 downregulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21279518",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Furthermore, miR-21 levels in the primary tumours correlated with disease stage (P\u2009<\u20090.0001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21088996",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We found that miR-16 and miR-21 were upregulated upon nicotine stimulation, transfection with anti-miR-16 or anti-miR-21 significantly abrogated cell proliferation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21081469",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "MicroRNA-21 (miR-21) is a unique miRNA in that it is overexpressed in most tumour types analysed so far.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20693987",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Although altered expressions of miR-21 and miR-34a were manifested within cancer cells, those of miR-126 and miR-155 were predominantly confined to endothelial cells and immune cells, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20682703",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "However, the function of miR-21 in osteosarcoma is still unclear.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20480266",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In SCC patients, we found elevated miR-21 and reduced miR-375 expression levels in cancerous compared with noncancerous tissue.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19789312",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "miR-21, mir-31, miR-130a, miR-146b and miR-377 were consistently upregulated, whereas miR-1 and miR-143 were downregulated in lung tumors relative to normal lungs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19748927",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Precancerous adenomas also frequently showed miR-21 up-regulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19509156",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Higher miR-21 expression was present in adenomas (P = .006)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18230780",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Importantly, the inflammatory ZD esophagus had a distinct microRNA signature resembling human ESCC or tongue SCC miRNAomes with miR-31 and miR-21 as the top-up-regulated species.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22689922",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Several miRNAs have been recently reported to be involved in modulation of glioma development, especially some upregulated miRNAs, such as microRNA-21 (miR-21), which has been found to function as an oncogene in cultured glioblastoma multiforme cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22528454",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "OBJECTIVE: MicroRNA-21 (miR-21) is one of the miRNAs that are frequently and highly overexpressed in tumor tissue of colorectal cancer (CRC) patients; however, only a little is known about its functional role in CRC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22476768",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Inhibition of microRNA-21 (mir\u201121) induced upregulation of Spry2             and PTEN which underscores the importance of mir-21 in Spry2-associated tumorigenesis             of the colon.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22322462",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The microRNA miR-21, a known oncogenic miRNA, was found to be upregulated in papillary and clear cell carcinomas.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21532496",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Since microRNA-21 (miR-21) may contribute to tumorigenesis and chemoresistance in many cancer types, we aimed to investigate its efficacy in TCCs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21468550",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Several miRNAs have been recently reported to be involved in modulation of glioma development, especially some up-regulated miRNAs, such as microRNA-21 (miR-21), which has been found to function as an oncogene in cultured glioblastoma multiforme cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20633539",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In this study, by using high-throughput microRNA profiling, we identified that two miRNAs (miR-21 and miR-148a) overexpressed in CD4+ T cells from both patients with lupus and lupus-prone MRL/lpr mice, which promote cell hypomethylation by repressing DNA methyltransferase 1 (DNMT1) expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20483747",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The microRNA-21 (miR-21) has been identified as the only miRNA overexpressed in a variety of cancers, including leukemia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20141427",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "OBJECTIVE: The contribution of overexpressed microRNA-21 and -221 (miR-21 and miR-221) to the malignant phenotype was determined by inhibiting these miRNAs using antisense oligonucleotides.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19730150",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The microRNA-21(miR-21) has been identified as the only miRNA over-expressed in a wide variety of cancers, including cervical cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19682430",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "To determine the functions of these microRNAs in lymphomagenesis, we examined the effects of antisense oligonucleotides (ASOs) targeting miR-21 (ASO-21) and/or miR-155 (ASO-155) in NK-cell lymphoma lines overexpressing one or both of these miRNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19641183",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In this study, microRNA (miRNA) expression profiling of 28 cases of never-smoker lung cancer identified aberrantly expressed miRNAs, which were much fewer than in lung cancers of smokers and included miRNAs previously identified (e.g., up-regulated miR-21) and unidentified (e.g., down-regulated miR-138) in those smoker cases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19597153",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The oncogenic miRNA, microRNA-21 (miR-21), was found to be upregulated in laryngeal carcinoma tissues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19546886",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "OBJECTIVE: To better understand microRNA miR-21 function in carcinogenesis, we analyzed miR-21 expression patterns in different stages of colorectal cancer development using in situ hybridization (ISH).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19509156",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Of these miRNAs, miR-21 appears to be important in tumorigenesis given its up-regulation in almost all types of human cancer examined.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18507035",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The microRNA-21 gene (mir-21) has been identified as the only miRNA commonly overexpressed in solid tumors of the lung, breast, stomach, prostate, colon, brain, head and neck, esophagus and pancreas.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18372920",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "RESULTS: Our data showed that a common pattern of microRNA expression distinguishes any tumor type from normal pancreas, suggesting that this set of microRNAs might be involved in pancreatic tumorigenesis; the expression of miR-103 and miR-107, associated with lack of expression of miR-155, discriminates tumors from normal; a set of 10 microRNAs distinguishes endocrine from acinar tumors and is possibly associated with either normal endocrine differentiation or endocrine tumorigenesis; miR-204 is primarily expressed in insulinomas and correlates with immunohistochemical expression of insulin; and the overexpression of miR-21 is strongly associated with both a high Ki67 proliferation index and presence of liver metastasis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16966691",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "To search for tumor-associated mutations that could affect processing and expression of mature miRNAs, a panel of 91 cancer-derived cell lines was analyzed for sequence variations in 15 miRNAs implicated in tumorigenesis by virtue of their known target transcripts (let-7 family targeting oncogenic Ras) or their localization to sites of frequent chromosomal instability (miR-143, miR-145, miR-26a-1, and miR-21).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16778182",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/P21_BYVU"
+  ],
+  "exact_answer": "Yes"
+}

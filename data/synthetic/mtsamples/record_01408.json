@@ -1,0 +1,38 @@
+{
+  "document_id": "record_01408",
+  "original_length": 2972,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  The patient experienced a weight gain of 2 pounds since our last consultation which was two months ago.  I did carefully review her food records and evaluated calories consumed.  While she was c...",
+    "Symptoms": "",
+    "Treatment": "prescribed, but felt like she was gaining weight and not losing weight on it.  She is not sure that she was following it accurately.  She is trying to walk 1-1/2 to 2 miles every other day, but is ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, LOCATION, NRP, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "LOCATION",
+        "NRP",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "document_id": "record_02818",
+  "original_length": 5738,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "of SLE was likely. Pulmonary effusion analysis was consistent with an exudate. She was treated with plasma exchange and place on Cytoxan.,On 7/22/93 she developed fever with associated proptosis an...",
+    "Symptoms": "",
+    "Treatment": "Pulmonary evaluation",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Zoloft 50mg, Lithium 300mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, DATE_TIME, US_DRIVER_LICENSE, PERSON"
+      ],
+      "pii_detected": [
+        "URL",
+        "DATE_TIME",
+        "US_DRIVER_LICENSE",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

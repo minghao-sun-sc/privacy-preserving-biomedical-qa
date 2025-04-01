@@ -1,0 +1,36 @@
+{
+  "id": "5171a1498ed59a060a000012",
+  "type": "list",
+  "question": "Which genes are more frequently affected by somatic mutations in Chronic Lymphocytic Leukemia",
+  "ideal_answer": "TP53, ATM, NOTCH1, XPO1, MYD88, KLHL6, SF3B1, ZMYM3, MAPK1, FBXW7 and DDX3X",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19367498",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10803511",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21642962",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22158541",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22150006",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22675518"
+  ],
+  "snippets": [
+    {
+      "text": "Among these genes, SF3B1, encoding a subunit of the spliceosomal U2 small nuclear ribonucleoprotein (snRNP), is somatically mutated in 9.7% of affected individuals.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22158541",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Further analysis of these mutations in 363 patients with CLL identified four genes that are recurrently mutated: notch 1 (NOTCH1), exportin 1 (XPO1), myeloid differentiation primary response gene 88 (MYD88) and kelch-like 6 (KLHL6).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21642962",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Nine genes that are mutated at significant frequencies were identified, including four with established roles in chronic lymphocytic leukemia (TP53 in 15% of patients, ATM in 9%, MYD88 in 10%, and NOTCH1 in 4%) and five with unestablished roles (SF3B1, ZMYM3, MAPK1, FBXW7, and DDX3X). SF3B1, which functions at the catalytic core of the spliceosome, was the second most frequently mutated gene (with mutations occurring in 15% of patients).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22150006",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "TP53, ATM, NOTCH1, XPO1, MYD88, KLHL6, SF3B1, ZMYM3, MAPK1, FBXW7, DDX3X"
+}

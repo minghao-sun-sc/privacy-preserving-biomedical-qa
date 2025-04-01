@@ -1,0 +1,34 @@
+{
+  "id": "5a96c886fcd1d6a10c00002a",
+  "type": "yesno",
+  "question": "A bite from the Lone Star Tick Amblyomma americanum, can cause the victim to become allergic to red meat, yes or no?",
+  "ideal_answer": "Conditions such as Southern tick-associated rash illness and anaphylaxis to red meat following tick bites have been attributed to the lone star tick, Ambyomma ameriacanum.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24690977",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28319627"
+  ],
+  "snippets": [
+    {
+      "text": "A recent discovery of an IgE antibody specific to galactose-\u03b1-1,3-galactose, which is a carbohydrate abundantly expressed on cells and tissues of beef, pork, and lamb, adds one more tool to aid the clinician in making the appropriate diagnosis. A link has been discovered between the bite of the Lone Star Tick (Amblyomma americanum) and the development of sensitivity to galactose-\u03b1-1,3-galactose. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24690977",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ". Recently described conditions such as Southern tick-associated rash illness and anaphylaxis to red meat following tick bites have been attributed to the lone star tick.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28319627",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recently described conditions such as Southern tick-associated rash illness and anaphylaxis to red meat following tick bites have been attributed to the lone star tick.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28319627",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D017282"
+  ],
+  "exact_answer": "Yes"
+}

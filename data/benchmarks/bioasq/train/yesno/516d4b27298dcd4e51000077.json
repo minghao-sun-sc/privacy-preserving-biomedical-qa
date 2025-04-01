@@ -1,0 +1,45 @@
+{
+  "id": "516d4b27298dcd4e51000077",
+  "type": "yesno",
+  "question": "Does dronedarone  affect  T3 and T4 levels?",
+  "ideal_answer": "NO.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17391666",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8640331",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12063079"
+  ],
+  "snippets": [
+    {
+      "text": "Amiodarone resulted in increased T4, T4/T3 and rT3, whereas dronedarone did not alter the thyroid hormone profile in normal animals.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12063079",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Fifty-five Wistar rats were randomly allocated to a 2-week oral treatment with either vehicle (n=18), amiodarone (30 mg/kg, n=20), or dronedarone (30 mg/kg, n=17).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17391666",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Thyroid function was similar in the 3 groups.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17391666",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Plasma levels of T3, T4, and rT3 were changed after SR 33589 treatment except a decrease in T4 level at the highest dose whilst the T4 T3 ratio and the level of rT3 were dose-dependently increased by amiodarone treatment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8640331",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014284",
+    "http://www.biosemantics.org/jochem#4275389",
+    "http://www.biosemantics.org/jochem#4274245",
+    "http://www.biosemantics.org/jochem#4005955",
+    "http://www.biosemantics.org/jochem#4233556"
+  ],
+  "exact_answer": "Yes"
+}

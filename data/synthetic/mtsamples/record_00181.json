@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00181",
+  "original_length": 2612,
+  "synthetic_length": 704,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "S\n- Wound debridement with removal of Surgisis xenograft and debridement of skin and subcutaneous tissue.\n- Secondary closure of wound, complicated.\n- VAC insertion.,DESCRIPTION OF PROCEDURE:,  Aft...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Wound debridement with removal of Surgisis xenogra...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

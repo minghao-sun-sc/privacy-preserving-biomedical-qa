@@ -1,0 +1,37 @@
+{
+  "document_id": "record_02864",
+  "original_length": 5710,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": ".,PHYSICAL EXAMINATION:,VITAL SIGNS:  Temperature 97.7, heart rate 83, respiratory rate 18, blood pressure 125/72, and saturation 98% on room air.,GENERAL:  The patient is lying in bed, appears com...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PHONE_NUMBER, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PHONE_NUMBER",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

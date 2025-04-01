@@ -1,0 +1,33 @@
+{
+  "id": "6251465ae764a53204000017",
+  "type": "yesno",
+  "question": "Is Phospholemman a membrane protein?",
+  "ideal_answer": "Yes, FXYD1 (encoding phospholemman) is a transmembrane protein.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31840988",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26429909",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23246925"
+  ],
+  "snippets": [
+    {
+      "text": " the transmembrane lipoprotein phospholemman (FXYD1)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31840988",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Phospholemman (FXYD1) is a single-transmembrane protein regulator of Na,K-ATPase, expressed strongly in heart, skeletal muscle, and brain and phosphorylated by protein kinases A and C at Ser-68 and Ser-63, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26429909",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We previously identified FXYD1 (encoding phospholemman; a protein containing the motif phenylalanine-X-tyrosine-aspartate), a gene encoding a transmembrane modulator of the Na, K-ATPase (NKA) enzyme,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23246925",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

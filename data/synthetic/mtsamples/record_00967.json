@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00967",
+  "original_length": 5721,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Successful stenting of subtotal stenosis of the proximal coronary artery.\n- Non-obstructive coronary artery disease in the mid left anterior descending as described above and ectasia of the prox...",
+    "Symptoms": "",
+    "Treatment": "\n- Selective coronary angiography.\n- Placement of overlapping 3.0 x 18 and 3.0 x 8 mm Xience stents in the proximal right coronary artery.\n- Abdominal aortography.,INDICATIONS:  ,The patient is a 6...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Versed 1 mg, fentanyl 50 mcg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: '0 x 8 mm Xience stents in the proximal right coron...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

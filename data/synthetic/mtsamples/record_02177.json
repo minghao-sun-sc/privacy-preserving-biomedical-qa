@@ -1,0 +1,33 @@
+{
+  "document_id": "record_02177",
+  "original_length": 3517,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Low back pain with a history of right leg pain.  The leg pain is no longer present.  His pain level has improved., ,PLAN:  \n- The patient will take another [person].\n- He can continue with ...",
+    "Symptoms": "",
+    "Treatment": "MRI scan",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'The leg pain is no longer present...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

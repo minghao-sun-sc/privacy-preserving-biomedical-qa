@@ -1,0 +1,31 @@
+{
+  "id": "5c61f767e842deac67000007",
+  "type": "factoid",
+  "question": "Which ploidy-agnostic method has been developed for estimating telomere length from whole genome sequencing data?",
+  "ideal_answer": "Telomerecat is a ploidy-agnostic method for estimating telomere length from whole genome sequencing data. Previous methods have been dependent on the number of telomeres present in a cell being known, which may be problematic when analysing aneuploid cancer data and non-human samples. Telomerecat is designed to be agnostic to the number of telomeres present, making it suited for the purpose of estimating telomere length in cancer studies. Telomerecat also accounts for interstitial telomeric reads and presents a novel approach to dealing with sequencing errors.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29358629"
+  ],
+  "snippets": [
+    {
+      "text": "Telomerecat: A ploidy-agnostic method for estimating telomere length from whole genome sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29358629",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "To this end, a number of approaches for estimating telomere length from whole-genome sequencing data have been proposed. Here we present Telomerecat, a novel approach to the estimation of telomere length. Previous methods have been dependent on the number of telomeres present in a cell being known, which may be problematic when analysing aneuploid cancer data and non-human samples. Telomerecat is designed to be agnostic to the number of telomeres present, making it suited for the purpose of estimating telomere length in cancer studies. Telomerecat also accounts for interstitial telomeric reads and presents a novel approach to dealing with sequencing errors. We show that Telomerecat performs well at telomere length estimation when compared to leading experimental and computational methods. Furthermore, we show that it detects expected patterns in longitudinal data, repeated measurements, and cross-species comparisons. We also apply the method to a cancer cell data, uncovering an interesting relationship with the underlying telomerase genotype.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29358629",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Telomerecat: A ploidy-agnostic method for estimating telomere length from whole genome sequencing data.Telomere length is a risk factor in disease and the dynamics of telomere length are crucial to our understanding of cell replication and vitality. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29358629",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Telomerecat"
+}

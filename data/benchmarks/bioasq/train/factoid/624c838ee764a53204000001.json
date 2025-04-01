@@ -1,0 +1,40 @@
+{
+  "id": "624c838ee764a53204000001",
+  "type": "factoid",
+  "question": "What disease is presenilin involved in?",
+  "ideal_answer": "Loss-of-function mutations in PSEN1/2 genes are the leading cause of familial Alzheimer's disease (fAD).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34593029",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34100423",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34662541",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31606858"
+  ],
+  "snippets": [
+    {
+      "text": "The presenilin genes (PSEN1 and PSEN2) are mainly responsible for causing early-onset familial Alzheimer's disease, harboring ~300 causative mutations, and representing ~90% of all mutations associated with a very aggressive disease form. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34100423",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Loss-of-function mutations in PSEN1/2 genes are the leading cause of familial Alzheimer's disease (fAD). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34662541",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Alzheimer's disease (AD) is the most frequent cause of dementia in the elderly. Few cases are familial (FAD), due to autosomal dominant mutations in presenilin-1 (PS1), presenilin-2 (PS2) or amyloid precursor protein (APP). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31606858",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mutations in the presenilin (PS/PSEN) genes encoding the catalytic components of \u03b3-secretase accelerate amyloid-\u03b2 (A\u03b2) and tau pathologies in familial Alzheimer's disease (AD).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34593029",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "familial Alzheimer's disease"
+}

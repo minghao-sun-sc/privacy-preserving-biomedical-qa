@@ -1,0 +1,38 @@
+{
+  "document_id": "record_02451",
+  "original_length": 1001,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",Premature retina and vitreous, each eye.,PLAN:  ,Recheck in two weeks.,",
+    "Symptoms": "",
+    "Treatment": ",Recheck in two weeks.,",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, US_DRIVER_LICENSE, URL"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "US_DRIVER_LICENSE",
+        "URL"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

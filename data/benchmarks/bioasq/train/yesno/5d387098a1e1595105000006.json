@@ -1,0 +1,80 @@
+{
+  "id": "5d387098a1e1595105000006",
+  "type": "yesno",
+  "question": "Is the tyrosine kinase BTK implicated in autoimmunity?",
+  "ideal_answer": "Autoimmunity, hypersensitivity to B cell receptor (BCR) cross-linking, and splenomegaly caused by myeloerythroid hyperplasia were alleviated by Btk deficiency in lyn-/- mice. Augmented TLR9-induced Btk activation in PIR-B-deficient B-1 cells provokes excessive autoantibody production and autoimmunity. Autoimmunity was fully dependent on Btk kinase activity, because Btk inhibitor treatment (PCI-32765) could normalize B-cell activation and differentiation, and because autoantibodies were absent in Btk transgenic mice overexpressing a kinase inactive Btk mutant.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22383797",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23672610",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23136880",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26209625",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26341110",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9730885",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27669440",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19687229"
+  ],
+  "snippets": [
+    {
+      "text": "Autoimmunity, hypersensitivity to B cell receptor (BCR) cross-linking, and splenomegaly caused by myeloerythroid hyperplasia were alleviated by Btk deficiency in lyn-/- mice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9730885",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Augmented TLR9-induced Btk activation in PIR-B-deficient B-1 cells provokes excessive autoantibody production and autoimmunity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19687229",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Autoimmunity was fully dependent on Btk kinase activity, because Btk inhibitor treatment (PCI-32765) could normalize B-cell activation and differentiation, and because autoantibodies were absent in Btk transgenic mice overexpressing a kinase inactive Btk mutant.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22383797",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bruton's tyrosine kinase (Btk) is a proximal transducer of the BCR signal that allows for B-cell activation and differentiation. Recently, selective inhibition of Btk by PCI-32765 has shown promise in limiting activity of multiple cells types in various models of cancer and autoimmunity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23136880",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Inhibitors of BTK and ITK: state of the new drugs for cancer, autoimmunity and inflammatory diseases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23672610",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Tight control of B cell differentiation into plasma cells (PCs) is critical for proper immune responses and the prevention of autoimmunity",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26209625",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BTK Signaling in B Cell Differentiation and Autoimmunity",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26341110",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "BTK function in B cells in the context of host defense and autoimmunity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26341110",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "promising effects of BTK inhibition were also seen in experimental animal models for lupus and rheumatoid arthritis, BTK may be a good target for controlling autoreactive B cells in patients with systemic autoimmune disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26341110",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Given the phenotype of affected patients, namely lack of B-lymphocytes and plasma cells with the ensuing inability to mount humoral immune responses, BTK inhibitors were anticipated to have beneficial effects on antibody-mediated pathologies, such as autoimmunity",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27669440",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

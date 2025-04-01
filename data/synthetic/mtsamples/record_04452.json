@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04452",
+  "original_length": 4190,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Age-related macular degeneration category three (right greater than sign left).\n- Glaucoma suspect based on disc appearance (increased cup-to-disc ratio and disc asymmetry).\n- Presbyopia and ast...",
+    "Symptoms": "",
+    "Treatment": "ation was 16 mmHg in the right eye and 18 mmHg in the left eye measured at 11.30 in the morning.,Examination of the anterior segment was unremarkable in both eyes except for mild nuclear sclerotic ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "XL 450 mg, acting 60 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

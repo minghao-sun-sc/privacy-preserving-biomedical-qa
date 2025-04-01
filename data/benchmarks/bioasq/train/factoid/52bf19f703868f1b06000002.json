@@ -1,0 +1,41 @@
+{
+  "id": "52bf19f703868f1b06000002",
+  "type": "factoid",
+  "question": "What is the inheritance pattern of Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT) caused by RYR2 mutations?",
+  "ideal_answer": "Autosomal dominant catecholaminergic polymorphic ventricular tachycardia (CPVT) was mapped to chromosome 1q42-43 with identification of pathogenic mutations in RYR2.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18052993",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17666061",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15336972"
+  ],
+  "snippets": [
+    {
+      "text": "Catecholaminergic polymorphic ventricular tachycardia (CPVT) is a rare arrythmogenic disease characterized by exercise--or stress--induced ventricular tachyarrythmias, syncope, or sudden death, usually in the pediatric age group. Familial occurrence has been noted in about 30% of cases. Inheritance may be autosomal dominant or recessive, usually with high penetrance. The causative genes have been mapped to chromosome 1. Mutations of the cardiac ryanodine receptor gene (RyR2) have been identified in autosomal dominant pedigrees, while calsequestrin gene (CASQ2) mutations are seen in recessive cases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18052993",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Previously, autosomal dominant catecholaminergic polymorphic ventricular tachycardia (CPVT [1]) was mapped to chromosome 1q42-43 with identification of pathogenic mutations in RYR2. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17666061",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Several mutations in the genes encoding RyR1 and RyR2 have been identified in autosomal dominant diseases of skeletal and cardiac muscle, such as malignant hyperthermia (MH), central core disease (CCD), catecholaminergic polymorphic ventricular tachycardia (CPVT), and arrhythmogenic right ventricular dysplasia type 2 (ARVD2). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15336972",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019837",
+    "http://www.uniprot.org/uniprot/RYR2_RABIT",
+    "http://www.uniprot.org/uniprot/RYR2_MOUSE",
+    "http://www.uniprot.org/uniprot/RYR2_RAT",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D040582",
+    "http://www.uniprot.org/uniprot/RYR2_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014918"
+  ],
+  "exact_answer": "autosomal dominant"
+}

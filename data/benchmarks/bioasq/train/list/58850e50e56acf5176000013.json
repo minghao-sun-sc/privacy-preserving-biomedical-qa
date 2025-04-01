@@ -1,0 +1,27 @@
+{
+  "id": "58850e50e56acf5176000013",
+  "type": "list",
+  "question": "Which factors are considered in the FUNC score for intracerebral hemorrhage?",
+  "ideal_answer": "FUNC score includes Age, Glasgow Coma Scale, ICH location, volume and pre-ICH cognitive impairment.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18556582"
+  ],
+  "snippets": [
+    {
+      "text": "Age, Glasgow Coma Scale, ICH location, volume (all P<0.0001), and pre-ICH cognitive impairment (P=0.005) were independently associated with Glasgow Outcome Score>or = 4. The FUNC score was developed as a sum of individual points (0-11) based on strength of association with outcome. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18556582",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Age, Glasgow Coma Scale, ICH location, volume (all P<0.0001), and pre-ICH cognitive impairment (P=0.005) were independently associated with Glasgow Outcome Score>or = 4.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18556582",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020299"
+  ],
+  "exact_answer": "Age, Glasgow Coma Scale, ICH location, ICH volume, pre-ICH cognitive impairment"
+}

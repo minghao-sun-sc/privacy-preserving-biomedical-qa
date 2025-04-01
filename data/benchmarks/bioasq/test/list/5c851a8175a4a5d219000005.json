@@ -1,0 +1,53 @@
+{
+  "id": "5c851a8175a4a5d219000005",
+  "type": "list",
+  "question": "List 3 enterotoxins produced by Clostridium difficile.",
+  "ideal_answer": "Toxin A (TcdA), toxin B (TcdB), and binary toxin (CDT) produced by Clostridium difficile (CD)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28366569",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28707191",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2115017",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12825250",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28232034"
+  ],
+  "snippets": [
+    {
+      "text": "The toxins produced by the C. diff. (toxin A, toxin B, and binary toxin) are the agents that cause injury and disease. Only toxin producing C. diff. Strains will cause disease. Binary toxin by itself is not thought to produce disease",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28707191",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Binary toxin causes disease in humans when present with toxin A and B producing bacteria, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28707191",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The main virulence factor is related to the release of two major exotoxins, toxin A (TcdA) and toxin B (TcdB). Recent C. difficile-associated disease (CDAD) outbreaks have been caused by hypervirulent strains which secrete an additional binary toxin (CDTa/CDTb). V",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28366569",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The exotoxins toxin A (TcdA) and toxin B (TcdB) are produced by the bacterial pathogen Clostridium difficile and are responsible for the pathology associated with C. difficile infection (CDI).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28232034",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The pathogenic organism, Clostridium difficile, produces two enterotoxins, toxin A and toxin B, that cause colonic mucosal inflammation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12825250",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Enterotoxins from Clostridium difficile; diarrhoeogenic potency and morphological effects in the rat intestine.The action of toxins A, B, and C from Clostridium difficile was studied in the small intestine and colon of rats. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2115017",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "binary toxin (CDT, Toxin A (TcdA), Toxin B (TcdB)"
+}

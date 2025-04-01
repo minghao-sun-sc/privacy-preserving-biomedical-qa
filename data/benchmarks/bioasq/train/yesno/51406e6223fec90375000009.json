@@ -1,0 +1,29 @@
+{
+  "id": "51406e6223fec90375000009",
+  "type": "yesno",
+  "question": "Does metformin interfere thyroxine absorption?",
+  "ideal_answer": "No. There are not reported data indicating that metformin reduce with thyroxine absorption.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26191653"
+  ],
+  "snippets": [
+    {
+      "text": "LT4 absorption is unchanged by concomitant metformin ingestion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26191653",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "It has been hypothesized that metformin may suppress serum thyrotropin (TSH) concentrations by enhancing LT4 absorption or by directly affecting the hypothalamic-pituitary axis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26191653",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013974",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008687",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000042"
+  ],
+  "exact_answer": "Yes"
+}

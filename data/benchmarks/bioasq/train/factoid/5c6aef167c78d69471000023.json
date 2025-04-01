@@ -1,0 +1,37 @@
+{
+  "id": "5c6aef167c78d69471000023",
+  "type": "factoid",
+  "question": "Which tool has been developed for GPU-accelerated alignment of bisulfite-treated DNA sequences?",
+  "ideal_answer": "The alignment of bisulfite-treated DNA sequences (BS-seq reads) to a large genome involves a significant computational burden beyond that required to align non-bisulfite-treated reads. In the analysis of BS-seq data, this can present an important performance bottleneck that can be mitigated by appropriate algorithmic and software-engineering improvements. One strategy is to modify the read-alignment algorithms by integrating the logic related to BS-seq alignment, with the goal of making the software implementation amenable to optimizations that lead to higher speed and greater sensitivity than might otherwise be attainable. This strategy was evaluated using Arioc, a short-read aligner that uses GPU (general-purpose graphics processing unit) hardware to accelerate computationally-expensive programming logic.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29554207"
+  ],
+  "snippets": [
+    {
+      "text": "Arioc: GPU-accelerated alignment of short bisulfite-treated reads.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29554207",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The alignment of bisulfite-treated DNA sequences (BS-seq reads) to a large genome involves a significant computational burden beyond that required to align non-bisulfite-treated reads. In the analysis of BS-seq data, this can present an important performance bottleneck that can be mitigated by appropriate algorithmic and software-engineering improvements. One strategy is to modify the read-alignment algorithms by integrating the logic related to BS-seq alignment, with the goal of making the software implementation amenable to optimizations that lead to higher speed and greater sensitivity than might otherwise be attainable.Results: We evaluated this strategy using Arioc, a short-read aligner that uses GPU (general-purpose graphics processing unit) hardware to accelerate computationally-expensive programming logic. We integrated the BS-seq computational logic into both GPU and CPU code throughout the Arioc implementation. We then carried out a read-by-read comparison of Arioc's reported alignments with the alignments reported by well-known CPU-based BS-seq read aligners. With simulated reads, Arioc's accuracy is equal to or better than the other read aligners we evaluated. With human sequencing reads, Arioc's throughput is at least 10 times faster than existing BS-seq aligners across a wide range of sensitivity settings.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29554207",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Results\nWe evaluated this strategy using Arioc, a short-read aligner that uses GPU (general-purpose graphics processing unit) hardware to accelerate computationally-expensive programming logic.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29554207",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We then carried out a read-by-read comparison of Arioc's reported alignments with the alignments reported by well-known CPU-based BS-seq read aligners.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29554207",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Arioc"
+}

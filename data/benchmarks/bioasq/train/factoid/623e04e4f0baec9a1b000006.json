@@ -1,0 +1,54 @@
+{
+  "id": "623e04e4f0baec9a1b000006",
+  "type": "factoid",
+  "question": "Which disease is caused by mutations in the gene CALR?",
+  "ideal_answer": "Somatic mutations of calreticulin (CALR) have been identified as a main disease driver of myeloproliferative neoplasms,",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32733014",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33202418",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34571965",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33202112",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34804436",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32694616"
+  ],
+  "snippets": [
+    {
+      "text": "JAK2, CALR, and MPL are myeloproliferative neoplasm (MPN)-driver mutations,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32694616",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " loss-of-function CALR mutations promote oncogenesis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32733014",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Myeloproliferative Neoplasms (MPN) are acquired clonal disorders of the hematopoietic stem cells and include Essential Thrombocythemia, Polycythemia Vera and Myelofibrosis. MPN are characterized by mutations in three driver genes (JAK2, CALR and MPL) and by a state of chronic inflammation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34571965",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Classification of myeloproliferative neoplasms is based on hematologic, histopathologic, and molecular characteristics, including the BCR-ABL1 and JAK2 V617F or MPL and CALR. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34804436",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AIMS: JAK2V617F (JAK2), calreticulin (CALR) and MPL515L/K (MPL) mutations are important in essential thrombocythemia (ET) and may be associated with various clinical consequences of the disease. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33202112",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Somatic mutations of calreticulin (CALR) have been identified as a main disease driver of myeloproliferative neoplasms,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33202418",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "myeloproliferative neoplasms"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "58cc5bae02b8c60953000037",
+  "type": "factoid",
+  "question": "What is the incidence of new cases of X-linked adrenoleukodystrophy (ALD) in Australian and New Zealand in the late 1990's?",
+  "ideal_answer": "cases of ALD diagnosed in Australia and New Zealand between 1981 and 1996 and their families. We estimate that the combined incidence of ALD and its variants in Australasia is at least 1.6 per 100,000. ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/9556302"
+  ],
+  "snippets": [
+    {
+      "text": "cases of ALD diagnosed in Australia and New Zealand between 1981 and 1996 and their families. We estimate that the combined incidence of ALD and its variants in Australasia is at least 1.6 per 100,000. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9556302",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000326",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009520",
+    "http://www.disease-ontology.org/api/metadata/DOID:10588"
+  ],
+  "exact_answer": "1.6 per 100,000 people"
+}

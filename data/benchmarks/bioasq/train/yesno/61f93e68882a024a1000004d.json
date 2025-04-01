@@ -1,0 +1,32 @@
+{
+  "id": "61f93e68882a024a1000004d",
+  "type": "yesno",
+  "question": "Should perampanel be used for amyotrophic lateral sclerosis?",
+  "ideal_answer": "No. Perampanel should not be used for amyotrophic lateral sclerosis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34322897",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34191081"
+  ],
+  "snippets": [
+    {
+      "text": "RESULTS: Six participants were enrolled. All had adverse events, mostly behavioral. Two completed the trial and the other four withdrew due to adverse events. All participants reported resolution of these events after discontinuation of the drug. The trial was halted due to the large number of adverse events.DISCUSSION: The use of perampanel in this study of ALS was limited by its poor tolerability",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34322897",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: Perampanel was associated with a significant decline in ALSFRS-R score and was linked to worsening of the bulbar subscore in the 8\u00a0mg group.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34191081",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DISCUSSION: The use of perampanel in this study of ALS was limited by its poor tolerabilit",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34322897",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

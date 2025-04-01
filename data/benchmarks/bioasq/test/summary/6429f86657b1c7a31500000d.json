@@ -1,0 +1,87 @@
+{
+  "id": "6429f86657b1c7a31500000d",
+  "type": "summary",
+  "question": "What is the role of the Mediator in gene expression?",
+  "ideal_answer": "The Mediator complex is a multi-subunit assembly that appears to be required for regulating the expression of most RNA polymerase II transcripts. In particular, it functions by relaying signals from transcription factors (TFs) directly to the RNA polymerase enzyme, thereby facilitating TF-dependent regulation of gene expression. Thus, Mediator is essential for converting biological inputs (communicated by TFs) to physiological responses (via changes in gene expression).\n\nMediator has been shown to affect multiple steps in transcription, including chromatin looping between enhancers and promoters, pre-initiation complex formation, transcriptional elongation, and mRNA splicing.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24882805",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35557691",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36445897",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18691967",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22496666",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10966474",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20299225",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20720539",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24088064",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29209056",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25693131",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32260277",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24550107",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28778422",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29157917",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22402254",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29626929",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16634145",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35725906",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26002960",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28301289",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30278226",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21854862",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30637479",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22983086",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33621520",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32327563",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33707221"
+  ],
+  "snippets": [
+    {
+      "text": "The Mediator complex is a multi-subunit assembly that appears to be required for regulating expression of most RNA polymerase II (pol II) transcripts, which include protein-coding and most non-coding RNA genes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24088064",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mediator is a conserved, multi-subunit macromolecular machine divided structurally into head, middle, and tail modules, along with a transiently associating kinase module. Mediator functions as an integrator of transcriptional regulatory activity by interacting with DNA-bound transcription factors and with RNA polymerase II (Pol II) to both activate and repress gene expression. Mediator has been shown to affect multiple steps in transcription, including chromatin looping between enhancers and promoters, pre-initiation complex formation, transcriptional elongation, and mRNA splicing. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29157917",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "At a basic level, Mediator functions by relaying signals from TFs directly to the pol II enzyme, thereby facilitating TF-dependent regulation of gene expression. Thus, Mediator is essential for converting biological inputs (communicated by TFs) to physiological responses (via changes in gene expression).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24088064",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Mediator complex serves a crucial function in gene regulation, forming a link between gene-specific transcription factors and RNA polymerase II.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21854862",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The multi-subunit Mediator complex plays a critical role in gene expression by bridging enhancer-bound transcription factors and the RNA polymerase II machinery.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36445897",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Mediator complex is an essential co-regulator of RNA polymerase II that is conserved throughout eukaryotes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22496666",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription activation is a key phenomenon in the regulation of gene expression. In all eukaryotes, mediator of RNA polymerase II transcription (Mediator), a large complex with modular organization, is generally required for transcription by RNA polymerase II, and it regulates various steps of this process. The main function of Mediator is to transduce signals from the transcription activators bound to enhancer regions to the transcription machinery, which is assembled at promoters as the preinitiation complex (PIC) to control transcription initiation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29209056",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Eukaryotic transcription requires the assembly of a multisubunit preinitiation complex (PIC) composed of RNA polymerase II (Pol II) and the general transcription factors. The coactivator Mediator is recruited by transcription factors, facilitates the assembly of the PIC, and stimulates phosphorylation of the Pol II C-terminal domain (CTD) by the TFIIH subunit CDK7.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33707221",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

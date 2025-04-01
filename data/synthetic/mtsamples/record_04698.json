@@ -1,0 +1,51 @@
+{
+  "document_id": "record_04698",
+  "original_length": 3420,
+  "synthetic_length": 604,
+  "attributes": {
+    "Diagnosis": "\n- Preeclampsia, status post delivery with Cesarean section with uncontrolled blood pressure.\n- No prior history of cardiac disease except for borderline gestational diabetes mellitus.,RECOMMENDATI...",
+    "Symptoms": "",
+    "Treatment": "S:\n- We will get an echocardiogram for assessment left ventricular function.\n- The patient will start on labetalol and hydralazine to see how see fairs.\n- Based on response to medication, we will m...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "hydralazine 50 mg, labetalol 200 mg"
+  },
+  "is_safe": false,
+  "iterations_required": 3,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Preeclampsia, status post delivery with Cesarean s...'"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 2,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    }
+  ]
+}

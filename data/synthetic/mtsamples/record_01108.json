@@ -1,0 +1,40 @@
+{
+  "document_id": "record_01108",
+  "original_length": 2164,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Post infarct angina.,TYPE OF PROCEDURE: , Left cardiac catheterization with selective right and left coronary angiography.,PROCEDURE: , After informed consent was obtained, the pati...",
+    "Symptoms": "",
+    "Treatment": "Cardiac evaluation",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Reglan 10 mg, Benadryl 50 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, PHONE_NUMBER, URL, NRP, LOCATION"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "PHONE_NUMBER",
+        "URL",
+        "NRP",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

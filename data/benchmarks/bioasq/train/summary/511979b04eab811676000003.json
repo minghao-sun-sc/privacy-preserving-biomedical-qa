@@ -1,0 +1,174 @@
+{
+  "id": "511979b04eab811676000003",
+  "type": "summary",
+  "question": "How could we infer functional associations from gene fusion events?",
+  "ideal_answer": "The detection of gene fusion events across genomes can be used for the prediction of functional associations of proteins, based on the observation that related proteins in one organism (including physically interacting proteins/members of complexes, proteins involved in the same pathway) tend to be found in other species as a fused composite gene encoding a single multifunctional protein. For this purpose, gene fusion events may be used as the sole evidence or as independent information combined with other 'genome-aware' or similarity-based methods, and functional association may be predicted at different levels. An advantage of this approach is that it is not necessary to know the function of the composite/components to infer association.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19582169",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15980440",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16571130",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11438739",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15215406",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22267904",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12095249",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15701682",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18546511",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22161322",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21729286",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17767732",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20532224",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18629289",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23220349",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12429063",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14673105",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20851221",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16221304",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15128449",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10573422",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17597916",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12952538",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18025684",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11178267",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23365410",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12519996",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11820254",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12429059",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12049665",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15960802",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22925561",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11864366",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18081932",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16381848"
+  ],
+  "snippets": [
+    {
+      "text": "Gene fusion is an important evolutionary process. It can yield valuable information to infer the interactions and functions of proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23365410",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We have developed a Bayesian framework to infer phosphorylation networks from time series measurements of phosphosite concentrations upon ligand stimulation. To increase the prediction accuracy we integrated different types of data, e.g., amino acid sequence data, genomic context data (gene fusion, gene neighborhood, and phylogentic profiles)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22161322",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "It is assumed that two proteins, which are found to be transcribed by a single transcript in one (or several) genomes are likely to be functionally linked, for example by acting in a same metabolic pathway or by forming a multiprotein complex. This method is of particular interest for studying genes that exhibit no, or only remote, homologies with already well-characterized proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18025684",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "PLEX search results are accompanied by quantitative estimates of linkage confidence, enabling users to take advantage of coinheritance, operon and gene fusion-based methods for inferring gene function and reconstructing cellular systems and pathways.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15701682",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "While phylogenomic profiles remain the central focus of Phydbac2, it now integrates chromosomal proximity and gene fusion analyses as two additional non-similarity-based indicators for inferring pairwise gene functional relationships.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15215406",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "detection of gene fusion events can contribute towards the elucidation of functional associations of proteins within entire genomes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18629289",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Inference of gene function based on gene fusion events: the rosetta-stone method.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18025684",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "protein domain fusions in human protein interaction networks prediction",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20851221",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Some proteins, involved in a common biological process and encoded by separate genes in one organism, can be found fused within a single protein chain in other organisms. By detecting these triplets, a functional relationship can be established between the unfused proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20851221",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "These results suggest that domain fusion is an appropriate method for predicting protein complexes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20851221",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The detection of gene fusion events across genomes can be used for the prediction of functional associations of proteins, including physical interactions or complex formation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18546511",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "These genomic constraints form the basis for a variety of techniques that employ systematic genome comparisons to predict functional associations among genes. The most powerful techniques to date are based on conserved gene neighborhood, gene fusion events, and common phylogenetic distributions of gene families",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14673105",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Functional links between proteins can often be inferred from genomic associations between the genes that encode them: groups of genes that are required for the same function tend to show similar species coverage, are often located in close proximity on the genome (in prokaryotes), and tend to be involved in gene-fusion events.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12519996",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Genes linked by fusion events are generally of the same functional category",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11438739",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "a functional association between two genes can be derived from the existence of a fusion of the two as one continuous sequence in another genome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11438739",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Protein interaction maps for complete genomes based on gene fusion events",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10573422",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Because there must be selective pressure for certain genes to be fused over the course of evolution, we are able to predict functional associations of proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10573422",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We observed that gene fusion events are more related to physical interaction between proteins than to other weaker functional relationships such as participation in a common biological pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20851221",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "FusionDB provides a characterization of a large number of gene fusion events at hand of multiple sequence alignments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18025684",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Domain fusion analysis has been proposed recently to infer the functional association of the component proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12095249",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Here we present a method that identifies gene-fusion events in complete genomes, solely based on sequence comparison.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10573422",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D050939"
+  ]
+}

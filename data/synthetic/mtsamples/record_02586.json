@@ -1,0 +1,36 @@
+{
+  "document_id": "record_02586",
+  "original_length": 4976,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "\n- Laparotomy.\n- Myomectomy.,ANESTHESIA:  ,General.,ESTIMATED BLOOD LOSS: , Less than a 100 cc.,URINE OUTPUT: , 110 cc, clear at the end of the procedure.,FLUIDS: , 500 cc during the procedure.,SPE...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',ESTIMATED BLOOD LOSS: , Less than a 100 cc...'"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

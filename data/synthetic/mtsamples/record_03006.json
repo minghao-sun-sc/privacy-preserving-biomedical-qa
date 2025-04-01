@@ -1,0 +1,38 @@
+{
+  "document_id": "record_03006",
+  "original_length": 5505,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,Right ureteropelvic junction obstruction.,POSTOPERATIVE DIAGNOSES:\n- Right ureteropelvic junction obstruction.\n- Severe intraabdominal adhesions.\n- Retroperitoneal fibrosis.,PROCEDUR...",
+    "Symptoms": "",
+    "Treatment": "",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, DATE_TIME, US_DRIVER_LICENSE, PERSON"
+      ],
+      "pii_detected": [
+        "URL",
+        "DATE_TIME",
+        "US_DRIVER_LICENSE",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

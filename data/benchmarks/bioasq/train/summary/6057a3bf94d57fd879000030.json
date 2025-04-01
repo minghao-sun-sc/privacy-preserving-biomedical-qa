@@ -1,0 +1,24 @@
+{
+  "id": "6057a3bf94d57fd879000030",
+  "type": "summary",
+  "question": "Describe SWItchMiner (SWIM)",
+  "ideal_answer": "SWItchMiner (SWIM) is a wizard-like software implementation of a procedure, previously described, able to extract information contained in complex networks. Specifically, SWIM allows unearthing the existence of a new class of hubs, called \"fight-club hubs\", characterized by a marked negative correlation with their first nearest neighbors. Among them, a special subset of genes, called \"switch genes\", appears to be characterized by an unusual pattern of intra- and inter-module connections that confers them a crucial topological role, interestingly mirrored by the evidence of their clinic-biological relevance.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28317894"
+  ],
+  "snippets": [
+    {
+      "text": "SWIM: a computational tool to unveiling crucial nodes in complex biological networks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28317894",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "SWItchMiner (SWIM) is a wizard-like software implementation of a procedure, previously described, able to extract information contained in complex networks. Specifically, SWIM allows unearthing the existence of a new class of hubs, called \"fight-club hubs\", characterized by a marked negative correlation with their first nearest neighbors. Among them, a special subset of genes, called \"switch genes\", appears to be characterized by an unusual pattern of intra- and inter-module connections that confers them a crucial topological role, interestingly mirrored by the evidence of their clinic-biological relevance. Here, we applied SWIM to a large panel of cancer datasets from The Cancer Genome Atlas, in order to highlight switch genes that could be critically associated with the drastic changes in the physiological state of cells or tissues induced by the cancer development. We discovered that switch genes are found in all cancers we studied and they encompass protein coding genes and non-coding RNAs, recovering many known key cancer players but also many new potential biomarkers not yet characterized in cancer context. Furthermore, SWIM is amenable to detect switch genes in different organisms and cell conditions, with the potential to uncover important players in biologically relevant scenarios, including but not limited to human cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28317894",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

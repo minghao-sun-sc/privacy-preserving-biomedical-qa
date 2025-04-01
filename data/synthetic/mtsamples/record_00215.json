@@ -1,0 +1,36 @@
+{
+  "document_id": "record_00215",
+  "original_length": 1410,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": "Preoperative: (ES):, Esophageal foreign body.,POSTOPERATIVE DIAGNOSIS (ES):, Penny in proximal esophagus.,ESTIMATED BLOOD LOSS:, None.,COMPLICATIONS:, None.,DESCRIPTION OF PROCEDURE: ,After informe...",
+    "Symptoms": "",
+    "Treatment": "Endoscopy",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',POSTOPERATIVE DIAGNOSIS (ES):, Penny in proximal ...'"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

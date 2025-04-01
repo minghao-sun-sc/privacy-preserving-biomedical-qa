@@ -1,0 +1,71 @@
+{
+  "id": "5e44baaa48dab47f2600001a",
+  "type": "list",
+  "question": "Which kinases are inhibited by Pyrotinib?",
+  "ideal_answer": "Pyrotinib is a novel irreversible EGFR/HER2 dual tyrosine kinase inhibitor that is used to treat HER2-positive breast cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28115222",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30382184",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28498781",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27541626",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30341682"
+  ],
+  "snippets": [
+    {
+      "text": "Pyrotinib is a novel irreversible EGFR/HER2 dual tyrosine kinase inhibitor that is used to treat HER2-positive breast cancer. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30382184",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pyrotinib is an irreversible dual pan-ErbB receptor tyrosine kinase inhibitor developed for the treatment of HER2-positive advanced solid tumours. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30341682",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The discovery and development of a novel irreversible EGFR/HER2 dual tyrosine kinase inhibitor SHR1258 (pyrotinib) for the treatment of HER2-postive breast cancer is presented. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28115222",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Purpose This phase I study assessed the safety, tolerability, pharmacokinetics, antitumor activity, and predictive biomarkers of pyrotinib, an irreversible pan-ErbB inhibitor, in patients with human epidermal growth factor receptor 2 (HER2)-positive metastatic breast cancer. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28498781",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pyrotinib is a novel irreversible tyrosine kinase inhibitor developed for the treatment of human epidermal growth factor receptor 2 (HER2)-positive breast cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27541626",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pyrotinib is a novel irreversible EGFR/HER2 dual tyrosine kinase inhibitor that is used to treat HER2-positive breast cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30382184",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Discovery and development of pyrotinib: A novel irreversible EGFR/HER2 dual tyrosine kinase inhibitor with favorable safety profiles for the treatment of breast cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28115222",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The discovery and development of a novel irreversible EGFR/HER2 dual tyrosine kinase inhibitor SHR1258 (pyrotinib) for the treatment of HER2-postive breast cancer is presented.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28115222",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Overall, the potent and selective EGFR/HER2 dual inhibitor, pyrotinib, displayed robust anti-tumor effects on HER2-overexpressing xenograft models and sufficiently safety windows in animals as well as favorable pharmacokinetic properties in human, which substantially ensures current clinical development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28115222",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "EGFR, HER2"
+}

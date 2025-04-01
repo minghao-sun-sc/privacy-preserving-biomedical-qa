@@ -1,0 +1,40 @@
+{
+  "id": "5c783d32d774d04240000004",
+  "type": "factoid",
+  "question": "Which human disease is experimental autoimmune encephalomyelitis (EAE) model for?",
+  "ideal_answer": "Experimental autoimmune encephalomyelitis (EAE) is an animal model of MS (Multiple Sclerosis).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27996890",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27377536",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27758698",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30385269"
+  ],
+  "snippets": [
+    {
+      "text": "experimental autoimmune encephalomyelitis (EAE), an animal model of MS",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27377536",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "xperimental autoimmune encephalomyelitis (EAE), an animal model of multiple sclerosis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27996890",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "relapsing MS and its model, experimental autoimmune encephalomyelitis (EAE)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27758698",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "experimental autoimmune encephalomyelitis (EAE), an animal model of MS",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30385269",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Model of MS (Multiple Sclerosis)"
+}

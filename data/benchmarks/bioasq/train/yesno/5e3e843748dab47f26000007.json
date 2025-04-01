@@ -1,0 +1,31 @@
+{
+  "id": "5e3e843748dab47f26000007",
+  "type": "yesno",
+  "question": "Are stretch enhancers transcribed more than super-enhancers?",
+  "ideal_answer": "No. Super-enhancers are transcriptionally more active and cell type-specific than stretch enhancers.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30169995"
+  ],
+  "snippets": [
+    {
+      "text": "Super-enhancers are transcriptionally more active and cell type-specific than stretch enhancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30169995",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We found that stretch enhancers are more abundant, more distal to transcription start sites, cover twice as much the genome, and are significantly less conserved than super-enhancers. In contrast, super-enhancers are significantly more enriched for active chromatin marks and cohesin complex, and more transcriptionally active than stretch enhancers. Importantly, a vast majority of super-enhancers (85%) overlap with only a small subset of stretch enhancers (13%), which are enriched for cell type-specific biological functions, and control cell identity genes. These results suggest that super-enhancers are transcriptionally more active and cell type-specific than stretch enhancers, and importantly, most of the stretch enhancers that are distinct from super-enhancers do not show an association with cell identity genes, are less active, and more likely to be poised enhancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30169995",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest that super-enhancers are transcriptionally more active and cell type-specific than stretch enhancers, and importantly, most of the stretch enhancers that are distinct from super-enhancers do not show an association with cell identity genes, are less active, and more likely to be poised enhancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30169995",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

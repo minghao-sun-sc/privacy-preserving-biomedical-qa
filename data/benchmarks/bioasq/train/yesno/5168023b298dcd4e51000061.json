@@ -1,0 +1,26 @@
+{
+  "id": "5168023b298dcd4e51000061",
+  "type": "yesno",
+  "question": "Is MammaPrint cleared by the United States Food and Drug Administration? ",
+  "ideal_answer": "Yes. MammaPrint is cleared by the FDA for breast cancer recurrence.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19506735",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21479927",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18786252"
+  ],
+  "snippets": [
+    {
+      "text": "Real-time RT-PCR confirmed the 5-gene prognostic signature that was distinct from an FDA-cleared 70-gene signature of MammaPrint panel and from the Oncotype DX recurrence score assay panel.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21479927",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017322",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017321",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017327",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017326"
+  ],
+  "exact_answer": "Yes"
+}

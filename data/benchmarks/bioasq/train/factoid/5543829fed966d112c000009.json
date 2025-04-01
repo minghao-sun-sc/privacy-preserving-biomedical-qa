@@ -1,0 +1,77 @@
+{
+  "id": "5543829fed966d112c000009",
+  "type": "factoid",
+  "question": "Which is the major phytoalexin in alfalfa (Medicago sativa L.)?",
+  "ideal_answer": "The major phytoalexin in alfalfa (Medicago sativa L.) is the isoflavonoid (-)-medicarpin (or 6aR, 11aR)-medicarpin. Medicarpin is synthesized via the isoflavonoid branch of phenylpropanoid metabolism.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/1912490",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19343413",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16667295",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9484461",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7625843",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16667691",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24226375"
+  ],
+  "snippets": [
+    {
+      "text": "Medicarpin, the major phytoalexin in alfalfa, is synthesized via the isoflavonoid branch of phenylpropanoid metabolism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9484461",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Medicarpin, the major phytoalexin in alfalfa, is synthesized by way of the isoflavonoid branch of phenylpropanoid metabolism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7625843",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The major phytoalexin in alfalfa is the isoflavonoid (-)-medicarpin (or 6aR, 11aR)-medicarpin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1912490",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The isoflavonoid conjugates medicarpin-3-O-glucoside-6-O-malonate (MGM), afrormosin-7-O-glucoside (AG), and afrormosin-7-O-glucoside-6-O-malonate (AGM) were isolated and characterized from cell suspension cultures of alfalfa (Medicago sativa L.), where they were the major constitutive secondary metabolites.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16667691",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Alfalfa (Medicago sativa L.) cell suspension cultures accumulated high concentrations of the pterocarpan phytoalexin medicarpin, reaching a maximum within 24 hours after exposure to an elicitor preparation from cell walls of the phytopathogenic fungus Colletotrichum lindemuthianum.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16667295",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The isoflavonoid conjugates medicarpin-3-O-glucoside-6''-O-malonate (MGM), afrormosin-7-O-glucoside (AG), and afrormosin-7-O-glucoside-6''-O-malonate (AGM) were isolated and characterized from cell suspension cultures of alfalfa (Medicago sativa L.), where they were the major constitutive secondary metabolites",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16667691",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The major phytoalexin in alfalfa is the isoflavonoid (-)-medicarpin (or 6aR, 11aR)-medicarpin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1912490",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Medicarpin, the major phytoalexin in alfalfa, is synthesized via the isoflavonoid branch of phenylpropanoid metabolism",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9484461",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Medicarpin, the major phytoalexin in alfalfa, is synthesized by way of the isoflavonoid branch of phenylpropanoid metabolism",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7625843",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4252976",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0052315",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000455"
+  ],
+  "exact_answer": "medicarpin"
+}

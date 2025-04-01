@@ -1,0 +1,36 @@
+{
+  "document_id": "record_00107",
+  "original_length": 3473,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,Left communicating hydrocele.,POSTOPERATIVE DIAGNOSIS: , Left communicating hydrocele.,ANESTHESIA: , General.,PROCEDURE:  ,Left inguinal hernia and hydrocele repair.,INDICATIONS: , T...",
+    "Symptoms": "",
+    "Treatment": "",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

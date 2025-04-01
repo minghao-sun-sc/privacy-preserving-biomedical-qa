@@ -1,0 +1,36 @@
+{
+  "document_id": "record_02774",
+  "original_length": 6612,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", This is a 6-year-old male with recurrent status epilepticus, left hemiparesis, history of prematurity, and intraventricular hemorrhage.  He is on Topamax, which is at a moderate dose of 5 mg/kg a...",
+    "Symptoms": "",
+    "Treatment": "s with regard to his cerebral palsy.,The patient did require one shunt revision, but since then his shunt has done well.,The patient developed seizures about 2 years ago.  These occurred periodical...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "of 25 mg, about 5 mg, lorazepam 2 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

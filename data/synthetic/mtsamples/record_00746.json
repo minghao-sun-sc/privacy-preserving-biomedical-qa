@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00746",
+  "original_length": 4086,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Left ventricular dysfunction as evidenced by increased left ventricular end diastolic pressure and hypokinesis of the distal inferior wall.\n- Coronary artery disease with high-grade and complex ...",
+    "Symptoms": "",
+    "Treatment": "S\n- Selective coronary angiography.\n- Left heart catheterization.\n- Left ventriculography.,PROCEDURE IN DETAIL:  ,The right groin was sterilely prepped and draped in the usual fashion.  The area of...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Versed 1 mg, fentanyl 50 mcg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Left ventricular dysfunction as evidenced by incre...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

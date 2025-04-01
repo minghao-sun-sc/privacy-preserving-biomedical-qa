@@ -1,0 +1,33 @@
+{
+  "id": "5d35e421b3a638076300000d",
+  "type": "factoid",
+  "question": "For how long do Drosophila embryos use maternal genome mRNA?",
+  "ideal_answer": "mitoses before interphase 14 run on maternal products and occur in metasynchronous waves",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29601592",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17448252",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2702688"
+  ],
+  "snippets": [
+    {
+      "text": "Mitoses before interphase 14 run on maternal products, and occur in metasynchronous waves.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2702688",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In many animals, the first few hours of life proceed with little or no transcription, and developmental regulation at these early stages is dependent on maternal cytoplasm rather than the zygotic nucleus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17448252",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ". An exceptional case of Nos-independent regulation by Pum has been described-repression of maternal bicoid (bcd) mRNA at the anterior pole of the early embryo, dependent on both Pum and conserved Pum binding sites in the 3'-UTR of the mRNA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29601592",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "14 cell divisions"
+}

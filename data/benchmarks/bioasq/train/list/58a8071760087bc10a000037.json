@@ -1,0 +1,54 @@
+{
+  "id": "58a8071760087bc10a000037",
+  "type": "list",
+  "question": "List peptide fragmentations methods in mass spectrometry",
+  "ideal_answer": "CID, HCD, ECD, ETD and PSD are different peptide fragmentation technologies used in mass spectrometry.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26780731",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27613306",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27914015",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27139140",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27098412",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27520322"
+  ],
+  "snippets": [
+    {
+      "text": " using the CID and HCD fragmentation techniques",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26780731",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "By integrating HCD-MS/MS, CID-MS/MS",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27139140",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ECD and ETD induced different fragmentation processes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27098412",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MALDI post-source decay (PSD), MALDI 157 nm photodissociation, tris(2,4,6-trimethoxyphenyl)phosphonium bromide (TMPP) charge tagging in PSD and photodissociation, ESI collision-induced dissociation (CID), electron transfer dissociation (ETD), and free-radical initiated peptide sequencing (FRIPS) with CID were applied to peptides containing either aspartic or isoaspartic acid.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27613306",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "automated analysis of HCD and ETD fragmentation spectra",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27520322",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The combination of DIA analysis and ETD fragmentation with supplemental CID energy ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27914015",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CID, collision-induced dissociation, HCD, Higher-energy collisional dissociation, ECD, electron capture dissociation, ETD, electron transfer dissociation, PSD, post-source decay"
+}

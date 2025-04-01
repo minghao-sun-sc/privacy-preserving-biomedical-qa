@@ -1,0 +1,25 @@
+{
+  "id": "6201a4edc9dfcb9c09000028",
+  "type": "yesno",
+  "question": "Is HDAC1 required for GATA-1 transcriptional activity?",
+  "ideal_answer": "Yes. HDAC1 is required for GATA-1 transcription activity, global chromatin occupancy and hematopoiesis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34450641"
+  ],
+  "snippets": [
+    {
+      "text": "HDAC1 is required for GATA-1 transcription activity, global chromatin occupancy and hematopoiesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34450641",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "GATA-12RA knock-in (KI) mice suffer mild anemia and thrombocytopenia with accumulation of immature erythrocytes and megakaryocytes in bone marrow and spleen. Single cell RNA-seq analysis of Lin- cKit+ (LK) cells further reveal a profound change in cell subpopulations and signature gene expression patterns in HSC, myeloid progenitors, and erythroid/megakaryocyte clusters in KI mice. Thus, GATA-1 deacetylation and its interaction with HDAC1 modulates GATA-1 chromatin binding and transcriptional activity that control erythroid/megakaryocyte commitment and differentiation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34450641",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

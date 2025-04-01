@@ -1,0 +1,90 @@
+{
+  "id": "5149199dd24251bc05000040",
+  "type": "list",
+  "question": "Which acetylcholinesterase inhibitors are used for treatment of myasthenia gravis?",
+  "ideal_answer": "Pyridostigmine and neostygmine are acetylcholinesterase inhibitors that are used as first-line therapy for symptomatic treatment of myasthenia gravis. Pyridostigmine is the most widely used acetylcholinesterase inhibitor. Extended release pyridotsygmine and novel acetylcholinesterase inhibitors inhibitors with oral antisense oligonucleotides are being studied.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21815707",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21845054",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21328290",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20663605",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21133188",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15610702"
+  ],
+  "snippets": [
+    {
+      "text": "Pyridostigmine is the most widely used acetylcholinesterase inhibitor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21133188",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "For more than 50 years the acetylcholinesterase inhibitor pyridostigmine bromide has been the drug of choice in the symptomatic therapy for myasthenia gravis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20663605",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The switch to SR-Pyr ameliorated the total quantified myasthenia gravis (QMG) score from 0.9 \u00b1 0.5 to 0.6 \u00b1 0.4 (p<0.001) in all patients and in the younger subgroup. This was accompanied by a significant improvement in the quality of life parameters. The health status valued by EuroQoL questionnaire improved from 0.626 \u00b1 0.286 to 0.782 \u00b1 0.186 (p<0.001). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20663605",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Our results support the usefulness of SR-Pyr in an individualized therapeutic regimen to improve quality of life regardless of the patient's age in myasthenia gravis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20663605",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "This review focuses on treatment of MG, mainly on the use of the AChE inhibitor pyridostigmine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21815707",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Despite a lack of data from well controlled clinical trials to support their use, AChE inhibitors, of which pyridostigmine is the most commonly used, are recommended as first-line therapy for MG. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21815707",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Novel AChE inhibitors with oral antisense oligonucleotides have been developed and preliminary results appear to be promising.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21815707",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Except for one small and inconclusive trial of intranasal neostigmine, no randomised controlled trial has been conducted on the use of acetylcholinesterase inhibitors in myasthenia gravis. Response to acetylcholinesterase inhibitors in observational studies is so clear that a randomised controlled trial depriving participants in the placebo arm of treatment would be difficult to justify.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21328290",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": " Current guidelines and recommendations for MG treatment are based largely on clinical experience, retrospective analyses and expert consensus. Available therapies include oral acetylcholinesterase (AChE) inhibitors for symptomatic treatment, and short- and long-term disease-modifying treatments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21815707",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Pyridostigmine has been used as a treatment for MG for over 50 years and is generally considered safe. It is suitable as a long-term treatment in patients with generalized non-progressive milder disease, and as an adjunctive therapy in patients with severe disease who are also receiving immunotherapy. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21815707",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Acetylcholinesterase inhibitors provide temporary, symptomatic treatment for all forms of myasthenia gravis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15610702",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000110",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009157",
+    "http://www.disease-ontology.org/api/metadata/DOID:437",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002800",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004791"
+  ],
+  "exact_answer": "neostigmine, pyridostigmine"
+}

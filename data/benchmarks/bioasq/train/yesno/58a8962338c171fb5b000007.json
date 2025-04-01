@@ -1,0 +1,56 @@
+{
+  "id": "58a8962338c171fb5b000007",
+  "type": "yesno",
+  "question": "Is synapsin a phosphoprotein?",
+  "ideal_answer": "Yes, synapsin is an evolutionarily conserved presynaptic phosphoprotein.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26425441",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26400944",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25843720",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25576091",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26538647",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25972175",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25967550",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26670182"
+  ],
+  "snippets": [
+    {
+      "text": "Synapsin is an evolutionarily conserved presynaptic phosphoprotein.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26670182",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Synapsins as a family of presynaptic terminal phosphoprotein participates in neuronal development",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25576091",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Synapsin III (SynIII) is a phosphoprotein",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25843720",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The neuronal phosphoprotein synapsin III",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25967550",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Synapsin II is a member of the neuronal phosphoprotein family.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26425441",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "phosphoprotein synapsin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26538647",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

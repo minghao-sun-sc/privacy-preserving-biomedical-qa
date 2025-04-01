@@ -1,0 +1,25 @@
+{
+  "id": "6202f600c9dfcb9c0900002b",
+  "type": "factoid",
+  "question": "Which JASPAR release is JASPAR 2022?",
+  "ideal_answer": "JASPAR (http://jaspar.genereg.net/) is an open-access database containing manually curated, non-redundant transcription factor (TF) binding profiles for TFs across six taxonomic groups. In JASPAR 2022, JASPAR's 9th release, the CORE collection was expanded with 341 new profiles (148 for plants, 101 for vertebrates, 85 for urochordates, and 7 for insects), which corresponds to a 19% expansion over the previous release.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34850907"
+  ],
+  "snippets": [
+    {
+      "text": "JASPAR 2022: the 9th release of the open-access database of transcription factor binding profiles.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34850907",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "JASPAR (http://jaspar.genereg.net/) is an open-access database containing manually curated, non-redundant transcription factor (TF) binding profiles for TFs across six taxonomic groups. In this 9th release, we expanded the CORE collection with 341 new profiles (148 for plants, 101 for vertebrates, 85 for urochordates, and 7 for insects), which corresponds to a 19% expansion over the previous release. We added 298 new profiles to the Unvalidated collection when no orthogonal evidence was found in the literature. All the profiles were clustered to provide familial binding profiles for each taxonomic group. Moreover, we revised the structural classification of DNA binding domains to consider plant-specific TFs. This release introduces word clouds to represent the scientific knowledge associated with each TF. We updated the genome tracks of TFBSs predicted with JASPAR profiles in eight organisms; the human and mouse TFBS predictions can be visualized as native tracks in the UCSC Genome Browser. Finally, we provide a new tool to perform JASPAR TFBS enrichment analysis in user-provided genomic regions. All the data is accessible through the JASPAR website, its associated RESTful API, the R/Bioconductor data package, and a new Python package, pyJASPAR, that facilitates serverless access to the data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34850907",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "9th"
+}

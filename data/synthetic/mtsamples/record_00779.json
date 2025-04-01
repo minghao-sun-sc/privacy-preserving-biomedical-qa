@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00779",
+  "original_length": 5781,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Foreign body, right foot.,POSTOPERATIVE DIAGNOSIS: , Foreign body in the right foot.,PROCEDURE PERFORMED:,  Excision of foreign body, right foot and surrounding tissue.,ANESTHESIA: ...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Celebrex 200 mg, with 200 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',POSTOPERATIVE DIAGNOSIS: , Foreign body in the ri...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "621bd38d3a8413c653000046",
+  "type": "yesno",
+  "question": "Is esophageal adenocarcinoma associated with aberrant glycosylation?",
+  "ideal_answer": "Yes,\nAltered glycoprotein expression has been demonstrated in tissue from patients with Barrett's esophagus and esophageal cancer but the mechanisms regarding such changes are unknown.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19441788",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22223758",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23576690",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24957772",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33303693",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20412957"
+  ],
+  "snippets": [
+    {
+      "text": "Altered glycoprotein expression has been demonstrated in tissue from patients with Barrett's esophagus and esophageal cancer but the mechanisms regarding such changes are unknown. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22223758",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Esophageal adenocarcinoma represents a highly morbid and mortal cancer with a defined progression from metaplasia (Barrett's esophagus) to dysplasia to neoplasia. This disease is highlighted because (1) differences in glycan profiles between the stages of disease progression have been described in the glycoproteomic literature; (2) a glycan biomarker that identifies a given stage may be used as a predictor of disease progression and thus may have significant influence over clinical management; and (3) the differences in glycan profiles between disease and disease-free states in esophageal cancer are more dramatic than in other cancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24957772",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " comparative glycomic profiling of EAC reveals a subset of glycans that can be selected as candidate biomarkers",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19441788",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " comparative glycomic profiling of esophageal adenocarcinoma reveals a subset of glycans that can be selected as candidate biomarkers",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20412957",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "IgG glycosylation profile was independently associated with esophageal precancerosis beyond inflammation, which could be an early biomarker for esophageal cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33303693",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

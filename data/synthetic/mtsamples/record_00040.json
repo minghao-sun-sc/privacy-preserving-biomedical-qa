@@ -1,0 +1,37 @@
+{
+  "document_id": "record_00040",
+  "original_length": 3379,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,Clinical stage [person] Mx transitional cell carcinoma of the urinary bladder.,POSTOPERATIVE DIAGNOSIS: , Clinical stage [person] Mx transitional cell carcinoma of the urinary bladder.,TIT...",
+    "Symptoms": "",
+    "Treatment": "Oncology evaluation and management",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "was 15 g"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, LOCATION, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "LOCATION",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

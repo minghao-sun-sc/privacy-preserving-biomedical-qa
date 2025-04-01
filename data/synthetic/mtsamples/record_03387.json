@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03387",
+  "original_length": 1680,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Down\u2019s syndrome.\n- Onychomycosis.\n- Hypothyroidism.,PLAN:\n- Recheck ALT and TSH today and call results.\n- Lamisil 250 mg #30 one p.o. daily with one refill.  They will complete the next eight we...",
+    "Symptoms": "",
+    "Treatment": "\n- Recheck ALT and TSH today and call results.\n- Lamisil 250 mg #30 one p.o. daily with one refill.  They will complete the next eight weeks of therapy as long as the ALT is normal.  I again review...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Lamisil 250 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, PERSON, LOCATION"
+      ],
+      "pii_detected": [
+        "URL",
+        "PERSON",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

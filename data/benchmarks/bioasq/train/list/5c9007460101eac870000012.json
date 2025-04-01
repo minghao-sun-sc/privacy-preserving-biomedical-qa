@@ -1,0 +1,27 @@
+{
+  "id": "5c9007460101eac870000012",
+  "type": "list",
+  "question": "Name three binding partners of cofilin 2.",
+  "ideal_answer": "Cofilin 2 can bind miR-201a, the protein 14-3-3, and ATP/ADP-Pi-actin filaments.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25373779",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19752190",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28886070"
+  ],
+  "snippets": [
+    {
+      "text": "Cofilin-2 (Cfl2) was identified as one of the potential targets of miR-301a using prediction databases, which we validated by luciferase assay and mutation of predicted binding sites.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28886070",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In contrast to other isoforms, cofilin-2 efficiently binds and disassembles both ADP- and ATP/ADP-Pi-actin filaments. We mapped surface-exposed cofilin-2-specific residues required for ATP-actin binding and propose that these residues function as an \"actin nucleotide-state sensor\" among ADF/cofilins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25373779",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "miR-301a, 14-3-3, ATP/ADP-Pi-actin filaments"
+}

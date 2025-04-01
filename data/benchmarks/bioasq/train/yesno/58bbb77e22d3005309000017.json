@@ -1,0 +1,33 @@
+{
+  "id": "58bbb77e22d3005309000017",
+  "type": "yesno",
+  "question": "Is pseudouridine a RNA modification?",
+  "ideal_answer": "Yes, pseudouridine (\u03a8) is the most abundant of>150 nucleoside modifications in RNA.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25616362",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20106954",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15659360"
+  ],
+  "snippets": [
+    {
+      "text": "Pseudouridine (\u03a8) is the most abundant of>150 nucleoside modifications in RNA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25616362",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The number and position of the pseudouridines of Haloarcula marismortui and Deinococcus radiodurans large subunit RNA have been determined by a combination of total nucleoside analysis by HPLC-mass spectrometry and pseudouridine sequencing by the reverse transcriptase method and by LC/MS/MS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15659360",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pseudouridine is the most abundant of more than 100 chemically distinct natural ribonucleotide modifications.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20106954",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

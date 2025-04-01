@@ -1,0 +1,36 @@
+{
+  "document_id": "record_00486",
+  "original_length": 5118,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ".,CULTURES: , Also sent for Gram stain, aerobic and anaerobic, culture and sensitivity.,INDICATIONS FOR THE PROCEDURE: , The patient is a 79-year-old male, who fell in his hometown, following an ep...",
+    "Symptoms": "",
+    "Treatment": "Biopsy procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',CULTURES: , Also sent for Gram stain, aerobic and...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

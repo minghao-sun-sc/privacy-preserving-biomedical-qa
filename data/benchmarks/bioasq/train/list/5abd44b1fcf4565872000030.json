@@ -1,0 +1,82 @@
+{
+  "id": "5abd44b1fcf4565872000030",
+  "type": "list",
+  "question": "List proteins with HEAT repeats",
+  "ideal_answer": "mTOR,\nTOG5, \nDNA-PKcs,\nHEATR1,\nRif1,\nB56\u03b3,\nPR65/A,\nSF3b155,\nPds5B",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28512144",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27072897",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24120762",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28415797",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27066066",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26676747",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27549742",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27742610",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22315229",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28668119"
+  ],
+  "snippets": [
+    {
+      "text": "mTOR N-terminal heat repeat domain",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28415797",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TOG5-specific N-terminal HEAT repeat ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28512144",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA-dependent protein kinase catalytic subunit (DNA-PKcs) is central to the regulation of the DNA damage response and repair through nonhomologous end joining. The structure has proved challenging due to its large size and multiple HEAT repeats.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28668119",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "HEAT repeat-containing protein 1 (HEATR1) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26676747",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The first 1,300 residues of Tor form a HEAT repeat-containing \u03b1-solenoid with four distinct segments: a highly curved 800-residue N-terminal 'spiral', followed by a 400-residue low-curvature 'bridge' and an extended 'railing' running along the bridge leading to the 'cap' that links to FAT region.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27072897",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rif1 proteins are large and characterized by N-terminal HEAT repeats, predicted to form an elongated alpha-helical structure",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27066066",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "B56\u03b3 contains 18 \u03b1-helices that are organized into eight HEAT (Huntington-elongation-A subunit-TOR) repeat motifs. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22315229",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we reveal a remarkable complexity in the unfolding of giant HEAT-repeat protein PR65/A, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24120762",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A HEAT-repeat superhelix within SF3b155 plays a key role in branch site recognition.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27742610",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The HEAT-repeat protein Pds5B",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27549742",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "mTOR, TOG5, DNA-PKcs, HEATR1, Rif1, B56\u03b3, PR65/A, SF3b155, Pds5B"
+}

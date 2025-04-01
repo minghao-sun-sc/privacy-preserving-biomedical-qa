@@ -1,0 +1,54 @@
+{
+  "id": "5889eb503b87a8a73800000b",
+  "type": "factoid",
+  "question": "Which syndrome is caused by deletion of Pds5b in mice?",
+  "ideal_answer": "mice lacking sister chromatid cohesion protein pds5b exhibit developmental abnormalities reminiscent of cornelia de lange syndrome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17652350",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19412548"
+  ],
+  "snippets": [
+    {
+      "text": "Mice lacking sister chromatid cohesion protein PDS5B exhibit developmental abnormalities reminiscent of Cornelia de Lange syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17652350",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Pds5B mutant mice have developmental abnormalities resembling CdLS",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19412548",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mice lacking sister chromatid cohesion protein PDS5B exhibit developmental abnormalities reminiscent of Cornelia de Lange syndrome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17652350",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Pds5B mutant mice have developmental abnormalities resembling CdLS; however the role of Pds5A in mammals and the association of PDS5 proteins with CdLS are unknown.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19412548",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pds5B mutant mice have developmental abnormalities resembling CdLS; however the role of Pds5A in mammals and the association of PDS5 proteins with CdLS are unknown.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19412548",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mice lacking sister chromatid cohesion protein PDS5B exhibit developmental abnormalities reminiscent of Cornelia de Lange syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17652350",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0090695",
+    "http://www.uniprot.org/uniprot/PDS5B_RAT",
+    "http://www.uniprot.org/uniprot/PDS5B_MOUSE"
+  ],
+  "exact_answer": "Cornelia de Lange syndrome."
+}

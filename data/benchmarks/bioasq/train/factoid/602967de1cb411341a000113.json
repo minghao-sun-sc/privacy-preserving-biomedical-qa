@@ -1,0 +1,19 @@
+{
+  "id": "602967de1cb411341a000113",
+  "type": "factoid",
+  "question": "How many nucleotides long is the HOTAIR CNE?",
+  "ideal_answer": "The HOTAIR CNE is a 32-nucleotide long conserved noncoding element",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32268280"
+  ],
+  "snippets": [
+    {
+      "text": "HOTAIR was proposed to regulate either HoxD cluster genes in trans or HoxC cluster genes in cis, a mechanism that remains unclear. We have identified a 32-nucleotide conserved noncoding element (CNE) as HOTAIR ancient sequence that likely originated at the root of vertebrate. The second round of whole-genome duplication resulted in one copy of the CNE within HOTAIR and another copy embedded in noncoding transcript of HOXD11. Paralogous CNEs underwent compensatory mutations, exhibit sequence complementarity with respect to transcripts directionality, and have high affinity in\u00a0vitro. The HOTAIR CNE resembled a poised enhancer in stem cells and an active enhancer in HOTAIR-expressing cells. HOTAIR expression is positively correlated with HOXC11 in cis and negatively correlated with HOXD11 in trans. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32268280",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "32"
+}

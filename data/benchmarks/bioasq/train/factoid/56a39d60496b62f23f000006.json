@@ -1,0 +1,35 @@
+{
+  "id": "56a39d60496b62f23f000006",
+  "type": "factoid",
+  "question": "Which package is available for analysing genomic interactions in R/Bioconductor?",
+  "ideal_answer": "r3Cseq is an R/Bioconductor package designed to perform 3C-seq data analysis in a number of different experimental designs. The package reads a common aligned read input format, provides data normalization, allows the visualization of candidate interaction regions and detects statistically significant chromatin interactions, thus greatly facilitating hypothesis generation and the interpretation of experimental results.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23671339"
+  ],
+  "snippets": [
+    {
+      "text": "r3Cseq: an R/Bioconductor package for the discovery of long-range genomic interactions from chromosome conformation capture and next-generation sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23671339",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present r3Cseq, an R/Bioconductor package designed to perform 3C-seq data analysis in a number of different experimental designs. The package reads a common aligned read input format, provides data normalization, allows the visualization of candidate interaction regions and detects statistically significant chromatin interactions, thus greatly facilitating hypothesis generation and the interpretation of experimental results. We further demonstrate its use on a series of real-world applications",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23671339",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "r3Cseq: an R/Bioconductor package for the discovery of long-range genomic interactions from chromosome conformation capture and next-generation sequencing data",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23671339",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D023281",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016678",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009693"
+  ],
+  "exact_answer": "r3Cseq"
+}

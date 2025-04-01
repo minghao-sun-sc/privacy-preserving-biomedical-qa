@@ -1,0 +1,73 @@
+{
+  "id": "532c169ed6d3ac6a3400001f",
+  "type": "yesno",
+  "question": "Are there plasma membrane receptors for thyroid hormones?",
+  "ideal_answer": "Receptors for thyroid hormones are present on plasma membrane of cells; in particular thyroid hormones bind integrin that is a heterodimeric component of plasma membrane",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11117200",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22986150",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20658515",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24113777",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6290538",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22945636",
+    "http://www.ncbi.nlm.nih.gov/pubmed/169249",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18329679",
+    "http://www.ncbi.nlm.nih.gov/pubmed/227209",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23137442",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20232113",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23926648",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19900468",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22414628",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6093898",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17570630",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23021374",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20051527",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12165107",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17983645",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2534509",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23943159",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8936679",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1747413",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6312037",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19755667"
+  ],
+  "snippets": [
+    {
+      "text": "ntegrins are heterodimeric structural components of the plasma membrane whose ligands include a large number of extracellular matrix (ECM) proteins. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23943159",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recently, integrin \u03b1v\u03b23 has been shown to have a panel of previously unappreciated small molecule receptor sites for thyroid hormone and hormone analogues, for dihydrotestosterone, and for resveratrol, a polyphenol that has certain estrogen-like features.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23943159",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The integrin receptor activation by T4 may take a role in plasma membrane processes involved in the male reproductive system.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23137442",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rapid signaling via this plasma membrane binding site appears to be responsible for many nongenomic effects of thyroid hormones, independent of the classic nuclear receptors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22414628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002462",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0070324",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005886",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037042",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037021",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011989",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011988",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013963",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016020",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056921"
+  ],
+  "exact_answer": "Yes"
+}

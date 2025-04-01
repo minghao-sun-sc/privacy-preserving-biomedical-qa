@@ -1,0 +1,40 @@
+{
+  "id": "5ac08fe7d0c506ce46000003",
+  "type": "factoid",
+  "question": "Of what origin is the MCF-7 cell line?",
+  "ideal_answer": "MCF7 is an ER+ breast cancer cell line.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29055574",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25792283",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26877254",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28358602"
+  ],
+  "snippets": [
+    {
+      "text": " an ER+ breast cancer cell line (MCF-7)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26877254",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Two different types of tumor cells, MCF-7 and MDA-MB-231, both from the same origin of breast carcinoma cells, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29055574",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MCF7, and PC3 adenocarcinoma cell lines.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28358602",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MCF7, Hs578t and MDA-MB-231 breast cancer cell lines",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25792283",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "MCF7 is an ER+ breast cancer cell line"
+}

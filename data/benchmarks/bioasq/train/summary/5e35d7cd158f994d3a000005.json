@@ -1,0 +1,50 @@
+{
+  "id": "5e35d7cd158f994d3a000005",
+  "type": "summary",
+  "question": "What is the BioPlex network?",
+  "ideal_answer": "Protein interactions form a network whose structure drives cellular function and whose organization informs biological inquiry. BioPlex contains 23,744 interactions among 7,668 proteins with 86% previously undocumented. BioPlex accurately depicts known complexes, attaining 80%-100% coverage for most CORUM complexes. The network readily subdivides into communities that correspond to complexes or clusters of functionally related proteins. More generally, network architecture reflects cellular localization, biological process, and molecular function, enabling functional characterization of thousands of proteins. Network structure also reveals associations among thousands of protein domains, suggesting a basis for examining structurally related proteins. BioPlex, in combination with other approaches, can be used to reveal interactions of biological or clinical significance. For example, mutations in the membrane protein VAPB implicated in familial amyotrophic lateral sclerosis perturb a defined community of interactors.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26186194",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29054129",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27552850"
+  ],
+  "snippets": [
+    {
+      "text": "The BioPlex Network: A Systematic Exploration of the Human Interactome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26186194",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Protein interactions form a network whose structure drives cellular function and whose organization informs biological inquiry. Using high-throughput affinity-purification mass spectrometry, we identify interacting partners for 2,594 human proteins in HEK293T cells. The resulting network (BioPlex) contains 23,744 interactions among 7,668 proteins with 86% previously undocumented. BioPlex accurately depicts known complexes, attaining 80%-100% coverage for most CORUM complexes. The network readily subdivides into communities that correspond to complexes or clusters of functionally related proteins. More generally, network architecture reflects cellular localization, biological process, and molecular function, enabling functional characterization of thousands of proteins. Network structure also reveals associations among thousands of protein domains, suggesting a basis for examining structurally related proteins. Finally, BioPlex, in combination with other approaches, can be used to reveal interactions of biological or clinical significance. For example, mutations in the membrane protein VAPB implicated in familial amyotrophic lateral sclerosis perturb a defined community of interactors. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26186194",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The BioPlex network is a comprehensive map of human protein interactions and represents the first phase of a long-term effort to profile the entire human ORFEOME collection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27552850",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BioPlex is a large-scale interactome data set based on AP-MS of baits from the human ORFeome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29054129",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The BioPlex network is a comprehensive map of human protein interactions and represents the first phase of a long-term effort to profile the entire human ORFEOME collection . ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27552850",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The BioPlex network is a comprehensive map of human protein interactions and represents the first phase of a long-term effort to profile the entire human ORFEOME collection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27552850",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

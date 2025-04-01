@@ -1,0 +1,36 @@
+{
+  "document_id": "record_00788",
+  "original_length": 4636,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Postoperative: ,  Mild tracheobronchitis with history of granulomatous disease and TB, rule out active TB/miliary TB.,PROCEDURE PERFORMED:,  Flexible fiberoptic bronchoscopy diagnostic with:,a.  Ri...",
+    "Symptoms": "",
+    "Treatment": "Biopsy procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "with 50 mg, Versed 1 mg, of 2 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Mild tracheobronchitis with history of granulomato...'"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "document_id": "record_02268",
+  "original_length": 941,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Negative cervical spine.",
+    "Symptoms": "",
+    "Treatment": "CT cervical spine for trauma.  CT examination of the cervical spine was performed without contrast.  Coronal and sagittal reformats were obtained for better anatomical localization. CT C-Spine - 2",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'CT examination of the cervical spine was performed...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

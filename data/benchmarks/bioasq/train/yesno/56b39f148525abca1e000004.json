@@ -1,0 +1,79 @@
+{
+  "id": "56b39f148525abca1e000004",
+  "type": "yesno",
+  "question": "Is the Dictyostelium discoideum proteome known?",
+  "ideal_answer": "Yes, The Dictyostelium discoideum genome has been sequenced, assembled and annotated to a high degree of reliability. The parts-list of proteins and RNA encoded by the six chromosomes can now be accessed and analyzed. Consequently, this genomic sequence information can now be exploited to realize D. discoideum proteomics projects.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16875414",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20013782",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20422638",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16957282",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22120990",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16957286",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18820470",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9150929",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11990506"
+  ],
+  "snippets": [
+    {
+      "text": "The Negative Proteome Database (NPD) is populated with pair-wise protein sequence comparisons between each of the following proteomes: Homo sapiens, Mus musculus, Drosophila melanogaster, Caenorhabditis elegans, Saccharomyces cerevisiae, Dictyostelium discoideum, Chlamydomonus reinhardti, Escherichia coli K12, Arabidopsis thaliana and Methanoscarcina acetivorans.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18820470",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Dictyostelium discoideum proteome--the SWISS-2DPAGE database of the multicellular aggregate (slug).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9150929",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Consequently, this genomic sequence information can now be exploited to realize D. discoideum proteomics projects. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16957286",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Dictyostelium discoideum genome has been sequenced, assembled and annotated to a high degree of reliability. The parts-list of proteins and RNA encoded by the six chromosomes can now be accessed and analyzed. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16957282",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The 34 Mb genome of Dictyostelium discoideum is carried on 6 chromosomes and has been fully sequenced by an international consortium. The sequence was assembled on the classical and physical maps that had been built up over the years and refined by HAPPY mapping. Annotation of the sequence predicted about 12,000 genes for proteins of at least 50 amino acids in length.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16875414",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this study, a quantitative comparative proteomics approach has been used to analyze the Dictyostelium discoideum mitochondrial proteome variations during vegetative growth, starvation and the early stages of development. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20013782",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The secreted proteome profile of developing Dictyostelium discoideum cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20422638",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The present repertoire validates our purification method and paves the way for a future proteomics approach to study the dynamics of macropinocytosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22120990",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Proteomic analysis of a developmentally regulated secretory vesicle.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11990506",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D040901",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020543",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004023"
+  ],
+  "exact_answer": "Yes"
+}

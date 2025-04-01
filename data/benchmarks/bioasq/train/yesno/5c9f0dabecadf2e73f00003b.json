@@ -1,0 +1,26 @@
+{
+  "id": "5c9f0dabecadf2e73f00003b",
+  "type": "yesno",
+  "question": "Is TNF-\u03b1 an activator of pancreatic stellate cells?",
+  "ideal_answer": "Yes,\nTNF-\u03b1  is the prime factor responsible for the activation of pancreatic stellate cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24089530",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20689058"
+  ],
+  "snippets": [
+    {
+      "text": "TNF-\u03b1 is the prime factor responsible for the activation of pancreatic stellate cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24089530",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Activated PSCs expressed IL-33 in the nucleus, and the expression was increased by IL-1\u03b2, TNF-\u03b1, PDGF-BB, and IFN-\u03b3, but not TGF-\u03b21. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20689058",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

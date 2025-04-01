@@ -1,0 +1,25 @@
+{
+  "id": "6206c22ac9dfcb9c0900003e",
+  "type": "factoid",
+  "question": "Which signaling pathway does LY294002 inhibit?",
+  "ideal_answer": "LY294002, can block the PI3K/AKT signaling pathway.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34820336"
+  ],
+  "snippets": [
+    {
+      "text": "LY294002 Is a Promising Inhibitor to Overcome Sorafenib Resistance in FLT3-ITD Mutant AML Cells by Interfering With PI3K/Akt Signaling Pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34820336",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "PI3K inhibitor, LY294002, can block PI3K/AKT signaling, further inhibit glycolysis to disturb ATP production, and finally induce cell apoptosis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34820336",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "PI3K/AKT"
+}

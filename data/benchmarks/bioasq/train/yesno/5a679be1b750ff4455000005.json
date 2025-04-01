@@ -1,0 +1,22 @@
+{
+  "id": "5a679be1b750ff4455000005",
+  "type": "yesno",
+  "question": "Are organisms in the genus Morexella associated with sepsis?",
+  "ideal_answer": "Moraxella species may cause neonatal sepsis",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24669633"
+  ],
+  "snippets": [
+    {
+      "text": "Out of 130 culture proven cases of neonatal sepsis, gram negative bacteria were found in 71 (54.6%) cases and gram positive bacteria in 59 (45.4%) cases. Staphylococcus aureus was the most common bacteria found in 35 (26.9%) cases followed by Escherichia coli in 30 (23.1%) cases. Acinetobacter species, Staphylococcus epidermidis, Klebseila, Streptococci, Enterobacter cloacae and Morexella species were found in 17 (13.1%), 17 (13.1%), 13 (10%), 7 (5.4%), 6 (4.6%), and 5 (3.8%) cases respectively. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24669633",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D000071074",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D018805"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "5c581e1507647bbc4b00001c",
+  "type": "factoid",
+  "question": "Which algorithm has been developed for trio-based benchmarking of variant calls?",
+  "ideal_answer": "Geck is a tool for trio-based comparative benchmarking tool of variant calls. It is a statistical mixture model for comparing two variant calling pipelines from genotype data they produce after running on individual members of a trio.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29850774"
+  ],
+  "snippets": [
+    {
+      "text": "geck: trio-based comparative benchmarking of variant calls.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29850774",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Classical methods of comparing the accuracies of variant calling pipelines are based on truth sets of variants whose genotypes are previously determined with high confidence. An alternative way of performing benchmarking is based on Mendelian constraints between related individuals. Statistical analysis of Mendelian violations can provide truth set-independent benchmarking information, and enable benchmarking less-studied variants and diverse populations.Results: We introduce a statistical mixture model for comparing two variant calling pipelines from genotype data they produce after running on individual members of a trio. We determine the accuracy of our model by comparing the precision and recall of GATK Unified Genotyper and Haplotype Caller on the high-confidence SNPs of the NIST Ashkenazim trio and the two independent Platinum Genome trios. We show that our method is able to estimate differential precision and recall between the two pipelines with 10-3 uncertainty.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29850774",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "geck"
+}

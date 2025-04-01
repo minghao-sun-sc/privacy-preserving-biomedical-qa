@@ -1,0 +1,70 @@
+{
+  "id": "58a2ced760087bc10a000004",
+  "type": "factoid",
+  "question": "Which is the chromosome area that the human gene coding for the dopamine transporter (DAT1) is located to?",
+  "ideal_answer": "The gene encoding DAT1 consists of 15 exons spanning 60 kb and is located on chromosome 5p15.3.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16222334",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1478653",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19779799",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16861140",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17579611"
+  ],
+  "snippets": [
+    {
+      "text": "The gene encoding DAT1 consists of 15 exons spanning 60 kb on chromosome 5p15.32.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19779799",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The locus of the solute carrier 6A3 (SLC6A3; dopamine transporter 1; DAT1) localizes to 5p15.33; the gene has repeatedly been implicated in the etiology of ADHD. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16222334",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In 29 adults with attention deficit hyperactivity disorder (ADHD) striatal dopamine transporter (DAT) availability was assessed by [(99m)Tc]TRODAT-1 SPECT and correlated with 3' VNTR polymorphism of the DAT gene on chromosome 5p15.3. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16861140",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Human dopamine transporter gene (DAT1) maps to chromosome 5p15.3 and displays a VNTR.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1478653",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The gene encoding DAT1 consists of 15 exons spanning 60 kb on chromosome 5p15.32. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19779799",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The dopamine transporter (DAT1) is a membrane spanning protein that binds the neurotransmitter dopamine and performs re-uptake of dopamine from the synapse into a neuron. The gene encoding DAT1 consists of 15 exons spanning 60 kb on chromosome 5p15.32. Several studies have investigated the possible associations between variants in DAT1 gene and psychiatric disorders.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19779799",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The dopamine transporter (DAT1) is a membrane spanning protein that binds the neurotransmitter dopamine and performs re-uptake of dopamine from the synapse into a neuron. The gene encoding DAT1 consists of 15 exons spanning 60 kb on chromosome 5p15.32.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19779799",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Human dopamine transporter gene (DAT1) maps to chromosome 5p15.3 and displays a VNTR.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1478653",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#http://www.biosemantics.org/jochem#:4275128",
+    "http://www.biosemantics.org/jochem#4275128",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004298",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D050483"
+  ],
+  "exact_answer": "5p15.3"
+}

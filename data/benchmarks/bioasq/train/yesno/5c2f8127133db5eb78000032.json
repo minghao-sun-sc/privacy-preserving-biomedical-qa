@@ -1,0 +1,78 @@
+{
+  "id": "5c2f8127133db5eb78000032",
+  "type": "yesno",
+  "question": "Are whole-genome duplications more divergent than small-scale duplications in yeast?",
+  "ideal_answer": "Whole-genome duplicates tend to exhibit less profound phenotypic effects when deleted, are functionally less divergent, and are associated with a different set of functions than their small-scale duplicate counterparts.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19625390",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21079672",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17916239",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27799339",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23300483",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20525287"
+  ],
+  "snippets": [
+    {
+      "text": " Also, we observe that transporter and glycolytic genes have a higher probability to be retained in duplicate after WGD and subsequent gene loss, both in the model as in S. cerevisiae, which leads to an increase in glycolytic flux after WGD",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19625390",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show that the retention of genes in duplicate in the model, corresponds nicely with those retained in duplicate after the ancestral WGD in S. cerevisiae",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19625390",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thus, our model confirms the hypothesis that WGD has been important in the adaptation of yeast to the new, glucose-rich environment that arose after the appearance of angiosperms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19625390",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Whole-genome duplicates tend to exhibit less profound phenotypic effects when deleted, are functionally less divergent, and are associated with a different set of functions than their small-scale duplicate counterparts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17916239",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The results uncover the WGD as a major source for the evolution of a complex interconnected block of transcriptional pathways.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20525287",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These selected pairs, both WGD and SSD, tend to have decelerated functional evolution, have higher propensities of co-clustering into the same protein complexes, and share common interacting partners.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21079672",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover, we find additional transcriptional profiles that are suggestive of neo- and subfunctionalization of duplicate gene copies. These patterns are strongly correlated with the functional dependencies and sequence divergence profiles of gene copies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27799339",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Functional and transcriptional divergence between the copies after gene duplication has been considered the main driver of innovations .",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27799339",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Whole-genome duplicates tend to exhibit less profound phenotypic effects when deleted, are functionally less divergent, and are associated with a different set of functions than their small-scale duplicate counterparts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17916239",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Empirical data shows that whole-genome duplications (WGDs) are more likely to be retained than small-scale duplications (SSDs), though their relative contribution to the functional fate of duplicates remains unexplored.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23300483",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

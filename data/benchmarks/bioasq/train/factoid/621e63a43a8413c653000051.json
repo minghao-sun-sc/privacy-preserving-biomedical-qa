@@ -1,0 +1,25 @@
+{
+  "id": "621e63a43a8413c653000051",
+  "type": "factoid",
+  "question": "Which is the literature-based database of phenotypes?",
+  "ideal_answer": "PheneBank is a Web-portal for retrieving human phenotype-disease associations that have been text-mined from the whole of Medline. This approach exploits state-of-the-art machine learning for concept identification by utilising an expert annotated rare disease corpus from the PMC Text Mining subset. Evaluation of the system for entities is conducted on a gold-standard corpus of rare disease sentences and for associations against the Monarch initiative data.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34788791"
+  ],
+  "snippets": [
+    {
+      "text": "PheneBank: a literature-based database of phenotypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34788791",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "PheneBank is a Web-portal for retrieving human phenotype-disease associations that have been text-mined from the whole of Medline. Our approach exploits state-of-the-art machine learning for concept identification by utilising an expert annotated rare disease corpus from the PMC Text Mining subset. Evaluation of the system for entities is conducted on a gold-standard corpus of rare disease sentences and for associations against the Monarch initiative data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34788791",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "PheneBank"
+}

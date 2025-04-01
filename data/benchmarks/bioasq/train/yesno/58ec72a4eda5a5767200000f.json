@@ -1,0 +1,68 @@
+{
+  "id": "58ec72a4eda5a5767200000f",
+  "type": "yesno",
+  "question": "Is tirilazad effective for treatment of aneurysmal subarachnoid haemorrhage?",
+  "ideal_answer": "No. Based on meta-analysis, there is no evidence that tirilazad, in addition to nimodipine, reduces mortality or improves poor outcome in patients with aneurysmal subarachnoid haemorrhage.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/9509802",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8592224",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8592225",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20166088",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9046304",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9773664",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8737119",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7714603",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10350245",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22152574",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10350246",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18810661"
+  ],
+  "snippets": [
+    {
+      "text": "There was no significant difference between the two groups at the end of follow up for the primary outcome, death (odds ratio (OR) 0.89, 95% confidence interval (CI) 0.74 to 1.06), or in poor outcome (death, vegetative state or severe disability) (OR 1.04, 95% CI 0.90 to 1.21). During the treatment period, fewer patients developed delayed cerebral ischaemia in the tirilazad group than in the control group (OR 0.80, 95% CI 0.69 to 0.93). Subgroup analyses did not demonstrate any significant difference in effects of tirilazad on clinical outcomes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20166088",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AUTHORS' CONCLUSIONS: There is no evidence that tirilazad, in addition to nimodipine, reduces mortality or improves poor outcome in patients with aneurysmal SAH.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20166088",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This clinical trial suggest that tirilazad mesylate, at a dosage of 6 mg/kg/day, improves overall outcome in aneurysmal subarachnoid hemorrhage patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9773664",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tirilazad is ineffective.There are many possible successful treatment options for preventing vasospasm, delayed ischemic neurologic deficits, and poor neurologic outcome following aneurysmal subarachnoid hemorrhage; however, further multicenter RCTs need to be performed to determine if there is a significant benefit from their use",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22152574",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Findings from previous multicenter clinical trials have suggested that tirilazad mesylate, a synthetic nonhormonal 21-aminosteroid, might be effective in preventing delayed cerebral ischemia following subarachnoid hemorrhage (SAH).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10350245",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This clinical trial suggest that tirilazad mesylate, at a dosage of 6 mg/kg/day, improves overall outcome in aneurysmal subarachnoid hemorrhage patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9773664",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4215434",
+    "http://www.biosemantics.org/jochem#http://www.biosemantics.org/jochem#:4260337",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013345",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013812",
+    "http://www.biosemantics.org/jochem#4236283",
+    "http://www.biosemantics.org/jochem#4260337",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019468"
+  ],
+  "exact_answer": "Yes"
+}

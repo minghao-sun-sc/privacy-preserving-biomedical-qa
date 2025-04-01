@@ -1,0 +1,32 @@
+{
+  "id": "6025d9e41cb411341a0000b7",
+  "type": "yesno",
+  "question": "Does addition of valproic acid improve survival of patients with diffuse intrinsic pontine glioma?",
+  "ideal_answer": "No. Addition of  valproic acid and bevacizumab to radiation was well tolerated but did not appear to improve survival in children with diffuse intrinsic pontine glioma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24293221",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32285998"
+  ],
+  "snippets": [
+    {
+      "text": "Median event-free survival (EFS) and overall survival (OS) for DIPG were 7.8 (95% CI 5.6-8.2) and 10.3 (7.4-13.4) months, and estimated one-year EFS was 12% (2%-31%). Median EFS and OS for HGG were 9.1 (6.4-11) and 12.1 (10-22.1) months, and estimated one-year EFS was 24% (7%-45%). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32285998",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION: Addition of VPA and bevacizumab to radiation was well tolerated but did not appear to improve EFS or OS in children with DIPG or HGG.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32285998",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Event-free survival and overall survival of patients not treated with valproic acid were 6.5 and 7.8 months. Accelerated failure time model (a parametric multivariate regression test for time-to-failure data) showed a statistically significant superiority of the median event-free survival of treated patients (6.5 vs. 9.5 months in treated patients; HR 0.54-95 % CI 0.33-0.87; p < 0.05) and also of overall survival (7.8 vs. 13.4 months in treated patients; HR 0.60-95 % CI 0.37-0.98; p = 0.05).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24293221",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

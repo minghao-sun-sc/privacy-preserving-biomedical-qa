@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00541",
+  "original_length": 5737,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "S:\n- Endoscopic subperiosteal midface lift using the endotine midface suspension device.\n- Transconjunctival lower lid blepharoplasty with removal of a portion of the medial and middle fat pad.,ANE...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Transconjunctival lower lid blepharoplasty with re...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

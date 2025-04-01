@@ -1,0 +1,24 @@
+{
+  "id": "56c8f7445795f9a73e00001b",
+  "type": "summary",
+  "question": "What is DNAshape?",
+  "ideal_answer": "DNAshape is  a method and web server for predicting DNA structural features in a high-throughput (HT) manner for massive sequence data. This approach provides the framework for the integration of DNA sequence and shape analyses in genome-wide studies. The HT methodology uses a sliding-window approach to mine DNA structural information obtained from Monte Carlo simulations. It requires only nucleotide sequence as input and instantly predicts multiple structural features of DNA (minor groove width, roll, propeller twist and helix twist). The results of rigorous validations of the HT predictions based on DNA structures solved by X-ray crystallography and NMR spectroscopy, hydroxyl radical cleavage data, statistical analysis and cross-validation, and molecular dynamics simulations provide strong confidence in this approach. The DNAshape web server is freely available at http://rohslab.cmb.usc.edu/DNAshape/.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23703209"
+  ],
+  "snippets": [
+    {
+      "text": "DNAshape: a method for the high-throughput prediction of DNA structural features on a genomic scale.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23703209",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present a method and web server for predicting DNA structural features in a high-throughput (HT) manner for massive sequence data. This approach provides the framework for the integration of DNA sequence and shape analyses in genome-wide studies. The HT methodology uses a sliding-window approach to mine DNA structural information obtained from Monte Carlo simulations. It requires only nucleotide sequence as input and instantly predicts multiple structural features of DNA (minor groove width, roll, propeller twist and helix twist). The results of rigorous validations of the HT predictions based on DNA structures solved by X-ray crystallography and NMR spectroscopy, hydroxyl radical cleavage data, statistical analysis and cross-validation, and molecular dynamics simulations provide strong confidence in this approach. The DNAshape web server is freely available at http://rohslab.cmb.usc.edu/DNAshape/.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23703209",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

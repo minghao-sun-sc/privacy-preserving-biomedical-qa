@@ -1,0 +1,43 @@
+{
+  "document_id": "record_03509",
+  "original_length": 2139,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Medical assessment involving: incision, procedure",
+    "Symptoms": "",
+    "Treatment": "well and was taken to the recovery room in stable condition.",
+    "Medications": "",
+    "Medical History": "",
+    "Physical Examination": "ples are provided by various users andare for reference purpose only. MTHelpLine does not certify accuracy and quality of sample reports.These transcribed medical transcription sample reports may include some uncommon or unusual formats;this would be due to the preference of the dictating physician. All names and dates have beenchanged (or removed) to keep confidentiality. Any resemblance of any type of name or date orplace or anything else to real world is purely incidental.,",
+    "Lab Results": "",
+    "Imaging": "omy, midepigastric trocar, double hemoclips, laparoscopic, cholecystectomy, midepigastric, trocars, hemoclips, trocarNOTE,: Thesetranscribed medical transcription sample reports and examples are provided by various users andare for reference purpose only. MTHelpLine does not certify accuracy and quality of sample reports.These transcribed medical transcription sample reports may include some uncommon or unusual formats;this would be due to the preference of the dictating physician. All names and dates have beenchanged (or removed) to keep confidentiality. Any resemblance of any type of name or date orplace or anything else to real world is purely incidental.,",
+    "Procedure": "well and was taken to the recovery room in stable condition.",
+    "Findings": "",
+    "Assessment": "",
+    "Plan": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, URL, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "URL",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

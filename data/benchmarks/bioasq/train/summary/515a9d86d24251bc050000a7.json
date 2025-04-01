@@ -1,0 +1,77 @@
+{
+  "id": "515a9d86d24251bc050000a7",
+  "type": "summary",
+  "question": "Albumin depletion is a common first step for proteomic analysis of CSF fluid. What is the advantage and disadvantage of this procedure?",
+  "ideal_answer": "Depletion of the high abundant protein Albumin from CSF samples is improving the detection of lower abundant proteins but may also lead to the potential loss of non-target proteins.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18288611",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16335978",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15952730",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18412540",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19327347",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15822917",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21906361",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23300121"
+  ],
+  "snippets": [
+    {
+      "text": "However, albumin binds peptides and proteins, which raises concerns as to how the removal of albumin could impact the outcome of the biomarker study while ignoring the possibility that this could be a biomarker subproteome itself.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23300121",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "This study demonstrates that reduction of sample complexity by albumin depletion of CSF can be performed without CV impairment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19327347",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We have utilized albumin depletion prior to 2D gel electrophoresis to enhance glycoprotein concentration for image analysis as well as structural glycoprotein determination without glycan release using mass spectrometry (MS).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18288611",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The albumin depletion method is the most suitable as prefractionation method of CSF prior to 2-DE for structural determination of glycoproteins in the study of neurodegenerative disorders.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16335978",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "A proper sample preparation, in particular, abundant protein removal is crucial in the characterization of low-abundance proteins including those harboring post-translational modifications. In human cerebrospinal fluid (CSF), approximately 80% of proteins originate from serum, and removal of major proteins is necessary to study brain-derived proteins that are present at low concentrations for successful biomarker and therapeutic target discoveries for neurological disorders.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15952730",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The most abundant component in human body fluids, human serum albumin (HSA), is present at concentrations corresponding to approximately 50% of the total protein content in, e.g., plasma and cerebrospinal fluid (CSF). If this component could be selectively removed, then the chances of observing lower-abundance component of clinical interest would be greatly improved.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15822917",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": ", and the identification of lower abundant components was clearly facilitated.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15822917",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Two different depletion strategies for removing albumin from human cerebrospinal fluid (CSF), Microcon Centrifugal Filter vs. Montage Albumin Deplete kit, were evaluated for improving protein profiling pattern and reproducibility in SELDI analysis. METHODS: Pooled CSF was divided into 20 aliquots and these aliquots were subjected to SELDI analysis ei",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19327347",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Enhanced identification of lower-abundance components was observed in the depleted fraction, in terms of more detected peptides per protein.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18412540",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005441",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000418",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0033326"
+  ]
+}

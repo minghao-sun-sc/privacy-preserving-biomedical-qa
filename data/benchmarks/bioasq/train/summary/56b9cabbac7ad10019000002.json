@@ -1,0 +1,89 @@
+{
+  "id": "56b9cabbac7ad10019000002",
+  "type": "summary",
+  "question": "What is the role of Caenorhabditis elegans Heterochromatin protein 1 (HPL-2) in development?",
+  "ideal_answer": "Caenorhabditis elegans Heterochromatin protein 1 (HPL-2) links developmental plasticity, longevity and lipid metabolism. HPL-2 regulates the expression of germline genes, extracellular matrix components and genes involved in lipid metabolism. In addition, HPL-2 regulates the dauer developmental decision, a striking example of phenotypic plasticity in which environmental conditions determine developmental fate. Furthermore, it is required for the formation of a functional germline and for the development of the vulva by acting in an Rb-related pathway.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21437264",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16905130",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21116703",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22185090",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11850401"
+  ],
+  "snippets": [
+    {
+      "text": "Caenorhabditis elegans Heterochromatin protein 1 (HPL-2) links developmental plasticity, longevity and lipid metabolism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22185090",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " We show that HPL-2 regulates the expression of germline genes, extracellular matrix components and genes involved in lipid metabolism. Comparison of our expression data with HPL-2 ChIP-on-chip profiles reveals that a significant number of genes up- and down-regulated in the absence of HPL-2 are bound by HPL-2. Germline genes are specifically up-regulated in hpl-2 mutants, consistent with the function of HPL-2 as a repressor of ectopic germ cell fate. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22185090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "HPL-2 regulates the dauer developmental decision, a striking example of phenotypic plasticity in which environmental conditions determine developmental fate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22185090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results suggest that the worm HP1 homologue HPL-2 may coordinately regulate dauer diapause, longevity and lipid metabolism, three processes dependent on developmental input and environmental conditions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22185090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Interestingly, lin-61 genetically interacts with two other synMuvB genes, hpl-2, an HP1 homologous H3K9me2/3 binding factor, and met-2, a SETDB1 homologous H3K9 methyl transferase (H3K9MT), in determining C. elegans vulva development and fertility.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21437264",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We have specifically characterized the intranuclear positioning of in vivo fluorescence of the Caenorhabditis elegans HP1 homologue HPL-2 as a marker for heterochromatin domains in developing embryos. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21116703",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "While HPL-2 functions in vulval and germline development, no function has so far been attributed to HPL-1. Here we report the characterization of an hpl-1 null allele. We show that while the absence of hpl-1 alone results in no obvious phenotype, hpl-1;hpl-2 double mutants show synthetic, temperature sensitive phenotypes including larval lethality and severe defects in the development of the somatic gonad. Furthermore, we find that hpl-1 has an unexpected role in vulval development by acting redundantly with hpl-2, but not other genes previously implicated in vulval development. Localization studies show that like HPL-2, HPL-1 is a ubiquitously expressed nuclear protein. However, HPL-1 and HPL-2 localization does not completely overlap. Our results show that HPL-1 and HPL-2 play both unique and redundant functions in post-embryonic development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16905130",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show that one of the homologues, HPL-2, is required for the formation of a functional germline and for the development of the vulva by acting in an Rb-related pathway. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11850401",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A heterochromatin protein 1 homologue in Caenorhabditis elegans acts in germline and vulval development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11850401",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We have specifically characterized the intranuclear positioning of in vivo fluorescence of the Caenorhabditis elegans HP1 homologue HPL-2 as a marker for heterochromatin domains in developing embryos.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21116703",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Germline genes are specifically up-regulated in hpl-2 mutants, consistent with the function of HPL-2 as a repressor of ectopic germ cell fate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22185090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4262550",
+    "http://www.uniprot.org/uniprot/HP1_DROME",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017173",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D029742",
+    "http://www.uniprot.org/uniprot/HP1_DROVI",
+    "http://amigo.geneontology.org/amigo/term/GO:0032502"
+  ]
+}

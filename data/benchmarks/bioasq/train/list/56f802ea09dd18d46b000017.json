@@ -1,0 +1,47 @@
+{
+  "id": "56f802ea09dd18d46b000017",
+  "type": "list",
+  "question": "List human proteins that are subject to a dimer-to-tetramer transition.",
+  "ideal_answer": "GAC\nSHMT2\nAMPAR\nOrai1\nOrai3",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23739980",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21080238",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25548170",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25619277",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21987805"
+  ],
+  "snippets": [
+    {
+      "text": " the ability of GAC to undergo the dimer-to-tetramer transition necessary for enzyme activation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25548170",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "while SHMT2 undergoes a dimer-to-tetramer transition upon PLP binding.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25619277",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AMPARs that is required for the critical dimer-to-tetramer transition.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23739980",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We conclude that the human Orai1 and Orai3 channels undergo a dimer-to-tetramer transition to form a Ca(2+)-selective pore during store-operated activation and that Orai3 forms a dimeric nonselective cation pore upon activation by 2-APB.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21987805",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the conformational requirement for the dimer-to-tetramer transition during the maturation of AMPA-Rs. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21080238",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "GAC, SHMT2, AMPAR, Orai1, Orai3"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "5e2b2d4afbd6abf43b000008",
+  "type": "summary",
+  "question": "What is canSAR?",
+  "ideal_answer": "canSAR (http://cansar.icr.ac.uk) is a public integrative cancer-focused knowledgebase for the support of cancer translational research and drug discovery. Through the integration of biological, pharmacological, chemical, structural biology and protein network data, it provides a single information portal to answer complex multidisciplinary questions including--among many others--and what is known about a protein, in which cancers is it expressed or mutated, and what chemical tools and cell line models can be used to experimentally probe its activity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26673713",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30496479",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24304894",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22013161"
+  ],
+  "snippets": [
+    {
+      "text": "canSAR (http://cansar.icr.ac.uk) is a public, freely available, integrative translational research and drug discovery knowlegebase. canSAR informs researchers to help solve key bottlenecks in cancer translation and drug discovery. It integrates genomic, protein, pharmacological, drug and chemical data with structural biology, protein networks and unique, comprehensive and orthogonal 'druggability' assessments. canSAR is widely used internationally by academia and industry.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30496479",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "canSAR (http://cansar.icr.ac.uk) is a publicly available, multidisciplinary, cancer-focused knowledgebase developed to support cancer translational research and drug discovery. canSAR integrates genomic, protein, pharmacological, drug and chemical data with structural biology, protein networks and druggability data. canSAR is widely used to rapidly access information and help interpret experimental data in a translational and drug discovery context.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26673713",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "canSAR is a fully integrated cancer research and drug discovery resource developed to utilize the growing publicly available biological annotation, chemical screening, RNA interference screening, expression, amplification and 3D structural data. Scientists can, in a single place, rapidly identify biological annotation of a target, its structural characterization, expression levels and protein interaction data, as well as suitable cell lines for experiments, potential tool compounds and similarity to known drug targets. canSAR has, from the outset, been completely use-case driven which has dramatically influenced the design of the back-end and the functionality provided through the interfaces. The Web interface at http://cansar.icr.ac.uk provides flexible, multipoint entry into canSAR. This allows easy access to the multidisciplinary data within, including target and compound synopses, bioactivity views and expert tools for chemogenomic, expression and protein interaction network data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22013161",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "canSAR (http://cansar.icr.ac.uk) is a public integrative cancer-focused knowledgebase for the support of cancer translational research and drug discovery. Through the integration of biological, pharmacological, chemical, structural biology and protein network data, it provides a single information portal to answer complex multidisciplinary questions including--among many others--what is known about a protein, in which cancers is it expressed or mutated, and what chemical tools and cell line models can be used to experimentally probe its activity? What is known about a drug, its cellular sensitivity profile and what proteins is it known to bind that may explain unusual bioactivity?",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24304894",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

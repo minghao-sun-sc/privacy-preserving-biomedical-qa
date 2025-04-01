@@ -1,0 +1,49 @@
+{
+  "id": "51405cd123fec90375000005",
+  "type": "factoid",
+  "question": "Which is the defective protein causing the lysosomal storage disease Fabry?",
+  "ideal_answer": "Anderson-Fabry disease (referred to as Fabry disease) is an X-linked disorder characterized by a deficiency of the lysosomal enzyme alpha-galactosidase A and the subsequent accumulation in various tissues of globotriaosylceramide (Gb(3)), the main substrate of the defective enzyme.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19202000",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9323559",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15533650",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19146893",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15702403",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9395081"
+  ],
+  "snippets": [
+    {
+      "text": "The lysosomal storage disorder Fabry disease is characterized by excessive globotriaosylceramide (Gb3) accumulation in major organs such as the heart and kidney. Defective lysosomal alpha-galactosidase A (Gla) is responsible for excessive Gb3 accumulation, and one cell sensitive to the effects of Gb3 accumulation is vascular endothelium.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19202000",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Anderson-Fabry disease (referred to as Fabry disease) is an X-linked disorder characterized by a deficiency of the lysosomal enzyme alpha-galactosidase A and the subsequent accumulation in various tissues of globotriaosylceramide (Gb(3)), the main substrate of the defective enzyme.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15702403",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Human alpha-galactosidase A (EC 3.2.1.22; alpha-Gal A) is the lysosomal exoglycosidase responsible for the hydrolysis of terminal alpha-galactosyl residues from glycoconjugates and is the defective enzyme causing Fabry disease (McKusick 301500).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9323559",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Transgenic mice expressing a human mutant alpha-galactosidase with an R301Q substitution, which was found in a patient with a variant form of Fabry disease, were established.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9395081",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008247",
+    "http://www.disease-ontology.org/api/metadata/DOID:3211",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016464",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0005764",
+    "http://www.disease-ontology.org/api/metadata/DOID:14499",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000795"
+  ],
+  "exact_answer": "alpha-galactosidase A"
+}

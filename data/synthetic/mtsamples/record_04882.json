@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04882",
+  "original_length": 2949,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Complete occlusion of the left common carotid artery approximately 3 cm distal to its origin.\n- Mild stenosis of the right internal carotid artery measured at 20%.\n- Patent bilateral vertebral a...",
+    "Symptoms": "",
+    "Treatment": "well.  No complications occurred during or immediately after the procedure.  Stasis was achieved of the puncture site using a VasoSeal.  The patient will be observed for at least 2-1/2 hours prior ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Complete occlusion of the left common carotid arte...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

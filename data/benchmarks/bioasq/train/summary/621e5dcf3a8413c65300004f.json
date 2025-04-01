@@ -1,0 +1,18 @@
+{
+  "id": "621e5dcf3a8413c65300004f",
+  "type": "summary",
+  "question": "Describe InteractiveComplexHeatmap",
+  "ideal_answer": "InteractiveComplexHeatmap is designed with an easy-to-use interface where static complex heatmaps can be directly exported to an interactive Shiny web application only with one additional line of code.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34864868"
+  ],
+  "snippets": [
+    {
+      "text": "In this work, we introduce a new R package InteractiveComplexHeatmap that brings interactivity to the widely used ComplexHeatmap package. InteractiveComplexHeatmap is designed with an easy-to-use interface where static complex heatmaps can be directly exported to an interactive Shiny web application only with one additional line of code. InteractiveComplexHeatmap also provides flexible functionalities for integrating interactive heatmap widgets to build more complex and customized Shiny web applications.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34864868",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

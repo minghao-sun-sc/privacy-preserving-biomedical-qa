@@ -1,0 +1,32 @@
+{
+  "id": "5e6de3f21af46fc130000022",
+  "type": "factoid",
+  "question": "What is the target of the drug remdesivir?",
+  "ideal_answer": "remdesivir is a polymerase inhibitor",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29511076",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30275474"
+  ],
+  "snippets": [
+    {
+      "text": "We recently reported that the nucleoside analogue GS-5734 (remdesivir) potently inhibits human and zoonotic CoVs in vitro and in a severe acute respiratory syndrome coronavirus (SARS-CoV) mouse model.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29511076",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Together, these studies define the target of GS-5734 activity and demonstrate that resistance is difficult to select, only partial, and impairs fitness and virulence of MHV and SARS-CoV, supporting further development of GS-5734 as a potential effective pan-CoV antiviral.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29511076",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " In non-human primates, early initiation of polymerase inhibitors favipiravir and remdesivir improves survival, but whether they could be effective in patients is unknown.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30275474",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "polymerase"
+}

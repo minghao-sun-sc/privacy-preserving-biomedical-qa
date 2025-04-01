@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03129",
+  "original_length": 1722,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "that was done at the key.  She has questions as to whether or not there would be any contra indications to her going on the diet.  Otherwise, she feels great.  She had family reunion in Iowa once i...",
+    "Symptoms": "",
+    "Treatment": "Polycythemia rubra vera.  The patient is an 83-year-old female with a history of polycythemia vera.  She comes in to clinic today for followup.  She has not required phlebotomies for several months...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Levothyroxine 200 mcg, Nexium 40 mg, Celebrex 200 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, NRP"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03672",
+  "original_length": 4452,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ".,To evaluate the patient's swallowing function and safety, he was administered graduated amounts of liquid and food mixed with barium in the form of thin liquids (teaspoon x3, cup sip x3); nectar-...",
+    "Symptoms": "",
+    "Treatment": "with Dr. X. The patient was seated upright and in a video-imaging chair throughout this assessment.,To evaluate the patient's swallowing function and safety, he was administered graduated amounts o...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON, US_DRIVER_LICENSE",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'The patient was seated upright and in a video-imag...'"
+      ],
+      "pii_detected": [
+        "PERSON",
+        "US_DRIVER_LICENSE"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

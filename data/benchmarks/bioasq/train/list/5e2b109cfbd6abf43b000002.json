@@ -1,0 +1,79 @@
+{
+  "id": "5e2b109cfbd6abf43b000002",
+  "type": "list",
+  "question": "What is included in the LACE Index?",
+  "ideal_answer": "The LACE index is a simple tool that includes 4 parameters: Length of stay, Acuity of admission, Comorbidity, and Emergency visits in the previous 6 months. It is used to predict early re-admission after hospital discharge.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30279159",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30040677",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29343987",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23696773",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30926557",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29634597",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29148921"
+  ],
+  "snippets": [
+    {
+      "text": "The LACE index is a simple tool with 4 parameters: Length of stay, Acuity of admission, Comorbidity, and Emergency visits in the previous 6 months.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29148921",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "he objective of this study was to calculate the rate of 30-day readmissions and evaluate the accuracy of the LACE index (length of stay, acuity of admission, co-morbidities, and emergency department visits within the last 6 months) for 30-day readmissions in a general hospital population of COPD patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29343987",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Study aims were to evaluate if the revised LACE (length of stay, acuity of admission, Charlson Comorbidity Index, emergency department visits in the past 6 months) index would identify high risk of early readmission (\u226430 days postdischarge), and if postdischarge clinic and community services follow-up would reduce readmission rate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29634597",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This research was focused on the evaluation of LACE Index for Readmission - Length of stay (days), Acute (emergent) admission, Charlson Comorbidity Index and number of ED visits within six months (LACE) and Patients At Risk of Hospital Readmission (PARR) using New Zealand hospital admissions. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30040677",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Data on age, gender, diagnoses, 30-day hospital readmission, discharge medications and variables in the HOSPITAL score (Haemoglobin level at discharge, Oncology at discharge, Sodium level at discharge, Procedure during hospitalisation, Index admission, number of hospital Admissions, Length of stay) and LACE index (Length of stay, Acute/emergent admission, Charlson comorbidity index score, Emergency department visits in previous 6 months), which have higher predictability for readmission were extracted and matched for analysis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30279159",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition to the variables included in the LACE index (length of stay in hospital [L], acuity of admission [A], comorbidity [C] and emergency department utilization in the 6 months before admission [E]), the LACE+ index incorporated patient age and sex, teaching status of the discharge hospital, acute diagnoses and procedures performed during the index admission, number of days on alternative level of care during the index admission, and number of elective and urgent admissions to hospital in the year before the index admission.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23696773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The objective of this study was to calculate the rate of 30-day readmissions and evaluate the accuracy of the LACE index ( length of stay , acuity of admission , co-morbidities , and emergency department visits within the last 6 months ) for 30-day readmissions in a general hospital population of COPD patients",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29343987",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND\nThe LACE+ index (Length of stay, Acuity of admission, Charlson Comorbidity Index score, and Emergency department [ED] visits in the past 6 months) is a tool used to predict 30-day readmissions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30926557",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition to the variables included in the LACE index (length of stay in hospital [L], acuity of admission [A], comorbidity [C] and emergency department utilization in the 6 months before admission [E]), the LACE+ index incorporated patient age and sex, teaching status of the discharge hospital, acute diagnoses and procedures performed during the index admission, number of days on alternative level of care during the index admission, and number of elective and urgent admissions to hospital in the year before the index admission.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23696773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition to the variables included in the LACE index (length of stay in hospital [L], acuity of admission [A], comorbidity [C] and emergency department utilization in the 6 months before admission [E]), the LACE+ index incorporated patient age and sex, teaching status of the discharge hospital, acute diagnoses and procedures performed during the index admission, number of days on alternative level of care during the index admission, and number of elective and urgent admissions to hospital in the year before the index admission.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23696773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Length of stay, Acuity of admission, Comorbidity, Emergency visits in the previous 6 months"
+}

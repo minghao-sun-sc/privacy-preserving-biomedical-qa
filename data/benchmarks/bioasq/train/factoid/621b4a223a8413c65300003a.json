@@ -1,0 +1,39 @@
+{
+  "id": "621b4a223a8413c65300003a",
+  "type": "factoid",
+  "question": "What is Alphafold?",
+  "ideal_answer": "AlphaFold is a novel machine learning approach that incorporates physical and biological knowledge about protein structure, leveraging multi-sequence alignments, into the design of the deep learning algorithm.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34265844",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34469019",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34586808"
+  ],
+  "snippets": [
+    {
+      "text": "Highly accurate protein structure prediction with AlphaFold.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34265844",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "AlphaFold is a novel machine learning approach that incorporates physical and biological knowledge about protein structure, leveraging multi-sequence alignments, into the design of the deep learning algorithm.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34265844",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using novel deep learning, AF2 predicted the structures of many difficult protein targets at or near experimental resolution.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34586808",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Using the neural network-based method AlphaFold2, 3D structures of almost the entire human proteome have been predicted and made available (https://www.alphafold.ebi.ac.uk).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34469019",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Highly accurate protein structure prediction approoach"
+}

@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01719",
+  "original_length": 2488,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- No complications identified regarding endoluminal aortoiliac graft repair as described.  The findings are stable compared to the study of 10/20/04.  \n- Stable mild aneurysm of aortic aneurysm, c...",
+    "Symptoms": "",
+    "Treatment": "CT Abdomen & Pelvis W&WO Contrast CT Abdomen & Pelvis",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'No complications identified regarding endoluminal ...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

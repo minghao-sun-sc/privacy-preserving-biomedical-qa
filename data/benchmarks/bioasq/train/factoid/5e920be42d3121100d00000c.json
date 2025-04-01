@@ -1,0 +1,32 @@
+{
+  "id": "5e920be42d3121100d00000c",
+  "type": "factoid",
+  "question": "Which main viral protein is targeted by the drug remdesivir?",
+  "ideal_answer": "Viral Susceptibility to the Antiviral Remdesivir (GS-5734) Is Mediated by the Viral Polymerase and the Proofreading Exoribonuclease.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29511076",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30275474"
+  ],
+  "snippets": [
+    {
+      "text": "Combined, the results indicate that GS-5734 interferes with the nsp12 polymerase even in the setting of intact ExoN proofreading activity and that resistance can be overcome with increased, nontoxic concentrations of GS-5734, further supporting the development of GS-5734 as a broad-spectrum therapeutic to protect against contemporary and emerging CoVs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29511076",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Coronavirus Susceptibility to the Antiviral Remdesivir (GS-5734) Is Mediated by the Viral Polymerase and the Proofreading Exoribonuclease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29511076",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In non-human primates, early initiation of polymerase inhibitors favipiravir and remdesivir improves survival, but whether they could be effective in patients is unknown. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30275474",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Viral Polymerase"
+}

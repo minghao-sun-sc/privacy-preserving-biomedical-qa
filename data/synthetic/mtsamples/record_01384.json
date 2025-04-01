@@ -1,0 +1,40 @@
+{
+  "document_id": "record_01384",
+  "original_length": 2844,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  Viral gastroenteritis.,PLAN:,  The parents did point out to me a rash that he had on his buttock.  There were some small almost pinpoint erythematous patches of papules that have a scab on them....",
+    "Symptoms": "",
+    "Treatment": ",  The parents did point out to me a rash that he had on his buttock.  There were some small almost pinpoint erythematous patches of papules that have a scab on them.  I did not see any evidence of...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, PHONE_NUMBER, URL, NRP, LOCATION"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "PHONE_NUMBER",
+        "URL",
+        "NRP",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

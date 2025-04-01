@@ -1,0 +1,51 @@
+{
+  "id": "5c2cf051133db5eb78000030",
+  "type": "factoid",
+  "question": "How many pseudogenes are contained in the C. elegans genome?",
+  "ideal_answer": "Evidence suggests that a fifth of annotated Caenorhabditis elegans genes may be pseudogenes.  At least 4% of the annotated C. elegans genes can be recognized as pseudogenes simply from closer inspection of the sequence data. Thus out of 18000 transcripts, around 3500 are expected to be pseudogenes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11997343",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24463456",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15916954"
+  ],
+  "snippets": [
+    {
+      "text": "Evidence suggesting that a fifth of annotated Caenorhabditis elegans genes may be pseudogenes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11997343",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The remaining explanation is that most of the annotated genes in the recently duplicated category are pseudogenes, a proportion corresponding to 20% of all of the annotated C. elegans genes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11997343",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " At least 4% of the annotated C. elegans genes can be recognized as pseudogenes simply from closer inspection of the sequence data",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11997343",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "over 18,000 transcripts in each sample",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24463456",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The remaining explanation is that most of the annotated genes in the recently duplicated category are pseudogenes, a proportion corresponding to 20% of all of the annotated C. elegans genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11997343",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "At least 4% of the annotated C. elegans genes can be recognized as pseudogenes simply from closer inspection of the sequence data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11997343",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "3600"
+}

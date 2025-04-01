@@ -1,0 +1,96 @@
+{
+  "id": "58adc1ff9ef3c34033000006",
+  "type": "factoid",
+  "question": "Which protein mediates gene loop formation in the yeast S. cerevisiae?",
+  "ideal_answer": "Moreover, looping is dependent upon the general transcription factor TFIIB: the E62K (glutamic acid 62 --> lysine) form of TFIIB adversely affects looping at every gene tested, including BLM10, SAC3, GAL10, SEN1, and HEM3. TFIIB crosslinks to both the promoter and terminator regions of the PMA1 and BLM10 genes, and its association with the terminator, but not the promoter, is adversely affected by E62K and by depletion of the Ssu72 component of the CPF 3' end processing complex, and is independent of TBP.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24124207",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22081613",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17803944",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21835917",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19602510",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18550805"
+  ],
+  "snippets": [
+    {
+      "text": "A transcription-independent role for TFIIB in gene looping.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17803944",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Moreover, looping is dependent upon the general transcription factor TFIIB: the E62K (glutamic acid 62 -->lysine) form of TFIIB adversely affects looping at every gene tested, including BLM10, SAC3, GAL10, SEN1, and HEM3",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17803944",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TFIIB crosslinks to both the promoter and terminator regions of the PMA1 and BLM10 genes, and its association with the terminator, but not the promoter, is adversely affected by E62K and by depletion of the Ssu72 component of the CPF 3' end processing complex, and is independent of TBP",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17803944",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present a high-resolution genome-wide map of TFIIB locations that implicates 3' NFRs in gene looping.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18550805",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Instead, activators physically interacted with the general transcription factor TFIIB when the genes were activated and in a looped configuration. TFIIB cross-linked to both the promoter and the terminator regions during the transcriptionally activated state of a gene. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19602510",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " We propose that the activators facilitate gene looping through their interaction with TFIIB during transcriptional activation of genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19602510",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Gene looping, defined as the interaction of the promoter and the terminator regions of a gene during transcription, requires transcription factor IIB (TFIIB).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21835917",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We have earlier demonstrated association of TFIIB with the distal ends of a gene in an activator-dependent manner",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21835917",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, TFIIB interaction with the CF1 complex and Pap1 is crucial for gene looping and transcriptional regulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21835917",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TFIIB also cross-links to terminator regions and is required for gene loops that juxtapose promoter-terminator elements in a transcription-dependent manner.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22081613",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results define a novel, functional interaction between TFIIB and Ssl2 that affects start site selection and gene looping.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22081613",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Gene-loop formation is dependent on regulatory proteins localized at the 5' and 3' ends of genes, such as TFIIB.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24124207",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Gene-loop formation is dependent on regulatory proteins localized at the 5' and 3' ends of genes, such as TFIIB.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24124207",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "TFIIB"
+}

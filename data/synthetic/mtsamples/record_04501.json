@@ -1,0 +1,39 @@
+{
+  "document_id": "record_04501",
+  "original_length": 4532,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", \n- Chronic adenotonsillitis with adenotonsillar hypertrophy.\n- Upper respiratory tract infection with mild acute laryngitis.\n- Obesity.,RECOMMENDATIONS: , We are going to go ahead and proceed wit...",
+    "Symptoms": "",
+    "Treatment": ", and we will schedule this accordingly at [person] Center here within the next few weeks.  We will make further recommendations afterwards.",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, URL, NRP, LOCATION"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "URL",
+        "NRP",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

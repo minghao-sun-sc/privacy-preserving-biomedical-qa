@@ -1,0 +1,41 @@
+{
+  "id": "5a75f1f383b0d9ea66000006",
+  "type": "yesno",
+  "question": "Can Logic Alignment Free (LAF) be used for bacterial genomes classification?",
+  "ideal_answer": "Yes. Logic Alignment Free (LAF), a method that combines alignment-free techniques and rule-based classification algorithms can be used in order to assign biological samples to their taxa.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26664519"
+  ],
+  "snippets": [
+    {
+      "text": "LAF: Logic Alignment Free and its application to bacterial genomes classification.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26664519",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In this paper, we present Logic Alignment Free (LAF), a method that combines alignment-free techniques and rule-based classification algorithms in order to assign biological samples to their taxa. This method searches for a minimal subset of k-mers whose relative frequencies are used to build classification models as disjunctive-normal-form logic formulas (if-then rules). We apply LAF successfully to the classification of bacterial genomes to their corresponding taxonomy. In particular, we succeed in obtaining reliable classification at different taxonomic levels by extracting a handful of rules, each one based on the frequency of just few k-mers. State of the art methods to adjust the frequency of k-mers to the character distribution of the underlying genomes have negligible impact on classification performance, suggesting that the signal of each class is strong and that LAF is effective in identifying it.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26664519",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this paper, we present Logic Alignment Free (LAF), a method that combines alignment-free techniques and rule-based classification algorithms in order to assign biological samples to their taxa.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26664519",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LAF: Logic Alignment Free and its application to bacterial genomes classification.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26664519",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D008128",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D016680",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D002965"
+  ],
+  "exact_answer": "Yes"
+}

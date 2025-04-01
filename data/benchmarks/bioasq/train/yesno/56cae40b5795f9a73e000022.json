@@ -1,0 +1,82 @@
+{
+  "id": "56cae40b5795f9a73e000022",
+  "type": "yesno",
+  "question": "Is Crohn's disease (CD) linked to the consumption of refrigerated food?",
+  "ideal_answer": "All findings point to refrigeration as a potential risk factor for Crohn's disease. Environmental risk factors playing a causative role in Crohn's Disease (CD) remain largely unknown. Recently, it has been suggested that refrigerated food could be involved in disease development. Patients were exposed earlier than controls to the refrigerator (X2 = 9.9, df = 3, P = 0.04) and refrigerator exposure at birth was found to be a risk factor for CD (OR = 2.08 (95% CI: 1.01-4.29), P = 0.05). Comparable results were obtained looking for the exposure to freezer at home.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/14683664",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19177167",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16059694",
+    "http://www.ncbi.nlm.nih.gov/pubmed/61441",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23444276"
+  ],
+  "snippets": [
+    {
+      "text": "Environmental risk factors playing a causative role in Crohn's Disease (CD) remain largely unknown. Recently, it has been suggested that refrigerated food could be involved in disease development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19177167",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This study supports the opinion that CD is associated with exposure to domestic refrigeration, among other household factors, during childhood.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19177167",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Patients were exposed earlier than controls to the refrigerator (X2 = 9.9, df = 3, P = 0.04) and refrigerator exposure at birth was found to be a risk factor for CD (OR = 2.08 (95% CI: 1.01-4.29), P = 0.05). Comparable results were obtained looking for the exposure to freezer at home.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19177167",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A recent published hypothesis proposed that Crohn's disease was provoked by infantile exposure to micro-organisms that can survive refrigerator temperature.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16059694",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This support for the hypothesis reached statistical significance for those with Crohn's disease compared to the controls (p=0.045).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16059694",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Epidemiological data allow assessment of familial environmental risk factors related to western lifestyle, diet, bacteria, and domestic hygiene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14683664",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "All findings point to refrigeration as a potential risk factor for Crohn's disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14683664",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, cold-chain development paralleled the outbreak of Crohn's disease during the 20th century. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14683664",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Environmental risk factors playing a causative role in Crohn&apos;s Disease (CD) remain largely unknown. Recently, it has been suggested that refrigerated food could be involved in disease development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19177167",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our study suggests an association between the omission of breakfast and the failure to refrigerate food with GC in the Mexican population.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23444276",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012034",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003424",
+    "http://www.disease-ontology.org/api/metadata/DOID:4",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004194"
+  ],
+  "exact_answer": "Yes"
+}

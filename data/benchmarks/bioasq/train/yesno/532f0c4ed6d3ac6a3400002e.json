@@ -1,0 +1,43 @@
+{
+  "id": "532f0c4ed6d3ac6a3400002e",
+  "type": "yesno",
+  "question": "Are patients with marfan syndrome at increased risk of arrhythmias?",
+  "ideal_answer": "Patients with marfan syndrome carry increased risk for arrhythmias",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17597390",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22738784",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12535830"
+  ],
+  "snippets": [
+    {
+      "text": "Marfan syndrome (MFS) is a variable, autosomal-dominant disorder of the connective tissue. In MFS serious ventricular arrhythmias and sudden cardiac death (SCD) can occur.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22738784",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Marfan's patients carry increased risk for cardiac arrhythmias. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17597390",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ventricular arrhythmias were present in 21% and were associated with increased left ventricular size, mitral valve prolapse, and abnormalities of repolarization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12535830",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cardiac complications are rare in young patients with Marfan syndrome receiving medical therapy and close clinical follow-up. Sudden death still occurs, and appears more common in patients with a dilated left ventricle. Left ventricular dilation may predispose to alterations of repolarization and fatal ventricular arrhythmias.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12535830",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008382",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001145",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012306"
+  ],
+  "exact_answer": "Yes"
+}

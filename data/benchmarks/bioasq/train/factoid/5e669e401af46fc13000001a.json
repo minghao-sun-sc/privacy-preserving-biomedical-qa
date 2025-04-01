@@ -1,0 +1,60 @@
+{
+  "id": "5e669e401af46fc13000001a",
+  "type": "factoid",
+  "question": "Cushing's disease is associated with a tumor in what part of the body?",
+  "ideal_answer": "Cushing's disease is associated with a tumor in the pituitary gland",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28413388",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22918543",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28850717",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15521676",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30148086",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31666445"
+  ],
+  "snippets": [
+    {
+      "text": "Cushing's disease (CD) is a rare disabling condition caused by Adrenocorticotropic hormone (ACTH)-secreting adenomas of the pituitary",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28850717",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cushing's syndrome is a rare endocrine disorder that comprises a large group of signs and symptoms resulting from chronic exposure to excess corticosteroids. Most cases of Cushing's syndrome are due to increased adrenocorticotropic hormone production from a pituitary adenoma, which is referred to as Cushing's disease",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28413388",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cushing's disease (CD) is a rare endocrine disorder associated with increased serum levels of cortisol secreted due to an underlying tumour in pituitary.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30148086",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cushing's disease is primarily caused by autonomic hypersecretion of adrenocorticotropic hormone (ACTH) from a pituitary adenoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31666445",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cushing 's disease ( CD ) is a rare endocrine disorder associated with increased serum levels of cortisol secreted due to an underlying tumour in pituitary",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30148086",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hypercortisolism due to an ACTH-secreting pituitary adenoma (Cushing's disease) is a chronic condition associated with high morbidity and mortality if inadequately managed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22918543",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cushing's syndrome due to an ACTH-secreting pituitary tumor is associated with serious morbidity and mortality.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15521676",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "pituitary"
+}

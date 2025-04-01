@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01089",
+  "original_length": 1553,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": ",Successful direct current cardioversion with restoration of sinus rhythm from atrial fibrillation with no immediate complication.",
+    "Symptoms": "",
+    "Treatment": ", Direct current cardioversion.,REASON FOR PROCEDURE: , Atrial fibrillation.,PROCEDURE IN DETAIL:  ,The procedure was explained to the patient with risks and benefits including risk of stroke.  The...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "already 3 mg, and 25 mcg, next 2 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Successful direct current cardioversion with resto...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "document_id": "record_04682",
+  "original_length": 2822,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Chronic obstructive pulmonary disease/emphysema, severe but stable.\n- Mild hypoxemia, however, oxygen saturation at rest is stable without supplemental oxygen.\n- History of depression and schizo...",
+    "Symptoms": "",
+    "Treatment": ",  At this point, I have recommended that she continue current respiratory medicine.  I did suggest that she would not use her oxygen when she is simply sitting, watching television or reading.  I ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, LOCATION, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "LOCATION",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

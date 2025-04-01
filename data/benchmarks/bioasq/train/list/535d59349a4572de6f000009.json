@@ -1,0 +1,41 @@
+{
+  "id": "535d59349a4572de6f000009",
+  "type": "list",
+  "question": "What are the indications for treatment with anti-hepcidin?",
+  "ideal_answer": "improving anemia control\nanemia management in hemodialysis\niron-restricted anemias",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24175256",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24159166",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24231125"
+  ],
+  "snippets": [
+    {
+      "text": "anti-hepcidin strategies for improving anemia control.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24231125",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "anti-hepcidin therapies may improve anemia management in hemodialysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24175256",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Anti-hepcidin therapy for iron-restricted anemias",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24159166",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "human anti-hepcidin antibody as a novel therapeutic for iron-restricted anemias such as anemia of inflammation, cancer, or chronic kidney disease ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24159166",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D064451"
+  ],
+  "exact_answer": "iron-restricted anemias, anemia of inflammation, anemia of cancer, anemia of chronic kidney disease, anemia of chronic disease"
+}

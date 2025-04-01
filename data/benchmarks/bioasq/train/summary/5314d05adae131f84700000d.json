@@ -1,0 +1,82 @@
+{
+  "id": "5314d05adae131f84700000d",
+  "type": "summary",
+  "question": "What is the role of brain natriuretic peptide in traumatic brain injury patients ?",
+  "ideal_answer": "Brain natriuretic peptide concentrations are elevated in patients with traumatic brain during the acute phase and correlate with poor outcomes. In traumatic brain injury patients higher brain natriuretic peptide concentrations are associated with more extensive SAH,  elevated ICP and hyponatremia. Brain natriuretic peptide may play an adaptive role in recovery through augmentation of cerebral blood flow.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23963125",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20068481",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16774478",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18325424",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21808206",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19803787",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16322908",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17690842"
+  ],
+  "snippets": [
+    {
+      "text": "This study provides evidence that BNP plasma concentrations increase rapidly after TBI. Plasma BNP concentrations are correlated with hyponatremia in severe TBI patients but not in mild and moderate TBI patients. Furthermore, patients with elevated ICP have a higher serum BNP level in first 4 days after injury.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21808206",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In average, the peak of BNP level was measured at 703.9 pg/mL\u00b1179.1 pg/mL on day 3 after injury, which was correlated to the severity of TBI. Among patients with severe TBI, plasma NT-proBNP concentrations in patients with hyponatremia were statistically higher than those without hyponatremia (p<0.05). In the hyponatremic group, the plasma NT-proBNP increased to a peak of 1001.16 pg/mL\u00b1131.52 pg/mL within 48 hours after injury and maintained at a high level for 3 days. In the normonatremic group, the plasma NT-proBNP reached a peak of 826.43 pg/mL\u00b1337.43 pg/mL on day 5 and quickly decreased thereafter. In addition, we found plasma NT-proBNP concentrations in patients with ICP>15 mm Hg were significantly higher than those in patients with ICP\u226415 mm Hg (p<0.01). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21808206",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "There is emerging evidence to suggest that brain natriuretic peptide (BNP) is elevated after acute brain injury, and that it may play an adaptive role in recovery through augmentation of cerebral blood flow (CBF). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19803787",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "hBNP improves neurological function in murine models of TBI and ICH, and was associated with enhanced CBF and downregulation of neuroinflammatory responses. hBNP may represent a novel therapeutic strategy after acute CNS injury.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19803787",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we describe 2 cases of CSW in TBI patients with elevated BNP levels.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18325424",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These patients with TBI had findings consistent with CSW with elevated BNP levels in the setting of normal cardiac function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18325424",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We measured NT-proBNP levels in cerebrospinal fluid (CSF) and serum of 14 patients suffering from severe TBI (GCS15 mm Hg (n=6), the serum (800+/-150 pg/mL) and CSF levels (55+/-9 pg/mL) of NT-proBNP were significantly increased after 24 h, as compared to patients with ICP15 mm Hg. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16774478",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BNP plasma concentrations are elevated shortly after head injury and are continuously elevated during the acute phase in patients with more extensive SAH and in those with elevated ICP, and correlate with poor outcomes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16322908",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND: According to the literature, serum beta-natriuretic peptide (BNP) levels have been shown to increase in adult trauma patients, specifically for those with traumatic brain injury and in those with intracranial hemorrhage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20068481",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/ANFB_TAKRU",
+    "http://www.uniprot.org/uniprot/ANFB_OREMO",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001930",
+    "http://www.biosemantics.org/jochem#4250398",
+    "http://www.uniprot.org/uniprot/ANFB_ACITR",
+    "http://www.uniprot.org/uniprot/ANFB_MOUSE",
+    "http://www.biosemantics.org/jochem#4264708",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020097"
+  ]
+}

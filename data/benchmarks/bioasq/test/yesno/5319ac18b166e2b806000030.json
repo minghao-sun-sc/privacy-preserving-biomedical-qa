@@ -1,0 +1,81 @@
+{
+  "id": "5319ac18b166e2b806000030",
+  "type": "yesno",
+  "question": "Is clathrin involved in E-cadherin endocytosis?",
+  "ideal_answer": "E-cadherin is a central component of the adherens junction in epithelial cells and continuously undergoes endocytosis via clathrin-coated vesicles and/or caveolae depending on the cell type.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17298950",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12657640",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23671930",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21516109",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18331728"
+  ],
+  "snippets": [
+    {
+      "text": "We demonstrated that GnT-III induced a stabilizing effect on E-cadherin at the cell membrane by inducing a delay in the turnover rate of the protein, contributing for the formation of stable and functional adherens-junctions, and further preventing clathrin-dependent E-cadherin endocytosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23671930",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Conversely, GnT-V promotes the destabilization of E-cadherin, leading to its mislocalization and unstable adherens-junctions with impairment of cell-cell adhesion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23671930",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show that E-cadherin polarity is controlled by the polarized regulation of clathrin- and dynamin-mediated endocytosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21516109",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We delineate a pathway that controls the initiation of E-cadherin endocytosis through the regulation of AP2 and clathrin coat recruitment by E-cadherin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21516109",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Clathrin dependent endocytosis of E-cadherin is regulated by the Arf6GAP isoform SMAP1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18331728",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "E-cadherin is a central component of the adherens junction in epithelial cells and continuously undergoes endocytosis via clathrin-coated vesicles and/or caveolae depending on the cell type.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18331728",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Collectively, SMAP1 likely represents a key Arf6GAP in clathrin dependent endocytosis of E-cadherin in MDCK cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18331728",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Consistent with these observations, we found that selective uncoupling of p120 from E-cadherin by introduction of amino acid substitutions in the p120-binding site increased the level of E-cadherin endocytosis. The increased endocytosis was clathrin-dependent, because it was blocked by expression of a dominant-negative form of dynamin or by hypertonic shock.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17298950",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We found that in this experimental system E-cadherin entered a transferrin-negative compartment before transport to the early endosomal compartment, where it merged with classical clathrin-mediated uptake pathways.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12657640",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006897",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004705",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0072583",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0030100",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:2000369",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015820",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0071439",
+    "http://www.uniprot.org/uniprot/CADH1_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002966"
+  ],
+  "exact_answer": "Yes"
+}

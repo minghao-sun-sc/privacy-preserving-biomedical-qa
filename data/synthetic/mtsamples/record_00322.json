@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00322",
+  "original_length": 2999,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": ", Insertion of right subclavian central venous catheter.,SECOND ANESTHESIA: , Approximately 10 cc of 1% lidocaine.,ESTIMATED BLOOD LOSS: , Minimal.,INDICATIONS FOR PROCEDURE:  ,The patient is a 74-...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',SECOND ANESTHESIA: , Approximately 10 cc of 1% li...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

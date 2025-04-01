@@ -1,0 +1,91 @@
+{
+  "id": "54e262daae9738404b000018",
+  "type": "factoid",
+  "question": "Which cell type has the protein Chromogranin A as marker?",
+  "ideal_answer": "Chromogranin A is a marker for neuroendocrine cells",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25532001",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25294372",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25294889",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25394660",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24888775",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24897131",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25177680",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25099181",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25220535",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25501094"
+  ],
+  "snippets": [
+    {
+      "text": "Neuroendocrine differentiation (chromogranin A and/or synaptophysin positivity) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25294889",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "All paragangliomas were universally positive for chromogranin A ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25294372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "chromogranin A (CGA) is a useful marker for pancreatic neuroendocrine tumors (pNET)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25220535",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Together with Chromogranin B and Secretogranins, Chromogranin A (CGA) is stored in secretory (chromaffin) granules of the diffuse neuroendocrine system",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25177680",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chromogranin A (CgA) is the most important general tumour marker used in the diagnosis and follow-up of patients with neuroendocrine tumours (NET).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25532001",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chromogranin A (CgA) not only plays an important role in pathologic diagnosis, but is also used as a circulating biomarker in patients with gastroenteropancreatic neuroendocrine neoplasm (GEP-NEN).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25501094",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "numbers of chromogranin A (CHGA)-positive enteroendocrine cells (EEC",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25394660",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " CgA is a reliable serum diagnostic biomarker for PNETs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25099181",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chromogranin A (CgA) was considered as the most practical and useful serum tumor marker in PNET patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25099181",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the neuroendocrine markers chromogranin A and synaptophysin;",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24888775",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/CMGA_BOVIN",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000943",
+    "http://www.biosemantics.org/jochem#4266983",
+    "http://www.biosemantics.org/jochem#4262122",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D053379",
+    "http://www.biosemantics.org/jochem#4218257",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002864",
+    "http://www.uniprot.org/uniprot/CMGA_HUMAN"
+  ],
+  "exact_answer": "neuroendocrine cells"
+}

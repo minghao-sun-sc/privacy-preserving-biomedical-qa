@@ -1,0 +1,46 @@
+{
+  "id": "58e120036fddd3e83e00000d",
+  "type": "yesno",
+  "question": "Is Cryptococcus neoformans a frequent cause of isolated skin infections in immunocompromised individuals",
+  "ideal_answer": "Primary cutaneous cryptococcosis (PCC) without systemic infection is rare.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26246081",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12602722",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27852678",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12219115"
+  ],
+  "snippets": [
+    {
+      "text": " Cryptococcus is an opportunistic yeast with a worldwide distribution that primarily causes significant infections in immunocompromised individuals, generally by affecting the respiratory tract. But primary cutaneous cryptococcosis (PCC) without systemic infection is rare. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26246081",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cryptococcus is a ubiquitous fungus and is known for causing meningitis and cutaneous infections in immunocompromised individuals.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27852678",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cryptococcus neoformans is an encapsulated yeast that can cause primary pulmonary infections or disseminate and cause infections of the central nervous system, meninges, skin, and bone in the immunocompromised host.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12602722",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The authors report a male patient, a seller with no detected immunosuppression, with an extensive ulcerated skin lesion localized on the left forearm, caused by Cryptococcus neoformans var.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12219115",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003453",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012874",
+    "http://www.disease-ontology.org/api/metadata/DOID:12053",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003455",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003454"
+  ],
+  "exact_answer": "Yes"
+}

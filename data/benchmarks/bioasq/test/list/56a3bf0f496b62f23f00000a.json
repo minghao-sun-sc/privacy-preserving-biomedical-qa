@@ -1,0 +1,21 @@
+{
+  "id": "56a3bf0f496b62f23f00000a",
+  "type": "list",
+  "question": "Which packages are used for performing overlap analysis of genomic regions in R/bioconductor?",
+  "ideal_answer": "IRanges, GenomicRanges, and GenomicFeatures provide scalable data structures for representing annotated ranges on the genome, with special support for transcript structures, read alignments and coverage vectors. Computational facilities include efficient algorithms for overlap and nearest neighbor detection, coverage calculation and other range operations. This infrastructure directly supports more than 80 other Bioconductor packages, including those for sequence analysis, differential expression analysis and visualization.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23950696"
+  ],
+  "snippets": [
+    {
+      "text": "At the core of the infrastructure are three packages: IRanges, GenomicRanges, and GenomicFeatures. These packages provide scalable data structures for representing annotated ranges on the genome, with special support for transcript structures, read alignments and coverage vectors. Computational facilities include efficient algorithms for overlap and nearest neighbor detection, coverage calculation and other range operations. This infrastructure directly supports more than 80 other Bioconductor packages, including those for sequence analysis, differential expression analysis and visualization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23950696",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D023281"
+  ],
+  "exact_answer": "IRanges, GenomicRanges, GenomicFeatures"
+}

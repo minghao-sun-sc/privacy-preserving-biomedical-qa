@@ -1,0 +1,25 @@
+{
+  "id": "62057b35c9dfcb9c0900002d",
+  "type": "yesno",
+  "question": "Does atemoya juice inhibit the CYP1A2 enzyme?",
+  "ideal_answer": "Yes, atemoya juice inhibits the CYP1A2 enzyme.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34881402"
+  ],
+  "snippets": [
+    {
+      "text": "Atemoya juice significantly inhibited CYP1A2 activity in human liver microsomes, but not the activities of CYP2C9 and CYP3A.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34881402",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This suggests that the intake of an excess amount of atemoya juice is necessary to cause a change in the pharmacokinetics of phenacetin when the IC50 values for CYP1A2 inhibition by atemoya and fluvoxamine are taken into account",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34881402",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

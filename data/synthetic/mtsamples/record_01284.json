@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01284",
+  "original_length": 4528,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "S:\n- Abdominosacrocolpopexy.\n- Enterocele repair.\n- Cystoscopy.\n- Lysis of adhesions.,ANESTHESIA: , General endotracheal.,ESTIMATED BLOOD LOSS:,  Less than 100 mL.,SPECIMEN: , None.,BRIEF HISTORY:,...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON, LOCATION"
+      ],
+      "pii_detected": [
+        "PERSON",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

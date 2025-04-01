@@ -1,0 +1,40 @@
+{
+  "id": "6082d9044e6a4cf63000000c",
+  "type": "list",
+  "question": "List proteins that are contained in atherosclerotic plaques?",
+  "ideal_answer": "extracellular matrix proteins\nbiglycan\nLumican\nApolipoprotein A-I",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32012358",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31382484",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29907817",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29129081"
+  ],
+  "snippets": [
+    {
+      "text": "d extracellular matrix (ECM) proteins in the arterial wall",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32012358",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "apolipoprotein A-I (apoA-I)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31382484",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Among the proteins with increased abundance were prominent extracellular matrix proteins such as biglycan and lumican, whereas cytoskeletal markers for contractile smooth muscle cells (SMCs) were decreased.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29129081",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ", a biomarker panel of FBLN1C, APOE and CDH13 was identifie",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29907817",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "extracellular matrix proteins, biglycan, Lumican, Apolipoprotein A-I"
+}

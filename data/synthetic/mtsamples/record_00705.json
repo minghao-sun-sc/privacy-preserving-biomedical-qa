@@ -1,0 +1,35 @@
+{
+  "document_id": "record_00705",
+  "original_length": 3336,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Penoscrotal abscess.,POSTOPERATIVE DIAGNOSIS:,  Penoscrotal abscess.,OPERATION: , Incision and drainage of the penoscrotal abscess, packing, penile biopsy, cystoscopy, and urethral ...",
+    "Symptoms": "",
+    "Treatment": "Biopsy procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03905",
+  "original_length": 2255,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Chronic laryngitis, hoarseness.,HISTORY:  ,The patient is a 68-year-old male, was referred to [person]'s [person] Department for skilled speech therapy secondary to voicing...",
+    "Symptoms": "",
+    "Treatment": "Chronic laryngitis, hoarseness.  The patient was referred to [person]'s [person] Department for skilled speech therapy secondary to voicing difficulties. Laryngitis - Discharge",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, PERSON, LOCATION"
+      ],
+      "pii_detected": [
+        "URL",
+        "PERSON",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

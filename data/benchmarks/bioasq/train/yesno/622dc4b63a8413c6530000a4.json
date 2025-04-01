@@ -1,0 +1,33 @@
+{
+  "id": "622dc4b63a8413c6530000a4",
+  "type": "yesno",
+  "question": "Is paxillin affected by RANKL?",
+  "ideal_answer": "Yes,\nRANKL promotes paxillin serine and tyrosine phosphorylation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32193744",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30609675",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22807029"
+  ],
+  "snippets": [
+    {
+      "text": "Western blotting assays presented upregulated expressions of TNF receptor-activating factor 6 (TRAF6) and integrin \u03b23 induced by gingipains and RANKL compared to RANKL alone. Enhanced integrin-related signaling was also demonstrated by elevated phosphorylations of FAK and paxillin compared to control. Moreover, the pit resorption assays showed that gingipains augmented bone resorptive function of osteoclasts induced by RANKL. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32193744",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "paxillin levels induced by RANKL in murine bone marrow cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30609675",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RANKL promotes paxillin serine and tyrosine phosphorylation,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22807029",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

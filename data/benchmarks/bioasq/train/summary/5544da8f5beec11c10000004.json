@@ -1,0 +1,28 @@
+{
+  "id": "5544da8f5beec11c10000004",
+  "type": "summary",
+  "question": "What are the signatures of aggressive periodontitis?",
+  "ideal_answer": "Aggressive periodontitis does not differ from chronic periodontitis from a microbial profile point of view but there are distinctive immunological signatures, including a higher expression in IgG against most periodontal pathogens and a more intense regulatory mechanism of metabolic processes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15154918",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18980520"
+  ],
+  "snippets": [
+    {
+      "text": "This pilot study examined gene expression signatures in pathological gingival tissues of subjects with chronic or aggressive periodontitis, and explored whether new subclasses of periodontitis can be identified based on gene expression profiles. A total of 14 patients, seven with chronic and seven with aggressive periodontitis, were examined with respect to clinical periodontal status, composition of subgingival bacterial plaque assessed by checkerboard hybridizations, and levels of serum IgG antibodies to periodontal bacteria assayed by checkerboard immunoblotting. In addition, at least two pathological pockets/patient were biopsied, processed for RNA extraction, amplification and labeling, and used to study gene expression using Affymetrix U-133 A arrays. Based on a total of 35 microarrays, no significantly different gene expression profiles appeared to emerge between chronic and aggressive periodontitis. However, a de novo grouping of the 14 subjects into two fairly robust clusters was possible based on similarities in gene expression. These two groups had similar clinical periodontal status and subgingival bacterial profiles, but differed significantly with respect to serum IgG levels against the important periodontal pathogens Porphyromonas gingivalis, Tannerella forsythensis and Campylobacter rectus. These early data point to the usefulness of gene expression profiling techniques in the identification of subclasses of periodontitis with common pathobiology",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15154918",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Gene ontology analysis identified 61 differentially expressed groups (adjusted P <0.05), including apoptosis, antimicrobial humoral response, antigen presentation, regulation of metabolic processes, signal transduction, and angiogenesis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18980520",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:824",
+    "http://www.disease-ontology.org/api/metadata/DOID:1474"
+  ]
+}

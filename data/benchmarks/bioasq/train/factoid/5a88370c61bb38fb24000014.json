@@ -1,0 +1,47 @@
+{
+  "id": "5a88370c61bb38fb24000014",
+  "type": "factoid",
+  "question": "What is the function of the gene MDA5?",
+  "ideal_answer": "Melanoma differentiation-associated gene 5 (MDA5) is a pattern recognition receptor that recognizes cytoplasmic viral double-stranded RNA (dsRNA) and initiates rapid innate antiviral responses. MDA5 forms a filament-like multimer along the dsRNA leading to oligomerization, which in turn activates the adaptor protein mitochondrial antiviral signaling protein (MAVS) to provide a signal platform for the induction of type I interferon (IFN) and proinflammatory cytokines. The conformational switch of MDA5 causes antiviral defense, but excessive activation of the MDA5-MAVS pathway may result in autoimmune diseases.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28530548",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28374903",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28250012",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29069650",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29117565"
+  ],
+  "snippets": [
+    {
+      "text": "Sensing of viral RNA by the cytosolic receptors RIG-I and melanoma differentiation-associated gene 5 (MDA5) leads to innate antiviral response. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28250012",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The host innate immune response to RNA virus infection primarily involves pathogen-sensing toll-like receptors (TLRs) TLR3 and TLR7 and retinoic acid-inducible gene I-like receptor RIG-I and melanoma differentiation associated gene 5 (MDA5)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28530548",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RNA PRRs are comprised of TLR3, TLR7, TLR8, RIG-I, MDA5, NLRP3, NOD2, and some other minorities.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28374903",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Melanoma differentiation-associated gene 5 (MDA5) is a pattern recognition receptor that recognizes cytoplasmic viral double-stranded RNA (dsRNA) and initiates rapid innate antiviral responses. MDA5 forms a filament-like multimer along the dsRNA leading to oligomerization, which in turn activates the adaptor protein mitochondrial antiviral signaling protein (MAVS) to provide a signal platform for the induction of type I interferon (IFN) and proinflammatory cytokines. The conformational switch of MDA5 causes antiviral defense, but excessive activation of the MDA5-MAVS pathway may result in autoimmune diseases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069650",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Retinoic acid-inducible gene-I (RIG-I)-like receptors (RLRs), including melanoma differentiation-associated gene 5 (MDA5) and RIG-I, are crucial for host recognition of non-self RNAs, especially viral RNA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29117565",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Sensing of non-self RNAs, especially viral RNA"
+}

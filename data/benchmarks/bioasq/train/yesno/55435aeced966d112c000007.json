@@ -1,0 +1,106 @@
+{
+  "id": "55435aeced966d112c000007",
+  "type": "yesno",
+  "question": "Can we detect DNA strand asymmetries using dinucleotide relative abundance \"genomic signatures\"?",
+  "ideal_answer": "The set of dinucleotide relative abundances can be regarded as a genomic signature because, despite diversity between species, it varies little between 50 kilobase or longer windows on a given genome. Thus, dinucleotide relative abundance profiles are species-type specific. These profiles are computed from the base step \"odds ratios\" that compare dinucleotide frequencies to those expected under the assumption of stochastic equilibrium (thorough shuffling). Dinucleotide relative abundance \"genomic signatures\" are strand-independent second-order DNA features. Thus, they cannot be used to detect DNA strand asymmetries.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15046306",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12171605",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15716010",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9294192",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18799480",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9520433",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10430918",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9190805",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7482779",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10066522"
+  ],
+  "snippets": [
+    {
+      "text": "comparing the heterogeneities of bacterial genomes with respect to strand-independent first- and second-order features, (i) G + C content and (ii) dinucleotide relative abundance,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18799480",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the concept of a genomic signature was introduced with the observation of species-type specific Dinucleotide Relative Abundance Profiles (DRAPs); dinucleotides were identified as the subsequences with the greatest bias in representation in a majority of genomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15716010",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "dinucleotide relative abundance values (the genomic signature)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15046306",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The dinucleotide relative abundance profile can be regarded as a genomic signature because, despite diversity between species, it varies little between 50 kilobase or longer windows on a given genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12171605",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The profile is computed from the base step \"odds ratios\" that compare dinucleotide frequencies to those expected under the assumption of stochastic equilibrium (thorough shuffling). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12171605",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The genome signatures (dinucleotide relative abundance values)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10430918",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Early biochemical experiments measuring nearest neighbor frequencies established that the set of dinucleotide relative abundance values (dinucleotide biases) is a remarkably stable property of the DNA of an organism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10066522",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the set of dinucleotide biases constitutes a 'genomic signature' that can discriminate sequences from different organisms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10066522",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the set of dinucleotide odds ratio (relative abundance) values constitute a signature of each DNA genome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7482779",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dinucleotide relative abundance extremes: a genomic signature.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7482779",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The dinucleotide relative abundance profile can be regarded as a genomic signature because, despite diversity between species, it varies little between 50 kilobase or longer windows on a given genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12171605",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Previously, the concept of a genomic signature was introduced with the observation of species-type specific Dinucleotide Relative Abundance Profiles (DRAPs); dinucleotides were identified as the subsequences with the greatest bias in representation in a majority of genomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15716010",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Comparisons within and between species sample sequences are based on the profile of dinucleotide relative abundance values (The profile is rho*XY = f*XY/f*Xf*Y for all XY, where f*X denotes the frequency of the nucleotide X and f*XY denotes the frequency of the dinucleotide XY, both computed from the sequence concatenated with its inverted complement).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9294192",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dinucleotide relative abundances (i.e., dinucleotide representations normalized by the component nucleotide frequencies) are consonant with respect to the leading and lagging strands",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9520433",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

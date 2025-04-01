@@ -1,0 +1,69 @@
+{
+  "id": "5339ed7bd6d3ac6a34000060",
+  "type": "yesno",
+  "question": "Is delayed enhancement documented in patients with non-ischemic dilated cardiomyopathy?",
+  "ideal_answer": "Delayed enhancement is documented in almost 30% of patients with non-ischemic dilated cardiomyopathy and  its pattern is characterized by mid-wall, patchy or diffuse location.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17885521",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21176853",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22875171",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23021326",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17131077",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19185371",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19317068",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23422782",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20118568",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17602984",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22552168",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21234292",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20149594",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24315973"
+  ],
+  "snippets": [
+    {
+      "text": "Myocardial fibrosis was present in 30% of patients, the majority of which was mid-myocardial (63%). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21234292",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " DCM patients frequently have myocardial fibrosis detected on CE-CMR, the majority of which is mid-myocardial.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21234292",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Fifty (40%) patients showed myocardial DE, representing 12\u00b17% of LV mass.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21176853",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "one case was dilated cardiomyopathy, in which the delayed enhancement was diffuse small midwall spots ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19317068",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the dilated cardiomyopathy group, only seven (29%) patients showed delayed enhancement and its pattern was characterized by mid-wall, patchy or diffuse location.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17885521",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Patterns of delayed enhancement are different in dilated cardiomyopathy and ischemic cardiomyopathy, reflecting the presence of scarring or various degrees of fibrosis in left ventricular myocardium. The presence of subendocardial or transmural delayed enhancement at contrast-enhanced cardiovascular magnetic resonance allowed distinction between dilated cardiomyopathy and ischemic cardiomyopathy with high sensitivity (88%) and specificity (100%).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17885521",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:0050700",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009682",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008279",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009202",
+    "http://www.disease-ontology.org/api/metadata/DOID:12930",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002311"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "606ad16594d57fd879000051",
+  "type": "factoid",
+  "question": "Which is the primary enzyme metabolizing esomeprazole?",
+  "ideal_answer": "Esomeprazole is primarily metabolized by CYP2C19.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32227647"
+  ],
+  "snippets": [
+    {
+      "text": "Esomeprazole is primarily metabolized by CYP2C19. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32227647",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CYP2C19"
+}

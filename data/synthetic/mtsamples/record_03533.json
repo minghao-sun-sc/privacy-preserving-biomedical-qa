@@ -1,0 +1,38 @@
+{
+  "document_id": "record_03533",
+  "original_length": 2772,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", The patient is doing exceptionally well status post laparoscope fundoplication and gastrostomy.  Hopefully, the exquisite control of acid reflux by fundoplication will help her airway heal, and i...",
+    "Symptoms": "",
+    "Treatment": "as well.,PLAN:  ,The patient will follow up as needed for problems related to gastrostomy.  We will see her when she comes in the hospital for endoscopic exams and possibly laryngotracheoplasty in ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, DATE_TIME, LOCATION, PERSON"
+      ],
+      "pii_detected": [
+        "URL",
+        "DATE_TIME",
+        "LOCATION",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

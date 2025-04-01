@@ -1,0 +1,33 @@
+{
+  "id": "5ac0817cd0c506ce46000001",
+  "type": "yesno",
+  "question": "Is p53 a transcription factor?",
+  "ideal_answer": "Yes, p53 is a sequence-specific transcription factor.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27216701",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28140789",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27990773"
+  ],
+  "snippets": [
+    {
+      "text": "As a transcription factor, p53 mainly exerts its tumor suppressive function through transcriptional regulation of many target genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27216701",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "p53 functions primarily as a sequence-specific transcription factor that controls the expression of hundreds of protein-coding genes and noncoding RNAs, including microRNAs (miRNAs) and long noncoding RNAs (lncRNAs).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27990773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " p53 is a transcription factor ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28140789",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

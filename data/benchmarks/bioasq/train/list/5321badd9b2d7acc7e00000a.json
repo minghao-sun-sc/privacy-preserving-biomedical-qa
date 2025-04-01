@@ -1,0 +1,66 @@
+{
+  "id": "5321badd9b2d7acc7e00000a",
+  "type": "list",
+  "question": "Which types of cancer can be recognized and treated by the use of immunotherapy?",
+  "ideal_answer": "When normal cells turn into cancer cells, some of the antigens on their surface change. These cells, like many body cells, constantly shed bits of protein from their surface into the circulatory system. Often, tumor antigens are among the shed proteins.\nThese shed antigens prompt action from immune defenders, including cytotoxic T cells, natural killer cells, and macrophages. According to one theory, patrolling cells of the immune system provide continuous bodywide surveillance, catching and eliminating cells that undergo malignant transformation. Tumors develop when this immune surveillance breaks down or is overwhelmed.\nA new approach to cancer therapy uses antibodies that have been specially made to recognize specific cancers such as Melanoma, Leukaemia, Lung Cancer, Colorectal Cancer, Breast Cancer, Head Cancer and Pancreatic Cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24324949",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24286020",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24325394",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15199397",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24297569",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24294369",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24295643",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20146807",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24324117",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24292706",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24319203",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23133825",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24213679",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24062490",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24290058",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15212694",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23780988",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24327937",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2139701",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24327934",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24327938"
+  ],
+  "snippets": [
+    {
+      "text": "omising expansion of antigen-specific T cells, the clinical responses following vaccination have been limited, indicating that further improvements of DC vaccine potency are necessary. Pre-clinical studies suggest that vaccination with combination of primary DC subsets, such as myeloid and plasmacytoid blood DCs (mDCs and pDCs, respectively), may result in stronger clinical responses. However, it is a challenge to obtain high enough numbers of primary DCs for immunotherapy, since their frequency in blood is very low. We therefore explored the possibility to generate them from hematopoietic progenitor cells (HPCs). Here, we show that by inhibiting the aryl hydrocarbon receptor with its antagonist StemRegenin 1 (SR1), clinical-scale numbers of functional BDCA2(+)BDCA4(+) pDCs, BDCA1(+) mDCs, and BDCA3(+)DNGR1(+) mDCs can be efficiently generated from human CD34(+) HPCs. The ex vivo-generated DCs were phenotypically and functionally comparable to peripheral blood DCs. They secreted high levels of pro-inflammatory cytokines such as interferon (IFN)-\u03b1, interleukin (IL)-12, and tumor necrosis factor (TNF)-\u03b1 and upregulated co-stimulatory molecules and maturation markers following stimulation with Toll-like receptor (TLR) ligands. Further, the",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24325394",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "odent models of prostate cancer have served as valuable preclinical models to evaluate novel treatments and understand malignant disease progression. In particular, a transgenic rat autochthonous model of prostate cancer using the SV40 large T antigen expressed under a prostate-specific probasin promoter was previously developed as a model of androgen-dependent prostate cancer (TRAP). In the current report, we backcrossed this strain to the Lewis strain, an inbred rat strain better characterized for immunological analyses. We demonstrate that Lewis transgenic rats (Lew-TRAP) developed prostate adenocarcinomas with 100% penetrance by 25 weeks of age. Tumors were predominantly androgen-dependent, as castration prevented tumor growth in the majority of animals. Finally, we demonstrate that Lew-TRAP rats could be immunized with a DNA vaccine encoding a human prostate tumor antigen (prostatic acid phosphatase) with the development of Lewis strain-specific T-cell responses. We propose",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24324949",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " we analyzed NY-ESO-1 expression in 222 melanoma specimens, including 16 primary and 206 metastatic tumors. Our results support previous findings showing higher expression of NY-ESO-1 in metastatic (58/206; 28.2%) versus primary (0/16) tumors. In addition, our results show that the epithelioid subtype of melanoma has the highest incidence of NY-ESO-1 expression. These findin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24290058",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Immunotherapy is a highly promising form of cancer treatment, but its efficacy can be severely compromised by an immunosuppressive tumor microenvironment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24327938",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009369",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006258",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001943",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019496",
+    "http://www.disease-ontology.org/api/metadata/DOID:162",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007167",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016219",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016233"
+  ],
+  "exact_answer": "Melanoma, Leukaemia, Lung Cancer, Colorectal Cancer, Breast Cancer, Head Cancer, Pancreatic Cancer, Prostate tumor"
+}

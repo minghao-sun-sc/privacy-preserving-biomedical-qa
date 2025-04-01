@@ -1,0 +1,40 @@
+{
+  "id": "5aad4b37fcf456587200000a",
+  "type": "factoid",
+  "question": "What is the proteoform?",
+  "ideal_answer": "Although proteomics has rapidly developed in the past decade, researchers are still in the early stage of exploring the world of complex proteoforms, which are protein products with various primary structure alterations resulting from gene mutations, alternative splicing, post-translational modifications, and other biological processes",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27989944",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28453668",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28414281",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26670565"
+  ],
+  "snippets": [
+    {
+      "text": "proteoforms - splice variants, single amino acid substitutions (SAP variants), and post-translational modifications (PTM) of proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28414281",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although proteomics has rapidly developed in the past decade, researchers are still in the early stage of exploring the world of complex proteoforms, which are protein products with various primary structure alterations resulting from gene mutations, alternative splicing, post-translational modifications, and other biological processes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28453668",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Protein species (aka proteoforms) function at their molecular level, and diverse structures and biological roles of every proteoform come from often co-occurring proteolysis, amino acid variation and post-translational modifications.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27989944",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the identification of novel proteoforms is also made possible based on detection of novel translation initiation sites (cognate or near-cognate), novel transcript isoforms, sequence variation or novel (small) open reading frames in intergenic or un-translated genic regions by analyzing high-throughput sequencing data from RNAseq or ribosome profiling experiments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26670565",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "proteoforms are protein products with various primary structure alterations resulting from gene mutations, alternative splicing, post-translational modifications, and other biological processes"
+}

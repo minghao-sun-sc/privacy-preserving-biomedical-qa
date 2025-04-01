@@ -1,0 +1,24 @@
+{
+  "id": "58f3c4b970f9fc6f0f00000a",
+  "type": "factoid",
+  "question": "What type of genome, (RNA or DNA, double stranded single stranded) is found in the the virus that causes blue tongue disease?",
+  "ideal_answer": "The Bluetongue virus (BTV) genome contains ten double-stranded RNA segments.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22549161"
+  ],
+  "snippets": [
+    {
+      "text": "Bluetongue virus (BTV) genome contains ten double-stranded RNA segments",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22549161",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:1301",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012330",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001820",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050498"
+  ],
+  "exact_answer": "double stranded, segmented RNA"
+}

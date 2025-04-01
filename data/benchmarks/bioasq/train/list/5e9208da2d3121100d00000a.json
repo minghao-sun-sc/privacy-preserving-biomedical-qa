@@ -1,0 +1,33 @@
+{
+  "id": "5e9208da2d3121100d00000a",
+  "type": "list",
+  "question": "List the major families of Histones.",
+  "ideal_answer": "Five histone families (H1, H2A, H2B, H3, and H4).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21829453",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20194426",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26846354"
+  ],
+  "snippets": [
+    {
+      "text": "five histone families (H1, H2A, H2B, H3, and H4)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20194426",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "H2A, H2B, H3 and H4 histone families",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21829453",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "six for H1, 11 for H2A, eight for H2B, five for H3 and two for H4",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26846354",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "H1, H2A, H2B, H3, H4"
+}

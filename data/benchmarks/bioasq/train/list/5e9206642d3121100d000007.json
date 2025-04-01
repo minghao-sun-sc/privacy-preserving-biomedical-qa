@@ -1,0 +1,33 @@
+{
+  "id": "5e9206642d3121100d000007",
+  "type": "list",
+  "question": "List the proteins defining the triple negative breast cancer.",
+  "ideal_answer": "The so called \"Triple Negative Breast Cancer\" (TNBC) represents approximately 15-20% of breast cancers. This acronym simply means that the tumour does not express oestrogen receptor (ER) and progesterone receptor (PR) and does not exhibit amplification of the human epidermal growth factor receptor 2 (HER2) gene.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26387133",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29018573",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25506489"
+  ],
+  "snippets": [
+    {
+      "text": "Triple negative breast cancer (TNBC) is a type of breast cancer (BC) that does not express the oestrogen and the progesterone receptors and the human epidermal growth factor receptor type 2 (HER2).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29018573",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The so called \"Triple Negative Breast Cancer\" (TNBC) represents approximately 15-20% of breast cancers. This acronym simply means that the tumour does not express oestrogen receptor (ER) and progesterone receptor (PR) and does not exhibit amplification of the human epidermal growth factor receptor 2 (HER2) gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26387133",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Triple negative breast cancers (TNBCs) are a diverse and heterogeneous group of tumors that by definition lack estrogen and progesterone receptors and amplification of the HER-2 gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25506489",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "oestrogen receptor, progesterone receptor, human epidermal growth factor receptor type 2"
+}

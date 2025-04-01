@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00432",
+  "original_length": 2944,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: (ES):, Cataract, right eye.,POSTOPERATIVE DIAGNOSIS (ES):, Cataract, right eye.,PROCEDURE:, Right phacoemulsification of cataract with intraocular lens implantation.,DESCRIPTION OF TH...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',PROCEDURE:, Right phacoemulsification of cataract...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

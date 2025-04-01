@@ -1,0 +1,141 @@
+{
+  "id": "534428feaeec6fbd0700000a",
+  "type": "summary",
+  "question": "What are cancer driver genes?",
+  "ideal_answer": "Recent sequencing and resequencing (i.e., polymorphism identification) efforts have catalyzed the quest for 'driver' mutations (i.e., those genetic alterations which contribute to the transformation of a normal cell to a proliferating cancerous cell) in distinction to 'passenger' mutations which reflect mutations that merely build up in course of normal and unchecked (i.e., cancerous) somatic cell replication and proliferation. Analysis of the frequency of specific mutations across different tumors has been able to identify some, but not all of the mutated genes that contribute to tumor initiation and progression. A subset of these mutations contribute to tumor progression (known as \"driver\" mutations) whereas the majority of these mutations are effectively neutral (known as \"passenger\" mutations).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23416983",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18339846",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24009526",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24233780",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20707908",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22851646",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21169372",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24084849",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24214964",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23694700",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19574499",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19081671"
+  ],
+  "snippets": [
+    {
+      "text": "We constructed DriverDB (http://ngs.ym.edu.tw/driverdb/), a database which incorporates 6079 cases of exome-seq data, annotation databases (such as dbSNP, 1000 Genome and Cosmic) and published bioinformatics algorithms dedicated to driver gene/mutation identification.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24214964",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DriverDB: an exome sequencing database for cancer driver gene identification.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24214964",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "With the ability to fully sequence tumor genomes/exomes, the quest for cancer driver genes can now be undertaken in an unbiased manner.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24084849",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show that the combination of complementary methods allows identifying a comprehensive and reliable list of cancer driver genes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24084849",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In summary, the catalog of driver genes and the methodology presented here open new avenues to better understand the mechanisms of tumorigenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24084849",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A subset of these mutations contribute to tumor progression (known as \"driver\" mutations) whereas the majority of these mutations are effectively neutral (known as \"passenger\" mutations)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18339846",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The ability to differentiate between drivers and passengers will be critical to the success of upcoming large-scale cancer DNA resequencing projects.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18339846",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " In fact, recent sequencing and resequencing (i.e., polymorphism identification) efforts have catalyzed the quest for protein kinase 'driver' mutations (i.e., those genetic alterations which contribute to the transformation of a normal cell to a proliferating cancerous cell) in distinction to kinase 'passenger' mutations which reflect mutations that merely build up in course of normal and unchecked (i.e., cancerous) somatic cell replication and proliferation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19081671",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This method was applied to available breast cancer, colorectal cancer, and glioblastoma sequence data, and identified Wnt/TGF-beta cross-talk, Wnt/VEGF signaling, and MAPK/focal adhesion kinase pathways as targets of rare driver mutations in breast, colorectal cancer, and glioblastoma, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19574499",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Analysis of the frequency of specific mutations across different tumors has been able to identify some, but not all of the mutated genes that contribute to tumor initiation and progression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19574499",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We are developing a cross-species comparison strategy to distinguish between cancer driver- and passenger gene alteration candidates, by utilizing the difference in genomic location of orthologous genes between the human and other mammals.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20707908",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Major tumor sequencing projects have been conducted in the past few years to identify genes that contain 'driver' somatic mutations in tumor samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21169372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "At the same time, we determined that some genes previously reported as drivers were not significant by the new analysis because mutations in these genes occurred mainly in tumors with large background mutation rates. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21169372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Identifying genomic alterations driving breast cancer is complicated by tumor diversity and genetic heterogeneity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22851646",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Herein we report a proof-of-principle study illustrating a novel dog-human comparison strategy that addresses a central aim of cancer research, namely cancer driver-passenger distinction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23416983",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Expansion of this study would make more driver-passenger distinctions for cancers with large genomic amplifications or deletions, and address key questions regarding the relationship between cancer pathogenesis and epithelial cell polarity control in mammals.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23416983",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Adjusting for background mutation frequency biases improves the identification of cancer driver genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23694700",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The identification of cancer drivers is a major goal of current cancer research",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24009526",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We conclude that zebrafish-human comparative analysis represents a powerful, and broadly applicable, tool to enrich for evolutionarily conserved cancer drivers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24009526",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:162",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009369",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D052138"
+  ]
+}

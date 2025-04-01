@@ -1,0 +1,41 @@
+{
+  "id": "5319a724b166e2b806000025",
+  "type": "list",
+  "question": "Which trinucleotide repeat disorders are affecting the nervous system?",
+  "ideal_answer": "At least six neudegenerative disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), Huntington's disease (HD), spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17417937",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7998766"
+  ],
+  "snippets": [
+    {
+      "text": "The discovery that expansion of unstable repeats can cause a variety of neurological disorders has changed the landscape of disease-oriented research for several forms of mental retardation, Huntington disease, inherited ataxias, and muscular dystrophy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17417937",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Expansion of trinucleotide repeats is now recognized as a major cause of neurological disease. At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7998766",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Fragile X and myotonic dystrophy are multisystem disorders usually associated with large expansions of untranslated repeats, while the four neurodegenerative disorders, SBMA, Huntington's disease, SCA1, and DRPLA, are caused by smaller expansions of CAG repeats within the protein coding portion of the gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7998766",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019680",
+    "http://www.disease-ontology.org/api/metadata/DOID:863",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002493",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0035753",
+    "http://www.disease-ontology.org/api/metadata/DOID:331",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018911",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009420",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009422"
+  ],
+  "exact_answer": "X-linked spinal and bulbar muscular atrophy (SBMA), Fragile X syndrome of mental retardation (FRAXA), Fragile X syndrome of mental retardation (FRAXE), Huntington's disease (HD), Spinocerebellar ataxia type 1 (SCA1), Dentatorubral-pallidoluysian atrophy (DRPLA)"
+}

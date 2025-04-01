@@ -1,0 +1,58 @@
+{
+  "id": "6060838e94d57fd879000042",
+  "type": "list",
+  "question": "List R packages for lipidomics",
+  "ideal_answer": "R packages for lipidomics: lipidomics, masspix, lipidms, lipidr and lipid mini-on.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32168452",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30500173",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28989334",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30977807"
+  ],
+  "snippets": [
+    {
+      "text": "We have developed massPix-an R package for analysing and interpreting data from MSI of lipids in tissue.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28989334",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lipid Mini-On: mining and ontology tool for enrichment analysis of lipidomic data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30977807",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we introduce Lipid Mini-On, an open-source tool that performs lipid enrichment analyses and visualizations of lipidomics data. Lipid Mini-On uses a text-mining process to bin individual lipid names into multiple lipid ontology groups based on the classification (e.g. LipidMaps) and other characteristics, such as chain length. Lipid Mini-On provides users with the capability to conduct enrichment analysis of the lipid ontology terms using a Shiny app with options of five statistical approaches. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30977807",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "lipidr: A Software Tool for Data Mining and Analysis of Lipidomics Datasets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32168452",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The rapid evolution of mass spectrometry (MS)-based lipidomics has enabled the simultaneous measurement of numerous lipid classes. With lipidomics datasets becoming increasingly available, lipidomic-focused software tools are required to facilitate data analysis as well as mining of public datasets, integrating lipidomics-unique molecular information such as lipid class, chain length, and unsaturation. To address this need, we developed lipidr, an open-source R/Bioconductor package for data mining and analysis of lipidomics datasets. lipidr implements a comprehensive lipidomic-focused analysis workflow for targeted and untargeted lipidomics. lipidr imports numerical matrices, Skyline exports, and Metabolomics Workbench files directly into R, automatically inferring lipid class and chain information from lipid names. Through integration with the Metabolomics Workbench API, users can search, download, and reanalyze public lipidomics datasets seamlessly. lipidr allows thorough data inspection, normalization, and uni- and multivariate analyses, displaying results as interactive visualizations. To enable interpretation of lipid class, chain length, and total unsaturation data, we also developed and implemented a novel lipid set enrichment analysis. A companion online guide with two live example datasets is presented at https://www.lipidr.org/. We expect that the ease of use and innovative features of lipidr will allow the lipidomics research community to gain novel detailed insights from lipidomics data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32168452",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LipidMS: An R Package for Lipid Annotation in Untargeted Liquid Chromatography-Data Independent Acquisition-Mass Spectrometry Lipidomics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30500173",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "High resolution LC-MS untargeted lipidomics using data independent acquisition (DIA) has the potential to increase lipidome coverage, as it enables the continuous and unbiased acquisition of all eluting ions. However, the loss of the link between the precursor and the product ions combined with the high dimensionality of DIA data sets hinder accurate feature annotation. Here, we present LipidMS, an R package aimed to confidently identify lipid species in untargeted LC-DIA-MS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30500173",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "massPix, LipidMS, lipidr, Lipid Mini-On"
+}

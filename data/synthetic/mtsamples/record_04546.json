@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04546",
+  "original_length": 2152,
+  "synthetic_length": 704,
+  "attributes": {
+    "Diagnosis": "AND PLAN: , Left buttock abscess, status post incision and drainage.  I do not believe surgical intervention is warranted.  I have recommended some local wound care.  Please see orders for details.",
+    "Symptoms": "",
+    "Treatment": "is warranted.  I have recommended some local wound care.  Please see orders for details.",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

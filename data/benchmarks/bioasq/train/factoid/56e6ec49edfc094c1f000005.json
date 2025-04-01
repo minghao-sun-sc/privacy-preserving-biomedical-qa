@@ -1,0 +1,40 @@
+{
+  "id": "56e6ec49edfc094c1f000005",
+  "type": "factoid",
+  "question": "Which is the target of the drug Denosumab?",
+  "ideal_answer": "Denosumab (Dmab) is a fully human monoclonal antibody against the receptor activator of nuclear factor-\u03baB ligand (RANKL).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26504466",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26029270",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26508890",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26203221"
+  ],
+  "snippets": [
+    {
+      "text": "Denosumab is a human monoclonal antibody which specifically blocks receptor activator of nuclear factor \u03baB ligand and is a very potent antiresorptive drug. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26029270",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "denosumab, a monoclonal antibody against RANKL",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26203221",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Denosumab is a human monoclonal antibody indicated for the treatment of osteoporosis in postmenopausal women with a high risk of fractures. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26504466",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Denosumab (Dmab) is a fully human monoclonal antibody against the receptor activator of nuclear factor-\u03baB ligand (RANKL), which, through the prevention of the RANKL/RANK interaction, inhibits osteoclast-mediated bone resorption and significantly reduces the risk of vertebral, nonvertebral, and hip fractures. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26508890",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "receptor activator of nuclear factor-\u03baB ligand, RANKL"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "5507fc114b2a315d41000003",
+  "type": "summary",
+  "question": "What is the biological role of K-48 linked protein ubiquitination?",
+  "ideal_answer": "The proteasome, which identifies and destroys unwanted proteins rapidly, plays a vital role in maintaining cellular protein homeostasis. Proteins that are destined for proteasome-mediated degradation are usually tagged with a chain of ubiquitin linked via lysine (K) 48 that targets them to the proteolytic machinery. K(48)-linked polyubiquitinated proteins are degraded by the proteasomes to elevate cellular levels of amino acids needed for intracellular proliferation. NF-\u03baB and ubiquitylation initially became linked when it was recognised that lysine (K)48-linked ubiquitin chains are involved in the processing of NF-\u03baB precursors and the degradation of inhibitor of kappa B (I\u03baB) proteins.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22389394",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20696248",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19432818",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15728425",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19887490",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24126522"
+  ],
+  "snippets": [
+    {
+      "text": "On the LCV, AnkB triggers docking of K(48)-linked polyubiquitinated proteins that are degraded by the host proteasomes to elevate cellular levels of amino acids needed for intracellular proliferation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24126522",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription and injection of ankB is triggered by attached extracellular bacteria followed by rapid farnesylation and anchoring of AnkB to the cytosolic side of the plasma membrane beneath bacterial attachment, where K(48)-linked polyubiquitinated proteins are assembled and degraded by the proteasomes, leading to a rapid rise in the cellular levels of amino acids.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24126522",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although it has been known for a long time that ubiquitylation has a major role in the activation and regulation of the nuclear factor kappa B (NF-\u03baB) pathway, recent studies have revealed that the picture is a lot more complex than originally thought. NF-\u03baB and ubiquitylation initially became linked when it was recognised that lysine (K)48-linked ubiquitin chains are involved in the processing of NF-\u03baB precursors and the degradation of inhibitor of kappa B (I\u03baB) proteins. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22389394",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The proteasome, which identifies and destroys unwanted proteins rapidly, plays a vital role in maintaining cellular protein homeostasis. Proteins that are destined for proteasome-mediated degradation are usually tagged with a chain of ubiquitin linked via lysine (K) 48 that targets them to the proteolytic machinery. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20696248",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Covalent and reversible post-translational modifications of proteins are a common theme in signaling. Ubiquitin conjugation was originally described to target proteins to proteasomal degradation by ubiquitin polymerization involving lysine (K) 48 residues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19887490",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Proteins tagged with lysine (Lys, K) 48 polyubiquitins chains are destined for degradation by the 26S proteasomal system.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19432818",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ubiquitination is best known for its role in targeting proteins for degradation by the proteasome, but evidence of the nonproteolytic functions of ubiquitin is also rapidly accumulating. One example of the regulatory, rather than proteolytic, function of ubiquitin is provided by study of the tumor necrosis factor (TNF) receptor-associated factor (TRAF) proteins, which function as ubiquitin ligases to synthesize lysine 63 (K(63))-linked polyubiquitin chains to mediate protein kinase activation through a proteasome-independent mechanism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15728425",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Indeed, the TRAF2-interacting protein RIP can mediate IKK activation when it is modified by K(63) polyubiquitin chains, but is targeted to degradation by the proteasome when it is K(48)-polyubiquitinted by the NF-kappaB inhibitor A20.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15728425",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "NF-\u03baB and ubiquitylation initially became linked when it was recognised that lysine (K)48-linked ubiquitin chains are involved in the processing of NF-\u03baB precursors and the degradation of inhibitor of kappa B (I\u03baB) proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22389394",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "NF-\u03baB and ubiquitylation initially became linked when it was recognised that lysine (K)48-linked ubiquitin chains are involved in the processing of NF-\u03baB precursors and the degradation of inhibitor of kappa B (I\u03baB) proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22389394",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Proteins that are destined for proteasome-mediated degradation are usually tagged with a chain of ubiquitin linked via lysine (K) 48 that targets them to the proteolytic machinery",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20696248",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016567"
+  ]
+}

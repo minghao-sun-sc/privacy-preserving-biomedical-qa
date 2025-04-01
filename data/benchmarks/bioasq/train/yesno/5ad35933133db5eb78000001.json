@@ -1,0 +1,33 @@
+{
+  "id": "5ad35933133db5eb78000001",
+  "type": "yesno",
+  "question": "Is the protein pelota a ribosomal rescue factor?",
+  "ideal_answer": "Yes, in eukaryotes, Pelota (Dom34 in yeast) and Hbs1 are responsible for solving general problems of ribosomal stall in translation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20876129",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25061210",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27493551"
+  ],
+  "snippets": [
+    {
+      "text": "a novel binding partner of the ribosome recycling protein Pelota",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25061210",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "n eukaryotes, Pelota (Dom34 in yeast) and Hbs1 are responsible for solving general problems of ribosomal stall in translation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27493551",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In eukaryotes, the protein complex of Pelota (yeast Dom34) and Hbs1 translational GTPase recognizes the stalled ribosome containing the defective mRNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20876129",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

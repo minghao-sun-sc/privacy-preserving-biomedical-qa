@@ -1,0 +1,33 @@
+{
+  "document_id": "record_03351",
+  "original_length": 4910,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "AND PLAN:,  We will continue present therapy except we will add [person].  3 to take 1 tablet before bed as needed for her back pain.  If she does develop drowsiness from this, then the CNS side ...",
+    "Symptoms": "",
+    "Treatment": ",  We will continue present therapy except we will add [person].  3 to take 1 tablet before bed as needed for her back pain.  If she does develop drowsiness from this, then the CNS side effects w...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Acetaminophen 325 mg, sodium 100 mg, ibuprofen 600 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: '3 to take 1 tablet before bed as needed for her ba...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

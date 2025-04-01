@@ -1,0 +1,174 @@
+{
+  "id": "55451e53bf90a13052000003",
+  "type": "list",
+  "question": "Which proteins act as factors that promote transcription-coupled repair in bacteria?",
+  "ideal_answer": "Transcription coupled nucleotide excision repair (TC-NER or TCR) is a cellular process by which UV-induced damage and other road-blocks encountered in the transcribed strand are restored. Bacterial transcription-coupled repair is initiated when RNA polymerase stalled at a DNA lesion is removed by Mfd (Mutation frequency decline), an ATP-dependent DNA translocase. Mfd is the major transcription repair coupling factor in bacteria. Also, the transcription elongation factor NusA, in addition to its role in recruiting translesion synthesis (TLS) DNA polymerases to gaps encountered during transcription,  promotes an alternative class of TCR involved in the identification and removal of a class of lesion, such as the N(2)-f-dG lesion.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18707026",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20702425",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22427630",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15687384",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20110508",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24554077",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21559463",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17572090",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8807287",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9535092",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21145481",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24118570",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20696893",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22749141",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20638914",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12086674",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16469698",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7869378",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20178806",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20436399",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22960746"
+  ],
+  "snippets": [
+    {
+      "text": "Transcription-coupled repair (TCR) is a cellular process by which some forms of DNA damage are repaired more rapidly from transcribed strands of active genes than from nontranscribed strands or the overall genome. In humans, the TCR coupling factor, CSB, plays a critical role in restoring transcription following both UV-induced and oxidative DNA damage. It also contributes indirectly to the global repair of some forms of oxidative DNA damage. The Escherichia coli homolog, Mfd, is similarly required for TCR of UV-induced lesions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22427630",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription coupled nucleotide excision repair (TC-NER) is involved in correcting UV-induced damage and other road-blocks encountered in the transcribed strand. Mutation frequency decline (Mfd) is a transcription repair coupling factor, involved in repair of template strand during transcription.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21559463",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the transcription-repair coupling factor, Mfd, promotes direct restart of the fork following the collision by facilitating displacement of the RNAP.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20436399",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report observations suggesting that the transcription elongation factor NusA promotes a previously unrecognized class of transcription-coupled repair (TCR) in addition to its previously proposed role in recruiting translesion synthesis (TLS) DNA polymerases to gaps encountered during transcription.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20696893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "NusA participates in an alternative class of TCR involved in the identification and removal of a class of lesion, such as the N(2)-f-dG lesion",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20696893",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bacterial transcription-coupled repair is initiated when RNA polymerase stalled at a DNA lesion is removed by Mfd, an ATP-dependent DNA translocase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22960746",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription-coupled repair, the targeted repair of the transcribed strands of active genes, is defective in bacteria, yeast, and human cells carrying mutations in mfd, RAD26 and ERCC6, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8807287",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The effect of the bacterial transcription-repair coupling factor, Mfd, at such lesions is not known: it has been suggested that Mfd may promote mutagenesis by increasing the efficiency with which RNA polymerase bypasses non-bulky lesions, but it has also been reported that 8-oxoguanine, a major product of oxidative DNA damage that is efficiently bypassed by RNA polymerase, is subject to Mfd-dependent transcription-coupled repair in Escherichia coli.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18707026",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The transcription-repair coupling factor (TRCF, the product of the mfd gene) is a widely conserved bacterial protein that mediates transcription-coupled DNA repair.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20702425",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent structural studies of the bacterial transcription-repair coupling factor, Mfd, have revealed a modular architecture in which an ATP-dependent DNA-based motor is coupled to protein-protein interaction domains that can attach the motor to RNA polymerase and the DNA repair protein UvrA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17572090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The bacterial Mfd protein is a transcription-repair coupling factor that performs two key functions during transcription-coupled DNA repair.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15687384",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mfd remains bound to the DNA in a long-lived complex that could act as a marker for sites of DNA damage, directing assembly of subsequent DNA repair factors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22960746",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription and DNA repair are coupled in E. coli by the Mfd protein, which dissociates transcription elongation complexes blocked at nonpairing lesions and mediates recruitment of DNA repair proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12086674",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The first is to remove RNA polymerase (RNAP) complexes that have been stalled by a DNA lesion from the site of damage, and the second is to mediate the recruitment of DNA repair proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15687384",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Coupling of transcription and DNA repair in bacteria is mediated by transcription-repair coupling factor (TRCF, the product of the mfd gene), which removes transcription elongation complexes stalled at DNA lesions and recruits the nucleotide excision repair machinery to the site.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16469698",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mfd remains bound to the DNA in a long-lived complex that could act as a marker for sites of DNA damage, directing assembly of subsequent DNA repair factors",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22960746",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mfd may act through a translocase activity that rewinds upstream DNA, leading either to translocation or to release of RNA polymerase when the enzyme active site cannot continue elongation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12086674",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent structural studies of the bacterial transcription-repair coupling factor, Mfd, have revealed a modular architecture in which an ATP-dependent DNA-based motor is coupled to protein-protein interaction domains that can attach the motor to RNA polymerase and the DNA repair protein UvrA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17572090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "E. coli Transcription repair coupling factor (Mfd protein) rescues arrested complexes by promoting forward translocation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12086674",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We also find that the transcription-repair coupling factor, Mfd, promotes direct restart of the fork following the collision by facilitating displacement of the RNAP",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20436399",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We also found that the transcription-repair coupling factor Mfd promotes direct restart of the fork after the collision by facilitating displacement of the RNAP",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20110508",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show that Mfd-dependent TCR in bacteria involves the formation of a damage search complex that can detect lesions downstream of a stalled RNAP, and that the strand specificity of the accelerated repair pathway is independent of the requirement for a lesion to stall RNAP",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24554077",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "coli by the Mfd protein, which dissociates transcription elongation complexes blocked at nonpairing lesions and mediates recruitment of DNA repair proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12086674",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0090262",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006283"
+  ],
+  "exact_answer": "Mfd, NusA"
+}

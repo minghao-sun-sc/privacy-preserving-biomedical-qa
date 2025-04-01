@@ -1,0 +1,35 @@
+{
+  "document_id": "record_01374",
+  "original_length": 1654,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  \n- NIDDM with improved control. \n- Hypertension. \n- Coronary artery disease status post coronary artery bypass graft. \n- Degenerative arthritis. \n- Hyperlipidemia. \n- Hyperuricemia. \n- Renal azo...",
+    "Symptoms": "",
+    "Treatment": ",  We will get follow-up labs today.  We will continue with current medications and treatment.  We will arrange for a follow-up mammogram as recommended by the radiologist in six months, which will...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

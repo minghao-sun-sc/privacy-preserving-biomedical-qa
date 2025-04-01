@@ -1,0 +1,60 @@
+{
+  "id": "5ac3699f0340b9f058000001",
+  "type": "factoid",
+  "question": "Are human enhancers or promoters evolving faster?",
+  "ideal_answer": "Our data further reveal that recently evolved enhancers can be associated with genes under positive selection, demonstrating the power of this approach for annotating regulatory adaptations in genomic sequences. We report that rapid evolution of enhancers is a universal feature of mammalian genomes. ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24097306",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28527813",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25635462",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21783031",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20023155",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24218635"
+  ],
+  "snippets": [
+    {
+      "text": " Recent comparative studies have begun to investigate the evolution of the sequence architecture within enhancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20023155",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A detailed analysis of the fast-evolving sparkling enhancer in Drosophila now identifies key compensatory mechanisms and 'grammar' elements that are critical for maintaining functional integrity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21783031",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The trend is one of high divergence of cis-regulatory elements between species, possibly compensated by extensive creation and loss of regulatory elements and rewiring of their target genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24218635",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, existing models specifically designed for regulatory sequences consider the independent evolution of individual transcription factor (TF)-binding sites, ignoring that the function and evolution of a binding site depends on its context, typically the cis-regulatory module (CRM) in which the site is located",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24097306",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We summarize recent case studies and genome-wide investigations that have uncovered diverse mechanisms though which new enhancers arise",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28527813",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report that rapid evolution of enhancers is a universal feature of mammalian genomes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25635462",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our data further reveal that recently evolved enhancers can be associated with genes under positive selection, demonstrating the power of this approach for annotating regulatory adaptations in genomic sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25635462",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "enhancers"
+}

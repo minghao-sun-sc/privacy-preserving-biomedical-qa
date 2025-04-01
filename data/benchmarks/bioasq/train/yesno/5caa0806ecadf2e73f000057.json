@@ -1,0 +1,46 @@
+{
+  "id": "5caa0806ecadf2e73f000057",
+  "type": "yesno",
+  "question": "Is Apelin usually decreased in diabetes?",
+  "ideal_answer": "Different studies in both animals and humans have shown that plasma apelin concentrations are usually increased during obesity and type 2 diabetes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19756893",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25914650",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29229313",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24721640"
+  ],
+  "snippets": [
+    {
+      "text": "Apelin has been shown to act on glucose and lipid metabolism but also to modulate insulin secretion. Moreover, different studies in both animals and humans have shown that plasma apelin concentrations are usually increased during obesity and type 2 diabetes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25914650",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Upregulated expression of resistin, vaspin, apelin and TNF-\u03b1 plays a significant role in induction of insulin resistance linked with obesity and type 2 diabetes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29229313",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover, different studies in both animals and humans have shown that plasma apelin concentrations are usually increased during obesity and type 2 diabetes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25914650",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Apelin levels are increased in morbidly obese subjects with type 2 diabetes mellitus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19756893",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In men at risk for diabetes (HbA1c 5.7-6.4%, FPG 100-125mg/dl, or OGTT-2h-PG 140-199mg/dl), the risk for developing diabetes was higher in those with higher plasma apelin concentration than in those with lower plasma apelin concentrations (10.6%/year vs. 5.1%/year, p<0.001).<br><b>CONCLUSIONS</b>: Plasma apelin is a novel biomarker for predicting type 2 diabetes in men.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24721640",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

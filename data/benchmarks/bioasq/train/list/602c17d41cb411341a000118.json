@@ -1,0 +1,19 @@
+{
+  "id": "602c17d41cb411341a000118",
+  "type": "list",
+  "question": "Which proteins does RG-7992 target?",
+  "ideal_answer": "BFKB8488A is a bispecific antibody against FGFR1 and KLB.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33139537"
+  ],
+  "snippets": [
+    {
+      "text": "Here we show that the bispecific anti-FGFR1/KLB agonist antibody BFKB8488A induced marked weight loss in obese cynomolgus monkeys while elevating serum adiponectin and the adipose expression of FGFR1 target genes, demonstrating its action as an FGF21 mimetic.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33139537",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "FGFR1, KLB"
+}

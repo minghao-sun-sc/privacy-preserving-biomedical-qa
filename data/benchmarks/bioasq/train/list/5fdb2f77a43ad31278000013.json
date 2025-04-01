@@ -1,0 +1,105 @@
+{
+  "id": "5fdb2f77a43ad31278000013",
+  "type": "list",
+  "question": "Which computational methods are used for the definition of synteny?",
+  "ideal_answer": "The computational methods which are used for the definition of synteny are:1) multisyn, 2) poff, 3) orthocluster, 4) phyldiag, 5) synblast, 6) cinteny, 7) domain team, 8)mcscanx and 9) run Orthoclusterdb and 10) view synteny.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22217600",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25137074",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19728289",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17343765",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18721485",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27594782",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19549318",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28671949",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18025683"
+  ],
+  "snippets": [
+    {
+      "text": "Domain team: synteny of domains is a new approach in comparative genomics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18025683",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The automated and fast detection of domain teams is implemented in the DomainTeam software. In this chapter, we describe the procedure to run DomainTeam.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18025683",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cinteny allows one to automatically compare multiple genomes and perform sensitivity analysis for synteny block detection and for the subsequent computation of reversal distances. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17343765",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we present the SynBlast pipeline that is designed to construct and evaluate local synteny information.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18721485",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "OrthoClusterDB is a new online platform for the identification and visualization of synteny blocks. OrthoClusterDB consists of two key web pages: Run OrthoCluster and View Synteny.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19549318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "For both Run OrthoCluster and View Synteny, identified synteny blocks can be browsed at the whole genome, chromosome, and individual gene level. OrthoClusterDB is freely accessible",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19549318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "OrthoCluster for the detection of synteny blocks among multiple genomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19728289",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "OrthoClusterDB provides a Web interface for running OrthoCluster with user-defined datasets and parameters, as well as for browsing and downloading precomputed synteny blocks for different groups of genomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19728289",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MCScanX: a toolkit for detection and evolutionary analysis of gene synteny and collinearity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22217600",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "MCScan is an algorithm able to scan multiple genomes or subgenomes in order to identify putative homologous chromosomal regions, and align these regions using genes as anchors. The MCScanX toolkit implements an adjusted MCScan algorithm for detection of synteny and collinearity that extends the original software by incorporating 14 utility programs for visualization of results and additional downstream analyses. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22217600",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we present PoFF, an extension for the standalone tool Proteinortho, which enhances orthology detection by combining clustering, sequence similarity, and synteny. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25137074",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MultiSyn: A Webtool for Multiple Synteny Detection and Visualization of User's Sequence of Interest Compared to Public Plant Species.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27594782",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " Here, we introduce a web application that determines and visualizes multiple synteny from two types of files, simplified browser extensible data and protein sequence file by MCScanX algorithm, which have been used in many synteny studies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27594782",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "All these refinements are implemented in a new version of PhylDiag that has been benchmarked against i-ADHoRe 3.0 and Cyntenator, based on a realistic simulated evolution and true simulated conserved segments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28671949",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Domain Team, Cinteny, SynBlast, OrthoCluster, MCScanX, PoFF, MultiSyn, PhylDiag, Cyntenator"
+}

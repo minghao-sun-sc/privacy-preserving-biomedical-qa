@@ -1,0 +1,103 @@
+{
+  "id": "5a855585faa1ab7d2e000029",
+  "type": "summary",
+  "question": "What is the origin of XUT transcripts in yeast?",
+  "ideal_answer": "XUTs are a class of Xrn1-sensitive antisense regulatory non-coding RNA in yeast",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21697827",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29114019",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26805575"
+  ],
+  "snippets": [
+    {
+      "text": "XUTs are a class of Xrn1-sensitive antisense regulatory non-coding RNA in yeast",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21697827",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, using strand-specific RNA sequencing (RNA-seq), we identify a novel class of 1,658 Xrn1-sensitive unstable transcripts (XUTs) in which 66% are antisense to open reading frames.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21697827",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The majority of XUTs strongly accumulate in lithium-containing media, indicating that they might have a role in adaptive responses to changes in growth conditions. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21697827",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, abolishing H3K4me3 triggers the silencing of other genes with antisense XUTs, supporting a model in which H3K4me3 antagonizes antisense ncRNA repressive activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21697827",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nonsense-Mediated Decay (NMD) destabilizes the Xrn1-sensitive aslncRNAs (XUT), but what determines their sensitivity remains unclear. We report that 3' single-stranded (3'-ss) extension mediates XUTs degradation by NMD, assisted by the Mtr4 and Dbp2 helicases. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26805575",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ribosome profiling showed that XUT are translated, locking them for NMD activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26805575",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Interestingly, mutants of the Mtr4 and Dbp2 helicases accumulated XUTs, suggesting that dsRNA unwinding is a\u00a0critical step for degradation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26805575",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Strikingly, antisense transcription was detected for most protein-coding genes, correlating with low sense transcription, especially when overlapping the mRNA start site. RNA profiling revealed that the resulting aslncRNAs mainly correspond to cryptic Xrn1/Exo2-sensitive transcripts (XUTs)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29114019",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, we showed that asXUTs are controlled by the histone chaperone Spt6 and respond to meiosis induction, in both cases anti-correlating with levels of the paired-sense mRNAs, supporting physiological significance to antisense-mediated gene attenuation. Our work highlights that antisense transcription is much more extended than anticipated and might constitute an additional non-promoter determinant of gene regulation complexity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29114019",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Antisense long non-coding (aslnc)RNAs represent a\u00a0substantial part of eukaryotic transcriptomes that are, in yeast, controlled by the Xrn1 exonuclease. Nonsense-Mediated Decay (NMD) destabilizes the Xrn1-sensitive aslncRNAs (XUT), but what determines their sensitivity remains unclear. We report that 3' single-stranded (3'-ss) extension mediates XUTs degradation by NMD, assisted by the Mtr4 and Dbp2 helicases. Single-gene investigation, genome-wide RNA analyses, and double-stranded (ds)RNA mapping revealed that 3'-ss extensions discriminate the NMD-targeted XUTs from stable lncRNAs. Ribosome profiling showed that XUT are translated, locking them for NMD activity. Interestingly, mutants of the Mtr4 and Dbp2 helicases accumulated XUTs, suggesting that dsRNA unwinding is a\u00a0critical step for degradation. Indeed, expression of anticomplementary transcripts protects cryptic intergenic lncRNAs from NMD. Our results indicate that aslncRNAs form dsRNA that are only translated\u00a0and targeted to NMD if dissociated by Mtr4 and Dbp2. We propose that NMD buffers genome expression by discarding pervasive regulatory transcripts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26805575",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Notably, RNAPII chromatin immunoprecipitation followed by DNA sequencing (ChIP-seq) analysis of Xrn1-deficient strains revealed a significant decrease of RNAPII occupancy over 273 genes with antisense XUTs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21697827",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "XUTs are a class of Xrn1-sensitive antisense regulatory non-coding RNA in yeast.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21697827",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Nonsense-Mediated Decay (NMD) destabilizes the Xrn1-sensitive aslncRNAs (XUT), but what determines their sensitivity remains unclear.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26805575",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/RENT2_HUMAN",
+    "http://amigo.geneontology.org/amigo/term/GO:2000623",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D012441",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D015003",
+    "http://amigo.geneontology.org/amigo/term/GO:0000184",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D059365",
+    "http://www.uniprot.org/uniprot/RENT1_HUMAN",
+    "http://www.uniprot.org/uniprot/REN3B_HUMAN",
+    "http://www.uniprot.org/uniprot/REN3A_HUMAN",
+    "http://amigo.geneontology.org/amigo/term/GO:2000622"
+  ]
+}

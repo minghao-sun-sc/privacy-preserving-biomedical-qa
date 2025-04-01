@@ -1,0 +1,32 @@
+{
+  "id": "6419fa3d690f196b5100003c",
+  "type": "summary",
+  "question": "What is the difference between siRNA and Antisense oligonucleotide therapeutics",
+  "ideal_answer": "Small interfering RNAs (siRNAs) and antisense oligonucleotide (ASO) therapeutics are two classes of RNA-based therapeutics that are used to modulate gene expression. siRNAs are short double-stranded RNAs that bind to and degrade mRNA, while ASOs are single-stranded oligonucleotides that bind to mRNA and block its translation into protein.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28064104",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18508540",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32800852"
+  ],
+  "snippets": [
+    {
+      "text": "Three types of nucleic acid-based gene silencing molecules can be distinguished, including DNA-base antisense oligonucleotides (ASO), nucleic acid enzymes (ribozyme and DNAzyme) and double-stranded small interfering RNA (siRNA or microRNA).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18508540",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Antisense oligonucleotides are synthetic single stranded strings of nucleic acids that bind to RNA and thereby alter or reduce expression of the target RNA while siRNAs, on the other hand, are double-stranded RNA molecules which can hybridize with a specific mRNA sequence and block the translation of numerous genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28064104",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, in practice the term \"antisense\" has been used to describe single stranded oligonucleotides (ss ASOs) designed to hybridize to RNAswhile the term \"siRNA\" has come to mean double stranded oligonucleotides designed to activate Ago2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32800852",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "5e9209792d3121100d00000b",
+  "type": "list",
+  "question": "List enzymes that removes histone modifications.",
+  "ideal_answer": "Histone deacetylases\nLysine Specific Demethylases",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29413177",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30344952",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21336812"
+  ],
+  "snippets": [
+    {
+      "text": ", Lysine Specific Demethylases (LSD) removes methylated histone H3 lysine 4 (H3K4) and H3 lysine 9 (H3K9)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30344952",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A family of enzymes, namely histone deacetylases (HDACs), removes these PTMs. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29413177",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Histone deacetylases (HDACs), a specific epigenetic group of enzymes, dynamically and reversibly removes acetyl groups from histone tails projecting from the nucleosome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21336812",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Histone deacetylases, HDAC, Lysine Specific Demethylases, LSD"
+}

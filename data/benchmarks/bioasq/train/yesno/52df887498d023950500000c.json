@@ -1,0 +1,65 @@
+{
+  "id": "52df887498d023950500000c",
+  "type": "yesno",
+  "question": "Is oxalate renal excretion increased after bariatric surgery?",
+  "ideal_answer": "Bariatric surgery is associated with a significant risk of nephrolithiasis.\nEnteric hyperoxaluria, nephrolithiasis, and oxalate nephropathy must be considered with the other risks of bariatric surgery\nHyperoxaluria in patients treated with bariatric surgery was found to be a result of hyperabsorption of oxalate",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21295813",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23821183",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16925274",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18701613",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2218396",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9689695",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23024163",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20566568",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19762051",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19013593",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18501812",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16217311",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17222634",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22554593",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2669121"
+  ],
+  "snippets": [
+    {
+      "text": "Despite the fact that bariatric surgery-induced weight loss is associated with a significant decrease in morbidity and mortality and improvement in renal function, bariatric surgery has recently been shown to be associated with a significant risk of nephrolithiasis. The main risk factor for nephrolithiasis is increased excretion of urinary oxalate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20566568",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Enteric hyperoxaluria, nephrolithiasis, and oxalate nephropathy must be considered with the other risks of RYGBP.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16925274",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The urinary excretion of oxalate was high: 1.112 mumol/24 h (normal range: 55-400 mumol/24 h), and citrate excretion was low: 1.48 mmol/24 h (normal range: 2-5 mmol/24 h). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9689695",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hyperoxaluria in patients with JIB was found to be a result of hyperabsorption of oxalate, and these patients displayed altered oxalate kinetics with continued urinary excretion of orally administered 14C-oxalate for more than 48 hours. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2669121",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Malabsorption of calcium and low fasting urinary calcium excretion in the JIB patients were associated with high tubular reabsorption of calcium, the latter presumably attributable to a compensatory increase in circulating parathyroid hormone (PTH). In most recurrent renal stone formers the urinary calcium concentration was increased, with an inverse relationship to serum PTH, indicating intestinal hyperabsorption of calcium. A",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2669121",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0007588",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002129",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015390",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D010070",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D049088",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013502",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D050110"
+  ],
+  "exact_answer": "Yes"
+}

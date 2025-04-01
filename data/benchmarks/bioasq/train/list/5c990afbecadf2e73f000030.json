@@ -1,0 +1,69 @@
+{
+  "id": "5c990afbecadf2e73f000030",
+  "type": "list",
+  "question": "List proteins with RING domain.",
+  "ideal_answer": "RING1\nTRIM proteins\nTRAF6 \nUHRF1\nMARCH7\nSINA\nBRCA1",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29471350",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29432170",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29324855",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29107100",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29367421",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29320607",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29295817",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29187402",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29426838"
+  ],
+  "snippets": [
+    {
+      "text": " The RING domain of RING1 was required for its E3 Ub ligase activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29187402",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The TRIM proteins are classically characterized by the presence of an amino-terminal RING domain and a B-box domain followed by a coiled coil domain",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29107100",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the detailed mechanism by which the TRAF6 RING dimer promotes ubiquitin transfer was unknown. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29432170",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RING ubiquitin E3 ligases enclose a RING domain for ubiquitin ligase activity",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29324855",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " UHRF1 RING domain",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29471350",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " MARCH7, a RING domain-containing ubiquitin E3 ligase,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29295817",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Seven in absentia (SINA) protein is one subgroup of ubiquitin ligases possessing an N-terminal cysteine-rich really interesting new gene (RING) domain,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29320607",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The BRCA1 RING domain is a ubiquitin ligase",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29367421",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "RING1, TRIM proteins, TRAF6, UHRF1, MARCH7, SINA, BRCA1"
+}

@@ -1,0 +1,33 @@
+{
+  "document_id": "record_03448",
+  "original_length": 6085,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "of osteomyelitis.  The patient has serosanguineous drainage in this wound and it tracks under the skin in all directions except distal.,PAST MEDICAL HISTORY: , Positive for:\n- Diabetes mellitus.\n- ...",
+    "Symptoms": "",
+    "Treatment": "MRI scan",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Ancef 2 g"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'The patient has serosanguineous drainage in this w...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

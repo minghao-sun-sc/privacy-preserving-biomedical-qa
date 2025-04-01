@@ -1,0 +1,79 @@
+{
+  "id": "5c7f806d617e120c34000001",
+  "type": "yesno",
+  "question": "Are tumour specific antigens originating from known protein coding genes?",
+  "ideal_answer": "Heat-shock proteins (HSPs) function as ubiquitous tumour-specific antigens, with the specificity residing in a population of bound peptides that identify the tissue of origin of the HSP. Tumour antigens are mostly of weak immunogenicity, because the vast majority are tumour-associated differentiation antigens already 'seen' by the patient's immune system.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/1423320",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18031135",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12766764",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21388431",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11599633",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7517178",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23561850"
+  ],
+  "snippets": [
+    {
+      "text": "It is well established that MHC class I molecules present peptides from endogenous proteins, such as virus or tumour antigens, to CD8+ T lymphocytes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1423320",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "So far, human tumour specific antigens that can be presented by HLA molecules have not been identified on the molecular level.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1423320",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These CTLs recognize short peptides derived from tumour-associated antigens in conjunction with class I molecules expressed on tumour cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7517178",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The focus on cellular immune responses, combined with rapid biotechnological advances, resulted in the identification of tumour specific antigens, such as MART-1 and gp100, that could be recognised by autologous TIL",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18031135",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Tumour antigens are mostly of weak immunogenicity, because the vast majority are tumour-associated differentiation antigens already 'seen' by the patient's immune system.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11599633",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tumour-specific antigens, which could be a more potent target for immunotherapy, mostly arise by point mutations and have the disadvantage of being not only tumour-specific, but also individual-specific.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11599633",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The pioneering studies of Srivastava and colleagues led to the proposal that heat-shock proteins (HSPs) function as ubiquitous tumour-specific antigens, with the specificity residing in a population of bound peptides that identify the tissue of origin of the HSP.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12766764",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Therefore, we propose that CD4(+) T cells that recognize secreted TSA may be superior for immunotherapy by T cell transfer, because the local extracellular antigen concentration will be higher for secreted TSA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21388431",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Here, we wondered whether these frame-shifted peptide (FSP) sequences represent tumour-specific antigens also for MSI(+) leukaemia and lymphomas (L/L).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23561850",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Data presented here expand the importance of FSPs as shared and general tumour-specific antigens.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23561850",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

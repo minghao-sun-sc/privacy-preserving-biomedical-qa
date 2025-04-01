@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04107",
+  "original_length": 3698,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", ITP, the patient has a normal platelet count.,PLAN:\n- I had a long discussion with family regarding the treatment of ITP.  In view of the fact that the patient's platelet count is 26,000 and she ...",
+    "Symptoms": "",
+    "Treatment": "\n- I had a long discussion with family regarding the treatment of ITP.  In view of the fact that the patient's platelet count is 26,000 and she is asymptomatic, we will continue to monitor the coun...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'I had a long discussion with family regarding the ...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

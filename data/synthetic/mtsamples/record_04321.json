@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04321",
+  "original_length": 3167,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Local reaction secondary to insect sting.,PLAN: , The patient was reassured that this is not a serious reaction to an insect sting and he should not progress to such a reaction.  I did urge him t...",
+    "Symptoms": "",
+    "Treatment": ", The patient was reassured that this is not a serious reaction to an insect sting and he should not progress to such a reaction.  I did urge him to use Claritin 10 mg once daily until the redness ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Claritin 10 mg, Claritin 10 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',PLAN: , The patient was reassured that this is no...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "56ae40110a360a5e45000009",
+  "type": "list",
+  "question": "Which computational frameworks are available for predicting enhancers?",
+  "ideal_answer": "DEEP integrates three components with diverse characteristics that streamline the analysis of enhancer's properties in a great variety of cellular conditions. DEEP uses features derived from histone modification marks or attributes coming from sequence characteristics. Experimental results indicate that DEEP performs better than four state-of-the-art methods on the ENCODE data. The PRISM (predicting regulatory information from single motifs) approach obtains 2543 TF function predictions in a large variety of contexts, at a false discovery rate of 16%. The predictions are highly enriched for validated TF roles, and 45 of 67 (67%) tested binding site regions in five different contexts act as enhancers in functionally matched cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25378307",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23382538"
+  ],
+  "snippets": [
+    {
+      "text": "In this study we developed DEEP, a novel ensemble prediction framework. DEEP integrates three components with diverse characteristics that streamline the analysis of enhancer's properties in a great variety of cellular conditions. In our method we train many individual classification models that we combine to classify DNA regions as enhancers or non-enhancers. DEEP uses features derived from histone modification marks or attributes coming from sequence characteristics. Experimental results indicate that DEEP performs better than four state-of-the-art methods on the ENCODE data. We report the first computational enhancer prediction results on FANTOM5 data where DEEP achieves 90.2% accuracy and 90% geometric mean (GM) of specificity and sensitivity across 36 different tissues. We further present results derived using in vivo-derived enhancer data from VISTA database. DEEP-VISTA, when tested on an independent test set, achieved GM of 80.1% and accuracy of 89.64%.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25378307",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our novel PRISM (predicting regulatory information from single motifs) approach obtains 2543 TF function predictions in a large variety of contexts, at a false discovery rate of 16%. The predictions are highly enriched for validated TF roles, and 45 of 67 (67%) tested binding site regions in five different contexts act as enhancers in functionally matched cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23382538",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DEEP: a general computational framework for predicting enhancers",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25378307",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We report the first computational enhancer prediction results on FANTOM5 data where DEEP achieves 90.2% accuracy and 90% geometric mean (GM) of specificity and sensitivity across 36 different tissues",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25378307",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DEEP: a general computational framework for predicting enhancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25378307",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004742",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019295"
+  ],
+  "exact_answer": "DEEP, PRISM"
+}

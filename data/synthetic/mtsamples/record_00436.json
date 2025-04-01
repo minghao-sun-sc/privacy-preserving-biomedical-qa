@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00436",
+  "original_length": 3650,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- History of open globe to the right eye.\n- History of retinal detachment status post repair in the right eye.\n- Silicone oil in anterior chamber.\n- Dense silicone oil cataract in the right eye ob...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'History of open globe to the right eye...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

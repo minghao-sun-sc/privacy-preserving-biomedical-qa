@@ -1,0 +1,37 @@
+{
+  "document_id": "record_04005",
+  "original_length": 1768,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  Wasp sting to the right wrist area.,PLAN:\n- Solu-Medrol 125 mg IM X 1.\n- Over-the-counter Benadryl, ice and elevation of that extremity.\n- Follow up with Dr. XYZ if any further evaluation is nee...",
+    "Symptoms": "",
+    "Treatment": "\n- Solu-Medrol 125 mg IM X 1.\n- Over-the-counter Benadryl, ice and elevation of that extremity.\n- Follow up with Dr. XYZ if any further evaluation is needed.",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Medrol 125 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, US_DRIVER_LICENSE"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "US_DRIVER_LICENSE"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

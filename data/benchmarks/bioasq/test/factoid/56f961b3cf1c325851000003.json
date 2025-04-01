@@ -1,0 +1,32 @@
+{
+  "id": "56f961b3cf1c325851000003",
+  "type": "factoid",
+  "question": "What is the color of the protein Ranasmurfin?",
+  "ideal_answer": "Ranasmurfin is a blue protein.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17077494",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20615601"
+  ],
+  "snippets": [
+    {
+      "text": "Ranasmurfin, a blue protein from a different species of frog, displays a novel structure with a unique chromophoric crosslink.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20615601",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Crystallization of Ranasmurfin, a blue-coloured protein from Polypedates leucomystax.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17077494",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Ranasmurfin, a previously uncharacterized approximately 13 kDa blue protein found in the nests of the frog Polypedates leucomystax, has been purified and crystallized. The crystals are an intense blue colour ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17077494",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Blue"
+}

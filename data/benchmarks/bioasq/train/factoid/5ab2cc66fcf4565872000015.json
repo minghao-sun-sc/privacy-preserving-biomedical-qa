@@ -1,0 +1,28 @@
+{
+  "id": "5ab2cc66fcf4565872000015",
+  "type": "factoid",
+  "question": "Cytochrome p450 CYP3A is induced by rifampicin  and compounds used to treat what virus?",
+  "ideal_answer": "Etravirine is an effective and well-tolerated recently approved non-nucleoside reverse transcriptase inhibitor (NNRTI) for HIV type-1-infected patients with previous antiretroviral treatment experience.  Etravirine is a weak inducer of cytochrome P450 (CYP)3A",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16432264",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20834094"
+  ],
+  "snippets": [
+    {
+      "text": "Etravirine is an effective and well-tolerated recently approved non-nucleoside reverse transcriptase inhibitor (NNRTI) for HIV type-1-infected patients with previous antiretroviral treatment experience. Considering the importance of combining antiretrovirals for their optimal use in treating HIV, a number of drug-drug interactions with etravirine and other antiretrovirals have been evaluated. Etravirine is a weak inducer of cytochrome P450 (CYP)3A",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20834094",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "oreover, medications prescribed to HIV-positive patients may also be CYP3A inhibitors and inducers: Tipranavir, in the absence of ritonavir, is a CYP3A inducer, and ritonavir is a CYP3A inhibitor. F",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16432264",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D014780"
+  ],
+  "exact_answer": "HIV"
+}

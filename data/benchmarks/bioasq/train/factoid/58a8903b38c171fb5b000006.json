@@ -1,0 +1,54 @@
+{
+  "id": "58a8903b38c171fb5b000006",
+  "type": "factoid",
+  "question": "What is the effect of nocodazole cell treatment?",
+  "ideal_answer": "Nocodazole trigger mitotic arrest.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27177335",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27609478",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27262873",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27815904",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27815897",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27833610"
+  ],
+  "snippets": [
+    {
+      "text": "antimitotic SAC-inducing agents (i.e., nocodazole",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27815897",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "spindle assembly checkpoint (SAC)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27815897",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cells can also be enriched in mitosis using nocodazole",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27815904",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " escape of metaphase I arrest induced by nocodazole treatment ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27177335",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " the treatment of CD4+T-cells with nocodazole, which disrupts the microtubular network,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27833610",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "nocodazole-triggered mitotic arrest.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27609478",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Mitotic arrest"
+}

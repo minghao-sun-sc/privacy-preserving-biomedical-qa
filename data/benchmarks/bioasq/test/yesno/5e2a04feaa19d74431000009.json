@@ -1,0 +1,25 @@
+{
+  "id": "5e2a04feaa19d74431000009",
+  "type": "yesno",
+  "question": "Can LB-100 downregulate miR-33?",
+  "ideal_answer": "No, LB-100 has been reported to modulate (upregulate) only miR-181b-1.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28588271"
+  ],
+  "snippets": [
+    {
+      "text": "PP2A inhibition from LB100 therapy enhances daunorubicin cytotoxicity in secondary acute myeloid leukemia via miR-181b-1 upregulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28588271",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "LB100 profoundly upregulates miR-181b-1, which we show directly binds to the 3' untranslated region of Bcl-2 mRNA leading to its translational inhibition. MiR-181b-1 ectopic overexpression further diminishes Bcl-2 expression leading to suppression of sAML cell growth, and enhancement of DNR cytotoxicity. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28588271",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

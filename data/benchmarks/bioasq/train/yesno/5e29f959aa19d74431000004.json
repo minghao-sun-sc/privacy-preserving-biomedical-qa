@@ -1,0 +1,31 @@
+{
+  "id": "5e29f959aa19d74431000004",
+  "type": "yesno",
+  "question": "Can LB-100 sensitize ovarian carcinoma to cisplatin?",
+  "ideal_answer": "Yes, LB100 sensitizes ovarian carcinoma cells to cisplatin-mediated cytotoxicity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25376608"
+  ],
+  "snippets": [
+    {
+      "text": "The protein phosphatase 2A inhibitor LB100 sensitizes ovarian carcinoma cells to cisplatin-mediated cytotoxicity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25376608",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "LB100 sensitized ovarian carcinoma lines to cisplatin-mediated cell death. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25376608",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results suggest that LB100 sensitizes ovarian cancer cells to cisplatin in vitro and in vivo by modulation of the DDR pathway and cell-cycle checkpoint abrogation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25376608",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

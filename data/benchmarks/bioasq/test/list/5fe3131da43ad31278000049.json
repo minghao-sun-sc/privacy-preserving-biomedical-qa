@@ -1,0 +1,77 @@
+{
+  "id": "5fe3131da43ad31278000049",
+  "type": "list",
+  "question": "Which databases are devoted to 3D genome interactions?",
+  "ideal_answer": "3DIV is a 3D-genome Interaction Viewer and database. The 3D Genome Browser is a web-based browser for visualizing 3D genome organization and long-range chromatin interactions. GMOL is an Interactive Tool for 3D Genome Structure Visualization. 3Disease Browser is a Web server for integrating 3D genome and disease-associated chromosome rearrangement data. The 3DGD is a database of genome 3D structure, that currently holds Hi-C data on four species, for easy accessing and visualization of chromatin 3D structure data.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26868282",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30286773",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24526713",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27734896",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29106613"
+  ],
+  "snippets": [
+    {
+      "text": "3DIV: A 3D-genome Interaction Viewer and database.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29106613",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In order to overcome these limitations, we constructed a database named 3DIV (a 3D-genome Interaction Viewer and database) that provides a list of long-range chromatin interaction partners for the queried locus with genomic and epigenomic annotations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29106613",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The 3D Genome Browser: a web-based browser for visualizing 3D genome organization and long-range chromatin interactions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30286773",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "we introduce the 3D Genome Browser, http://3dgenome.org , which allows users to conveniently explore both their own and over 300 publicly available chromatin interaction data of different types.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30286773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "GMOL: An Interactive Tool for 3D Genome Structure Visualization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26868282",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "ere we present a desktop application, known as GMOL, designed to effectively visualize genome structures so that researchers may better analyze genomic data. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26868282",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "3Disease Browser: A Web server for integrating 3D genome and disease-associated chromosome rearrangement data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27734896",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We also develop a Web server (3Disease Browser, http://3dgb.cbi.pku.edu.cn/disease/) for integrating and visualizing disease-associated CR events and chromosomal 3D structure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27734896",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The 3DGD: a database of genome 3D structure",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24526713",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We built 3DGD (3D Genome Database), a database that currently collected Hi-C data on four species, for easy accessing and visualization of chromatin 3D structure data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24526713",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "3DIV, 3D Genome Browser, GMOL, 3Disease Browser, 3DGD"
+}

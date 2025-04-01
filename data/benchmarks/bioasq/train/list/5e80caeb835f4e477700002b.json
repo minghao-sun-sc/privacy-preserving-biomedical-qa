@@ -1,0 +1,47 @@
+{
+  "id": "5e80caeb835f4e477700002b",
+  "type": "list",
+  "question": "What is the drug chloroquine or hydroxychloroquine used for?",
+  "ideal_answer": "Chloroquine (CQ) has been used for decades as the primary chemotherapeutic drug for the treatment of malaria.\nHydroxychloroquine (HCQ), a 4-aminoquinolone antimalarial, is regarded as the oral therapy of choice for cutaneous and systemic lupus erythematosus (SLE). It is also licensed for rheumatoid arthritis (RA).\nChloroquine is a potent inhibitor of SARS coronavirus infection and spread.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28823509",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28862574",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28259568",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30308208",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16115318"
+  ],
+  "snippets": [
+    {
+      "text": "Chloroquine (CQ) has been used for decades as the primary chemotherapeutic drug for the treatment of malaria. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30308208",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Historically chloroquine was used to treat the most deadly form of malaria, caused by the parasite Plasmodium falciparum. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28823509",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we investigated how chloroquine (CQ), a commonly employed disease-modifying antirheumatic drug,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28259568",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hydroxychloroquine (HCQ), a 4-aminoquinolone antimalarial, is regarded as the oral therapy of choice for cutaneous and systemic lupus erythematosus (SLE). It is also licensed for rheumatoid arthritis (RA).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28862574",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chloroquine is a potent inhibitor of SARS coronavirus infection and spread.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16115318",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Malaria, Systemic lupus erythematosus, Rheumatoid arthritis, Coronavirus infection"
+}

@@ -1,0 +1,33 @@
+{
+  "document_id": "record_02670",
+  "original_length": 5982,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Right acoustic neuroma.,POSTOP DIAGNOSIS: , Right acoustic neuroma.,PROCEDURE:,  The patient was brought to the operating room.  General anesthesia was induced in the usual fashion.  After approp...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'General anesthesia was induced in the usual fashio...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

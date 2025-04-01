@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04848",
+  "original_length": 3852,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Patent coronary arteries with normal left anterior descending, left circumflex, and dominant left circumflex system.\n- Nondominant right, which is free of atheromatous plaque.\n- Minimal plaque i...",
+    "Symptoms": "",
+    "Treatment": "\n- Selective coronary angiography.\n- Left heart catheterization with hemodynamics.\n- LV gram with power injection.\n- Right femoral artery angiogram.\n- Closure of the right femoral artery using 6-Fr...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "of 2 mg, and 25 mcg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Patent coronary arteries with normal left anterior...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

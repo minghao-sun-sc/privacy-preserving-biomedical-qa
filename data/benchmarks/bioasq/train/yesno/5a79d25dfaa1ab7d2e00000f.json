@@ -1,0 +1,82 @@
+{
+  "id": "5a79d25dfaa1ab7d2e00000f",
+  "type": "yesno",
+  "question": "Does wheat belongs to the genus Avena, yes or no?",
+  "ideal_answer": "oat seedlings (Avena sativa)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29146257",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10984842",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27079356",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11908651",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11536867",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24226111",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26618715",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28132155",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28132141",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20658121"
+  ],
+  "snippets": [
+    {
+      "text": "oat seedlings (Avena sativa)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29146257",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "wild green-oat (Avena sativa) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26618715",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " Oat (Avena sativa L.)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28132141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Oat (Avena sativa L.)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28132155",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Avena (Oats)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24226111",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "wild oats (Avena fatua L.)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27079356",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "oats (genus Avena)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10984842",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Avena sativa L. and A. byzantina C. Koch) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20658121",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " oat (Avena sativa L.).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11908651",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "oat (Avena sativa L.) and wheat (Triticum aestivum",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11536867",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

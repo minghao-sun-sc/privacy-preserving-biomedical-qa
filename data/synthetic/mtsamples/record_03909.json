@@ -1,0 +1,36 @@
+{
+  "document_id": "record_03909",
+  "original_length": 2065,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Kawasaki disease.,DISCHARGE DIAGNOSIS:,  Kawasaki disease, resolving.,HOSPITAL COURSE:,  This is a 14-month-old baby boy Caucasian who came in with presumptive diagnosis of Kawasaki with fever fo...",
+    "Symptoms": "",
+    "Treatment": "This is a 14-month-old baby boy Caucasian who came in with presumptive diagnosis of Kawasaki with fever for more than 5 days and conjunctivitis, mild arthritis with edema, rash, resolving and with ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "dose 340 mg, dose 40 mg, aspirin 15 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, NRP"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

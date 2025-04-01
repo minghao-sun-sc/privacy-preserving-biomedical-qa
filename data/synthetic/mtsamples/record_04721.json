@@ -1,0 +1,39 @@
+{
+  "document_id": "record_04721",
+  "original_length": 3654,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",Successful implantation of a dual chamber permanent pacemaker via the left cephalic vein. The patient will be observed overnight and will go home in the morning.",
+    "Symptoms": "",
+    "Treatment": ", Implantation of a dual chamber permanent pacemaker.,APPROACH:, Left cephalic vein.,LEADS IMPLANTED: ,Medtronic model [identifier] in the right atrium, serial number [identifier]. Medtronic [identifier] in the right v...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON, DATE_TIME, URL, NRP, LOCATION"
+      ],
+      "pii_detected": [
+        "PERSON",
+        "DATE_TIME",
+        "URL",
+        "NRP",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01368",
+  "original_length": 2098,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "AND PLAN:\n- Hematuria.  Coumadin needs to be stopped, so we will evaluate what is going on, which is probably just some BPH.  We will also obtain a repeat UA as he did describe to me some dysuria. ...",
+    "Symptoms": "",
+    "Treatment": "\n- Hematuria.  Coumadin needs to be stopped, so we will evaluate what is going on, which is probably just some BPH.  We will also obtain a repeat UA as he did describe to me some dysuria.  However,...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "aspirin 81 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

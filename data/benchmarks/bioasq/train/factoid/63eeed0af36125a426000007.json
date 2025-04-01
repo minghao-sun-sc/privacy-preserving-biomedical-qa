@@ -1,0 +1,44 @@
+{
+  "id": "63eeed0af36125a426000007",
+  "type": "factoid",
+  "question": "What disease can be treated with Teclistamab?",
+  "ideal_answer": "Teclistamab can be used for Multiple Myeloma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35749004",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35661166"
+  ],
+  "snippets": [
+    {
+      "text": "Teclistamab in Relapsed or Refractory Multiple Myeloma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35661166",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In the phase 1 dose-defining portion of the study, teclistamab showed promising efficacy in patients with relapsed or refractory multiple myeloma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35661166",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: Teclistamab resulted in a high rate of deep and durable response in patients with triple-class-exposed relapsed or refractory multiple myeloma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35661166",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Translational Modeling Predicts Efficacious Therapeutic Dosing Range of Teclistamab for Multiple Myeloma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35749004",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "BACKGROUND: Teclistamab (JNJ-64007957), a B-cell maturation antigen \u00d7 CD3 bispecific antibody, displayed potent T-cell-mediated cytotoxicity of multiple myeloma cells in preclinical studies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35749004",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Multiple Myeloma"
+}

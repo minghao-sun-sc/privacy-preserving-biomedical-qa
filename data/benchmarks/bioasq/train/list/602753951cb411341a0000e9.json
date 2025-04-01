@@ -1,0 +1,32 @@
+{
+  "id": "602753951cb411341a0000e9",
+  "type": "list",
+  "question": "Which drugs are included in the EE-4A regimen for Wilm's tumor?",
+  "ideal_answer": "EE-4A regimen includes dactinomycin and vincristine.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18970928",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30774381"
+  ],
+  "snippets": [
+    {
+      "text": "Five patients received treatment regimen EE-4A, dactinomycin, and vincristine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18970928",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "One month following the resection, chemotherapy with vincristine plus dactinomycin (EE-4A regimen) was commenced.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30774381",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "llowing the resection, chemotherapy with vincristine plus dactinomycin (EE-4A regimen) was commenced. At the 69-mon",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30774381",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "dactinomycin, vincristine"
+}

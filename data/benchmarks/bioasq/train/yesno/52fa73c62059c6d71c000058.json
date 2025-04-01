@@ -1,0 +1,92 @@
+{
+  "id": "52fa73c62059c6d71c000058",
+  "type": "yesno",
+  "question": "Are there any urine biomarkers for chronic kidney disease?",
+  "ideal_answer": "Chronic kidney disease (CKD), is a progressive loss in renal function over a period of months or years. The symptoms of worsening kidney function are non-specific, and might include feeling generally unwell and experiencing a reduced appetite. Often, chronic kidney disease is diagnosed as a result of screening of people known to be at risk of kidney problems, such as those with high blood pressure or diabetes and those with a blood relative with chronic kidney disease. Chronic kidney disease may also be identified when it leads to one of its recognized complications, such as cardiovascular disease, anemia or pericarditis. It is differentiated from acute kidney disease in that the reduction in kidney function must be present for over 3 months.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20425065",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24315007",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24281781",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23758910",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24308223",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24065527",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23344473",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21151537",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23339563",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24133923",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21286212",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24224012",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24205707",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23617441",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22189039",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21538916",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23061738",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22914685",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21816077",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24152229"
+  ],
+  "snippets": [
+    {
+      "text": "Kidney and urine proteomic biomarkers are considered as promising diagnostic tools to predict CKD progression early in diabetic nephropathy, facilitating timely and selective intervention that may reduce the related health-care expenditures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21538916",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Both blood and urine biomarkers are reviewed in this paper and offer a considerable opportunity to enhance the understanding of the pathophysiology and known epidemiology of these recently defined syndromes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21286212",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cardiorenal syndromes (CRS) have been subclassified as five defined entities which represent clinical circumstances in which both the heart and the kidney are involved in a bidirectional injury and dysfunction via a final common pathway of cell-to-cell death and accelerated apoptosis mediated by oxidative stress.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21286212",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "There is a strong association between both acute and chronic dysfunction of the heart and kidneys with respect to morbidity and mortality.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21151537",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Both blood and urine biomarkers, including the assessment of catalytic iron, a critical element to the generation of oxygen-free radicals and oxidative stress, are reviewed in this paper.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21151537",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Identification of urine biomarkers has proven to be beneficial in recent years because of ease of handling, stability, and the ability to standardize the various markers to creatinine or other peptides generally already present in the urine. Recent markers such as neutrophil gelatinase-associated lipocalin (NGAL), kidney injury molecule-1 (KIM-1), and podocin have garnered a lot of attention. The emergence of these and other biomarkers is largely because of the evolution of novel genomic and proteomic applications in investigations of acute kidney injury and chronic kidney disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20425065",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:784",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004194",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0002678",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012079",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007674",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0002676",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0002677",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007672",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014556",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014554",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007676",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=diseases_category",
+    "http://www.disease-ontology.org/api/metadata/DOID:3265",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0002544",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015415",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002908",
+    "http://www.disease-ontology.org/api/metadata/DOID:2975",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051437",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051436",
+    "http://www.disease-ontology.org/api/metadata/DOID:557",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003928",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007668",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D054316"
+  ],
+  "exact_answer": "Yes"
+}

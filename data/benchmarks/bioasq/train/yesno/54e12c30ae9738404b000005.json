@@ -1,0 +1,41 @@
+{
+  "id": "54e12c30ae9738404b000005",
+  "type": "yesno",
+  "question": "Is COL5A2 gene associated to ischemic heart disease?",
+  "ideal_answer": "Analysis of a gene co-expression network establishes robust association between Col5a2 and ischemic heart disease  ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23574622"
+  ],
+  "snippets": [
+    {
+      "text": "Analysis of a gene co-expression network establishes robust association between Col5a2 and ischemic heart disease",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23574622",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Col5a2, a gene previously not specifically linked to MI response but responsible for the classic type of Ehlers-Danlos syndrome, was found to have many and strong co-expression associations within this community",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23574622",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Col5a2 shows predictive potential in MI, and in principle may represent a novel candidate marker for the identification and treatment of ischemic cardiovascular disease",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23574622",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Analysis of a gene co-expression network establishes robust association between Col5a2 and ischemic heart disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23574622",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:3394",
+    "http://www.uniprot.org/uniprot/CO5A2_HUMAN",
+    "http://www.uniprot.org/uniprot/CO5A2_MOUSE"
+  ],
+  "exact_answer": "Yes"
+}

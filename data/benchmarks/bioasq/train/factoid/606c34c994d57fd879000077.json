@@ -1,0 +1,25 @@
+{
+  "id": "606c34c994d57fd879000077",
+  "type": "factoid",
+  "question": "Does the HercepTest use a polycloncal or monoclonal antibody?",
+  "ideal_answer": "The HercepTest uses a polyclonal antibody.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22827758"
+  ],
+  "snippets": [
+    {
+      "text": "Comparison of HER2 immunohistochemical results using a monoclonal antibody (SV2-61\u03b3) and a polyclonal antibody (for Dako HercepTest) in advanced gastric cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22827758",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We compared a monoclonal antibody (SV2-61\u03b3) and a polyclonal antibody (Dako HercepTest) in immunohistochemical assessments of human epidermal growth factor receptor 2 (HER2) expression in 73 samples of advanced gastric cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22827758",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "polyclonal"
+}

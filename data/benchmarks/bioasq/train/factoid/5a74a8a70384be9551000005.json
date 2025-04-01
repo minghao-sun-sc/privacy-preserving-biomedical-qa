@@ -1,0 +1,50 @@
+{
+  "id": "5a74a8a70384be9551000005",
+  "type": "factoid",
+  "question": "Which siRNA based drug is in clinical trials for the treatment of pancreatic cancer?",
+  "ideal_answer": "siG12D-LODERTM has been tested in a phase 1/2a clinical trial of patients with pancreatic cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26009994",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27147553"
+  ],
+  "snippets": [
+    {
+      "text": "The combination of siG12D-LODER\u2122 and chemotherapy is well tolerated, safe and demonstrated a potential efficacy in patients with LAPC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26009994",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "An open-label Phase 1/2a study in the first-line setting of patients with non-operable LAPC was initiated. In this study patients were assigned to receive a single dose of siG12D-LODERs, in three escalating dose cohorts (0.025mg, 0.75mg and 3.0mg). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26009994",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The miniature biodegradable implant siG12D-LODER\u2122 was inserted into a tumor and released a siRNA drug against KRAS(G12D) along four months. This novel siRNA based drug was studied, in combination with chemotherapy, as targeted therapy for Locally Advanced Pancreatic Cancer (LAPC).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26009994",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RNAi therapy targeting KRAS in combination with chemotherapy for locally advanced pancreatic cancer patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26009994",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The miniature biodegradable implant siG12D-LODER\u2122 was inserted into a tumor and released a siRNA drug against KRAS(G12D) along four months. This novel siRNA based drug was studied, in combination with chemotherapy, as targeted therapy for Locally Advanced Pancreatic Cancer (LAPC)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26009994",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Conventional chemotherapy treatments for pancreatic cancer are mainly palliative. RNA interference (RNAi)-based drugs present the potential for a new targeted treatment. LOcal Drug EluteR (LODER(TM)) is a novel biodegradable polymeric matrix that shields drugs against enzymatic degradation and releases small interfering RNA (siRNA) against G12D-mutated KRAS (siG12D). siG12D-LODER has successfully passed a phase 1/2a clinical trial.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27147553",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "siG12D-LODERTM"
+}

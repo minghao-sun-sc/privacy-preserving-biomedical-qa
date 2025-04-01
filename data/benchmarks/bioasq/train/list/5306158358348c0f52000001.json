@@ -1,0 +1,108 @@
+{
+  "id": "5306158358348c0f52000001",
+  "type": "list",
+  "question": "Which genetic defects are observed in Prader-Willi syndrome?",
+  "ideal_answer": "The predominant genetic defects in Prader-Willi syndrome are 15q11-13 deletions of paternal origin and maternal chromosome 15 uniparental disomy, or rare imprinting mutations, combined with monoallelic expression of the paternal alleles.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/9629378",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9613204",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1608955",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14749005",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21798057",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18627056",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18086025",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8630505",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8957518"
+  ],
+  "snippets": [
+    {
+      "text": "Prader-Willi syndrome is a complex genetic disease caused by lack of expression of paternally inherited genes on chromosome 15q11-q13.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21798057",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Prader-Willi syndrome (PWS) is caused by the disturbed expression of genes from the imprinted region of 15q11-q13, but the specific contributions of individual genes remain unknown.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18627056",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Prader-Willi syndrome (PWS) is a rare disorder caused by genetic defects in certain regions of chromosome 15q11-13.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18086025",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Prader-Willi syndrome (PWS) is an example of a human genetic disorder that involves imprinting genes on the proximal long arm of chromosome 15 and SNRPN gene as a candidate gene for this syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14749005",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Genomic imprinting plays an important role in the molecular pathogenesis of PWS that caused by paternal microdeletions of 15q11-q13 or maternal UPD of chromosome 15. The basic defect seemed to be an absence of function of PWS genes that are normally expressed only from the paternal chromosome 15.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14749005",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Abnormalities in imprinted inheritance occur in several genetic diseases and cancer, and are exemplified by the diverse genetic defects involving chromosome 15q11-q13 in Prader-Willi (PWS) and Angelman (AS) syndromes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9613204",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The predominant genetic defects in PW are 15q11-13 deletions of paternal origin and maternal chromosome 15 uniparental disomy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9629378",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In both disorders, these mutations are associated with parent-of-origin specific methylation at several 15q11-13 loci.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9629378",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Prader-Willi syndrome (PWS) is caused by absence of a paternal contribution of the chromosome region 15q11-q13, resulting from paternal deletions, maternal uniparental disomy, or rare imprinting mutations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8957518",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Because methylation analysis can detect all three major classes of genetic defects associated with PWS (deletion, UPD, or imprinting mutations), methylation analysis with either PW71 or SNRPN is an efficient primary screening test to rule out a diagnosis of PWS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8957518",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The predominant genetic defects in Prader-Willi syndrome (PWS) are 15q11-q13 deletions of paternal origin and maternal chromosome 15 uniparental disomy (UPD).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8630505",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In both disorders, these mutations are associated with parent-of-origin specific methylation at several 15q11-q13 loci. The critical PWS region has been narrowed to a approximately 320-kb region between D15S63 and D15S174, encoding several imprinted transcripts, including PAR5, IPW, PAR1 (refs 7,8) and SNRPN, which has so far been considered a strong candidate for the PWS gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8630505",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The genetic defects in Prader-Willi syndrome (PWS) and Angelman syndrome (AS) map to 15q11-13.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1608955",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:11983",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0071514",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050325",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011218",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005820",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006349",
+    "http://www.disease-ontology.org/api/metadata/DOID:630",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018392"
+  ],
+  "exact_answer": "15q11-13 deletions of paternal origin, maternal chromosome 15 uniparental disomy, rare imprinting mutations, monoallelic expression of the paternal alleles"
+}

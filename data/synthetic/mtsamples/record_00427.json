@@ -1,0 +1,36 @@
+{
+  "document_id": "record_00427",
+  "original_length": 1218,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Pilonidal cyst with abscess formation.,POSTOPERATIVE DIAGNOSIS:,  Pilonidal cyst with abscess formation.,OPERATION: , Excision of infected pilonidal cyst.,PROCEDURE: , After obtaini...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',OPERATION: , Excision of infected pilonidal cyst...'"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

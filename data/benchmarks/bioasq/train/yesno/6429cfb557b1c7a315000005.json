@@ -1,0 +1,128 @@
+{
+  "id": "6429cfb557b1c7a315000005",
+  "type": "yesno",
+  "question": "Should patients using inhaled glucocorticoids for asthma or COPD be advised to stop these medications to prevent COVID-19?",
+  "ideal_answer": "No. There is no evidence to suggest that patients using inhaled glucocorticoids for asthma or COPD should stop these medications to prevent COVID-19. In fact, there is evidence to suggest that these medications may have a protective role in preventing severe COVID-19.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33114246",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34112029",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34081722",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34295392",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33297799",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34922224",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34457096",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32348052",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36450371",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33183113",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32843175",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33248363",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34926333",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33461348",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32554082",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33844996",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33357281",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33276252",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35801604",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35887681"
+  ],
+  "snippets": [
+    {
+      "text": "International recommendations suggest maintaining asthma under control to limit exacerbations occurrence, by using all available treatment. The minimum steroid dosage effective to control symptoms should be maintained to avoid exacerbations;",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33297799",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The meta-analysis revealed no significant difference in the risk for the development of a fatal course of COVID-19 with preadmission use of inhaled corticosteroids in patients with COVID-19 relative to non-use of inhaled corticosteroids (pooled odds ratio=1.28; 95% confidence interval 0.73-2.26). Similarly, the meta-analysis observed no significant difference in the risk for the development of a severe course of COVID-19 with preadmission use of inhaled corticosteroids in patients with COVID-19 relative to non-use of inhaled corticosteroids (pooled odds ratio=1.45; 95% confidence interval 0.96-2.20).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33461348",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our findings assured the safety of continued use of inhaled corticosteroids during the COVID-19 pandemic.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33461348",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our study showed that asthma is not associated with worse outcomes of COVID-19, despite the higher need for respiratory support compared with the general population, while the use of ICS allowed for a shorter hospital stay.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35887681",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Patients with asthma in regular therapy with ICS at home had significantly shorter hospital stay compared to those with no treatments (25.2 vs. 11.3 days, p = 0.024).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35887681",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Evidence from clinical studies indicates that the inhaled corticosteroids (ICS) routinely taken for asthma and COPD could have had a protective role in preventing severe COVID-19 and, therefore, may be a promising treatment for COVID-19.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36450371",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The benefit-risk ratio is however clearly in favor of continuing inhaled corticosteroids in patients with asthma or COPD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32348052",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Due to its known and important benefits ICS should be prescribed as usual for both asthma and COPD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34295392",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The available recommendations state that patients with asthma should use inhaled glucocorticosteroids (GCS) on a regular basis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35801604",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These findings should encourage clinicians to continue ICS therapy for COPD patients during the COVID-19 pandemic.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34081722",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Evidence from clinical studies indicates that the inhaled corticosteroids (ICS) routinely taken for asthma and COPD could have had a protective role in preventing severe COVID-19 and, therefore, may be a promising treatment for COVID-19.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36450371",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The available evidence suggests that severe asthma patients do not have an increased risk of poor COVID-19 outcomes and that it is safe to treat asthmatic patients with inhaled corticosteroids (ICS) and biologics during the pandemic, even though some studies indicate that high doses of ICS may predispose to COVID-19.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34926333",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " However, patients with asthma or COPD should continue all prescribed inhaled medications.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33248363",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, patients with asthma or COPD should continue all prescribed inhaled medications.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33248363",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Additionally, the use of systemic or inhaled glucocorticoids does not appear to increase the risk of severe COVID-19, but there is no evidence guiding the use of biologic therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33357281",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our study supports the recommendation that patients with chronic pulmonary diseases, including asthma and COPD who require treatment with either inhaled or systemic corticosteroids, should continue their use during the COVID-19 pandemic.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33276252",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

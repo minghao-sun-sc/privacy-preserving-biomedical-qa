@@ -1,0 +1,45 @@
+{
+  "id": "530a34eb970c65fa6b000004",
+  "type": "summary",
+  "question": "What is the oldest human sample analysed by paleontology proteomics?",
+  "ideal_answer": "The Tyrolean Iceman's brain is the oldest (5300 years old) human sample that has been studied by paleoproteomics.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22348088",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18720427",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23739949",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22848450",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17918181"
+  ],
+  "snippets": [
+    {
+      "text": "Paleoproteomic study of the Iceman's brain tissue.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23739949",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We report the first use of shotgun proteomics to detect the protein expression profile of buccal swabs and cloth samples from two 500-year-old Andean mummies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22848450",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Identification of ancient biological samples from the 1991-discovered and more than 5300-year-old Tyrolean mummy, also called iceman or Oetzi, is very difficult. T",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18720427",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To determine whether a 2,700-year-old tumor can be reliably diagnosed using microscopic and proteomic techniques ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17918181",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020543",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D010163",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006801",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D040901"
+  ]
+}

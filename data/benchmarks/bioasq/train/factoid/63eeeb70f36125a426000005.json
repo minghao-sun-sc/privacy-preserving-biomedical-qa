@@ -1,0 +1,45 @@
+{
+  "id": "63eeeb70f36125a426000005",
+  "type": "factoid",
+  "question": "What disease can be treated with Glofitamab?",
+  "ideal_answer": "Glofitamab is being tested for treatment of DLBCL after CAR T-Cell Therapy",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35626120",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34941996",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36198538"
+  ],
+  "snippets": [
+    {
+      "text": "Glofitamab Treatment in Relapsed or Refractory DLBCL after CAR T-Cell Therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35626120",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In this study, we evaluated the safety and efficacy of a monotherapy with the bispecific CD20xCD3 antibody glofitamab in patients who progressed after CAR T treatment. We report nine consecutive patients with progressive DLBCL after preceding CAR T-cell therapy. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35626120",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our data suggest that glofitamab treatment is well tolerated and effective in patients with DLBCL relapsing after CAR T-cell therapy and can enhance residual CAR T-cell activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35626120",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bispecific antibodies such as epcoritamab, mosunetuzumab, and glofitamab, anti-CD19 antibody drug tafasitamab combined with lenalidomide, CD19 antibody drug conjugate loncastuximab tesirine, oral selective inhibitor of nuclear export selinexor, and several new agents have been investigated for DLBCL. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36198538",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Glofitamab, a novel CD20xCD3, T-cell-engaging bispecific antibody, exhibited single-agent activity in Study NP30179, a first-in-human, phase 1 trial in relapsed/refractory B-cell non-Hodgkin lymphoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34941996",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "DLBCL"
+}

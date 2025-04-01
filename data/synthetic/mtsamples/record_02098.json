@@ -1,0 +1,38 @@
+{
+  "document_id": "record_02098",
+  "original_length": 5965,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Fracture dislocation, C2.,POSTOPERATIVE DIAGNOSIS:  ,Fracture dislocation, C2.,OPERATION PERFORMED\n- Open reduction and internal fixation (ORIF) of comminuted C2 fracture.\n- Posteri...",
+    "Symptoms": "",
+    "Treatment": "Orthopedic evaluation and management",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, DATE_TIME, US_DRIVER_LICENSE, PERSON"
+      ],
+      "pii_detected": [
+        "URL",
+        "DATE_TIME",
+        "US_DRIVER_LICENSE",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

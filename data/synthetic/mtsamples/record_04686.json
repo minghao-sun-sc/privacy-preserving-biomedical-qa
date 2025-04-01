@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04686",
+  "original_length": 1336,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Moderate obstructive lung disease with some improvement with bronchodilator indicating bronchospastic element.\n- Probably there is some restrictive element because of fibrosis.  The reason for t...",
+    "Symptoms": "",
+    "Treatment": ", FVC was 59%.  FEV1 was 45%.  FEV1/FVC ratio was 52%. The predicted was 67%.  FEF 25/75% was 22%, improved about 400-cc, which represents 89% improvement with bronchodilator.  SVC was 91%. Inspira...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'FEF 25/75% was 22%, improved about 400-cc, which r...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

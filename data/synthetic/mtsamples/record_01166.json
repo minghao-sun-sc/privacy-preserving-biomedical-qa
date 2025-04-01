@@ -1,0 +1,38 @@
+{
+  "document_id": "record_01166",
+  "original_length": 2629,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,  Bladder lesions with history of previous transitional cell bladder carcinoma.,POSTOPERATIVE DIAGNOSIS: , Bladder lesions with history of previous transitional cell bladder carcinom...",
+    "Symptoms": "",
+    "Treatment": "Oncology evaluation and management",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, LOCATION, US_DRIVER_LICENSE, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "LOCATION",
+        "US_DRIVER_LICENSE",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

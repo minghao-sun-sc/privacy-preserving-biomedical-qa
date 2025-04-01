@@ -1,0 +1,36 @@
+{
+  "id": "530c7f52970c65fa6b000010",
+  "type": "factoid",
+  "question": "Oxantel is used for periodontitis treatment. How does it work?",
+  "ideal_answer": "Oxantel, a cholinergic anthelmintic and fumarate reductase inhibitor, significantly inhibited biofilm formation by P. gingivalis and disrupted established biofilms.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20038616",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24165189"
+  ],
+  "snippets": [
+    {
+      "text": "Oxantel disrupts polymicrobial biofilm development of periodontal pathogens",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24165189",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "he anthelmintic drug oxantel has been shown to inhibit fumarate reductase (Frd) activity in some pathogenic bacteria and inhibit P. gingivalis homotypic biofilm formation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24165189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Oxantel, a cholinergic anthelmintic and fumarate reductase inhibitor, significantly inhibited biofilm formation by P. gingivalis and disrupted established biofilms at concentrations below its MIC against planktonic cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20038616",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4251142",
+    "http://www.disease-ontology.org/api/metadata/DOID:824",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D010518"
+  ],
+  "exact_answer": "Oxantel disrupts polymicrobial biofilm"
+}

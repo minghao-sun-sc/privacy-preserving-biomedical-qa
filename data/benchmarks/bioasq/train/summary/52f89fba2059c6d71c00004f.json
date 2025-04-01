@@ -1,0 +1,37 @@
+{
+  "id": "52f89fba2059c6d71c00004f",
+  "type": "summary",
+  "question": "Can DMSO as an additive improve proteomic analysis results?",
+  "ideal_answer": "Quantitative precisions improved significantly when DMSO (dimethylsulfoxide) was added to the matrix solution.\nIntroducing to the 80% formic acid injection solution an organic solvent such as acetonitrile or acetonitrile-DMSO induced further retention selectivity, and increasing levels of organic solvents reduced on-column retention.\nLow percentages of dimethylsulfoxide (DMSO) in liquid chromatography solvents lead to a strong enhancement of electrospray ionization of peptides, improving the sensitivity of protein identification in bottom-up proteomics by up to tenfold.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18393531",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18926777",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23975139"
+  ],
+  "snippets": [
+    {
+      "text": "Introducing to the 80% formic acid injection solution an organic solvent such as acetonitrile or acetonitrile-DMSO induced further retention selectivity, and increasing levels of organic solvents reduced on-column retention.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18926777",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report that low percentages of dimethylsulfoxide (DMSO) in liquid chromatography solvents lead to a strong enhancement of electrospray ionization of peptides, improving the sensitivity of protein identification in bottom-up proteomics by up to tenfold. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23975139",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We found that the quantitative precisions improved significantly when DMSO (dimethylsulfoxide) was added to the matrix solution.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18393531",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020543",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D040901",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004121",
+    "http://www.biosemantics.org/jochem#4275915"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "5e4d6e446d0a27794100002f",
+  "type": "yesno",
+  "question": "Is MAGE-A3 immunotherapeutic effective for non-small-cell lung cancer?",
+  "ideal_answer": "No. In a randomized, double-blind, placebo-controlled, phase 3 trial (MAGE-A3-positive non-small-cell lung cancer; MAGRIT), adjuvant treatment with the MAGE-A3 immunotherapeutic did not increase disease-free survival compared with placebo in patients with MAGE-A3-positive surgically resected non-small-cell lung cancer. Based on these results, further development of the MAGE-A3 immunotherapeutic for use in non-small-cell lung cancer has been stopped.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27132212"
+  ],
+  "snippets": [
+    {
+      "text": "INTERPRETATION: Adjuvant treatment with the MAGE-A3 immunotherapeutic did not increase disease-free survival compared with placebo in patients with MAGE-A3-positive surgically resected NSCLC. Based on our results, further development of the MAGE-A3 immunotherapeutic for use in NSCLC has been stopped.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27132212",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the overall population, median disease-free survival was 60\u00b75 months (95% CI 57\u00b72-not reached) for the MAGE-A3 immunotherapeutic group and 57\u00b79 months (55\u00b77-not reached) for the placebo group (hazard ratio [HR] 1\u00b702, 95% CI 0\u00b789-1\u00b718; p=0\u00b774). Of the patients who did not receive chemotherapy, median disease-free survival was 58\u00b70 months (95% CI 56\u00b76-not reached) in those in the MAGE-A3 group and 56\u00b79 months (44\u00b74-not reached) in the placebo group (HR 0\u00b797, 95% CI 0\u00b780-1\u00b718; p=0\u00b776). Because of the absence of treatment effect, we could not identify a gene signature predictive of clinical benefit to MAGE-A3 immunotherapeutic. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27132212",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "uvant treatment with the MAGE-A3 immunotherapeutic did not increase disease-free survival compared with placebo in patients with MAGE-A3-positive surgically resected NSCLC. Ba",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27132212",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

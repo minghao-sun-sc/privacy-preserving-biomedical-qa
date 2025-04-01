@@ -1,0 +1,51 @@
+{
+  "id": "63f02ec1f36125a426000017",
+  "type": "summary",
+  "question": "What is the mechanism of action of Adagrasib?",
+  "ideal_answer": "Adagrasib is a KRASG12C inhibitor that irreversibly and selectively binds KRASG12C, locking it in its inactive state.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35666594",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35938195",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35658005",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35608481"
+  ],
+  "snippets": [
+    {
+      "text": "BACKGROUND: Adagrasib, a KRASG12C inhibitor, irreversibly and selectively binds KRASG12C, locking it in its inactive state",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35658005",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Adagrasib in Non-Small-Cell Lung Cancer Harboring a KRASG12C Mutation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35658005",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "CONCLUSIONS: In patients with previously treated KRASG12C -mutated NSCLC, adagrasib showed clinical efficacy without new safety signals. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35658005",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the phase II KRYSTAL-1 trial, the KRASG12C inhibitor adagrasib yielded an overall response rate of 43% and a disease control rate of 80% in patients with previously treated KRASG12C-mutant non-small cell lung cancer. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35666594",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The activity of KRAS inhibitors against brain metastases is relatively unexplored. The recent work on preclinical models and preliminary data from the ongoing KRYSTAL-1 phase Ib clinical trial support the potential of adagrasib (MRTX849) to penetrate the central nervous system and provide control of KRASG12C brain metastases. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35608481",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "There are other KRAS-targeted agents currently under study, including adagrasib, with growing interest in targeting KRAS downstream pathways.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35938195",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

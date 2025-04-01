@@ -1,0 +1,240 @@
+{
+  "id": "640c821c201352f04a000023",
+  "type": "yesno",
+  "question": "Is Wilson's disease described as an iron storage disease?",
+  "ideal_answer": "No, Wilson's disease is an autosomal recessive disorder caused by a mutation in the ATP7B gene, which leads to an accumulation of copper in the body. It is not an iron storage disease.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23583003",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34289020",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35322347",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8984578",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25704483",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14738953",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34341141",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9093597",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23542331",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30646728",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36381061",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30271060",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21886393",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31345362",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16466879",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33175593",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8114295",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8229372",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17505988",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11787982",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24266916",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32738633",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33555495",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22774841",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33573009",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1306026",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12508671",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22098612",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8757902",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28168129"
+  ],
+  "snippets": [
+    {
+      "text": "Wilson's disease (WD), an inherited disorder of copper metabolism that mostly affects the liver and brain;",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35322347",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wilsons disease is a rare autosomal recessive disorder of copper transportation, which is fatal if not treated.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8757902",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wilsons disease and idiopathic toxicosis are examples of severe chronic liver diseases that are the results of genetic predisposition to the hepatic accumulation of copper.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30646728",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wilson disease is a genetic copper storage disorder that causes hepatic and neurologic symptoms. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23542331",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wilson's disease represents a copper storage disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8984578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hereditary hemochromatosis and Wilson disease are autosomal recessive storage disorders of iron and copper overload, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24266916",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hereditary deposition of iron (primary haemochromatosis) or copper (Wilson's disease) are autosomal recessive metabolic disease characterized by progressive liver pathology and subsequent involvement of various other organs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17505988",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "OBJECTIVES: Wilson's disease (WD) is a metabolic disorder leading to hepatic and extrahepatic copper",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31345362",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wilson's disease (WD) is a rare hereditary disorder of copper metabolism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33555495",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wilson's disease, a copper storage disorder, in which biliary copper excretion is reduced, is inherited as an autosomal recessive trait.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12508671",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND & AIMS: Wilson disease is a genetic copper storage disorder that causes hepatic and n",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23542331",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "UNLABELLED: Wilson disease (WD) is a rare inherited disorder of copper metabolism, which can lead to severe liver failure and to a variety of neuropsychiatr",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22098612",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wilson disease (WD) (OMIM# 277900) is an autosomal recessive inherited disorder characterized by excess copper (Cu) storage in different human tissues, such as the brain, liver, and the corneas of the eyes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33573009",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "UNLABELLED: Wilson's disease (WND) and hereditary hemochromatosis (HH) are two metal loading diseases of copper and iron, respectively, and are both recessivel",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22774841",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wilson's disease is an autosomal recessive inherited disease with congenital copper metabolism disorder, characterized by decreased ceruloplasmin and increased urine copper, which can involve multiple organs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36381061",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wilson's disease is an autosomal recessive disease of copper metabolism which is widely recognized as a disease occurring clinically in children, adolescents, and young adults.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8229372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hereditary copper-associated hepatitis in dogs resembles Wilson's disease, a copper storage disease in humans.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23583003",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wilson's disease is a rare inherited disorder of copper metabolism causing severe damage to vital organs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21886393",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Inherited copper toxic disease, Wilson's disease, is an autosomal recessive disorder arising from a defect in biliary copper excretion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9093597",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wilson's disease is a genetic disorder of copper metabolism with a hepatic or neurologic presentation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14738953",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wilson's disease is an autosomal recessive disease of abnormal copper metabolism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30271060",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Hemochromatosis and Wilson's disease are known as iron and copper accumulation disorders, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8114295",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Wilson's disease represents a copper storage disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8984578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " In the new paradigm, Wilson's disease is seen as a hereditary disorder associated with copper intoxication.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16466879",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ve determination of elevated liver iron content. Wilson's disease represents a copper storage disease. Prominent clinical features are hepatomegaly an",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8984578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wilson's disease is an autosomal recessive disorder in which the liver does not properly release copper into bile, resulting in prominent copper accumulation in various tissues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25704483",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wilson's disease is one such\u00a0hereditary disease\u00a0that creates chaos in tissues, usually the brain and liver, via deposition of abnormal amounts of copper in them.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28168129",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wilson's disease is rare autosomal-recessive disorder originated on the basis of metabolic copper over-storage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1306026",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wilson's disease is an autosomal-recessive disorder of copper metabolism caused by mutations in ATP7B and associated with neurological, psychiatric, ophthalmological and hepatic manifestations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34341141",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PROJECT: Wilson's disease (WD) is an inherited disorder of copper metabolism characterised by juvenile liver cirrhosis and by neurological symptoms",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11787982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "OBJECTIVE: Wilson's disease (WD) is a hereditary disorder of copper metabolism",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33175593",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wilson's disease is an autosomal-recessive disorder of copper metabolism with neurological and hepatic presentations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34289020",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Wilson's disease is an inherited disorder associated with copper accumulation in the liver, brain and other vital organs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32738633",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

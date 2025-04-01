@@ -1,0 +1,32 @@
+{
+  "id": "5e9202c52d3121100d000006",
+  "type": "list",
+  "question": "List the core SNARE complex proteins.",
+  "ideal_answer": "VAMP2\nSyntaxin\nSNAP25",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29548989",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28426820"
+  ],
+  "snippets": [
+    {
+      "text": "SNAP-25 is a protein involved in regulated membrane fusion and part of the SNARE complex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29548989",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SNAP-25 together with Syntaxin 1 and VAMP-2 forms the ternary SNARE complex essential for mediating activity-dependent release of hormones and neurotransmitters.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29548989",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The soluble N-ethylmaleimide-sensitive factor attachment protein receptor (SNARE) complex is composed of three neuronal proteins VAMP2, Syntaxin and SNAP25, which plays a core role during the process of membrane fusion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28426820",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "VAMP2, Syntaxin, SNAP25"
+}

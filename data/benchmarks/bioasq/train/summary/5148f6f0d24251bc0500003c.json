@@ -1,0 +1,182 @@
+{
+  "id": "5148f6f0d24251bc0500003c",
+  "type": "summary",
+  "question": "Give examples of next-generation sequencing applications in mutation screening?",
+  "ideal_answer": "Next generation sequencing data for a particular genomic region can be seen as the summation of all the individual sequences (reads) obtained for that region and no longer as the mean of this sum as it is the case for traditional Sanger sequencing. NGS is introduced to an increasing number of mutation screening applications. An NGS based mutation screening procedure allowing the detection of inherited Alu insertions within any predefined sequence was used for the case of c.1739_1740insAlu in BRCA1 and c.156_157insAlu in BRCA2. Another NGS study screened BRCA1 and BRCA2 resulting in  overall sensitivity for SOLiD and PGM of 97.8% (95% CI = 94.7 to 100.0) and 98.9% (95% CI = 96.8 to 100.0) respectively. The specificity for the SOLiD platform was high, at 100.0% (95% CI = 99.3 to 100.0). PGM correctly identified all 3 indels, but 68 false-positive indels were also called. Genes known to cause deafness were sequenced by the Illumina NGS platform. Results demonstrated that targeted exons captured by our approach achieved specificity, multiplexicity, uniformity, and depth of coverage suitable for accurate sequencing applications by the NGS systems. Reliable genotype calls for various homozygous and heterozygous mutations were achieved. In the context of von Willebrand disease 43 mutations, including 36 substitutions, 2 intronic splice site mutations, 2 indels, and 3 deletions were screened on the next-generation sequencing instrument. This demonstrated that at least 350 patients and relatives per run can be simultaneously analyzed in a fast, inexpensive manner. The Alport syndrome is caused by mutations in three key genes namely COL4A3, COL4A4 and COL4A5, each of which consists of approximately 50 exons, thus rendering mutations screening a highly time consuming and expensive endeavor. NGS is now being established for the simultaneous, fast and cost-effective detection of all possible variants in these three genes. NGS has also been used screening EGFR, KRAS and BRAF for mutations associated with cancer diagnosis and/or response to several anticancer therapies. NGS has also been used in mutation screening for hereditary spastic paraplegias, X linked leucoencephalopathy, retinitis pigmentosa,  inherited urea cycle disorders, as well as the Marfan (MFS), Loeys-Dietz (LDS) and Meckel syndromes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22258533",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21068339",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20569258",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21415082",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22921312",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22315491",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21897443",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21943394",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22480152",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21493627",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23420552",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21542060"
+  ],
+  "snippets": [
+    {
+      "text": "NGS sequencing data for a particular genomic region can be seen as the summation of all the individual sequences (reads) obtained for that region and no longer as the mean of this sum as it is the case for traditional Sanger sequencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23420552",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Hereby we present the proof of principle of a NGS based mutation screening procedure allowing the detection of inherited Alu insertions within any predefined sequence by investigating 2 cases: c.1739_1740insAlu in BRCA1 and c.156_157insAlu in BRCA2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23420552",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Targeted sequence data of the BRCA1 and BRCA2 genes, generated using a PCR-based, multiplexed NGS approach using the SOLiD 4 (n = 24) and Ion Torrent PGM (n = 20) next-generation sequencers,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22921312",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The overall sensitivity for SOLiD and PGM were 97.8% (95% CI = 94.7 to 100.0) and 98.9% (95% CI = 96.8 to 100.0) respectively. The specificity for the SOLiD platform was high, at 100.0% (95% CI = 99.3 to 100.0). PGM correctly identified all 3 indels, but 68 false-positive indels were also called",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22921312",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "genes known to cause deafness",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22480152",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "sequenced by the Illumina NGS platform. Results demonstrated that targeted exons captured by our approach achieved specificity, multiplexicity, uniformity, and depth of coverage suitable for accurate sequencing applications by the NGS systems. Reliable genotype calls for various homozygous and heterozygous mutations were achieved.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22480152",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The method validated here could be readily expanded to include all-known deafness genes for applications such as genetic hearing screening in newborns",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22480152",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "applying this technology to von Willebrand disease",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22315491",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "43 mutations, including 36 substitutions, 2 intronic splice site mutations, 2 indels, and 3 deletions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22315491",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "on the next-generation sequencing instrument, at least 350 patients and relatives per run can be simultaneously analyzed in a fast, inexpensive manner.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22315491",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The hereditary spastic paraplegias (HSPs) are a clinically and genetically heterogeneous group of neurodegenerative diseases characterised by progressive spasticity in the lower limbs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22258533",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We used next-generation sequencing focused on the SPG30 chromosomal region on chromosome 2q37.3",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22258533",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We have shown that mutations in the KIF1A gene are responsible for SPG30 in two autosomal recessive HSP families. In published families, the nature of the KIF1A mutations seems to be of good predictor of the underlying phenotype and vice versa.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22258533",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Mutations in the COL4A5 gene cause X-linked ATS. Mutations in COL4A4 and COL4A3 genes have been reported in both autosomal recessive and autosomal dominant ATS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21897443",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "To overcome these limitations, we designed a next-generation sequencing (NGS) protocol enabling simultaneous detection of all possible variants in the three genes. We used a method coupling selective amplification to the 454 Roche DNA sequencing platform (Genome Sequencer junior).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21897443",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The Marfan (MFS) and Loeys-Dietz (LDS) syndromes are caused by mutations in the fibrillin-1 (FBN1) and Transforming Growth Factor Beta Receptor 1 and 2 (TGFBR1 and TGFBR2) genes, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21542060",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We have tailored a cost-effective and reliable mutation discovery strategy using multiplex PCR followed by Next Generation Sequencing (NGS)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21542060",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We conclude that multiplex PCR of all coding exons of FBN1 and TGFBR1/2 followed by NGS analysis and MLPA is a robust strategy for time- and cost-effective identification of mutations",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21542060",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "To date, six genes have been commonly associated with MKS (MKS1, TMEM67, TMEM216, CEP290, CC2D2A and RPGRIP1L). H",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21493627",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "To explore the full genetic complexity of MKS, we performed exon-enriched next-generation sequencing of 31 ciliopathy genes in 12 MKS pedigrees using RainDance microdroplet-PCR enrichment and IlluminaGAIIx next-generation sequencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21493627",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "o carry out exome sequencing of entire transcripts of the whole X chromosome to investigate a family with X linked leucoencephalopathy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21415082",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Next-generation sequencing of all the transcripts of the X chromosome,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21415082",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Single-lane exome next-generation sequencing is sufficient to fully analyse all the transcripts of the X chromosome. This method is particularly suitable for mutation screening of X-linked recessive disorders and can avoid biases in candidate gene choice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21415082",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "diagnoses of inherited urea cycle disorders (UCDs)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21068339",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We used the Genome Sequencer FLX System (454 Life Sciences)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21068339",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017421",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017422",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008403",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001483",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D059014",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D057166",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005820",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009154"
+  ]
+}

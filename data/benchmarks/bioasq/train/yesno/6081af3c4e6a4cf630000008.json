@@ -1,0 +1,33 @@
+{
+  "id": "6081af3c4e6a4cf630000008",
+  "type": "yesno",
+  "question": "Is colistin an antibiotic?",
+  "ideal_answer": "Yes,\ncolistin is an antibiotic.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33057672",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30892111",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30088449"
+  ],
+  "snippets": [
+    {
+      "text": "all antibiotics tested, apart from colistin, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33057672",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Among the selected antibiotics, there were 12 fluoroquinolone antibiotics (tosufloxacin, levofloxacin, sparfloxacin, clinafloxacin, pazufloxacin, gatifloxacin, enrofloxacin, lomefloxacin, norfloxacin, fleroxacin, flumequine, ciprofloxacin), 15 beta-lactam or cephalosporin antibiotics (cefmenoxime, cefotaxime, ceftizoxime, cefotiam, cefdinir, cefoperazone, cefpiramide, cefamandole, cefixime, ceftibuten, cefmetazole, cephalosporin C, aztreonam, piperacillintazobactam, mezlocillin), 3 tetracycline antibiotics (meclocycline, doxycycline, tetracycline), 2 membrane-acting agents (colistin and clofoctol),",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30088449",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Mice received an antibiotic cocktail (kanamycin, gentamicin, colistin, metronidazole, and vancomycin) for 96\u2009h.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30892111",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "5a8b292afcd1d6a10c00001f",
+  "type": "yesno",
+  "question": "Is there any role of interleukin-11 in cardiovascular fibrosis?",
+  "ideal_answer": "Yes. Interleukin 11 (IL11) upregulation is the dominant transcriptional response to TGFB1 exposure and required for its profibrotic effect. IL11 and its receptor (IL11RA) are expressed specifically in fibroblasts where they drive non-canonical, ERK-dependent autocrine signalling that is required for fibrogenic protein synthesis. In mice, fibroblast-specific Il11 transgene expression or Il11 injection causes heart and kidney fibrosis and organ failure whereas genetic deletion of Il11ra1 is protective against disease. Thus, inhibition of IL11 prevents fibroblast activation across organs and species in response to a range of important pro-fibrotic stimuli.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29160304"
+  ],
+  "snippets": [
+    {
+      "text": "IL11 is a crucial determinant of cardiovascular fibrosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29160304",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Using integrated imaging-genomics analyses of primary human fibroblasts, we found that Interleukin 11 (IL11) upregulation is the dominant transcriptional response to TGFB1 exposure and required for its profibrotic effect. IL11 and its receptor (IL11RA) are expressed specifically in fibroblasts where they drive non-canonical, ERK-dependent autocrine signalling that is required for fibrogenic protein synthesis. In mice, fibroblast-specific Il11 transgene expression or Il11 injection causes heart and kidney fibrosis and organ failure whereas genetic deletion of Il11ra1 is protective against disease. Thus, inhibition of IL11 prevents fibroblast activation across organs and species in response to a range of important pro-fibrotic stimuli. These data reveal a central role of IL11 in fibrosis and we propose inhibition of IL11 as a new therapeutic strategy to treat fibrotic diseases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29160304",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "IL11 is a crucial determinant of cardiovascular fibrosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29160304",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D005355",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D017370"
+  ],
+  "exact_answer": "Yes"
+}

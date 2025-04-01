@@ -1,0 +1,40 @@
+{
+  "id": "621d19cc3a8413c65300004a",
+  "type": "yesno",
+  "question": "Is cytokeratin a tumor marker?",
+  "ideal_answer": "Yes,\ncytokeratin 19 fragment antigen 21-1 (CYFRA21-1) is a tumor marker.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33321564",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34593462",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34163223",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32577996"
+  ],
+  "snippets": [
+    {
+      "text": "cytokeratin fragment antigen\u00a021-1 (CYFRA21-1) in patients with laryngeal squamous cell carcinoma (LSCC) and its correlation with tumorigenesis and progression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32577996",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " cytokeratin fragment 19 (AUC=0.6882, p<0.0001) proved best in detecting relapse.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34593462",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The immunohistochemistry staining for cancer antigen 19-9, carcinoembryonic antigen, cytokeratin 20, and Ki-67 showed comparable intensities in both groups.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33321564",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "evels of inflammatory and tumor markers, including carbohydrate antigen (CA) 19-9, CA125, carcinoembryonic antigen (CEA), CA153, and cytokeratin 19 fragments (CYFRA21-1), ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34163223",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

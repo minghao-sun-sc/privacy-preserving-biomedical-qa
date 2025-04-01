@@ -1,0 +1,72 @@
+{
+  "id": "5161cfa3298dcd4e5100003d",
+  "type": "yesno",
+  "question": "Have germline variants been associated to colorectal cancer?",
+  "ideal_answer": "Yes. Whole-genome sequencing (WGS) applied to medical research has revealed how germline variants and mutations may be associated with colorectal cancer. It is likely that this level of knowledge can be translated into predictions of predisposition.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22020387",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21351276",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22431159",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17524638",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18091433",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17604324",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21918173",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21791631",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23263490"
+  ],
+  "snippets": [
+    {
+      "text": "Overall, we identified aberrant transcripts in 8% of the patients (familial cases 30%; early-onset manifestation 21%). In eight of them, two different out-of-frame pseudoexons were found consisting of a 167-bp insertion from intron 4 in five families with a shared founder haplotype and a 83-bp insertion from intron 10 in three patients. The pseudoexon formation was caused by three different heterozygous germline mutations, which are supposed to activate cryptic splice sites",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22431159",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We apply OS-Seq to resequence the exons of either 10 or 344 cancer genes from human DNA samples. In our assessment of capture performance, >87% of the captured sequence originated from the intended target region with sequencing coverage falling within a tenfold range for a majority of all targets. Single nucleotide variants (SNVs) called from OS-Seq data agreed with >95% of variants obtained from whole-genome sequencing of the same individual.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22020387",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The minor alleles of CD44 rs8193 C>T, ALCAM rs1157 G>A, and LGR5 rs17109924 T>C were significantly associated with increased TTR (9.4 vs. 5.4 years; HR, 0.51; 95% CI: 0.35-0.93; P = 0.022; 11.3 vs. 5.7 years; HR, 0.56; 95% CI: 0.33-0.94; P = 0.024, and 10.7 vs. 5.7 years; HR, 0.33; 95% CI: 0.12-0.90; P = 0.023, respectively) and remained significant in the multivariate analysis stratified by ethnicity. In recursive partitioning, a specific gene variant profile including LGR5 rs17109924, CD44 rs8193, and ALDH1A1 rs1342024 represented a high-risk subgroup with a median TTR of 1.7 years (HR, 6.71, 95% CI: 2.71-16.63, P < 0.001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21918173",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In this study, we identified common germline variants in VEGF-dependent and -independent angiogenesis genes predicting clinical outcome and tumor response in patients with mCRC receiving first-line bevacizumab and oxaliplatin-based chemotherapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21791631",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We identified 22 nonsynonymous somatic mutations of which the majority was of missense type. In germline, three novel nonsynonymous variants were identified in the following genes: CSMD3, EPHB6 and C10orf137, and none of the variants were present in 890 population-matched healthy controls. It is possible that the identified germline variants modulate predisposition to CRC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21351276",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "One patient proved to carry an APC whole-gene deletion; 4 of 25 (16%) patients showed biallelic and 3 of 25 (12%) monoallelic MUTYH mutations. In the three heterozygous subjects no pathogenetic variants were found in OGG1, MTH1, APE1, MSH2, and MSH6 genes. Frequency assessment of MUTYH mutations in healthy subjects showed that only Y165C and G382D reach a subpolymorphic frequency.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18091433",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Scrutinizing the molecular genetic results and family data of 242 index patients with pathogenic APC mutations led to the identification of 10 mosaic cases (4%). C>T transitions were observed in CGA sites in four of the 10 cases with somatic mosaicism, which is significantly more than 26 of the 232 non-mosaic cases (p = 0.02). Phenotypes of patients with somatic mosaicism ranged from an attenuated form of polyposis coli to florid polyposis with major extracolonic manifestations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17604324",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Altogether 12 previously reported changes and four novel genetic alterations, mostly in intronic sequences, were identified. The results revealed the presence of biallelic germline MYH mutations in two patients. These patients were compound heterozygotes for two of the most common germline mutations c.494 A>G (p.Y165C); c.1,145 G>A (p.G382D). These variants are established to be associated with adenomatous polyposis and colorectal cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17524638",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017422",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D059014"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "5c5b268986df2b9174000019",
+  "type": "factoid",
+  "question": "Which is the database of somatic mutations in normal cells?",
+  "ideal_answer": "DSMNC is a database of somatic mutations in normal cells (http://dsmnc.big.ac.cn/) and provides a comprehensive catalogue of somatic SNVs in single cells from various normal tissues. In the current version, the database collected \u223c0.8 million SNVs accumulated in \u223c600 single normal cells (579 human cells and 39 mouse cells). The database interface supports the user-friendly capability of browsing and searching the SNVs and their annotation information.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30380071"
+  ],
+  "snippets": [
+    {
+      "text": "DSMNC: a database of somatic mutations in normal cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30380071",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Luckily, the recent development of single-cell genomics biotechnologies enables the screening and collection of the somatic mutations, especial single nucleotide variations (SNVs), occurring in normal cells. Here, we established DSMNC: a database of somatic mutations in normal cells (http://dsmnc.big.ac.cn/), which provides most comprehensive catalogue of somatic SNVs in single cells from various normal tissues. In the current version, the database collected \u223c0.8 million SNVs accumulated in \u223c600 single normal cells (579 human cells and 39 mouse cells). The database interface supports the user-friendly capability of browsing and searching the SNVs and their annotation information. DSMNC, which serves as a timely and valuable collection of somatic mutations in individual normal cells, has made it possible to analyze the burdens and signatures of somatic mutations in various types of heterogeneous normal cells. Therefore, DSMNC will significantly improve our understanding of the characteristics of somatic mutations in normal cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30380071",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we established DSMNC: a database of somatic mutations in normal cells (http://dsmnc.big.ac.cn/), which provides most comprehensive catalogue of somatic SNVs in single cells from various normal tissues. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30380071",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DSMNC: a database of somatic mutations in normal cells.Numerous non-inherited somatic mutations, distinct from those of germ-line origin, occur in somatic cells during DNA replication per cell-division. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30380071",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we established DSMNC: a database of somatic mutations in normal cells (http://dsmnc.big.ac.cn/), which provides most comprehensive catalogue of somatic SNVs in single cells from various normal tissues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30380071",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "DSMNC, Database of Somatic Mutations in Normal Cells"
+}

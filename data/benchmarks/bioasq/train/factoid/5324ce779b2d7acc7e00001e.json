@@ -1,0 +1,68 @@
+{
+  "id": "5324ce779b2d7acc7e00001e",
+  "type": "factoid",
+  "question": "Which drug is considered as the first line treatment of fibromyalgia?",
+  "ideal_answer": "Pregabalin is, therefore, a valuable option in the first-line treatment of patients with fibromyalgia.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23235657",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18840008",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21975791",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17653994"
+  ],
+  "snippets": [
+    {
+      "text": "Multimodal approaches seem to be the treatment of choice in fibromyalgia",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17653994",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A multidisciplinary program was developed and implemented for patients with fibromyalgia in the primary care setting. The program included education (seven sessions) and physical therapy (25 sessions).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17653994",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Amitriptyline for neuropathic pain and fibromyalgia in adults.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23235657",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Amitriptyline is a tricyclic antidepressant that is widely used to treat chronic neuropathic pain (pain due to nerve damage) and fibromyalgia, and is recommended in many guidelines. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23235657",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Amitriptyline should continue to be used as part of the treatment of neuropathic pain or fibromyalgia, but only a minority of patients will achieve satisfactory pain relief.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23235657",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Valproic acid and its sodium salt (sodium valproate) are antiepileptic drugs that are sometimes used to treat chronic neuropathic pain and fibromyalgia, although they are not licensed for this use. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21975791",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Oral pregabalin, a calcium channel alpha(2)delta-subunit ligand with analgesic, anxiolytic and antiepileptic activity, has shown efficacy in the treatment of fibromyalgia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18840008",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pregabalin is, therefore, a valuable option in the first-line treatment of patients with fibromyalgia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18840008",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013812",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015673",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005356"
+  ],
+  "exact_answer": "Pregabalin"
+}

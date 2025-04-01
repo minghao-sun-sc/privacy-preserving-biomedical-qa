@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01125",
+  "original_length": 4826,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "\n- Repeat low transverse cervical cesarean section with delivery of a viable female neonate.\n- Bilateral tubal ligation and partial salpingectomy.\n- Lysis of adhesions.,ANESTHESIA: , Spinal with As...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Repeat low transverse cervical cesarean section wi...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

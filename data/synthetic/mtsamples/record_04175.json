@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04175",
+  "original_length": 2510,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Adenocarcinoma of the prostate.\n- Erectile dysfunction.,PLAN:  ,The patient will undergo a bilateral pelvic lymphadenectomy and radical retropubic prostatectomy.  The risks, benefits, and altern...",
+    "Symptoms": "",
+    "Treatment": ",The patient will undergo a bilateral pelvic lymphadenectomy and radical retropubic prostatectomy.  The risks, benefits, and alternatives of this have been discussed.  He understands and asks that ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'The risks, benefits, and alternatives of this have...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

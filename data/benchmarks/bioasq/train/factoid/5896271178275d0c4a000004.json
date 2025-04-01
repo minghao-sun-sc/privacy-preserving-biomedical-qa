@@ -1,0 +1,71 @@
+{
+  "id": "5896271178275d0c4a000004",
+  "type": "factoid",
+  "question": "Which disease is treated with lucinactant?",
+  "ideal_answer": "Lucinactant us used for the prevention of respiratory distress syndrome in premature infants.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15813666",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18822258",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22791092",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16896079",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23473590",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16452346",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23032799",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23118645",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22821059",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22859930",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17533176",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15805381",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15805380"
+  ],
+  "snippets": [
+    {
+      "text": "Lucinactant for the prevention of respiratory distress syndrome in premature infants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23473590",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Lucinactant is a synthetic surfactant containing sinapultide, a bioengineered peptide mimic of surfactant-associated protein B. A meta-analysis of clinical trials demonstrates that lucinactant is as effective as animal-derived surfactants in preventing RDS in premature neonates, and in vitro studies suggest it is more resistant to oxidative and protein-induced inactivation. Its synthetic origin confers lower infection and inflammation risks as well other potential benefits, which may make lucinactant an advantageous alternative to its animal-derived counterparts, which are presently the standard treatment for RDS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23473590",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We evaluated whether intratracheal lucinactant, a synthetic, peptide-containing surfactant, was safe and well-tolerated in infants with acute hypoxemic respiratory failure, and assessed its effects on clinical outcomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22791092",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "An improvement in oxygenation and a significantly reduced requirement for retreatment suggests that lucinactant might improve lung function in infants with acute hypoxemic respiratory failure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22791092",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION: These data suggest that early intervention with lucinactant may more effectively mitigate pulmonary pathophysiological sequelae of RDS than the animal-derived surfactants poractant alfa or beractant.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22821059",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lucinactant for the treatment of respiratory distress syndrome in neonates.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23032799",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The clinical trials that have been performed, although underpowered, may indicate that lucinactant is superior to phospholipid synthetic surfactant preparations and at least as effective as animal-derived surfactants in reducing morbidity and mortality from RDS. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23032799",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4002240",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004194",
+    "http://www.disease-ontology.org/api/metadata/DOID:4"
+  ],
+  "exact_answer": "respiratory distress syndrome"
+}

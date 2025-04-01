@@ -1,0 +1,35 @@
+{
+  "document_id": "record_01005",
+  "original_length": 1374,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Screening. ,POSTOPERATIVE DIAGNOSIS:,  [person].,PROCEDURE PERFORMED:  , Colonoscopy.,PROCEDURE:  , The procedure, indications, and risks were explained to the patient, who under...",
+    "Symptoms": "",
+    "Treatment": "Colonoscopy",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Versed 3 mg, Demerol 25 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6026af5e1cb411341a0000c9",
+  "type": "list",
+  "question": "Which microRNAs are involved in targeting CYLD in triple negative breast cancer?",
+  "ideal_answer": "Mir-182 and miR-301b are involved in targeting CYLD in triple negative breast cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30269739",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27476169"
+  ],
+  "snippets": [
+    {
+      "text": "MicroRNA-301b promotes cell proliferation and apoptosis resistance in triple-negative breast cancer by targeting CYLD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30269739",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Aberrant expression of microRNAs (miRNAs) plays important roles in carcinogenesis and tumor progression. However, the expression and biological role of miR-301b in triple-negative breast cancer (TNBC) remains unclear. Here we aimed to evaluate the roles and mechanisms of miR-301b in TNBC cells. miR-301b expression was assessed in TNBC specimens and cell lines by quantitative Real-Time PCR (qRT-PCR). TNBC cells were transfected with miR-301b mimics, inhibitors or Cylindromatosis (CYLD) small interfering RNA (siRNA) using Lipofectamine 2000. The functional roles of miR-301b were determined by cell proliferation, colony formation, and apoptosis assays. Western blots and qRT-PCR were used to measure the expression of mRNAs and proteins in the cells. We found that miR-301b was upregulated in TNBC specimens and cell lines. Overexpression of miR-301b promoted cell proliferation in TNBC cells, while inhibited the apoptosis induced by 5-FU. CYLD was downregulated by miR-301b at both mRNA and protein levels in TNBC cells. Dual-luciferase report assay confirmed that miR-301b downregulated CYLD by direct interaction with the 3'-untranslated region(3'-UTR) of CYLD mRNA. NF-\u03baB activation was mechanistically associated with miR-301b-mediated downregulation of CYLD. However, inhibition of miR-301b reversed all the effects of miR-301b. In conclusion, miR-301b plays an oncogenic role in TNBC possibly by downregulating CYLD and subsequently activating NF-\u03baB p65, and this may provide a novel therapeutic approach for TNBC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30269739",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Overexpression of microRNA-182 (miR-182) is found in multiple cancers, but the association of miR-182 expression with the sensitivity of triple-negative breast cancer (TNBC) cells to tumor necrosis factor-alpha (TNF-\u03b1) remains unknown. In this study, up-regulation of miR-182 was validated in TNBC patients and cell lines. Knockdown of miR-182 was observed to hinder the proliferation of BT-549 cells. More importantly, knockdown of miR-182 significantly promoted the apoptosis induced by TNF-\u03b1 treatment in BT-549. JC-1 staining and western blot assays revealed that the K63-linked ubiquitin chains on receptor-interacting protein 1 (RIP1) were removed and the outer mitochondrial membrane potential (MMP) and permeability was altered upon combination of TNF-\u03b1 with anti-miR-182. We then demonstrated that knockdown of miR-182 up-regulated the expression of cylindromatosis (CYLD) deubiquitinase, which promoted the formation of death-inducing signaling complex (DISC) and subsequent caspase-8 activation in TNF-\u03b1-treated BT-549 cells. Collectively, the results of the present study improve our understanding of the role of miR-182 in TNBC, knockdown of which facilitates the degradation of ubiquitin chains on RIP1, leading to the caspase-8 activation and apoptosis in TNF-\u03b1-treated TNBC cells. This may be valuable for the development of cancer therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27476169",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "microRNA-301b, microRNA-182, miR-182"
+}

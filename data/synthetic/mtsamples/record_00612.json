@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00612",
+  "original_length": 1802,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Broad-based endocervical poly.\n- Broad- based pigmented, raised nevus, right thigh.,OPERATION:\n- LEEP procedure of endocervical polyp.\n- Electrical excision of pigmented mole of inner right thig...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Broad- based pigmented, raised nevus, right thigh...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "58bbbf3722d300530900001b",
+  "type": "summary",
+  "question": "What kind of analyses are performed with the software tool \"unipept\"",
+  "ideal_answer": "The Unipept web application (http://unipept.ugent.be) supports biodiversity analysis of large and complex metaproteome samples using tryptic peptide information obtained from shotgun MS/MS experiments. The application designed for metaproteomics analysis with a focus on interactive datavisualization.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26819472",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26058579",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27380722",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23153116",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25477242"
+  ],
+  "snippets": [
+    {
+      "text": "Unipept is an open source web application that is designed for metaproteomics analysis with a focus on interactive datavisualization. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26819472",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Unique Peptide Finder (http://unipept.ugent.be/peptidefinder) is an interactive web application to quickly hunt for tryptic peptides that are unique to a particular species, genus, or any other taxon.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27380722",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Computations are extremely fast since they are underpinned by the Unipept database, the lowest common ancestor algorithm implemented in Unipept and modern web technologies that facilitate in-browser data storage and parallel processing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27380722",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Unipept (http://unipept.ugent.be) is a web application that offers a user-friendly way to explore the biodiversity of complex metaproteome samples by providing interactive visualizations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25477242",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Outputted results are compatible with tools for taxonomic and functional characterization (e.g. Unipept, MEGAN5)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26058579",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Unipept web application (http://unipept.ugent.be) supports biodiversity analysis of large and complex metaproteome samples using tryptic peptide information obtained from shotgun MS/MS experiments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23153116",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

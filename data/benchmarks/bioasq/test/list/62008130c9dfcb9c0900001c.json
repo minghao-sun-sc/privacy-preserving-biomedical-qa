@@ -1,0 +1,19 @@
+{
+  "id": "62008130c9dfcb9c0900001c",
+  "type": "list",
+  "question": "Which variables are included in the ALT-70 Score for cellulitis?",
+  "ideal_answer": "ALT-70 cellulitis score includes: Asymmetry (3 points), Leukocytosis (1 point), Tachycardia (1 point), and age \u226570 (2 points).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28215446"
+  ],
+  "snippets": [
+    {
+      "text": "We converted these variables into a points system to create the ALT-70 cellulitis score as follows: Asymmetry (3 points), Leukocytosis (1 point), Tachycardia (1 point), and age \u226570 (2 points).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28215446",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Asymmetry, Leukocytosis, Tachycardia, age \u226570"
+}

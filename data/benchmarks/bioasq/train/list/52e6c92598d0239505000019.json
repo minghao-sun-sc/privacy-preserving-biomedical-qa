@@ -1,0 +1,104 @@
+{
+  "id": "52e6c92598d0239505000019",
+  "type": "list",
+  "question": "Which are the mutational hotspots of the human KRAS oncogene?",
+  "ideal_answer": "The KRAS oncogene has four main mutational hotspots located at codons 12, 13, 61 and 146.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23074403",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19430299",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16458330",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22006429",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23536897",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21199003",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11403720",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16434186",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21266528",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12650907",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10768832",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14534542",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12941809",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17638058"
+  ],
+  "snippets": [
+    {
+      "text": "In this study we analyzed 15 sMTC for mutations in the hotspots codon 12, 13 and 61 of the H- and K-ras oncogene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10768832",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mutation in the codon 12, 13 and 61 of the H-ras and K-ras oncogene",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10768832",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the mutation hotspots of the K-ras proto-oncogene in human functional adrenocortical tumors are in codons 15, 16, 18, and 31",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11403720",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mutations C742T, G746T, G747T in the TP53 gene and G35T in the KRAS gene have been repeatedly found in sectors of human tumors",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16458330",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "exons 1 and 2 of KRAS",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21266528",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "KRAS (codon 12/13 hotspot)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21199003",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "three hotspots in KRAS (codons 12/13, 61 and 146)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21199003",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "analysis of KRAS (codon12/13)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21199003",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mutations occurring in mutational hotspots (codons 12 and 13) of the KRAS protein",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23074403",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "and N-, K-, and H-RAS (codons 12, 13, and 61)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17638058",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/RASK_RAT",
+    "http://www.uniprot.org/uniprot/RASK_ORYLA",
+    "http://www.uniprot.org/uniprot/RASK_MSVKI",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017384",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017354",
+    "http://www.uniprot.org/uniprot/RASK_MONDO",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D054643",
+    "http://www.uniprot.org/uniprot/RASK_MOUSE",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018389",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020125",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009154",
+    "http://www.uniprot.org/uniprot/RASK_KRYMA",
+    "http://www.uniprot.org/uniprot/RASK_XENLA",
+    "http://www.uniprot.org/uniprot/RASK_CYPCA",
+    "http://www.uniprot.org/uniprot/RASK_HUMAN",
+    "http://www.uniprot.org/uniprot/RASK_MELGA",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004252"
+  ],
+  "exact_answer": "Codon 12, Codon 13, Codon 61, Codon 146, Codon 18, Codon 31, Codon 15"
+}

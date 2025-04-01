@@ -1,0 +1,100 @@
+{
+  "id": "550739cf3b8a5dc045000002",
+  "type": "factoid",
+  "question": "Which is the RNA sequence of the canonical polyadenylation signal?",
+  "ideal_answer": "A polyadenylation signal (AAUAAA) nearby the 3' end of pre-mRNA is required for poly(A) synthesis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22535384",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22056681",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21943048",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24152550",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19169861",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19041263",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19509282",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24177577",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22306880",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19032167",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19597839",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18658125"
+  ],
+  "snippets": [
+    {
+      "text": ". Two putative polyadenylation signal sequences (AATAAA) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19169861",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "polyadenylation signal sequence AATAAA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19041263",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The most canonical AAUAAA hexamer ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19032167",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "polyadenylation signal site (AATAAA)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24177577",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the canonical AATAAA motif ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24152550",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "with a classical  polyadenylation signal sequence AATAAA,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22535384",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AATAAA hexanucleotide polyadenylation signal.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22306880",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "olyadenylation signal site (AATAAA)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22056681",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "polyadenylation signal AATAAA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21943048",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "polyadenylation signal AAUAAA ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19597839",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "polyadenylation signal AAUAAA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19509282",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A polyadenylation signal (AAUAAA) nearby the 3' end of pre-mRNA is required for poly(A) synthesis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18658125",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006378",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D039104",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0043631"
+  ],
+  "exact_answer": "AAUAAA"
+}

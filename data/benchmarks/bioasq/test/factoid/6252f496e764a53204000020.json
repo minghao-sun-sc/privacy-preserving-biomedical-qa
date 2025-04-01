@@ -1,0 +1,33 @@
+{
+  "id": "6252f496e764a53204000020",
+  "type": "factoid",
+  "question": "What is the gene ABCG1 encoding?",
+  "ideal_answer": "ABCG1 is an ATP binding cassette (ABC) transporter that removes excess cholesterol from peripheral tissues.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34608503",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32725886",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34461069"
+  ],
+  "snippets": [
+    {
+      "text": "ATP-binding cassette transporter A1 (ABCA1) and G1 (ABCG1),",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32725886",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ABCG1 is an ATP binding cassette (ABC) transporter that removes excess cholesterol from peripheral tissues. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34461069",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ATP\u2011binding cassette sub\u2011family\u00a0G member\u00a01\u00a0(ABCG1) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34608503",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "ATP binding cassette (ABC) transporter"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "58ee1cafeda5a57672000014",
+  "type": "yesno",
+  "question": "Are TAD boundaries in Drosophila depleted in highly-expressed genes?",
+  "ideal_answer": "Drosophila inter-TADs harbor active chromatin and constitutively transcribed (housekeeping) genes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26748519",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26030525",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25959774",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25367294",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26431028",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25409831",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26518482"
+  ],
+  "snippets": [
+    {
+      "text": "Furthermore, we find that these TAD boundaries are present irrespective of the expression and looping of genes located between them.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26748519",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In particular, Hi-C revealed that chromosomes of animals are organized into topologically associating domains (TADs), evolutionary conserved compact chromatin domains that influence gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26518482",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Drosophila inter-TADs harbor active chromatin and constitutively transcribed (housekeeping) genes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26518482",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The insulator-like, TAD-boundary-like, and TAD-interior-like regions are each enriched for distinct epigenetic marks and are each correlated with different gene expression levels",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25367294",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We conclude that epigenetic modifications, gene density, and transcriptional activity combine to shape the local packing of the A. thaliana nuclear genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25367294",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Disruptions of topological chromatin domains cause pathogenic rewiring of gene-enhancer interactions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25959774",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Our results demonstrate the functional importance of TADs for orchestrating gene expression via genome architecture and indicate criteria for predicting the pathogenicity of human structural variants, particularly in non-coding regions of the human genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25959774",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The three-dimensional organization of a genome plays a critical role in regulating gene expression, yet little is known about the machinery and mechanisms that determine higher-order chromosome structure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26030525",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ectopically expressed roX1 and roX2 RNAs target HAS on the X chromosome in trans and, via spatial proximity, induce spreading of the MSL complex in cis, leading to increased expression of neighboring autosomal genes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26431028",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Collectively, our results suggest that TADs are condensed chromatin domains depleted in active chromatin marks, separated by regions of active chromatin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26518482",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, Drosophila inter-TADs harbor active chromatin and constitutively transcribed (housekeeping) genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26518482",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

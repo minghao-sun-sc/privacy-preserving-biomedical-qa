@@ -1,0 +1,47 @@
+{
+  "id": "56ae57350a360a5e4500000a",
+  "type": "factoid",
+  "question": "Which is the physiological target for LeuRS translational quality control?",
+  "ideal_answer": "QUALITY CONTROL",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24935946"
+  ],
+  "snippets": [
+    {
+      "text": "The physiological target for LeuRS translational quality control is norvaline.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24935946",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The physiological target for LeuRS translational quality control is norvaline",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24935946",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Rather, as shown by kinetic, structural and in vivo approaches, the prime biological function of LeuRS editing is to prevent mis-incorporation of the non-standard amino acid norvaline",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24935946",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/SYL_SHEWM",
+    "http://www.uniprot.org/uniprot/SYL_SHESR",
+    "http://www.uniprot.org/uniprot/SYL_COXBR",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007935",
+    "http://www.uniprot.org/uniprot/SYL_SHESW",
+    "http://www.uniprot.org/uniprot/SYLC_MOUSE",
+    "http://www.uniprot.org/uniprot/SYL_SHIB3",
+    "http://www.uniprot.org/uniprot/SYLC_ENCCU",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011786",
+    "http://www.uniprot.org/uniprot/SYL_SHESA",
+    "http://www.uniprot.org/uniprot/SYL_RICPU",
+    "http://www.uniprot.org/uniprot/SYLB_AQUAE",
+    "http://www.uniprot.org/uniprot/SYLC_SCHPO",
+    "http://www.uniprot.org/uniprot/SYL_SHIBS",
+    "http://www.uniprot.org/uniprot/SYL2_METS5"
+  ],
+  "exact_answer": "Norvaline"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "5321ae889b2d7acc7e000006",
+  "type": "yesno",
+  "question": "Is gastro esophageal reflux related to burning mouth syndrome?",
+  "ideal_answer": "No data indicate causal connection between gastro esophageal/laryngopharyngeal(LPR)  reflux disease and the occurrence of intraoral burning sensations",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/8725589",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17849966",
+    "http://www.ncbi.nlm.nih.gov/pubmed/3244997",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23201368",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10546306",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21359587",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10431669",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12617256",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14969159",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11871678",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18343329",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23050296",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24096230",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23589947",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8543701",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9237148",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18284539",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19938882",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23809306",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19658340",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1873324",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15773524",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18625105",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16637799",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18313197"
+  ],
+  "snippets": [
+    {
+      "text": "Our results suggest that there is no causal connection between LPR episodes and the occurrence of intraoral burning sensations in the examined patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21359587",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "As reported below, although this symptom may well be diagnostically misleading, careful diagnosis based on clinical signs may distinguish patients with BMS from those with reflux disease, and successful management of burning mouth is often enables.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15773524",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002054",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005764",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004941",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004935",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004942",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009059",
+    "http://www.disease-ontology.org/api/metadata/DOID:8534",
+    "http://www.disease-ontology.org/api/metadata/DOID:4331"
+  ],
+  "exact_answer": "Yes"
+}

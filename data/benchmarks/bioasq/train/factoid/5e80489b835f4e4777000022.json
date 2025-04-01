@@ -1,0 +1,40 @@
+{
+  "id": "5e80489b835f4e4777000022",
+  "type": "factoid",
+  "question": "What is the function of the protein encoded by the gene NKCC2?",
+  "ideal_answer": "The protein function as an Na-K-Cl cotransporter.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29357410",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29407172",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29412704",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30113482"
+  ],
+  "snippets": [
+    {
+      "text": "2 chloride co-transporter (NKCC2) gene",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29407172",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Na-K-2Cl cotransporter (NKCC2) function ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29412704",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Na-K-Cl cotransporter 2 (NKCC2)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29357410",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SLC12A1 (NKCC2)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30113482",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "This protein functions as an Na-K-Cl cotransporter."
+}

@@ -1,0 +1,54 @@
+{
+  "id": "6032a8b91cb411341a000149",
+  "type": "factoid",
+  "question": "What protein complex is altered in \"Coffin-Siris syndrome\"?",
+  "ideal_answer": "he genes causative of CSS mainly encode the SWI/SNF complex, which contributes to chromatin remodeling and regulates the access of transcriptional factors to specific gene sites.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32161024",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31706665",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29907796",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30879640",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29698805",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30838730"
+  ],
+  "snippets": [
+    {
+      "text": "Mutations in other SWI/SNF components cause Coffin-Siris syndrome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30879640",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " ARID2 encodes a member of the SWItch/sucrose non-fermentable chromatin remodeling complex. Other genes encoding subunits of this complex, such as ARID1A, ARID1B, and SMARCA2, are mutated in association with Coffin-Siris syndrome (CSS) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30838730",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MARCB1 encodes a subunit of the SWI/SNF complex involved in chromatin remodeling. Pathogenic variants (PV) in this gene can give rise to three conditions. Heterozygous loss-of-function germline PV cause rhabdoid tumor predisposition syndrome and schwannomatosis. Missense PV and small in-frame deletions in exons 8 and 9 result in Coffin-Siris syndrome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29907796",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " subunit of the SWI/SNF complex, have been linked to intellectual disabilities in 3 case reports including one which describes frameshift mutations in ARID2 in 2 patients with features resembling Coffin-Siris syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29698805",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The genes causative of CSS mainly encode the SWI/SNF complex, which contributes to chromatin remodeling and regulates the access of transcriptional factors to specific gene sites. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32161024",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Coffin-Siris syndrome (CSS) is a neurodevelopmental disorder characterized by somatic dysmorphic features, developmental and speech delay. It is due to mutations in many different genes, belonging to BAF chromatin-remodelling complex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31706665",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "SWI/SNF complex"
+}

@@ -1,0 +1,36 @@
+{
+  "document_id": "record_00085",
+  "original_length": 2447,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Neurogenic bladder, in a patient catheterizing himself 3 times a day, changing his catheter 3 times a week, we again reviewed the technique of catheterization, and he has no issues with this.\n- ...",
+    "Symptoms": "",
+    "Treatment": "t, which has been followed by Dr. X and is on chronic steroids.  Renal ultrasound, [date], was noted for mild hydronephrosis of renal transplant with fluid in the pericapsular space.  Creati...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: LOCATION",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Neurogenic bladder, in a patient catheterizing him...'"
+      ],
+      "pii_detected": [
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

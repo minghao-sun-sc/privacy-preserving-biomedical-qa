@@ -1,0 +1,33 @@
+{
+  "document_id": "record_03344",
+  "original_length": 5977,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "of medication-induced gastroenteritis vs. UTI. He was instructed to stop his current antibiotic but start Levaquin, and he was given Vicodin, and phenergan for symptomatic relief.,Over the next 2 d...",
+    "Symptoms": "",
+    "Treatment": "MRI scan",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "ceftriaxone 2g"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'He was instructed to stop his current antibiotic b...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

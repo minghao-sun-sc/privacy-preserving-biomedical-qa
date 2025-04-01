@@ -1,0 +1,19 @@
+{
+  "id": "5a7d50d0faa1ab7d2e000016",
+  "type": "yesno",
+  "question": "Is ACI-35 a passive vaccine?",
+  "ideal_answer": "No, ACI-35 is an active vaccine.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27485083"
+  ],
+  "snippets": [
+    {
+      "text": "Two active vaccines targeting either nonphosphorylated (AAD-vac1) and phosphorylated tau (ACI-35) have entered Phase I testing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27485083",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "5e6f774ec6a8763d23000009",
+  "type": "yesno",
+  "question": "Are bacteria in the genus Clostridium facultative anaerobes?",
+  "ideal_answer": "Clostridia belong to those bacteria which are considered as obligate anaerobe, e.g. oxygen is harmful or lethal to these bacteria.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26231446",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25700419",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31076745",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20526574",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21067677",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18430081",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31991218"
+  ],
+  "snippets": [
+    {
+      "text": "strict anaerobe Clostridium acetobutylicum",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18430081",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Clostridia belong to those bacteria which are considered as obligate anaerobe, e.g. oxygen is harmful or lethal to these bacteria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18430081",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report here the closed genome of Clostridium pasteurianum ATCC 6013, a saccharolytic, nitrogen-fixing, and spore-forming Gram-positive obligate anaerobe",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25700419",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Clostridium pasteurianum BB, a saccharolytic and spore-forming obligate anaerobe",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21067677",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Clostridium difficile is a spore-forming obligate anaerobe that is a leading cause of healthcare-associated infections",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26231446",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, the discovery of antimicrobials has been biased towards aerobes and facultative anaerobes, and strict anaerobes such as Clostridium spp.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31991218",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Clostridium is a large genus of obligate anaerobes belonging to the Firmicutes phylum of bacteria, most of which have a Gram-positive cell wall structure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31076745",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Such bacteria are either obligate anaerobic bacteria like Clostridium or Bifidobacterium or facultative anaerobic like Escherichia coli or Salmonella.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20526574",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Antimicrobial production by strictly anaerobic Clostridium spp.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31991218",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

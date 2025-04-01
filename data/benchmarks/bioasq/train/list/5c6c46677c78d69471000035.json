@@ -1,0 +1,110 @@
+{
+  "id": "5c6c46677c78d69471000035",
+  "type": "list",
+  "question": "List available R packages for processing NanoString data",
+  "ideal_answer": "NanoStringNorm and NanoStringNormCNV.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22513995",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29112706"
+  ],
+  "snippets": [
+    {
+      "text": "NanoStringNorm: an extensible R package for the pre-processing of NanoString mRNA and miRNA data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22513995",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The NanoString nCounter Platform is a new and promising technology for measuring nucleic acid abundances. It has several advantages over PCR-based techniques, including avoidance of amplification, direct sequence interrogation and digital detection for absolute quantification. These features minimize aspects of experimental error and hold promise for dealing with challenging experimental conditions such as archival formalin-fixed paraffin-embedded samples. However, systematic inter-sample technical artifacts caused by variability in sample preservation, bio-molecular extraction and platform fluctuations must be removed to ensure robust data.RESULTS: To facilitate this process and to address these issues for NanoString datasets, we have written a pre-processing package called NanoStringNorm in the R statistical language.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22513995",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "NanoStringNormCNV: pre-processing of NanoString CNV data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29112706",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The NanoString System is a well-established technology for measuring RNA and DNA abundance. Although it can estimate copy number variation, relatively few tools support analysis of these data. To address this gap, we created NanoStringNormCNV, an R package for pre-processing and copy number variant calling from NanoString data. This package implements algorithms for pre-processing, quality-control, normalization and copy number variation detection. A series of reporting and data visualization methods support exploratory analyses. To demonstrate its utility, we apply it to a new dataset of 96 genes profiled on 41 prostate tumour and 24 matched normal samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29112706",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To address this gap, we created NanoStringNormCNV, an R package for pre-processing and copy number variant calling from NanoString data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29112706",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Summary\nThe NanoString System is a well-established technology for measuring RNA and DNA abundance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29112706",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MOTIVATION\nThe NanoString nCounter Platform is a new and promising technology for measuring nucleic acid abundances.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22513995",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MOTIVATION The NanoString nCounter Platform is a new and promising technology for measuring nucleic acid abundances.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22513995",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Summary The NanoString System is a well-established technology for measuring RNA and DNA abundance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29112706",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Availability and implementation NanoStringNormCNV is implemented in R and is freely available at http://labs.oicr.on.ca/boutros-lab/software/nanostringnormcnv.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29112706",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "NanoStringNorm: an extensible R package for the pre-processing of NanoString mRNA and miRNA data.<AbstractText Label=\"MOTIVATION\" NlmCategory=\"BACKGROUND\">The NanoString nCounter Platform is a new and promising technology for measuring nucleic acid abundances. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22513995",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "<b>MOTIVATION</b>: The NanoString nCounter Platform is a new and promising technology for measuring nucleic acid abundances.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22513995",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, systematic inter-sample technical artifacts caused by variability in sample preservation, bio-molecular extraction and platform fluctuations must be removed to ensure robust data.<br><b>RESULTS</b>: To facilitate this process and to address these issues for NanoString datasets, we have written a pre-processing package called NanoStringNorm in the R statistical language.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22513995",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "<b>Summary</b>: The NanoString System is a well-established technology for measuring RNA and DNA abundance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29112706",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To address this gap, we created NanoStringNormCNV, an R package for pre-processing and copy number variant calling from NanoString data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29112706",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To demonstrate its utility, we apply it to a new dataset of 96 genes profiled on 41 prostate tumour and 24 matched normal samples.<br><b>Availability and implementation</b>: NanoStringNormCNV is implemented in R and is freely available at http://labs.oicr.on.ca/boutros-lab/software/nanostringnormcnv.<br><b>Contact</b>: paul.boutros@oicr.on.ca.<br><b>Supplementary information</b>: Supplementary data are available at Bioinformatics online.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29112706",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "NanoStringNorm, NanoStringNormCNV"
+}

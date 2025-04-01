@@ -1,0 +1,45 @@
+{
+  "id": "58a5add260087bc10a000022",
+  "type": "yesno",
+  "question": "Does NADPH oxidase 5 require any subunit for function?",
+  "ideal_answer": "No, NADPH oxidase 5 (NOX5) does not require any subunits for function.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21319793",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15994299"
+  ],
+  "snippets": [
+    {
+      "text": "Nox5 forms a functional oligomer mediated by self-association of its dehydrogenase domain.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21319793",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " While Nox1-4 require regulatory subunits, including p22phox, Nox5 activity does not depend on any subunits. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21319793",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Thus, Nox5 forms a catalytically active oligomer in the membrane that is mediated by its dehydrogenase domain. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21319793",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Coexpression of specific Nox catalytic subunits (Nox1, Nox2, Nox3, Nox4, or Nox5) along with their corresponding regulatory subunits (NOXO1/NOXA1 for Nox1; p47phox/p67phox/Rac for Nox2; NOXO1 for Nox3; no subunits for Nox4 or Nox5) resulted in marked production of reactive oxygen. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15994299",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0016175",
+    "http://www.uniprot.org/uniprot/NOXO1_HUMAN",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019255",
+    "http://amigo.geneontology.org/amigo/term/GO:0016174",
+    "http://www.biosemantics.org/jochem#4270191",
+    "http://www.uniprot.org/uniprot/NOX5_HUMAN"
+  ],
+  "exact_answer": "Yes"
+}

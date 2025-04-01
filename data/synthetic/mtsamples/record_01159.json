@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01159",
+  "original_length": 3188,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Dentigerous cyst, left mandible associated with full bone impacted wisdom tooth #17.,POSTOPERATIVE DIAGNOSIS: , Dentigerous cyst, left mandible associated with full bone impacted wi...",
+    "Symptoms": "",
+    "Treatment": "Biopsy procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON, LOCATION"
+      ],
+      "pii_detected": [
+        "PERSON",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

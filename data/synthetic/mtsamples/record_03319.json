@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03319",
+  "original_length": 3062,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ".  He had a recent PPD which was negative in August 1994.,MEDICATIONS: , None.,ALLERGIES: , No known drug allergies.,SOCIAL HISTORY: , He occasionally drinks and is a nonsmoker.  The patient partic...",
+    "Symptoms": "",
+    "Treatment": "\n- Induced sputum, rule out Pneumocystis carinii pneumonia and tuberculosis.\n- Begin intravenous Bactrim and erythromycin.\n- Begin prednisone.\n- Oxygen.\n- Nystatin swish and swallow.\n- Dermatologic...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, IN_PAN",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'He had a recent PPD which was negative in August 1...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "IN_PAN"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

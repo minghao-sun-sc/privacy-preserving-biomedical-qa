@@ -1,0 +1,82 @@
+{
+  "id": "530cefaaad0bf1360c00000c",
+  "type": "list",
+  "question": "List medication interfering with purine metabolism that are used for treatment of T-cell prolymphocytic leukemia?",
+  "ideal_answer": "Deoxycoformycin and pentostatin are purine analogs that interfere with purine metabolism and are used for treatment of T-cell prolymphocytic leukemia patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18039954",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22538464",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23512246",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19915381",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18309944",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19778847",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19275513",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12447847",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8468724",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15869731",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22483155",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9215839",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15039804"
+  ],
+  "snippets": [
+    {
+      "text": "Treatment with purine analogues and alemtuzumab has resulted in significantly higher response rates and improved survival. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19778847",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Treatment with purine analogs and the monoclonal antibody alemtuzumab has resulted in significantly higher response rates and increased survival.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19275513",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nelarabine is an effective regimen against indolent leukemias, and combining it with fludarabine was most promising. Determination of tumor cell ara-GTP levels may provide a predictive test for response to nelarabine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18309944",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "T-cell prolymphocytic leukemia has an aggressive course with short median survival and poor response to chemotherapy. With the use of the purine analogue pentostatin more than half of patients will have a major response and a minority will have a complete remission, usually lasting months.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15869731",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " T-cell prolymphocytic leukaemia (T-PLL) is a rare post-thymic T-cell malignancy with an aggressive clinical course. It has generally been resistant to alkylating chemotherapy, but some effect has been observed with the purine analog 2-deoxycoformicin with documented partial or complete response rates in up to 45% of patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15039804",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Fifteen patients with T-PLL, most of whom had received the purine analog deoxycoformycin (DCF), were treated with CAMPATH-1H.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9215839",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pentostatin (2'-deoxycoformycin; DCF) is a purine analogue that has shown activity in treatment of chronic lymphoid malignancies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8468724",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Trials using DCF or other purine analogues alone or in combination with standard chemotherapeutic agents in front-line or salvage therapy are warranted to improve the prognosis of patients with prolymphocytic leukemia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8468724",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008660",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013812",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006144",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0042278",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006163",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011684",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015461",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011687"
+  ],
+  "exact_answer": "deoxycoformycin, pentostatin, nelarabine"
+}

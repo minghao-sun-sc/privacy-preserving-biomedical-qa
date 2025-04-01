@@ -1,0 +1,49 @@
+{
+  "id": "51724fca8ed59a060a000013",
+  "type": "factoid",
+  "question": "Which  is the execution time (complexity) of the Smith-Waterman algorithm for the alignment of two sequences",
+  "ideal_answer": "The complexity of the Smith-Waterman dynamic programming algorithm is quadratic,  that is, it runs in time proportional to the product of lengths of the sequences being aligned.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16522182",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14668231",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12804086",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11301301",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9021270",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1774068",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20370891",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21714130"
+  ],
+  "snippets": [
+    {
+      "text": "The problem of finding an optimal structural alignment for a pair of superimposed proteins is often amenable to the Smith-Waterman dynamic programming algorithm, which runs in time proportional to the product of lengths of the sequences being aligned.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21714130",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "While this result is not an asymptotic improvement over the original Smith-Waterman algorithm, its complexity is characterized in terms of some sparse features of the matrix and it yields the fastest software implementation to date for such searches.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12804086",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "If we use N, M and C to represent the size of an amino acid sequence, the size of a structure template, and the maximum cut size of long-range interactions, respectively, the algorithm finds an optimal structure-sequence alignment in O(21C NM) time, a polynomial function of N and M when C = O(log(N + M)). When running on structure-sequence alignment problems without long-range intersections, i.e. C = 0, the algorithm achieves the same asymptotic computational complexity of the Smith-Waterman sequence-sequence alignment algorithm.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9021270",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The algorithm is based on fractional programming and its running time is O(n2log n). In practice, normalized local alignment is only 3-5 times slower than the standard Smith-Waterman algorithm.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11301301",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016415",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017385",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017386",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056510"
+  ],
+  "exact_answer": "quadratic"
+}

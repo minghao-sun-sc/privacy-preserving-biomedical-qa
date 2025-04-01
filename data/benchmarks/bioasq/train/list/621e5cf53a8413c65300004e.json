@@ -1,0 +1,38 @@
+{
+  "id": "621e5cf53a8413c65300004e",
+  "type": "list",
+  "question": "Name scRNA-seq workflows which harness graph attention networks",
+  "ideal_answer": "SCDRHA and CellVGAE",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34864884",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34512734"
+  ],
+  "snippets": [
+    {
+      "text": "SCDRHA: A scRNA-Seq Data Dimensionality Reduction Algorithm Based on Hierarchical Autoencoder.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34512734",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "To address this issue, in this paper, we propose a scRNA-seq data dimensionality reduction algorithm based on a hierarchical autoencoder, termed SCDRHA. The proposed SCDRHA consists of two core modules, where the first module is a deep count autoencoder (DCA) that is used to denoise data, and the second module is a graph autoencoder that projects the data into a low-dimensional space. Experimental results demonstrate that SCDRHA has better performance than existing state-of-the-art algorithms on dimension reduction and noise reduction in five real scRNA-seq datasets. Besides, SCDRHA can also dramatically improve the performance of data visualization and cell clustering.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34512734",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CellVGAE: an unsupervised scRNA-seq analysis workflow with graph attention networks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34864884",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "With the help of several case studies, we show that our model, named CellVGAE, can be effectively used for exploratory analysis even on challenging datasets, by extracting meaningful features from the data and providing the means to visualise and interpret different aspects of the model.RESULTS: We show that CellVGAE is more interpretable than existing scRNA-seq variational architectures by analysing the graph attention coefficients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34864884",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CellVGAE, SCDRHA"
+}

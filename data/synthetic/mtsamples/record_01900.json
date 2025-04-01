@@ -1,0 +1,35 @@
+{
+  "document_id": "record_01900",
+  "original_length": 2998,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Well child.\n- Asthma with good control.\n- Allergic rhinitis, stable.,PLAN:,  Hearing and vision assessment today are both within normal limits.  Will check an H&H today.  Continue all medication...",
+    "Symptoms": "",
+    "Treatment": ",  Hearing and vision assessment today are both within normal limits.  Will check an H&H today.  Continue all medications as directed.  Prescription written for albuterol inhaler, #2, one for home ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

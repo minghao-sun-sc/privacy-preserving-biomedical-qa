@@ -1,0 +1,39 @@
+{
+  "id": "5c5f30c91a4c55d80b000025",
+  "type": "factoid",
+  "question": "Which cells produce Interleukin 17A?",
+  "ideal_answer": "Interleukin (IL)-17A is secreted from T helper type 17 (TH17) cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28930285",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28941323",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28935156"
+  ],
+  "snippets": [
+    {
+      "text": "Several studies have shown an increased expression/release of Th17 related cytokine, IL-17A in ASD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28935156",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " interleukin (IL)-17A, secreted from T helper type 17 (TH17) cells,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28930285",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " IL-17A, markedly produced by TH17 cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28930285",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "IL-22 and IL-17A derive from both independent and overlapping lineages, defined as T helper (Th)22 and IL-22+ Th17 cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28941323",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "T helper type 17 (TH17) cells."
+}

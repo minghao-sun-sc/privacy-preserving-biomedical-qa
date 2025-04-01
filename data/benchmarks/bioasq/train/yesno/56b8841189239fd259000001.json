@@ -1,0 +1,55 @@
+{
+  "id": "56b8841189239fd259000001",
+  "type": "yesno",
+  "question": "Is the Drosophila Translational Control Element (TCE) involved in spermatogenesis?",
+  "ideal_answer": "Yes. The Drosophila Translational Control Element (TCE), a 12 nucleotide long sequence element, was demonstrated to be necessary for translational control of expression in the male germ line of Drosophila melanogaster.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22984601",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8111973"
+  ],
+  "snippets": [
+    {
+      "text": "Gene regulation in Drosophila spermatogenesis: analysis of protein binding at the translational control element TCE.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8111973",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We have previously identified a 12 nucleotide long sequence element, the TCE, that was demonstrated to be necessary for translational control of expression in the male germ line of Drosophila melanogaster (Sch\u00e4fer et al., 1990).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8111973",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Gene regulation in Drosophila spermatogenesis: analysis of protein binding at the translational control element TCE",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8111973",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The Drosophila Translational Control Element (TCE) is required for high-level transcription of many genes that are specifically expressed in testes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22984601",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Bioinformatic analyses of core promoter sequences from 190 genes that are specifically expressed in testes identified a 10 bp A/T-rich motif that is identical to the translational control element (TCE)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22984601",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Drosophila Translational Control Element (TCE) is required for high-level transcription of many genes that are specifically expressed in testes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22984601",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004330",
+    "http://amigo.geneontology.org/amigo/term/GO:0007283",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013091",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D029721"
+  ],
+  "exact_answer": "Yes"
+}

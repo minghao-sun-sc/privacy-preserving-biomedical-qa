@@ -1,0 +1,37 @@
+{
+  "document_id": "record_04522",
+  "original_length": 3805,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Nonfunctional AV fistula.\n- End-stage renal disease.\n- Hypertension.\n- Status post MI.\n- Clogged PermCath.,PLAN:\n- Give the patient TPA to the shunt, PermCath in both feet.\n- To board for Tuesda...",
+    "Symptoms": "",
+    "Treatment": "\n- Give the patient TPA to the shunt, PermCath in both feet.\n- To board for Tuesday for shunt repair if needed.\n- To dialyze as soon as possible.\n- To review previous operative report.\n- The patien...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "metoprolol 100 mg, Accupril 20 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, LOCATION, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "LOCATION",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

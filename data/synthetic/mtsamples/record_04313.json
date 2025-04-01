@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04313",
+  "original_length": 5754,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "/PLAN: , This is a 9-year-old male with congenital brain malformation and intractable epilepsy.  He has microcephaly as well as dystonic cerebral palsy.  He had a re-emergence of seizures, which ar...",
+    "Symptoms": "",
+    "Treatment": "tar flexion at the ankles bilaterally.  His cranial nerves reveal that his pupils are equal, round, and reactive to light.  Extraocular movements are intact other than bilateral esotropia.  His fac...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "to 15 mg, of 200 mg, a 150 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'His cranial nerves reveal that his pupils are equa...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

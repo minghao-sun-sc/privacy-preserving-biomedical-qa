@@ -1,0 +1,30 @@
+{
+  "id": "55376663bc4f83e82800000a",
+  "type": "factoid",
+  "question": "Which biomarker is widely used in the diagnosis of Ewing sarcoma?",
+  "ideal_answer": "CD99 is a hallmark marker for Ewing sarcoma and primitive neuroectodermal tumors.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12783138"
+  ],
+  "snippets": [
+    {
+      "text": "half of B-LBL patients are negative for CD45 (leucocyte common antigen, LCA), a widely used marker for the diagnosis of lymphoma, and a significant portion express CD99, a marker for Ewing's sarcoma (ES) or primitive neuroectodermal tumor (PNET)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12783138",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover, half of B-LBL patients are negative for CD45 (leucocyte common antigen, LCA), a widely used marker for the diagnosis of lymphoma, and a significant portion express CD99, a marker for Ewing's sarcoma (ES) or primitive neuroectodermal tumor (PNET)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12783138",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015415",
+    "http://www.disease-ontology.org/api/metadata/DOID:4980",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012512",
+    "http://www.disease-ontology.org/api/metadata/DOID:3368"
+  ],
+  "exact_answer": "CD99"
+}

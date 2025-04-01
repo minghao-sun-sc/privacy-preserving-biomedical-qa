@@ -1,0 +1,46 @@
+{
+  "id": "62008022c9dfcb9c0900001b",
+  "type": "list",
+  "question": "Which variables are included in the ALBI grade?",
+  "ideal_answer": "ALBI grade considers albumin and bilirubin.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32281043",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34534398",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34534392",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32744764"
+  ],
+  "snippets": [
+    {
+      "text": "Independent factors associated with survival were previous HCC treatment (HR 2.01, 95% CI 1.23-3.27, p\u2009=\u20090.005), bi-lobar disease (HR 2.25, 95% CI 1.30-3.89, p\u2009=\u20090.003), ascites (HR 1.77, 95% CI 0.99-3.13, p\u2009=\u20090.05), neutrophil-to-lymphocyte ratio (HR 1.11, 95% CI 1.02-1.20, p\u2009=\u20090.01), Albumin-Bilirubin (ALBI) grade-3 (HR 2.69, 95% CI 1.22-5.92, p\u2009=\u20090.01), tumor thrombus (HR 2.95, 95% CI 1.65-5.24, p\u2009<\u20090.001), and disease control rate (HR 0.62, 95% CI 0.39-0.96, p\u2009=\u20090.03). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32281043",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We used each database to evaluate the relationship between the albumin-bilirubin grade (ALBI) and the microbiome in patients with hepatitis C.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32744764",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Association between the albumin-bilirubin (ALBI) score and severity of portopulmonary hypertension (PoPH): A data-mining analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34534392",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "At the diagnosis of PoPH, liver function was evaluated by albumin-bilirubin (ALBI) score. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34534392",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS: Fourteen, 13, and 24 patients were classified based on modified albumin-bilirubin (mALBI) grade 1, 2a, and 2b, respectively. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34534398",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "albumin, bilirubin"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "5a6e4814b750ff445500004a",
+  "type": "yesno",
+  "question": "Are loop domains preserved upon cohesin loss?",
+  "ideal_answer": "No. Degradation of cohesin leads to elimination of loop domains. Neither compartment domains nor histone marks are affected. Loss of loop domains does not lead to widespread ectopic gene activation but does affect a significant minority of active genes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28985562"
+  ],
+  "snippets": [
+    {
+      "text": "Cohesin Loss Eliminates All Loop Domains.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28985562",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The human genome folds to create thousands of intervals, called \"contact domains,\" that exhibit enhanced contact frequency within themselves. \"Loop domains\" form because of tethering between two loci-almost always bound by CTCF and cohesin-lying on the same chromosome. \"Compartment domains\" form when genomic intervals with similar histone marks co-segregate. Here, we explore the effects of degrading cohesin. All loop domains are eliminated, but neither compartment domains nor histone marks are affected. Loss of loop domains does not lead to widespread ectopic gene activation but does affect a significant minority of active genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28985562",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "cohesin loss eliminates all loop domains",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28985562",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

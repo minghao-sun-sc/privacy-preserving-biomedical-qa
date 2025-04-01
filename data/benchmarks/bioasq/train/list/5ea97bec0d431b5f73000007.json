@@ -1,0 +1,81 @@
+{
+  "id": "5ea97bec0d431b5f73000007",
+  "type": "list",
+  "question": "Which methods infer 3D genome structure without proximity ligation?",
+  "ideal_answer": "SPRITE is a method that enables genome-wide detection of higher-order interactions within the nucleus.\nTransposase-mediated analysis of chromatin looping (Trac-looping) for simultaneous detection of multiscale genome-wide chromatin interactions among regulatory elements and chromatin accessibility.\nGenome architecture mapping (GAM) can be used for measuring chromatin contacts and other features of three-dimensional chromatin topology on the basis of sequencing DNA from a large collection of thin nuclear sections.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28273065",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30150754",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29148971",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29887377",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30109602",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31848476",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24051548",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29401453",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25887659"
+  ],
+  "snippets": [
+    {
+      "text": " Here, we develop split-pool recognition of interactions by tag extension (SPRITE), a method that enables genome-wide detection of higher-order interactions within the nucleus. Using SPRITE, we recapitulate known structures identified by proximity ligation and identify additional interactions occurring across larger distances, including two hubs of inter-chromosomal interactions that are arranged around the nucleolus and nuclear speckles.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29887377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Proximity ligation assays commonly known as chromosome conformation capture (3C) and 3C based methodologies (e.g., GCC, HiC and ChIA-Pet) are increasingly being incorporated into empirical studies to investigate the role that three-dimensional genome structure plays in the regulation of phenotype.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24051548",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We now report transposase-mediated analysis of chromatin looping (Trac-looping) for simultaneous detection of multiscale genome-wide chromatin interactions among regulatory elements and chromatin accessibility. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30150754",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "By combining 3C and high-throughput sequencing, the Hi-C method reveals genome-wide interactions within topological domains and global genome structure as a whole. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30109602",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we present a maximum-entropy model that is able to predict a contact map representation of structure given a sequence of bound factors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29401453",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We describe a genome architecture assay, tethered multiple 3C (TM3C), that maps genome-wide chromatin contacts via a simple protocol of restriction enzyme digestion and religation of fragments upon agarose gel beads followed by paired-end sequencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25887659",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Here we report a genome-wide method, genome architecture mapping (GAM), for measuring chromatin contacts and other features of three-dimensional chromatin topology on the basis of sequencing DNA from a large collection of thin nuclear sections. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28273065",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Improvements to these methods and the recent development of ligation-free approaches, including GAM, SPRITE and ChIA-Drop, are now helping to uncover new aspects of 3D genome topology that confirm the nucleus to be a complex, highly organized organelle.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31848476",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using SPRITE, we recapitulate known structures identified by proximity ligation and identify additional interactions occurring across larger distances, including two hubs of inter-chromosomal interactions that are arranged around the nucleolus and nuclear speckles.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29887377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we develop split-pool recognition of interactions by tag extension (SPRITE), a method that enables genome-wide detection of higher-order interactions within the nucleus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29887377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "SPRITE, Split-pool recognition of interactions by tag extension, Trac-looping, Transposase-mediated analysis of chromatin looping, Genome Architecture Mapping, GAM"
+}

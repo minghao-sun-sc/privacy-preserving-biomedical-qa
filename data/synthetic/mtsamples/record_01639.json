@@ -1,0 +1,37 @@
+{
+  "document_id": "record_01639",
+  "original_length": 4995,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "and assessment of fetal growth and well-being.,In closing, I do want to thank you very much for involving me in the care of your delightful patient.  I did review all of the above findings and reco...",
+    "Symptoms": "",
+    "Treatment": "options such as cervical cerclage, bedrest, tocolytic medications, and antenatal steroids.  I would recommend that the patient return in two weeks for further cervical assessment and assessment of ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "is 353 g, is 384 g"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, LOCATION"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

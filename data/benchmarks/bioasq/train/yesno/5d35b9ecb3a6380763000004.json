@@ -1,0 +1,31 @@
+{
+  "id": "5d35b9ecb3a6380763000004",
+  "type": "yesno",
+  "question": "Does deletion of cohesin change gene expression?",
+  "ideal_answer": " The conditional deletion of cohesin from noncycling thymocytes preserved enhancer position, H3K27ac, H4K4me1, and enhancer transcription, but weakened interactions between enhancers. Interestingly, ~ 50% of deregulated genes reside in the vicinity of enhancer elements, suggesting that cohesin regulates gene expression through spatial clustering of enhancer elements.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25677180"
+  ],
+  "snippets": [
+    {
+      "text": " The conditional deletion of cohesin from noncycling thymocytes preserved enhancer position, H3K27ac, H4K4me1, and enhancer transcription, but weakened interactions between enhancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25677180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Interestingly, \u223c 50% of deregulated genes reside in the vicinity of enhancer elements, suggesting that cohesin regulates gene expression through spatial clustering of enhancer elements.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25677180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We propose a model for cohesin-dependent gene regulation in which spatial clustering of enhancer elements acts as a unified mechanism for both enhancer-promoter \"connections\" and \"insulation.\"",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25677180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

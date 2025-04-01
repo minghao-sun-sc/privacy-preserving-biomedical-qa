@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03208",
+  "original_length": 1365,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "AND PLAN: , Patient with improvement of her platelet count on burst of prednisone.  We will decrease her prednisone to 40 mg for 3 days, then go down to 20 mg a day.  Basically thereafter, over tim...",
+    "Symptoms": "",
+    "Treatment": ", Patient with improvement of her platelet count on burst of prednisone.  We will decrease her prednisone to 40 mg for 3 days, then go down to 20 mg a day.  Basically thereafter, over time, I may t...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "to 60 mg, to 40 mg, to 20 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, LOCATION, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "LOCATION",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

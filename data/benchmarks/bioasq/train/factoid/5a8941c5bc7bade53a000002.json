@@ -1,0 +1,26 @@
+{
+  "id": "5a8941c5bc7bade53a000002",
+  "type": "factoid",
+  "question": "Which aminoacid position in the human CREB protein is phosphorylated?",
+  "ideal_answer": "pCREB is phosphorylated at its Serine 133.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27480489",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28185187"
+  ],
+  "snippets": [
+    {
+      "text": " pCREB(Ser133) as a model system",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28185187",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CREB and its activated form pCREB-Ser(133) (pCREB) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27480489",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Ser133"
+}

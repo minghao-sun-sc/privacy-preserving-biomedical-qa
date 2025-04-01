@@ -1,0 +1,45 @@
+{
+  "id": "58e782fd3e8b6dc87c000006",
+  "type": "yesno",
+  "question": "Does GATA-1 regulate ribosomal protein genes?",
+  "ideal_answer": "Mutations in exon 2 interfere with the synthesis of the full-length isoform of GATA-1 and lead to the production of a shortened isoform, GATA-1s. These mutations have been found in patients with Diamond-Blackfan anemia (DBA), a congenital erythroid aplasia typically caused by mutations in genes encoding ribosomal proteins. Sixteen of the corresponding transcription factors are of particular interest, as they are housekeeping genes or show a direct link to hematopoiesis, tumorigenesis or leukemia (e.g. GATA-1/2, PU.1, MZF-1). ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19587786",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10224082",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24453067"
+  ],
+  "snippets": [
+    {
+      "text": "Mutations in exon 2 interfere with the synthesis of the full-length isoform of GATA-1 and lead to the production of a shortened isoform, GATA-1s. These mutations have been found in patients with Diamond-Blackfan anemia (DBA), a congenital erythroid aplasia typically caused by mutations in genes encoding ribosomal proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24453067",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sixteen of the corresponding transcription factors are of particular interest, as they are housekeeping genes or show a direct link to hematopoiesis, tumorigenesis or leukemia (e.g. GATA-1/2, PU.1, MZF-1).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19587786",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Deletion of PKC1 relieves the repression of both ribosomal protein and rRNA genes that occurs in response to a defect in the secretory pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10224082",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This stress is monitored by Pkc1p, which initiates a signal transduction pathway that leads to repression of transcription of the rRNA and ribosomal protein genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10224082",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The importance of the transcription of the 137 ribosomal protein genes to the economy of the cell is apparent from the existence of at least three distinct pathways that can effect the repression of this set of genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10224082",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

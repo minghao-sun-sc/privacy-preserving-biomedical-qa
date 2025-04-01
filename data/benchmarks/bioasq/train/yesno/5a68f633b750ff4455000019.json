@@ -1,0 +1,105 @@
+{
+  "id": "5a68f633b750ff4455000019",
+  "type": "yesno",
+  "question": "Is creatinine assessment included in the MELD score?",
+  "ideal_answer": "Yes, creatinine is included in the Model For End-Stage Liver Disease (MELD) score. Other components of the MELD score are international normalized ratio and serum billirubin. The MELD score is used for evaluation of liver cirrhosis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27480755",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28856226",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27779785",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28510807",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29055930",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23293714",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27842889",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22178107",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15482344",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28198820",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29171941",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23403770"
+  ],
+  "snippets": [
+    {
+      "text": "Model For End-Stage Liver Disease (MELD) scores were calculated as 3.78\u00d7ln[TB]\u00a0+\u00a011.2\u00d7ln[INR]\u00a0+\u00a09.57\u00d7ln[creatinine]\u00a0+\u00a06.43. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27842889",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A corrected creatinine was derived from the mGFR after application of the Modification of Diet in Renal Disease formula. Subsequently, a corrected MELD was calculated and compared with the conventionally calculated MELD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27779785",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Among patients with MELD score>35, a new prognostic model based on serum creatinine, need for hemodialysis and moderate ascites could identify the sickest one.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28198820",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Patient risk factors evaluated include age, INR (international normalized ratio), creatinine, bilirubin, and MELD score (Model for End-of-stage Liver Disease). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28510807",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Limited comparability of creatinine assays in patients with liver cirrhosis and their impact on the MELD score.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28856226",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The model of end-stage liver disease (MELD) score is used for this purpose in most countries and incorporates bilirubin, International Normalized ratio, and creatinine. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28856226",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The MELD score was calculated using international normalized ratio, serum billirubin and creatinine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29055930",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Regression analysis identified high creatinine and INR, but not bilirubin, as the MELD components predicting negative outcomes with ELAD. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29171941",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This study aimed to evaluate the impact of two creatinine measurement methods on the Model for End Stage Liver Disease (MELD) score and glomerular filtration rate estimation (eGFR) in cirrhotic patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22178107",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "<b>OBJECTIVES</b>: The model for end-stage liver disease score (MELD = 3.8*LN[total bilirubin] + 9.6*LN[creatinine] + 11.2*[PT-INR] + 6.4) predicts mortality for tricuspid valve surgery.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23403770",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Simplified MELD score = 3.8*LN[total bilirubin] + 9.6*LN[creatinine] + 6.4.<br><b>METHODS</b>: A total of 172 patients (male: 66, female: 106; mean age, 63.8 \u00b1 10.3 years) who underwent tricuspid replacement (n = 18) or repair (n = 154) from January 1991 to July 2011 at a single centre were included.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23403770",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION Incorporating eGFR obtained by the 6-variable MDRD equation into the MELD score showed an equal predictive performance in in-hospital mortality compared to a creatinine-based MELD score.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23293714",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Simplified MELD score = 3.8*LN[total bilirubin] + 9.6*LN[creatinine] + 6.4.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23403770",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4273958",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D003404"
+  ],
+  "exact_answer": "Yes"
+}

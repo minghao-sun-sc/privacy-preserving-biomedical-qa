@@ -1,0 +1,37 @@
+{
+  "id": "5a6fa31ab750ff445500005e",
+  "type": "factoid",
+  "question": "Which method has been developed for assignment of enhancers to target genes?",
+  "ideal_answer": "While genomic assays can identify putative enhancers en masse, assigning target genes is a complex challenge. McEnhancer is a machine learning approach, which links target genes to putative enhancers via a semi-supervised learning algorithm that predicts gene expression patterns based on enriched sequence features. Predicted expression patterns were 73-98% accurate, predicted assignments showed strong Hi-C interaction enrichment, enhancer-associated histone modifications were evident, and known functional motifs were recovered.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29070071"
+  ],
+  "snippets": [
+    {
+      "text": "McEnhancer: predicting gene expression via semi-supervised assignment of enhancers to target genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29070071",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "While genomic assays can identify putative enhancers en masse, assigning target genes is a complex challenge. We devised a machine learning approach, McEnhancer, which links target genes to putative enhancers via a semi-supervised learning algorithm that predicts gene expression patterns based on enriched sequence features. Predicted expression patterns were 73-98% accurate, predicted assignments showed strong Hi-C interaction enrichment, enhancer-associated histone modifications were evident, and known functional motifs were recovered. Our model provides a general framework to link globally identified enhancers to targets and contributes to deciphering the regulatory genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29070071",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We devised a machine learning approach, McEnhancer, which links target genes to putative enhancers via a semi-supervised learning algorithm that predicts gene expression patterns based on enriched sequence features.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29070071",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "McEnhancer: predicting gene expression via semi-supervised assignment of enhancers to target genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29070071",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "McEnhancer"
+}

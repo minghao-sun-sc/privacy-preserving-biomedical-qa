@@ -1,0 +1,59 @@
+{
+  "id": "52d783bf98d0239505000001",
+  "type": "summary",
+  "question": "What is the genetic basis of progeria?",
+  "ideal_answer": "Hutchinson-Gilford progeria syndrome is a rare, sporadic, autosomal dominant syndrome that involves premature aging, generally leading to death at approximately 13 years of age due to myocardial infarction or stroke. \tThe genetic basis of most cases of this syndrome is a change from glycine GGC to glycine GGT in codon 608 of the lamin A (LMNA) gene, which activates a cryptic splice donor site to produce abnormal lamin A; this disrupts the nuclear membrane and alters transcription.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24019745",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17677003",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2687104",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6214719",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21217880",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18256394",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9309268",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1128606"
+  ],
+  "snippets": [
+    {
+      "text": "Hutchinson-Gilford progeria syndrome is a syndrome that involves premature aging, leading usually to death at the age between 10 to 14 years predominatly due to a myocardial infarction or a stroke",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21217880",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The genetic basis in most cases is a mutation at the nucleotide position 1824 of the lamin A gene",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21217880",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "At this position, cytosine is substituted for thymine so that a cryptic splice site within the precursor mRNA for lamin A is generated. This results in a production of abnormal lamin A, termed progerin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21217880",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hutchinson-Gilford progeria syndrome is a rare, sporadic, autosomal dominant syndrome that involves premature aging, generally leading to death at approximately 13 years of age due to myocardial infarction or stroke",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18256394",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The genetic basis of most cases of this syndrome is a change from glycine GGC to glycine GGT in codon 608 of the lamin A (LMNA) gene, which activates a cryptic splice donor site to produce abnormal lamin A; this disrupts the nuclear membrane and alters transcription",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18256394",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:37",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014898",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050325",
+    "http://www.disease-ontology.org/api/metadata/DOID:3911",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011371",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050739",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003057",
+    "http://www.disease-ontology.org/api/metadata/DOID:5688",
+    "http://www.disease-ontology.org/api/metadata/DOID:630"
+  ]
+}

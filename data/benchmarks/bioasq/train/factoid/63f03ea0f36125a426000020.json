@@ -1,0 +1,39 @@
+{
+  "id": "63f03ea0f36125a426000020",
+  "type": "factoid",
+  "question": "SER-109 is developed for prevention of which disease?",
+  "ideal_answer": "SER-109 is an investigational microbiome therapeutic composed of purified Firmicutes spores for the treatment of recurrent C. difficile infection.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35789381",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36158136",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35045228"
+  ],
+  "snippets": [
+    {
+      "text": "In ECOSPOR III, SER-109, an investigational oral microbiome therapeutic, was superior to placebo in reducing rCDI. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35789381",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SER-109, an Oral Microbiome Therapy for Recurrent Clostridioides difficile Infection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35045228",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "SER-109 is an investigational microbiome therapeutic composed of purified Firmicutes spores for the treatment of recurrent C. difficile infection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35045228",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report that the manufacturing steps for SER-109, a purified investigational microbiome therapeutic developed to reduce risk of Clostridioides difficile recurrence, inactivate porcine epidemic diarrhea virus, a model coronavirus for SARS-CoV-2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36158136",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "C. difficile"
+}

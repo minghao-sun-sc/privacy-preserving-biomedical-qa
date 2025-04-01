@@ -1,0 +1,46 @@
+{
+  "id": "54ede76294afd61504000008",
+  "type": "factoid",
+  "question": "What is the risk of developing acute myelogenous leukemia in Fanconi anemia?",
+  "ideal_answer": "A review of all of the cases of Fanconi anemia (FA) reported to the International Fanconi Anemia Registry (IFAR) indicates that at least 15% manifest acute myelogenous leukemia (AML) or preleukemia.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/8068955",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9207444",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1548931"
+  ],
+  "snippets": [
+    {
+      "text": "Sixteen of the 59 FA-C patients (27%) have developed acute myelogenous leukemia",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9207444",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Actuarial risk of MDS or AML was 52% (37% to 67%) by 40 years of age",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8068955",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A review of all of the cases of Fanconi anemia (FA) reported to the International Fanconi Anemia Registry (IFAR) indicates that at least 15% manifest acute myelogenous leukemia (AML) or preleukemia",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1548931",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A review of all of the cases of Fanconi anemia (FA) reported to the International Fanconi Anemia Registry (IFAR) indicates that at least 15% manifest acute myelogenous leukemia (AML) or preleukemia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1548931",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:13636",
+    "http://www.disease-ontology.org/api/metadata/DOID:8692",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005199",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D051856",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015470",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007951"
+  ],
+  "exact_answer": "At least 15%, based on the International Fanconi Anemia Registry (IFAR)"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "5e4700e03f54159529000015",
+  "type": "summary",
+  "question": "What is RiboTag profiling?",
+  "ideal_answer": "RiboTag is a flexible tool for measuring the translational state of targeted cells in heterogeneous cell cultures.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26054767"
+  ],
+  "snippets": [
+    {
+      "text": "RiboTag is a flexible tool for measuring the translational state of targeted cells in heterogeneous cell cultures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26054767",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we describe our adaptation of a ribosomal capture strategy that was designed to be used in transgenic mice expressing tagged ribosomal subunits (RiboTag) in specific cell types, thereby allowing measurement of translating RNAs from desired cell types within complex tissues. Using this strategy we were able to isolate and analyze neuron-specific RNA despite the presence of glia by co-transfecting experimental plasmids with plasmids that selectively express RiboTag in neurons. RiboTag immunoprecipitation was capable of recovering high integrity RNA from small numbers of transfected cells that can then be interrogated by a variety of methods (e.g., RT-qPCR, PCR array, RNA-Seq) and compared with basal RNA expression of the entire culture. Additionally, we demonstrate how co-transfection of RiboTag with small hairpin RNA (shRNA) constructs can validate and accurately assess the degree of gene expression knockdown, and how RiboTag can be used to measure receptor-mediated gene regulation with transiently expressed designer receptors exclusively activated by designer drugs (DREADDs). RiboTag co-transfection represents a convenient and powerful tool to isolate RNA from a specific subset of cultured cells with a variety of applications for experiments in vitro.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26054767",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

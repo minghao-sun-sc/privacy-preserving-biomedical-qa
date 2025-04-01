@@ -1,0 +1,55 @@
+{
+  "id": "5e30b56efbd6abf43b000037",
+  "type": "yesno",
+  "question": "Is the BAGEL algorithm used for arrayed CRISPR screens?",
+  "ideal_answer": "No. BAGEL (Bayesian Analysis of Gene EssentiaLity) is a supervised learning method for analyzing pooled library gene knockout screens. It offers significantly greater sensitivity than current methods, while computational optimizations reduce runtime by an order of magnitude.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27083490"
+  ],
+  "snippets": [
+    {
+      "text": "BAGEL: a computational framework for identifying essential genes from pooled library screens.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27083490",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The adaptation of the CRISPR-Cas9 system to pooled library gene knockout screens in mammalian cells represents a major technological leap over RNA interference, the prior state of the art. New methods for analyzing the data and evaluating results are needed.RESULTS: We offer BAGEL (Bayesian Analysis of Gene EssentiaLity), a supervised learning method for analyzing gene knockout screens. Coupled with gold-standard reference sets of essential and nonessential genes, BAGEL offers significantly greater sensitivity than current methods, while computational optimizations reduce runtime by an order of magnitude.CONCLUSIONS: Using BAGEL, we identify ~2000 fitness genes in pooled library knockout screens in human cell lines at 5 % FDR, a major advance over competing platforms. BAGEL shows high sensitivity and specificity even across screens performed by different labs using different libraries and reagents.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27083490",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS\n\nUsing BAGEL, we identify ~2000 fitness genes in pooled library knockout screens in human cell lines at 5 % FDR, a major advance over competing platforms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27083490",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BAGEL: a computational framework for identifying essential genes from pooled library screens",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27083490",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "CONCLUSIONS\nUsing BAGEL, we identify ~2000 fitness genes in pooled library knockout screens in human cell lines at 5 % FDR, a major advance over competing platforms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27083490",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: Using BAGEL, we identify ~2000 fitness genes in pooled library knockout screens in human cell lines at 5 % FDR, a major advance over competing platforms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27083490",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Conclusions Using BAGEL, we identify ~2000 fitness genes in pooled library knockout screens in human cell lines at 5 % FDR, a major advance over competing platforms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27083490",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

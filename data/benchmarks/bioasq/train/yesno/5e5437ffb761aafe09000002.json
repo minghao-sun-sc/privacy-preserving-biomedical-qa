@@ -1,0 +1,25 @@
+{
+  "id": "5e5437ffb761aafe09000002",
+  "type": "yesno",
+  "question": "Has MLE4901 been tested in phase III clinical trials?",
+  "ideal_answer": "No, MLE4901 has been tested in phase 2, randomised, double-blind, placebo-controlled trial.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28385352"
+  ],
+  "snippets": [
+    {
+      "text": "METHODS\n\nThis phase 2, randomised, double-blind, placebo-controlled, single-centre, crossover trial assessed the effectiveness of an oral neurokinin 3 receptor antagonist (MLE4901) on menopausal hot flushes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28385352",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Neurokinin 3 receptor antagonism as a novel treatment for menopausal hot flushes: a phase 2, randomised, double-blind, placebo-controlled trial.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28385352",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

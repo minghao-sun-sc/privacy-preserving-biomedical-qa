@@ -1,0 +1,32 @@
+{
+  "id": "5c5f0c5a1a4c55d80b00000f",
+  "type": "yesno",
+  "question": "Is  LRP1 interacting with Urokinase receptor?",
+  "ideal_answer": "Yes",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19008962",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11359936"
+  ],
+  "snippets": [
+    {
+      "text": " Interaction with a complex formed by uPA and its inhibitor PAI-1 induces cell surface down regulation and recycling of the receptor via the clathrin-coated pathway, a process dependent on the association to LRP-1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19008962",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we investigated whether direct interaction between uPAR, a glycosyl-phosphatidylinositol-anchored protein, and LRP, a transmembrane receptor,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11359936",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Direct binding of domain 3 (D3) of uPAR to LRP is required for clearance of uPA-PAI-1-occupied uPAR",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11359936",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

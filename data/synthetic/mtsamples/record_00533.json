@@ -1,0 +1,36 @@
+{
+  "document_id": "record_00533",
+  "original_length": 1787,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Bilateral chronic serous otitis media.,POSTOPERATIVE DIAGNOSIS: , Bilateral chronic serous otitis media.,OPERATION PERFORMED:\n- Bilateral myringotomies.\n- Insertion of Shepard gromm...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',POSTOPERATIVE DIAGNOSIS: , Bilateral chronic sero...'"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

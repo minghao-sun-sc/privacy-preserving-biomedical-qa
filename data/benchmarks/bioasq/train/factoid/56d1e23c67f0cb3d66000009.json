@@ -1,0 +1,48 @@
+{
+  "id": "56d1e23c67f0cb3d66000009",
+  "type": "factoid",
+  "question": "Which are the coactivators of the Yes-associated protein (yap)?",
+  "ideal_answer": "The Yap protein forms complex with Tead (TEA domain) transcription factors.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22632831",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16332960",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23380592",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23985334",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25097035",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20439427"
+  ],
+  "snippets": [
+    {
+      "text": "ndependent research, often in the context of muscle biology, described Tead (TEA domain) transcription factors, which bind CATTCC DNA motifs to regulate gene expression. These two research areas were joined by the finding that the Hippo pathway regulates the activity of Tead transcription factors mainly through phosphorylation of the transcriptional coactivators Yap and Taz, which bind to and activate Teads.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25097035",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TEADs on their own are unable to activate transcription and they require the help of coactivators. Several TEAD-interacting coactivators are known and they can be classified into three groups: (1) YAP and its paralog TAZ;",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23380592",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "YAP and TAZ are transcription coactivators and effectors of the Hippo pathway, which play a key role in organ size control. Through interaction with transcription factors such as TEADs, they activate gene transcription and thus promote cell proliferation, inhibit apoptosis, and regulate cell differentiation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23985334",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The YAP/TAZ-TEAD complex also upregulates several other proliferation-promoting genes and also promotes anchorage-independent cell proliferation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22632831",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "hree-dimensional structure of the YAP-TEAD complex",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20439427",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Tead (TEA domain) transcription factors."
+}

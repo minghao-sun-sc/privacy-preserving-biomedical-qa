@@ -1,0 +1,19 @@
+{
+  "id": "5c8972d4d558e5f232000006",
+  "type": "yesno",
+  "question": "Has strimvelis been approved by the European Medicines Agency?",
+  "ideal_answer": "Yes, the gene therapy Strimvelis has been approved by the European Medicines Agency.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29625577"
+  ],
+  "snippets": [
+    {
+      "text": "Strimvelis (autologous CD34+ cells transduced to express adenosine deaminase [ADA]) is the first ex vivo stem cell gene therapy approved by the European Medicines Agency (EMA), indicated as a single treatment for patients with ADA-severe combined immunodeficiency (ADA-SCID) who lack a suitable matched related bone marrow donor. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29625577",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

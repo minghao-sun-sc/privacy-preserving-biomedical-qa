@@ -1,0 +1,50 @@
+{
+  "id": "5883bce3e56acf5176000003",
+  "type": "list",
+  "question": "Which pipelines are used for analyzing data from ChIP-nexus experiments?",
+  "ideal_answer": "PeakXus and Q-nexus enable comprehensive transcription factor binding site discovery from ChIP-nexus experiments.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27814676",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27587683"
+  ],
+  "snippets": [
+    {
+      "text": "PeakXus: comprehensive transcription factor binding site discovery from ChIP-Nexus and ChIP-Exo experiments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27587683",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We describe a peak caller PeakXus that is specifically designed to leverage the increased resolution of ChIP-exo/Nexus and developed with the aim of making as few assumptions of the data as possible to allow discoveries of novel binding patterns. We apply PeakXus to ChIP-Nexus and ChIP-exo experiments performed both in Homo sapiens and in Drosophila melanogaster cell lines.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27587683",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Q-nexus: a comprehensive and efficient analysis pipeline designed for ChIP-nexus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27814676",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we present a comprehensive software package for ChIP-nexus data that exploits the random barcodes for selective removal of PCR duplicates and for quality control. Furthermore, we developed bespoke methods to estimate the width of the protected region resulting from protein-DNA binding and to infer binding positions from ChIP-nexus data. Finally, we applied our peak calling method as well as the two other methods MACE and MACS2 to the available ChIP-nexus data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27814676",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Q-nexus: a comprehensive and efficient analysis pipeline designed for ChIP-nexus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27814676",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "PeakXus: comprehensive transcription factor binding site discovery from ChIP-Nexus and ChIP-Exo experiments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27587683",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "PeakXus, Q-nexus"
+}

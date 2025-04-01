@@ -1,0 +1,40 @@
+{
+  "id": "5e4adcbe6d0a277941000017",
+  "type": "yesno",
+  "question": "Does the BRAFV600E mutation have an effect on clinical response to radioiodine therapy?",
+  "ideal_answer": "Yes, it has been suggested that patients with papillary thyroid cancer (PTC) harbouring the BRAF(V600E) mutation have a worse prognosis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26780618",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29549631",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30312216",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26838744"
+  ],
+  "snippets": [
+    {
+      "text": "Preclinical studies showed that BRAF mutation significantly reduced radioiodine uptake and decreased the sensitivity to radioactive iodine (RAI) therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30312216",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The status of BRAF mutation may not affect the clinical response to RAI therapy for patients with PTMC with intermediate-risk to high-risk features. More trials examining the role of BRAF mutation in guiding postoperative RAI therapy are needed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30312216",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "our results suggest that the combination of BRAFV600E+ve mutation and MIBI-ve scintigraphy may be considered a negative prognostic clue, which predicts the absence of radioiodine uptake at pT-WBS in DTC patients with incomplete bio-chemical response to first RAIT",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29549631",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The results indicate that BRAF(V600E) mutation is correlated with a lower expression of NIS in PTCs without HT, suggesting the radioiodine-refractory effects during RIA therapy in these patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26838744",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "56b8f28a156496395c000006",
+  "type": "yesno",
+  "question": "Is there any association between Jarid2 and miR-155 in Th17 cells?",
+  "ideal_answer": "Yes. Activation-induced miR-155 targets the chromatin protein Jarid2 to regulate proinflammatory cytokine production in T helper 17 cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24856900",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24950205"
+  ],
+  "snippets": [
+    {
+      "text": "Jarid2 links MicroRNA and chromatin in Th17 cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24950205",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In this issue of Immunity, Escobar et\u00a0al. (2014) bring microRNAs and chromatin together by showing how activation-induced miR-155 targets the chromatin protein Jarid2 to regulate proinflammatory cytokine production in T helper 17 cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24950205",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "miR-155 activates cytokine gene expression in Th17 cells by regulating the DNA-binding protein Jarid2 to relieve polycomb-mediated repression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24856900",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Mir155 was bound by Th17 cell transcription factors and was highly expressed during Th17 cell differentiation. miR-155-deficient Th17 and T regulatory (Treg) cells expressed increased amounts of Jarid2, a DNA-binding protein that recruits the Polycomb Repressive Complex 2 (PRC2) to chromatin. PRC2 binding to chromatin and H3K27 histone methylation was increased in miR-155-deficient cells, coinciding with failure to express Il22, Il10, Il9, and Atf3. Defects in Th17 cell cytokine expression and Treg cell homeostasis in the absence of Mir155 could be partially suppressed by Jarid2 deletion. Thus, miR-155 contributes to Th17 cell function by suppressing the inhibitory effects of Jarid2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24856900",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thus, miR-155 contributes to Th17 cell function by suppressing the inhibitory effects of Jarid2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24856900",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thus, miR-155 contributes to Th17 cell function by suppressing the inhibitory effects of Jarid2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24856900",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Defects in Th17 cell cytokine expression and Treg cell homeostasis in the absence of Mir155 could be partially suppressed by Jarid2 deletion. Thus, miR-155 contributes to Th17 cell function by suppressing the inhibitory effects of Jarid2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24856900",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thus, miR-155 contributes to Th17 cell function by suppressing the inhibitory effects of Jarid2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24856900",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/JARD2_CHICK",
+    "http://www.uniprot.org/uniprot/JARD2_HUMAN",
+    "http://amigo.geneontology.org/amigo/term/GO:2000317",
+    "http://www.uniprot.org/uniprot/JARD2_MOUSE",
+    "http://amigo.geneontology.org/amigo/term/GO:0072538",
+    "http://amigo.geneontology.org/amigo/term/GO:2000318",
+    "http://amigo.geneontology.org/amigo/term/GO:2000316",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D058504",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018417"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04273",
+  "original_length": 6502,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": ".\n- Ongoing tobacco use.,PAST SURGICAL HISTORY\n- Recent and multiple thoracentesis as described above.\n- Bilateral mastectomies.\n- Multiple abdominal surgeries.\n- Cholecystectomy.\n- Remote right an...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Atenolol 50 mg, Gabapentin 300 mg, Norvasc 5 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Recent and multiple thoracentesis as described abo...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "5516fc8832767d0305000002",
+  "type": "yesno",
+  "question": "Is Dicer part of the RISC loading complex?",
+  "ideal_answer": "Yes, Dicer is part of the RISC loading complex.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23511973",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23272173",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24303839",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23424633",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23550157",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23226452"
+  ],
+  "snippets": [
+    {
+      "text": "Dicer is a component of the protein machinery (the RNA Induced Silencing Complex [RISC]) which is involved in catalyzing the formation of mature microRNAs from their precursors in the process of microRNA biogenesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24303839",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RNA-induced silencing complex (RISC) Proteins PACT, TRBP, and Dicer are SRA binding nuclear receptor coregulators.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23550157",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The cytoplasmic RNA-induced silencing complex (RISC) contains dsRNA binding proteins, including protein kinase RNA activator (PACT), transactivation response RNA binding protein (TRBP), and Dicer, that process pre-microRNAs into mature microRNAs (miRNAs) that target specific mRNA species for regulation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23550157",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Although the major RNAi pathway proteins are found in most subcellular compartments, the miRNA- and siRNA-loaded Ago2 populations co-sediment almost exclusively with the rER membranes, together with the RISC loading complex (RLC) factors Dicer, TAR RNA binding protein (TRBP) and protein activator of the interferon-induced protein kinase (PACT).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23511973",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RNA interference (RNAi) is mediated by small interfering RNAs (siRNAs), which are liberated from double-stranded (ds)RNA precursors by Dicer and guide the RNA-induced silencing complex (RISC) to targets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23424633",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ". Dicer, an RNase III enzyme, plays a central role in the RNAi pathway by cleaving precursors of both of these classes of RNAs to form mature siRNAs and miRNAs, which are then loaded into the RNA-induced silencing complex (RISC). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23272173",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Canonical siRNAs are 21 nucleotides (nt) in length and are loaded to the RNA Induced Silencing Complex when introduced into the cells, while longer siRNA molecules are first processed by endogenous Dicer and thus termed Dicer-substrate siRNA (DsiRNA). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23226452",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016442",
+    "http://www.uniprot.org/uniprot/DCR1_SCHPO",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0070578",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0070922",
+    "http://www.uniprot.org/uniprot/DICER_CHICK",
+    "http://www.uniprot.org/uniprot/DICER_HUMAN",
+    "http://www.uniprot.org/uniprot/DICER_CRIGR",
+    "http://www.uniprot.org/uniprot/DICER_MOUSE",
+    "http://www.uniprot.org/uniprot/DICER_BOVIN",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D043244",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D034743"
+  ],
+  "exact_answer": "Yes"
+}

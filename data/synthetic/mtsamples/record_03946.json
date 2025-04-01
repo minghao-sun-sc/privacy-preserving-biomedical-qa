@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03946",
+  "original_length": 2566,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Symptomatic cholelithiasis.,DISCHARGE DIAGNOSIS:,  Symptomatic cholelithiasis.,SERVICE: , Surgery.,CONSULTS:,  None.,HISTORY OF PRESENT ILLNESS: , Ms. ABC is a 27-year-old woman who apparently pr...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON",
+        "Data leakage detected: Demographic information leaked: ': , Ms. ABC is a 27-year-old woman who a'"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "5c890ad575a4a5d21900000d",
+  "type": "factoid",
+  "question": "Which plant does oleuropein originate from?",
+  "ideal_answer": "Oleuropein originates from olive trees, and is specifically found in olive leaf extracts.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29099642"
+  ],
+  "snippets": [
+    {
+      "text": "Oleuropein Is Responsible for the Major Anti-Inflammatory Effects of Olive Leaf Extract.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29099642",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Oleuropein is the only OLE component that has shown anti-inflammatory effects at a concentration of 20\u2009\u03bcg/mL.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29099642",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Downregulation of TNF\u03b1 secretion in PMNCs culture in response to OLE treatment indicates that this polyphenol-rich extract has an anti-inflammatory effect, and oleuropein is the major OLE component responsible for this effect. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29099642",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Olive tree"
+}

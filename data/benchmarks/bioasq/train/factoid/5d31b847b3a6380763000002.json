@@ -1,0 +1,54 @@
+{
+  "id": "5d31b847b3a6380763000002",
+  "type": "factoid",
+  "question": "How many genes belong to the KRAB-ZNF family in the human genome?",
+  "ideal_answer": "The KRAB-ZNF family is a multisubunit protein family comprised of 70 co-regulated genes, denoted KLR1-ZNF15, that is represented by multigene families in the human genome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19695231",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23253430",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17038565",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30444046",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29198826",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20573777"
+  ],
+  "snippets": [
+    {
+      "text": "By mammalian one- or two-hybrid experiments in HEK293 cells, we compared transcriptional repression activities of 61 human KRAB-ZNFs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19695231",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, using a reporter system, we show that TRIM28/KRAB-ZNFs alter DNA methylation patterns in addition to H3K9me3 to cause stable gene repression during reprogramming. Using several expression datasets, we identified KRAB-ZNFs (ZNF114, ZNF483, ZNF589) in the human genome that maintain pluripotency. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29198826",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " High-resolution mapping on human chromosome 19 revealed that CBX1 coats large domains 0.1-4 Mb in size, which coincide with the position of KRAB-ZNF gene clusters",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17038565",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we examine the structural and functional diversity of the 70 human KRAB-ZNF genes involved in the most recent primate SD events including genes that arose in the hominid lineag",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20573777",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Here, we discuss the main evolutionary and molecular features that make transcription factors (TFs), especially the family of zinc finger proteins with a Kr\u00fcppel-associated box domain (KRAB-ZNF), strong candidates to play an important role in postzygotic reproductive isolation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23253430",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The KRAB-ZNF (Kr\u00fcppel-associated box domain zinc finger) gene family is composed of a large number of highly homologous genes, gene isoforms, and pseudogenes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30444046",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "70"
+}

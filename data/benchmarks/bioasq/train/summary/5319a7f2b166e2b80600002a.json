@@ -1,0 +1,41 @@
+{
+  "id": "5319a7f2b166e2b80600002a",
+  "type": "summary",
+  "question": "What is the result of the interaction between TSC1 and PLK1?",
+  "ideal_answer": "Phosphorylated TSC1 (hamartin) interacts with Plk1 independent of TSC2 (tuberin), with all three proteins present in a complex, and negatively regulates the protein levels of Plk1, to control centrosome duplication.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16339216"
+  ],
+  "snippets": [
+    {
+      "text": "Phosphorylated hamartin interacts with Plk1 independent of tuberin with all three proteins present in a complex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16339216",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hamartin negatively regulates the protein levels of Plk1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16339216",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, Tsc1(-/-) mouse embryonic fibroblasts (MEFs) have increased number of centrosomes and increased DNA content, compared to Tsc1(+/+) cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16339216",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Both phenotypes are rescued after pre-treatment with the mTOR inhibitor rapamycin. RNAi inhibition of Plk1 in Tsc1(-/-) MEFs failed to rescue the increased centrosome number phenotype. These data reveal a novel subcellular localization for hamartin and a novel interaction partner for the hamartin/tuberin complex and implicate hamartin and mTOR in the regulation of centrosome duplication.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16339216",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/TSC1_HUMAN",
+    "http://www.uniprot.org/uniprot/PLK1_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D054730",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0033596"
+  ]
+}

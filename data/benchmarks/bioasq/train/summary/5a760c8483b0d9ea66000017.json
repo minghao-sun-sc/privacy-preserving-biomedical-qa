@@ -1,0 +1,39 @@
+{
+  "id": "5a760c8483b0d9ea66000017",
+  "type": "summary",
+  "question": "What is the FIRE (Functional Inference of Regulators of Expression) tool?",
+  "ideal_answer": "FIRE (Functional Inference of Regulators of Expression) is a tool to score both noncoding and coding SNVs based on their potential to regulate the expression levels of nearby genes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28961785"
+  ],
+  "snippets": [
+    {
+      "text": "Methods to predict whether or not individual SNVs are likely to regulate gene expression would aid interpretation of variants of unknown significance identified in whole-genome sequencing studies.Results: We developed FIRE (Functional Inference of Regulators of Expression), a tool to score both noncoding and coding SNVs based on their potential to regulate the expression levels of nearby genes. FIRE consists of 23 random forests trained to recognize SNVs in cis -expression quantitative trait loci ( cis -eQTLs) using a set of 92 genomic annotations as predictive features. FIRE scores discriminate cis -eQTL SNVs from non-eQTL SNVs in the training set with a cross-validated area under the receiver operating characteristic curve (AUC) of 0.807, and discriminate cis -eQTL SNVs shared across six populations of different ancestry from non-eQTL SNVs with an AUC of 0.939. FIRE scores are also predictive of cis -eQTL SNVs across a variety of tissue types.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28961785",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We developed FIRE (Functional Inference of Regulators of Expression), a tool to score both noncoding and coding SNVs based on their potential to regulate the expression levels of nearby genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28961785",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Results We developed FIRE (Functional Inference of Regulators of Expression), a tool to score both noncoding and coding SNVs based on their potential to regulate the expression levels of nearby genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28961785",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0010468",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D018507",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D005786",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D015971",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D015966",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D015967",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D015964",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D015870"
+  ]
+}

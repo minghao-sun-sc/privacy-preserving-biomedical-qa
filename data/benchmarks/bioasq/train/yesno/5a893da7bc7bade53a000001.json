@@ -1,0 +1,60 @@
+{
+  "id": "5a893da7bc7bade53a000001",
+  "type": "yesno",
+  "question": "Is CREB a key memory protein?",
+  "ideal_answer": "The creb protein is associated with memory",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25031400",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28017136",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28424976",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28752224",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28069295",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28292834"
+  ],
+  "snippets": [
+    {
+      "text": "Human cyclic AMP response element binding protein (CREB) transcription factor which plays a crucial role in memory",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28069295",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The activated CREB is implicated in the regulation of development, protection, learning, memory and plasticity in the nerve system. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28017136",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A mouse genetic study showed that cAMP-responsive element-binding protein (CREB)-mediated transcription is required for the formation of social recognition memory.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28292834",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription factor cAMP response element-binding protein (CREB) plays a critical role in memory formation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28424976",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "It is well known that molecules like cAMP response element binding (CREB) and binding protein (CBP) play a crucial role in memory consolidation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28752224",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CREB SUMOylation by the E3 ligase PIAS1 enhances spatial memory.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25031400",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Therefore, CREB phosphorylation may be responsible for signal transduction during the early phase of long-term memory formation, whereas CREB SUMOylation sustains long-term memory",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25031400",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

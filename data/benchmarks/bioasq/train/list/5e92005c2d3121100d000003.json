@@ -1,0 +1,47 @@
+{
+  "id": "5e92005c2d3121100d000003",
+  "type": "list",
+  "question": "List the deadliest viruses in the world.",
+  "ideal_answer": "The filoviruses, Ebola virus (EBOV) and Marburg virus (MARV), are among the deadliest viruses that cause disease in humans, with reported case fatality rates of up to 90% in some outbreaks.\r\nWHO ranks HIV as one of the deadliest diseases.\r\nInfluenza virus",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20049699",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30252528",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27622648",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29425816",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27979676"
+  ],
+  "snippets": [
+    {
+      "text": "The Ebola and Marburg viruses are some of the deadliest viruses in the world. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27979676",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The filoviruses, Ebola virus (EBOV) and Marburg virus (MARV), are among the deadliest viruses that cause disease in humans, with reported case fatality rates of up to 90% in some outbreaks. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27622648",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Filoviruses are zoonotic and among the deadliest viruses known to mankind, with mortality rates in outbreaks reaching up to 90%.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20049699",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "influenza viruses",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30252528",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "WHO ranks HIV as one of the deadliest diseases",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29425816",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Ebola virus, Marburg virus, Influenza virus, HIV"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "5a75f5aa83b0d9ea66000008",
+  "type": "summary",
+  "question": "Describe JACUSA",
+  "ideal_answer": "JACUSA detects single nucleotide variants by comparing data from next-generation sequencing experiments (RNA-DNA or RNA-RNA). In practice, JACUSA shows higher recall and comparable precision in detecting A\u2192I sites from RNA-DNA comparisons, while showing higher precision and recall in RNA-RNA comparisons.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28049429"
+  ],
+  "snippets": [
+    {
+      "text": "JACUSA: site-specific identification of RNA editing events from replicate sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28049429",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present JACUSA, a versatile one-stop solution to detect single nucleotide variant positions from comparing RNA-DNA and/or RNA-RNA sequencing samples. The performance of JACUSA has been carefully evaluated and compared to other variant callers in an in silico benchmark. JACUSA outperforms other algorithms in terms of the F measure, which combines precision and recall, in all benchmark scenarios. This performance margin is highest for the RNA-RNA comparison scenario. We further validated JACUSA's performance by testing its ability to detect A\u2192I events using sequencing data from a human cell culture experiment and publicly available RNA-seq data from Drosophila melanogaster heads. To this end, we performed whole genome and RNA sequencing of HEK-293 cells on samples with lowered activity of candidate RNA editing enzymes. JACUSA has a higher recall and comparable precision for detecting true editing sites in RDD comparisons of HEK-293 data. Intriguingly, JACUSA captures most A\u2192I events from RRD comparisons of RNA sequencing data derived from Drosophila and HEK-293 data sets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28049429",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our software JACUSA detects single nucleotide variants by comparing data from next-generation sequencing experiments (RNA-DNA or RNA-RNA). In practice, JACUSA shows higher recall and comparable precision in detecting A\u2192I sites from RNA-DNA comparisons, while showing higher precision and recall in RNA-RNA comparisons.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28049429",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Even more surprising, condition-specific editing events, which would show up as differences in RNA-RNA comparisons (RRDs) and depend on particular cellular states, are rarely discussed in the literature.<br><b>RESULTS</b>: We present JACUSA, a versatile one-stop solution to detect single nucleotide variant positions from comparing RNA-DNA and/or RNA-RNA sequencing samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28049429",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Intriguingly, JACUSA captures most A\u2192I events from RRD comparisons of RNA sequencing data derived from Drosophila and HEK-293 data sets.<br><b>CONCLUSION</b>: Our software JACUSA detects single nucleotide variants by comparing data from next-generation sequencing experiments (RNA-DNA or RNA-RNA).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28049429",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSION Our software JACUSA detects single nucleotide variants by comparing data from next-generation sequencing experiments (RNA-DNA or RNA-RNA).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28049429",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS We present JACUSA, a versatile one-stop solution to detect single nucleotide variant positions from comparing RNA-DNA and/or RNA-RNA sequencing samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28049429",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present JACUSA, a versatile one-stop solution to detect single nucleotide variant positions from comparing RNA-DNA and/or RNA-RNA sequencing samples.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28049429",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D017393"
+  ]
+}

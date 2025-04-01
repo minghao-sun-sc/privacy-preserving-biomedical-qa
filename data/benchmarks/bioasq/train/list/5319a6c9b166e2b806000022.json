@@ -1,0 +1,33 @@
+{
+  "id": "5319a6c9b166e2b806000022",
+  "type": "list",
+  "question": "Which multiple kinase inhibitors are used in cancer therapy?",
+  "ideal_answer": "Multiple kinase inhibitors used in cancer therapy include ZD6474, SU11248, AEE 788, sorafenib, vatalanib, and AG-013736.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16159418"
+  ],
+  "snippets": [
+    {
+      "text": "These inhibitors generally hinder the phosphorylation of several protein kinases of membrane receptors, such as vascular endothelial growth factor receptors, platelet-derived growth factor receptors, the human epidermal growth factor receptor family, and cytoplasmic receptors such as c-Kit, Raf kinase, and FLT3.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16159418",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These inhibitors include ZD6474, SU11248, AEE 788, sorafenib, vatalanib, and AG-013736.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16159418",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004358",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009369",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0033673",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011494",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D047428",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013812",
+    "http://www.disease-ontology.org/api/metadata/DOID:162"
+  ],
+  "exact_answer": "ZD6474, SU11248, AEE 788, sorafenib, vatalanib, AG-013736"
+}

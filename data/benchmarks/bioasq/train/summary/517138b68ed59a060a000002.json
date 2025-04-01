@@ -1,0 +1,40 @@
+{
+  "id": "517138b68ed59a060a000002",
+  "type": "summary",
+  "question": "How does ranolazine affect kinase signaling activation in the heart?",
+  "ideal_answer": "Ranolazine inhibits Ca(2+)/calmodulin kinase II (CaMKII) activity",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23271797",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21677263"
+  ],
+  "snippets": [
+    {
+      "text": "support of this view, CaMKII activity was also increased in hearts of transgenic mice overexpressing a gain-of-function Na(v)1.5 mutant (N(1325)S). The effects of both ATX-II and the N(1325)S mutation were reversed by either I(NaL) inhibition (with ranolazine or tetrodotoxin) or CaMKII inhibition (with KN93 or autocamtide 2-related inhibitory peptide).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21677263",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Such changes were related to enhanced Ca(2+)/calmodulin kinase II (CaMKII) activity and increased phosphorylation of its targets. Ranolazine at therapeutic concentrations partially reversed the HCM-related cellular abnormalities via I(NaL) inhibition, with negligible effects in controls. By shortening the action potential duration in HCM cardiomyocytes, ranolazine reduced the occurrence of early and delayed afterdepolarizations. Finally, as a result of the faster kinetics of Ca(2+)(i) transients and the lower diastolic Ca(2+)(i), ranolazine accelerated the contraction-relaxation cycle of HCM trabeculae, ameliorating diastolic function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23271797",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0008349",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048730",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048728",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048670",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0042656",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0004709",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048848",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020930",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0000185",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006321",
+    "http://www.biosemantics.org/jochem#4202863",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048490",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0033161",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0043549"
+  ]
+}

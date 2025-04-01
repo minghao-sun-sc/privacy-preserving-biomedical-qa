@@ -1,0 +1,48 @@
+{
+  "id": "52fb7c512059c6d71c000069",
+  "type": "factoid",
+  "question": "How much should be the duration of the QT interval in patients with short QT syndrome?",
+  "ideal_answer": "The short-QT syndrome is characterized by QT intervals <300-330 msec",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16265378",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17497253",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15890322",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15569843",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16482041",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17432514",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16255754",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19829181"
+  ],
+  "snippets": [
+    {
+      "text": "The short QT syndrome constitutes a new clinical entity that is associated with a high incidence of sudden cardiac death, syncope, and/or atrial fibrillation even in young patients and newborns. Patients with this congenital electrical abnormality are characterized by rate-corrected QT intervals<320 ms. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15890322",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "QT interval is shortened when QTc is less than 350 ms (1st degree of shortening). In children with QTc below 330 ms (2nd degree of shortening) short QT syndrome should be excluded.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16482041",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The short-QT syndrome is a new clinical entity characterized by corrected QT intervals <300 ms and a high incidence of ventricular tachycardia (VT) and fibrillation (VF). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15569843",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Short QT syndrome is a newly described cardiologic entity which associates a short OT interval (QT and QTc < or = 300 ms) on the surface ECG to a high risk of syncope or sudden death due to malignant ventricular arrhythmia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17432514",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0060373",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0060307",
+    "http://www.disease-ontology.org/api/metadata/DOID:225"
+  ],
+  "exact_answer": "below 300-330 msec"
+}

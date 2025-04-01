@@ -1,0 +1,19 @@
+{
+  "id": "5c895cf0f9c2ba6b28000001",
+  "type": "yesno",
+  "question": "Have apolipoprotein mimetics been used in clinical trials?",
+  "ideal_answer": "Yes, apolipoprotein mimetics have entered clinical trials.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25157031"
+  ],
+  "snippets": [
+    {
+      "text": "One of these (AEM-28) has recently been given orphan drug status and is undergoing clinical trials.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25157031",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

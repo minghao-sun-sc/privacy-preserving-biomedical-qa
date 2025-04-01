@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00307",
+  "original_length": 6632,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "\n- Total abdominal hysterectomy (TAH).\n- Left salpingo-oophorectomy.,ANESTHESIA:,  General endotracheal.,COMPLICATIONS:,  None.,ESTIMATED BLOOD LOSS: , Less than 100 cc.,INDICATIONS: , The patient ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',ESTIMATED BLOOD LOSS: , Less than 100 cc...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

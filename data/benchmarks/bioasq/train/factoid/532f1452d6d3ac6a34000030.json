@@ -1,0 +1,43 @@
+{
+  "id": "532f1452d6d3ac6a34000030",
+  "type": "factoid",
+  "question": "What is the ubiquitin proteome?",
+  "ideal_answer": "The ubiquitin proteome is the entire set ubiquitinated proteins and of their respective ubiquitination sites.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22178446",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23743150",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23764619"
+  ],
+  "snippets": [
+    {
+      "text": "Mass spectrometry now allows high throughput approaches for the identification of the thousands of ubiquitinated proteins and of their ubiquitination sites.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23764619",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we used Tandem repeated Ubiquitin Binding Entities (TUBEs) under non-denaturing conditions followed by mass spectrometry analysis to study global ubiquitylation events that may lead to the identification of potential drug targets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22178446",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To study the ubiquitin proteome we have established an immunoaffinity purification method for the proteomic analysis of endogenously ubiquitinated protein complexes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23743150",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020543",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014452",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D040901",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D054875",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D025801",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016567",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0031386",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D057149",
+    "http://www.uniprot.org/uniprot/UBIQ_CERCA"
+  ],
+  "exact_answer": "The ubiquitin proteome is the entire set ubiquitinated proteins and of their respective ubiquitination sites."
+}

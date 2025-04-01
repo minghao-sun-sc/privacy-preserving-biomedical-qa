@@ -1,0 +1,83 @@
+{
+  "id": "58a341a660087bc10a000017",
+  "type": "yesno",
+  "question": "Is the toxin produced by Clostridium botulinum always deadly?",
+  "ideal_answer": "There are numerous examples where children and animals survived infection with clostridium botulinum.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12926199",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20173718",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23871478",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26866491",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24997242",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15244362",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19488551",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23097586",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22513950",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24867833",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17674683",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19160335",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20693440",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26697417"
+  ],
+  "snippets": [
+    {
+      "text": "Animals treated with trace elements recovered. It appears that intestinal microbiota dysbiosis and trace element deficiency could explain the extensive emergence of chronic Botulism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24997242",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The patient was treated with human botulism immune globulin and had rapid recovery in weakness. A stool sample from the patient was positive for Type A Clostridium botulinum toxin eventually confirming the diagnosis of infant botulism",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26697417",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The botulism immunoglobulin was administered, and a diagnosis was confirmed with positive botulinum toxin in the stool samples. Full recovery was made by the infant",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23871478",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Botulinum neurotoxin (BoNT) serotype B (BoNT/B) is one of the serotypes of BoNT that causes deadly human botulism, though it is used clinically for treatment of many neuromuscular diseases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20693440",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Foodborne botulism is a rare and sometimes fatal illness caused by consuming foods containing botulinum neurotoxin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23097586",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To assess the effectiveness and safety of botulinum toxin in treating MPS, excluding MPS in neck and head muscles.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22513950",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Botulinum toxin (BTX) is one of the most potent bacterial toxins known and its effectiveness in the treatment of some pain syndromes is well known.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19488551",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " An emerging treatment option to address these issues is the use of a paralyzing material such as botulinum toxin A (Botox) to decrease the appearance of the wrinkles, which yields a more esthetic and youthful facial appearanc",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17674683",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "lthough BoNT is an extremely toxic molecule, it is now increasingly used for the treatment of disorders related to muscle hyperactivity and glandular hyperactivity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26866491",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001905",
+    "http://www.disease-ontology.org/api/metadata/DOID:11976"
+  ],
+  "exact_answer": "Yes"
+}

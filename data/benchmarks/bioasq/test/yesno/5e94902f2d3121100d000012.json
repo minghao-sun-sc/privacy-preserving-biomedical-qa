@@ -1,0 +1,33 @@
+{
+  "id": "5e94902f2d3121100d000012",
+  "type": "yesno",
+  "question": "Is aggrephagy a variant of autophagy?",
+  "ideal_answer": "Yes,\nthe selective branch of autophagy that deals with identification, capture and degradation of protein aggregates is called aggrephagy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28837386",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29686608",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30027903"
+  ],
+  "snippets": [
+    {
+      "text": "The selective branch of autophagy that deals with identification, capture and degradation of protein aggregates is called aggrephagy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30027903",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mechanistic insights into aggrephagy, a selective basal autophagy process to clear misfolded protein aggregates, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29686608",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ", it is largely unknown how misfolded polypeptides form aggresomes and are eventually cleared by the aggresome-macroautophagy/autophagy pathway, so-called aggrephagy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28837386",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "5323640b9b2d7acc7e000014",
+  "type": "factoid",
+  "question": "Which gene is involved in CADASIL?",
+  "ideal_answer": "Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (CADASIL), the most common form of familial vascular dementia, is caused by mutations of the NOTCH3 gene.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19788051",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22664156",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17854869",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21038489",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19539236",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19018300",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20224942",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17726918",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18313300",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21702048",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17622327",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17996090",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19255248",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22878905",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23308019"
+  ],
+  "snippets": [
+    {
+      "text": "leukoencephalopathy (CADASIL), the most common form of familial vascular dementia, is caused by mutations of the NOTCH3 gene",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22664156",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cerebral Autosomal Dominant Arteriopathy with Subcortical Infarcts and Leukoencephalopathy (CADASIL) is a hereditary disease caused by mutations of the Notch3 gene encoding the Notch3 protein. Notch3 is involved in the regulation of apoptosis, modulating Fas-Ligand (Fas-L)- induced apoptosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22878905",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ": Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (CADASIL) is a small vessel disease of the brain caused by mutations in the NOTCH3 gene",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23308019",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mutations in Notch3 gene are linked to cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (CADASIL), a disorder characterized by stroke and dementia in young adults",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21702048",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "(CADASIL) is caused by mutations in the NOTCH3 gene and is clinically characterized by recurrent stroke, cognitive decline, psychiatric disturbances and migraine",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21038489",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To evaluate the role of apoptosis in the pathogenesis of brain lesions in cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (CADASIL), a hereditary microangiopathy leading to cognitive decline and dementia, caused by mutations in the NOTCH3 gene.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19788051",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "NOTCH3 (Notch homolog 3), the gene involved in CADASIL, encodes a transmembrane receptor primarily expressed in systemic arterial smooth-muscle cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19539236",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "(CADASIL) is a vascular dementing disease caused by mutations in the NOTCH3 gene, most which are missense mutations leading to an uneven number of cysteine residues in epidermal growth factor-like repeats in the extracellular domain of Notch3 receptor (N3ECD). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17622327",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:13945",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015870",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011506",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005796",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D046589"
+  ],
+  "exact_answer": "Notch3 gene"
+}

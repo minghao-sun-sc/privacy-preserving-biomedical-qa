@@ -1,0 +1,37 @@
+{
+  "id": "5c58474786df2b9174000001",
+  "type": "factoid",
+  "question": "Which algorithm has been developed for the automatic extraction of co-expressed gene clusters from gene expression data?",
+  "ideal_answer": "Clust is a method for automatic extraction of optimal co-expressed gene clusters from gene expression data. Clust is available at https://github.com/BaselAbujamous/clust.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30359297"
+  ],
+  "snippets": [
+    {
+      "text": "Clust: automatic extraction of optimal co-expressed gene clusters from gene expression data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30359297",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present clust, a method that solves these problems by extracting clusters matching the biological expectations of co-expressed genes and outperforms widely used methods. Additionally, clust can simultaneously cluster multiple datasets, enabling users to leverage the large quantity of public expression data for novel comparative analysis. Clust is available at https://github.com/BaselAbujamous/clust .",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30359297",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present clust, a method that solves these problems by extracting clusters matching the biological expectations of co-expressed genes and outperforms widely used methods.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30359297",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Additionally, clust can simultaneously cluster multiple datasets, enabling users to leverage the large quantity of public expression data for novel comparative analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30359297",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Clust"
+}

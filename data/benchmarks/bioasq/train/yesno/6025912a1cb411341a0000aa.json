@@ -1,0 +1,19 @@
+{
+  "id": "6025912a1cb411341a0000aa",
+  "type": "yesno",
+  "question": "Is tocilizumab a tumor necrosis factor inhibitor?",
+  "ideal_answer": "No, tocilizumab, is a non-TNFi DMARD.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31859424"
+  ],
+  "snippets": [
+    {
+      "text": "For the first-line bDMARD/tsDMARD, either tumor necrosis factor inhibitors (TNFi), non-TNFi (abatacept, tocilizumab, rituximab), or tsDMARDs, may be considered.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31859424",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

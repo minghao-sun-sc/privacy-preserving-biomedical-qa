@@ -1,0 +1,19 @@
+{
+  "id": "5a9acba61d1251d03b000014",
+  "type": "yesno",
+  "question": "Has intepirdine been evaluated in clinical trials? (November 2017)",
+  "ideal_answer": "Yes, intepirdine was in Phase III clinical trials in November 2017.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28720101"
+  ],
+  "snippets": [
+    {
+      "text": "Using small molecules blocking 5-HT6serotonin receptor (intepirdine), inhibiting BACE activity (E2609, AZD3293, and verubecestat), or reducing tau aggregation (TRx0237) are also currently in Phase III clinical trials.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28720101",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

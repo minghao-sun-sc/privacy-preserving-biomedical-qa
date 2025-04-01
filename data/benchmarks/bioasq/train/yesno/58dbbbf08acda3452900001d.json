@@ -1,0 +1,29 @@
+{
+  "id": "58dbbbf08acda3452900001d",
+  "type": "yesno",
+  "question": "Is Beta-Thalassemia is associated with a mutation or deletion of the gene that codes for alpha globin?",
+  "ideal_answer": "Beta-thalassemia, one of the most common single-gene disorders, is the result of reduced or absent production of \u03b2-globin chains",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/9056561",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25230702"
+  ],
+  "snippets": [
+    {
+      "text": "Beta-thalassemia, one of the most common single-gene disorders, is the result of reduced or absent production of \u03b2-globin chains",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25230702",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The beta-thalassemia syndromes are a heterogeneous group of genetic disorders characterized by reduced or absent expression of the beta-globin gene",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9056561",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D055544",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017086"
+  ],
+  "exact_answer": "Yes"
+}

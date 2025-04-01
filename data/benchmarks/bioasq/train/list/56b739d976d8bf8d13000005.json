@@ -1,0 +1,49 @@
+{
+  "id": "56b739d976d8bf8d13000005",
+  "type": "list",
+  "question": "List available genetic multicolor cell labeling techiniques in Drosophila",
+  "ideal_answer": "Flybow and Drosophila Brainbow.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25657347",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21297621",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21297619"
+  ],
+  "snippets": [
+    {
+      "text": "Flybow: genetic multicolor cell labeling for neural circuit analysis in Drosophila melanogaster.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21297619",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "To facilitate studies of neural network architecture and formation, we generated three Drosophila melanogaster variants of the mouse Brainbow-2 system, called Flybow. Sequences encoding different membrane-tethered fluorescent proteins were arranged in pairs within cassettes flanked by recombination sites. Flybow combines the Gal4-upstream activating sequence binary system to regulate transgene expression and an inducible modified Flp-FRT system to drive inversions and excisions of cassettes. This provides spatial and temporal control over the stochastic expression of one of two or four reporters within one sample. Using the visual system, the embryonic nervous system and the wing imaginal disc, we show that Flybow in conjunction with specific Gal4 drivers can be used to visualize cell morphology with high resolution. Finally, we demonstrate that this labeling approach is compatible with available Flp-FRT-based techniques, such as mosaic analysis with a repressible cell marker; this could further support the genetic analysis of neural circuit assembly and function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21297619",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Drosophila Brainbow: a recombinase-based fluorescence labeling technique to subdivide neural expression patterns.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21297621",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We developed a multicolor neuron labeling technique in Drosophila melanogaster that combines the power to specifically target different neural populations with the label diversity provided by stochastic color choice. This adaptation of vertebrate Brainbow uses recombination to select one of three epitope-tagged proteins detectable by immunofluorescence. Two copies of this construct yield six bright, separable colors. We used Drosophila Brainbow to study the innervation patterns of multiple antennal lobe projection neuron lineages in the same preparation and to observe the relative trajectories of individual aminergic neurons. Nerve bundles, and even individual neurites hundreds of micrometers long, can be followed with definitive color labeling. We traced motor neurons in the subesophageal ganglion and correlated them to neuromuscular junctions to identify their specific proboscis muscle targets. The ability to independently visualize multiple lineage or neuron projections in the same preparation greatly advances the goal of mapping how neurons connect into circuits.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21297621",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Brainbow: new resources and emerging biological applications for multicolor genetic labeling and analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25657347",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004330",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004331",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007553"
+  ],
+  "exact_answer": "Flybow, Drosophila Brainbow"
+}

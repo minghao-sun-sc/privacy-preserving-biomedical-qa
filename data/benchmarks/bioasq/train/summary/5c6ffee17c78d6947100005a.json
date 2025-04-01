@@ -1,0 +1,243 @@
+{
+  "id": "5c6ffee17c78d6947100005a",
+  "type": "summary",
+  "question": "What is the aim of the METABRIC project?",
+  "ideal_answer": "The METABRIC [Molecular Taxonomy of Breast Cancer International Consortium] cohort aims at the integration of genomic and transcriptomic profiles of 2000 breast tumours.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28472085",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28620450",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27634906",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30097312",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22912679",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19948017",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26671300",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30181556",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26770261",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29727689",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26354892",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26813959",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26132585",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29532008",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23106814",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27312051"
+  ],
+  "snippets": [
+    {
+      "text": "the METABRIC breast cancer data recorded for over 2000 patients",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26132585",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Predicting Outcomes of Hormone and Chemotherapy in the Molecular\u00a0Taxonomy of\u00a0Breast Cancer\u00a0International\u00a0Consortium (METABRIC) Study by Biochemically-inspired Machine Learning.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28620450",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Genomic aberrations and gene expression-defined subtypes in the large METABRIC patient cohort have been used to stratify and predict survival.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28620450",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Iteratively refining breast cancer intrinsic subtypes in the METABRIC dataset.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26770261",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Towards the development of robust strategies, we designed an iterative approach to consistently discriminate intrinsic subtypes and improve class prediction in the METABRIC dataset",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26770261",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Associations between genomic stratification of breast cancer and centrally reviewed tumour pathology in the METABRIC cohort.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29532008",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The integration of genomic and transcriptomic profiles of 2000 breast tumours from the METABRIC [Molecular Taxonomy of Breast Cancer International Consortium] cohort revealed ten subtypes, termed integrative clusters (IntClust/s), characterised by distinct genomic drivers. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29532008",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS\nWe show how this integration can be achieved automatically, following the declaration of appropriate metadata elements for each clinical data set; we demonstrate the practicality of this approach through application to experimental results and clinical data from five hospitals in the UK and Canada, undertaken as part of the METABRIC project (Molecular Taxonomy of Breast Cancer International Consortium).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19948017",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We apply and evaluate the approach by integrating the five different clinical datasets of METABRIC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19948017",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We had adopted a similar approach, termed 'BADGER', in the METABRIC project.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22912679",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "METABRIC is a large breast cancer study that may have been the first in which eQTL-based detection of mismatches was used during the study, rather than after the event, to aid quality assurance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22912679",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We conducted a cis-expression quantitative trait loci (cis-eQTL) analysis using normal or tumor breast transcriptome data from the Molecular Taxonomy of Breast Cancer International Consortium (METABRIC), The Cancer Genome Atlas (TCGA), and the Genotype-Tissue Expression (GTEx) project.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29727689",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We identified a total of 101 genes for 51 lead variants after combing the results of a meta-analysis of METABRIC and TCGA, and the results from GTEx at a Benjamini-Hochberg (BH)-adjusted p < 0.05.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29727689",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In UBC-TAM, NF1 frame-shift nonsense (FS/NS) mutations were also a poor outcome driver that was validated in METABRIC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30181556",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Copy number aberration leading to SPAG5 gain or amplification and high SPAG5 transcript and SPAG5 protein concentrations were associated with shorter overall breast cancer-specific survival (METABRIC cohort [copy number aberration]: hazard ratio [HR] 1\u00b750, 95% CI 1\u00b718-1\u00b792, p=0\u00b700010; METABRIC cohort [transcript]: 1\u00b768, 1\u00b740-2\u00b701, p<0\u00b70001; and Nottingham-HES-breast cancer cohort [protein]: 1\u00b768, 1\u00b732-2\u00b712, p<0\u00b70001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27312051",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In multivariable analysis, high SPAG5 transcript and SPAG5 protein expression were associated with reduced breast cancer-specific survival at 10 years compared with lower concentrations (Uppsala: HR 1\u00b762, 95% CI 1\u00b703-2\u00b753, p=0\u00b7036; METABRIC: 1\u00b727, 1\u00b702-1\u00b758, p=0\u00b7034; untreated lymph node-negative cohort: 2\u00b734, 1\u00b724-4\u00b742, p=0\u00b70090; and Nottingham-HES: 1\u00b773, 1\u00b723-2\u00b746, p=0\u00b70020).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27312051",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The new subtypes show accurate distributions of current clinical markers ER, PR and HER2, and survival curves in the METABRIC and ROCK data sets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26132585",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The KMPlotter online tool, METABRIC and GSE25066 datasets were used to associate gene signatures with clinical outcome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28472085",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Towards the development of robust strategies, we designed an iterative approach to consistently discriminate intrinsic subtypes and improve class prediction in the METABRIC dataset.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26770261",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "METHODS\nThe EarlyR prognostic score was developed using integrative analysis of microarray data sets and formalin-fixed, paraffin-embedded-based quantitative real-time PCR assay and validated in Affymetrix data sets and METABRIC cohort using Cox proportional hazards models and Kaplan-Meier survival analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30097312",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Classification of the personalized landscapes derived from 997 tumour samples within the Metabric discovery dataset reveals a novel poor prognosis cluster, reproducible in the 995-sample validation dataset.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26813959",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To explore the contribution of cellular metabolism to cancer heterogeneity, we analyse the Metabric dataset, a landmark genomic and transcriptomic study of 2,000 individual breast tumours, in the context of the human genome-scale metabolic network.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26813959",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We assessed the RBsig prognostic role in the METABRIC and in a comprehensive breast cancer meta-dataset.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27634906",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We obtained information regarding TP53 mutation and PAM50 subtypes in 699 tumors from the Molecular Taxonomy of Breast Cancer International Consortium (METABRIC) cohort.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26671300",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "METHODS We applied an artificial neural network-based integrative data mining approach to data from three cohorts of patients with breast cancer (the Nottingham discovery cohort (n=171), Uppsala cohort (n=249), and Molecular Taxonomy of Breast Cancer International Consortium [METABRIC] cohort; n=1980).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27312051",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using data from both The Cancer Genome Atlas (TCGA) and Molecular Taxonomy of Breast Cancer International Consortium (METABRIC), we showed that rs62331150 was associated with level of expression of TET2 in breast normal and tumor tissue.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26354892",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Large research consortia such as the Molecular Taxonomy of Breast Cancer International Consortium (METABRIC), The Cancer Genome Atlas and International Cancer Genomics Consortium are systematically interrogating large sets of tumor samples through integrated analysis of genome-wide DNA copy number and promoter methylation, transcriptome-wide RNA expression, protein expression and exome-wide sequencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23106814",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A recent METABRIC study explored the effects of cis-acting and trans-acting factors of gene expression regulation in breast cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23106814",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Independent validation of prognostic interactions was achieved using data from the METABRIC study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30181556",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Discovery of Novel Biomarkers Improves Breast Cancer Intrinsic Subtype Prediction and Reconciles the Labels in the METABRIC Data Set.<AbstractText Label=\"BACKGROUND\" NlmCategory=\"BACKGROUND\">The prediction of breast cancer intrinsic subtypes has been introduced as a valuable strategy to determine patient diagnosis and prognosis, and therapy response. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26132585",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Predicting Outcomes of Hormone and Chemotherapy in the Molecular\u00a0Taxonomy of\u00a0Breast Cancer\u00a0International\u00a0Consortium (METABRIC) Study by Biochemically-inspired Machine Learning.Genomic aberrations and gene expression-defined subtypes in the large METABRIC patient cohort have been used to stratify and predict survival. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28620450",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "METABRIC is a large breast cancer study that may have been the first in which eQTL-based detection of mismatches was used during the study, rather than after the event, to aid quality assurance. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22912679",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This may involve the integration of clinical data sets from several different sources: these data sets may employ different data definitions and some may be incomplete.<br><b>METHODS</b>: In this work we employ semantic web techniques developed within the CancerGrid project, in particular the use of metadata elements and logic-based inference to annotate heterogeneous clinical information, integrate and query it.<br><b>RESULTS</b>: We show how this integration can be achieved automatically, following the declaration of appropriate metadata elements for each clinical data set; we demonstrate the practicality of this approach through application to experimental results and clinical data from five hospitals in the UK and Canada, undertaken as part of the METABRIC project (Molecular Taxonomy of Breast Cancer International Consortium).<br><b>CONCLUSION</b>: We describe a metadata approach for managing similarities and differences in clinical datasets in a standardized way that uses Common Data Elements (CDEs).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19948017",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We apply and evaluate the approach by integrating the five different clinical datasets of METABRIC.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19948017",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The present study used normalized gene expression signatures of paclitaxel drug response to predict outcome for different survival times in METABRIC patients receiving hormone (HT) and, in some cases, chemotherapy (CT) agents.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28620450",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We create personalized metabolic landscapes for each tumour by exploring sets of active reactions that satisfy constraints derived from human biochemistry and maximize congruency with the Metabric transcriptome data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26813959",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

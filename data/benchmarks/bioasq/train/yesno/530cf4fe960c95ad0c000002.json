@@ -1,0 +1,62 @@
+{
+  "id": "530cf4fe960c95ad0c000002",
+  "type": "yesno",
+  "question": "Does Apolipoprotein E (ApoE) have anti-inflammatory activity?",
+  "ideal_answer": "Yes. ApoE has anti-inflammatory activity",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23963646",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22197603",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22326991"
+  ],
+  "snippets": [
+    {
+      "text": " have previously reported that apolipoprotein E (apoE), a protein component of very-low-density lipoproteins (VLDL) and high-density lipoproteins and a potent plasma-borne atheroprotective factor, exerts anti-inflammatory activity in macrophages by switching the activation profile from M1 (\"classic\") to M2 (\"alternative\") in a process involving signaling via low-density lipoprotein receptor ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23963646",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "anti-inflammatory activity in macrophages ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23963646",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Small peptides corresponding to the receptor-binding region of apoE mimic the anti-inflammatory activity of the apoE ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22326991",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Apolipoprotein (apo) E-containing high-density lipoprotein (HDL) has antioxidant, anti-inflammatory and anti-atherogenic properties",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22197603",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/APOE_CANFA",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0050727",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0050728",
+    "http://www.uniprot.org/uniprot/APOE_MACMU",
+    "http://www.uniprot.org/uniprot/APOE_RABIT",
+    "http://www.uniprot.org/uniprot/APOE_GORGO",
+    "http://www.uniprot.org/uniprot/APOE_HUMAN",
+    "http://www.uniprot.org/uniprot/APOE_SAISC",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001057",
+    "http://www.uniprot.org/uniprot/APOE_HYLLA",
+    "http://www.uniprot.org/uniprot/APOE_PANTR",
+    "http://www.uniprot.org/uniprot/APOE_PONPY",
+    "http://www.uniprot.org/uniprot/APOE_TUPGL",
+    "http://www.uniprot.org/uniprot/APOE_MOUSE",
+    "http://www.uniprot.org/uniprot/APOE_PAPAN",
+    "http://www.uniprot.org/uniprot/APOE_RAT",
+    "http://www.uniprot.org/uniprot/APOE_MACFA",
+    "http://www.uniprot.org/uniprot/APOE_CAVPO",
+    "http://www.uniprot.org/uniprot/APOE_PIG",
+    "http://www.uniprot.org/uniprot/APOE_ZALCA",
+    "http://www.uniprot.org/uniprot/APOE_BOVIN",
+    "http://www.uniprot.org/uniprot/APOE_SHEEP"
+  ],
+  "exact_answer": "Yes"
+}

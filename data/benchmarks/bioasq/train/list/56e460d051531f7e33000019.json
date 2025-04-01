@@ -1,0 +1,41 @@
+{
+  "id": "56e460d051531f7e33000019",
+  "type": "list",
+  "question": "List the results of mutated casein kinase 1 epsilon. ",
+  "ideal_answer": "Mutation in casein kinase 1 epsilon results in a short circadian period, abnormal entrainment to light cycles, and potentiated resetting responses to light.\nMutations of CK1epsilon found in breast cancer can suppress Wnt/beta-catenin as well as promote the Wnt/Rac-1/JNK and Wnt/NFAT pathways, thus contributing to breast cancer development via effects on cell adhesion and migration.\nCsnk1e is regulating not only the timing of sleep, but also the REM sleep amount and NREM sleep architecture.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18522517",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11076012",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24744456",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19142762",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20507565"
+  ],
+  "snippets": [
+    {
+      "text": "These results demonstrate a role for Csnk1e in regulating not only the timing of sleep, but also the REM sleep amount and NREM sleep architecture, and support Csnk1e as a causal gene in the sleep QTL on chromosome 15.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24744456",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "mutations of CK1epsilon found in breast cancer can suppress Wnt/beta-catenin as well as promote the Wnt/Rac-1/JNK and Wnt/NFAT pathways, thus contributing to breast cancer development via effects on cell adhesion and migration",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20507565",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "results in a short circadian period, abnormal entrainment to light cycles, and potentiated resetting responses to light.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19142762",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We now demonstrate that the mutation results in a heightened sensitivity to light, suggesting that CK1epsilon also regulates the photic entrainment pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19142762",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "short circadian period, abnormal entrainment to light cycles, potentiated resetting responses to light, REM sleep amount, NREM sleep architecture, effects on cell adhesion, effects on cell migration, timing of sleep"
+}

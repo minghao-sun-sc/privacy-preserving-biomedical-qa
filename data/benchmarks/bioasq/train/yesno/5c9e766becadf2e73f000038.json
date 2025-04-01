@@ -1,0 +1,26 @@
+{
+  "id": "5c9e766becadf2e73f000038",
+  "type": "yesno",
+  "question": "Can mitochondria pass through membrane nanotubes?",
+  "ideal_answer": "Yes,\nMembrane nanotubes (MNTs) act as \"highways\" between cells to facilitate the transfer of multiple signals and play an important role in many diseases. Our previous work reported on the transfer of mitochondria via MNTs between cardiomyocytes (CMs) and cardiac myofibroblasts (MFs).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29362447",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29335691"
+  ],
+  "snippets": [
+    {
+      "text": "Membrane nanotubes (MNTs) act as \"highways\" between cells to facilitate the transfer of multiple signals and play an important role in many diseases. Our previous work reported on the transfer of mitochondria via MNTs between cardiomyocytes (CMs) and cardiac myofibroblasts (MFs)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29362447",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Membrane nanotubes play important functional roles in numerous cell activities such as cellular transport and communication.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29335691",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

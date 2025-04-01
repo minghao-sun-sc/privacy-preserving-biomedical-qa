@@ -1,0 +1,50 @@
+{
+  "id": "532f0b2cd6d3ac6a3400002c",
+  "type": "list",
+  "question": "Which are the musculoskeletal manifestations of Marfan syndrome?",
+  "ideal_answer": "Musculoskeletal manifestations of Marfan syndrome include scoliosis, dural ectasia, pectus excavatum and carinatum, arachnodactyly, otto pelvis (protrusio acetabuli), dolichostenomelia and ligamentous laxity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21971724",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20686061",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6481730",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17620463",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19726741"
+  ],
+  "snippets": [
+    {
+      "text": "Musculoskeletal manifestations include scoliosis, dural ectasia, protrusio acetabuli, and ligamentous laxity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19726741",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Scoliosis, pectus excavatum and carinatum, arachnodactyly, and acetabular protrusion are common musculoskeletal manifestations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17620463",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Two cases are described in which protrusio acetabuli was a major problem. Otto pelvis should be considered as one of the musculoskeletal manifestations of Marfan's syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/6481730",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The following musculoskeletal abnormalities were found: pectus in 3 patients (11%), pectus and scoliosis in 19 (73%), dolichostenomelia in 11 (42%) and arachnodactyly in 21 (80%).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21971724",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Musculoskeletal clinicians should be aware of the diagnostic features of Marfan syndrome. Patients with three to four physically evident features, or two highly specific features (e.g., thumb and wrist signs, craniofacial features, dural ectasia, or protrusio), should be carefully reexamined and possibly referred for an echocardiogram or a genetics consultation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20686061",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008382",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009141"
+  ],
+  "exact_answer": "scoliosis, dural ectasia, pectus excavatum and carinatum, arachnodactyly, otto pelvis, protrusio acetabuli, dolichostenomelia, ligamentous laxity"
+}

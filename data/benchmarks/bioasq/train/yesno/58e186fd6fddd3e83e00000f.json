@@ -1,0 +1,30 @@
+{
+  "id": "58e186fd6fddd3e83e00000f",
+  "type": "yesno",
+  "question": "Does the word ovine refers to goats?",
+  "ideal_answer": "Ovine refers to sheep.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23903827",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25755186",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11578130"
+  ],
+  "snippets": [
+    {
+      "text": "Jaagsiekte sheep retrovirus (JSRV) is the causative agent of ovine pulmonary adenocarcinoma (OPA), a transmissible lung cancer of sheep that has rarely been found in goats. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23903827",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In sheep, a bronchiolo-alveolar carcinoma, known as ovine pulmonary carcinoma (OPC), is caused by jaagsiekte sheep retrovirus (JSRV), an exogenous type D retrovirus. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11578130",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012756",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D034561"
+  ],
+  "exact_answer": "Yes"
+}

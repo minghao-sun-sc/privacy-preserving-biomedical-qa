@@ -1,0 +1,51 @@
+{
+  "id": "5318352fb166e2b806000011",
+  "type": "yesno",
+  "question": "Is mitofusin 2 a receptor for parkin?",
+  "ideal_answer": "Yes, Mfn2 functions as a mitochondrial receptor for Parkin.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22807239",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19076450",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22914740",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23958438",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20871098",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21252228",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23620051",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23845246"
+  ],
+  "snippets": [
+    {
+      "text": "Recent work demonstrates that a phosphorylated form of the mitochondrial fusion protein Mitofusin 2 serves as a receptor for Parkin translocation to damaged mitochondria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23845246",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show that the mitochondrial outer membrane guanosine triphosphatase mitofusin (Mfn) 2 mediates Parkin recruitment to damaged mitochondria. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23620051",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mfn2 functions as a mitochondrial receptor for Parkin and is required for quality control of cardiac mitochondria.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23620051",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mitofusin 1 and mitofusin 2 are ubiquitinated in a PINK1/parkin-dependent manner upon induction of mitophagy",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20871098",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/MFN2_MOUSE",
+    "http://www.uniprot.org/uniprot/PACRG_MOUSE",
+    "http://www.uniprot.org/uniprot/PACRG_HUMAN",
+    "http://www.uniprot.org/uniprot/MFN2_RAT",
+    "http://www.uniprot.org/uniprot/MARF_DROME",
+    "http://www.uniprot.org/uniprot/MFN2_HUMAN"
+  ],
+  "exact_answer": "Yes"
+}

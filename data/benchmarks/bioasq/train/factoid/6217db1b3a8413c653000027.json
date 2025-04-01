@@ -1,0 +1,40 @@
+{
+  "id": "6217db1b3a8413c653000027",
+  "type": "factoid",
+  "question": "Which disease is caused by mutations in the gene PRF1?",
+  "ideal_answer": "The presence of mutations in PRF1, UNC13D, STX11 and STXBP2 genes in homozygosis or compound heterozygosis results in immune deregulation. Most such cases lead to clinical manifestations of haemophagocytic lymphohistiocytosis (HLH).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34339548",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29216683",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33869605",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31865540"
+  ],
+  "snippets": [
+    {
+      "text": "Spectrum mutations of PRF1, UNC13D, STX11, and STXBP2 genes in Vietnamese patients with hemophagocytic lymphohistiocytosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34339548",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The presence of mutations in PRF1, UNC13D, STX11 and STXBP2 genes in homozygosis or compound heterozygosis results in immune deregulation. Most such cases lead to clinical manifestations of haemophagocytic lymphohistiocytosis (HLH).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31865540",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Adult onset type 2 familial hemophagocytic lymphohistiocytosis with PRF1 c.65delC/c.163C>T compound heterozygous mutations: A case report.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33869605",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Deleterious mutations in PRF1 result in lethal, childhood disease, familial hemophagocytic lymphohistiocytosis type 2 (FHL 2).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29216683",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "haemophagocytic lymphohistiocytosis (HLH)"
+}

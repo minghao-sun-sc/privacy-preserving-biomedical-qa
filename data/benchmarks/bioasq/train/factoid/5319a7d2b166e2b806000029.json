@@ -1,0 +1,67 @@
+{
+  "id": "5319a7d2b166e2b806000029",
+  "type": "factoid",
+  "question": "Which is the E3 ubiquitin ligase of Hsp90?",
+  "ideal_answer": "Carboxyl terminus of hsc70-interacting protein (CHIP) can mediate ubiquitination of the 90 kDa heat-shock protein (hsp90) in vitro, with subsequent proteasomal degradation of the chaperone.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23344957",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17209571",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20618441",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23429937"
+  ],
+  "snippets": [
+    {
+      "text": "C-terminal Hsp-interacting protein (CHIP) is an HSP70 and HSP90 interacting co-chaperone and an E3 ubiquitin ligase. Previous studies have reported the role of CHIP in cancer progression by targeting protein degradation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23429937",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The U-box E3 ubiquitin ligase CHIP (C terminus of Hsc70-interacting protein) binds Hsp90 and/or Hsp70 via its tetratricopeptide repeat (TPR), facilitating ubiquitination of the chaperone-bound client proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23344957",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In vitro ubiquitination assays indicated that Ca(2+)/S100A2 and S100P are efficient and specific inhibitors of CHIP-mediated ubiquitination of Hsp70, Hsp90, HSF1, and Smad1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23344957",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The E3 ubiquitin ligase CHIP (C-terminus of Hsc70-interacting protein) is believed to be a central player in the cellular triage decision, as it links the molecular chaperones Hsp70/Hsc70 and Hsp90 to the ubiquitin proteasomal degradation pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20618441",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We found that CHIP has a sixfold higher affinity for Hsp90 compared with Hsc70.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20618441",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Carboxyl terminus of hsc70-interacting protein (CHIP) can remodel mature aryl hydrocarbon receptor (AhR) complexes and mediate ubiquitination of both the AhR and the 90 kDa heat-shock protein (hsp90) in vitro",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17209571",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The analysis of the sucrose-gradient-fractionated in vitro translated AhR complexes revealed that CHIP can mediate hsp90 ubiquitination while cooperating with unidentified factors to promote the ubiquitination of mature unliganded AhR complexes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17209571",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0000151",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0051879",
+    "http://www.uniprot.org/uniprot/UB2E3_HUMAN",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0004842",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018841",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0044389",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D044767",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D043743"
+  ],
+  "exact_answer": "Carboxyl terminus of hsc70-interacting protein (CHIP)"
+}

@@ -1,0 +1,36 @@
+{
+  "document_id": "record_03705",
+  "original_length": 2946,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "S:,  Tonsillectomy, adenoidectomy, and removal of foreign body (rock) from right ear.,ANESTHESIA:,  General.,HISTORY: , The patient is 5-1/2 years old.  She is here this morning with her Mom.  She ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',HISTORY: , The patient is 5-1/2 years old...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

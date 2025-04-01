@@ -1,0 +1,42 @@
+{
+  "id": "5880b036c872c95565000002",
+  "type": "summary",
+  "question": "Describe the usefulness of CAMUR in The Cancer Genome Atlas (TCGA)",
+  "ideal_answer": "CAMUR is a new method that extracts multiple and equivalent classification models. CAMUR iteratively computes a rule-based classification model, calculates the power set of the genes present in the rules, iteratively eliminates those combinations from the data set, and performs again the classification procedure until a stopping criterion is verified. CAMUR includes an ad-hoc knowledge repository (database) and a querying tool. Three different types of RNA-seq data sets (Breast, Head and Neck, and Stomach Cancer) were analyzed from The Cancer Genome Atlas (TCGA) and CAMUR and its models were validated also on non-TCGA data. Experimental results show the efficacy of CAMUR by obtaining several reliable equivalent classification models, from which the most frequent genes, their relationships, and the relation with a particular cancer are deduced.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26519501"
+  ],
+  "snippets": [
+    {
+      "text": "CAMUR: Knowledge extraction from RNA-seq cancer data through equivalent classification rules",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26519501",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "CAMUR, a new method that extracts multiple and equivalent classification models. CAMUR iteratively computes a rule-based classification model, calculates the power set of the genes present in the rules, iteratively eliminates those combinations from the data set, and performs again the classification procedure until a stopping criterion is verified. CAMUR includes an ad-hoc knowledge repository (database) and a querying tool.We analyze three different types of RNA-seq data sets (Breast, Head and Neck, and Stomach Cancer) from The Cancer Genome Atlas (TCGA) and we validate CAMUR and its models also on non-TCGA data. Our experimental results show the efficacy of CAMUR: we obtain several reliable equivalent classification models, from which the most frequent genes, their relationships, and the relation with a particular cancer are deduced",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26519501",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CAMUR includes an ad-hoc knowledge repository (database) and a querying tool.We analyze three different types of RNA-seq data sets (Breast, Head and Neck, and Stomach Cancer) from The Cancer Genome Atlas (TCGA) and we validate CAMUR and its models also on non-TCGA data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26519501",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CAMUR: Knowledge extraction from RNA-seq cancer data through equivalent classification rules.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26519501",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We propose CAMUR, a new method that extracts multiple and equivalent classification models.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26519501",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

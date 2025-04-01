@@ -1,0 +1,25 @@
+{
+  "id": "601d75281cb411341a000043",
+  "type": "yesno",
+  "question": "Is there any role of genotoxic pks + E. coli in cancer?",
+  "ideal_answer": "Yes. Genotoxic pks and E. Coli are known to cause mutations in the DNA of cells, which can lead to cancer.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32106218"
+  ],
+  "snippets": [
+    {
+      "text": "Mutational signature in colorectal cancer caused by genotoxic pks+",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32106218",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Various species of the intestinal microbiota have been associated with the development of colorectal cancer1,2, but it has not been demonstrated that bacteria have a direct role in the occurrence of oncogenic mutations. Escherichia coli can carry the pathogenicity island pks, which encodes a set of enzymes that synthesize colibactin3. This compound is believed to alkylate DNA on adenine residues4,5 and induces double-strand breaks in cultured cells3. Here we expose human intestinal organoids to genotoxic pks+ E. coli by repeated luminal injection over five months. Whole-genome sequencing of clonal organoids before and after this exposure revealed a distinct mutational signature that was absent from organoids injected with isogenic pks-mutant bacteria. The same mutational signature was detected in a subset of 5,876 human cancer genomes from two independent cohorts, predominantly in colorectal cancer. Our study describes a distinct mutational signature in colorectal cancer and implies that the underlying mutational process results directly from past exposure to bacteria carrying the colibactin-producing pks pathogenicity island.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32106218",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

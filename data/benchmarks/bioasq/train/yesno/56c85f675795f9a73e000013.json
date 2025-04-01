@@ -1,0 +1,40 @@
+{
+  "id": "56c85f675795f9a73e000013",
+  "type": "yesno",
+  "question": "Are there interactomes available for POU5F1 and SOX2?",
+  "ideal_answer": "Yes. Long-range chromosomal interactions on putative enhancers of POU5F1 and SOX2 genes in human embryonic stem cells (hESCs) have been assayed using 4C-Seq technique. Their frequent interacting regions mainly overlap with early DNA replication domains. The interactomes are associated with active histone marks and enriched with 5-hydroxymethylcytosine sites.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23549118"
+  ],
+  "snippets": [
+    {
+      "text": "The interactomes of POU5F1 and SOX2 enhancers in human embryonic stem cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23549118",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We assayed long-range chromosomal interactions on putative enhancers of POU5F1 and SOX2 genes in human embryonic stem cells (hESCs) using 4C-Seq technique. We discovered that their frequent interacting regions mainly overlap with early DNA replication domains. The interactomes are associated with active histone marks and enriched with 5-hydroxymethylcytosine sites. In hESCs, genes within the interactomes have elevated expression. Additionally, some genes associated with the POU5F1 enhancer contribute to pluripotency. Binding sites for multiple DNA binding proteins, including ATF3, CTCF, GABPA, JUND, NANOG, RAD21 and YY1, are enriched in both interactomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23549118",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/NANOG_PANTR",
+    "http://www.uniprot.org/uniprot/NANOG_HUMAN",
+    "http://www.uniprot.org/uniprot/PO5F1_PANTR",
+    "http://www.uniprot.org/uniprot/SOX2_DANRE",
+    "http://www.uniprot.org/uniprot/NANOG_MUSMM",
+    "http://www.uniprot.org/uniprot/PO5F1_BOVIN",
+    "http://www.uniprot.org/uniprot/PO5F1_PIG",
+    "http://www.uniprot.org/uniprot/NANOG_MACFA",
+    "http://www.uniprot.org/uniprot/PO5F1_MACMU",
+    "http://www.uniprot.org/uniprot/PO5F1_DANRE",
+    "http://www.uniprot.org/uniprot/PO5F1_HUMAN",
+    "http://www.uniprot.org/uniprot/NANOG_BOVIN",
+    "http://www.uniprot.org/uniprot/PO5F1_MOUSE",
+    "http://www.uniprot.org/uniprot/SOX2_CHICK"
+  ],
+  "exact_answer": "Yes"
+}

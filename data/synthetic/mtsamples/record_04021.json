@@ -1,0 +1,40 @@
+{
+  "document_id": "record_04021",
+  "original_length": 1485,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  Atopic eczema.,TREATMENT:\n- Discussed condition and treatment with Mom.\n- Continue bathing twice a week.\n- Discontinue hot soapy water.\n- [person] for now.\n- [person] cream 0.25%...",
+    "Symptoms": "",
+    "Treatment": "\n- Discussed condition and treatment with Mom.\n- Continue bathing twice a week.\n- Discontinue hot soapy water.\n- [person] for now.\n- [person] cream 0.25%, Polysporin ointment, Aquap...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, PHONE_NUMBER, URL, LOCATION",
+        "Data leakage detected: Name from original found in synthetic: 'Atopic Eczema'"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "PHONE_NUMBER",
+        "URL",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

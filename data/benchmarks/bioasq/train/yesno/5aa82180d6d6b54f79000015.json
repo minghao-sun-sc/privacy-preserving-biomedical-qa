@@ -1,0 +1,47 @@
+{
+  "id": "5aa82180d6d6b54f79000015",
+  "type": "yesno",
+  "question": "Are osteoclasts specialized in bone degradation?",
+  "ideal_answer": "Bone degradation is caused by osteoclasts, the normal bone-resorbing cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27761364",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22090285",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24088021",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23742809",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26466547"
+  ],
+  "snippets": [
+    {
+      "text": "osteoclast-mediated attack on bone",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26466547",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bone degradation is caused by osteoclasts, the normal bone-resorbing cells. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27761364",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cathepsin K is a highly potent collagenase in osteoclasts and is responsible for bone degradation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24088021",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In osteoclasts, Src controls podosome organization and bone degradation, which leads to an osteopetrotic phenotype in src(-/-) mice",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23742809",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bone degradation by osteoclasts depends on the formation of a sealing zone, composed of an interlinked network of podosomes, which delimits the degradation lacuna into which osteoclasts secrete acid and proteolytic enzymes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22090285",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,35 @@
+{
+  "document_id": "record_04876",
+  "original_length": 2674,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "of hypoplastic left heart syndrome who 48 hours prior to the current procedure has undergone a modified stage 1 Norwood operation.  Given the magnitude of the operation and the size of the patient ...",
+    "Symptoms": "",
+    "Treatment": "Cardiac evaluation",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

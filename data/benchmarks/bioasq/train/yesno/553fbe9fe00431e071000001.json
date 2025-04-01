@@ -1,0 +1,79 @@
+{
+  "id": "553fbe9fe00431e071000001",
+  "type": "yesno",
+  "question": "Is the regulation of Vsr endonuclease independent of the growth phase of bacteria?",
+  "ideal_answer": "The regulation of Vsr endonuclease levels is growth phase dependent.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10400606",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15184558",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12067333",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9537396"
+  ],
+  "snippets": [
+    {
+      "text": "Growth phase-dependent regulation of Vsr endonuclease",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10400606",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Vsr endonuclease levels are growth phase dependent.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10400606",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Growth phase-dependent regulation of Vsr endonuclease may contribute to 5-methylcytosine mutational hot spots in Escherichia coli.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10400606",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Using rabbit polyclonal antibodies, we have shown that the Dcm cytosine methylase of Escherichia coli is maintained at a constant level during cell growth, while Vsr endonuclease levels are growth phase dependent.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10400606",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Vsr endonuclease, which initiates very short patch repair, has been hypothesized to regulate mutation in stationary-phase cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9537396",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The efficiency of the two pathways changes during the bacterial life cycle; MMR is more efficient during exponential growth and VSP repair is more efficient during the stationary phase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12067333",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Overexpression of Vsr does dramatically increase the stationary-phase reversion of a Lac- frameshift allele, but the absence of Vsr has no effect.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9537396",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using rabbit polyclonal antibodies, we have shown that the Dcm cytosine methylase of Escherichia coli is maintained at a constant level during cell growth, while Vsr endonuclease levels are growth phase dependent",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10400606",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The efficiency of the two pathways changes during the bacterial life cycle; MMR is more efficient during exponential growth and VSP repair is more efficient during the stationary phase",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12067333",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Vsr endonuclease, which initiates very short patch repair, has been hypothesized to regulate mutation in stationary-phase cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9537396",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0043765",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0004519"
+  ],
+  "exact_answer": "Yes"
+}

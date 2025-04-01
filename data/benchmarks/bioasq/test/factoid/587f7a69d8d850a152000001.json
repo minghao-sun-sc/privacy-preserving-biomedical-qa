@@ -1,0 +1,55 @@
+{
+  "id": "587f7a69d8d850a152000001",
+  "type": "factoid",
+  "question": "Which library is used for fixed-length approximate string matching?",
+  "ideal_answer": "libFLASM is a free open-source C++ software library for solving fixed-length approximate string matching under both the edit and the Hamming distance models.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27832739"
+  ],
+  "snippets": [
+    {
+      "text": "libFLASM: a software library for fixed-length approximate string matching.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27832739",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present and make available libFLASM, a free open-source C++ software library for solving fixed-length approximate string matching under both the edit and the Hamming distance models. Moreover we describe how fixed-length approximate string matching is applied to solve real problems by incorporating libFLASM into established applications for multiple circular sequence alignment as well as single and structured motif extraction. Specifically, we describe how it can be used to improve the accuracy of multiple circular sequence alignment in terms of the inferred likelihood-based phylogenies; and we also describe how it is used to efficiently find motifs in molecular sequences representing regulatory or functional regions. The comparison of the performance of the library to other algorithms show how it is competitive, especially with increasing distance thresholds.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27832739",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Fixed-length approximate string matching is a generalisation of the classic approximate string matching problem. We present libFLASM, a free open-source C++ software library for solving fixed-length approximate string matching. The extensive experimental results presented here suggest that other applications could benefit from using libFLASM, and thus further maintenance and development of libFLASM is desirable",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27832739",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "libFLASM: a software library for fixed-length approximate string matching.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27832739",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present libFLASM, a free open-source C++ software library for solving fixed-length approximate string matching.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27832739",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present and make available libFLASM, a free open-source C++ software library for solving fixed-length approximate string matching under both the edit and the Hamming distance models.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27832739",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover we describe how fixed-length approximate string matching is applied to solve real problems by incorporating libFLASM into established applications for multiple circular sequence alignment as well as single and structured motif extraction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27832739",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "libFLASM"
+}

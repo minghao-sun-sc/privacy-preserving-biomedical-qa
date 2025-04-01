@@ -1,0 +1,100 @@
+{
+  "id": "5e5015436d0a277941000037",
+  "type": "list",
+  "question": "Which are the databases for intrinsic protein disorders?",
+  "ideal_answer": "Intrinsic disorder (ID), i.e. the lack of a unique folded conformation at physiological conditions, is a common feature for many proteins, which requires specialized biochemical experiments that are not high-throughput. DisProt and MobiDB are databases for intrinsic protein disorders.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29136219",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23815411",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22661649",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28968848"
+  ],
+  "snippets": [
+    {
+      "text": "A comprehensive assessment of long intrinsic protein disorder from the DisProt database.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968848",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Intrinsic disorder (ID), i.e. the lack of a unique folded conformation at physiological conditions, is a common feature for many proteins, which requires specialized biochemical experiments that are not high-throughput. Missing X-ray residues from the PDB have been widely used as a proxy for ID when developing computational methods. This may lead to a systematic bias, where predictors deviate from biologically relevant ID. Large benchmarking sets on experimentally validated ID are scarce. Recently, the DisProt database has been renewed and expanded to include manually curated ID annotations for several hundred new proteins. This provides a large benchmark set which has not yet been used for training ID predictors.Results: Here, we describe the first systematic benchmarking of ID predictors on the new DisProt dataset. In contrast to previous assessments based on missing X-ray data, this dataset contains mostly long ID regions and a significant amount of fully ID proteins. The benchmarking shows that ID predictors work quite well on the new dataset, especially for long ID segments. However, a large fraction of ID still goes virtually undetected and the ranking of methods is different than for PDB data. In particular, many predictors appear to confound ID and regions outside X-ray structures. This suggests that the ID prediction methods capture different flavors of disorder and can benefit from highly accurate curated examples.Availability and implementation: The raw data used for the evaluation are available from URL: http://www.disprot.org/assessment/.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968848",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MobiDB: a comprehensive database of intrinsic protein disorder annotations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22661649",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Disordered protein regions are key to the function of numerous processes within an organism and to the determination of a protein's biological role. The most common source for protein disorder annotations, DisProt, covers only a fraction of the available sequences. Alternatively, the Protein Data Bank (PDB) has been mined for missing residues in X-ray crystallographic structures. Herein, we provide a centralized source for data on different flavours of disorder in protein structures, MobiDB, building on and expanding the content provided by already existing sources. In addition to the DisProt and PDB X-ray structures, we have added experimental information from NMR structures and five different flavours of two disorder predictors (ESpritz and IUpred). These are combined into a weighted consensus disorder used to classify disordered regions into flexible and constrained disorder. Users are encouraged to submit manual annotations through a submission form. MobiDB features experimental annotations for 17 285 proteins, covering the entire PDB and predictions for the SwissProt database, with 565 200 annotated sequences. Depending on the disorder flavour, 6-20% of the residues are predicted as disordered.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22661649",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The MobiDB (URL: mobidb.bio.unipd.it) database of protein disorder and mobility annotations has been significantly updated and upgraded since its last major renewal in 2014.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29136219",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Analysis and consensus of currently available intrinsic protein disorder annotation sources in the MobiDB database.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23815411",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Our recently published database, MobiDB, provides a centralized resource for accessing and analysing intrinsic protein disorder annotations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23815411",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our recently published database , MobiDB , provides a centralized resource for accessing and analysing intrinsic protein disorder annotations .",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23815411",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MobiDB: a comprehensive database of intrinsic protein disorder annotations .",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22661649",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "A comprehensive assessment of long intrinsic protein disorder from the DisProt database .",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28968848",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Analysis and consensus of currently available intrinsic protein disorder annotation sources in the MobiDB database .",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23815411",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "A large amount of information and cross-links to more specialized databases are intended to make MobiDB the central resource for the scientific community working on protein intrinsic disorder and mobility.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29136219",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MobiDB is a central resource for intrinsic disorder research, containing both experimental data and predictions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23815411",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The most common source for protein disorder annotations, DisProt, covers only a fraction of the available sequences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22661649",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "DisProt, MobiDB"
+}

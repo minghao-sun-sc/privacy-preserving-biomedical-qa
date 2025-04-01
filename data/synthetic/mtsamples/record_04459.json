@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04459",
+  "original_length": 3021,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  The patient and her daughter completed both days of diabetes education in a group setting.  Blood glucose records and food diaries are reviewed by the diabetes educator and the dietician.  Fasti...",
+    "Symptoms": "",
+    "Treatment": "S:,  Since she is doing so well with her diet changes, her blood sugars have been within normal limits and sometimes on the low side, especially considering the fact that she has low blood sugar un...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "metformin 500 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Blood glucose records and food diaries are reviewe...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

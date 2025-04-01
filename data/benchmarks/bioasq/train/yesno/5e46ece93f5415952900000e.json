@@ -1,0 +1,36 @@
+{
+  "id": "5e46ece93f5415952900000e",
+  "type": "yesno",
+  "question": "Is Rad4/XPC a DNA damage sensing protein?",
+  "ideal_answer": "Yes,\r\nDNA damage recognition is achieved by the Rad4/XPC nucleotide excision repair complex.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27035942",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27720644",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26422135",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25562780",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29283431",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17882165"
+  ],
+  "snippets": [
+    {
+      "text": "Twist-open mechanism of DNA damage recognition by the Rad4/XPC nucleotide excision repair complex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27035942",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Kinetic gating mechanism of DNA damage recognition by Rad4/XPC.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25562780",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " These findings indicate that the lesions recognized by Rad4/XPC thermodynamically destabilize the Watson-Crick double helix in a manner that facilitates the flipping-out of two base pairs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17882165",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

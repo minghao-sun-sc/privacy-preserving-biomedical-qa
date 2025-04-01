@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01597",
+  "original_length": 6560,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "tar responses were flexor, bilaterally.,Skin: Cyanosis of the distal #3 toes on both feet. There was a reticular rash about the lateral aspect of her left foot. There were splinter-type hemorrhages...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Prednisone 80 mg, Prednisone 80mg, ASA 325mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',Skin: Cyanosis of the distal #3 toes on both feet...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

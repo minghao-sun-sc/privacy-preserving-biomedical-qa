@@ -1,0 +1,61 @@
+{
+  "id": "5717bacacb4ef8864c00000d",
+  "type": "yesno",
+  "question": "Can the apoptosis regulator BAX trigger the release of cytochrome c?",
+  "ideal_answer": "Yes, altered Bax conformation trigger its redistribution from the cytosol to mitochondria. Subsequently, cytochrome c is released from mitochondria to cytosol.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25524600",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25619640",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22116711",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21307199",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23954445",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23567751",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25116390"
+  ],
+  "snippets": [
+    {
+      "text": "6-Shogaol reduced the mitochondrial membrane potential (MMP) and released cytochrome c from mitochondria to cytosol via Bax activation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25619640",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover, overexpression of ER\u03b2 prevented Bax activation, cytochrome c release, caspase-3 activation, and PARP cleavage during apoptosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25524600",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this study, we demonstrated that EV71 infection altered Bax conformation and triggered its redistribution from the cytosol to mitochondria in RD cells. Subsequently, cytochrome c was released from mitochondria to cytosol.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25116390",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "associated with translocation of Bax from the cytosol to the mitochondrial membrane, cytochrome c release, and caspase activation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23954445",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Once activated, BAK and BAX form proteolipid pores in the OMM leading to mitochondrial outer membrane permeabilization (MOMP), and the release of inner membrane space proteins, such as cytochrome c, which promotes caspase activation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23567751",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Our results showed that OC induced a caspase-dependent apoptosis by triggering a series of events in HeLa cells including Bax translocation, cytochrome c release, caspase-3 activation, chromosome fragmentation followed by caspase-8 activation, Bid cleavage and eventually cell death. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22116711",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bax plays a key role in intrinsic apoptotic signaling in neurons by allowing the release of mitochondrial cytochrome c. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21307199",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

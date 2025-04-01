@@ -1,0 +1,25 @@
+{
+  "id": "63f9cbb433942b094c00000c",
+  "type": "yesno",
+  "question": "Is alternative splicing associated with heart disease?",
+  "ideal_answer": "Yes, aberrations in alternative splicing have been observed in heart disease.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/36375644"
+  ],
+  "snippets": [
+    {
+      "text": "We identified >200 significant alternative splicing (AS) events and distinct AS profiles were observed in the right (RV) and left (LV) ventricles in PLN-R14del compared to WT mouse hearts. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36375644",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our findings suggest that aberrant splicing may affect Ca2+-homeostasis in the heart, contributing to the increased risk of arrythmogenesis in PLN-R14del ACM.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36375644",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "58cd522902b8c60953000038",
+  "type": "yesno",
+  "question": "Is the enzyme EPRS phosphorylated?",
+  "ideal_answer": "Yes, EPRS is dually phosphorylated by cyclin-dependent kinase 5 (Cdk5) at Ser(886) and then by a Cdk5-dependent-AGC kinase at Ser(999)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27729295",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21220307",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19647514",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23071094"
+  ],
+  "snippets": [
+    {
+      "text": "Phosphorylation of glutamyl-prolyl tRNA synthetase (EPRS) has been investigated extensively in our laboratory for more than a decade, and has served as an archetype for studies of other AARSs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27729295",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "EPRS is dually phosphorylated by cyclin-dependent kinase 5 (Cdk5) at Ser(886) and then by a Cdk5-dependent-AGC kinase at Ser(999); ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23071094",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Diphosphorylated EPRS is released from its residence in the tRNA multisynthetase complex for immediate binding to NS1-associated protein and subsequent binding to ribosomal protein L13a and GAPDH. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21220307",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Two-site phosphorylation of EPRS coordinates multimodal regulation of noncanonical translational control activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19647514",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

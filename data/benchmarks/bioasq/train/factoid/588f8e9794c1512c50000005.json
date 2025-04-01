@@ -1,0 +1,61 @@
+{
+  "id": "588f8e9794c1512c50000005",
+  "type": "factoid",
+  "question": "Which R package is used for the analysis of genome-wide DNA methylation profiles?",
+  "ideal_answer": "MethylKit is a comprehensive R package for the analysis of genome-wide DNA methylation profiles. MethylKit includes functions for clustering, sample quality visualization, differential methylation analysis and annotation features, thus automating and simplifying many of the steps for discerning statistically significant bases or regions of DNA methylation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23034086"
+  ],
+  "snippets": [
+    {
+      "text": "methylKit: a comprehensive R package for the analysis of genome-wide DNA methylation profiles.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23034086",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " Here, we describe an R package, methylKit, that rapidly analyzes genome-wide cytosine epigenetic profiles from high-throughput methylation and hydroxymethylation sequencing experiments. methylKit includes functions for clustering, sample quality visualization, differential methylation analysis and annotation features, thus automating and simplifying many of the steps for discerning statistically significant bases or regions of DNA methylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23034086",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we describe an R package, methylKit, that rapidly analyzes genome-wide cytosine epigenetic profiles from high-throughput methylation and hydroxymethylation sequencing experiments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23034086",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "methylKit: a comprehensive R package for the analysis of genome-wide DNA methylation profiles",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23034086",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we describe an R package, methylKit, that rapidly analyzes genome-wide cytosine epigenetic profiles from high-throughput methylation and hydroxymethylation sequencing experiments. methylKit includes functions for clustering, sample quality visualization, differential methylation analysis and annotation features, thus automating and simplifying many of the steps for discerning statistically significant bases or regions of DNA methylation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23034086",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we describe an R package, methylKit, that rapidly analyzes genome-wide cytosine epigenetic profiles from high-throughput methylation and hydroxymethylation sequencing experiments. methylKit includes functions for clustering, sample quality visualization, differential methylation analysis and annotation features, thus automating and simplifying many of the steps for discerning statistically significant bases or regions of DNA methylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23034086",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "methylKit: a comprehensive R package for the analysis of genome-wide DNA methylation profiles.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23034086",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:1905643",
+    "http://amigo.geneontology.org/amigo/term/GO:1905642",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019175",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008745",
+    "http://amigo.geneontology.org/amigo/term/GO:0044728"
+  ],
+  "exact_answer": "methylKit"
+}

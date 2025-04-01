@@ -1,0 +1,54 @@
+{
+  "id": "58df779d6fddd3e83e000001",
+  "type": "yesno",
+  "question": "Is Musclin a secretory peptide?",
+  "ideal_answer": "Yes, musclin has been described as a muscle-derived secretory peptide.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17189616",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17950246",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19244276",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23940802",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24734231",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26449458"
+  ],
+  "snippets": [
+    {
+      "text": "Musclin is a novel skeletal muscle-derived secretory factor,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17950246",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Musclin has been described as a muscle-derived secretory peptide, responsive to insulin in vivo, and inducing insulin resistance in vitro.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17189616",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Musclin is a type of muscle-secreted cytokine and its increased gene expression induces insulin resistance in type 2 diabetes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26449458",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Musclin is a novel skeletal muscle-derived factor found in the signal sequence trap of mouse skeletal muscle cDNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24734231",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Musclin is a novel skeletal muscle-derived secretory factor found in the signal sequence trap of mouse skeletal muscle cDNAs. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23940802",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Musclin is a novel skeletal muscle-derived secretory factor that was isolated by our group. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19244276",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

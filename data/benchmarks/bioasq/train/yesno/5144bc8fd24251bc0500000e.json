@@ -1,0 +1,111 @@
+{
+  "id": "5144bc8fd24251bc0500000e",
+  "type": "yesno",
+  "question": "Is single-cell analysis (SCA) possible in proteomics?",
+  "ideal_answer": "No, it is not yet feasible, although smaller pilot studies has been performed where a limited number of proteins has been analysed.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18682362",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18392595",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16806894",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16098176",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22203961",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17560583",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20680590",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23445532",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20434785",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21708264",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22468600",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21347466",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15174138",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18664433",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17953400",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18657818",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22921068",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22498881",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17109634",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23256674",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17439240"
+  ],
+  "snippets": [
+    {
+      "text": "Toward Single Cell Analysis by Plume Collimation in Laser Ablation Electrospray Ionization Mass Spectrometry.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23445532",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "he advent of proteomics and genomics at a single-cell level has set the basis for an outstanding improvement in analytical technology and data acquisition.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23256674",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The new-generation technology of single-cell analysis is able to better characterize a cell's population, identifying and differentiating outlier cells, in order to provide both a single-cell experiment and a corresponding bulk measurement, through the identification, quantification and characterization of all system biology aspects (genomics, transcriptomics, proteomics, metabolomics, degradomics and fluxomics). The movement of omics into single-cell analysis represents a significant and outstanding shift.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23256674",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Laser ablation electrospray ionization (LAESI) is a novel method for the direct imaging of biological tissues by mass spectrometry. By performing ionization in the ambient environment, this technique enables in vivo studies with potential for single-cell analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20680590",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Other approaches for MS-based chemical imaging and profiling include those based on near-field laser ablation and inductively-coupled plasma MS analysis, which offer complementary capabilities for subcellular chemical imaging and profiling.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22498881",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Mass spectrometry imaging and profiling of single cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22498881",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "his is rapidly changing with the recent examples of single cell genomics, transcriptomics, proteomics and metabolomics. The rate of change is expected to accelerate owing to emerging technologies that range from micro/nanofluidics to microfabricated interfaces for mass spectrometry to third- and fourth-generation automated DNA sequencers",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20434785",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Single-cell analysis (SCA) has been increasingly recognized as the key technology for the elucidation of cellular functions, which are not accessible from bulk measurements on the population level. Thus far, SCA has been achieved by miniaturization of established engineering concepts to match the dimensions of a single cell",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22468600",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Single-cell proteomic chip for profiling intracellular signaling pathways in single tumor cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22203961",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The amount of single proteins in single cells can be as low as one copy per cell and is for most proteins in the attomole range or below; usually considered as insufficient for proteomic analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21708264",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "n Arabidopsis thaliana, we have successfully identified nine unique proteins in a single-cell sample and 56 proteins from a pool of 15 single-cell samples from glucosinolate-rich S-cells by nanoLC-MS/MS proteomic analysis, thus establishing the proof-of-concept for true single-cell proteomic analysis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21708264",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "A first step towards practical single cell proteomics: a microfluidic antibody capture chip with TIRF detection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21347466",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002477",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020543",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0005623",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D040901",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D059010"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "6202fa3cc9dfcb9c0900002c",
+  "type": "summary",
+  "question": "Describe Cap Trap RNA-seq",
+  "ideal_answer": "Using the Cap Analysis of Gene Expression (CAGE) technology, the FANTOM5 consortium provided one of the most comprehensive maps of transcription start sites (TSSs) in several species. Strikingly,\u2009~72% of them could not be assigned to a specific gene and initiate at unconventional regions, outside promoters or enhancers. Cap Trap RNA-seq is a technology which combines cap trapping and long read MinION sequencing.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34078885"
+  ],
+  "snippets": [
+    {
+      "text": "Using the Cap Analysis of Gene Expression (CAGE) technology, the FANTOM5 consortium provided one of the most comprehensive maps of transcription start sites (TSSs) in several species. Strikingly,\u2009~72% of them could not be assigned to a specific gene and initiate at unconventional regions, outside promoters or enhancers. Here, we probe these unassigned TSSs and show that, in all species studied, a significant fraction of CAGE peaks initiate at microsatellites, also called short tandem repeats (STRs). To confirm this transcription, we develop Cap Trap RNA-seq, a technology which combines cap trapping and long read MinION sequencing. We train sequence-based deep learning models able to predict CAGE signal at STRs with high accuracy. These models unveil the importance of STR surrounding sequences not only to distinguish STR classes, but also to predict the level of transcription initiation. Importantly, genetic variants linked to human diseases are preferentially found at STRs with high transcription initiation level, supporting the biological and clinical relevance of transcription initiation at STRs. Together, our results extend the repertoire of non-coding transcription associated with DNA tandem repeats and complexify STR polymorphism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34078885",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

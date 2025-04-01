@@ -1,0 +1,36 @@
+{
+  "id": "5e35c4ea9be68b5512000002",
+  "type": "summary",
+  "question": "What is Perturb-seq?",
+  "ideal_answer": "Perturb-seq is a technique that combines single-cell RNA sequencing (RNA-seq) and clustered regularly interspaced short palindromic repeats (CRISPR)-based perturbations to perform many such assays in a pool. Perturb-seq accurately identifies individual gene targets, gene signatures, and cell states affected by individual perturbations and their genetic interactions. By decomposing many high content measurements into the effects of perturbations, their interactions, and diverse cell metadata, Perturb-seq dramatically increases the scope of pooled genomic assays.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27984732"
+  ],
+  "snippets": [
+    {
+      "text": "Perturb-Seq: Dissecting Molecular Circuits with Scalable Single-Cell RNA Profiling of Pooled Genetic Screens.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27984732",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Genetic screens help infer gene function in mammalian cells, but it has remained difficult to assay complex phenotypes-such as transcriptional profiles-at scale. Here, we develop Perturb-seq, combining single-cell RNA sequencing (RNA-seq) and clustered regularly interspaced short palindromic repeats (CRISPR)-based perturbations to perform many such assays in a pool. We demonstrate Perturb-seq by analyzing 200,000 cells in immune cells and cell lines, focusing on transcription factors regulating the response of dendritic cells to lipopolysaccharide (LPS). Perturb-seq accurately identifies individual gene targets, gene signatures, and cell states affected by individual perturbations and\u00a0their genetic interactions. We posit new functions for regulators of differentiation, the anti-viral response, and mitochondrial function during immune activation. By decomposing many high content measurements into the effects of perturbations, their interactions, and diverse cell metadata, Perturb-seq dramatically increases the scope of pooled genomic assays.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27984732",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we develop Perturb-seq, combining single-cell RNA sequencing (RNA-seq) and clustered regularly interspaced short palindromic repeats (CRISPR)-based perturbations to perform many such assays in a pool.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27984732",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we develop Perturb-seq, combining single-cell RNA sequencing (RNA-seq) and clustered regularly interspaced short palindromic repeats (CRISPR)-based perturbations to perform many such assays in a pool.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27984732",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

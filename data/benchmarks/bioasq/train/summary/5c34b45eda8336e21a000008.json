@@ -1,0 +1,98 @@
+{
+  "id": "5c34b45eda8336e21a000008",
+  "type": "summary",
+  "question": "Which is the basis of the ATAC-Seq protocol?",
+  "ideal_answer": "This method probes DNA accessibility with hyperactive Tn5 transposase, which inserts sequencing adapters into accessible regions of chromatin. Sequencing reads can then be used to infer regions of increased accessibility, as well as to map regions of transcription-factor binding and nucleosome position. The method is a fast and sensitive alternative to DNase-seq for assaying chromatin accessibility genome-wide, or to MNase-seq for assaying nucleosome positions in accessible regions of the genome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25559105",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29052193",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29605854",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30375457",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30421411",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25679813",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28550296",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28846090",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29155775"
+  ],
+  "snippets": [
+    {
+      "text": "This method probes DNA accessibility with hyperactive Tn5 transposase, which inserts sequencing adapters into accessible regions of chromatin. Sequencing reads can then be used to infer regions of increased accessibility, as well as to map regions of transcription-factor binding and nucleosome position.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25559105",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The method is a fast and sensitive alternative to DNase-seq for assaying chromatin accessibility genome-wide, or to MNase-seq for assaying nucleosome positions in accessible regions of the genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25559105",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This comprehensive protocol begins with cell harvest, then describes the molecular procedure of chromatin tagmentation, sample preparation for next-generation sequencing, and also includes methods and considerations for the computational analyses used to interpret the results. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29155775",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Assay for Transposase-Accessible Chromatin with high-throughput sequencing (ATAC-seq) is a method used for the identification of open (accessible) regions of chromatin. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29155775",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ATAC-seq, based on preferential integration of a transposon into open chromatin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25679813",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Assay for Transposase Accessible Chromatin (ATAC-seq) technology can interrogate chromatin accessibility from small cell numbers and facilitate studying enhancers in pathologies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30375457",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Assay for transposase-accessible chromatin with high-throughput sequencing (ATAC-Seq) is a powerful technique for identifying nucleosome-free regions of the genome. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30421411",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recently a new technique coupled with high-throughput sequencing named Assay for Transposase Accessible Chromatin (ATAC-seq) emerged as an efficient method to chart open chromatin genome wide. The application of such technique to different cell types allowed unmasking tissue-specific regulatory elements and characterizing cis-regulatory networks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29605854",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This technique utilizes a hyperactive Tn5 transposase to cause DNA cleavage and simultaneous insertion of sequencing adapters into open chromatin regions of the input nuclei",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29052193",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Assay for Transposase-Accessible Chromatin with high-throughput sequencing (ATAC-seq) is a method used for the identification of open (accessible) regions of chromatin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29155775",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ATAC-seq is a robust and sensitive alternative to DNase I hypersensitivity analysis coupled with next-generation sequencing (DNase-seq) and formaldehyde-assisted isolation of regulatory elements (FAIRE-seq) for genome-wide analysis of chromatin accessibility and to the sequencing of micrococcal nuclease-sensitive sites (MNase-seq) to determine nucleosome positioning.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29155775",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present Omni-ATAC, an improved ATAC-seq protocol for chromatin accessibility profiling that works across multiple applications with substantial improvement of signal-to-background ratio and information content.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28846090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ATAC-seq is a high-throughput sequencing technique that identifies open chromatin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28550296",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

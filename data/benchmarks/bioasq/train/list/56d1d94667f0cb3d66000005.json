@@ -1,0 +1,62 @@
+{
+  "id": "56d1d94667f0cb3d66000005",
+  "type": "list",
+  "question": "List processes which are under the control of the YAP protein.",
+  "ideal_answer": "Yes-associated protein (YAP), a transcription coactivator, is the major downstream effector of the Hippo pathway, which plays a critical role in organ size control, cell poliferation and cancer development and tissue homeostasis and differentiation.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26109050",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25719868",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26039999",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26125451",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26109051",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26366214",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25109332",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26199863"
+  ],
+  "snippets": [
+    {
+      "text": "in which YAP appears to regulate cell proliferation ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25109332",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "YAP and TAZ oncoproteins confer malignancy and drug resistance to various cancer types. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26199863",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Yes-associated protein (YAP), a transcription coactivator, is the major downstream effector of the Hippo pathway, which plays a critical role in organ size control and cancer development",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26039999",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "YAP (Yes-associated protein) and TAZ (transcriptional coactivator with PDZ-binding motif) are major downstream effectors of the Hippo pathway that influences tissue homeostasis, organ size, and cancer development. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26109050",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Hippo signaling pathway converges on YAP to regulate growth, differentiation, and regeneration.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26109051",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Yes associated protein (YAP) and transcriptional co-activator with PDZ-binding motif (TAZ) are its targets and terminal effectors: inhibition of the pathway promotes YAP/TAZ translocation to the nucleus, where they interact with transcriptional enhancer associate domain (TEAD) transcription factors and coactivate the expression of target genes, promoting cell proliferation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25719868",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Intracellular molecules Yap, Akt, mTOR, and Erk are signaling pathway members that regulate the proliferation of tumor cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26366214",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "cell proliferation, organ size control, cancer development, tissue homeostasis, cell differentiation"
+}

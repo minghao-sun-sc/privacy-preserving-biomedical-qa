@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00556",
+  "original_length": 6004,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Soft tissue mass, right foot.,POSTOPERATIVE DIAGNOSIS: , Soft tissue mass, right foot.,PROCEDURE PERFORMED: , Excision of soft tissue mass, right foot.,HISTORY:  ,The patient is a 5...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',POSTOPERATIVE DIAGNOSIS: , Soft tissue mass, righ...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

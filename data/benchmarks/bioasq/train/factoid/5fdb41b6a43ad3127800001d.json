@@ -1,0 +1,153 @@
+{
+  "id": "5fdb41b6a43ad3127800001d",
+  "type": "factoid",
+  "question": "Which type of analysis does DeSeq2 perform?",
+  "ideal_answer": "DeSeq2 is a software for differential gene expression analysis of RNA sequencing data.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27528462",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32368594",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27280887",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33102519",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27748458",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33072607",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32720149",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27695478",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30984248",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27022159",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25516281",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26919855",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26539333",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32609094",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30987214"
+  ],
+  "snippets": [
+    {
+      "text": "Moderated estimation of fold change and  dispersion for RNA-seq data with DESeq2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25516281",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " DESeq2, a method for differential analysis of count dat",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25516281",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "t is based on DESeq2 and edgeR and is composed of an R package and two R script templates (for DESeq2 and edgeR respectively). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27280887",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SARTools: A DESeq2- and EdgeR-Based R Pipeline for Comprehensive Differential Analysis of RNA-Seq Data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27280887",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Both TMM and DESeq2 are widely used for differential gene expression analysis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27695478",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A Venn diagram is a useful method to compare the differentially expressed genes across various comparisons and steps to generate the Venn diagram from DESeq2 results are provided.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32720149",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "When triplicates or more are available, GFOLD is a sharp tool for identifying high confidence differentially expressed genes for targeted qPCR validation; for downstream systems level analysis, combined results from DESeq2 and edgeR are useful.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26539333",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "At a replicate size of six, we found DESeq2 and edgeR to be reasonable methods for calling differentially expressed genes at systems level analysis, as their PPV and sensitivity trade-off were superior to the other methods'.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26539333",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The whole process consists of three main steps (1) Data Analysis: that allows a preliminary analysis for quality control based on the data distribution per sample, using different types of graphs; (2) Differential expression: performs the differential expression analysis with or without batch effect error awareness, using the bioconductor packages, NOISeq, limma-Voom, DESeq2 and edgeR, and generate reports for each method; (3) Result integration: the obtained results the integrated results are reported using different graphical outputs such as correlograms, heatmaps, Venn diagrams and text lists.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30984248",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "thod, we identified 138 differentially expressed genes (DEGs) between Bf and Sol. Using DEGseq met",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27748458",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "w data were analyzed for differential gene expression using a negative binomial generalized linear model in the DeSeq2 software package. We u",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32368594",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DEseq2 tool was used to obtain differentially-expressed miRNAs. We",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32609094",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Producing a coherent differential gene expression analysis from RNA-seq count data requires an understanding of how numerous sources of variation such as the replicate size, the hypothesized biological effect size, and the specific method for making differential expression calls interact.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26539333",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present DESeq2, a method for differential analysis of count data, using shrinkage estimation for dispersions and fold changes to improve stability and interpretability of estimates.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25516281",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Both TMM and DESeq2 are widely used for differential gene expression analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27695478",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Differential analysis between two TMB groups was performed using \"DESeq2\" R package to identify differentially expressed genes (DEGs).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33072607",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "High-quality reads are mapped using Bowtie2 and differentially expressed genes across different groups were estimated using the DEseq2 R-Bioconductor package.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32720149",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DESeq2's generalized linear model was applied with two hypothesis testing approaches to identify differentially-expressed (DE) genes, both between pairs of age groups and across mice of all ages.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33102519",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "geR robust. These methods attempt to overcome the inherently noisy behavior of low-count transcripts by either shrinkage or differential weighting of observations, respectively.RESULTS: Both DE methods seemed to properly control family-wise type 1 error on low-count transcripts, whereas edgeR robust showed greater power and DESeq2 showed greater pr",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26919855",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Gene Ontology (GO) enrichment analysis revealed no skewness in significant GO terms identified among differentially expressed genes by edgeR versus DESeq2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30987214",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "analysis of covariance,t-tests, linear regression, differential abundance (DESeq2), and principal coordinates analysis (PCoA)) and normalization (rarefaction, DESeq2, and proportion) tools for the comparative analysis of taxonomic abundance, species richness and species diversity for projects of various types (e.g.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27022159",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "differential analysis of RNASeq data"
+}

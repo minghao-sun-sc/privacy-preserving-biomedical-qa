@@ -1,0 +1,19 @@
+{
+  "id": "5e2db15cfbd6abf43b000014",
+  "type": "yesno",
+  "question": "Has amantadine ER been approved by the FDA?",
+  "ideal_answer": "Yes, amantadine ER is an US FDA-approved treatment.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29532440"
+  ],
+  "snippets": [
+    {
+      "text": "ADS-5102 (amantadine) extended-release (ER) capsules (GOCOVRITM) is a recent US FDA-approved treatment for dyskinesia in PD patients. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29532440",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "532b15ecd6d3ac6a34000014",
+  "type": "list",
+  "question": "Which drugs have been found effective for the treatment of chordoma?",
+  "ideal_answer": "Established chordoma cell lines, and patient-derived primary cell cultures, as well as chordoma tumors in vivo were found to be sensitive to treatment with bortezomib, vincristine, doxorubicin, etoposide, cisplatin, fludarabine and SD-1029 Stat3 inhibitor. Moreover, percutaneous intratumoral injection with pingyangmycin lipiodol emulsion was shown to be effective against chordoma. It should be stressed that combination treatment with the use of the above drugs was always able to increase the therapeutic potency.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23792643",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21801998",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19723879",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20965848",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21905773"
+  ],
+  "snippets": [
+    {
+      "text": "The combination treatment of bortezomib with topoisomerase I and II inhibitors increased the therapeutic potency in U-CH2 and patient-derived primary cultures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23792643",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Vincristine, doxorubicin, etoposide, cisplatin, and fludarabine, each at a concentration of 10 \u03bcM, decreased the number of chordoma cells when given alone down to 11%, 0%, 30%, 67%, and 3%, respectively. Etoposide and cisplatin, each at a concentration of 10 \u03bcM, reduced the percentage of viable chordoma cells in a more effective way when given with 1 \u03bcM ATRA simultaneously, reducing the number of viable cells to 14% and 9%, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21905773",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Percutaneous intratumoral injection with pingyangmycin lipiodol emulsion for the treatment of recurrent sacrococcygeal chordomas",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21801998",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Preliminary results showed that PIIT with pingyangmycin lipiodol emulsion under fluoroscopic guidance is effective and safe and may be considered as a treatment option.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21801998",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Percutaneous intratumoral injection with pingyangmycin lipiodol emulsion for treatment of recurrent sacrococcygeal chordomas",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20965848",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "During the follow-up (median time of 21.7 months, range 10-26 months), all the patients showed obviously reduced tumor size and VAS, and partial remission was achieved in 6 patients and stable disease (SD) in 1 patient.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20965848",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Fluoroscopy-guided percutaneous intratumoral injection of PLE can be effective and safe and may serve as a alternative for treatment of recurrent sacrococcygeal chordomas.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20965848",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The expression of Stat3 signaling cascade was inhibited in all chordoma cell lines after treatment with SD-1029. The cytotoxicity of the combination of SD-1029 and chemotherapeutic drugs is significantly better than either agent alone. Phosphorylation of Stat3 in chordoma cells in vitro and cellular proliferation in three-dimensional culture were inhibited by SD-1029.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19723879",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In conclusion, the Stat3 pathway is constitutively activated in chordomas and the level of expression may serve as a predictor for prognosis. Blockade of the Stat3 pathway represents a potential strategy for future treatment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19723879",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013812",
+    "http://www.disease-ontology.org/api/metadata/DOID:3302",
+    "http://www.disease-ontology.org/api/metadata/DOID:4153",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016896",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002817",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0035690",
+    "http://www.disease-ontology.org/api/metadata/DOID:4151"
+  ],
+  "exact_answer": "bortezomib, vincristine, doxorubicin, etoposide, cisplatin, fludarabine, SD-1029 Stat3 inhibitor, pingyangmycin lipiodol emulsion"
+}

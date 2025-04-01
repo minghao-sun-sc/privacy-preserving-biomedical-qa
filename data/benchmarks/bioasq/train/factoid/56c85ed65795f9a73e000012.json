@@ -1,0 +1,75 @@
+{
+  "id": "56c85ed65795f9a73e000012",
+  "type": "factoid",
+  "question": "Does dasatinib promote or inhibit T-cell proliferation?",
+  "ideal_answer": "Dasatinib inhibits T-cell proliferation",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19066329",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18395492",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17962511",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19056158",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18619726",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19016717",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18413841"
+  ],
+  "snippets": [
+    {
+      "text": "Dasatinib inhibited antigen-specific proliferation of murine CD4(+) and CD8(+) transgenic T cells in vitro and in vivo",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19056158",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Herein, we show that dasatinib inhibits TCR-mediated signal transduction, cellular proliferation, cytokine production, and in vivo T-cell responses. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17962511",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Both dasatinib and staurosporine inhibited T-cell activation, proliferation, cytokine production, and degranulation in a dose-dependent manner. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18413841",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Herein, we show that dasatinib inhibits TCR-mediated signal transduction, cellular proliferation, cytokine production, and in vivo T-cell responses",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17962511",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dasatinib, a small-molecule protein tyrosine kinase inhibitor, inhibits T-cell activation and proliferation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17962511",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Dasatinib, a small-molecule protein tyrosine kinase inhibitor, inhibits T-cell activation and proliferation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17962511",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Dasatinib inhibits the proliferation and function of CD4+CD25+ regulatory T cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19016717",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "T-cell functions including proliferation, activation and cytokine production were all uniformly inhibited in the presence of dasatinib. We also demonstrated inhibition of TCR signalling through Src-family kinase LCK, and predicted that inhibition of LCK and other kinases involved in T-cell signalling by dasatinib is responsible for the suppression of T-cell function. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18395492",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4274027",
+    "http://amigo.geneontology.org/amigo/term/GO:0042098",
+    "http://amigo.geneontology.org/amigo/term/GO:0042130",
+    "http://amigo.geneontology.org/amigo/term/GO:0042102",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000069439",
+    "http://www.biosemantics.org/jochem#4244012",
+    "http://www.biosemantics.org/jochem#http://www.biosemantics.org/jochem#:4274027"
+  ],
+  "exact_answer": "inhibits"
+}

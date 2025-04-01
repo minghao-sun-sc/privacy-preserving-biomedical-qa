@@ -1,0 +1,26 @@
+{
+  "id": "5e6df5b51af46fc130000025",
+  "type": "yesno",
+  "question": "Is PTEN a tumour suppressor?",
+  "ideal_answer": "Yes",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29858604",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29460925"
+  ],
+  "snippets": [
+    {
+      "text": "PTEN is a potent tumour suppressor",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29858604",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Genomic aberrations of the PTEN tumour suppressor gene are among the most common in prostate cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29460925",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

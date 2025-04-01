@@ -1,0 +1,34 @@
+{
+  "id": "5c53131e7e3cb0e231000012",
+  "type": "list",
+  "question": "Please list symptoms of measles.",
+  "ideal_answer": "The leading symptoms of the disease are high fever that presents after an incubation period of 9-10 days and the red rash that begins several days after the fever starts. Beyond specific generalized symptoms, measles may have ocular symptoms. The most commonly occuring satellite symptoms are conjunctivitis, coryza and cough.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26613224",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27168928",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29310585",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15230469"
+  ],
+  "snippets": [
+    {
+      "text": "ever and generalized maculopapular rash, plus \u22651 of the following symptoms: Coryza, conjunctivitis, or cough.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29310585",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Measles is a highly contagious viral infection associated with clinical symptoms such as fever, cough, conjunctivitis, coryza, eruption and increased serum immunoglobulin M (IgM) antibodies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26613224",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This patient had typical clinical measles infection symptoms: fever, rash, cough and coryza.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15230469",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "red rash on skin, high fever, conjunctivitis, coryza, cough"
+}

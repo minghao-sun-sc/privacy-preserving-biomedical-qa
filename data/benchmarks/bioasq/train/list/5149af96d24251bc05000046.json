@@ -1,0 +1,133 @@
+{
+  "id": "5149af96d24251bc05000046",
+  "type": "list",
+  "question": "Which are the state-of-the-art computational tools for the prediction of gene fusion events?",
+  "ideal_answer": "Gene fusion detection - also known as the 'Rosetta Stone' method - involves the identification of fused composite genes in a set of reference genomes, which indicates potential interactions between its un-fused counterpart genes in query genomes. A few methods/tools and computational pipelines for the detection of gene fusion events have been introduced. The basic steps followed in these approaches consist of (i) all-against-all sequence comparison, (ii) detection of non-overlapping similarities of two genes/proteins (components) to a single gene/protein (composite), and optionally (iii) elimination of putative spurious hits (e.g. due to promiscuous domains) achieves via clustering based on sequence similarity and examining dense regions of the resulting graph or by querying the PFAM database. An advantage of gene fusion analysis is that functional associations can be predicted even in cases of genes of unknown function. Due to the computationally intense nature of these approaches, precompiled data of this type are often organized in specialized databases. Tools and databases developed for this purpose include (in alphabetical order): fdfBLAST, FusionDB, InPrePPI, (Integrated method for Prediction of Protein-Protein Interactions), MosaicFinder, Phydbac2, PLEX, Predictome, Rosetta Stone method, STRING.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12519996",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10573422",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11820254",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15701682",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18025684",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18949021",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21729286",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22250127",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15130848",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15215406",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18081932",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17963500",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23236161",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11752322",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21342538",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23365410"
+  ],
+  "snippets": [
+    {
+      "text": "MosaicFinder: Identification of fused gene families in sequence similarity networks",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23365410",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "This leads to an efficient formulation of previous methods of fused gene identification, which we implemented in the Python program FusedTriplets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23365410",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We implemented this method in the C++ program MosaicFinder, which additionally uses local alignments to discard false positive candidates and indicates potential fusion points.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23365410",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Inference of gene function based on gene fusion events: the rosetta-stone method.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18025684",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The basic idea is based on the principle of \"guilt by association.\" It is assumed that two proteins, which are found to be transcribed by a single transcript in one (or several) genomes are likely to be functionally linked, for example by acting in a same metabolic pathway or by forming a multiprotein complex. This method is of particular interest for studying genes that exhibit no, or only remote, homologies with already well-characterized proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18025684",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "This chapter uses the FusionDB database (http://www.igs.cnrs-mrs.fr/FusionDB/) as source of information. FusionDB provides a characterization of a large number of gene fusion events at hand of multiple sequence alignments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18025684",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "PLEX can be searched iteratively and also enables searches for chromosomal gene neighbors and Rosetta Stone linkages.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15701682",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "While phylogenomic profiles remain the central focus of Phydbac2, it now integrates chromosomal proximity and gene fusion analyses as two additional non-similarity-based indicators for inferring pairwise gene functional relationships.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15215406",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Functional links between proteins can often be inferred from genomic associations between the genes that encode them: groups of genes that are required for the same function tend to show similar species coverage, are often located in close proximity on the genome (in prokaryotes), and tend to be involved in gene-fusion events. The database STRING is a precomputed global resource for the exploration and analysis of these associations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12519996",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Protein interaction maps for complete genomes based on gene fusion events",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10573422",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we present a method that identifies gene-fusion events in complete genomes, solely based on sequence comparison.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10573422",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Gene fusions have been suggested to be useful characters for identifying evolutionary relationships because they constitute synapomorphies or cladistic characters. To investigate the fidelity of gene-fusion characters, we developed an approach for identifying differentially distributed gene fusions among whole-genome datasets: fdfBLAST.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23236161",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Genome-scale comparative analysis of gene fusions, gene fissions",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23236161",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here we present Predictome, a database of predicted links between the proteins of 44 genomes based on the implementation of three computational methods--chromosomal proximity, phylogenetic profiling and domain fusion",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11752322",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Pairs of genes that function together in a pathway or cellular system can sometimes be found fused together in another organism as a Rosetta Stone protein--a fusion protein whose separate domains are homologous to the two functionally-related proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15130848",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Using the Rosetta Stone method and this scoring scheme, we find all significant functional linkages for proteins of E. coli, P. horikshii and S. cerevisiae, and measure the extent of the resulting protein networks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15130848",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D058977",
+    "http://www.uniprot.org/uniprot/V55_BPT7",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012984",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000465",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D050939",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005796",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003199",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011506"
+  ],
+  "exact_answer": "fdfBLAST, FusionDB, InPrePPI, Integrated method for Prediction of Protein-Protein Interactions, MosaicFinder, Phydbac2, PLEX, Predictome, Rosetta Stone method, STRING"
+}

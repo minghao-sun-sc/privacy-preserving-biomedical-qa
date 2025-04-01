@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00822",
+  "original_length": 1016,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  Esophageal foreign body, no associated comorbidities are noted.,PROCEDURE:,  Esophagoscopy with removal of foreign body.,CPT CODE: , [identifier].,PRINCIPAL DIAGNOSIS:,  Esophageal foreign body, ICD-9 ...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Esophageal foreign body, no associated comorbiditi...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

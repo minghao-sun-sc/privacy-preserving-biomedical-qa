@@ -1,0 +1,39 @@
+{
+  "id": "554763f0f35db75526000002",
+  "type": "yesno",
+  "question": "Can botulism poisoning of a pregnant woman harm her fetus?",
+  "ideal_answer": "Botulinum toxin, which causes botulism, is not expected to be present in systemic circulation following proper intramuscular or intradermal injection. Moreover, botulinum toxin has a high molecular weight, and does not appear to cross the placenta. Based on the study cases reported in the literature, botulism poisoning during pregnancy does not appear to increase the risk of adverse outcome in the fetus.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23735780",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24235190"
+  ],
+  "snippets": [
+    {
+      "text": "Two botulism outbreaks were attributed to commercial ready-to-eat meat products and 3 to foods served in restaurants; several cases were attributed to non-Native home-prepared foods. Three affected pregnant women delivered healthy infants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23735780",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Botulinum toxin is not expected to be present in systemic circulation following proper intramuscular or intradermal injection. Moreover, BTX-A, which has a high molecular weight, does not appear to cross the placenta. From the 38 pregnancies reported in the literature, including women who had botulism poisoning during pregnancy, exposure to BTX-A does not appear to increase the risk of adverse outcome in the fetus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24235190",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "From the 38 pregnancies reported in the literature, including women who had botulism poisoning during pregnancy, exposure to BTX-A does not appear to increase the risk of adverse outcome in the fetus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24235190",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:11976",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005333",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014930",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011042",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011041",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037841"
+  ],
+  "exact_answer": "Yes"
+}

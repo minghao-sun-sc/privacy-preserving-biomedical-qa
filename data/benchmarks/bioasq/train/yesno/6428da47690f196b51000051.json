@@ -1,0 +1,78 @@
+{
+  "id": "6428da47690f196b51000051",
+  "type": "yesno",
+  "question": "Can the epigenetic status of introns affect gene expression?",
+  "ideal_answer": "Yes, the epigenetic status of introns can affect gene expression. Recent studies have shown that DNA methylation in introns can regulate alternative splicing and affect the level of gene expression. Additionally, histone modifications in introns can also affect chromatin structure and gene expression.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25765649",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33506534",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28808009",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22580822",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33438356",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29330282"
+  ],
+  "snippets": [
+    {
+      "text": "Here, we show that the expression of the H3K9 demethylase IBM1 (increase in BONSAI methylation 1) requires DNA methylation. Surprisingly, the regulatory methylated region is contained in an unusually large intron that is conserved in IBM1 orthologues.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22580822",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA methylation in an intron of the IBM1 histone demethylase gene stabilizes chromatin modification patterns.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22580822",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Polyadenylation (poly(A) sequencing reveals that AAE complex has a substantial influence on poly(A) site usage of heterochromatin-containing genes, including not only intronic heterochromatin-containing genes but also the genes showing overlap with heterochromatin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33438356",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Heterochromatin is widespread in eukaryotic genomes and has diverse impacts depending on its genomic context.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33438356",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Combining methylation data with mRNA sequencing revealed that DNA methylation in promoters, introns and exons may have different roles in regulating gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33506534",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In several eukaryotic organisms, heterochromatin (HC) in the introns of genes can regulate RNA processing, including polyadenylation, but the mechanism underlying this regulation is poorly understood.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28808009",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we report that ASI1 and EDM2 form a protein complex in vivo via a bridge protein, ASI1-Immunoprecipitated Protein 1 (AIPP1), which is another RNA recognition motif-containing protein. The complex also may contain the Pol II CTD phosphatase CPL2, the plant homeodomain-containing protein AIPP2, and another BAH domain protein, AIPP3. As is the case with dysfunction of ASI1 and EDM2, dysfunction of AIPP1 impedes the use of distal polyadenylation sites at tested intronic HC-containing genes, such as the histone demethylase gene IBM1, resulting in a lack of functional full-length transcripts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28808009",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Interestingly, hypomethylation of introns is correlated with higher levels of intron expression in mRNA and the methylation level of an intron is inversely correlated with its retention in mRNA from the gene in which it is located.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29330282",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Regulation of gene expression by DNA methylation in gene promoter regions is well studied; however, the effects of methylation in the gene body (exons and introns) on gene expression are comparatively understudied.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29330282",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Consistent with previous work we found that intragenic methylation is positively correlated with gene expression and that exons are more highly methylated than their neighboring intronic environment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25765649",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

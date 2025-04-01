@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04113",
+  "original_length": 3919,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": ", he was profoundly weak and found to have hemoglobin less than 4 and required three units of packed red blood cells.  He reports no other history of transfusions.  He has history of spontaneous pn...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, PERSON"
+      ],
+      "pii_detected": [
+        "URL",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

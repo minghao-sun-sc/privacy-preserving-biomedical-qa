@@ -1,0 +1,24 @@
+{
+  "document_id": "record_04594",
+  "original_length": 2468,
+  "synthetic_length": 584,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "Patient presents with a chief complaint of chest pain admitted to [person] Unit due to acute inferior myocardial infarction. [person] [person]",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "HCTZ 50 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 0,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

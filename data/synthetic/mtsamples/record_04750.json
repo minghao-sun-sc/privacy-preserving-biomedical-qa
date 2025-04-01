@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04750",
+  "original_length": 896,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Lymph nodes within the left inguinal region measure up to 1 cm in short-axis, otherwise no evidence for left lower extremity venous thrombosis.",
+    "Symptoms": "",
+    "Treatment": "Left lower extremity venous Doppler ultrasound [person] [person]",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Lymph nodes within the left inguinal region measur...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

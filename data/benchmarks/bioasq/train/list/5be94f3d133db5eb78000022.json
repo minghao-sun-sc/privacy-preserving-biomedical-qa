@@ -1,0 +1,45 @@
+{
+  "id": "5be94f3d133db5eb78000022",
+  "type": "list",
+  "question": "List 3 diseases for which saRNAs have been evaluated as a potential treatment.",
+  "ideal_answer": "saRNAs have been tested for the treatment of breast, bladder, liver cancer and more.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24489730",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28639200",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22872227"
+  ],
+  "snippets": [
+    {
+      "text": "Small activating RNA restores the activity of the tumor suppressor HIC-1 on breast cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24489730",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Upon saRNA treatment, genes upregulated included those involved in immune activation, cell cycle interference, the induction of apoptosis, anti-metastasis, and cell differentiation. Downregulated genes included oncogenes and those that play roles in cell invasion, cell growth, and cell division.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24489730",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present a novel method for treating bladder cancer with intravesically delivered small activating RNA (saRNA) in an orthotopic xenograft mouse bladder tumor model. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22872227",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Treatment of Liver Cancer by C/EBPA saRNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28639200",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In preclinical models of liver disease, treatment with C/EBP\u03b1 saRNA has shown reduction in tumor volume and improvement in serum markers of essential liver function such as albumin, bilirubin, aspartate aminotransferase (AST), and alanine transaminase (ALT). This saRNA that activates C/EBP\u03b1 for advanced HCC is the first saRNA therapy to have entered a human clinical trial.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28639200",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Breast cancer, Bladder cancer, Liver cancer"
+}

@@ -1,0 +1,37 @@
+{
+  "document_id": "record_02643",
+  "original_length": 2886,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "/PLAN:\n- Complete physical, Pap, and breast exam completed.\n- School physical form completed and returned to the patient.\n- Hepatitis B second injection will be given today.\n- Contraceptive surveil...",
+    "Symptoms": "",
+    "Treatment": "\n- Complete physical, Pap, and breast exam completed.\n- School physical form completed and returned to the patient.\n- Hepatitis B second injection will be given today.\n- Contraceptive surveillance....",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Allegra 180 mg, trazodone 50 mg, Allegra 180 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Complete physical, Pap, and breast exam completed...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

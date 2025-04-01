@@ -1,0 +1,41 @@
+{
+  "id": "58853922e56acf5176000016",
+  "type": "factoid",
+  "question": "To which disease does the loss of CD28 expression by liver-infiltrating T cells contribute?",
+  "ideal_answer": "Loss of CD28 expression by liver-infiltrating T cells contributes to pathogenesis of primary sclerosing cholangitis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24726754"
+  ],
+  "snippets": [
+    {
+      "text": "Loss of CD28 expression by liver-infiltrating T cells contributes to pathogenesis of primary sclerosing cholangitis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24726754",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Loss of CD28 expression by liver-infiltrating T cells contributes to pathogenesis of primary sclerosing cholangitis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24726754",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Loss of CD28 expression by liver-infiltrating T cells contributes to pathogenesis of primary sclerosing cholangitis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24726754",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/CD28_RABIT",
+    "http://www.uniprot.org/uniprot/CD28_RAT",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008107",
+    "http://www.uniprot.org/uniprot/CD28_HUMAN",
+    "http://www.uniprot.org/uniprot/CD28_CHICK",
+    "http://www.uniprot.org/uniprot/CD28_FELCA",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D058625",
+    "http://www.uniprot.org/uniprot/CD28_BOVIN",
+    "http://www.uniprot.org/uniprot/CD28_MOUSE"
+  ],
+  "exact_answer": "Primary sclerosing cholangitis"
+}

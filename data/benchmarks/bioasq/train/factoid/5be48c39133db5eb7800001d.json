@@ -1,0 +1,19 @@
+{
+  "id": "5be48c39133db5eb7800001d",
+  "type": "factoid",
+  "question": "What does the pembrolizumab companion diagnostic test assess?",
+  "ideal_answer": "Administration of pembrolizumab requires a companion diagnostic test, to assess PD-L1 status of patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28293123"
+  ],
+  "snippets": [
+    {
+      "text": "The initial approval and subsequent studies of pembrolizumab required and utilized a companion diagnostic test, Dako's IHC 22C3, to assess PD-L1 status of patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28293123",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "PD-L1 status"
+}

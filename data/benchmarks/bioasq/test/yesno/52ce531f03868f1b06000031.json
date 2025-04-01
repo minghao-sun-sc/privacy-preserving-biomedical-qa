@@ -1,0 +1,69 @@
+{
+  "id": "52ce531f03868f1b06000031",
+  "type": "yesno",
+  "question": "Are retroviruses used for gene therapy?",
+  "ideal_answer": "Gene therapy is one of the most promising and active fields in therapeutic research. Gene therapy is a treatment option that introduces genetic material in vivo or ex vivo into the cells of an affected organism in order to: exchange a defective gene; manipulate a disease-related gene; or introduce an additional gene copy for overexpression of the encoded protein to generate a curative biological effect. Somatic gene therapy is gene transfer by a specific vector to a somatic cell; in contrast to germline gene therapy, the modification of the cell is restricted to the recipient and cannot be passed to her/his progeny. High efficiency of gene transfer, high specificity for the target cells, long-lasting expression of the transgene and safety without adverse reactions are the desired characteristics of an ideal vector for gene transfer.\nRetroviral (gretroviral and lentiviral) vectors have now been used in more than 350 gene-therapy studies. Retroviral vectors are particularly suited for gene-correction of cells due to long-term and stable expression of the transferred transgene(s), and also because little effort is required for their cloning and production. Several monogenic inherited diseases, mostly immunodeficiencies, can now be successfully treated.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23921576",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23843498",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23884859",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23860311",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19435468",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21943326",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24120896",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23845947",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23845948",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23845071",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12686720",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16251873",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15912200"
+  ],
+  "snippets": [
+    {
+      "text": "Several immunodeficiencies have been treated successfully by stem cell-targeted, retroviral-mediated gene transfer with reconstitution of the immune system following infusion of the transduced cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23843498",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this work we have developed and tested a self-inactivating (SIN) gammaretroviral vector (SINfes.gp91s) containing a codon-optimized transgene (gp91(phox)) under the transcriptional control of a myeloid promoter for the gene therapy of the X-linked form of CGD (X-CGD).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23845071",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " We used a lentiviral vector encoding functional WASP to genetically correct HSPCs from three WAS patients and reinfused the cells after a reduced-intensity conditioning regimen",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23845947",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We used a lentiviral vector to transfer a functional ARSA gene into hematopoietic stem cells (HSCs) from three presymptomatic patients who showed genetic, biochemical, and neurophysiological evidence of late infantile MLD. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23845948",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We assessed lentiviral vectors (LVs) targeted to the EC surface marker CD105 for in vivo gene delivery.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23884859",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "gef and apoptin genes were cloned into a doxycycline-regulated retrovirus-mediated gene expression system.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23921576",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005796",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012191",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012190",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016458",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015316",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010467",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012192"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "52f7c4bd2059c6d71c00002d",
+  "type": "yesno",
+  "question": "Are thyroid hormone receptor alpha1 mutations implicated in thyroid hormone resistance syndrome?",
+  "ideal_answer": "The lack of TR alpha1 exacerbates the manifestation of RTH in TR betaPV mice. Therefore, TR alpha1 could play a compensatory role in mediating the functions of T3 in heterozygous patients with RTH",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23633213",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17906375",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7913092",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9092799",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17040361",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7711514",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8068885",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12750454",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9685218",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15988389",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9350446",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8954015",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8115332",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8594618",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8384535",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15860414",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8475937",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12356724",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15913586"
+  ],
+  "snippets": [
+    {
+      "text": "This study reports the consequences of LT4 treatment over a prolonged period of time in 2 of the first patients with a heterozygous mutation in TR\u03b11.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23633213",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we show that the dysregulation of the pituitary-thyroid axis was worsened by the lack of TR alpha1 in TR betaPV mice, and severe impairment of postnatal growth was manifested in TR betaPV mice deficient in TR alpha1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12750454",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Heterozygous 2- to 3-week- old mice exhibit a severe retardation of post-natal development and growth, but only a minor reduction in serum thyroxine levels. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12356724",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The data demonstrate a novel array of effects mediated by a dominant negative TRalpha1, and may provide important clues for identification of a potentially unrecognized human disorder and its treatment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12356724",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "No mutations in DNA- and hormone-binding-domains of TRbeta1 and TRalpha1 genes were found in proband, suggesting that the defect could be due to an unknown mutation in either the TR gene or a post receptor abnormality",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17906375",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results demonstrate that the lack of TR alpha1 exacerbates the manifestation of RTH in TR betaPV mice. Therefore, TR alpha1 could play a compensatory role in mediating the functions of T3 in heterozygous patients with RTH. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12750454",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018382",
+    "http://www.uniprot.org/uniprot/THAA_PAROL",
+    "http://www.disease-ontology.org/api/metadata/DOID:11633",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D037021",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011988"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "58af14ae717cd3f655000001",
+  "type": "summary",
+  "question": "How does Ssu72 mediate gene looping?",
+  "ideal_answer": "Investigation of chromosome folding in mutants confirms roles for RSC, \"gene looping\" factor Ssu72, Mediator, H3K56 acetyltransferase Rtt109, and the N-terminal tail of H4 in folding of the yeast genome. The essential N terminus of the Pta1 scaffold protein is required for snoRNA transcription termination and Ssu72 function but is dispensable for pre-mRNA 3'-end processing. TFIIB crosslinks to both the promoter and terminator regions of the PMA1 and BLM10 genes, and its association with the terminator, but not the promoter, is adversely affected by E62K and by depletion of the Ssu72 component of the CPF 3' end processing complex, and is independent of TBP. We propose a model for RNAP II transcription in which promoter and terminator regions are juxtaposed, and that the resulting gene loops facilitate transcription reinitiation by the same molecule of RNAP II in a manner dependent upon Ssu72-mediated CTD dephosphorylation. The first 300 amino acids of Pta1 are sufficient for interactions with Ssu72, which is needed for pre-mRNA cleavage. ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24945319",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19188448",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17803944",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16319194",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26119342",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12704082"
+  ],
+  "snippets": [
+    {
+      "text": "Investigation of chromosome folding in mutants confirms roles for RSC, \"gene looping\" factor Ssu72, Mediator, H3K56 acetyltransferase Rtt109, and the N-terminal tail of H4 in folding of the yeast genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26119342",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, different regions of Pta1 interact with the CPF subunits Ssu72, Pti1, and Ysh1, supporting the idea that Pta1 acts as a scaffold to organize CPF.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19188448",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The essential N terminus of the Pta1 scaffold protein is required for snoRNA transcription termination and Ssu72 function but is dispensable for pre-mRNA 3'-end processing",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19188448",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The first 300 amino acids of Pta1 are sufficient for interactions with Ssu72, which is needed for pre-mRNA cleavage. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19188448",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These findings suggest that the amino terminus of Pta1 has an inhibitory effect and that this effect can be neutralized through the interaction with Ssu72.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19188448",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TFIIB crosslinks to both the promoter and terminator regions of the PMA1 and BLM10 genes, and its association with the terminator, but not the promoter, is adversely affected by E62K and by depletion of the Ssu72 component of the CPF 3' end processing complex, and is independent of TBP.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17803944",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " These interactions are transcription-dependent, require the Ssu72 and Pta1 components of the CPF 3'-end processing complex, and require the phosphatase activity of Ssu72.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16319194",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We propose a model for RNAP II transcription in which promoter and terminator regions are juxtaposed, and that the resulting gene loops facilitate transcription reinitiation by the same molecule of RNAP II in a manner dependent upon Ssu72-mediated CTD dephosphorylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16319194",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The essential N terminus of the Pta1 scaffold protein is required for snoRNA transcription termination and Ssu72 function but is dispensable for pre-mRNA 3'-end processing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19188448",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The pta1-Delta75 mutant is defective for snoRNA termination, RNA polymerase II C-terminal domain Ser5-P dephosphorylation, and gene looping but is fully functional for mRNA 3'-end processing. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19188448",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We conclude that Swd2.2 opposes condensin-mediated chromosome condensation by facilitating the function of the two CPF-associated phosphatases PP1 and Ssu72.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24945319",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Based on the interactions of Ssu72 and Sub1 with both the Pta1 of CPF and the TFIIB component of the initiation complex, we present a model describing how these novel connections between the transcription and 3' end processing machineries might facilitate transitions in the RNAP II transcription cycle.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12704082",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "By the degron-mediated depletion of Pta1, we show that the removal of this essential region leads to a loss of Ssu72, yet surprisingly, in vitro cleavage and polyadenylation remain efficient.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19188448",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The pta1-Delta75 mutant is defective for snoRNA termination, RNA polymerase II C-terminal domain Ser5-P dephosphorylation, and gene looping but is fully functional for mRNA 3'-end processing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19188448",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

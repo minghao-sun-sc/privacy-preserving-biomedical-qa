@@ -1,0 +1,40 @@
+{
+  "id": "56a8b8b5a17756b72f000005",
+  "type": "factoid",
+  "question": "What is the outcome of TAF10 interacting with the GATA1 transcription factor?",
+  "ideal_answer": "TAF10 Interacts with the GATA1 Transcription Factor and Controls Mouse Erythropoiesis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25870109"
+  ],
+  "snippets": [
+    {
+      "text": "TAF10 Interacts with the GATA1 Transcription Factor and Controls Mouse Erythropoiesis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25870109",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "we show that TAF10 interacts directly with GATA1 and that TAF10 is enriched on the GATA1 locus in human fetal erythroid cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25870109",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TAF10 Interacts with the GATA1 Transcription Factor and Controls Mouse Erythropoiesis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25870109",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/GATA1_HUMAN",
+    "http://www.uniprot.org/uniprot/TAF10_HUMAN",
+    "http://www.uniprot.org/uniprot/GAT1A_XENLA",
+    "http://www.uniprot.org/uniprot/GATA1_ARATH",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D050982",
+    "http://www.uniprot.org/uniprot/TAF10_ARATH",
+    "http://www.uniprot.org/uniprot/TAF10_YEAST",
+    "http://www.uniprot.org/uniprot/GATA1_CHICK"
+  ],
+  "exact_answer": "Control of Mouse Erythropoiesis"
+}

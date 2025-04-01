@@ -1,0 +1,25 @@
+{
+  "id": "5c51f9dd07ef653866000005",
+  "type": "factoid",
+  "question": "Which random forest method has been developed for detecting Copy Numbers Variants (CNVs)?",
+  "ideal_answer": "CNV-RF Is a Random Forest-Based Copy Number Variation Detection Method Using Next-Generation Sequencing.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27597741"
+  ],
+  "snippets": [
+    {
+      "text": "CNV-RF Is a Random Forest-Based Copy Number Variation Detection Method Using Next-Generation Sequencing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27597741",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We describe the development and implementation of a bioinformatics algorithm, copy number variation-random forest (CNV-RF), that incorporates a machine learning component to identify CNVs from targeted NGS data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27597741",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "CNV-RF"
+}

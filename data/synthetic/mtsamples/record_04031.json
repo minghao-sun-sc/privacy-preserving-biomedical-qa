@@ -1,0 +1,37 @@
+{
+  "document_id": "record_04031",
+  "original_length": 4964,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": ",*  Most cases of acne respond well to treatment and will likely disappear once adolescence is over.  Even with adequate treatment, acne will tend to flare up from time to time and sometimes perman...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, PERSON, US_DRIVER_LICENSE"
+      ],
+      "pii_detected": [
+        "URL",
+        "PERSON",
+        "US_DRIVER_LICENSE"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

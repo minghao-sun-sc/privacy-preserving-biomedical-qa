@@ -1,0 +1,33 @@
+{
+  "document_id": "record_03710",
+  "original_length": 4736,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "S PERFORMED:\n- Functional endoscopic sinus surgery.\n- Excision of nasopharyngeal mass via endoscopic technique.\n- Excision of right upper lid skin lesion 1 cm in diameter with adjacent tissue trans...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Keflex 500 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Excision of nasopharyngeal mass via endoscopic tec...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "62211c853a8413c65300006d",
+  "type": "yesno",
+  "question": "Is CircRNA produced by back splicing of exon, intron or both, forming exon or intron circRNA?",
+  "ideal_answer": "Human transcriptome contains a large number of circular RNAs (circRNAs) that are mainly produced by back splicing of pre-mRNA.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27365365",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28265491",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33614648",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31931031",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33662561",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32751504",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34160816",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34313732",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34179306",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33649838",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29116363",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29322444"
+  ],
+  "snippets": [
+    {
+      "text": "CircRNAs are a subclass of lncRNAs that have been found to be abundantly present in a wide range of species, including humans. CircRNAs are generally produced by a noncanonical splicing event called backsplicing that is dependent on the canonical splicing machinery, giving rise to circRNAs classified into three main categories: exonic circRNA, circular intronic RNA, and exon-intron circular RNA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34160816",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Circular RNA (circRNA) is a large class of covalently closed circRNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34313732",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Human transcriptome contains a large number of circular RNAs (circRNAs) that are mainly produced by back splicing of pre-mRNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29322444",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Analyses of the other reads revealed two origins for non-canonical circRNAs: (1) Intronic sequences for lariat-derived intronic circRNAs and intron circles, (2) Mono-exonic genes (mostly non-coding) for either a new type of circRNA (including only part of the exon: sub-exonic circRNAs) or, even more rarely, mono-exonic canonical circRNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32751504",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our objective was to characterize non-canonical circRNAs, namely not originating from back splicing and circRNA produced by non-coding genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32751504",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent studies have identified a new class of ncRNAs called circular RNAs (circRNAs), which are produced by back-splicing and fusion of either exons, introns, or both exon-intron into covalently closed loops.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31931031",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CircRNA is produced by the reverse splicing of exon, intron or both, forming exon or intron circRNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34313732",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Circular RNAs (circRNAs) belong to a recently re-discovered species of RNA that emerge during RNA maturation through a process called back-splicing. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28265491",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Exonic circular RNAs (circRNAs) are RNA molecules that are covalently closed by back-splicing via canonical splicing machinery. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33662561",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Human transcriptome contains a large number of circular RNAs (circRNAs) that are mainly produced by back splicing of pre-mRNA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29322444",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Circular RNAs (circRNAs) are a class of non\u2011coding RNAs formed by covalently closed loops through back\u2011splicing and exon\u2011skipping. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33649838",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we review the emerging understanding that both, circRNAs produced by co- and posttranscriptional head-to-tail \"backsplicing\" of a downstream splice donor to a more upstream splice acceptor, as well as circRNAs generated from intronic lariats during colinear splicing, may exhibit physiologically relevant regulatory functions in eukaryotes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29116363",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Compared to the linear RNA, circRNAs are produced differentially by backsplicing exons or lariat introns from a pre-messenger RNA (mRNA) forming a covalently closed loop structure missing 3' poly-(A) tail or 5' cap, rendering them immune to exonuclease-mediated degradation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33614648",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CircRNAs are a large class of endogenous single-stranded RNA that is different from other linear RNA, which are produced by back-splicing and fusion of either exons, introns, or both exon-intron into covalently closed loops.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34179306",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Circular RNAs (circRNAs) derived from back-spliced exons have been widely identified as being co-expressed with their linear counterparts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27365365",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

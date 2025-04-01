@@ -1,0 +1,53 @@
+{
+  "id": "5e46f9683f54159529000010",
+  "type": "list",
+  "question": "List side effects of radiation therapy?",
+  "ideal_answer": "radiation-induced tumors\nradiation necrosis\nmicroangiopathy\nprogressive leukencephalopathy\npneumonitis\ndisturbance of the blood-brain barrier\nradionecrosis of brain tissue\nradiogenic liver damage\nmucositis\ncolitis\nosteitis\nosteoradionecrosis\nmyositis\nRadiation-induced fibrosis\nAcute skin reactions",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29953370",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26390925",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29983028",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29947933",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25141962"
+  ],
+  "snippets": [
+    {
+      "text": "The known serious side effects of radiation therapy on the head or central nervous system are uncommon and include radiation necrosis, microangiopathy, and progressive leukencephalopathy. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29953370",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "radiation-induced tumors, a majority of which are meningiomas, followed by radiation-induced gliomas (RIGs) and sarcomas.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29953370",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Frequent radiation-induced tissue alterations found by imaging are pneumonitis, disturbance of the blood-brain barrier, radionecrosis of brain tissue, radiogenic liver damage, mucositis, colitis, osteitis, osteoradionecrosis and myositis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29947933",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Radiation-induced second malignancies (RISM) is one of the important late side effects of radiation therapy and has an impact on optimal treatment decision-making. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29983028",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Radiation-induced fibrosis (RIF) is one of the severe long-term side effects of radiation therapy (RT)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26390925",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Acute skin reactions are one of the most common side effects of radiation therapy,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25141962",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Acute skin reactions, Radiation-induced fibrosis, myositis, osteoradionecrosis, osteitis, colitis, mucositis, radiogenic liver damage, radionecrosis of brain tissue, disturbance of the blood-brain barrier, pneumonitis, progressive leukencephalopathy, radiation-induced tumors, radiation necrosis, microangiopathy"
+}

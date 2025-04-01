@@ -1,0 +1,54 @@
+{
+  "id": "5ac09a7b19833b0d7b000001",
+  "type": "factoid",
+  "question": "Where is the EpCam protein mainly located?",
+  "ideal_answer": "Epithelial cell adhesion molecule (EpCAM) is a type I transmembrane glycoprotein",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23486470",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25477371",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26268754",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28327103",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26493939",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25960617"
+  ],
+  "snippets": [
+    {
+      "text": "The following cell-surface markers were immunohistochemically analyzed: E-cadherin, epithelial membrane antigen (EMA), human epidermal growth receptor type 2 (Her2/neu), carcinoembryonic antigen (CEA), \u03b1v\u03b26 integrin and epithelial cell adhesion molecule (EpCAM).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28327103",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tumor cells display increased EpCAM expression that often correlates with the loss of strict basolateral localization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26493939",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Papillary thyroid carcinoma shows loss of EpCAM membranous expression and increased cytoplasmic/nuclear accumulation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26268754",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Epithelial cell adhesion molecule (EpCAM) (CD326) is a surface glycoprotein expressed by invasive carcinomas and some epithelia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23486470",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Epithelial cell adhesion molecule (EpCAM) is a transmembrane glycoprotein, which is frequently and highly expressed on carcinomas, tumor-initiating cells, selected tissue progenitors, and embryonic and adult stem cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25477371",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Epithelial cell adhesion molecule (EpCAM) is a type I transmembrane glycoprotein overexpressed in human epithelioma but with relatively low expression in normal epithelial tissues. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25960617",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "transmembrane expression"
+}

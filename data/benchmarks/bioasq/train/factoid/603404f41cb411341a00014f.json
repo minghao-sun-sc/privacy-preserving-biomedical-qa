@@ -1,0 +1,26 @@
+{
+  "id": "603404f41cb411341a00014f",
+  "type": "factoid",
+  "question": "When is DELE1 exiting the mitochondrion?",
+  "ideal_answer": "Mitochondrial stress stimulates OMA1-dependent cleavage of DELE1 and leads to the accumulation of DELE1 in the cytosol.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32132707",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32132706"
+  ],
+  "snippets": [
+    {
+      "text": " stress-induced activation of OMA1 causes DELE1 to be cleaved into a short form that accumulates in the cytosol, where it binds to and activates HRI via its C-terminal portion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32132706",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mitochondrial stress stimulates OMA1-dependent cleavage of DELE1 and leads to the accumulation of DELE1 in the cytosol, where it interacts with HRI and activates the eIF2\u03b1 kinase activity of HRI.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32132707",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Upon stress"
+}

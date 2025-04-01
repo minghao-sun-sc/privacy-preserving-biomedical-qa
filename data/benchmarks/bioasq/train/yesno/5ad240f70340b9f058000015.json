@@ -1,0 +1,32 @@
+{
+  "id": "5ad240f70340b9f058000015",
+  "type": "yesno",
+  "question": "Is human lysyl oxidase-like 2 a glycoprotein?",
+  "ideal_answer": "Yes, human lysyl oxidase-like 2 is a glycoprotein.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21954900",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23319596"
+  ],
+  "snippets": [
+    {
+      "text": "This method was successfully applied to a novel recombinant protein, human lysyl oxidase-like 2. Furthermore, the glycosylation PTMs were readily detected at two glycosylation sites in the protein. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21954900",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "application to the characterization of human lysyl oxidase-like 2 glycosylation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21954900",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "These results suggest that the N-glycan at Asn-644 of hLOXL2 enhances the solubility and stability of the LOX catalytic domain.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23319596",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

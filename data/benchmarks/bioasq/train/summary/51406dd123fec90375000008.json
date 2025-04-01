@@ -1,0 +1,36 @@
+{
+  "id": "51406dd123fec90375000008",
+  "type": "summary",
+  "question": "What is the treatment of subacute thyroiditis?",
+  "ideal_answer": "Common treatment of  subacute thyroiditis is with anti-inflammatory drug agents, namely corticosteroids",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17923793",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23227861",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22313427",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22138076"
+  ],
+  "snippets": [
+    {
+      "text": "Oral glucocorticoids are administered in moderate and severe cases of subacute thyroiditis (SAT)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23227861",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "he treatment protocol that we employed had 15 mg/day of PSL as the initial dosage for the treatment of SAT, with tapering by 5 mg every 2 weeks",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23227861",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:7187",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004364",
+    "http://www.disease-ontology.org/api/metadata/DOID:7166",
+    "http://www.disease-ontology.org/api/metadata/DOID:7165",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013959",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0042493",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013968",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013956"
+  ]
+}

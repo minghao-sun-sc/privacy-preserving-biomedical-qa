@@ -1,0 +1,87 @@
+{
+  "id": "5c73ad327c78d69471000097",
+  "type": "yesno",
+  "question": "Does tremelimumab improve survival of mesothelioma patients?",
+  "ideal_answer": "No. Tremelimumab did not significantly prolong overall survival compared with placebo in patients with previously treated malignant mesothelioma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28231719",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28729154",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29773326"
+  ],
+  "snippets": [
+    {
+      "text": "BACKGROUND: Tremelimumab, an anti-CTLA4 monoclonal antibody, initially showed good activity when used alone in patients with mesothelioma, but did not improve the overall survival of patients who failed on first-line or second-line chemotherapy compared with placebo in the DETERMINE study. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29773326",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "INTERPRETATION: The combination of tremelimumab and durvalumab appeared active, with a good safety profile in patients with mesothelioma, warranting further exploration.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29773326",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Biological and clinical considerations rule out the use of tremelimumab as single agent for MM and, more generally, the use of immune checkpoint inhibitors for MM is still largely questionable and not supported by evidences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28231719",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "At the data cutoff date (Jan 24, 2016), 307 (80%) of 382 patients had died in the tremelimumab group and 154 (81%) of 189 patients had died in the placebo group. Median overall survival in the intention-to-treat population did not differ between the treatment groups: 7\u00b77 months (95% CI 6\u00b78-8\u00b79) in the tremelimumab group and 7\u00b73 months (5\u00b79-8\u00b77) in the placebo group (hazard ratio 0\u00b792 [95% CI 0\u00b776-1\u00b712], p=0\u00b741). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28729154",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "INTERPRETATION: Tremelimumab did not significantly prolong overall survival compared with placebo in patients with previously treated malignant mesothelioma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28729154",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND\nTremelimumab, an anti-CTLA4 monoclonal antibody, initially showed good activity when used alone in patients with mesothelioma, but did not improve the overall survival of patients who failed on first-line or second-line chemotherapy compared with placebo in the DETERMINE study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29773326",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "INTERPRETATION\nTremelimumab did not significantly prolong overall survival compared with placebo in patients with previously treated malignant mesothelioma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28729154",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Median overall survival in the intention-to-treat population did not differ between the treatment groups: 7\u00b77 months (95% CI 6\u00b78-8\u00b79) in the tremelimumab group and 7\u00b73 months (5\u00b79-8\u00b77) in the placebo group (hazard ratio 0\u00b792 [95% CI 0\u00b776-1\u00b712], p=0\u00b741).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28729154",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND Tremelimumab, an anti-CTLA4 monoclonal antibody, initially showed good activity when used alone in patients with mesothelioma, but did not improve the overall survival of patients who failed on first-line or second-line chemotherapy compared with placebo in the DETERMINE study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29773326",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "INTERPRETATION Tremelimumab did not significantly prolong overall survival compared with placebo in patients with previously treated malignant mesothelioma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28729154",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Median overall survival in the intention-to-treat population did not differ between the treatment groups: 7\u00b77 months (95% CI 6\u00b78-8\u00b79) in the tremelimumab group and 7\u00b73 months (5\u00b79-8\u00b77) in the placebo group (hazard ratio 0\u00b792 [95% CI 0\u00b776-1\u00b712], p=0\u00b741). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28729154",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "<b>BACKGROUND</b>: Tremelimumab, an anti-CTLA4 monoclonal antibody, initially showed good activity when used alone in patients with mesothelioma, but did not improve the overall survival of patients who failed on first-line or second-line chemotherapy compared with placebo in the DETERMINE study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29773326",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

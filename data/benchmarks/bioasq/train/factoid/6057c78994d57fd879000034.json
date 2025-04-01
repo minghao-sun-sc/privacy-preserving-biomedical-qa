@@ -1,0 +1,25 @@
+{
+  "id": "6057c78994d57fd879000034",
+  "type": "factoid",
+  "question": "Which protein is involved in the organization and regulation of pluripotency-associated three-dimensional enhancer networks?",
+  "ideal_answer": "KLF4 is involved in the organization and regulation of pluripotency-associated three-dimensional enhancer networks.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31548608"
+  ],
+  "snippets": [
+    {
+      "text": "KLF4 is involved in the organization and regulation of pluripotency-associated three-dimensional enhancer networks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31548608",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Cell fate transitions are accompanied by global transcriptional, epigenetic and topological changes driven by transcription factors, as is exemplified by reprogramming somatic cells to pluripotent stem cells through the expression of OCT4, KLF4, SOX2 and cMYC. How transcription factors orchestrate the complex molecular changes around their target gene loci remains incompletely understood. Here, using KLF4 as a paradigm, we provide a transcription-factor-centric view of chromatin reorganization and its association with three-dimensional enhancer rewiring and transcriptional changes during the reprogramming of mouse embryonic fibroblasts to pluripotent stem cells. Inducible depletion of KLF factors in PSCs caused a genome-wide decrease in enhancer connectivity, whereas disruption of individual KLF4 binding sites within pluripotent-stem-cell-specific enhancers was sufficient to impair enhancer-promoter contacts and reduce the expression of associated genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31548608",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "KLF4"
+}

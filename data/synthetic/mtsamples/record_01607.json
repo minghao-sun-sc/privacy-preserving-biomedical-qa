@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01607",
+  "original_length": 2848,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "tars were flexor, bilaterally.,[person]: unremarkable.,COURSE:, MRI Brain, 10/7/92, revealed: a large 6x5x6cm slightly heterogeneous, mostly isointense lesion on both T1 and T2 weighted images aris...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, US_DRIVER_LICENSE"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "US_DRIVER_LICENSE"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

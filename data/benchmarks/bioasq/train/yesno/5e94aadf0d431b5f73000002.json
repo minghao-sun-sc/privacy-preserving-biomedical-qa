@@ -1,0 +1,40 @@
+{
+  "id": "5e94aadf0d431b5f73000002",
+  "type": "yesno",
+  "question": "Is Bcl-2-like protein 1 an pro apoptotic protein?",
+  "ideal_answer": "No,\nit is an anti-apoptotic protein.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28521469",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26045046",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29846950",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24837143"
+  ],
+  "snippets": [
+    {
+      "text": "Extensively established key effectors of such apoptotic bypass mechanisms, the antiapoptotic BCL-2 (apoptosis regulator BCL-2) proteins, determine the response of cancer cells to chemotherapeutics",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29846950",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "decreasing the expression of anti-apoptotic factors, including apoptosis regulator Bcl-2 and Bcl-2-like protein 1 in FaDu cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28521469",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Like many cancers, TNBC cells often deregulate programmed cell death by upregulating anti-apoptotic proteins of the B-cell CLL/lymphoma 2 (Bcl-2) family.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26045046",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " anti-apoptotic Bcl-2-like protein 1 (BCL2L1, Bcl-xL) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24837143",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,53 @@
+{
+  "document_id": "record_04530",
+  "original_length": 3390,
+  "synthetic_length": 604,
+  "attributes": {
+    "Diagnosis": "\n- Syncopal spells - These do sound, in fact, to be syncopal.  I suspect it is simple orthostasis/vasovagal, as her EKG and echocardiogram looks good.  I have asked her to drink plenty of fluids an...",
+    "Symptoms": "",
+    "Treatment": "S:\n- Reassurance that her cardiac checkup looks excellent, which it does.\n- Drink plenty of fluids and arise slowly from bed.\n- Flexeril 10 mg q 6 p.r.n.\n- I have asked her to return should the syn...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Flexeril 10 mg"
+  },
+  "is_safe": false,
+  "iterations_required": 3,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, PHONE_NUMBER, URL"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "PHONE_NUMBER",
+        "URL"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 2,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    }
+  ]
+}

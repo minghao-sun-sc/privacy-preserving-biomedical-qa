@@ -1,0 +1,37 @@
+{
+  "document_id": "record_02817",
+  "original_length": 2867,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Steroid myopathy. Though there was enough of a suspicion of \"drop\" metastasis that an MRI of the L-spine was obtained.,COURSE:, The MRI L-spine revealed fine linear enhancement along the dorsal a...",
+    "Symptoms": "",
+    "Treatment": "tation and 6020cGy radiation therapy in 35 fractions. In 11/91 she received BCNU and Procarbazine chemotherapy protocols. This was followed by four courses of 5FU/Carboplatin (3/92, 6/92, 9/92 ,10/...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Decadron 12mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, IN_PAN",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'In 11/91 she received BCNU and Procarbazine chemot...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "IN_PAN"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

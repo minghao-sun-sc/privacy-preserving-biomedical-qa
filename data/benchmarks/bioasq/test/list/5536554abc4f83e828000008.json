@@ -1,0 +1,31 @@
+{
+  "id": "5536554abc4f83e828000008",
+  "type": "list",
+  "question": "Between which probes does the recurrent translocation breakpoint on chromosome 22 of neuroepithelioma lie?",
+  "ideal_answer": "The recurrent translocation breakpoint on chromosome 22 of neuroepithelioma has been localized between two probes, D22S1 and D22S15, by both in situ hybridization and somatic cell hybrids",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/2303258"
+  ],
+  "snippets": [
+    {
+      "text": "The recurrent translocation breakpoint on chromosome 22 of neuroepithelioma has been localized between two probes, D22S1 and D22S15, by both in situ hybridization and somatic cell hybrids",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2303258",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The recurrent translocation breakpoint on chromosome 22 of neuroepithelioma has been localized between two probes, D22S1 and D22S15, by both in situ hybridization and somatic cell hybrids.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2303258",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015342",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014178",
+    "http://www.disease-ontology.org/api/metadata/DOID:4388",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056905",
+    "http://www.disease-ontology.org/api/metadata/DOID:4389"
+  ],
+  "exact_answer": "D22S1, D22S15"
+}

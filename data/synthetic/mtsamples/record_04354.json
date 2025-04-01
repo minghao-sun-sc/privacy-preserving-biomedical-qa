@@ -1,0 +1,37 @@
+{
+  "document_id": "record_04354",
+  "original_length": 5398,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Crohn's disease, status post terminal ileum resection, on Imuran.  Intermittent symptoms of bowel obstruction.  Last episode three weeks ago.\n- History of non-specific hepatitis while taking hig...",
+    "Symptoms": "",
+    "Treatment": "S: , Unchanged.,ILLNESSES: , Crohn's disease, vitamin B12 deficiency.,MEDICATIONS:,  Imuran, Nascobal, Vicodin p.r.n., ,REVIEW OF SYSTEMS: , Dated 08/04/04 is reviewed and noted.  Please see pertin...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "of 100 mg, Imuran 100 mg, Zantac 150 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "URL",
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

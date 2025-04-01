@@ -1,0 +1,65 @@
+{
+  "id": "5311bcc2e3eabad021000005",
+  "type": "factoid",
+  "question": "Describe a diet that reduces the chance of kidney stones.",
+  "ideal_answer": "People can help prevent kidney stones by making changes in fluid intake and, depending on the type of kidney stone, changes in consumption of sodium, animal protein, calcium, and oxalate.\nDrinking enough fluids each day is the best way to help prevent most types of kidney stones. Health care providers recommend that a person drink 2 to 3 liters of fluid a day. People with cystine stones may need to drink even more. Though water is best, other fluids may also help prevent kidney stones, such as citrus drinks.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23302672",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23438422",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23593205",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23880796",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23535174",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24127678",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22857835",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24026180",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16174292",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23221031",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23732207",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21369385",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23634702",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11269613",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23674806",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23568066",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23546565",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14552081",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23827660"
+  ],
+  "snippets": [
+    {
+      "text": "calcium oxalate remains the dominant type accounting for 64% of stones in our dataset,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24127678",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Uric acid stones contributed 16% of contemporary stone compositions,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24127678",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Struvite stones showed a decreasing trend from 14% in the 1970s, to 12% in the 1980s and 7% in the current data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24127678",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ". Given recent concerns that calcium supplements may raise risk for cardiovascular disease and kidney stones,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23880796",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007669",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007668",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014545",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014676",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007674",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004035",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018753",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004032",
+    "http://www.disease-ontology.org/api/metadata/DOID:585"
+  ],
+  "exact_answer": "reducing sodium"
+}

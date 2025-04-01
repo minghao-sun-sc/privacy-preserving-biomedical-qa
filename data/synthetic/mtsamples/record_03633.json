@@ -1,0 +1,33 @@
+{
+  "document_id": "record_03633",
+  "original_length": 3605,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": ",  Active flare of [person] Disease, question of Crohn disease.,PLAN: , I will have the patient follow up with me, will follow up on histology, follow up on the polyps.  She will be put o...",
+    "Symptoms": "",
+    "Treatment": "S PERFORMED:,  Colonoscopy.,INDICATIONS:,  Renewed symptoms likely consistent with active flare of [person] Disease, not responsive to conventional therapy including sulfasalazine, cortis...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',PLAN: , I will have the patient follow up with me...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "56a7d32fa17756b72f000001",
+  "type": "yesno",
+  "question": "Could transcription factors act as cell-cell signalling molecules?",
+  "ideal_answer": "Yes. Recent data support the view that transcription factors - in particular, homeoproteins - can be transferred from cell to cell and have direct non-cell-autonomous (and therefore paracrine) activities.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/14570063",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12386935"
+  ],
+  "snippets": [
+    {
+      "text": "Pax6 is a transcription factor essential for the development of tissues including the eyes, central nervous system and endocrine glands of vertebrates and invertebrates. It regulates the expression of a broad range of molecules, including transcription factors, cell adhesion and short-range cell-cell signalling molecules, hormones and structural proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12386935",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent data support the view that transcription factors - in particular, homeoproteins - can be transferred from cell to cell and have direct non-cell-autonomous (and therefore paracrine) activities",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14570063",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0007267",
+    "http://amigo.geneontology.org/amigo/term/GO:0006351",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014157"
+  ],
+  "exact_answer": "Yes"
+}

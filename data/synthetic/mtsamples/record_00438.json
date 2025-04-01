@@ -1,0 +1,37 @@
+{
+  "document_id": "record_00438",
+  "original_length": 4351,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": ", Phacoemulsification with posterior chamber intraocular lens insertion.,INTRAOCULAR LENS: , [person] Optics model S140MB XXX diopter chamber lens.,PHACO TIME:,  Not known.,ANESTHESIA: , Re...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, PERSON, IP_ADDRESS"
+      ],
+      "pii_detected": [
+        "URL",
+        "PERSON",
+        "IP_ADDRESS"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

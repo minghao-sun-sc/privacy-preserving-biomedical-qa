@@ -1,0 +1,51 @@
+{
+  "id": "5a8b27e6fcd1d6a10c00001e",
+  "type": "factoid",
+  "question": "Which R package has been developed for analyzing Non-invasive prenatal testing (NIPT) data?",
+  "ideal_answer": "Non-invasive prenatal testing (NIPT) of fetal aneuploidy using cell-free fetal DNA is becoming part of routine clinical practice. RAPIDR (Reliable Accurate Prenatal non-Invasive Diagnosis R package) is an easy-to-use open-source R package that implements several published NIPT analysis methods. The input to RAPIDR is a set of sequence alignment files in the BAM format, and the outputs are calls for aneuploidy, including trisomies 13, 18, 21 and monosomy X as well as fetal sex. RAPIDR has been extensively tested with a large sample set as part of the RAPID project in the UK. The package contains quality control steps to make it robust for use in the clinical setting.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24990604"
+  ],
+  "snippets": [
+    {
+      "text": "RAPIDR: an analysis package for non-invasive prenatal testing of aneuploidy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24990604",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Non-invasive prenatal testing (NIPT) of fetal aneuploidy using cell-free fetal DNA is becoming part of routine clinical practice. RAPIDR (Reliable Accurate Prenatal non-Invasive Diagnosis R package) is an easy-to-use open-source R package that implements several published NIPT analysis methods. The input to RAPIDR is a set of sequence alignment files in the BAM format, and the outputs are calls for aneuploidy, including trisomies 13, 18, 21 and monosomy X as well as fetal sex. RAPIDR has been extensively tested with a large sample set as part of the RAPID project in the UK. The package contains quality control steps to make it robust for use in the clinical setting.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24990604",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RAPIDR (Reliable Accurate Prenatal non-Invasive Diagnosis R package) is an easy-to-use open-source R package that implements several published NIPT analysis methods.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24990604",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RAPIDR (Reliable Accurate Prenatal non-Invasive Diagnosis R package) is an easy-to-use open-source R package that implements several published NIPT analysis methods.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24990604",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RAPIDR (Reliable Accurate Prenatal non-Invasive Diagnosis R package) is an easy-to-use open-source R package that implements several published NIPT analysis methods.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24990604",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RAPIDR: an analysis package for non-invasive prenatal testing of aneuploidy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24990604",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D011296"
+  ],
+  "exact_answer": "RAPIDR (Reliable Accurate Prenatal non-Invasive Diagnosis R package)"
+}

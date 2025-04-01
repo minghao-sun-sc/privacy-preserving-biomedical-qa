@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01507",
+  "original_length": 1433,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Dilated common duct as well as pancreatic duct as described.  Given the dilatation of these two ducts, ERCP versus MRCP is recommended to exclude obstructing mass.  The findings could reflect ch...",
+    "Symptoms": "",
+    "Treatment": "[person] - elevated liver function tests. Ultrasound - Abdomen - 1",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Dilated common duct as well as pancreatic duct as ...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

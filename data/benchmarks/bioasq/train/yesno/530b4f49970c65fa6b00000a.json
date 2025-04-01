@@ -1,0 +1,43 @@
+{
+  "id": "530b4f49970c65fa6b00000a",
+  "type": "yesno",
+  "question": "Can we use platelet biomarkers to study Alzheimer's disease?",
+  "ideal_answer": "Yes, platelet biomarkers can be used to study Alzheimer's disease.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22579745",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24175175",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22674539"
+  ],
+  "snippets": [
+    {
+      "text": "Platelet biomarkers in Alzheimer's disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24175175",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "platelets are the most important source of circulating forms of the amyloid precursor protein and other important proteins such as Tau and glycogen synthase kinase-3B.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24175175",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Alternative plasma and platelet measures are described,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22674539",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The success of these studies led to the application of platelet proteomics to the study of several pathologies where platelets play a fundamental role. Those include platelet-related disorders, such as storage pool disease, gray platelet syndrome, and Quebec platelet disorder; diseases where unwanted platelet activation is highly relevant, such as thrombosis and cardiovascular disease; and other diseases, such as cystic fibrosis, uremia, or Alzheimer's disease. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22579745",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015415",
+    "http://www.disease-ontology.org/api/metadata/DOID:10652",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000544"
+  ],
+  "exact_answer": "Yes"
+}

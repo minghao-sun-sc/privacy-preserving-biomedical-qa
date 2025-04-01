@@ -1,0 +1,39 @@
+{
+  "id": "531778ddb166e2b80600000f",
+  "type": "list",
+  "question": "Which are the Chompret criteria for Li-Fraumeni syndrome?",
+  "ideal_answer": "1) According to the Chompret criteria for LFS, any patient with adrenocortical cancer (ACC), irrespective of age and family history, is at high risk for a TP53 germline mutation.\n2) All families with a p53 mutation must have at least one family member with a sarcoma, breast, brain, or adrenocortical carcinoma (ACC).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22170717",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19204208"
+  ],
+  "snippets": [
+    {
+      "text": "According to the Chompret criteria for LFS, any patient with adrenocortical cancer (ACC), irrespective of age and family history, is at high risk for a TP53 germline mutation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22170717",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "All families with a p53 mutation had at least one family member with a sarcoma, breast, brain, or adrenocortical carcinoma (ACC).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19204208",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:3948",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001932",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001943",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012516",
+    "http://www.disease-ontology.org/api/metadata/DOID:3012",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018268",
+    "http://www.disease-ontology.org/api/metadata/DOID:3347",
+    "http://www.disease-ontology.org/api/metadata/DOID:1319",
+    "http://www.disease-ontology.org/api/metadata/DOID:1240",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016864",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007938",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012509"
+  ],
+  "exact_answer": "Any patient with adrenocortical cancer (ACC), irrespective of age and family history., All families with a p53 mutation must have at least one family member with a sarcoma, breast, brain, or adrenocortical carcinoma (ACC)."
+}

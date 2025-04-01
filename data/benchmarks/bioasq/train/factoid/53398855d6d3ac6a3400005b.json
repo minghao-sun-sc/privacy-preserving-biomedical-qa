@@ -1,0 +1,125 @@
+{
+  "id": "53398855d6d3ac6a3400005b",
+  "type": "factoid",
+  "question": "What histone modification is recognized by the bromodomain?",
+  "ideal_answer": "Acetylated lysines in histones (generally H3 and H4)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15014446",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21596426",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17049045",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21189220",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10746732",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15382140",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15143168",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10716917",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21851057",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15970672",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23095041",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21271695",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16265664"
+  ],
+  "snippets": [
+    {
+      "text": "acetyllysine-specific protein-protein interaction with bromodomain reader modules",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23095041",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bromodomains bind acetylated lysines, acting as readers of the histone-acetylation code",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21851057",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " three acetyllysine ligands are indentified for a PHD-adjacent bromodomain in BPTF via systematic screening and biophysical characterization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21596426",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "acetyl-lysine binding bromodomain (BRD)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21271695",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "bromodomain proteins bind to acetylated lysines in histones",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21189220",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "romodomains are present in many chromatin-associated proteins such as the SWI/SNF and RSC chromatin remodelling and the SAGA HAT (histone acetyltransferase) complexes, and can bind to acetylated lysine residues in the N-terminal tails of the histones",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17049045",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "recognition of acetylated histones by bromodomains",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17049045",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "BRD7, a novel bromodomain gene",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16265664",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BRD7 interacted with H3 peptide acetylated",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16265664",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "bromodomain-containing proteins that recognize histone acetylation sites",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15970672",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "bromodomains of Gcn5, PCAF, TAF1 and CBP are able to recognize acetyllysine residues in histones",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15382140",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "romodomain factor 1 (Bdf1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15143168",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Bdf1 binds preferentially to acetylated histone H4",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15143168",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "chromatin remodeling complex RSC bears multiple bromodomains, motifs for acetyl-lysine and histone tail interaction",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15014446",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " in vitro binding of a HAT bromodomain with acetylated lysines within H3 and H4 amino-terminal peptides",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10746732",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "bromodomain, that recognizes acetylated residues",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10716917",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006657",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016573",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016570"
+  ],
+  "exact_answer": "Acetylated lysines"
+}

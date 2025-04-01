@@ -1,0 +1,38 @@
+{
+  "document_id": "record_03933",
+  "original_length": 4666,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Respiratory failure improved.\n- Hypotension resolved.\n- Anemia of chronic disease stable.\n- Anasarca improving.\n- Protein malnourishment improving.\n- End-stage liver disease.,HISTORY AND HOSPITA...",
+    "Symptoms": "",
+    "Treatment": ",Discharge this gentleman from Hospital and admit him to [person] SNF where they can continue with his rehab and conditioning.  Hopefully, long-term planning will be discharge home.  He has a h...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Protonix 40 mg, metoclopramide 10 mg, Zyvox 600 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, US_DRIVER_LICENSE, URL"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "US_DRIVER_LICENSE",
+        "URL"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

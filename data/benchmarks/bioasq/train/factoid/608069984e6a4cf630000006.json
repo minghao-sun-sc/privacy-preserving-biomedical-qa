@@ -1,0 +1,33 @@
+{
+  "id": "608069984e6a4cf630000006",
+  "type": "factoid",
+  "question": "What is the function of the stard10 protein?",
+  "ideal_answer": "STARD10, a member of the steroidogenic acute regulatory protein (StAR)-related lipid transfer (START) protein family, is highly expressed in the liver and has been shown to transfer phosphatidylcholine.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23200860",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15976441",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15911624"
+  ],
+  "snippets": [
+    {
+      "text": "STARD10, a member of the steroidogenic acute regulatory protein (StAR)-related lipid transfer (START) protein family, is highly expressed in the liver and has been shown to transfer phosphatidylcholine.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23200860",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "StarD10 contains a steroidogenic acute regulatory protein (StAR/StarD1)-related lipid transfer (START) domain that is thought to mediate binding of lipids. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15911624",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The steroidogenic acute regulatory protein (StAR)-related lipid transfer (START) domain is a protein module of approximately 210 residues that binds lipids, including sterols",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15976441",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "STARD10 is a lipid transfer protein"
+}

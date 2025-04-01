@@ -1,0 +1,26 @@
+{
+  "id": "644284a957b1c7a31500005c",
+  "type": "yesno",
+  "question": "Is there any treatment for the Facioscapulohumeral Muscular Dystrophy?",
+  "ideal_answer": "No, currently there are no approved therapies for the Facioscapulohumeral Muscular Dystrophy, only supportive treatment.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31794465",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35428982"
+  ],
+  "snippets": [
+    {
+      "text": "The treatment of FSHD is currently supportive only.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31794465",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Facioscapulohumeral muscular dystrophy (FSHD) is a slowly progressive muscular dystrophy without approved therapies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35428982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

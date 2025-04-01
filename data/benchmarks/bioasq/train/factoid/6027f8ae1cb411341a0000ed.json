@@ -1,0 +1,67 @@
+{
+  "id": "6027f8ae1cb411341a0000ed",
+  "type": "factoid",
+  "question": "Which network analysis method can you use for prioritization of metabolic disease genes?",
+  "ideal_answer": "metPropagate is a network-guided propagation of metabolomic information for prioritization of metabolic disease genes.  metPropagate was able to prioritize at least one causative gene in the top 20th percentile of candidate genes for 92% of patients with known IEMs.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32637154"
+  ],
+  "snippets": [
+    {
+      "text": "metPropagate: network-guided propagation of metabolomic information for prioritization of metabolic disease genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32637154",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Many inborn errors of metabolism (IEMs) are amenable to treatment, therefore early diagnosis is imperative. Whole-exome sequencing (WES) variant prioritization coupled with phenotype-guided clinical and bioinformatics expertise is typically used to identify disease-causing variants; however, it can be challenging to identify the causal candidate gene when a large number of rare and potentially pathogenic variants are detected. Here, we present a network-based approach, metPropagate, that uses untargeted metabolomics (UM) data from a single patient and a group of controls to prioritize candidate genes in patients with suspected IEMs. We validate metPropagate on 107 patients with IEMs diagnosed in Miller et al. (2015) and 11 patients with both CNS and metabolic abnormalities. The metPropagate method ranks candidate genes by label propagation, a graph-smoothing algorithm that considers each gene's metabolic perturbation in addition to the network of interactions between neighbors. metPropagate was able to prioritize at least one causative gene in the top 20th percentile of candidate genes for 92% of patients with known IEMs. Applied to patients with suspected neurometabolic disease, metPropagate placed at least one causative gene in the top 20th percentile in 9/11 patients, and ranked the causative gene more highly than Exomiser's phenotype-based ranking in 6/11 patients. Interestingly, ranking by a weighted combination of metPropagate and Exomiser scores resulted in improved prioritization. The results of this study indicate that network-based analysis of UM data can provide an additional mode of evidence to prioritize causal genes in patients with suspected IEMs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32637154",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The metPropagate method ranks candidate genes by label propagation, a graph-smoothing algorithm that considers each gene's metabolic perturbation in addition to the network of interactions between neighbors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32637154",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "we present a network-based approach, metPropagate, that uses untargeted metabolomics (UM) data from a single patient and a group of controls to prioritize candidate genes in patients with suspected IEMs. We valida",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32637154",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "metPropagate: network-guided propagation of metabolomic information for prioritization of metabolic disease genes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32637154",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we present a network-based approach, metPropagate, that uses untargeted metabolomics (UM) data from a single patient and a group of controls to prioritize candidate genes in patients with suspected IEMs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32637154",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Applied to patients with suspected neurometabolic disease, metPropagate placed at least one causative gene in the top 20th percentile in 9/11 patients, and ranked the causative gene more highly than Exomiser's phenotype-based ranking in 6/11 patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32637154",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "metPropagate was able to prioritize at least one causative gene in the top 20th percentile of candidate genes for 92% of patients with known IEMs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32637154",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Interestingly, ranking by a weighted combination of metPropagate and Exomiser scores resulted in improved prioritization.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32637154",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "metPropagate"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5c6ad2997c78d69471000020",
+  "type": "factoid",
+  "question": "Which Python tool has been developed for network-based stratification of tumor mutations?",
+  "ideal_answer": "PyNBS is a modularized Python 2.7 implementation of the network-based stratification (NBS) algorithm for stratifying tumor somatic mutation profiles into molecularly and clinically relevant subtypes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29608663"
+  ],
+  "snippets": [
+    {
+      "text": "pyNBS: a Python implementation for network-based stratification of tumor mutations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29608663",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present pyNBS: a modularized Python 2.7 implementation of the network-based stratification (NBS) algorithm for stratifying tumor somatic mutation profiles into molecularly and clinically relevant subtypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29608663",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Summary\nWe present pyNBS: a modularized Python 2.7 implementation of the network-based stratification (NBS) algorithm for stratifying tumor somatic mutation profiles into molecularly and clinically relevant subtypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29608663",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "pyNBS: a Python implementation for network-based stratification of tumor mutations.The package, along with examples and data, can be downloaded and installed from the URL https://github.com/idekerlab/pyNBS.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29608663",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "<b>Summary</b>: We present pyNBS: a modularized Python 2.7 implementation of the network-based stratification (NBS) algorithm for stratifying tumor somatic mutation profiles into molecularly and clinically relevant subtypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29608663",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We present pyNBS: a modularized Python 2.7 implementation of the network-based stratification (NBS) algorithm for stratifying tumor somatic mutation profiles into molecularly and clinically relevant subtypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29608663",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "PyNBS"
+}

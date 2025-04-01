@@ -1,0 +1,29 @@
+{
+  "id": "5a774ce1faa1ab7d2e000006",
+  "type": "yesno",
+  "question": "Is there increased recombination rate in human regulatory domains?",
+  "ideal_answer": "No. There is evidence of significantly reduced recombination rate compared to matched control regions at human regulatory domains.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29058599"
+  ],
+  "snippets": [
+    {
+      "text": "Evidence of reduced recombination rate in human regulatory domains.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29058599",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We study the relationship between recombination rate and gene regulatory domains, defined by a gene and its linked control elements. We define these links using expression quantitative trait loci (eQTLs), methylation quantitative trait loci (meQTLs), chromatin conformation from publicly available datasets\u00a0(Hi-C and ChIA-PET), and correlated activity links that we infer across cell types. Each link type shows a \"recombination rate\u00a0valley\" of significantly reduced recombination rate compared to matched control regions. This recombination rate\u00a0valley is most pronounced for gene regulatory domains of early embryonic development genes, housekeeping genes, and constitutive regulatory elements, which are known to show increased evolutionary constraint across species. Recombination rate\u00a0valleys show increased DNA methylation, reduced doublestranded break initiation, and increased repair efficiency, specifically in the lineage leading to the germ line. Moreover, by using only the overlap of functional links and DNA methylation in germ cells, we are able to predict the recombination rate with high accuracy.CONCLUSIONS: Our results suggest the existence of a recombination rate valley at regulatory domains and provide a potential molecular mechanism to interpret the interplay between genetic and epigenetic variations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29058599",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0006310",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D050436",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D011995"
+  ],
+  "exact_answer": "Yes"
+}

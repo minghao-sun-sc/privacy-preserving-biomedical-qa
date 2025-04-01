@@ -1,0 +1,65 @@
+{
+  "id": "5a8dc6b4fcd1d6a10c000026",
+  "type": "list",
+  "question": "List 2 approved drug treatments for Inflammatory Bowel Disease (IBD).",
+  "ideal_answer": "Patients with IBD, inflammtory Bowel Disease can be treated with steroids, or 2 approved biosimilar drugs infliximab (IFX) or adalimumab (ADA)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28035201",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17547856",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26395529",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28597827",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28254463",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17129819",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25139379"
+  ],
+  "snippets": [
+    {
+      "text": "Nonetheless, infliximab and adalimumab are the only biological agents that have been approved for this group of patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28597827",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " In September 2013, the European Medicines Agency approved two infliximab biosimilars for treatment of adult and paediatric inflammatory bowel disease patients,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25139379",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The introduction of infliximab into clinical practice is one of the most significant advances in the care of patients who have IBD. Infliximab has become an important part of the medical armamentarium to treat extraintestinal manifestations that often are refractory to other medications and are a significant cause of morbidity in these patients. Two other TNF inhibitors recently have demonstrated efficacy in CD: certolizumab pegol and adalimumab.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17129819",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Infliximab, a chimeric monoclonal antibody to tumor necrosis factor-alpha, is effective for induction and maintenance of remission of CD and UC. The role of infliximab for EIMs related to IBD has been less studied, but it is likely as effective.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17547856",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Italian Group for the Study of Inflammatory Bowel Disease (IG-IBD) has prepared clinical practice guidelines to help physicians prescribe corticosteroids and immunosuppressive drugs for these patients. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28254463",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "lthough the TNF inhibitor infliximab is known to improve IBD outcomes in many different ways, several questions remain regarding the optimal way to employ this drug in the clinic, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26395529",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Infliximab biosimilars for the treatment of IBD have been available in Europe and Asia for a few years and are expected to become available in the United States within the next 1 to 2 years",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28035201",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D013812",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050589",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D015212"
+  ],
+  "exact_answer": "infliximab (IFX), adalimumab (ADA)"
+}

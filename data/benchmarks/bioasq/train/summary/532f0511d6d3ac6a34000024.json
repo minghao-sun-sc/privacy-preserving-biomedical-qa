@@ -1,0 +1,49 @@
+{
+  "id": "532f0511d6d3ac6a34000024",
+  "type": "summary",
+  "question": "What is the effect of ivabradine in heart failure with preserved ejection fraction?",
+  "ideal_answer": "I(f)-channel inhibition potentially exhibits beneficial effects in diastolic heart failure.  In patients with heart failure with preserved ejection fraction (HFpEF), short-term treatment with ivabradine increased exercise capacity, with a contribution from improved left ventricular filling pressure response to exercise as reflected by the ratio of peak early diastolic mitral flow velocity to peak early diastolic mitral annular velocity.  Ivabradine has demonstrated benefits in HFpEF without improving mortality.\tIn db/db, a model of HFpEF, ivabradine improved vascular stiffness, left ventricular contractility, and diastolic function. Furthermore, ivabradine reduces cardiac fibrosis in hypercholesterolemic rabbits.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22833515",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20005474",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23916925",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23274284",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21212673"
+  ],
+  "snippets": [
+    {
+      "text": "Traditional agents with strong evidence in HFrEF have proved unsuccessful in HFpEF. Newer agents such as angiotensin receptor neprilysin inhibitor, sildenafil, and ivabradine have demonstrated benefits without improving mortality.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23274284",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In db/db, a model of HFPEF, selective HR reduction by If-inhibition improved vascular stiffness, LV contractility, and diastolic function. Therefore, If-inhibition might be a therapeutic concept for HFPEF, if confirmed in humans.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22833515",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Selective HR reduction with IVA reduces DD and cardiac fibrosis in hypercholesterolemic rabbits. These beneficial effects of IVA support testing pure HR reduction in patients with diastolic heart failure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21212673",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Beside its use in therapy of coronary artery disease, I(f)-channel inhibition potentially exhibits beneficial effects in systolic and diastolic heart failure as well.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20005474",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In patients with HFpEF, short-term treatment with ivabradine increased exercise capacity, with a contribution from improved left ventricular filling pressure response to exercise as reflected by the ratio of peak early diastolic mitral flow velocity to peak early diastolic mitral annular velocity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23916925",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D054144",
+    "http://www.biosemantics.org/jochem#4266225"
+  ]
+}

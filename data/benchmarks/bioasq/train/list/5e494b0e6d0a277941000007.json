@@ -1,0 +1,19 @@
+{
+  "id": "5e494b0e6d0a277941000007",
+  "type": "list",
+  "question": "List 3 PD-L1 inhibitors on the market as of 2018.",
+  "ideal_answer": "Atezolizumab (Tecentriq), Avelumab (Bavencio), and Durvalumab (Imfinzi) are PD-L1 inhibitors",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29571563"
+  ],
+  "snippets": [
+    {
+      "text": "PD-L1 ICI, such as atezolizumab (TECENTRIQ\u00ae, Genentech), durvalumab (IMFINZI\u00ae, Astra-Zeneca), and avelumab (BAVENCIO\u00ae, EMD Serono",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29571563",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Atezolizumab (Tecentriq), Avelumab (Bavencio), Durvalumab (Imfinzi)"
+}

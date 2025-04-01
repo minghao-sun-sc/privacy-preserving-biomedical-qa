@@ -1,0 +1,36 @@
+{
+  "id": "5e48100bd14c9f295d000007",
+  "type": "list",
+  "question": "List the most common cancers after a radiation exposure?",
+  "ideal_answer": "well-known increase in leukaemia, increases in solid cancer such as cancers of the lung, breast, stomach and thyroid have also been demonstrated.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/8896256",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28535153",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7480642",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25034478",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11309438",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25088201"
+  ],
+  "snippets": [
+    {
+      "text": " lethal skin carcinomas",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7480642",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " leukemia (1952)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7480642",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "esides the well-known increase in leukaemia, increases in solid cancer such as cancers of the lung, breast, stomach and thyroid have also been demonstrated. Radiation-induced leukaemia occurred 2 to 3 years after exposure, reached its peak within 6 to 8 years after the bombing, and has since declined steadily. However, this has not been true of solid cancer. Radiation-induced solid cancer begins to appear at later ages than such cancer is normally prone to develop, and continues to increase proportionally with the increase in mortality or incidence in the control group as it ages.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8896256",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "leukaemia, lung cancer, breast cancer, stomach cancer, thyroid cancer"
+}

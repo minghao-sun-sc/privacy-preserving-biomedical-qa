@@ -1,0 +1,23 @@
+{
+  "id": "5a551a8fb750ff4455000002",
+  "type": "factoid",
+  "question": "What is a potential side effect for Tymlos?",
+  "ideal_answer": "Possible bone cancer (osteosarcoma). During animal drug testing, TYMLOS caused some rats to develop a bone cancer called osteosarcoma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28624872",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28389324"
+  ],
+  "snippets": [
+    {
+      "text": "Thus, near life-long treatment with abaloparatide in rats resulted in dose and time dependent formation of osteosarcomas, with a comparable response to hPTH(1-34) at similar exposure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28389324",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D064420",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D000069451"
+  ],
+  "exact_answer": "Osteosarcoma"
+}

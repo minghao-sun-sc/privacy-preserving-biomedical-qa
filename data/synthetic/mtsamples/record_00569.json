@@ -1,0 +1,37 @@
+{
+  "document_id": "record_00569",
+  "original_length": 4966,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,  Herniated nucleus pulposus of L5-S1 on the left.,POSTOPERATIVE DIAGNOSIS: ,Herniated nucleus pulposus of L5-S1 on the left.,PROCEDURE PERFORMED:, Microscopic assisted lumbar lamino...",
+    "Symptoms": "",
+    "Treatment": "X-ray imaging",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON, US_DRIVER_LICENSE",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Herniated nucleus pulposus of L5-S1 on the left...'"
+      ],
+      "pii_detected": [
+        "PERSON",
+        "US_DRIVER_LICENSE"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

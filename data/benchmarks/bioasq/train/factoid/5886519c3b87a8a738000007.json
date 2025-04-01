@@ -1,0 +1,87 @@
+{
+  "id": "5886519c3b87a8a738000007",
+  "type": "factoid",
+  "question": "Which disease can be categorized using the Koos grading system?",
+  "ideal_answer": "Koos grading system is used for vestibular schwannoma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26967786",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25811349",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26606668",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25181431",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27513938",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24797568",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15179293",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21665381",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23160632",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27453796",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24987677"
+  ],
+  "snippets": [
+    {
+      "text": "The patients had Koos Grade I or II tumors and American Academy of Otolaryngology-Head and Neck Surgery (AAO-HNS) Class D hearing status preoperatively. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26967786",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "METHODS: This is a retrospective review of 22 patients with VS Koos grade III and IV who were treated with STR followed by SRS. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27513938",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " VS was characterized by its size (Koos classification) and the presence or not of a cystic component.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25811349",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MAIN OUTCOME MEASURES: All data recorded were reviewed to access age, sex, tumor type, and tumor size according to the Koos classification and presenting symptoms. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24797568",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Facial nerve preservation surgery for koos grade 3 and 4 vestibular schwannomas.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25181431",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Safety and Efficacy of Gamma Knife Radiosurgery for the Management of Koos Grade 4 Vestibular Schwannomas.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26606668",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In all 333 patients microsurgical vestibular schwannoma (Koos grade 1: 12, grade 2: 34, grade 3: 62, and grade 4: 225) removal was performed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24987677",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Facial nerve preservation surgery for koos grade 3 and 4 vestibular schwannomas.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25181431",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "To report, in a retrospective study, outcomes for large Koos grade 3 and 4 vestibular schwannomas.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25181431",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Safety and Efficacy of Gamma Knife Radiosurgery for the Management of Koos Grade 4 Vestibular Schwannomas.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26606668",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:4",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004194",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=diseases_category"
+  ],
+  "exact_answer": "vestibular schwannoma"
+}

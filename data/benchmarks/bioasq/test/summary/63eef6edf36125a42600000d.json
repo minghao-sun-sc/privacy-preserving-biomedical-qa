@@ -1,0 +1,39 @@
+{
+  "id": "63eef6edf36125a42600000d",
+  "type": "summary",
+  "question": "What is the mechanism of action of Teclistamab?",
+  "ideal_answer": "Teclistamab is a bispecific antibody that targets CD3 and B cell maturation antigen (BCMA) and is being developed for the treatment of relapsed or refractory multiple myeloma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35749004",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36352205",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36006441",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35661166"
+  ],
+  "snippets": [
+    {
+      "text": "BACKGROUND: Teclistamab is a T-cell-redirecting bispecific antibody that targets both CD3 expressed on the surface of T cells and B-cell maturation antigen expressed on the surface of myeloma cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35661166",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND: Teclistamab (JNJ-64007957), a B-cell maturation antigen \u00d7 CD3 bispecific antibody, displayed potent T-cell-mediated cytotoxicity of multiple myeloma cells in preclinical studies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35749004",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The bispecific antibodies teclistamab (BCMA\u00d7CD3) and talquetamab (G protein-coupled receptor family C group 5 member D [GPRC5D]\u00d7CD3) are in clinical development as therapies for MM. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36006441",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Teclistamab (TECVAYLI\u00ae), a bispecific antibody that targets CD3 and B cell maturation antigen (BCMA), is being developed by Janssen Research and Development for the treatment of relapsed or refractory multiple myeloma. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36352205",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

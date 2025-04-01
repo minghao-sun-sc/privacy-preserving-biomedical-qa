@@ -1,0 +1,106 @@
+{
+  "id": "5c6b15467c78d69471000024",
+  "type": "list",
+  "question": "Mention computational tools that have been developed for alternative polyadenylation (APA) sites analysis",
+  "ideal_answer": "TAPAS, PlantAPA and IntMAP",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27446120",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30052912",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29733382",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25506822"
+  ],
+  "snippets": [
+    {
+      "text": "TAPAS: tool for alternative polyadenylation site analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30052912",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We propose a new tool, called TAPAS, for detecting novel APA sites from RNA-Seq data. It can deal with more than two APA sites in a gene as well as APA sites that occur before the last exon. The tool is based on an existing method for finding change points in time series data, but some filtration techniques are also adopted to remove change points that are likely false APA sites. It is then extended to identify APA sites that are expressed differently between two biological samples and genes that contain 3' UTRs with shortening/lengthening events. Our extensive experiments on simulated and real RNA-Seq data demonstrate that TAPAS outperforms the existing tools for APA site detection or shortening/lengthening analysis significantly.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30052912",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PlantAPA: A Portal for Visualization and Analysis of Alternative Polyadenylation in Plants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27446120",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Increasing numbers of poly(A) sites collected in various plant species demand new methods and tools to access and mine these data. We have created an open-access web service called PlantAPA (http://bmi.xmu.edu.cn/plantapa) to visualize and analyze genome-wide poly(A) sites in plants. PlantAPA provides various interactive and dynamic graphics and seamlessly integrates a genome browser that can profile heterogeneous cleavage sites and quantify expression patterns of poly(A) sites across different conditions. Particularly, through PlantAPA, users can analyze poly(A) sites in extended 3' UTR regions, intergenic regions, and ambiguous regions owing to alternative transcription or RNA processing. In addition, it also provides tools for analyzing poly(A) site selections, 3' UTR lengthening or shortening, non-canonical APA site switching, and differential gene expression between conditions, making it more powerful for the study of APA-mediated gene expression regulation. More importantly, PlantAPA offers a bioinformatics pipeline that allows users to upload their own short reads or ESTs for poly(A) site extraction, enabling users to further explore poly(A) site selection using stored PlantAPA poly(A) sites together with their own poly(A) site datasets. To date, PlantAPA hosts the largest database of APA sites in plants, including Oryza sativa, Arabidopsis thaliana, Medicago truncatula, and Chlamydomonas reinhardtii. As a user-friendly web service, PlantAPA will be a valuable addition to the community of biologists studying APA mechanisms and gene expression regulation in plants.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27446120",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In our recent RNA-seq experiments using cells with hyper-activated mammalian target of rapamycin (mTOR), we found that cellular mTOR activation leads to transcriptome-wide alternative polyadenylation (APA), resulting in the activation of multiple cellular pathways. Here, we developed a novel bioinformatics algorithm, IntMAP, which integrates RNA-Seq and PolyA Site (PAS)-Seq data for a comprehensive characterization of APA events. By applying IntMAP to the datasets from cells with hyper-activated mTOR, we identified novel APA events that could otherwise not be identified by either profiling method alone. Several transcription factors including Cebpg (CCAAT/enhancer binding protein gamma) were among the newly discovered APA transcripts, indicating that diverse transcriptional networks may be regulated by mTOR-coordinated APA. The prevention of APA in Cebpg using the CRISPR/cas9-mediated genome editing tool showed that mTOR-driven 3'-UTR shortening in Cebpg is critical in protecting cells from endoplasmic reticulum (ER) stress. Taken together, we present IntMAP as a new bioinformatics algorithm for APA analysis by which we expand our understanding of the physiological role of mTOR-coordinated APA events to ER stress response. IntMAP toolbox is available at http://compbio.cs.umn.edu/IntMAP/.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29733382",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our extensive experiments on simulated and real RNA-Seq data demonstrate that TAPAS outperforms the existing tools for APA site detection or shortening/lengthening analysis significantly.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30052912",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Results\nWe propose a new tool, called TAPAS, for detecting novel APA sites from RNA-Seq data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30052912",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PlantAPA: A Portal for Visualization and Analysis of Alternative Polyadenylation in Plants.Alternative polyadenylation (APA) is an important layer of gene regulation that produces mRNAs that have different 3' ends and/or encode diverse protein isoforms. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27446120",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "VAAPA: a web platform for visualization and analysis of alternative polyadenylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25506822",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "TAPAS: tool for alternative polyadenylation site analysis.Supplementary data are available at Bioinformatics online.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30052912",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Furthermore, the tools are unable to integrate the analysis of shortening/lengthening events with APA site detection.<br><b>Results</b>: We propose a new tool, called TAPAS, for detecting novel APA sites from RNA-Seq data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30052912",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our extensive experiments on simulated and real RNA-Seq data demonstrate that TAPAS outperforms the existing tools for APA site detection or shortening/lengthening analysis significantly.<br><b>Availability and implementation</b>: https://github.com/arefeen/TAPAS.<br><b>Supplementary information</b>: Supplementary data are available at Bioinformatics online.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30052912",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our extensive experiments on simulated and real RNA-Seq data demonstrate that TAPAS outperforms the existing tools for APA site detection or shortening/lengthening analysis significantly.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30052912",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We propose a new tool, called TAPAS, for detecting novel APA sites from RNA-Seq data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30052912",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, a web platform for visualization and analysis of alternative polyadenylation (VAAPA) was developed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25506822",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "TAPAS, PlantAPA, IntMAP, VAAPA"
+}

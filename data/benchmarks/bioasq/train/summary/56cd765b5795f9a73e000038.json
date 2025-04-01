@@ -1,0 +1,102 @@
+{
+  "id": "56cd765b5795f9a73e000038",
+  "type": "summary",
+  "question": "Under which conditions does AMPK phosphorylate TSC2?",
+  "ideal_answer": "The AMP-activated serine/threonine protein kinase (AMPK) is a sensor of cellular energy status found in all eukaryotes, and it is activated under conditions of low intracellular ATP following stresses such as nutrient deprivation or hypoxia.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15261145",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19245654",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14651849",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16483933",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18439900",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24173372",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17041622"
+  ],
+  "snippets": [
+    {
+      "text": "The AMP-activated serine/threonine protein kinase (AMPK) is a sensor of cellular energy status found in all eukaryotes that is activated under conditions of low intracellular ATP following stresses such as nutrient deprivation or hypoxia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19245654",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AMPK directly phosphorylates at least two proteins to induce rapid suppression of mTORC1 activity, the TSC2 tumour suppressor and the critical mTORC1 binding subunit raptor.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19245654",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AMPK is a highly conserved sensor of cellular energy status that is activated under conditions of low intracellular ATP. AMPK responds to energy stress by suppressing cell growth and biosynthetic processes, in part through its inhibition of the rapamycin-sensitive mTOR (mTORC1) pathway. AMPK phosphorylation of the TSC2 tumor suppressor contributes to suppression of mTORC1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18439900",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TSC2 is regulated by cellular energy levels and plays an essential role in the cellular energy response pathway. Under energy starvation conditions, the AMP-activated protein kinase (AMPK) phosphorylates TSC2 and enhances its activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14651849",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Conversely, energy depletion reduces Rheb-GTP charging through the ability of the adenosine monophosphate-activated protein kinase to phosphorylate TSC2 and stimulate its Rheb-GTPase activating function, as well as by HIFalpha-mediated transcriptional responses that act upstream of the TSC1/2 complex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17041622",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Under energy starvation conditions, the AMP-activated protein kinase (AMPK) phosphorylates TSC2 and enhances its activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14651849",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we report that LKB1 is required for repression of mTOR under low ATP conditions in cultured cells in an AMPK- and TSC2-dependent manner, and that Lkb1 null MEFs and the hamartomatous gastrointestinal polyps from Lkb1 mutant mice show elevated signaling downstream of mTOR.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15261145",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hypoxia results in energy starvation and activation of the AMPK/TSC2/Rheb/mTOR pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16483933",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AMPK phosphorylation of the TSC2 tumor suppressor contributes to suppression of mTORC1; however, TSC2-deficient cells remain responsive to energy stress.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18439900",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Under energy starvation conditions, the AMP-activated protein kinase (AMPK) phosphorylates TSC2 and enhances its activity. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14651849",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AMPK phosphorylation of the TSC2 tumor suppressor contributes to suppression of mTORC1; however, TSC2-deficient cells remain responsive to energy stress. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18439900",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Under energy starvation conditions, the AMP-activated protein kinase (AMPK) phosphorylates TSC2 and enhances its activity. Phosphorylation of TSC2 by AMPK is required for translation regulation and cell size control in response to energy deprivation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14651849",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we describe that TSC2 is regulated by cellular energy levels and plays an essential role in the cellular energy response pathway. Under energy starvation conditions, the AMP-activated protein kinase (AMPK) phosphorylates TSC2 and enhances its activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14651849",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Once activated under the various metabolic stress conditions, AMPK regulates a multitude of metabolic pathways to balance cellular energy. In addition, AMPK also induces cell cycle arrest or apoptosis through several tumor suppressors including LKB1, TSC2, and p53.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24173372",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

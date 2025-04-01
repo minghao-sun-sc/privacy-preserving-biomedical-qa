@@ -1,0 +1,57 @@
+{
+  "id": "52b2f09f4003448f55000008",
+  "type": "yesno",
+  "question": "Is triadin involved in cardiac function?",
+  "ideal_answer": "Yes, triadin is involved in the regulation of cardiac excitation-contraction coupling.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18206802",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17890426",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15191886",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15023559"
+  ],
+  "snippets": [
+    {
+      "text": "Junctin (JCN), a 26-kd sarcoplasmic reticulum (SR) transmembrane protein, forms a quaternary protein complex with the ryanodine receptor, calsequestrin, and triadin in the SR lumen of cardiac muscle. Within this complex, calsequestrin, triadin, and JCN appear to be critical for normal regulation of ryanodine receptor-mediated calcium (Ca) release.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18206802",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent studies have uncovered functional roles of both JCN and triadin in the mouse heart, using transgenic overexpression strategies, which exhibit varying phenotypes including mild SR structural alterations, prolongation of Ca transient decay, impaired relaxation, and cardiac hypertrophy and/or heart failure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18206802",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Triadin is involved in the regulation of cardiac excitation-contraction coupling. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17890426",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Thus the maintenance of triadin expression is essential for normal SR Ca cycling and contractile function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17890426",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ca2+ release from the cardiac junctional sarcoplasmic reticulum (SR) is regulated by a complex of proteins, including the ryanodine receptor (RyR), calsequestrin (CSQ), junctin (JCN), and triadin 1 (TRD).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15023559",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Impaired sarcoplasmic reticulum (SR) Ca release has been suggested to contribute to the depressed cardiac function in heart failure. The release of Ca from the SR may be regulated by the ryanodine receptor, triadin, junctin, calsequestrin, and a histidine-rich, Ca-binding protein (HRC).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15191886",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/TRDN_RABIT",
+    "http://www.uniprot.org/uniprot/TRDN_HUMAN",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0060048",
+    "http://www.uniprot.org/uniprot/TRDN_CANFA"
+  ],
+  "exact_answer": "Yes"
+}

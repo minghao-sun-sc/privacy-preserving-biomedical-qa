@@ -1,0 +1,47 @@
+{
+  "id": "5e4be9496d0a27794100002a",
+  "type": "list",
+  "question": "Please list 3 drugs that have EGFR as their primary target.",
+  "ideal_answer": "There are a number of drugs that target EGFR. The best known targeted therapies include: Epidermal growth factor receptor (EGFR) monoclonal antibodies (cetuximab, panitumumab, zalutumumab and nimotuzumab), EGFR tyrosine kinase inhibitors (gefitinib, erlotinib, lapatinib, afatinib and dacomitinib)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28337370",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29725456",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29680500",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27655662",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28416737"
+  ],
+  "snippets": [
+    {
+      "text": "To that effect, targeted therapies to EGFR such as Cetuximab, Panitumumab-monoclonal antibodies and Gefitinib, Erlotinib-tyrosine kinase inhibitors have had success in therapeutic scenarios.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29680500",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Two important strategies that have attenuated lung cancers were through treatments with EGFR-tyrosine kinase-inhibitors, erlotinib and gefitinib, or EGFR-neutralizing antibodies, cetuximab and bevacizumab. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28337370",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The best known targeted therapies include: Epidermal growth factor receptor (EGFR) monoclonal antibodies (cetuximab, panitumumab, zalutumumab and nimotuzumab), EGFR tyrosine kinase inhibitors (gefitinib, erlotinib, lapatinib, afatinib and dacomitinib)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29725456",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "EGFR tyrosine kinase inhibitors (EGFR-TKIs) (erlotinib and gefitinib), of second-generation EGFR-TKI (afatinib) plus/minus the anti-EGFR monoclonal antibody cetuximab, and of third-generation EGFR-TKI (osimertinib).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28416737",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dual targeting of EGFR using one monoclonal antibody (mAb; cetuximab or panitumumab) and one tyrosine kinase inhibitor (EGFR-TKI; gefitinib or erlotinib) is a potential therapeutic approach. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27655662",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "nimotuzumab, Cetuximab, zalutumumab, Panitumumab, Dacomitinib, afatinib, gefitinb, Erlotinib, lapatinib, osimertinib"
+}

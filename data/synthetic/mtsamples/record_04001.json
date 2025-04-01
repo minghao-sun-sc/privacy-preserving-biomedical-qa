@@ -1,0 +1,38 @@
+{
+  "document_id": "record_04001",
+  "original_length": 1714,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "AND ,PLAN:,  Poison ivy.  Plan would be Solu-Medrol 125 mg IM X 1.  Continue over-the-counter Benadryl or Rx allergy medicine that he was given the last time he was here, which is a one-a-day aller...",
+    "Symptoms": "",
+    "Treatment": ",  Poison ivy.  Plan would be Solu-Medrol 125 mg IM X 1.  Continue over-the-counter Benadryl or Rx allergy medicine that he was given the last time he was here, which is a one-a-day allergy medicin...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Medrol 80 mg, Medrol 125 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, DATE_TIME, PHONE_NUMBER, PERSON"
+      ],
+      "pii_detected": [
+        "URL",
+        "DATE_TIME",
+        "PHONE_NUMBER",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "document_id": "record_04976",
+  "original_length": 4262,
+  "synthetic_length": 604,
+  "attributes": {
+    "Diagnosis": "\n- The patient admitted for gastrointestinal pathology, under working treatment.\n- History of prior heart murmur with echocardiogram findings as above.  Basically revealed normal left ventricular f...",
+    "Symptoms": "",
+    "Treatment": ".  During the hospitalization, the patient complains of shortness of breath, which is worsening.  The patient underwent an echocardiogram, which shows severe mitral regurgitation and also large ple...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "hydralazine 10 mg"
+  },
+  "is_safe": false,
+  "iterations_required": 3,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'The patient admitted for gastrointestinal patholog...'"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 2,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    }
+  ]
+}

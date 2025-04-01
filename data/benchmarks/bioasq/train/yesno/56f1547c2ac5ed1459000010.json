@@ -1,0 +1,61 @@
+{
+  "id": "56f1547c2ac5ed1459000010",
+  "type": "yesno",
+  "question": "Has single guide RNA been used on human cells?",
+  "ideal_answer": "Yes, sgRNA has been used in human cell lines.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24336569",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23873081",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25122746",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24870050",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25048165",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25759096",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24136345",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24770324",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23907171",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23940360",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23999092"
+  ],
+  "snippets": [
+    {
+      "text": "We used a library containing 73,000 sgRNAs to generate knockout collections and performed screens in two human cell lines.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24336569",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we engineer this system to enable RNA-guided genome regulation in human cells by tethering transcriptional activation domains either directly to a nuclease-null Cas9 protein or to an aptamer-modified single guide RNA (sgRNA).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23907171",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The type II CRISPR/Cas system from Streptococcus pyogenes and its simplified derivative, the Cas9/single guide RNA (sgRNA) system, have emerged as potent new tools for targeted gene knockout in bacteria, yeast, fruit fly, zebrafish and human cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23999092",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we engineer this system to enable RNA-guided genome regulation in human cells by tethering transcriptional activation domains either directly to a nuclease-null Cas9 protein or to an aptamer-modified single guide RNA (sgRNA). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23907171",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using synthetic single RNA guides, Cas9 can be reprogrammed to create specific double-stranded DNA breaks in the genomes of a variety of organisms, ranging from human cells to bacteria, and thus constitutes a powerful tool for genetic engineering. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25048165",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we engineer this system to enable RNA-guided genome regulation in human cells by tethering transcriptional activation domains either directly to a nuclease-null Cas9 protein or to an aptamer-modified single guide RNA (sgRNA).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23907171",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017394"
+  ],
+  "exact_answer": "Yes"
+}

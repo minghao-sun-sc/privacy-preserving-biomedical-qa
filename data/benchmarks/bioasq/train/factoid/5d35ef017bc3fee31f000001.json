@@ -1,0 +1,75 @@
+{
+  "id": "5d35ef017bc3fee31f000001",
+  "type": "factoid",
+  "question": "Which epigenetic mark is deposited by PRC2?",
+  "ideal_answer": "H3K27me3 is the major histone methyltransferase activity of PRC2.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27410265",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27216774",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22158708",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28256832",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17525233",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24469045",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19377285",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18931660",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23326524"
+  ],
+  "snippets": [
+    {
+      "text": "polycomb repressive complex 2 (PRC2), which mediates trimethylation of lysine 27 on histone H3 (K27me3)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17525233",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PRC2, has an additional function to stimulate the PRC2 activity after binding to H3K27me3",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28256832",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In Arabidopsis thaliana, LHP1 co-localizes with H3K27me3 epigenetic marks throughout the genome and interacts with PRC1 and PRC2 members as well as with a long noncoding RNA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27410265",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Knockdown of PRC2 H3K27-methyltransferases Ezh2 and Ezh1, or forced expression of the Trithorax/COMPASS subunit Wdr5 activates Runx2/p57 mRNA expression in both immature and mature hippocampal cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27216774",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we show that, in cancer cells, the epigenetic remodeling of chromatin into hypoacetylated domains covered with histone H3K27 trimethylation is paralleled by changes in higher-order chromatin structures.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24469045",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " There are data showing coordinate regulation between DNAme and H3K27me3, which are both involved in the establishment and maintenance of epigenetic gene silencing",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23326524",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Polycomb repressive complex 2 (PRC2) trimethylates histone H3 at lysine 27, which establishes H3K27me3 repressive epigenetic marks that promote tissue-specific differentiation by silencing ectopic gene programs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22158708",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We found that the Polycomb Repressive Complex 2 (PRC2), which is responsible for di- and trimethylation of H3K27 (H3K27me2/me3), binds to its own site of methylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19377285",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we provide a model to explain how trimethylated Lys 27 of histone 3 (H3K27me3), which is catalysed by the EZH2-containing Polycomb Repressive Complex 2 (PRC2), is maintained in proliferating cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18931660",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "H3K27me3"
+}

@@ -1,0 +1,203 @@
+{
+  "id": "644f057357b1c7a315000087",
+  "type": "list",
+  "question": "Which transcription factors are essential for the melanocyte lineage?",
+  "ideal_answer": "Microphthalmia-associated transcription factor (MITF) is the master regulator of the melanocyte lineage. It governs multiple steps in the development of melanocytes, including specification from the neural crest, growth, survival, and terminal differentiation. However, MITF does not act alone. ChIP-seq studies have indicated that the transcription factors SOX10, YY1, and TFAP2A co-occupy subsets of regulatory elements bound by MITF in melanocytes. Analyses at single loci also support roles for LEF1, RB1, IRF4, and PAX3 acting in combination with MITF, while sequence motif analyses suggest that additional transcription factors co-localize with MITF at many melanocyte-specific regulatory elements. Nonetheless, the precise biochemical functions of each of these MITF collaborators and their contributions to gene expression remain to be elucidated.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23874858",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26206884",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32796736",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18983540",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23913827",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12235125",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18628967",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28649789",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25803486",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12819038",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16280008",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21326905",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21258399",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11231058",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10770922",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14660543",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15760336",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15277526",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17237008",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25510211",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21997191",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19464596",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28263292",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24769727",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36112085",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11830592",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25818589",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23935512",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12789278",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22290434",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28249010",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22999738",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36040798",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17000761",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35021087"
+  ],
+  "snippets": [
+    {
+      "text": "Microphthalmia-associated transcription factor (MITF) is the master regulator of the melanocyte lineage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25803486",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MITF and SOX10 actively recruit BRG1 to a set of MITF-associated regulatory elements (MAREs) at active enhancers. Combinations of MITF, SOX10, TFAP2A, and YY1 bind between two BRG1-occupied nucleosomes thus defining both a signature of transcription factors essential for the melanocyte lineage and a specific chromatin organisation of the regulatory elements they occupy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25803486",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MITF governs multiple steps in the development of melanocytes, including specification from neural crest, growth, survival, and terminal differentiation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28649789",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, MITF does not act alone.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28649789",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ChIP-seq studies have indicated that the transcription factors SOX10, YY1, and TFAP2A co-occupy subsets of regulatory elements bound by MITF in melanocytes. Analyses at single loci also support roles for LEF1, RB1, IRF4, and PAX3 acting in combination with MITF, while sequence motif analyses suggest that additional transcription factors colocalize with MITF at many melanocyte-specific regulatory elements. However, the precise biochemical functions of each of these MITF collaborators and their contributions to gene expression remain to be elucidated.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28649789",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Combinations of MITF, SOX10, TFAP2A, and YY1 bind between two BRG1-occupied nucleosomes thus defining both a signature of transcription factors essential for the melanocyte lineage and a specific chromatin organisation of the regulatory elements they occupy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25803486",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The microphthalmia-associated transcription factor (Mitf) is essential for melanocytic lineage development and for expression of melanogenic enzymes, such as tyrosinase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11830592",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mitf encodes a basic helix-loop-helix transcription factor that plays an essential role in the differentiation of the retinal pigmented epithelium (RPE) and neural crest-derived melanocytes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15277526",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Commitment to the melanocyte lineage is characterized by the onset of expression of the microphthalmia-associated transcription factor (Mitf).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17000761",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The microphthalamia-associated transcription factor (MITF) is an integral transcriptional regulator in melanocyte, the lineage from which melanoma cells originate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12789278",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Commitment to the melanocyte lineage is characterized by the onset of microphthalmia-associated transcription factor (Mitf) expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10770922",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BRG1 is essential for melanoma cell proliferation in vitro and for normal melanocyte development in vivo.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25803486",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription factor MITF and remodeller BRG1 define chromatin organisation at regulatory elements in melanoma cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25803486",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "MITF-BRG1 interplay thus plays an essential role in transcription regulation in melanoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25803486",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The basic helix-loop-helix microphthalmia transcription factor (MITF) is the master regulator determining the identity and properties of the melanocyte lineage, and is regarded as a lineage-specific 'oncogene' that has a critical role in the pathogenesis of melanoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21258399",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MITF regulates expression of numerous pigmentation genes to promote melanocyte differentiation, as well as fundamental genes for maintaining cell homeostasis, including genes encoding proteins involved in apoptosis (eg, BCL2) and the cell cycle (eg, CDK2).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28263292",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "During embryogenesis, the transcription factor, Sox10, drives the survival and differentiation of the melanocyte lineage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23935512",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MITF encodes a transcription factor that is essential for normal melanocyte development and appears to regulate expression of several pigmentation genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12819038",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mitf is a basic helix-loop-helix-leucine zipper transcription factor whose M isoform is restricted to neural crest derived melanocytes and is essential for the development of these cells in vertebrates from mammals to fish.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14660543",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " In melanocytes, studies have so far focused on the Sox10 protein which functions both during melanocyte specification and at later times in the melanocyte lineage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15760336",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " However, the molecular mechanisms by which SOX10 guides the appropriate gene expression programs necessary to promote the melanocyte lineage are not fully understood.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26206884",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " SMARCA4 is also required for development of multipotent neural crest precursors into melanoblasts, which differentiate into pigment-producing melanocytes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36112085",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " During specification, Sox10 activates the Mitf gene as the key regulator of melanocyte development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15760336",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " MITF directs the terminal differentiation of melanocytes, and PAX3 helps to establish the properties of the melanocyte stem cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22999738",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Functionally, Tfap2b is required for only a few late-stage embryonic melanocytes, and is essential for McSC-dependent melanocyte regeneration.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35021087",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, by screening a pool of candidate transcription factors, we identify that a combination of the three factors, MITF, SOX10 and PAX3, directly converts mouse and human fibroblasts to functional melanocytes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25510211",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "MITF, Microphthalmia-associated transcription factor, SOX10, TFAP2A, YY1, IRF4, PAX3, RB1, LEF1, BRG1"
+}

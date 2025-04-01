@@ -1,0 +1,38 @@
+{
+  "id": "5c73acea7c78d69471000085",
+  "type": "yesno",
+  "question": "Should dacomitinib be used for treatment of glioblastoma patients?",
+  "ideal_answer": "No, dacomitinib has a limited single-agent activity in recurrent glioblastoma with EGFR amplification.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28575464",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30247945"
+  ],
+  "snippets": [
+    {
+      "text": "Expert opinion: Despite the poor global results of Dacomitinib in recurrent GB shown in a phase II trial, some patients had a significant benefit. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30247945",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Conclusions: Dacomitinib has a limited single-agent activity in recurrent GB with EGFR amplification.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28575464",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Expert opinion: Despite the poor global results of Dacomitinib in recurrent GB shown in a phase II trial, some patients had a significant benefit.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30247945",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Expert opinion: Despite the poor global results of Dacomitinib in recurrent GB shown in a phase II trial, some patients had a significant benefit.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30247945",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03935",
+  "original_length": 3468,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  Left renal cell carcinoma, left renal cyst.,SECONDARY DIAGNOSES:\n- Chronic obstructive pulmonary disease.\n- Coronary artery disease.,PROCEDURES: , Robotic-Assisted laparoscopic left renal cyst d...",
+    "Symptoms": "",
+    "Treatment": "Oncology evaluation and management",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, URL"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "URL"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

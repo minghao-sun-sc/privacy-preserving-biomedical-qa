@@ -1,0 +1,40 @@
+{
+  "id": "5e92021a2d3121100d000005",
+  "type": "list",
+  "question": "List the essential aminoacids.",
+  "ideal_answer": "Leucine\r\nIsoleucine\r\nValine \r\nTryptophan\r\nCysteine\r\nMethionine\r\nLysine\r\nPhenylalanine",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28089725",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6620854",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23477202",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11347201"
+  ],
+  "snippets": [
+    {
+      "text": "Leucine, isoleucine and valine are essential aminoacids",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28089725",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "high proportion of essential aminoacids (tryptophan and cysteine)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23477202",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Essential aminoacids methionine and lysine can be found in significantly lower amounts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11347201",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " essential aminoacids, the calcium-ketoacids of valine, leucine, isoleucine, and phenylalanine, and the calcium-hydroxyacid of methionine, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/6620854",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Leucine, Isoleucine, Valine, Tryptophan, Cysteine, Methionine, Lysine, Phenylalanine"
+}

@@ -1,0 +1,35 @@
+{
+  "document_id": "record_01095",
+  "original_length": 3012,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": "/PLAN: , Successful resumption of normal sinus rhythm from recurrent atrial fibrillation.  The patient's electrolytes are now normal and that will need close watching to avoid hypokalemia in the fu...",
+    "Symptoms": "",
+    "Treatment": ".  After an in depth discussion of the procedure (please see my initial consultation for further details) I asked the patient this morning if she would like me to repeat that as that discussion had...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "of 4 mg, sotalol 80 mg, metoprolol 50 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

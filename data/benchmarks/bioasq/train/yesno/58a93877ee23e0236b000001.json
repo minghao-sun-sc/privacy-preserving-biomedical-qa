@@ -1,0 +1,47 @@
+{
+  "id": "58a93877ee23e0236b000001",
+  "type": "yesno",
+  "question": "Is the protein lefty an inhibitor of nodal?",
+  "ideal_answer": "Yes, lefty is an inhibitor of nodal.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26506307",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25669884",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25672326",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26377939",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25684355"
+  ],
+  "snippets": [
+    {
+      "text": "The expression of lefty, an inhibitor of nodal is often reduced in tumor cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25672326",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Nodal, and an inhibitor, Lefty.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25684355",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "as well as the expression of Lefty, an inhibitor of nodal signaling,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26377939",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "he Nodal inhibitor lefty",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25669884",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The morphogen Nodal was proposed to form a long-range signaling gradient via a reaction-diffusion system, on the basis of differential diffusion rates of Nodal and its antagonist Lefty.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26506307",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

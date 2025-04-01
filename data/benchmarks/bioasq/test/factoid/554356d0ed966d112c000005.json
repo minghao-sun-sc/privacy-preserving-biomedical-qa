@@ -1,0 +1,148 @@
+{
+  "id": "554356d0ed966d112c000005",
+  "type": "factoid",
+  "question": "Which is the most common measure of differences between dinucleotide relative abundance \"genomic signatures\"",
+  "ideal_answer": "The concept of a genomic signature was introduced with the observation of species-type specific Dinucleotide Relative Abundance Profiles (DRAPs). The set of dinucleotide odds ratios or 'general design' is a remarkably stable property of the DNA of an organism, and can be used to discriminate between sequences from different organisms. The average absolute dinucleotide relative abundance difference is termed delta-distance. Delta-distance is the most commonly used measure of differences bwetween \"genomic signatures\". Delta-distances between different genomic sequences in the same species are low, and are generally smaller than the between-species delta-distances.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12171605",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15046306",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15716010",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9294192",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10430918",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9190805",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7482779",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10066522",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7809131",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18953039"
+  ],
+  "snippets": [
+    {
+      "text": "The average absolute dinucleotide relative abundance difference, termed delta-distance, has been commonly used to measure differences in dinucleotide composition, or 'genomic signature',",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18953039",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the concept of a genomic signature was introduced with the observation of species-type specific Dinucleotide Relative Abundance Profiles (DRAPs)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15716010",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The dinucleotide relative abundance profile can be regarded as a genomic signature because, despite diversity between species, it varies little between 50 kilobase or longer windows on a given genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12171605",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The profile is computed from the base step \"odds ratios\" that compare dinucleotide frequencies to those expected under the assumption of stochastic equilibrium (thorough shuffling).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12171605",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The genome signatures (dinucleotide relative abundance values)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10430918",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the set of dinucleotide biases constitutes a 'genomic signature' that can discriminate sequences from different organisms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10066522",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the set of dinucleotide odds ratio (relative abundance) values constitute a signature of each DNA genome, which can discriminate between sequences from different organisms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7482779",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Genomic homogeneity is investigated for a broad base of DNA sequences in terms of dinucleotide relative abundance distances (abbreviated delta-distances)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7809131",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "delta-distances between different genomic sequences in the same species are low, only about 2 or 3 times the distance found in random DNA, and are generally smaller than the between-species delta-distances",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7809131",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the set of dinucleotide odds ratios or 'general design' is a remarkably stable property of the DNA of an organism",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7482779",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The average absolute dinucleotide relative abundance difference, termed delta-distance, has been commonly used to measure differences in dinucleotide composition, or 'genomic signature', between bacterial chromosomes and plasmids.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18953039",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The dinucleotide relative abundance profile can be regarded as a genomic signature because, despite diversity between species, it varies little between 50 kilobase or longer windows on a given genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12171605",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The correlation between the genomic signature and DNA-DNA hybridisation values was high and taxa that showed less than 30% DNA-DNA binding will in general not have dinucleotide relative abundance dissimilarity (delta*) values below 40.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15046306",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Previously, the concept of a genomic signature was introduced with the observation of species-type specific Dinucleotide Relative Abundance Profiles (DRAPs); dinucleotides were identified as the subsequences with the greatest bias in representation in a majority of genomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15716010",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Comparisons within and between species sample sequences are based on the profile of dinucleotide relative abundance values (The profile is rho*XY = f*XY/f*Xf*Y for all XY, where f*X denotes the frequency of the nucleotide X and f*XY denotes the frequency of the dinucleotide XY, both computed from the sequence concatenated with its inverted complement).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9294192",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The average absolute dinucleotide relative abundance difference, termed delta-distance, has been commonly used to measure differences in dinucleotide composition, or genomic signature, between bacterial chromosomes and plasmids.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18953039",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Comparisons within and between species sample sequences are based on the profile of dinucleotide relative abundance values (The profile is rho*XY = f*XY/f*Xf*Y for all XY, where f*X denotes the frequency of the nucleotide X and f*XY denotes the frequency of the dinucleotide XY, both computed from the sequence concatenated with its inverted complement).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9294192",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We demonstrate that the Mahalanobis distance is better than the delta-distance at measuring genomic signature differences between plasmids and chromosomes of potential hosts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18953039",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The average absolute dinucleotide relative abundance difference, termed delta-distance, has been commonly used to measure differences in dinucleotide composition, or 'genomic signature', between bacterial chromosomes and plasmids.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18953039",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The average absolute dinucleotide relative abundance difference, termed delta-distance, has been commonly used to measure differences in dinucleotide composition, or 'genomic signature', between bacterial chromosomes and plasmids",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18953039",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Previously, the concept of a genomic signature was introduced with the observation of species-type specific Dinucleotide Relative Abundance Profiles (DRAPs); dinucleotides were identified as the subsequences with the greatest bias in representation in a majority of genomes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15716010",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "delta-distance"
+}

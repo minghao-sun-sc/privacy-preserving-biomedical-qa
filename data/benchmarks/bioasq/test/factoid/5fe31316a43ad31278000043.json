@@ -1,0 +1,73 @@
+{
+  "id": "5fe31316a43ad31278000043",
+  "type": "factoid",
+  "question": "What induces downstream of gene (DoG) readthrough transcription?",
+  "ideal_answer": "Stress-induced transcriptional readthrough generates very long downstream of gene containing transcripts (DoGs), which may explain up to 20% of intergenic transcription. Massive induction of transcriptional readthrough generates downstream of gene-containing transcripts (DoGs) in cells under stress condition. Ca2+ signaling mediates reduced transcription termination in response to certain stress conditions. This reduction allows readthrough transcription, generating a highly inducible and diverse class of downstream of gene containing transcripts (DoGs) that we have recently described.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28928151",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9343185",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30089468",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29945683",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26861889",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29147672",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29548296"
+  ],
+  "snippets": [
+    {
+      "text": "Readthrough activation of early adenovirus E1b gene transcription",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9343185",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Using the rigorous methodology Cap-Seq, we demonstrated that DoGs result from transcriptional readthrough, not de novo initiation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29945683",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rather it is, as we originally demonstrated, transcriptional readthrough that leads to the formation of DoGs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29945683",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Previous studies demonstrated that massive induction of transcriptional readthrough generates downstream of gene-containing transcripts (DoGs) in cells under stress condition",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29548296",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Importantly, Ca2+ signaling mediates reduced transcription termination in response to certain stress conditions. This reduction allows readthrough transcription, generating a highly inducible and diverse class of downstream of gene containing transcripts (DoGs) that we have recently described.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29147672",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Finally, we examine genomic features of readthrough transcription and observe a unique chromatin signature typical of DoG-producing regions, suggesting that readthrough transcription is associated with the maintenance of an open chromatin state.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28928151",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We recently discovered that stress-induced transcriptional readthrough generates very long downstream of gene containing transcripts (DoGs), which may explain up to 20% of intergenic transcription. DoGs are induced by osmotic stress at the level of transcription by a mechanism that depends on calcium release from the endoplasmic reticulum mediated by IP3 receptors. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26861889",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, the readthrough response to stress has thus far not been investigated outside of mammalian species, and the occurrence of readthrough in many physiological and disease conditions remains to be explored",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30089468",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We further demonstrate the use of the DoGFinder software package on a new publically available RNA-seq dataset, and discover DoG induction in human PME cells following hypoxia - a previously unknown readthrough inducing stress type.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30089468",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "stress conditions"
+}

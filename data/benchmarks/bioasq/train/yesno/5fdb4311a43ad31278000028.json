@@ -1,0 +1,26 @@
+{
+  "id": "5fdb4311a43ad31278000028",
+  "type": "yesno",
+  "question": "Are enhancers directional in their targeting of gene promoters?",
+  "ideal_answer": "Promoters initiate transcription in opposite directions and are separated only by a short enhancer region, which is likely to regulate both promoters simultaneously. Most enhancers are able to regulate promoters on either side.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15198202",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10550664"
+  ],
+  "snippets": [
+    {
+      "text": "Novel bi-directional duplex promoters (BDDP) were constructed by placing two identical core promoters divergently on both upstream and downstream sides of their duplicated enhancer elements.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15198202",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These promoters initiate transcription in opposite directions and are separated only by a short enhancer region, which is likely to regulate both promoters simultaneously. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10550664",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

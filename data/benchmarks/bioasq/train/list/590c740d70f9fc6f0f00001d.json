@@ -1,0 +1,86 @@
+{
+  "id": "590c740d70f9fc6f0f00001d",
+  "type": "list",
+  "question": "Which proteins are controlling sterol metabolism in S. cerevisiae?",
+  "ideal_answer": "The yeast genome encodes seven oxysterol binding protein homologs, Osh1p-Osh7p, which have been implicated in regulating intracellular lipid and vesicular transport The yeast genome encodes seven oxysterol binding protein homologs, Osh1p-Osh7p, which have been implicated in regulating intracellular lipid and vesicular transport Upc2p, a transcription factor of the zinc cluster family, is an important regulator of sterol biosynthesis and azole drug resistance in Candida albicans",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/8491706",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10734216",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16096648",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9559263",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1779707",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18390649",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12697649",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23567752"
+  ],
+  "snippets": [
+    {
+      "text": "We have taken advantage of this property to study the regulation of the Delta8-Delta7-sterol isomerase-encoding ERG2 gene in an ergosterol auxotrophic mutant devoid of squalene-synthase activity. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10734216",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ergosterol starvation leads to an 8-16-fold increase in ERG2 gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10734216",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The yeast genome encodes seven oxysterol binding protein homologs, Osh1p-Osh7p, which have been implicated in regulating intracellular lipid and vesicular transport",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16096648",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Sterol metabolism and ERG2 gene regulation in the yeast Saccharomyces cerevisiae.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10734216",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Genomewide location analysis of Candida albicans Upc2p, a regulator of sterol metabolism and azole drug resistance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18390649",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "To better understand Upc2p function in C. albicans, we used genomewide location profiling to identify the transcriptional targets of Upc2p in vivo.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18390649",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Upc2p, a transcription factor of the zinc cluster family, is an important regulator of sterol biosynthesis and azole drug resistance in Candida albicans",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18390649",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Taken together, our results indicate that Upc2p is a key regulator of ergosterol metabolism. They also suggest that Upc2p may contribute to azole resistance by regulating the expression of drug efflux pump-encoding genes in addition to ergosterol biosynthesis genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18390649",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Northern blot analysis showed that increased binding correlates with increased expression for the analyzed Upc2p targets (ERG11, MDR1, CDR1, YOR1, SUT1, SMF12, and CBP1).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18390649",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Overrepresented functional groups of genes whose promoters were bound by Upc2p included 12 genes involved in ergosterol biosynthesis (NCP1, ERG11, ERG2, and others)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18390649",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cell wall maintenance genes TIR4 and CCW12, sterol metabolism gene UPC2, small molecule transport genes AUS1 and YHK8, and stress response gene CUP1-1 were expressed at a level at least 2.5-fold higher than the expression level found in 9763S.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12697649",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "ERG2, UCP2, Osh1p, Osh7p, ERG11, NCP1"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "63ee5eeaf36125a426000002",
+  "type": "yesno",
+  "question": "Does mutation of ARTEMIS gene causes severe combined immunodeficiency?",
+  "ideal_answer": "Artemis mutation disrupts development of adaptive immunity and leads to severe combined immunodeficiency.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/36385359",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35801871",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35773051",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35729475"
+  ],
+  "snippets": [
+    {
+      "text": "RESULTS: Seven infants were diagnosed with SCID, yielding an incidence of 1 in 22,819 live births. Four of these infants had Artemis-type SCID.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35729475",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Artemis deficiency disrupts development of adaptive immunity and leads to radiosensitive T- B- severe combined immunodeficiency (RS-SCID).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35801871",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Encouraging data for X-SCID and preclinical work for Artemis-SCID and RAG1-SCID are paving the way for the therapy to become a viable curative treatment option.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35773051",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Pathogenic variants in DCLRE1C encoding Artemis cause T-B-NK+ severe combined immunodeficiency (SCID), and patients with Artemis-deficient SCID (ART-SCID) require definitive therapy with allogeneic hematopoietic cell transplantation (HCT).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36385359",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

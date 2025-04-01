@@ -1,0 +1,37 @@
+{
+  "document_id": "record_04062",
+  "original_length": 4651,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "S\n- Bilateral augmentation mammoplasty, subglandular with a mammary gel silicone breast implant, 435 cc each.\n- TCA peel to two lesions of the face and vein stripping to the right posterior thigh a...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, PERSON, LOCATION"
+      ],
+      "pii_detected": [
+        "URL",
+        "PERSON",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

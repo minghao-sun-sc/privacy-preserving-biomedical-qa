@@ -1,0 +1,74 @@
+{
+  "id": "6422e2f1690f196b51000043",
+  "type": "factoid",
+  "question": "What human cells are usually targeted with a Gal-Nac conjugated siRNA or ASO",
+  "ideal_answer": "Gal-Nac conjugated siRNAs or ASOs are usually targeted to human hepatocytes, as they have a high affinity with the asialoglycoprotein receptor (ASGPR) on the surface of these cells.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24992960",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30576769",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31303442",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35819583",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33928570",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35997897",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35251767",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26907624"
+  ],
+  "snippets": [
+    {
+      "text": "Most siRNA therapeutic efforts to date have focused on the treatment of liver diseases due to major breakthroughs in the development of efficient strategies for delivering siRNA drugs to the liver. Indeed, the development of lipid nanoparticle-formulated and GalNAc-conjugated siRNA therapeutics has resulted in recent FDA approvals of the first siRNA-based drugs, patisiran for the treatment of hereditary transthyretin amyloidosis and givosiran for the treatment of acute hepatic porphyria, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33928570",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the first siRNA drugs received approval for clinical use by the US Food and Drug Administration and the European Medicines Agency between 2018 and 2022. These are mainly based on an siRNA conjugation with a targeting moiety for liver hepatocytes, N-acetylgalactosamine,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35997897",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "GalNAc-conjugated siRNAs rapidly distribute into the liver via asialoglycoprotein receptor (ASGPR) mediated uptake in the hepatocytes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35819583",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "hree such products (givosiran, lumasiran and inclisiran) are liver-targeted, using tris N-acetylgalactosamine (GalNAc)3 as the targeting ligand. Upon subcutaneous administration,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35819583",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Beyond that, we show that GalNAc-conjugated siRNAs with bulges at certain positions of the guide strand repress transthyretin in murine primary hepatocytes and in\u00a0vivo in mice.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35251767",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "One example is the targeted delivery of ASOs to hepatocytes, achieved with N-acetylgalactosamine (GalNAc) conjugation to ASO, which results in selective uptake by asialoglycoprotein receptor (ASGR).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31303442",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ng and NAFLD/NASH. Here, we studied the metabolic benefit of liver-specific STK25 inhibitors on NAFLD development and progression in a mouse model of diet-induced obesity.METHODS: We developed a hepatocyte-specific triantennary N-acetylgalactosamine (GalNAc)-conjugated antisense oligonucleotide (ASO) targeting Stk25 and evaluated its effect on NAFLD features in mice after chronic exposure to dietary lipids.RESULTS: We found that systemic administration of hepatocyte-targeting GalNAc-Stk25 ASO in obese mice effectively ameliorated steatosis, inflammatory infiltration, hepatic stellate cell activation, nutritional fibrosis, and hepatocellular damage in the liver compared with mice treated with GalNAc-conjugated nontargeting ASO, without any systemic tox",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30576769",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Triantennary N-acetyl galactosamine (GalNAc, GN3: ), a high-affinity ligand for the hepatocyte-specific asialoglycoprotein receptor (ASGPR), enhances the potency of second-generation gapmer antisense oligonucleotides (ASOs) 6-10-fold in mouse liver.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24992960",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TriantennaryN-acetyl galactosamine (GalNAc, GN3) and lipophilic ligands such as cholesterol and\u03b1-tocopherol conjugations dramatically improve the distribution and efficacy of second-generation antisense oligonucleotides (ASOs) in the whole liver.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26907624",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "hepatocytes, liver cells"
+}

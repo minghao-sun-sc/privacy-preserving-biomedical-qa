@@ -1,0 +1,35 @@
+{
+  "document_id": "record_04289",
+  "original_length": 6374,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Low back pain, lumbar radiculopathy, degenerative disc disease, lumbar spinal stenosis, history of anemia, high cholesterol, and hypothyroidism.,PLAN: , We discussed treatment options with this p...",
+    "Symptoms": "",
+    "Treatment": ", We discussed treatment options with this patient including:,1  Do nothing.\n- Conservative therapies.\n- Surgery.,She seems to have some issues with her right hip, so I would like for her to fax us...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Levoxyl 75 mcg, Lexapro 20 mg, primrose 1000 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: IN_PAN"
+      ],
+      "pii_detected": [
+        "IN_PAN"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "6217e5433a8413c653000032",
+  "type": "factoid",
+  "question": "What is the function of the protein SERT?",
+  "ideal_answer": "SERT is a Serotonin transporter.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34599615",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34506649",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34136961",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34564289",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31822819",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34517785"
+  ],
+  "snippets": [
+    {
+      "text": "serotonin and dopamine transporters (SERT and DAT).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34136961",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " the transporter proteins for serotonin (SERT) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31822819",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " serotonin transporter (SERT)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34506649",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "serotonin transporter (SERT)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34517785",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "serotonin receptor (SERT) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34564289",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "5-HT transporter (SERT) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34599615",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Serotonin transporter"
+}

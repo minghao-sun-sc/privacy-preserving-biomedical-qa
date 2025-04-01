@@ -1,0 +1,37 @@
+{
+  "document_id": "record_04103",
+  "original_length": 2552,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  Viral upper respiratory infection (URI) with sinus and eustachian congestion.,PLAN:,  I did educate the patient about her problem and urged her to switch to [person] & Sinus for the next three...",
+    "Symptoms": "",
+    "Treatment": ",  I did educate the patient about her problem and urged her to switch to [person] & Sinus for the next three to five days for better control of her sinus and eustachian discomfort.  I did urge h...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, LOCATION"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

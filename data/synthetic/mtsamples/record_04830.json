@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04830",
+  "original_length": 2679,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": ", including cardiac catheterization, which did not show any coronary artery disease.\n- Remote history of carcinoma of the breast.\n- Remote history of right nephrectomy.\n- Allergic rhinitis.,HOSPITA...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Metoprolol 25 mg, Simvastatin 20 mg, Prednisone 20 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Remote history of carcinoma of the breast...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

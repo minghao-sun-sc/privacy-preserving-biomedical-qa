@@ -1,0 +1,118 @@
+{
+  "id": "6429e17657b1c7a315000007",
+  "type": "list",
+  "question": "What histone marks are indicative of enhancers in the chromatin landscape of a given cell?",
+  "ideal_answer": "H3K4me1 marks where enhancers are in the chromatin landscape. By further identifying H3K27Ac on the same histone, we can determine whether the enhancer is active or inactive. Finally, H3K4me3 is a predominant feature of active promoters, but detectable levels of this modification are also observed at active enhancers.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30858345",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24038352",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28759003",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21106759",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27454738",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29233090",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22593555",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21847099",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32695760",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23739122",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29255264",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22537144",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28916725",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27681438",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19021773",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35314737",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30110629",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28981749",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27617035",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29875794",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34134708",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28649883"
+  ],
+  "snippets": [
+    {
+      "text": "Furthermore, 218 p53-bound enhancers (Enhp53) were identified by analyzing p53 ChIP-seq in HepG2 cells after DNA damage. The results showed that the enhancer expression and histone markers of enhancers (H3K4me1, H3K4me2, H3K4me3, H3K9ac, and H3K27ac) revealed significantly higher level on Enhp53 than Enhno-p53 which suggested that p53 participated in regulating enhancer activity and chromatin structure.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32695760",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In general, transcription start sites of actively transcribed genes are marked by trimethylated H3K4 (H3K4me3) and acetylated H3K27 (H3K27ac), and active enhancers can be identified by enrichments of both monomethylated H3K4 (H3K4me1) and H3K27ac.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23739122",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA methylation at promoters is largely correlated with inhibition of gene expression. However, the role of DNA methylation at enhancers is not fully understood, although a crosstalk with chromatin marks is expected. Actually, there exist contradictory reports about positive and negative correlations between DNA methylation and H3K4me1, a chromatin hallmark of enhancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29233090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We hypothesized \"seesaw\" dynamics between H3K4me1 and H3K4me3 in the low and intermediate DNA methylation range, in which DNA methylation discriminates between enhancers and promoters, marked by H3K4me1 and H3K4me3, respectively. Low methylated regions are H3K4me3 enriched, while those with intermediate DNA methylation levels are progressively H3K4me1 enriched. Additionally, the enrichment of H3K27ac, distinguishing active from primed enhancers, follows a plateau in the lower range of the intermediate DNA methylation level, corresponding to active enhancers, and decreases linearly in the higher range of the intermediate DNA methylation. Thus, the decrease of the DNA methylation switches smoothly the state of the enhancers from a primed to an active state.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29233090",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "For example, although histone H3 lysine 4 mono-methylation (H3K4me1) indicates the presence of transcriptional gene enhancers, it does not provide clearcut information about their actual position and stage-specific activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21847099",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Studies performed on mammalian embryonic stem cells and Drosophila embryos suggest that active enhancers form part of a defined chromatin landscape marked by histone H3 lysine 4 mono-methylation (H3K4me1) and histone H3 lysine 27 acetylation (H3K27ac).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22593555",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In mammalian cells, active or primed enhancers are commonly marked by monomethylation of histone H3 at lysine 4 (H3K4me1) in a cell-type-specific manner.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29255264",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "H3K4 tri-methylation provides an epigenetic signature of active enhancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21847099",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Although certain chromatin features, such as the histone acetyltransferase P300 and the histone modification H3K4me1, indicate the presence of enhancers, only a fraction of enhancers are functionally active.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24038352",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The coexistence of high mono-methylation and low tri-methylation levels of lysine 4 of histone H3 is considered a signature of enhancers, but a comprehensive view of histone modifications associated to enhancers is still lacking.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28981749",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we use ChIP sequencing (ChIP-seq) to identify domains enriched for the histone marks histone H3 lysine 4 trimethylation, histone H3 lysine 4 monomethylation, and histone H3 lysine 27 acetylation (H3K4me3, H3K4me1, and H3K27ac) and define, for the first time, the super enhancers and typical enhancers active in primary human corneal epithelial cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28916725",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We find that histone H3K27ac distinguishes active enhancers from inactive/poised enhancer elements containing H3K4me1 alone.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21106759",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These complex regulatory mechanisms are often defined by combinatorial histone PTMs; for instance, active enhancers are commonly occupied by both marks H3K4me1 and H3K27ac.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28649883",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using ChIP-Seq data, we examined these regions for presence of H3K4me1, H3K27ac, and H3K9ac histone marks (typically associated with latent/active enhancers).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34134708",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "H3K4me1, H3K4me1-enriched, H3K27Ac, acetylated H3K27, H3K4me3, H3K4me3-enriched"
+}

@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03219",
+  "original_length": 3494,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", History of hyperlipidemia with elevated triglycerides.  We will maintain his gemfibrozil 600 b.i.d. and for health maintenance issues, we will also maintain just a vitamin daily and we will obtai...",
+    "Symptoms": "",
+    "Treatment": "is initiated.",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, PERSON, NRP"
+      ],
+      "pii_detected": [
+        "URL",
+        "PERSON",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

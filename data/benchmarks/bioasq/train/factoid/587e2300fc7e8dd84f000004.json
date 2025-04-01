@@ -1,0 +1,75 @@
+{
+  "id": "587e2300fc7e8dd84f000004",
+  "type": "factoid",
+  "question": "Which R package could be used for the identification of pediatric brain tumors?",
+  "ideal_answer": "MethPed",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27370569"
+  ],
+  "snippets": [
+    {
+      "text": "MethPed: an R package for the identification of pediatric brain tumor subtypes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27370569",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We have therefore developed the MethPed classifier, which is a multiclass random forest algorithm, based on DNA methylation profiles from many subgroups of pediatric brain tumors",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27370569",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The MethPed R package efficiently classifies pediatric brain tumors using the developed MethPed classifier. MethPed is available via Bioconductor: http://bioconductor.org/packages/MethPed/",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27370569",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA methylation profiling of pediatric brain tumors offers a new way of diagnosing and subgrouping these tumors which improves current clinical diagnostics based on histopathology. We have therefore developed the MethPed classifier, which is a multiclass random forest algorithm, based on DNA methylation profiles from many subgroups of pediatric brain tumors",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27370569",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "e developed an R package that implements the MethPed classifier, making it easily available and accessible. The package can be used for estimating the probability that an unknown sample belongs to each of nine pediatric brain tumor diagnoses/subgroups",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27370569",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The MethPed R package efficiently classifies pediatric brain tumors using the developed MethPed classifier",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27370569",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MethPed: an R package for the identification of pediatric brain tumor subtypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27370569",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "MethPed: an R package for the identification of pediatric brain tumor subtypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27370569",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The MethPed R package efficiently classifies pediatric brain tumors using the developed MethPed classifier.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27370569",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We developed an R package that implements the MethPed classifier, making it easily available and accessible.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27370569",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D010372"
+  ],
+  "exact_answer": "MethPed"
+}

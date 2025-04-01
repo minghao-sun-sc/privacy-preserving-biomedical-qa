@@ -1,0 +1,62 @@
+{
+  "id": "5322de919b2d7acc7e000012",
+  "type": "yesno",
+  "question": "Has proteomics been used in the study of the dry eye syndrome?",
+  "ideal_answer": "Yes, tears obtained from patients with the dry eye syndrome have been analyzed using different proteomic technologies.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21384922",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24282230",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19705875",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20882555",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23272196"
+  ],
+  "snippets": [
+    {
+      "text": "Tear proteomic analysis of patients with type 2 diabetes and dry eye syndrome by two-dimensional nano-liquid chromatography coupled with tandem mass spectrometry.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24282230",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Dry eye syndrome in diabetic patients is associated with aberrant expression of tear proteins, and the findings could lead to identification of novel pathways for therapeutic targeting and new diagnostic markers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24282230",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " 2D electrophoresis (2DE) and Differential gel electrophoresis (DIGE) was done to identify differentially expressed proteins. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23272196",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Two dimensional electrophoretic analysis of human tears: collection method in dry eye syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20882555",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Identification of tear fluid biomarkers in dry eye syndrome using iTRAQ quantitative proteomics.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19705875",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "This study demonstrated that iTRAQ technology combined with 2D-nanoLC-nanoESI-MS/MS quantitative proteomics is a powerful tool for biomarker discovery.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19705875",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015352",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005128",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005123",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D040901",
+    "http://www.disease-ontology.org/api/metadata/DOID:225",
+    "http://www.disease-ontology.org/api/metadata/DOID:10140",
+    "http://www.disease-ontology.org/api/metadata/DOID:5614",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005136"
+  ],
+  "exact_answer": "Yes"
+}

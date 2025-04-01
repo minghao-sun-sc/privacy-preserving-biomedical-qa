@@ -1,0 +1,36 @@
+{
+  "document_id": "record_02881",
+  "original_length": 2967,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "Falls at home.  Anxiety and depression.  The patient had been increasingly anxious and freely admitted that she was depressed at home. Falls - [person]",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Tylenol 650 mg, Lasix 80 mg, Isordil 10 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

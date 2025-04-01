@@ -1,0 +1,46 @@
+{
+  "id": "51739df58ed59a060a00001c",
+  "type": "factoid",
+  "question": "Which is the most important prognosis sub-classification in Chronic Lymphocytic Leukemia?",
+  "ideal_answer": "The mutational status of the immunoglobulin heavy variable (IGHV) genes, defines two subsets: mutated and unmutated CLL. Unmutated CLL patients show a shorter progression-free and overall survival than mutated CLL patients.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22560084",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16083281",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23468975",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20353875",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16014569",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20090781",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17786276",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19500131",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16825496",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19127482"
+  ],
+  "snippets": [
+    {
+      "text": "One of the most reliable prognostic markers in chronic lymphocytic leukemia (CLL) is the mutational status of immunoglobulin heavy variable (IGHV) genes, which defines 2 subsets, mutated CLL (M-CLL) and unmutated CLL (U-CLL), with different clinical courses.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22560084",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Mutational status of the immunoglobulin heavy chain variable regions (IGHVs) of CLL cells offers useful prognostic information for high-risk patients",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20090781",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "but time and economical costs originally prevented it from being routinely used in a clinical setting. Instead, alternative markers of IGHV status, such as zeta-associated protein (ZAP70) or messenger RNA levels are often used",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20090781",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Patients with unmutated IgV(H) gene show a shorter progression-free and overall survival than patients with immunoglobulin heavy chain variable regions (IgV(H)) gene mutated",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19127482",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "The mutational status of the IGHV genes."
+}

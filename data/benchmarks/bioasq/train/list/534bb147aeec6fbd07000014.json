@@ -1,0 +1,63 @@
+{
+  "id": "534bb147aeec6fbd07000014",
+  "type": "list",
+  "question": "Which are the cardiac effects of thyronamines?",
+  "ideal_answer": "Thyronamines have negative chronotropy, negative inotropy; in particular thyronamines are considered negative inotropic agents",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18954857",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21835056",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19016324",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20880963",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17204552",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19273499",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20739399",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17579492",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22073124",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18486124"
+  ],
+  "snippets": [
+    {
+      "text": "Most recently, thyroid hormone derivatives were identified, the thyronamines which are decarboxylated thyroid hormones initiating physiological actions like lowering body temperature and heart rate, thereby acting in opposite direction to the classical thyroid hormones.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21835056",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Intraperitoneal or central injection of 3-T(1)AM or T(0)AM into mice, rats, or Djungarian hamsters caused various prompt effects, such as metabolic depression, hypothermia, negative chronotropy, negative inotropy, hyperglycemia, reduction of the respiratory quotient, ketonuria, and reduction of fat mass. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20880963",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Functional effects have been observed after administration of exogenous T(1)AM: in the isolated heart, a negative inotropic and chronotropic action was produced, and the resistance to ischemic injury was increased, possibly as a consequence of an action on intracellular calcium homeostasis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19016324",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Octopamine, beta-phenylethylamine, and tryptamine produced a dose-dependent negative inotropic effect as shown by reduced cardiac output (IC(50)=109 microM, 159 microM, and 242 microM, respectively). In the same preparation a similar effect was produced by thyronamine and 3-iodothyronamine, with IC(50)=94 microM and 27 microM, respectively. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18486124",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A class of thyroid hormone metabolites has dramatic physiological effects on metabolism and heart rate by still-unknown mechanisms of action. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17579492",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the mouse, thyronamines act rapidly in a nongenomic fashion to initiate hypothermia and decrease cardiac output and heart rate.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17204552",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006331",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006321",
+    "http://www.biosemantics.org/jochem#4251308",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002302"
+  ],
+  "exact_answer": "negative chronotropy, lower heart rate, negative inotropy, negative inotropism, resistance to ischemic injury, reduced cardiac output"
+}

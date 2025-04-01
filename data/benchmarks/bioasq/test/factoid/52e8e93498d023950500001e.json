@@ -1,0 +1,33 @@
+{
+  "id": "52e8e93498d023950500001e",
+  "type": "factoid",
+  "question": "What is the mode of inheritance of Facioscapulohumeral muscular\ndystrophy (FSHD)?",
+  "ideal_answer": "The mode of inheritance of Facioscapulohumeral muscular dystrophy is autosomal dominant.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22551571"
+  ],
+  "snippets": [
+    {
+      "text": "autosomal dominant mode of inheritance",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22551571",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/FRG2_HUMAN",
+    "http://www.disease-ontology.org/api/metadata/DOID:11727",
+    "http://www.uniprot.org/uniprot/FRG2C_HUMAN",
+    "http://www.uniprot.org/uniprot/FRG2B_HUMAN",
+    "http://www.uniprot.org/uniprot/FRG1_HUMAN",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020391",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009136",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009135",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D040582",
+    "http://www.disease-ontology.org/api/metadata/DOID:9884",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014918",
+    "http://www.uniprot.org/uniprot/FRG1_MOUSE",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050557"
+  ],
+  "exact_answer": "autosomal dominant"
+}

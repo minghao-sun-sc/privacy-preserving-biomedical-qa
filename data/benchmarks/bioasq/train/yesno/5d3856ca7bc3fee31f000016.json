@@ -1,0 +1,60 @@
+{
+  "id": "5d3856ca7bc3fee31f000016",
+  "type": "yesno",
+  "question": "Is PRDM9 essential for meiosis?",
+  "ideal_answer": "PRDM9 is essential for the progression through early meiotic prophase, including double strand break repair, homologous chromosome pairing, and sex body formation during spermatogenesis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29674518",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19997497",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24634223",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23190393",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30161134",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29478809"
+  ],
+  "snippets": [
+    {
+      "text": "Our findings do not identify the nature of the underlying DNA sequences, but argue against the proposed role of Prdm9 as an essential transcription factor in mouse meiosis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19997497",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PRDM9 gene polymorphism may not be associated with defective spermatogenesis in the Chinese Han population",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23190393",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "PRDM9 is essential for the progression through early meiotic prophase, including double strand break repair, homologous chromosome pairing, and sex body formation during spermatogenesis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23190393",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PRDM9 (PR domain-containing protein 9) is a meiosis-specific protein that trimethylates H3K4 and controls the activation of recombination hot spots. It is an essential enzyme in the progression of early meiotic prophase.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24634223",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In many eukaryotes, sites of meiotic recombination, also called hotspots, are regions of accessible chromatin, but in many vertebrates, their location follows a distinct pattern and is specified by PR domain-containing protein 9 (PRDM9). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30161134",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " We found that although the post-SET zinc finger and the KRAB domains are not essential for the methyltransferase activity of PRDM9 in cell culture, the KRAB domain mutant mice show only residual PRDM9 methyltransferase activity and undergo meiotic arrest. In aggregate, our data indicate that domains typically involved in regulation of gene expression do not serve that role in PRDM9, but are likely involved in setting the proper chromatin environment for initiation and completion of homologous recombination.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29674518",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PRDM9 Methyltransferase Activity Is Essential for Meiotic DNA Double-Strand Break Formation at Its Binding Sites.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29478809",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

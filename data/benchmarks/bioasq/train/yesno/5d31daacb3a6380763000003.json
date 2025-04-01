@@ -1,0 +1,53 @@
+{
+  "id": "5d31daacb3a6380763000003",
+  "type": "yesno",
+  "question": "Are the members of the KRAB-ZNF  gene family promoting gene repression?",
+  "ideal_answer": "The stem cell zinc finger 1 (SZF1)/ZNF589 protein belongs to the large family of Kruppel-associated box domain-zinc finger (KRAB-ZNF) transcription factors, which are present only in higher vertebrates and epigenetically repress transcription by recruiting chromatin-modifying complexes to the promoter regions of their respective target genes Because KAP1 is recruited to the DNA via interaction with KRAB-ZNF proteins, we suggest that expression of KRAB-ZNF genes may be controlled via an auto-regulatory mechanism involving KAP1.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29198826",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30444046",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26814189",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26738774",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17542650"
+  ],
+  "snippets": [
+    {
+      "text": " The proteins encoded by these genes, whose expression is often tissue-specific, act as epigenetic suppressors contributing to the addition of repressive chromatin marks and DNA methylation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30444046",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, using a reporter system, we show that TRIM28/KRAB-ZNFs alter DNA methylation patterns in addition to H3K9me3 to cause stable gene repression during reprogramming. Using several expression datasets, we identified KRAB-ZNFs (ZNF114, ZNF483, ZNF589) in the human genome that maintain pluripotency.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29198826",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Further analyses of our data sets link GABPa to cognitive disorders, diabetes, KRAB zinc finger (KRAB-ZNF), and human-specific genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26814189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The stem cell zinc finger 1 (SZF1)/ZNF589 protein belongs to the large family of Kr\u00fcppel-associated box domain-zinc finger (KRAB-ZNF) transcription factors, which are present only in higher vertebrates and epigenetically repress transcription by recruiting chromatin-modifying complexes to the promoter regions of their respective target genes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26738774",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Because KAP1 is recruited to the DNA via interaction with KRAB-ZNF proteins, we suggest that expression of KRAB-ZNF genes may be controlled via an auto-regulatory mechanism involving KAP1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17542650",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Interestingly, although most KAP1 binding sites were within core promoter regions, the binding sites near ZNF genes were greatly enriched within transcribed regions of the target gene",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17542650",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

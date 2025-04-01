@@ -1,0 +1,60 @@
+{
+  "id": "56c1f000ef6e394741000037",
+  "type": "list",
+  "question": "Which drugs are included in TAS-102?",
+  "ideal_answer": "TAS-102 is a novel oral nucleoside antitumor agent consisting of trifluridine and tipiracil hydrochloride at a molar ratio of 1:0.5.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26557901",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26084259",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25776904",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25256052",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25230742",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25750295"
+  ],
+  "snippets": [
+    {
+      "text": "PURPOSE: Trifluridine (TFT) is an antitumor component of a novel nucleoside antitumor agent, TAS-102, which consists of TFT and tipiracil hydrochloride (thymidine phosphorylase inhibitor).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26084259",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TAS-102, a combination of trifluorothymidine and the thymidine phosphorylase inhibitor TPI in a 1:0.5 ratio, is a novel oral formulation, which is active in 5FU-resistant models, both in vitro and in xenograft models.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26557901",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "TAS-102 is a novel oral nucleoside antitumor agent consisting of trifluridine and tipiracil hydrochloride at a molar ratio of 1:0.5. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25750295",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "PURPOSE: TAS-102 is an orally administered anticancer agent composed of \u03b1,\u03b1,\u03b1-trifluorothymidine (FTD) and thymidine phosphorylase inhibitor (TPI). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25776904",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Novel DNA synthesis inhibitors for the treatment of gastrointestinal malignancies include a combination of the antimetabolite TAS-102, which consists of trifluorothymidine with a thymidine phosphorylase inhibitor, and a novel micellar formulation of cisplatin NC-6004 that uses a nanotechnology-based drug delivery system. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25256052",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Repeated oral dosing of TAS-102 confers high trifluridine incorporation into DNA and sustained antitumor activity in mouse models.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25230742",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "TAS-102 is a novel oral nucleoside antitumor agent containing trifluridine (FTD) and tipiracil hydrochloride (TPI).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25230742",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "trifluridine, tipiracil"
+}

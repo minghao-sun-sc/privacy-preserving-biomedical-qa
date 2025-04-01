@@ -1,0 +1,40 @@
+{
+  "id": "570a5343cf1c325851000022",
+  "type": "list",
+  "question": "List variants of the MC1R gene.",
+  "ideal_answer": "V60L\nD84E\nV92M\nR151C\nR160W\nR163Q\nD294H",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24170137",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25219681",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26103569",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24917043"
+  ],
+  "snippets": [
+    {
+      "text": "All of the investigated variants showed positive associations with NMSC, with consistent significant results obtained for V60L, D84E, V92M, R151C, R160W, R163Q and D294H: SOR (95%CI) ranged from 1.42 (1.19-1.70) for V60L to 2.66 (1.06-6.65) for D84E variant.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26103569",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The melanocortin 1 receptor (MC1R) gene encodes for a seven-pass transmembrane receptor primarily expressed on melanocytes and melanoma cells.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25219681",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "for V60L to 2.74 (1.53-4.89) for D84E. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24917043",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " We aim to examine the influence of the MC1R variants (RHC: D84E, R151C, R160W; NRHC: V60L, R163Q and the synonymous polymorphism T314T) on the MM risk in a population from the Canary Islands. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24170137",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "V60L, D84E, V92M, R151C, R160W, R163Q, D294H"
+}

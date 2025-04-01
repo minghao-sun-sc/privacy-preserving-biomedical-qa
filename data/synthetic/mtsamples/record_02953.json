@@ -1,0 +1,39 @@
+{
+  "document_id": "record_02953",
+  "original_length": 4427,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "tar responses were flexor on the right and withdrawal on the left.,HEENT and GEN EXAM: Unremarkable.,COURSE:, EMG/NCV, 9/26/96: Repetitive stimulation studies of the median, facial, and spinal acce...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Mestinon 30mg, to 60mg, to 30mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, PHONE_NUMBER, IP_ADDRESS, URL"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "PHONE_NUMBER",
+        "IP_ADDRESS",
+        "URL"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

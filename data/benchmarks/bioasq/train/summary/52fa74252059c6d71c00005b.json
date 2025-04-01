@@ -1,0 +1,69 @@
+{
+  "id": "52fa74252059c6d71c00005b",
+  "type": "summary",
+  "question": "Why are insulators necessary in gene therapy vectors?",
+  "ideal_answer": "a) They inhibit oncogene activation upon vector integration and b) They maximize the probability of vector expression upon integration in heterochromatinic regions",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21562592",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21205311",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21475904",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19352322",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12200360",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24098520",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9368350",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24312663",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19746166",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21247248",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14683449",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23786330",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15638709",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19536296"
+  ],
+  "snippets": [
+    {
+      "text": "hromatin insulators separate active transcriptional domains and block the spread of heterochromatin in the genome. Studies on the chicken hypersensitive site-4 (cHS4) element, a prototypic insulator, have identified CTCF and USF-1/2 motifs in the proximal 250 bp of cHS4, termed the \"core\", which provide enhancer blocking activity and reduce position effects.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19746166",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "An attractive solution to the problem of oncogene activation is the inclusion of insulators/enhancer-blockers in the viral vectors.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19536296",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We propose the incorporation of chromatin insulators in the design of gene therapy vectors to overcome the problem of position effects. Chromatin insulators are protein-binding DNA elements that lack intrinsic promoter/enhancer activity but shelter genes from transcriptional influence of surrounding chromatin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9368350",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The design and incorporation of effective chromatin insulator sequences in the next generation of gene therapy vectors should lead to improved and more predictable expression of therapeutic transgenes and constitute an important step toward clinically effective gene therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9368350",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0044009",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0044008",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002273",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D038101",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005796",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0043035",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010629",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009857",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016458",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015316",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010628",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0045893",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0045892",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010467",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006355",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005822",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010468",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004199",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015513"
+  ]
+}

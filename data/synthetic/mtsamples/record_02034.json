@@ -1,0 +1,39 @@
+{
+  "document_id": "record_02034",
+  "original_length": 6676,
+  "synthetic_length": 704,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Infected right hip bipolar arthroplasty, status post excision and placement of antibiotic spacer.,POSTOPERATIVE DIAGNOSIS:,  Infected right hip bipolar arthroplasty, status post exc...",
+    "Symptoms": "",
+    "Treatment": "",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, PHONE_NUMBER, URL, NRP"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "PHONE_NUMBER",
+        "URL",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "53372ba3d6d3ac6a34000058",
+  "type": "factoid",
+  "question": "Which histone modification is primarily linked to elongating transcription?",
+  "ideal_answer": "Similarly, H3K36 trimethylation, a mark associated with transcription elongation, was specifically increased at the HD locus in the striatum and not in the cerebellum. Recent studies reviewed here demonstrate that histone deacetylation on the body of a transcribed gene is regulated via Set2-mediated methylation of histone H3-K36.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21423663",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17046836",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23209427",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17346757",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17510366",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12667453",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22184065",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16503129"
+  ],
+  "snippets": [
+    {
+      "text": "Similarly, H3K36 trimethylation, a mark associated with transcription elongation, was specifically increased at the HD locus in the striatum and not in the cerebellum.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23209427",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "y expressing Myc protein fused with the estrogen receptor (Myc-ER) in fibroblasts, we observed that Myc, binding to the regulatory elements of Suz12, Ezh2, and Eed, induces the acetylation of histones H3 and H4 and the recruitment of elongating RNA polymerase II at their promoters",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22184065",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A basal level of JIL-1 binding can be defined that correlates best with the methylation of histone H3 at lysine 36, a mark that is placed co-transcriptionally",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21423663",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RNA polymerase II signals for deacetylation through the methylation of histone H3 lysine 36 (H3K36), which provides the recruitment signal for the Rpd3S histone deacetylase complex (HDAC)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17510366",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent studies reviewed here demonstrate that histone deacetylation on the body of a transcribed gene is regulated via Set2-mediated methylation of histone H3-K36",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17346757",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "H3K56 acetylation: a chromatin mark associated with the elongating RNA polymerase II",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17046836",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Furthermore, Rtt109 and H3K56 acetylation appear to correlate with actively transcribed genes and associate with the elongating form of polymerase II in yeast",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17046836",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition to coordinating the processing of the nascent transcript, elongating RNA polymerase II recruits histone methyltransferases to methylate lysines 4 and 36 of histone H3 in nucleosomes in the body of actively transcribed genes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16503129",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Set1, the yeast histone H3-lysine 4 (H3-K4) methylase, is recruited by the Pol II elongation machinery to a highly localized domain at the 5' portion of active mRNA coding regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12667453",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D042421",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006657",
+    "http://www.biosemantics.org/jochem#4278518",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006354"
+  ],
+  "exact_answer": "H3K36me3, H3K36 trimethylation"
+}

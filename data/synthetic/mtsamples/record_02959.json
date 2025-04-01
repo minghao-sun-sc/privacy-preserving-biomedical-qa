@@ -1,0 +1,36 @@
+{
+  "document_id": "record_02959",
+  "original_length": 3574,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "of [person], [person], Ependymoma, Neurocytoma, Glioma: all with associated hemorrhage.,He underwent cerebral angiography on 1/25/93. Upon injection of the RCCA an avascular...",
+    "Symptoms": "",
+    "Treatment": "tar responses were flexor, bilaterally.,HEENT: no meningismus. no cranial bruits. no skull defects palpated.,GEN EXAM: unremarkable.,COURSE:, GS, PT/PTT, CBC were unremarkable. The MRI finding abov...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

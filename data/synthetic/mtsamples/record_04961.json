@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04961",
+  "original_length": 7315,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  Left leg claudication.,POSTPROCEDURE DIAGNOSIS: ,  Left leg claudication.,OPERATION PERFORMED: , Aortogram with bilateral, segmental lower extremity run off.,ANESTHESIA: , Conscious sedation.,IN...",
+    "Symptoms": "",
+    "Treatment": "Ultrasound examination",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',OPERATION PERFORMED: , Aortogram with bilateral, ...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

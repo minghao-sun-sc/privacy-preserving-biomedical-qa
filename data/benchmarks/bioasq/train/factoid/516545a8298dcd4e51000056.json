@@ -1,0 +1,47 @@
+{
+  "id": "516545a8298dcd4e51000056",
+  "type": "factoid",
+  "question": "Which is the protein (antigen) targeted by anti-Vel antibodies in the Vel blood group?",
+  "ideal_answer": "Disruption of SMIM1 causes the Vel- blood type. The protein carrying the Vel blood group antigen was biochemically purified from red blood cell membranes. Mass spectrometry-based de novo peptide sequencing identified this protein to be small integral membrane protein 1 (SMIM1), a previously uncharacterized single-pass membrane protein. Expression of SMIM1 cDNA in Vel- cultured cells generated anti-Vel cell surface reactivity, confirming that SMIM1 encoded the Vel blood group antigen. (PMID: 23505126)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/1823954",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14617316",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23505126",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1304158",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9745158",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6522937",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1703877",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12430675",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18598283",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20795312",
+    "http://www.ncbi.nlm.nih.gov/pubmed/889425"
+  ],
+  "snippets": [
+    {
+      "text": "Anti-Vel is an uncommon antibody to a high-prevalence antigen. Its clinical significance and management in the prenatal setting are not well characterized.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20795312",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Haemolytic disease of the newborn because of rare anti-Vel.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18598283",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "A haemolytic anti-Vel was detected in the tube test. In contrast, the particular commercial gel test kit used did not reveal the haemolytic property or specificity of the antibody.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9745158",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001788",
+    "http://www.disease-ontology.org/api/metadata/DOID:4176",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001789",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000941",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000906"
+  ],
+  "exact_answer": "SMIM1"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "5c7006037c78d6947100005d",
+  "type": "list",
+  "question": "Which characteristics are used in the SLEDAI index for SLE patients?",
+  "ideal_answer": "The SLEDAi is a \"weighted\" index of 9 organ systems for disease activity in SLE which includes: 8 for central nervous system and vascular, 4 for renal and musculoskeletal, 2 for serosal, dermal, immunologic, and 1 for constitutional and hematologic.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22800940",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29688532",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1599520",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15468356",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17183620"
+  ],
+  "snippets": [
+    {
+      "text": "Twenty-four variables were identified as important factors in a disease activity index.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1599520",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This generated a \"weighted\" index of 9 organ systems for disease activity in SLE, the SLEDAI",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1599520",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "8 for central nervous system and vascular, 4 for renal and musculoskeletal, 2 for serosal, dermal, immunologic, and 1 for constitutional and hematologic.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1599520",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Patients with SLEDAI-2K renal, immunological and hematologic active descriptors were identified.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22800940",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "For the prediction of survival, AMS [hazard ratio (HR) = 1.16, p < 0.0001] and age at diagnosis (HR 1.05, p < 0.0001) were the only significant risk factors. For presence of damage, AMS (HR 1.06, p < 0.0001), age at diagnosis (HR 1.02, p = 0.0004), and disease duration (HR 1.05, p < 0.0001) were predictors. CAD was predicted by AMS (HR 1.12, p = 0.0003), male sex (HR 2.31, p = 0.02), age at diagnosis (HR 1.06, p < 0.0001), and disease duration (HR 1.10, p < 0.0001)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17183620",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "central nervous system, vascular system, renal system, musculoskeletal system, serosal system, dermal system, immune system, hematological system"
+}

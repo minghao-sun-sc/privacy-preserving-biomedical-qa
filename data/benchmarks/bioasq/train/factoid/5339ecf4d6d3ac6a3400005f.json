@@ -1,0 +1,87 @@
+{
+  "id": "5339ecf4d6d3ac6a3400005f",
+  "type": "factoid",
+  "question": "Which is the prognostic meaning of delayed enhancement documented in patients hypertrophic cardiomyopathy?",
+  "ideal_answer": "Delayed enhancement by CMR has prognostic value in predicting adverse cardiovascular events among HCM patients, and is associated with cardiovascular mortality, heart failure death, and all-cause mortality in HCM.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19740409",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23376948",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22128204",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19784900",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20688032",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18204915",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22135401",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12224720",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19808288",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18562248",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22498326",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22348519",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21234292",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15861263",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21498307",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20339815",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19474054",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22687593",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20079992",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20667520",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20102955",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18208827",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19477402",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22935464"
+  ],
+  "snippets": [
+    {
+      "text": " It is possible to conclude that there is a high prevalence of myocardial fibrosis in hypertrophic cardiomyopathy patients with high-risk or recovered from cardiac sudden death, like those with clinical indication to implantable cardioverter -defibrillator. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20339815",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "AF in HCM is related with myocardial fibrosis detected by DE-CMR and dilatation of the LA. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20079992",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Over the follow-up period, the annualized adverse cardiovascular event rate in patients with DE exceeded that in patients without DE but did not achieve statistical significance (5.5% versus 3.3%; P=0.5). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19808288",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Late gadolinium enhancement by CMR has prognostic value in predicting adverse cardiovascular events among HCM patients. There are significant relationships between LGE and cardiovascular mortality, heart failure death, and all-cause mortality in HCM. Additionally, LGE and SCD/aborted SCD displayed a trend toward significance. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22498326",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The hyperenhanced apical myocardium had a lower percentage of systolic myocardial thickening, and was associated with serious symptoms (e.g. syncope) and ventricular arrhythmias. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21498307",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A semi-quantitative index of DCE is a significant multivariable predictor of both clinical VT/VF and of risk for SCD and may contribute to risk assessment in borderline or controversial cases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19474054",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Myocardial scar imaged by CE-CMR is common in patients with HCM, and is predictive of VT. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18562248",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011379",
+    "http://www.disease-ontology.org/api/metadata/DOID:11984",
+    "http://www.disease-ontology.org/api/metadata/DOID:11986",
+    "http://www.disease-ontology.org/api/metadata/DOID:0050700",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009682",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009202",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D024741",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002312"
+  ],
+  "exact_answer": "Delayed enhancement by CMR has prognostic value in predicting adverse cardiovascular events among HCM patients."
+}

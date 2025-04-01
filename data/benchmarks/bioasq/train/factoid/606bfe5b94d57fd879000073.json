@@ -1,0 +1,19 @@
+{
+  "id": "606bfe5b94d57fd879000073",
+  "type": "factoid",
+  "question": "Which company produces the Oncomine Dx target test?",
+  "ideal_answer": "The Oncomine Dx Target Test Panel is produced by Thermo Fisher Scientific.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31349061"
+  ],
+  "snippets": [
+    {
+      "text": "All specimens were screened by using two antibodies (clone D4D6 from Cell Signaling Technology and clone SP384 from Ventana Medical Systems), and the different interpretation criteria were compared with break-apart FISH (Vysis). FISH-positive samples were also analyzed with next-generation sequencing (Oncomine Dx Target Test Panel, Thermo Fisher Scientific)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31349061",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Thermo Fisher Scientific"
+}

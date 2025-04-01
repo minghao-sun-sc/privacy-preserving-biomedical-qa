@@ -1,0 +1,35 @@
+{
+  "document_id": "record_01795",
+  "original_length": 4655,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "of vestibular migraine, recommend amitriptyline for prophylactic treatment and Motrin for abortive treatment.\n- Some degree of peripheral neuropathy, consistent with diabetic neuropathy, encouraged...",
+    "Symptoms": "",
+    "Treatment": "and Motrin for abortive treatment.\n- Some degree of peripheral neuropathy, consistent with diabetic neuropathy, encouraged her to watch her diet and exercise daily.,HISTORY OF PRESENT ILLNESS: , Th...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "of 10 mg, of 800 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

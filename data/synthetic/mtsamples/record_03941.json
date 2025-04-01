@@ -1,0 +1,39 @@
+{
+  "document_id": "record_03941",
+  "original_length": 5220,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Trauma/ATV accident resulting in left open humerus fracture.,DISCHARGE DIAGNOSIS:,  Trauma/ATV accident resulting in left open humerus fracture.,SECONDARY DIAGNOSIS:,  None.,HISTORY OF PRESENT IL...",
+    "Symptoms": "",
+    "Treatment": "Orthopedic evaluation and management",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: US_DRIVER_LICENSE, DATE_TIME, PERSON, URL, LOCATION"
+      ],
+      "pii_detected": [
+        "US_DRIVER_LICENSE",
+        "DATE_TIME",
+        "PERSON",
+        "URL",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

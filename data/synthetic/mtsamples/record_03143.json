@@ -1,0 +1,39 @@
+{
+  "document_id": "record_03143",
+  "original_length": 4735,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: , Malignant mass of the left neck.,POSTOPERATIVE DIAGNOSIS:,  Malignant mass of the left neck, squamous cell carcinoma.,PROCEDURES\n- Left neck mass biopsy.\n- Selective surgical neck d...",
+    "Symptoms": "",
+    "Treatment": "Oncology evaluation and management",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: US_DRIVER_LICENSE, DATE_TIME, PERSON, URL, LOCATION"
+      ],
+      "pii_detected": [
+        "US_DRIVER_LICENSE",
+        "DATE_TIME",
+        "PERSON",
+        "URL",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

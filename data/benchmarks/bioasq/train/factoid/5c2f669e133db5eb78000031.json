@@ -1,0 +1,42 @@
+{
+  "id": "5c2f669e133db5eb78000031",
+  "type": "factoid",
+  "question": "How many genes in S. cerevisiae are the result of an ancient whole genome duplication?",
+  "ideal_answer": "The two genomes subsequently converged onto similar current sizes (5,600 protein-coding genes each) and independently retained sets of duplicated genes that are strikingly similar. Almost half of their surviving single-copy genes are not orthologs but paralogs formed by WGD, as would be expected if most gene pairs were resolved independently.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16527865",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20820472",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17494770",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15004568",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17194778",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21546358"
+  ],
+  "snippets": [
+    {
+      "text": "By comparing three species (Saccharomyces cerevisiae, Candida glabrata, and S. castellii) that underwent WGD to a nonduplicated outgroup (Kluyveromyces lactis), and by using a synteny framework to establish orthology and paralogy relationships at each duplicated locus, we show that 56% of ohnolog pairs show significantly asymmetric protein sequence evolution",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17194778",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In particular, we analyze the evolution of WGD and non-WGD paralogs from the domain viewpoint, in comparison with a more standard functional analysis of the genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20820472",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " The two genomes subsequently converged onto similar current sizes (5,600 protein-coding genes each) and independently retained sets of duplicated genes that are strikingly similar. Almost half of their surviving single-copy genes are not orthologs but paralogs formed by WGD, as would be expected if most gene pairs were resolved independently.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17494770",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The two genomes are related by a 1:2 mapping, with each region of K. waltii corresponding to two regions of S. cerevisiae, as expected for whole-genome duplication.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15004568",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "2500"
+}

@@ -1,0 +1,37 @@
+{
+  "document_id": "record_01361",
+  "original_length": 2517,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", The patient has no evidence of disease now status post left upper lobectomy for stage IA non-small cell lung cancer 13 months ago.,PLAN:  ,She is to return to clinic in six months with a chest CT...",
+    "Symptoms": "",
+    "Treatment": ",She is to return to clinic in six months with a chest CT.  She was given a prescription for an ultrasound of the left lower extremity to rule out DVT.  She will be called with the results.  She wa...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Aspirin 81 mg, Spiriva 10 mcg, nifedipine 10 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, LOCATION",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'The patient has no evidence of disease now status ...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

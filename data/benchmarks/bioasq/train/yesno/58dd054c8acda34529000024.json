@@ -1,0 +1,110 @@
+{
+  "id": "58dd054c8acda34529000024",
+  "type": "yesno",
+  "question": "Do circRNAs remain untranslated?",
+  "ideal_answer": "The resulting circRNA can be translated to generate functional proteins.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27040791",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25449546",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26204923",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26223268",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26861625",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26442181",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26177684",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26931159",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27606420",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23446346",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26070627",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26472973",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27740630",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27677588"
+  ],
+  "snippets": [
+    {
+      "text": "We demonstrate that the circular RNA circ-Foxo3 was highly expressed in non-cancer cells and were associated with cell cycle progression",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26861625",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ectopic expression of circ-Foxo3 repressed cell cycle progression by binding to the cell cycle proteins cyclin-dependent kinase 2 (also known as cell division protein kinase 2 or CDK2) and cyclin-dependent kinase inhibitor 1 (or p21), resulting in the formation of a ternary complex.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26861625",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MicroRNAs (miRNAs) are important post-transcriptional regulators of gene expression that act by direct base pairing to target sites within untranslated regions of messenger RNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23446346",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We further show that the testis-specific circRNA, sex-determining region Y (Sry), serves as a miR-138 sponge, suggesting that miRNA sponge effects achieved by circRNA formation are a general phenomenon. This study serves as the first, to our knowledge, functional analysis of a naturally expressed circRNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23446346",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Numerous circRNAs were specifically expressed at different lactation stages, and only 1,314 circRNAs were detected at both lactation stages.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26472973",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A significantly positive correlation was observed for the expression profiles of some circRNAs and their parent genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26204923",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The resulting circRNA can be translated to generate functional proteins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25449546",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In total, 80 circRNAs were identified from these 4 genes; circRNAs from CSN1S1 had very high abundance, and 3 of them accounted for 36% of all the circRNAs expressed in the mammary gland on lactation d 90.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27040791",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A total of 4,804 and 4,048 circRNAs were identified in the cow mammary gland on d 90 and 250 postpartum, respectively, of which only 2,231 circRNAs were co-expressed at both lactation stages, suggesting high stage specificity in the circRNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27040791",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Arraystar circRNA Microarray Technology (KANGCHEN, Shanghai, China) was used to analyze the differential expression of circRNAs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27606420",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The aim of study was to identify circRNA expression in articular cartilage and to explore the function of chondrocyte extracellular matrix (ECM)-related circRNAs (circRNA-CER) in cartilage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26931159",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We also validated that P. falciparum produces circRNAs, which is notable given the lack of RNA interference in the organism, and discovered that a highly expressed, five-exon antisense RNA is poised to regulate P. falciparum gametocyte development 1 (PfGDV1), a gene required for early sexual commitment events.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26070627",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CircRNA expression pattern and circRNA-miRNA-mRNA network in the pathogenesis of nonalcoholic steatohepatitis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27677588",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "CircRNAs are abundantly expressed also in the hematopoietic compartment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27740630",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

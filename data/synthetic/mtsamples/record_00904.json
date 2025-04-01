@@ -1,0 +1,33 @@
+{
+  "document_id": "record_00904",
+  "original_length": 3177,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ", Possible ruptured ectopic pregnancy.,POSTOP DIAGNOSIS: , No evidence of ectopic pregnancy or ruptured ectopic pregnancy.,ANESTHESIA: , General endotracheal.,SPECIMEN: , Peritoneal fluid.,EBL: , M...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',POSTOP DIAGNOSIS: , No evidence of ectopic pregna...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

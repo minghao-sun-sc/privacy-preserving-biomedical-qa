@@ -1,0 +1,27 @@
+{
+  "id": "5a6e354fb750ff4455000042",
+  "type": "factoid",
+  "question": "Which R/bioconductor package has been developed to aid in epigenomic analysis?",
+  "ideal_answer": "DeepBlueR is a package that allows for large-scale epigenomic analysis in R.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28334349"
+  ],
+  "snippets": [
+    {
+      "text": "DeepBlueR: large-scale epigenomic analysis in R.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28334349",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "deepbluer large scale epigenomic analysis in r",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28334349",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D057890"
+  ],
+  "exact_answer": "DeepBlueR"
+}

@@ -1,0 +1,35 @@
+{
+  "document_id": "record_02395",
+  "original_length": 3154,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": ", Phacoemulsification of cataract and posterior chamber lens implant, right eye., ,ANESTHESIA:, Retrobulbar nerve block, right eye, ,DESCRIPTION OF OPERATION: ,The patient was brought to the operat...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Ancef 50 mg, Decadron 4 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

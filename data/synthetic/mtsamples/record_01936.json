@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01936",
+  "original_length": 2698,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "s in the ER and the [person] was contacted regarding admission.  The patient was seen and admitted through the emergency room.,He was placed on the hospitalist system and was started on ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Amoxicillin 550 mg, Zithromax 150 mg, then 75 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'The patient was seen and admitted through the emer...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

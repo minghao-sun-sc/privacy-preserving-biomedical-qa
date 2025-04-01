@@ -1,0 +1,63 @@
+{
+  "id": "54da32bc0f63c58e6e000001",
+  "type": "factoid",
+  "question": "Which is the main target of the anti-arrhythmic activity of flecainide?",
+  "ideal_answer": "Flecainide is a class 1c antiarrhythmic that acts by blocking sodium channels and is used mainly in the treatment of supraventricular arrhythmias.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23334259",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25274603",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23558880",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24614665",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24510469",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24917414",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24858181"
+  ],
+  "snippets": [
+    {
+      "text": "flecainide (sodium channel blocker) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24858181",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Flecainide is a sodium channel blocker with minimal effects expected on ventricular repolarization. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24510469",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Flecainide, a class I antiarrhythmic drug, inhibits Na(+) and RyR2 channels and prevents CPVT.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25274603",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " flecainide, a Class I antiarrhythmic drug, improves left ventricular pressure gradient (LVPG) or symptoms in patients with obstructive hypertrophic cardiomyopathy (HCM).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24917414",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Flecainide is a class 1c antiarrhythmic that acts by blocking sodium channels to reduce intracardiac conduction and is used mainly in the treatment of supraventricular arrhythmias. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24614665",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Flecainide is a class 1C antiarrhythmic drug especially used for the management of supraventricular arrhythmia",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23558880",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Flecainide reduces spark and wave frequency in the intact rat cardiomyocyte at therapeutically relevant concentrations but the mechanism involves I(Na) reduction rather than direct ryanodine receptor (RyR2) inhibition.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23334259",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#4249323"
+  ],
+  "exact_answer": "The sodium channel"
+}

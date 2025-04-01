@@ -1,0 +1,38 @@
+{
+  "document_id": "record_04457",
+  "original_length": 2284,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  The patient has experienced a weight loss of 1-1/2 pounds in the last month.  She is commended for these efforts.  We have reviewed food records identifying that she has done a nice job keeping ...",
+    "Symptoms": "",
+    "Treatment": "ning an afternoon snack that can prevent these symptoms.  This will likely be around 2:30 or 3 p.m. for her.  We also discussed strategies for evening snacking to help put some definition and bound...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON, DATE_TIME, LOCATION, NRP"
+      ],
+      "pii_detected": [
+        "PERSON",
+        "DATE_TIME",
+        "LOCATION",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

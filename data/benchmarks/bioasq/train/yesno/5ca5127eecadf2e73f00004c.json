@@ -1,0 +1,33 @@
+{
+  "id": "5ca5127eecadf2e73f00004c",
+  "type": "yesno",
+  "question": "Is collagen matrix of human articular cartilage changing with disease?",
+  "ideal_answer": "No,\nThe collagen matrix of human articular cartilage is an essentially permanent structure that has no significant turnover in adults, even with the occurrence of disease.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27384346",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18991091",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20488735"
+  ],
+  "snippets": [
+    {
+      "text": "The collagen matrix of human articular cartilage is an essentially permanent structure that has no significant turnover in adults, even with the occurrence of disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27384346",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the chondrocytes in ageing articular cartilage have limited capacity to turnover the interterritorial matrix.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18991091",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Type II collagen is a major component of articular cartilage and its breakdown is a key feature of osteoarthritis. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20488735",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

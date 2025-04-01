@@ -1,0 +1,38 @@
+{
+  "id": "60274cd41cb411341a0000e4",
+  "type": "list",
+  "question": "Which drugs were tested in the candor trial?",
+  "ideal_answer": "CANDOR trial investigated carfilzomib, dexamethasone, and daratumumab for patients with relapsed or refractory multiple myeloma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32682484",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32376237"
+  ],
+  "snippets": [
+    {
+      "text": "The Candor trial showed that the addition of daratumumab to carfilzomib and dexamethasone is associated with a significant benefit in progression-free survival among patients with relapsed/refractory MM after 1 to 3 prior lines of therapy. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32376237",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Carfilzomib, dexamethasone, and daratumumab versus carfilzomib and dexamethasone for patients with relapsed or refractory multiple myeloma (CANDOR): results from a randomised, multicentre, open-label, phase 3 study.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32682484",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In this study, we aimed to compare the efficacy and safety of carfilzomib, dexamethasone, and daratumumab versus carfilzomib and dexamethasone in patients with relapsed or refractory multiple myeloma.METHODS: In this randomised, multicentre, open-label, phase 3 study, 466 patients recruited from 102 sites across North America, Europe, Australia, and Asia with relapsed or refractory multiple myeloma were randomly assigned 2:1 to carfilzomib, dexamethasone, and daratumumab (KdD) or carfilzomib and dexamethasone (Kd). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32682484",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Candor trial showed that the addition of daratumumab to carfilzomib and dexamethasone is associated with a significant benefit in progression-free survival among patients with relapsed/refractory MM after 1 to 3 prior lines of therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32376237",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "carfilzomib, dexamethasone, daratumumab"
+}

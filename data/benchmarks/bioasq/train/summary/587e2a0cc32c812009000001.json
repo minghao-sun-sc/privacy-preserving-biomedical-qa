@@ -1,0 +1,36 @@
+{
+  "id": "587e2a0cc32c812009000001",
+  "type": "summary",
+  "question": "What is Path2PPI?",
+  "ideal_answer": "Path2PPI is an R package to identify protein-protein interaction (PPI) networks for fully sequenced organisms for which nearly none PPI are known. Path2PPI predicts PPI networks based on sets of proteins from well-established model organisms, providing an intuitive visualization and usability. It can be used to combine and transfer information of a certain pathway or biological process from several reference organisms to one target organism.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26733452"
+  ],
+  "snippets": [
+    {
+      "text": "Path2PPI: an R package to predict protein-protein interaction networks for a set of proteins",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26733452",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We introduce Path2PPI, a new R package to identify protein-protein interaction (PPI) networks for fully sequenced organisms for which nearly none PPI are known. Path2PPI predicts PPI networks based on sets of proteins from well-established model organisms, providing an intuitive visualization and usability. It can be used to combine and transfer information of a certain pathway or biological process from several reference organisms to one target organism.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26733452",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ": We introduce Path2PPI, a new R package to identify protein-protein interaction (PPI) networks for fully sequenced organisms for which nearly none PPI are known.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26733452",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Path2PPI predicts PPI networks based on sets of proteins from well-established model organisms, providing an intuitive visualization and usability.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26733452",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

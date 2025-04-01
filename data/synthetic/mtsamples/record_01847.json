@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01847",
+  "original_length": 2503,
+  "synthetic_length": 704,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "\n- Debridement of left lateral foot ulcer with excision of infected and infarcted interosseous space muscle tendons and fat.\n- Sharp excision of left distal foot plantar fascia.,ANESTHESIA:,  None ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Sharp excision of left distal foot plantar fascia...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

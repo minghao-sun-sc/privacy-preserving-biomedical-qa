@@ -1,0 +1,70 @@
+{
+  "id": "56b29bf545561f0573000003",
+  "type": "yesno",
+  "question": "Are there any statistical methods for normalizing and identifying differential regions in histone modification ChIP-seq data?",
+  "ideal_answer": "Yes. ChIPnorm is a two-stage statistical method to normalize ChIP-seq data, and to find differential regions in the genome, given two libraries of histone modifications of different cell types.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22870189"
+  ],
+  "snippets": [
+    {
+      "text": "ChIPnorm: a statistical method for normalizing and identifying differential regions in histone modification ChIP-seq libraries.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22870189",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "In this paper we propose a two-stage statistical method, called ChIPnorm, to normalize ChIP-seq data, and to find differential regions in the genome, given two libraries of histone modifications of different cell types. We show that the ChIPnorm method removes most of the noise and bias in the data and outperforms other normalization methods. We correlate the histone marks with gene expression data and confirm that histone modifications H3K27me3 and H3K4me3 act as respectively a repressor and an activator of genes. Compared to what was previously reported in the literature, we find that a substantially higher fraction of bivalent marks in ES cells for H3K27me3 and H3K4me3 move into a K27-only state. We find that most of the promoter regions in protein-coding genes have differential histone-modification sites.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22870189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this paper we propose a two-stage statistical method, called ChIPnorm, to normalize ChIP-seq data, and to find differential regions in the genome, given two libraries of histone modifications of different cell types.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22870189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this paper we propose a two-stage statistical method, called ChIPnorm, to normalize ChIP-seq data, and to find differential regions in the genome, given two libraries of histone modifications of different cell types. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22870189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this paper we propose a two-stage statistical method, called ChIPnorm, to normalize ChIP-seq data, and to find differential regions in the genome, given two libraries of histone modifications of different cell types. We show that the ChIPnorm method removes most of the noise and bias in the data and outperforms other normalization methods. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22870189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this paper we propose a two-stage statistical method, called ChIPnorm, to normalize ChIP-seq data, and to find differential regions in the genome, given two libraries of histone modifications of different cell types.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22870189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this paper we propose a two-stage statistical method, called ChIPnorm, to normalize ChIP-seq data, and to find differential regions in the genome, given two libraries of histone modifications of different cell types. We show that the ChIPnorm method removes most of the noise and bias in the data and outperforms other normalization methods.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22870189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This problem turns out to be surprisingly difficult, even in simple pairwise comparisons, because of the significant level of noise in ChIP-seq data. In this paper we propose a two-stage statistical method, called ChIPnorm, to normalize ChIP-seq data, and to find differential regions in the genome, given two libraries of histone modifications of different cell types.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22870189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In this paper we propose a two-stage statistical method, called ChIPnorm, to normalize ChIP-seq data, and to find differential regions in the genome, given two libraries of histone modifications of different cell types.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22870189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0016570",
+    "http://www.biosemantics.org/jochem#4278518"
+  ],
+  "exact_answer": "Yes"
+}

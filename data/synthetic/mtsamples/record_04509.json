@@ -1,0 +1,37 @@
+{
+  "document_id": "record_04509",
+  "original_length": 7607,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "of dementing illness, possibly Alzheimer disease from her previous neurology consultation.  This diagnosis was given in March 2006.,MEDICATIONS:,  Fiorinal, p.r.n. aspirin, unclear if baby or full ...",
+    "Symptoms": "",
+    "Treatment": "MRI scan",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "at 5 mg, to 10 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, IN_PAN",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'This diagnosis was given in March 2006...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "IN_PAN"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

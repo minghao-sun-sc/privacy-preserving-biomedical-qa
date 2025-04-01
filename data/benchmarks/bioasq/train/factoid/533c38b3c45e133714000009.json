@@ -1,0 +1,39 @@
+{
+  "id": "533c38b3c45e133714000009",
+  "type": "factoid",
+  "question": "What is an approximate number of CTCF binding sites in the human genome?",
+  "ideal_answer": "The number of CTCF binding sites in the human genome lies between 31,000 and 50,000.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22955980",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22829947",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15229244",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15670593",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8034708",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11854173",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23707059",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11076856",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22709888"
+  ],
+  "snippets": [
+    {
+      "text": "To study CTCF multivalency in\u00a0vivo, we define ZF binding requirements at \u223c50,000 genomic sites in primary lymphocytes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23707059",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, only ~3,700 out of the ~5,700 CTCFL- and ~31,000 CTCF-binding sites overlap.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22709888",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/CTCF_HUMAN",
+    "http://www.uniprot.org/uniprot/CTCF_RAT",
+    "http://www.uniprot.org/uniprot/CTCF_MOUSE",
+    "http://www.uniprot.org/uniprot/CTCF_CHICK",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001665"
+  ],
+  "exact_answer": "30,000-50,000"
+}

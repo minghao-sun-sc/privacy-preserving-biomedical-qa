@@ -1,0 +1,57 @@
+{
+  "id": "627926bc56bf9aee6f00001a",
+  "type": "yesno",
+  "question": "Is there a way to distinguish COVID-19 clinically from other respiratory illnesses, particularly influenza?",
+  "ideal_answer": "No, the clinical features of COVID-19 overlap substantially with influenza and other respiratory viral illnesses. There is no way to distinguish among them without testing.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33135801",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32542934",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32881022",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32856744",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33537361",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33742041",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34016193",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32903584",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32445165"
+  ],
+  "snippets": [
+    {
+      "text": "Findings indicate that clinical symptoms alone would be insufficient to distinguish between coronavirus disease 2019 and other respiratory infections (eg, influenza) and/or to evaluate the effects of preventive interventions (eg, vaccinations).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33537361",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our reasoning highlights how challenging a balanced approach to a patient with fever and flu-like symptoms can be. At present, clinical workup of COVID-19 remains a hard task to accomplish.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32445165",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In our retrospective cohort study comparing the clinical presentation of COVID-19 and other respiratory viral infections, we found that anosmia and dysgeusia were symptoms independently associated with COVID-19 and can be important differentiating symptoms in patients presenting with acute respiratory illness. On the other hand, laboratory abnormalities and radiological findings were not statistically different between the two groups.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32881022",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "COVID-19 has a similar pattern of infection, clinical symptoms, and chest imaging findings to influenza pneumonia.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33742041",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we hypothesize the order of symptom occurrence could help patients and medical professionals more quickly distinguish COVID-19 from other respiratory diseases, yet such essential information is largely unavailable",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32903584",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "It is difficult to distinguish coronavirus disease-2019 (COVID-19) from other viral respiratory tract infections owing to the similarities in clinical and radiological findings.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33135801",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01193",
+  "original_length": 2080,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,End-stage renal disease, need for chronic access.,POSTOPERATIVE DIAGNOSIS,End-stage renal disease, need for chronic access.,INDICATION OF THE PROCEDURE,This 74-year-old lady was refe...",
+    "Symptoms": "",
+    "Treatment": "Renal evaluation",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

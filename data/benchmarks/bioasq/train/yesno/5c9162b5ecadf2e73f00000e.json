@@ -1,0 +1,19 @@
+{
+  "id": "5c9162b5ecadf2e73f00000e",
+  "type": "yesno",
+  "question": "Is ustekinumab a polyclonal antibody?",
+  "ideal_answer": "Ustekinumab is a human monoclonal IgG1 antibody targeting the p40-subunit shared by interleukin (IL)12 and IL-23.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29164954"
+  ],
+  "snippets": [
+    {
+      "text": "Ustekinumab, a human monoclonal IgG1 antibody targeting the p40-subunit shared by interleukin (IL)12 and IL-23, represents a potential treatment for atopic dermatitis (AD).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29164954",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

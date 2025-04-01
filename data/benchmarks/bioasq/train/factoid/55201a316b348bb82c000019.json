@@ -1,0 +1,66 @@
+{
+  "id": "55201a316b348bb82c000019",
+  "type": "factoid",
+  "question": "What is the sedimentation coefficient of the mammalian mitoribosome?",
+  "ideal_answer": "The mammalian mitochondrial ribosome (mitoribosome) has a highly protein-rich composition with a small sedimentation coefficient of 55 S, consisting of 39 S large and 28 S small subunits.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11402041",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15966747",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11943462",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14757048",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6284743",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19567276"
+  ],
+  "snippets": [
+    {
+      "text": " The mammalian mitochondrial ribosomes (55S)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11943462",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mammalian mitochondrial ribosome (mitoribosome) has a highly protein-rich composition with a small sedimentation coefficient of 55 S, consisting of 39 S large and 28 S small subunits.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11402041",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The 55 S mammalian mitochondrial ribosome (referred to hereafter as \"mitoribosome\") is protein-rich, containing nearly twice as much protein as the Escherichia coli ribosome. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/6284743",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "59 of 78 proteins of the 55S mitoribosome, several TIM and TOM proteins and cell death proteins were present.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19567276",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The sedimentation coefficient of the intact monosome was about 55 S. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15966747",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Though the nematode mitoribosome has a larger size than the bacterial ribosome, it does not differ significantly in size from mammalian mitoribosomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15966747",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mammalian mitochondrial (mt) ribosome (mitoribosome) is a bacterial-type ribosome but has a highly protein-rich composition.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14757048",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005762",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005761",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012270",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005840",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0003735"
+  ],
+  "exact_answer": "55 S"
+}

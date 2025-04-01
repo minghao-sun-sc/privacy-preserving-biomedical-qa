@@ -1,0 +1,51 @@
+{
+  "document_id": "record_04538",
+  "original_length": 5753,
+  "synthetic_length": 604,
+  "attributes": {
+    "Diagnosis": "of invasive malignancy with involvement of multiple organs and lymph nodes. At this point, I agree with the notion of hospice care. If his atrioventricular conduction becomes excessive, occasional ...",
+    "Symptoms": "",
+    "Treatment": "Echocardiogram",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": false,
+  "iterations_required": 3,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'At this point, I agree with the notion of hospice ...'"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 2,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "document_id": "record_03326",
+  "original_length": 3822,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "AND EVALUATION:\n- Septicemia with septic shock.\n- Metabolic acidosis.\n- Respiratory failure.\n- Anuria.\n- Acute renal failure.,The patient has no blood pressure at this point in time.  The patient i...",
+    "Symptoms": "",
+    "Treatment": ".  The patient underwent an ultrasound of the abdomen, which did not show any evidence of cholecystitis or cholelithiasis.  The patient was also noted to have acute rhabdomyolysis on the workup in ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'The patient underwent an ultrasound of the abdomen...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

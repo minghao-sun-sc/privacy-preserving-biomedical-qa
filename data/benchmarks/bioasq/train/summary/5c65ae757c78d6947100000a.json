@@ -1,0 +1,90 @@
+{
+  "id": "5c65ae757c78d6947100000a",
+  "type": "summary",
+  "question": "Describe the bartender algorithm",
+  "ideal_answer": "Barcode sequencing (bar-seq) is a high-throughput, and cost effective method to assay large numbers of cell lineages or genotypes in complex cell pools. Because of its advantages, applications for bar-seq are quickly growing-from using neutral random barcodes to study the evolution of microbes or cancer, to using pseudo-barcodes, such as shRNAs or sgRNAs to simultaneously screen large numbers of cell perturbations. Bartender is an accurate clustering algorithm to detect barcodes and their abundances from raw next-generation sequencing data. It comprises a set of simple-to-use command line tools that can be performed on a laptop at comparable run times to existing methods. Bartender is available at no charge for non-commercial use at https://github.com/LaoZZZZZ/bartender-1.1",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29069318"
+  ],
+  "snippets": [
+    {
+      "text": "Bartender: a fast and accurate clustering algorithm to count barcode reads.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069318",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Barcode sequencing (bar-seq) is a high-throughput, and cost effective method to assay large numbers of cell lineages or genotypes in complex cell pools. Because of its advantages, applications for bar-seq are quickly growing-from using neutral random barcodes to study the evolution of microbes or cancer, to using pseudo-barcodes, such as shRNAs or sgRNAs to simultaneously screen large numbers of cell perturbations. However, the computational pipelines for bar-seq clustering are not well developed. Available methods often yield a high frequency of under-clustering artifacts that result in spurious barcodes, or over-clustering artifacts that group distinct barcodes together. Here, we developed Bartender, an accurate clustering algorithm to detect barcodes and their abundances from raw next-generation sequencing data.Results: In contrast with existing methods that cluster based on sequence similarity alone, Bartender uses a modified two-sample proportion test that also considers cluster size. This modification results in higher accuracy and lower rates of under- and over-clustering artifacts. Additionally, Bartender includes unique molecular identifier handling and a 'multiple time point' mode that matches barcode clusters between different clustering runs for seamless handling of time course data. Bartender is a set of simple-to-use command line tools that can be performed on a laptop at comparable run times to existing methods.Availability and implementation: Bartender is available at no charge for non-commercial use at https://github.com/LaoZZZZZ/bartender-1.1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we developed Bartender, an accurate clustering algorithm to detect barcodes and their abundances from raw next-generation sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bartender is a set of simple-to-use command line tools that can be performed on a laptop at comparable run times to existing methods.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Availability and implementation\nBartender is available at no charge for non-commercial use at https://github.com/LaoZZZZZ/bartender-1.1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Additionally, Bartender includes unique molecular identifier handling and a 'multiple time point' mode that matches barcode clusters between different clustering runs for seamless handling of time course data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Results\nIn contrast with existing methods that cluster based on sequence similarity alone, Bartender uses a modified two-sample proportion test that also considers cluster size.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we developed Bartender, an accurate clustering algorithm to detect barcodes and their abundances from raw next-generation sequencing data.<br><b>Results</b>: In contrast with existing methods that cluster based on sequence similarity alone, Bartender uses a modified two-sample proportion test that also considers cluster size.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bartender is a set of simple-to-use command line tools that can be performed on a laptop at comparable run times to existing methods.<br><b>Availability and implementation</b>: Bartender is available at no charge for non-commercial use at https://github.com/LaoZZZZZ/bartender-1.1.<br><b>Contact</b>: sasha.levy@stonybrook.edu or song.wu@stonybrook.edu.<br><b>Supplementary information</b>: Supplementary data are available at Bioinformatics online.<br>",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Additionally, Bartender includes unique molecular identifier handling and a 'multiple time point' mode that matches barcode clusters between different clustering runs for seamless handling of time course data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In contrast with existing methods that cluster based on sequence similarity alone, Bartender uses a modified two-sample proportion test that also considers cluster size.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we developed Bartender, an accurate clustering algorithm to detect barcodes and their abundances from raw next-generation sequencing data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Bartender is a set of simple-to-use command line tools that can be performed on a laptop at comparable run times to existing methods.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069318",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

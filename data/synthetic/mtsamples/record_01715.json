@@ -1,0 +1,33 @@
+{
+  "document_id": "record_01715",
+  "original_length": 2423,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Right inguinal hernia containing small bowel.  Partial obstruction is suspected.\n- Nonspecific retroperitoneal and mesenteric lymph nodes.\n- Thirteen millimeter of circumscribed fluid collection...",
+    "Symptoms": "",
+    "Treatment": "Abnormal liver enzymes and diarrhea.  CT pelvis with contrast and ct abdomen with and without contrast. CT Abdomen & Pelvis - 11",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'CT pelvis with contrast and ct abdomen with and wi...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

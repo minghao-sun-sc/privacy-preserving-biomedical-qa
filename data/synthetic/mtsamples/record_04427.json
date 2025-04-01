@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04427",
+  "original_length": 14722,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  This is a 25-year-old woman diagnosed with presumptive erythema nodosum in 2004.  She has been treated with prednisone as in the beginning she had also a wrist and ankle discomfort and high infl...",
+    "Symptoms": "",
+    "Treatment": "was to proceed with a DEXA scan, at some point check a vitamin D level, and order vitamin D and calcium over the counter for bone protection purposes.  However, the later was deferred until we have...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "prednisone 40 mg, ranitidine 150 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, IN_PAN"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "IN_PAN"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

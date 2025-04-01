@@ -1,0 +1,33 @@
+{
+  "id": "5e91ffc22d3121100d000002",
+  "type": "list",
+  "question": "List types of mutations.",
+  "ideal_answer": "point mutations\ndeletions\ninsertions\ninversions\ntranslocations",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29115104",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29878242",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27722982"
+  ],
+  "snippets": [
+    {
+      "text": "NGS is utilized to novel diagnostic and rare cancer mutations, detection of translocations, inversions, insertions and deletions,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27722982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Deletions are the most common types of mutations in \u03b1-thal, followed by point mutations and small insertion/deletion.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29115104",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "qEva-CRISPR detects all types of mutations, including point mutations and large deletions, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29878242",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "point mutations, deletions, insertions, inversions, translocations"
+}

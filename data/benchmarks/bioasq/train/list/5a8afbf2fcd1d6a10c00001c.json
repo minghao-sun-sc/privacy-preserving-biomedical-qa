@@ -1,0 +1,22 @@
+{
+  "id": "5a8afbf2fcd1d6a10c00001c",
+  "type": "list",
+  "question": "In quadruped mammals, what bones make up the stifle?",
+  "ideal_answer": "In quadruped mammals, the stifle is composed of 3 bones, the femur, the tibia and the patella.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26260666"
+  ],
+  "snippets": [
+    {
+      "text": "MR images showed the bone, articular cartilage, menisci and ligaments of the normal tiger stifle. SE T1-weighted sequence provided excellent resolution of the subchondral bones of the femur, tibia and patella compared with the GE STIR T2-weighted MR images.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26260666",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D013264",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D007867"
+  ],
+  "exact_answer": "femur, tibia, patella"
+}

@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03336",
+  "original_length": 3874,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Urinary tract infection.\n- Acute gouty attack.\n- Diabetes mellitus with diabetic nephropathy.\n- Hypertension.\n- Hypercholesterolemia.\n- Peripheral vascular disease, status post recent PTA in the...",
+    "Symptoms": "",
+    "Treatment": ", At this time is I agree with treatment.  We will add allopurinol 50 mg daily.  This is secondary to the patient is already on colchicine, and also we will discontinue Micardis, we will increase L...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Crestor 10 mg, Micardis 80 mg, Imdur 30 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON, NRP"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

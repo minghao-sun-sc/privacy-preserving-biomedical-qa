@@ -1,0 +1,19 @@
+{
+  "id": "6025db0e1cb411341a0000b8",
+  "type": "yesno",
+  "question": "Is capmatinib effective for glioblastoma?",
+  "ideal_answer": "No. Combination of capmatinib buparlisib resulted in no clear activity in patients with recurrent PTEN-deficient glioblastoma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31776899"
+  ],
+  "snippets": [
+    {
+      "text": "CONCLUSION: The combination of INC280/buparlisib resulted in no clear activity in patients with recurrent PTEN-deficient glioblastoma. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31776899",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

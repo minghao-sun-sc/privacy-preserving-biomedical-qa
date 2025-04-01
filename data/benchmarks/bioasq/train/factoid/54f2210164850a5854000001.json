@@ -1,0 +1,58 @@
+{
+  "id": "54f2210164850a5854000001",
+  "type": "factoid",
+  "question": "How many disulfide bridges has the protein hepcidin got?",
+  "ideal_answer": "Hepcidin contains eight cysteine residues that form four disulfide bridges.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11985602",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21838701",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22967859",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21073997",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22705624",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24018861"
+  ],
+  "snippets": [
+    {
+      "text": " hepcidin, containing four disulfide bridges",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24018861",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Cshepc has eight cysteines formed four conserved disulfide bridges, similarly to that of human's",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22967859",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The native peptide of 25 amino acids (Hepc25) contains four disulfide bridges that maintain a \u03b2-hairpin motif.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22705624",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hepcidin, a 25 amino acid peptide hormone containing a complex network of four disulfide bonds is the hormone regulator of iron homeostasis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21838701",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Molecular mass measurements of the native peptide and the reduced and alkylated peptide confirmed the sequence with four intramolecular disulfide bridges. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11985602",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hepcidin contains eight cysteine residues that form four disulfide bridges, which stabilize a hairpin-shaped structure with two beta sheets.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21073997",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004220",
+    "http://www.uniprot.org/uniprot/HEPC_RAT",
+    "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D064451"
+  ],
+  "exact_answer": "Hepcidin contains eight cysteine residues that form four disulfide bridges"
+}

@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03591",
+  "original_length": 2138,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",Esophageal changes suggestive of eosinophilic esophagitis.  Biopsies throughout the length of the esophagus were obtained for microscopic analysis.  There was no evidence of stricture, Barrett, or...",
+    "Symptoms": "",
+    "Treatment": ", EGD.,PREP: , Cetacaine spray, 100 mcg of fentanyl IV, and 5 mg of Versed IV.,FINDINGS:,  The tip of the endoscope was introduced into the esophagus, and the entire length of the esophagus was dot...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "and 5 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "URL",
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

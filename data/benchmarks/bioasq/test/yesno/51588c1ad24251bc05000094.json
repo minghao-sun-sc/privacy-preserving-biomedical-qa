@@ -1,0 +1,52 @@
+{
+  "id": "51588c1ad24251bc05000094",
+  "type": "yesno",
+  "question": "Is factor XI deficient in Hemophilia C?",
+  "ideal_answer": "Factor XI deficiency is associated with a bleeding tendency called Hemophilia C.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18378181",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18160615",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20485963",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8277060",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1546275"
+  ],
+  "snippets": [
+    {
+      "text": "Factor XI deficiency is a rare hematologic disorder. Hemophilia C (factor XI deficiency) affects both genders and it is usually asymptomatic,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20485963",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Congenital factor XI deficiency (also known as the Rosenthal syndrome or hemophilia C)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18378181",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "rare case of an acute cerebral aneurysm rupture in a patient with a known factor XI deficiency. Aneurysmal subarachnoid hemorrhage (SAH) accounts for a high mortality and morbidity rate. When SAH is associated with an inherited coagulation disorder such as hemophilia C",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18160615",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Factor XI deficiency (Hemophilia C)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8277060",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Factor XI deficiency, also called hemophilia C,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1546275",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006467",
+    "http://www.disease-ontology.org/api/metadata/DOID:2229",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005173",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005172"
+  ],
+  "exact_answer": "Yes"
+}

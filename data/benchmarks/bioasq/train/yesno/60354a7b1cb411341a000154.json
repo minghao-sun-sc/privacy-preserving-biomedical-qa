@@ -1,0 +1,34 @@
+{
+  "id": "60354a7b1cb411341a000154",
+  "type": "yesno",
+  "question": "Do honey contain diastases/amylases?",
+  "ideal_answer": "Yes\nhoney contain the protein amylase.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/595894",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17995872",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32424606",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22483889"
+  ],
+  "snippets": [
+    {
+      "text": "A new rapid method for the determination of honey diastase activity using direct potentiometric principles has been proposed. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22483889",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The major alpha-amylase in honey was characterized. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17995872",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Separation of honey amylase",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/595894",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

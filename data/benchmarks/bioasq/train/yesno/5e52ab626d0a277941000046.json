@@ -1,0 +1,31 @@
+{
+  "id": "5e52ab626d0a277941000046",
+  "type": "yesno",
+  "question": "Does promoter shape vary across populations?",
+  "ideal_answer": "Yes. Promoter shape varies across populations and affects promoter evolution and expression noise. This is accompanied by differences in the expression levels of different genes, which may reflect differences in their regulatory mechanisms.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28191888"
+  ],
+  "snippets": [
+    {
+      "text": "Promoter shape varies across populations and affects promoter evolution and expression noise.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28191888",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Animal promoters initiate transcription either at precise positions (narrow promoters) or dispersed regions (broad promoters), a distinction referred to as promoter shape. Although highly conserved, the functional properties of promoters with different shapes and the genetic basis of their evolution remain unclear. Here we used natural genetic variation across a panel of 81 Drosophila lines to measure changes in transcriptional start site (TSS) usage, identifying thousands of genetic variants affecting transcript levels (strength) or the distribution of TSSs within a promoter (shape). Our results identify promoter shape as a molecular trait that can evolve independently of promoter strength. Broad promoters typically harbor shape-associated variants, with signatures of adaptive selection. Single-cell measurements demonstrate that variants modulating promoter shape often increase expression noise, whereas heteroallelic interactions with other promoter variants alleviate these effects. These results uncover new functional properties of natural promoters and suggest the minimization of expression noise as an important factor in promoter evolution.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28191888",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Promoter shape varies across populations and affects promoter evolution and expression noise",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28191888",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

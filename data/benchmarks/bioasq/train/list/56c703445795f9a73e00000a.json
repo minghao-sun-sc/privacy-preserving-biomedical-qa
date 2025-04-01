@@ -1,0 +1,97 @@
+{
+  "id": "56c703445795f9a73e00000a",
+  "type": "list",
+  "question": "Which histone modification discriminates between active and poised enhancers?",
+  "ideal_answer": "Monomethylation of histone H3 on Lys 4 (H3K4me1) and acetylation of histone H3 on Lys 27 (H3K27ac) are histone modifications that are highly enriched over the body of actively transcribed genes and on enhancers. ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21632746",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25614629",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23595227",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24038352",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23880941",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23166019",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21106759",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25250711"
+  ],
+  "snippets": [
+    {
+      "text": "Monomethylation of histone H3 on Lys 4 (H3K4me1) and acetylation of histone H3 on Lys 27 (H3K27ac) are histone modifications that are highly enriched over the body of actively transcribed genes and on enhancer",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23166019",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Since Trr and mammalian Mll3/4 complexes are distinguished by bearing a unique subunit, the H3K27 demethylase UTX, we propose a model in which the H3K4 monomethyltransferases Trr/Mll3/Mll4 and the H3K27 demethylase UTX cooperate to regulate the transition from inactive/poised to active enhancers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23166019",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We used ChIP-seq to measure changes in histone H3K27 acetylation, a mark of active enhancers, to identify enhancers in myelinating rat peripheral nerve and their dynamics after demyelinating nerve injury.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25614629",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, the majority of Egr2-bound enhancers retain H3K27ac, indicating that other transcription factors maintain active enhancer status after nerve injury.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25614629",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent studies using mammalian cells showed that a chromatin state signature is associated with active developmental enhancers, defined by high levels of histone H3 lysine 27 acetylation (H3K27ac) and strong depletion of H3K27 trimethylation (H3K27me3",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23880941",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Such permissive binding was largely restricted to open-chromatin regions showing histone modification marks characteristic of active enhancer and promoter regions, whereas open-chromatin regions lacking such marks did not show permissive binding. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23595227",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We find that histone H3K27ac distinguishes active enhancers from inactive/poised enhancer elements containing H3K4me1 alone",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21106759",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The bivalent hypothesis posits that genes encoding developmental regulators required for early lineage decisions are poised in stem/progenitor cells by the balance between a repressor histone modification (H3K27me3), mediated by the Polycomb Repressor Complex 2 (PRC2), and an activator modification (H3K4me3)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25250711",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Histone H3K27ac separates active from poised enhancers and predicts developmental state",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21106759",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Histone H3K27ac separates active from poised enhancers and predicts developmental state.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21106759",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We find that histone H3K27ac distinguishes active enhancers from inactive/poised enhancer elements containing H3K4me1 alone. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21106759",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, we compare the ability of eRNAs and H3K27ac to discriminate enhancer activity. We demonstrate that eRNA is more indicative of enhancer activity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24038352",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0016570",
+    "http://www.biosemantics.org/jochem#4278518",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006657",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D042421"
+  ],
+  "exact_answer": "H3K4me1, H3K27ac"
+}

@@ -1,0 +1,36 @@
+{
+  "document_id": "record_01155",
+  "original_length": 3157,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,  Completely bony impacted teeth #1, #16, #17, and #32.,POSTOPERATIVE DIAGNOSIS: , Completely bony impacted teeth #1, #16, #17, and #32.,PROCEDURE: , Surgical removal of completely b...",
+    "Symptoms": "",
+    "Treatment": "Surgical procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Completely bony impacted teeth #1, #16, #17, and #...'"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

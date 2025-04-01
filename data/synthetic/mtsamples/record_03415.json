@@ -1,0 +1,37 @@
+{
+  "document_id": "record_03415",
+  "original_length": 1743,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "AND PLAN: , Diabetes, still with some problematic low blood glucoses, most notably in the morning.  To address this situation, I am going to hold her Lantus insulin tonight and decrease and then ch...",
+    "Symptoms": "",
+    "Treatment": ", Diabetes, still with some problematic low blood glucoses, most notably in the morning.  To address this situation, I am going to hold her Lantus insulin tonight and decrease and then change the a...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: URL, PERSON, US_DRIVER_LICENSE"
+      ],
+      "pii_detected": [
+        "URL",
+        "PERSON",
+        "US_DRIVER_LICENSE"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "5e6e8600c6a8763d23000002",
+  "type": "yesno",
+  "question": "Is the protein MCL-1 anti-apoptotic?",
+  "ideal_answer": "Yes, MCL-1 is an anti-apoptotic protein.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28949029",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28905990",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28960207"
+  ],
+  "snippets": [
+    {
+      "text": "increased expression of anti-apoptotic proteins (Bcl-xL, Mcl-1 and XIAP) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28949029",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "repression of anti-apoptotic proteins (Mcl-1, Bcl-xl and XIAP)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28905990",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "anti-apoptotic BCL-2 family members, such as BCL-2, BCL-XL or MCL-1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28960207",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

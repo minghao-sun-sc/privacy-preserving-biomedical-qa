@@ -1,0 +1,54 @@
+{
+  "id": "56f82f9acf1c325851000002",
+  "type": "summary",
+  "question": "What is the minimal genome build?",
+  "ideal_answer": "The identification of the essential genes of bacteria and the minimal genome for the free-living cellular life could provide insights into the origin, evolution, and essence of life forms. The field of Synthetic Biology seeks to apply engineering principles to biology in order to produce novel biological systems. One approach to accomplish this goal is the genome-driven cell engineering approach, which searches for functioning minimal genomes in naturally occurring microorganisms, which can then be used as a template for future systems. Currently a prototypical minimal genome has not been discovered.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21203957",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23420643",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23219343",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26539175",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21987714",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23873957",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22916492"
+  ],
+  "snippets": [
+    {
+      "text": "As a key focus of synthetic biology, building a minimal artificial cell has given rise to many discussions. A synthetic minimal cell will provide an appropriate chassis to integrate functional synthetic parts, devices and systems with functions that cannot generally be found in nature. The design and construction of a functional minimal genome is a key step while building such a cell/chassis since all the cell functions can be traced back to the genome. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21203957",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The field of Synthetic Biology seeks to apply engineering principles to biology in order to produce novel biological systems. One approach to accomplish this goal is the genome-driven cell engineering approach, which searches for functioning minimal genomes in naturally occurring microorganisms, which can then be used as a template for future systems. Currently a prototypical minimal genome has not been discovered. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21987714",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The identification of the essential genes of bacteria and the minimal genome for the free-living cellular life could provide insights into the origin, evolution, and essence of life forms. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22916492",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Minimal bacterial gene set comprises the genetic elements needed for survival of engineered bacterium on a rich medium. This set is estimated to include 300-350 protein-coding genes. One way of simplifying an organism with such a minimal genome even further is to constrain the amino acid content of its proteins. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23873957",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A central undertaking in synthetic biology (SB) is the quest for the 'minimal genome'. However, 'minimal sets' of essential genes are strongly context-dependent and, in all prokaryotic genomes sequenced to date, not a single protein-coding gene is entirely conserved. Furthermore, a lack of consensus in the field as to what attributes make a gene truly essential adds another aspect of variation. Thus, a universal minimal genome remains elusive.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23219343",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The minimal cell concept represents a pragmatic approach to the question of how few genes are required to run a cell. This is a helpful way to build a parts-list, and has been more successful than attempts to deduce a minimal gene set for life by inferring the gene repertoire of the last universal common ancestor, as few genes trace back to this hypothetical ancestral state. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26539175",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

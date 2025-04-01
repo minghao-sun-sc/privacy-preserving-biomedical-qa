@@ -1,0 +1,40 @@
+{
+  "id": "624c88a1e764a53204000002",
+  "type": "yesno",
+  "question": "Is Satb1 a transcription factor?",
+  "ideal_answer": "Yes,\ntranscription factor Satb1.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34244292",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33834511",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33527899",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34583974"
+  ],
+  "snippets": [
+    {
+      "text": "Special AT-rich sequence binding protein-1 (SATB1) is localized to the nucleus and remodels chromatin structure in T cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34583974",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "chromatin organizers SATB2 and SATB1 ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34244292",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "transcription factor complexes. These MYB complexes assemble aberrantly with LYL1, E2A, C/EBP family members, LMO2, and SATB1. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33527899",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Staining for the transcription factors Foxp2, Satb1 and Satb2 labeled most ganglion cells in the avian ganglion cell layer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33834511",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

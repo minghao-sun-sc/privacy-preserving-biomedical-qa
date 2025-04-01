@@ -1,0 +1,45 @@
+{
+  "id": "588f2de394c1512c50000001",
+  "type": "factoid",
+  "question": "Which R package is used for visualization of linear and circular karyotypes?",
+  "ideal_answer": "The chromDraw graphical tool was developed as a user-friendly graphical tool for visualizing both linear and circular karyotypes based on the same input data matrix. The output graphics, saved in two different formats (EPS and SVG), can be easily imported to and modified in presentation and image-editing computer programs. The tool is freely distributed under GNU General Public License (GPL) and can be installed from Bioconductor or from the chromDraw home page.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26791998"
+  ],
+  "snippets": [
+    {
+      "text": "chromDraw: an R package for visualization of linear and circular karyotypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26791998",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The chromDraw graphical tool was developed as a user-friendly graphical tool for visualizing both linear and circular karyotypes based on the same input data matrix. The output graphics, saved in two different formats (EPS and SVG), can be easily imported to and modified in presentation and image-editing computer programs. The tool is freely distributed under GNU General Public License (GPL) and can be installed from Bioconductor or from the chromDraw home page.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26791998",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The chromDraw graphical tool was developed as a user-friendly graphical tool for visualizing both linear and circular karyotypes based on the same input data matrix.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26791998",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "chromDraw: an R package for visualization of linear and circular karyotypes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26791998",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The chromDraw graphical tool was developed as a user-friendly graphical tool for visualizing both linear and circular karyotypes based on the same input data matrix.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26791998",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D059785"
+  ],
+  "exact_answer": "chromDraw"
+}

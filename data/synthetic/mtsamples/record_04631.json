@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04631",
+  "original_length": 5461,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- End-stage chronic obstructive pulmonary disease with a history of respiratory failure requiring mechanical ventilatory support with tracheostomy tube placement.\n- Difficulty tolerating tracheost...",
+    "Symptoms": "",
+    "Treatment": ", Limited bronchoscopy and then fiberoptic laryngoscopy.,IMPRESSION:  \n- End-stage chronic obstructive pulmonary disease with a history of respiratory failure requiring mechanical ventilatory suppo...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'End-stage chronic obstructive pulmonary disease wi...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

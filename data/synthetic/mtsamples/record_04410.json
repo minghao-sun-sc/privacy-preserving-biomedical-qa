@@ -1,0 +1,39 @@
+{
+  "document_id": "record_04410",
+  "original_length": 2822,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Folliculitis.\n- Pelvic pain.\n- Mood swings.\n- Dyspareunia.,PLAN:\n- I would like her to go to the lab and get a CBC, chem-12, TSH and UA.\n- We will put her on cephalexin 500 mg three times a day....",
+    "Symptoms": "",
+    "Treatment": "s.  She denies being suicidal at the current time.,Cardiopulmonary:  She has not had any chest pain or shortness of breath.,GI:  Denies any nausea or vomiting.,Neurological:  No numbness, weakness ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "cephalexin 500 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: US_DRIVER_LICENSE, DATE_TIME, PERSON, URL, LOCATION"
+      ],
+      "pii_detected": [
+        "US_DRIVER_LICENSE",
+        "DATE_TIME",
+        "PERSON",
+        "URL",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

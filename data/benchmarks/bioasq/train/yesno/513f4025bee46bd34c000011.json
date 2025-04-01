@@ -1,0 +1,53 @@
+{
+  "id": "513f4025bee46bd34c000011",
+  "type": "yesno",
+  "question": "Is microRNA(miRNA) 29 involved in post-ischemic cardiac remodeling?",
+  "ideal_answer": "miRNA 29 is involved in post-ischemic myocardial remodeling in particular in the peri-infarctual zone.  miRNA 29 produces apoptosis and enhances fibrotic response.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20971881",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20959496",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22038740",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20733099",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18723672"
+  ],
+  "snippets": [
+    {
+      "text": "Myocardial ischaemia/reperfusion (I/R)-induced remodelling generally includes cell death (necrosis and apoptosis), myocyte hypertrophy, angiogenesis, cardiac fibrosis, and myocardial dysfunction. I",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22038740",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In addition, miR-21, -24, -133, -210, -494, and -499 appear to protect myocytes against I/R-induced apoptosis, whereas miR-1, -29, -199a, and -320 promote apoptosis",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22038740",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Myocardial fibrosis can be regulated by the miR-29 family",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22038740",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Studies using various in vivo, ex vivo, and in vitro models have suggested the possible involvement of miR-1, miR-21, miR-29, miR-92a, miR-133, miR-199a, and miR-320 in ischemia-reperfusion injury and/or remodeling after myocardial infarction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20959496",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Among the MI-regulated miRNAs are members of the miR-29 family, which are down-regulated in the region of the heart adjacent to the infarct. The miR-29 family targets a cadre of mRNAs that encode proteins involved in fibrosis, including multiple collagens, fibrillins, and elastin. Thus, down-regulation of miR-29 would be predicted to derepress the expression of these mRNAs and enhance the fibrotic response. Indeed, down-regulation of miR-29 with anti-miRs in vitro and in vivo induces the expression of collagens, whereas over-expression of miR-29 in fibroblasts reduces collagen expression. We conclude that miR-29 acts as a regulator of cardiac fibrosis and represents a potential therapeutic target for tissue fibrosis in general.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18723672",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0035196",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0010586",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=0010587",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020257",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D035683"
+  ],
+  "exact_answer": "Yes"
+}

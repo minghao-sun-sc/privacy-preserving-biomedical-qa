@@ -1,0 +1,37 @@
+{
+  "document_id": "record_02936",
+  "original_length": 2937,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,  Acute left subdural hematoma.,POSTOPERATIVE DIAGNOSIS:,  Acute left subdural hematoma.,PROCEDURE:,  Left frontal temporal craniotomy for evacuation of acute subdural hematoma.,DESC...",
+    "Symptoms": "",
+    "Treatment": "",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PHONE_NUMBER, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PHONE_NUMBER",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

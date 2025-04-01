@@ -1,0 +1,188 @@
+{
+  "id": "5a43a214966455904c000009",
+  "type": "yesno",
+  "question": "Is DNA methylation correlated with nucleosome occupancy?",
+  "ideal_answer": "DNA methylation can determine nucleosome positioning. Using a novel bioinformatics pipeline, we show a striking anti-correlation between nucleosome occupancy and DNA methylation at CTCF regions that is not present at promoters. DNA methylation determines nucleosome occupancy in the 5'-CpG islands of tumor suppressor genes. In contrast, exons demonstrate a high degree of methylation and nucleosome occupancy. Although global DNA demethylation has been observed after treatment, it is unclear to what extent demethylation induces changes in nucleosome occupancy, a key determinant of gene expression. In order to systematically evaluate potential diversities among CGIs and ultimately to illuminate the link between diversity of CGIs and their epigenetic variation, we analyzed the nucleotide-resolution DNA methylation maps  of multiple cellular origins. Using this global approach, we observe the dependency of nucleosome occupancy upon the DNA methylation status. Exonic DNA methylation seems to function together with exonic nucleosomes and H3K36me3 for the proper splicing of transcripts with different expression levels. Transcription, histone modifications, and DNA methylation alter this \"ground state\" by having distinct effects on both nucleosome positioning and occupancy. ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26484155",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20602769",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22960375",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21964334",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26305225",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24419148",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24812327",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23085715",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23408854",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24916973",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21835883",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23686312",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23502848",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28413449"
+  ],
+  "snippets": [
+    {
+      "text": "Here I show that CpG islands were associated not only with methylation-free promoters but also with nucleosome-free promoters.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20602769",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Nucleosome-free regions were observed only in promoters containing a CpG island",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20602769",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In contrast to the methylation-and nucleosome-free states of CpG-island promoters, exons were densely methylated at CpGs and packaged into nucleosomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20602769",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "I also found that nucleosomes, DNA methylation, and H3K36me3 marked the exons of transcripts with low, medium, and high gene expression levels, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20602769",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Human promoters containing a CpG island tend to remain nucleosome-free as well as methylation-free.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20602769",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In contrast, exons demonstrate a high degree of methylation and nucleosome occupancy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20602769",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Exonic DNA methylation seems to function together with exonic nucleosomes and H3K36me3 for the proper splicing of transcripts with different expression levels.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20602769",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Supporting such an association, recent reports have identified distinct histone methylation patterns, elevated nucleosome occupancy and enriched DNA methylation at exons relative to introns.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21964334",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA methylation directly silences genes with non-CpG island promoters and establishes a nucleosome occupied promoter.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21835883",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Using a novel bioinformatics pipeline, we show a striking anti-correlation between nucleosome occupancy and DNA methylation at CTCF regions that is not present at promoters. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22960375",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Three positions at the splice sites show high CpG abundance and accompany elevated nucleosome occupancy in a leveled GC architecture.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23502848",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The first group has higher nucleosome occupancy on exons than introns, whereas the second group exhibits weak nucleosome marking of exons, suggesting another type of epigenetic marker distinguishes exons from introns when GC content is similar.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23502848",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " DNA methylation can determine nucleosome positioning. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23686312",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "DNA methylation determines nucleosome occupancy in the 5'-CpG islands of tumor suppressor genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23686312",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "he induction of DNA hypomethylation events by genetic (DNMT1/DNMT3B deficient cells) or drug (a DNA demethylating agent) approaches is associated with the eviction of nucleosomes from previously hypermethylated CpG islands of tumor suppressor genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23686312",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using this global approach, we observe the dependency of nucleosome occupancy upon the DNA methylation status. Thus, our results suggest that there is a close association between hypermethylated CpG islands and the presence of nucleosomes, such that each of these epigenetic mechanisms can determine the recruitment of the other.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23686312",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although global DNA demethylation has been observed after treatment, it is unclear to what extent demethylation induces changes in nucleosome occupancy, a key determinant of gene expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23408854",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our results indicate that only a minority of demethylated promoters are associated with nucleosome remodeling, and these could potentially be the epigenetic drivers causing the loss of tumorigenicity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23408854",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "with repressed genes often being associated with local DNA hypermethylation and gain of nucleosomes at their promoters.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26484155",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transcription, histone modifications, and DNA methylation alter this \"ground state\" by having distinct effects on both nucleosome positioning and occupancy. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26305225",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In order to systematically evaluate potential diversities among CGIs and ultimately to illuminate the link between diversity of CGIs and their epigenetic variation, we analyzed the nucleotide-resolution DNA methylation maps (methylomes) of multiple cellular origins.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24419148",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The mostly unmethylated CpG islands have reduced nucleosome occupancy and are enriched in cell type-independent binding sites for CTCF.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24812327",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In contrast, outside of CpG islands most CpGs are methylated, and the average methylation density oscillates so that it is highest in the linker region between nucleosomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24812327",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Aberrant acquisition of nucleosomes at enhancer-associated NDRs is associated with hypermethylation and epigenetic silencing marks, and conversely, loss of nucleosomes with demethylation and epigenetic activation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24916973",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Prominent exceptions to the correlations between methylated CpG density and nucleosome occupancy include CpG islands marked by H3K27me3 and CpG-poor heterochromatin marked by H3K9me3, and these modifications, along with DNA methylation, distinguish the major silencing mechanisms of the human epigenome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28413449",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Throughout the genome, nucleosome occupancy was correlated with certain histone methylation or acetylation modifications.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23085715",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We further show that the extent of nucleosome depletion at promoters is directly correlated to expression level and can accommodate multiple nucleosomes and provide genome-wide evidence that expressed non-CpG island promoters are nucleosome-depleted.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22960375",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

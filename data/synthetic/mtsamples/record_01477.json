@@ -1,0 +1,39 @@
+{
+  "document_id": "record_01477",
+  "original_length": 1665,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": ",  Epicondylitis, both elbows, possibly secondary to lupus flare-up.,PLAN:,  We will inject both elbows with 40-mg of Kenalog mixed with 1 cc of lidocaine.  The posterior approach was chosen under ...",
+    "Symptoms": "",
+    "Treatment": "s well.  I will obtain CBC and urinalysis today.  If the patient's pain does not improve, I will consider adding methotrexate to her therapy.,[person] M.D.",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: US_DRIVER_LICENSE, DATE_TIME, PERSON, URL, LOCATION"
+      ],
+      "pii_detected": [
+        "US_DRIVER_LICENSE",
+        "DATE_TIME",
+        "PERSON",
+        "URL",
+        "LOCATION"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

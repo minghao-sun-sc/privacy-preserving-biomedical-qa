@@ -1,0 +1,36 @@
+{
+  "document_id": "record_02793",
+  "original_length": 8917,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "of [person] (RBANS; Form XX),[person] [person], 2nd Edition (DRS-2),[person] Battery (NAB),[person] [person], [person] (WAIS-II...",
+    "Symptoms": "",
+    "Treatment": "planning.,RELEVANT BACKGROUND INFORMATION:,  Historical information was obtained from a review of available medical records and clinical interview with Ms. A.  A summary of pertinent information is...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Aspirin 81 mg, Colace 100 mg, Lipitor 80 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "5a87fd0561bb38fb24000010",
+  "type": "yesno",
+  "question": "Is autophagy modulated in a circadian fashion?",
+  "ideal_answer": "Yes, metabolic pathways, bile acid synthesis, and autophagic and immune/inflammatory processes are driven by the biological clock.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28721811",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28196106",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28514207",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29113329",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28865774",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27171500"
+  ],
+  "snippets": [
+    {
+      "text": "TOR signaling pathway and autophagy are involved in the regulation of circadian rhythms in behavior and plasticity of L2 interneurons in the brain of Drosophila melanogaster.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28196106",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " Our results indicate that the TOR signaling pathway and autophagy are involved in the regulation of circadian rhythms in the behavior and plasticity of neurons in the brain of adult flies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28196106",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the pathways of autophagy, mTOR, SIRT1, and Wnt that control mammalian circadian rhythm",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28721811",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Metabolic pathways, bile acid synthesis, and autophagic and immune/inflammatory processes are driven by the biological clock. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28865774",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "our findings suggest that the clock geneBmal1is a positive regulator of autophagy through the mTOR signaling pathway and protects cardiomyocytes against high-glucose toxicity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29113329",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Autophagy is a highly conserved intracellular degradation system, and recently was shown to display circadian rhythms in mice. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27171500",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

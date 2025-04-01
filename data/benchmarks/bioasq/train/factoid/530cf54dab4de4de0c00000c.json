@@ -1,0 +1,43 @@
+{
+  "id": "530cf54dab4de4de0c00000c",
+  "type": "factoid",
+  "question": "What is the main application of SWATH-MS in proteomics?",
+  "ideal_answer": "Using the method called SWATH-MS one might ask sample sets for the presence and quantity of essentially any protein of interest.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23227840",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23322582",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22261725",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23811049"
+  ],
+  "snippets": [
+    {
+      "text": "it is a valuable resource for the selection of candidate proteotypic peptides for targeted proteomic experiments via Selected Reaction Monitoring (SRM) or SWATH-MS",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23811049",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SWATH-MS is a data-independent acquisition method that generates, in a single measurement, a complete recording of the fragment ion spectra of all the analytes in a biological sample for which the precursor ions are within a predetermined m/z versus retention time window.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23322582",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ew strategies, such as SWATH\u2122 MS, which allows us to systematically characterize and quantify query sample sets of 'any protein of interest' in complex biological samples,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23227840",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we present a new strategy that systematically queries sample sets for the presence and quantity of essentially any protein of interest. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22261725",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020543",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D040901"
+  ],
+  "exact_answer": "The identification and quantification of any protein."
+}

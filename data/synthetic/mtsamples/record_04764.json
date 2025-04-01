@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04764",
+  "original_length": 3114,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": "/PLAN:\n- Hypertension.  She is advised to continue with the same medication.\n- Syncope.  She previously had an episode of syncope around Thanksgiving.  She has not had a recurrence of this and her ...",
+    "Symptoms": "",
+    "Treatment": "\n- Hypertension.  She is advised to continue with the same medication.\n- Syncope.  She previously had an episode of syncope around Thanksgiving.  She has not had a recurrence of this and her prior ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Atenolol 50 mg, TriViFlor 25 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

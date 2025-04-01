@@ -1,0 +1,76 @@
+{
+  "id": "56b710f276d8bf8d13000003",
+  "type": "factoid",
+  "question": "What is the effect of a defective CLN3 gene?",
+  "ideal_answer": "Mutations in the CLN3 gene, which encodes a lysosomal membrane protein, are responsible for the neurodegenerative disorder juvenile Batten disease.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10332042",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16251196",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17868323",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16423829",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10384264",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16515873",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15471887",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9384607",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10509355"
+  ],
+  "snippets": [
+    {
+      "text": "Juvenile neuronal ceroid lipofuscinosis (Batten disease) is a neurodegenerative disorder caused by defective function of the lysosomal membrane glycoprotein CLN3. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17868323",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "human CLN3 that is defective in Batten disease, localizes to the vacuole",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16423829",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "JNCL results from mutations in CLN3 on chromosome 16p12.1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16515873",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mutations in the CLN3 gene, which encodes a lysosomal membrane protein, are responsible for the neurodegenerative disorder juvenile Batten disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16251196",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Batten disease [juvenile-onset neuronal ceroid lipofuscinosis (JNCL)], the most common progressive encephalopathy of childhood, is caused by mutations in a novel lysosomal membrane protein (CLN3) with unknown function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10332042",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the human CLN3 gene that is defective in Batten disease,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10384264",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "ln3 was recently identified as the gene defective in juvenile Batten disease, an inherited neurodegenerative disease of childhood",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10509355",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Batten disease (juvenile-onset neuronal ceroid lipofuscinosis, JNCL), the most common neurodegenerative disorder of childhood, is caused by mutations in a recently identified gene ( CLN3 ) localized to chromosome 16p11.2-12.1. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/9384607",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/CLN3_MOUSE",
+    "http://www.uniprot.org/uniprot/CLN3_MACFA",
+    "http://www.uniprot.org/uniprot/CLN3_HUMAN",
+    "http://www.uniprot.org/uniprot/CG13_YEAST",
+    "http://www.uniprot.org/uniprot/CLN3_DICDI",
+    "http://www.uniprot.org/uniprot/CLN3_CANFA"
+  ],
+  "exact_answer": "Batten disease, juvenile-onset neuronal ceroid lipofuscinosis, JNCL"
+}

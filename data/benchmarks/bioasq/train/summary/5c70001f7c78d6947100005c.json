@@ -1,0 +1,46 @@
+{
+  "id": "5c70001f7c78d6947100005c",
+  "type": "summary",
+  "question": "How is the Regulatory Trait Concordance (RTC) calculated?",
+  "ideal_answer": "Regulatory Trait Concordance (RTC) that accounts for local LD structure and integrates eQTLs and GWAS results in order to reveal the subset of association signals that are due to cis eQTLs. After stringently testing for a shared causal variant using both the Joint Likelihood Mapping and Regulatory Trait Concordance frameworks, we found that gene-level quantification significantly underestimated the number of causal cis-eQTLs. We have adapted the regulatory trait concordance (RTC) score to measure the probability of eQTLs being active in multiple tissues and to calculate the probability that a GWAS-associated variant and an eQTL tag the same functional effect.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25453756",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10221642",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29058715",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29059182",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20369022"
+  ],
+  "snippets": [
+    {
+      "text": "Regulatory Trait Concordance (RTC) that accounts for local LD structure and integrates eQTLs and GWAS results in order to reveal the subset of association signals that are due to cis eQTLs. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20369022",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "After stringently testing for a shared causal variant using both the Joint Likelihood Mapping and Regulatory Trait Concordance frameworks, we found that gene-level quantification significantly underestimated the number of causal cis-eQTLs. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29059182",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We have adapted the regulatory trait concordance (RTC) score to measure the probability of eQTLs being active in multiple tissues and to calculate the probability that a GWAS-associated variant and an eQTL tag the same functional effect.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29058715",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the present study, we propose an empirical methodology, which we call Regulatory Trait Concordance (RTC) that accounts for local LD structure and integrates eQTLs and GWAS results in order to reveal the subset of association signals that are due to cis eQTLs.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20369022",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We have adapted the regulatory trait concordance (RTC) score to measure the probability of eQTLs being active in multiple tissues and to calculate the probability that a GWAS-associated variant and an eQTL tag the same functional effect. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29058715",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

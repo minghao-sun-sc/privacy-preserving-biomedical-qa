@@ -1,0 +1,78 @@
+{
+  "id": "587d2700fe8a08052f000001",
+  "type": "list",
+  "question": "List all the available databases of super enhancers",
+  "ideal_answer": "dbSUPER and SEA are the available databases of super enhancers.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26438538",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26578594"
+  ],
+  "snippets": [
+    {
+      "text": "dbSUPER: a database of super-enhancers in mouse and human genome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26438538",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We developed dbSUPER (http://bioinfo.au.tsinghua.edu.cn/dbsuper/), the first integrated and interactive database of super-enhancers, with the primary goal of providing a resource for assistance in further studies related to transcriptional control of cell identity and disease. dbSUPER provides a responsive and user-friendly web interface to facilitate efficient and comprehensive search and browsing. The data can be easily sent to Galaxy instances, GREAT and Cistrome web-servers for downstream analysis, and can also be visualized in the UCSC genome browser where custom tracks can be added automatically. The data can be downloaded and exported in variety of formats. Furthermore, dbSUPER lists genes associated with super-enhancers and also links to external databases such as GeneCards, UniProt and Entrez. dbSUPER also provides an overlap analysis tool to annotate user-defined regions. We believe dbSUPER is a valuable resource for the biology and genetic research communities",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26438538",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SEA: a super-enhancer archive",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26578594",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we present a specifically designed web-accessible database, Super-Enhancer Archive (SEA, http://sea.edbc.org). SEA focuses on integrating super-enhancers in multiple species and annotating their potential roles in the regulation of cell identity gene expression. The current release of SEA incorporates 83 996 super-enhancers computationally or experimentally identified in 134 cell types/tissues/diseases, including human (75 439, three of which were experimentally identified), mouse (5879, five of which were experimentally identified), Drosophila melanogaster (1774) and Caenorhabditis elegans (904). To facilitate data extraction, SEA supports multiple search options, including species, genome location, gene name, cell type/tissue and super-enhancer name. The response provides detailed (epi)genetic information, incorporating cell type specificity, nearby genes, transcriptional factor binding sites, CRISPR/Cas9 target sites, evolutionary conservation, SNPs, H3K27ac, DNA methylation, gene expression and TF ChIP-seq data. Moreover, analytical tools and a genome browser were developed for users to explore super-enhancers and their roles in defining cell identity and disease processes in depth",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26578594",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SEA focuses on integrating super-enhancers in multiple species and annotating their potential roles in the regulation of cell identity gene expression. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26578594",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SEA incorporates 83 996 super-enhancers computationally or experimentally identified in 134 cell types/tissues/diseases, including human (75 439, three of which were experimentally identified), mouse (5879, five of which were experimentally identified), Drosophila melanogaster (1774) and Caenorhabditis elegans (904).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26578594",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We developed dbSUPER (http://bioinfo.au.tsinghua.edu.cn/dbsuper/), the first integrated and interactive database of super-enhancers, with the primary goal of providing a resource for assistance in further studies related to transcriptional control of cell identity and disease",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26438538",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Furthermore, dbSUPER lists genes associated with super-enhancers and also links to external databases such as GeneCards, UniProt and Entrez. dbSUPER also provides an overlap analysis tool to annotate user-defined regions",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26438538",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We developed dbSUPER (http://bioinfo.au.tsinghua.edu.cn/dbsuper/), the first integrated and interactive database of super-enhancers, with the primary goal of providing a resource for assistance in further studies related to transcriptional control of cell identity and disease. dbSUPER provides a responsive and user-friendly web interface to facilitate efficient and comprehensive search and browsing",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26438538",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "dbSUPER: a database of super-enhancers in mouse and human genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26438538",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D030561",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019991",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009696"
+  ],
+  "exact_answer": "dbSUPER, SEA"
+}

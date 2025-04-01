@@ -1,0 +1,34 @@
+{
+  "id": "6278d0a756bf9aee6f00000e",
+  "type": "yesno",
+  "question": "Does p85\u03b1 homodimerize?",
+  "ideal_answer": "p110\u03b1-free p85\u03b1 homodimerizes",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26475863",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21984976",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33127913",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26222500"
+  ],
+  "snippets": [
+    {
+      "text": "homodimerized p85\u03b1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26222500",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "p110\u03b1-free p85\u03b1 homodimerizes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26222500",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "homodimeric but not monomeric p85\u03b1",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26222500",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

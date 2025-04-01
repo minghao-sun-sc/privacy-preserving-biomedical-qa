@@ -1,0 +1,40 @@
+{
+  "id": "60328f351cb411341a000145",
+  "type": "yesno",
+  "question": "Can Freund's complete adjuvant induce arthritis?",
+  "ideal_answer": "Yes, Rheumatoid arthritis (RA) was induced by Freund's Complete Adjuvant (FCA; 1 mg/0.1 ml paraffin oil), injected subcutaneously on days 0, 30 and 40",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31857078",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31721330",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32048253",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32043729"
+  ],
+  "snippets": [
+    {
+      "text": "complete Freund's adjuvant (CFA) induced RA",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31721330",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The RA model was established using Freund's complete adjuvant, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31857078",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Rheumatoid arthritis (RA) was induced by Freund's Complete Adjuvant (FCA; 1\u00a0mg/0.1\u00a0ml paraffin oil), injected subcutaneously on days 0, 30 and 40",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32048253",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The rats were made arthritic using a subcutaneous injection with 0.1\u2009ml complete Freund's adjuvant (CFA) into the footpad of the left hind paw.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32043729",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

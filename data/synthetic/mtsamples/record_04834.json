@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04834",
+  "original_length": 3012,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "S:\n- Chest x-ray on admission, no acute finding, no interval change.\n- CT angiography, negative for pulmonary arterial embolism.\n- Nuclear myocardial perfusion scan, abnormal.  Reversible defect su...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "dose 40 mg, then 30 mg, then 20 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'CT angiography, negative for pulmonary arterial em...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "5a679875b750ff4455000004",
+  "type": "yesno",
+  "question": "Do bacteria from the genus Morexella cause respiratory infections?",
+  "ideal_answer": "Bacteria from the genus Morexella can cause respiratory infections",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/8007629",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24786571"
+  ],
+  "snippets": [
+    {
+      "text": "gainst pathogens associated with respiratory tract ailments [Staphylococcus aureus (ATCC 25923), Klebsiella pneumoniae (ATCC 13883) and Morexella cattarhalis (ATCC 14468)] ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24786571",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The efficacy and safety of oral ofloxacin, 400 mg once daily, for the treatment of patients with lower respiratory tract infections were studied. The most common species recovered from the sputum specimens of these patients were Haemophilus influenzae, followed by Streptococcus pneumoniae (S. pneumoniae), Staphylococcus aureus (S. aureus), Gram positive cocci unidentified, Pseudomonas aeruginosa (P. aeruginosa), Morexella catarrhalis,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8007629",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the efficacy and safety of oral ofloxacin 400 mg once daily for the treatment of patients with lower respiratory tract infections were studied the most common species recovered from the sputum specimens of these patients were haemophilus influenzae followed by streptococcus pneumoniae s pneumoniae staphylococcus aureus s aureus gram positive cocci unidentified pseudomonas aeruginosa p aeruginosa morexella catarrhalis streptococcus epidermidis and another haemophilus species in this order all these bacteria were susceptible to ofloxacin except for one strain of methicillin resistant s aureus a satisfactory clinical outcome was achieved in 34 of 40 patients 85 it is concluded that ofloxacin 400 mg once daily is useful for patients with respiratory tract infections.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/8007629",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D001419",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D012141",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D012818"
+  ],
+  "exact_answer": "Yes"
+}

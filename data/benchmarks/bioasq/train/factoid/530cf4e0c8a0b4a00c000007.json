@@ -1,0 +1,57 @@
+{
+  "id": "530cf4e0c8a0b4a00c000007",
+  "type": "factoid",
+  "question": "What is the rate of survival after commotio cordis?",
+  "ideal_answer": "Survival rates for commotio cordis are low, even when resuscitation is performed. Survival rates vary between 10% and 28%.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23107651",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23015869",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11879111",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11555799",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21763255",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20086611"
+  ],
+  "snippets": [
+    {
+      "text": "At their commotio cordis event, 216 study patients were 0.2-51 years old (mean age 15\u00b19 years); 95% were males. Death occurred in 156 individuals (72%), while the other 60 (28%) survived.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23107651",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In the 2 groups, events were largely similar demographically, including frequency of survival (26% in U.S. vs 25%; P = .84),",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21763255",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Survival of commotio cordis has risen from 10% to 15% since 2001.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23015869",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Only 21 (16%) individuals survived their event, with particularly prompt cardiopulmonary resuscitation/defibrillation (most commonly reversing ventricular fibrillation) the only identifiable factor associated with a favorable outcome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11879111",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Survival rates for commotio cordis are low, even with prompt CPR and defibrillation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11555799",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Survival is low, even when resuscitation is performed. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20086611",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013534",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056104"
+  ],
+  "exact_answer": "10-28%"
+}

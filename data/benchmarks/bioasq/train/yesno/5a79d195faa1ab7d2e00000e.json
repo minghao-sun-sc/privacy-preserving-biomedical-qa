@@ -1,0 +1,51 @@
+{
+  "id": "5a79d195faa1ab7d2e00000e",
+  "type": "yesno",
+  "question": "Is celiac disease caused by gliadin-induced transglutaminase-2 (TG2)-dependent events ?",
+  "ideal_answer": "Celiac disease is caused by gliadin-induced transglutaminase-2 (TG2)-dependent events following ingestion of dietary gluten.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18793760",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26883352",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14747475",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20300628",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27613408",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27130174"
+  ],
+  "snippets": [
+    {
+      "text": "Celiac disease (CD) is a frequent inflammatory intestinal disease, with a genetic background, caused by gliadin-containing food. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26883352",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Celiac disease (CD) is an autoimmune enteropathy initiated and sustained by the ingestion of gluten in genetically susceptible individuals. It is caused by a dysregulated immune response toward both dietary antigens, the gluten proteins of wheat, rye, and barley, and autoantigens, the enzyme tissue transglutaminase (TG2)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27130174",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Celiac disease (CD) is an autoimmune gastrointestinal disorder characterized by the presence of anti-transglutaminase 2 (TG2) and anti-gliadin antibodies",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20300628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Transglutaminase 2 (TG2) catalyzes cross-linking or deamidation of glutamine residues in peptides and proteins. The in vivo deamidation of gliadin peptides plays an important role in the immunopathogenesis of celiac disease (CD).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18793760",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tissue transglutaminase (TG2) modifies proteins and peptides by transamidation or deamidation of specific glutamine residues. TG2 also has a central role in the pathogenesis of celiac disease. The enzyme is both the target of disease-specific autoantibodies and generates deamidated gliadin peptides recognized by intestinal T cells from patients.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/14747475",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://meshb.nlm.nih.gov/record/ui?ui=D002446",
+    "http://www.disease-ontology.org/api/metadata/DOID:10608"
+  ],
+  "exact_answer": "Yes"
+}

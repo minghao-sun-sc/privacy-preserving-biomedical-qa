@@ -1,0 +1,41 @@
+{
+  "id": "5131bef65274a5fb07000008",
+  "type": "list",
+  "question": "Which are the main histone modifications associated with enhancers?",
+  "ideal_answer": "Histone 3 lysine 4 mono- (H3K4me1) and di-methylation (H3K4me2) are the main post-transcriptional histone modifications related to enhancer activity.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22270183",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20621055",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19021773"
+  ],
+  "snippets": [
+    {
+      "text": "Using H3K4me2 as a mark for active enhancers",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22270183",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Hyperacetylation of histones H3 and H4, a mark of active chromatin, is established broadly across target loci by enhancers that function over long distances",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19021773",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The enhancer region itself was marked by mono-methylation at K4 and K9, distinguishing it from the methyl marks in the gene coding region",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19021773",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "H3K4 methylation to monovalent and bivalent domains",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20621055",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D056545"
+  ],
+  "exact_answer": "Histone 3 lysine 4 mono-methylation (H3K4me1), Histone 3 lysine 4 di-methylation (H3K4me2)"
+}

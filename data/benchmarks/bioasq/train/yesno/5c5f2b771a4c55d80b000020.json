@@ -1,0 +1,26 @@
+{
+  "id": "5c5f2b771a4c55d80b000020",
+  "type": "yesno",
+  "question": "Is P. gingivalis bacteria found in brain?",
+  "ideal_answer": "Yes",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/28800332",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30281647"
+  ],
+  "snippets": [
+    {
+      "text": "studies using animal model of periodontitis and human post-mortem brain tissues from subjects with AD strongly suggest that a gram-negative periodontal pathogen, Porphyromonas gingivalis (Pg) and/or its product gingipain is/are translocated to the brain.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30281647",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The polymicrobial dysbiotic subgingival biofilm microbes associated with periodontal disease appear to contribute to developing pathologies in distal body sites, including the brain.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/28800332",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

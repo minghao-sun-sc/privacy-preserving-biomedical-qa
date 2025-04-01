@@ -1,0 +1,31 @@
+{
+  "id": "5c56b96e07647bbc4b000010",
+  "type": "factoid",
+  "question": "Which tool has been developed for tagging biomedical concepts via interactive learning?",
+  "ideal_answer": "ezTag is a web-based annotation tool that supports annotating a wide variety of biological concepts with or without pre-existing training data. It allows curators to perform annotation and provide training data with humans in the loop. ezTag supports both abstracts in PubMed and full-text articles in PubMed Central. It also provides lexicon-based concept tagging as well as the state-of-the-art pre-trained taggers such as TaggerOne, GNormPlus and tmVar. ezTag is freely available at http://eztag.bioqrator.org.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29788413"
+  ],
+  "snippets": [
+    {
+      "text": "ezTag: tagging biomedical concepts via interactive learning.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29788413",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "To support annotating a wide variety of biological concepts with or without pre-existing training data, we developed ezTag, a web-based annotation tool that allows curators to perform annotation and provide training data with humans in the loop. ezTag supports both abstracts in PubMed and full-text articles in PubMed Central. It also provides lexicon-based concept tagging as well as the state-of-the-art pre-trained taggers such as TaggerOne, GNormPlus and tmVar. ezTag is freely available at http://eztag.bioqrator.org.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29788413",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To support annotating a wide variety of biological concepts with or without pre-existing training data, we developed ezTag, a web-based annotation tool that allows curators to perform annotation and provide training data with humans in the loop.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29788413",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "ezTag"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "56a292ae496b62f23f000001",
+  "type": "yesno",
+  "question": "Are shadow enhancers associated with development?",
+  "ideal_answer": "Yes. Critical developmental control genes sometimes contain shadow enhancers that can be located in remote positions, including the introns of neighboring genes",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20512118",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24055171",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20797865"
+  ],
+  "snippets": [
+    {
+      "text": "Critical developmental control genes sometimes contain \"shadow\" enhancers that can be located in remote positions, including the introns of neighboring genes",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20797865",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These results suggest that shadow enhancers represent a novel mechanism of canalization whereby complex developmental processes \"bring about one definite end-result regardless of minor variations in conditions\"",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20797865",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Shadow enhancers flanking the HoxB cluster direct dynamic Hox expression in early heart and endoderm development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24055171",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " This suggests that they function as shadow enhancers to modulate the expression of genes from the HoxB complex during cardiac development. Regulatory analysis of the HoxA complex reveals that it also has enhancers in the 3' flanking region which contain RAREs and have the potential to modulate expression in endoderm and heart tissues",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24055171",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This suggests that they function as shadow enhancers to modulate the expression of genes from the HoxB complex during cardiac development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24055171",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent reports have shown that developmental genes often possess multiple discrete enhancer modules that drive transcription in similar spatio-temporal patterns: primary enhancers located near the basal promoter and secondary, or 'shadow', enhancers located at more remote positions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20512118",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Together, the similarities in their location, enhancer output, and dependence on retinoid signaling suggest that a conserved cis-regulatory cassette located in the 3' proximal regions adjacent to the HoxA and HoxB complexes evolved to modulate Hox gene expression during mammalian cardiac and endoderm development. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24055171",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This suggests that they function as shadow enhancers to modulate the expression of genes from the HoxB complex during cardiac development.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24055171",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/amigo/term/GO:0060484",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D041923",
+    "http://amigo.geneontology.org/amigo/term/GO:0048541",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D048788",
+    "http://amigo.geneontology.org/amigo/term/GO:0048537",
+    "http://amigo.geneontology.org/amigo/term/GO:0051093",
+    "http://amigo.geneontology.org/amigo/term/GO:0048568",
+    "http://amigo.geneontology.org/amigo/term/GO:0048569",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002658",
+    "http://www.disease-ontology.org/api/metadata/DOID:0060040",
+    "http://amigo.geneontology.org/amigo/term/GO:0048513",
+    "http://amigo.geneontology.org/amigo/term/GO:0009888",
+    "http://amigo.geneontology.org/amigo/term/GO:0048066",
+    "http://amigo.geneontology.org/amigo/term/GO:0032502",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D046468",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006803",
+    "http://amigo.geneontology.org/amigo/term/GO:0003006",
+    "http://amigo.geneontology.org/amigo/term/GO:0051094",
+    "http://amigo.geneontology.org/amigo/term/GO:0043324",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002657"
+  ],
+  "exact_answer": "Yes"
+}

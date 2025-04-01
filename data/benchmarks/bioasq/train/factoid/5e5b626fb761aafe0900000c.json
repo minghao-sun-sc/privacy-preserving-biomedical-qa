@@ -1,0 +1,33 @@
+{
+  "id": "5e5b626fb761aafe0900000c",
+  "type": "factoid",
+  "question": "What molecules are the multidrug transporter MDR3 targeting?",
+  "ideal_answer": "Multidrug-resistant P-glycoprotein 3 (MDR3) is a phospholipid translocator.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/30222019",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30079523",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29895698"
+  ],
+  "snippets": [
+    {
+      "text": "Multidrug-resistant P-glycoprotein 3 (MDR3) is a phospholipid translocator",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30222019",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The multiple drug resistance 3 (MDR3) protein is a canalicular phospholipid translocator",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30079523",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The ATP-binding cassette transporter ABCB4/MDR3 is critical for biliary phosphatidylcholine (PC) excretion ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29895698",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Multidrug-resistant P-glycoprotein 3 (MDR3) is a phospholipid translocator"
+}

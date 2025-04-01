@@ -1,0 +1,33 @@
+{
+  "document_id": "record_04432",
+  "original_length": 3809,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": ". Once in the ER the patient had a 15min period of bradycardia.,MEDS: ,none prior to accident.,PMH:, No significant chronic or recent illness. s/p left knee arthroplasty. h/o hand fractures.,FHX:, ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'Once in the ER the patient had a 15min period of b...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

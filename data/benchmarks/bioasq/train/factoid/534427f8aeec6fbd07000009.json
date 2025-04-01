@@ -1,0 +1,83 @@
+{
+  "id": "534427f8aeec6fbd07000009",
+  "type": "factoid",
+  "question": "Are most driver gene mutations synonymous or non-synonymous?",
+  "ideal_answer": "A common goal of tumor sequencing projects is finding genes whose mutations are selected for during tumor development. This is accomplished by choosing genes that have more non-synonymous mutations than expected from an estimated background mutation frequency.  ",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23799614",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15946860",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23819581",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19633228",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23935863",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23450047",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24147068",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23015295",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23704925",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23694700",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22893128",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22649506",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22072984"
+  ],
+  "snippets": [
+    {
+      "text": "Therefore, this study highlights the need for multiple biopsies and sequencing during progression of a cancer and combinatorial DNA and RNA sequencing approach for systematic identification of expressed driver mutations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24147068",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Whole genome sequencing of the index liver metastasis identified 44 non-synonymous somatic mutations in 42 genes (0.85 mutation/MB) and a large hemizygous deletion in the ATRX gene which has been recently reported in neuroblastoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24147068",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In addition, we show that NetDiseaseSNP discriminates cancer driver and passenger mutations satisfactorily.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23935863",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our method outperforms other state-of-the-art methods on several disease/neutral datasets as well as on cancer driver/passenger mutation datasets and can thus be used to pinpoint and prioritize plausible disease candidates among nsSNPs for further investigation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23935863",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover, we find that a large fraction of the driver mutations are neither located in conserved functional sites, nor responsible for structural stability, but rather regulate protein activity through allosteric transitions, protein-protein interactions, or protein-nucleic acid interactions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23819581",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We used whole-exome sequencing to identify novel non-synonymous somatic mutations in squamous cell lung cancer.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23799614",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We identified 101 single-nucleotide variants (SNVs) including 77 non-synonymous SNVs (67 missense and 10 nonsense mutations) and 11 INDELs causing frameshifts.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23799614",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Besides confirming the presence of known melanoma driver mutations (BRAF(V600E), NRAS(Q61R) ), we identified novel mutated genes involved in signalling pathways crucial for melanoma pathogenesis and already addressed by current targeted therapies (such as MAPK and glutamate pathways).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23704925",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "A common goal of tumor sequencing projects is finding genes whose mutations are selected for during tumor development. This is accomplished by choosing genes that have more non-synonymous mutations than expected from an estimated background mutation frequency.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23694700",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:162",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009369",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009154"
+  ],
+  "exact_answer": "non-synonymous"
+}

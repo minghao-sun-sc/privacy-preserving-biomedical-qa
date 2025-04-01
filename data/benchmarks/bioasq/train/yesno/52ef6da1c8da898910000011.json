@@ -1,0 +1,117 @@
+{
+  "id": "52ef6da1c8da898910000011",
+  "type": "yesno",
+  "question": "Does Chromatin Immunoprecipitation (ChIP) show a bias for highly expressed loci?",
+  "ideal_answer": "Several issues in the processing and analysis of ChIP-chip data have not been resolved fully, including the effect of background (mock control) subtraction and normalization within and across arrays. We detected a chromatin-state bias: open chromatin regions yielded higher coverage, which led to false positives if not corrected. The localization of unrelated proteins, including the entire silencing complex, to the most highly transcribed genes was highly suggestive of a technical issue with the immunoprecipitations.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24173036",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17477493",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22248020",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22870189",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24255646",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21934668",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22499706",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17592629",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22522655",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21554688"
+  ],
+  "snippets": [
+    {
+      "text": "However, several issues in the processing and analysis of ChIP-chip data have not been resolved fully, including the effect of background (mock control) subtraction and normalization within and across arrays",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17592629",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Proper normalization is essential for ChIP-chip experiments. The proposed normalization technique can correct systematic errors and compensate for the lack of mock control data, thus reducing the experimental cost and producing more accurate results.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17592629",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Subtraction of the mock (non-specific antibody or no antibody) control data is generally needed to eliminate the bias, but appropriate normalization obviates the need for mock experiments and increases the correlation among replicates",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17592629",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The proposed method can handle several control samples allowing for correction of multiple sources of bias simultaneously",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22248020",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, the data generated will always contain noise due to e.g. repetitive regions or non-specific antibody interactions",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22248020",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The generation of high copy numbers of DNA fragments as an artifact of the PCR step in ChIP-seq is an important source of bias of this methodology",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21554688",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here we describe several technical aspects of the ChIP-Seq assay that diminish bias and background noise and allow the consistent generation of high-quality data",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21934668",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " This theoretical paper systematically characterizes the biases and properties of ChIP-seq data by comparing 62 separate publicly available datasets, using rigorous statistical models and signal processing techniques",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22499706",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We detected a chromatin-state bias: open chromatin regions yielded higher coverage, which led to false positives if not corrected",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22522655",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This bias had a greater effect on detection specificity than any base-composition bias",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22522655",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This problem turns out to be surprisingly difficult, even in simple pairwise comparisons, because of the significant level of noise in ChIP-seq data",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22870189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We show that the ChIPnorm method removes most of the noise and bias in the data and outperforms other normalization methods",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22870189",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We investigated the impact of library amplification bias on the identification of allele-specific (AS) molecular events from high-throughput sequencing data derived from chromatin immunoprecipitation assays (ChIP-seq)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24255646",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The 238 loci, termed \"hyper-ChIPable\", were in highly expressed regions with strong polymerase II and polymerase III enrichment signals, and the correlation between transcription level and ChIP enrichment was not limited to these 238 loci but extended genome-wide",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24173036",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The localization of unrelated proteins, including the entire silencing complex, to the most highly transcribed genes was highly suggestive of a technical issue with the immunoprecipitations",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24173036",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0010467",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020224",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D059467",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D047369"
+  ],
+  "exact_answer": "Yes"
+}

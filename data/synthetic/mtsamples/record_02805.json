@@ -1,0 +1,33 @@
+{
+  "document_id": "record_02805",
+  "original_length": 2405,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "AND PLAN:,  Recurrence of early morning myoclonus despite high levels of Lamictal.  She is tolerating the medication well and has not had a generalized tonic-clonic seizure.  She is concerned that ...",
+    "Symptoms": "",
+    "Treatment": ",  Recurrence of early morning myoclonus despite high levels of Lamictal.  She is tolerating the medication well and has not had a generalized tonic-clonic seizure.  She is concerned that this is a...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Lamictal 250 mg, Keppra 500 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'She is tolerating the medication well and has not ...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "document_id": "record_02873",
+  "original_length": 5599,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "of Sarcoidosis, Histoplasmosis, Wegener's Granulomatosis, were considered. [person] Antigen testing on 11/8/95 was 0.9units (normal<1.0): repeat testing on 12/13/95 was 0.8units. ANCA s...",
+    "Symptoms": "",
+    "Treatment": "tar responses, bilaterally.,Musculoskeletal: Swan neck deformities of the #2 and #3 digits of both hands.,GEN EXAM: unremarkable, except for obvious sign of right finger reattachment (mentioned abo...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Tylenol 500mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, LOCATION, PERSON"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "LOCATION",
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

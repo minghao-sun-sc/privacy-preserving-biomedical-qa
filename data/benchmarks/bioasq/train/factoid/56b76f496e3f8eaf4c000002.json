@@ -1,0 +1,53 @@
+{
+  "id": "56b76f496e3f8eaf4c000002",
+  "type": "factoid",
+  "question": "What does the SAGA complex acronym stands for?",
+  "ideal_answer": "SAGA stands for Spt-Ada-Gcn5-acetyltransferase (SAGA)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25015293",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25441028",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26100014",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24509845",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26528322"
+  ],
+  "snippets": [
+    {
+      "text": "SAGA (Spt-Ada-Gcn5 Acetyltransferase)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26528322",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SAGA (Spt-Ada-Gcn5-acetyltransferase)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26100014",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Spt-Ada-Gcn5-acetyltransferase (SAGA) ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25015293",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Spt-Ada-Gcn5-acetyltransferase (SAGA) complex is a transcription coactivator ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24509845",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "the yeast transcriptional coactivator Spt-Ada-Gcn5 acetyltransferase (SAGA)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25441028",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/SGF29_YEAST",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0000124",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0036285",
+    "http://www.uniprot.org/uniprot/SGF73_YEAST",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0043234"
+  ],
+  "exact_answer": "Spt-Ada-Gcn5-acetyltransferase"
+}

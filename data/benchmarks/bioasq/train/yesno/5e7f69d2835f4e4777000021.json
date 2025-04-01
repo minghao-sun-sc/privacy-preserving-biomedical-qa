@@ -1,0 +1,19 @@
+{
+  "id": "5e7f69d2835f4e4777000021",
+  "type": "yesno",
+  "question": "Has ZP-PTH been tested in a phase II clinical trial?",
+  "ideal_answer": "Yes, ZP-PTH was successfully tested in a phase II clinical trial for the treatment of post-menopausal women with osteoporosis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20183917"
+  ],
+  "snippets": [
+    {
+      "text": "This system was successfully tested in a Phase 2 clinical trial for the treatment of post-menopausal women with osteoporosis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20183917",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

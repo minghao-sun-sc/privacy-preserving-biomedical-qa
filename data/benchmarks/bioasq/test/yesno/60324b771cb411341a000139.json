@@ -1,0 +1,19 @@
+{
+  "id": "60324b771cb411341a000139",
+  "type": "yesno",
+  "question": "Is the apilimod inhibitor effective against SARS-CoV-2?",
+  "ideal_answer": "To identify therapeutics that can be repurposed as SARS-CoV-2 antivirals, a library of known drugs encompassing approximately 12,000 clinical-stage or FDA-approved small molecules were profiled. In a study the identification of 30 known drugs that inhibit viral replication was reportedd. Of these, six were characterized for cellular dose-activity relationships, and showed effective concentrations likely to be commensurate with therapeutic doses in patients. These include the PIKfyve kinase inhibitor Apilimod, cysteine protease inhibitors MDL-28170, Z LVG CHN2, VBY-825, and ONO 5334, and the CCR1 antagonist MLN-3897. Since many of these molecules have advanced into the clinic, the known pharmacological and human safety profiles of these compounds will accelerate their preclinical and clinical evaluation for COVID-19 treatment.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32511357"
+  ],
+  "snippets": [
+    {
+      "text": "To identify therapeutics that can be repurposed as SARS-CoV-2 antivirals, we profiled a library of known drugs encompassing approximately 12,000 clinical-stage or FDA-approved small molecules. Here, we report the identification of 30 known drugs that inhibit viral replication. Of these, six were characterized for cellular dose-activity relationships, and showed effective concentrations likely to be commensurate with therapeutic doses in patients. These include the PIKfyve kinase inhibitor Apilimod, cysteine protease inhibitors MDL-28170, Z LVG CHN2, VBY-825, and ONO 5334, and the CCR1 antagonist MLN-3897. Since many of these molecules have advanced into the clinic, the known pharmacological and human safety profiles of these compounds will accelerate their preclinical and clinical evaluation for COVID-19 treatment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32511357",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

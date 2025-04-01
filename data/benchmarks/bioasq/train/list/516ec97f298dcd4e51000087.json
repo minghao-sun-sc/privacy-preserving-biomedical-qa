@@ -1,0 +1,103 @@
+{
+  "id": "516ec97f298dcd4e51000087",
+  "type": "list",
+  "question": "By which methods can we evaluate the reliability of a phylogenetic tree?",
+  "ideal_answer": "The methods for assessing the robustness/reliability of the topology of the inferred phylogenetic trees are: the widely used bootstrap method and the jackknife method.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19423664",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19748458",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22289866",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21940641",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20207713",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21851592",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12857639",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22940609",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11411692",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7544864",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15008414",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21899420",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23060619"
+  ],
+  "snippets": [
+    {
+      "text": "For robustness evaluation, we apply bootstrap and jackknife techniques to input data.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22940609",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "An alignment confidence score capturing robustness to guide tree uncertainty.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20207713",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We build on the widely used bootstrap method for perturbing the phylogenetic tree.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20207713",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "SuperTRI: A new approach based on branch support analyses of multiple independent data sets for assessing reliability of phylogenetic inferences.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19748458",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "To overcome these limitations, we propose a new approach, called SuperTRI, which is based on the branch support analyses of the independent data sets, and where the reliability of the nodes is assessed using three measures: the supertree Bootstrap percentage and two other values calculated from the separate analyses: the mean branch support (mean Bootstrap percentage or mean posterior probability) and the reproducibility index.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19748458",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "In contrast to other similar software, the program FreeTree (available at http://www.natur.cuni.cz/~flegr/programs/freetree or http://ijs.sgmjournals.org/content/vol51/issue3/) can also assess the robustness of the tree topology by bootstrap, jackknife or operational taxonomic unit-jackknife analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11411692",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Unlike any previous tool for inferring phylogenies from rearrangement data, TIBA uses novel methods of robustness estimation to provide support values for the edges in the inferred tree.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23060619",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Fast and accurate phylogenetic reconstruction from high-resolution whole-genome data and a novel robustness estimator.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21899420",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Moreover, whereas phylogenetic analyses from sequence data are deemed incomplete unless bootstrapping scores (a measure of confidence) are given for each tree edge, no equivalent to bootstrapping exists for rearrangement-based phylogenetic analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21899420",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We also describe a novel approach to estimate the robustness of results-an equivalent to the bootstrapping analysis used in sequence-based phylogenetic reconstruction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21899420",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The standard deviation also suggests the reliability level of the branch order.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15008414",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Assessment of the reliability of a given phylogenetic hypothesis is an important step in phylogenetic analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/12857639",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The reliability of the phylogenetic trees was probed with the bootstrapping of 100 replicates of the original sequence alignments.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7544864",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "bootstrap, jackknife"
+}

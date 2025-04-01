@@ -1,0 +1,36 @@
+{
+  "id": "58ec613ceda5a5767200000b",
+  "type": "yesno",
+  "question": "Is airplane stroke syndrome a common disease.",
+  "ideal_answer": "No. Only 37 cases of stroke during or soon after long-haul flights have been published. A single center study reported that 42 out of 5727 stroke admissions (0.73%) were flight-related strokes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16128878",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26892280",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26898578",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11914416"
+  ],
+  "snippets": [
+    {
+      "text": "Only 37 cases of stroke during or soon after long-haul flights have been published to our knowledge. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26898578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Our centre admitted 5727 stroke patients, of whom 42 (0.73%) had flight-related strokes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26898578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The authors report three cases of ischemic stroke in young adults that occurred during or after an airplane flight.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11914416",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020521"
+  ],
+  "exact_answer": "Yes"
+}

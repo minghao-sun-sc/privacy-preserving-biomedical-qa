@@ -1,0 +1,65 @@
+{
+  "id": "58e3d9ab3e8b6dc87c000002",
+  "type": "factoid",
+  "question": "Angelman syndrome is associated with deletion of a part of Chromosome 15 but if the deletion occurs in the paternally inherited chromosome 15, what is the disease?",
+  "ideal_answer": "Prader-Willi syndrome (PWS) results from a deletion of the paternal genes in the region of chromosome 15q11-q13.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26713299",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1714232",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2564739",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1985457",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2309781"
+  ],
+  "snippets": [
+    {
+      "text": " Prader-Willi syndrome (PWS) results from a deletion of the paternal genes in the region of chromosome 15q11-q13.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26713299",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In AS, the deletion occurs in the maternally inherited chromosome 15, while in PWS the deletion is found in the paternally inherited chromosome 15.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1985457",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In AS, the deletion occurs in the maternally inherited chromosome 15, while in PWS the deletion is found in the paternally inherited chromosome 15",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1985457",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In AS, the deletion occurs in the maternally inherited chromosome 15, while in PWS the deletion is found in the paternally inherited chromosome 15.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1985457",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, deletions in AS occur on the maternally inherited chromosome 15, and deletions in PWS occur on the paternally derived chromosome 15.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1714232",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This contrasts with the Prader-Willi syndrome (PWS) in which a similar deletion of the paternally contributed chromosome 15 is observed.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2309781",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, in contrast to the paternal inheritance of the deleted chromosome 15 observed in the majority of PWS patients, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2564739",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002872",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D025063",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011218",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002901",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017353"
+  ],
+  "exact_answer": "Prader-Willi syndrome"
+}

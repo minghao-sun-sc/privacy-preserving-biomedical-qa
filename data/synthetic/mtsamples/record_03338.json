@@ -1,0 +1,39 @@
+{
+  "document_id": "record_03338",
+  "original_length": 3234,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "s were made to transfer the patient to ABC furthermore aggressive rehabilitation.,FINAL DIAGNOSES:\n- Atherosclerotic heart disease, status post coronary artery bypass graft.\n- Valvular heart diseas...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "Prevacid 30 mg, levothyroxine 75 mcg, Toprol 25 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: US_DRIVER_LICENSE, DATE_TIME, PERSON, PHONE_NUMBER, URL"
+      ],
+      "pii_detected": [
+        "US_DRIVER_LICENSE",
+        "DATE_TIME",
+        "PERSON",
+        "PHONE_NUMBER",
+        "URL"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

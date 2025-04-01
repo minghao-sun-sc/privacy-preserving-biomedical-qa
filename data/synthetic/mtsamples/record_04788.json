@@ -1,0 +1,37 @@
+{
+  "document_id": "record_04788",
+  "original_length": 5736,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Three-vessel coronary artery disease as described above.\n- Moderate mitral regurgitation per TEE.\n- Status post venous vein stripping of the left lower extremity and varicosities in both lower e...",
+    "Symptoms": "",
+    "Treatment": "\n- Left heart catheterization.\n- Bilateral selective coronary angiography.,ANESTHESIA: , 1% lidocaine and IV sedation, including fentanyl 25 mcg.,INDICATION: , The patient is a 65-year-old male wit...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "fentanyl 25 mcg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME, NRP",
+        "Data leakage detected: Exact sentence from original found in synthetic: ',ANESTHESIA: , 1% lidocaine and IV sedation, inclu...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

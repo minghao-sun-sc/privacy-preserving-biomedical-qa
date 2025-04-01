@@ -1,0 +1,69 @@
+{
+  "id": "515a7ffdd24251bc050000a5",
+  "type": "list",
+  "question": "What are the effects of depleting protein  km23-1 (DYNLRB1)  in a cell?",
+  "ideal_answer": "The knockdown of km23-1 results in numerous effects at the cellular level, such as decreased cell migration. Additionaly, km23-1 is involved in signalling pathways and its knockdown results in decreased RhoA activation, inhibition of TGF\u03b2-mediated activation of ERK and JNK, phosphorylation of c-Jun, transactivation of the c-Jun promoter and decreased TGFbeta responses.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15925487",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19711352",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23079622",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22637579",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17420258",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16778097",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19571232"
+  ],
+  "snippets": [
+    {
+      "text": "Finally, our results demonstrated for the first time that depletion of km23-1 inhibited cell migration of human colon carcinoma cells (HCCCs) in wound-healing assays. Overall, our findings demonstrate that km23-1 regulates RhoA and motility-associated actin modulating proteins, suggesting that km23-1 may represent a novel target for anti-metastatic therapy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23079622",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Further, knockdown of km23-1 inhibited TGF\u03b2-mediated activation of ERK and JNK, phosphorylation of c-Jun, and transactivation of the c-Jun promoter.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22637579",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "knockdown (KD) of km23-1 decreased RhoA activation in Mv1Lu epithelial cells",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23079622",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We have previously reported that the dynein light chain (DLC) km23-1 is required for Smad2-dependent TGFbeta signaling.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19711352",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Blockade of km23-1 using a small interfering RNA approach resulted in a reduction in both total intracellular Smad2 levels and in nuclear levels of phosphorylated Smad2 after TGFbeta treatment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17420258",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Blockade of km23 using small interfering RNAs significantly decreased key TGFbeta responses, including induction of fibronectin expression and inhibition of cell growth.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15925487",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "On the other hand, inhibiting the endogenous DYNLRB1 with gene-specific small interfering RNA or pharmacologically with a specific inhibitor (vanadate) led to a significant (P < 0.05) decrease in folate uptake.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19571232",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Functional studies showed that some mutations disrupt km23 function, resulting in aberrant transforming growth factor-beta signaling and presumably enhanced tumorigenicity.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16778097",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.uniprot.org/uniprot/DLRB1_HUMAN"
+  ],
+  "exact_answer": "inhibition of cell migration of human colon carcinoma cells (HCCCs) in wound-healing assays, decreased RhoA activation, inhibition of TGF\u03b2-mediated activation of ERK and JNK, phosphorylation of c-Jun, transactivation of the c-Jun promoter, decreased key TGFbeta responses"
+}

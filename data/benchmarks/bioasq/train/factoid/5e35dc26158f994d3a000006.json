@@ -1,0 +1,19 @@
+{
+  "id": "5e35dc26158f994d3a000006",
+  "type": "factoid",
+  "question": "How many proteins have been queried for protein partners by the Drosophila protein interaction map (DPiM)?",
+  "ideal_answer": "Over 5,000 proteins have been queried for protein partners by the Drosophila protein interaction map (DPiM).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23222005"
+  ],
+  "snippets": [
+    {
+      "text": "Proteins perform essential cellular functions as part of protein complexes, often in conjunction with RNA, DNA, metabolites and other small molecules. The genome encodes thousands of proteins but not all of them are expressed in every cell type; and expressed proteins are not active at all times. Such diversity of protein expression and function accounts for the level of biological intricacy seen in nature. Defining protein-protein interactions in protein complexes, and establishing the when, what and where of potential interactions, is therefore crucial to understanding the cellular function of any protein-especially those that have not been well studied by traditional molecular genetic approaches. We generated a large-scale resource of affinity-tagged expression-ready clones and used co-affinity purification combined with tandem mass-spectrometry to identify protein partners of nearly 5,000 Drosophila melanogaster proteins. The resulting protein complex \"map\" provided a blueprint of metazoan protein complex organization. Here we describe how the map has provided valuable insights into protein function in addition to generating hundreds of testable hypotheses. We also discuss recent technological advancements that will be critical in addressing the next generation of questions arising from the map.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23222005",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "5,000"
+}

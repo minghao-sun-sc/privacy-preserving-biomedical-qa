@@ -1,0 +1,74 @@
+{
+  "id": "6278c73756bf9aee6f00000b",
+  "type": "list",
+  "question": "Which are the components that evaluate druglikeness?",
+  "ideal_answer": "Lipinski's rule states that, in general, an orally active drug has no more than one violation of the following criteria:\nNo more than 5 hydrogen bond donors (the total number of nitrogen\u2013hydrogen and oxygen\u2013hydrogen bonds)\nNo more than 10 hydrogen bond acceptors (all nitrogen or oxygen atoms)\nA molecular mass less than 500 daltons\nAn octanol-water partition coefficient (log P) that does not exceed 5",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11300855",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26771590",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21480669",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21142079",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33217892",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31817628",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11259830",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22778837"
+  ],
+  "snippets": [
+    {
+      "text": "In the discovery setting 'the rule of 5' predicts that poor absorption or permeation is more likely when there are more than 5 H-bond donors, 10 H-bond acceptors, the molecular weight (MWT) is greater than 500 and the calculated Log P (CLogP) is greater than 5 (or MlogP > 4.15).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11259830",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "anulocytic asthma. Initially, in silico studies of biseugenol showed good predictions for drug-likeness, with adherence to Lipinski's rules of five (RO5), good Absorption, Distribution, Metabolism and Excretion (ADME) properties and no alerts for Pan-Assay Interference Compounds (PAINS), indicating adequate adherence to perform in viv",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33217892",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "\"Druglikeness\" was examined using an eight-test panel in vitro, i.e., a parallel artificial membrane permeability assay (PAMPA), and Caco-2 permeability-, P-glycoprotein (Pgp) affinity-, plasma protein binding-, metabolic stability- and drug-drug interaction-assays, as well as mutagenicity- and HepG2-hepatotoxicity risk tests.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31817628",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This classification also enabled an analysis of atom type and physicochemical property distributions (for calculated log P, molar refractivity, molecular weight, total atom count, and ATD) of drug, lead, and nondrug databases, a reassessment of the Ro5 (Rule of Five) and GVW (Ghose\u2212Viswanadhan\u2212Wendoloski) criteria",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21480669",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "molecular weight (MW) \u2264 500 or the logarithm of the octanol-water partition coefficient, log P(o/w) < 5, are anticipated to likely have pharmacokinetic properties appropriate for oral administration.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21142079",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " MW, log P(o/w), number of hydrogen bond donors, and number of hydrogen acceptors, ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21142079",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Using a set of six physicochemical parameters ((a) lipophilicity, calculated partition coefficient (ClogP); (b) calculated distribution coefficient at pH = 7.4 (ClogD); (c) molecular weight (MW); (d) topological polar surface area (TPSA); (e) number of hydrogen bond donors (HBD); (f) most basic center (pK(a)))",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22778837",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": ". Selected rules include size, lipophilicity, polarizability, charge, flexibility, rigidity, and hydrogen bond capacity. For these, extreme values were set, e.g., maximum molecular weight 1500, calculated negative logarithm of the octanol/water partition between -10 and 20, and up to 30 nonterminal rotatable bonds",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/11300855",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We first uncovered three important structure-related criteria closely related to drug-likeness, namely: (1) the best numbers of aromatic and non-aromatic rings are 2 and 1, respectively; (2) the best functional groups of candidate drugs are usually -OH, -COOR and -COOH in turn, but not -CONHOH, -SH, -CHO and -SO3H.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26771590",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "No more than 5 hydrogen bond donors, H-bond donors, No more than 10 hydrogen bond acceptors, H-bond acceptors, A molecular mass less than 500 daltons, molecular weight, MWT, An octanol-water partition coefficient (log P) that does not exceed 5, MlogP, CLogP"
+}

@@ -1,0 +1,35 @@
+{
+  "document_id": "record_01386",
+  "original_length": 2891,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "\n- Headaches.\n- Dizziness.\n- Atypical chest pains.\n- Chronic renal failure.\n- Type II diabetes.\n- Myalgias.\n- Severe anxiety (affect is still quite anxious.),PLAN:,  I strongly encouraged her to in...",
+    "Symptoms": "",
+    "Treatment": ",  I strongly encouraged her to increase her Klonopin to what the psychiatrist recommended, which should be 6 mg in the a.m. and 8 mg in the p.m.  I sent her to lab for CPK due to her myalgias and ...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "being 4 mg, and 6 mg, be 6 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

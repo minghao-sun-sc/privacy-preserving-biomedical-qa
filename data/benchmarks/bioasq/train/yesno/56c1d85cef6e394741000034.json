@@ -1,0 +1,87 @@
+{
+  "id": "56c1d85cef6e394741000034",
+  "type": "yesno",
+  "question": "Is there evidence that tomato juice lowers cholesterol levels?",
+  "ideal_answer": "Yes, there is evidence to suggest that tomato juice (and other tomato products) can decrease cholesterol concentrations. It was shown that tomatoes inhibit cholesterol biosynthesis.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22098224",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22223578",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17617941",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24392102",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21755327"
+  ],
+  "snippets": [
+    {
+      "text": "The hypocholesterolemic effect of tomato juice has been investigated in an intervention study with rats, along with the possible inhibition effect of bioactive tomato compounds binding to the HMGCR enzyme.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24392102",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The molecular modelling showed that components of tomato can bind to the active site of the enzyme and compete with the ligand HMGCoA. Lycopene, from tomato juice, accumulates in the liver and can inhibit the activity of the rate-limiting enzyme of cholesterol biosynthesis, HMGCR.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24392102",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " Juice consumption significantly improved resistance of LDL+VLDL-C to Cu(2+)-mediated oxidation (P = 0.039), HDL-C (47.3 \u00b1 15.8 to 51.7 \u00b1 14.8 mg/dL, P<0.001), and the ratio of total-C/HDL-C (4.25 \u00b1 1.59 to 3.63 \u00b1 1.16, P<0.001) at 8 wk.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22098224",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS: Intervention with the enriched juice had no effect on the lipid profile, and serum levels of triglycerides and cholesterol (total, LDL, and HDL) remained unchanged. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21755327",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Women consuming \u226510 compared with<1.5 servings/wk of tomato-based food products had significant but clinically modest improvements in total cholesterol (TC) (5.38 vs. 5.51 mmol/L; P = 0.029), the TC:HDL cholesterol ratio (4.08 vs. 4.22; P = 0.046), and hemoglobin A1c (5.02 vs. 5.13%; P<0.001) in multivariable models. Considering clinical cutpoints, women consuming \u226510 compared with<1.5 servings/wk were 31% (95% CI = 6%, 50%), 40% (95% CI = 13%, 59%), and 66% (95% CI = 20%, 86%) less likely to have elevated TC (\u22656.21 mmol/L), LDL cholesterol (\u22654.14 mmol/L), and hemoglobin A1c (\u22656%), respectively. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22223578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In conclusion, women consuming \u226510 compared with<1.5 servings/wk of tomato-based food products had clinically modest but significant improvements in TC, the TC:HDL cholesterol ratio, and hemoglobin A1c but not other coronary biomarkers.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22223578",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tomato juice decreases LDL cholesterol levels and increases LDL resistance to oxidation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17617941",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Total cholesterol concentration was reduced by 5.9 (sd 10) % (P = 0.002) and LDL cholesterol concentration by 12.9 (sd 17.0) % (P = 0.0002) with the high tomato diet compared to the low tomato diet.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17617941",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In conclusion, a high dietary intake of tomato products had atheroprotective effects, it significantly reduced LDL cholesterol levels, and increased LDL resistance to oxidation in healthy normocholesterolaemic adults.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17617941",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Total, LDL and HDL cholesterol were significantly lower in the intervention group after the intake of tomato juice",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24392102",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Total cholesterol concentration was reduced by 5.9 (sd 10) % (P = 0.002) and LDL cholesterol concentration by 12.9 (sd 17.0) % (P = 0.0002) with the high tomato diet compared to the low tomato diet. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17617941",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.biosemantics.org/jochem#http://www.biosemantics.org/jochem#:4271425",
+    "http://www.nlm.nih.gov/cgi/mesh/2016/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002784",
+    "http://www.biosemantics.org/jochem#4271425"
+  ],
+  "exact_answer": "Yes"
+}

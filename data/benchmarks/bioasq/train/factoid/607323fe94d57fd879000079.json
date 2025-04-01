@@ -1,0 +1,47 @@
+{
+  "id": "607323fe94d57fd879000079",
+  "type": "factoid",
+  "question": "Which protein is encoded by the protein APOBEC3C?",
+  "ideal_answer": "The gene APOBEC3C codes for: apolipoprotein B mRNA editing enzyme catalytic polypeptide-like 3C",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31519749",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30431097",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31664825",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33193411",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32345636"
+  ],
+  "snippets": [
+    {
+      "text": "apolipoprotein B mRNA-editing enzyme catalytic polypeptide-like 3 (APOBEC3; shortened here to A3), act by deaminating cytidines to uridines during the reverse transcription reaction of HIV-1.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32345636",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "apolipoprotein B mRNA editing enzyme catalytic polypeptide-like 3C (APOBEC3C)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33193411",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "apolipoprotein B mRNA editing enzyme catalytic subunit (APOBEC)3A,",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30431097",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "apolipoprotein B mRNA-editing enzyme catalytic subunit 3C (APOBEC3C, a nucleic acid-editing deaminase)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31519749",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " APOBEC3C (apolipoprotein-B mRNA-editing catalytic polypeptide-like 3C (A3C))",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31664825",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "apolipoprotein B mRNA editing enzyme catalytic polypeptide-like 3C"
+}

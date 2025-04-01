@@ -1,0 +1,33 @@
+{
+  "id": "604915581cb411341a00016a",
+  "type": "yesno",
+  "question": "Is YKL-40 used as a biomarker for Alzheimer's disease?",
+  "ideal_answer": "Yes,\ncerebrospinal fluid (CSF) YKL-40 levels were reported to be a promising candidate biomarker of glial inflammation in Alzheimer's disease (AD).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31668967",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31794792",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32045356"
+  ],
+  "snippets": [
+    {
+      "text": "Recently, cerebrospinal fluid (CSF) YKL-40 levels were reported to be a promising candidate biomarker of glial inflammation in Alzheimer's disease (AD). ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31794792",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Disease groups differed between them except AD versus FTD for YKL-40. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31668967",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "YKL-40 appears to be a more reliable biomarker in neurological diseases than NSE.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32045356",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

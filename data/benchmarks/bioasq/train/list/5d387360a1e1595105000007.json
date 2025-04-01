@@ -1,0 +1,51 @@
+{
+  "id": "5d387360a1e1595105000007",
+  "type": "list",
+  "question": "What are the effects of CAMK4 inhibition?",
+  "ideal_answer": " Here, we present evidence that the calcium/calmodulin-dependent protein kinase IV (CaMK4) is increased and required during Th17 cell differentiation. Inhibition of CaMK4 reduced Il17 transcription through decreased activation of the cAMP response element modulator a (CREM-a) and reduced activation of the AKT/mTOR pathway, which is known to enhance Th17 differentiation. CAMK4 knockdown and kinase-dead mutant inhibited crocin-mediated HO-1 expression, Nrf2 activation, and phosphorylation of Akt, indicating that HO-1 expression is mediated by CAMK4 and that Akt is a downstream mediator of CAMK4 in crocin signaling",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24667640",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24839356",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30462889"
+  ],
+  "snippets": [
+    {
+      "text": "CaMK4-dependent activation of AKT/mTOR and CREM-\u03b1 underlies autoimmunity-associated Th17 imbalance",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24667640",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": " Here, we present evidence that the calcium/calmodulin-dependent protein kinase IV (CaMK4) is increased and required during Th17 cell differentiation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24667640",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Inhibition of CaMK4 reduced Il17 transcription through decreased activation of the cAMP response element modulator \u03b1 (CREM-\u03b1) and reduced activation of the AKT/mTOR pathway, which is known to enhance Th17 differentiation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24667640",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CaMK4 inhibition has potential as a therapeutic strategy for Th17-driven autoimmune diseases.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24667640",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CAMK4 knockdown and kinase-dead mutant inhibited crocin-mediated HO-1 expression, Nrf2 activation, and phosphorylation of Akt, indicating that HO-1 expression is mediated by CAMK4 and that Akt is a downstream mediator of CAMK4 in crocin signaling",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24839356",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CaMK4 inhibition significantly decreased the levels of glycolytic intermediates such as glucose-6-phosphate, fructose-6-phosphate, fructose-1,6-diphosphate, pyruvate, and lactate, whereas it did not affect the levels of the pentose phosphate pathway intermediates such as 6-Phospho-D-gluconate, ribulose-5-phosphate, ribose-5-phosphate and phosphoribosyl pyrophosphate",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30462889",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Th17 differentiation, reduction of Il17 expression, decreased activation of cAMP"
+}

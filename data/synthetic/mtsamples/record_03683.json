@@ -1,0 +1,33 @@
+{
+  "document_id": "record_03683",
+  "original_length": 3768,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": "would be sigmoid diverticulitis.  She does have a history in the distant past of sigmoid diverticulitis.  I would recommend a repeat stat CT scan of the abdomen and pelvis and keep the patient noth...",
+    "Symptoms": "",
+    "Treatment": "Colonoscopy",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: 'She does have a history in the distant past of sig...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

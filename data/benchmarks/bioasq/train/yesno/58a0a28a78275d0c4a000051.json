@@ -1,0 +1,67 @@
+{
+  "id": "58a0a28a78275d0c4a000051",
+  "type": "yesno",
+  "question": "Can Diabetes be caused by a defect in a potassium chanel?",
+  "ideal_answer": "Mutations in the KATP channel can lead to neonatal diabetes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25931474",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27118464",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15746700",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24827651"
+  ],
+  "snippets": [
+    {
+      "text": "Mutations in KATP channel genes can result in hypo- or hypersecretion of insulin, as in neonatal diabetes mellitus and congenital hyperinsulinism, respectively.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27118464",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To date, all patients affected by neonatal diabetes due to a mutation in the pore-forming subunit of the channel (Kir6.2, KCNJ11) are heterozygous for the mutation. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27118464",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "e report the first clinical case of neonatal diabetes caused by a homozygous KCNJ11 mutation",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27118464",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Diffuse congenital hyperinsulinism in infancy (CHI-D) arises from mutations inactivating the KATP channel;",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25931474",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report a case of a 6-week-old infant with diabetes mellitus based on a genetic defect in the sulfonylurea receptor 1 (SUR1), an ATP-sensitive potassium (KATP) channel protein.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24827651",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In diabetes, vascular KATP channel function is impaired.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15746700",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016640",
+    "http://www.disease-ontology.org/api/metadata/DOID:11717",
+    "http://www.disease-ontology.org/api/metadata/DOID:9351",
+    "http://www.biosemantics.org/jochem#4277521",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011188",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011189",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003921",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003923",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003922",
+    "http://www.biosemantics.org/jochem#http://www.biosemantics.org/jochem#:4277521",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003920",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D024681",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003924",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015221"
+  ],
+  "exact_answer": "Yes"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "5a7633a89e632bc066000002",
+  "type": "summary",
+  "question": "What is the purpose of the Tabix tool?",
+  "ideal_answer": "Tabix is the first generic tool that indexes position sorted files in TAB-delimited formats such as GFF, BED, PSL, SAM and SQL export, and quickly retrieves features overlapping specified regions. Tabix features include few seek function calls per query, data compression with gzip compatibility and direct FTP/HTTP access. Tabix is implemented as a free command-line tool as well as a library in C, Java, Perl and Python. It is particularly useful for manually examining local genomic features on the command line and enables genome viewers to support huge data files and remote custom tracks over networks.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21208982"
+  ],
+  "snippets": [
+    {
+      "text": "Tabix: fast retrieval of sequence features from generic TAB-delimited files.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21208982",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Tabix is the first generic tool that indexes position sorted files in TAB-delimited formats such as GFF, BED, PSL, SAM and SQL export, and quickly retrieves features overlapping specified regions. Tabix features include few seek function calls per query, data compression with gzip compatibility and direct FTP/HTTP access. Tabix is implemented as a free command-line tool as well as a library in C, Java, Perl and Python. It is particularly useful for manually examining local genomic features on the command line and enables genome viewers to support huge data files and remote custom tracks over networks.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21208982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "<b>UNLABELLED</b>: Tabix is the first generic tool that indexes position sorted files in TAB-delimited formats such as GFF, BED, PSL, SAM and SQL export, and quickly retrieves features overlapping specified regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21208982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "UNLABELLED Tabix is the first generic tool that indexes position sorted files in TAB-delimited formats such as GFF, BED, PSL, SAM and SQL export, and quickly retrieves features overlapping specified regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21208982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tabix features include few seek function calls per query, data compression with gzip compatibility and direct FTP/HTTP access.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21208982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tabix features include few seek function calls per query, data compression with gzip compatibility and direct FTP/HTTP access.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21208982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tabix: fast retrieval of sequence features from generic TAB-delimited files.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21208982",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Tabix is implemented as a free command-line tool as well as a library in C, Java, Perl and Python.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21208982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tabix is the first generic tool that indexes position sorted files in TAB-delimited formats such as GFF, BED, PSL, SAM and SQL export, and quickly retrieves features overlapping specified regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21208982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Tabix features include few seek function calls per query, data compression with gzip compatibility and direct FTP/HTTP access.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21208982",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04756",
+  "original_length": 3444,
+  "synthetic_length": 524,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,Subglottic upper tracheal stenosis.,POSTOPERATIVE DIAGNOSIS,Subglottic upper tracheal stenosis.,OPERATION PREFORMED,Direct laryngoscopy, rigid bronchoscopy and dilation of subglottic...",
+    "Symptoms": "",
+    "Treatment": "Endoscopy",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON, NRP"
+      ],
+      "pii_detected": [
+        "PERSON",
+        "NRP"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "5e4e3cee6d0a277941000030",
+  "type": "factoid",
+  "question": "Which component of the Influenza A Virus affects mRNA transcription termination?",
+  "ideal_answer": "Defective Pol II termination occurs independently of the ability of the viral NS1 protein to interfere with host mRNA processing. Instead, this termination defect is a common effect of diverse cellular stresses and underlies the production of previously reported downstream-of-gene transcripts (DoGs).",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21118126",
+    "http://www.ncbi.nlm.nih.gov/pubmed/6328745",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29768209",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30177761",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18631147",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21207185",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1371285"
+  ],
+  "snippets": [
+    {
+      "text": "Optimized conditions are presented for the T7 and SP6 phage polymerase systems to minimize these early termination events during in vitro transcription of H5 influenza vRNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21207185",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Viruses have evolved a number of translational control mechanisms to regulate the levels of expression of viral proteins on polycistronic mRNAs, including programmed ribosomal frameshifting and stop codon readthrough.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18631147",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "More recently, another unusual mechanism has been described, that of termination-dependent re-initiation (also known as stop-start).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18631147",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We conclude that (-)-carbovir 5'-triphosphate is a potent inhibitor of the HIV-1 reverse transcriptase enzyme and that (-)-carbovir most likely inhibits HIV by activity at the triphosphate level by a combination of direct competition for binding of the natural deoxynucleoside triphosphates to the reverse transcriptase and chain termination.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/1371285",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " One such mechanism, that of termination-dependent reinitiation, has been described in a number of both negative- and positive-strand RNA viruses.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21118126",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " For example, the segment 7 RNA of influenza B is dicistronic, and the stop codon of the M1 ORF and the start codon of the BM2 ORF overlap in the pentanucleotide UAAUG (the stop codon of M1 is shown in bold and the start codon of BM2 is underlined).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21118126",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The present review summarizes how such interactions regulate reinitiation in an array of RNA viruses, and discusses what is known about reinitiation in viruses that do not rely on apparent mRNA-rRNA interactions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21118126",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Using cell biological, biochemical, and genetic tools, we reveal that influenza A virus (IAV) infection induces global transcriptional defects at the 3' ends of active host genes and RNA polymerase II (RNAPII) run-through into extragenic regions.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30177761",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This phenomenon occurs with multiple strains of IAV, is dependent on influenza NS1 protein, and can be modulated by SUMOylation of an intrinsically disordered region (IDR) of NS1 expressed by the 1918 pandemic IAV strain",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30177761",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "These studies establish that during influenza virus infections processing of the NS1 mRNA transcript undergoes a mechanism of splicing similar to that occurring with DNA-directed RNA transcription.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/6328745",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Influenza virus gene 8 codes for two nonstructural proteins (NS1 and NS2) which are translated, respectively, from a colinear and an interrupted mRNA.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/6328745",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Defective Pol II termination occurs independently of the ability of the viral NS1 protein to interfere with host mRNA processing.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29768209",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "NS1, The IAV NS1 protein"
+}

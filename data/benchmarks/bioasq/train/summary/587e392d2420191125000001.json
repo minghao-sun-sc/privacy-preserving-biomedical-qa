@@ -1,0 +1,69 @@
+{
+  "id": "587e392d2420191125000001",
+  "type": "summary",
+  "question": "What is LedPred?",
+  "ideal_answer": "LedPred is an R/bioconductor package to predict regulatory sequences using support vector machines. LedPred is provided as an R/Bioconductor package connected to an online server to avoid installation of non-R software. Due to the heterogeneous CRM feature integration, LedPred excels at the prediction of regulatory sequences in Drosophila and mouse datasets compared with similar SVM-based software.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26628586"
+  ],
+  "snippets": [
+    {
+      "text": "LedPred: an R/bioconductor package to predict regulatory sequences using support vector machines",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26628586",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Here, we present LedPred, a flexible SVM workflow that predicts new regulatory sequences based on the annotation of known CRMs, which are associated to a large variety of feature types. LedPred is provided as an R/Bioconductor package connected to an online server to avoid installation of non-R software. Due to the heterogeneous CRM feature integration, LedPred excels at the prediction of regulatory sequences in Drosophila and mouse datasets compared with similar SVM-based software.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26628586",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LedPred: an R/bioconductor package to predict regulatory sequences using support vector machines.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26628586",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Due to the heterogeneous CRM feature integration, LedPred excels at the prediction of regulatory sequences in Drosophila and mouse datasets compared with similar SVM-based software.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26628586",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we present LedPred, a flexible SVM workflow that predicts new regulatory sequences based on the annotation of known CRMs, which are associated to a large variety of feature types.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26628586",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Due to the heterogeneous CRM feature integration, LedPred excels at the prediction of regulatory sequences in Drosophila and mouse datasets compared with similar SVM-based software.LedPred is available on GitHub: https://github.com/aitgon/LedPred and Bioconductor: http://bioconductor.org/packages/release/bioc/html/LedPred.html under the MIT license.aitor.gonzalez@univ-amu.frSupplementary data are available at Bioinformatics online.<CopyrightInformation>\u00a9 The Author 2015.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26628586",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "LedPred: an R/bioconductor package to predict regulatory sequences using support vector machines.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26628586",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Due to the heterogeneous CRM feature integration, LedPred excels at the prediction of regulatory sequences in Drosophila and mouse datasets compared with similar SVM-based software.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26628586",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Here, we present LedPred, a flexible SVM workflow that predicts new regulatory sequences based on the annotation of known CRMs, which are associated to a large variety of feature types.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26628586",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D060388",
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012045"
+  ]
+}

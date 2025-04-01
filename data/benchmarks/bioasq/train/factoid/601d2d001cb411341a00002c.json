@@ -1,0 +1,38 @@
+{
+  "id": "601d2d001cb411341a00002c",
+  "type": "factoid",
+  "question": "Which syndrome is caused by dysfunction of the ciliary ARMC9/TOGARAM1 protein?",
+  "ideal_answer": "Dysfunction of the ciliary ARMC9/TOGARAM1 protein module causes Joubert syndrome.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32453716",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29159890"
+  ],
+  "snippets": [
+    {
+      "text": "Dysfunction of the ciliary ARMC9/TOGARAM1 protein module causes Joubert syndrome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32453716",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Joubert syndrome (JBTS) is a recessive neurodevelopmental ciliopathy characterized by a pathognomonic hindbrain malformation. All known JBTS genes encode proteins involved in the structure or function of primary cilia, ubiquitous antenna-like organelles essential for cellular signal transduction. Here, we used the recently identified JBTS-associated protein armadillo repeat motif-containing 9 (ARMC9) in tandem-affinity purification and yeast 2-hybrid screens to identify a ciliary module whose dysfunction underlies JBTS. In addition to the known JBTS-associated proteins CEP104 and CSPP1, we identified coiled-coil domain containing 66 (CCDC66) and TOG array regulator of axonemal microtubules 1 (TOGARAM1) as ARMC9 interaction partners. We found that TOGARAM1 variants cause JBTS and disrupt TOGARAM1 interaction with ARMC9. Using a combination of protein interaction analyses, characterization of patient-derived fibroblasts, and analysis of CRISPR/Cas9-engineered zebrafish and hTERT-RPE1 cells, we demonstrated that dysfunction of ARMC9 or TOGARAM1 resulted in short cilia with decreased axonemal acetylation and polyglutamylation, but relatively intact transition zone function. Aberrant serum-induced ciliary resorption and cold-induced depolymerization in ARMC9 and TOGARAM1 patient cell lines suggest a role for this new JBTS-associated protein module in ciliary stability.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32453716",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Dysfunction of the ciliary ARMC9/TOGARAM1 protein module causes Joubert syndrome",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32453716",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Our report of variant in ARMC9 Leading to Joubert syndrome phenotype (JS30), elucidates the genetic heterogeneity of Joubert syndrome, and expands the gene list for ciliopathies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29159890",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Joubert syndrome"
+}

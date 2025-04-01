@@ -1,0 +1,39 @@
+{
+  "id": "64178e73690f196b51000023",
+  "type": "yesno",
+  "question": "Is eteplirsen effective for the treatment of Duchenne muscular dystrophy?",
+  "ideal_answer": "Yes, eteplirsen is effective for the treatment of Duchenne muscular dystrophy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/34797383",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33523015",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34420980"
+  ],
+  "snippets": [
+    {
+      "text": "Eteplirsen-treated patients experienced a statistically significant longer median time to LOA by 2.09 years (5.09 vs. 3.00 years, p\u200a<\u200a0.01) and significantly attenuated rates of pulmonary decline vs. natural history patients (FVC%p change: -3.3 vs. -6.0 percentage points annually, p\u200a<\u200a0.0001).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34420980",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "At Years 3 and 4, eteplirsen-treated patients demonstrated markedly greater mean 6MWT than controls (difference in change from baseline of 132 m [95%CI (29, 235), p\u200a=\u200a0.015] at Year 3 and 159\u200am [95%CI (66, 253), p\u200a=\u200a0.002] at Year 4)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33523015",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "At Year 4, a significantly greater proportion of eteplirsen-treated patients were still ambulant versus controls (10/12 vs 3/11; p\u200a=\u200a0.020)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33523015",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": " In this retrospective matched control study, eteplirsen treatment resulted in attenuation of ambulatory decline over a 4-year observation period, supporting long-term benefit in patients with DMD.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33523015",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

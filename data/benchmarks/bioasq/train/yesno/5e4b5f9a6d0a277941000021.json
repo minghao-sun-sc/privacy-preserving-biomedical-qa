@@ -1,0 +1,31 @@
+{
+  "id": "5e4b5f9a6d0a277941000021",
+  "type": "yesno",
+  "question": "Should Pentoxifylline be used for treatment of amyotrophic lateral sclerosis?",
+  "ideal_answer": "No. Pentoxifylline is not beneficial in amyotrophic lateral sclerosis and should be avoided in patients treated with riluzole.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16401852"
+  ],
+  "snippets": [
+    {
+      "text": ".RESULTS: At the end of the study, after 547 days of follow-up, 103 patients (51.7%) in the pentoxifylline group and 120 (59.7%) in the placebo group were alive (unadjusted risk 1.28, p = 0.107; adjusted risk 1.43, p = 0.02). In contrast, analysis of secondary outcome functional variables did not show the same negative effect of the drug. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16401852",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: Pentoxifylline is not beneficial in ALS and should be avoided in patients treated with riluzole. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16401852",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "RESULTS: At the end of the study, after 547 days of follow-up, 103 patients (51.7%) in the pentoxifylline group and 120 (59.7%) in the placebo group were alive (unadjusted risk 1.28, p = 0.107; adjusted risk 1.43, p = 0.02).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16401852",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

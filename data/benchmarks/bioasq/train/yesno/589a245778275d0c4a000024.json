@@ -1,0 +1,67 @@
+{
+  "id": "589a245778275d0c4a000024",
+  "type": "yesno",
+  "question": "Is lenvatinib effective for renal cell carcinoma?",
+  "ideal_answer": "Yes, combination of lenvatinib and everolimus is approved to treat advanced or metastatic renal cell carcinoma.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27467136",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27267515",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24190702",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27690664",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27047959",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24387233",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26482279",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27339111",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27621699"
+  ],
+  "snippets": [
+    {
+      "text": "However, the combination of lenvatinib, a multitargeted agent that inhibits VEGF as well as FGF receptors, and everolimus demonstrated promising results in a randomized phase II trial. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27047959",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The FDA has approved the combination of lenvatinib and everolimus to treat advanced or metastatic renal cell carcinoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27267515",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Moreover, a recent Phase II study demonstrated a significant benefit for the second-line combination treatment with everolimus plus lenvatinib (a novel TKI) in terms of progression-free survival and overall survival compared to the single-agent everolimus.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27621699",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We then discuss two recently approved growth factor receptor antagonists i.e. cabozantinib and lenvatinib, and a recently approved checkpoint inhibitor, nivolumab, and issues pertaining to drug development, and future directions in treatment of metastatic RCC. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27690664",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "INTERPRETATION: Lenvatinib plus everolimus and lenvatinib alone resulted in a progression-free survival benefit for patients with metastatic renal cell carcinoma who have progressed after one previous VEGF-targeted therapy. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26482279",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Lenvatinib therapy for the treatment of patients with advanced renal cell carcinoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27339111",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "Lenvatinib therapy for the treatment of patients with advanced renal cell carcinoma.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27339111",
+      "beginSection": "title",
+      "endSection": "title"
+    }
+  ],
+  "concepts": [
+    "https://www.nlm.nih.gov/cgi/mesh/2017/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002292",
+    "http://www.disease-ontology.org/api/metadata/DOID:4450",
+    "http://www.disease-ontology.org/api/metadata/DOID:4451"
+  ],
+  "exact_answer": "Yes"
+}

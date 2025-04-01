@@ -1,0 +1,43 @@
+{
+  "id": "51757bbb8ed59a060a00002e",
+  "type": "yesno",
+  "question": "Are long non coding RNAs as conserved in sequence as protein coding genes?",
+  "ideal_answer": "No. Most long non coding RNAs  (lncRNAs) are under lower sequence constraints than protein-coding genes.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23467124",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22955988",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22707570",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22844254",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22708672",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23463798",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23028352",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20428234",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20624288",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21112873",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21622663",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20587619",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23454638"
+  ],
+  "snippets": [
+    {
+      "text": "Most lncRNAs are under lower sequence constraints than protein-coding genes and lack conserved secondary structures, making it hard to predict them computationally.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21622663",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "hey are under stronger selective pressure than neutrally evolving sequences-particularly in their promoter regions, which display levels of selection comparable to protein-coding genes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22955988",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "bout one-third seem to have arisen within the primate lineage.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22955988",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

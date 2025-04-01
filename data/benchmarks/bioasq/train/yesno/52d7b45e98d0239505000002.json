@@ -1,0 +1,91 @@
+{
+  "id": "52d7b45e98d0239505000002",
+  "type": "yesno",
+  "question": "is pharmacological treatment of subclinical hypothyroidism effective in reducing cardiovascular events?",
+  "ideal_answer": "whether SH confers a high risk for cardiovascular disease, and whether LT4 therapy has a long-term benefit that clearly outweighs the risks of overzealous treatment in these individuals, remain topics of controversy.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20807695",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16259335",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23559085",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16542047",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22529180",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16026106",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23369134",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17636722",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19463607",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21823062",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23252247",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19006851"
+  ],
+  "snippets": [
+    {
+      "text": "The decision to treat elderly people is still an unresolved clinical challenge--first, due to a lack of appropriately powered randomized controlled trials of L-T4 in sHT patients, examining cardiovascular hard endpoints in various classes of age; and second, because of the negative effects of possible overtreatment.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23559085",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The lack of specific randomized trials enrolling either old or very old subjects, aimed at evaluate the efficacy of hormonal replacement on overall survival and cardiovascular risk reduction along with the negative effects of possible over-treatment, makes the decision to treat older people a still unresolved clinical challenge",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23369134",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In patients with type 2 DM, the presence of SH serves as an additional risk factor for endothelial dysfunction.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23252247",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Treatment of SCH with levothyroxine was associated with fewer IHD events in younger individuals, but this was not evident in older people.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22529180",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Subclinical hyperthyroidism seems to be a risk factor of developing major cardiovascular events, especially stroke in older adults from the general population with normal left ventricular function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21823062",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "SCH appears to influence the postoperative outcome for patients by increasing the development of postoperative atrial fibrillation. However, it is still unproven whether preoperative thyroxine replacement therapy for patients with SCH might prevent postoperative atrial fibrillation after CABG.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19463607",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In CHF patients TSH levels even slightly above normal range are independently associated with a greater likelihood of heart failure progression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19006851",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "In current RCTs, levothyroxine replacement therapy for subclinical hypothyroidism did not result in improved survival or decreased cardiovascular morbidity. Data on health-related quality of life and symptoms did not demonstrate significant differences between intervention groups.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17636722",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, the actual effectiveness of thyroid hormone substitution in reducing the risk of cardiovascular events remains to be elucidated. In conclusion, the multiplicity and the possible reversibility of subclinical hypothyroidism-associated cardiovascular abnormalities suggest that the decision to treat a patient should depend on the presence of risk factors, rather than on a TSH threshold. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16542047",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "However, whether SH confers a high risk for cardiovascular disease, and whether LT4 therapy has a long-term benefit that clearly outweighs the risks of overzealous treatment in these individuals, remain topics of controversy.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16026106",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://www.disease-ontology.org/api/metadata/DOID:114",
+    "http://www.disease-ontology.org/api/metadata/DOID:1459",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D013812",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002318",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016896",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007037"
+  ],
+  "exact_answer": "Yes"
+}

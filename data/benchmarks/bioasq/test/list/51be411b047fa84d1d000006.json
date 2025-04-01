@@ -1,0 +1,48 @@
+{
+  "id": "51be411b047fa84d1d000006",
+  "type": "list",
+  "question": "Which are currently available software tools for detecting rare codon clusters in coding sequences?",
+  "ideal_answer": "Rare codon clusters (RCCs) correspond to regions along mRNA sequences where among the possible choices of synonymous codons those  with lower usage are observed. Due to the fact that relative codon frequencies have been shown to correlate with their cognate tRNA frequencies, RCCs indicate possible translational attenuation sites. A few tools specific for this task have been described in the literature, namely: LaTcOm, %MinMax, PAUSE, Sherlocc, Sliding Window (RiboTempo)",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18923675",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18457591",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22467916",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10689191",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22199385",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20167116"
+  ],
+  "snippets": [
+    {
+      "text": "Our program Sherlocc, detects statistically relevant conserved rare codon clusters and produces a user-friendly HTML output.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22467916",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "LaTcOm: a web server for visualizing rare codon clusters in coding sequences",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22199385",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We present LaTcOm, a new web tool, which offers several alternative methods for 'rare codon cluster' (RCC) identification",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22199385",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "three RCC detection schemes are implemented: the recently described %MinMax algorithm and a simplified sliding window approach, along with a novel modification of a linear-time algorithm for the detection of maximally scoring subsequences tailored to the RCC detection problem",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22199385",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "The PAUSE software has been developed as a new tool to study translational control over protein targeting. This makes it possible to correlate the position of clusters of rare codons in a gene, predicted to cause a translational pause, with the position of hydrophobic stretches in the encoded protein, predicted to span a membrane or to act as a cleavable signal for targeting to the secretory pathway.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/10689191",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "LaTcOm, %MinMax, PAUSE, Sherlocc, Sliding Window, RiboTempo"
+}

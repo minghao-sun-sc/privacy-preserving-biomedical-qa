@@ -1,0 +1,36 @@
+{
+  "document_id": "record_04391",
+  "original_length": 5733,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "of muscle strain. The patient followed up with his primary care physician and was admitted for further workup.,On the day of admission, the patient complains of severe pain that is worse in the low...",
+    "Symptoms": "",
+    "Treatment": "CT scan",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": "ibuprofen 800 mg, methocarbamol 750 mg"
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: DATE_TIME",
+        "Data leakage detected: Exact sentence from original found in synthetic: 'The patient followed up with his primary care phys...'"
+      ],
+      "pii_detected": [
+        "DATE_TIME"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

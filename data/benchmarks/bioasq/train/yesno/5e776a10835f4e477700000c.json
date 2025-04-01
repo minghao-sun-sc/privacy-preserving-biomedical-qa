@@ -1,0 +1,19 @@
+{
+  "id": "5e776a10835f4e477700000c",
+  "type": "yesno",
+  "question": "Is the drug Exubera currently (March 2020) available?",
+  "ideal_answer": "No, Exubera has been discontinued due to suboptimal market acceptance.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25485886"
+  ],
+  "snippets": [
+    {
+      "text": "Despite discontinuation of the first inhalable insulin, Exubera\u00ae, due to suboptimal market acceptance, development of orally inhaled insulin delivery systems has been galvanized by the recent approval of Afrezza\u00ae and several others awaiting approval.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/25485886",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

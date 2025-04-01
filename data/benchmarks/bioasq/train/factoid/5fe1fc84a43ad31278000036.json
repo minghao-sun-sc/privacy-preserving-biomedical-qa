@@ -1,0 +1,41 @@
+{
+  "id": "5fe1fc84a43ad31278000036",
+  "type": "factoid",
+  "question": "What percentage of human genes have no introns?",
+  "ideal_answer": "About 3% of human genes have no introns.  URL_0",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/21914464",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22732409",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26415210",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11333024",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16469316"
+  ],
+  "snippets": [
+    {
+      "text": "Intronless genes (IGs) constitute approximately 3% of the human genome.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22732409",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Intronless genes (IGs) fraction varies between 2.7 and 97.7% in eukaryotic genomes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/21914464",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "608 of these genes have intronless human orthologs",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/16469316",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Intronless genes, which constitute 3 percent of the human genome, differ from intron-containing genes in evolution and function.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26415210",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "3%"
+}

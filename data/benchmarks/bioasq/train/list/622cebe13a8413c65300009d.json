@@ -1,0 +1,47 @@
+{
+  "id": "622cebe13a8413c65300009d",
+  "type": "list",
+  "question": "Which organisms are the focus of the Wormbase?",
+  "ideal_answer": "WormBase continues to advance its practices on data acquisition, curation and retrieval to most effectively deliver comprehensive knowledge about Caenorhabditis elegans, and genomic information about other nematodes and parasitic flatworms.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31552661",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31642470",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32185395",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29761466",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29069413"
+  ],
+  "snippets": [
+    {
+      "text": "The nematode C. elegans is a useful model organism for studying neuronal development and function due to its extremely simple, well-defined nervous system, translucence, short life cycle, and abundance of genetic tools (WormBase. http://wormbase.org , 2018; WormBook.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31552661",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "WormBase (https://wormbase.org/) is a mature Model Organism Information Resource supporting researchers using the nematode Caenorhabditis elegans as a model system for studies across a broad range of basic biological processes. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/31642470",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "WormBase (WB), the authoritative repository for research data on Caenorhabditis elegans and other nematodes, uses text mining (TM) to semi-automate its curation pipeline.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/32185395",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "WormBase continues to advance its practices on data acquisition, curation and retrieval to most effectively deliver comprehensive knowledge about Caenorhabditis elegans, and genomic information about other nematodes and parasitic flatworms.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29069413",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "WormBase ( www.wormbase.org ) provides the nematode research community with a centralized database for information pertaining to nematode genes and genomes.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29761466",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Caenorhabditis elegans, nematodes, parasitic flatworms"
+}

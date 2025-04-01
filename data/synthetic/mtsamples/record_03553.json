@@ -1,0 +1,33 @@
+{
+  "document_id": "record_03553",
+  "original_length": 2353,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "",
+    "Symptoms": "",
+    "Treatment": "S: , Esophagogastroduodenoscopy with biopsy of one of the polyps and percutaneous endoscopic gastrostomy tube placement.,ANESTHESIA: , IV sedation, 1% Xylocaine locally.,CONDITION:,  Stable.,OPERAT...",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "Data leakage detected: Exact sentence from original found in synthetic: ',ANESTHESIA: , IV sedation, 1% Xylocaine locally...'"
+      ],
+      "pii_detected": []
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

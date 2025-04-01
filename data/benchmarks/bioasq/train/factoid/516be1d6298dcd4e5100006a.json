@@ -1,0 +1,51 @@
+{
+  "id": "516be1d6298dcd4e5100006a",
+  "type": "factoid",
+  "question": "What is the mode of inheritance of nemaline myopathy?",
+  "ideal_answer": "Nemaline  myopathy has a autosomal dominant or recessive mode of inheritance.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17846275",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2213842",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15336686"
+  ],
+  "snippets": [
+    {
+      "text": "The results indicate that mutations in TPM2 may cause nemaline myopathy as well as cap disease with a dominant mode of inheritance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/17846275",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Autosomal recessive inheritance had been verified or appeared likely in all nebulin cases",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15336686",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Most cases were sporadic, but in addition there were instances of both autosomal dominant and autosomal recessive inheritance, while two families showed mosaicism for dominant mutations.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15336686",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Finding the causative mutation(s) determines the mode of inheritance",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15336686",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "We conclude that in the Finnish CNM patients, the mode of inheritance appears to be recessive. Apart from a few instances of dominant inheritance, most cases published also seem compatible with recessive inheritance.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/2213842",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020512",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017696",
+    "http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020914",
+    "http://www.disease-ontology.org/api/metadata/DOID:423",
+    "http://www.disease-ontology.org/api/metadata/DOID:3191"
+  ],
+  "exact_answer": "autosomal dominant, autosomal recessive"
+}

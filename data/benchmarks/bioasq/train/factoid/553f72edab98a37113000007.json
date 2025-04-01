@@ -1,0 +1,69 @@
+{
+  "id": "553f72edab98a37113000007",
+  "type": "factoid",
+  "question": "What is the typical outer diameter of microtubules (tubulin heterodimers)?",
+  "ideal_answer": "Microtubules are highly anisotropic structures built from tubulin heterodimers. They are hollow cylindrical shells with a \u223c 25 nm (24nm - 25nm) outer diameter.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19565362",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7161484",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23145817",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23729907",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9549038",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18085218"
+  ],
+  "snippets": [
+    {
+      "text": "microtubules are highly anisotropic structures built from tubulin heterodimers. They are hollow cylindrical shells with a \u223c 25\u00a0nm outer diameter",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23729907",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "single microtubules (diameter 25 nm",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23145817",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The individual microtubules measured about 24 nm in outer diameter",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/7161484",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Microtubules are hollow tubes some 25 nm in diameter participating in the eukaryotic cytoskeleton.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19565362",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Microtubule assembly is accompanied by hydrolysis of GTP associated with beta-tubulin so that microtubules consist principally of \"GDP-tubulin\" stabilized by a short \"GTP cap.\" Microtubules are polar, cylindrical structures some 25 nm in diameter.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18085218",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "They are hollow cylindrical shells with a \u223c 25\u00a0nm outer diameter and are tens of microns long",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23729907",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Microtubule assembly is accompanied by hydrolysis of GTP associated with beta-tubulin so that microtubules consist principally of \"GDP-tubulin\" stabilized by a short \"GTP cap.\" Microtubules are polar, cylindrical structures some 25 nm in diameter",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/18085218",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Microtubules are hollow tubes some 25 nm in diameter participating in the eukaryotic cytoskeleton",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19565362",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005874",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0045298"
+  ],
+  "exact_answer": "24nm - 25 nm"
+}

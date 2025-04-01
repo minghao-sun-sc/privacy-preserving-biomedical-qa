@@ -1,0 +1,36 @@
+{
+  "id": "6020ae4c1cb411341a000083",
+  "type": "summary",
+  "question": "Is lorcaserin associated with increased cancer risk?",
+  "ideal_answer": "The US Food and Drug Administration (FDA) reported an increased risk of cancer with lorcaserin in the follow-up of the CAMELLIA-TIMI 61 trial. However, subsequent meta-analysis did not confirm the increased risk of cancer with lorcaserin but suggests a trend in this direction, with a greater incidence of some subtypes such as lung and pancreas.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33258543"
+  ],
+  "snippets": [
+    {
+      "text": "Is lorcaserin really associated with increased risk of cancer? A systematic review and meta-analysis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33258543",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "The US Food and Drug Administration (FDA) reported in February 2020 an increased risk of cancer with lorcaserin in the follow-up of the CAMELLIA-TIMI 61 trial. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33258543",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "From 11 trials, comprising 21,299 individuals, four studies were included in the meta-analysis and reported 476 cases of cancer in 10,342 subjects in the lorcaserin group and 438 among 9429 individuals randomized to placebo (relative risk [RR]: 1.08; 95% confidence interval [95% CI]: 0.96-1.23). The result was heavily influenced by the CAMELLIA-TIMI 61 trial. In this study, the lorcaserin group had a higher risk of lung and pancreatic but not colon cancer. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33258543",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The current evidence does not confirm the increased risk of cancer with lorcaserin but suggests a trend in this direction, with a greater incidence of some subtypes such as lung and pancreas.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33258543",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": []
+}

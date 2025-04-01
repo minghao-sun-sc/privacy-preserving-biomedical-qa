@@ -1,0 +1,31 @@
+{
+  "id": "63f02a82f36125a426000013",
+  "type": "yesno",
+  "question": "Does CIDEB mutation protect from liver disease?",
+  "ideal_answer": "Yes. CIDEB mutation protects from liver disease.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35939579"
+  ],
+  "snippets": [
+    {
+      "text": "Germline Mutations in CIDEB and Protection against Liver Disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35939579",
+      "beginSection": "title",
+      "endSection": "title"
+    },
+    {
+      "text": "We also found that variants in CIDEB, which encodes a structural protein found in hepatic lipid droplets, had a protective effect. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35939579",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "CONCLUSIONS: Rare germline mutations in CIDEB conferred substantial protection from liver disease.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35939579",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

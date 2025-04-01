@@ -1,0 +1,35 @@
+{
+  "document_id": "record_04006",
+  "original_length": 1335,
+  "synthetic_length": 486,
+  "attributes": {
+    "Diagnosis": "Preoperative: ,  Worrisome skin lesion, left hand.,POSTPROCEDURE DIAGNOSIS:,  Worrisome skin lesion, left hand.,PROCEDURE:,  The patient gave informed consent for his procedure.  After informed con...",
+    "Symptoms": "",
+    "Treatment": "Biopsy procedure",
+    "Medical History": "",
+    "Lab Results": "",
+    "Medications": ""
+  },
+  "is_safe": true,
+  "iterations_required": 1,
+  "assessments": [
+    {
+      "iteration": 0,
+      "is_safe": false,
+      "risk_level": "high",
+      "feedback": [
+        "PII detected in synthetic data: PERSON"
+      ],
+      "pii_detected": [
+        "PERSON"
+      ]
+    },
+    {
+      "iteration": 1,
+      "is_safe": true,
+      "risk_level": "low",
+      "feedback": [],
+      "pii_detected": []
+    }
+  ]
+}

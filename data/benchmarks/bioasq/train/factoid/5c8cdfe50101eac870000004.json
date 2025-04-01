@@ -1,0 +1,47 @@
+{
+  "id": "5c8cdfe50101eac870000004",
+  "type": "factoid",
+  "question": "Which protein is the Mitochondrial carrier homolog 2 (MTCH2) receptor for?",
+  "ideal_answer": "Mitochondrial Carrier Homolog 2 (MTCH2) acts as a receptor for the BH3 interacting-domain death agonist (BID) in the mitochondrial outer membrane.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27320914",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30401654",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26794447",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22326460",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15899861"
+  ],
+  "snippets": [
+    {
+      "text": "These results implicate Mtch2 as a mitochondrial target of tBID",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/15899861",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Mitochondrial Carrier Homolog 2 (MTCH2) acts as a receptor for the BH3 interacting-domain death agonist (BID) in the mitochondrial outer membrane. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30401654",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "MTCH2, a proposed receptor for tBID",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/26794447",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "tBid recruitment to mitochondria, which is facilitated by its receptor MTCH2 at the outer mitochondrial membrane (OMM)",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/27320914",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Recent studies report mitochondrial carrier homolog 2 (MTCH2) as a novel and uncharacterized protein that acts as a receptor-like protein for the truncated BH3-interacting domain death agonist (tBID) protein in the outer membrane of mitochondria. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22326460",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "truncated BH3-interacting domain death agonist (tBID) protein"
+}

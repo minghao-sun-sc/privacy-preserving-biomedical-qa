@@ -1,0 +1,33 @@
+{
+  "id": "62507ca3e764a5320400000f",
+  "type": "yesno",
+  "question": "Is SOX10 expressed in melanoma cells?",
+  "ideal_answer": "Yes,\nThe most commonly used melanocytic markers include S100, Melan-A, HMB45 and SOX10",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33509946",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33002486",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34557039"
+  ],
+  "snippets": [
+    {
+      "text": "Our study confirmed that SOX10 is an oncogene and activate Notch signaling pathway, which suggests the potential treatment for melanoma patients by target SOX10/Notch axis.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34557039",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The most commonly used melanocytic markers include S100, Melan-A, HMB45 and SOX10",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33509946",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "melanocytic markers melan-A and SOX10 ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33002486",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

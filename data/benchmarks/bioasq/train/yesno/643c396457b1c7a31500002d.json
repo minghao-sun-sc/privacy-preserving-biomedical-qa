@@ -1,0 +1,144 @@
+{
+  "id": "643c396457b1c7a31500002d",
+  "type": "yesno",
+  "question": "Are any medications available to prevent COVID-19 following exposure?",
+  "ideal_answer": "Currently, no. Certain monoclonal antibodies had previously been demonstrated to prevent SARS-CoV-2 infection after exposure, but they mostly lack activity against circulating SARS-CoV-2 variants.\n\nOther agents (e.g., Hydroxychloroquine, Ivermectin, Tixagevimab/Cilgavimab) have not been shown to be effective.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33953559",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34153975",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36411267",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34318930",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35181864",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33166694",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32492293",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33284679",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36399336",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34669839",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34781981",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34485970"
+  ],
+  "snippets": [
+    {
+      "text": "Casirivimab/imdevimab (REGN-COV), a cocktail of neutralizing antibodies against the receptor-binding domain of the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) spike protein, was shown to be an effective treatment and post-exposure prophylaxis measure for coronavirus disease 2019 (COVID-19).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35181864",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The high titer of IgGSP supports the clinical benefit of therapeutic and prophylactic use of REGN-COV from the serological point of view.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35181864",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We collected serological data of patients with COVID-19 who were treated with REGN-COV 1200\u00a0mg (casirivimab 600\u00a0mg/imdevimab 600\u00a0mg).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/35181864",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Based on the current very low- to low-certainty evidence, we are uncertain about the efficacy and safety of ivermectin used to treat or prevent COVID-19. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34318930",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Overall, the reliable evidence available does not support the use ivermectin for treatment or prevention of COVID-19 outside of well-designed randomized trials.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34318930",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Currently, evidence on efficacy and safety of ivermectin for prevention of SARS-CoV-2 infection and COVID-19 treatment is conflicting.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34318930",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "We report primary results of a phase 3 trial of AZD7442 (tixagevimab/cilgavimab) for post-exposure prophylaxis to prevent symptomatic coronavirus disease 2019 (COVID-19).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36411267",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This study did not meet the primary efficacy endpoint of post-exposure prevention of symptomatic COVID-19 with AZD7442 versus placebo.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36411267",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This systematic review was performed to determine the population that benefited from prophylactic ivermectin. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36399336",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Ivermectin was associated with a lower risk of COVID-19 (OR, 0.22; 95% CI, 0.12-0.40) in the pre-exposure population, whereas no protective effect was observed in the post-exposure population (OR, 0.39; 95% CI, 0.09-1.67). In summary, prophylactic ivermectin did not prevent COVID-19 in the post-exposure population. Although the protective effect of ivermectin was shown in the overall and pre-exposure populations, the results were unreliable owing to poor-quality evidence.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/36399336",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This rigorous randomized controlled trial among persons with recent exposure excluded a clinically meaningful effect of hydroxychloroquine as postexposure prophylaxis to prevent SARS-CoV-2 infection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33284679",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Effective prevention against coronavirus disease 2019 (COVID-19), caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), is currently limited to nonpharmaceutical strategies.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33284679",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "To test hydroxychloroquine as postexposure prophylaxis for SARS-CoV-2 infection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33284679",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Chloroquine or hydroxychloroquine has demonstrated no effect on the treatment of hospitalized COVID-19 patients. This study aimed to answer questions related to the use of hydroxychloroquine for pre-exposure or post-exposure prophylaxis of SARS-CoV-2 infection and in the treatment of patients with mild COVID-19 in terms of hospitalization, adverse events, and mortality.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34669839",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The use of hydroxychloroquine for prophylaxis of SARS-CoV-2 infection or treatment of patients with mild COVID-19 is not recommended.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34669839",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "No statistically significant differences were found between the hydroxychloroquine and control groups in terms of pre- or post-exposure prophylaxis of SARS-CoV-2 infection.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34669839",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Rapidly emerging SARS-CoV-2 variants jeopardize antibody-based countermeasures. Although cell culture experiments have demonstrated a loss of potency of several anti-spike neutralizing antibodies against variant strains of SARS-CoV-21-3, the in vivo importance of these results remains uncertain.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34153975",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Therefore, many-but not all-of the antibody products with Emergency Use Authorization should retain substantial efficacy against the prevailing variant strains of SARS-CoV-2.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34153975",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Although some individual mAbs showed reduced or abrogated neutralizing activity in cell culture against B.1.351, B.1.1.28, B.1.617.1 and B.1.526 viruses with mutations at residue E484 of the spike protein, low prophylactic doses of mAb combinations protected against infection by many variants in K18-hACE2 transgenic mice, 129S2 immunocompetent mice and hamsters, without the emergence of resistance. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/34153975",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Hydroxychloroquine (HCQ) has been tried against COVID-19 owing to its in vitro virucidal action against SARS-CoV-2, but the role of HCQ as post-exposure prophylaxis (PEP) remains inconclusive.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/33166694",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "Yes"
+}

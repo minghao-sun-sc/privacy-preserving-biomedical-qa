@@ -1,0 +1,37 @@
+{
+  "id": "518ba4b5310faafe08000005",
+  "type": "list",
+  "question": "Which drugs are utilized to treat eosinophilic esophagitis?",
+  "ideal_answer": "Therapeutic options of eosinophilic esophagitis include use of proton-pump inhibitors, immunosuppressive drugs, elimination diets, and esophageal dilatation.\nOral viscous budesonide (OVB) is an effective treatment of pan-esophageal disease in children with EoE. OVB improves symptoms and endoscopic and histologic features.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19533356",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22475741",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22561055",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20457157",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23011019",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23478244",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21277394"
+  ],
+  "snippets": [
+    {
+      "text": "Current therapeutic options include use of proton-pump inhibitors, immunosuppressive drugs, elimination diets, and esophageal dilatation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23478244",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "Aerosolized, swallowed fluticasone leads to a histologic but not a symptomatic response in adults with EoE",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22475741",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    },
+    {
+      "text": "OVB is an effective treatment of pan-esophageal disease in children with EoE. OVB improves symptoms and endoscopic and histologic features. Proton pump inhibitor single therapy did not significantly improve esophageal eosinophilia or symptoms of EoE.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20457157",
+      "beginSection": "sections.0",
+      "endSection": "sections.0"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "proton pump inhibitors, immunosoppressive drugs, budesonide"
+}

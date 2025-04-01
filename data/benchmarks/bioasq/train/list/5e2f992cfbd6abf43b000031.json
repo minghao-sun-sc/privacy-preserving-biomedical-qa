@@ -1,0 +1,73 @@
+{
+  "id": "5e2f992cfbd6abf43b000031",
+  "type": "list",
+  "question": "Which medication are included in the Polycap polypill?",
+  "ideal_answer": "Polycap polypil contains aspirin, 100 mg; atenolol, 50 mg; ramipril, 5 mg; thiazide, 12.5 mg; and simvastatin, 20 mg. It is taken as two capsules once daily.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20334446",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20549577",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22189351",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22787067",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30342297",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19339045",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29540234"
+  ],
+  "snippets": [
+    {
+      "text": "Patients in the intervention arm will receive Polycap DS\u00ae (containing aspirin, 100 mg; atenolol, 50 mg; ramipril, 5 mg; thiazide, 12.5 mg; simvastatin, 20 mg) taken as two capsules once daily. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/29540234",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "This study aims to determine whether the Polycap (comprised of atenolol, ramipril, hydrochlorothiazide, and a statin) reduces CV events in persons without a history of CVD, but who are at least at intermediate CVD risk. ",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/30342297",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND: A daily single capsule (polycap) of 3 blood pressure (BP) lowering drugs (hydrochlorthiazide, 12.5 mg; atenolol, 50 mg; ramipril, 5 mg) at low doses, simvastatin (20 mg), and aspirin (100 mg) has been demonstrated to be well tolerated and to reduce BP and low-density lipoprotein cholesterol.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/22787067",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND: The Polycap (polypill; aspirin [acetylsalicylic acid], ramipril, simvastatin, atenolol, and hydrochlorothiazide) was found to be safe and effective for reducing multiple cardiovascular risk factors in The Indian Polycap Study (TIPS).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20334446",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Indian Polycap Study (TIPS) was the first to systematically test the clinical application of the polypill; it included ramipril, hydrochlorothiazide, atenolol, aspirin, and simvastatin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20549577",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "METHODS: In a double-blind trial in 50 centres in India, 2053 individuals without cardiovascular disease, aged 45-80 years, and with one risk factor were randomly assigned, by a central secure website, to the Polycap (n=412) consisting of low doses of thiazide (12.5 mg), atenolol (50 mg), ramipril (5 mg), simvastatin (20 mg), and aspirin (100 mg) per day, or to eight other groups, each with about 200 individuals, of aspirin alone, simvastatin alone, hydrochlorthiazide alone, three combinations of the two blood-pressure-lowering drugs, three blood-pressure-lowering drugs alone, or three blood-pressure-lowering drugs plus aspirin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/19339045",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "BACKGROUND\n\nThe Polycap (polypill; aspirin [acetylsalicylic acid], ramipril, simvastatin, atenolol, and hydrochlorothiazide) was found to be safe and effective for reducing multiple cardiovascular risk factors in The Indian Polycap Study (TIPS).",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20334446",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Indian Polycap Study (TIPS) was the first to systematically test the clinical application of the polypill; it included ramipril, hydrochlorothiazide, atenolol, aspirin, and simvastatin.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20549577",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "The Indian Polycap Study ( TIPS ) was the first to systematically test the clinical application of the polypill; it included ramipril , hydrochlorothiazide , atenolol , aspirin , and simvastatin",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20549577",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [],
+  "exact_answer": "aspirin, atenolol, ramipril, thiazide, simvastatin"
+}

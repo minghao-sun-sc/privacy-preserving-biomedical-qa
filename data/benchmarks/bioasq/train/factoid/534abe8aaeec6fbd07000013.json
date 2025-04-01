@@ -1,0 +1,42 @@
+{
+  "id": "534abe8aaeec6fbd07000013",
+  "type": "factoid",
+  "question": "Which heat shock protein is found to be upregulated during Hsp90 inhibition?",
+  "ideal_answer": "HSP90 inhibition was found to be associated with induction of HSP70 expression.",
+  "documents": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23023377",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24100469",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20015528"
+  ],
+  "snippets": [
+    {
+      "text": "HSP90 inhibition was associated with decreased neuroendocrine ErbB and IGF-I receptor expression, decreased Erk and Akt phospho-rylation and the induction of HSP70 expression.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/24100469",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Inhibition of Hsp90 upregulated the expression of Hsp70 and Hsp70-bound Nox2, 5 and promoted degradation.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/23023377",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    },
+    {
+      "text": "Conversely, inhibition of HSP90 significantly increased the expression of both VEGF and HGF mRNA, and induced HSP70 protein in PHH cultures in vitro.",
+      "document": "http://www.ncbi.nlm.nih.gov/pubmed/20015528",
+      "beginSection": "abstract",
+      "endSection": "abstract"
+    }
+  ],
+  "concepts": [
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0006986",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018841",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018840",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006360",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0042026",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015854",
+    "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0034620",
+    "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018869"
+  ],
+  "exact_answer": "HSP70"
+}
