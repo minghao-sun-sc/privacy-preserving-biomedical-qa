@@ -1,10 +1,10 @@
 # Privacy-Preserving Biomedical QA with Dynamic Research Integration
 
-This project implements a privacy-preserving biomedical question-answering system that integrates external text databases (MTSamples) with a large language model (BioGPT) while preserving privacy through the SAGE pipeline.
+This project implements a privacy-preserving biomedical question-answering system that integrates external text databases (MTSamples) with a large language model (Llama-2-7b) while preserving privacy through the SAGE pipeline.
 
 ## Project Objectives
 
-1. **Integrate external text database with BioGPT**: Enhance BioGPT's capabilities by integrating knowledge from MTSamples medical transcriptions.
+1. **Integrate external text database with Llama-2**: Enhance Llama-2's capabilities by integrating knowledge from MTSamples medical transcriptions.
 2. **Implement SAGE pipeline for privacy**: Protect sensitive information in medical records while maintaining medical utility.
 3. **Compare performance across configurations**: Evaluate the accuracy and privacy implications of different system setups.
 
@@ -14,7 +14,7 @@ The project is organized into the following modules:
 
 1. **Core Modules**
    - Data Processing: Dataset loaders, text preprocessing, data indexing
-   - BioGPT Integration: Model loader, query processor, response generator
+   - LLM Integration: Model loader, query processor, response generator
    - RAG Module: Vector database, embedding generator, similarity search, context integration
    - SAGE Pipeline: Sensitive information detection, synthetic data generation, agent-based refinement
    - Evaluation Module: Accuracy metrics, privacy metrics, benchmark runner
@@ -51,6 +51,12 @@ The project is organized into the following modules:
    ```bash
    # Install spaCy model
    python -m spacy download en_core_web_sm
+   
+   # Install bitsandbytes for model quantization
+   pip install bitsandbytes
+   
+   # Install flash-attention (optional, for faster inference)
+   pip install flash-attn
    ```
 
 4. Verify the installation:
@@ -82,8 +88,9 @@ Memory Requirements:
 
 If you encounter CUDA out-of-memory errors:
 1. Reduce batch sizes in configuration files
-2. Use gradient checkpointing (enabled by default)
-3. Consider using mixed precision training (FP16)
+2. Use model quantization (8-bit or 4-bit) in configuration files
+3. Use gradient checkpointing (enabled by default)
+4. Consider using mixed precision training (FP16)
 
 If you face dependency conflicts:
 1. Make sure to use the exact environment.yml file provided
@@ -94,28 +101,28 @@ If you face dependency conflicts:
 
 The project supports several experiment configurations:
 
-### 1. Baseline BioGPT (without RAG)
+### 1. Baseline Llama-2 (without RAG)
 
-This configuration evaluates BioGPT's performance without any external knowledge integration.
-
-```
-python main.py run --config configs/biogpt_baseline.json
-```
-
-### 2. BioGPT with RAG
-
-This configuration evaluates BioGPT with Retrieval-Augmented Generation using the MTSamples dataset.
+This configuration evaluates Llama-2's performance without any external knowledge integration.
 
 ```
-python main.py run --config configs/biogpt_rag.json
+python main.py run --config configs/llama2_baseline.json
 ```
 
-### 3. BioGPT with RAG and SAGE
+### 2. Llama-2 with RAG
 
-This configuration evaluates BioGPT with RAG using privacy-preserving synthetic data generated through the SAGE pipeline.
+This configuration evaluates Llama-2 with Retrieval-Augmented Generation using the MTSamples dataset.
 
 ```
-python main.py run --config configs/biogpt_rag_sage.json
+python main.py run --config configs/llama2_rag.json
+```
+
+### 3. Llama-2 with RAG and SAGE
+
+This configuration evaluates Llama-2 with RAG using privacy-preserving synthetic data generated through the SAGE pipeline.
+
+```
+python main.py run --config configs/llama2_rag_sage.json
 ```
 
 ### Running Only the SAGE Pipeline
@@ -123,13 +130,13 @@ python main.py run --config configs/biogpt_rag_sage.json
 To generate synthetic medical records without running the full QA pipeline:
 
 ```
-python main.py sage --input_dir /mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/original/mtsamples --output_dir /mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/synthetic/mtsamples --num_records 100
+python main.py sage --input_dir /mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/original/mtsamples --output_dir /mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/synthetic/mtsamples --num_records 50
 ```
 
 Or using the configuration file:
 
 ```
-python main.py run --config configs/sage_only.json
+python main.py run --config configs/sage_only_llama2.json
 ```
 
 ### Interactive Query Mode
@@ -137,7 +144,7 @@ python main.py run --config configs/sage_only.json
 To interactively query the system:
 
 ```
-python main.py query --config configs/biogpt_rag.json
+python main.py query --config configs/llama2_rag.json
 ```
 
 ## GPU Considerations
@@ -146,7 +153,8 @@ This project is designed to run on GPU systems. When running experiments, consid
 
 1. The `GPUResourceManager` class automatically selects the GPU with the most available memory.
 2. You can adjust batch sizes in the configuration files to fit your GPU memory constraints.
-3. For larger experiments, consider using `main.py run` with a smaller batch size.
+3. For larger models like Llama-2-7b, you can use 8-bit quantization to reduce memory usage.
+4. Flash attention is supported for faster inference on compatible GPUs.
 
 ## Evaluating Results
 
@@ -174,9 +182,9 @@ The main metrics to look for in the results are:
 
 To compare the different system configurations:
 
-1. Run the baseline BioGPT experiment
-2. Run the BioGPT with RAG experiment
-3. Run the BioGPT with RAG and SAGE experiment
+1. Run the baseline Llama-2 experiment
+2. Run the Llama-2 with RAG experiment
+3. Run the Llama-2 with RAG and SAGE experiment
 4. Compare the results to analyze the accuracy-privacy tradeoffs
 
 ## Project Structure
@@ -186,6 +194,7 @@ privacy-preserving-biomedical-qa/
 ├── main.py                      # Main entry point
 ├── run_experiment.py            # Script to run experiments
 ├── requirements.txt             # Dependencies
+├── environment.yml              # Conda environment file
 ├── configs/                     # Configuration files
 ├── data/                        # Data directory
 │   ├── original/                # Original medical records
@@ -195,7 +204,7 @@ privacy-preserving-biomedical-qa/
 ├── results/                     # Experiment results
 └── src/                         # Source code
     ├── data_processing/         # Data processing modules
-    ├── biogpt_integration/      # BioGPT integration
+    ├── llm_integration/         # Llama-2 integration
     ├── rag/                     # RAG implementation
     ├── sage/                    # SAGE pipeline
     ├── evaluation/              # Evaluation metrics
@@ -208,6 +217,6 @@ MIT
 
 ## Acknowledgements
 
-- Microsoft for the BioGPT model
+- Meta for the Llama-2 model
 - MTSamples dataset
 - Biomedical benchmark datasets 

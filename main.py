@@ -6,9 +6,12 @@ import sys
 import logging
 import argparse
 from pathlib import Path
+import torch
 
-from src.experiment_management.config_manager import ConfigManager
+from src.experiment_management.config_manager import ConfigManager, ExperimentConfig
 from src.experiment_management.experiment_runner import ExperimentRunner
+from src.llm_integration.model_loader import LLMModel, LLMWithRAG
+from src.rag.vector_database import VectorDatabase
 
 
 def print_banner():
@@ -171,11 +174,14 @@ def run_sage_pipeline(args):
             "data_dir": input_dir,
             "output_dir": output_dir,
             "model_name": model,
-            "biogpt": {
+            "llm": {
                 "model_name": model,
                 "use_gpu": True,
                 "max_new_tokens": 128,
-                "temperature": 0.7
+                "temperature": 0.7,
+                "use_8bit": True,
+                "use_4bit": False,
+                "use_flash_attention": True
             },
             "sage": {
                 "enabled": True,
@@ -219,7 +225,7 @@ def run_sage_pipeline(args):
 def interactive_query(args):
     """Run the system in interactive query mode."""
     from src.experiment_management.config_manager import ConfigManager
-    from src.biogpt_integration.model_loader import BioGPTModel, BioGPTWithRAG
+    from src.llm_integration.model_loader import LLMModel, LLMWithRAG
     from src.biogpt_integration.query_processor import QueryProcessor
     from src.rag.vector_database import TextEncoder, VectorDatabase
     from src.rag.retriever import Retriever
@@ -235,7 +241,7 @@ def interactive_query(args):
         config_manager = ConfigManager()
         config = config_manager.load_config(config_path)
         
-        print("Initializing BioGPT model...")
+        print("Initializing LLM model...")
         query_processor = QueryProcessor()
         
         # Initialize components based on configuration
@@ -253,7 +259,7 @@ def interactive_query(args):
             # Initialize text encoder
             text_encoder = TextEncoder(
                 model_name=config.rag.encoder_model,
-                use_gpu=config.biogpt.use_gpu
+                use_gpu=config.llm.use_gpu
             )
             
             # Initialize vector database
@@ -277,27 +283,33 @@ def interactive_query(args):
                 top_k=config.rag.top_k
             )
             
-            # Initialize BioGPT with RAG
-            model = BioGPTWithRAG(
-                model_name=config.biogpt.model_name,
-                use_gpu=config.biogpt.use_gpu,
-                max_new_tokens=config.biogpt.max_new_tokens,
-                temperature=config.biogpt.temperature,
-                cache_dir=config.biogpt.cache_dir
+            # Initialize LLM with RAG
+            model = LLMWithRAG(
+                model_name=config.llm.model_name,
+                use_gpu=config.llm.use_gpu,
+                max_new_tokens=config.llm.max_new_tokens,
+                temperature=config.llm.temperature,
+                cache_dir=config.llm.cache_dir,
+                use_8bit=config.llm.use_8bit,
+                use_4bit=config.llm.use_4bit,
+                use_flash_attention=config.llm.use_flash_attention
             )
         else:
-            # Initialize BioGPT without RAG
-            model = BioGPTModel(
-                model_name=config.biogpt.model_name,
-                use_gpu=config.biogpt.use_gpu,
-                max_new_tokens=config.biogpt.max_new_tokens,
-                temperature=config.biogpt.temperature,
-                cache_dir=config.biogpt.cache_dir
+            # Initialize LLM without RAG
+            model = LLMModel(
+                model_name=config.llm.model_name,
+                use_gpu=config.llm.use_gpu,
+                max_new_tokens=config.llm.max_new_tokens,
+                temperature=config.llm.temperature,
+                cache_dir=config.llm.cache_dir,
+                use_8bit=config.llm.use_8bit,
+                use_4bit=config.llm.use_4bit,
+                use_flash_attention=config.llm.use_flash_attention
             )
         
         # Load model
         model.load()
-        print(f"Model loaded: {config.biogpt.model_name}")
+        print(f"Model loaded: {config.llm.model_name}")
         
         # Interactive query loop
         print("\nBiomedical QA Interactive Mode")
@@ -326,7 +338,7 @@ def interactive_query(args):
                 # Check for info command
                 if query.lower() == "info":
                     print("\nCurrent configuration:")
-                    print(f"  Model: {config.biogpt.model_name}")
+                    print(f"  Model: {config.llm.model_name}")
                     print(f"  RAG enabled: {config.rag.enabled}")
                     if config.rag.enabled:
                         print(f"  RAG encoder: {config.rag.encoder_model}")
@@ -367,24 +379,21 @@ def interactive_query(args):
                     # Generate answer without context
                     answer = model.answer_question(formatted_query)
                 
-                # Extract and print answer
-                clean_answer = query_processor.extract_answer_from_response(
-                    answer, query_type=None
-                )
-                
                 print("\nAnswer:")
-                print(clean_answer)
-            
+                print(answer)
+                
             except KeyboardInterrupt:
-                print("\nInterrupted by user. Exiting...")
+                print("\nExiting interactive mode")
                 break
             except Exception as e:
-                print(f"\nError processing query: {str(e)}")
-        
+                print(f"\nError: {str(e)}")
+                
         return 0
     
     except Exception as e:
-        print(f"Error initializing interactive mode: {str(e)}")
+        print(f"Error in interactive query mode: {str(e)}")
+        import traceback
+        traceback.print_exc()
         return 1
 
 

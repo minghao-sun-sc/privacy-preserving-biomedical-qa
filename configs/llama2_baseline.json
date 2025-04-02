@@ -1,0 +1,47 @@
+{
+  "name": "Llama2_Baseline",
+  "description": "Baseline Llama-2-7b model without RAG or SAGE",
+  "data_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/original/mtsamples",
+  "output_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/results/Llama2_Baseline",
+  "llm": {
+    "model_name": "meta-llama/Llama-2-7b-chat-hf",
+    "use_gpu": true,
+    "max_new_tokens": 256,
+    "temperature": 0.7,
+    "cache_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/model_cache",
+    "use_8bit": true,
+    "use_4bit": false,
+    "use_flash_attention": true
+  },
+  "rag": {
+    "enabled": false,
+    "encoder_model": "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext",
+    "vector_store_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/vector_store",
+    "top_k": 5,
+    "max_context_length": 1024,
+    "chunk_size": 512,
+    "chunk_overlap": 128
+  },
+  "sage": {
+    "enabled": false,
+    "generator_model": "meta-llama/Llama-2-7b-chat-hf",
+    "refinement_model": "meta-llama/Llama-2-7b-chat-hf",
+    "synthetic_data_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/synthetic/mtsamples",
+    "preserve_medical_content": true,
+    "run_refinement": true,
+    "evaluate_consistency": true,
+    "num_records": 50,
+    "num_samples": 1,
+    "max_workers": 2
+  },
+  "evaluation": {
+    "benchmark_file": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/benchmarks/comprehensive_benchmark.json",
+    "results_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/evaluation/results",
+    "evaluate_accuracy": true,
+    "evaluate_privacy": false,
+    "output_predictions": true,
+    "batch_size": 2
+  },
+  "random_seed": 42,
+  "verbose": true
+} 

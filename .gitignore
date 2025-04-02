@@ -1,0 +1,46 @@
+# Large data directories
+data/vector_store/
+data/model_cache/
+data/pubmed_cache/
+data/clinical_trials_cache/
+data/raw/
+
+# Generated directories
+results/*/synthetic/
+logs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Cache files
+*.cache
+
+# Large vector databases
+*.index
+*.faiss
+**/faiss.index
+**/faiss_index 

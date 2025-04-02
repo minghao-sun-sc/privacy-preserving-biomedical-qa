@@ -14,7 +14,7 @@ from src.experiment_management.config_manager import ExperimentConfig
 from src.data_processing.dataset_loaders import MTSamplesLoader, BenchmarkLoader
 from src.data_processing.text_preprocessor import TextPreprocessor
 from src.data_processing.data_indexing import DocumentIndexer
-from src.biogpt_integration.model_loader import BioGPTModel, BioGPTWithRAG
+from src.llm_integration.model_loader import LLMModel, LLMWithRAG
 from src.biogpt_integration.query_processor import QueryProcessor
 from src.rag.vector_database import TextEncoder, VectorDatabase
 from src.rag.retriever import Retriever, ContextBuilder, ChunkingStrategy
@@ -102,8 +102,8 @@ class ExperimentRunner:
         # Initialize query processor
         self.query_processor = QueryProcessor()
         
-        # Initialize BioGPT model
-        self.logger.info(f"Initializing BioGPT model: {self.config.biogpt.model_name}")
+        # Initialize LLM model
+        self.logger.info(f"Initializing LLM model: {self.config.llm.model_name}")
         self.biogpt = None  # Will be initialized when needed
         
         # Initialize RAG components if enabled
@@ -137,10 +137,10 @@ class ExperimentRunner:
                 "data_dir": self.config.data_dir,
                 "output_dir": self.config.output_dir,
                 "model_name": self.config.sage.generator_model,
-                "biogpt": asdict(self.config.biogpt),
+                "biogpt": asdict(self.config.llm),
                 "sage": asdict(self.config.sage),
                 "evaluation": asdict(self.config.evaluation),
-                "cache_dir": self.config.biogpt.cache_dir
+                "cache_dir": self.config.llm.cache_dir
             }
             
             # Initialize SAGE pipeline
@@ -165,25 +165,31 @@ class ExperimentRunner:
             self.privacy_evaluator = PrivacyEvaluator(random_seed=self.config.random_seed)
     
     def _initialize_biogpt(self) -> None:
-        """Initialize the BioGPT model."""
+        """Initialize the LLM model."""
         if self.biogpt is not None:
             return
-            
+        
         if self.config.rag.enabled:
-            self.biogpt = BioGPTWithRAG(
-                model_name=self.config.biogpt.model_name,
-                use_gpu=self.config.biogpt.use_gpu,
-                max_new_tokens=self.config.biogpt.max_new_tokens,
-                temperature=self.config.biogpt.temperature,
-                cache_dir=self.config.biogpt.cache_dir
+            self.biogpt = LLMWithRAG(
+                model_name=self.config.llm.model_name,
+                use_gpu=self.config.llm.use_gpu,
+                max_new_tokens=self.config.llm.max_new_tokens,
+                temperature=self.config.llm.temperature,
+                cache_dir=self.config.llm.cache_dir,
+                use_8bit=self.config.llm.use_8bit,
+                use_4bit=self.config.llm.use_4bit,
+                use_flash_attention=self.config.llm.use_flash_attention
             )
         else:
-            self.biogpt = BioGPTModel(
-                model_name=self.config.biogpt.model_name,
-                use_gpu=self.config.biogpt.use_gpu,
-                max_new_tokens=self.config.biogpt.max_new_tokens,
-                temperature=self.config.biogpt.temperature,
-                cache_dir=self.config.biogpt.cache_dir
+            self.biogpt = LLMModel(
+                model_name=self.config.llm.model_name,
+                use_gpu=self.config.llm.use_gpu,
+                max_new_tokens=self.config.llm.max_new_tokens,
+                temperature=self.config.llm.temperature,
+                cache_dir=self.config.llm.cache_dir,
+                use_8bit=self.config.llm.use_8bit,
+                use_4bit=self.config.llm.use_4bit,
+                use_flash_attention=self.config.llm.use_flash_attention
             )
         
         self.biogpt.load()
@@ -196,7 +202,7 @@ class ExperimentRunner:
         if self.text_encoder is None:
             self.text_encoder = TextEncoder(
                 model_name=self.config.rag.encoder_model,
-                use_gpu=self.config.biogpt.use_gpu
+                use_gpu=self.config.llm.use_gpu
             )
         
         if self.vector_db is None:
@@ -360,7 +366,7 @@ class ExperimentRunner:
         Returns:
             Question dictionary with prediction
         """
-        # Initialize BioGPT if needed
+        # Initialize LLM if needed
         self._initialize_biogpt()
         
         # Extract question text and type
