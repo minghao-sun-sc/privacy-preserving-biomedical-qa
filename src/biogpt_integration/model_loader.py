@@ -97,32 +97,78 @@ class BioGPTModel:
         """Load the BioGPT model and tokenizer."""
         print(f"Loading BioGPT model: {self.model_name}")
         
+        # Clear CUDA cache before loading model
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+            print(f"CUDA available: {torch.cuda.get_device_name(0)}")
+            print(f"Memory allocated: {torch.cuda.memory_allocated(0) / 1024**2:.2f} MB")
+            print(f"Memory reserved: {torch.cuda.memory_reserved(0) / 1024**2:.2f} MB")
+        
         # Load tokenizer
         self.tokenizer = AutoTokenizer.from_pretrained(
             self.model_name,
             cache_dir=self.cache_dir
         )
         
-        # Load model
-        self.model = AutoModelForCausalLM.from_pretrained(
-            self.model_name,
-            cache_dir=self.cache_dir
-        )
-        
-        # Move model to device and optimize memory usage
-        self.model = self.model.to(self.device)
-        if self.use_gpu:
-            self.model = GPUResourceManager.optimize_memory_usage(self.model)
-        
-        # Create the text generation pipeline
-        self.generator = pipeline(
-            "text-generation",
-            model=self.model,
-            tokenizer=self.tokenizer,
-            device=self.device.index if self.device.type == "cuda" else -1
-        )
-        
-        print("BioGPT model loaded successfully")
+        # Load model with additional safeguards
+        try:
+            self.model = AutoModelForCausalLM.from_pretrained(
+                self.model_name,
+                cache_dir=self.cache_dir,
+                torch_dtype=torch.float16 if self.use_gpu else torch.float32,  # Use half precision if on GPU
+                low_cpu_mem_usage=True  # Better memory handling
+            )
+            
+            # Move model to device and optimize memory usage
+            self.model = self.model.to(self.device)
+            if self.use_gpu:
+                self.model = GPUResourceManager.optimize_memory_usage(self.model)
+            
+            # Create the text generation pipeline
+            self.generator = pipeline(
+                "text-generation",
+                model=self.model,
+                tokenizer=self.tokenizer,
+                device=self.device.index if self.device.type == "cuda" else -1
+            )
+            
+            print("BioGPT model loaded successfully")
+            
+        except Exception as e:
+            print(f"Error loading model: {str(e)}")
+            print("Attempting to fall back to smaller batch size and memory optimizations")
+            
+            # If we failed, try again with more aggressive memory optimizations
+            if self.use_gpu:
+                # Attempt to load in 8-bit precision if available
+                try:
+                    import bitsandbytes as bnb
+                    self.model = AutoModelForCausalLM.from_pretrained(
+                        self.model_name,
+                        cache_dir=self.cache_dir,
+                        load_in_8bit=True,
+                        device_map="auto"
+                    )
+                    print("Loaded model in 8-bit precision")
+                except ImportError:
+                    # If bitsandbytes not available, load with standard optimizations
+                    self.model = AutoModelForCausalLM.from_pretrained(
+                        self.model_name,
+                        cache_dir=self.cache_dir,
+                        torch_dtype=torch.float16,
+                        low_cpu_mem_usage=True
+                    )
+                    self.model = self.model.to(self.device)
+                
+                # Create the text generation pipeline with smaller batch size
+                self.generator = pipeline(
+                    "text-generation",
+                    model=self.model,
+                    tokenizer=self.tokenizer,
+                    device=self.device.index if self.device.type == "cuda" else -1,
+                    batch_size=1  # Force small batch size
+                )
+                print("Model loaded with memory optimizations")
     
     def generate(
         self, 
@@ -205,7 +251,7 @@ class BioGPTWithRAG(BioGPTModel):
         self, 
         question: str, 
         context_docs: List[Dict[str, Any]],
-        max_context_length: int = 1024
+        max_context_length: int = 512
     ) -> str:
         """
         Answer a question using BioGPT with retrieved context documents.
@@ -222,40 +268,75 @@ class BioGPTWithRAG(BioGPTModel):
             # If no context is provided, fall back to regular question answering
             return self.answer_question(question)
         
-        # Prepare context string from retrieved documents
-        context_parts = []
-        for doc in context_docs:
-            if 'content' in doc:
-                context_parts.append(doc['content'])
-            elif 'description' in doc:
-                context_parts.append(doc['description'])
-        
-        # Concatenate context parts and truncate if necessary
-        context_text = " ".join(context_parts)
-        
-        # Tokenize to get tokens and truncate if too long
-        context_tokens = self.tokenizer.tokenize(context_text)
-        if len(context_tokens) > max_context_length:
-            context_tokens = context_tokens[:max_context_length]
-            context_text = self.tokenizer.convert_tokens_to_string(context_tokens)
-        
-        # Format prompt with context
-        prompt = (
-            f"Context information is below.\n"
-            f"---------------------\n"
-            f"{context_text}\n"
-            f"---------------------\n"
-            f"Given the context information and not prior knowledge, "
-            f"answer the question: {question}\n"
-            f"Answer:"
-        )
-        
-        # Generate the answer
-        answers = self.generate(
-            prompt,
-            max_length=200,
-            temperature=0.3,
-            num_return_sequences=1
-        )
-        
-        return answers[0] if answers else "" 
+        try:
+            # Clear CUDA cache before processing
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+            
+            # Limit the number of context docs to prevent memory issues
+            if len(context_docs) > 3:
+                context_docs = context_docs[:3]
+            
+            # Prepare context string from retrieved documents
+            context_parts = []
+            for doc in context_docs:
+                # Only extract essential content, truncate if needed
+                if 'content' in doc:
+                    content = doc['content']
+                    # Truncate long content
+                    if len(content) > 1000:
+                        content = content[:1000] + "..."
+                    context_parts.append(content)
+                elif 'description' in doc:
+                    context_parts.append(doc['description'])
+            
+            # Concatenate context parts and truncate if necessary
+            context_text = " ".join(context_parts)
+            
+            # Safety check - limit context length by characters first
+            if len(context_text) > 4000:
+                context_text = context_text[:4000] + "..."
+            
+            # Tokenize to get tokens and truncate if too long
+            try:
+                context_tokens = self.tokenizer.tokenize(context_text)
+                if len(context_tokens) > max_context_length:
+                    context_tokens = context_tokens[:max_context_length]
+                    context_text = self.tokenizer.convert_tokens_to_string(context_tokens)
+            except Exception as e:
+                print(f"Warning: Error during tokenization: {e}. Using character-based truncation.")
+                # Fallback: truncate by characters
+                if len(context_text) > max_context_length * 4:  # rough estimate: 4 chars per token
+                    context_text = context_text[:max_context_length * 4] + "..."
+            
+            # Format prompt with context (keeping it shorter)
+            prompt = (
+                f"Context information:\n"
+                f"{context_text}\n"
+                f"Based on the context, answer: {question}\n"
+                f"Answer:"
+            )
+            
+            # Generate the answer with reduced parameters
+            answers = self.generate(
+                prompt,
+                max_length=100,  # Reduced for memory savings
+                temperature=0.3,
+                num_return_sequences=1
+            )
+            
+            return answers[0] if answers else ""
+            
+        except RuntimeError as e:
+            # Handle CUDA out of memory or other runtime errors
+            if "CUDA out of memory" in str(e) or "device-side assert triggered" in str(e):
+                print(f"CUDA error encountered: {e}")
+                print("Falling back to basic question answering without context")
+                torch.cuda.empty_cache()  # Clear cache
+                return self.answer_question(question)
+            else:
+                raise e
+        except Exception as e:
+            print(f"Error in answer_with_context: {e}")
+            # Fall back to basic question answering
+            return self.answer_question(question) 

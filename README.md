@@ -1,163 +1,206 @@
 # Privacy-Preserving Biomedical QA with Dynamic Research Integration
 
-This project implements a privacy-preserving biomedical question answering system that integrates the MTSamples dataset with BioGPT and implements a privacy-enhancing pipeline called SAGE (Synthetic Anonymization with Generation and Enhancement).
+This project implements a privacy-preserving biomedical question-answering system that integrates external text databases (MTSamples) with a large language model (BioGPT) while preserving privacy through the SAGE pipeline.
 
-## Project Overview
+## Project Objectives
 
-The project aims to evaluate BioGPT's performance with and without the MTSamples dataset using various biomedical benchmark datasets while addressing privacy issues in Retrieval-Augmented Generation (RAG) systems. The SAGE pipeline generates synthetic medical records that preserve valuable medical knowledge while removing sensitive patient information.
+1. **Integrate external text database with BioGPT**: Enhance BioGPT's capabilities by integrating knowledge from MTSamples medical transcriptions.
+2. **Implement SAGE pipeline for privacy**: Protect sensitive information in medical records while maintaining medical utility.
+3. **Compare performance across configurations**: Evaluate the accuracy and privacy implications of different system setups.
 
-## Architecture
+## Project Architecture
 
-The project consists of six core modules:
+The project is organized into the following modules:
 
-1. **Data Processing**: Handles loading and preprocessing of medical text data
-2. **BioGPT Integration**: Integrates the BioGPT model for biomedical question answering
-3. **Retrieval-Augmented Generation (RAG)**: Enhances BioGPT with relevant context from medical records
-4. **SAGE Privacy Pipeline**: Generates synthetic medical records while preserving medical knowledge
-5. **Evaluation**: Assesses system performance using QA metrics and privacy metrics
-6. **Experiment Management**: Configures and runs experiments with different settings
+1. **Core Modules**
+   - Data Processing: Dataset loaders, text preprocessing, data indexing
+   - BioGPT Integration: Model loader, query processor, response generator
+   - RAG Module: Vector database, embedding generator, similarity search, context integration
+   - SAGE Pipeline: Sensitive information detection, synthetic data generation, agent-based refinement
+   - Evaluation Module: Accuracy metrics, privacy metrics, benchmark runner
+   - Experiment Management: Configuration manager, logging system, checkpoint management
 
-## Installation
+## Setup Instructions
 
 ### Prerequisites
 
-- Python 3.8 or higher
-- PyTorch
-- Transformers
-- FAISS for vector search
-- NLTK for text processing
-- scikit-learn for evaluation metrics
+- CUDA-capable GPU (recommended, at least 8GB VRAM)
+- Anaconda or Miniconda installed
+- Git for version control
+- Access to the MTSamples dataset
+- Access to benchmark datasets
 
-### Setup
+### Environment Setup
 
 1. Clone the repository:
-   ```
+   ```bash
    git clone <repository-url>
    cd privacy-preserving-biomedical-qa
    ```
 
-2. Install the required packages:
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. Download the necessary data:
-   - MTSamples dataset
-   - Biomedical benchmark datasets (e.g., BioASQ, PubMedQA)
-
-4. Set up the data directory structure:
-   ```
-   mkdir -p data/mtsample
-   mkdir -p data/benchmarks
-   mkdir -p data/synthetic
+2. Create and activate the conda environment:
+   ```bash
+   # Create environment from yml file
+   conda env create -f environment.yml
+   
+   # Activate the environment
+   conda activate biomedqa
    ```
 
-## Usage
+3. Install additional dependencies:
+   ```bash
+   # Install spaCy model
+   python -m spacy download en_core_web_sm
+   ```
 
-### Running Experiments
+4. Verify the installation:
+   ```bash
+   # Verify PyTorch installation with CUDA
+   python -c "import torch; print('CUDA available:', torch.cuda.is_available())"
+   
+   # Verify other key dependencies
+   python -c "import transformers; import faiss; import spacy"
+   ```
 
-The main script for running experiments is `run_experiment.py`. This script provides various options for configuring and running experiments.
+### Environment Details
 
-#### Basic Usage
+The project uses the following key components:
+- Python 3.9
+- PyTorch 2.1.2 with CUDA 12.1 support
+- Transformers 4.50.3
+- FAISS-GPU 1.8.0
+- SpaCy 3.7.2
+- Scikit-learn 1.6.1
+- NLTK 3.9.1
 
-To run an experiment with default settings:
+Memory Requirements:
+- Minimum 8GB GPU VRAM for basic operation
+- Recommended 16GB GPU VRAM for larger batch sizes
+- At least 16GB system RAM
+
+### Troubleshooting
+
+If you encounter CUDA out-of-memory errors:
+1. Reduce batch sizes in configuration files
+2. Use gradient checkpointing (enabled by default)
+3. Consider using mixed precision training (FP16)
+
+If you face dependency conflicts:
+1. Make sure to use the exact environment.yml file provided
+2. Try creating a fresh environment
+3. Check CUDA version compatibility with your GPU drivers
+
+## Running Experiments
+
+The project supports several experiment configurations:
+
+### 1. Baseline BioGPT (without RAG)
+
+This configuration evaluates BioGPT's performance without any external knowledge integration.
+
 ```
-python run_experiment.py --data_dir data/mtsample --output_dir results/default
+python main.py run --config configs/biogpt_baseline.json
 ```
 
-#### Creating Experiment Configurations
+### 2. BioGPT with RAG
 
-To create a new experiment configuration without running it:
-```
-python run_experiment.py --create --name "BioGPT_RAG_Test" --description "Testing BioGPT with RAG" --data_dir data/mtsample --output_dir results/rag_test --use_rag
-```
+This configuration evaluates BioGPT with Retrieval-Augmented Generation using the MTSamples dataset.
 
-#### Running with Specific Configurations
-
-To run an experiment using a pre-defined configuration:
 ```
-python run_experiment.py --experiment BioGPT_RAG_SAGE
+python main.py run --config configs/biogpt_rag.json
 ```
 
-Or with a specific configuration file:
-```
-python run_experiment.py --config_file configs/custom_config.json
-```
+### 3. BioGPT with RAG and SAGE
 
-#### Using the SAGE Privacy Pipeline
+This configuration evaluates BioGPT with RAG using privacy-preserving synthetic data generated through the SAGE pipeline.
 
-To enable the SAGE privacy pipeline for synthetic data generation:
 ```
-python run_experiment.py --use_rag --use_sage --data_dir data/mtsample --output_dir results/sage_test
+python main.py run --config configs/biogpt_rag_sage.json
 ```
 
-#### Available Command-Line Options
+### Running Only the SAGE Pipeline
 
-- `--experiment, -e`: Experiment name to run (if using a pre-defined config)
-- `--config_file, -c`: Path to experiment config file
-- `--create`: Create a new experiment configuration instead of running one
-- `--name`: Name for the experiment (when creating a new config)
-- `--description`: Description for the experiment
-- `--data_dir`: Directory containing the original data
-- `--output_dir`: Directory to save experiment output
-- `--model`: BioGPT model name to use (default: "microsoft/biogpt")
-- `--use_rag`: Enable Retrieval-Augmented Generation
-- `--use_sage`: Enable SAGE privacy pipeline
-- `--batch_size`: Batch size for processing benchmark questions
-- `--list_configs`: List available pre-defined experiment configurations
-- `--create_defaults`: Create default experiment configurations
-- `--verbose, -v`: Enable verbose logging
+To generate synthetic medical records without running the full QA pipeline:
 
-### Experiment Results
+```
+python main.py sage --input_dir /mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/original/mtsamples --output_dir /mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/synthetic/mtsamples --num_records 100
+```
 
-After running an experiment, the results will be saved in the specified output directory. The results include:
+Or using the configuration file:
 
-- `config.json`: The experiment configuration
-- `predictions.json`: Model predictions for benchmark questions
-- `qa_metrics.json`: Detailed QA evaluation metrics
-- `privacy_metrics.json`: Privacy evaluation metrics (if SAGE is enabled)
-- `results_summary.json`: Summary of all results
-- Logs directory with detailed experiment logs
+```
+python main.py run --config configs/sage_only.json
+```
 
-## Core Components
+### Interactive Query Mode
 
-### Data Processing
+To interactively query the system:
 
-- `MTSamplesLoader`: Loads and parses the MTSamples dataset
-- `BenchmarkLoader`: Loads biomedical benchmark datasets
-- `TextPreprocessor`: Cleans and normalizes medical text
-- `DocumentIndexer`: Indexes medical documents for retrieval
+```
+python main.py query --config configs/biogpt_rag.json
+```
 
-### BioGPT Integration
+## GPU Considerations
 
-- `BioGPTModel`: Wrapper for the BioGPT model for question answering
-- `BioGPTWithRAG`: Extended model that uses retrieved context
-- `QueryProcessor`: Formats and processes queries for the model
+This project is designed to run on GPU systems. When running experiments, consider:
 
-### RAG Components
+1. The `GPUResourceManager` class automatically selects the GPU with the most available memory.
+2. You can adjust batch sizes in the configuration files to fit your GPU memory constraints.
+3. For larger experiments, consider using `main.py run` with a smaller batch size.
 
-- `TextEncoder`: Encodes text into dense vector representations
-- `VectorDatabase`: Stores and retrieves document embeddings
-- `Retriever`: Retrieves relevant documents for a query
-- `ContextBuilder`: Constructs context from retrieved documents
+## Evaluating Results
 
-### SAGE Privacy Pipeline
+Results are saved in the directory specified in the configuration file. For each experiment, the following outputs are generated:
 
-- `SensitiveInfoDetector`: Identifies sensitive information in medical records
-- `SyntheticDataGenerator`: Generates synthetic medical records
-- `RefinementAgent`: Refines synthetic records for consistency
-- `MedicalConsistencyChecker`: Verifies medical consistency
-- `SAGEPipeline`: Orchestrates the complete privacy pipeline
+1. **Predictions**: The model's answers to each question in the benchmark
+2. **QA Metrics**: Performance metrics like Exact Match, F1, BLEU, etc.
+3. **Privacy Metrics**: When privacy evaluation is enabled, metrics like direct leakage and membership inference
+4. **Execution Logs**: Detailed logs of the experiment execution
 
-### Evaluation
+## Understanding the Results
 
-- `QAMetrics`: Calculates metrics like exact match, F1, BLEU, and ROUGE
-- `PrivacyEvaluator`: Evaluates privacy through membership inference and direct leakage tests
+The main metrics to look for in the results are:
 
-### Experiment Management
+1. **Accuracy Metrics**:
+   - Exact Match: Percentage of answers that exactly match the reference
+   - F1 Score: Harmonic mean of precision and recall
+   - BLEU Score: Measure of text generation quality
 
-- `ConfigManager`: Manages experiment configurations
-- `ExperimentRunner`: Runs experiments based on configurations
+2. **Privacy Metrics**:
+   - Direct Leakage Rate: Percentage of sensitive information leaked
+   - Membership Inference Attack Success: How well an attacker can determine if a record was in the training data
+
+## Comparing Configurations
+
+To compare the different system configurations:
+
+1. Run the baseline BioGPT experiment
+2. Run the BioGPT with RAG experiment
+3. Run the BioGPT with RAG and SAGE experiment
+4. Compare the results to analyze the accuracy-privacy tradeoffs
+
+## Project Structure
+
+```
+privacy-preserving-biomedical-qa/
+├── main.py                      # Main entry point
+├── run_experiment.py            # Script to run experiments
+├── requirements.txt             # Dependencies
+├── configs/                     # Configuration files
+├── data/                        # Data directory
+│   ├── original/                # Original medical records
+│   ├── synthetic/               # SAGE-generated synthetic records
+│   ├── benchmarks/              # Benchmark datasets
+│   └── evaluation/              # Evaluation results
+├── results/                     # Experiment results
+└── src/                         # Source code
+    ├── data_processing/         # Data processing modules
+    ├── biogpt_integration/      # BioGPT integration
+    ├── rag/                     # RAG implementation
+    ├── sage/                    # SAGE pipeline
+    ├── evaluation/              # Evaluation metrics
+    └── experiment_management/   # Experiment configuration and management
+```
 
 ## License
 

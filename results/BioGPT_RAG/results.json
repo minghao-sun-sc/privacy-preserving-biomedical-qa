@@ -1,0 +1,117 @@
+{
+  "overall": {
+    "exact_match": 0.013333333333333334,
+    "f1": 0.07841118742054619,
+    "bleu": 0.005130377650554215,
+    "rouge1": 0.054369407467441115,
+    "rouge2": 0.01226390844227822,
+    "rougeL": 0.04456115947669966
+  },
+  "by_source": {
+    "BioASQ": {
+      "exact_match": 0.04,
+      "f1": 0.08197486620706435,
+      "bleu": 0.002602010971144562,
+      "rouge1": 0.024478797846539502,
+      "rouge2": 0.0024017543859649122,
+      "rougeL": 0.023317410214563634
+    },
+    "PubMedQA": {
+      "exact_match": 0.0,
+      "f1": 0.12981896809593857,
+      "bleu": 0.010608807798915052,
+      "rouge1": 0.11985919191592626,
+      "rouge2": 0.03254163548565941,
+      "rougeL": 0.09217554572060528,
+      "yesno_accuracy": 0.45
+    },
+    "MedQA": {
+      "exact_match": 0.0,
+      "f1": 0.023439727958635522,
+      "bleu": 0.0021803141816030356,
+      "rouge1": 0.01877023263985766,
+      "rouge2": 0.0018483354552103364,
+      "rougeL": 0.018190522494930125
+    }
+  },
+  "by_type": {
+    "list": {
+      "exact_match": 0.0,
+      "f1": 0.03274464866160368,
+      "bleu": 0.0035921910383243847,
+      "rouge1": 0.04774034173533485,
+      "rouge2": 0.007069143446852425,
+      "rougeL": 0.04543353666036369
+    },
+    "yesno": {
+      "exact_match": 0.0,
+      "f1": 0.12228375273101665,
+      "bleu": 0.009013428827212315,
+      "rouge1": 0.1002194795670537,
+      "rouge2": 0.025226074019891014,
+      "rougeL": 0.07875928871796768,
+      "yesno_accuracy": 0.4418604651162791
+    },
+    "summary": {
+      "exact_match": 0.14285714285714285,
+      "f1": 0.14285714285714285,
+      "bleu": 0.0,
+      "rouge1": 0.0,
+      "rouge2": 0.0,
+      "rougeL": 0.0
+    },
+    "factoid": {
+      "exact_match": 0.0,
+      "f1": 0.03262001156737999,
+      "bleu": 0.0037416273324637644,
+      "rouge1": 0.026688473176767487,
+      "rouge2": 0.004615384615384616,
+      "rougeL": 0.023729893295110684
+    }
+  },
+  "experiment_name": "BioGPT_RAG",
+  "config": {
+    "name": "BioGPT_RAG",
+    "description": "BioGPT model with RAG using MTSamples",
+    "data_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/original/mtsamples",
+    "output_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/results/BioGPT_RAG",
+    "biogpt": {
+      "model_name": "microsoft/biogpt",
+      "use_gpu": true,
+      "max_new_tokens": 128,
+      "temperature": 0.7,
+      "cache_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/model_cache"
+    },
+    "rag": {
+      "enabled": true,
+      "encoder_model": "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext",
+      "vector_store_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/vector_store",
+      "top_k": 3,
+      "max_context_length": 512,
+      "chunk_size": 256,
+      "chunk_overlap": 64
+    },
+    "sage": {
+      "enabled": false,
+      "generator_model": "meta-llama/Llama-2-7b-chat-hf",
+      "refinement_model": "microsoft/biogpt",
+      "synthetic_data_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/synthetic/mtsamples",
+      "preserve_medical_content": true,
+      "run_refinement": true,
+      "evaluate_consistency": true,
+      "num_records": 100
+    },
+    "evaluation": {
+      "benchmark_file": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/benchmarks/comprehensive_benchmark.json",
+      "results_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/evaluation/results",
+      "evaluate_accuracy": true,
+      "evaluate_privacy": true,
+      "output_predictions": true,
+      "batch_size": 2
+    },
+    "random_seed": 42,
+    "verbose": true
+  },
+  "duration_seconds": 181.80458164215088,
+  "num_records": 300
+}

@@ -1,0 +1,21 @@
+2025-04-02 08:37:22,238 - BioGPT_RAG - INFO - Initializing experiment: BioGPT_RAG
+2025-04-02 08:37:22,241 - BioGPT_RAG - INFO - Random seed set to 42
+2025-04-02 08:37:22,241 - BioGPT_RAG - INFO - Initializing experiment components
+2025-04-02 08:37:22,241 - BioGPT_RAG - INFO - Initializing data loaders
+2025-04-02 08:37:22,242 - BioGPT_RAG - INFO - Initializing BioGPT model: microsoft/biogpt
+2025-04-02 08:37:22,242 - BioGPT_RAG - INFO - Initializing RAG components
+2025-04-02 08:37:22,244 - BioGPT_RAG - INFO - Initializing evaluation components
+2025-04-02 08:37:22,244 - absl - INFO - Using default tokenizer.
+2025-04-02 08:37:22,244 - BioGPT_RAG - INFO - Initializing privacy evaluator
+2025-04-02 08:37:22,246 - BioGPT_RAG - INFO - Starting experiment: BioGPT_RAG
+2025-04-02 08:37:22,248 - BioGPT_RAG - INFO - Loading data
+2025-04-02 08:37:24,625 - BioGPT_RAG - INFO - Building vector database
+2025-04-02 08:38:10,074 - BioGPT_RAG - INFO - No existing vector database found, will create a new one
+2025-04-02 08:38:10,075 - BioGPT_RAG - INFO - Processing records into chunks
+2025-04-02 08:38:13,108 - BioGPT_RAG - INFO - Created 15505 chunks from 4966 records
+2025-04-02 08:38:13,115 - BioGPT_RAG - INFO - Generating embeddings
+2025-04-02 08:39:45,934 - BioGPT_RAG - INFO - Adding documents to vector database
+2025-04-02 08:39:45,950 - BioGPT_RAG - INFO - Saving vector database
+2025-04-02 08:39:46,045 - BioGPT_RAG - INFO - Running evaluation on benchmark
+2025-04-02 08:39:46,045 - BioGPT_RAG - INFO - Processing batch 1/38 (0-8)
+2025-04-02 08:39:54,763 - BioGPT_RAG - INFO - Processing batch 2/38 (8-16)

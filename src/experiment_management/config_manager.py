@@ -42,6 +42,8 @@ class SAGEConfig:
     run_refinement: bool = True
     evaluate_consistency: bool = True
     num_records: Optional[int] = None
+    num_samples: int = 1
+    max_workers: int = 2
 
 
 @dataclass
@@ -197,12 +199,25 @@ class ConfigManager:
         Load a configuration from a file.
         
         Args:
-            filename: Name of the configuration file
+            filename: Name or path of the configuration file
             
         Returns:
             Loaded ExperimentConfig object
         """
-        filepath = os.path.join(self.config_dir, filename)
+        # Handle both absolute paths and relative paths
+        if os.path.isabs(filename) or os.path.exists(filename):
+            filepath = filename
+        else:
+            filepath = os.path.join(self.config_dir, filename)
+            
+        # If filepath doesn't exist but possibly has a configs/ prefix, try without it
+        if not os.path.exists(filepath) and 'configs/' in filepath:
+            filepath = filepath.replace('configs/', '', 1)
+            
+        # Final existence check
+        if not os.path.exists(filepath):
+            raise FileNotFoundError(f"Configuration file not found: {filepath}")
+            
         return ExperimentConfig.load(filepath)
     
     def list_configs(self) -> List[str]:

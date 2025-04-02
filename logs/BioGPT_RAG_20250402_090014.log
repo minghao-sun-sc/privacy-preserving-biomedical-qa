@@ -1,0 +1,19 @@
+2025-04-02 09:00:14,483 - BioGPT_RAG - INFO - Initializing experiment: BioGPT_RAG
+2025-04-02 09:00:14,486 - BioGPT_RAG - INFO - Random seed set to 42
+2025-04-02 09:00:14,490 - BioGPT_RAG - INFO - Using GPU: NVIDIA A40
+2025-04-02 09:00:14,491 - BioGPT_RAG - INFO - GPU memory allocated: 0.00 MB
+2025-04-02 09:00:14,491 - BioGPT_RAG - INFO - GPU memory reserved: 0.00 MB
+2025-04-02 09:00:14,491 - BioGPT_RAG - INFO - Initializing experiment components
+2025-04-02 09:00:14,492 - BioGPT_RAG - INFO - Initializing data loaders
+2025-04-02 09:00:14,492 - BioGPT_RAG - INFO - Initializing BioGPT model: microsoft/biogpt
+2025-04-02 09:00:14,492 - BioGPT_RAG - INFO - Initializing RAG components
+2025-04-02 09:00:14,493 - BioGPT_RAG - INFO - Initializing evaluation components
+2025-04-02 09:00:14,493 - absl - INFO - Using default tokenizer.
+2025-04-02 09:00:14,493 - BioGPT_RAG - INFO - Initializing privacy evaluator
+2025-04-02 09:00:14,494 - BioGPT_RAG - INFO - Starting experiment: BioGPT_RAG
+2025-04-02 09:00:14,494 - BioGPT_RAG - INFO - Loading data
+2025-04-02 09:00:16,760 - BioGPT_RAG - INFO - Building vector database
+2025-04-02 09:00:16,760 - BioGPT_RAG - INFO - Vector database already contains 15505 documents
+2025-04-02 09:00:16,761 - BioGPT_RAG - INFO - Running evaluation on benchmark
+2025-04-02 09:03:15,706 - BioGPT_RAG - INFO - Calculating metrics
+2025-04-02 09:03:16,298 - BioGPT_RAG - INFO - Saving results

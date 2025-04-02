@@ -251,4 +251,36 @@ class VectorDatabase:
             return True
         except Exception as e:
             print(f"Error loading vector database: {e}")
-            return False 
+            return False
+    
+    def is_built(self) -> bool:
+        """
+        Check if the vector database is built.
+        
+        Returns:
+            True if the database is built, False otherwise
+        """
+        index_path = os.path.join(self.save_dir, 'faiss_index.bin')
+        mapping_path = os.path.join(self.save_dir, 'index_to_doc_id.pkl')
+        doc_store_path = os.path.join(self.save_dir, 'doc_store.pkl')
+        
+        # Check if all required files exist
+        if (os.path.exists(index_path) and 
+            os.path.exists(mapping_path) and 
+            os.path.exists(doc_store_path)):
+            return True
+        
+        # Check if index is already loaded in memory
+        if len(self.index_to_doc_id) > 0 and len(self.doc_store) > 0:
+            return True
+            
+        return False
+    
+    def count_documents(self) -> int:
+        """
+        Get the number of documents in the database.
+        
+        Returns:
+            Number of documents
+        """
+        return len(self.doc_store) 

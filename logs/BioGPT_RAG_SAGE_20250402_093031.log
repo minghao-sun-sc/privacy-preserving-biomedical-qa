@@ -1,0 +1,24 @@
+2025-04-02 09:30:31,764 - BioGPT_RAG_SAGE - INFO - Initializing experiment: BioGPT_RAG_SAGE
+2025-04-02 09:30:31,767 - BioGPT_RAG_SAGE - INFO - Random seed set to 42
+2025-04-02 09:30:31,772 - BioGPT_RAG_SAGE - INFO - Using GPU: NVIDIA A40
+2025-04-02 09:30:31,773 - BioGPT_RAG_SAGE - INFO - GPU memory allocated: 0.00 MB
+2025-04-02 09:30:31,773 - BioGPT_RAG_SAGE - INFO - GPU memory reserved: 0.00 MB
+2025-04-02 09:30:31,773 - BioGPT_RAG_SAGE - INFO - Initializing experiment components
+2025-04-02 09:30:31,774 - BioGPT_RAG_SAGE - INFO - Initializing data loaders
+2025-04-02 09:30:31,774 - BioGPT_RAG_SAGE - INFO - Initializing BioGPT model: microsoft/biogpt
+2025-04-02 09:30:31,774 - BioGPT_RAG_SAGE - INFO - Initializing RAG components
+2025-04-02 09:30:31,775 - BioGPT_RAG_SAGE - INFO - Initializing SAGE components
+2025-04-02 09:30:32,114 - BioGPT_RAG_SAGE - INFO - Initializing evaluation components
+2025-04-02 09:30:32,114 - absl - INFO - Using default tokenizer.
+2025-04-02 09:30:32,115 - BioGPT_RAG_SAGE - INFO - Initializing privacy evaluator
+2025-04-02 09:30:32,115 - BioGPT_RAG_SAGE - INFO - Starting experiment: BioGPT_RAG_SAGE
+2025-04-02 09:30:32,115 - BioGPT_RAG_SAGE - INFO - Loading data
+2025-04-02 09:30:34,420 - BioGPT_RAG_SAGE - INFO - No existing vector database found, will create a new one
+2025-04-02 09:30:34,421 - BioGPT_RAG_SAGE - INFO - Building vector database
+2025-04-02 09:30:34,421 - BioGPT_RAG_SAGE - INFO - Building vector database from scratch
+2025-04-02 09:30:34,422 - BioGPT_RAG_SAGE - INFO - Building vector database
+2025-04-02 09:30:34,422 - BioGPT_RAG_SAGE - INFO - Loading records from /mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/synthetic/mtsamples
+2025-04-02 09:30:34,423 - BioGPT_RAG_SAGE - INFO - Loaded 0 records from directory
+2025-04-02 09:30:34,423 - BioGPT_RAG_SAGE - INFO - Processing records into chunks
+2025-04-02 09:30:34,424 - BioGPT_RAG_SAGE - INFO - Created 0 chunks from 0 records
+2025-04-02 09:30:34,424 - BioGPT_RAG_SAGE - INFO - Generating embeddings

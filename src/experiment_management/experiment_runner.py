@@ -8,6 +8,7 @@ from typing import Dict, Any, List, Optional, Tuple, Union
 from tqdm import tqdm
 import logging
 from datetime import datetime
+from dataclasses import asdict
 
 from src.experiment_management.config_manager import ExperimentConfig
 from src.data_processing.dataset_loaders import MTSamplesLoader, BenchmarkLoader
@@ -79,8 +80,14 @@ class ExperimentRunner:
         torch.manual_seed(seed)
         if torch.cuda.is_available():
             torch.cuda.manual_seed_all(seed)
+            # Explicitly clear CUDA cache to avoid memory fragmentation
+            torch.cuda.empty_cache()
         
         self.logger.info(f"Random seed set to {seed}")
+        if torch.cuda.is_available():
+            self.logger.info(f"Using GPU: {torch.cuda.get_device_name(0)}")
+            self.logger.info(f"GPU memory allocated: {torch.cuda.memory_allocated(0) / 1024**2:.2f} MB")
+            self.logger.info(f"GPU memory reserved: {torch.cuda.memory_reserved(0) / 1024**2:.2f} MB")
     
     def _initialize_components(self) -> None:
         """Initialize experiment components based on configuration."""
@@ -125,13 +132,21 @@ class ExperimentRunner:
         if self.config.sage.enabled:
             self.logger.info("Initializing SAGE components")
             
+            # Create configuration for the SAGE pipeline
+            sage_config = {
+                "data_dir": self.config.data_dir,
+                "output_dir": self.config.output_dir,
+                "model_name": self.config.sage.generator_model,
+                "biogpt": asdict(self.config.biogpt),
+                "sage": asdict(self.config.sage),
+                "evaluation": asdict(self.config.evaluation),
+                "cache_dir": self.config.biogpt.cache_dir
+            }
+            
             # Initialize SAGE pipeline
             self.sage_pipeline = SAGEPipeline(
-                original_data_dir=self.config.data_dir,
-                synthetic_data_dir=self.config.sage.synthetic_data_dir,
-                generator_model_name=self.config.sage.generator_model,
-                refinement_model_name=self.config.sage.refinement_model,
-                device="auto"
+                config=sage_config,
+                dataset_name="mtsamples"
             )
             
             # Initialize SAGE integrator
@@ -209,12 +224,12 @@ class ExperimentRunner:
                 separator="\n\n"
             )
     
-    def _build_vector_database(self, records: List[Dict[str, Any]]) -> None:
+    def _build_vector_database(self, data_input: Union[str, List[Dict[str, Any]]]) -> None:
         """
         Build the vector database from records.
         
         Args:
-            records: List of records to index
+            data_input: Either a path to a directory containing records or list of records
         """
         if not self.config.rag.enabled:
             return
@@ -229,6 +244,36 @@ class ExperimentRunner:
             self.logger.info(f"Vector database already contains {len(self.vector_db.index_to_doc_id)} documents")
             return
         
+        # Load records from directory if data_input is a string path
+        records = data_input
+        if isinstance(data_input, str):
+            self.logger.info(f"Loading records from {data_input}")
+            temp_loader = MTSamplesLoader(data_input)
+            records = temp_loader.load_records()
+            self.logger.info(f"Loaded {len(records)} records from directory")
+        
+        # Check if we actually have records to process
+        if not records or len(records) == 0:
+            self.logger.warning("No records found to build vector database. Running SAGE pipeline to generate synthetic data first.")
+            
+            # Verify SAGE is enabled and run it if needed
+            if self.config.sage.enabled:
+                self.logger.info("Running SAGE pipeline to generate synthetic data.")
+                synthetic_records = self._run_sage_pipeline()
+                
+                # Check again if synthetic directory has files
+                if isinstance(data_input, str):
+                    temp_loader = MTSamplesLoader(data_input)
+                    records = temp_loader.load_records()
+                    self.logger.info(f"After SAGE: Loaded {len(records)} records from directory")
+                    
+                    if not records or len(records) == 0:
+                        self.logger.error("No records found even after running SAGE pipeline. Cannot build vector database.")
+                        raise ValueError("No records available to build vector database")
+            else:
+                self.logger.error("No records found and SAGE is not enabled. Cannot build vector database.")
+                raise ValueError("No records available to build vector database")
+                
         # Process records to create chunks
         self.logger.info("Processing records into chunks")
         all_chunks = []
@@ -241,6 +286,10 @@ class ExperimentRunner:
             all_chunks.extend(chunks)
         
         self.logger.info(f"Created {len(all_chunks)} chunks from {len(records)} records")
+        
+        if len(all_chunks) == 0:
+            self.logger.error("No chunks were created from the records. Cannot build vector database.")
+            raise ValueError("No chunks available to build vector database")
         
         # Extract document IDs and contents
         doc_ids = [chunk['id'] for chunk in all_chunks]
@@ -270,31 +319,33 @@ class ExperimentRunner:
             
         self.logger.info("Running SAGE privacy pipeline")
         
-        # Check if synthetic data already exists
-        output_file = "sage_synthetic_records.json"
-        output_path = os.path.join(self.config.sage.synthetic_data_dir, output_file)
+        # Prepare synthetic data directory
+        synthetic_dir = os.path.join(self.config.output_dir, "synthetic", "mtsamples")
+        os.makedirs(synthetic_dir, exist_ok=True)
         
-        if os.path.exists(output_path):
-            self.logger.info(f"Synthetic data already exists at {output_path}")
-            return output_path
+        # Check if synthetic data already exists
+        records_dir = os.path.join(synthetic_dir, "records")
+        
+        if os.path.exists(records_dir) and len(os.listdir(records_dir)) > 0:
+            self.logger.info(f"Synthetic data already exists at {records_dir}")
+            return synthetic_dir
         
         # Run the SAGE pipeline
-        stats = self.sage_pipeline.run_pipeline(
-            num_records=self.config.sage.num_records,
-            preserve_medical_content=self.config.sage.preserve_medical_content,
-            run_refinement=self.config.sage.run_refinement,
-            evaluate_consistency=self.config.sage.evaluate_consistency,
-            output_filename=output_file
-        )
+        synthetic_records = self.sage_pipeline.run_pipeline()
         
-        # Save statistics
-        stats_path = os.path.join(self.config.output_dir, "sage_stats.json")
-        with open(stats_path, 'w') as f:
-            json.dump(stats, f, indent=2)
+        if synthetic_records:
+            self.logger.info(f"SAGE pipeline completed, generated {len(synthetic_records)} records")
+            output_path = os.path.join(synthetic_dir, "mtsamples_synthetic.json")
+            
+            # Save a copy to the output directory for analysis
+            with open(output_path, 'w') as f:
+                json.dump(synthetic_records, f, indent=2)
+                
+            self.logger.info(f"Saved synthetic data to {output_path}")
+        else:
+            self.logger.warning("SAGE pipeline did not generate any records")
         
-        self.logger.info(f"SAGE pipeline completed, synthetic data saved to {output_path}")
-        
-        return output_path
+        return synthetic_dir
     
     def _answer_question(
         self,
@@ -358,153 +409,127 @@ class ExperimentRunner:
         return question
     
     def run_experiment(self) -> Dict[str, Any]:
-        """
-        Run the complete experiment based on configuration.
-        
-        Returns:
-            Dictionary with experiment results
-        """
-        start_time = time.time()
+        """Run the experiment."""
         self.logger.info(f"Starting experiment: {self.config.name}")
         
-        # Save configuration
-        config_path = os.path.join(self.config.output_dir, "config.json")
-        with open(config_path, 'w') as f:
-            json.dump(self.config.__dict__, f, indent=2, default=lambda o: o.__dict__)
+        # Record start time
+        start_time = time.time()
+        
+        # Prepare output directory
+        os.makedirs(self.config.output_dir, exist_ok=True)
         
         # Step 1: Load data
         self.logger.info("Loading data")
-        original_records = self.mt_loader.load_records()
-        benchmark_data = self.benchmark_loader.load_comprehensive_benchmark()
         
-        # Step 2: Run SAGE pipeline if enabled
-        if self.config.sage.enabled:
-            synthetic_path = self._run_sage_pipeline()
+        try:
+            # Load benchmark data
+            benchmark_file = self.config.evaluation.benchmark_file
+            benchmark_data = self.benchmark_loader.load_benchmark(benchmark_file)
             
-            # Load synthetic records for RAG
-            if self.config.rag.enabled:
-                synthetic_records = self.sage_integrator.load_synthetic_records()
-                
-                # Build vector database with synthetic records
-                self._build_vector_database(synthetic_records)
-        elif self.config.rag.enabled:
-            # Build vector database with original records
-            self._build_vector_database(original_records)
-        
-        # Step 3: Run evaluation on benchmark
-        self.logger.info("Running evaluation on benchmark")
-        
-        # Process benchmark in batches
-        batch_size = self.config.evaluation.batch_size
-        num_batches = (len(benchmark_data) + batch_size - 1) // batch_size
-        
-        all_predictions = []
-        for i in range(num_batches):
-            # Get batch of questions
-            batch_start = i * batch_size
-            batch_end = min((i + 1) * batch_size, len(benchmark_data))
-            batch = benchmark_data[batch_start:batch_end]
-            
-            self.logger.info(f"Processing batch {i+1}/{num_batches} ({batch_start}-{batch_end})")
-            
-            # Process each question in the batch
-            for question in tqdm(batch, desc=f"Batch {i+1}/{num_batches}"):
-                result = self._answer_question(question)
-                all_predictions.append(result)
-        
-        # Save predictions
-        predictions_path = os.path.join(self.config.output_dir, "predictions.json")
-        with open(predictions_path, 'w') as f:
-            json.dump(all_predictions, f, indent=2)
-        
-        # Step 4: Calculate QA metrics
-        self.logger.info("Calculating QA metrics")
-        qa_results = self._evaluate_qa_metrics(all_predictions)
-        
-        # Save QA metrics
-        qa_metrics_path = os.path.join(self.config.output_dir, "qa_metrics.json")
-        with open(qa_metrics_path, 'w') as f:
-            json.dump(qa_results, f, indent=2)
-        
-        # Step 5: Calculate privacy metrics if enabled
-        privacy_results = None
-        if self.config.evaluation.evaluate_privacy:
-            self.logger.info("Calculating privacy metrics")
-            
-            # Get query-response pairs
-            response_pairs = [
-                (q.get('question', ''), q.get('prediction', ''))
-                for q in all_predictions
-            ]
-            
-            # Run privacy evaluation
+            # Step 2a: If SAGE is enabled, run SAGE pipeline first
             if self.config.sage.enabled:
-                synthetic_records = self.sage_integrator.load_synthetic_records()
-                privacy_results = self.privacy_evaluator.evaluate_privacy(
-                    original_records=original_records,
-                    synthetic_records=synthetic_records,
-                    response_pairs=response_pairs,
-                    output_file=os.path.join(self.config.output_dir, "privacy_metrics.json")
-                )
-        
-        # Calculate experiment duration
-        end_time = time.time()
-        duration = end_time - start_time
-        
-        # Compile results
-        results = {
-            "experiment_name": self.config.name,
-            "duration_seconds": duration,
-            "num_records": len(original_records),
-            "num_questions": len(benchmark_data),
-            "qa_metrics": qa_results,
-            "privacy_metrics": privacy_results
-        }
-        
-        # Save results summary
-        results_path = os.path.join(self.config.output_dir, "results_summary.json")
-        with open(results_path, 'w') as f:
-            json.dump(results, f, indent=2)
-        
-        self.logger.info(f"Experiment completed in {duration:.2f} seconds")
-        self.logger.info(f"Results saved to {self.config.output_dir}")
-        
-        return results
+                self.logger.info("SAGE is enabled - generating synthetic data first")
+                synthetic_dir = self._run_sage_pipeline()
+                synthetic_data_exists = os.path.exists(os.path.join(self.config.sage.synthetic_data_dir, "records"))
+                
+                if not synthetic_data_exists:
+                    self.logger.warning("Synthetic data not found even after running SAGE pipeline. Check paths and permissions.")
+            
+            # Step 2b: Initialize vector database for RAG (if enabled)
+            if self.config.rag.enabled:
+                self._initialize_rag_components()
+                self.logger.info("Building vector database")
+                
+                # Step 2.1: Build vector database
+                # If SAGE is enabled, use synthetic data, otherwise use original data
+                data_dir = self.config.sage.synthetic_data_dir if self.config.sage.enabled else self.config.data_dir
+                
+                # Check if vector database needs to be built
+                if not self.vector_db.is_built() or self.vector_db.count_documents() == 0:
+                    self.logger.info("Building vector database from scratch")
+                    self._build_vector_database(data_dir)
+                else:
+                    self.logger.info(f"Vector database already contains {self.vector_db.count_documents()} documents")
+            
+            # Step 3: Run evaluation on benchmark
+            self.logger.info("Running evaluation on benchmark")
+            results = self._evaluate_on_benchmark(benchmark_data)
+            
+            # Step 4: Calculate metrics
+            self.logger.info("Calculating metrics")
+            metrics = self._calculate_metrics(benchmark_data, results)
+            
+            # Step 5: Output results
+            self.logger.info("Saving results")
+            metrics['experiment_name'] = self.config.name
+            
+            # Convert config to dictionary using dataclasses.asdict
+            metrics['config'] = asdict(self.config)
+            
+            metrics['duration_seconds'] = time.time() - start_time
+            metrics['num_records'] = len(benchmark_data) if benchmark_data else 0
+            
+            # Save to file
+            self._save_results(metrics)
+            
+            return metrics
+            
+        except RuntimeError as e:
+            # Handle CUDA errors specially
+            if "CUDA out of memory" in str(e) or "device-side assert triggered" in str(e):
+                self.logger.error(f"CUDA error: {str(e)}")
+                self.logger.warning("Try reducing batch size in the configuration file")
+                
+                # Clear CUDA cache
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+                
+                # Create a minimal results file with error info
+                error_metrics = {
+                    'experiment_name': self.config.name,
+                    'error': str(e),
+                    'status': 'failed',
+                    'recommendation': 'Reduce batch size and max tokens'
+                }
+                self._save_results(error_metrics, filename="error_report.json")
+                
+                raise
+            else:
+                self.logger.error(f"Error running experiment: {str(e)}")
+                raise
     
-    def _evaluate_qa_metrics(self, predictions: List[Dict[str, Any]]) -> Dict[str, Any]:
+    def _evaluate_on_benchmark(self, benchmark_data: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """
-        Evaluate QA metrics on predictions.
+        Evaluate predictions on the benchmark data.
         
         Args:
-            predictions: List of questions with predictions
+            benchmark_data: List of benchmark questions
             
         Returns:
-            Dictionary of QA metrics
+            List of evaluation results
         """
-        # Extract predictions and ground truths
-        pred_list = []
-        truth_list = []
-        q_types = []
+        all_predictions = []
+        for question in tqdm(benchmark_data, desc="Processing questions"):
+            result = self._answer_question(question)
+            all_predictions.append(result)
+        return all_predictions
+    
+    def _calculate_metrics(self, benchmark_data: List[Dict[str, Any]], predictions: List[Dict[str, Any]]) -> Dict[str, Any]:
+        """
+        Calculate metrics based on benchmark data and predictions.
         
-        for pred in predictions:
-            prediction = pred.get('prediction', '')
-            pred_list.append(prediction)
+        Args:
+            benchmark_data: List of benchmark questions
+            predictions: List of predictions
             
-            # Extract ground truth based on availability
-            if 'exact_answer' in pred and pred['exact_answer']:
-                truth = pred['exact_answer']
-            elif 'answer' in pred:
-                truth = pred['answer']
-            elif 'ideal_answer' in pred:
-                truth = pred['ideal_answer']
-            else:
-                # Skip if no ground truth available
-                continue
-                
-            truth_list.append(truth)
-            q_types.append(pred.get('type'))
+        Returns:
+            Dictionary of calculated metrics
+        """
+        # Extract ground truths and calculate metrics
+        truth_list = [question.get('exact_answer', question.get('answer', '')) for question in benchmark_data]
+        pred_list = [prediction.get('prediction', '') for prediction in predictions]
+        q_types = [question.get('type') for question in benchmark_data]
         
-        # Calculate metrics
         metrics = self.qa_metrics.batch_evaluate(
             predictions=pred_list,
             ground_truths=truth_list,
@@ -550,4 +575,37 @@ class ExperimentRunner:
             "overall": metrics,
             "by_source": source_metrics,
             "by_type": type_metrics
-        } 
+        }
+    
+    def _save_results(self, results: Dict[str, Any], filename: str = "results.json") -> None:
+        """
+        Save results to file.
+        
+        Args:
+            results: Dictionary of results
+            filename: Name of the file to save results to
+        """
+        results_path = os.path.join(self.config.output_dir, filename)
+        
+        # Helper function to convert dataclasses to dictionaries
+        def convert_to_serializable(obj):
+            if hasattr(obj, '__dataclass_fields__'):  # Check if it's a dataclass
+                return {k: convert_to_serializable(v) for k, v in obj.__dict__.items()}
+            elif isinstance(obj, dict):
+                return {k: convert_to_serializable(v) for k, v in obj.items()}
+            elif isinstance(obj, list):
+                return [convert_to_serializable(i) for i in obj]
+            elif isinstance(obj, tuple):
+                return tuple(convert_to_serializable(i) for i in obj)
+            elif isinstance(obj, set):
+                return set(convert_to_serializable(i) for i in obj)
+            else:
+                return obj
+        
+        # Convert the config to a serializable dictionary
+        if 'config' in results:
+            results['config'] = convert_to_serializable(results['config'])
+        
+        # Write to file
+        with open(results_path, 'w') as f:
+            json.dump(results, f, indent=2, default=lambda o: convert_to_serializable(o) if hasattr(o, '__dict__') else str(o)) 

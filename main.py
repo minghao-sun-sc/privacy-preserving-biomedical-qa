@@ -166,37 +166,53 @@ def run_sage_pipeline(args):
         # Create output directory if it doesn't exist
         os.makedirs(output_dir, exist_ok=True)
         
+        # Create configuration for the SAGE pipeline
+        config = {
+            "data_dir": input_dir,
+            "output_dir": output_dir,
+            "model_name": model,
+            "biogpt": {
+                "model_name": model,
+                "use_gpu": True,
+                "max_new_tokens": 128,
+                "temperature": 0.7
+            },
+            "sage": {
+                "enabled": True,
+                "num_samples": 1,
+                "max_workers": 2
+            },
+            "evaluation": {
+                "batch_size": 2,
+                "evaluate_consistency": True,
+                "verify_privacy": True
+            }
+        }
+        
         # Initialize SAGE pipeline
         pipeline = SAGEPipeline(
-            original_data_dir=input_dir,
-            synthetic_data_dir=output_dir,
-            generator_model_name=model,
-            refinement_model_name=model,
-            device="auto"
+            config=config,
+            dataset_name="mtsamples"
         )
         
         # Run pipeline
-        print(f"Running SAGE pipeline to generate {num_records} synthetic records...")
-        stats = pipeline.run_pipeline(
-            num_records=num_records,
-            preserve_medical_content=True,
-            run_refinement=True,
-            evaluate_consistency=True,
-            output_filename="synthetic_records.json"
-        )
+        print(f"Running SAGE pipeline to generate synthetic records...")
+        synthetic_records = pipeline.run_pipeline()
         
-        # Print statistics
-        print("\nSAGE Pipeline completed successfully!")
-        print(f"Generated {stats['num_synthetic_records']} synthetic records")
-        print(f"Average privacy score: {stats['avg_privacy_score']:.2f}")
-        print(f"Average medical consistency score: {stats['avg_consistency_score']:.2f}")
-        print(f"Execution time: {stats['execution_time_seconds']:.2f} seconds")
-        print(f"Results saved to: {os.path.join(output_dir, 'synthetic_records.json')}")
+        if synthetic_records:
+            num_records = len(synthetic_records)
+            print("\nSAGE Pipeline completed successfully!")
+            print(f"Generated {num_records} synthetic records")
+            print(f"Results saved to: {os.path.join(output_dir, 'synthetic', 'mtsamples')}")
+        else:
+            print("SAGE Pipeline did not generate any records")
         
         return 0
     
     except Exception as e:
         print(f"Error running SAGE pipeline: {str(e)}")
+        import traceback
+        traceback.print_exc()
         return 1
 
 

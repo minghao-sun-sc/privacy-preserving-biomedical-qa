@@ -247,7 +247,7 @@ class ContextBuilder:
     
     def __init__(
         self, 
-        max_context_tokens: int = 3800,
+        max_context_tokens: int = 1000,
         separator: str = "\n\n"
     ):
         """
@@ -264,7 +264,8 @@ class ContextBuilder:
         self,
         retrieved_docs: List[Dict[str, Any]],
         tokenizer: Any,
-        include_metadata: bool = True
+        include_metadata: bool = True,
+        enforce_max_tokens: bool = True
     ) -> str:
         """
         Build a context string from retrieved documents.
@@ -273,12 +274,17 @@ class ContextBuilder:
             retrieved_docs: List of retrieved documents
             tokenizer: Tokenizer to count tokens
             include_metadata: Whether to include document metadata in the context
+            enforce_max_tokens: Whether to strictly enforce the max token limit
             
         Returns:
             Context string for RAG
         """
         if not retrieved_docs:
             return ""
+        
+        # Safety check - limit number of documents to prevent memory issues
+        if len(retrieved_docs) > 10:
+            retrieved_docs = retrieved_docs[:10]
         
         context_parts = []
         token_count = 0
@@ -289,18 +295,21 @@ class ContextBuilder:
         for doc in sorted_docs:
             doc_parts = []
             
-            # Add metadata if requested
+            # Add metadata if requested (but keep it minimal)
             if include_metadata:
+                metadata_parts = []
                 if 'specialty' in doc and doc['specialty']:
-                    doc_parts.append(f"Specialty: {doc['specialty']}")
+                    metadata_parts.append(f"Specialty: {doc['specialty']}")
                 if 'sample_type' in doc and doc['sample_type']:
-                    doc_parts.append(f"Document Type: {doc['sample_type']}")
-                if 'description' in doc and doc['description']:
-                    doc_parts.append(f"Description: {doc['description']}")
+                    metadata_parts.append(f"Type: {doc['sample_type']}")
+                if metadata_parts:
+                    doc_parts.append(" | ".join(metadata_parts))
                     
-            # Add the content
+            # Add a truncated version of the content
             if 'content' in doc and doc['content']:
-                doc_parts.append(doc['content'])
+                # Truncate content to first 1000 characters to avoid large documents
+                content = doc['content'][:1000] + ("..." if len(doc['content']) > 1000 else "")
+                doc_parts.append(content)
                 
             # Skip if no parts were added
             if not doc_parts:
@@ -309,18 +318,30 @@ class ContextBuilder:
             # Join parts with newlines
             doc_text = "\n".join(doc_parts)
             
-            # Count tokens
-            doc_tokens = len(tokenizer.tokenize(doc_text))
+            # Count tokens safely
+            try:
+                doc_tokens = len(tokenizer.tokenize(doc_text))
+            except Exception:
+                # Fallback: estimate tokens as words/characters
+                doc_tokens = len(doc_text.split()) or len(doc_text) // 4
             
             # If adding this document would exceed the limit, stop
-            if token_count + doc_tokens > self.max_context_tokens and context_parts:
+            if enforce_max_tokens and token_count + doc_tokens > self.max_context_tokens and context_parts:
                 break
                 
             # Add the document to the context
             context_parts.append(doc_text)
             token_count += doc_tokens
+            
+            # Hard limit on token count to prevent memory issues
+            if token_count >= self.max_context_tokens:
+                break
         
         # Join all parts with the separator
         context = self.separator.join(context_parts)
+        
+        # Final safety truncation if needed
+        if enforce_max_tokens and len(context) > 4000:
+            context = context[:4000] + "..."
         
         return context 

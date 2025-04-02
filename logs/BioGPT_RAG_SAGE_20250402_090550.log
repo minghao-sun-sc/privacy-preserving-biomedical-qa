@@ -1,0 +1,20 @@
+2025-04-02 09:05:50,437 - BioGPT_RAG_SAGE - INFO - Initializing experiment: BioGPT_RAG_SAGE
+2025-04-02 09:05:50,439 - BioGPT_RAG_SAGE - INFO - Random seed set to 42
+2025-04-02 09:05:50,444 - BioGPT_RAG_SAGE - INFO - Using GPU: NVIDIA A40
+2025-04-02 09:05:50,445 - BioGPT_RAG_SAGE - INFO - GPU memory allocated: 0.00 MB
+2025-04-02 09:05:50,445 - BioGPT_RAG_SAGE - INFO - GPU memory reserved: 0.00 MB
+2025-04-02 09:05:50,445 - BioGPT_RAG_SAGE - INFO - Initializing experiment components
+2025-04-02 09:05:50,446 - BioGPT_RAG_SAGE - INFO - Initializing data loaders
+2025-04-02 09:05:50,446 - BioGPT_RAG_SAGE - INFO - Initializing BioGPT model: microsoft/biogpt
+2025-04-02 09:05:50,446 - BioGPT_RAG_SAGE - INFO - Initializing RAG components
+2025-04-02 09:05:50,448 - BioGPT_RAG_SAGE - INFO - Initializing SAGE components
+2025-04-02 09:05:51,076 - BioGPT_RAG_SAGE - INFO - Initializing evaluation components
+2025-04-02 09:05:51,076 - absl - INFO - Using default tokenizer.
+2025-04-02 09:05:51,077 - BioGPT_RAG_SAGE - INFO - Initializing privacy evaluator
+2025-04-02 09:05:51,077 - BioGPT_RAG_SAGE - INFO - Starting experiment: BioGPT_RAG_SAGE
+2025-04-02 09:05:51,077 - BioGPT_RAG_SAGE - INFO - Loading data
+2025-04-02 09:05:53,314 - BioGPT_RAG_SAGE - INFO - No existing vector database found, will create a new one
+2025-04-02 09:05:53,314 - BioGPT_RAG_SAGE - INFO - Building vector database
+2025-04-02 09:05:53,315 - BioGPT_RAG_SAGE - INFO - Building vector database from scratch
+2025-04-02 09:05:53,315 - BioGPT_RAG_SAGE - INFO - Building vector database
+2025-04-02 09:05:53,315 - BioGPT_RAG_SAGE - INFO - Loading records from /mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/synthetic/mtsamples

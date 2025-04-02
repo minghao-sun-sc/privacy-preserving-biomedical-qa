@@ -1,0 +1,42 @@
+{
+  "name": "BioGPT_RAG",
+  "description": "BioGPT model with RAG using MTSamples",
+  "data_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/original/mtsamples",
+  "output_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/results/BioGPT_RAG",
+  "biogpt": {
+    "model_name": "microsoft/biogpt",
+    "use_gpu": true,
+    "max_new_tokens": 512,
+    "temperature": 0.7,
+    "cache_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/model_cache"
+  },
+  "rag": {
+    "enabled": true,
+    "encoder_model": "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext",
+    "vector_store_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/vector_store",
+    "top_k": 5,
+    "max_context_length": 1024,
+    "chunk_size": 512,
+    "chunk_overlap": 128
+  },
+  "sage": {
+    "enabled": false,
+    "generator_model": "meta-llama/Llama-2-7b-chat-hf",
+    "refinement_model": "microsoft/biogpt",
+    "synthetic_data_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/synthetic/mtsamples",
+    "preserve_medical_content": true,
+    "run_refinement": true,
+    "evaluate_consistency": true,
+    "num_records": 100
+  },
+  "evaluation": {
+    "benchmark_file": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/benchmarks/comprehensive_benchmark.json",
+    "results_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/evaluation/results",
+    "evaluate_accuracy": true,
+    "evaluate_privacy": true,
+    "output_predictions": true,
+    "batch_size": 8
+  },
+  "random_seed": 42,
+  "verbose": true
+}
