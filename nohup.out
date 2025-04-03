@@ -1,730 +1,0 @@
-Starting MTSamples processing with SAGE pipeline
-Input directory: data/original/mtsamples/records
-Output directory: data/synthetic/mtsamples
-AttributeExtractor using device: cpu
-SyntheticGenerator using device: cpu
-Successfully loaded model microsoft/BioGPT-Large
-PrivacyAgent using device: cpu
-Successfully initialized Presidio engines
-Successfully loaded model microsoft/BioGPT-Large
-RewritingAgent using device: cpu
-Successfully loaded model microsoft/BioGPT-Large
-Found 4966 records in data/original/mtsamples/records
-Processing limited set of 50 records
-Processing records:   0%|          | 0/50 [00:00<?, ?it/s]                                                          Processing records:   0%|          | 0/50 [00:00<?, ?it/s]Processing records:   2%|▏         | 1/50 [00:00<00:09,  5.05it/s]                                                                  Processing records:   2%|▏         | 1/50 [00:00<00:09,  5.05it/s]                                                                  Processing records:   2%|▏         | 1/50 [05:03<00:09,  5.05it/s]Processing records:   6%|▌         | 3/50 [05:03<1:27:59, 112.32s/it]                                                                     Processing records:   6%|▌         | 3/50 [10:10<1:27:59, 112.32s/it]Processing records:   8%|▊         | 4/50 [10:10<2:17:55, 179.91s/it]                                                                     Processing records:   8%|▊         | 4/50 [10:11<2:17:55, 179.91s/it]                                                                     Processing records:   8%|▊         | 4/50 [11:44<2:17:55, 179.91s/it]Processing records:  12%|█▏        | 6/50 [11:44<1:23:23, 113.71s/it]                                                                     Processing records:  12%|█▏        | 6/50 [16:42<1:23:23, 113.71s/it]Processing records:  14%|█▍        | 7/50 [16:42<1:56:07, 162.03s/it]                                                                     Processing records:  14%|█▍        | 7/50 [21:37<1:56:07, 162.03s/it]Processing records:  16%|█▌        | 8/50 [21:37<2:18:40, 198.10s/it]                                                                     Processing records:  16%|█▌        | 8/50 [22:57<2:18:40, 198.10s/it]Processing records:  18%|█▊        | 9/50 [22:57<1:52:48, 165.09s/it]                                                                     Processing records:  18%|█▊        | 9/50 [27:53<1:52:48, 165.09s/it]Processing records:  20%|██        | 10/50 [27:53<2:14:59, 202.48s/it]                                                                      Processing records:  20%|██        | 10/50 [31:02<2:14:59, 202.48s/it]Processing records:  22%|██▏       | 11/50 [31:02<2:09:09, 198.71s/it]                                                                      Processing records:  22%|██▏       | 11/50 [31:02<2:09:09, 198.71s/it]                                                                      Processing records:  22%|██▏       | 11/50 [32:23<2:09:09, 198.71s/it]Processing records:  26%|██▌       | 13/50 [32:23<1:18:16, 126.94s/it]                                                                      Processing records:  26%|██▌       | 13/50 [37:01<1:18:16, 126.94s/it]Processing records:  28%|██▊       | 14/50 [37:01<1:38:24, 164.02s/it]                                                                      Processing records:  28%|██▊       | 14/50 [37:01<1:38:24, 164.02s/it]                                                                      Processing records:  28%|██▊       | 14/50 [37:01<1:38:24, 164.02s/it]                                                                      Processing records:  28%|██▊       | 14/50 [37:02<1:38:24, 164.02s/it]Processing records:  34%|███▍      | 17/50 [37:02<44:03, 80.12s/it]   Processing records:  34%|███▍      | 17/50 [37:20<44:03, 80.12s/it]                                                                   Processing records:  34%|███▍      | 17/50 [41:33<44:03, 80.12s/it]Processing records:  36%|███▌      | 18/50 [41:33<1:02:43, 117.60s/it]                                                                      Processing records:  36%|███▌      | 18/50 [41:33<1:02:43, 117.60s/it]                                                                      Processing records:  36%|███▌      | 18/50 [41:33<1:02:43, 117.60s/it]                                                                      Processing records:  36%|███▌      | 18/50 [41:33<1:02:43, 117.60s/it]Processing records:  42%|████▏     | 21/50 [41:33<30:54, 63.94s/it]   Processing records:  42%|████▏     | 21/50 [41:50<30:54, 63.94s/it]                                                                   Processing records:  42%|████▏     | 21/50 [45:58<30:54, 63.94s/it]Processing records:  44%|████▍     | 22/50 [45:58<46:36, 99.89s/it]                                                                   Processing records:  44%|████▍     | 22/50 [48:04<46:36, 99.89s/it]Processing records:  46%|████▌     | 23/50 [48:04<47:19, 105.16s/it]                                                                    Processing records:  46%|████▌     | 23/50 [48:04<47:19, 105.16s/it]                                                                    Processing records:  46%|████▌     | 23/50 [48:04<47:19, 105.16s/it]                                                                    Processing records:  46%|████▌     | 23/50 [48:04<47:19, 105.16s/it]Processing records:  52%|█████▏    | 26/50 [48:04<22:29, 56.23s/it]                                                                    Processing records:  52%|█████▏    | 26/50 [48:04<22:29, 56.23s/it]                                                                   Processing records:  52%|█████▏    | 26/50 [48:04<22:29, 56.23s/it]Processing records:  52%|█████▏    | 26/50 [48:20<22:29, 56.23s/it]                                                                   Processing records:  52%|█████▏    | 26/50 [52:30<22:29, 56.23s/it]Processing records:  58%|█████▊    | 29/50 [52:30<24:13, 69.21s/it]                                                                   Processing records:  58%|█████▊    | 29/50 [52:31<24:13, 69.21s/it]                                                                   Processing records:  58%|█████▊    | 29/50 [52:31<24:13, 69.21s/it]                                                                   Processing records:  58%|█████▊    | 29/50 [56:59<24:13, 69.21s/it]Processing records:  64%|██████▍   | 32/50 [56:59<22:58, 76.59s/it]                                                                   Processing records:  64%|██████▍   | 32/50 [56:59<22:58, 76.59s/it]                                                                   Processing records:  64%|██████▍   | 32/50 [1:01:23<22:58, 76.59s/it]Processing records:  68%|██████▊   | 34/50 [1:01:23<24:13, 90.87s/it]                                                                     Processing records:  68%|██████▊   | 34/50 [1:05:51<24:13, 90.87s/it]Processing records:  70%|███████   | 35/50 [1:05:51<29:35, 118.34s/it]                                                                      Processing records:  70%|███████   | 35/50 [1:05:51<29:35, 118.34s/it]                                                                      Processing records:  70%|███████   | 35/50 [1:05:51<29:35, 118.34s/it]                                                                      Processing records:  70%|███████   | 35/50 [1:05:51<29:35, 118.34s/it]Processing records:  76%|███████▌  | 38/50 [1:05:51<14:13, 71.10s/it] Processing records:  76%|███████▌  | 38/50 [1:06:10<14:13, 71.10s/it]                                                                     Processing records:  76%|███████▌  | 38/50 [1:09:16<14:13, 71.10s/it]Processing records:  78%|███████▊  | 39/50 [1:09:16<16:56, 92.42s/it]                                                                     Processing records:  78%|███████▊  | 39/50 [1:09:16<16:56, 92.42s/it]                                                                     Processing records:  78%|███████▊  | 39/50 [1:10:52<16:56, 92.42s/it]Processing records:  82%|████████▏ | 41/50 [1:10:52<11:46, 78.46s/it]                                                                     Processing records:  82%|████████▏ | 41/50 [1:15:19<11:46, 78.46s/it]Processing records:  84%|████████▍ | 42/50 [1:15:19<15:03, 112.96s/it]                                                                      Processing records:  84%|████████▍ | 42/50 [1:15:19<15:03, 112.96s/it]                                                                      Processing records:  84%|████████▍ | 42/50 [1:19:34<15:03, 112.96s/it]Processing records:  88%|████████▊ | 44/50 [1:19:34<11:47, 117.97s/it]                                                                      Processing records:  88%|████████▊ | 44/50 [1:19:34<11:47, 117.97s/it]                                                                      Processing records:  88%|████████▊ | 44/50 [1:23:37<11:47, 117.97s/it]Processing records:  92%|█████████▏| 46/50 [1:23:37<07:56, 119.12s/it]                                                                      Processing records:  92%|█████████▏| 46/50 [1:23:37<07:56, 119.12s/it]                                                                      Processing records:  92%|█████████▏| 46/50 [1:23:37<07:56, 119.12s/it]Processing records:  96%|█████████▌| 48/50 [1:23:37<02:42, 81.05s/it] Processing records:  96%|█████████▌| 48/50 [1:23:50<02:42, 81.05s/it]                                                                     Processing records:  96%|█████████▌| 48/50 [1:27:40<02:42, 81.05s/it]Processing records:  98%|█████████▊| 49/50 [1:27:40<01:51, 111.25s/it]                                                                      Processing records:  98%|█████████▊| 49/50 [1:29:20<01:51, 111.25s/it]Processing records: 100%|██████████| 50/50 [1:29:20<00:00, 108.73s/it]Processing records: 100%|██████████| 50/50 [1:29:20<00:00, 107.20s/it]
-Processing document record_01517...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 587
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: PERSON, Data leakage detected: Exact sentence from original found in synthetic: 'Echodensity involving the aortic valve suggestive ...'
-  Applied template-based rewriting
-  Refined synthetic text of length 624
-  Stage 2: Refinement iteration 2...
-  Privacy concerns detected: PII detected in synthetic data: PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 624
-  Stage 2: Refinement iteration 3...
-  Privacy concerns detected: PII detected in synthetic data: PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 624
-  Maximum iterations reached without achieving safety.
-  Applying final strong sanitization...
-  Final sanitized text length: 604
-Processed record_01517: 3 iterations, is_safe=False
-Processed record_01517: 3 iterations, is_safe=False
-Processing document record_01607...
-  Stage 1: Extracting attributes...
-  Extracted 1/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 617
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: US_DRIVER_LICENSE, DATE_TIME
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_01607: 1 iterations, is_safe=True
-Processed record_01607: 1 iterations, is_safe=True
-Processing document record_04169...
-  Stage 1: Extracting attributes...
-  Extracted 3/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 2449
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: LOCATION, PERSON, DATE_TIME, URL, IP_ADDRESS
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_04169: 1 iterations, is_safe=True
-Processed record_04169: 1 iterations, is_safe=True
-Processing document record_01526...
-  Stage 1: Extracting attributes...
-  Extracted 3/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 1377
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: DATE_TIME, PHONE_NUMBER, PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 524
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_01526: 1 iterations, is_safe=True
-Processed record_01526: 1 iterations, is_safe=True
-Processing document record_01221...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 584
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 704
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_01221: 1 iterations, is_safe=True
-Processed record_01221: 1 iterations, is_safe=True
-Processing document record_04199...
-  Stage 1: Extracting attributes...
-  Extracted 3/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 1219
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: LOCATION, DATE_TIME, URL, PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_04199: 1 iterations, is_safe=True
-Processed record_04199: 1 iterations, is_safe=True
-Processing document record_04294...
-  Stage 1: Extracting attributes...
-  Extracted 3/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 3463
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: DATE_TIME, PHONE_NUMBER, PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_04294: 1 iterations, is_safe=True
-Processed record_04294: 1 iterations, is_safe=True
-Processing document record_04195...
-  Stage 1: Extracting attributes...
-  Extracted 1/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 2917
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: DATE_TIME, URL, PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_04195: 1 iterations, is_safe=True
-Processed record_04195: 1 iterations, is_safe=True
-Processing document record_01591...
-  Stage 1: Extracting attributes...
-  Extracted 1/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 1095
-  Stage 2: Refinement iteration 1...
-  Document is safe.
-Processed record_01591: 0 iterations, is_safe=True
-Processed record_01591: 0 iterations, is_safe=True
-Processing document record_02387...
-  Stage 1: Extracting attributes...
-  Extracted 1/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 2983
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: LOCATION, PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_02387: 1 iterations, is_safe=True
-Processed record_02387: 1 iterations, is_safe=True
-Processing document record_04947...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 1361
-  Stage 2: Refinement iteration 1...
-  Document is safe.
-Processed record_04947: 0 iterations, is_safe=True
-Processed record_04947: 0 iterations, is_safe=True
-Processing document record_04852...
-  Stage 1: Extracting attributes...
-  Extracted 3/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 731
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: Data leakage detected: Exact sentence from original found in synthetic: 'Chronic obstructive pulmonary disease exacerbation...'
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_04852: 1 iterations, is_safe=True
-Processed record_04852: 1 iterations, is_safe=True
-Processing document record_03509...
-  Stage 1: Extracting attributes...
-  Extracted 1/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 933
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: DATE_TIME, PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_03509: 1 iterations, is_safe=True
-Processed record_03509: 1 iterations, is_safe=True
-Processing document record_04176...
-  Stage 1: Extracting attributes...
-  Extracted 3/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 2910
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: PHONE_NUMBER, DATE_TIME, URL, PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_04176: 1 iterations, is_safe=True
-Processed record_04176: 1 iterations, is_safe=True
-Processing document record_03419...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 678
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_03419: 1 iterations, is_safe=True
-Processed record_03419: 1 iterations, is_safe=True
-Processing document record_01080...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 584
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: PERSON, Data leakage detected: Exact sentence from original found in synthetic: ',PROCEDURE: , Endoscopic release of left transvers...'
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_01080: 1 iterations, is_safe=True
-Processed record_01080: 1 iterations, is_safe=True
-Processing document record_02342...
-  Stage 1: Extracting attributes...
-  Extracted 1/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 637
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: US_DRIVER_LICENSE
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_02342: 1 iterations, is_safe=True
-Processed record_02342: 1 iterations, is_safe=True
-Processing document record_01800...
-  Stage 1: Extracting attributes...
-  Extracted 3/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 4117
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: DATE_TIME, NRP, PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_01800: 1 iterations, is_safe=True
-Processed record_01800: 1 iterations, is_safe=True
-Processing document record_00703...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 584
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: PERSON, Data leakage detected: Exact sentence from original found in synthetic: ',OPERATION PERFORMED: , Incision and drainage (I&D...'
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_00703: 1 iterations, is_safe=True
-Processed record_00703: 1 iterations, is_safe=True
-Processing document record_02724...
-  Stage 1: Extracting attributes...
-  Extracted 1/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 617
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: Data leakage detected: Exact sentence from original found in synthetic: ',FINDINGS: , The right carotid cerebral system was...'
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_02724: 1 iterations, is_safe=True
-Processed record_02724: 1 iterations, is_safe=True
-Processing document record_04842...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 609
-  Stage 2: Refinement iteration 1...
-  Document is safe.
-Processed record_04842: 0 iterations, is_safe=True
-Processed record_04842: 0 iterations, is_safe=True
-Processing document record_03928...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 3625
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: LOCATION, DATE_TIME, URL, PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_03928: 1 iterations, is_safe=True
-Processed record_03928: 1 iterations, is_safe=True
-Processing document record_01202...
-  Stage 1: Extracting attributes...
-  Extracted 1/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 1741
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_01202: 1 iterations, is_safe=True
-Processed record_01202: 1 iterations, is_safe=True
-Processing document record_01273...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 584
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: PERSON, Data leakage detected: Exact sentence from original found in synthetic: ',PROCEDURE: , Bilateral open Achilles lengthening ...'
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_01273: 1 iterations, is_safe=True
-Processed record_01273: 1 iterations, is_safe=True
-Processing document record_02444...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 587
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: LOCATION, Data leakage detected: Exact sentence from original found in synthetic: ',The patient left the OR in satisfactory condition...'
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_02444: 1 iterations, is_safe=True
-Processed record_02444: 1 iterations, is_safe=True
-Processing document record_02619...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 662
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: Data leakage detected: Exact sentence from original found in synthetic: 'Her cervix on admission was not ripe, so she was g...'
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_02619: 1 iterations, is_safe=True
-Processed record_02619: 1 iterations, is_safe=True
-Processing document record_01069...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 574
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: PERSON, Data leakage detected: Exact sentence from original found in synthetic: ',POSTOPERATIVE DIAGNOSIS: , Left knee medial femor...'
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_01069: 1 iterations, is_safe=True
-Processed record_01069: 1 iterations, is_safe=True
-Processing document record_01492...
-  Stage 1: Extracting attributes...
-  Extracted 1/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 478
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: DATE_TIME
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_01492: 1 iterations, is_safe=True
-Processed record_01492: 1 iterations, is_safe=True
-Processing document record_01789...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 3690
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: DATE_TIME, PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_01789: 1 iterations, is_safe=True
-Processed record_01789: 1 iterations, is_safe=True
-Processing document record_02004...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 640
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: US_DRIVER_LICENSE
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_02004: 1 iterations, is_safe=True
-Processed record_02004: 1 iterations, is_safe=True
-Processing document record_00417...
-  Stage 1: Extracting attributes...
-  Extracted 1/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 617
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: LOCATION, PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_00417: 1 iterations, is_safe=True
-Processed record_00417: 1 iterations, is_safe=True
-Processing document record_03876...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 2619
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: DATE_TIME, PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_03876: 1 iterations, is_safe=True
-Processed record_03876: 1 iterations, is_safe=True
-Processing document record_04369...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 766
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: LOCATION, Data leakage detected: Exact sentence from original found in synthetic: 'Pneumonia in the face of fairly severe Crohn disea...'
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_04369: 1 iterations, is_safe=True
-Processed record_04369: 1 iterations, is_safe=True
-Processing document record_02085...
-  Stage 1: Extracting attributes...
-  Extracted 1/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 2987
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: US_DRIVER_LICENSE, LOCATION, PERSON, DATE_TIME, URL
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_02085: 1 iterations, is_safe=True
-Processed record_02085: 1 iterations, is_safe=True
-Processing document record_01145...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 3730
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: LOCATION, PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_01145: 1 iterations, is_safe=True
-Processed record_01145: 1 iterations, is_safe=True
-Processing document record_00222...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 584
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_00222: 1 iterations, is_safe=True
-Processed record_00222: 1 iterations, is_safe=True
-Processing document record_01963...
-  Stage 1: Extracting attributes...
-  Extracted 1/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 564
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: LOCATION
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_01963: 1 iterations, is_safe=True
-Processed record_01963: 1 iterations, is_safe=True
-Processing document record_02743...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 579
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: US_DRIVER_LICENSE, Data leakage detected: Exact sentence from original found in synthetic: 'Cervical spondylosis and herniated nucleus pulposu...'
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_02743: 1 iterations, is_safe=True
-Processed record_02743: 1 iterations, is_safe=True
-Processing document record_02086...
-  Stage 1: Extracting attributes...
-  Extracted 1/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 2227
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: URL, NRP, PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_02086: 1 iterations, is_safe=True
-Processed record_02086: 1 iterations, is_safe=True
-Processing document record_00495...
-  Stage 1: Extracting attributes...
-  Extracted 1/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 617
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: Data leakage detected: Exact sentence from original found in synthetic: 'Open reduction and internal fixation of right dist...'
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_00495: 1 iterations, is_safe=True
-Processed record_00495: 1 iterations, is_safe=True
-Processing document record_03307...
-  Stage 1: Extracting attributes...
-  Extracted 3/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 1236
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_03307: 1 iterations, is_safe=True
-Processed record_03307: 1 iterations, is_safe=True
-Processing document record_04983...
-  Stage 1: Extracting attributes...
-  Extracted 1/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 3227
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: DATE_TIME, PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_04983: 1 iterations, is_safe=True
-Processed record_04983: 1 iterations, is_safe=True
-Processing document record_02305...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 570
-  Stage 2: Refinement iteration 1...
-  Document is safe.
-Processed record_02305: 0 iterations, is_safe=True
-Processed record_02305: 0 iterations, is_safe=True
-Processing document record_04720...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 3563
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: LOCATION, DATE_TIME, URL, PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 524
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_04720: 1 iterations, is_safe=True
-Processed record_04720: 1 iterations, is_safe=True
-Processing document record_00643...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 582
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: LOCATION, PERSON, Data leakage detected: Exact sentence from original found in synthetic: 'Laparoscopic examination showed no injury from ent...'
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_00643: 1 iterations, is_safe=True
-Processed record_00643: 1 iterations, is_safe=True
-Processing document record_04508...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 2773
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: LOCATION, URL, PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_04508: 1 iterations, is_safe=True
-Processed record_04508: 1 iterations, is_safe=True
-Processing document record_01511...
-  Stage 1: Extracting attributes...
-  Extracted 1/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 623
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: PERSON, Data leakage detected: Name from original found in synthetic: 'Transesophageal Echocardiogram'
-  Applied template-based rewriting
-  Refined synthetic text of length 624
-  Stage 2: Refinement iteration 2...
-  Privacy concerns detected: PII detected in synthetic data: PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 624
-  Stage 2: Refinement iteration 3...
-  Privacy concerns detected: PII detected in synthetic data: PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 624
-  Maximum iterations reached without achieving safety.
-  Applying final strong sanitization...
-  Final sanitized text length: 604
-Processed record_01511: 3 iterations, is_safe=False
-Processed record_01511: 3 iterations, is_safe=False
-Processing document record_01733...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used template-based generation
-  Generated synthetic text of length 765
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: Data leakage detected: Exact sentence from original found in synthetic: 'Complete occlusion of the left common carotid arte...'
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_01733: 1 iterations, is_safe=True
-Processed record_01733: 1 iterations, is_safe=True
-Processing document record_02453...
-  Stage 1: Extracting attributes...
-  Extracted 1/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 2227
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: PHONE_NUMBER, PERSON, DATE_TIME, URL, IP_ADDRESS
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_02453: 1 iterations, is_safe=True
-Processed record_02453: 1 iterations, is_safe=True
-Processing document record_01760...
-  Stage 1: Extracting attributes...
-  Extracted 2/6 attributes with content
-  Stage 1: Generating synthetic data...
-  Used model-based generation
-  Generated synthetic text of length 899
-  Stage 2: Refinement iteration 1...
-  Privacy concerns detected: PII detected in synthetic data: DATE_TIME, PERSON
-  Applied template-based rewriting
-  Refined synthetic text of length 486
-  Stage 2: Refinement iteration 2...
-  Document is safe.
-Processed record_01760: 1 iterations, is_safe=True
-Processed record_01760: 1 iterations, is_safe=True
-
-Processing complete! Results:
-- Total documents processed: 50
-- Documents marked safe: 48 (96.0%)
-- Average iterations required: 1.00
-- Summary saved to data/synthetic/mtsamples/processing_summary.json
-INFO:     Started server process [534174]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [534174]
