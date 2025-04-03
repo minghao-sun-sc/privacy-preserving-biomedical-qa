@@ -226,7 +226,7 @@ def interactive_query(args):
     """Run the system in interactive query mode."""
     from src.experiment_management.config_manager import ConfigManager
     from src.llm_integration.model_loader import LLMModel, LLMWithRAG
-    from src.biogpt_integration.query_processor import QueryProcessor
+    from src.llm_integration.query_processor import QueryProcessor
     from src.rag.vector_database import TextEncoder, VectorDatabase
     from src.rag.retriever import Retriever
     
@@ -351,13 +351,19 @@ def interactive_query(args):
                     continue
                 
                 print("\nProcessing query...", end=" ", flush=True)
-                formatted_query = query_processor.format_query(query)
+                
+                # Format query based on model type
+                if "llama" in config.llm.model_name.lower():
+                    system_prompt = "You are a helpful, respectful and honest medical assistant. Answer the following medical question with accurate information. Be concise and precise."
+                    formatted_query = query_processor.format_for_llama2(query, system_prompt)
+                else:
+                    formatted_query = query_processor.format_query(query)
                 
                 # Generate answer
                 if config.rag.enabled:
                     # Retrieve relevant documents
                     retrieved_docs = retriever.retrieve(
-                        formatted_query, 
+                        query,  # Use original query for retrieval
                         top_k=config.rag.top_k
                     )
                     

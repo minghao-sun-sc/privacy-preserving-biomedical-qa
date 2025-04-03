@@ -113,6 +113,9 @@ class LLMModel:
             print(f"CUDA available: {torch.cuda.get_device_name(0)}")
             print(f"Memory allocated: {torch.cuda.memory_allocated(0) / 1024**2:.2f} MB")
             print(f"Memory reserved: {torch.cuda.memory_reserved(0) / 1024**2:.2f} MB")
+            # Print GPU memory information to help with debugging
+            total_memory = torch.cuda.get_device_properties(0).total_memory / (1024**3)
+            print(f"Total GPU memory: {total_memory:.2f} GB")
         
         # Load tokenizer
         self.tokenizer = AutoTokenizer.from_pretrained(
@@ -123,74 +126,125 @@ class LLMModel:
         # Configure quantization
         quantization_config = None
         if self.use_8bit or self.use_4bit:
-            quantization_config = BitsAndBytesConfig(
-                load_in_8bit=self.use_8bit,
-                load_in_4bit=self.use_4bit,
-                bnb_4bit_compute_dtype=torch.float16 if self.use_4bit else None,
-                bnb_4bit_use_double_quant=True if self.use_4bit else None
-            )
+            # For 4-bit quantization with more aggressive memory savings
+            if self.use_4bit:
+                quantization_config = BitsAndBytesConfig(
+                    load_in_4bit=True,
+                    bnb_4bit_compute_dtype=torch.float16,
+                    bnb_4bit_use_double_quant=True,
+                    bnb_4bit_quant_type="nf4"
+                )
+            # For 8-bit quantization
+            elif self.use_8bit:
+                quantization_config = BitsAndBytesConfig(
+                    load_in_8bit=True,
+                    llm_int8_enable_fp32_cpu_offload=True
+                )
+        
+        # Create device map to offload some layers to CPU if memory is limited
+        device_map = "auto"
+        
+        # Check available VRAM and create a more specific device map if needed
+        if torch.cuda.is_available():
+            gpu_memory = torch.cuda.get_device_properties(0).total_memory / (1024**3)  # in GB
+            # If GPU memory is less than 10GB, use a more conservative approach
+            if gpu_memory < 10 and not (self.use_4bit or self.use_8bit):
+                print(f"Limited GPU memory ({gpu_memory:.2f}GB). Using CPU offloading.")
+                device_map = {"": "cpu"}  # Start with CPU and let auto mapping handle it
         
         # Load model with quantization if specified
         try:
+            # Create model kwargs dictionary
             model_kwargs = {
                 "cache_dir": self.cache_dir,
-                "device_map": "auto" if self.use_gpu else "cpu",
+                "device_map": device_map,
                 "torch_dtype": torch.float16 if self.use_gpu else torch.float32,
-                "low_cpu_mem_usage": True
+                "low_cpu_mem_usage": True,
             }
             
             # Add quantization config if applicable
             if quantization_config:
                 model_kwargs["quantization_config"] = quantization_config
             
-            # Add flash attention if applicable
+            # Add flash attention if applicable and explicitly requested
             if self.use_flash_attention:
                 try:
-                    from transformers import LlamaForCausalLM
+                    import flash_attn
                     model_kwargs["attn_implementation"] = "flash_attention_2"
-                except (ImportError, ValueError):
+                    print("Flash Attention 2 is available and will be used")
+                except ImportError:
                     print("Flash Attention not available, falling back to standard attention")
             
             # Actually load the model
+            print("Loading model with the following settings:")
+            print(f"- Using 4-bit quantization: {self.use_4bit}")
+            print(f"- Using 8-bit quantization: {self.use_8bit}")
+            print(f"- Using flash attention: {self.use_flash_attention}")
+            print(f"- Device map: {device_map}")
+            
             self.model = AutoModelForCausalLM.from_pretrained(
                 self.model_name,
                 **model_kwargs
             )
             
-            # Create the text generation pipeline
+            # Set padding token if needed
+            if self.tokenizer.pad_token is None:
+                self.tokenizer.pad_token = self.tokenizer.eos_token
+            
+            # Create the text generation pipeline with optimized settings
+            # Use a smaller batch size for better memory efficiency
             self.generator = pipeline(
                 "text-generation",
                 model=self.model,
                 tokenizer=self.tokenizer,
-                device_map="auto" if self.use_gpu else "cpu"
+                device_map=device_map,
+                batch_size=1  # Use smaller batch size for better memory efficiency
             )
             
             print(f"LLM model {self.model_name} loaded successfully")
             
         except Exception as e:
             print(f"Error loading model: {str(e)}")
-            print("Attempting to fall back to smaller batch size and memory optimizations")
+            print("Attempting to fall back to more aggressive memory optimizations")
             
             # If we failed, try again with more aggressive memory optimizations
             try:
+                # Last resort: 4-bit quantization with CPU offloading
+                emergency_config = BitsAndBytesConfig(
+                    load_in_4bit=True,
+                    bnb_4bit_compute_dtype=torch.float16,
+                    bnb_4bit_use_double_quant=True,
+                    bnb_4bit_quant_type="nf4"
+                )
+                
+                print("Attempting emergency 4-bit quantization with CPU offloading...")
+                
+                # Offload some model components to CPU
+                # Create a device map that puts attention blocks on GPU and rest on CPU
                 self.model = AutoModelForCausalLM.from_pretrained(
                     self.model_name,
                     cache_dir=self.cache_dir,
-                    load_in_8bit=True,  # Force 8-bit loading
-                    device_map="auto"
+                    quantization_config=emergency_config,
+                    device_map="auto",
+                    offload_folder="offload_folder",  # Specify offload location
+                    torch_dtype=torch.float16
                 )
                 
-                # Create the text generation pipeline with smaller batch size
+                # Create the text generation pipeline with minimal settings
                 self.generator = pipeline(
                     "text-generation",
                     model=self.model,
                     tokenizer=self.tokenizer,
-                    device_map="auto",
-                    batch_size=1  # Force small batch size
+                    batch_size=1
                 )
-                print("Model loaded with memory optimizations")
+                print("Model loaded with emergency memory optimizations")
             except Exception as fallback_error:
                 print(f"Fallback loading also failed: {str(fallback_error)}")
+                print("\nSuggestions to fix:")
+                print("1. Try using a smaller model like 'meta-llama/Llama-2-7b-hf' (non-chat version)")
+                print("2. Set use_4bit=true and use_8bit=false in your config")
+                print("3. Set use_flash_attention=false in your config")
+                print("4. Reduce batch_size to 1 in evaluation section of your config")
                 raise
     
     def generate(
@@ -224,23 +278,44 @@ class LLMModel:
             temperature = self.temperature
         
         # Generate text
-        outputs = self.generator(
-            prompt,
-            max_new_tokens=max_length,
-            temperature=temperature,
-            num_return_sequences=num_return_sequences,
-            do_sample=do_sample,
-            pad_token_id=self.tokenizer.eos_token_id
-        )
-        
-        # Extract the generated text (first sequence only for simplicity)
-        generated_text = outputs[0]["generated_text"]
-        
-        # Remove the input prompt from the generated text
-        if prompt and generated_text.startswith(prompt):
-            generated_text = generated_text[len(prompt):].strip()
-        
-        return generated_text
+        try:
+            outputs = self.generator(
+                prompt,
+                max_new_tokens=max_length,
+                temperature=temperature,
+                num_return_sequences=num_return_sequences,
+                do_sample=do_sample,
+                pad_token_id=self.tokenizer.eos_token_id
+            )
+            
+            # Extract the generated text (first sequence only for simplicity)
+            generated_text = outputs[0]["generated_text"]
+            
+            # Remove the input prompt from the generated text
+            if prompt and generated_text.startswith(prompt):
+                generated_text = generated_text[len(prompt):].strip()
+            
+            return generated_text
+            
+        except RuntimeError as e:
+            if "out of memory" in str(e).lower():
+                print("GPU out of memory during generation. Trying with reduced parameters...")
+                # Attempt with reduced parameters
+                torch.cuda.empty_cache()
+                outputs = self.generator(
+                    prompt,
+                    max_new_tokens=min(64, max_length),  # Reduce token count
+                    temperature=0.7,  # Default temp
+                    num_return_sequences=1,
+                    do_sample=True,
+                    pad_token_id=self.tokenizer.eos_token_id
+                )
+                generated_text = outputs[0]["generated_text"]
+                if prompt and generated_text.startswith(prompt):
+                    generated_text = generated_text[len(prompt):].strip()
+                return generated_text + " [TRUNCATED DUE TO MEMORY LIMITATIONS]"
+            else:
+                raise
     
     def format_prompt_for_llama2(self, message: str, system_prompt: Optional[str] = None) -> str:
         """

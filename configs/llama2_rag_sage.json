@@ -1,47 +1,44 @@
 {
-  "name": "Llama2_RAG_SAGE",
-  "description": "Llama-2-7b model with RAG using SAGE synthetic data",
-  "data_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/original/mtsamples",
-  "output_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/results/Llama2_RAG_SAGE",
+  "name": "llama2_rag_sage",
+  "description": "Run Llama-2-7B with RAG and SAGE on the HealthcareMagic dataset",
+  "verbose": true,
+  "random_seed": 42,
+  "output_dir": "D:/Projects/privacy-preserving-biomedical-qa/outputs/llama2_rag_sage_healthcaremagic",
+  "data_dir": "D:/Projects/privacy-preserving-biomedical-qa/data/healthcaremagic",
+  "synthetic_data_dir": "D:/Projects/privacy-preserving-biomedical-qa/data/synthetic/healthcaremagic",
   "llm": {
     "model_name": "meta-llama/Llama-2-7b-chat-hf",
+    "max_new_tokens": 512,
+    "temperature": 0.1,
     "use_gpu": true,
-    "max_new_tokens": 256,
-    "temperature": 0.7,
-    "cache_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/model_cache",
     "use_8bit": true,
     "use_4bit": false,
-    "use_flash_attention": true
+    "cache_dir": "D:/Projects/privacy-preserving-biomedical-qa/models",
+    "use_flash_attention": false
   },
   "rag": {
     "enabled": true,
-    "encoder_model": "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext",
-    "vector_store_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/vector_store",
     "top_k": 5,
-    "max_context_length": 1024,
-    "chunk_size": 512,
-    "chunk_overlap": 128
+    "chunk_size": 256,
+    "chunk_overlap": 50,
+    "encoder_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "vector_store_dir": "D:/Projects/privacy-preserving-biomedical-qa/vector_stores/healthcaremagic"
   },
   "sage": {
     "enabled": true,
     "generator_model": "meta-llama/Llama-2-7b-chat-hf",
-    "refinement_model": "meta-llama/Llama-2-7b-chat-hf",
-    "synthetic_data_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/synthetic/mtsamples",
-    "preserve_medical_content": true,
-    "run_refinement": true,
-    "evaluate_consistency": true,
-    "num_records": 50,
-    "num_samples": 1,
-    "max_workers": 2
+    "num_records": 100,
+    "batch_size": 10,
+    "synthetic_data_dir": "D:/Projects/privacy-preserving-biomedical-qa/data/synthetic/healthcaremagic",
+    "attributes_to_anonymize": ["patient_name", "doctor_name", "hospital_name", "address"],
+    "max_workers": 1
   },
   "evaluation": {
-    "benchmark_file": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/benchmarks/comprehensive_benchmark.json",
-    "results_dir": "/mnt/rna01/smh/projects/cs6207/privacy-preserving-biomedical-qa/data/evaluation/results",
+    "benchmark_file": "D:/Projects/privacy-preserving-biomedical-qa/benchmarks/biomedical_qa_benchmark.json",
+    "dataset_name": "healthcaremagic",
     "evaluate_accuracy": true,
     "evaluate_privacy": true,
-    "output_predictions": true,
-    "batch_size": 2
-  },
-  "random_seed": 42,
-  "verbose": true
+    "num_queries": 50,
+    "output_file": "D:/Projects/privacy-preserving-biomedical-qa/outputs/llama2_rag_sage_healthcaremagic/results.json"
+  }
 } 

@@ -75,25 +75,31 @@ class SyntheticDataGenerator:
         
         print(f"Loading synthetic data generator model: {self.model_name}")
         
-        # For BioGPT model, use our existing implementation
+        # For older BioGPT models, we'll use our LLMModel implementation instead
         if "biogpt" in self.model_name.lower():
-            from src.biogpt_integration.model_loader import BioGPTModel
+            from src.llm_integration.model_loader import LLMModel
             
-            self.biogpt_model = BioGPTModel(
+            # Replace with Llama-2
+            print("BioGPT is deprecated, replacing with Llama-2")
+            self.model_name = "meta-llama/Llama-2-7b-chat-hf"
+            
+            self.llm_model = LLMModel(
                 model_name=self.model_name,
                 use_gpu=self.device != "cpu",
                 max_new_tokens=512,
                 temperature=0.85,  # Higher temperature for more creative generation
-                cache_dir=self.cache_dir
+                cache_dir=self.cache_dir,
+                use_8bit=True
             )
             
-            self.biogpt_model.load()
-            print("BioGPT model loaded for synthetic data generation")
+            self.llm_model.load()
+            print("Llama-2 model loaded for synthetic data generation")
             return
             
         try:
-            # Use default transformers approach for other models
+            # Use default transformers approach for most models
             from transformers import AutoTokenizer, AutoModelForCausalLM
+            import torch
             
             self.tokenizer = AutoTokenizer.from_pretrained(
                 self.model_name,
@@ -102,36 +108,56 @@ class SyntheticDataGenerator:
             
             # Determine device
             if self.device == "auto":
-                import torch
                 self.device = "cuda" if torch.cuda.is_available() else "cpu"
             
-            # Load model
-            self.model = AutoModelForCausalLM.from_pretrained(
-                self.model_name,
-                cache_dir=self.cache_dir
-            )
-            
-            # Move model to device
-            self.model = self.model.to(self.device)
+            # Load model with optimizations if on GPU
+            if self.device == "cuda":
+                # Try to load in 8-bit precision for memory efficiency
+                try:
+                    import bitsandbytes as bnb
+                    self.model = AutoModelForCausalLM.from_pretrained(
+                        self.model_name,
+                        cache_dir=self.cache_dir,
+                        load_in_8bit=True,
+                        device_map="auto"
+                    )
+                    print("Loaded model in 8-bit precision")
+                except:
+                    # Fall back to half precision
+                    self.model = AutoModelForCausalLM.from_pretrained(
+                        self.model_name,
+                        cache_dir=self.cache_dir,
+                        torch_dtype=torch.float16,
+                        device_map="auto"
+                    )
+                    print("Loaded model in half precision (fp16)")
+            else:
+                # Load on CPU
+                self.model = AutoModelForCausalLM.from_pretrained(
+                    self.model_name,
+                    cache_dir=self.cache_dir,
+                    device_map={"": self.device}
+                )
             
             print(f"Model loaded on {self.device}")
         except Exception as e:
             print(f"Error loading model: {e}")
-            print("Falling back to BioGPT model")
+            print("Falling back to Llama-2 model")
             
-            # Fall back to BioGPT
-            from src.biogpt_integration.model_loader import BioGPTModel
+            # Fall back to Llama-2
+            from src.llm_integration.model_loader import LLMModel
             
-            self.biogpt_model = BioGPTModel(
-                model_name="microsoft/biogpt",
+            self.llm_model = LLMModel(
+                model_name="meta-llama/Llama-2-7b-chat-hf",
                 use_gpu=self.device != "cpu",
                 max_new_tokens=512,
                 temperature=0.8,
-                cache_dir=self.cache_dir
+                cache_dir=self.cache_dir,
+                use_8bit=True
             )
             
-            self.biogpt_model.load()
-            print("BioGPT fallback model loaded for synthetic data generation")
+            self.llm_model.load()
+            print("Llama-2 fallback model loaded for synthetic data generation")
     
     def generate_synthetic_record(
         self, 
@@ -148,7 +174,7 @@ class SyntheticDataGenerator:
         Returns:
             Synthetic medical record
         """
-        if self.model is None and not hasattr(self, 'biogpt_model'):
+        if self.model is None and not hasattr(self, 'llm_model'):
             self.load_model()
         
         # Create a copy of the original record
@@ -244,47 +270,54 @@ class SyntheticDataGenerator:
         
         return text
     
-    def generate_text(self, prompt: str) -> str:
+    def generate_text(self, prompt: str, max_length: int = 512) -> str:
         """
-        Generate text from a prompt using the loaded model.
+        Generate text using the model.
         
         Args:
-            prompt: Input prompt for the model
+            prompt: Input prompt for generation
+            max_length: Maximum length of the generated text
             
         Returns:
             Generated text
         """
-        if self.model is None and not hasattr(self, 'biogpt_model'):
+        if self.model is None and not hasattr(self, 'llm_model'):
             raise ValueError("Model not loaded. Call load_model() first")
         
         try:
-            # Use BioGPT if loaded
-            if hasattr(self, 'biogpt_model'):
-                response = self.biogpt_model.generate(prompt)
-                if response is None:
-                    return "No text generated"
-                return str(response).strip()
+            # Use Llama-2 if loaded
+            if hasattr(self, 'llm_model'):
+                response = self.llm_model.generate(
+                    prompt,
+                    max_length=max_length,
+                    temperature=0.8,
+                    num_return_sequences=1
+                )
+                if isinstance(response, list):
+                    return response[0]
+                return response
             
-            # Use standard model
+            # Otherwise use the loaded transformer model
             inputs = self.tokenizer(prompt, return_tensors="pt").to(self.device)
             
             with torch.no_grad():
                 outputs = self.model.generate(
-                    **inputs,
-                    max_new_tokens=512,
+                    inputs["input_ids"],
+                    max_new_tokens=max_length,
                     temperature=0.8,
-                    do_sample=True,
-                    pad_token_id=self.tokenizer.eos_token_id
+                    top_p=0.95,
+                    do_sample=True
                 )
             
+            # Decode text and remove the prompt
             generated_text = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
-            # Remove the prompt from the generated text
-            if generated_text.startswith(prompt):
+            if prompt and generated_text.startswith(prompt):
                 generated_text = generated_text[len(prompt):].strip()
-                
-            return generated_text if isinstance(generated_text, str) else str(generated_text)
+            
+            return generated_text
+        
         except Exception as e:
-            print(f"Error in text generation: {e}")
+            print(f"Error generating text: {e}")
             return f"Error generating text: {str(e)}"
     
     def batch_generate_synthetic_records(
@@ -306,7 +339,7 @@ class SyntheticDataGenerator:
         Returns:
             List of synthetic medical records
         """
-        if self.model is None and not hasattr(self, 'biogpt_model'):
+        if self.model is None and not hasattr(self, 'llm_model'):
             self.load_model()
         
         synthetic_records = []

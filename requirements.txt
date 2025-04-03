@@ -18,8 +18,10 @@ conda-package-handling @ file:///croot/conda-package-handling_1731369017509/work
 conda_package_streaming @ file:///croot/conda-package-streaming_1731366181659/work
 confection @ file:///home/conda/feedstock_root/build_artifacts/confection_1740630664356/work
 cymem @ file:///croot/cymem_1736260340843/work
+datasets==2.19.2
 distro @ file:///croot/distro_1714488253808/work
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
+evaluate==0.4.2
 faiss==1.8.0
 filelock @ file:///croot/filelock_1700591183607/work
 frozendict @ file:///croot/frozendict_1713194832637/work
@@ -54,6 +56,7 @@ pluggy @ file:///croot/pluggy_1733169602837/work
 preshed @ file:///opt/conda/conda-bld/preshed_1651240927559/work
 protobuf==6.30.2
 psutil==7.0.0
+pyarrow==16.1.0
 pycosat @ file:///croot/pycosat_1736868416091/work
 pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
 pydantic @ file:///croot/pydantic_1731939285769/work

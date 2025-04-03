@@ -8,7 +8,7 @@ import uuid
 from src.sage.sensitive_info_detector import SensitiveInfoDetector
 from src.sage.synthetic_data_generator import SyntheticDataGenerator
 from src.sage.agent_based_refinement import RefinementAgent, MedicalConsistencyChecker
-from src.data_processing.dataset_loaders import MTSamplesLoader
+from src.data_processing.dataset_loaders import MTSamplesLoader, HealthcareMagicLoader
 from src.data_processing.text_preprocessor import TextPreprocessor
 
 
@@ -125,8 +125,8 @@ class SAGEPipeline:
             cache_dir=self.config.get("cache_dir")
         )
         
-        # Initialize data processing components
-        self.data_loader = MTSamplesLoader(data_dir=self.data_dir)
+        # Initialize data processing components based on dataset name
+        self.data_loader = self.get_data_loader()
         self.text_preprocessor = TextPreprocessor()
         
         # Pipeline execution tracking
@@ -349,8 +349,16 @@ class SAGEPipeline:
             return self.data_loader
             
         if self.dataset_name == "mtsamples":
+            print(f"Initializing MTSamplesLoader with directory: {os.path.join(self.data_dir, 'mtsamples')}")
             from src.data_processing.dataset_loaders import MTSamplesLoader
             self.data_loader = MTSamplesLoader(data_dir=os.path.join(self.data_dir, self.dataset_name))
+        elif self.dataset_name == "healthcaremagic":
+            print(f"Initializing HealthcareMagicLoader with directory: {os.path.join(self.data_dir, 'healthcaremagic')}")
+            from src.data_processing.dataset_loaders import HealthcareMagicLoader
+            # Create directory if it doesn't exist
+            health_dir = os.path.join(self.data_dir, 'healthcaremagic')
+            os.makedirs(health_dir, exist_ok=True)
+            self.data_loader = HealthcareMagicLoader(data_dir=health_dir, cache_dir=self.config.get("cache_dir"))
         else:
             raise ValueError(f"Unsupported dataset: {self.dataset_name}")
             

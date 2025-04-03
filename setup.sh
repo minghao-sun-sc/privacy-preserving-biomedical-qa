@@ -8,17 +8,17 @@ if ! command -v conda &> /dev/null; then
 fi
 
 # Create biomedqa environment if it doesn't exist
-if ! conda info --envs | grep -q biomedqa-env; then
-    echo "Creating conda environment: biomedqa-env"
-    conda create -y -n biomedqa-env python=3.8
+if ! conda info --envs | grep -q biomedqa; then
+    echo "Creating conda environment: biomedqa"
+    conda create -y -n biomedqa python=3.9
 else
-    echo "Found existing conda environment: biomedqa-env"
+    echo "Found existing conda environment: biomedqa"
 fi
 
 # Activate the environment
-echo "Activating biomedqa-env"
+echo "Activating biomedqa"
 eval "$(conda shell.bash hook)"
-conda activate biomedqa-env
+conda activate biomedqa-
 
 # Install requirements
 echo "Installing requirements"

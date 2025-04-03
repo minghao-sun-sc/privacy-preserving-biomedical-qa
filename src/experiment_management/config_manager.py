@@ -59,6 +59,7 @@ class EvaluationConfig:
     evaluate_privacy: bool = False
     output_predictions: bool = True
     batch_size: int = 4
+    dataset_name: str = "mtsamples"
 
 
 @dataclass

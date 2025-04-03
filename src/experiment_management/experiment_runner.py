@@ -11,7 +11,7 @@ from datetime import datetime
 from dataclasses import asdict
 
 from src.experiment_management.config_manager import ExperimentConfig
-from src.data_processing.dataset_loaders import MTSamplesLoader, BenchmarkLoader
+from src.data_processing.dataset_loaders import MTSamplesLoader, BenchmarkLoader, HealthcareMagicLoader
 from src.data_processing.text_preprocessor import TextPreprocessor
 from src.data_processing.data_indexing import DocumentIndexer
 from src.llm_integration.model_loader import LLMModel, LLMWithRAG
@@ -20,74 +20,85 @@ from src.rag.vector_database import TextEncoder, VectorDatabase
 from src.rag.retriever import Retriever, ContextBuilder, ChunkingStrategy
 from src.sage.sage_pipeline import SAGEPipeline, SAGEIntegrator
 from src.evaluation.qa_metrics import QAMetrics
-from src.evaluation.privacy_metrics import PrivacyEvaluator
+from src.evaluation.privacy_metrics import PrivacyEvaluator, SAGEPrivacyEvaluator
 
 
 class ExperimentRunner:
     """Runner for executing biomedical QA experiments."""
     
-    def __init__(
-        self,
-        config: ExperimentConfig,
-        log_file: Optional[str] = None
-    ):
+    def __init__(self, config: ExperimentConfig):
         """
         Initialize the experiment runner.
         
         Args:
             config: Experiment configuration
-            log_file: Path to log file (default: based on experiment name)
         """
         self.config = config
         
         # Set up logging
-        if log_file is None:
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            log_file = f"logs/{config.name}_{timestamp}.log"
-            
-        os.makedirs(os.path.dirname(log_file), exist_ok=True)
+        log_dir = os.path.join(os.getcwd(), "logs")
+        os.makedirs(log_dir, exist_ok=True)
         
-        logging.basicConfig(
-            level=logging.INFO if config.verbose else logging.WARNING,
-            format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-            handlers=[
-                logging.FileHandler(log_file),
-                logging.StreamHandler()
-            ]
-        )
+        log_filename = f"{config.name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+        log_path = os.path.join(log_dir, log_filename)
         
-        self.logger = logging.getLogger(config.name)
-        self.logger.info(f"Initializing experiment: {config.name}")
+        # Configure logging
+        self.logger = logging.getLogger(f"ExperimentRunner_{config.name}")
+        self.logger.setLevel(logging.INFO)
         
-        # Create output directory
-        os.makedirs(config.output_dir, exist_ok=True)
+        # Add file handler
+        file_handler = logging.FileHandler(log_path)
+        file_handler.setLevel(logging.INFO)
         
-        # Set random seed for reproducibility
-        self._set_random_seed(config.random_seed)
+        # Add console handler
+        console_handler = logging.StreamHandler()
+        console_handler.setLevel(logging.INFO)
         
-        # Initialize components
+        # Create a formatter and add it to the handlers
+        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        file_handler.setFormatter(formatter)
+        console_handler.setFormatter(formatter)
+        
+        # Add the handlers to the logger
+        self.logger.addHandler(file_handler)
+        self.logger.addHandler(console_handler)
+        
+        # Seed for reproducibility
+        self.random_seed = config.random_seed
+        random.seed(self.random_seed)
+        np.random.seed(self.random_seed)
+        torch.manual_seed(self.random_seed)
+        if torch.cuda.is_available():
+            torch.cuda.manual_seed_all(self.random_seed)
+        
+        self.logger.info(f"Setting random seed to {self.random_seed}")
+        
+        # Experiment components
+        self.mt_loader = None
+        self.healthcare_loader = None
+        self.benchmark_loader = None
+        self.text_preprocessor = None
+        self.query_processor = None
+        self.llm = None
+        self.llm_with_rag = None
+        self.encoder = None
+        self.vector_db = None
+        self.retriever = None
+        self.context_builder = None
+        self.document_indexer = None
+        self.vector_store_path = None
+        
+        # SAGE components
+        self.sage_pipeline = None
+        self.sage_integrator = None
+        
+        # Evaluation components
+        self.qa_metrics = None
+        self.privacy_evaluator = None
+        self.sage_privacy_evaluator = None
+        
+        # Initialize all components
         self._initialize_components()
-    
-    def _set_random_seed(self, seed: int) -> None:
-        """
-        Set random seed for reproducibility.
-        
-        Args:
-            seed: Random seed
-        """
-        random.seed(seed)
-        np.random.seed(seed)
-        torch.manual_seed(seed)
-        if torch.cuda.is_available():
-            torch.cuda.manual_seed_all(seed)
-            # Explicitly clear CUDA cache to avoid memory fragmentation
-            torch.cuda.empty_cache()
-        
-        self.logger.info(f"Random seed set to {seed}")
-        if torch.cuda.is_available():
-            self.logger.info(f"Using GPU: {torch.cuda.get_device_name(0)}")
-            self.logger.info(f"GPU memory allocated: {torch.cuda.memory_allocated(0) / 1024**2:.2f} MB")
-            self.logger.info(f"GPU memory reserved: {torch.cuda.memory_reserved(0) / 1024**2:.2f} MB")
     
     def _initialize_components(self) -> None:
         """Initialize experiment components based on configuration."""
@@ -95,112 +106,83 @@ class ExperimentRunner:
         
         # Initialize data loaders
         self.logger.info("Initializing data loaders")
-        self.mt_loader = MTSamplesLoader(self.config.data_dir)
+        
+        # Get dataset name from config (defaulting to mtsamples if not specified)
+        dataset_name = getattr(self.config.evaluation, "dataset_name", None)
+        if dataset_name is None:
+            # Extract from data_dir path if available
+            if "healthcaremagic" in self.config.data_dir.lower():
+                dataset_name = "healthcaremagic"
+            else:
+                dataset_name = "mtsamples"
+        
+        self.logger.info(f"Using dataset: {dataset_name}")
+        
+        if dataset_name == "mtsamples":
+            self.mt_loader = MTSamplesLoader(self.config.data_dir)
+            self.data_loader = self.mt_loader
+        elif dataset_name == "healthcaremagic":
+            self.healthcare_loader = HealthcareMagicLoader(self.config.data_dir)
+            self.data_loader = self.healthcare_loader
+        else:
+            raise ValueError(f"Unsupported dataset: {dataset_name}")
+        
         self.benchmark_loader = BenchmarkLoader(os.path.dirname(self.config.evaluation.benchmark_file))
         self.text_preprocessor = TextPreprocessor()
         
         # Initialize query processor
         self.query_processor = QueryProcessor()
         
-        # Initialize LLM model
-        self.logger.info(f"Initializing LLM model: {self.config.llm.model_name}")
-        self.biogpt = None  # Will be initialized when needed
-        
-        # Initialize RAG components if enabled
-        if self.config.rag.enabled:
-            self.logger.info("Initializing RAG components")
-            self.text_encoder = None  # Will be initialized when needed
-            self.vector_db = None  # Will be initialized when needed
-            self.retriever = None  # Will be initialized when needed
-            self.context_builder = None  # Will be initialized when needed
-            
-            # Setup vector database directory
-            use_synthetic = self.config.sage.enabled
-            vector_store_subdir = "synthetic" if use_synthetic else "original"
-            self.vector_store_path = os.path.join(
-                self.config.rag.vector_store_dir, 
-                vector_store_subdir
-            )
-            os.makedirs(self.vector_store_path, exist_ok=True)
-            
-            # Initialize document indexer
-            index_path = os.path.join(self.config.output_dir, "document_index")
-            os.makedirs(index_path, exist_ok=True)
-            self.document_indexer = DocumentIndexer(index_path)
-        
-        # Initialize SAGE components if enabled
-        if self.config.sage.enabled:
-            self.logger.info("Initializing SAGE components")
-            
-            # Create configuration for the SAGE pipeline
-            sage_config = {
-                "data_dir": self.config.data_dir,
-                "output_dir": self.config.output_dir,
-                "model_name": self.config.sage.generator_model,
-                "biogpt": asdict(self.config.llm),
-                "sage": asdict(self.config.sage),
-                "evaluation": asdict(self.config.evaluation),
-                "cache_dir": self.config.llm.cache_dir
-            }
-            
-            # Initialize SAGE pipeline
-            self.sage_pipeline = SAGEPipeline(
-                config=sage_config,
-                dataset_name="mtsamples"
-            )
-            
-            # Initialize SAGE integrator
-            self.sage_integrator = SAGEIntegrator(
-                original_data_dir=self.config.data_dir,
-                synthetic_data_dir=self.config.sage.synthetic_data_dir,
-                vector_store_dir=self.config.rag.vector_store_dir
-            )
+        # Initialize LLM model (lazily, will be loaded when needed)
+        self.logger.info(f"LLM model will be initialized: {self.config.llm.model_name}")
+        self.llm = None
         
         # Initialize evaluation components
         self.logger.info("Initializing evaluation components")
         self.qa_metrics = QAMetrics()
+        self.privacy_evaluator = PrivacyEvaluator()
+        self.sage_privacy_evaluator = SAGEPrivacyEvaluator()
         
-        if self.config.evaluation.evaluate_privacy:
-            self.logger.info("Initializing privacy evaluator")
-            self.privacy_evaluator = PrivacyEvaluator(random_seed=self.config.random_seed)
+        # Initialize SAGE components if enabled
+        if self.config.sage.enabled:
+            self.logger.info("Initializing SAGE pipeline")
+            self.sage_pipeline = SAGEPipeline(
+                config=self.config,
+                dataset_name=dataset_name
+            )
+            
+            self.sage_integrator = SAGEIntegrator(
+                original_data_dir=self.config.data_dir,
+                synthetic_data_dir=self.config.sage.synthetic_data_dir,
+                original_vector_store_dir=os.path.join(self.config.rag.vector_store_dir, "original"),
+                synthetic_vector_store_dir=os.path.join(self.config.rag.vector_store_dir, "synthetic")
+            )
     
-    def _initialize_biogpt(self) -> None:
-        """Initialize the LLM model."""
-        if self.biogpt is not None:
+    def _initialize_llm(self) -> None:
+        """Initialize the LLM model (lazy initialization)."""
+        if self.llm is not None:
             return
+            
+        self.llm = LLMModel(
+            model_name=self.config.llm.model_name,
+            use_gpu=self.config.llm.use_gpu,
+            max_new_tokens=self.config.llm.max_new_tokens,
+            temperature=self.config.llm.temperature,
+            cache_dir=self.config.llm.cache_dir,
+            use_8bit=self.config.llm.use_8bit,
+            use_4bit=self.config.llm.use_4bit,
+            use_flash_attention=self.config.llm.use_flash_attention
+        )
         
-        if self.config.rag.enabled:
-            self.biogpt = LLMWithRAG(
-                model_name=self.config.llm.model_name,
-                use_gpu=self.config.llm.use_gpu,
-                max_new_tokens=self.config.llm.max_new_tokens,
-                temperature=self.config.llm.temperature,
-                cache_dir=self.config.llm.cache_dir,
-                use_8bit=self.config.llm.use_8bit,
-                use_4bit=self.config.llm.use_4bit,
-                use_flash_attention=self.config.llm.use_flash_attention
-            )
-        else:
-            self.biogpt = LLMModel(
-                model_name=self.config.llm.model_name,
-                use_gpu=self.config.llm.use_gpu,
-                max_new_tokens=self.config.llm.max_new_tokens,
-                temperature=self.config.llm.temperature,
-                cache_dir=self.config.llm.cache_dir,
-                use_8bit=self.config.llm.use_8bit,
-                use_4bit=self.config.llm.use_4bit,
-                use_flash_attention=self.config.llm.use_flash_attention
-            )
-        
-        self.biogpt.load()
+        self.llm.load()
     
     def _initialize_rag_components(self) -> None:
         """Initialize the RAG components."""
         if not self.config.rag.enabled:
             return
             
-        if self.text_encoder is None:
-            self.text_encoder = TextEncoder(
+        if self.encoder is None:
+            self.encoder = TextEncoder(
                 model_name=self.config.rag.encoder_model,
                 use_gpu=self.config.llm.use_gpu
             )
@@ -219,7 +201,7 @@ class ExperimentRunner:
         if self.retriever is None:
             self.retriever = Retriever(
                 vector_db=self.vector_db,
-                text_encoder=self.text_encoder,
+                text_encoder=self.encoder,
                 text_preprocessor=self.text_preprocessor,
                 top_k=self.config.rag.top_k
             )
@@ -303,7 +285,7 @@ class ExperimentRunner:
         
         # Generate embeddings
         self.logger.info("Generating embeddings")
-        embeddings = self.text_encoder.encode(contents)
+        embeddings = self.encoder.encode(contents)
         
         # Add to vector database
         self.logger.info("Adding documents to vector database")
@@ -367,7 +349,7 @@ class ExperimentRunner:
             Question dictionary with prediction
         """
         # Initialize LLM if needed
-        self._initialize_biogpt()
+        self._initialize_llm()
         
         # Extract question text and type
         question_text = question.get('question', '')
@@ -390,7 +372,7 @@ class ExperimentRunner:
             )
             
             # Generate answer with context
-            answer = self.biogpt.answer_with_context(
+            answer = self.llm.answer_with_context(
                 formatted_question,
                 retrieved_docs,
                 max_context_length=self.config.rag.max_context_length
@@ -401,7 +383,7 @@ class ExperimentRunner:
             question['retrieved_docs'] = retrieved_ids
         else:
             # Generate answer without context
-            answer = self.biogpt.answer_question(formatted_question)
+            answer = self.llm.answer_question(formatted_question)
         
         # Extract clean answer
         clean_answer = self.query_processor.extract_answer_from_response(

@@ -1,11 +1,11 @@
 {
-  "name": "Llama2_RAG",
-  "description": "Llama-2-7b model with RAG using HealthcareMagic dataset (CPU mode)",
+  "name": "Minimal_Phi2",
+  "description": "Minimal Phi-2 configuration with RAG",
   "data_dir": "D:/Projects/privacy-preserving-biomedical-qa/data/healthcaremagic",
-  "output_dir": "D:/Projects/privacy-preserving-biomedical-qa/results/Llama2_RAG",
+  "output_dir": "D:/Projects/privacy-preserving-biomedical-qa/results/minimal_phi2",
   "llm": {
-    "model_name": "meta-llama/Llama-2-7b-chat-hf",
-    "use_gpu": false,
+    "model_name": "microsoft/phi-2",
+    "use_gpu": true,
     "max_new_tokens": 256,
     "temperature": 0.7,
     "cache_dir": "D:/Projects/privacy-preserving-biomedical-qa/data/model_cache",
@@ -24,8 +24,8 @@
   },
   "sage": {
     "enabled": false,
-    "generator_model": "meta-llama/Llama-2-7b-chat-hf",
-    "refinement_model": "meta-llama/Llama-2-7b-chat-hf",
+    "generator_model": "microsoft/phi-2",
+    "refinement_model": "microsoft/phi-2",
     "synthetic_data_dir": "D:/Projects/privacy-preserving-biomedical-qa/data/synthetic/healthcaremagic",
     "preserve_medical_content": true,
     "run_refinement": true,
@@ -35,11 +35,11 @@
     "max_workers": 2
   },
   "evaluation": {
-    "benchmark_file": "D:/Projects/privacy-preserving-biomedical-qa/data/benchmarks/healthcaremagic_benchmark.json",
+    "benchmark_file": "D:/Projects/privacy-preserving-biomedical-qa/data/benchmarks/comprehensive_benchmark.json",
     "results_dir": "D:/Projects/privacy-preserving-biomedical-qa/data/evaluation/results",
-    "evaluate_accuracy": true,
+    "evaluate_accuracy": false,
     "evaluate_privacy": false,
-    "output_predictions": true,
+    "output_predictions": false,
     "batch_size": 1,
     "dataset_name": "healthcaremagic"
   },
