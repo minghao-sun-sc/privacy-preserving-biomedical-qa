@@ -2,46 +2,67 @@ import os
 import json
 import argparse
 from tqdm import tqdm
-from openai import AzureOpenAI
 import transformers
 import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
-def get_llm_client(llm_name: str = 'gpt-35-turbo'):
-    client = "YOUR CLIENT TO GENERATE LLM OUTPUT"
-    return client
+def get_llm_client(llm_name: str = 'llama-2-7b-chat'):
+    """
+    Get the LLM client based on the model name
+    """
+    if 'llama' in llm_name.lower():
+        # Load the Llama model
+        model_name = "meta-llama/Llama-2-7b-chat-hf"  # Adjust if using a different version
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        model = AutoModelForCausalLM.from_pretrained(
+            model_name,
+            torch_dtype=torch.float16,
+            device_map="auto"  # This will use CUDA:1 as specified in your environment
+        )
+        
+        # Create a function that mimics the client interface
+        def llama_client(prompt, max_new_tokens=256, temperature=0.6, do_sample=True, pad_token_id=None):
+            inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+            with torch.no_grad():
+                outputs = model.generate(
+                    inputs.input_ids,
+                    max_new_tokens=max_new_tokens,
+                    temperature=temperature,
+                    do_sample=do_sample,
+                    pad_token_id=pad_token_id or tokenizer.eos_token_id
+                )
+            generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+            return [{"generated_text": generated_text}]
+        
+        return llama_client
+    else:
+        # If you want to support other models like Azure OpenAI, add them here
+        raise ValueError(f"Model {llm_name} not supported in this implementation")
 
 
 def get_llm_output(prompt, llm_client, model_name, system_content="You are a helpful assistant."):
-    # PLEASE FIT THIS FUNCTION TO YOUR OWN LLM CLIENT
-    if model_name.find('llama') != -1:
-        out = llm_client(prompt,
+    """
+    Get output from LLM based on the prompt
+    """
+    if 'llama' in model_name.lower():
+        # For Llama models, we need to format the prompt with the system message
+        formatted_prompt = f"<s>[INST] <<SYS>>\n{system_content}\n<</SYS>>\n\n{prompt} [/INST]"
+        try:
+            out = llm_client(formatted_prompt,
                          max_new_tokens=256,
                          temperature=0.6,
-                         do_sample=True,
-                         pad_token_id=llm_client.tokenizer.eos_token_id)
-        output = out[0]['generated_text'].strip(prompt)
-    else:
-        messages = [{"role": "system", "content": system_content},
-                    {"role": "user", "content": prompt}, ]
-        output = ''
-        for _ in range(8):
-            try:
-                response = llm_client.chat.completions.create(model=model_name,
-                                                              messages=messages,
-                                                              max_tokens=256,
-                                                              n=1,
-                                                              temperature=0.6)
-                output = response.choices[0].message.content
-            except Exception as _:
-                output = ''
-            if output != '':
-                break
-        if output == '':
+                         do_sample=True)
+            output = out[0]['generated_text'].replace(formatted_prompt, "").strip()
+            return output
+        except Exception as e:
+            print(f"Error generating with Llama: {e}")
             global num_error
             num_error += 1
-            print('Error!')
-    return output
+            return ""
+    else:
+        # If you want to support other models, add them here
+        raise ValueError(f"Model {model_name} not supported in this implementation")
 
 
 def get_query_output_k(questions, contexts, generate_llm):
@@ -93,12 +114,12 @@ if __name__ == "__main__":
                                  "ori",          # do not use any protect method
                                  "llm",          # do not use RAG
                                  ])
-    parser.add_argument('--llm-generations', type=str, default='gpt-35-turbo', choices=['gpt-4', 'gpt-35-turbo', 'llama-3'])
+    parser.add_argument('--llm-generations', type=str, default='gpt-35-turbo', 
+                        choices=['gpt-4', 'gpt-35-turbo', 'llama-3', 'llama-2-7b-chat'])
 
     args = parser.parse_args()
     num_error = 0
     llm_generations = args.llm_generations
-    folder = args.folder
     attack_method = args.attack_method
     dataset_name = args.dataset_name
 
@@ -112,5 +133,10 @@ if __name__ == "__main__":
     else:
         final_outputs = get_performance_output_k(question, llm_generations)
     print(f'Error num is {num_error}')
+
+    # Create outputs directory if it doesn't exist
+    if not os.path.exists('outputs'):
+        os.makedirs('outputs')
+        
     with open(f'outputs/{attack_method}-{dataset_name}-{args.protect_method}-{llm_generations}-output.json', 'w', encoding='utf-8') as f:
         f.write(json.dumps(final_outputs))

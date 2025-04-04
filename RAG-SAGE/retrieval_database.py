@@ -499,9 +499,9 @@ if __name__ == '__main__':
     # Step 2: Building the vector database
     """
     # Step 1: Build the wiki_pii dataset
-    get_wiki_pii()
+    # get_wiki_pii()
     # Step 2: Building the vector database
     encoder_model = 'bge-large-en-v1.5'
     construct_retrieval_database(['chat'], ['by_two_line_breaks'], encoder_model)
-    construct_retrieval_database(['wiki'], ['recursive_character'], encoder_model)
-    construct_retrieval_database(['wiki_pii'], ['single_file'], encoder_model)
+    # construct_retrieval_database(['wiki'], ['recursive_character'], encoder_model)
+    # construct_retrieval_database(['wiki_pii'], ['single_file'], encoder_model)

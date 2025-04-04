@@ -11,6 +11,7 @@ from ragas.metrics import (
 from ragas import evaluate
 import json
 import argparse
+import os
 
 
 def calc_score(truth, predict, con, ques, metric):
@@ -57,9 +58,11 @@ if __name__ == '__main__':
                                  "attrPrompt",  # the baseline for comparison
                                  "ori",         # do not use any protect method
                                  "llm",         # do not use RAG
+                                 "dprag",       # DP-RAG protection method
+                                 "pprag",       # PP-RAG protection method
                                  ])
     parser.add_argument('--model', type=str, default='gpt-35-turbo',
-                        choices=['gpt-4', 'gpt-35-turbo', 'llama-3'])
+                        choices=['gpt-4', 'gpt-35-turbo', 'llama-3', 'llama-2-7b-chat'])
     parser.add_argument('--dataset-name', type=str, default='chat', choices=['chat', 'wiki'])
     # llama-3  gpt-35-turbo
     attack_method = 'per'
@@ -68,6 +71,13 @@ if __name__ == '__main__':
     protect_method = args.protect_method
     model = args.model
     dataset_name = args.dataset_name
+
+    # Check if required directories and files exist
+    required_dirs = ['outputs', 'questions', 'contexts', 'truth']
+    for dir_name in required_dirs:
+        if not os.path.exists(dir_name):
+            os.makedirs(dir_name)
+            print(f"Created directory: {dir_name}")
 
     with open(f'questions/{attack_method}-{dataset_name}-question.json', 'r', encoding='utf-8') as f:
         questions = json.load(f)

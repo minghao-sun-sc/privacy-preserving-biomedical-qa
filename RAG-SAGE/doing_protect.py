@@ -9,44 +9,65 @@ from autogen import ConversableAgent, GroupChat, GroupChatManager
 import spacy
 import transformers
 import torch
-from transformers import AutoModelForCausalLM
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
-def get_llm_client(llm_name: str = 'gpt-35-turbo'):
-    client = "YOUR CLIENT TO GENERATE LLM OUTPUT"
-    return client
+def get_llm_client(llm_name: str = 'llama-2-7b-chat'):
+    """
+    Get the LLM client based on the model name
+    """
+    if 'llama' in llm_name.lower():
+        # Load the Llama model
+        model_name = "meta-llama/Llama-2-7b-chat-hf"  # Adjust if using a different version
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        model = AutoModelForCausalLM.from_pretrained(
+            model_name,
+            torch_dtype=torch.float16,
+            device_map="auto"  # This will use CUDA:1 as specified in your environment
+        )
+        
+        # Create a function that mimics the client interface
+        def llama_client(prompt, max_new_tokens=256, temperature=0.6, do_sample=True, pad_token_id=None):
+            inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+            with torch.no_grad():
+                outputs = model.generate(
+                    inputs.input_ids,
+                    max_new_tokens=max_new_tokens,
+                    temperature=temperature,
+                    do_sample=do_sample,
+                    pad_token_id=pad_token_id or tokenizer.eos_token_id
+                )
+            generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+            return [{"generated_text": generated_text}]
+        
+        return llama_client
+    else:
+        # If you want to support other models like Azure OpenAI, add them here
+        raise ValueError(f"Model {llm_name} not supported in this implementation")
 
 
 def get_llm_output(prompt, llm_client, model_name, system_content="You are a helpful assistant."):
-    # PLEASE FIT THIS FUNCTION TO YOUR OWN LLM CLIENT
-    if model_name.find('llama') != -1:
-        out = llm_client(prompt,
+    """
+    Get output from LLM based on the prompt
+    """
+    if 'llama' in model_name.lower():
+        # For Llama models, we need to format the prompt with the system message
+        formatted_prompt = f"<s>[INST] <<SYS>>\n{system_content}\n<</SYS>>\n\n{prompt} [/INST]"
+        try:
+            out = llm_client(formatted_prompt,
                          max_new_tokens=256,
                          temperature=0.6,
-                         do_sample=True,
-                         pad_token_id=llm_client.tokenizer.eos_token_id)
-        output = out[0]['generated_text'].strip(prompt)
-    else:
-        messages = [{"role": "system", "content": system_content},
-                    {"role": "user", "content": prompt}, ]
-        output = ''
-        for _ in range(8):
-            try:
-                response = llm_client.chat.completions.create(model=model_name,
-                                                              messages=messages,
-                                                              max_tokens=256,
-                                                              n=1,
-                                                              temperature=0.6)
-                output = response.choices[0].message.content
-            except Exception as _:
-                output = ''
-            if output != '':
-                break
-        if output == '':
+                         do_sample=True)
+            output = out[0]['generated_text'].replace(formatted_prompt, "").strip()
+            return output
+        except Exception as e:
+            print(f"Error generating with Llama: {e}")
             global num_error
             num_error += 1
-            print('Error!')
-    return output
+            return ""
+    else:
+        # If you want to support other models, add them here
+        raise ValueError(f"Model {model_name} not supported in this implementation")
 
 
 def get_attributes_prompt(input_context, dataset):
@@ -376,6 +397,45 @@ def baseline_attr_prompt(dataset, num_data=1000, llm_baseline='gpt-35-turbo'):
     return all_ans
 
 
+def get_dprag_context(ori_contexts, dataset, epsilon=1.0, delta=1e-5):
+    """
+    TODO: Implement DP-RAG protection method
+    This function should apply differential privacy to the context
+    
+    :param ori_contexts: Original contexts
+    :param dataset: Dataset name
+    :param epsilon: Privacy budget
+    :param delta: Privacy parameter
+    :return: Contexts with differential privacy applied
+    """
+    print("DP-RAG protection method not implemented yet")
+    # For now, return the original contexts
+    return ori_contexts
+    
+def get_pprag_context(ori_contexts, dataset, attributes_llm='llama-2-7b-chat', synthetic_llm='llama-2-7b-chat', epsilon=1.0, delta=1e-5):
+    """
+    TODO: Implement PP-RAG protection method
+    This function should combine SAGE and DP-RAG
+    
+    :param ori_contexts: Original contexts
+    :param dataset: Dataset name
+    :param attributes_llm: Model for attribute extraction
+    :param synthetic_llm: Model for synthetic data generation
+    :param epsilon: Privacy budget
+    :param delta: Privacy parameter
+    :return: Contexts with both synthetic generation and differential privacy
+    """
+    print("PP-RAG protection method not implemented yet")
+    
+    # First generate synthetic contexts using SAGE
+    attributes_con, synthetic_con = get_synthetic_context(ori_contexts, dataset, attributes_llm, synthetic_llm)
+    
+    # Then apply DP (this is just a placeholder - real implementation would apply DP to the synthetic data)
+    # dp_synthetic_con = get_dprag_context(synthetic_con, dataset, epsilon, delta)
+    
+    return attributes_con, synthetic_con  # Replace with dp_synthetic_con when implemented
+
+
 if __name__ == "__main__":
 
     os.environ['AZURE_OPENAI_API_KEY'] = "YOUR API KEY"
@@ -385,7 +445,9 @@ if __name__ == "__main__":
                                  "agent2",       # Our proposed method, using 2 agents to make the generation less risk
                                  "para",         # paragraph, the baseline for comparison
                                  "ZeroGen",      # the baseline for comparison
-                                 "attrPrompt"    # the baseline for comparison
+                                 "attrPrompt",   # the baseline for comparison
+                                 "dprag",        # DP-RAG protection method
+                                 "pprag"         # PP-RAG protection method
                                  ])
     parser.add_argument('--dataset-name', type=str, default='chatdoctor')
     parser.add_argument('--attack-method', type=str, default='target')
@@ -396,9 +458,11 @@ if __name__ == "__main__":
     # --dataset_name="chatdoctor" --attack_method="untarget"
     # --dataset_name="wiki_pii" --attack_method="target"
     # --dataset_name="wiki_pii" --attack_method="untarget"
-    parser.add_argument('--attributes-llm', type=str, default='gpt-35-turbo', choices=['gpt-4', 'gpt-35-turbo', 'llama-3'],
+    parser.add_argument('--attributes-llm', type=str, default='gpt-35-turbo', 
+                        choices=['gpt-4', 'gpt-35-turbo', 'llama-3', 'llama-2-7b-chat'],
                         help='the llm to generate attributes of context')
-    parser.add_argument('--synthetic-llm', type=str, default='gpt-35-turbo', choices=['gpt-4', 'gpt-35-turbo', 'llama-3'],
+    parser.add_argument('--synthetic-llm', type=str, default='gpt-35-turbo', 
+                        choices=['gpt-4', 'gpt-35-turbo', 'llama-3', 'llama-2-7b-chat'],
                         help='the llm to generate synthetic data by using attributes')
     parser.add_argument('--paraphrase-llm', type=str, default='gpt-35-turbo', choices=['gpt-4', 'gpt-35-turbo'],
                         help='the llm to generate paraphrase data')
@@ -411,7 +475,6 @@ if __name__ == "__main__":
     protect_method = args.protect_method
     dataset_name = args.dataset_name
     attack_method = args.attack_method
-    folder = args.folder
     num_error = 0
     # Getting question and context
     with open(f'contexts/{attack_method}-{dataset_name}-ori-context.json', 'r', encoding='utf-8') as f:
@@ -450,3 +513,11 @@ if __name__ == "__main__":
         baseline_context = baseline_attr_prompt(dataset_name)
         with open(f'contexts/{attack_method}-{dataset_name}-{protect_method}-context.json', 'w', encoding='utf-8') as f:
             f.write(json.dumps(baseline_context))
+    elif protect_method == 'dprag':
+        protected_contexts = get_dprag_context(ori_context, dataset_name)
+        with open(f'contexts/{attack_method}-{dataset_name}-{protect_method}-context.json', 'w', encoding='utf-8') as f:
+            f.write(json.dumps(protected_contexts))
+    elif protect_method == 'pprag':
+        protected_contexts = get_pprag_context(ori_context, dataset_name)
+        with open(f'contexts/{attack_method}-{dataset_name}-{protect_method}-context.json', 'w', encoding='utf-8') as f:
+            f.write(json.dumps(protected_contexts))

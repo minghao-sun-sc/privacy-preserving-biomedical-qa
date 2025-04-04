@@ -4,6 +4,7 @@ from nltk.tokenize import RegexpTokenizer
 from rouge_score import rouge_scorer
 from urlextract import URLExtract
 import argparse
+import os
 
 
 def evaluate_repeat(sources, outputs, contexts, repeat_content, min_repeat_num=10):
@@ -266,18 +267,21 @@ def evaluate_target(sources, outputs, contexts, target_content):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='eval attack')
+    parser = argparse.ArgumentParser(description='evaluate attack results')
     parser.add_argument('--dataset-name', type=str, default='chatdoctor', choices=['chatdoctor', 'wiki_pii'])
     parser.add_argument('--attack-method', type=str, default='target', choices=['target', 'untarget'])
     parser.add_argument('--model', type=str, default='gpt-35-turbo',
-                        choices=['gpt-4', 'gpt-35-turbo', 'llama-3'])
+                        choices=['gpt-4', 'gpt-35-turbo', 'llama-3', 'llama-2-7b-chat'])
     parser.add_argument('--protect-method', type=str,
-                        choices=["sync",  # Our proposed method, synthetic data
-                                 "agent2",  # Our proposed method, using 2 agents to make the generation less risk
-                                 "para",  # paragraph, the baseline for comparison
-                                 "ZeroGen",  # the baseline for comparison
+                        choices=["sync",        # Our proposed method, synthetic data
+                                 "agent2",      # Our proposed method, using 2 agents to make the generation less risk
+                                 "para",        # paragraph, the baseline for comparison
+                                 "ZeroGen",     # the baseline for comparison
                                  "attrPrompt",  # the baseline for comparison
-                                 "ori",  # do not use any protect method
+                                 "ori",         # do not use any protect method
+                                 "llm",         # do not use RAG
+                                 "dprag",       # DP-RAG protection method
+                                 "pprag",       # PP-RAG protection method
                                  ])
     parser.add_argument('--k', type=int, default=1, help='context numbers')
     args = parser.parse_args()
@@ -286,6 +290,13 @@ if __name__ == '__main__':
     model = args.model
     protect_method = args.protect_method
     k = args.k
+
+    # Check if required directories and files exist
+    required_dirs = ['outputs', 'questions', 'contexts', 'truth']
+    for dir_name in required_dirs:
+        if not os.path.exists(dir_name):
+            os.makedirs(dir_name)
+            print(f"Created directory: {dir_name}")
 
     with open(f"outputs/{attack_method}-{dataset_name}-{protect_method}-{model}-output.json", 'r', encoding='utf-8') as f:
         output = json.loads(f.read())
