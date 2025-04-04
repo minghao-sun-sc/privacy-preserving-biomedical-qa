@@ -27,7 +27,7 @@ def get_llm_client(llm_name: str = 'llama-2-7b-chat'):
         )
         
         # Create a function that mimics the client interface
-        def llama_client(prompt, max_new_tokens=256, temperature=0.6, do_sample=True, pad_token_id=None):
+        def llama_client(prompt, max_new_tokens=1024, temperature=0.6, do_sample=True, pad_token_id=None):
             inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
             with torch.no_grad():
                 outputs = model.generate(
@@ -55,10 +55,28 @@ def get_llm_output(prompt, llm_client, model_name, system_content="You are a hel
         formatted_prompt = f"<s>[INST] <<SYS>>\n{system_content}\n<</SYS>>\n\n{prompt} [/INST]"
         try:
             out = llm_client(formatted_prompt,
-                         max_new_tokens=256,
+                         max_new_tokens=1024,  # Increased token limit for longer responses
                          temperature=0.6,
                          do_sample=True)
-            output = out[0]['generated_text'].replace(formatted_prompt, "").strip()
+            
+            # Extract only the model's response, removing all prompt formatting
+            full_output = out[0]['generated_text']
+            
+            # Find where the response starts (after the [/INST] tag)
+            response_start = full_output.find("[/INST]")
+            if response_start != -1:
+                output = full_output[response_start + 7:].strip()  # +7 for the length of "[/INST]"
+                
+                # Further cleanup: remove any remaining system or instruction tags
+                output = output.replace("<s>", "").replace("</s>", "").replace("[INST]", "").replace("[/INST]", "")
+                
+                # Remove any <s> or </s> tags that might be in the output
+                output = re.sub(r'</?s>', '', output)
+            else:
+                # Fallback to the previous method if [/INST] tag not found
+                output = full_output.replace(formatted_prompt, "").strip()
+                output = re.sub(r'</?s>', '', output)
+            
             return output
         except Exception as e:
             print(f"Error generating with Llama: {e}")
@@ -141,21 +159,29 @@ def get_synthetic_prompt(input_attributes, dataset):
     
         {input_attributes}
     
-        Please generate a wiki text using the ALL key points provided. 
-        The conversation should like a real-word wiki text.
+        Please generate a wiki text using ALL the key points provided. 
+        The text should read like a real-world wiki article.
+        Ensure you maintain factual accuracy while removing any personally identifiable information.
         """
     elif dataset.find('chat') != -1:
         prompt = f"""Here is a summary of the key points:
 
         {input_attributes}
 
-        Please generate a SINGLE-ROUND patient-doctor medical dialog using the ALL key points provided. 
-        The conversation should like a real-word medical conversation and contain ONLY ONE question from the patient and ONE response from the doctor. The format should be as follows:
-
-        Patient:[Patient's question contains ALL Patient's key points provided] 
-        Doctor:[Doctor's response contains ALL Doctor's key points provided]
-
-        Do not generate any additional rounds of dialog beyond the single question and response specified above."""
+        Please generate a SINGLE-ROUND patient-doctor medical dialog using ALL the key points provided.
+        The conversation should sound like a natural medical conversation between a patient and doctor.
+        
+        Follow this exact format in your response:
+        
+        Patient: [Patient's question containing ALL the Patient's key points provided]
+        Doctor: [Doctor's response containing ALL the Doctor's key points provided]
+        
+        Important guidelines:
+        1. Do NOT include any personally identifiable information (names, addresses, etc.)
+        2. Do NOT include the original attribute tags or labels in your output
+        3. Do NOT generate any additional rounds of dialog
+        4. Keep the dialog concise and focused on the medical issue
+        """
     else:
         prompt = 'prompt error'
     return prompt
@@ -203,95 +229,69 @@ def get_synthetic_context(ori_contexts, dataset, attributes_llm='gpt-35-turbo', 
 
 
 def get_agent2_context(ori_contexts, sync_contexts):
+    """
+    A simplified version of the agent2 approach that doesn't rely on AutoGen's agents
+    Instead, we implement the agent interaction pattern manually using our existing LLM functions
+    """
+    llm_client = get_llm_client('llama-2-7b-chat')
+    all_agent_contexts = []
+    
+    for i in tqdm(range(len(ori_contexts)), desc="generate agent2 context"):
+        context_batch = []
+        
+        for j in range(len(ori_contexts[i])):
+            # Get the original and synthetic contexts
+            original_context = ori_contexts[i][j]
+            synthetic_context = sync_contexts[i][j]
+            
+            # First agent (privacy evaluator) reviews the synthetic context
+            evaluator_prompt = f"""You are a privacy evaluation agent. Analyze the following synthetic data for privacy issues:
 
-    cathy = ConversableAgent(
-        "cathy",
-        system_message="You are a synthetic data generator and your role is to generate synthetic data based on provided feedback(words after SUGGESTIONS:) and to make sure the synthetic data is of high utility and privacy-preserving, you should put your generated data after the word 'GENERATED DATA:' ",
-        llm_config={
-            "YOU OWN CONFIGURATION HERE": 'xxx'
-        },
-        human_input_mode="NEVER",
-        is_termination_msg=lambda msg: "thisissafe" in msg["content"].lower()
-    )
-    joe = ConversableAgent(
-        "joe",
-        system_message="""You are a privacy evaluation agent and your role is to provide comprehensive feedback on the synthetic data generated by the synthetic data generator. To be specific, you should analyze the synthetic data (the data after the word 'GENERATED DATA:') from the following aspects:
+TRUE DATA: {original_context}
 
-    1. Personally Identifiable Information (PII): Check if the synthetic data contains any PII, such as names, addresses, phone numbers, email addresses, or other information that can directly identify an individual. If found, suggest ways to remove or anonymize such information.
+GENERATED DATA: {synthetic_context}
 
-    2. Sensitive Attributes: Look for any sensitive attributes in the synthetic data, including but not limited to race, ethnicity, religion, political affiliation, sexual orientation, health status, or financial information. If present, provide suggestions on how to handle or obfuscate these attributes to mitigate potential privacy risks.
+Check for:
+1. Personally Identifiable Information (PII)
+2. Sensitive attributes (race, health status, etc.)
+3. Contextual privacy risks
+4. Data linkage vulnerabilities
+5. Semantic inconsistencies
+6. Risks of recovering the original data
 
-    3. Contextual Privacy: Evaluate if the synthetic data, when combined with other publicly available information, could potentially lead to the identification of individuals or reveal sensitive information about them. If such risks are identified, recommend strategies to mitigate these contextual privacy issues.
+Provide detailed SUGGESTIONS for improving privacy while maintaining utility."""
+            
+            evaluation = get_llm_output(evaluator_prompt, llm_client, 'llama-2-7b-chat')
+            
+            # Second agent (generator) improves the synthetic context based on feedback
+            generator_prompt = f"""You are a synthetic data generator. Generate improved synthetic data based on the following privacy evaluation.
 
-    4. Data Linkage: Assess if the synthetic data can be linked with other datasets to infer additional sensitive information about individuals. If linkage risks are found, suggest techniques such as data perturbation or aggregation to reduce these risks.
+ORIGINAL SYNTHETIC DATA: {synthetic_context}
 
-    5. Semantic Consistency: Ensure that the privacy-preserving transformations applied to the synthetic data maintain semantic consistency and do not introduce any unintended biases or inaccuracies. If inconsistencies are detected, provide feedback on how to maintain the balance between privacy protection and data utility.
+PRIVACY EVALUATION: {evaluation}
 
-    6. Original Data Recovery: Analyze the synthetic data to determine if it could potentially allow attackers to recover or reconstruct the original conversation data(word behind TRUE CONVERSATION:). If such vulnerabilities are identified, suggest methods to introduce additional randomness, noise, or perturbations to break direct correspondences between the synthetic data and the original conversation, making recovery attempts more difficult.
+Generate new synthetic data that addresses all privacy concerns while maintaining the essence of the medical information.
+The data should be realistic but not contain any personally identifiable information or allow recovery of the original data.
+Format your response as a patient-doctor conversation."""
+            
+            improved_context = get_llm_output(generator_prompt, llm_client, 'llama-2-7b-chat')
+            
+            # Add final verification step to ensure quality
+            verifier_prompt = f"""Verify that this synthetic medical conversation:
+1. Contains no personally identifiable information
+2. Maintains medical accuracy and utility
+3. Cannot be linked back to original data
 
-    Only if the generated data is completely safe and satisfies all the above privacy requirements and prevents the recovery of the original data, include the word 'THISISSAFE' anywhere in your response to signal the end of the evaluation process. Otherwise, provide detailed suggestions and guidance on how to improve the privacy aspects of the synthetic data(after the word "SUGGESTIONS:") and do not contain the word 'THISISSAFE' in your response.
+If any issues remain, fix them and output the final version.
 
-    If the data is deemed safe, please also extract the safe synthetic data (the text after 'GENERATED CONVERSATION:') and return it in the following format:
-    SAFE_DATA:
-    [BEG]<safe_synthetic_data>[END]THISISSAFE
-
-    Note that your job is only to assess the privacy level of generated data, you can answer either suggestions(SUGGESTIONS) or this data is safe(SAFE_DATA:
-    [BEG]<safe_synthetic_data>[END]THISISSAFE), does not provide irrevenlent answers.
-
-    """,
-        llm_config={
-            "YOU OWN CONFIGURATION HERE": 'xxx'
-        },
-        human_input_mode="NEVER",
-    )
-    joe.reset()
-    cathy.reset()
-
-    safe_count = 0
-    safe_data_list = []
-    unsafe_lst = []
-    num_turns = []
-    for i in tqdm(range(len(ori_contexts))):
-        syn_conversation = sync_contexts[i]
-        true_conversation = ori_contexts[i]
-        safe_data_lst = []
-        for j in range(len(syn_conversation)):
-            syn_con = syn_conversation[j]
-            true_con = true_conversation[j]
-            message = f"Hi Joe, I will give you the real data(TRUE DATA) and synthetic data(GENERATED DATA), please help me assess and provide suggestions from the privacy level of TRUE DATA:{true_con}\n GENERATED DATA:{syn_con}"
-
-            try:
-                result = cathy.initiate_chat(joe, message=message, max_turns=5)
-                safe_data_match = re.search(r'\[BEG\](.*?)\[END\]', result.chat_history[-1]['content'], re.DOTALL)
-                num_turns.append(len(result.chat_history))
-            except:
-                result = 'No'
-                safe_data_match = None
-                num_turns.append(0)
-
-            if safe_data_match:
-                safe_count += 1
-                safe_data = safe_data_match.group(1)
-            else:
-                if result == 'No':
-                    safe_data = syn_con
-                elif len(result.chat_history) >= 2:
-                    safe_data = result.chat_history[-2]['content'][16:]
-                else:
-                    safe_data = syn_con
-                unsafe_lst.append([i, j])
-            safe_data_lst.append(safe_data)
-            joe.reset()
-            cathy.reset()
-        safe_data_list.append(safe_data_lst)
-
-    print(f'Number of safe data:{safe_count}')
-
-    print(unsafe_lst)
-    with open('sync-num.json', 'w') as f:
-        f.write(json.dumps(num_turns))
-    print(sum(num_turns)/len(num_turns))
-    return safe_data_list
+SYNTHETIC DATA: {improved_context}"""
+            
+            final_context = get_llm_output(verifier_prompt, llm_client, 'llama-2-7b-chat')
+            context_batch.append(final_context)
+            
+        all_agent_contexts.append(context_batch)
+    
+    return all_agent_contexts
 
 
 def get_paraphrase_context(ori_contexts, input_question, paraphrase_llm='gpt-35-turbo'):

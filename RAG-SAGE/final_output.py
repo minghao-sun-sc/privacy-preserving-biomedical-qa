@@ -5,6 +5,7 @@ from tqdm import tqdm
 import transformers
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
+import re
 
 
 def get_llm_client(llm_name: str = 'llama-2-7b-chat'):
@@ -22,7 +23,7 @@ def get_llm_client(llm_name: str = 'llama-2-7b-chat'):
         )
         
         # Create a function that mimics the client interface
-        def llama_client(prompt, max_new_tokens=256, temperature=0.6, do_sample=True, pad_token_id=None):
+        def llama_client(prompt, max_new_tokens=1024, temperature=0.6, do_sample=True, pad_token_id=None):
             inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
             with torch.no_grad():
                 outputs = model.generate(
@@ -50,10 +51,28 @@ def get_llm_output(prompt, llm_client, model_name, system_content="You are a hel
         formatted_prompt = f"<s>[INST] <<SYS>>\n{system_content}\n<</SYS>>\n\n{prompt} [/INST]"
         try:
             out = llm_client(formatted_prompt,
-                         max_new_tokens=256,
+                         max_new_tokens=1024,  # Increased token limit for longer responses
                          temperature=0.6,
                          do_sample=True)
-            output = out[0]['generated_text'].replace(formatted_prompt, "").strip()
+            
+            # Extract only the model's response, removing all prompt formatting
+            full_output = out[0]['generated_text']
+            
+            # Find where the response starts (after the [/INST] tag)
+            response_start = full_output.find("[/INST]")
+            if response_start != -1:
+                output = full_output[response_start + 7:].strip()  # +7 for the length of "[/INST]"
+                
+                # Further cleanup: remove any remaining system or instruction tags
+                output = output.replace("<s>", "").replace("</s>", "").replace("[INST]", "").replace("[/INST]", "")
+                
+                # Remove any <s> or </s> tags that might be in the output
+                output = re.sub(r'</?s>', '', output)
+            else:
+                # Fallback to the previous method if [/INST] tag not found
+                output = full_output.replace(formatted_prompt, "").strip()
+                output = re.sub(r'</?s>', '', output)
+            
             return output
         except Exception as e:
             print(f"Error generating with Llama: {e}")

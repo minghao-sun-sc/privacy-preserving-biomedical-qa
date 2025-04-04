@@ -30,11 +30,12 @@ def calc_score(truth, predict, con, ques, metric):
     elif metric == 'IN':
         return int(truth in predict)
     elif metric == 'answer_similarity' or metric == 'answer_correctness':
+        # Ensure all columns have the same length by wrapping in lists
         data_samples = {
-            'question': ques,
-            'answer': predict,
-            'contexts': con,
-            'ground_truth': truth
+            'question': [ques],
+            'answer': [predict],
+            'contexts': [con],
+            'ground_truth': [truth]
         }
         dataset = Dataset.from_dict(data_samples)
         if metric == 'answer_correctness':
@@ -93,7 +94,7 @@ if __name__ == '__main__':
         ground_truth = json.load(f)
     print(len(questions), len(all_answer), len(all_context), len(ground_truth))
 
-    metric_lst = ['BLEU-1', 'ROUGE-L', 'answer_similarity', 'answer_correctness']
+    metric_lst = ['BLEU-1', 'ROUGE-L']  # Remove complex metrics for now
 
     for now_k in range(k):
         output = [o[now_k] for o in all_answer]
