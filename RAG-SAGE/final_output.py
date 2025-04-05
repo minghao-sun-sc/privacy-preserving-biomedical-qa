@@ -23,7 +23,7 @@ def get_llm_client(llm_name: str = 'llama-2-7b-chat'):
         )
         
         # Create a function that mimics the client interface
-        def llama_client(prompt, max_new_tokens=1024, temperature=0.6, do_sample=True, pad_token_id=None):
+        def llama_client(prompt, max_new_tokens=256, temperature=0.6, do_sample=True, pad_token_id=None):
             inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
             with torch.no_grad():
                 outputs = model.generate(
@@ -51,7 +51,7 @@ def get_llm_output(prompt, llm_client, model_name, system_content="You are a hel
         formatted_prompt = f"<s>[INST] <<SYS>>\n{system_content}\n<</SYS>>\n\n{prompt} [/INST]"
         try:
             out = llm_client(formatted_prompt,
-                         max_new_tokens=1024,  # Increased token limit for longer responses
+                         max_new_tokens=512,  # Increased token limit for longer responses
                          temperature=0.6,
                          do_sample=True)
             
