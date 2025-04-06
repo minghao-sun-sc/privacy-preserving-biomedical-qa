@@ -73,6 +73,18 @@ def get_llm_output(prompt, llm_client, model_name, system_content="You are a hel
                 output = full_output.replace(formatted_prompt, "").strip()
                 output = re.sub(r'</?s>', '', output)
             
+            # Remove common prefixes that the model adds
+            common_prefixes = [
+                "Sure, here is a single-round medical dialog between the patient and doctor based on the key points provided:",
+                "Sure, here is a single-round patient-doctor medical dialog using the key points provided:",
+                "Here is a single-round patient-doctor medical dialog:",
+                "Here's the medical dialog based on the provided key points:"
+            ]
+            
+            for prefix in common_prefixes:
+                if output.startswith(prefix):
+                    output = output[len(prefix):].strip()
+            
             return output
         except Exception as e:
             print(f"Error generating with Llama: {e}")
