@@ -1,0 +1,4 @@
+nohup: ignoring input
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.54s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.08it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.02s/it]
+geenrate final out:   0%|          | 0/1000 [00:00<?, ?it/s]The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+geenrate final out:   0%|          | 1/1000 [00:23<6:36:45, 23.83s/it]geenrate final out:   0%|          | 2/1000 [00:45<6:15:57, 22.60s/it]geenrate final out:   0%|          | 3/1000 [01:02<5:35:41, 20.20s/it]
