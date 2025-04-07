@@ -1,0 +1,35 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Sarus DP-RAG
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Nicolas
+    family-names: Grislain
+    email: nicolas.grislain@ens-lyon.org
+    affiliation: Sarus Technologies
+identifiers:
+  - type: url
+    value: 'https://arxiv.org/abs/2412.19291'
+    description: Technical Report
+repository-code: 'https://github.com/sarus-tech/dp-rag'
+abstract: >-
+  Sarus DP-RAG is a simple implementation of the popular RAG
+  technique with differential privacy guarantees.
+
+
+  DP-RAG addresses privacy concerns in RAG systems by using
+  DP to aggregate information from multiple documents,
+  thereby preventing the inadvertent disclosure of sensitive
+  data. The core innovation involves a novel token-by-token
+  aggregation technique and a DP-based document retrieval
+  method.
+keywords:
+  - RAG
+  - Differential Privacy
+  - AI
+license: Apache-2.0
