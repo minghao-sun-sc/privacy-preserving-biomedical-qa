@@ -1,0 +1,20 @@
+nohup: ignoring input
+2025-04-08 16:25:47,856 - INFO - Using context file from: context/chat_1k-context.json
+2025-04-08 16:25:47,885 - WARNING - Requested GPU 1 not available. System has 1 GPUs. Using GPU 0 instead.
+2025-04-08 16:25:47,885 - INFO - Using device: cuda:0 for main model, cuda:0 for synthetic generation
+2025-04-08 16:25:47,885 - INFO - System has 1 GPUs available
+2025-04-08 16:25:47,886 - INFO - GPU 0: NVIDIA RTX 6000 Ada Generation
+2025-04-08 16:25:47,886 - INFO - Loading main model: meta-llama/Llama-2-7b-chat-hf
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.46s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.12it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.02it/s]
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/sage_llama.py:94: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFaceEmbeddings``.
+  return HuggingFaceEmbeddings(
+2025-04-08 16:25:51,011 - INFO - PyTorch version 2.6.0 available.
+2025-04-08 16:25:51,165 - INFO - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-04-08 16:25:54,498 - INFO - Using default tokenizer.
+2025-04-08 16:25:54,498 - INFO - Evaluating SAGE with two-agent approach
+2025-04-08 16:25:54,498 - INFO - Processing 100 questions...
+  0%|          | 0/100 [00:00<?, ?it/s]2025-04-08 16:26:07,110 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 16:26:07,110 - INFO - Extracting attributes from context
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+2025-04-08 16:26:07,483 - INFO - Generating synthetic content from attributes

@@ -88,7 +88,8 @@ def run_experiment(experiment, args):
                 "--dataset_name", args.dataset,
                 "--gpu_id", str(args.gpu_id),
                 "--max_new_tokens", str(args.max_new_tokens),
-                "--k", str(args.k)
+                "--k", str(args.k),
+                "--embedding_model", "BAAI/bge-large-en-v1.5"
             ]
             if args.debug:
                 cmd.append("--debug")
@@ -100,7 +101,9 @@ def run_experiment(experiment, args):
                 "--gpu_id", str(args.gpu_id),
                 "--max_new_tokens", str(args.max_new_tokens),
                 "--k", str(args.k),
-                "--two_agent"
+                "--embedding_model", "BAAI/bge-large-en-v1.5",
+                "--two_agent",
+                "--epsilon", "3.0"  # Increased epsilon for better retrieval quality
             ]
             if args.debug:
                 cmd.append("--debug")

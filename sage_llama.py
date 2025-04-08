@@ -33,7 +33,7 @@ def parse_args():
                         help='Maximum number of tokens to generate')
     parser.add_argument('--retrieval_k', type=int, default=1,
                         help='Number of contexts to retrieve')
-    parser.add_argument('--embedding_model', type=str, default='sentence-transformers/all-MiniLM-L6-v2',
+    parser.add_argument('--embedding_model', type=str, default='BAAI/bge-large-en-v1.5',
                         help='Embedding model for retrieval')
     parser.add_argument('--k', type=int, default=5,
                         help='Number of documents to retrieve in RAG')
@@ -178,58 +178,95 @@ def get_attributes_prompt(input_context):
     {input_context}
 
     Extract the following key attributes:
-    1. Medical symptoms described
-    2. Medical conditions mentioned
-    3. Diagnostic information provided
-    4. Treatment options discussed
-    5. Medical advice given
+    1. Medical symptoms described in detail
+    2. Medical conditions or diagnoses mentioned
+    3. Diagnostic information, lab values, or test results provided
+    4. Treatment options, medications, or interventions discussed
+    5. Medical advice or recommendations given
+    6. Patient medical history elements that are relevant
+    7. Progression of symptoms or disease if mentioned
     
-    DO NOT include any personally identifiable information like names, addresses, specific dates, or unique identifiers.
+    DO NOT include any personally identifiable information like:
+    - Names of patients, doctors, or hospitals
+    - Addresses, locations, or geographic identifiers
+    - Specific dates, ages, or birth information
+    - Phone numbers, email addresses, or any contact information
+    - Unique identifiers or record numbers
+    - Occupation, employer, or workplace details
+    - Family member names or specific relationships
+    
     Format your response as a structured list of the key medical information ONLY.
 
     Key Attributes:
-    - Symptoms: [list the key symptoms mentioned]
-    - Conditions: [list any medical conditions mentioned]
-    - Diagnostics: [list any diagnostic information or test results]
-    - Treatments: [list treatment options discussed]
-    - Advice: [list medical advice provided]
+    - Symptoms: [list the key symptoms mentioned in detail]
+    - Conditions: [list any medical conditions, diagnoses mentioned]
+    - Diagnostics: [list any diagnostic information, test results, values]
+    - Treatments: [list all treatment options, medications, dosages, interventions discussed]
+    - Advice: [list medical advice, recommendations, follow-up instructions provided]
+    - History: [list relevant medical history elements]
+    - Progression: [describe progression of symptoms/condition if mentioned]
     """
     return prompt
 
 def get_synthetic_prompt(input_attributes):
     """Generate a prompt to create synthetic data from attributes"""
     prompt = f"""You are a medical information synthesis system. Using ONLY the key attributes provided below, 
-    generate a synthetic medical document that preserves the medical information while removing any potential 
-    personal identifiers:
+    generate a synthetic medical document that preserves the medical information while completely removing any 
+    potential personal identifiers:
 
     {input_attributes}
 
     Rules for generating the synthetic document:
-    1. Use ONLY the medical information from the attributes above
+    1. Use ONLY the medical information from the attributes above - do not invent additional facts
     2. DO NOT include any personal names - use generic terms like "the patient" instead
-    3. DO NOT reference specific locations, dates, or unique identifiers
-    4. Include only factual medical information without embellishment
-    5. Structure the information in a clear, concise medical reference format
-    6. Focus ONLY on the medical aspects - symptoms, conditions, diagnostics, treatments, and advice
+    3. DO NOT reference specific locations, hospitals, clinics, or medical practices
+    4. DO NOT include specific dates - use relative time frames instead (e.g., "3 weeks ago" not "January 12")
+    5. DO NOT mention ages, but you may use age ranges if medically relevant (e.g., "middle-aged patient")
+    6. Structure the document as a formal medical case description with clear sections
+    7. Include only factual medical information without embellishment
+    8. Focus ONLY on the medical aspects - symptoms, conditions, diagnostics, treatments, and advice
+
+    Your synthetic document should follow this structure:
+    1. Brief overview of the case
+    2. Detailed description of symptoms and presentation
+    3. Diagnostic information and findings
+    4. Treatment approaches and recommendations
+    5. Medical advice and follow-up information
 
     Generate a single, coherent synthetic medical document:
     """
     return prompt
 
-def get_privacy_review_prompt(synthetic_text):
+def get_privacy_review_prompt(original_context, synthetic_text):
     """Generate a prompt for the privacy review agent"""
-    prompt = f"""You are a privacy protection agent for medical data. Review the following synthetic medical document and 
-    ensure it contains NO personally identifiable information (PII):
+    prompt = f"""You are a privacy protection agent for medical data. Compare the original context and the synthetic medical document to ensure the synthetic version:
+    1) Contains NO personally identifiable information (PII)
+    2) Preserves all important medical information from the original
 
+    Original context:
+    {original_context}
+
+    Synthetic document:
     {synthetic_text}
 
-    Your task:
-    1. Identify any potential PII or sensitive information that should be removed
-    2. Remove any names, addresses, specific dates, ages, or other identifiers
-    3. Ensure the document retains all important MEDICAL information
-    4. Rewrite any problematic sentences to preserve privacy while maintaining medical accuracy
+    Your tasks:
+    1. Identify any potential PII or sensitive information in the synthetic document that should be removed
+    2. Identify any important medical information from the original context that is missing in the synthetic document
+    3. Ensure medical accuracy is maintained while protecting privacy
+    4. Rewrite the synthetic document to fix any privacy issues and add any missing medical information
 
-    Return the privacy-protected document with all medical information intact but with NO identifiable information:
+    Follow these strict privacy guidelines:
+    - Remove ALL names (patients, doctors, facilities)
+    - Remove ALL specific locations (cities, hospitals, clinics)
+    - Remove ALL specific dates (use relative timeframes instead)
+    - Remove ALL ages (use age ranges if medically relevant)
+    - Remove ALL contact information and identifiers
+    - Remove ANY information that could potentially identify an individual
+
+    Return an improved version of the synthetic document that:
+    1. Has NO personally identifiable information
+    2. Contains ALL medically relevant information from the original context
+    3. Is structured clearly as a medical case description
     """
     return prompt
 
@@ -414,9 +451,10 @@ def process_context_with_agents(model, tokenizer, context, use_two_agent=False):
         with torch.no_grad():
             outputs = model.generate(
                 inputs.input_ids,
-                max_new_tokens=512,
-                temperature=0.7,
+                max_new_tokens=600,  # Increased from 512 to allow more detailed extraction
+                temperature=0.3,     # Reduced from 0.7 to make extraction more deterministic
                 do_sample=True,
+                top_p=0.95,
                 pad_token_id=tokenizer.eos_token_id
             )
         
@@ -431,9 +469,10 @@ def process_context_with_agents(model, tokenizer, context, use_two_agent=False):
         with torch.no_grad():
             outputs = model.generate(
                 inputs.input_ids,
-                max_new_tokens=512,
-                temperature=0.8,  # Slightly higher temperature for more creative synthetic generation
+                max_new_tokens=600,  # Increased for more detailed synthetic generation
+                temperature=0.6,     # Slightly reduced for more focused generation
                 do_sample=True,
+                top_p=0.95,
                 pad_token_id=tokenizer.eos_token_id
             )
         
@@ -444,15 +483,16 @@ def process_context_with_agents(model, tokenizer, context, use_two_agent=False):
         # Optional Step 3: Privacy review with second agent
         if use_two_agent:
             logger.info("Performing privacy review with second agent")
-            privacy_prompt = get_privacy_review_prompt(synthetic_content)
+            privacy_prompt = get_privacy_review_prompt(context, synthetic_content)
             
             inputs = tokenizer(privacy_prompt, return_tensors="pt").to(model.device)
             with torch.no_grad():
                 outputs = model.generate(
                     inputs.input_ids,
-                    max_new_tokens=512,
-                    temperature=0.6,  # Lower temperature for more conservative privacy decisions
+                    max_new_tokens=700,  # Increased for more thorough privacy review
+                    temperature=0.4,     # Reduced for more conservative privacy decisions
                     do_sample=True,
+                    top_p=0.9,
                     pad_token_id=tokenizer.eos_token_id
                 )
             
