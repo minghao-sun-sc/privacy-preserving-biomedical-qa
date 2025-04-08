@@ -133,4 +133,325 @@ Loading model: meta-llama/Llama-2-7b-chat-hf
 [nltk_data]   Package punkt is already up-to-date!
 Evaluating on 100 test questions...
   0%|          | 0/100 [00:00<?, ?it/s]The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
-  1%|          | 1/100 [00:07<12:30,  7.58s/it]  2%|▏         | 2/100 [00:19<16:14,  9.94s/it]  3%|▎         | 3/100 [00:41<24:54, 15.41s/it]  4%|▍         | 4/100 [00:51<21:37, 13.52s/it]  5%|▌         | 5/100 [01:03<20:12, 12.76s/it]  6%|▌         | 6/100 [01:09<16:31, 10.55s/it]  7%|▋         | 7/100 [01:18<15:49, 10.21s/it]  8%|▊         | 8/100 [01:26<14:27,  9.43s/it]  9%|▉         | 9/100 [01:33<13:18,  8.77s/it] 10%|█         | 10/100 [01:39<11:42,  7.80s/it] 11%|█         | 11/100 [01:44<10:08,  6.84s/it] 12%|█▏        | 12/100 [01:52<10:29,  7.16s/it] 13%|█▎        | 13/100 [02:02<11:56,  8.23s/it] 14%|█▍        | 14/100 [02:10<11:28,  8.01s/it] 15%|█▌        | 15/100 [02:17<10:49,  7.64s/it] 16%|█▌        | 16/100 [02:23<10:07,  7.23s/it] 17%|█▋        | 17/100 [02:29<09:24,  6.81s/it] 18%|█▊        | 18/100 [02:38<10:15,  7.51s/it] 19%|█▉        | 19/100 [02:42<08:52,  6.57s/it] 20%|██        | 20/100 [02:48<08:26,  6.33s/it] 21%|██        | 21/100 [02:59<10:18,  7.83s/it] 22%|██▏       | 22/100 [03:08<10:39,  8.20s/it] 23%|██▎       | 23/100 [03:17<10:36,  8.27s/it] 24%|██▍       | 24/100 [03:28<11:29,  9.08s/it] 25%|██▌       | 25/100 [03:35<10:48,  8.64s/it] 26%|██▌       | 26/100 [03:43<10:06,  8.19s/it] 27%|██▋       | 27/100 [03:54<11:05,  9.12s/it] 28%|██▊       | 28/100 [04:00<09:55,  8.27s/it] 29%|██▉       | 29/100 [04:07<09:22,  7.92s/it] 30%|███       | 30/100 [04:13<08:32,  7.32s/it] 31%|███       | 31/100 [04:23<09:23,  8.17s/it] 32%|███▏      | 32/100 [04:35<10:22,  9.16s/it] 33%|███▎      | 33/100 [04:45<10:31,  9.43s/it] 34%|███▍      | 34/100 [04:50<09:05,  8.27s/it] 35%|███▌      | 35/100 [04:57<08:20,  7.70s/it] 36%|███▌      | 36/100 [05:06<08:34,  8.05s/it] 37%|███▋      | 37/100 [05:14<08:23,  7.98s/it] 38%|███▊      | 38/100 [05:25<09:16,  8.98s/it] 39%|███▉      | 39/100 [05:30<08:01,  7.89s/it] 40%|████      | 40/100 [05:37<07:31,  7.53s/it] 41%|████      | 41/100 [05:47<08:19,  8.47s/it] 42%|████▏     | 42/100 [05:54<07:42,  7.97s/it] 43%|████▎     | 43/100 [05:59<06:42,  7.07s/it] 44%|████▍     | 44/100 [06:11<07:50,  8.40s/it] 45%|████▌     | 45/100 [06:22<08:26,  9.21s/it] 46%|████▌     | 46/100 [06:33<08:52,  9.86s/it] 47%|████▋     | 47/100 [06:43<08:33,  9.69s/it] 48%|████▊     | 48/100 [06:48<07:25,  8.56s/it] 49%|████▉     | 49/100 [07:00<07:56,  9.35s/it]
+  1%|          | 1/100 [00:07<12:30,  7.58s/it]  2%|▏         | 2/100 [00:19<16:14,  9.94s/it]  3%|▎         | 3/100 [00:41<24:54, 15.41s/it]  4%|▍         | 4/100 [00:51<21:37, 13.52s/it]  5%|▌         | 5/100 [01:03<20:12, 12.76s/it]  6%|▌         | 6/100 [01:09<16:31, 10.55s/it]  7%|▋         | 7/100 [01:18<15:49, 10.21s/it]  8%|▊         | 8/100 [01:26<14:27,  9.43s/it]  9%|▉         | 9/100 [01:33<13:18,  8.77s/it] 10%|█         | 10/100 [01:39<11:42,  7.80s/it] 11%|█         | 11/100 [01:44<10:08,  6.84s/it] 12%|█▏        | 12/100 [01:52<10:29,  7.16s/it] 13%|█▎        | 13/100 [02:02<11:56,  8.23s/it] 14%|█▍        | 14/100 [02:10<11:28,  8.01s/it] 15%|█▌        | 15/100 [02:17<10:49,  7.64s/it] 16%|█▌        | 16/100 [02:23<10:07,  7.23s/it] 17%|█▋        | 17/100 [02:29<09:24,  6.81s/it] 18%|█▊        | 18/100 [02:38<10:15,  7.51s/it] 19%|█▉        | 19/100 [02:42<08:52,  6.57s/it] 20%|██        | 20/100 [02:48<08:26,  6.33s/it] 21%|██        | 21/100 [02:59<10:18,  7.83s/it] 22%|██▏       | 22/100 [03:08<10:39,  8.20s/it] 23%|██▎       | 23/100 [03:17<10:36,  8.27s/it] 24%|██▍       | 24/100 [03:28<11:29,  9.08s/it] 25%|██▌       | 25/100 [03:35<10:48,  8.64s/it] 26%|██▌       | 26/100 [03:43<10:06,  8.19s/it] 27%|██▋       | 27/100 [03:54<11:05,  9.12s/it] 28%|██▊       | 28/100 [04:00<09:55,  8.27s/it] 29%|██▉       | 29/100 [04:07<09:22,  7.92s/it] 30%|███       | 30/100 [04:13<08:32,  7.32s/it] 31%|███       | 31/100 [04:23<09:23,  8.17s/it] 32%|███▏      | 32/100 [04:35<10:22,  9.16s/it] 33%|███▎      | 33/100 [04:45<10:31,  9.43s/it] 34%|███▍      | 34/100 [04:50<09:05,  8.27s/it] 35%|███▌      | 35/100 [04:57<08:20,  7.70s/it] 36%|███▌      | 36/100 [05:06<08:34,  8.05s/it] 37%|███▋      | 37/100 [05:14<08:23,  7.98s/it] 38%|███▊      | 38/100 [05:25<09:16,  8.98s/it] 39%|███▉      | 39/100 [05:30<08:01,  7.89s/it] 40%|████      | 40/100 [05:37<07:31,  7.53s/it] 41%|████      | 41/100 [05:47<08:19,  8.47s/it] 42%|████▏     | 42/100 [05:54<07:42,  7.97s/it] 43%|████▎     | 43/100 [05:59<06:42,  7.07s/it] 44%|████▍     | 44/100 [06:11<07:50,  8.40s/it] 45%|████▌     | 45/100 [06:22<08:26,  9.21s/it] 46%|████▌     | 46/100 [06:33<08:52,  9.86s/it] 47%|████▋     | 47/100 [06:43<08:33,  9.69s/it] 48%|████▊     | 48/100 [06:48<07:25,  8.56s/it] 49%|████▉     | 49/100 [07:00<07:56,  9.35s/it] 50%|█████     | 50/100 [07:06<07:08,  8.56s/it] 51%|█████     | 51/100 [07:14<06:50,  8.38s/it] 52%|█████▏    | 52/100 [07:25<07:21,  9.20s/it] 53%|█████▎    | 53/100 [07:37<07:50, 10.00s/it] 54%|█████▍    | 54/100 [07:45<07:04,  9.23s/it] 55%|█████▌    | 55/100 [07:55<07:09,  9.54s/it] 56%|█████▌    | 56/100 [08:01<06:09,  8.41s/it] 57%|█████▋    | 57/100 [08:13<06:45,  9.44s/it] 58%|█████▊    | 58/100 [08:23<06:42,  9.58s/it] 59%|█████▉    | 59/100 [08:34<06:57, 10.18s/it] 60%|██████    | 60/100 [08:45<07:00, 10.52s/it] 61%|██████    | 61/100 [08:55<06:43, 10.35s/it] 62%|██████▏   | 62/100 [09:06<06:34, 10.38s/it] 63%|██████▎   | 63/100 [09:11<05:23,  8.74s/it] 64%|██████▍   | 64/100 [09:20<05:23,  8.98s/it] 65%|██████▌   | 65/100 [09:25<04:27,  7.65s/it] 66%|██████▌   | 66/100 [09:35<04:48,  8.49s/it] 67%|██████▋   | 67/100 [09:44<04:41,  8.52s/it] 68%|██████▊   | 68/100 [09:49<04:00,  7.53s/it] 69%|██████▉   | 69/100 [09:56<03:50,  7.44s/it] 70%|███████   | 70/100 [10:02<03:29,  6.97s/it] 71%|███████   | 71/100 [10:12<03:46,  7.82s/it] 72%|███████▏  | 72/100 [10:22<03:56,  8.44s/it] 73%|███████▎  | 73/100 [10:33<04:12,  9.37s/it] 74%|███████▍  | 74/100 [10:39<03:36,  8.34s/it] 75%|███████▌  | 75/100 [10:49<03:39,  8.78s/it] 76%|███████▌  | 76/100 [10:58<03:32,  8.87s/it] 77%|███████▋  | 77/100 [11:08<03:28,  9.05s/it] 78%|███████▊  | 78/100 [11:17<03:20,  9.13s/it] 79%|███████▉  | 79/100 [11:25<03:07,  8.92s/it] 80%|████████  | 80/100 [11:34<02:56,  8.83s/it] 81%|████████  | 81/100 [11:44<02:56,  9.30s/it] 82%|████████▏ | 82/100 [11:51<02:30,  8.34s/it] 83%|████████▎ | 83/100 [12:02<02:35,  9.13s/it] 84%|████████▍ | 84/100 [12:12<02:33,  9.56s/it] 85%|████████▌ | 85/100 [12:20<02:16,  9.11s/it] 86%|████████▌ | 86/100 [12:27<01:59,  8.51s/it] 87%|████████▋ | 87/100 [12:37<01:55,  8.92s/it] 88%|████████▊ | 88/100 [12:44<01:39,  8.28s/it] 89%|████████▉ | 89/100 [12:56<01:42,  9.30s/it] 90%|█████████ | 90/100 [13:07<01:37,  9.79s/it] 91%|█████████ | 91/100 [13:18<01:31, 10.20s/it] 92%|█████████▏| 92/100 [13:24<01:12,  9.04s/it] 93%|█████████▎| 93/100 [13:32<00:59,  8.57s/it] 94%|█████████▍| 94/100 [13:39<00:48,  8.12s/it] 95%|█████████▌| 95/100 [13:49<00:44,  8.83s/it] 96%|█████████▌| 96/100 [14:00<00:37,  9.47s/it] 97%|█████████▋| 97/100 [14:12<00:30, 10.14s/it] 98%|█████████▊| 98/100 [14:20<00:19,  9.57s/it] 99%|█████████▉| 99/100 [14:29<00:09,  9.38s/it]100%|██████████| 100/100 [14:35<00:00,  8.49s/it]100%|██████████| 100/100 [14:35<00:00,  8.76s/it]
+Evaluation completed. Results saved to outputs/pp_rag
+ROUGE-1: 0.2102
+ROUGE-2: 0.0362
+ROUGE-L: 0.1172
+BLEU-1: 0.1492
+Privacy settings: k-anonymity=3, sanitization=medium
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:13: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:14: LangChainDeprecationWarning: Importing Chroma from langchain.vectorstores is deprecated. Please replace deprecated imports:
+
+>> from langchain.vectorstores import Chroma
+
+with new imports of:
+
+>> from langchain_community.vectorstores import Chroma
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.vectorstores import Chroma
+usage: privacy_attack_500.py [-h] --model_name MODEL_NAME
+                             [--dataset_name DATASET_NAME] [--gpu_id GPU_ID]
+                             [--max_tokens MAX_TOKENS]
+                             [--attack_type {untargeted,targeted,both}]
+                             [--system_type {medical,aggressive}]
+                             [--num_prompts NUM_PROMPTS]
+privacy_attack_500.py: error: argument --system_type: invalid choice: 'baseline' (choose from 'medical', 'aggressive')
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:13: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:14: LangChainDeprecationWarning: Importing Chroma from langchain.vectorstores is deprecated. Please replace deprecated imports:
+
+>> from langchain.vectorstores import Chroma
+
+with new imports of:
+
+>> from langchain_community.vectorstores import Chroma
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.vectorstores import Chroma
+usage: privacy_attack_500.py [-h] --model_name MODEL_NAME
+                             [--dataset_name DATASET_NAME] [--gpu_id GPU_ID]
+                             [--max_tokens MAX_TOKENS]
+                             [--attack_type {untargeted,targeted,both}]
+                             [--system_type {medical,aggressive}]
+                             [--num_prompts NUM_PROMPTS]
+privacy_attack_500.py: error: argument --system_type: invalid choice: 'rag' (choose from 'medical', 'aggressive')
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:13: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:14: LangChainDeprecationWarning: Importing Chroma from langchain.vectorstores is deprecated. Please replace deprecated imports:
+
+>> from langchain.vectorstores import Chroma
+
+with new imports of:
+
+>> from langchain_community.vectorstores import Chroma
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.vectorstores import Chroma
+usage: privacy_attack_500.py [-h] --model_name MODEL_NAME
+                             [--dataset_name DATASET_NAME] [--gpu_id GPU_ID]
+                             [--max_tokens MAX_TOKENS]
+                             [--attack_type {untargeted,targeted,both}]
+                             [--system_type {medical,aggressive}]
+                             [--num_prompts NUM_PROMPTS]
+privacy_attack_500.py: error: argument --system_type: invalid choice: 'sage' (choose from 'medical', 'aggressive')
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:13: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:14: LangChainDeprecationWarning: Importing Chroma from langchain.vectorstores is deprecated. Please replace deprecated imports:
+
+>> from langchain.vectorstores import Chroma
+
+with new imports of:
+
+>> from langchain_community.vectorstores import Chroma
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.vectorstores import Chroma
+usage: privacy_attack_500.py [-h] --model_name MODEL_NAME
+                             [--dataset_name DATASET_NAME] [--gpu_id GPU_ID]
+                             [--max_tokens MAX_TOKENS]
+                             [--attack_type {untargeted,targeted,both}]
+                             [--system_type {medical,aggressive}]
+                             [--num_prompts NUM_PROMPTS]
+privacy_attack_500.py: error: argument --system_type: invalid choice: 'dp_rag' (choose from 'medical', 'aggressive')
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:13: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:14: LangChainDeprecationWarning: Importing Chroma from langchain.vectorstores is deprecated. Please replace deprecated imports:
+
+>> from langchain.vectorstores import Chroma
+
+with new imports of:
+
+>> from langchain_community.vectorstores import Chroma
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.vectorstores import Chroma
+usage: privacy_attack_500.py [-h] --model_name MODEL_NAME
+                             [--dataset_name DATASET_NAME] [--gpu_id GPU_ID]
+                             [--max_tokens MAX_TOKENS]
+                             [--attack_type {untargeted,targeted,both}]
+                             [--system_type {medical,aggressive}]
+                             [--num_prompts NUM_PROMPTS]
+privacy_attack_500.py: error: argument --system_type: invalid choice: 'pp_rag' (choose from 'medical', 'aggressive')
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:13: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:14: LangChainDeprecationWarning: Importing Chroma from langchain.vectorstores is deprecated. Please replace deprecated imports:
+
+>> from langchain.vectorstores import Chroma
+
+with new imports of:
+
+>> from langchain_community.vectorstores import Chroma
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.vectorstores import Chroma
+usage: privacy_attack_500.py [-h] --model_name MODEL_NAME
+                             [--dataset_name DATASET_NAME] [--gpu_id GPU_ID]
+                             [--max_tokens MAX_TOKENS]
+                             [--attack_type {untargeted,targeted,both}]
+                             [--system_type {medical,aggressive}]
+                             [--num_prompts NUM_PROMPTS]
+privacy_attack_500.py: error: argument --system_type: invalid choice: 'baseline' (choose from 'medical', 'aggressive')
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:13: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:14: LangChainDeprecationWarning: Importing Chroma from langchain.vectorstores is deprecated. Please replace deprecated imports:
+
+>> from langchain.vectorstores import Chroma
+
+with new imports of:
+
+>> from langchain_community.vectorstores import Chroma
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.vectorstores import Chroma
+usage: privacy_attack_500.py [-h] --model_name MODEL_NAME
+                             [--dataset_name DATASET_NAME] [--gpu_id GPU_ID]
+                             [--max_tokens MAX_TOKENS]
+                             [--attack_type {untargeted,targeted,both}]
+                             [--system_type {medical,aggressive}]
+                             [--num_prompts NUM_PROMPTS]
+privacy_attack_500.py: error: argument --system_type: invalid choice: 'rag' (choose from 'medical', 'aggressive')
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:13: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:14: LangChainDeprecationWarning: Importing Chroma from langchain.vectorstores is deprecated. Please replace deprecated imports:
+
+>> from langchain.vectorstores import Chroma
+
+with new imports of:
+
+>> from langchain_community.vectorstores import Chroma
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.vectorstores import Chroma
+usage: privacy_attack_500.py [-h] --model_name MODEL_NAME
+                             [--dataset_name DATASET_NAME] [--gpu_id GPU_ID]
+                             [--max_tokens MAX_TOKENS]
+                             [--attack_type {untargeted,targeted,both}]
+                             [--system_type {medical,aggressive}]
+                             [--num_prompts NUM_PROMPTS]
+privacy_attack_500.py: error: argument --system_type: invalid choice: 'sage' (choose from 'medical', 'aggressive')
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:13: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:14: LangChainDeprecationWarning: Importing Chroma from langchain.vectorstores is deprecated. Please replace deprecated imports:
+
+>> from langchain.vectorstores import Chroma
+
+with new imports of:
+
+>> from langchain_community.vectorstores import Chroma
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.vectorstores import Chroma
+usage: privacy_attack_500.py [-h] --model_name MODEL_NAME
+                             [--dataset_name DATASET_NAME] [--gpu_id GPU_ID]
+                             [--max_tokens MAX_TOKENS]
+                             [--attack_type {untargeted,targeted,both}]
+                             [--system_type {medical,aggressive}]
+                             [--num_prompts NUM_PROMPTS]
+privacy_attack_500.py: error: argument --system_type: invalid choice: 'dp_rag' (choose from 'medical', 'aggressive')
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:13: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_500.py:14: LangChainDeprecationWarning: Importing Chroma from langchain.vectorstores is deprecated. Please replace deprecated imports:
+
+>> from langchain.vectorstores import Chroma
+
+with new imports of:
+
+>> from langchain_community.vectorstores import Chroma
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.vectorstores import Chroma
+usage: privacy_attack_500.py [-h] --model_name MODEL_NAME
+                             [--dataset_name DATASET_NAME] [--gpu_id GPU_ID]
+                             [--max_tokens MAX_TOKENS]
+                             [--attack_type {untargeted,targeted,both}]
+                             [--system_type {medical,aggressive}]
+                             [--num_prompts NUM_PROMPTS]
+privacy_attack_500.py: error: argument --system_type: invalid choice: 'pp_rag' (choose from 'medical', 'aggressive')
+Analyzing results for dataset: chat_1k
+
+Utility Performance Metrics:
++--------+----------------------+---------------------+------+----------------------+----------------------+
+|        |       baseline       |         rag         | sage |        dp_rag        |        pp_rag        |
++--------+----------------------+---------------------+------+----------------------+----------------------+
+| rouge1 | 0.17613048632704337  | 0.22539246567369084 | 0.0  | 0.013269587059746275 | 0.21020081594920023  |
+| rouge2 | 0.024838032560643156 | 0.04971227008810827 | 0.0  |         0.0          | 0.036227531346705776 |
+| rougeL | 0.09754890657953447  | 0.13217196146073756 | 0.0  | 0.009150902457997883 | 0.11721324137999861  |
+| bleu_1 | 0.12137448796840815  | 0.1599366903259501  | 0.0  |  0.0131046221841054  | 0.14919177404166042  |
++--------+----------------------+---------------------+------+----------------------+----------------------+
+Warning: Could not find attack summary file at outputs/baseline/privacy_attack/untargeted_attack_summary_500.json
+Warning: Could not find attack summary file at outputs/baseline/privacy_attack/targeted_attack_summary_500.json
+Warning: Could not find attack summary file at outputs/rag/privacy_attack/untargeted_attack_summary_500.json
+Warning: Could not find attack summary file at outputs/rag/privacy_attack/targeted_attack_summary_500.json
+Warning: Could not find attack summary file at outputs/sage/privacy_attack/untargeted_attack_summary_500.json
+Warning: Could not find attack summary file at outputs/sage/privacy_attack/targeted_attack_summary_500.json
+Warning: Could not find attack summary file at outputs/dp_rag/privacy_attack/untargeted_attack_summary_500.json
+Warning: Could not find attack summary file at outputs/dp_rag/privacy_attack/targeted_attack_summary_500.json
+Warning: Could not find attack summary file at outputs/pp_rag/privacy_attack/untargeted_attack_summary_500.json
+Warning: Could not find attack summary file at outputs/pp_rag/privacy_attack/targeted_attack_summary_500.json
+No privacy attack data found.
+
+Privacy-Utility Trade-off:
++----------+--------------------------------+---------------------------+---------------------------+
+|          | Utility (Avg ROUGE-L & BLEU-1) | Privacy Effectiveness (%) | Privacy Vulnerability (%) |
++----------+--------------------------------+---------------------------+---------------------------+
+| baseline |      0.10946169727397131       |            0.0            |           100.0           |
+|   rag    |      0.14605432589334383       |            0.0            |           100.0           |
+|   sage   |              0.0               |            0.0            |           100.0           |
+|  dp_rag  |      0.011127762321051643      |            0.0            |           100.0           |
+|  pp_rag  |      0.13320250771082953       |            0.0            |           100.0           |
++----------+--------------------------------+---------------------------+---------------------------+
+
+Results compiled and saved to outputs/results
+======= Running baseline experiment on chat_1k dataset =======
+======= Running rag experiment on chat_1k dataset =======
+======= Running sage experiment on chat_1k dataset =======
+Error running sage: Command '['python', 'sage_llama.py', '--model_name', 'meta-llama/Llama-2-7b-chat-hf', '--dataset_name', 'chat_1k', '--gpu_id', '0', '--max_new_tokens', '512', '--k', '5']' returned non-zero exit status 1.
+Failed to run sage experiment
+======= Running dp_rag experiment on chat_1k dataset =======
+======= Running pp_rag experiment on chat_1k dataset =======
+======= Running privacy attacks =======
+Running untargeted privacy attack on baseline...
+Error running privacy attack on baseline: Command '['python', 'privacy_attack_500.py', '--model_name', 'meta-llama/Llama-2-7b-chat-hf', '--dataset_name', 'chat_1k', '--gpu_id', '0', '--max_new_tokens', '512', '--attack_type', 'untargeted', '--system_type', 'baseline']' returned non-zero exit status 2.
+Running untargeted privacy attack on rag...
+Error running privacy attack on rag: Command '['python', 'privacy_attack_500.py', '--model_name', 'meta-llama/Llama-2-7b-chat-hf', '--dataset_name', 'chat_1k', '--gpu_id', '0', '--max_new_tokens', '512', '--attack_type', 'untargeted', '--system_type', 'rag']' returned non-zero exit status 2.
+Running untargeted privacy attack on sage...
+Error running privacy attack on sage: Command '['python', 'privacy_attack_500.py', '--model_name', 'meta-llama/Llama-2-7b-chat-hf', '--dataset_name', 'chat_1k', '--gpu_id', '0', '--max_new_tokens', '512', '--attack_type', 'untargeted', '--system_type', 'sage']' returned non-zero exit status 2.
+Running untargeted privacy attack on dp_rag...
+Error running privacy attack on dp_rag: Command '['python', 'privacy_attack_500.py', '--model_name', 'meta-llama/Llama-2-7b-chat-hf', '--dataset_name', 'chat_1k', '--gpu_id', '0', '--max_new_tokens', '512', '--attack_type', 'untargeted', '--system_type', 'dp_rag']' returned non-zero exit status 2.
+Running untargeted privacy attack on pp_rag...
+Error running privacy attack on pp_rag: Command '['python', 'privacy_attack_500.py', '--model_name', 'meta-llama/Llama-2-7b-chat-hf', '--dataset_name', 'chat_1k', '--gpu_id', '0', '--max_new_tokens', '512', '--attack_type', 'untargeted', '--system_type', 'pp_rag']' returned non-zero exit status 2.
+Running targeted privacy attack on baseline...
+Error running privacy attack on baseline: Command '['python', 'privacy_attack_500.py', '--model_name', 'meta-llama/Llama-2-7b-chat-hf', '--dataset_name', 'chat_1k', '--gpu_id', '0', '--max_new_tokens', '512', '--attack_type', 'targeted', '--system_type', 'baseline']' returned non-zero exit status 2.
+Running targeted privacy attack on rag...
+Error running privacy attack on rag: Command '['python', 'privacy_attack_500.py', '--model_name', 'meta-llama/Llama-2-7b-chat-hf', '--dataset_name', 'chat_1k', '--gpu_id', '0', '--max_new_tokens', '512', '--attack_type', 'targeted', '--system_type', 'rag']' returned non-zero exit status 2.
+Running targeted privacy attack on sage...
+Error running privacy attack on sage: Command '['python', 'privacy_attack_500.py', '--model_name', 'meta-llama/Llama-2-7b-chat-hf', '--dataset_name', 'chat_1k', '--gpu_id', '0', '--max_new_tokens', '512', '--attack_type', 'targeted', '--system_type', 'sage']' returned non-zero exit status 2.
+Running targeted privacy attack on dp_rag...
+Error running privacy attack on dp_rag: Command '['python', 'privacy_attack_500.py', '--model_name', 'meta-llama/Llama-2-7b-chat-hf', '--dataset_name', 'chat_1k', '--gpu_id', '0', '--max_new_tokens', '512', '--attack_type', 'targeted', '--system_type', 'dp_rag']' returned non-zero exit status 2.
+Running targeted privacy attack on pp_rag...
+Error running privacy attack on pp_rag: Command '['python', 'privacy_attack_500.py', '--model_name', 'meta-llama/Llama-2-7b-chat-hf', '--dataset_name', 'chat_1k', '--gpu_id', '0', '--max_new_tokens', '512', '--attack_type', 'targeted', '--system_type', 'pp_rag']' returned non-zero exit status 2.
+======= Compiling results =======
+Some experiments failed. Check the logs for details.

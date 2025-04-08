@@ -12,4 +12,413 @@ Loading model: meta-llama/Llama-2-7b-chat-hf
 Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.39s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.17it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.07it/s]
 Evaluating on 100 test questions...
   0%|          | 0/100 [00:00<?, ?it/s]The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
-  1%|          | 1/100 [00:21<35:07, 21.29s/it]  2%|▏         | 2/100 [00:40<32:55, 20.16s/it]  3%|▎         | 3/100 [00:56<29:19, 18.13s/it]  4%|▍         | 4/100 [01:15<29:22, 18.36s/it]  5%|▌         | 5/100 [01:41<33:40, 21.27s/it]  6%|▌         | 6/100 [02:02<33:15, 21.23s/it]  7%|▋         | 7/100 [02:25<33:31, 21.63s/it]  8%|▊         | 8/100 [02:39<29:31, 19.25s/it]  9%|▉         | 9/100 [03:04<32:07, 21.18s/it] 10%|█         | 10/100 [03:22<30:05, 20.06s/it]
+  1%|          | 1/100 [00:21<35:07, 21.29s/it]  2%|▏         | 2/100 [00:40<32:55, 20.16s/it]  3%|▎         | 3/100 [00:56<29:19, 18.13s/it]  4%|▍         | 4/100 [01:15<29:22, 18.36s/it]  5%|▌         | 5/100 [01:41<33:40, 21.27s/it]  6%|▌         | 6/100 [02:02<33:15, 21.23s/it]  7%|▋         | 7/100 [02:25<33:31, 21.63s/it]  8%|▊         | 8/100 [02:39<29:31, 19.25s/it]  9%|▉         | 9/100 [03:04<32:07, 21.18s/it] 10%|█         | 10/100 [03:22<30:05, 20.06s/it] 11%|█         | 11/100 [03:39<28:40, 19.34s/it] 12%|█▏        | 12/100 [03:56<27:15, 18.58s/it] 13%|█▎        | 13/100 [04:15<27:05, 18.68s/it] 14%|█▍        | 14/100 [04:31<25:20, 17.68s/it] 15%|█▌        | 15/100 [04:46<23:59, 16.94s/it] 16%|█▌        | 16/100 [05:00<22:40, 16.19s/it] 17%|█▋        | 17/100 [05:15<21:41, 15.68s/it] 18%|█▊        | 18/100 [05:33<22:17, 16.31s/it] 19%|█▉        | 19/100 [05:47<21:21, 15.82s/it] 20%|██        | 20/100 [06:05<21:57, 16.47s/it] 21%|██        | 21/100 [06:26<23:12, 17.63s/it] 22%|██▏       | 22/100 [06:42<22:32, 17.34s/it] 23%|██▎       | 23/100 [06:59<22:12, 17.31s/it] 24%|██▍       | 24/100 [07:19<22:41, 17.91s/it] 25%|██▌       | 25/100 [07:35<21:53, 17.51s/it] 26%|██▌       | 26/100 [07:57<23:03, 18.70s/it] 27%|██▋       | 27/100 [08:16<22:55, 18.84s/it]Error processing question 0: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...an assist you further.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 1: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...ou a very good health.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 2: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...s Jay In Chat Doctor. '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 3: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...on to remove the cyst.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 4: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...n assist you further. '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 5: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...f you have any doubts."), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 6: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc..., I suggest advice. An'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 7: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc..., happy to help again.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 8: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...mentioned link:bit.ly/'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 9: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...or. Hope I helped you.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 10: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc... health. Chat Doctor. "), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 11: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...fe  ChatDoctor. Thanks'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 12: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...lp to control dysuria.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 13: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc... sometimes. Take care!'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 14: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...the future. Good luck.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 15: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...ate treatment, thanks.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 16: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...n assist you further. '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 17: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...care.... Chat Doctor. '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 18: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc... back from you. Thanks'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 19: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...f you find it infected'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 20: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...the best Chat Doctor. "), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 21: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...Hope it will help you.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 22: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc... has helped Good luck.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 23: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...want to try other non '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 24: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...has Obstructed Hernia.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 25: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...ou further. Take care "), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 26: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...antac after each meal."), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+ 28%|██▊       | 28/100 [08:39<24:06, 20.10s/it] 29%|██▉       | 29/100 [08:54<21:53, 18.50s/it] 30%|███       | 30/100 [09:12<21:37, 18.54s/it] 31%|███       | 31/100 [09:28<20:27, 17.79s/it] 32%|███▏      | 32/100 [09:47<20:29, 18.08s/it] 33%|███▎      | 33/100 [10:01<18:41, 16.75s/it] 34%|███▍      | 34/100 [10:15<17:26, 15.85s/it] 35%|███▌      | 35/100 [10:35<18:37, 17.19s/it] 36%|███▌      | 36/100 [10:54<18:48, 17.63s/it] 37%|███▋      | 37/100 [11:13<18:57, 18.05s/it] 38%|███▊      | 38/100 [11:36<20:24, 19.75s/it] 39%|███▉      | 39/100 [11:52<18:56, 18.63s/it] 40%|████      | 40/100 [12:15<19:59, 19.99s/it] 41%|████      | 41/100 [12:31<18:20, 18.65s/it] 42%|████▏     | 42/100 [12:47<17:16, 17.87s/it] 43%|████▎     | 43/100 [13:08<17:48, 18.75s/it] 44%|████▍     | 44/100 [13:27<17:39, 18.91s/it] 45%|████▌     | 45/100 [13:46<17:20, 18.92s/it] 46%|████▌     | 46/100 [14:08<17:42, 19.68s/it] 47%|████▋     | 47/100 [14:30<18:10, 20.57s/it] 48%|████▊     | 48/100 [14:50<17:32, 20.25s/it] 49%|████▉     | 49/100 [15:18<19:13, 22.61s/it] 50%|█████     | 50/100 [15:41<19:05, 22.92s/it] 51%|█████     | 51/100 [16:01<17:47, 21.80s/it] 52%|█████▏    | 52/100 [16:22<17:19, 21.66s/it] 53%|█████▎    | 53/100 [16:51<18:41, 23.87s/it] 54%|█████▍    | 54/100 [17:03<15:30, 20.22s/it]Error processing question 27: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...rofessor of Pediatrics'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 28: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...ld such as confusion, '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 29: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...rRegards Chat Doctor. '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 30: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...work up and management"), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 31: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...e this helps Good luck'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 32: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...ake care Chat Doctor. '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 33: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...emoptysis. Ok and bye.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 34: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...tor. Ok and take care.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 35: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc... acid effect of bleach'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 36: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...of pregnancy.  Thanks.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 37: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...es other Chat Doctor. '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 38: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...elpful! Kind regards, '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 39: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...ou a very good health.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 40: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...l help you, take care.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 41: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...you for writing to us.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 42: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...lps you have nice day.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 43: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...e form of iron syrups.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 44: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...g make up may be tried'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 45: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...ake Care Chat Doctor. '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 46: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...ed of any prolong rest'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 47: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...agnosis. Chat Doctor. '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 48: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc..., happy to help again."), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 49: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...his helps you. Regards"), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 50: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...rual syn Chat Doctor. '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 51: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...an assist you further.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 52: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc... child in special need'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 53: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...ective for you. Thanks'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+ 55%|█████▌    | 55/100 [17:24<15:26, 20.58s/it] 56%|█████▌    | 56/100 [17:42<14:24, 19.65s/it] 57%|█████▋    | 57/100 [18:02<14:19, 19.98s/it] 58%|█████▊    | 58/100 [18:24<14:15, 20.37s/it] 59%|█████▉    | 59/100 [18:43<13:47, 20.18s/it] 60%|██████    | 60/100 [18:59<12:33, 18.84s/it] 61%|██████    | 61/100 [19:17<11:59, 18.46s/it] 62%|██████▏   | 62/100 [19:33<11:12, 17.69s/it] 63%|██████▎   | 63/100 [20:01<12:53, 20.91s/it] 64%|██████▍   | 64/100 [20:25<13:11, 21.97s/it] 65%|██████▌   | 65/100 [20:41<11:43, 20.11s/it] 66%|██████▌   | 66/100 [21:03<11:46, 20.77s/it] 67%|██████▋   | 67/100 [21:20<10:41, 19.45s/it] 68%|██████▊   | 68/100 [21:46<11:23, 21.35s/it] 69%|██████▉   | 69/100 [22:04<10:30, 20.33s/it] 70%|███████   | 70/100 [22:20<09:36, 19.21s/it] 71%|███████   | 71/100 [22:41<09:33, 19.77s/it] 72%|███████▏  | 72/100 [22:59<08:56, 19.17s/it] 73%|███████▎  | 73/100 [23:18<08:37, 19.18s/it] 74%|███████▍  | 74/100 [23:35<08:00, 18.48s/it] 75%|███████▌  | 75/100 [23:51<07:25, 17.80s/it] 76%|███████▌  | 76/100 [24:11<07:22, 18.46s/it] 77%|███████▋  | 77/100 [24:31<07:12, 18.82s/it] 78%|███████▊  | 78/100 [24:43<06:12, 16.92s/it] 79%|███████▉  | 79/100 [25:01<06:01, 17.21s/it] 80%|████████  | 80/100 [25:19<05:49, 17.48s/it] 81%|████████  | 81/100 [25:41<05:55, 18.71s/it]Error processing question 54: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc... to have been of help.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 55: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...om such things. Thanks'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 56: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...t wishes Chat Doctor. '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 57: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...etite(hunger)take care'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 58: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...lps you have nice day.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 59: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...y New Year. Take care.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 60: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc... diagnosis. Take care."), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 61: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...n assist you further. '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 62: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...lright.  Chat Doctor. '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 63: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...ase. I hope this helps'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 64: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...for a MRI knee. Thanks'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 65: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...u, have a nice day.!!!"), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 66: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...an assist you further.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 67: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...rect premium question.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 68: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...nearest pulmonologist."), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 69: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc... a ct neck in addition"), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 70: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...and have a lovely day!'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 71: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...ort. I hope this helps'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 72: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...egards.  Chat Doctor. '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 73: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...n assist you further. '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 74: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...elations. Best wishes."), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 75: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...heer up have good day.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 76: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...free to ask. Take care'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 77: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...al swelling then this '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 78: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...tant Visit ENT Doctor.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 79: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...ifications. Good luck.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 80: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...treated conservatively'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+ 82%|████████▏ | 82/100 [25:59<05:31, 18.43s/it] 83%|████████▎ | 83/100 [26:14<04:58, 17.56s/it] 84%|████████▍ | 84/100 [26:36<04:58, 18.65s/it] 85%|████████▌ | 85/100 [26:54<04:38, 18.58s/it] 86%|████████▌ | 86/100 [27:09<04:05, 17.54s/it] 87%|████████▋ | 87/100 [27:23<03:33, 16.46s/it] 88%|████████▊ | 88/100 [27:43<03:30, 17.55s/it] 89%|████████▉ | 89/100 [28:06<03:29, 19.05s/it] 90%|█████████ | 90/100 [28:22<03:02, 18.24s/it] 91%|█████████ | 91/100 [28:41<02:46, 18.55s/it] 92%|█████████▏| 92/100 [28:56<02:19, 17.40s/it] 93%|█████████▎| 93/100 [29:17<02:08, 18.38s/it] 94%|█████████▍| 94/100 [29:45<02:08, 21.36s/it] 95%|█████████▌| 95/100 [30:11<01:53, 22.74s/it] 96%|█████████▌| 96/100 [30:35<01:32, 23.22s/it] 97%|█████████▋| 97/100 [30:56<01:07, 22.34s/it] 98%|█████████▊| 98/100 [31:14<00:42, 21.15s/it] 99%|█████████▉| 99/100 [31:33<00:20, 20.46s/it]100%|██████████| 100/100 [31:46<00:00, 18.17s/it]100%|██████████| 100/100 [31:46<00:00, 19.06s/it]
+Error processing question 81: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...ntravenous. Thank you,'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 82: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...Hope I could help you."), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 83: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc... failed for this cycle'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 84: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...ll help you. Take care'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 85: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...e this helps. Regards.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 86: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...t regards, Lucius, MD."), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 87: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...elpful! Kind regards, '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 88: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...ou further. Take care '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 89: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...father, have nice day.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 90: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...ake Care Chat Doctor. '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 91: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...ifications. Good luck.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 92: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...n assist you further. '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 93: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...l help you. Take care.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 94: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...I answer your question'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 95: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...en vegetables and bran'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 96: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...Doctor. Com09895313720"), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 97: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc... assist you further.  '), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 98: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc... contact me at bit.ly/'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Error processing question 99: 1 validation error for Document
+page_content
+  Input should be a valid string [type=string_type, input_value=Document(metadata={'sourc...an assist you further.'), input_type=Document]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Evaluation completed. Results saved to outputs/sage
+ROUGE-1: 0.0000
+ROUGE-2: 0.0000
+ROUGE-L: 0.0000
+BLEU-1: 0.0000
+Privacy budget (epsilon): 2.0
+Sensitivity: 1.0
+======= Running sage experiment on chat_1k dataset =======
+All experiments completed successfully!

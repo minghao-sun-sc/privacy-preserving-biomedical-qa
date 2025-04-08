@@ -6,14 +6,17 @@ import argparse
 import numpy as np
 from tqdm import tqdm
 import math
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer, LogitsProcessor, LogitsProcessorList
 from rouge_score import rouge_scorer
 import nltk
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from nltk.tokenize import word_tokenize
 from langchain.embeddings import HuggingFaceEmbeddings
-# from langchain_huggingface import HuggingFaceEmbeddings
-from langchain.docstore.document import Document
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 def parse_args():
     parser = argparse.ArgumentParser(description='DP-RAG with LLaMA-2 evaluation')
@@ -27,253 +30,506 @@ def parse_args():
                         help='Maximum number of tokens to generate')
     parser.add_argument('--k', type=int, default=5,
                         help='Number of documents to retrieve in RAG')
-    parser.add_argument('--epsilon', type=float, default=0.5,
-                        help='Privacy budget for DP-RAG')
+    parser.add_argument('--epsilon', type=float, default=1.0,
+                        help='Total privacy budget for DP-RAG')
     parser.add_argument('--epsilon_retrieval', type=float, default=0.3,
                         help='Privacy budget for retrieval (must be <= epsilon)')
     parser.add_argument('--delta', type=float, default=1e-5,
                         help='Delta parameter for DP-RAG')
     parser.add_argument('--temperature', type=float, default=0.7,
                         help='Temperature for text generation')
+    parser.add_argument('--top_p', type=float, default=0.05,
+                        help='Probability threshold for retrieval')
+    parser.add_argument('--alpha', type=float, default=0.1,
+                        help='Alpha parameter for DP scoring (higher = more aggressive clipping)')
+    parser.add_argument('--omega', type=float, default=0.2,
+                        help='Weight for public scores (higher = less private but better quality)')
+    parser.add_argument('--differential_privacy', type=bool, default=True,
+                        help='Whether to use differential privacy')
+    parser.add_argument('--debug', action='store_true',
+                        help='Enable debug logging')
     return parser.parse_args()
 
-class DPRAGConfig:
-    """Configuration for DP-RAG"""
+class PUPVectorStoreConfig:
+    """Configuration for PUP vector store"""
     
     def __init__(
         self,
-        epsilon=0.5,
-        epsilon_retrieval=0.3,
-        delta=1e-5,
-        top_k=5,
         embedding_model_name="sentence-transformers/all-MiniLM-L6-v2",
-        generation_temperature=0.7,
-        max_new_tokens=512,
+        top_k=None,
+        top_p=0.05,
+        top_p_alpha=3.0,  # Reduced from 5.0 to select more documents
+        min_score=-0.3,  # Changed from -0.5 to include more relevant documents
+        max_score=0.8,
+        epsilon=0.3,
+        max_retrieve=30,  # Increased from 128 to get enough documents
+        differential_privacy=True
     ):
-        """
-        Initialize DP-RAG configuration
-        
-        Args:
-            epsilon: Total privacy budget for DP-RAG
-            epsilon_retrieval: Privacy budget for retrieval (must be <= epsilon)
-            delta: Delta parameter for DP
-            top_k: Number of documents to retrieve
-            embedding_model_name: Model to use for embeddings
-            generation_temperature: Temperature for text generation
-            max_new_tokens: Maximum number of tokens to generate
-        """
-        assert epsilon_retrieval <= epsilon, "Retrieval privacy budget must be <= total privacy budget"
-        
-        self.epsilon = epsilon
-        self.epsilon_retrieval = epsilon_retrieval
-        self.epsilon_generation = epsilon - epsilon_retrieval
-        self.delta = delta
-        self.top_k = top_k
+        """Initialize PUP vector store configuration"""
         self.embedding_model_name = embedding_model_name
-        self.generation_temperature = generation_temperature
-        self.max_new_tokens = max_new_tokens
+        self.top_k = top_k
+        self.top_p = top_p
+        self.top_p_alpha = top_p_alpha
+        self.min_score = min_score
+        self.max_score = max_score
+        self.epsilon = epsilon
+        self.max_retrieve = max_retrieve
+        self.differential_privacy = differential_privacy
 
-class DPRetriever:
-    """Differentially private document retriever"""
+class DPGenerationConfig:
+    """Configuration for DP generation"""
+    
+    def __init__(
+        self,
+        max_new_tokens=512,
+        temperature=0.7,
+        alpha=0.1,  # Increased from 0.01 to allow more aggressive clipping
+        omega=0.2,  # Increased from 0.1 to put more weight on prior prompt
+        epsilon=0.7,
+        delta=1e-5,
+        differential_privacy=True,
+    ):
+        """Initialize DP generation configuration"""
+        self.max_new_tokens = max_new_tokens
+        self.temperature = temperature
+        self.alpha = alpha
+        self.omega = omega
+        self.epsilon = epsilon
+        self.delta = delta
+        self.differential_privacy = differential_privacy
+        
+    def token_epsilon(self):
+        """Calculate privacy budget per token using naive composition"""
+        # Using a more practical allocation to ensure usable outputs
+        token_eps = self.epsilon / (self.max_new_tokens * 0.1)  # Only using 10% of tokens usually
+        return token_eps
+
+class PUPVectorStore:
+    """Privacy-Utility Profile Vector Store"""
     
     def __init__(self, config):
-        """
-        Initialize DP retriever
-        
-        Args:
-            config: DPRAGConfig instance
-        """
+        """Initialize PUP vector store"""
         self.config = config
         self.documents = []
-        self.embeddings = None
-        self.embedding_model = HuggingFaceEmbeddings(model_name=config.embedding_model_name)
-    
-    def add_documents(self, documents):
-        """
-        Add documents to the retriever
+        self.index = {}
+        self._embeddings = None
         
-        Args:
-            documents: List of documents to add
-        """
-        self.documents = [Document(page_content=doc, metadata={"id": i}) for i, doc in enumerate(documents)]
-        # Compute document embeddings
-        self.embeddings = np.array([
-            self.embedding_model.embed_query(doc.page_content) 
-            for doc in self.documents
-        ])
+        # Initialize embedding model
+        self.embedding_model = HuggingFaceEmbeddings(
+            model_name=config.embedding_model_name
+        )
+    
+    def add_document(self, doc):
+        """Add a document to the vector store"""
+        if not isinstance(doc, str):
+            logger.warning(f"Skipping document of type {type(doc)}, expected string")
+            return
+            
+        # Only add if not already in the index
+        if doc not in self.index:
+            self.documents.append(doc)
+            self.index[doc] = len(self.documents) - 1
+            # Clear cached embeddings
+            self._embeddings = None
+    
+    def embeddings(self):
+        """Get document embeddings"""
+        if self._embeddings is not None:
+            return self._embeddings
+        
+        if not self.documents:
+            logger.warning("No documents in the vector store")
+            return np.array([])
+            
+        logger.info(f"Computing embeddings for {len(self.documents)} documents")
+        try:
+            self._embeddings = np.array([
+                self.embedding_model.embed_query(doc) 
+                for doc in self.documents
+            ])
+            logger.info(f"Embeddings shape: {self._embeddings.shape}")
+            return self._embeddings
+        except Exception as e:
+            logger.error(f"Error computing embeddings: {e}")
+            return np.array([])
+    
+    def _exp_mechanism_top_k_threshold(self, scores):
+        """Apply exponential mechanism to select top-k threshold"""
+        # Sort scores
+        sorted_scores = np.sort(scores)
+        sorted_scores = np.insert(sorted_scores, 0, -1)
+        sorted_scores = np.append(sorted_scores, 1)
+        sorted_scores = np.clip(sorted_scores, self.config.min_score, self.config.max_score)
+        
+        # Calculate utility for each threshold
+        sorted_utilities = -np.abs(len(sorted_scores) - self.config.top_k - np.arange(len(sorted_scores)))
+        
+        # Calculate probabilities for exponential mechanism
+        delta_sorted_scores = np.diff(sorted_scores)
+        score_threshold_pdf = np.exp(self.config.epsilon * sorted_utilities[:-1] / 2) * delta_sorted_scores
+        score_threshold_pdf /= np.sum(score_threshold_pdf)
+        
+        # Sample threshold
+        score_threshold = np.random.choice(sorted_scores[:-1], p=score_threshold_pdf)
+        logger.debug(f"Top-k threshold: {score_threshold}")
+        return score_threshold
+    
+    def _exp_mechanism_top_p_threshold(self, scores):
+        """Apply exponential mechanism to select top-p threshold"""
+        # Sort scores
+        sorted_scores = np.sort(scores)
+        sorted_scores = np.insert(sorted_scores, 0, self.config.min_score)
+        sorted_scores = np.append(sorted_scores, self.config.max_score)
+        sorted_scores = np.clip(sorted_scores, self.config.min_score, self.config.max_score)
+        
+        # Calculate probabilities based on score distribution
+        sorted_score_probs = np.exp(self.config.top_p_alpha * (sorted_scores - self.config.max_score) / 
+                                   (self.config.max_score - self.config.min_score))
+        
+        # Calculate utility for each threshold
+        sorted_utilities = -np.abs(np.sum(sorted_score_probs) * (1 - self.config.top_p) - np.cumsum(sorted_score_probs))
+        
+        # Calculate probabilities for exponential mechanism
+        delta_sorted_scores = np.diff(sorted_scores)
+        score_threshold_pdf = np.exp(self.config.epsilon * sorted_utilities[:-1] / 2) * delta_sorted_scores
+        score_threshold_pdf /= np.sum(score_threshold_pdf)
+        
+        # Sample threshold
+        score_threshold = np.random.choice(sorted_scores[:-1], p=score_threshold_pdf)
+        logger.debug(f"Top-p threshold: {score_threshold}")
+        return score_threshold
+    
+    def _non_dp_top_k_threshold(self, scores):
+        """Select top-k threshold without differential privacy"""
+        sorted_scores = np.sort(scores)
+        if len(sorted_scores) <= self.config.top_k:
+            return sorted_scores[0] - 0.01  # Return a threshold lower than the lowest score
+        
+        # Return the threshold that would give exactly top_k documents
+        return sorted_scores[-(self.config.top_k+1)]
+    
+    def _non_dp_top_p_threshold(self, scores):
+        """Select top-p threshold without differential privacy"""
+        sorted_scores = np.sort(scores)
+        min_score = np.min(sorted_scores)
+        max_score = np.max(sorted_scores)
+        
+        # Normalize scores
+        normalized_scores = (sorted_scores - min_score) / (max_score - min_score + 1e-10)
+        
+        # Sort normalized scores from highest to lowest
+        normalized_scores = np.sort(normalized_scores)[::-1]
+        
+        # Find cutoff where cumulative sum exceeds top_p
+        cumsum = np.cumsum(normalized_scores)
+        cutoff_idx = np.argmax(cumsum >= self.config.top_p)
+        
+        # Get the corresponding threshold
+        if cutoff_idx < len(sorted_scores):
+            return sorted_scores[-cutoff_idx-1]
+        else:
+            return min_score  # Return minimum score if all documents should be included
     
     def retrieve(self, query):
-        """
-        Retrieve documents for a query with differential privacy
+        """Retrieve documents for a query"""
+        if not self.documents:
+            logger.warning("No documents in vector store")
+            return []
         
-        Args:
-            query: Query string
-            
-        Returns:
-            List of retrieved documents
-        """
-        if not self.documents or self.embeddings is None:
+        embeddings = self.embeddings()
+        if len(embeddings) == 0:
+            logger.warning("No embeddings available")
             return []
         
         # Embed the query
-        query_embedding = self.embedding_model.embed_query(query)
+        try:
+            query_embedding = self.embedding_model.embed_query(query)
+        except Exception as e:
+            logger.error(f"Error embedding query: {e}")
+            return []
         
         # Compute similarity scores
+        query_embedding_norm = np.linalg.norm(query_embedding)
         scores = np.array([
-            np.dot(query_embedding, doc_embedding) / (np.linalg.norm(query_embedding) * np.linalg.norm(doc_embedding))
-            for doc_embedding in self.embeddings
+            np.dot(query_embedding, doc_embedding) / 
+            (query_embedding_norm * np.linalg.norm(doc_embedding) + 1e-10)
+            for doc_embedding in embeddings
         ])
         
-        # Apply exponential mechanism for DP top-k
-        dp_indices = self._dp_top_k(scores, self.config.top_k, self.config.epsilon_retrieval)
+        logger.info(f"Similarity scores range: min={np.min(scores):.4f}, max={np.max(scores):.4f}, mean={np.mean(scores):.4f}")
         
-        # Return the selected documents
-        return [self.documents[i] for i in dp_indices]
-    
-    def _dp_top_k(self, scores, k, epsilon):
-        """
-        Apply exponential mechanism to select top-k documents
+        # Sample a threshold using the appropriate mechanism
+        if self.config.differential_privacy:
+            if self.config.top_p is not None:
+                score_threshold = self._exp_mechanism_top_p_threshold(scores)
+            elif self.config.top_k is not None:
+                score_threshold = self._exp_mechanism_top_k_threshold(scores)
+            else:
+                raise ValueError("You should set either top_k or top_p in PUPVectorStoreConfig")
+        else:
+            if self.config.top_p is not None:
+                score_threshold = self._non_dp_top_p_threshold(scores)
+            elif self.config.top_k is not None:
+                score_threshold = self._non_dp_top_k_threshold(scores)
+            else:
+                raise ValueError("You should set either top_k or top_p in PUPVectorStoreConfig")
         
-        Args:
-            scores: Similarity scores for all documents
-            k: Number of documents to select
-            epsilon: Privacy budget
+        logger.info(f"Selected threshold: {score_threshold:.4f}")
+        
+        # Select documents above threshold
+        doc_score_pairs = list(zip(self.documents, scores))
+        doc_score_pairs = sorted(doc_score_pairs, key=lambda x: x[1], reverse=True)
+        retrieved = [doc for doc, score in doc_score_pairs if score > score_threshold]
+        
+        logger.info(f"Retrieved {len(retrieved)} documents above threshold")
+        
+        # If no documents were retrieved, use top 5 as fallback
+        if not retrieved and doc_score_pairs:
+            retrieved = [doc for doc, _ in doc_score_pairs[:5]]
+            logger.warning(f"No documents above threshold, using top 5 as fallback")
+        
+        # Limit the number of retrieved documents
+        retrieved = retrieved[:min(len(retrieved), self.config.max_retrieve)]
+        
+        # Shuffle to prevent information leakage from ordering
+        if self.config.differential_privacy:
+            np.random.shuffle(retrieved)
             
-        Returns:
-            Indices of selected documents
-        """
-        n = len(scores)
-        if n <= k:
-            return list(range(n))
-        
-        # Scale the scores to control sensitivity
-        sensitivity = 2.0  # Maximum change in scores when one document changes
-        epsilon_per_selection = epsilon / k
-        
-        selected_indices = []
-        remaining_indices = list(range(n))
-        
-        for _ in range(k):
-            if not remaining_indices:
-                break
-                
-            # Get scores for remaining documents
-            remaining_scores = np.array([scores[i] for i in remaining_indices])
-            
-            # Compute probabilities using exponential mechanism
-            scaled_scores = remaining_scores * (epsilon_per_selection / sensitivity)
-            probabilities = np.exp(scaled_scores)
-            probabilities = probabilities / np.sum(probabilities)
-            
-            # Select a document
-            selected_idx = np.random.choice(len(remaining_indices), p=probabilities)
-            selected_indices.append(remaining_indices[selected_idx])
-            remaining_indices.pop(selected_idx)
-        
-        return selected_indices
+        logger.info(f"Final retrieved document count: {len(retrieved)}")
+        return retrieved
 
-class DPLogitProcessor:
-    """Process logits for differentially private generation"""
+class DPLogitsAggregator(LogitsProcessor):
+    """Logits processor for differentially private generation"""
     
-    def __init__(self, config):
-        """
-        Initialize DP logit processor
-        
-        Args:
-            config: DPRAGConfig instance
-        """
-        self.config = config
-        self.epsilon = config.epsilon_generation
+    def __init__(self, config, debug=False):
+        """Initialize DP logits aggregator"""
+        self.alpha = config.alpha
+        self.omega = config.omega
+        self.temperature = config.temperature
+        self.epsilon = config.epsilon
+        self.token_epsilon = config.token_epsilon()
         self.delta = config.delta
+        self.differential_privacy = config.differential_privacy
+        self.debug = debug
+        logger.info(f"DPLogitsAggregator initialized with: alpha={self.alpha}, omega={self.omega}, "
+                   f"epsilon={self.epsilon}, token_epsilon={self.token_epsilon}")
+    
+    def _debug_log(self, message):
+        """Print debug log if debug mode is enabled"""
+        if self.debug:
+            logger.debug(message)
+    
+    def _dp_call(self, input_ids, scores):
+        """Process logits with differential privacy"""
+        device = scores.device
+        
+        # Check if there are scores for context documents
+        if scores.shape[0] <= 1:
+            self._debug_log("No context document scores available, using original scores")
+            return scores
+        
+        # Convert to float32 for better precision
+        scores = scores.to(dtype=torch.float32)
+        
+        # Split scores - first is public prior, rest are from context documents
+        public_scores = scores[0, :]
+        context_scores = scores[1:, :]
+        
+        # Center each context's scores to control sensitivity
+        centered_scores = context_scores - torch.mean(context_scores, dim=1, keepdim=True)
+        
+        # Exponentiate scores to make them positive and scale properly
+        exp_scores = torch.exp(self.alpha * centered_scores)
+        
+        # Compute the max norms for clipping
+        norms = torch.max(torch.abs(exp_scores), dim=1, keepdim=True).values
+        
+        # Compute the scaling factor for clipping (ensures DP)
+        clipping = self.token_epsilon * self.temperature / 2
+        scaling = torch.minimum(clipping / (norms + 1e-10), torch.tensor(1.0, device=device))
+        
+        # Apply clipping to scores
+        clipped_scores = exp_scores * scaling
+        
+        # Aggregate and reweight
+        aggregated_scores = self.omega * public_scores + (1 - self.omega) * torch.sum(clipped_scores, dim=0)
+        
+        # Reshape to match expected output
+        return aggregated_scores.unsqueeze(0)
+    
+    def _non_dp_call(self, input_ids, scores):
+        """Process logits without differential privacy"""
+        # Check if there are scores for context documents
+        if scores.shape[0] <= 1:
+            logger.debug("No context document scores available, using original scores")
+            return scores
+            
+        # Split scores - first is public prior, rest are from context documents
+        public_scores = scores[0, :]
+        context_scores = scores[1:, :]
+        
+        # Center scores
+        centered_scores = context_scores - torch.mean(context_scores, dim=1, keepdim=True)
+        
+        # Simple weighted aggregation
+        aggregated_scores = self.omega * public_scores + (1 - self.omega) * torch.mean(centered_scores, dim=0)
+        
+        # Reshape to match expected output
+        return aggregated_scores.unsqueeze(0)
     
     def __call__(self, input_ids, scores):
-        """
-        Process logits for DP generation
-        
-        Args:
-            input_ids: Input token IDs
-            scores: Logit scores
+        """Process logits"""
+        try:
+            logger.debug(f"Processing logits: shape={scores.shape}, device={scores.device}")
             
-        Returns:
-            Processed scores
-        """
-        # Apply DP noise to logits
-        noise_scale = self._compute_noise_scale()
-        
-        # Clip logits to bounded sensitivity
-        max_logit = torch.max(scores)
-        min_logit = torch.min(scores)
-        sensitivity = max_logit - min_logit
-        
-        # Scale logits to [0, 1] for easier noise addition
-        normalized_scores = (scores - min_logit) / (sensitivity + 1e-10)
-        
-        # Add calibrated Gaussian noise
-        noise = torch.normal(0, noise_scale, size=normalized_scores.shape).to(normalized_scores.device)
-        noisy_scores = normalized_scores + noise
-        
-        # Scale back to original range
-        processed_scores = noisy_scores * (sensitivity + 1e-10) + min_logit
-        
-        return processed_scores
-    
-    def _compute_noise_scale(self):
-        """Compute noise scale for Gaussian mechanism"""
-        # For Gaussian mechanism, use the analytic Gaussian mechanism calibration
-        # https://arxiv.org/abs/1805.06530
-        if self.epsilon >= 1.0:
-            return np.sqrt(2 * np.log(1.25 / self.delta)) / self.epsilon
-        else:
-            # For small epsilon, use a tighter bound
-            return np.sqrt(2 * np.log(1.25 / self.delta)) * np.sqrt(1 / (2 * self.epsilon))
+            if self.differential_privacy:
+                return self._dp_call(input_ids, scores)
+            else:
+                return self._non_dp_call(input_ids, scores)
+        except Exception as e:
+            logger.error(f"Error in logits processing: {e}")
+            # Return original scores on error to avoid breaking generation
+            return scores
 
-def get_llama_response(model, tokenizer, prompt, context, dp_config):
-    """
-    Get response from LLaMA model with DP-RAG
+class DPRAGEngine:
+    """DP-RAG engine"""
     
-    Args:
-        model: The language model
-        tokenizer: The tokenizer
-        prompt: The query prompt
-        context: The retrieved context
-        dp_config: DP-RAG configuration
+    def __init__(self, pup_config, dp_config, model_id, debug=False):
+        """Initialize DP-RAG engine"""
+        self.pup_vector_store = PUPVectorStore(pup_config)
+        self.dp_config = dp_config
+        self.model_id = model_id
+        self.debug = debug
         
-    Returns:
-        Generated response
-    """
-    # Format the prompt for Llama-2-chat models with RAG context
-    formatted_prompt = f"<s>[INST] <<SYS>>\nYou are a helpful medical assistant that provides accurate information to medical questions while protecting privacy.\n<</SYS>>\n\nI'll provide some medical reference content and then ask a question. Using the reference information, please provide a direct answer to the question.\n\nReference Information:\n{context}\n\nQuestion: {prompt} [/INST]"
+        # Track privacy budget
+        self.retrieval_epsilon = pup_config.epsilon
+        self.generation_epsilon = dp_config.epsilon
+        self.total_epsilon = self.retrieval_epsilon + self.generation_epsilon
+        
+        logger.info(f"DPRAGEngine initialized with model {model_id}")
+        logger.info(f"Privacy budget: total={self.total_epsilon}, "
+                   f"retrieval={self.retrieval_epsilon}, generation={self.generation_epsilon}")
     
-    inputs = tokenizer(formatted_prompt, return_tensors="pt").to(model.device)
+    def _load_model(self):
+        """Load model"""
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+        logger.info(f"Loading model {self.model_id} on {device}")
+        
+        try:
+            model = AutoModelForCausalLM.from_pretrained(
+                self.model_id,
+                torch_dtype=torch.float16,
+                device_map=device
+            )
+            return model
+        except Exception as e:
+            logger.error(f"Error loading model: {e}")
+            raise RuntimeError(f"Failed to load model: {e}")
     
-    # Create DP logit processor
-    dp_processor = DPLogitProcessor(dp_config)
+    def _load_tokenizer(self):
+        """Load tokenizer"""
+        logger.info(f"Loading tokenizer for {self.model_id}")
+        
+        try:
+            tokenizer = AutoTokenizer.from_pretrained(self.model_id)
+            if tokenizer.pad_token is None:
+                tokenizer.pad_token = tokenizer.eos_token
+            return tokenizer
+        except Exception as e:
+            logger.error(f"Error loading tokenizer: {e}")
+            raise RuntimeError(f"Failed to load tokenizer: {e}")
     
-    # Define a custom logits processor
-    def logits_processor(input_ids, scores):
-        return dp_processor(input_ids, scores)
+    def add_document(self, doc):
+        """Add document to vector store"""
+        self.pup_vector_store.add_document(doc)
     
-    with torch.no_grad():
-        outputs = model.generate(
-            inputs.input_ids,
-            max_new_tokens=dp_config.max_new_tokens,
-            temperature=dp_config.generation_temperature,
-            do_sample=True,
-            pad_token_id=tokenizer.eos_token_id,
-            logits_processor=[logits_processor]
-        )
+    def add_documents(self, documents):
+        """Add multiple documents to vector store"""
+        logger.info(f"Adding {len(documents)} documents to vector store")
+        for doc in documents:
+            self.add_document(doc)
     
-    # Decode the generated text and extract only the model's response
-    full_output = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    def _format_prompt(self, query, document=None):
+        """Format prompt for RAG query"""
+        if document:
+            return {
+                "role": "system", 
+                "content": f"You are a helpful assistant answering questions based on medical reference information. "
+                           f"Here is a relevant document that might help answer the question: {document}"
+            }, {
+                "role": "user", 
+                "content": query
+            }
+        else:
+            return {
+                "role": "system", 
+                "content": "You are a helpful assistant answering medical questions based on your knowledge."
+            }, {
+                "role": "user", 
+                "content": query
+            }
     
-    # Find where the response starts (after the prompt)
-    response_start = full_output.find("[/INST]")
-    if response_start != -1:
-        response = full_output[response_start + 7:].strip()  # +7 for the length of "[/INST]"
-    else:
-        response = full_output.replace(formatted_prompt, "").strip()
-    
-    return response
+    def dp_chat(self, query, model, tokenizer):
+        """Generate response to query with DP-RAG"""
+        # Retrieve relevant documents
+        retrieved_documents = self.pup_vector_store.retrieve(query)
+        
+        # If no documents were retrieved, use RAG with empty context
+        if not retrieved_documents:
+            logger.warning("No documents retrieved, using empty context")
+            retrieved_documents = ["No specific information available about this query."]
+        
+        # Create messages for base prompt without documents
+        base_system, base_user = self._format_prompt(query)
+        messages = [[base_system, base_user]]
+        
+        # Add messages for each document
+        for doc in retrieved_documents:
+            doc_system, doc_user = self._format_prompt(query, doc)
+            messages.append([doc_system, doc_user])
+        
+        try:
+            # Apply chat template to format messages
+            model_inputs = tokenizer.apply_chat_template(
+                messages, 
+                tokenize=True, 
+                padding=True, 
+                return_tensors='pt', 
+                return_dict=True,
+                add_generation_prompt=True
+            ).to(model.device)
+            
+            # Remember input tokens to extract only the generated part
+            input_tokens = model_inputs['input_ids'].shape[-1]
+            
+            # Create DP logits aggregator
+            logits_processor = DPLogitsAggregator(self.dp_config, debug=self.debug)
+            
+            # Generate response
+            with torch.no_grad():
+                logger.info(f"Generating response with {self.dp_config.max_new_tokens} max tokens")
+                generated_ids = model.generate(
+                    input_ids=model_inputs['input_ids'],
+                    attention_mask=model_inputs['attention_mask'],
+                    max_new_tokens=self.dp_config.max_new_tokens,
+                    do_sample=True,
+                    temperature=self.dp_config.temperature,
+                    pad_token_id=tokenizer.eos_token_id,
+                    logits_processor=LogitsProcessorList([logits_processor])
+                )
+            
+            # Extract only generated part
+            generated_text = tokenizer.decode(
+                generated_ids[0, input_tokens:], 
+                skip_special_tokens=True
+            )
+            
+            logger.info(f"Generated response of length {len(generated_text)}")
+            return generated_text, retrieved_documents
+            
+        except Exception as e:
+            logger.error(f"Error in DP chat generation: {e}")
+            return f"Error generating response: {str(e)}", retrieved_documents
 
 def compute_bleu_1(reference, hypothesis):
     """Compute BLEU-1 score between reference and hypothesis"""
@@ -294,16 +550,15 @@ def compute_bleu_1(reference, hypothesis):
         
         return bleu_1
     except Exception as e:
-        print(f"Error computing BLEU-1: {e}")
+        logger.error(f"Error computing BLEU-1: {e}")
         return 0.0
 
 def evaluate_dp_rag(args):
-    """
-    Evaluate DP-RAG model
+    """Evaluate DP-RAG model"""
+    # Set up logging level
+    if args.debug:
+        logging.getLogger().setLevel(logging.DEBUG)
     
-    Args:
-        args: Command-line arguments
-    """
     # Load test questions, ground truth, and contexts
     questions_path = f'RAG-SAGE/questions/per-{args.dataset_name}-question.json'
     truth_path = f'RAG-SAGE/truth/per-{args.dataset_name}-truth.json'
@@ -314,15 +569,16 @@ def evaluate_dp_rag(args):
     
     # Check if the context file exists in either location
     if os.path.exists(contexts_path):
-        print(f"Using context file from: {contexts_path}")
+        logger.info(f"Using context file from: {contexts_path}")
         with open(contexts_path, 'r', encoding='utf-8') as f:
             contexts = json.load(f)
     elif os.path.exists(rag_sage_contexts_path):
-        print(f"Using context file from: {rag_sage_contexts_path}")
+        logger.info(f"Using context file from: {rag_sage_contexts_path}")
         with open(rag_sage_contexts_path, 'r', encoding='utf-8') as f:
             contexts = json.load(f)
     else:
-        raise FileNotFoundError(f"Context file not found at either {contexts_path} or {rag_sage_contexts_path}. Please run create_context_file.py first.")
+        raise FileNotFoundError(f"Context file not found at either {contexts_path} or {rag_sage_contexts_path}. "
+                               f"Please run create_context_file.py first.")
     
     with open(questions_path, 'r', encoding='utf-8') as f:
         questions = json.load(f)
@@ -332,30 +588,46 @@ def evaluate_dp_rag(args):
     
     # Set device
     device = f'cuda:{args.gpu_id}' if torch.cuda.is_available() else 'cpu'
-    print(f"Using device: {device}")
+    logger.info(f"Using device: {device}")
+    
+    # Create configs
+    pup_config = PUPVectorStoreConfig(
+        embedding_model_name="sentence-transformers/all-MiniLM-L6-v2",
+        top_p=args.top_p,
+        top_k=None if args.top_p else args.k,
+        epsilon=args.epsilon_retrieval,
+        top_p_alpha=3.0,  # Use a more balanced value
+        min_score=-0.3,  # Adjusted to include more relevant documents
+        max_score=0.8,
+        max_retrieve=30,  # Increased to ensure enough context
+        differential_privacy=args.differential_privacy
+    )
+    
+    dp_config = DPGenerationConfig(
+        max_new_tokens=args.max_new_tokens,
+        temperature=args.temperature,
+        alpha=args.alpha,  # Use argument
+        omega=args.omega,  # Use argument
+        epsilon=args.epsilon - args.epsilon_retrieval,  # Remaining privacy budget
+        delta=args.delta,
+        differential_privacy=args.differential_privacy
+    )
+    
+    # Initialize DP-RAG engine
+    dp_rag_engine = DPRAGEngine(
+        pup_config=pup_config,
+        dp_config=dp_config,
+        model_id=args.model_name,
+        debug=args.debug
+    )
     
     # Load model and tokenizer
-    print(f"Loading model: {args.model_name}")
-    tokenizer = AutoTokenizer.from_pretrained(args.model_name)
-    model = AutoModelForCausalLM.from_pretrained(
-        args.model_name,
-        torch_dtype=torch.float16,
-        device_map=device
-    )
+    model = dp_rag_engine._load_model()
+    tokenizer = dp_rag_engine._load_tokenizer()
     
-    # Create DP-RAG configuration
-    dp_config = DPRAGConfig(
-        epsilon=args.epsilon,
-        epsilon_retrieval=args.epsilon_retrieval,
-        delta=args.delta,
-        top_k=args.k,
-        generation_temperature=args.temperature,
-        max_new_tokens=args.max_new_tokens
-    )
-    
-    # Initialize DP retriever
-    retriever = DPRetriever(dp_config)
-    retriever.add_documents(contexts)
+    # Add documents to vector store
+    logger.info(f"Adding {len(contexts)} documents to vector store")
+    dp_rag_engine.add_documents(contexts)
     
     # Initialize ROUGE scorer
     scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=True)
@@ -369,30 +641,33 @@ def evaluate_dp_rag(args):
     bleu_1_score = 0
     
     # Evaluate on test questions
-    print(f"Evaluating on {len(questions)} test questions...")
+    logger.info(f"Evaluating on {len(questions)} test questions...")
     for i, (question, truth) in enumerate(tqdm(zip(questions, ground_truths), total=len(questions))):
-        # Retrieve relevant contexts with differential privacy
-        retrieved_docs = retriever.retrieve(question)
-        retrieved_contexts = [doc.page_content for doc in retrieved_docs]
-        
-        # Merge contexts
-        merged_context = "\n\n".join(retrieved_contexts)
-        
-        # Generate response with DP
-        response = get_llama_response(model, tokenizer, question, merged_context, dp_config)
-        
-        # Calculate ROUGE scores
-        scores = scorer.score(truth, response)
-        for key in rouge_scores:
-            rouge_scores[key] += scores[key].fmeasure
-        
-        # Calculate BLEU-1 score
-        bleu_1 = compute_bleu_1(truth, response)
-        bleu_1_score += bleu_1
-        
-        # Save response and contexts
-        outputs.append(response)
-        retrieved_contexts_list.append(retrieved_contexts)
+        try:
+            # Generate response with DP-RAG
+            response, retrieved_contexts = dp_rag_engine.dp_chat(question, model, tokenizer)
+            
+            # Calculate ROUGE scores
+            scores = scorer.score(truth, response)
+            for key in rouge_scores:
+                rouge_scores[key] += scores[key].fmeasure
+            
+            # Calculate BLEU-1 score
+            bleu_1 = compute_bleu_1(truth, response)
+            bleu_1_score += bleu_1
+            
+            # Save response and contexts
+            outputs.append(response)
+            retrieved_contexts_list.append(retrieved_contexts)
+            
+            # Log progress
+            if (i + 1) % 10 == 0:
+                logger.info(f"Processed {i + 1}/{len(questions)} questions")
+                
+        except Exception as e:
+            logger.error(f"Error processing question {i}: {e}")
+            outputs.append(f"Error: {str(e)}")
+            retrieved_contexts_list.append([])
     
     # Calculate average scores
     for key in rouge_scores:
@@ -408,9 +683,14 @@ def evaluate_dp_rag(args):
     config = {
         'epsilon': args.epsilon,
         'epsilon_retrieval': args.epsilon_retrieval,
+        'epsilon_generation': args.epsilon - args.epsilon_retrieval,
         'delta': args.delta,
-        'top_k': args.k,
-        'temperature': args.temperature
+        'top_k': args.k if not args.top_p else None,
+        'top_p': args.top_p,
+        'temperature': args.temperature,
+        'alpha': args.alpha,
+        'omega': args.omega,
+        'differential_privacy': args.differential_privacy
     }
     
     # Save results
@@ -426,14 +706,14 @@ def evaluate_dp_rag(args):
     with open(f'{results_dir}/{args.dataset_name}_dp_rag_config.json', 'w', encoding='utf-8') as f:
         json.dump(config, f, ensure_ascii=False, indent=2)
     
-    print(f"Evaluation completed. Results saved to {results_dir}")
-    print(f"ROUGE-1: {rouge_scores['rouge1']:.4f}")
-    print(f"ROUGE-2: {rouge_scores['rouge2']:.4f}")
-    print(f"ROUGE-L: {rouge_scores['rougeL']:.4f}")
-    print(f"BLEU-1: {bleu_1_score:.4f}")
-    print(f"Privacy budget (ε): {args.epsilon}")
-    print(f"  - Retrieval: {args.epsilon_retrieval}")
-    print(f"  - Generation: {args.epsilon - args.epsilon_retrieval}")
+    logger.info(f"Evaluation completed. Results saved to {results_dir}")
+    logger.info(f"ROUGE-1: {rouge_scores['rouge1']:.4f}")
+    logger.info(f"ROUGE-2: {rouge_scores['rouge2']:.4f}")
+    logger.info(f"ROUGE-L: {rouge_scores['rougeL']:.4f}")
+    logger.info(f"BLEU-1: {bleu_1_score:.4f}")
+    logger.info(f"Privacy budget (ε): {args.epsilon}")
+    logger.info(f"  - Retrieval: {args.epsilon_retrieval}")
+    logger.info(f"  - Generation: {args.epsilon - args.epsilon_retrieval}")
 
 if __name__ == "__main__":
     args = parse_args()

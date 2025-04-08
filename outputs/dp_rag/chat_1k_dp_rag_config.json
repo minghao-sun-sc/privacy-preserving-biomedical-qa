@@ -1,7 +1,12 @@
 {
-  "epsilon": 0.5,
-  "epsilon_retrieval": 0.3,
+  "epsilon": 1.0,
+  "epsilon_retrieval": 0.5,
+  "epsilon_generation": 0.5,
   "delta": 1e-05,
-  "top_k": 5,
-  "temperature": 0.7
+  "top_k": null,
+  "top_p": 0.05,
+  "temperature": 0.7,
+  "alpha": 0.1,
+  "omega": 0.2,
+  "differential_privacy": true
 }

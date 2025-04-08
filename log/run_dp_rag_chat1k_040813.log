@@ -1,0 +1,847 @@
+nohup: ignoring input
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/dp_rag_llama.py:14: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+2025-04-08 13:17:51,496 - INFO - Using context file from: context/chat_1k-context.json
+2025-04-08 13:17:51,506 - INFO - Using device: cuda:0
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/dp_rag_llama.py:118: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFaceEmbeddings``.
+  self.embedding_model = HuggingFaceEmbeddings(
+2025-04-08 13:17:51,672 - INFO - PyTorch version 2.6.0 available.
+2025-04-08 13:17:51,955 - INFO - Use pytorch device_name: cuda:0
+2025-04-08 13:17:51,955 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-08 13:17:55,181 - INFO - DPRAGEngine initialized with model meta-llama/Llama-2-7b-chat-hf
+2025-04-08 13:17:55,181 - INFO - Privacy budget: total=1.0, retrieval=0.5, generation=0.5
+2025-04-08 13:17:55,181 - INFO - Loading model meta-llama/Llama-2-7b-chat-hf on cuda
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.45s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.13it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.03it/s]
+2025-04-08 13:17:57,784 - INFO - Loading tokenizer for meta-llama/Llama-2-7b-chat-hf
+2025-04-08 13:17:58,111 - INFO - Adding 1000 documents to vector store
+2025-04-08 13:17:58,111 - INFO - Adding 1000 documents to vector store
+2025-04-08 13:17:58,112 - INFO - Using default tokenizer.
+2025-04-08 13:17:58,112 - INFO - Evaluating on 100 test questions...
+  0%|          | 0/100 [00:00<?, ?it/s]2025-04-08 13:17:58,113 - INFO - Computing embeddings for 1000 documents
+2025-04-08 13:18:01,928 - INFO - Embeddings shape: (1000, 384)
+2025-04-08 13:18:01,951 - INFO - Similarity scores range: min=-0.1265, max=0.8980, mean=0.1639
+2025-04-08 13:18:01,952 - INFO - Selected threshold: 0.4105
+2025-04-08 13:18:01,952 - INFO - Retrieved 20 documents above threshold
+2025-04-08 13:18:01,952 - INFO - Final retrieved document count: 20
+2025-04-08 13:18:01,965 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:18:01,965 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:18:26,145 - INFO - Generated response of length 1767
+  1%|          | 1/100 [00:28<46:17, 28.05s/it]2025-04-08 13:18:26,188 - INFO - Similarity scores range: min=-0.1243, max=0.8604, mean=0.1990
+2025-04-08 13:18:26,188 - INFO - Selected threshold: 0.4802
+2025-04-08 13:18:26,189 - INFO - Retrieved 23 documents above threshold
+2025-04-08 13:18:26,189 - INFO - Final retrieved document count: 23
+2025-04-08 13:18:26,196 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:18:26,196 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:19:01,044 - INFO - Generated response of length 1981
+  2%|▏         | 2/100 [01:02<52:23, 32.08s/it]2025-04-08 13:19:01,081 - INFO - Similarity scores range: min=-0.1769, max=0.8384, mean=0.0868
+2025-04-08 13:19:01,082 - INFO - Selected threshold: 0.4518
+2025-04-08 13:19:01,082 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:19:01,082 - INFO - Final retrieved document count: 1
+2025-04-08 13:19:01,084 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:19:01,084 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:19:12,511 - INFO - Generated response of length 1385
+  3%|▎         | 3/100 [01:14<36:38, 22.66s/it]2025-04-08 13:19:12,545 - INFO - Similarity scores range: min=-0.0316, max=0.9235, mean=0.2398
+2025-04-08 13:19:12,545 - INFO - Selected threshold: 0.5452
+2025-04-08 13:19:12,545 - INFO - Retrieved 14 documents above threshold
+2025-04-08 13:19:12,546 - INFO - Final retrieved document count: 14
+2025-04-08 13:19:12,550 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:19:12,550 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:19:30,960 - INFO - Generated response of length 1599
+  4%|▍         | 4/100 [01:32<33:35, 21.00s/it]2025-04-08 13:19:30,993 - INFO - Similarity scores range: min=-0.1389, max=0.9604, mean=0.1246
+2025-04-08 13:19:30,993 - INFO - Selected threshold: 0.5118
+2025-04-08 13:19:30,994 - INFO - Retrieved 7 documents above threshold
+2025-04-08 13:19:30,994 - INFO - Final retrieved document count: 7
+2025-04-08 13:19:30,999 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:19:30,999 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:19:48,361 - INFO - Generated response of length 1860
+  5%|▌         | 5/100 [01:50<31:11, 19.70s/it]2025-04-08 13:19:48,393 - INFO - Similarity scores range: min=-0.0354, max=0.8247, mean=0.2302
+2025-04-08 13:19:48,393 - INFO - Selected threshold: 0.4516
+2025-04-08 13:19:48,394 - INFO - Retrieved 22 documents above threshold
+2025-04-08 13:19:48,394 - INFO - Final retrieved document count: 22
+2025-04-08 13:19:48,402 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:19:48,402 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:20:28,276 - INFO - Generated response of length 1631
+  6%|▌         | 6/100 [02:30<41:38, 26.58s/it]2025-04-08 13:20:28,314 - INFO - Similarity scores range: min=-0.0610, max=0.9421, mean=0.1778
+2025-04-08 13:20:28,315 - INFO - Selected threshold: 0.3678
+2025-04-08 13:20:28,315 - INFO - Retrieved 20 documents above threshold
+2025-04-08 13:20:28,315 - INFO - Final retrieved document count: 20
+2025-04-08 13:20:28,322 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:20:28,323 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:20:58,387 - INFO - Generated response of length 2098
+  7%|▋         | 7/100 [03:00<42:58, 27.73s/it]2025-04-08 13:20:58,418 - INFO - Similarity scores range: min=-0.0674, max=0.9261, mean=0.1896
+2025-04-08 13:20:58,419 - INFO - Selected threshold: 0.5044
+2025-04-08 13:20:58,419 - INFO - Retrieved 22 documents above threshold
+2025-04-08 13:20:58,419 - INFO - Final retrieved document count: 22
+2025-04-08 13:20:58,426 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:20:58,426 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:21:26,129 - INFO - Generated response of length 1732
+  8%|▊         | 8/100 [03:28<42:31, 27.73s/it]2025-04-08 13:21:26,163 - INFO - Similarity scores range: min=-0.1335, max=0.8760, mean=0.1470
+2025-04-08 13:21:26,163 - INFO - Selected threshold: 0.4641
+2025-04-08 13:21:26,164 - INFO - Retrieved 2 documents above threshold
+2025-04-08 13:21:26,164 - INFO - Final retrieved document count: 2
+2025-04-08 13:21:26,167 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:21:26,167 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:21:38,663 - INFO - Generated response of length 1126
+  9%|▉         | 9/100 [03:40<34:51, 22.98s/it]2025-04-08 13:21:38,698 - INFO - Similarity scores range: min=-0.0511, max=0.9403, mean=0.2227
+2025-04-08 13:21:38,698 - INFO - Selected threshold: 0.6077
+2025-04-08 13:21:38,699 - INFO - Retrieved 7 documents above threshold
+2025-04-08 13:21:38,699 - INFO - Final retrieved document count: 7
+2025-04-08 13:21:38,704 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:21:38,704 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:21:54,802 - INFO - Generated response of length 1387
+2025-04-08 13:21:54,809 - INFO - Processed 10/100 questions
+ 10%|█         | 10/100 [03:56<31:18, 20.87s/it]2025-04-08 13:21:54,831 - INFO - Similarity scores range: min=-0.0812, max=0.7533, mean=0.1701
+2025-04-08 13:21:54,831 - INFO - Selected threshold: 0.4874
+2025-04-08 13:21:54,832 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:21:54,832 - INFO - Final retrieved document count: 1
+2025-04-08 13:21:54,835 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:21:54,835 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:22:06,014 - INFO - Generated response of length 1721
+ 11%|█         | 11/100 [04:07<26:34, 17.91s/it]2025-04-08 13:22:06,048 - INFO - Similarity scores range: min=0.0054, max=0.9530, mean=0.2211
+2025-04-08 13:22:06,048 - INFO - Selected threshold: 0.4528
+2025-04-08 13:22:06,048 - INFO - Retrieved 18 documents above threshold
+2025-04-08 13:22:06,048 - INFO - Final retrieved document count: 18
+2025-04-08 13:22:06,055 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:22:06,056 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:22:34,705 - INFO - Generated response of length 1509
+ 12%|█▏        | 12/100 [04:36<31:04, 21.19s/it]2025-04-08 13:22:34,734 - INFO - Similarity scores range: min=-0.1138, max=0.8456, mean=0.1905
+2025-04-08 13:22:34,734 - INFO - Selected threshold: 0.4878
+2025-04-08 13:22:34,735 - INFO - Retrieved 11 documents above threshold
+2025-04-08 13:22:34,735 - INFO - Final retrieved document count: 11
+2025-04-08 13:22:34,741 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:22:34,741 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:22:56,611 - INFO - Generated response of length 1873
+ 13%|█▎        | 13/100 [04:58<31:02, 21.41s/it]2025-04-08 13:22:56,648 - INFO - Similarity scores range: min=-0.0448, max=0.9236, mean=0.2126
+2025-04-08 13:22:56,649 - INFO - Selected threshold: 0.4215
+2025-04-08 13:22:56,649 - INFO - Retrieved 22 documents above threshold
+2025-04-08 13:22:56,649 - INFO - Final retrieved document count: 22
+2025-04-08 13:22:56,656 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:22:56,656 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:23:29,827 - INFO - Generated response of length 1384
+ 14%|█▍        | 14/100 [05:31<35:47, 24.97s/it]2025-04-08 13:23:29,857 - INFO - Similarity scores range: min=-0.1169, max=0.8546, mean=0.1293
+2025-04-08 13:23:29,858 - INFO - Selected threshold: 0.4582
+2025-04-08 13:23:29,858 - INFO - Retrieved 13 documents above threshold
+2025-04-08 13:23:29,858 - INFO - Final retrieved document count: 13
+2025-04-08 13:23:29,864 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:23:29,864 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:23:54,854 - INFO - Generated response of length 1766
+ 15%|█▌        | 15/100 [05:56<35:24, 24.99s/it]2025-04-08 13:23:54,887 - INFO - Similarity scores range: min=-0.0816, max=0.9363, mean=0.2147
+2025-04-08 13:23:54,888 - INFO - Selected threshold: 0.5202
+2025-04-08 13:23:54,888 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:23:54,888 - INFO - Final retrieved document count: 1
+2025-04-08 13:23:54,890 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:23:54,890 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:24:06,100 - INFO - Generated response of length 1483
+ 16%|█▌        | 16/100 [06:07<29:11, 20.85s/it]2025-04-08 13:24:06,131 - INFO - Similarity scores range: min=-0.0782, max=0.9495, mean=0.2003
+2025-04-08 13:24:06,131 - INFO - Selected threshold: 0.5751
+2025-04-08 13:24:06,132 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:24:06,132 - INFO - Final retrieved document count: 1
+2025-04-08 13:24:06,134 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:24:06,134 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:24:17,373 - INFO - Generated response of length 998
+ 17%|█▋        | 17/100 [06:19<24:51, 17.97s/it]2025-04-08 13:24:17,402 - INFO - Similarity scores range: min=-0.0413, max=0.8479, mean=0.2178
+2025-04-08 13:24:17,403 - INFO - Selected threshold: 0.4497
+2025-04-08 13:24:17,403 - INFO - Retrieved 14 documents above threshold
+2025-04-08 13:24:17,403 - INFO - Final retrieved document count: 14
+2025-04-08 13:24:17,408 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:24:17,408 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:24:33,941 - INFO - Generated response of length 1297
+ 18%|█▊        | 18/100 [06:35<23:59, 17.55s/it]2025-04-08 13:24:33,973 - INFO - Similarity scores range: min=-0.1132, max=0.8713, mean=0.1413
+2025-04-08 13:24:33,973 - INFO - Selected threshold: 0.4203
+2025-04-08 13:24:33,974 - INFO - Retrieved 17 documents above threshold
+2025-04-08 13:24:33,974 - INFO - Final retrieved document count: 17
+2025-04-08 13:24:33,979 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:24:33,979 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:24:38,533 - INFO - Generated response of length 425
+ 19%|█▉        | 19/100 [06:40<18:26, 13.66s/it]2025-04-08 13:24:38,560 - INFO - Similarity scores range: min=-0.0526, max=0.8487, mean=0.2075
+2025-04-08 13:24:38,560 - INFO - Selected threshold: 0.4772
+2025-04-08 13:24:38,560 - INFO - Retrieved 18 documents above threshold
+2025-04-08 13:24:38,560 - INFO - Final retrieved document count: 18
+2025-04-08 13:24:38,567 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:24:38,567 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:25:05,306 - INFO - Generated response of length 1998
+2025-04-08 13:25:05,315 - INFO - Processed 20/100 questions
+ 20%|██        | 20/100 [07:07<23:27, 17.60s/it]2025-04-08 13:25:05,338 - INFO - Similarity scores range: min=-0.0158, max=0.8852, mean=0.1968
+2025-04-08 13:25:05,339 - INFO - Selected threshold: 0.4314
+2025-04-08 13:25:05,339 - INFO - Retrieved 23 documents above threshold
+2025-04-08 13:25:05,339 - INFO - Final retrieved document count: 23
+2025-04-08 13:25:05,350 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:25:05,350 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:25:48,577 - INFO - Generated response of length 1407
+ 21%|██        | 21/100 [07:50<33:19, 25.31s/it]2025-04-08 13:25:48,635 - INFO - Similarity scores range: min=-0.1147, max=0.9464, mean=0.1974
+2025-04-08 13:25:48,635 - INFO - Selected threshold: 0.4541
+2025-04-08 13:25:48,635 - INFO - Retrieved 26 documents above threshold
+2025-04-08 13:25:48,636 - INFO - Final retrieved document count: 26
+2025-04-08 13:25:48,644 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:25:48,644 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:26:27,494 - INFO - Generated response of length 1589
+ 22%|██▏       | 22/100 [08:29<38:12, 29.39s/it]2025-04-08 13:26:27,526 - INFO - Similarity scores range: min=-0.1026, max=0.9036, mean=0.2120
+2025-04-08 13:26:27,526 - INFO - Selected threshold: 0.5421
+2025-04-08 13:26:27,527 - INFO - Retrieved 8 documents above threshold
+2025-04-08 13:26:27,527 - INFO - Final retrieved document count: 8
+2025-04-08 13:26:27,531 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:26:27,531 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:26:47,407 - INFO - Generated response of length 1901
+ 23%|██▎       | 23/100 [08:49<34:03, 26.54s/it]2025-04-08 13:26:47,440 - INFO - Similarity scores range: min=-0.0604, max=0.9399, mean=0.1756
+2025-04-08 13:26:47,441 - INFO - Selected threshold: 0.3783
+2025-04-08 13:26:47,441 - INFO - Retrieved 32 documents above threshold
+2025-04-08 13:26:47,441 - INFO - Final retrieved document count: 30
+2025-04-08 13:26:47,450 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:26:47,450 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:27:30,734 - INFO - Generated response of length 1652
+ 24%|██▍       | 24/100 [09:32<40:00, 31.58s/it]2025-04-08 13:27:30,769 - INFO - Similarity scores range: min=-0.0729, max=0.8217, mean=0.2394
+2025-04-08 13:27:30,769 - INFO - Selected threshold: 0.4121
+2025-04-08 13:27:30,770 - INFO - Retrieved 34 documents above threshold
+2025-04-08 13:27:30,770 - INFO - Final retrieved document count: 30
+2025-04-08 13:27:30,778 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:27:30,779 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:27:37,648 - INFO - Generated response of length 162
+ 25%|██▌       | 25/100 [09:39<30:13, 24.18s/it]2025-04-08 13:27:37,675 - INFO - Similarity scores range: min=-0.0282, max=0.9943, mean=0.2770
+2025-04-08 13:27:37,676 - INFO - Selected threshold: 0.4976
+2025-04-08 13:27:37,676 - INFO - Retrieved 24 documents above threshold
+2025-04-08 13:27:37,676 - INFO - Final retrieved document count: 24
+2025-04-08 13:27:37,690 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:27:37,690 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:28:38,273 - INFO - Generated response of length 1652
+ 26%|██▌       | 26/100 [10:40<43:18, 35.11s/it]2025-04-08 13:28:38,306 - INFO - Similarity scores range: min=-0.0715, max=0.9162, mean=0.1984
+2025-04-08 13:28:38,307 - INFO - Selected threshold: 0.5222
+2025-04-08 13:28:38,307 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:28:38,307 - INFO - Final retrieved document count: 1
+2025-04-08 13:28:38,309 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:28:38,309 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:28:49,847 - INFO - Generated response of length 1328
+ 27%|██▋       | 27/100 [10:51<34:07, 28.05s/it]2025-04-08 13:28:49,877 - INFO - Similarity scores range: min=-0.1326, max=0.9486, mean=0.1577
+2025-04-08 13:28:49,878 - INFO - Selected threshold: 0.3561
+2025-04-08 13:28:49,878 - INFO - Retrieved 30 documents above threshold
+2025-04-08 13:28:49,878 - INFO - Final retrieved document count: 30
+2025-04-08 13:28:49,886 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:28:49,886 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:29:32,261 - INFO - Generated response of length 1984
+ 28%|██▊       | 28/100 [11:34<38:50, 32.36s/it]2025-04-08 13:29:32,298 - INFO - Similarity scores range: min=-0.1610, max=0.8674, mean=0.1700
+2025-04-08 13:29:32,298 - INFO - Selected threshold: 0.4474
+2025-04-08 13:29:32,299 - INFO - Retrieved 15 documents above threshold
+2025-04-08 13:29:32,299 - INFO - Final retrieved document count: 15
+2025-04-08 13:29:32,304 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:29:32,304 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:29:55,432 - INFO - Generated response of length 1261
+ 29%|██▉       | 29/100 [11:57<35:01, 29.60s/it]2025-04-08 13:29:55,462 - INFO - Similarity scores range: min=-0.1260, max=0.9335, mean=0.1885
+2025-04-08 13:29:55,462 - INFO - Selected threshold: 0.6838
+2025-04-08 13:29:55,463 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:29:55,463 - INFO - Final retrieved document count: 1
+2025-04-08 13:29:55,465 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:29:55,465 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:30:06,591 - INFO - Generated response of length 1585
+2025-04-08 13:30:06,598 - INFO - Processed 30/100 questions
+ 30%|███       | 30/100 [12:08<28:04, 24.07s/it]2025-04-08 13:30:06,622 - INFO - Similarity scores range: min=-0.0087, max=0.9217, mean=0.2715
+2025-04-08 13:30:06,622 - INFO - Selected threshold: 0.5204
+2025-04-08 13:30:06,622 - INFO - Retrieved 9 documents above threshold
+2025-04-08 13:30:06,622 - INFO - Final retrieved document count: 9
+2025-04-08 13:30:06,631 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:30:06,631 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:30:08,757 - INFO - Generated response of length 0
+ 31%|███       | 31/100 [12:10<20:07, 17.50s/it]2025-04-08 13:30:08,783 - INFO - Similarity scores range: min=-0.0636, max=0.9057, mean=0.1998
+2025-04-08 13:30:08,783 - INFO - Selected threshold: 0.4120
+2025-04-08 13:30:08,784 - INFO - Retrieved 7 documents above threshold
+2025-04-08 13:30:08,784 - INFO - Final retrieved document count: 7
+2025-04-08 13:30:08,788 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:30:08,788 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:30:14,643 - INFO - Generated response of length 709
+ 32%|███▏      | 32/100 [12:16<15:52, 14.01s/it]2025-04-08 13:30:14,671 - INFO - Similarity scores range: min=-0.0405, max=0.7338, mean=0.2240
+2025-04-08 13:30:14,672 - INFO - Selected threshold: 0.5170
+2025-04-08 13:30:14,672 - INFO - Retrieved 18 documents above threshold
+2025-04-08 13:30:14,672 - INFO - Final retrieved document count: 18
+2025-04-08 13:30:14,679 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:30:14,679 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:30:45,489 - INFO - Generated response of length 1358
+ 33%|███▎      | 33/100 [12:47<21:17, 19.07s/it]2025-04-08 13:30:45,524 - INFO - Similarity scores range: min=-0.0517, max=0.8591, mean=0.1861
+2025-04-08 13:30:45,524 - INFO - Selected threshold: 0.3832
+2025-04-08 13:30:45,525 - INFO - Retrieved 23 documents above threshold
+2025-04-08 13:30:45,525 - INFO - Final retrieved document count: 23
+2025-04-08 13:30:45,533 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:30:45,533 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:31:17,806 - INFO - Generated response of length 1509
+ 34%|███▍      | 34/100 [13:19<25:20, 23.04s/it]2025-04-08 13:31:17,836 - INFO - Similarity scores range: min=-0.1213, max=0.9005, mean=0.1887
+2025-04-08 13:31:17,836 - INFO - Selected threshold: 0.5367
+2025-04-08 13:31:17,837 - INFO - Retrieved 9 documents above threshold
+2025-04-08 13:31:17,837 - INFO - Final retrieved document count: 9
+2025-04-08 13:31:17,842 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:31:17,842 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:31:36,307 - INFO - Generated response of length 2025
+ 35%|███▌      | 35/100 [13:38<23:29, 21.68s/it]2025-04-08 13:31:36,340 - INFO - Similarity scores range: min=-0.1010, max=0.8802, mean=0.1599
+2025-04-08 13:31:36,340 - INFO - Selected threshold: 0.5607
+2025-04-08 13:31:36,340 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:31:36,340 - INFO - Final retrieved document count: 1
+2025-04-08 13:31:36,342 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:31:36,343 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:31:47,842 - INFO - Generated response of length 1522
+ 36%|███▌      | 36/100 [13:49<19:52, 18.64s/it]2025-04-08 13:31:47,875 - INFO - Similarity scores range: min=-0.1256, max=0.9881, mean=0.1957
+2025-04-08 13:31:47,875 - INFO - Selected threshold: 0.6779
+2025-04-08 13:31:47,875 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:31:47,875 - INFO - Final retrieved document count: 1
+2025-04-08 13:31:47,879 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:31:47,879 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:31:48,109 - INFO - Generated response of length 0
+ 37%|███▋      | 37/100 [13:49<13:46, 13.12s/it]2025-04-08 13:31:48,135 - INFO - Similarity scores range: min=-0.0015, max=0.8835, mean=0.2804
+2025-04-08 13:31:48,136 - INFO - Selected threshold: 0.6052
+2025-04-08 13:31:48,137 - INFO - Retrieved 2 documents above threshold
+2025-04-08 13:31:48,137 - INFO - Final retrieved document count: 2
+2025-04-08 13:31:48,138 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:31:48,138 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:32:00,049 - INFO - Generated response of length 1570
+ 38%|███▊      | 38/100 [14:01<13:11, 12.77s/it]2025-04-08 13:32:00,082 - INFO - Similarity scores range: min=-0.1501, max=0.8977, mean=0.1709
+2025-04-08 13:32:00,083 - INFO - Selected threshold: 0.4840
+2025-04-08 13:32:00,083 - INFO - Retrieved 4 documents above threshold
+2025-04-08 13:32:00,083 - INFO - Final retrieved document count: 4
+2025-04-08 13:32:00,086 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:32:00,086 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:32:13,270 - INFO - Generated response of length 1169
+ 39%|███▉      | 39/100 [14:15<13:07, 12.90s/it]2025-04-08 13:32:13,302 - INFO - Similarity scores range: min=-0.0717, max=0.9359, mean=0.2663
+2025-04-08 13:32:13,302 - INFO - Selected threshold: 0.6673
+2025-04-08 13:32:13,302 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:32:13,302 - INFO - Final retrieved document count: 1
+2025-04-08 13:32:13,305 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:32:13,305 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:32:25,307 - INFO - Generated response of length 1515
+2025-04-08 13:32:25,316 - INFO - Processed 40/100 questions
+ 40%|████      | 40/100 [14:27<12:38, 12.64s/it]2025-04-08 13:32:25,340 - INFO - Similarity scores range: min=-0.1387, max=0.8209, mean=0.1181
+2025-04-08 13:32:25,340 - INFO - Selected threshold: 0.4092
+2025-04-08 13:32:25,340 - INFO - Retrieved 7 documents above threshold
+2025-04-08 13:32:25,340 - INFO - Final retrieved document count: 7
+2025-04-08 13:32:25,345 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:32:25,345 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:32:42,659 - INFO - Generated response of length 1981
+ 41%|████      | 41/100 [14:44<13:49, 14.06s/it]2025-04-08 13:32:42,701 - INFO - Similarity scores range: min=-0.0186, max=0.9537, mean=0.2160
+2025-04-08 13:32:42,701 - INFO - Selected threshold: 0.4985
+2025-04-08 13:32:42,701 - INFO - Retrieved 4 documents above threshold
+2025-04-08 13:32:42,701 - INFO - Final retrieved document count: 4
+2025-04-08 13:32:42,706 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:32:42,706 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:32:56,826 - INFO - Generated response of length 2492
+ 42%|████▏     | 42/100 [14:58<13:37, 14.09s/it]2025-04-08 13:32:56,864 - INFO - Similarity scores range: min=-0.1018, max=0.8461, mean=0.1500
+2025-04-08 13:32:56,864 - INFO - Selected threshold: 0.4363
+2025-04-08 13:32:56,865 - INFO - Retrieved 19 documents above threshold
+2025-04-08 13:32:56,865 - INFO - Final retrieved document count: 19
+2025-04-08 13:32:56,872 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:32:56,872 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:33:27,823 - INFO - Generated response of length 952
+ 43%|████▎     | 43/100 [15:29<18:12, 19.16s/it]2025-04-08 13:33:27,855 - INFO - Similarity scores range: min=-0.0619, max=0.9024, mean=0.1918
+2025-04-08 13:33:27,855 - INFO - Selected threshold: 0.5148
+2025-04-08 13:33:27,855 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:33:27,855 - INFO - Final retrieved document count: 1
+2025-04-08 13:33:27,857 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:33:27,857 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:33:39,143 - INFO - Generated response of length 1520
+ 44%|████▍     | 44/100 [15:41<15:41, 16.81s/it]2025-04-08 13:33:39,178 - INFO - Similarity scores range: min=-0.0492, max=0.9504, mean=0.1720
+2025-04-08 13:33:39,178 - INFO - Selected threshold: 0.4860
+2025-04-08 13:33:39,179 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:33:39,179 - INFO - Final retrieved document count: 1
+2025-04-08 13:33:39,181 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:33:39,181 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:33:50,570 - INFO - Generated response of length 1512
+ 45%|████▌     | 45/100 [15:52<13:55, 15.19s/it]2025-04-08 13:33:50,600 - INFO - Similarity scores range: min=-0.0102, max=0.7967, mean=0.2193
+2025-04-08 13:33:50,600 - INFO - Selected threshold: 0.4002
+2025-04-08 13:33:50,601 - INFO - Retrieved 30 documents above threshold
+2025-04-08 13:33:50,601 - INFO - Final retrieved document count: 30
+2025-04-08 13:33:50,611 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:33:50,611 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:34:35,040 - INFO - Generated response of length 1176
+ 46%|████▌     | 46/100 [16:36<21:34, 23.98s/it]2025-04-08 13:34:35,072 - INFO - Similarity scores range: min=-0.0212, max=0.8474, mean=0.2469
+2025-04-08 13:34:35,073 - INFO - Selected threshold: 0.5000
+2025-04-08 13:34:35,073 - INFO - Retrieved 17 documents above threshold
+2025-04-08 13:34:35,073 - INFO - Final retrieved document count: 17
+2025-04-08 13:34:35,078 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:34:35,078 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:35:02,250 - INFO - Generated response of length 2172
+ 47%|████▋     | 47/100 [17:04<22:02, 24.95s/it]2025-04-08 13:35:02,284 - INFO - Similarity scores range: min=-0.0483, max=0.8768, mean=0.2199
+2025-04-08 13:35:02,285 - INFO - Selected threshold: 0.4622
+2025-04-08 13:35:02,285 - INFO - Retrieved 23 documents above threshold
+2025-04-08 13:35:02,285 - INFO - Final retrieved document count: 23
+2025-04-08 13:35:02,291 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:35:02,291 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:35:32,280 - INFO - Generated response of length 1614
+ 48%|████▊     | 48/100 [17:34<22:56, 26.47s/it]2025-04-08 13:35:32,313 - INFO - Similarity scores range: min=-0.0842, max=0.8905, mean=0.1918
+2025-04-08 13:35:32,314 - INFO - Selected threshold: 0.4200
+2025-04-08 13:35:32,314 - INFO - Retrieved 9 documents above threshold
+2025-04-08 13:35:32,314 - INFO - Final retrieved document count: 9
+2025-04-08 13:35:32,319 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:35:32,319 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:35:50,232 - INFO - Generated response of length 1881
+ 49%|████▉     | 49/100 [17:52<20:19, 23.92s/it]2025-04-08 13:35:50,267 - INFO - Similarity scores range: min=-0.1121, max=0.9041, mean=0.2078
+2025-04-08 13:35:50,267 - INFO - Selected threshold: 0.5557
+2025-04-08 13:35:50,268 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:35:50,268 - INFO - Final retrieved document count: 1
+2025-04-08 13:35:50,270 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:35:50,270 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:36:01,774 - INFO - Generated response of length 1552
+2025-04-08 13:36:01,789 - INFO - Processed 50/100 questions
+ 50%|█████     | 50/100 [18:03<16:50, 20.21s/it]2025-04-08 13:36:01,813 - INFO - Similarity scores range: min=0.0217, max=0.9203, mean=0.2602
+2025-04-08 13:36:01,813 - INFO - Selected threshold: 0.5727
+2025-04-08 13:36:01,813 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:36:01,813 - INFO - Final retrieved document count: 1
+2025-04-08 13:36:01,815 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:36:01,815 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:36:13,321 - INFO - Generated response of length 2674
+ 51%|█████     | 51/100 [18:15<14:22, 17.61s/it]2025-04-08 13:36:13,352 - INFO - Similarity scores range: min=-0.0525, max=0.9439, mean=0.1882
+2025-04-08 13:36:13,352 - INFO - Selected threshold: 0.3827
+2025-04-08 13:36:13,353 - INFO - Retrieved 17 documents above threshold
+2025-04-08 13:36:13,353 - INFO - Final retrieved document count: 17
+2025-04-08 13:36:13,359 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:36:13,360 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:36:40,930 - INFO - Generated response of length 1217
+ 52%|█████▏    | 52/100 [18:42<16:29, 20.61s/it]2025-04-08 13:36:40,961 - INFO - Similarity scores range: min=-0.0398, max=0.8995, mean=0.1715
+2025-04-08 13:36:40,961 - INFO - Selected threshold: 0.3906
+2025-04-08 13:36:40,962 - INFO - Retrieved 18 documents above threshold
+2025-04-08 13:36:40,962 - INFO - Final retrieved document count: 18
+2025-04-08 13:36:40,969 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:36:40,969 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:37:17,287 - INFO - Generated response of length 1939
+ 53%|█████▎    | 53/100 [19:19<19:50, 25.33s/it]2025-04-08 13:37:17,322 - INFO - Similarity scores range: min=-0.0224, max=0.8959, mean=0.2129
+2025-04-08 13:37:17,322 - INFO - Selected threshold: 0.7040
+2025-04-08 13:37:17,323 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:37:17,323 - INFO - Final retrieved document count: 1
+2025-04-08 13:37:17,324 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:37:17,324 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:37:28,449 - INFO - Generated response of length 1291
+ 54%|█████▍    | 54/100 [19:30<16:09, 21.08s/it]2025-04-08 13:37:28,481 - INFO - Similarity scores range: min=-0.0191, max=0.9101, mean=0.2615
+2025-04-08 13:37:28,481 - INFO - Selected threshold: 0.5003
+2025-04-08 13:37:28,481 - INFO - Retrieved 7 documents above threshold
+2025-04-08 13:37:28,481 - INFO - Final retrieved document count: 7
+2025-04-08 13:37:28,488 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:37:28,488 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:37:49,722 - INFO - Generated response of length 1843
+ 55%|█████▌    | 55/100 [19:51<15:51, 21.14s/it]2025-04-08 13:37:49,761 - INFO - Similarity scores range: min=-0.1649, max=0.9310, mean=0.0415
+2025-04-08 13:37:49,761 - INFO - Selected threshold: 0.3990
+2025-04-08 13:37:49,761 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:37:49,761 - INFO - Final retrieved document count: 1
+2025-04-08 13:37:49,763 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:37:49,763 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:38:00,816 - INFO - Generated response of length 1189
+ 56%|█████▌    | 56/100 [20:02<13:17, 18.12s/it]2025-04-08 13:38:00,845 - INFO - Similarity scores range: min=-0.0776, max=0.8909, mean=0.1923
+2025-04-08 13:38:00,846 - INFO - Selected threshold: 0.5286
+2025-04-08 13:38:00,846 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:38:00,846 - INFO - Final retrieved document count: 1
+2025-04-08 13:38:00,849 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:38:00,849 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:38:10,775 - INFO - Generated response of length 1727
+ 57%|█████▋    | 57/100 [20:12<11:14, 15.68s/it]2025-04-08 13:38:10,807 - INFO - Similarity scores range: min=-0.0700, max=0.9475, mean=0.1718
+2025-04-08 13:38:10,807 - INFO - Selected threshold: 0.5873
+2025-04-08 13:38:10,807 - INFO - Retrieved 2 documents above threshold
+2025-04-08 13:38:10,807 - INFO - Final retrieved document count: 2
+2025-04-08 13:38:10,809 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:38:10,809 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:38:22,694 - INFO - Generated response of length 1500
+ 58%|█████▊    | 58/100 [20:24<10:11, 14.55s/it]2025-04-08 13:38:22,725 - INFO - Similarity scores range: min=-0.0254, max=0.9192, mean=0.1959
+2025-04-08 13:38:22,725 - INFO - Selected threshold: 0.5264
+2025-04-08 13:38:22,725 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:38:22,725 - INFO - Final retrieved document count: 1
+2025-04-08 13:38:22,729 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:38:22,729 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:38:34,465 - INFO - Generated response of length 1374
+ 59%|█████▉    | 59/100 [20:36<09:22, 13.71s/it]2025-04-08 13:38:34,496 - INFO - Similarity scores range: min=-0.0809, max=0.9477, mean=0.1789
+2025-04-08 13:38:34,496 - INFO - Selected threshold: 0.3748
+2025-04-08 13:38:34,496 - INFO - Retrieved 43 documents above threshold
+2025-04-08 13:38:34,497 - INFO - Final retrieved document count: 30
+2025-04-08 13:38:34,506 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:38:34,506 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:39:19,177 - INFO - Generated response of length 1397
+2025-04-08 13:39:19,193 - INFO - Processed 60/100 questions
+ 60%|██████    | 60/100 [21:21<15:20, 23.02s/it]2025-04-08 13:39:19,217 - INFO - Similarity scores range: min=-0.0172, max=0.8654, mean=0.2641
+2025-04-08 13:39:19,218 - INFO - Selected threshold: 0.6161
+2025-04-08 13:39:19,218 - INFO - Retrieved 10 documents above threshold
+2025-04-08 13:39:19,218 - INFO - Final retrieved document count: 10
+2025-04-08 13:39:19,223 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:39:19,223 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:39:40,114 - INFO - Generated response of length 1763
+ 61%|██████    | 61/100 [21:42<14:33, 22.39s/it]2025-04-08 13:39:40,146 - INFO - Similarity scores range: min=-0.0964, max=0.8367, mean=0.2036
+2025-04-08 13:39:40,147 - INFO - Selected threshold: 0.6626
+2025-04-08 13:39:40,147 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:39:40,147 - INFO - Final retrieved document count: 1
+2025-04-08 13:39:40,149 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:39:40,149 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:39:51,487 - INFO - Generated response of length 1319
+ 62%|██████▏   | 62/100 [21:53<12:05, 19.09s/it]2025-04-08 13:39:51,521 - INFO - Similarity scores range: min=-0.1120, max=0.9248, mean=0.1477
+2025-04-08 13:39:51,521 - INFO - Selected threshold: 0.4545
+2025-04-08 13:39:51,522 - INFO - Retrieved 14 documents above threshold
+2025-04-08 13:39:51,522 - INFO - Final retrieved document count: 14
+2025-04-08 13:39:51,529 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:39:51,529 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:40:20,491 - INFO - Generated response of length 1757
+ 63%|██████▎   | 63/100 [22:22<13:36, 22.06s/it]2025-04-08 13:40:20,534 - INFO - Similarity scores range: min=-0.1284, max=0.9184, mean=0.1409
+2025-04-08 13:40:20,535 - INFO - Selected threshold: 0.3720
+2025-04-08 13:40:20,535 - INFO - Retrieved 5 documents above threshold
+2025-04-08 13:40:20,535 - INFO - Final retrieved document count: 5
+2025-04-08 13:40:20,542 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:40:20,542 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:40:36,135 - INFO - Generated response of length 1332
+ 64%|██████▍   | 64/100 [22:38<12:04, 20.14s/it]2025-04-08 13:40:36,168 - INFO - Similarity scores range: min=-0.0618, max=0.9816, mean=0.2381
+2025-04-08 13:40:36,168 - INFO - Selected threshold: 0.5799
+2025-04-08 13:40:36,168 - INFO - Retrieved 3 documents above threshold
+2025-04-08 13:40:36,168 - INFO - Final retrieved document count: 3
+2025-04-08 13:40:36,171 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:40:36,172 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:40:50,214 - INFO - Generated response of length 2038
+ 65%|██████▌   | 65/100 [22:52<10:41, 18.32s/it]2025-04-08 13:40:50,253 - INFO - Similarity scores range: min=0.0210, max=0.9914, mean=0.2789
+2025-04-08 13:40:50,254 - INFO - Selected threshold: 0.4983
+2025-04-08 13:40:50,255 - INFO - Retrieved 22 documents above threshold
+2025-04-08 13:40:50,255 - INFO - Final retrieved document count: 22
+2025-04-08 13:40:50,265 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:40:50,265 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:42:09,311 - INFO - Generated response of length 1735
+ 66%|██████▌   | 66/100 [24:11<20:42, 36.55s/it]2025-04-08 13:42:09,354 - INFO - Similarity scores range: min=-0.0545, max=0.9095, mean=0.2558
+2025-04-08 13:42:09,355 - INFO - Selected threshold: 0.5265
+2025-04-08 13:42:09,355 - INFO - Retrieved 15 documents above threshold
+2025-04-08 13:42:09,355 - INFO - Final retrieved document count: 15
+2025-04-08 13:42:09,362 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:42:09,362 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:43:00,098 - INFO - Generated response of length 1530
+ 67%|██████▋   | 67/100 [25:01<22:27, 40.82s/it]2025-04-08 13:43:00,136 - INFO - Similarity scores range: min=-0.1191, max=0.7625, mean=0.0797
+2025-04-08 13:43:00,136 - INFO - Selected threshold: 0.2867
+2025-04-08 13:43:00,137 - INFO - Retrieved 52 documents above threshold
+2025-04-08 13:43:00,137 - INFO - Final retrieved document count: 30
+2025-04-08 13:43:00,145 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:43:00,145 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:44:23,740 - INFO - Generated response of length 2055
+ 68%|██████▊   | 68/100 [26:25<28:37, 53.67s/it]2025-04-08 13:44:23,789 - INFO - Similarity scores range: min=-0.1221, max=0.8735, mean=0.1416
+2025-04-08 13:44:23,790 - INFO - Selected threshold: 0.5668
+2025-04-08 13:44:23,790 - INFO - Retrieved 2 documents above threshold
+2025-04-08 13:44:23,790 - INFO - Final retrieved document count: 2
+2025-04-08 13:44:23,797 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:44:23,797 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:44:48,856 - INFO - Generated response of length 1353
+ 69%|██████▉   | 69/100 [26:50<23:18, 45.10s/it]2025-04-08 13:44:48,889 - INFO - Similarity scores range: min=-0.0972, max=0.8953, mean=0.1313
+2025-04-08 13:44:48,890 - INFO - Selected threshold: 0.3991
+2025-04-08 13:44:48,890 - INFO - Retrieved 7 documents above threshold
+2025-04-08 13:44:48,890 - INFO - Final retrieved document count: 7
+2025-04-08 13:44:48,898 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:44:48,898 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:45:21,983 - INFO - Generated response of length 1299
+2025-04-08 13:45:21,989 - INFO - Processed 70/100 questions
+ 70%|███████   | 70/100 [27:23<20:45, 41.51s/it]2025-04-08 13:45:22,013 - INFO - Similarity scores range: min=-0.1000, max=0.9279, mean=0.2382
+2025-04-08 13:45:22,013 - INFO - Selected threshold: 0.4866
+2025-04-08 13:45:22,014 - INFO - Retrieved 27 documents above threshold
+2025-04-08 13:45:22,014 - INFO - Final retrieved document count: 27
+2025-04-08 13:45:22,023 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:45:22,023 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:46:43,234 - INFO - Generated response of length 1989
+ 71%|███████   | 71/100 [28:45<25:49, 53.43s/it]2025-04-08 13:46:43,278 - INFO - Similarity scores range: min=-0.0626, max=0.8683, mean=0.2071
+2025-04-08 13:46:43,278 - INFO - Selected threshold: 0.4897
+2025-04-08 13:46:43,278 - INFO - Retrieved 6 documents above threshold
+2025-04-08 13:46:43,278 - INFO - Final retrieved document count: 6
+2025-04-08 13:46:43,285 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:46:43,285 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:47:15,757 - INFO - Generated response of length 1400
+ 72%|███████▏  | 72/100 [29:17<22:00, 47.16s/it]2025-04-08 13:47:15,800 - INFO - Similarity scores range: min=-0.0530, max=0.9138, mean=0.1962
+2025-04-08 13:47:15,800 - INFO - Selected threshold: 0.4309
+2025-04-08 13:47:15,801 - INFO - Retrieved 20 documents above threshold
+2025-04-08 13:47:15,801 - INFO - Final retrieved document count: 20
+2025-04-08 13:47:15,809 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:47:15,809 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:48:22,015 - INFO - Generated response of length 1610
+ 73%|███████▎  | 73/100 [30:23<23:48, 52.89s/it]2025-04-08 13:48:22,055 - INFO - Similarity scores range: min=-0.0475, max=0.8623, mean=0.1983
+2025-04-08 13:48:22,055 - INFO - Selected threshold: 0.3643
+2025-04-08 13:48:22,056 - INFO - Retrieved 43 documents above threshold
+2025-04-08 13:48:22,056 - INFO - Final retrieved document count: 30
+2025-04-08 13:48:22,065 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:48:22,065 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:49:47,571 - INFO - Generated response of length 1168
+ 74%|███████▍  | 74/100 [31:49<27:09, 62.69s/it]2025-04-08 13:49:47,610 - INFO - Similarity scores range: min=-0.0732, max=0.8862, mean=0.1788
+2025-04-08 13:49:47,610 - INFO - Selected threshold: 0.7513
+2025-04-08 13:49:47,611 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:49:47,611 - INFO - Final retrieved document count: 1
+2025-04-08 13:49:47,615 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:49:47,615 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:50:11,914 - INFO - Generated response of length 1387
+ 75%|███████▌  | 75/100 [32:13<21:19, 51.19s/it]2025-04-08 13:50:11,960 - INFO - Similarity scores range: min=-0.0866, max=0.8990, mean=0.1537
+2025-04-08 13:50:11,960 - INFO - Selected threshold: 0.5003
+2025-04-08 13:50:11,960 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:50:11,960 - INFO - Final retrieved document count: 1
+2025-04-08 13:50:11,968 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:50:11,968 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:50:35,449 - INFO - Generated response of length 2628
+ 76%|███████▌  | 76/100 [32:37<17:09, 42.89s/it]2025-04-08 13:50:35,508 - INFO - Similarity scores range: min=-0.1189, max=0.9161, mean=0.1449
+2025-04-08 13:50:35,508 - INFO - Selected threshold: 0.4919
+2025-04-08 13:50:35,509 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:50:35,509 - INFO - Final retrieved document count: 1
+2025-04-08 13:50:35,513 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:50:35,513 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:50:58,457 - INFO - Generated response of length 1556
+ 77%|███████▋  | 77/100 [33:00<14:09, 36.92s/it]2025-04-08 13:50:58,496 - INFO - Similarity scores range: min=-0.1124, max=0.8555, mean=0.1102
+2025-04-08 13:50:58,497 - INFO - Selected threshold: 0.3422
+2025-04-08 13:50:58,497 - INFO - Retrieved 20 documents above threshold
+2025-04-08 13:50:58,497 - INFO - Final retrieved document count: 20
+2025-04-08 13:50:58,506 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:50:58,506 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:52:04,882 - INFO - Generated response of length 1429
+ 78%|███████▊  | 78/100 [34:06<16:47, 45.77s/it]2025-04-08 13:52:04,920 - INFO - Similarity scores range: min=-0.0577, max=0.9382, mean=0.2252
+2025-04-08 13:52:04,920 - INFO - Selected threshold: 0.4950
+2025-04-08 13:52:04,921 - INFO - Retrieved 31 documents above threshold
+2025-04-08 13:52:04,921 - INFO - Final retrieved document count: 30
+2025-04-08 13:52:04,931 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:52:04,931 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:53:28,543 - INFO - Generated response of length 1721
+ 79%|███████▉  | 79/100 [35:30<19:59, 57.14s/it]2025-04-08 13:53:28,581 - INFO - Similarity scores range: min=-0.0741, max=0.8530, mean=0.1514
+2025-04-08 13:53:28,581 - INFO - Selected threshold: 0.4117
+2025-04-08 13:53:28,582 - INFO - Retrieved 27 documents above threshold
+2025-04-08 13:53:28,582 - INFO - Final retrieved document count: 27
+2025-04-08 13:53:28,590 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:53:28,590 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:54:46,041 - INFO - Generated response of length 2363
+2025-04-08 13:54:46,056 - INFO - Processed 80/100 questions
+ 80%|████████  | 80/100 [36:47<21:04, 63.25s/it]2025-04-08 13:54:46,083 - INFO - Similarity scores range: min=-0.0756, max=0.8850, mean=0.2492
+2025-04-08 13:54:46,083 - INFO - Selected threshold: 0.5622
+2025-04-08 13:54:46,084 - INFO - Retrieved 2 documents above threshold
+2025-04-08 13:54:46,084 - INFO - Final retrieved document count: 2
+2025-04-08 13:54:46,090 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:54:46,090 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:55:10,316 - INFO - Generated response of length 1281
+ 81%|████████  | 81/100 [37:12<16:19, 51.55s/it]2025-04-08 13:55:10,354 - INFO - Similarity scores range: min=-0.0893, max=0.8952, mean=0.1884
+2025-04-08 13:55:10,354 - INFO - Selected threshold: 0.3853
+2025-04-08 13:55:10,355 - INFO - Retrieved 38 documents above threshold
+2025-04-08 13:55:10,355 - INFO - Final retrieved document count: 30
+2025-04-08 13:55:10,365 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:55:10,365 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:56:35,468 - INFO - Generated response of length 1564
+ 82%|████████▏ | 82/100 [38:37<18:29, 61.63s/it]2025-04-08 13:56:35,508 - INFO - Similarity scores range: min=-0.0277, max=0.9143, mean=0.2050
+2025-04-08 13:56:35,508 - INFO - Selected threshold: 0.5194
+2025-04-08 13:56:35,508 - INFO - Retrieved 5 documents above threshold
+2025-04-08 13:56:35,508 - INFO - Final retrieved document count: 5
+2025-04-08 13:56:35,513 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:56:35,513 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:57:07,506 - INFO - Generated response of length 1436
+ 83%|████████▎ | 83/100 [39:09<14:56, 52.76s/it]2025-04-08 13:57:07,551 - INFO - Similarity scores range: min=-0.0283, max=0.9604, mean=0.1930
+2025-04-08 13:57:07,551 - INFO - Selected threshold: 0.4936
+2025-04-08 13:57:07,552 - INFO - Retrieved 20 documents above threshold
+2025-04-08 13:57:07,552 - INFO - Final retrieved document count: 20
+2025-04-08 13:57:07,559 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:57:07,559 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:58:06,300 - INFO - Generated response of length 1979
+ 84%|████████▍ | 84/100 [40:08<14:33, 54.57s/it]2025-04-08 13:58:06,340 - INFO - Similarity scores range: min=-0.0940, max=0.8559, mean=0.1752
+2025-04-08 13:58:06,340 - INFO - Selected threshold: 0.5898
+2025-04-08 13:58:06,340 - INFO - Retrieved 1 documents above threshold
+2025-04-08 13:58:06,341 - INFO - Final retrieved document count: 1
+2025-04-08 13:58:06,348 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:58:06,348 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:58:30,309 - INFO - Generated response of length 1999
+ 85%|████████▌ | 85/100 [40:32<11:20, 45.40s/it]2025-04-08 13:58:30,351 - INFO - Similarity scores range: min=-0.0767, max=0.9090, mean=0.1985
+2025-04-08 13:58:30,351 - INFO - Selected threshold: 0.4502
+2025-04-08 13:58:30,351 - INFO - Retrieved 25 documents above threshold
+2025-04-08 13:58:30,351 - INFO - Final retrieved document count: 25
+2025-04-08 13:58:30,360 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:58:30,360 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 13:59:44,718 - INFO - Generated response of length 1523
+ 86%|████████▌ | 86/100 [41:46<12:37, 54.10s/it]2025-04-08 13:59:44,754 - INFO - Similarity scores range: min=-0.0337, max=0.9310, mean=0.2430
+2025-04-08 13:59:44,754 - INFO - Selected threshold: 0.4711
+2025-04-08 13:59:44,755 - INFO - Retrieved 19 documents above threshold
+2025-04-08 13:59:44,755 - INFO - Final retrieved document count: 19
+2025-04-08 13:59:44,764 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 13:59:44,764 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 14:00:59,158 - INFO - Generated response of length 1587
+ 87%|████████▋ | 87/100 [43:01<13:02, 60.20s/it]2025-04-08 14:00:59,201 - INFO - Similarity scores range: min=-0.0765, max=0.8873, mean=0.2443
+2025-04-08 14:00:59,202 - INFO - Selected threshold: 0.5227
+2025-04-08 14:00:59,202 - INFO - Retrieved 19 documents above threshold
+2025-04-08 14:00:59,202 - INFO - Final retrieved document count: 19
+2025-04-08 14:00:59,209 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 14:00:59,209 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 14:01:38,376 - INFO - Generated response of length 1561
+ 88%|████████▊ | 88/100 [43:40<10:46, 53.91s/it]2025-04-08 14:01:38,415 - INFO - Similarity scores range: min=-0.1093, max=0.8488, mean=0.1601
+2025-04-08 14:01:38,416 - INFO - Selected threshold: 0.4611
+2025-04-08 14:01:38,416 - INFO - Retrieved 16 documents above threshold
+2025-04-08 14:01:38,416 - INFO - Final retrieved document count: 16
+2025-04-08 14:01:38,424 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 14:01:38,424 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 14:02:35,789 - INFO - Generated response of length 1635
+ 89%|████████▉ | 89/100 [44:37<10:04, 54.96s/it]2025-04-08 14:02:35,827 - INFO - Similarity scores range: min=-0.0827, max=0.9021, mean=0.2146
+2025-04-08 14:02:35,827 - INFO - Selected threshold: 0.5144
+2025-04-08 14:02:35,827 - INFO - Retrieved 1 documents above threshold
+2025-04-08 14:02:35,827 - INFO - Final retrieved document count: 1
+2025-04-08 14:02:35,835 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 14:02:35,835 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 14:02:59,831 - INFO - Generated response of length 1364
+2025-04-08 14:02:59,841 - INFO - Processed 90/100 questions
+ 90%|█████████ | 90/100 [45:01<07:36, 45.68s/it]2025-04-08 14:02:59,872 - INFO - Similarity scores range: min=-0.1361, max=0.8237, mean=0.1182
+2025-04-08 14:02:59,873 - INFO - Selected threshold: 0.5984
+2025-04-08 14:02:59,873 - INFO - Retrieved 1 documents above threshold
+2025-04-08 14:02:59,873 - INFO - Final retrieved document count: 1
+2025-04-08 14:02:59,878 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 14:02:59,878 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 14:03:23,414 - INFO - Generated response of length 1210
+ 91%|█████████ | 91/100 [45:25<05:51, 39.05s/it]2025-04-08 14:03:23,458 - INFO - Similarity scores range: min=-0.1583, max=0.8453, mean=0.1049
+2025-04-08 14:03:23,458 - INFO - Selected threshold: 0.5356
+2025-04-08 14:03:23,458 - INFO - Retrieved 1 documents above threshold
+2025-04-08 14:03:23,458 - INFO - Final retrieved document count: 1
+2025-04-08 14:03:23,466 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 14:03:23,466 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 14:03:47,203 - INFO - Generated response of length 1460
+ 92%|█████████▏| 92/100 [45:49<04:35, 34.47s/it]2025-04-08 14:03:47,245 - INFO - Similarity scores range: min=-0.0696, max=0.9587, mean=0.1709
+2025-04-08 14:03:47,246 - INFO - Selected threshold: 0.5942
+2025-04-08 14:03:47,246 - INFO - Retrieved 1 documents above threshold
+2025-04-08 14:03:47,246 - INFO - Final retrieved document count: 1
+2025-04-08 14:03:47,252 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 14:03:47,252 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 14:03:47,786 - INFO - Generated response of length 38
+ 93%|█████████▎| 93/100 [45:49<02:50, 24.30s/it]2025-04-08 14:03:47,820 - INFO - Similarity scores range: min=-0.0844, max=0.8544, mean=0.1475
+2025-04-08 14:03:47,820 - INFO - Selected threshold: 0.5102
+2025-04-08 14:03:47,820 - INFO - Retrieved 5 documents above threshold
+2025-04-08 14:03:47,820 - INFO - Final retrieved document count: 5
+2025-04-08 14:03:47,829 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 14:03:47,829 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 14:04:12,559 - INFO - Generated response of length 1607
+ 94%|█████████▍| 94/100 [46:14<02:26, 24.45s/it]2025-04-08 14:04:12,596 - INFO - Similarity scores range: min=-0.1421, max=0.8959, mean=0.1014
+2025-04-08 14:04:12,596 - INFO - Selected threshold: 0.4764
+2025-04-08 14:04:12,597 - INFO - Retrieved 1 documents above threshold
+2025-04-08 14:04:12,597 - INFO - Final retrieved document count: 1
+2025-04-08 14:04:12,600 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 14:04:12,600 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 14:04:25,098 - INFO - Generated response of length 1138
+ 95%|█████████▌| 95/100 [46:26<01:44, 20.88s/it]2025-04-08 14:04:25,136 - INFO - Similarity scores range: min=-0.1323, max=0.9226, mean=0.1299
+2025-04-08 14:04:25,137 - INFO - Selected threshold: 0.5771
+2025-04-08 14:04:25,137 - INFO - Retrieved 1 documents above threshold
+2025-04-08 14:04:25,137 - INFO - Final retrieved document count: 1
+2025-04-08 14:04:25,142 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 14:04:25,142 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 14:04:48,297 - INFO - Generated response of length 1859
+ 96%|█████████▌| 96/100 [46:50<01:26, 21.57s/it]2025-04-08 14:04:48,336 - INFO - Similarity scores range: min=-0.0470, max=0.9305, mean=0.2597
+2025-04-08 14:04:48,336 - INFO - Selected threshold: 0.5632
+2025-04-08 14:04:48,337 - INFO - Retrieved 16 documents above threshold
+2025-04-08 14:04:48,337 - INFO - Final retrieved document count: 16
+2025-04-08 14:04:48,345 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 14:04:48,345 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 14:06:11,552 - INFO - Generated response of length 1404
+ 97%|█████████▋| 97/100 [48:13<02:00, 40.08s/it]2025-04-08 14:06:11,585 - INFO - Similarity scores range: min=-0.0681, max=0.9402, mean=0.2475
+2025-04-08 14:06:11,585 - INFO - Selected threshold: 0.5152
+2025-04-08 14:06:11,586 - INFO - Retrieved 10 documents above threshold
+2025-04-08 14:06:11,586 - INFO - Final retrieved document count: 10
+2025-04-08 14:06:11,594 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 14:06:11,594 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 14:06:54,434 - INFO - Generated response of length 1984
+ 98%|█████████▊| 98/100 [48:56<01:21, 40.92s/it]2025-04-08 14:06:54,473 - INFO - Similarity scores range: min=-0.0257, max=0.8700, mean=0.2189
+2025-04-08 14:06:54,473 - INFO - Selected threshold: 0.4125
+2025-04-08 14:06:54,473 - INFO - Retrieved 31 documents above threshold
+2025-04-08 14:06:54,474 - INFO - Final retrieved document count: 30
+2025-04-08 14:06:54,484 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 14:06:54,484 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 14:08:16,529 - INFO - Generated response of length 2010
+ 99%|█████████▉| 99/100 [50:18<00:53, 53.27s/it]2025-04-08 14:08:16,569 - INFO - Similarity scores range: min=-0.0530, max=0.8699, mean=0.2396
+2025-04-08 14:08:16,570 - INFO - Selected threshold: 0.4967
+2025-04-08 14:08:16,570 - INFO - Retrieved 21 documents above threshold
+2025-04-08 14:08:16,570 - INFO - Final retrieved document count: 21
+2025-04-08 14:08:16,581 - INFO - DPLogitsAggregator initialized with: alpha=0.1, omega=0.2, epsilon=0.5, token_epsilon=0.009765625
+2025-04-08 14:08:16,581 - INFO - Generating response with 512 max tokens
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+2025-04-08 14:09:51,858 - INFO - Generated response of length 1601
+2025-04-08 14:09:51,866 - INFO - Processed 100/100 questions
+100%|██████████| 100/100 [51:53<00:00, 65.89s/it]100%|██████████| 100/100 [51:53<00:00, 31.14s/it]
+2025-04-08 14:09:51,877 - INFO - Evaluation completed. Results saved to outputs/dp_rag
+2025-04-08 14:09:51,877 - INFO - ROUGE-1: 0.1270
+2025-04-08 14:09:51,877 - INFO - ROUGE-2: 0.0050
+2025-04-08 14:09:51,877 - INFO - ROUGE-L: 0.0634
+2025-04-08 14:09:51,877 - INFO - BLEU-1: 0.0957
+2025-04-08 14:09:51,877 - INFO - Privacy budget (ε): 1.0
+2025-04-08 14:09:51,877 - INFO -   - Retrieval: 0.5
+2025-04-08 14:09:51,877 - INFO -   - Generation: 0.5
