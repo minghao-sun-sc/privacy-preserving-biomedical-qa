@@ -1,0 +1,29 @@
+nohup: ignoring input
+
+Compiling performance results...
+
+Compiling privacy attack results...
+
+Generating plots...
+Performance plot saved to: RAG-SAGE/outputs/plots/chat_1k_performance.png
+Privacy plot saved to: RAG-SAGE/outputs/plots/chat_1k_privacy.png
+
+================================================================================
+Performance Results for chat_1k
+================================================================================
+| Metric   |   Baseline |    RAG |   SAGE |
+|:---------|-----------:|-------:|-------:|
+| ROUGE1   |     0.1754 | 0.2263 | 0.1913 |
+| ROUGE2   |     0.024  | 0.0728 | 0.0362 |
+| ROUGEL   |     0.0972 | 0.1464 | 0.1082 |
+
+================================================================================
+Privacy Attack Results
+================================================================================
+| Attack Type       | RAG         | SAGE        |
+|:------------------|:------------|:------------|
+| Untargeted Attack | 0.00 (0/10) | 0.00 (0/10) |
+| Targeted Attack   | 0.00 (0/10) | 0.00 (0/10) |
+| Avg. ROUGE-L      | 0.1623      | 0.1537      |
+
+Results saved to: RAG-SAGE/outputs/results/chat_1k_results.txt

@@ -1,0 +1,16 @@
+nohup: ignoring input
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/dp_rag_llama.py:14: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+Traceback (most recent call last):
+  File "/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/dp_rag_llama.py", line 427, in <module>
+    evaluate_dp_rag(args) 
+  File "/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/dp_rag_llama.py", line 317, in evaluate_dp_rag
+    with open(contexts_path, 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'RAG-SAGE/context/context-chat_1k.json'

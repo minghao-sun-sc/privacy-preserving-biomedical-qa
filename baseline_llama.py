@@ -5,6 +5,8 @@ import argparse
 from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from rouge_score import rouge_scorer
+import nltk
+from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Baseline LLaMA-2 evaluation without RAG')
@@ -45,6 +47,28 @@ def get_llama_response(model, tokenizer, prompt, max_new_tokens=512):
     
     return response
 
+def compute_bleu_1(reference, hypothesis):
+    """Compute BLEU-1 score between reference and hypothesis"""
+    try:
+        # Download NLTK data if needed
+        try:
+            nltk.data.find('tokenizers/punkt')
+        except LookupError:
+            nltk.download('punkt')
+        
+        # Tokenize reference and hypothesis
+        reference_tokens = nltk.word_tokenize(reference.lower())
+        hypothesis_tokens = nltk.word_tokenize(hypothesis.lower())
+        
+        # Calculate BLEU-1 score with smoothing
+        smoothing = SmoothingFunction().method1
+        bleu_1 = sentence_bleu([reference_tokens], hypothesis_tokens, weights=(1, 0, 0, 0), smoothing_function=smoothing)
+        
+        return bleu_1
+    except Exception as e:
+        print(f"Error computing BLEU-1: {e}")
+        return 0.0
+
 def evaluate_model(args):
     # Load test questions and ground truth
     questions_path = f'RAG-SAGE/questions/per-{args.dataset_name}-question.json'
@@ -73,10 +97,11 @@ def evaluate_model(args):
     scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=True)
     
     # Prepare for results
-    results_dir = 'RAG-SAGE/outputs/baseline'
+    results_dir = 'outputs/baseline'
     os.makedirs(results_dir, exist_ok=True)
     outputs = []
     rouge_scores = {'rouge1': 0, 'rouge2': 0, 'rougeL': 0}
+    bleu_1_score = 0
     
     # Evaluate on test questions
     print(f"Evaluating on {len(questions)} test questions...")
@@ -89,24 +114,35 @@ def evaluate_model(args):
         for key in rouge_scores:
             rouge_scores[key] += scores[key].fmeasure
         
+        # Calculate BLEU-1 score
+        bleu_1 = compute_bleu_1(truth, response)
+        bleu_1_score += bleu_1
+        
         # Save response
         outputs.append(response)
     
-    # Calculate average ROUGE scores
+    # Calculate average scores
     for key in rouge_scores:
         rouge_scores[key] /= len(questions)
+    
+    bleu_1_score /= len(questions)
+    
+    # Add BLEU-1 to scores
+    scores_with_bleu = rouge_scores.copy()
+    scores_with_bleu['bleu_1'] = bleu_1_score
     
     # Save results
     with open(f'{results_dir}/{args.dataset_name}_baseline_outputs.json', 'w', encoding='utf-8') as f:
         json.dump(outputs, f, ensure_ascii=False, indent=2)
     
     with open(f'{results_dir}/{args.dataset_name}_baseline_scores.json', 'w', encoding='utf-8') as f:
-        json.dump(rouge_scores, f, ensure_ascii=False, indent=2)
+        json.dump(scores_with_bleu, f, ensure_ascii=False, indent=2)
     
     print(f"Evaluation completed. Results saved to {results_dir}")
     print(f"ROUGE-1: {rouge_scores['rouge1']:.4f}")
     print(f"ROUGE-2: {rouge_scores['rouge2']:.4f}")
     print(f"ROUGE-L: {rouge_scores['rougeL']:.4f}")
+    print(f"BLEU-1: {bleu_1_score:.4f}")
 
 if __name__ == "__main__":
     args = parse_args()

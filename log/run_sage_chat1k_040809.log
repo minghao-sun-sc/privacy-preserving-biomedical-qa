@@ -1,0 +1,15 @@
+nohup: ignoring input
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/sage_llama.py:44: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFaceEmbeddings``.
+  return HuggingFaceEmbeddings(
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/sage_llama.py:67: LangChainDeprecationWarning: The class `Chroma` was deprecated in LangChain 0.2.9 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-chroma package and should be used instead. To use it run `pip install -U :class:`~langchain-chroma` and import as `from :class:`~langchain_chroma import Chroma``.
+  retrieval_database = Chroma(
+Using context file from: context/chat_1k-context.json
+Using device for main model: cuda:0
+Using device for synthetic data generation: cuda:0
+Loading retrieval database for chat_1k with bge-large-en-v1.5...
+Loading model: meta-llama/Llama-2-7b-chat-hf
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.49s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.11it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.01it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.39s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.17it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.07it/s]
+Evaluating on 100 test questions...
+  0%|          | 0/100 [00:00<?, ?it/s]The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+  1%|          | 1/100 [00:21<35:07, 21.29s/it]  2%|▏         | 2/100 [00:40<32:55, 20.16s/it]  3%|▎         | 3/100 [00:56<29:19, 18.13s/it]  4%|▍         | 4/100 [01:15<29:22, 18.36s/it]  5%|▌         | 5/100 [01:41<33:40, 21.27s/it]  6%|▌         | 6/100 [02:02<33:15, 21.23s/it]  7%|▋         | 7/100 [02:25<33:31, 21.63s/it]  8%|▊         | 8/100 [02:39<29:31, 19.25s/it]  9%|▉         | 9/100 [03:04<32:07, 21.18s/it] 10%|█         | 10/100 [03:22<30:05, 20.06s/it]
