@@ -189,7 +189,7 @@ def calculate_privacy_impact_score(privacy_dfs, model):
                 if isinstance(repeat_contexts, pd.Series):
                     repeat_contexts = repeat_contexts.iloc[0]
                 # Normalize by number of prompts (assuming repeat_contexts can't exceed num_prompts)
-                score += (repeat_contexts / 500) * 100
+                score += (repeat_contexts / 50) * 100
                 count += 1
     
     # Average the scores

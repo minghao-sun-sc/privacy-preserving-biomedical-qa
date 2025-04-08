@@ -79,7 +79,8 @@ def run_experiment(experiment, args):
                 "--dataset_name", args.dataset,
                 "--gpu_id", str(args.gpu_id),
                 "--max_new_tokens", str(args.max_new_tokens),
-                "--k", str(args.k)
+                "--k", str(args.k),
+                "--embedding_model", "BAAI/bge-large-en-v1.5"
             ]
         elif experiment == 'sage':
             cmd = [
@@ -119,7 +120,8 @@ def run_experiment(experiment, args):
                 "--temperature", "0.7",
                 "--top_p", "0.05",
                 "--alpha", "0.1",
-                "--omega", "0.2"
+                "--omega", "0.2",
+                "--embedding_model_name", "BAAI/bge-large-en-v1.5"
             ]
             if args.debug:
                 cmd.append("--debug")
@@ -132,7 +134,8 @@ def run_experiment(experiment, args):
                 "--max_new_tokens", str(args.max_new_tokens),
                 "--k", str(args.k),
                 "--k_anonymity", "3",
-                "--sanitization_level", "medium"
+                "--sanitization_level", "medium",
+                "--embedding_model_name", "BAAI/bge-large-en-v1.5"
             ]
         else:
             logger.error(f"Unknown experiment: {experiment}")
@@ -163,13 +166,14 @@ def run_privacy_attacks(args):
                 logger.info(f"Running {attack_type} privacy attack on {experiment}...")
                 try:
                     cmd = [
-                        "python", "privacy_attack_500.py",
+                        "python", "privacy_attack_50.py",
                         "--model_name", args.model_name,
                         "--dataset_name", args.dataset,
                         "--gpu_id", str(args.gpu_id),
                         "--max_new_tokens", str(args.max_new_tokens),
                         "--attack_type", attack_type,
-                        "--system_type", experiment
+                        "--system_type", experiment,
+                        "--num_prompts", "50"
                     ]
                     
                     subprocess.run(cmd, check=True)

@@ -15,6 +15,7 @@ from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.docstore.document import Document
+import logging
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Privacy-Preserving RAG with LLaMA-2 evaluation')
@@ -36,12 +37,14 @@ def parse_args():
                         help='Add statistical noise to document embeddings for privacy')
     parser.add_argument('--noise_scale', type=float, default=0.1,
                         help='Scale of noise to add to embeddings (if add_noise is True)')
+    parser.add_argument('--embedding_model_name', type=str, default='BAAI/bge-large-en-v1.5',
+                        help='Embedding model to use for document retrieval')
     return parser.parse_args()
 
 class PrivacyPreservingRetriever:
     """Retriever that implements privacy-preserving techniques for document retrieval"""
     
-    def __init__(self, embedding_model_name="sentence-transformers/all-MiniLM-L6-v2", 
+    def __init__(self, embedding_model_name="BAAI/bge-large-en-v1.5", 
                  k_anonymity=3, add_noise=False, noise_scale=0.1):
         """
         Initialize Privacy-Preserving Retriever
@@ -398,59 +401,65 @@ def compute_bleu_1(reference, hypothesis):
 
 def evaluate_pp_rag(args):
     """
-    Evaluate Privacy-Preserving RAG model
+    Evaluate the PP-RAG model on a dataset
     
     Args:
         args: Command-line arguments
     """
-    # Load test questions, ground truth, and contexts
+    # Setup logging
+    logging.basicConfig(level=logging.INFO, 
+                        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                        handlers=[logging.FileHandler(f"pp_rag_{args.dataset_name}.log"),
+                                  logging.StreamHandler()])
+    
+    # Load test questions
     questions_path = f'RAG-SAGE/questions/per-{args.dataset_name}-question.json'
-    truth_path = f'RAG-SAGE/truth/per-{args.dataset_name}-truth.json'
+    with open(questions_path, 'r') as f:
+        questions_data = json.load(f)
     
-    # Try to load context file from both possible locations
-    contexts_path = f'context/{args.dataset_name}-context.json'
-    rag_sage_contexts_path = f'RAG-SAGE/context/{args.dataset_name}-context.json'
+    # Load ground truth
+    truth_path = f'RAG-SAGE/truth/per-{args.dataset_name}-gt.json'
+    with open(truth_path, 'r') as f:
+        ground_truth = json.load(f)
     
-    # Check if the context file exists in either location
-    if os.path.exists(contexts_path):
-        print(f"Using context file from: {contexts_path}")
-        with open(contexts_path, 'r', encoding='utf-8') as f:
-            contexts = json.load(f)
-    elif os.path.exists(rag_sage_contexts_path):
-        print(f"Using context file from: {rag_sage_contexts_path}")
-        with open(rag_sage_contexts_path, 'r', encoding='utf-8') as f:
-            contexts = json.load(f)
-    else:
-        raise FileNotFoundError(f"Context file not found at either {contexts_path} or {rag_sage_contexts_path}. Please run create_context_file.py first.")
+    # Load context files
+    context_found = False
     
-    with open(questions_path, 'r', encoding='utf-8') as f:
-        questions = json.load(f)
+    # First check for context in the dataset-specific directory
+    try:
+        context_path = f'RAG-SAGE/context/{args.dataset_name}_context.json'
+        with open(context_path, 'r') as f:
+            context_data = json.load(f)
+        context_found = True
+        logging.info(f"Loaded context from {context_path}")
+    except FileNotFoundError:
+        # If not found, try the generic context directory
+        try:
+            context_path = f'context/{args.dataset_name}_context.json'
+            with open(context_path, 'r') as f:
+                context_data = json.load(f)
+            context_found = True
+            logging.info(f"Loaded context from {context_path}")
+        except FileNotFoundError:
+            logging.warning(f"Context file not found for dataset {args.dataset_name}")
     
-    with open(truth_path, 'r', encoding='utf-8') as f:
-        ground_truths = json.load(f)
+    if not context_found:
+        raise FileNotFoundError(f"Could not find context file for dataset {args.dataset_name}")
     
-    # Set device
-    device = f'cuda:{args.gpu_id}' if torch.cuda.is_available() else 'cpu'
-    print(f"Using device: {device}")
+    # Set up device
+    device = f"cuda:{args.gpu_id}" if torch.cuda.is_available() else "cpu"
+    logging.info(f"Using device: {device}")
     
-    # Load model and tokenizer
-    print(f"Loading model: {args.model_name}")
-    tokenizer = AutoTokenizer.from_pretrained(args.model_name)
-    model = AutoModelForCausalLM.from_pretrained(
-        args.model_name,
-        torch_dtype=torch.float16,
-        device_map=device
-    )
-    
-    # Initialize privacy-preserving retriever
+    # Initialize Privacy-Preserving Retriever
     retriever = PrivacyPreservingRetriever(
+        embedding_model_name=args.embedding_model_name,
         k_anonymity=args.k_anonymity,
         add_noise=args.add_noise,
         noise_scale=args.noise_scale
     )
     
     # Add contexts to retriever
-    retriever.add_documents(contexts)
+    retriever.add_documents(context_data)
     
     # Initialize document sanitizer
     sanitizer = DocumentSanitizer(level=args.sanitization_level)
@@ -468,8 +477,8 @@ def evaluate_pp_rag(args):
     bleu_1_score = 0
     
     # Evaluate on test questions
-    print(f"Evaluating on {len(questions)} test questions...")
-    for i, (question, truth) in enumerate(tqdm(zip(questions, ground_truths), total=len(questions))):
+    print(f"Evaluating on {len(questions_data)} test questions...")
+    for i, (question, truth) in enumerate(tqdm(zip(questions_data, ground_truth), total=len(questions_data))):
         # Retrieve relevant contexts with privacy preservation
         retrieved_docs = retriever.retrieve(question, k=args.k)
         retrieved_contexts = [doc.page_content for doc in retrieved_docs]
@@ -499,9 +508,9 @@ def evaluate_pp_rag(args):
     
     # Calculate average scores
     for key in rouge_scores:
-        rouge_scores[key] /= len(questions)
+        rouge_scores[key] /= len(questions_data)
     
-    bleu_1_score /= len(questions)
+    bleu_1_score /= len(questions_data)
     
     # Add BLEU-1 to scores
     scores_with_bleu = rouge_scores.copy()

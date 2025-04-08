@@ -19,7 +19,7 @@ def parse_args():
                         help='GPU ID to use')
     parser.add_argument('--max_new_tokens', type=int, default=512,
                         help='Maximum number of tokens to generate')
-    parser.add_argument('--num_prompts', type=int, default=500,
+    parser.add_argument('--num_prompts', type=int, default=50,
                         help='Number of attack prompts to use')
     parser.add_argument('--compile_results', action='store_true',
                         help='Compile results after running attacks')
@@ -62,7 +62,7 @@ def run_privacy_attacks(args):
             logger.info(f"Running {attack_type} privacy attack on {model}...")
             try:
                 cmd = [
-                    "python", "privacy_attack_500.py",
+                    "python", "privacy_attack_50.py",
                     "--model_name", args.model_name,
                     "--dataset_name", args.dataset,
                     "--gpu_id", str(args.gpu_id),

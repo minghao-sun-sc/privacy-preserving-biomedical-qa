@@ -46,6 +46,8 @@ def parse_args():
                         help='Weight for public scores (higher = less private but better quality)')
     parser.add_argument('--differential_privacy', type=bool, default=True,
                         help='Whether to use differential privacy')
+    parser.add_argument('--embedding_model_name', type=str, default='BAAI/bge-large-en-v1.5',
+                        help='Embedding model name for document retrieval')
     parser.add_argument('--debug', action='store_true',
                         help='Enable debug logging')
     return parser.parse_args()
@@ -55,7 +57,7 @@ class PUPVectorStoreConfig:
     
     def __init__(
         self,
-        embedding_model_name="sentence-transformers/all-MiniLM-L6-v2",
+        embedding_model_name="BAAI/bge-large-en-v1.5",
         top_k=None,
         top_p=0.05,
         top_p_alpha=3.0,  # Reduced from 5.0 to select more documents
@@ -592,7 +594,7 @@ def evaluate_dp_rag(args):
     
     # Create configs
     pup_config = PUPVectorStoreConfig(
-        embedding_model_name="sentence-transformers/all-MiniLM-L6-v2",
+        embedding_model_name=args.embedding_model_name,
         top_p=args.top_p,
         top_k=None if args.top_p else args.k,
         epsilon=args.epsilon_retrieval,

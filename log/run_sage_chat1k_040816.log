@@ -1,20 +1,1209 @@
 nohup: ignoring input
-2025-04-08 16:25:47,856 - INFO - Using context file from: context/chat_1k-context.json
-2025-04-08 16:25:47,885 - WARNING - Requested GPU 1 not available. System has 1 GPUs. Using GPU 0 instead.
-2025-04-08 16:25:47,885 - INFO - Using device: cuda:0 for main model, cuda:0 for synthetic generation
-2025-04-08 16:25:47,885 - INFO - System has 1 GPUs available
-2025-04-08 16:25:47,886 - INFO - GPU 0: NVIDIA RTX 6000 Ada Generation
-2025-04-08 16:25:47,886 - INFO - Loading main model: meta-llama/Llama-2-7b-chat-hf
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.46s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.12it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.02it/s]
+2025-04-08 18:30:33,999 - INFO - Using context file from: context/chat_1k-context.json
+2025-04-08 18:30:34,027 - INFO - Using device: cuda:0 for main model, cuda:0 for synthetic generation
+2025-04-08 18:30:34,028 - INFO - System has 1 GPUs available
+2025-04-08 18:30:34,028 - INFO - GPU 0: NVIDIA RTX 6000 Ada Generation
+2025-04-08 18:30:34,029 - INFO - Loading main model: meta-llama/Llama-2-7b-chat-hf
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.50s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.11it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.01it/s]
 /data2/wengxi/cs6207/privacy-preserving-biomedical-qa/sage_llama.py:94: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFaceEmbeddings``.
   return HuggingFaceEmbeddings(
-2025-04-08 16:25:51,011 - INFO - PyTorch version 2.6.0 available.
-2025-04-08 16:25:51,165 - INFO - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
-2025-04-08 16:25:54,498 - INFO - Using default tokenizer.
-2025-04-08 16:25:54,498 - INFO - Evaluating SAGE with two-agent approach
-2025-04-08 16:25:54,498 - INFO - Processing 100 questions...
-  0%|          | 0/100 [00:00<?, ?it/s]2025-04-08 16:26:07,110 - INFO - Generating synthetic data for 5 contexts
+2025-04-08 18:30:37,189 - INFO - PyTorch version 2.6.0 available.
+2025-04-08 18:30:37,338 - INFO - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-04-08 18:30:40,399 - INFO - Using default tokenizer.
+2025-04-08 18:30:40,399 - INFO - Evaluating SAGE with two-agent approach
+2025-04-08 18:30:40,399 - INFO - Processing 100 questions...
+  0%|          | 0/100 [00:00<?, ?it/s]2025-04-08 18:30:52,641 - INFO - Generating synthetic data for 5 contexts
 
-Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 16:26:07,110 - INFO - Extracting attributes from context
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 18:30:52,641 - INFO - Extracting attributes from context
 The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
-2025-04-08 16:26:07,483 - INFO - Generating synthetic content from attributes
+2025-04-08 18:30:53,549 - INFO - Generating synthetic content from attributes
+2025-04-08 18:31:03,861 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:11<00:46, 11.55s/it][A2025-04-08 18:31:04,192 - INFO - Extracting attributes from context
+2025-04-08 18:31:04,904 - INFO - Generating synthetic content from attributes
+2025-04-08 18:31:13,449 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:21<00:32, 10.76s/it][A2025-04-08 18:31:14,391 - INFO - Extracting attributes from context
+2025-04-08 18:31:26,478 - INFO - Generating synthetic content from attributes
+2025-04-08 18:31:37,158 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:45<00:33, 16.75s/it][A2025-04-08 18:31:38,278 - INFO - Extracting attributes from context
+2025-04-08 18:31:38,378 - INFO - Generating synthetic content from attributes
+2025-04-08 18:31:47,678 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:55<00:14, 14.15s/it][A2025-04-08 18:31:48,441 - INFO - Extracting attributes from context
+2025-04-08 18:31:48,538 - INFO - Generating synthetic content from attributes
+2025-04-08 18:31:59,104 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:07<00:00, 13.29s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:07<00:00, 13.51s/it]
+  1%|          | 1/100 [01:24<2:18:46, 84.11s/it]2025-04-08 18:32:16,964 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 18:32:16,965 - INFO - Extracting attributes from context
+2025-04-08 18:32:29,082 - INFO - Generating synthetic content from attributes
+2025-04-08 18:32:40,690 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:24<01:36, 24.22s/it][A2025-04-08 18:32:41,187 - INFO - Extracting attributes from context
+2025-04-08 18:32:53,314 - INFO - Generating synthetic content from attributes
+2025-04-08 18:32:57,747 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:41<01:00, 20.15s/it][A2025-04-08 18:32:58,481 - INFO - Extracting attributes from context
+2025-04-08 18:32:58,599 - INFO - Generating synthetic content from attributes
+2025-04-08 18:33:10,470 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:54<00:33, 16.71s/it][A2025-04-08 18:33:11,111 - INFO - Extracting attributes from context
+2025-04-08 18:33:11,189 - INFO - Generating synthetic content from attributes
+2025-04-08 18:33:15,807 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:59<00:12, 12.33s/it][A2025-04-08 18:33:16,714 - INFO - Extracting attributes from context
+2025-04-08 18:33:28,777 - INFO - Generating synthetic content from attributes
+2025-04-08 18:33:40,625 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:23<00:00, 16.63s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:23<00:00, 16.80s/it]
+  2%|▏         | 2/100 [03:05<2:34:27, 94.57s/it]2025-04-08 18:33:59,126 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 18:33:59,127 - INFO - Extracting attributes from context
+2025-04-08 18:34:11,311 - INFO - Generating synthetic content from attributes
+2025-04-08 18:34:21,278 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:22<01:31, 22.97s/it][A2025-04-08 18:34:22,096 - INFO - Extracting attributes from context
+2025-04-08 18:34:22,188 - INFO - Generating synthetic content from attributes
+2025-04-08 18:34:34,027 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:35<00:51, 17.04s/it][A2025-04-08 18:34:34,981 - INFO - Extracting attributes from context
+2025-04-08 18:34:35,078 - INFO - Generating synthetic content from attributes
+2025-04-08 18:34:46,929 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:48<00:29, 14.93s/it][A2025-04-08 18:34:47,406 - INFO - Extracting attributes from context
+2025-04-08 18:34:47,506 - INFO - Generating synthetic content from attributes
+2025-04-08 18:34:57,227 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:59<00:13, 13.46s/it][A2025-04-08 18:34:58,608 - INFO - Extracting attributes from context
+2025-04-08 18:34:58,729 - INFO - Generating synthetic content from attributes
+2025-04-08 18:35:10,568 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:11<00:00, 13.05s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:11<00:00, 14.36s/it]
+  3%|▎         | 3/100 [04:37<2:30:27, 93.07s/it]2025-04-08 18:35:30,184 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 18:35:30,185 - INFO - Extracting attributes from context
+2025-04-08 18:35:30,286 - INFO - Generating synthetic content from attributes
+2025-04-08 18:35:40,004 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:10<00:43, 10.98s/it][A2025-04-08 18:35:41,160 - INFO - Extracting attributes from context
+2025-04-08 18:35:41,277 - INFO - Generating synthetic content from attributes
+2025-04-08 18:35:50,268 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:20<00:30, 10.12s/it][A2025-04-08 18:35:50,686 - INFO - Extracting attributes from context
+2025-04-08 18:36:02,758 - INFO - Generating synthetic content from attributes
+2025-04-08 18:36:11,144 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:41<00:30, 15.29s/it][A2025-04-08 18:36:12,133 - INFO - Extracting attributes from context
+2025-04-08 18:36:12,843 - INFO - Generating synthetic content from attributes
+2025-04-08 18:36:19,457 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:49<00:12, 12.36s/it][A2025-04-08 18:36:19,984 - INFO - Extracting attributes from context
+2025-04-08 18:36:20,149 - INFO - Generating synthetic content from attributes
+2025-04-08 18:36:29,800 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:00<00:00, 11.66s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:00<00:00, 12.04s/it]
+  4%|▍         | 4/100 [05:56<2:20:28, 87.80s/it]2025-04-08 18:36:49,879 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 18:36:49,879 - INFO - Extracting attributes from context
+2025-04-08 18:36:49,998 - INFO - Generating synthetic content from attributes
+2025-04-08 18:37:00,586 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:12<00:48, 12.00s/it][A2025-04-08 18:37:01,882 - INFO - Extracting attributes from context
+2025-04-08 18:37:14,018 - INFO - Generating synthetic content from attributes
+2025-04-08 18:37:21,328 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:31<00:49, 16.60s/it][A2025-04-08 18:37:21,694 - INFO - Extracting attributes from context
+2025-04-08 18:37:33,875 - INFO - Generating synthetic content from attributes
+2025-04-08 18:37:41,506 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:52<00:36, 18.48s/it][A2025-04-08 18:37:42,411 - INFO - Extracting attributes from context
+2025-04-08 18:37:54,495 - INFO - Generating synthetic content from attributes
+2025-04-08 18:38:01,599 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [01:12<00:19, 19.10s/it][A2025-04-08 18:38:02,461 - INFO - Extracting attributes from context
+2025-04-08 18:38:02,547 - INFO - Generating synthetic content from attributes
+2025-04-08 18:38:14,381 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:24<00:00, 16.62s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:24<00:00, 16.96s/it]
+  5%|▌         | 5/100 [07:39<2:27:40, 93.27s/it]2025-04-08 18:38:32,856 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 18:38:32,856 - INFO - Extracting attributes from context
+2025-04-08 18:38:32,947 - INFO - Generating synthetic content from attributes
+2025-04-08 18:38:40,906 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:09<00:37,  9.40s/it][A2025-04-08 18:38:42,252 - INFO - Extracting attributes from context
+2025-04-08 18:38:42,882 - INFO - Generating synthetic content from attributes
+2025-04-08 18:38:49,642 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:17<00:26,  8.81s/it][A2025-04-08 18:38:50,657 - INFO - Extracting attributes from context
+2025-04-08 18:38:50,755 - INFO - Generating synthetic content from attributes
+2025-04-08 18:38:58,555 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:26<00:17,  8.83s/it][A2025-04-08 18:38:59,500 - INFO - Extracting attributes from context
+2025-04-08 18:38:59,577 - INFO - Generating synthetic content from attributes
+2025-04-08 18:39:10,968 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:39<00:10, 10.27s/it][A2025-04-08 18:39:11,977 - INFO - Extracting attributes from context
+2025-04-08 18:39:12,091 - INFO - Generating synthetic content from attributes
+2025-04-08 18:39:23,928 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [00:51<00:00, 11.13s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [00:51<00:00, 10.36s/it]
+  6%|▌         | 6/100 [08:49<2:13:43, 85.35s/it]2025-04-08 18:39:42,845 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 18:39:42,845 - INFO - Extracting attributes from context
+2025-04-08 18:39:42,937 - INFO - Generating synthetic content from attributes
+2025-04-08 18:39:53,746 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:11<00:45, 11.31s/it][A2025-04-08 18:39:54,156 - INFO - Extracting attributes from context
+2025-04-08 18:39:54,271 - INFO - Generating synthetic content from attributes
+2025-04-08 18:39:58,022 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:29<00:46, 15.51s/it][A2025-04-08 18:40:12,614 - INFO - Extracting attributes from context
+2025-04-08 18:40:13,504 - INFO - Generating synthetic content from attributes
+2025-04-08 18:40:24,196 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:42<00:28, 14.19s/it][A2025-04-08 18:40:25,224 - INFO - Extracting attributes from context
+2025-04-08 18:40:25,314 - INFO - Generating synthetic content from attributes
+2025-04-08 18:40:34,389 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:52<00:12, 12.68s/it][A2025-04-08 18:40:35,598 - INFO - Extracting attributes from context
+2025-04-08 18:40:35,684 - INFO - Generating synthetic content from attributes
+2025-04-08 18:40:47,523 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:05<00:00, 12.70s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:05<00:00, 13.10s/it]
+  7%|▋         | 7/100 [10:15<2:12:31, 85.50s/it]2025-04-08 18:41:08,659 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 18:41:08,659 - INFO - Extracting attributes from context
+2025-04-08 18:41:08,751 - INFO - Generating synthetic content from attributes
+2025-04-08 18:41:20,566 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:12<00:49, 12.42s/it][A2025-04-08 18:41:21,075 - INFO - Extracting attributes from context
+2025-04-08 18:41:21,171 - INFO - Generating synthetic content from attributes
+2025-04-08 18:41:32,984 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:24<00:37, 12.45s/it][A2025-04-08 18:41:33,543 - INFO - Extracting attributes from context
+2025-04-08 18:41:33,639 - INFO - Generating synthetic content from attributes
+2025-04-08 18:41:42,669 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:34<00:22, 11.38s/it][A2025-04-08 18:41:43,651 - INFO - Extracting attributes from context
+2025-04-08 18:41:44,287 - INFO - Generating synthetic content from attributes
+2025-04-08 18:41:53,416 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:45<00:10, 10.88s/it][A2025-04-08 18:41:53,773 - INFO - Extracting attributes from context
+2025-04-08 18:41:53,891 - INFO - Generating synthetic content from attributes
+2025-04-08 18:41:57,769 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [00:50<00:00,  8.81s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [00:50<00:00, 10.05s/it]
+  8%|▊         | 8/100 [11:23<2:02:29, 79.88s/it]2025-04-08 18:42:16,516 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 18:42:16,517 - INFO - Extracting attributes from context
+2025-04-08 18:42:28,584 - INFO - Generating synthetic content from attributes
+2025-04-08 18:42:37,787 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:21<01:26, 21.61s/it][A2025-04-08 18:42:38,126 - INFO - Extracting attributes from context
+2025-04-08 18:42:40,820 - INFO - Generating synthetic content from attributes
+2025-04-08 18:42:43,383 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:27<00:37, 12.55s/it][A2025-04-08 18:42:44,339 - INFO - Extracting attributes from context
+2025-04-08 18:42:44,950 - INFO - Generating synthetic content from attributes
+2025-04-08 18:42:45,514 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:29<00:15,  7.73s/it][A2025-04-08 18:42:46,340 - INFO - Extracting attributes from context
+2025-04-08 18:42:47,134 - INFO - Generating synthetic content from attributes
+2025-04-08 18:43:02,204 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:48<00:11, 11.96s/it][A2025-04-08 18:43:04,778 - INFO - Extracting attributes from context
+2025-04-08 18:43:05,005 - INFO - Generating synthetic content from attributes
+2025-04-08 18:43:20,938 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:07<00:00, 14.41s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:07<00:00, 13.40s/it]
+  9%|▉         | 9/100 [13:02<2:09:58, 85.70s/it]2025-04-08 18:44:08,543 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 18:44:08,544 - INFO - Extracting attributes from context
+2025-04-08 18:44:09,349 - INFO - Generating synthetic content from attributes
+2025-04-08 18:44:25,543 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:19<01:17, 19.26s/it][A2025-04-08 18:44:27,802 - INFO - Extracting attributes from context
+2025-04-08 18:44:29,123 - INFO - Generating synthetic content from attributes
+2025-04-08 18:44:52,757 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:46<01:11, 23.84s/it][A2025-04-08 18:44:54,852 - INFO - Extracting attributes from context
+2025-04-08 18:44:55,078 - INFO - Generating synthetic content from attributes
+2025-04-08 18:45:23,730 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [01:17<00:54, 27.10s/it][A2025-04-08 18:45:25,834 - INFO - Extracting attributes from context
+2025-04-08 18:45:26,058 - INFO - Generating synthetic content from attributes
+2025-04-08 18:45:54,677 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [01:47<00:28, 28.17s/it][A2025-04-08 18:45:55,644 - INFO - Extracting attributes from context
+2025-04-08 18:46:24,691 - INFO - Generating synthetic content from attributes
+2025-04-08 18:46:53,284 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [02:47<00:00, 39.68s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [02:47<00:00, 33.44s/it]
+2025-04-08 18:47:16,972 - INFO - Processed 10/100 questions
+ 10%|█         | 10/100 [16:36<3:08:10, 125.45s/it]2025-04-08 18:47:52,407 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 18:47:52,407 - INFO - Extracting attributes from context
+2025-04-08 18:48:22,032 - INFO - Generating synthetic content from attributes
+2025-04-08 18:48:50,442 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:59<03:56, 59.01s/it][A2025-04-08 18:48:51,421 - INFO - Extracting attributes from context
+2025-04-08 18:48:51,619 - INFO - Generating synthetic content from attributes
+2025-04-08 18:49:19,587 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [01:27<02:03, 41.23s/it][A2025-04-08 18:49:20,196 - INFO - Extracting attributes from context
+2025-04-08 18:49:48,540 - INFO - Generating synthetic content from attributes
+2025-04-08 18:49:53,990 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [02:04<01:18, 39.04s/it][A2025-04-08 18:49:56,628 - INFO - Extracting attributes from context
+2025-04-08 18:49:56,816 - INFO - Generating synthetic content from attributes
+2025-04-08 18:50:16,023 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [02:24<00:31, 31.80s/it][A2025-04-08 18:50:17,323 - INFO - Extracting attributes from context
+2025-04-08 18:50:17,538 - INFO - Generating synthetic content from attributes
+2025-04-08 18:50:45,478 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [02:55<00:00, 31.35s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [02:55<00:00, 35.10s/it]
+ 11%|█         | 11/100 [20:21<3:51:08, 155.83s/it]2025-04-08 18:51:31,876 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 18:51:31,876 - INFO - Extracting attributes from context
+2025-04-08 18:52:00,099 - INFO - Generating synthetic content from attributes
+2025-04-08 18:52:15,056 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:43<02:55, 43.87s/it][A2025-04-08 18:52:15,747 - INFO - Extracting attributes from context
+2025-04-08 18:52:16,021 - INFO - Generating synthetic content from attributes
+2025-04-08 18:52:24,946 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [01:26<02:10, 43.36s/it][A2025-04-08 18:52:58,757 - INFO - Extracting attributes from context
+2025-04-08 18:52:58,953 - INFO - Generating synthetic content from attributes
+2025-04-08 18:53:18,870 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [01:48<01:06, 33.22s/it][A2025-04-08 18:53:19,914 - INFO - Extracting attributes from context
+2025-04-08 18:53:20,118 - INFO - Generating synthetic content from attributes
+2025-04-08 18:53:47,997 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [02:17<00:31, 31.62s/it][A2025-04-08 18:53:49,067 - INFO - Extracting attributes from context
+2025-04-08 18:53:49,264 - INFO - Generating synthetic content from attributes
+2025-04-08 18:54:02,499 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [02:31<00:00, 25.50s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [02:31<00:00, 30.37s/it]
+ 12%|█▏        | 12/100 [23:36<4:06:00, 167.74s/it]2025-04-08 18:54:46,873 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 18:54:46,873 - INFO - Extracting attributes from context
+2025-04-08 18:55:15,018 - INFO - Generating synthetic content from attributes
+2025-04-08 18:55:24,533 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:39<02:37, 39.36s/it][A2025-04-08 18:55:26,231 - INFO - Extracting attributes from context
+2025-04-08 18:55:26,452 - INFO - Generating synthetic content from attributes
+2025-04-08 18:55:42,894 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:58<01:23, 27.68s/it][A2025-04-08 18:55:45,736 - INFO - Extracting attributes from context
+2025-04-08 18:55:46,966 - INFO - Generating synthetic content from attributes
+2025-04-08 18:56:05,960 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [01:21<00:50, 25.45s/it][A2025-04-08 18:56:08,537 - INFO - Extracting attributes from context
+2025-04-08 18:56:08,717 - INFO - Generating synthetic content from attributes
+2025-04-08 18:56:36,632 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [01:51<00:27, 27.24s/it][A2025-04-08 18:56:38,511 - INFO - Extracting attributes from context
+2025-04-08 18:56:40,036 - INFO - Generating synthetic content from attributes
+2025-04-08 18:56:57,623 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [02:11<00:00, 24.62s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [02:11<00:00, 26.32s/it]
+ 13%|█▎        | 13/100 [26:25<4:03:40, 168.05s/it]2025-04-08 18:57:17,906 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 18:57:17,906 - INFO - Extracting attributes from context
+2025-04-08 18:57:18,632 - INFO - Generating synthetic content from attributes
+2025-04-08 18:57:28,985 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:11<00:46, 11.65s/it][A2025-04-08 18:57:29,555 - INFO - Extracting attributes from context
+2025-04-08 18:57:30,280 - INFO - Generating synthetic content from attributes
+2025-04-08 18:57:36,988 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:19<00:28,  9.45s/it][A2025-04-08 18:57:37,475 - INFO - Extracting attributes from context
+2025-04-08 18:57:49,497 - INFO - Generating synthetic content from attributes
+2025-04-08 18:57:54,854 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:37<00:26, 13.40s/it][A2025-04-08 18:57:55,572 - INFO - Extracting attributes from context
+2025-04-08 18:57:55,660 - INFO - Generating synthetic content from attributes
+2025-04-08 18:58:07,483 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:50<00:13, 13.11s/it][A2025-04-08 18:58:08,241 - INFO - Extracting attributes from context
+2025-04-08 18:58:08,325 - INFO - Generating synthetic content from attributes
+2025-04-08 18:58:20,154 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:03<00:00, 13.00s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:03<00:00, 12.63s/it]
+ 14%|█▍        | 14/100 [27:45<3:22:49, 141.50s/it]2025-04-08 18:58:37,981 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 18:58:37,982 - INFO - Extracting attributes from context
+2025-04-08 18:58:38,551 - INFO - Generating synthetic content from attributes
+2025-04-08 18:58:41,884 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:04<00:18,  4.66s/it][A2025-04-08 18:58:42,639 - INFO - Extracting attributes from context
+2025-04-08 18:58:42,758 - INFO - Generating synthetic content from attributes
+2025-04-08 18:58:49,217 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:12<00:19,  6.54s/it][A2025-04-08 18:58:50,492 - INFO - Extracting attributes from context
+2025-04-08 18:59:02,578 - INFO - Generating synthetic content from attributes
+2025-04-08 18:59:14,381 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:37<00:29, 14.97s/it][A2025-04-08 18:59:15,489 - INFO - Extracting attributes from context
+2025-04-08 18:59:16,055 - INFO - Generating synthetic content from attributes
+2025-04-08 18:59:27,201 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:49<00:13, 13.92s/it][A2025-04-08 18:59:27,812 - INFO - Extracting attributes from context
+2025-04-08 18:59:39,904 - INFO - Generating synthetic content from attributes
+2025-04-08 18:59:48,699 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:11<00:00, 16.62s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:11<00:00, 14.25s/it]
+ 15%|█▌        | 15/100 [29:14<2:58:20, 125.89s/it]2025-04-08 19:00:07,714 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:00:07,715 - INFO - Extracting attributes from context
+2025-04-08 19:00:07,818 - INFO - Generating synthetic content from attributes
+2025-04-08 19:00:19,628 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:12<00:49, 12.26s/it][A2025-04-08 19:00:19,977 - INFO - Extracting attributes from context
+2025-04-08 19:00:20,088 - INFO - Generating synthetic content from attributes
+2025-04-08 19:00:25,364 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:18<00:26,  8.91s/it][A2025-04-08 19:00:26,533 - INFO - Extracting attributes from context
+2025-04-08 19:00:26,637 - INFO - Generating synthetic content from attributes
+2025-04-08 19:00:38,467 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:32<00:21, 10.89s/it][A2025-04-08 19:00:39,789 - INFO - Extracting attributes from context
+2025-04-08 19:00:39,896 - INFO - Generating synthetic content from attributes
+2025-04-08 19:00:51,192 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:44<00:11, 11.46s/it][A2025-04-08 19:00:52,123 - INFO - Extracting attributes from context
+2025-04-08 19:00:52,662 - INFO - Generating synthetic content from attributes
+2025-04-08 19:01:02,992 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [00:56<00:00, 11.62s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [00:56<00:00, 11.26s/it]
+ 16%|█▌        | 16/100 [30:29<2:34:47, 110.57s/it]2025-04-08 19:01:22,704 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:01:22,704 - INFO - Extracting attributes from context
+2025-04-08 19:01:34,771 - INFO - Generating synthetic content from attributes
+2025-04-08 19:01:45,861 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:24<01:36, 24.23s/it][A2025-04-08 19:01:46,932 - INFO - Extracting attributes from context
+2025-04-08 19:01:47,030 - INFO - Generating synthetic content from attributes
+2025-04-08 19:01:57,980 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:36<00:51, 17.17s/it][A2025-04-08 19:01:59,153 - INFO - Extracting attributes from context
+2025-04-08 19:02:11,331 - INFO - Generating synthetic content from attributes
+2025-04-08 19:02:17,245 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:55<00:35, 17.93s/it][A2025-04-08 19:02:18,002 - INFO - Extracting attributes from context
+2025-04-08 19:02:30,192 - INFO - Generating synthetic content from attributes
+2025-04-08 19:02:39,914 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [01:17<00:19, 19.65s/it][A2025-04-08 19:02:40,278 - INFO - Extracting attributes from context
+2025-04-08 19:02:40,447 - INFO - Generating synthetic content from attributes
+2025-04-08 19:02:52,285 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:30<00:00, 17.35s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:30<00:00, 18.17s/it]
+ 17%|█▋        | 17/100 [32:19<2:32:39, 110.36s/it]2025-04-08 19:03:12,605 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:03:12,605 - INFO - Extracting attributes from context
+2025-04-08 19:03:24,847 - INFO - Generating synthetic content from attributes
+2025-04-08 19:03:28,642 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:16<01:07, 16.88s/it][A2025-04-08 19:03:29,486 - INFO - Extracting attributes from context
+2025-04-08 19:03:29,590 - INFO - Generating synthetic content from attributes
+2025-04-08 19:03:41,408 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:30<00:44, 14.71s/it][A2025-04-08 19:03:42,668 - INFO - Extracting attributes from context
+2025-04-08 19:03:42,796 - INFO - Generating synthetic content from attributes
+2025-04-08 19:03:50,704 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:38<00:23, 11.92s/it][A2025-04-08 19:03:51,273 - INFO - Extracting attributes from context
+2025-04-08 19:03:51,361 - INFO - Generating synthetic content from attributes
+2025-04-08 19:04:03,188 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:51<00:12, 12.33s/it][A2025-04-08 19:04:04,234 - INFO - Extracting attributes from context
+2025-04-08 19:04:05,013 - INFO - Generating synthetic content from attributes
+2025-04-08 19:04:09,710 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [00:57<00:00, 10.18s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [00:58<00:00, 11.60s/it]
+ 18%|█▊        | 18/100 [33:37<2:17:37, 100.70s/it]2025-04-08 19:04:30,830 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:04:30,831 - INFO - Extracting attributes from context
+2025-04-08 19:04:42,955 - INFO - Generating synthetic content from attributes
+2025-04-08 19:04:46,281 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:15<01:03, 15.97s/it][A2025-04-08 19:04:46,801 - INFO - Extracting attributes from context
+2025-04-08 19:04:46,890 - INFO - Generating synthetic content from attributes
+2025-04-08 19:04:58,700 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:28<00:42, 14.05s/it][A2025-04-08 19:04:59,515 - INFO - Extracting attributes from context
+2025-04-08 19:04:59,595 - INFO - Generating synthetic content from attributes
+2025-04-08 19:05:11,419 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:41<00:26, 13.29s/it][A2025-04-08 19:05:11,893 - INFO - Extracting attributes from context
+2025-04-08 19:05:11,983 - INFO - Generating synthetic content from attributes
+2025-04-08 19:05:23,228 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:52<00:12, 12.75s/it][A2025-04-08 19:05:23,814 - INFO - Extracting attributes from context
+2025-04-08 19:05:35,917 - INFO - Generating synthetic content from attributes
+2025-04-08 19:05:45,623 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:15<00:00, 16.15s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:15<00:00, 15.03s/it]
+ 19%|█▉        | 19/100 [35:10<2:12:26, 98.11s/it] 2025-04-08 19:06:02,859 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:06:02,859 - INFO - Extracting attributes from context
+2025-04-08 19:06:02,976 - INFO - Generating synthetic content from attributes
+2025-04-08 19:06:05,765 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:03<00:15,  3.91s/it][A2025-04-08 19:06:06,769 - INFO - Extracting attributes from context
+2025-04-08 19:06:18,939 - INFO - Generating synthetic content from attributes
+2025-04-08 19:06:30,745 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:28<00:47, 15.99s/it][A2025-04-08 19:06:31,213 - INFO - Extracting attributes from context
+2025-04-08 19:06:31,943 - INFO - Generating synthetic content from attributes
+2025-04-08 19:06:43,776 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:42<00:29, 14.98s/it][A2025-04-08 19:06:44,999 - INFO - Extracting attributes from context
+2025-04-08 19:06:57,171 - INFO - Generating synthetic content from attributes
+2025-04-08 19:07:00,988 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:58<00:15, 15.53s/it][A2025-04-08 19:07:01,362 - INFO - Extracting attributes from context
+2025-04-08 19:07:01,451 - INFO - Generating synthetic content from attributes
+2025-04-08 19:07:11,639 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:09<00:00, 13.78s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:09<00:00, 13.84s/it]
+2025-04-08 19:07:17,447 - INFO - Processed 20/100 questions
+ 20%|██        | 20/100 [36:37<2:06:22, 94.78s/it]2025-04-08 19:07:29,931 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:07:29,931 - INFO - Extracting attributes from context
+2025-04-08 19:07:30,882 - INFO - Generating synthetic content from attributes
+2025-04-08 19:07:39,893 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:10<00:43, 10.77s/it][A2025-04-08 19:07:40,701 - INFO - Extracting attributes from context
+2025-04-08 19:07:40,817 - INFO - Generating synthetic content from attributes
+2025-04-08 19:07:51,266 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:22<00:33, 11.18s/it][A2025-04-08 19:07:52,166 - INFO - Extracting attributes from context
+2025-04-08 19:07:52,270 - INFO - Generating synthetic content from attributes
+2025-04-08 19:08:00,441 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:31<00:20, 10.34s/it][A2025-04-08 19:08:01,507 - INFO - Extracting attributes from context
+2025-04-08 19:08:01,607 - INFO - Generating synthetic content from attributes
+2025-04-08 19:08:09,271 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:40<00:09,  9.74s/it][A2025-04-08 19:08:10,339 - INFO - Extracting attributes from context
+2025-04-08 19:08:10,427 - INFO - Generating synthetic content from attributes
+2025-04-08 19:08:18,989 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [00:50<00:00,  9.80s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [00:50<00:00, 10.06s/it]
+ 21%|██        | 21/100 [37:49<1:56:01, 88.13s/it]2025-04-08 19:08:42,537 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:08:42,537 - INFO - Extracting attributes from context
+2025-04-08 19:08:54,659 - INFO - Generating synthetic content from attributes
+2025-04-08 19:09:06,450 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:25<01:40, 25.03s/it][A2025-04-08 19:09:07,564 - INFO - Extracting attributes from context
+2025-04-08 19:09:19,752 - INFO - Generating synthetic content from attributes
+2025-04-08 19:09:31,565 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:50<01:15, 25.28s/it][A2025-04-08 19:09:33,024 - INFO - Extracting attributes from context
+2025-04-08 19:09:33,147 - INFO - Generating synthetic content from attributes
+2025-04-08 19:09:44,986 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [01:02<00:38, 19.42s/it][A2025-04-08 19:09:45,472 - INFO - Extracting attributes from context
+2025-04-08 19:09:45,628 - INFO - Generating synthetic content from attributes
+2025-04-08 19:09:54,707 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [01:12<00:15, 15.63s/it][A2025-04-08 19:09:55,299 - INFO - Extracting attributes from context
+2025-04-08 19:09:55,384 - INFO - Generating synthetic content from attributes
+2025-04-08 19:10:05,658 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:24<00:00, 14.14s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:24<00:00, 16.85s/it]
+ 22%|██▏       | 22/100 [39:32<2:00:15, 92.51s/it]2025-04-08 19:10:25,317 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:10:25,317 - INFO - Extracting attributes from context
+2025-04-08 19:10:26,054 - INFO - Generating synthetic content from attributes
+2025-04-08 19:10:34,386 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:09<00:38,  9.58s/it][A2025-04-08 19:10:34,894 - INFO - Extracting attributes from context
+2025-04-08 19:10:47,033 - INFO - Generating synthetic content from attributes
+2025-04-08 19:10:55,910 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:32<00:51, 17.25s/it][A2025-04-08 19:10:57,515 - INFO - Extracting attributes from context
+2025-04-08 19:10:57,621 - INFO - Generating synthetic content from attributes
+2025-04-08 19:11:08,326 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:43<00:29, 14.51s/it][A2025-04-08 19:11:08,766 - INFO - Extracting attributes from context
+2025-04-08 19:11:09,414 - INFO - Generating synthetic content from attributes
+2025-04-08 19:11:20,129 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:56<00:13, 13.77s/it][A2025-04-08 19:11:21,396 - INFO - Extracting attributes from context
+2025-04-08 19:11:33,522 - INFO - Generating synthetic content from attributes
+2025-04-08 19:11:35,740 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:10<00:00, 14.09s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:10<00:00, 14.15s/it]
+ 23%|██▎       | 23/100 [41:02<1:57:40, 91.69s/it]2025-04-08 19:11:54,979 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:11:54,980 - INFO - Extracting attributes from context
+2025-04-08 19:11:55,667 - INFO - Generating synthetic content from attributes
+2025-04-08 19:12:05,896 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:12<00:48, 12.04s/it][A2025-04-08 19:12:07,017 - INFO - Extracting attributes from context
+2025-04-08 19:12:19,252 - INFO - Generating synthetic content from attributes
+2025-04-08 19:12:28,563 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:34<00:54, 18.20s/it][A2025-04-08 19:12:29,531 - INFO - Extracting attributes from context
+2025-04-08 19:12:30,237 - INFO - Generating synthetic content from attributes
+2025-04-08 19:12:41,796 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:48<00:32, 16.14s/it][A2025-04-08 19:12:43,229 - INFO - Extracting attributes from context
+2025-04-08 19:12:43,336 - INFO - Generating synthetic content from attributes
+2025-04-08 19:12:55,175 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [01:00<00:14, 14.61s/it][A2025-04-08 19:12:55,481 - INFO - Extracting attributes from context
+2025-04-08 19:12:55,926 - INFO - Generating synthetic content from attributes
+2025-04-08 19:13:04,340 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:10<00:00, 12.83s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:10<00:00, 14.04s/it]
+ 24%|██▍       | 24/100 [42:34<1:56:30, 91.98s/it]2025-04-08 19:13:27,632 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:13:27,633 - INFO - Extracting attributes from context
+2025-04-08 19:13:39,608 - INFO - Generating synthetic content from attributes
+2025-04-08 19:13:51,414 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:24<01:38, 24.66s/it][A2025-04-08 19:13:52,292 - INFO - Extracting attributes from context
+2025-04-08 19:13:53,052 - INFO - Generating synthetic content from attributes
+2025-04-08 19:13:57,493 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:30<00:41, 13.84s/it][A2025-04-08 19:13:58,550 - INFO - Extracting attributes from context
+2025-04-08 19:14:10,681 - INFO - Generating synthetic content from attributes
+2025-04-08 19:14:17,386 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:50<00:32, 16.36s/it][A2025-04-08 19:14:17,914 - INFO - Extracting attributes from context
+2025-04-08 19:14:29,984 - INFO - Generating synthetic content from attributes
+2025-04-08 19:14:34,569 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [01:07<00:16, 16.59s/it][A2025-04-08 19:14:34,848 - INFO - Extracting attributes from context
+2025-04-08 19:14:46,872 - INFO - Generating synthetic content from attributes
+2025-04-08 19:14:58,681 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:32<00:00, 19.63s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:32<00:00, 18.45s/it]
+ 25%|██▌       | 25/100 [44:24<2:01:34, 97.26s/it]2025-04-08 19:15:17,239 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:15:17,240 - INFO - Extracting attributes from context
+2025-04-08 19:15:29,328 - INFO - Generating synthetic content from attributes
+2025-04-08 19:15:41,136 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:24<01:38, 24.50s/it][A2025-04-08 19:15:41,741 - INFO - Extracting attributes from context
+2025-04-08 19:15:41,885 - INFO - Generating synthetic content from attributes
+2025-04-08 19:15:53,711 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:37<00:53, 17.77s/it][A2025-04-08 19:15:54,793 - INFO - Extracting attributes from context
+2025-04-08 19:15:54,911 - INFO - Generating synthetic content from attributes
+2025-04-08 19:16:06,749 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:50<00:31, 15.51s/it][A2025-04-08 19:16:07,615 - INFO - Extracting attributes from context
+2025-04-08 19:16:19,722 - INFO - Generating synthetic content from attributes
+2025-04-08 19:16:30,756 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [01:13<00:18, 18.68s/it][A2025-04-08 19:16:31,165 - INFO - Extracting attributes from context
+2025-04-08 19:16:31,312 - INFO - Generating synthetic content from attributes
+2025-04-08 19:16:34,651 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:18<00:00, 13.60s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:18<00:00, 15.70s/it]
+ 26%|██▌       | 26/100 [46:05<2:01:25, 98.45s/it]2025-04-08 19:16:58,424 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:16:58,424 - INFO - Extracting attributes from context
+2025-04-08 19:16:59,002 - INFO - Generating synthetic content from attributes
+2025-04-08 19:17:10,814 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:12<00:50, 12.67s/it][A2025-04-08 19:17:11,098 - INFO - Extracting attributes from context
+2025-04-08 19:17:11,885 - INFO - Generating synthetic content from attributes
+2025-04-08 19:17:20,957 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:22<00:33, 11.24s/it][A2025-04-08 19:17:21,337 - INFO - Extracting attributes from context
+2025-04-08 19:17:21,926 - INFO - Generating synthetic content from attributes
+2025-04-08 19:17:31,451 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:33<00:21, 10.89s/it][A2025-04-08 19:17:31,818 - INFO - Extracting attributes from context
+2025-04-08 19:17:31,904 - INFO - Generating synthetic content from attributes
+2025-04-08 19:17:43,733 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:46<00:11, 11.70s/it][A2025-04-08 19:17:44,752 - INFO - Extracting attributes from context
+2025-04-08 19:17:45,686 - INFO - Generating synthetic content from attributes
+2025-04-08 19:17:56,074 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [00:58<00:00, 11.74s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [00:58<00:00, 11.63s/it]
+ 27%|██▋       | 27/100 [47:24<1:52:47, 92.70s/it]2025-04-08 19:18:17,731 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:18:17,731 - INFO - Extracting attributes from context
+2025-04-08 19:18:17,833 - INFO - Generating synthetic content from attributes
+2025-04-08 19:18:23,432 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:06<00:24,  6.04s/it][A2025-04-08 19:18:23,775 - INFO - Extracting attributes from context
+2025-04-08 19:18:24,278 - INFO - Generating synthetic content from attributes
+2025-04-08 19:18:25,526 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:08<00:11,  3.67s/it][A2025-04-08 19:18:25,781 - INFO - Extracting attributes from context
+2025-04-08 19:18:25,947 - INFO - Generating synthetic content from attributes
+2025-04-08 19:18:37,771 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:20<00:15,  7.76s/it][A2025-04-08 19:18:38,400 - INFO - Extracting attributes from context
+2025-04-08 19:18:38,554 - INFO - Generating synthetic content from attributes
+2025-04-08 19:18:44,998 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:28<00:07,  7.64s/it][A2025-04-08 19:18:45,867 - INFO - Extracting attributes from context
+2025-04-08 19:18:46,553 - INFO - Generating synthetic content from attributes
+2025-04-08 19:18:55,669 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [00:38<00:00,  8.62s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [00:38<00:00,  7.70s/it]
+ 28%|██▊       | 28/100 [48:23<1:39:07, 82.61s/it]2025-04-08 19:19:16,772 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:19:16,772 - INFO - Extracting attributes from context
+2025-04-08 19:19:28,931 - INFO - Generating synthetic content from attributes
+2025-04-08 19:19:40,738 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:24<01:39, 24.84s/it][A2025-04-08 19:19:41,615 - INFO - Extracting attributes from context
+2025-04-08 19:19:41,712 - INFO - Generating synthetic content from attributes
+2025-04-08 19:19:53,545 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:37<00:53, 17.89s/it][A2025-04-08 19:19:54,644 - INFO - Extracting attributes from context
+2025-04-08 19:19:54,760 - INFO - Generating synthetic content from attributes
+2025-04-08 19:20:06,600 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:50<00:31, 15.61s/it][A2025-04-08 19:20:07,530 - INFO - Extracting attributes from context
+2025-04-08 19:20:07,645 - INFO - Generating synthetic content from attributes
+2025-04-08 19:20:18,697 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [01:02<00:14, 14.12s/it][A2025-04-08 19:20:19,365 - INFO - Extracting attributes from context
+2025-04-08 19:20:20,331 - INFO - Generating synthetic content from attributes
+2025-04-08 19:20:24,622 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:09<00:00, 11.35s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:09<00:00, 13.81s/it]
+ 29%|██▉       | 29/100 [49:52<1:39:41, 84.25s/it]2025-04-08 19:20:44,937 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:20:44,937 - INFO - Extracting attributes from context
+2025-04-08 19:20:45,036 - INFO - Generating synthetic content from attributes
+2025-04-08 19:20:48,656 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:04<00:16,  4.24s/it][A2025-04-08 19:20:49,176 - INFO - Extracting attributes from context
+2025-04-08 19:20:49,314 - INFO - Generating synthetic content from attributes
+2025-04-08 19:20:53,615 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:09<00:13,  4.64s/it][A2025-04-08 19:20:54,095 - INFO - Extracting attributes from context
+2025-04-08 19:20:54,194 - INFO - Generating synthetic content from attributes
+2025-04-08 19:21:06,009 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:21<00:16,  8.26s/it][A2025-04-08 19:21:06,662 - INFO - Extracting attributes from context
+2025-04-08 19:21:18,717 - INFO - Generating synthetic content from attributes
+2025-04-08 19:21:30,531 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:46<00:14, 14.81s/it][A2025-04-08 19:21:31,511 - INFO - Extracting attributes from context
+2025-04-08 19:21:31,603 - INFO - Generating synthetic content from attributes
+2025-04-08 19:21:43,443 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [00:58<00:00, 13.94s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [00:58<00:00, 11.79s/it]
+2025-04-08 19:21:49,413 - INFO - Processed 30/100 questions
+ 30%|███       | 30/100 [51:09<1:35:44, 82.06s/it]2025-04-08 19:22:01,851 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:22:01,851 - INFO - Extracting attributes from context
+2025-04-08 19:22:01,952 - INFO - Generating synthetic content from attributes
+2025-04-08 19:22:13,205 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:12<00:50, 12.60s/it][A2025-04-08 19:22:14,448 - INFO - Extracting attributes from context
+2025-04-08 19:22:14,553 - INFO - Generating synthetic content from attributes
+2025-04-08 19:22:24,759 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:23<00:35, 11.83s/it][A2025-04-08 19:22:25,739 - INFO - Extracting attributes from context
+2025-04-08 19:22:25,837 - INFO - Generating synthetic content from attributes
+2025-04-08 19:22:37,663 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:36<00:24, 12.10s/it][A2025-04-08 19:22:38,159 - INFO - Extracting attributes from context
+2025-04-08 19:22:38,247 - INFO - Generating synthetic content from attributes
+2025-04-08 19:22:50,088 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:49<00:12, 12.45s/it][A2025-04-08 19:22:51,152 - INFO - Extracting attributes from context
+2025-04-08 19:22:51,247 - INFO - Generating synthetic content from attributes
+2025-04-08 19:22:55,230 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [00:53<00:00,  9.63s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [00:53<00:00, 10.79s/it]
+ 31%|███       | 31/100 [52:24<1:32:13, 80.19s/it]2025-04-08 19:23:17,746 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:23:17,746 - INFO - Extracting attributes from context
+2025-04-08 19:23:29,919 - INFO - Generating synthetic content from attributes
+2025-04-08 19:23:37,437 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:20<01:23, 20.76s/it][A2025-04-08 19:23:38,502 - INFO - Extracting attributes from context
+2025-04-08 19:23:38,601 - INFO - Generating synthetic content from attributes
+2025-04-08 19:23:50,432 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:33<00:47, 15.87s/it][A2025-04-08 19:23:50,953 - INFO - Extracting attributes from context
+2025-04-08 19:23:51,054 - INFO - Generating synthetic content from attributes
+2025-04-08 19:24:00,001 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:42<00:25, 12.92s/it][A2025-04-08 19:24:00,368 - INFO - Extracting attributes from context
+2025-04-08 19:24:01,080 - INFO - Generating synthetic content from attributes
+2025-04-08 19:24:10,740 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:54<00:12, 12.37s/it][A2025-04-08 19:24:11,903 - INFO - Extracting attributes from context
+2025-04-08 19:24:12,008 - INFO - Generating synthetic content from attributes
+2025-04-08 19:24:23,853 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:06<00:00, 12.54s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:06<00:00, 13.40s/it]
+ 32%|███▏      | 32/100 [53:53<1:33:39, 82.64s/it]2025-04-08 19:24:46,068 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:24:46,068 - INFO - Extracting attributes from context
+2025-04-08 19:24:58,262 - INFO - Generating synthetic content from attributes
+2025-04-08 19:25:10,078 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:24<01:39, 24.86s/it][A2025-04-08 19:25:10,924 - INFO - Extracting attributes from context
+2025-04-08 19:25:23,074 - INFO - Generating synthetic content from attributes
+2025-04-08 19:25:30,468 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:45<01:07, 22.39s/it][A2025-04-08 19:25:31,581 - INFO - Extracting attributes from context
+2025-04-08 19:25:31,701 - INFO - Generating synthetic content from attributes
+2025-04-08 19:25:36,580 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:51<00:29, 14.76s/it][A2025-04-08 19:25:37,262 - INFO - Extracting attributes from context
+2025-04-08 19:25:49,432 - INFO - Generating synthetic content from attributes
+2025-04-08 19:25:53,684 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [01:08<00:15, 15.78s/it][A2025-04-08 19:25:54,601 - INFO - Extracting attributes from context
+2025-04-08 19:26:06,845 - INFO - Generating synthetic content from attributes
+2025-04-08 19:26:18,662 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:33<00:00, 19.19s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:33<00:00, 18.76s/it]
+ 33%|███▎      | 33/100 [55:45<1:42:13, 91.54s/it]2025-04-08 19:26:38,449 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:26:38,449 - INFO - Extracting attributes from context
+2025-04-08 19:26:38,539 - INFO - Generating synthetic content from attributes
+2025-04-08 19:26:49,871 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:12<00:50, 12.58s/it][A2025-04-08 19:26:51,032 - INFO - Extracting attributes from context
+2025-04-08 19:26:51,948 - INFO - Generating synthetic content from attributes
+2025-04-08 19:26:54,844 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:17<00:24,  8.23s/it][A2025-04-08 19:26:56,211 - INFO - Extracting attributes from context
+2025-04-08 19:26:56,933 - INFO - Generating synthetic content from attributes
+2025-04-08 19:27:04,089 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:26<00:16,  8.43s/it][A2025-04-08 19:27:04,878 - INFO - Extracting attributes from context
+2025-04-08 19:27:05,572 - INFO - Generating synthetic content from attributes
+2025-04-08 19:27:09,495 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:31<00:07,  7.28s/it][A2025-04-08 19:27:10,389 - INFO - Extracting attributes from context
+2025-04-08 19:27:11,496 - INFO - Generating synthetic content from attributes
+2025-04-08 19:27:15,732 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [00:38<00:00,  6.88s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [00:38<00:00,  7.63s/it]
+ 34%|███▍      | 34/100 [56:40<1:28:40, 80.61s/it]2025-04-08 19:27:33,739 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:27:33,740 - INFO - Extracting attributes from context
+2025-04-08 19:27:45,802 - INFO - Generating synthetic content from attributes
+2025-04-08 19:27:56,327 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:23<01:32, 23.19s/it][A2025-04-08 19:27:56,927 - INFO - Extracting attributes from context
+2025-04-08 19:27:57,017 - INFO - Generating synthetic content from attributes
+2025-04-08 19:28:02,266 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:43<01:03, 21.22s/it][A2025-04-08 19:28:16,767 - INFO - Extracting attributes from context
+2025-04-08 19:28:28,882 - INFO - Generating synthetic content from attributes
+2025-04-08 19:28:35,253 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [01:01<00:40, 20.18s/it][A2025-04-08 19:28:35,706 - INFO - Extracting attributes from context
+2025-04-08 19:28:35,805 - INFO - Generating synthetic content from attributes
+2025-04-08 19:28:44,173 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [01:11<00:16, 16.02s/it][A2025-04-08 19:28:45,347 - INFO - Extracting attributes from context
+2025-04-08 19:28:45,446 - INFO - Generating synthetic content from attributes
+2025-04-08 19:28:51,796 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:18<00:00, 12.76s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:18<00:00, 15.72s/it]
+ 35%|███▌      | 35/100 [58:19<1:33:11, 86.02s/it]2025-04-08 19:29:12,204 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:29:12,204 - INFO - Extracting attributes from context
+2025-04-08 19:29:12,346 - INFO - Generating synthetic content from attributes
+2025-04-08 19:29:19,664 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:08<00:34,  8.73s/it][A2025-04-08 19:29:20,932 - INFO - Extracting attributes from context
+2025-04-08 19:29:21,037 - INFO - Generating synthetic content from attributes
+2025-04-08 19:29:32,882 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:21<00:33, 11.29s/it][A2025-04-08 19:29:34,013 - INFO - Extracting attributes from context
+2025-04-08 19:29:34,116 - INFO - Generating synthetic content from attributes
+2025-04-08 19:29:38,294 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:40<00:29, 14.61s/it][A2025-04-08 19:29:52,576 - INFO - Extracting attributes from context
+2025-04-08 19:29:52,704 - INFO - Generating synthetic content from attributes
+2025-04-08 19:29:58,747 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:47<00:11, 11.60s/it][A2025-04-08 19:29:59,552 - INFO - Extracting attributes from context
+2025-04-08 19:29:59,634 - INFO - Generating synthetic content from attributes
+2025-04-08 19:30:04,787 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [00:53<00:00,  9.59s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [00:53<00:00, 10.68s/it]
+ 36%|███▌      | 36/100 [59:32<1:27:48, 82.33s/it]2025-04-08 19:30:25,843 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:30:25,843 - INFO - Extracting attributes from context
+2025-04-08 19:30:25,947 - INFO - Generating synthetic content from attributes
+2025-04-08 19:30:34,536 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:09<00:36,  9.21s/it][A2025-04-08 19:30:35,048 - INFO - Extracting attributes from context
+2025-04-08 19:30:35,142 - INFO - Generating synthetic content from attributes
+2025-04-08 19:30:46,972 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:21<00:33, 11.21s/it][A2025-04-08 19:30:47,667 - INFO - Extracting attributes from context
+2025-04-08 19:30:47,745 - INFO - Generating synthetic content from attributes
+2025-04-08 19:30:56,766 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:31<00:20, 10.48s/it][A2025-04-08 19:30:57,273 - INFO - Extracting attributes from context
+2025-04-08 19:31:09,434 - INFO - Generating synthetic content from attributes
+2025-04-08 19:31:18,636 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:53<00:15, 15.23s/it][A2025-04-08 19:31:19,797 - INFO - Extracting attributes from context
+2025-04-08 19:31:31,851 - INFO - Generating synthetic content from attributes
+2025-04-08 19:31:43,670 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:18<00:00, 18.65s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:18<00:00, 15.73s/it]
+ 37%|███▋      | 37/100 [1:01:07<1:30:21, 86.06s/it]2025-04-08 19:32:00,766 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:32:00,766 - INFO - Extracting attributes from context
+2025-04-08 19:32:00,865 - INFO - Generating synthetic content from attributes
+2025-04-08 19:32:04,907 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:04<00:18,  4.67s/it][A2025-04-08 19:32:05,441 - INFO - Extracting attributes from context
+2025-04-08 19:32:05,537 - INFO - Generating synthetic content from attributes
+2025-04-08 19:32:17,340 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:17<00:28,  9.42s/it][A2025-04-08 19:32:18,177 - INFO - Extracting attributes from context
+2025-04-08 19:32:18,275 - INFO - Generating synthetic content from attributes
+2025-04-08 19:32:23,403 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:37<00:28, 14.14s/it][A2025-04-08 19:32:37,942 - INFO - Extracting attributes from context
+2025-04-08 19:32:38,565 - INFO - Generating synthetic content from attributes
+2025-04-08 19:32:48,106 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:48<00:13, 13.02s/it][A2025-04-08 19:32:49,251 - INFO - Extracting attributes from context
+2025-04-08 19:32:50,381 - INFO - Generating synthetic content from attributes
+2025-04-08 19:32:58,312 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [00:58<00:00, 11.76s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [00:58<00:00, 11.60s/it]
+ 38%|███▊      | 38/100 [1:02:26<1:26:44, 83.94s/it]2025-04-08 19:33:19,819 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:33:19,820 - INFO - Extracting attributes from context
+2025-04-08 19:33:31,886 - INFO - Generating synthetic content from attributes
+2025-04-08 19:33:35,130 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:15<01:02, 15.62s/it][A2025-04-08 19:33:35,439 - INFO - Extracting attributes from context
+2025-04-08 19:33:36,152 - INFO - Generating synthetic content from attributes
+2025-04-08 19:33:39,988 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:20<00:27,  9.27s/it][A2025-04-08 19:33:40,266 - INFO - Extracting attributes from context
+2025-04-08 19:33:52,521 - INFO - Generating synthetic content from attributes
+2025-04-08 19:34:04,351 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:45<00:32, 16.50s/it][A2025-04-08 19:34:05,366 - INFO - Extracting attributes from context
+2025-04-08 19:34:06,050 - INFO - Generating synthetic content from attributes
+2025-04-08 19:34:16,053 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:57<00:14, 14.52s/it][A2025-04-08 19:34:16,858 - INFO - Extracting attributes from context
+2025-04-08 19:34:29,072 - INFO - Generating synthetic content from attributes
+2025-04-08 19:34:40,887 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:21<00:00, 18.10s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:21<00:00, 16.29s/it]
+ 39%|███▉      | 39/100 [1:04:06<1:30:11, 88.72s/it]2025-04-08 19:34:59,548 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:34:59,548 - INFO - Extracting attributes from context
+2025-04-08 19:35:11,678 - INFO - Generating synthetic content from attributes
+2025-04-08 19:35:22,004 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:23<01:32, 23.14s/it][A2025-04-08 19:35:22,693 - INFO - Extracting attributes from context
+2025-04-08 19:35:23,297 - INFO - Generating synthetic content from attributes
+2025-04-08 19:35:35,141 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:36<00:52, 17.40s/it][A2025-04-08 19:35:36,078 - INFO - Extracting attributes from context
+2025-04-08 19:35:48,291 - INFO - Generating synthetic content from attributes
+2025-04-08 19:35:53,637 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:54<00:35, 17.84s/it][A2025-04-08 19:35:54,427 - INFO - Extracting attributes from context
+2025-04-08 19:35:54,514 - INFO - Generating synthetic content from attributes
+2025-04-08 19:36:04,070 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [01:04<00:14, 14.79s/it][A2025-04-08 19:36:04,537 - INFO - Extracting attributes from context
+2025-04-08 19:36:05,132 - INFO - Generating synthetic content from attributes
+2025-04-08 19:36:14,747 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:16<00:00, 13.53s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:16<00:00, 15.26s/it]
+2025-04-08 19:36:24,548 - INFO - Processed 40/100 questions
+ 40%|████      | 40/100 [1:05:44<1:31:22, 91.37s/it]2025-04-08 19:36:37,025 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:36:37,025 - INFO - Extracting attributes from context
+2025-04-08 19:36:49,172 - INFO - Generating synthetic content from attributes
+2025-04-08 19:37:00,983 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:24<01:39, 24.93s/it][A2025-04-08 19:37:01,951 - INFO - Extracting attributes from context
+2025-04-08 19:37:02,668 - INFO - Generating synthetic content from attributes
+2025-04-08 19:37:11,025 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:34<00:48, 16.13s/it][A2025-04-08 19:37:11,930 - INFO - Extracting attributes from context
+2025-04-08 19:37:12,047 - INFO - Generating synthetic content from attributes
+2025-04-08 19:37:15,573 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:39<00:21, 10.92s/it][A2025-04-08 19:37:16,646 - INFO - Extracting attributes from context
+2025-04-08 19:37:16,746 - INFO - Generating synthetic content from attributes
+2025-04-08 19:37:24,584 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:48<00:10, 10.21s/it][A2025-04-08 19:37:25,759 - INFO - Extracting attributes from context
+2025-04-08 19:37:25,954 - INFO - Generating synthetic content from attributes
+2025-04-08 19:37:31,977 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [00:55<00:00,  8.92s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [00:55<00:00, 11.07s/it]
+ 41%|████      | 41/100 [1:07:00<1:25:17, 86.73s/it]2025-04-08 19:37:52,993 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:37:52,994 - INFO - Extracting attributes from context
+2025-04-08 19:38:04,993 - INFO - Generating synthetic content from attributes
+2025-04-08 19:38:15,165 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:22<01:31, 22.82s/it][A2025-04-08 19:38:15,817 - INFO - Extracting attributes from context
+2025-04-08 19:38:16,375 - INFO - Generating synthetic content from attributes
+2025-04-08 19:38:23,980 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:31<00:43, 14.51s/it][A2025-04-08 19:38:24,506 - INFO - Extracting attributes from context
+2025-04-08 19:38:24,608 - INFO - Generating synthetic content from attributes
+2025-04-08 19:38:36,451 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:44<00:27, 13.74s/it][A2025-04-08 19:38:37,341 - INFO - Extracting attributes from context
+2025-04-08 19:39:03,467 - INFO - Generating synthetic content from attributes
+2025-04-08 19:39:26,935 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [01:36<00:28, 28.98s/it][A2025-04-08 19:39:29,685 - INFO - Extracting attributes from context
+2025-04-08 19:39:29,897 - INFO - Generating synthetic content from attributes
+2025-04-08 19:39:58,563 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [02:06<00:00, 29.33s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [02:06<00:00, 25.32s/it]
+ 42%|████▏     | 42/100 [1:09:41<1:45:27, 109.09s/it]2025-04-08 19:40:57,244 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:40:57,244 - INFO - Extracting attributes from context
+2025-04-08 19:40:57,452 - INFO - Generating synthetic content from attributes
+2025-04-08 19:41:08,061 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:13<00:54, 13.75s/it][A2025-04-08 19:41:10,993 - INFO - Extracting attributes from context
+2025-04-08 19:41:11,222 - INFO - Generating synthetic content from attributes
+2025-04-08 19:41:29,549 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:33<00:51, 17.09s/it][A2025-04-08 19:41:30,417 - INFO - Extracting attributes from context
+2025-04-08 19:41:42,518 - INFO - Generating synthetic content from attributes
+2025-04-08 19:41:54,323 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:57<00:40, 20.40s/it][A2025-04-08 19:41:54,763 - INFO - Extracting attributes from context
+2025-04-08 19:41:54,883 - INFO - Generating synthetic content from attributes
+2025-04-08 19:42:03,922 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [01:07<00:16, 16.43s/it][A2025-04-08 19:42:05,107 - INFO - Extracting attributes from context
+2025-04-08 19:42:05,843 - INFO - Generating synthetic content from attributes
+2025-04-08 19:42:17,684 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:21<00:00, 15.37s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:21<00:00, 16.27s/it]
+ 43%|████▎     | 43/100 [1:11:45<1:47:50, 113.51s/it]2025-04-08 19:42:38,060 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:42:38,061 - INFO - Extracting attributes from context
+2025-04-08 19:42:38,163 - INFO - Generating synthetic content from attributes
+2025-04-08 19:42:49,974 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:13<00:52, 13.20s/it][A2025-04-08 19:42:51,256 - INFO - Extracting attributes from context
+2025-04-08 19:42:51,358 - INFO - Generating synthetic content from attributes
+2025-04-08 19:43:02,739 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:25<00:37, 12.49s/it][A2025-04-08 19:43:03,259 - INFO - Extracting attributes from context
+2025-04-08 19:43:15,439 - INFO - Generating synthetic content from attributes
+2025-04-08 19:43:21,080 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:43<00:30, 15.30s/it][A2025-04-08 19:43:21,888 - INFO - Extracting attributes from context
+2025-04-08 19:43:21,976 - INFO - Generating synthetic content from attributes
+2025-04-08 19:43:32,148 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [00:54<00:13, 13.60s/it][A2025-04-08 19:43:32,897 - INFO - Extracting attributes from context
+2025-04-08 19:43:33,014 - INFO - Generating synthetic content from attributes
+2025-04-08 19:43:44,855 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:08<00:00, 13.47s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:08<00:00, 13.61s/it]
+ 44%|████▍     | 44/100 [1:13:14<1:39:14, 106.33s/it]2025-04-08 19:44:30,858 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:44:30,858 - INFO - Extracting attributes from context
+2025-04-08 19:45:00,264 - INFO - Generating synthetic content from attributes
+2025-04-08 19:45:14,320 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:44<02:56, 44.12s/it][A2025-04-08 19:45:14,977 - INFO - Extracting attributes from context
+2025-04-08 19:45:16,702 - INFO - Generating synthetic content from attributes
+2025-04-08 19:45:34,290 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [01:06<01:33, 31.12s/it][A2025-04-08 19:45:37,001 - INFO - Extracting attributes from context
+2025-04-08 19:45:37,208 - INFO - Generating synthetic content from attributes
+2025-04-08 19:46:05,834 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [01:37<01:02, 31.04s/it][A2025-04-08 19:46:07,933 - INFO - Extracting attributes from context
+2025-04-08 19:46:08,155 - INFO - Generating synthetic content from attributes
+2025-04-08 19:46:28,078 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [02:00<00:28, 28.06s/it][A2025-04-08 19:46:31,442 - INFO - Extracting attributes from context
+2025-04-08 19:46:31,645 - INFO - Generating synthetic content from attributes
+2025-04-08 19:47:00,320 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [02:31<00:00, 29.08s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [02:31<00:00, 30.29s/it]
+ 45%|████▌     | 45/100 [1:16:46<2:06:28, 137.97s/it]2025-04-08 19:48:02,482 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:48:02,483 - INFO - Extracting attributes from context
+2025-04-08 19:48:03,996 - INFO - Generating synthetic content from attributes
+2025-04-08 19:48:30,152 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:28<01:54, 28.50s/it][A2025-04-08 19:48:30,984 - INFO - Extracting attributes from context
+2025-04-08 19:48:43,016 - INFO - Generating synthetic content from attributes
+2025-04-08 19:48:50,524 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:48<01:11, 23.70s/it][A2025-04-08 19:48:51,320 - INFO - Extracting attributes from context
+2025-04-08 19:49:03,537 - INFO - Generating synthetic content from attributes
+2025-04-08 19:49:06,748 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [01:06<00:41, 20.74s/it][A2025-04-08 19:49:08,539 - INFO - Extracting attributes from context
+2025-04-08 19:49:08,837 - INFO - Generating synthetic content from attributes
+2025-04-08 19:49:34,828 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [01:35<00:24, 24.21s/it][A2025-04-08 19:49:38,069 - INFO - Extracting attributes from context
+2025-04-08 19:49:38,294 - INFO - Generating synthetic content from attributes
+2025-04-08 19:50:01,022 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [02:01<00:00, 24.82s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [02:01<00:00, 24.30s/it]
+ 46%|████▌     | 46/100 [1:19:43<2:14:42, 149.67s/it]2025-04-08 19:50:59,498 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:50:59,499 - INFO - Extracting attributes from context
+2025-04-08 19:50:59,756 - INFO - Generating synthetic content from attributes
+2025-04-08 19:51:12,979 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:15<01:02, 15.72s/it][A2025-04-08 19:51:15,221 - INFO - Extracting attributes from context
+2025-04-08 19:51:15,477 - INFO - Generating synthetic content from attributes
+2025-04-08 19:51:24,438 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:25<00:37, 12.34s/it][A2025-04-08 19:51:25,194 - INFO - Extracting attributes from context
+2025-04-08 19:51:25,422 - INFO - Generating synthetic content from attributes
+2025-04-08 19:51:54,033 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:57<00:42, 21.10s/it][A2025-04-08 19:51:56,727 - INFO - Extracting attributes from context
+2025-04-08 19:52:25,857 - INFO - Generating synthetic content from attributes
+2025-04-08 19:52:49,786 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [01:51<00:34, 34.10s/it][A2025-04-08 19:52:50,756 - INFO - Extracting attributes from context
+2025-04-08 19:52:51,406 - INFO - Generating synthetic content from attributes
+2025-04-08 19:53:00,231 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [02:01<00:00, 25.56s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [02:01<00:00, 24.33s/it]
+ 47%|████▋     | 47/100 [1:22:30<2:16:53, 154.98s/it]2025-04-08 19:53:39,372 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:53:39,372 - INFO - Extracting attributes from context
+2025-04-08 19:53:39,630 - INFO - Generating synthetic content from attributes
+2025-04-08 19:54:02,351 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:24<01:36, 24.22s/it][A2025-04-08 19:54:03,588 - INFO - Extracting attributes from context
+2025-04-08 19:54:03,799 - INFO - Generating synthetic content from attributes
+2025-04-08 19:54:32,415 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:56<01:26, 28.71s/it][A2025-04-08 19:54:35,445 - INFO - Extracting attributes from context
+2025-04-08 19:55:04,791 - INFO - Generating synthetic content from attributes
+2025-04-08 19:55:24,789 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [01:46<01:16, 38.50s/it][A2025-04-08 19:55:25,586 - INFO - Extracting attributes from context
+2025-04-08 19:55:27,580 - INFO - Generating synthetic content from attributes
+2025-04-08 19:55:48,243 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [02:09<00:32, 32.56s/it][A2025-04-08 19:55:49,035 - INFO - Extracting attributes from context
+2025-04-08 19:55:50,612 - INFO - Generating synthetic content from attributes
+2025-04-08 19:56:04,243 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [02:25<00:00, 26.67s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [02:25<00:00, 29.18s/it]
+ 48%|████▊     | 48/100 [1:25:36<2:22:19, 164.23s/it]2025-04-08 19:56:52,674 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 19:56:52,675 - INFO - Extracting attributes from context
+2025-04-08 19:57:22,198 - INFO - Generating synthetic content from attributes
+2025-04-08 19:57:46,405 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:56<03:45, 56.43s/it][A2025-04-08 19:57:49,105 - INFO - Extracting attributes from context
+2025-04-08 19:58:18,636 - INFO - Generating synthetic content from attributes
+2025-04-08 19:58:47,219 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [01:56<02:56, 58.68s/it][A2025-04-08 19:58:49,359 - INFO - Extracting attributes from context
+2025-04-08 19:59:18,899 - INFO - Generating synthetic content from attributes
+2025-04-08 19:59:45,205 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [02:55<01:57, 58.64s/it][A2025-04-08 19:59:47,947 - INFO - Extracting attributes from context
+2025-04-08 19:59:48,212 - INFO - Generating synthetic content from attributes
+2025-04-08 20:00:16,858 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [03:26<00:47, 47.99s/it][A2025-04-08 20:00:19,619 - INFO - Extracting attributes from context
+2025-04-08 20:00:21,297 - INFO - Generating synthetic content from attributes
+2025-04-08 20:00:31,360 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [03:40<00:00, 35.64s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [03:40<00:00, 44.14s/it]
+ 49%|████▉     | 49/100 [1:30:10<2:47:26, 196.98s/it]2025-04-08 20:01:25,904 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 20:01:25,905 - INFO - Extracting attributes from context
+2025-04-08 20:01:26,122 - INFO - Generating synthetic content from attributes
+2025-04-08 20:01:44,813 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:20<01:20, 20.06s/it][A2025-04-08 20:01:45,967 - INFO - Extracting attributes from context
+2025-04-08 20:01:46,200 - INFO - Generating synthetic content from attributes
+2025-04-08 20:01:53,709 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [00:29<00:41, 13.87s/it][A2025-04-08 20:01:55,504 - INFO - Extracting attributes from context
+2025-04-08 20:01:57,227 - INFO - Generating synthetic content from attributes
+2025-04-08 20:02:11,143 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [00:47<00:31, 15.70s/it][A2025-04-08 20:02:13,378 - INFO - Extracting attributes from context
+2025-04-08 20:02:13,586 - INFO - Generating synthetic content from attributes
+2025-04-08 20:02:42,207 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [01:18<00:21, 21.78s/it][A2025-04-08 20:02:44,485 - INFO - Extracting attributes from context
+2025-04-08 20:02:44,697 - INFO - Generating synthetic content from attributes
+2025-04-08 20:03:13,322 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [01:48<00:00, 24.70s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [01:48<00:00, 21.69s/it]
+2025-04-08 20:03:31,882 - INFO - Processed 50/100 questions
+ 50%|█████     | 50/100 [1:32:51<2:35:15, 186.31s/it]2025-04-08 20:04:07,349 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 20:04:07,349 - INFO - Extracting attributes from context
+2025-04-08 20:04:36,854 - INFO - Generating synthetic content from attributes
+2025-04-08 20:04:58,960 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:52<03:30, 52.61s/it][A2025-04-08 20:04:59,963 - INFO - Extracting attributes from context
+2025-04-08 20:05:01,612 - INFO - Generating synthetic content from attributes
+2025-04-08 20:05:19,687 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [01:14<01:43, 34.52s/it][A2025-04-08 20:05:21,826 - INFO - Extracting attributes from context
+2025-04-08 20:05:51,100 - INFO - Generating synthetic content from attributes
+2025-04-08 20:06:15,652 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [02:10<01:28, 44.35s/it][A2025-04-08 20:06:17,863 - INFO - Extracting attributes from context
+2025-04-08 20:06:18,083 - INFO - Generating synthetic content from attributes
+2025-04-08 20:06:45,084 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  80%|████████  | 4/5 [02:39<00:38, 38.34s/it][A2025-04-08 20:06:46,988 - INFO - Extracting attributes from context
+2025-04-08 20:07:16,192 - INFO - Generating synthetic content from attributes
+2025-04-08 20:07:30,858 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts: 100%|██████████| 5/5 [03:25<00:00, 41.07s/it][AGenerating synthetic contexts: 100%|██████████| 5/5 [03:25<00:00, 41.11s/it]
+ 51%|█████     | 51/100 [1:37:15<2:51:14, 209.69s/it]2025-04-08 20:08:31,477 - INFO - Generating synthetic data for 5 contexts
+
+Generating synthetic contexts:   0%|          | 0/5 [00:00<?, ?it/s][A2025-04-08 20:08:31,477 - INFO - Extracting attributes from context
+2025-04-08 20:08:31,712 - INFO - Generating synthetic content from attributes
+2025-04-08 20:09:00,257 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  20%|██        | 1/5 [00:31<02:06, 31.71s/it][A2025-04-08 20:09:03,186 - INFO - Extracting attributes from context
+2025-04-08 20:09:04,915 - INFO - Generating synthetic content from attributes
+2025-04-08 20:09:33,483 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  40%|████      | 2/5 [01:04<01:37, 32.55s/it][A2025-04-08 20:09:36,331 - INFO - Extracting attributes from context
+2025-04-08 20:09:38,629 - INFO - Generating synthetic content from attributes
+2025-04-08 20:10:04,114 - INFO - Performing privacy review with second agent
+
+Generating synthetic contexts:  60%|██████    | 3/5 [01:35<01:03, 31.78s/it][A2025-04-08 20:10:07,196 - INFO - Extracting attributes from context
+2025-04-08 20:10:07,402 - INFO - Generating synthetic content from attributes
