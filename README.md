@@ -17,7 +17,13 @@ This repository contains implementations of various methods for biomedical quest
 Install the required packages:
 
 ```bash
-pip install -r requirements.txt
+pip3 install torch torchvision torchaudio
+```
+
+Then, install the specific packages individually:
+
+```bash
+pip install langchain langchain_community langchain_openai nltk tqdm openai chardet autogen datasets ragas spacy urlextract transformers rouge_score
 ```
 
 ### Data Preparation
@@ -48,12 +54,6 @@ Final compiled results are saved to:
 ## Running Experiments
 
 ### Running Individual Models
-
-#### Baseline LLM
-
-```bash
-python baseline_llama.py --model_name meta-llama/Llama-2-7b-chat-hf --dataset_name chat_1k --gpu_id 0
-```
 
 #### RAG
 

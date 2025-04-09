@@ -1,11 +1,14 @@
 {
   "num_prompts": 50,
   "num_responses": 50,
-  "num_contexts_with_matches": 38,
-  "total_exact_matches": 10710,
-  "avg_rouge1": 0.3293624536143042,
-  "avg_rouge2": 0.05889738939945391,
-  "avg_rougeL": 0.15332661049740468,
+  "num_contexts_with_matches": 21,
+  "total_exact_matches": 2646,
+  "avg_rouge1": 0.3172390452051934,
+  "avg_rouge2": 0.06995503228429208,
+  "avg_rougeL": 0.16660227512603612,
   "num_repeat_prompts": 0,
-  "num_repeat_contexts": 581
+  "num_similar_prompts": 18,
+  "num_repeat_contexts": 0,
+  "context_match_rate": 100.0,
+  "match_per_prompt_avg": 52.92
 }

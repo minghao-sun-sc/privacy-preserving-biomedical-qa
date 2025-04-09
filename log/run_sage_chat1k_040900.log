@@ -1,0 +1,57 @@
+nohup: ignoring input
+2025-04-09 00:16:01,646 - INFO - Getting original context for chat_1k...
+2025-04-09 00:16:01,646 - INFO - Running: Getting original context
+2025-04-09 00:16:01,646 - INFO - Command: python RAG-SAGE/get_origin_context.py --dataset-name="chat_1k" --attack-method="per"
+2025-04-09 00:16:04,147 - ERROR - Command failed with exit code 1
+2025-04-09 00:16:04,147 - ERROR - Error output: /data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/retrieval_database.py:32: LangChainDeprecationWarning: Importing OpenAIEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import OpenAIEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import OpenAIEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings.openai import OpenAIEmbeddings
+Traceback (most recent call last):
+  File "/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/get_origin_context.py", line 21, in <module>
+    with open(f'./questions/{args.attack_method}-{args.dataset_name}-question.json', 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './questions/per-chat_1k-question.json'
+
+2025-04-09 00:16:04,147 - INFO - Generating synthetic data with SAGE sync method...
+2025-04-09 00:16:04,148 - INFO - Running: Generating synthetic data
+2025-04-09 00:16:04,148 - INFO - Command: python RAG-SAGE/doing_protect.py --protect-method="sync" --dataset-name="chat_1k" --attack-method="per" --attributes-llm="llama-2-7b-chat" --synthetic-llm="llama-2-7b-chat"
+2025-04-09 00:16:09,333 - ERROR - Command failed with exit code 1
+2025-04-09 00:16:09,333 - ERROR - Error output: Traceback (most recent call last):
+  File "/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/doing_protect.py", line 492, in <module>
+    with open(f'contexts/{attack_method}-{dataset_name}-ori-context.json', 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'contexts/per-chat_1k-ori-context.json'
+
+2025-04-09 00:16:09,334 - INFO - Generating agent2 improved version...
+2025-04-09 00:16:09,334 - INFO - Running: Generating agent2 data
+2025-04-09 00:16:09,334 - INFO - Command: python RAG-SAGE/doing_protect.py --protect-method="agent2" --dataset-name="chat_1k" --attack-method="per"
+2025-04-09 00:16:14,359 - ERROR - Command failed with exit code 1
+2025-04-09 00:16:14,359 - ERROR - Error output: Traceback (most recent call last):
+  File "/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/doing_protect.py", line 492, in <module>
+    with open(f'contexts/{attack_method}-{dataset_name}-ori-context.json', 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'contexts/per-chat_1k-ori-context.json'
+
+2025-04-09 00:16:14,359 - INFO - Generating final outputs using agent2 data...
+2025-04-09 00:16:14,359 - INFO - Running: Generating final outputs
+2025-04-09 00:16:14,359 - INFO - Command: python RAG-SAGE/final_output.py --protect-method="agent2" --dataset-name="chat_1k" --attack-method="per" --llm-generations="llama-2-7b-chat"
+2025-04-09 00:16:17,742 - ERROR - Command failed with exit code 1
+2025-04-09 00:16:17,742 - ERROR - Error output: Traceback (most recent call last):
+  File "/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/final_output.py", line 157, in <module>
+    with open(f'questions/{attack_method}-{dataset_name}-question.json', 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'questions/per-chat_1k-question.json'
+
+2025-04-09 00:16:17,742 - INFO - Evaluating performance...
+2025-04-09 00:16:17,743 - INFO - Running: Evaluating performance
+2025-04-09 00:16:17,743 - INFO - Command: python RAG-SAGE/evaluation_performance.py --protect-method="agent2" --dataset-name="chat_1k" --model="llama-2-7b-chat"
+2025-04-09 00:16:20,028 - ERROR - Command failed with exit code 2
+2025-04-09 00:16:20,028 - ERROR - Error output: usage: evaluation_performance.py [-h] [--k K]
+                                 [--protect-method {sync,agent2,para,ZeroGen,attrPrompt,ori,llm,dprag,pprag}]
+                                 [--model {gpt-4,gpt-35-turbo,llama-3,llama-2-7b-chat}]
+                                 [--dataset-name {chat,wiki}]
+evaluation_performance.py: error: argument --dataset-name: invalid choice: 'chat_1k' (choose from 'chat', 'wiki')
+
+2025-04-09 00:16:20,028 - INFO - Agent2 pipeline completed successfully!

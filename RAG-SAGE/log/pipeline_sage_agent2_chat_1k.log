@@ -1,0 +1,677 @@
+nohup: ignoring input
+
+
+================================================================================
+RUNNING: Preparing chatdoctor_1k dataset
+COMMAND: python prepare_chatdoctor_1k.py
+================================================================================
+
+Found 1000 conversations in the dataset
+Files created successfully.
+- questions/untarget-chatdoctor_1k-question.json
+- truth/untarget-chatdoctor_1k-truth.json
+- questions/target-chatdoctor_1k-question.json
+- truth/target-chatdoctor_1k-truth.json
+- questions/per-chatdoctor_1k-question.json
+- truth/per-chatdoctor_1k-truth.json
+
+
+================================================================================
+RUNNING: Creating retrieval database
+COMMAND: python create_database_chatdoctor_1k.py
+================================================================================
+
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/retrieval_database.py:32: LangChainDeprecationWarning: Importing OpenAIEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import OpenAIEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import OpenAIEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings.openai import OpenAIEmbeddings
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/retrieval_database.py:96: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFaceEmbeddings``.
+  embed_model = HuggingFaceEmbeddings(
+Using device: cuda:1
+Loading embedding model: BAAI/bge-large-en-v1.5
+Found 1000 conversations in the dataset
+Created 1000 documents
+Creating vector store at: RetrievalBase/chatdoctor_1k/BAAI/bge-large-en-v1.5
+Vector store created successfully at: RetrievalBase/chatdoctor_1k/BAAI/bge-large-en-v1.5
+Sources saved to: contexts/sources.json
+
+
+================================================================================
+RUNNING: Getting origin contexts
+COMMAND: python get_origin_context_chatdoctor_1k.py
+================================================================================
+
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/retrieval_database.py:32: LangChainDeprecationWarning: Importing OpenAIEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import OpenAIEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import OpenAIEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings.openai import OpenAIEmbeddings
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/retrieval_database.py:96: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFaceEmbeddings``.
+  embed_model = HuggingFaceEmbeddings(
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/retrieval_database.py:429: LangChainDeprecationWarning: The class `Chroma` was deprecated in LangChain 0.2.9 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-chroma package and should be used instead. To use it run `pip install -U :class:`~langchain-chroma` and import as `from :class:`~langchain_chroma import Chroma``.
+  retrieval_database = Chroma(
+Processing per-chatdoctor_1k...
+
+  0%|          | 0/1000 [00:00<?, ?it/s]
+  0%|          | 1/1000 [00:00<07:48,  2.13it/s]
+  1%|          | 9/1000 [00:00<00:49, 19.92it/s]
+  2%|▏         | 18/1000 [00:00<00:26, 36.92it/s]
+  3%|▎         | 27/1000 [00:00<00:19, 49.47it/s]
+  4%|▎         | 36/1000 [00:00<00:16, 59.71it/s]
+  5%|▍         | 46/1000 [00:00<00:13, 69.50it/s]
+  6%|▌         | 57/1000 [00:01<00:11, 78.98it/s]
+  7%|▋         | 67/1000 [00:01<00:11, 83.40it/s]
+  8%|▊         | 77/1000 [00:01<00:10, 88.05it/s]
+  9%|▊         | 87/1000 [00:01<00:10, 91.28it/s]
+ 10%|▉         | 98/1000 [00:01<00:09, 94.30it/s]
+ 11%|█         | 109/1000 [00:01<00:09, 96.72it/s]
+ 12%|█▏        | 120/1000 [00:01<00:08, 97.81it/s]
+ 13%|█▎        | 130/1000 [00:01<00:09, 96.63it/s]
+ 14%|█▍        | 141/1000 [00:01<00:08, 98.41it/s]
+ 15%|█▌        | 152/1000 [00:02<00:08, 99.61it/s]
+ 16%|█▋        | 163/1000 [00:02<00:08, 99.26it/s]
+ 17%|█▋        | 174/1000 [00:02<00:08, 99.98it/s]
+ 18%|█▊        | 185/1000 [00:02<00:08, 91.21it/s]
+ 20%|█▉        | 195/1000 [00:02<00:09, 87.46it/s]
+ 21%|██        | 206/1000 [00:02<00:08, 91.34it/s]
+ 22%|██▏       | 216/1000 [00:02<00:08, 90.01it/s]
+ 23%|██▎       | 226/1000 [00:02<00:09, 84.81it/s]
+ 24%|██▎       | 236/1000 [00:03<00:08, 86.83it/s]
+ 25%|██▍       | 246/1000 [00:03<00:08, 88.81it/s]
+ 26%|██▌       | 255/1000 [00:03<00:08, 87.81it/s]
+ 26%|██▋       | 264/1000 [00:03<00:08, 87.78it/s]
+ 27%|██▋       | 273/1000 [00:03<00:08, 87.32it/s]
+ 28%|██▊       | 282/1000 [00:03<00:08, 83.19it/s]
+ 29%|██▉       | 292/1000 [00:03<00:08, 86.01it/s]
+ 30%|███       | 301/1000 [00:03<00:08, 84.56it/s]
+ 31%|███       | 311/1000 [00:03<00:07, 87.02it/s]
+ 32%|███▏      | 320/1000 [00:03<00:07, 86.88it/s]
+ 33%|███▎      | 329/1000 [00:04<00:07, 86.16it/s]
+ 34%|███▍      | 338/1000 [00:04<00:07, 85.97it/s]
+ 35%|███▍      | 347/1000 [00:04<00:07, 86.51it/s]
+ 36%|███▌      | 358/1000 [00:04<00:07, 91.57it/s]
+ 37%|███▋      | 368/1000 [00:04<00:06, 92.78it/s]
+ 38%|███▊      | 379/1000 [00:04<00:06, 95.17it/s]
+ 39%|███▉      | 389/1000 [00:04<00:07, 87.13it/s]
+ 40%|███▉      | 399/1000 [00:04<00:06, 87.59it/s]
+ 41%|████      | 409/1000 [00:04<00:06, 89.33it/s]
+ 42%|████▏     | 419/1000 [00:05<00:06, 84.27it/s]
+ 43%|████▎     | 428/1000 [00:05<00:06, 85.15it/s]
+ 44%|████▎     | 437/1000 [00:05<00:06, 84.46it/s]
+ 45%|████▍     | 447/1000 [00:05<00:06, 86.65it/s]
+ 46%|████▌     | 456/1000 [00:05<00:06, 85.55it/s]
+ 46%|████▋     | 465/1000 [00:05<00:06, 85.73it/s]
+ 47%|████▋     | 474/1000 [00:05<00:06, 86.64it/s]
+ 48%|████▊     | 483/1000 [00:05<00:06, 85.83it/s]
+ 49%|████▉     | 492/1000 [00:05<00:05, 85.94it/s]
+ 50%|█████     | 501/1000 [00:06<00:05, 85.44it/s]
+ 51%|█████     | 511/1000 [00:06<00:05, 88.73it/s]
+ 52%|█████▏    | 520/1000 [00:06<00:05, 85.45it/s]
+ 53%|█████▎    | 529/1000 [00:06<00:05, 84.92it/s]
+ 54%|█████▍    | 538/1000 [00:06<00:05, 83.55it/s]
+ 55%|█████▍    | 548/1000 [00:06<00:05, 85.75it/s]
+ 56%|█████▌    | 557/1000 [00:06<00:05, 83.01it/s]
+ 57%|█████▋    | 566/1000 [00:06<00:05, 81.86it/s]
+ 57%|█████▊    | 575/1000 [00:06<00:05, 79.61it/s]
+ 58%|█████▊    | 584/1000 [00:07<00:05, 80.46it/s]
+ 59%|█████▉    | 594/1000 [00:07<00:04, 84.07it/s]
+ 60%|██████    | 603/1000 [00:07<00:04, 84.90it/s]
+ 61%|██████    | 612/1000 [00:07<00:04, 83.14it/s]
+ 62%|██████▏   | 622/1000 [00:07<00:04, 85.06it/s]
+ 63%|██████▎   | 631/1000 [00:07<00:04, 82.50it/s]
+ 64%|██████▍   | 640/1000 [00:07<00:04, 83.45it/s]
+ 65%|██████▍   | 649/1000 [00:07<00:04, 81.69it/s]
+ 66%|██████▌   | 658/1000 [00:07<00:04, 82.74it/s]
+ 67%|██████▋   | 668/1000 [00:08<00:03, 85.71it/s]
+ 68%|██████▊   | 677/1000 [00:08<00:03, 83.40it/s]
+ 69%|██████▊   | 687/1000 [00:08<00:03, 87.24it/s]
+ 70%|██████▉   | 696/1000 [00:08<00:03, 83.20it/s]
+ 70%|███████   | 705/1000 [00:08<00:03, 84.31it/s]
+ 71%|███████▏  | 714/1000 [00:08<00:03, 81.96it/s]
+ 72%|███████▏  | 723/1000 [00:08<00:03, 80.93it/s]
+ 73%|███████▎  | 733/1000 [00:08<00:03, 86.14it/s]
+ 74%|███████▍  | 742/1000 [00:08<00:03, 83.82it/s]
+ 75%|███████▌  | 751/1000 [00:09<00:02, 84.70it/s]
+ 76%|███████▌  | 760/1000 [00:09<00:02, 84.59it/s]
+ 77%|███████▋  | 769/1000 [00:09<00:02, 85.44it/s]
+ 78%|███████▊  | 778/1000 [00:09<00:02, 83.75it/s]
+ 79%|███████▉  | 788/1000 [00:09<00:02, 86.67it/s]
+ 80%|███████▉  | 797/1000 [00:09<00:02, 84.07it/s]
+ 81%|████████  | 806/1000 [00:09<00:02, 83.63it/s]
+ 82%|████████▏ | 816/1000 [00:09<00:02, 87.06it/s]
+ 83%|████████▎ | 827/1000 [00:09<00:01, 91.26it/s]
+ 84%|████████▎ | 837/1000 [00:10<00:01, 92.33it/s]
+ 85%|████████▍ | 848/1000 [00:10<00:01, 95.09it/s]
+ 86%|████████▌ | 858/1000 [00:10<00:01, 95.49it/s]
+ 87%|████████▋ | 868/1000 [00:10<00:01, 95.00it/s]
+ 88%|████████▊ | 879/1000 [00:10<00:01, 97.54it/s]
+ 89%|████████▉ | 890/1000 [00:10<00:01, 99.26it/s]
+ 90%|█████████ | 901/1000 [00:10<00:00, 99.89it/s]
+ 91%|█████████ | 911/1000 [00:10<00:00, 99.06it/s]
+ 92%|█████████▏| 921/1000 [00:10<00:00, 97.88it/s]
+ 93%|█████████▎| 932/1000 [00:10<00:00, 98.46it/s]
+ 94%|█████████▍| 943/1000 [00:11<00:00, 99.44it/s]
+ 95%|█████████▌| 954/1000 [00:11<00:00, 99.88it/s]
+ 96%|█████████▋| 964/1000 [00:11<00:00, 98.22it/s]
+ 98%|█████████▊| 975/1000 [00:11<00:00, 99.05it/s]
+ 98%|█████████▊| 985/1000 [00:11<00:00, 99.30it/s]
+100%|█████████▉| 995/1000 [00:11<00:00, 96.34it/s]
+100%|██████████| 1000/1000 [00:11<00:00, 85.62it/s]
+Total errors: 0
+Saved contexts to ./contexts/per-chatdoctor_1k-ori-context.json
+Processing target-chatdoctor_1k...
+
+  0%|          | 0/1000 [00:00<?, ?it/s]
+  1%|          | 9/1000 [00:00<00:11, 86.92it/s]
+  2%|▏         | 19/1000 [00:00<00:10, 89.57it/s]
+  3%|▎         | 29/1000 [00:00<00:10, 93.01it/s]
+  4%|▍         | 40/1000 [00:00<00:10, 95.69it/s]
+  5%|▌         | 50/1000 [00:00<00:09, 95.42it/s]
+  6%|▌         | 60/1000 [00:00<00:09, 96.90it/s]
+  7%|▋         | 70/1000 [00:00<00:09, 96.61it/s]
+  8%|▊         | 81/1000 [00:00<00:09, 98.65it/s]
+  9%|▉         | 92/1000 [00:00<00:09, 100.07it/s]
+ 10%|█         | 103/1000 [00:01<00:08, 100.32it/s]
+ 11%|█▏        | 114/1000 [00:01<00:08, 100.88it/s]
+ 12%|█▎        | 125/1000 [00:01<00:08, 100.09it/s]
+ 14%|█▎        | 136/1000 [00:01<00:08, 98.81it/s] 
+ 15%|█▍        | 147/1000 [00:01<00:08, 99.91it/s]
+ 16%|█▌        | 157/1000 [00:01<00:08, 99.87it/s]
+ 17%|█▋        | 167/1000 [00:01<00:08, 96.19it/s]
+ 18%|█▊        | 177/1000 [00:01<00:08, 92.47it/s]
+ 19%|█▊        | 187/1000 [00:01<00:09, 88.73it/s]
+ 20%|█▉        | 197/1000 [00:02<00:09, 88.96it/s]
+ 21%|██        | 206/1000 [00:02<00:09, 87.64it/s]
+ 22%|██▏       | 215/1000 [00:02<00:09, 85.51it/s]
+ 22%|██▏       | 224/1000 [00:02<00:08, 86.24it/s]
+ 24%|██▎       | 235/1000 [00:02<00:08, 89.88it/s]
+ 24%|██▍       | 244/1000 [00:02<00:08, 84.98it/s]
+ 25%|██▌       | 254/1000 [00:02<00:08, 86.08it/s]
+ 26%|██▋       | 263/1000 [00:02<00:08, 83.58it/s]
+ 27%|██▋       | 272/1000 [00:02<00:08, 81.99it/s]
+ 28%|██▊       | 281/1000 [00:03<00:08, 83.91it/s]
+ 29%|██▉       | 290/1000 [00:03<00:08, 85.35it/s]
+ 30%|██▉       | 299/1000 [00:03<00:08, 84.40it/s]
+ 31%|███       | 308/1000 [00:03<00:08, 82.47it/s]
+ 32%|███▏      | 318/1000 [00:03<00:07, 85.88it/s]
+ 33%|███▎      | 329/1000 [00:03<00:07, 90.47it/s]
+ 34%|███▍      | 340/1000 [00:03<00:07, 93.59it/s]
+ 35%|███▌      | 350/1000 [00:03<00:06, 94.21it/s]
+ 36%|███▌      | 360/1000 [00:03<00:06, 95.79it/s]
+ 37%|███▋      | 370/1000 [00:04<00:06, 96.97it/s]
+ 38%|███▊      | 381/1000 [00:04<00:06, 98.59it/s]
+ 39%|███▉      | 391/1000 [00:04<00:06, 97.57it/s]
+ 40%|████      | 401/1000 [00:04<00:06, 98.10it/s]
+ 41%|████      | 411/1000 [00:04<00:06, 97.39it/s]
+ 42%|████▏     | 422/1000 [00:04<00:05, 98.77it/s]
+ 43%|████▎     | 432/1000 [00:04<00:05, 98.81it/s]
+ 44%|████▍     | 442/1000 [00:04<00:05, 98.85it/s]
+ 45%|████▌     | 452/1000 [00:04<00:05, 98.97it/s]
+ 46%|████▌     | 462/1000 [00:04<00:05, 96.65it/s]
+ 47%|████▋     | 472/1000 [00:05<00:05, 90.09it/s]
+ 48%|████▊     | 482/1000 [00:05<00:05, 88.39it/s]
+ 49%|████▉     | 492/1000 [00:05<00:05, 89.88it/s]
+ 50%|█████     | 502/1000 [00:05<00:05, 87.59it/s]
+ 51%|█████     | 511/1000 [00:05<00:05, 85.31it/s]
+ 52%|█████▏    | 520/1000 [00:05<00:05, 85.23it/s]
+ 53%|█████▎    | 530/1000 [00:05<00:05, 87.08it/s]
+ 54%|█████▍    | 539/1000 [00:05<00:05, 87.06it/s]
+ 55%|█████▍    | 548/1000 [00:05<00:05, 85.31it/s]
+ 56%|█████▌    | 557/1000 [00:06<00:05, 84.66it/s]
+ 57%|█████▋    | 566/1000 [00:06<00:05, 85.37it/s]
+ 57%|█████▊    | 575/1000 [00:06<00:05, 84.24it/s]
+ 58%|█████▊    | 584/1000 [00:06<00:04, 84.34it/s]
+ 59%|█████▉    | 594/1000 [00:06<00:04, 86.17it/s]
+ 60%|██████    | 603/1000 [00:06<00:04, 85.07it/s]
+ 61%|██████    | 612/1000 [00:06<00:04, 85.46it/s]
+ 62%|██████▏   | 622/1000 [00:06<00:04, 89.42it/s]
+ 63%|██████▎   | 631/1000 [00:06<00:04, 86.88it/s]
+ 64%|██████▍   | 640/1000 [00:07<00:04, 83.25it/s]
+ 65%|██████▌   | 650/1000 [00:07<00:04, 86.92it/s]
+ 66%|██████▌   | 660/1000 [00:07<00:03, 89.59it/s]
+ 67%|██████▋   | 671/1000 [00:07<00:03, 93.06it/s]
+ 68%|██████▊   | 682/1000 [00:07<00:03, 95.35it/s]
+ 69%|██████▉   | 693/1000 [00:07<00:03, 96.97it/s]
+ 70%|███████   | 703/1000 [00:07<00:03, 96.28it/s]
+ 71%|███████▏  | 714/1000 [00:07<00:02, 97.64it/s]
+ 72%|███████▎  | 725/1000 [00:07<00:02, 98.63it/s]
+ 74%|███████▎  | 736/1000 [00:08<00:02, 99.23it/s]
+ 75%|███████▍  | 747/1000 [00:08<00:02, 99.91it/s]
+ 76%|███████▌  | 758/1000 [00:08<00:02, 100.55it/s]
+ 77%|███████▋  | 769/1000 [00:08<00:02, 101.02it/s]
+ 78%|███████▊  | 780/1000 [00:08<00:02, 95.41it/s] 
+ 79%|███████▉  | 790/1000 [00:08<00:02, 91.09it/s]
+ 80%|████████  | 800/1000 [00:08<00:02, 86.03it/s]
+ 81%|████████  | 809/1000 [00:08<00:02, 84.01it/s]
+ 82%|████████▏ | 819/1000 [00:08<00:02, 87.60it/s]
+ 83%|████████▎ | 828/1000 [00:09<00:01, 86.56it/s]
+ 84%|████████▎ | 837/1000 [00:09<00:01, 85.26it/s]
+ 85%|████████▍ | 846/1000 [00:09<00:01, 86.00it/s]
+ 86%|████████▌ | 856/1000 [00:09<00:01, 87.36it/s]
+ 86%|████████▋ | 865/1000 [00:09<00:01, 87.98it/s]
+ 88%|████████▊ | 875/1000 [00:09<00:01, 89.46it/s]
+ 89%|████████▊ | 886/1000 [00:09<00:01, 93.59it/s]
+ 90%|████████▉ | 897/1000 [00:09<00:01, 96.31it/s]
+ 91%|█████████ | 908/1000 [00:09<00:00, 97.96it/s]
+ 92%|█████████▏| 918/1000 [00:10<00:00, 97.41it/s]
+ 93%|█████████▎| 928/1000 [00:10<00:00, 97.77it/s]
+ 94%|█████████▍| 939/1000 [00:10<00:00, 99.65it/s]
+ 95%|█████████▍| 949/1000 [00:10<00:00, 99.74it/s]
+ 96%|█████████▌| 959/1000 [00:10<00:00, 98.56it/s]
+ 97%|█████████▋| 970/1000 [00:10<00:00, 99.41it/s]
+ 98%|█████████▊| 981/1000 [00:10<00:00, 100.79it/s]
+ 99%|█████████▉| 992/1000 [00:10<00:00, 100.00it/s]
+100%|██████████| 1000/1000 [00:10<00:00, 92.30it/s]
+Total errors: 0
+Saved contexts to ./contexts/target-chatdoctor_1k-ori-context.json
+Processing untarget-chatdoctor_1k...
+
+  0%|          | 0/1000 [00:00<?, ?it/s]
+  1%|          | 9/1000 [00:00<00:11, 87.37it/s]
+  2%|▏         | 19/1000 [00:00<00:10, 91.40it/s]
+  3%|▎         | 30/1000 [00:00<00:10, 96.00it/s]
+  4%|▍         | 41/1000 [00:00<00:09, 98.05it/s]
+  5%|▌         | 51/1000 [00:00<00:09, 94.94it/s]
+  6%|▌         | 61/1000 [00:00<00:10, 92.42it/s]
+  7%|▋         | 71/1000 [00:00<00:09, 93.59it/s]
+  8%|▊         | 82/1000 [00:00<00:09, 95.98it/s]
+  9%|▉         | 93/1000 [00:00<00:09, 97.95it/s]
+ 10%|█         | 103/1000 [00:01<00:09, 98.49it/s]
+ 11%|█▏        | 113/1000 [00:01<00:09, 95.18it/s]
+ 12%|█▏        | 123/1000 [00:01<00:09, 93.33it/s]
+ 13%|█▎        | 133/1000 [00:01<00:09, 90.63it/s]
+ 14%|█▍        | 143/1000 [00:01<00:09, 86.94it/s]
+ 15%|█▌        | 152/1000 [00:01<00:10, 84.76it/s]
+ 16%|█▌        | 161/1000 [00:01<00:10, 83.10it/s]
+ 17%|█▋        | 170/1000 [00:01<00:10, 81.49it/s]
+ 18%|█▊        | 179/1000 [00:01<00:10, 81.73it/s]
+ 19%|█▉        | 188/1000 [00:02<00:09, 81.59it/s]
+ 20%|█▉        | 197/1000 [00:02<00:09, 83.75it/s]
+ 21%|██        | 207/1000 [00:02<00:09, 86.53it/s]
+ 22%|██▏       | 216/1000 [00:02<00:09, 85.03it/s]
+ 22%|██▎       | 225/1000 [00:02<00:09, 84.81it/s]
+ 24%|██▎       | 236/1000 [00:02<00:08, 87.94it/s]
+ 24%|██▍       | 245/1000 [00:02<00:08, 87.96it/s]
+ 25%|██▌       | 254/1000 [00:02<00:08, 87.70it/s]
+ 26%|██▋       | 263/1000 [00:02<00:08, 87.27it/s]
+ 27%|██▋       | 273/1000 [00:03<00:08, 88.93it/s]
+ 28%|██▊       | 282/1000 [00:03<00:08, 86.61it/s]
+ 29%|██▉       | 292/1000 [00:03<00:07, 89.74it/s]
+ 30%|███       | 303/1000 [00:03<00:07, 92.05it/s]
+ 31%|███▏      | 313/1000 [00:03<00:07, 90.82it/s]
+ 32%|███▏      | 324/1000 [00:03<00:07, 92.83it/s]
+ 33%|███▎      | 334/1000 [00:03<00:07, 89.34it/s]
+ 34%|███▍      | 343/1000 [00:03<00:07, 85.17it/s]
+ 35%|███▌      | 352/1000 [00:03<00:07, 85.10it/s]
+ 36%|███▌      | 362/1000 [00:04<00:07, 86.34it/s]
+ 37%|███▋      | 371/1000 [00:04<00:07, 84.13it/s]
+ 38%|███▊      | 380/1000 [00:04<00:07, 85.55it/s]
+ 39%|███▉      | 390/1000 [00:04<00:06, 87.52it/s]
+ 40%|███▉      | 399/1000 [00:04<00:07, 85.72it/s]
+ 41%|████      | 408/1000 [00:04<00:06, 85.75it/s]
+ 42%|████▏     | 417/1000 [00:04<00:06, 85.31it/s]
+ 43%|████▎     | 426/1000 [00:04<00:06, 86.01it/s]
+ 44%|████▎     | 436/1000 [00:04<00:06, 88.41it/s]
+ 44%|████▍     | 445/1000 [00:05<00:06, 84.54it/s]
+ 45%|████▌     | 454/1000 [00:05<00:06, 84.53it/s]
+ 46%|████▋     | 463/1000 [00:05<00:06, 83.73it/s]
+ 47%|████▋     | 472/1000 [00:05<00:06, 81.46it/s]
+ 48%|████▊     | 481/1000 [00:05<00:06, 82.21it/s]
+ 49%|████▉     | 490/1000 [00:05<00:06, 79.68it/s]
+ 50%|████▉     | 499/1000 [00:05<00:06, 81.16it/s]
+ 51%|█████     | 510/1000 [00:05<00:05, 87.05it/s]
+ 52%|█████▏    | 519/1000 [00:05<00:05, 86.74it/s]
+ 53%|█████▎    | 530/1000 [00:06<00:05, 91.35it/s]
+ 54%|█████▍    | 540/1000 [00:06<00:04, 93.20it/s]
+ 55%|█████▌    | 550/1000 [00:06<00:04, 91.73it/s]
+ 56%|█████▌    | 560/1000 [00:06<00:05, 86.70it/s]
+ 57%|█████▋    | 569/1000 [00:06<00:04, 86.70it/s]
+ 58%|█████▊    | 579/1000 [00:06<00:04, 87.65it/s]
+ 59%|█████▉    | 588/1000 [00:06<00:04, 87.22it/s]
+ 60%|█████▉    | 597/1000 [00:06<00:04, 85.01it/s]
+ 61%|██████    | 606/1000 [00:06<00:04, 82.57it/s]
+ 62%|██████▏   | 615/1000 [00:07<00:04, 80.87it/s]
+ 62%|██████▎   | 625/1000 [00:07<00:04, 82.83it/s]
+ 63%|██████▎   | 634/1000 [00:07<00:04, 83.81it/s]
+ 64%|██████▍   | 643/1000 [00:07<00:04, 81.80it/s]
+ 65%|██████▌   | 653/1000 [00:07<00:04, 86.42it/s]
+ 66%|██████▌   | 662/1000 [00:07<00:03, 85.98it/s]
+ 67%|██████▋   | 671/1000 [00:07<00:03, 86.39it/s]
+ 68%|██████▊   | 680/1000 [00:07<00:03, 86.99it/s]
+ 69%|██████▉   | 689/1000 [00:07<00:03, 86.25it/s]
+ 70%|██████▉   | 698/1000 [00:08<00:03, 86.95it/s]
+ 71%|███████   | 707/1000 [00:08<00:03, 84.22it/s]
+ 72%|███████▏  | 716/1000 [00:08<00:03, 84.64it/s]
+ 72%|███████▎  | 725/1000 [00:08<00:03, 84.40it/s]
+ 73%|███████▎  | 734/1000 [00:08<00:03, 84.42it/s]
+ 74%|███████▍  | 743/1000 [00:08<00:03, 83.29it/s]
+ 75%|███████▌  | 753/1000 [00:08<00:02, 86.52it/s]
+ 76%|███████▋  | 764/1000 [00:08<00:02, 90.96it/s]
+ 77%|███████▋  | 774/1000 [00:08<00:02, 91.91it/s]
+ 78%|███████▊  | 784/1000 [00:09<00:02, 86.04it/s]
+ 79%|███████▉  | 793/1000 [00:09<00:02, 85.19it/s]
+ 80%|████████  | 803/1000 [00:09<00:02, 88.18it/s]
+ 81%|████████▏ | 814/1000 [00:09<00:02, 92.53it/s]
+ 82%|████████▎ | 825/1000 [00:09<00:01, 95.11it/s]
+ 84%|████████▎ | 835/1000 [00:09<00:01, 94.57it/s]
+ 85%|████████▍ | 846/1000 [00:09<00:01, 97.06it/s]
+ 86%|████████▌ | 856/1000 [00:09<00:01, 96.61it/s]
+ 87%|████████▋ | 866/1000 [00:09<00:01, 95.63it/s]
+ 88%|████████▊ | 877/1000 [00:09<00:01, 98.19it/s]
+ 89%|████████▉ | 888/1000 [00:10<00:01, 99.17it/s]
+ 90%|████████▉ | 899/1000 [00:10<00:01, 100.14it/s]
+ 91%|█████████ | 910/1000 [00:10<00:00, 99.20it/s] 
+ 92%|█████████▏| 920/1000 [00:10<00:00, 99.20it/s]
+ 93%|█████████▎| 930/1000 [00:10<00:00, 99.38it/s]
+ 94%|█████████▍| 941/1000 [00:10<00:00, 99.70it/s]
+ 95%|█████████▌| 952/1000 [00:10<00:00, 100.14it/s]
+ 96%|█████████▋| 963/1000 [00:10<00:00, 98.55it/s] 
+ 97%|█████████▋| 974/1000 [00:10<00:00, 99.15it/s]
+ 98%|█████████▊| 985/1000 [00:11<00:00, 98.61it/s]
+100%|█████████▉| 995/1000 [00:11<00:00, 97.14it/s]
+100%|██████████| 1000/1000 [00:11<00:00, 89.25it/s]
+Total errors: 0
+Saved contexts to ./contexts/untarget-chatdoctor_1k-ori-context.json
+All contexts retrieved successfully!
+
+
+================================================================================
+RUNNING: Generating synthetic data (SAGE sync)
+COMMAND: python doing_protect.py --protect-method="sync" --dataset-name="chatdoctor_1k" --attack-method="per" --synthetic-llm="llama-2-7b-chat"
+================================================================================
+
+Test number is 1000, number of context is 0
+Traceback (most recent call last):
+  File "/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/doing_protect.py", line 502, in <module>
+    attributes_contexts, synthetic_contexts = get_synthetic_context(ori_context, dataset_name, args.attributes_llm, args.synthetic_llm)
+  File "/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/doing_protect.py", line 224, in get_synthetic_context
+    attributes_llm_client = get_llm_client(attributes_llm)
+  File "/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/doing_protect.py", line 46, in get_llm_client
+    raise ValueError(f"Model {llm_name} not supported in this implementation")
+ValueError: Model gpt-35-turbo not supported in this implementation
+
+Command failed with return code 1
+
+
+================================================================================
+RUNNING: Generating synthetic data (SAGE agent2)
+COMMAND: python doing_protect.py --protect-method="agent2" --dataset-name="chatdoctor_1k" --attack-method="per" --synthetic-llm="llama-2-7b-chat"
+================================================================================
+
+Test number is 1000, number of context is 0
+Traceback (most recent call last):
+  File "/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/doing_protect.py", line 514, in <module>
+    with open(f'contexts/{attack_method}-{dataset_name}-sync-context.json', 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'contexts/per-chatdoctor_1k-sync-context.json'
+
+Command failed with return code 1
+
+
+================================================================================
+RUNNING: Generating RAG outputs (sync)
+COMMAND: python final_output.py --dataset-name="chatdoctor_1k" --attack-method="per" --protect-method="sync" --llm-generations="llama-2-7b-chat"
+================================================================================
+
+Traceback (most recent call last):
+  File "/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/final_output.py", line 160, in <module>
+    with open(f'contexts/{attack_method}-{dataset_name}-{args.protect_method}-context.json', 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'contexts/per-chatdoctor_1k-sync-context.json'
+
+Command failed with return code 1
+
+
+================================================================================
+RUNNING: Generating RAG outputs (agent2)
+COMMAND: python final_output.py --dataset-name="chatdoctor_1k" --attack-method="per" --protect-method="agent2" --llm-generations="llama-2-7b-chat"
+================================================================================
+
+Traceback (most recent call last):
+  File "/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/final_output.py", line 160, in <module>
+    with open(f'contexts/{attack_method}-{dataset_name}-{args.protect_method}-context.json', 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'contexts/per-chatdoctor_1k-agent2-context.json'
+
+Command failed with return code 1
+
+
+================================================================================
+RUNNING: Generating RAG outputs (ori)
+COMMAND: python final_output.py --dataset-name="chatdoctor_1k" --attack-method="per" --protect-method="ori" --llm-generations="llama-2-7b-chat"
+================================================================================
+
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.43s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.14it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.04it/s]
+
+geenrate final out:   0%|          | 0/1000 [00:00<?, ?it/s]
+geenrate final out: 100%|██████████| 1000/1000 [00:00<00:00, 648470.01it/s]
+Error num is 0
+
+
+================================================================================
+RUNNING: Evaluating performance (sync)
+COMMAND: python evaluation_performance.py --dataset-name="chatdoctor_1k" --protect-method="sync" --model="llama-2-7b-chat"
+================================================================================
+
+usage: evaluation_performance.py [-h] [--k K]
+                                 [--protect-method {sync,agent2,para,ZeroGen,attrPrompt,ori,llm,dprag,pprag}]
+                                 [--model {gpt-4,gpt-35-turbo,llama-3,llama-2-7b-chat}]
+                                 [--dataset-name {chat,wiki}]
+evaluation_performance.py: error: argument --dataset-name: invalid choice: 'chatdoctor_1k' (choose from 'chat', 'wiki')
+
+Command failed with return code 2
+
+
+================================================================================
+RUNNING: Evaluating performance (agent2)
+COMMAND: python evaluation_performance.py --dataset-name="chatdoctor_1k" --protect-method="agent2" --model="llama-2-7b-chat"
+================================================================================
+
+usage: evaluation_performance.py [-h] [--k K]
+                                 [--protect-method {sync,agent2,para,ZeroGen,attrPrompt,ori,llm,dprag,pprag}]
+                                 [--model {gpt-4,gpt-35-turbo,llama-3,llama-2-7b-chat}]
+                                 [--dataset-name {chat,wiki}]
+evaluation_performance.py: error: argument --dataset-name: invalid choice: 'chatdoctor_1k' (choose from 'chat', 'wiki')
+
+Command failed with return code 2
+
+
+================================================================================
+RUNNING: Evaluating performance (ori)
+COMMAND: python evaluation_performance.py --dataset-name="chatdoctor_1k" --protect-method="ori" --model="llama-2-7b-chat"
+================================================================================
+
+usage: evaluation_performance.py [-h] [--k K]
+                                 [--protect-method {sync,agent2,para,ZeroGen,attrPrompt,ori,llm,dprag,pprag}]
+                                 [--model {gpt-4,gpt-35-turbo,llama-3,llama-2-7b-chat}]
+                                 [--dataset-name {chat,wiki}]
+evaluation_performance.py: error: argument --dataset-name: invalid choice: 'chatdoctor_1k' (choose from 'chat', 'wiki')
+
+Command failed with return code 2
+
+
+================================================================================
+RUNNING: Generating outputs for privacy attack (target, sync)
+COMMAND: python final_output.py --dataset-name="chatdoctor_1k" --attack-method="target" --protect-method="sync" --llm-generations="llama-2-7b-chat"
+================================================================================
+
+Traceback (most recent call last):
+  File "/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/final_output.py", line 160, in <module>
+    with open(f'contexts/{attack_method}-{dataset_name}-{args.protect_method}-context.json', 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'contexts/target-chatdoctor_1k-sync-context.json'
+
+Command failed with return code 1
+
+
+================================================================================
+RUNNING: Generating outputs for privacy attack (target, agent2)
+COMMAND: python final_output.py --dataset-name="chatdoctor_1k" --attack-method="target" --protect-method="agent2" --llm-generations="llama-2-7b-chat"
+================================================================================
+
+Traceback (most recent call last):
+  File "/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/final_output.py", line 160, in <module>
+    with open(f'contexts/{attack_method}-{dataset_name}-{args.protect_method}-context.json', 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'contexts/target-chatdoctor_1k-agent2-context.json'
+
+Command failed with return code 1
+
+
+================================================================================
+RUNNING: Generating outputs for privacy attack (target, ori)
+COMMAND: python final_output.py --dataset-name="chatdoctor_1k" --attack-method="target" --protect-method="ori" --llm-generations="llama-2-7b-chat"
+================================================================================
+
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.47s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.07it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.02s/it]
+
+geenrate final out:   0%|          | 0/1000 [00:00<?, ?it/s]
+geenrate final out: 100%|██████████| 1000/1000 [00:00<00:00, 1021506.09it/s]
+Error num is 0
+
+
+================================================================================
+RUNNING: Generating outputs for privacy attack (untarget, sync)
+COMMAND: python final_output.py --dataset-name="chatdoctor_1k" --attack-method="untarget" --protect-method="sync" --llm-generations="llama-2-7b-chat"
+================================================================================
+
+Traceback (most recent call last):
+  File "/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/final_output.py", line 160, in <module>
+    with open(f'contexts/{attack_method}-{dataset_name}-{args.protect_method}-context.json', 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'contexts/untarget-chatdoctor_1k-sync-context.json'
+
+Command failed with return code 1
+
+
+================================================================================
+RUNNING: Generating outputs for privacy attack (untarget, agent2)
+COMMAND: python final_output.py --dataset-name="chatdoctor_1k" --attack-method="untarget" --protect-method="agent2" --llm-generations="llama-2-7b-chat"
+================================================================================
+
+Traceback (most recent call last):
+  File "/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/RAG-SAGE/final_output.py", line 160, in <module>
+    with open(f'contexts/{attack_method}-{dataset_name}-{args.protect_method}-context.json', 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'contexts/untarget-chatdoctor_1k-agent2-context.json'
+
+Command failed with return code 1
+
+
+================================================================================
+RUNNING: Generating outputs for privacy attack (untarget, ori)
+COMMAND: python final_output.py --dataset-name="chatdoctor_1k" --attack-method="untarget" --protect-method="ori" --llm-generations="llama-2-7b-chat"
+================================================================================
+
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.47s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.13it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.03it/s]
+
+geenrate final out:   0%|          | 0/1000 [00:00<?, ?it/s]
+geenrate final out: 100%|██████████| 1000/1000 [00:00<00:00, 1148809.64it/s]
+Error num is 0
+
+
+================================================================================
+RUNNING: Evaluating privacy attack (target, sync)
+COMMAND: python evaluation_attack.py --dataset-name="chatdoctor_1k" --attack-method="target" --protect-method="sync" --model="llama-2-7b-chat"
+================================================================================
+
+usage: evaluation_attack.py [-h] [--dataset-name {chatdoctor,wiki_pii}]
+                            [--attack-method {target,untarget}]
+                            [--model {gpt-4,gpt-35-turbo,llama-3,llama-2-7b-chat}]
+                            [--protect-method {sync,agent2,para,ZeroGen,attrPrompt,ori,llm,dprag,pprag}]
+                            [--k K]
+evaluation_attack.py: error: argument --dataset-name: invalid choice: 'chatdoctor_1k' (choose from 'chatdoctor', 'wiki_pii')
+
+Command failed with return code 2
+
+
+================================================================================
+RUNNING: Evaluating privacy attack (target, agent2)
+COMMAND: python evaluation_attack.py --dataset-name="chatdoctor_1k" --attack-method="target" --protect-method="agent2" --model="llama-2-7b-chat"
+================================================================================
+
+usage: evaluation_attack.py [-h] [--dataset-name {chatdoctor,wiki_pii}]
+                            [--attack-method {target,untarget}]
+                            [--model {gpt-4,gpt-35-turbo,llama-3,llama-2-7b-chat}]
+                            [--protect-method {sync,agent2,para,ZeroGen,attrPrompt,ori,llm,dprag,pprag}]
+                            [--k K]
+evaluation_attack.py: error: argument --dataset-name: invalid choice: 'chatdoctor_1k' (choose from 'chatdoctor', 'wiki_pii')
+
+Command failed with return code 2
+
+
+================================================================================
+RUNNING: Evaluating privacy attack (target, ori)
+COMMAND: python evaluation_attack.py --dataset-name="chatdoctor_1k" --attack-method="target" --protect-method="ori" --model="llama-2-7b-chat"
+================================================================================
+
+usage: evaluation_attack.py [-h] [--dataset-name {chatdoctor,wiki_pii}]
+                            [--attack-method {target,untarget}]
+                            [--model {gpt-4,gpt-35-turbo,llama-3,llama-2-7b-chat}]
+                            [--protect-method {sync,agent2,para,ZeroGen,attrPrompt,ori,llm,dprag,pprag}]
+                            [--k K]
+evaluation_attack.py: error: argument --dataset-name: invalid choice: 'chatdoctor_1k' (choose from 'chatdoctor', 'wiki_pii')
+
+Command failed with return code 2
+
+
+================================================================================
+RUNNING: Evaluating privacy attack (untarget, sync)
+COMMAND: python evaluation_attack.py --dataset-name="chatdoctor_1k" --attack-method="untarget" --protect-method="sync" --model="llama-2-7b-chat"
+================================================================================
+
+usage: evaluation_attack.py [-h] [--dataset-name {chatdoctor,wiki_pii}]
+                            [--attack-method {target,untarget}]
+                            [--model {gpt-4,gpt-35-turbo,llama-3,llama-2-7b-chat}]
+                            [--protect-method {sync,agent2,para,ZeroGen,attrPrompt,ori,llm,dprag,pprag}]
+                            [--k K]
+evaluation_attack.py: error: argument --dataset-name: invalid choice: 'chatdoctor_1k' (choose from 'chatdoctor', 'wiki_pii')
+
+Command failed with return code 2
+
+
+================================================================================
+RUNNING: Evaluating privacy attack (untarget, agent2)
+COMMAND: python evaluation_attack.py --dataset-name="chatdoctor_1k" --attack-method="untarget" --protect-method="agent2" --model="llama-2-7b-chat"
+================================================================================
+
+usage: evaluation_attack.py [-h] [--dataset-name {chatdoctor,wiki_pii}]
+                            [--attack-method {target,untarget}]
+                            [--model {gpt-4,gpt-35-turbo,llama-3,llama-2-7b-chat}]
+                            [--protect-method {sync,agent2,para,ZeroGen,attrPrompt,ori,llm,dprag,pprag}]
+                            [--k K]
+evaluation_attack.py: error: argument --dataset-name: invalid choice: 'chatdoctor_1k' (choose from 'chatdoctor', 'wiki_pii')
+
+Command failed with return code 2
+
+
+================================================================================
+RUNNING: Evaluating privacy attack (untarget, ori)
+COMMAND: python evaluation_attack.py --dataset-name="chatdoctor_1k" --attack-method="untarget" --protect-method="ori" --model="llama-2-7b-chat"
+================================================================================
+
+usage: evaluation_attack.py [-h] [--dataset-name {chatdoctor,wiki_pii}]
+                            [--attack-method {target,untarget}]
+                            [--model {gpt-4,gpt-35-turbo,llama-3,llama-2-7b-chat}]
+                            [--protect-method {sync,agent2,para,ZeroGen,attrPrompt,ori,llm,dprag,pprag}]
+                            [--k K]
+evaluation_attack.py: error: argument --dataset-name: invalid choice: 'chatdoctor_1k' (choose from 'chatdoctor', 'wiki_pii')
+
+Command failed with return code 2
+
+
+SAGE pipeline completed successfully for chatdoctor_1k!

@@ -305,12 +305,12 @@ if __name__ == '__main__':
     with open('contexts/sources.json', 'r', encoding='utf-8') as f:
         source = json.loads(f.read())
 
-    # Define rouge_l parameters
     rouge_l = ["effective rouge prompt", "extracted rouge context"]
 
     if attack_method == 'target' and dataset_name == 'wiki_pii':
         target_l = ["extracted context", "extract pii num"]
         print('k', end='\t')
+        # print('\t'.join(target_l))
         print('\t'.join(target_l) + '\t' + '\t'.join(rouge_l))  # Add rouge metrics to header
         for i in range(k):
             print(f'{i+1}', end='')
@@ -319,30 +319,37 @@ if __name__ == '__main__':
             sor = [s[:i+1] for s in source]
             evaluate_target(sor, out, con, target_l)
             evaluate_repeat(sor, out, con, ["effective repeat prompt", "extracted repeat context", "average repeat length"])
-            evaluate_rouge(sor, out, con, rouge_l)  # Include rouge evaluation
+            evaluate_rouge(sor, out, con, rouge_l)  # Add this line to include rouge evaluation
             print("")
     if attack_method == 'target' and dataset_name == 'chatdoctor':
         repeat_l = ["extracted context", "extracted target context", "effective repeat prompt", "extracted repeat context", "average repeat length"]
         print('k', end='\t')
+        # print('\t'.join(repeat_l))
         print('\t'.join(repeat_l) + '\t' + '\t'.join(rouge_l))  # Add rouge metrics to header
         for i in range(k):
             print(f'{i+1}', end='')
             out = [o[i] for o in output]
             con = [c[:i+1] for c in context]
             sor = [s[:i+1] for s in source]
+            # evaluate_rouge(sor, out, con, rouge_l)
+            # evaluate_target(sor, out, con, ["extract pii num"])
             evaluate_repeat(sor, out, con, repeat_l, 10)
-            evaluate_rouge(sor, out, con, rouge_l)  # Include rouge evaluation
+            evaluate_rouge(sor, out, con, rouge_l)  # Add this line to include rouge evaluation
             print("")
     if attack_method == 'untarget' and dataset_name.find('chat') != -1:
         repeat_l = ["extracted context", "effective repeat prompt",
                     "extracted repeat context", "average repeat length"]
+        rouge_l = ["effective rouge prompt", "extracted rouge context"]
+
         print('k', end='\t')
-        print('\t'.join(repeat_l) + '\t' + '\t'.join(rouge_l))  # Include rouge metrics in header
+        # print('\t'.join(repeat_l))
+        print('\t'.join(repeat_l) + '\t' + '\t'.join(rouge_l))  # Update to show both in header
         for i in range(k):
             print(f'{i + 1}', end='')
             out = [o[i] for o in output]
             con = [c[:i + 1] for c in context]
             sor = [s[:i + 1] for s in source]
+            # evaluate_target(sor, out, con, ["extract pii num"])
             evaluate_repeat(sor, out, con, repeat_l, 10)
-            evaluate_rouge(sor, out, con, rouge_l)  # Include rouge evaluation
+            evaluate_rouge(sor, out, con, rouge_l)
             print("")

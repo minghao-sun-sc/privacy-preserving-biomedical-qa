@@ -12,35 +12,88 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
-def get_llm_client(llm_name: str = 'llama-2-7b-chat'):
+def set_gpu_device(gpu_id=1):
+    """
+    Set up the GPU device for PyTorch
+    
+    Args:
+        gpu_id (int): ID of the GPU to use
+        
+    Returns:
+        str: Device string to use for model loading
+    """
+    device_str = f"cuda:{gpu_id}" if torch.cuda.is_available() else "cpu"
+    
+    # Check if the specified GPU is available
+    if device_str.startswith("cuda"):
+        if gpu_id >= torch.cuda.device_count():
+            print(f"Warning: GPU {gpu_id} not available. Using CPU instead.")
+            device_str = "cpu"
+        else:
+            # Set visible devices to use only the specified GPU
+            os.environ["CUDA_VISIBLE_DEVICES"] = str(gpu_id)
+            print(f"Using GPU: {gpu_id}")
+            
+            # Print GPU memory info
+            print(f"GPU Memory before model loading:")
+            print(f"  Total: {torch.cuda.get_device_properties(0).total_memory / 1e9:.2f} GB")
+            print(f"  Allocated: {torch.cuda.memory_allocated(0) / 1e9:.2f} GB")
+            print(f"  Cached: {torch.cuda.memory_reserved(0) / 1e9:.2f} GB")
+    else:
+        print("CUDA not available, using CPU.")
+    
+    return device_str
+
+
+def get_llm_client(llm_name: str = 'llama-2-7b-chat', device="cuda:1"):
     """
     Get the LLM client based on the model name
     """
     if 'llama' in llm_name.lower():
         # Load the Llama model
         model_name = "meta-llama/Llama-2-7b-chat-hf"  # Adjust if using a different version
-        tokenizer = AutoTokenizer.from_pretrained(model_name)
-        model = AutoModelForCausalLM.from_pretrained(
-            model_name,
-            torch_dtype=torch.float16,
-            device_map="auto"  # This will use CUDA:1 as specified in your environment
-        )
-        
-        # Create a function that mimics the client interface
-        def llama_client(prompt, max_new_tokens=256, temperature=0.6, do_sample=True, pad_token_id=None):
-            inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
-            with torch.no_grad():
-                outputs = model.generate(
-                    inputs.input_ids,
-                    max_new_tokens=max_new_tokens,
-                    temperature=temperature,
-                    do_sample=do_sample,
-                    pad_token_id=pad_token_id or tokenizer.eos_token_id
-                )
-            generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
-            return [{"generated_text": generated_text}]
-        
-        return llama_client
+        try:
+            tokenizer = AutoTokenizer.from_pretrained(model_name)
+            
+            print(f"Loading model on {device}")
+            
+            # Set device map explicitly to the specified device
+            model = AutoModelForCausalLM.from_pretrained(
+                model_name,
+                torch_dtype=torch.float16,
+                device_map={"": device},  # Explicitly map to specified device
+                low_cpu_mem_usage=True
+            )
+            
+            print(f"Model loaded successfully on {device}")
+            
+            # Create a function that mimics the client interface
+            def llama_client(prompt, max_new_tokens=256, temperature=0.6, do_sample=True, pad_token_id=None):
+                try:
+                    # Ensure input is on the correct device
+                    inputs = tokenizer(prompt, return_tensors="pt").to(device)
+                    
+                    # Generate with proper error handling
+                    with torch.no_grad():
+                        outputs = model.generate(
+                            inputs.input_ids,
+                            max_new_tokens=max_new_tokens,
+                            temperature=temperature,
+                            do_sample=do_sample,
+                            pad_token_id=pad_token_id or tokenizer.eos_token_id
+                        )
+                    
+                    generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+                    return [{"generated_text": generated_text}]
+                except Exception as e:
+                    print(f"Error during generation: {str(e)}")
+                    # Return empty result instead of crashing
+                    return [{"generated_text": f"Error generating response: {str(e)}"}]
+            
+            return llama_client
+        except Exception as e:
+            print(f"Error loading model: {str(e)}")
+            raise ValueError(f"Failed to load model {model_name}: {str(e)}")
     else:
         # If you want to support other models like Azure OpenAI, add them here
         raise ValueError(f"Model {llm_name} not supported in this implementation")
@@ -213,16 +266,17 @@ def get_paraphrase_prompt(input_context, input_query):
     return prompt
 
 
-def get_synthetic_context(ori_contexts, dataset, attributes_llm='gpt-35-turbo', synthetic_llm='gpt-35-turbo'):
+def get_synthetic_context(ori_contexts, dataset, attributes_llm='gpt-35-turbo', synthetic_llm='gpt-35-turbo', device="cuda:1"):
     """
     Generate a new synthesized context based on the input raw data
     :param:
         ori_context: [[C11, C12, ..., C1k], [C21, C22, ..., C2k], ..., [Cn1, Cn2, ..., Cnk]]
         attributes_llm: llm for attributes
         generation_llm: llm for generate synthetic data
+        device: device to use for model loading
     """
-    attributes_llm_client = get_llm_client(attributes_llm)
-    synthetic_llm_client = get_llm_client(synthetic_llm)
+    attributes_llm_client = get_llm_client(attributes_llm, device)
+    synthetic_llm_client = get_llm_client(synthetic_llm, device)
     all_attributes_con = []
     all_synthetic_con = []
     for ori_context in tqdm(ori_contexts, desc="generate synthetic context"):
@@ -240,12 +294,12 @@ def get_synthetic_context(ori_contexts, dataset, attributes_llm='gpt-35-turbo', 
     return all_attributes_con, all_synthetic_con
 
 
-def get_agent2_context(ori_contexts, sync_contexts):
+def get_agent2_context(ori_contexts, sync_contexts, device="cuda:1"):
     """
     A simplified version of the agent2 approach that doesn't rely on AutoGen's agents
     Instead, we implement the agent interaction pattern manually using our existing LLM functions
     """
-    llm_client = get_llm_client('llama-2-7b-chat')
+    llm_client = get_llm_client('llama-2-7b-chat', device)
     all_agent_contexts = []
     
     for i in tqdm(range(len(ori_contexts)), desc="generate agent2 context"):
@@ -306,8 +360,8 @@ SYNTHETIC DATA: {improved_context}"""
     return all_agent_contexts
 
 
-def get_paraphrase_context(ori_contexts, input_question, paraphrase_llm='gpt-35-turbo'):
-    paraphrase_llm_client = get_llm_client(paraphrase_llm)
+def get_paraphrase_context(ori_contexts, input_question, paraphrase_llm='gpt-35-turbo', device="cuda:1"):
+    paraphrase_llm_client = get_llm_client(paraphrase_llm, device)
     all_paraphrase_con = []
     for i in tqdm(range(len(ori_contexts)), desc="generate paraphrase context"):
         paraphrase_con = []
@@ -321,8 +375,8 @@ def get_paraphrase_context(ori_contexts, input_question, paraphrase_llm='gpt-35-
     return all_paraphrase_con
 
 
-def get_query_output(questions, contexts, generate_llm):
-    llm_client = get_llm_client(generate_llm)
+def get_query_output(questions, contexts, generate_llm, device="cuda:1"):
+    llm_client = get_llm_client(generate_llm, device)
     all_outputs = []
     for i in tqdm(range(len(questions)), desc="generate final out"):
         final_con = '\n\n'.join(contexts[i])
@@ -332,12 +386,12 @@ def get_query_output(questions, contexts, generate_llm):
     return all_outputs
 
 
-def rerun_error(dataset, atk_method, llm_name='gpt-35-turbo'):
+def rerun_error(dataset, atk_method, llm_name='gpt-35-turbo', device="cuda:1"):
     with open('error.json', 'r', encoding='utf-8') as f:
         error_context = json.load(f)
     with open(f'{atk_method}-{dataset}-sync-context.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
-    client = get_llm_client(llm_name)
+    client = get_llm_client(llm_name, device)
     for item in error_context:
         synthetic_prompt = get_synthetic_prompt(item[0], dataset)
         synthetic_context = get_llm_output(synthetic_prompt, client, llm_name, 'You are a helpful assistant.')
@@ -346,9 +400,9 @@ def rerun_error(dataset, atk_method, llm_name='gpt-35-turbo'):
         f.write(json.dumps(data))
 
 
-def baseline_zero_gen(ori_contexts, num_qa, llm_baseline='gpt-35-turbo'):
+def baseline_zero_gen(ori_contexts, num_qa, llm_baseline='gpt-35-turbo', device="cuda:1"):
     nlp = spacy.load("en_core_web_sm")
-    zero_gen_llm_client = get_llm_client(llm_baseline)
+    zero_gen_llm_client = get_llm_client(llm_baseline, device)
     all_zero_gen_con = []
     random.shuffle(ori_contexts)
     all_new_qa = []
@@ -380,28 +434,54 @@ def baseline_zero_gen(ori_contexts, num_qa, llm_baseline='gpt-35-turbo'):
     return all_zero_gen_con
 
 
-def baseline_attr_prompt(dataset, num_data=1000, llm_baseline='gpt-35-turbo'):
+def baseline_attr_prompt(dataset, num_data=1000, llm_baseline='gpt-35-turbo', device="cuda:1"):
+    """
+    Generate baseline synthetic contexts using attribute prompting
+    """
+    random.seed(42)
     all_prompt = []
-    with open(f'contexts/attr_prompt_{dataset}.json', 'r') as f_attr:
-        attr = json.load(f_attr)
-    for i in range(num_data):
-        all_att = []
-        for j in range(len(attr)):
-            all_att.append(random.choice(attr[j]))
-        if dataset.find('chat') != -1:
-            prompt = f"""Suppose you are a medical assistant, Please generate a conversation about {all_att[0]} following the requirements below:
-            1. should include {all_att[1]}-class terms;
-            2. should include {all_att[2]};
-            3. should give {all_att[3]} as advice;
-            4. should have characteristic {all_att[4]}."""
-        else:
+    if dataset.find('chat') != -1:
+        symptoms_list = [
+            'cough and fever', 'shortness of breath', 'chest pain', 'abdominal pain', 'headache',
+            'back pain', 'joint pain', 'dizziness', 'fatigue', 'nausea and vomiting', 'diarrhea',
+            'skin rash', 'anxiety', 'depression', 'insomnia', 'numbness', 'memory loss', 'vision changes',
+            'hearing loss', 'irregular heartbeat', 'swelling in extremities', 'weight loss', 'weight gain',
+            'increased thirst', 'frequent urination', 'muscle weakness', 'tremors', 'seizures',
+            'difficulty swallowing', 'coughing up blood', 'blood in stool', 'blood in urine', 'sore throat',
+            'runny nose', 'ear pain', 'swollen lymph nodes', 'night sweats', 'loss of appetite', 'jaundice'
+        ]
+        for i in range(num_data):
+            all_att = []
+            for j in range(5):
+                all_att.append(random.choice(symptoms_list))
+            prompt = f"""Suppose you are a doctor, please generate a doctor-patient conversation following the requirements below:
+            1. should include patient with symptom {all_att[0]};
+            2. should include patient with symptom {all_att[1]};
+            3. should include doctor's diagnosis of {all_att[2]};
+            4. should include doctor's suggestion for {all_att[3]};
+            5. should include doctor's warning of {all_att[4]}."""
+            all_prompt.append(prompt)
+    else:
+        all_knowledge = [
+            'Science and Technology', 'History and Culture', 'Art and Literature',
+            'Philosophy and Religion', 'Politics and Society', 'Economics and Business',
+            'Health and Medicine', 'Environment and Nature', 'Mathematics and Logic',
+            'Languages and Linguistics', 'Psychology and Behavior', 'Education and Learning',
+            'Sports and Recreation', 'Food and Cooking', 'Music and Entertainment',
+            'Travel and Geography', 'Law and Justice', 'Media and Communication',
+            'Space and Astronomy', 'Military and Defense'
+        ]
+        for i in range(num_data):
+            all_att = []
+            for j in range(5):
+                all_att.append(random.choice(all_knowledge))
             prompt = f"""Suppose you are a writer for wikipedia, Please generate a wiki text about {all_att[0]} following the requirements below:
             1. should include part of {all_att[1]};
             2. should use {all_att[2]} to describe;
             3. should include {all_att[3]};
             4. should introduce {all_att[4]}."""
-        all_prompt.append(prompt)
-    attr_llm_client = get_llm_client(llm_baseline)
+            all_prompt.append(prompt)
+    attr_llm_client = get_llm_client(llm_baseline, device)
     all_ans = []
     for prompt in all_prompt:
         ans = get_llm_output(prompt, attr_llm_client, llm_baseline, 'You are a helpful assistant.')
@@ -409,7 +489,7 @@ def baseline_attr_prompt(dataset, num_data=1000, llm_baseline='gpt-35-turbo'):
     return all_ans
 
 
-def get_dprag_context(ori_contexts, dataset, epsilon=1.0, delta=1e-5):
+def get_dprag_context(ori_contexts, dataset, epsilon=1.0, delta=1e-5, device="cuda:1"):
     """
     TODO: Implement DP-RAG protection method
     This function should apply differential privacy to the context
@@ -418,13 +498,15 @@ def get_dprag_context(ori_contexts, dataset, epsilon=1.0, delta=1e-5):
     :param dataset: Dataset name
     :param epsilon: Privacy budget
     :param delta: Privacy parameter
+    :param device: Device to use for model loading
     :return: Contexts with differential privacy applied
     """
     print("DP-RAG protection method not implemented yet")
     # For now, return the original contexts
     return ori_contexts
     
-def get_pprag_context(ori_contexts, dataset, attributes_llm='llama-2-7b-chat', synthetic_llm='llama-2-7b-chat', epsilon=1.0, delta=1e-5):
+
+def get_pprag_context(ori_contexts, dataset, attributes_llm='llama-2-7b-chat', synthetic_llm='llama-2-7b-chat', epsilon=1.0, delta=1e-5, device="cuda:1"):
     """
     TODO: Implement PP-RAG protection method
     This function should combine SAGE and DP-RAG
@@ -435,15 +517,16 @@ def get_pprag_context(ori_contexts, dataset, attributes_llm='llama-2-7b-chat', s
     :param synthetic_llm: Model for synthetic data generation
     :param epsilon: Privacy budget
     :param delta: Privacy parameter
+    :param device: Device to use for model loading
     :return: Contexts with both synthetic generation and differential privacy
     """
     print("PP-RAG protection method not implemented yet")
     
     # First generate synthetic contexts using SAGE
-    attributes_con, synthetic_con = get_synthetic_context(ori_contexts, dataset, attributes_llm, synthetic_llm)
+    attributes_con, synthetic_con = get_synthetic_context(ori_contexts, dataset, attributes_llm, synthetic_llm, device)
     
     # Then apply DP (this is just a placeholder - real implementation would apply DP to the synthetic data)
-    # dp_synthetic_con = get_dprag_context(synthetic_con, dataset, epsilon, delta)
+    # dp_synthetic_con = get_dprag_context(synthetic_con, dataset, epsilon, delta, device)
     
     return attributes_con, synthetic_con  # Replace with dp_synthetic_con when implemented
 
@@ -470,20 +553,25 @@ if __name__ == "__main__":
     # --dataset_name="chatdoctor" --attack_method="untarget"
     # --dataset_name="wiki_pii" --attack_method="target"
     # --dataset_name="wiki_pii" --attack_method="untarget"
-    parser.add_argument('--attributes-llm', type=str, default='gpt-35-turbo', 
+    parser.add_argument('--attributes-llm', type=str, default='llama-2-7b-chat', 
                         choices=['gpt-4', 'gpt-35-turbo', 'llama-3', 'llama-2-7b-chat'],
                         help='the llm to generate attributes of context')
-    parser.add_argument('--synthetic-llm', type=str, default='gpt-35-turbo', 
+    parser.add_argument('--synthetic-llm', type=str, default='llama-2-7b-chat', 
                         choices=['gpt-4', 'gpt-35-turbo', 'llama-3', 'llama-2-7b-chat'],
                         help='the llm to generate synthetic data by using attributes')
-    parser.add_argument('--paraphrase-llm', type=str, default='gpt-35-turbo', choices=['gpt-4', 'gpt-35-turbo'],
+    parser.add_argument('--paraphrase-llm', type=str, default='llama-2-7b-chat', choices=['gpt-4', 'gpt-35-turbo', 'llama-2-7b-chat'],
                         help='the llm to generate paraphrase data')
-    parser.add_argument('--agents-llm', type=str, default='gpt-35-turbo', choices=['gpt-4', 'gpt-35-turbo'],
+    parser.add_argument('--agents-llm', type=str, default='llama-2-7b-chat', choices=['gpt-4', 'gpt-35-turbo','llama-2-7b-chat'],
                         help='the llm to generate agent2 data')
-    parser.add_argument('--baseline-llm', type=str, default='gpt-35-turbo', choices=['gpt-4', 'gpt-35-turbo'],
+    parser.add_argument('--baseline-llm', type=str, default='llama-2-7b-chat', choices=['gpt-4', 'gpt-35-turbo', 'llama-2-7b-chat'],
                         help='the llm used for baseline')
     parser.add_argument('--k', type=int, default=1, help='number of contexts')
+    parser.add_argument('--gpu-id', type=int, default=1, help='GPU ID to use for model loading')
     args = parser.parse_args()
+    
+    # Set up GPU device
+    device = set_gpu_device(args.gpu_id)
+    
     protect_method = args.protect_method
     dataset_name = args.dataset_name
     attack_method = args.attack_method
@@ -499,14 +587,14 @@ if __name__ == "__main__":
 
     # getting synthetic data
     if protect_method == 'sync':
-        attributes_contexts, synthetic_contexts = get_synthetic_context(ori_context, dataset_name, args.attributes_llm, args.synthetic_llm)
+        attributes_contexts, synthetic_contexts = get_synthetic_context(ori_context, dataset_name, args.attributes_llm, args.synthetic_llm, device)
         with open(f'contexts/{attack_method}-{dataset_name}-attributes_context.json', 'w', encoding='utf-8') as f:
             f.write(json.dumps(attributes_contexts))
         with open(f'contexts/{attack_method}-{dataset_name}-sync-context.json', 'w', encoding='utf-8') as f:
             f.write(json.dumps(synthetic_contexts))
     # getting paraphrase data
     elif protect_method == 'para':
-        paraphrase_context = get_paraphrase_context(ori_context, question, args.paraphrase_llm)
+        paraphrase_context = get_paraphrase_context(ori_context, question, args.paraphrase_llm, device)
         with open(f'contexts/{attack_method}-{dataset_name}-para-context.json', 'w', encoding='utf-8') as f:
             f.write(json.dumps(paraphrase_context))
     # getting agent data
@@ -514,22 +602,27 @@ if __name__ == "__main__":
         with open(f'contexts/{attack_method}-{dataset_name}-sync-context.json', 'r', encoding='utf-8') as f:
             sync_context = json.load(f)
         sync_context = [con[:args.k] for con in sync_context]
-        agent_context = get_agent2_context(ori_context, sync_context)
+        agent_context = get_agent2_context(ori_context, sync_context, device)
         with open(f'contexts/{attack_method}-{dataset_name}-{protect_method}-context.json', 'w', encoding='utf-8') as f:
             f.write(json.dumps(agent_context))
     elif protect_method == 'ZeroGen':
-        baseline_context = baseline_zero_gen(ori_context, 20, args.baseline_llm)
+        baseline_context = baseline_zero_gen(ori_context, 20, args.baseline_llm, device)
         with open(f'contexts/{attack_method}-{dataset_name}-{protect_method}-context.json', 'w', encoding='utf-8') as f:
             f.write(json.dumps(baseline_context))
     elif protect_method == 'attrPrompt':
-        baseline_context = baseline_attr_prompt(dataset_name)
+        baseline_context = baseline_attr_prompt(dataset_name, 1000, args.baseline_llm, device)
         with open(f'contexts/{attack_method}-{dataset_name}-{protect_method}-context.json', 'w', encoding='utf-8') as f:
             f.write(json.dumps(baseline_context))
     elif protect_method == 'dprag':
-        protected_contexts = get_dprag_context(ori_context, dataset_name)
+        protected_contexts = get_dprag_context(ori_context, dataset_name, epsilon=1.0, delta=1e-5, device=device)
         with open(f'contexts/{attack_method}-{dataset_name}-{protect_method}-context.json', 'w', encoding='utf-8') as f:
             f.write(json.dumps(protected_contexts))
     elif protect_method == 'pprag':
-        protected_contexts = get_pprag_context(ori_context, dataset_name)
+        attributes_con, synthetic_con = get_pprag_context(ori_context, dataset_name, 
+                                           attributes_llm=args.attributes_llm, 
+                                           synthetic_llm=args.synthetic_llm, 
+                                           epsilon=1.0, delta=1e-5, device=device)
+        with open(f'contexts/{attack_method}-{dataset_name}-attributes_context.json', 'w', encoding='utf-8') as f:
+            f.write(json.dumps(attributes_con))
         with open(f'contexts/{attack_method}-{dataset_name}-{protect_method}-context.json', 'w', encoding='utf-8') as f:
-            f.write(json.dumps(protected_contexts))
+            f.write(json.dumps(synthetic_con))

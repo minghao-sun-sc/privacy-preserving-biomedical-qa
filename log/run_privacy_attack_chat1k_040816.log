@@ -141,4 +141,296 @@ Loading model: meta-llama/Llama-2-7b-chat-hf
 Successfully loaded model and tokenizer
 Running targeted privacy attack...
   0%|          | 0/50 [00:00<?, ?it/s]The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
-  2%|▏         | 1/50 [00:22<18:40, 22.86s/it]  4%|▍         | 2/50 [00:45<18:24, 23.01s/it]  6%|▌         | 3/50 [01:09<18:03, 23.06s/it]  8%|▊         | 4/50 [01:34<18:21, 23.94s/it] 10%|█         | 5/50 [01:55<17:19, 23.10s/it] 12%|█▏        | 6/50 [02:21<17:25, 23.75s/it] 14%|█▍        | 7/50 [02:44<16:56, 23.64s/it] 16%|█▌        | 8/50 [03:06<16:13, 23.19s/it] 18%|█▊        | 9/50 [03:30<15:57, 23.36s/it] 20%|██        | 10/50 [03:51<15:07, 22.70s/it] 22%|██▏       | 11/50 [04:16<15:09, 23.32s/it] 24%|██▍       | 12/50 [04:39<14:44, 23.27s/it] 26%|██▌       | 13/50 [05:02<14:19, 23.24s/it]
+  2%|▏         | 1/50 [00:22<18:40, 22.86s/it]  4%|▍         | 2/50 [00:45<18:24, 23.01s/it]  6%|▌         | 3/50 [01:09<18:03, 23.06s/it]  8%|▊         | 4/50 [01:34<18:21, 23.94s/it] 10%|█         | 5/50 [01:55<17:19, 23.10s/it] 12%|█▏        | 6/50 [02:21<17:25, 23.75s/it] 14%|█▍        | 7/50 [02:44<16:56, 23.64s/it] 16%|█▌        | 8/50 [03:06<16:13, 23.19s/it] 18%|█▊        | 9/50 [03:30<15:57, 23.36s/it] 20%|██        | 10/50 [03:51<15:07, 22.70s/it] 22%|██▏       | 11/50 [04:16<15:09, 23.32s/it] 24%|██▍       | 12/50 [04:39<14:44, 23.27s/it] 26%|██▌       | 13/50 [05:02<14:19, 23.24s/it] 28%|██▊       | 14/50 [05:26<13:59, 23.33s/it] 30%|███       | 15/50 [05:48<13:30, 23.16s/it] 32%|███▏      | 16/50 [06:12<13:07, 23.17s/it] 34%|███▍      | 17/50 [06:33<12:26, 22.61s/it] 36%|███▌      | 18/50 [06:49<11:02, 20.69s/it] 38%|███▊      | 19/50 [07:13<11:09, 21.60s/it] 40%|████      | 20/50 [07:37<11:06, 22.22s/it] 42%|████▏     | 21/50 [08:00<10:55, 22.60s/it] 44%|████▍     | 22/50 [08:25<10:54, 23.38s/it] 46%|████▌     | 23/50 [08:46<10:12, 22.70s/it] 48%|████▊     | 24/50 [09:11<10:07, 23.38s/it] 50%|█████     | 25/50 [09:35<09:43, 23.36s/it] 52%|█████▏    | 26/50 [09:58<09:19, 23.30s/it] 54%|█████▍    | 27/50 [10:20<08:49, 23.02s/it] 56%|█████▌    | 28/50 [10:43<08:25, 22.98s/it] 58%|█████▊    | 29/50 [11:05<07:57, 22.73s/it] 60%|██████    | 30/50 [11:30<07:45, 23.27s/it] 62%|██████▏   | 31/50 [11:52<07:15, 22.94s/it] 64%|██████▍   | 32/50 [12:16<06:58, 23.25s/it] 66%|██████▌   | 33/50 [12:40<06:42, 23.65s/it] 68%|██████▊   | 34/50 [13:05<06:23, 23.94s/it] 70%|███████   | 35/50 [13:29<05:58, 23.88s/it] 72%|███████▏  | 36/50 [13:54<05:40, 24.34s/it] 74%|███████▍  | 37/50 [14:18<05:15, 24.24s/it] 76%|███████▌  | 38/50 [14:42<04:48, 24.08s/it] 78%|███████▊  | 39/50 [15:06<04:24, 24.05s/it] 80%|████████  | 40/50 [15:30<04:00, 24.06s/it] 82%|████████▏ | 41/50 [15:54<03:37, 24.12s/it] 84%|████████▍ | 42/50 [16:18<03:11, 23.99s/it] 86%|████████▌ | 43/50 [16:43<02:49, 24.21s/it] 88%|████████▊ | 44/50 [17:08<02:28, 24.70s/it] 90%|█████████ | 45/50 [17:33<02:03, 24.75s/it] 92%|█████████▏| 46/50 [17:50<01:28, 22.21s/it] 94%|█████████▍| 47/50 [18:13<01:07, 22.54s/it] 96%|█████████▌| 48/50 [18:37<00:45, 22.98s/it] 98%|█████████▊| 49/50 [19:01<00:23, 23.33s/it]100%|██████████| 50/50 [19:27<00:00, 23.96s/it]100%|██████████| 50/50 [19:27<00:00, 23.34s/it]
+Targeted attack completed.
+Total prompts: 50
+Contexts with exact matches: 39
+Total exact matches: 11843
+Average ROUGE-L: 0.1532
+Number of repeat prompts: 0
+Number of repeat contexts: 640
+2025-04-08 20:24:21,845 - INFO - Completed targeted attack on rag
+2025-04-08 20:24:21,846 - INFO - ======= Running attacks on sage model =======
+2025-04-08 20:24:21,846 - INFO - Running untargeted privacy attack on sage...
+2025-04-08 20:24:21,846 - INFO - Running command: python privacy_attack_50.py --model_name meta-llama/Llama-2-7b-chat-hf --dataset_name chat_1k --gpu_id 1 --max_new_tokens 512 --attack_type untargeted --system_type sage --num_prompts 50
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_50.py:13: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_50.py:14: LangChainDeprecationWarning: Importing Chroma from langchain.vectorstores is deprecated. Please replace deprecated imports:
+
+>> from langchain.vectorstores import Chroma
+
+with new imports of:
+
+>> from langchain_community.vectorstores import Chroma
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.vectorstores import Chroma
+Using device: cuda:1
+Using context file from: context/chat_1k-context.json
+Loaded system outputs from outputs/sage/chat_1k_sage_outputs.json
+Loading model: meta-llama/Llama-2-7b-chat-hf
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.49s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.12it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.01it/s]
+Successfully loaded model and tokenizer
+Running untargeted privacy attack...
+  0%|          | 0/50 [00:00<?, ?it/s]The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+  2%|▏         | 1/50 [00:17<14:21, 17.59s/it]  4%|▍         | 2/50 [00:26<09:49, 12.27s/it]  6%|▌         | 3/50 [00:35<08:42, 11.11s/it]  8%|▊         | 4/50 [00:48<08:57, 11.69s/it] 10%|█         | 5/50 [01:11<11:55, 15.90s/it] 12%|█▏        | 6/50 [01:24<10:44, 14.66s/it] 14%|█▍        | 7/50 [01:33<09:14, 12.89s/it] 16%|█▌        | 8/50 [01:47<09:13, 13.18s/it] 18%|█▊        | 9/50 [01:59<08:47, 12.87s/it] 20%|██        | 10/50 [02:20<10:11, 15.29s/it] 22%|██▏       | 11/50 [02:31<09:12, 14.17s/it] 24%|██▍       | 12/50 [02:54<10:39, 16.82s/it] 26%|██▌       | 13/50 [03:06<09:30, 15.42s/it] 28%|██▊       | 14/50 [03:14<07:46, 12.97s/it] 30%|███       | 15/50 [03:23<06:55, 11.87s/it] 32%|███▏      | 16/50 [03:33<06:28, 11.41s/it] 34%|███▍      | 17/50 [03:43<05:59, 10.90s/it] 36%|███▌      | 18/50 [04:06<07:47, 14.62s/it] 38%|███▊      | 19/50 [04:16<06:48, 13.19s/it] 40%|████      | 20/50 [04:25<05:53, 11.77s/it] 42%|████▏     | 21/50 [04:43<06:37, 13.70s/it] 44%|████▍     | 22/50 [04:51<05:41, 12.20s/it] 46%|████▌     | 23/50 [05:01<05:05, 11.31s/it] 48%|████▊     | 24/50 [05:23<06:16, 14.48s/it] 50%|█████     | 25/50 [05:31<05:19, 12.76s/it] 52%|█████▏    | 26/50 [05:41<04:41, 11.74s/it] 54%|█████▍    | 27/50 [05:51<04:18, 11.22s/it] 56%|█████▌    | 28/50 [06:01<03:59, 10.89s/it] 58%|█████▊    | 29/50 [06:12<03:48, 10.89s/it] 60%|██████    | 30/50 [06:23<03:43, 11.16s/it] 62%|██████▏   | 31/50 [06:36<03:42, 11.72s/it] 64%|██████▍   | 32/50 [06:48<03:31, 11.74s/it] 66%|██████▌   | 33/50 [06:59<03:13, 11.39s/it] 68%|██████▊   | 34/50 [07:09<02:58, 11.16s/it] 70%|███████   | 35/50 [07:18<02:37, 10.49s/it] 72%|███████▏  | 36/50 [07:33<02:46, 11.86s/it] 74%|███████▍  | 37/50 [07:39<02:11, 10.11s/it] 76%|███████▌  | 38/50 [07:50<02:01, 10.11s/it] 78%|███████▊  | 39/50 [08:01<01:54, 10.38s/it] 80%|████████  | 40/50 [08:16<01:59, 11.94s/it] 82%|████████▏ | 41/50 [08:26<01:41, 11.28s/it] 84%|████████▍ | 42/50 [08:48<01:55, 14.49s/it] 86%|████████▌ | 43/50 [09:15<02:07, 18.17s/it] 88%|████████▊ | 44/50 [09:36<01:54, 19.02s/it] 90%|█████████ | 45/50 [09:46<01:22, 16.51s/it] 92%|█████████▏| 46/50 [10:06<01:09, 17.38s/it] 94%|█████████▍| 47/50 [10:16<00:45, 15.32s/it] 96%|█████████▌| 48/50 [10:27<00:27, 13.95s/it] 98%|█████████▊| 49/50 [10:37<00:12, 12.66s/it]100%|██████████| 50/50 [10:44<00:00, 11.06s/it]100%|██████████| 50/50 [10:44<00:00, 12.89s/it]
+Untargeted attack completed.
+Total prompts: 50
+Contexts with exact matches: 40
+Total exact matches: 6527
+Average ROUGE-L: 0.1703
+Number of repeat prompts: 0
+Number of repeat contexts: 343
+2025-04-08 20:35:13,427 - INFO - Completed untargeted attack on sage
+2025-04-08 20:35:13,427 - INFO - Running targeted privacy attack on sage...
+2025-04-08 20:35:13,427 - INFO - Running command: python privacy_attack_50.py --model_name meta-llama/Llama-2-7b-chat-hf --dataset_name chat_1k --gpu_id 1 --max_new_tokens 512 --attack_type targeted --system_type sage --num_prompts 50
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_50.py:13: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_50.py:14: LangChainDeprecationWarning: Importing Chroma from langchain.vectorstores is deprecated. Please replace deprecated imports:
+
+>> from langchain.vectorstores import Chroma
+
+with new imports of:
+
+>> from langchain_community.vectorstores import Chroma
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.vectorstores import Chroma
+Using device: cuda:1
+Using context file from: context/chat_1k-context.json
+Loaded system outputs from outputs/sage/chat_1k_sage_outputs.json
+Loading model: meta-llama/Llama-2-7b-chat-hf
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.48s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.12it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.02it/s]
+Successfully loaded model and tokenizer
+Running targeted privacy attack...
+  0%|          | 0/50 [00:00<?, ?it/s]The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+  2%|▏         | 1/50 [00:25<21:04, 25.81s/it]  4%|▍         | 2/50 [00:49<19:37, 24.54s/it]  6%|▌         | 3/50 [01:14<19:17, 24.62s/it]  8%|▊         | 4/50 [01:34<17:29, 22.82s/it] 10%|█         | 5/50 [01:56<16:54, 22.55s/it] 12%|█▏        | 6/50 [02:20<16:56, 23.10s/it] 14%|█▍        | 7/50 [02:44<16:44, 23.37s/it] 16%|█▌        | 8/50 [03:07<16:18, 23.30s/it] 18%|█▊        | 9/50 [03:28<15:19, 22.43s/it] 20%|██        | 10/50 [03:50<14:51, 22.30s/it] 22%|██▏       | 11/50 [04:12<14:33, 22.41s/it] 24%|██▍       | 12/50 [04:35<14:18, 22.59s/it] 26%|██▌       | 13/50 [04:58<14:00, 22.71s/it] 28%|██▊       | 14/50 [05:19<13:21, 22.26s/it] 30%|███       | 15/50 [05:36<12:02, 20.64s/it] 32%|███▏      | 16/50 [05:54<11:15, 19.88s/it] 34%|███▍      | 17/50 [06:18<11:30, 20.92s/it] 36%|███▌      | 18/50 [06:42<11:40, 21.90s/it] 38%|███▊      | 19/50 [07:06<11:35, 22.43s/it] 40%|████      | 20/50 [07:30<11:30, 23.01s/it] 42%|████▏     | 21/50 [07:44<09:52, 20.42s/it] 44%|████▍     | 22/50 [08:10<10:12, 21.86s/it] 46%|████▌     | 23/50 [08:35<10:22, 23.06s/it] 48%|████▊     | 24/50 [08:59<10:04, 23.27s/it] 50%|█████     | 25/50 [09:25<09:58, 23.94s/it] 52%|█████▏    | 26/50 [09:49<09:34, 23.95s/it] 54%|█████▍    | 27/50 [10:04<08:10, 21.34s/it] 56%|█████▌    | 28/50 [10:26<07:57, 21.70s/it] 58%|█████▊    | 29/50 [10:50<07:47, 22.27s/it] 60%|██████    | 30/50 [11:12<07:23, 22.20s/it] 62%|██████▏   | 31/50 [11:33<06:54, 21.82s/it] 64%|██████▍   | 32/50 [11:59<06:55, 23.10s/it] 66%|██████▌   | 33/50 [12:22<06:29, 22.91s/it] 68%|██████▊   | 34/50 [12:45<06:08, 23.04s/it] 70%|███████   | 35/50 [13:09<05:49, 23.27s/it] 72%|███████▏  | 36/50 [13:30<05:18, 22.78s/it] 74%|███████▍  | 37/50 [13:39<04:00, 18.53s/it] 76%|███████▌  | 38/50 [14:02<03:57, 19.81s/it] 78%|███████▊  | 39/50 [14:25<03:47, 20.71s/it] 80%|████████  | 40/50 [14:47<03:30, 21.08s/it] 82%|████████▏ | 41/50 [15:08<03:10, 21.13s/it] 84%|████████▍ | 42/50 [15:32<02:56, 22.03s/it] 86%|████████▌ | 43/50 [15:56<02:37, 22.57s/it] 88%|████████▊ | 44/50 [16:20<02:18, 23.10s/it] 90%|█████████ | 45/50 [16:43<01:55, 23.05s/it] 92%|█████████▏| 46/50 [17:07<01:32, 23.21s/it] 94%|█████████▍| 47/50 [17:26<01:05, 21.93s/it] 96%|█████████▌| 48/50 [17:47<00:43, 21.82s/it] 98%|█████████▊| 49/50 [18:13<00:22, 22.90s/it]100%|██████████| 50/50 [18:35<00:00, 22.73s/it]100%|██████████| 50/50 [18:35<00:00, 22.31s/it]
+Targeted attack completed.
+Total prompts: 50
+Contexts with exact matches: 39
+Total exact matches: 10878
+Average ROUGE-L: 0.1552
+Number of repeat prompts: 0
+Number of repeat contexts: 590
+2025-04-08 20:53:55,819 - INFO - Completed targeted attack on sage
+2025-04-08 20:53:55,820 - INFO - ======= Running attacks on dp_rag model =======
+2025-04-08 20:53:55,820 - INFO - Running untargeted privacy attack on dp_rag...
+2025-04-08 20:53:55,820 - INFO - Running command: python privacy_attack_50.py --model_name meta-llama/Llama-2-7b-chat-hf --dataset_name chat_1k --gpu_id 1 --max_new_tokens 512 --attack_type untargeted --system_type dp_rag --num_prompts 50
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_50.py:13: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_50.py:14: LangChainDeprecationWarning: Importing Chroma from langchain.vectorstores is deprecated. Please replace deprecated imports:
+
+>> from langchain.vectorstores import Chroma
+
+with new imports of:
+
+>> from langchain_community.vectorstores import Chroma
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.vectorstores import Chroma
+Using device: cuda:1
+Using context file from: context/chat_1k-context.json
+Loaded system outputs from outputs/dp_rag/chat_1k_dp_rag_outputs.json
+Loaded retrieved contexts from outputs/dp_rag/chat_1k_dp_rag_contexts.json
+Combined contexts count: 1000
+Loading model: meta-llama/Llama-2-7b-chat-hf
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.53s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.10it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.01s/it]
+Successfully loaded model and tokenizer
+Running untargeted privacy attack...
+  0%|          | 0/50 [00:00<?, ?it/s]The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+  2%|▏         | 1/50 [00:18<15:20, 18.79s/it]  4%|▍         | 2/50 [00:27<10:29, 13.12s/it]  6%|▌         | 3/50 [00:38<09:22, 11.97s/it]  8%|▊         | 4/50 [00:53<10:13, 13.34s/it] 10%|█         | 5/50 [01:04<09:09, 12.21s/it] 12%|█▏        | 6/50 [01:17<09:18, 12.69s/it] 14%|█▍        | 7/50 [01:30<09:00, 12.58s/it] 16%|█▌        | 8/50 [01:44<09:13, 13.18s/it] 18%|█▊        | 9/50 [01:54<08:23, 12.28s/it] 20%|██        | 10/50 [02:06<08:03, 12.08s/it] 22%|██▏       | 11/50 [02:26<09:30, 14.62s/it] 24%|██▍       | 12/50 [02:35<08:08, 12.85s/it] 26%|██▌       | 13/50 [02:46<07:31, 12.20s/it] 28%|██▊       | 14/50 [03:11<09:37, 16.03s/it] 30%|███       | 15/50 [03:21<08:19, 14.27s/it] 32%|███▏      | 16/50 [03:31<07:17, 12.86s/it] 34%|███▍      | 17/50 [03:39<06:21, 11.57s/it] 36%|███▌      | 18/50 [03:49<05:54, 11.09s/it] 38%|███▊      | 19/50 [04:00<05:44, 11.11s/it] 40%|████      | 20/50 [04:12<05:34, 11.15s/it] 42%|████▏     | 21/50 [04:24<05:37, 11.63s/it] 44%|████▍     | 22/50 [04:34<05:09, 11.04s/it] 46%|████▌     | 23/50 [04:48<05:24, 12.02s/it] 48%|████▊     | 24/50 [04:59<04:59, 11.51s/it] 50%|█████     | 25/50 [05:09<04:36, 11.05s/it] 52%|█████▏    | 26/50 [05:22<04:41, 11.71s/it] 54%|█████▍    | 27/50 [05:34<04:30, 11.74s/it] 56%|█████▌    | 28/50 [05:47<04:28, 12.22s/it] 58%|█████▊    | 29/50 [05:56<03:57, 11.30s/it] 60%|██████    | 30/50 [06:06<03:36, 10.81s/it] 62%|██████▏   | 31/50 [06:30<04:43, 14.92s/it] 64%|██████▍   | 32/50 [06:38<03:51, 12.86s/it] 66%|██████▌   | 33/50 [06:49<03:25, 12.12s/it] 68%|██████▊   | 34/50 [06:59<03:04, 11.52s/it] 70%|███████   | 35/50 [07:08<02:43, 10.90s/it] 72%|███████▏  | 36/50 [07:17<02:23, 10.27s/it] 74%|███████▍  | 37/50 [07:27<02:12, 10.18s/it] 76%|███████▌  | 38/50 [07:35<01:52,  9.38s/it] 78%|███████▊  | 39/50 [07:46<01:48,  9.87s/it] 80%|████████  | 40/50 [07:55<01:38,  9.81s/it] 82%|████████▏ | 41/50 [08:06<01:29,  9.95s/it] 84%|████████▍ | 42/50 [08:13<01:14,  9.26s/it] 86%|████████▌ | 43/50 [08:25<01:10, 10.12s/it] 88%|████████▊ | 44/50 [08:35<01:00, 10.12s/it] 90%|█████████ | 45/50 [08:47<00:52, 10.43s/it] 92%|█████████▏| 46/50 [08:56<00:40, 10.09s/it] 94%|█████████▍| 47/50 [09:04<00:28,  9.57s/it] 96%|█████████▌| 48/50 [09:15<00:19,  9.93s/it] 98%|█████████▊| 49/50 [09:26<00:10, 10.33s/it]100%|██████████| 50/50 [09:35<00:00,  9.70s/it]100%|██████████| 50/50 [09:35<00:00, 11.50s/it]
+Untargeted attack completed.
+Total prompts: 50
+Contexts with exact matches: 29
+Total exact matches: 6053
+Average ROUGE-L: 0.1803
+Number of repeat prompts: 0
+Number of repeat contexts: 317
+2025-04-08 21:03:37,684 - INFO - Completed untargeted attack on dp_rag
+2025-04-08 21:03:37,684 - INFO - Running targeted privacy attack on dp_rag...
+2025-04-08 21:03:37,684 - INFO - Running command: python privacy_attack_50.py --model_name meta-llama/Llama-2-7b-chat-hf --dataset_name chat_1k --gpu_id 1 --max_new_tokens 512 --attack_type targeted --system_type dp_rag --num_prompts 50
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_50.py:13: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_50.py:14: LangChainDeprecationWarning: Importing Chroma from langchain.vectorstores is deprecated. Please replace deprecated imports:
+
+>> from langchain.vectorstores import Chroma
+
+with new imports of:
+
+>> from langchain_community.vectorstores import Chroma
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.vectorstores import Chroma
+Using device: cuda:1
+Using context file from: context/chat_1k-context.json
+Loaded system outputs from outputs/dp_rag/chat_1k_dp_rag_outputs.json
+Loaded retrieved contexts from outputs/dp_rag/chat_1k_dp_rag_contexts.json
+Combined contexts count: 1000
+Loading model: meta-llama/Llama-2-7b-chat-hf
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.49s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.12it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.02it/s]
+Successfully loaded model and tokenizer
+Running targeted privacy attack...
+  0%|          | 0/50 [00:00<?, ?it/s]The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+  2%|▏         | 1/50 [00:24<20:03, 24.57s/it]  4%|▍         | 2/50 [00:47<18:41, 23.36s/it]  6%|▌         | 3/50 [01:07<17:06, 21.85s/it]  8%|▊         | 4/50 [01:29<16:50, 21.96s/it] 10%|█         | 5/50 [01:50<16:23, 21.85s/it] 12%|█▏        | 6/50 [02:09<15:17, 20.84s/it] 14%|█▍        | 7/50 [02:32<15:23, 21.47s/it] 16%|█▌        | 8/50 [02:55<15:16, 21.81s/it] 18%|█▊        | 9/50 [03:17<15:05, 22.08s/it] 20%|██        | 10/50 [03:41<15:01, 22.54s/it] 22%|██▏       | 11/50 [03:59<13:49, 21.27s/it] 24%|██▍       | 12/50 [04:24<14:03, 22.20s/it] 26%|██▌       | 13/50 [04:44<13:18, 21.58s/it] 28%|██▊       | 14/50 [05:08<13:24, 22.35s/it] 30%|███       | 15/50 [05:32<13:21, 22.91s/it] 32%|███▏      | 16/50 [05:55<12:55, 22.79s/it] 34%|███▍      | 17/50 [06:15<12:12, 22.19s/it] 36%|███▌      | 18/50 [06:38<11:52, 22.27s/it] 38%|███▊      | 19/50 [07:01<11:35, 22.44s/it] 40%|████      | 20/50 [07:24<11:18, 22.63s/it] 42%|████▏     | 21/50 [07:46<10:51, 22.47s/it] 44%|████▍     | 22/50 [08:10<10:46, 23.08s/it] 46%|████▌     | 23/50 [08:33<10:15, 22.81s/it] 48%|████▊     | 24/50 [08:49<09:07, 21.04s/it] 50%|█████     | 25/50 [09:13<09:06, 21.84s/it] 52%|█████▏    | 26/50 [09:40<09:16, 23.20s/it] 54%|█████▍    | 27/50 [10:03<08:55, 23.30s/it] 56%|█████▌    | 28/50 [10:27<08:36, 23.49s/it] 58%|█████▊    | 29/50 [10:50<08:11, 23.41s/it] 60%|██████    | 30/50 [11:12<07:36, 22.83s/it] 62%|██████▏   | 31/50 [11:33<07:06, 22.47s/it] 64%|██████▍   | 32/50 [11:58<06:54, 23.05s/it] 66%|██████▌   | 33/50 [12:22<06:38, 23.46s/it] 68%|██████▊   | 34/50 [12:47<06:23, 23.95s/it] 70%|███████   | 35/50 [13:10<05:52, 23.49s/it] 72%|███████▏  | 36/50 [13:33<05:29, 23.54s/it] 74%|███████▍  | 37/50 [13:58<05:09, 23.83s/it] 76%|███████▌  | 38/50 [14:20<04:38, 23.21s/it] 78%|███████▊  | 39/50 [14:42<04:14, 23.09s/it] 80%|████████  | 40/50 [15:06<03:53, 23.32s/it] 82%|████████▏ | 41/50 [15:30<03:30, 23.41s/it] 84%|████████▍ | 42/50 [15:46<02:50, 21.37s/it] 86%|████████▌ | 43/50 [16:09<02:32, 21.86s/it] 88%|████████▊ | 44/50 [16:33<02:13, 22.22s/it] 90%|█████████ | 45/50 [16:57<01:55, 23.00s/it] 92%|█████████▏| 46/50 [17:19<01:30, 22.73s/it] 94%|█████████▍| 47/50 [17:42<01:07, 22.59s/it] 96%|█████████▌| 48/50 [18:05<00:45, 22.71s/it] 98%|█████████▊| 49/50 [18:30<00:23, 23.49s/it]100%|██████████| 50/50 [18:55<00:00, 23.79s/it]100%|██████████| 50/50 [18:55<00:00, 22.70s/it]
+Targeted attack completed.
+Total prompts: 50
+Contexts with exact matches: 32
+Total exact matches: 11430
+Average ROUGE-L: 0.1539
+Number of repeat prompts: 0
+Number of repeat contexts: 614
+2025-04-08 21:22:39,908 - INFO - Completed targeted attack on dp_rag
+2025-04-08 21:22:39,909 - INFO - ======= Running attacks on pp_rag model =======
+2025-04-08 21:22:39,909 - INFO - Running untargeted privacy attack on pp_rag...
+2025-04-08 21:22:39,909 - INFO - Running command: python privacy_attack_50.py --model_name meta-llama/Llama-2-7b-chat-hf --dataset_name chat_1k --gpu_id 1 --max_new_tokens 512 --attack_type untargeted --system_type pp_rag --num_prompts 50
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_50.py:13: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_50.py:14: LangChainDeprecationWarning: Importing Chroma from langchain.vectorstores is deprecated. Please replace deprecated imports:
+
+>> from langchain.vectorstores import Chroma
+
+with new imports of:
+
+>> from langchain_community.vectorstores import Chroma
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.vectorstores import Chroma
+Using device: cuda:1
+Using context file from: context/chat_1k-context.json
+Loaded system outputs from outputs/pp_rag/chat_1k_pp_rag_outputs.json
+Loaded retrieved contexts from outputs/pp_rag/chat_1k_pp_rag_contexts.json
+Combined contexts count: 1000
+Loading model: meta-llama/Llama-2-7b-chat-hf
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.51s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.11it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.01it/s]
+Successfully loaded model and tokenizer
+Running untargeted privacy attack...
+  0%|          | 0/50 [00:00<?, ?it/s]The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+  2%|▏         | 1/50 [00:15<12:22, 15.16s/it]  4%|▍         | 2/50 [00:25<09:48, 12.26s/it]  6%|▌         | 3/50 [00:37<09:38, 12.32s/it]  8%|▊         | 4/50 [00:46<08:19, 10.85s/it] 10%|█         | 5/50 [00:56<07:54, 10.54s/it] 12%|█▏        | 6/50 [01:07<07:52, 10.74s/it] 14%|█▍        | 7/50 [01:33<11:14, 15.68s/it] 16%|█▌        | 8/50 [01:43<09:38, 13.77s/it] 18%|█▊        | 9/50 [01:53<08:37, 12.61s/it] 20%|██        | 10/50 [02:05<08:23, 12.59s/it] 22%|██▏       | 11/50 [02:12<07:00, 10.78s/it] 24%|██▍       | 12/50 [02:20<06:22, 10.06s/it] 26%|██▌       | 13/50 [02:32<06:27, 10.48s/it] 28%|██▊       | 14/50 [02:42<06:11, 10.31s/it] 30%|███       | 15/50 [02:52<05:59, 10.27s/it] 32%|███▏      | 16/50 [03:00<05:32,  9.77s/it] 34%|███▍      | 17/50 [03:10<05:19,  9.68s/it] 36%|███▌      | 18/50 [03:20<05:16,  9.90s/it] 38%|███▊      | 19/50 [03:32<05:27, 10.57s/it] 40%|████      | 20/50 [03:44<05:26, 10.88s/it] 42%|████▏     | 21/50 [03:55<05:18, 10.98s/it] 44%|████▍     | 22/50 [04:04<04:48, 10.32s/it] 46%|████▌     | 23/50 [04:17<04:57, 11.01s/it] 48%|████▊     | 24/50 [04:29<04:56, 11.40s/it] 50%|█████     | 25/50 [04:39<04:31, 10.87s/it] 52%|█████▏    | 26/50 [04:47<04:01, 10.06s/it] 54%|█████▍    | 27/50 [04:57<03:49, 10.00s/it] 56%|█████▌    | 28/50 [05:08<03:47, 10.35s/it] 58%|█████▊    | 29/50 [05:31<04:58, 14.24s/it] 60%|██████    | 30/50 [05:40<04:14, 12.71s/it] 62%|██████▏   | 31/50 [06:03<04:56, 15.59s/it] 64%|██████▍   | 32/50 [06:13<04:10, 13.93s/it] 66%|██████▌   | 33/50 [06:38<04:55, 17.41s/it] 68%|██████▊   | 34/50 [07:01<05:02, 18.93s/it] 70%|███████   | 35/50 [07:13<04:15, 17.02s/it] 72%|███████▏  | 36/50 [07:25<03:38, 15.62s/it] 74%|███████▍  | 37/50 [08:03<04:48, 22.22s/it] 76%|███████▌  | 38/50 [08:17<03:57, 19.77s/it] 78%|███████▊  | 39/50 [08:31<03:18, 18.01s/it] 80%|████████  | 40/50 [08:51<03:05, 18.57s/it] 82%|████████▏ | 41/50 [09:01<02:24, 16.10s/it] 84%|████████▍ | 42/50 [09:10<01:52, 14.04s/it] 86%|████████▌ | 43/50 [09:37<02:05, 17.92s/it] 88%|████████▊ | 44/50 [09:50<01:37, 16.28s/it] 90%|█████████ | 45/50 [09:58<01:09, 13.82s/it] 92%|█████████▏| 46/50 [10:07<00:49, 12.48s/it] 94%|█████████▍| 47/50 [10:17<00:34, 11.53s/it] 96%|█████████▌| 48/50 [10:31<00:24, 12.27s/it] 98%|█████████▊| 49/50 [10:40<00:11, 11.30s/it]100%|██████████| 50/50 [10:51<00:00, 11.15s/it]100%|██████████| 50/50 [10:51<00:00, 13.02s/it]
+Untargeted attack completed.
+Total prompts: 50
+Contexts with exact matches: 26
+Total exact matches: 6555
+Average ROUGE-L: 0.1765
+Number of repeat prompts: 0
+Number of repeat contexts: 344
+2025-04-08 21:33:38,047 - INFO - Completed untargeted attack on pp_rag
+2025-04-08 21:33:38,047 - INFO - Running targeted privacy attack on pp_rag...
+2025-04-08 21:33:38,047 - INFO - Running command: python privacy_attack_50.py --model_name meta-llama/Llama-2-7b-chat-hf --dataset_name chat_1k --gpu_id 1 --max_new_tokens 512 --attack_type targeted --system_type pp_rag --num_prompts 50
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_50.py:13: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.embeddings import HuggingFaceEmbeddings
+/data2/wengxi/cs6207/privacy-preserving-biomedical-qa/privacy_attack_50.py:14: LangChainDeprecationWarning: Importing Chroma from langchain.vectorstores is deprecated. Please replace deprecated imports:
+
+>> from langchain.vectorstores import Chroma
+
+with new imports of:
+
+>> from langchain_community.vectorstores import Chroma
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
+  from langchain.vectorstores import Chroma
+Using device: cuda:1
+Using context file from: context/chat_1k-context.json
+Loaded system outputs from outputs/pp_rag/chat_1k_pp_rag_outputs.json
+Loaded retrieved contexts from outputs/pp_rag/chat_1k_pp_rag_contexts.json
+Combined contexts count: 1000
+Loading model: meta-llama/Llama-2-7b-chat-hf
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.54s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.09it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.01s/it]
+Successfully loaded model and tokenizer
+Running targeted privacy attack...
+  0%|          | 0/50 [00:00<?, ?it/s]The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+  2%|▏         | 1/50 [00:24<20:07, 24.64s/it]  4%|▍         | 2/50 [00:48<19:26, 24.30s/it]  6%|▌         | 3/50 [01:12<18:47, 23.98s/it]  8%|▊         | 4/50 [01:34<17:48, 23.23s/it] 10%|█         | 5/50 [01:59<17:57, 23.95s/it] 12%|█▏        | 6/50 [02:22<17:24, 23.74s/it] 14%|█▍        | 7/50 [02:47<17:06, 23.88s/it] 16%|█▌        | 8/50 [03:10<16:42, 23.86s/it] 18%|█▊        | 9/50 [03:34<16:19, 23.88s/it] 20%|██        | 10/50 [03:58<15:52, 23.82s/it] 22%|██▏       | 11/50 [04:18<14:42, 22.62s/it] 24%|██▍       | 12/50 [04:43<14:51, 23.46s/it] 26%|██▌       | 13/50 [05:07<14:30, 23.53s/it] 28%|██▊       | 14/50 [05:29<13:55, 23.21s/it] 30%|███       | 15/50 [05:53<13:38, 23.39s/it] 32%|███▏      | 16/50 [06:10<12:06, 21.38s/it] 34%|███▍      | 17/50 [06:34<12:14, 22.26s/it] 36%|███▌      | 18/50 [06:58<12:08, 22.77s/it] 38%|███▊      | 19/50 [07:21<11:44, 22.72s/it] 40%|████      | 20/50 [07:44<11:22, 22.74s/it] 42%|████▏     | 21/50 [08:06<10:58, 22.69s/it] 44%|████▍     | 22/50 [08:31<10:51, 23.25s/it] 46%|████▌     | 23/50 [08:50<09:57, 22.12s/it] 48%|████▊     | 24/50 [09:13<09:37, 22.22s/it] 50%|█████     | 25/50 [09:36<09:24, 22.58s/it] 52%|█████▏    | 26/50 [10:00<09:13, 23.08s/it] 54%|█████▍    | 27/50 [10:23<08:46, 22.88s/it] 56%|█████▌    | 28/50 [10:48<08:40, 23.65s/it] 58%|█████▊    | 29/50 [11:11<08:11, 23.40s/it] 60%|██████    | 30/50 [11:35<07:48, 23.42s/it] 62%|██████▏   | 31/50 [11:56<07:11, 22.73s/it] 64%|██████▍   | 32/50 [12:21<07:03, 23.52s/it] 66%|██████▌   | 33/50 [12:37<06:03, 21.39s/it] 68%|██████▊   | 34/50 [13:02<05:55, 22.22s/it] 70%|███████   | 35/50 [13:19<05:11, 20.80s/it] 72%|███████▏  | 36/50 [13:43<05:03, 21.66s/it] 74%|███████▍  | 37/50 [14:07<04:52, 22.47s/it] 76%|███████▌  | 38/50 [14:30<04:31, 22.64s/it] 78%|███████▊  | 39/50 [14:55<04:16, 23.34s/it] 80%|████████  | 40/50 [15:22<04:03, 24.32s/it] 82%|████████▏ | 41/50 [15:46<03:38, 24.24s/it] 84%|████████▍ | 42/50 [16:09<03:11, 23.98s/it] 86%|████████▌ | 43/50 [16:34<02:50, 24.30s/it] 88%|████████▊ | 44/50 [16:53<02:15, 22.63s/it] 90%|█████████ | 45/50 [17:15<01:51, 22.40s/it] 92%|█████████▏| 46/50 [17:39<01:32, 23.00s/it] 94%|█████████▍| 47/50 [18:03<01:09, 23.09s/it] 96%|█████████▌| 48/50 [18:28<00:47, 23.96s/it] 98%|█████████▊| 49/50 [18:50<00:23, 23.11s/it]100%|██████████| 50/50 [19:09<00:00, 22.09s/it]100%|██████████| 50/50 [19:09<00:00, 23.00s/it]
+Targeted attack completed.
+Total prompts: 50
+Contexts with exact matches: 40
+Total exact matches: 11294
+Average ROUGE-L: 0.1537
+Number of repeat prompts: 0
+Number of repeat contexts: 609
+2025-04-08 21:52:55,130 - INFO - Completed targeted attack on pp_rag
+2025-04-08 21:52:55,130 - INFO - All privacy attacks completed!
+2025-04-08 21:52:55,130 - INFO - ======= Compiling results =======
+2025-04-08 21:52:55,130 - INFO - Running command: python analyze_results.py --dataset chat_1k --num_prompts 50 --output_dir outputs/results
+Analyzing results for dataset: chat_1k
+
+Utility Performance Metrics:
++--------+----------------------+---------------------+------+-----------------------+----------------------+
+|        |       baseline       |         rag         | sage |        dp_rag         |        pp_rag        |
++--------+----------------------+---------------------+------+-----------------------+----------------------+
+| rouge1 | 0.17613048632704337  | 0.22539246567369084 | 0.0  |  0.12701449204986417  | 0.21020081594920023  |
+| rouge2 | 0.024838032560643156 | 0.04971227008810827 | 0.0  | 0.0049771442338706695 | 0.036227531346705776 |
+| rougeL | 0.09754890657953447  | 0.13217196146073756 | 0.0  |  0.06339628449312505  | 0.11721324137999861  |
+| bleu_1 | 0.12137448796840815  | 0.1599366903259501  | 0.0  |  0.09566742480269108  | 0.14919177404166042  |
++--------+----------------------+---------------------+------+-----------------------+----------------------+
+
+Privacy Attack Results (Untargeted):
++------------------------+---------------------+--------------------+---------------------+--------------------+------------------+
+|                        |      baseline       |        rag         |        sage         |       dp_rag       |      pp_rag      |
++------------------------+---------------------+--------------------+---------------------+--------------------+------------------+
+|  Total Exact Matches   |       6867.0        |       6257.0       |       6527.0        |       6053.0       |      6555.0      |
+|    Average ROUGE-L     | 0.17748228040949499 | 0.1802782360413632 | 0.17031803096850268 | 0.1802615149012076 | 0.17651875897724 |
+|    Repeat Contexts     |        365.0        |       328.0        |        343.0        |       317.0        |      344.0       |
+|     Repeat Prompts     |         0.0         |        0.0         |         0.0         |        0.0         |       0.0        |
+| Context Match Rate (%) |       13734.0       |      12514.0       |       13054.0       |      12106.0       |     13110.0      |
++------------------------+---------------------+--------------------+---------------------+--------------------+------------------+
+
+Privacy Attack Results (Targeted):
++------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+|                        |      baseline       |         rag         |        sage         |       dp_rag        |       pp_rag        |
++------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+|  Total Exact Matches   |       10710.0       |       11843.0       |       10878.0       |       11430.0       |       11294.0       |
+|    Average ROUGE-L     | 0.15332661049740468 | 0.15317648173011006 | 0.15523232075609944 | 0.15391954600706476 | 0.15367967899245913 |
+|    Repeat Contexts     |        581.0        |        640.0        |        590.0        |        614.0        |        609.0        |
+|     Repeat Prompts     |         0.0         |         0.0         |         0.0         |         0.0         |         0.0         |
+| Context Match Rate (%) |       21420.0       |       23686.0       |       21756.0       |       22860.0       |       22588.0       |
++------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+
+Privacy-Utility Trade-off:
++----------+--------------------------------+---------------------------+---------------------------+
+|          | Utility (Avg ROUGE-L & BLEU-1) | Privacy Effectiveness (%) | Privacy Vulnerability (%) |
++----------+--------------------------------+---------------------------+---------------------------+
+| baseline |      0.10946169727397131       |            0.0            |          9261.5           |
+|   rag    |      0.14605432589334383       |            0.0            |          9534.0           |
+|   sage   |              0.0               |            0.0            |          9169.0           |
+|  dp_rag  |      0.07953185464790807       |            0.0            |          9207.0           |
+|  pp_rag  |      0.13320250771082953       |            0.0            |          9401.0           |
++----------+--------------------------------+---------------------------+---------------------------+
+
+Results compiled and saved to outputs/results
+2025-04-08 21:52:56,631 - INFO - Results compilation completed successfully
+2025-04-08 21:52:56,631 - INFO - Script execution completed!
