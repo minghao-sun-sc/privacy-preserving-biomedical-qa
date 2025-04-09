@@ -28,14 +28,14 @@ pip install langchain langchain_community langchain_openai nltk tqdm openai char
 
 ### Data Preparation
 
-The experiments use the "chat_1k" dataset which contains biomedical questions, corresponding ground truth answers, and context documents.
+The experiments use the HealthcareMagic-101 dataset of 200k doctor-patient medical dialogues (chatdoctor 1k tentatively) which contains biomedical questions, corresponding ground truth answers, and context documents.
 
 ## Output Directories
 
 All outputs are saved to the following location:
 
 ```
-/home/wengxi/data/cs6207/privacy-preserving-biomedical-qa/outputs/
+privacy-preserving-biomedical-qa/outputs/
 ```
 
 Each model's results are stored in its own subdirectory:
@@ -160,13 +160,12 @@ Results are saved to the `outputs/results` directory.
 
 ## Privacy-Utility Tradeoff
 
-The models represent different points on the privacy-utility spectrum:
+The models are expected to represent different points on the privacy-utility spectrum:
 - **Baseline** and **RAG**: Higher utility, lower privacy
 - **SAGE**: Moderate balance
 - **DP-RAG** and **PP-RAG**: Higher privacy, with different approaches to preserving utility
 
 ## References
 
-- [SAGE: Self-Aligned Generation for Reasoning](https://arxiv.org/abs/2306.06565)
-- [Differentially Private Retrieval for Large Language Models](https://arxiv.org/abs/2305.14788)
-- [A Survey of Privacy in Retrieval Augmented Generation Systems](https://arxiv.org/abs/2401.05862) 
+- [SAGE: Self-Aligned Generation for Reasoning](https://arxiv.org/abs/2406.14773)
+- [Differentially Private Retrieval for Large Language Models](https://arxiv.org/html/2412.19291v1)
