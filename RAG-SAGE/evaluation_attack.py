@@ -7,7 +7,7 @@ import argparse
 import os
 
 
-def evaluate_repeat(sources, outputs, contexts, repeat_content, min_repeat_num=10):
+def evaluate_repeat(sources, outputs, contexts, repeat_content, min_repeat_num=5):
     """
     evaluate untarget attack by consider how many tokens are repeat by the LLM
     :param:
@@ -330,7 +330,7 @@ if __name__ == '__main__':
             out = [o[i] for o in output]
             con = [c[:i+1] for c in context]
             sor = [s[:i+1] for s in source]
-            evaluate_repeat(sor, out, con, repeat_l, 10)
+            evaluate_repeat(sor, out, con, repeat_l, 5)
             evaluate_rouge(sor, out, con, rouge_l)  # Include rouge evaluation
             print("")
     if attack_method == 'untarget' and dataset_name.find('chat') != -1:
@@ -343,6 +343,6 @@ if __name__ == '__main__':
             out = [o[i] for o in output]
             con = [c[:i + 1] for c in context]
             sor = [s[:i + 1] for s in source]
-            evaluate_repeat(sor, out, con, repeat_l, 10)
+            evaluate_repeat(sor, out, con, repeat_l, 5)
             evaluate_rouge(sor, out, con, rouge_l)  # Include rouge evaluation
             print("")

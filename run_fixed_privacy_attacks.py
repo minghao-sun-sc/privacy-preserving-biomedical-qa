@@ -29,14 +29,16 @@ def parse_args():
     parser.add_argument('--attack_type', type=str, default='both',
                         choices=['untargeted', 'targeted', 'both'],
                         help='Type of privacy attack to perform')
-    parser.add_argument('--max_new_tokens', type=int, default=512,
+    parser.add_argument('--max_new_tokens', type=int, default=128,
                         help='Maximum number of tokens to generate')
-    parser.add_argument('--num_prompts', type=int, default=50,
+    parser.add_argument('--num_prompts', type=int, default=20,
                         help='Number of attack prompts to generate')
     parser.add_argument('--skip_existing', action='store_true',
                         help='Skip models with existing attack results')
     parser.add_argument('--compile_results', action='store_true',
                         help='Compile and analyze results after running attacks')
+    parser.add_argument('--include_baseline', action='store_true',
+                        help='Include baseline model in privacy attacks (off by default)')
     return parser.parse_args()
 
 def run_command(cmd):
@@ -110,8 +112,13 @@ def main():
     # Create log directory if it doesn't exist
     os.makedirs('log', exist_ok=True)
     
-    # Models to run attacks on
-    models = ['baseline', 'rag', 'sage', 'dp_rag', 'pp_rag']
+    # Models to run attacks on - exclude baseline by default
+    if args.include_baseline:
+        models = ['baseline', 'rag', 'sage', 'dp_rag', 'pp_rag']
+        logging.info("Including baseline model in privacy attacks")
+    else:
+        models = ['rag', 'sage', 'dp_rag', 'pp_rag']
+        logging.info("Skipping baseline model for privacy attacks")
     
     # Track success/failure
     results = {}
