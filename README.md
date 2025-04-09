@@ -28,7 +28,7 @@ pip install langchain langchain_community langchain_openai nltk tqdm openai char
 
 ### Data Preparation
 
-The experiments use the HealthcareMagic-101 dataset of 200k doctor-patient medical dialogues (chatdoctor 1k tentatively) which contains biomedical questions, corresponding ground truth answers, and context documents.
+The experiments use the HealthcareMagic-101 dataset of 200k doctor-patient medical dialogues (truncated chatdoctor 1k tentatively) which contains biomedical questions, corresponding ground truth answers, and context documents.
 
 ## Output Directories
 
